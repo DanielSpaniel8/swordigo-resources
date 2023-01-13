@@ -1,0 +1,8 @@
+Swordigo - Copyright 2013 Ville Mäkynen. Portions of the software are licensed.
+
+This software ships with the following open source libraries:
+
+Boost (Boost license, http://www.boost.org/)
+Lua (MIT license, http://www.lua.org/)
+OpenAL-soft, forked by Apportable (LGPLv3 license, https://github.com/apportable/openal-soft)
+Protocol Buffers (New BSD license, https://code.google.com/p/protobuf/)
