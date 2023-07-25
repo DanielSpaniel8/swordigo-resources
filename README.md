@@ -20,3 +20,7 @@ These are tools which are considered useful to the Swordigo community, e.g. spee
 - Art
 
 This is for any art, including fanart
+
+- Guides
+
+- This is for guides for any topic such as speedrun guides, glitch / trick guides and modding guides
