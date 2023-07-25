@@ -1,4 +1,5 @@
-# swordigo-resources
+
+2023-07-25 23:02:57.462 [info] > git rev-parse --show-toplevel [3ms]# swordigo-resources
 A repo for anyone to share helpful tools and resources related to the action-adventure platformer game Swordigo by Touchfoo
 
 # Sections
