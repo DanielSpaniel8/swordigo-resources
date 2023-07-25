@@ -1,8 +1,7 @@
 # Guides
 
-This is for any guides such as speedrun guides, glitch / trick guides or modding guides
+this is for any guides such as speedrun guides, glitch / trick guides or modding guides
 
-## Guides so far :
+## Guides made so far :
 
-[modding-guide](modding-guide/modding-guide.md) -- danielspaniel
-
+- [modding-guide](modding-guide/modding-guide.md) -- danielspaniel
