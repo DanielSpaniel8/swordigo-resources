@@ -5,22 +5,23 @@ A repo for anyone to share helpful tools and resources related to the action-adv
 
 The main sections / topics are:
 
-- [##Source Files](sourceFiles)
+- [Source Files](sourceFiles)
 
 These are the the original resources found in the Swordigo APK
 
-- [##Converted Files](convertedFiles)
+- [Converted Files](convertedFiles)
 
 These are the files from the APK but either converted to other more useable formats or decompiled
 
-- [##Tools](Tools)
+- [Tools](Tools)
 
 These are tools which are considered useful to the Swordigo community, e.g. speedrunning tools or ripping tools
 
-- [##Art](Art)
+- [Art](Art)
 
 This is for any art, including fanart
 
-- [##Guides](/Guides/README.md)
-
+- [Guides](/Guides/README.md)
+[Modding Guide](modding-guide/modding-guide.md) -- danielspaniel
 This is for guides for any topic such as speedrun guides, glitch / trick guides and modding guides
+
