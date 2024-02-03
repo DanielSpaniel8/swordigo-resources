@@ -23,9 +23,8 @@ This is for any art, including fanart
 
 - [Guides](/Guides/README.md)
 
-This is for guides for any topic such as speedrun guides, glitch / trick guides and modding guides
-
-[Modding Guide](Guides/modding-guide/modding-guide.md) -- danielspaniel
+This is for guides for any topic such as speedrun guides, glitch / trick guides and modding guides\
+Contents: [Modding Guide](Guides/modding-guide/modding-guide.md)
 
 
 
