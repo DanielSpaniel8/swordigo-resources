@@ -138,7 +138,7 @@ local vector = Vector3.New(200, -30, 0);
 You can also get the position of an entity as a vector using the `Position` function like this:
 
 ```lua
-local vector = Scene.Find("hero"):position; -- get Hiro's position
+local vector = Scene.Find("hero"):position() -- get Hiro's position
 ```
 
 More on these functions can be found in [Section 3 : Functions](##Section 3 : Functions).
