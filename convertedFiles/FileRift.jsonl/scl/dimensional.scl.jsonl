@@ -1,0 +1,1107 @@
+data = {
+"scl file name" : "dimensional",
+
+"?itemblock " :  {
+
+
+	"?sub-itemsub-block " :  {
+
+		"name" : "dimension_area",
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "CollisionShape",
+			"number" : 101,
+
+			"collision shapesub-sub-sub-block " :  {
+
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"w" : -500.0,
+					"x" : -1000.0,
+					"y" : 2500.0,
+					"z" : 2000.0,
+				},
+			},
+
+			"collision shape 2sub-sub-sub-block " :  {
+
+				"w" : -15.0,
+				"x" : 15.0,
+
+				"lua chunksub-sub-sub-sub-block " :  {
+
+					"main chunk" : "chunk >
+
+					=== lua =============
+					local self, target= ...;
+					
+					if target:identifier() == \"hero\" then
+					
+							SetDimensionModeEnabled(true);
+							GenerateDimensionMonsters(target:position(), 2);
+					end
+
+					=====================",
+					"secondary chunk" : "\\x1bLuaQ\\x00\\x01\\x04\\x04\\x04\\x08\\x00\\x9f\\x00\\x00\\x00local self, target= ...;\\r\\n\\r\\nif target:identifier() == \"hero\" then\\r\\n\\r\\n\\t\\tSetDimensionModeEnabled(true);\\r\\n\\t\\tGenerateDimensionMonsters(target:position(), 2);\\r\\nend\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x02\\x05\\x0e\\x00\\x00\\x00%\\x00\\x80\\x01\\x8b\\x00\\xc0\\x00\\x9c\\x80\\x00\\x01\\x17@@\\x01\\x16\\xc0\\x01\\x80\\x85\\x80\\x00\\x00\\xc2\\x00\\x80\\x00\\x9c@\\x00\\x01\\x85\\xc0\\x00\\x00\\xcb\\x00\\xc1\\x00\\xdc\\x80\\x00\\x01\\x01A\\x01\\x00\\x9c@\\x80\\x01\\x1e\\x00\\x80\\x00\\x06\\x00\\x00\\x00\\x04\\x0b\\x00\\x00\\x00identifier\\x00\\x04\\x05\\x00\\x00\\x00hero\\x00\\x04\\x18\\x00\\x00\\x00SetDimensionModeEnabled\\x00\\x04\\x1a\\x00\\x00\\x00GenerateDimensionMonsters\\x00\\x04\\t\\x00\\x00\\x00position\\x00\\x03\\x00\\x00\\x00\\x00\\x00\\x00\\x00@\\x00\\x00\\x00\\x00\\x0e\\x00\\x00\\x00\\x01\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x06\\x00\\x00\\x00\\x06\\x00\\x00\\x00\\x06\\x00\\x00\\x00\\x06\\x00\\x00\\x00\\x06\\x00\\x00\\x00\\x07\\x00\\x00\\x00\\x02\\x00\\x00\\x00\\x05\\x00\\x00\\x00self\\x00\\x01\\x00\\x00\\x00\\r\\x00\\x00\\x00\\x07\\x00\\x00\\x00target\\x00\\x01\\x00\\x00\\x00\\r\\x00\\x00\\x00\\x00\\x00\\x00\\x00",
+				},
+
+				"lua chunksub-sub-sub-sub-block " :  {
+
+					"main chunk" : "chunk >
+
+					=== lua =============
+					local self, target = ...;
+					
+					if target:identifier() == \"hero\" then
+					
+							SetDimensionModeEnabled(false);
+					
+					end
+
+					=====================",
+					"secondary chunk" : "\\x1bLuaQ\\x00\\x01\\x04\\x04\\x04\\x08\\x00o\\x00\\x00\\x00local self, target = ...;\\r\\n\\r\\nif target:identifier() == \"hero\" then\\r\\n\\r\\n\\t\\tSetDimensionModeEnabled(false);\\r\\n\\r\\nend\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x02\\x04\\t\\x00\\x00\\x00%\\x00\\x80\\x01\\x8b\\x00\\xc0\\x00\\x9c\\x80\\x00\\x01\\x17@@\\x01\\x16\\x80\\x00\\x80\\x85\\x80\\x00\\x00\\xc2\\x00\\x00\\x00\\x9c@\\x00\\x01\\x1e\\x00\\x80\\x00\\x03\\x00\\x00\\x00\\x04\\x0b\\x00\\x00\\x00identifier\\x00\\x04\\x05\\x00\\x00\\x00hero\\x00\\x04\\x18\\x00\\x00\\x00SetDimensionModeEnabled\\x00\\x00\\x00\\x00\\x00\\t\\x00\\x00\\x00\\x01\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x07\\x00\\x00\\x00\\x02\\x00\\x00\\x00\\x05\\x00\\x00\\x00self\\x00\\x01\\x00\\x00\\x00\\x08\\x00\\x00\\x00\\x07\\x00\\x00\\x00target\\x00\\x01\\x00\\x00\\x00\\x08\\x00\\x00\\x00\\x00\\x00\\x00\\x00",
+				},
+				"z" : 1,
+			},
+		},
+
+		"positionsub-sub-block " :  {
+
+			"x position" : 0.0,
+			"y position" : 0.0,
+		},
+		"z position" : 0.0,
+		"rotation" : 0.0,
+		"scale" : 1.0,
+
+		"u0sub-sub-block " :  {
+
+			"w" : -500.0,
+			"x" : -1000.0,
+			"y" : 2500.0,
+			"z" : 2000.0,
+		},
+		"hidden" : 0,
+	},
+	"u0" : 1.0,
+},
+
+"?itemblock " :  {
+
+
+	"?sub-itemsub-block " :  {
+
+		"name" : "dimension_monster",
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Light",
+			"number" : 1,
+
+			"lightsub-sub-sub-block " :  {
+
+				"u0" : 3,
+				"u1" : 2.0,
+
+				"u2sub-sub-sub-sub-block " :  {
+
+					"w" : 1.0,
+					"x" : 1.0,
+					"y" : 1.0,
+					"z" : 1.0,
+				},
+				"u3" : 0.0,
+				"u4" : 0.00019999999494757503,
+
+				"u5sub-sub-sub-sub-block " :  {
+
+					"x" : 0.0,
+					"y" : 0.0,
+					"z" : 0.0,
+				},
+				"u6" : 150.0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "DimensionObject",
+			"number" : 2,
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Program",
+			"number" : 3,
+
+			"programsub-sub-sub-block " :  {
+
+				"u0" : 1,
+
+				"lua chunksub-sub-sub-sub-block " :  {
+
+					"main chunk" : "chunk >
+
+					=== lua =============
+					local self = ...;
+					
+					self:destroy();
+
+					=====================",
+					"secondary chunk" : "\\x1bLuaQ\\x00\\x01\\x04\\x04\\x04\\x08\\x00%\\x00\\x00\\x00local self = ...;\\r\\n\\r\\nself:destroy();\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x02\\x03\\x04\\x00\\x00\\x00%\\x00\\x00\\x01K\\x00@\\x00\\\\@\\x00\\x01\\x1e\\x00\\x80\\x00\\x01\\x00\\x00\\x00\\x04\\x08\\x00\\x00\\x00destroy\\x00\\x00\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x01\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x01\\x00\\x00\\x00\\x05\\x00\\x00\\x00self\\x00\\x01\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x00\\x00\\x00\\x00",
+				},
+				"u1" : 1,
+				"u2" : 9,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "EntityInfo",
+			"number" : 4,
+
+			"entity infosub-sub-sub-block " :  {
+
+				"name" : "Dark Energy",
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "ParticleEmitter",
+			"number" : 120,
+
+			"particle emittersub-sub-sub-block " :  {
+
+				"particle" : 123,
+				"u1" : 0,
+				"u2" : 100,
+				"u3" : 0,
+				"u4" : 0,
+
+				"u5sub-sub-sub-sub-block " :  {
+
+					"u0" : 3,
+
+					"u1sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 0.7888888716697693,
+						"x" : 0.7888888716697693,
+						"y" : 0.7888888716697693,
+						"z" : 0.45555558800697327,
+					},
+					"u2" : 0.00800000037997961,
+					"u2" : 0.20000000298023224,
+					"u2" : 0.800000011920929,
+					"u2" : 8.0,
+					"u2" : 0.6000000238418579,
+					"u2" : 0.0,
+					"u2" : 1.0,
+					"u3" : 0.0,
+					"u4" : 0.0,
+					"u5" : 0.0,
+
+					"u6sub-sub-sub-sub-sub-block " :  {
+
+						"u0" : 0.0,
+						"u1" : 0.0,
+						"u2" : 0.0,
+					},
+				},
+				"u6" : 0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Particle",
+			"number" : 123,
+
+			"particlesub-sub-sub-block " :  {
+
+				"name" : "particle",
+				"u0" : 15.0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "SimpleGlow",
+			"number" : 127,
+
+			"simple glowsub-sub-sub-block " :  {
+
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"w" : 1.0,
+					"x" : 0.5111111402511597,
+					"y" : 0.511111319065094,
+					"z" : 0.5000000596046448,
+				},
+				"u1" : 25.0,
+				"u2" : 20,
+				"u3" : 15.0,
+				"u4" : 0.15000000596046448,
+				"u5" : 0.800000011920929,
+
+				"u6sub-sub-sub-sub-block " :  {
+
+					"y" : 0.0,
+					"z" : 0.0,
+				},
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "ParticleEmitter",
+			"number" : 129,
+
+			"particle emittersub-sub-sub-block " :  {
+
+				"particle" : 123,
+				"u1" : 0,
+				"u2" : 30,
+				"u3" : 120,
+				"u4" : 0,
+
+				"u5sub-sub-sub-sub-block " :  {
+
+					"u0" : 3,
+
+					"u1sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 0.27259260416030884,
+						"x" : 0.08296296000480652,
+						"y" : 0.08296302706003189,
+						"z" : 0.0,
+					},
+					"u2" : 0.004999999888241291,
+					"u2" : 0.20000000298023224,
+					"u2" : 1.0,
+					"u2" : 25.0,
+					"u2" : 0.6000000238418579,
+					"u2" : 0.4000000059604645,
+					"u2" : 1.0,
+					"u3" : 0.0,
+					"u4" : 0.0,
+					"u5" : 0.0,
+
+					"u6sub-sub-sub-sub-sub-block " :  {
+
+						"u0" : 0.0,
+						"u1" : 0.0,
+						"u2" : 0.0,
+					},
+				},
+				"u6" : 0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "EntityController",
+			"number" : 133,
+
+			"entity controllersub-sub-sub-block " :  {
+
+				"entity component" : 134,
+				"animation controller component" : 0,
+				"u2" : 0,
+				"collision shape" : 0,
+				"u4" : 100.0,
+				"u5" : 800.0,
+				"u6" : 2000.0,
+				"u7" : 1,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "MonsterEntity",
+			"number" : 134,
+
+			"entitysub-sub-sub-block " :  {
+
+				"u0" : 1,
+				"u1" : 0,
+			},
+
+			"?monster entitysub-sub-sub-block " :  {
+
+				"u0" : "",
+
+				"lua chunksub-sub-sub-sub-block " :  {
+
+				},
+				"u2" : 1,
+				"u3" : 1,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "PhysicsObject",
+			"number" : 136,
+
+			"physics objectsub-sub-sub-block " :  {
+
+				"u0" : 1,
+				"u3" : 1500.0,
+				"u4" : 0.0,
+				"u5" : 300.0,
+				"u6" : 0,
+				"u7" : 0.0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Program",
+			"number" : 137,
+
+			"programsub-sub-sub-block " :  {
+
+				"u0" : 1,
+
+				"lua chunksub-sub-sub-sub-block " :  {
+
+					"main chunk" : "chunk >
+
+					=== lua =============
+					local self = ...;
+					
+					dimensionMonsterCount = dimensionMonsterCount + 1;
+					
+					self:setAlwaysActive(true);
+					
+					
+					local targetPosition = self:position();
+					local targetOffset = Vector3.New(0, 0, 0);
+					
+					while true do
+						Program.Wait(0.2);
+						local target = EntityController.Target(self);
+					
+						local delta = targetPosition + targetOffset - self:position();
+					
+						PhysicsObject.SetGravityDirection(self, delta:normalized());
+						PhysicsObject.SetGravityMagnitude(self, 2);
+						PhysicsObject.SetDecelerationForce(self, 1.5);
+					
+						if Math.RandomInt(1, 5) == 1 then
+							local r = 250;
+							targetOffset = Vector3.New(Math.RandomFloat(-r, r), Math.RandomFloat(-r, r), 0);
+						end
+					
+						if  target ~= nil then
+							targetPosition = target:position();
+						end
+					end
+					
+
+					=====================",
+					"secondary chunk" : "\\x1bLuaQ\\x00\\x01\\x04\\x04\\x04\\x08\\x00\\xda\\x02\\x00\\x00local self = ...;\\r\\n\\r\\ndimensionMonsterCount = dimensionMonsterCount + 1;\\r\\n\\r\\nself:setAlwaysActive(true);\\r\\n\\r\\n\\r\\nlocal targetPosition = self:position();\\r\\nlocal targetOffset = Vector3.New(0, 0, 0);\\r\\n\\r\\nwhile true do\\r\\n\\tProgram.Wait(0.2);\\r\\n\\tlocal target = EntityController.Target(self);\\r\\n\\r\\n\\tlocal delta = targetPosition + targetOffset - self:position();\\r\\n\\r\\n\\tPhysicsObject.SetGravityDirection(self, delta:normalized());\\r\\n\\tPhysicsObject.SetGravityMagnitude(self, 2);\\r\\n\\tPhysicsObject.SetDecelerationForce(self, 1.5);\\r\\n\\r\\n\\tif Math.RandomInt(1, 5) == 1 then\\r\\n\\t\\tlocal r = 250;\\r\\n\\t\\ttargetOffset = Vector3.New(Math.RandomFloat(-r, r), Math.RandomFloat(-r, r), 0);\\r\\n\\tend\\r\\n\\r\\n\\tif  target ~= nil then\\r\\n\\t\\ttargetPosition = target:position();\\r\\n\\tend\\r\\nend\\r\\n\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x02\\x0bI\\x00\\x00\\x00%\\x00\\x00\\x01E\\x00\\x00\\x00L@\\xc0\\x00G\\x00\\x00\\x00K\\x80@\\x00\\xc2\\x00\\x80\\x00\\\\@\\x80\\x01K\\xc0@\\x00\\\\\\x80\\x00\\x01\\x85\\x00\\x01\\x00\\x86@A\\x01\\xc1\\x80\\x01\\x00\\x01\\x81\\x01\\x00A\\x81\\x01\\x00\\x9c\\x80\\x00\\x02\\xc5\\xc0\\x01\\x00\\xc6\\x00\\xc2\\x01\\x01A\\x02\\x00\\xdc@\\x00\\x01\\xc5\\x80\\x02\\x00\\xc6\\xc0\\xc2\\x01\\x00\\x01\\x00\\x00\\xdc\\x80\\x00\\x01\\x0c\\x81\\x80\\x00K\\xc1@\\x00\\\\\\x81\\x00\\x01\\rA\\x01\\x02E\\x01\\x03\\x00FA\\xc3\\x02\\x80\\x01\\x00\\x00\\xcb\\x81C\\x02\\xdc\\x01\\x00\\x01\\\\A\\x00\\x00E\\x01\\x03\\x00F\\xc1\\xc3\\x02\\x80\\x01\\x00\\x00\\xc1\\x01\\x04\\x00\\\\A\\x80\\x01E\\x01\\x03\\x00FA\\xc4\\x02\\x80\\x01\\x00\\x00\\xc1\\x81\\x04\\x00\\\\A\\x80\\x01E\\xc1\\x04\\x00F\\x01\\xc5\\x02\\x81A\\x00\\x00\\xc1A\\x05\\x00\\\\\\x81\\x80\\x01\\x17@\\xc0\\x02\\x16\\xc0\\x03\\x80A\\x81\\x05\\x00\\x85\\x01\\x01\\x00\\x86AA\\x03\\xc5\\xc1\\x04\\x00\\xc6\\xc1\\xc5\\x03\\x12\\x02\\x80\\x02@\\x02\\x80\\x02\\xdc\\x81\\x80\\x01\\x05\\xc2\\x04\\x00\\x06\\xc2E\\x04R\\x02\\x80\\x02\\x80\\x02\\x80\\x02\\x1c\\x82\\x80\\x01A\\x82\\x01\\x00\\x9c\\x81\\x00\\x02\\x80\\x00\\x00\\x03W\\x00\\xc6\\x01\\x16\\x80\\xf2\\x7fK\\xc1\\xc0\\x01\\\\\\x81\\x00\\x01@\\x00\\x80\\x02\\x16\\x80\\xf1\\x7f\\x1e\\x00\\x80\\x00\\x19\\x00\\x00\\x00\\x04\\x16\\x00\\x00\\x00dimensionMonsterCount\\x00\\x03\\x00\\x00\\x00\\x00\\x00\\x00\\xf0?\\x04\\x10\\x00\\x00\\x00setAlwaysActive\\x00\\x04\\t\\x00\\x00\\x00position\\x00\\x04\\x08\\x00\\x00\\x00Vector3\\x00\\x04\\x04\\x00\\x00\\x00New\\x00\\x03\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x04\\x08\\x00\\x00\\x00Program\\x00\\x04\\x05\\x00\\x00\\x00Wait\\x00\\x03\\x9a\\x99\\x99\\x99\\x99\\x99\\xc9?\\x04\\x11\\x00\\x00\\x00EntityController\\x00\\x04\\x07\\x00\\x00\\x00Target\\x00\\x04\\x0e\\x00\\x00\\x00PhysicsObject\\x00\\x04\\x14\\x00\\x00\\x00SetGravityDirection\\x00\\x04\\x0b\\x00\\x00\\x00normalized\\x00\\x04\\x14\\x00\\x00\\x00SetGravityMagnitude\\x00\\x03\\x00\\x00\\x00\\x00\\x00\\x00\\x00@\\x04\\x15\\x00\\x00\\x00SetDecelerationForce\\x00\\x03\\x00\\x00\\x00\\x00\\x00\\x00\\xf8?\\x04\\x05\\x00\\x00\\x00Math\\x00\\x04\\n\\x00\\x00\\x00RandomInt\\x00\\x03\\x00\\x00\\x00\\x00\\x00\\x00\\x14@\\x03\\x00\\x00\\x00\\x00\\x00@o@\\x04\\x0c\\x00\\x00\\x00RandomFloat\\x00\\x00\\x00\\x00\\x00\\x00I\\x00\\x00\\x00\\x01\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x08\\x00\\x00\\x00\\x08\\x00\\x00\\x00\\t\\x00\\x00\\x00\\t\\x00\\x00\\x00\\t\\x00\\x00\\x00\\t\\x00\\x00\\x00\\t\\x00\\x00\\x00\\t\\x00\\x00\\x00\\x0c\\x00\\x00\\x00\\x0c\\x00\\x00\\x00\\x0c\\x00\\x00\\x00\\x0c\\x00\\x00\\x00\\r\\x00\\x00\\x00\\r\\x00\\x00\\x00\\r\\x00\\x00\\x00\\r\\x00\\x00\\x00\\x0f\\x00\\x00\\x00\\x0f\\x00\\x00\\x00\\x0f\\x00\\x00\\x00\\x0f\\x00\\x00\\x00\\x11\\x00\\x00\\x00\\x11\\x00\\x00\\x00\\x11\\x00\\x00\\x00\\x11\\x00\\x00\\x00\\x11\\x00\\x00\\x00\\x11\\x00\\x00\\x00\\x12\\x00\\x00\\x00\\x12\\x00\\x00\\x00\\x12\\x00\\x00\\x00\\x12\\x00\\x00\\x00\\x12\\x00\\x00\\x00\\x13\\x00\\x00\\x00\\x13\\x00\\x00\\x00\\x13\\x00\\x00\\x00\\x13\\x00\\x00\\x00\\x13\\x00\\x00\\x00\\x15\\x00\\x00\\x00\\x15\\x00\\x00\\x00\\x15\\x00\\x00\\x00\\x15\\x00\\x00\\x00\\x15\\x00\\x00\\x00\\x15\\x00\\x00\\x00\\x15\\x00\\x00\\x00\\x16\\x00\\x00\\x00\\x17\\x00\\x00\\x00\\x17\\x00\\x00\\x00\\x17\\x00\\x00\\x00\\x17\\x00\\x00\\x00\\x17\\x00\\x00\\x00\\x17\\x00\\x00\\x00\\x17\\x00\\x00\\x00\\x17\\x00\\x00\\x00\\x17\\x00\\x00\\x00\\x17\\x00\\x00\\x00\\x17\\x00\\x00\\x00\\x17\\x00\\x00\\x00\\x17\\x00\\x00\\x00\\x17\\x00\\x00\\x00\\x17\\x00\\x00\\x00\\x1a\\x00\\x00\\x00\\x1a\\x00\\x00\\x00\\x1b\\x00\\x00\\x00\\x1b\\x00\\x00\\x00\\x1b\\x00\\x00\\x00\\x1c\\x00\\x00\\x00\\x1d\\x00\\x00\\x00\\x06\\x00\\x00\\x00\\x05\\x00\\x00\\x00self\\x00\\x01\\x00\\x00\\x00H\\x00\\x00\\x00\\x0f\\x00\\x00\\x00targetPosition\\x00\\t\\x00\\x00\\x00H\\x00\\x00\\x00\\r\\x00\\x00\\x00targetOffset\\x00\\x0f\\x00\\x00\\x00H\\x00\\x00\\x00\\x07\\x00\\x00\\x00target\\x00\\x17\\x00\\x00\\x00G\\x00\\x00\\x00\\x06\\x00\\x00\\x00delta\\x00\\x1b\\x00\\x00\\x00G\\x00\\x00\\x00\\x02\\x00\\x00\\x00r\\x003\\x00\\x00\\x00B\\x00\\x00\\x00\\x00\\x00\\x00\\x00",
+				},
+				"u1" : 1,
+				"u2" : 10,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "CollisionShape",
+			"number" : 140,
+
+			"collision shapesub-sub-sub-block " :  {
+
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"w" : -10.0,
+					"x" : -10.0,
+					"y" : 20.0,
+					"z" : 20.0,
+				},
+			},
+
+			"collision shape 2sub-sub-sub-block " :  {
+
+				"u2" : 1,
+				"u3" : 1,
+				"w" : -15.0,
+				"x" : 15.0,
+				"z" : 1,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Damage",
+			"number" : 142,
+
+			"damagesub-sub-sub-block " :  {
+
+				"u0" : 1,
+				"u1" : 0,
+				"u2" : 0,
+				"u5" : 1.0,
+				"u6" : 0.0,
+				"u7" : 0,
+				"u8" : 1,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Health",
+			"number" : 146,
+
+			"healthsub-sub-sub-block " :  {
+
+				"u0" : 1,
+				"u1" : 0,
+
+				"u2sub-sub-sub-sub-block " :  {
+
+					"x" : 0.0,
+					"y" : 50.0,
+				},
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Program",
+			"number" : 151,
+
+			"programsub-sub-sub-block " :  {
+
+				"u0" : 1,
+
+				"lua chunksub-sub-sub-sub-block " :  {
+
+					"main chunk" : "chunk >
+
+					=== lua =============
+					local self = ...;
+					
+					dimensionMonsterCount = dimensionMonsterCount - 1;
+
+					=====================",
+					"secondary chunk" : "\\x1bLuaQ\\x00\\x01\\x04\\x04\\x04\\x08\\x00H\\x00\\x00\\x00local self = ...;\\r\\n\\r\\ndimensionMonsterCount = dimensionMonsterCount - 1;\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x02\\x02\\x05\\x00\\x00\\x00%\\x00\\x00\\x01E\\x00\\x00\\x00M@\\xc0\\x00G\\x00\\x00\\x00\\x1e\\x00\\x80\\x00\\x02\\x00\\x00\\x00\\x04\\x16\\x00\\x00\\x00dimensionMonsterCount\\x00\\x03\\x00\\x00\\x00\\x00\\x00\\x00\\xf0?\\x00\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x01\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x01\\x00\\x00\\x00\\x05\\x00\\x00\\x00self\\x00\\x01\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x00\\x00\\x00\\x00",
+				},
+				"u1" : 1,
+				"u2" : 5,
+			},
+		},
+
+		"positionsub-sub-block " :  {
+
+			"x position" : 0.0,
+			"y position" : 0.0,
+		},
+		"z position" : 0.0,
+		"rotation" : 0.0,
+		"scale" : 1.0,
+
+		"u0sub-sub-block " :  {
+
+			"w" : -25.0,
+			"x" : -25.0,
+			"y" : 50.0,
+			"z" : 50.0,
+		},
+		"hidden" : 0,
+	},
+	"u0" : 1.0,
+},
+
+"?itemblock " :  {
+
+
+	"?sub-itemsub-block " :  {
+
+		"name" : "dimension_portal",
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Model",
+			"number" : 101,
+
+			"3D modelsub-sub-sub-block " :  {
+
+				"name" : "arch2",
+				"u0" : 1.5707963705062866,
+				"u1" : 0.0,
+				"u2" : 0.0,
+
+				"u3sub-sub-sub-sub-block " :  {
+
+					"w" : 1.0,
+					"x" : 1.0,
+					"y" : 1.0,
+					"z" : 1.0,
+				},
+
+				"u4sub-sub-sub-sub-block " :  {
+
+					"x" : 0.0,
+					"y" : 0.0,
+					"z" : 0.0,
+				},
+				"u5" : 0,
+
+				"u6sub-sub-sub-sub-block " :  {
+
+					"w" : 1.0,
+					"x" : 1.0,
+					"y" : 1.0,
+					"z" : 1.0,
+				},
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "ParticleEmitter",
+			"number" : 103,
+
+			"particle emittersub-sub-sub-block " :  {
+
+				"particle" : 104,
+				"particle" : 105,
+				"particle" : 106,
+				"u1" : 0,
+				"u2" : 100,
+				"u3" : 0,
+				"u4" : 0,
+
+				"u5sub-sub-sub-sub-block " :  {
+
+					"u0" : 5,
+
+					"u1sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 1.0,
+						"x" : 0.0,
+						"y" : 3.5762786865234375e-07,
+						"z" : 0.0,
+					},
+					"u2" : 90.0,
+					"u2" : 25.0,
+					"u2" : 0.0,
+					"u2" : 0.0,
+					"u2" : 0.0,
+					"u2" : 200.0,
+					"u2" : 0.0,
+					"u2" : 0.0,
+					"u2" : 1.0,
+					"u2" : 0.0,
+					"u2" : 1.0,
+					"u2" : 0.019999999552965164,
+					"u2" : 1.2000000476837158,
+					"u2" : 0.0,
+					"u2" : 0.699999988079071,
+					"u3" : 0.0,
+					"u4" : 0.0,
+					"u5" : 0.0,
+
+					"u6sub-sub-sub-sub-sub-block " :  {
+
+						"u0" : 15.0,
+						"u1" : 55.0,
+						"u2" : 0.0,
+					},
+				},
+				"u6" : 0,
+
+				"u7sub-sub-sub-sub-block " :  {
+
+					"u0" : 0.0,
+					"u1" : -500.0,
+					"u2" : 0.0,
+				},
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Particle",
+			"number" : 104,
+
+			"particlesub-sub-sub-block " :  {
+
+				"name" : "particle_fure_1",
+				"u0" : 20.0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Particle",
+			"number" : 105,
+
+			"particlesub-sub-sub-block " :  {
+
+				"name" : "particle_fure_2",
+				"u0" : 25.0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Particle",
+			"number" : 106,
+
+			"particlesub-sub-sub-block " :  {
+
+				"name" : "particle_fure_3",
+				"u0" : 15.0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "SimpleGlow",
+			"number" : 108,
+
+			"simple glowsub-sub-sub-block " :  {
+
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"w" : 0.3888888955116272,
+					"x" : 0.0555555559694767,
+					"y" : 0.0555555559694767,
+					"z" : 0.5,
+				},
+				"u1" : 75.0,
+				"u2" : 10,
+				"u3" : 15.0,
+				"u4" : 0.15000000596046448,
+				"u5" : 0.800000011920929,
+
+				"u6sub-sub-sub-sub-block " :  {
+
+					"y" : 15.0,
+					"z" : 60.0,
+				},
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Light",
+			"number" : 109,
+
+			"lightsub-sub-sub-block " :  {
+
+				"u0" : 3,
+				"u1" : 2.0,
+
+				"u2sub-sub-sub-sub-block " :  {
+
+					"w" : 1.0,
+					"x" : 0.0,
+					"y" : 0.0,
+					"z" : 1.0,
+				},
+				"u3" : 0.0,
+				"u4" : 0.00019999999494757503,
+
+				"u5sub-sub-sub-sub-block " :  {
+
+					"x" : 0.0,
+					"y" : 0.0,
+					"z" : 0.0,
+				},
+				"u6" : 250.0,
+			},
+		},
+
+		"positionsub-sub-block " :  {
+
+			"x position" : 0.0,
+			"y position" : 0.0,
+		},
+		"z position" : 0.0,
+		"rotation" : 0.0,
+		"scale" : 1.0,
+
+		"u0sub-sub-block " :  {
+
+			"w" : -75.0,
+			"x" : -75.0,
+			"y" : 150.0,
+			"z" : 150.0,
+		},
+		"hidden" : 0,
+	},
+	"u0" : 1.0,
+},
+
+"?itemblock " :  {
+
+
+	"?sub-itemsub-block " :  {
+
+		"name" : "dimensional_statue",
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Model",
+			"number" : 101,
+
+			"3D modelsub-sub-sub-block " :  {
+
+				"name" : "sign_dimensional",
+				"u0" : 0.0,
+				"u1" : 0.0,
+				"u2" : 0.0,
+
+				"u3sub-sub-sub-sub-block " :  {
+
+					"w" : 1.0,
+					"x" : 1.0,
+					"y" : 1.0,
+					"z" : 1.0,
+				},
+
+				"u4sub-sub-sub-sub-block " :  {
+
+					"x" : 0.0,
+					"y" : 0.0,
+					"z" : 0.0,
+				},
+				"u5" : 0,
+
+				"u6sub-sub-sub-sub-block " :  {
+
+					"w" : 1.0,
+					"x" : 1.0,
+					"y" : 1.0,
+					"z" : 1.0,
+				},
+			},
+		},
+
+		"positionsub-sub-block " :  {
+
+			"x position" : 0.0,
+			"y position" : 0.0,
+		},
+		"z position" : 0.0,
+		"rotation" : 0.0,
+		"scale" : 1.0,
+
+		"u0sub-sub-block " :  {
+
+			"w" : 0.0,
+			"x" : 0.0,
+			"y" : 0.0,
+			"z" : 0.0,
+		},
+		"hidden" : 0,
+	},
+	"u0" : 1.0,
+},
+
+"?itemblock " :  {
+
+
+	"?sub-itemsub-block " :  {
+
+		"name" : "node_dimensional_off",
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Program",
+			"number" : 1,
+
+			"programsub-sub-sub-block " :  {
+
+				"u0" : 1,
+
+				"lua chunksub-sub-sub-sub-block " :  {
+
+					"main chunk" : "chunk >
+
+					=== lua =============
+					local self = ...;
+					
+					CollisionShape.SetEnabled(self, 112);
+					local nodeOn = Scene.CreateObject(\"node_dimensional_on\", \"node1\", self);
+					nodeOn:setScaling(self:scaling());
+					SoundLibrary.PlayEffect(\"surprise2\");
+
+					=====================",
+					"secondary chunk" : "\\x1bLuaQ\\x00\\x01\\x04\\x04\\x04\\x08\\x00\\xd0\\x00\\x00\\x00local self = ...;\\r\\n\\r\\nCollisionShape.SetEnabled(self, 112);\\r\\nlocal nodeOn = Scene.CreateObject(\"node_dimensional_on\", \"node1\", self);\\r\\nnodeOn:setScaling(self:scaling());\\r\\nSoundLibrary.PlayEffect(\"surprise2\");\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x02\\x06\\x15\\x00\\x00\\x00%\\x00\\x00\\x01E\\x00\\x00\\x00F@\\xc0\\x00\\x80\\x00\\x00\\x00\\xc1\\x80\\x00\\x00\\\\@\\x80\\x01E\\xc0\\x00\\x00F\\x00\\xc1\\x00\\x81@\\x01\\x00\\xc1\\x80\\x01\\x00\\x00\\x01\\x00\\x00\\\\\\x80\\x00\\x02\\x8b\\xc0\\xc1\\x00\\x0b\\x01B\\x00\\x1c\\x01\\x00\\x01\\x9c@\\x00\\x00\\x85@\\x02\\x00\\x86\\x80B\\x01\\xc1\\xc0\\x02\\x00\\x9c@\\x00\\x01\\x1e\\x00\\x80\\x00\\x0c\\x00\\x00\\x00\\x04\\x0f\\x00\\x00\\x00CollisionShape\\x00\\x04\\x0b\\x00\\x00\\x00SetEnabled\\x00\\x03\\x00\\x00\\x00\\x00\\x00\\x00\\\\@\\x04\\x06\\x00\\x00\\x00Scene\\x00\\x04\\r\\x00\\x00\\x00CreateObject\\x00\\x04\\x14\\x00\\x00\\x00node_dimensional_on\\x00\\x04\\x06\\x00\\x00\\x00node1\\x00\\x04\\x0b\\x00\\x00\\x00setScaling\\x00\\x04\\x08\\x00\\x00\\x00scaling\\x00\\x04\\r\\x00\\x00\\x00SoundLibrary\\x00\\x04\\x0b\\x00\\x00\\x00PlayEffect\\x00\\x04\\n\\x00\\x00\\x00surprise2\\x00\\x00\\x00\\x00\\x00\\x15\\x00\\x00\\x00\\x01\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x06\\x00\\x00\\x00\\x06\\x00\\x00\\x00\\x06\\x00\\x00\\x00\\x06\\x00\\x00\\x00\\x06\\x00\\x00\\x00\\x02\\x00\\x00\\x00\\x05\\x00\\x00\\x00self\\x00\\x01\\x00\\x00\\x00\\x14\\x00\\x00\\x00\\x07\\x00\\x00\\x00nodeOn\\x00\\x0c\\x00\\x00\\x00\\x14\\x00\\x00\\x00\\x00\\x00\\x00\\x00",
+				},
+				"u1" : 1,
+				"u2" : 6,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "DimensionObject",
+			"number" : 2,
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Model",
+			"number" : 101,
+
+			"3D modelsub-sub-sub-block " :  {
+
+				"name" : "node_dimensional_off",
+				"u0" : 0.0,
+				"u1" : 0.10000000149011612,
+				"u2" : 0.0,
+
+				"u3sub-sub-sub-sub-block " :  {
+
+					"w" : 1.0,
+					"x" : 1.0,
+					"y" : 1.0,
+					"z" : 1.0,
+				},
+
+				"u4sub-sub-sub-sub-block " :  {
+
+					"x" : 0.0,
+					"y" : 0.0,
+					"z" : 0.0,
+				},
+				"u5" : 0,
+
+				"u6sub-sub-sub-sub-block " :  {
+
+					"w" : 1.0,
+					"x" : 1.0,
+					"y" : 1.0,
+					"z" : 1.0,
+				},
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Light",
+			"number" : 109,
+
+			"lightsub-sub-sub-block " :  {
+
+				"u0" : 3,
+				"u1" : 1.0,
+
+				"u2sub-sub-sub-sub-block " :  {
+
+					"w" : 1.0,
+					"x" : 1.0,
+					"y" : 1.0,
+					"z" : 1.0,
+				},
+				"u3" : 0.0,
+				"u4" : 0.00019999999494757503,
+
+				"u5sub-sub-sub-sub-block " :  {
+
+					"x" : 0.0,
+					"y" : 0.0,
+					"z" : 0.0,
+				},
+				"u6" : 50.0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "CollisionShape",
+			"number" : 112,
+
+			"collision shapesub-sub-sub-block " :  {
+
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"w" : -30.0,
+					"x" : -12.0,
+					"y" : 60.0,
+					"z" : 24.0,
+				},
+			},
+
+			"collision shape 2sub-sub-sub-block " :  {
+
+				"u2" : 1,
+				"w" : -15.0,
+				"x" : 15.0,
+				"z" : 1,
+			},
+		},
+
+		"positionsub-sub-block " :  {
+
+			"x position" : 0.0,
+			"y position" : 0.0,
+		},
+		"z position" : 0.0,
+		"rotation" : 0.0,
+		"scale" : 1.0,
+
+		"u0sub-sub-block " :  {
+
+			"w" : -30.0,
+			"x" : -12.0,
+			"y" : 60.0,
+			"z" : 24.0,
+		},
+		"hidden" : 0,
+	},
+	"u0" : 1.0,
+},
+
+"?itemblock " :  {
+
+
+	"?sub-itemsub-block " :  {
+
+		"name" : "node_dimensional_on",
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "TransformController",
+			"number" : 1,
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "DimensionObject",
+			"number" : 2,
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Model",
+			"number" : 101,
+
+			"3D modelsub-sub-sub-block " :  {
+
+				"name" : "node_dimensional_on",
+				"u0" : 0.0,
+				"u1" : 1.0,
+				"u2" : 0.0,
+
+				"u3sub-sub-sub-sub-block " :  {
+
+					"w" : 1.0,
+					"x" : 1.0,
+					"y" : 1.0,
+					"z" : 1.0,
+				},
+
+				"u4sub-sub-sub-sub-block " :  {
+
+					"x" : 0.0,
+					"y" : 0.0,
+					"z" : 0.0,
+				},
+				"u5" : 0,
+
+				"u6sub-sub-sub-sub-block " :  {
+
+					"w" : 1.0,
+					"x" : 1.0,
+					"y" : 1.0,
+					"z" : 1.0,
+				},
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "SimpleGlow",
+			"number" : 103,
+
+			"simple glowsub-sub-sub-block " :  {
+
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"w" : 1.0,
+					"x" : 0.0,
+					"y" : 0.0,
+					"z" : 0.5,
+				},
+				"u1" : 20.0,
+				"u2" : 10,
+				"u3" : 15.0,
+				"u4" : 0.15000000596046448,
+				"u5" : 0.800000011920929,
+
+				"u6sub-sub-sub-sub-block " :  {
+
+					"y" : 0.0,
+					"z" : 0.0,
+				},
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Light",
+			"number" : 104,
+
+			"lightsub-sub-sub-block " :  {
+
+				"u0" : 3,
+				"u1" : 2.0,
+
+				"u2sub-sub-sub-sub-block " :  {
+
+					"w" : 1.0,
+					"x" : 0.6000000238418579,
+					"y" : 0.2888889014720917,
+					"z" : 1.0,
+				},
+				"u3" : 0.0,
+				"u4" : 0.00019999999494757503,
+
+				"u5sub-sub-sub-sub-block " :  {
+
+					"x" : 0.0,
+					"y" : 0.0,
+					"z" : 0.0,
+				},
+				"u6" : 150.0,
+			},
+		},
+
+		"positionsub-sub-block " :  {
+
+			"x position" : 0.0,
+			"y position" : 0.0,
+		},
+		"z position" : 0.0,
+		"rotation" : 0.0,
+		"scale" : 1.0,
+
+		"u0sub-sub-block " :  {
+
+			"w" : -20.0,
+			"x" : -20.0,
+			"y" : 40.0,
+			"z" : 40.0,
+		},
+		"hidden" : 0,
+	},
+	"u0" : 1.0,
+},
+
+}

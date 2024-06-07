@@ -1,0 +1,296 @@
+data = {
+
+"music definitionblock " :  {
+
+	"name" : "menu",
+
+	"filesub-block " :  {
+
+		"filename" : "1-hero2",
+		"u0" : 0.5,
+	},
+},
+
+"music definitionblock " :  {
+
+	"name" : "house",
+
+	"filesub-block " :  {
+
+		"filename" : "1-plaintest2",
+		"u0" : 0.5,
+	},
+},
+
+"music definitionblock " :  {
+
+	"name" : "outdoors_light",
+
+	"filesub-block " :  {
+
+		"filename" : "squire_new2",
+		"u0" : 0.5,
+	},
+},
+
+"music definitionblock " :  {
+
+	"name" : "forest",
+
+	"filesub-block " :  {
+
+		"filename" : "2cave2",
+		"u0" : 0.5,
+	},
+},
+
+"music definitionblock " :  {
+
+	"name" : "cave",
+
+	"filesub-block " :  {
+
+		"filename" : "2cave2",
+		"u0" : 0.5,
+	},
+},
+
+"music definitionblock " :  {
+
+	"name" : "dungeon1",
+
+	"filesub-block " :  {
+
+		"filename" : "1-dung73",
+		"u0" : 0.5,
+	},
+},
+
+"music definitionblock " :  {
+
+	"name" : "boss",
+
+	"filesub-block " :  {
+
+		"filename" : "1-boss23",
+		"u0" : 0.75,
+	},
+},
+
+"music definitionblock " :  {
+
+	"name" : "bosskill",
+
+	"filesub-block " :  {
+
+		"filename" : "momentofwonder",
+		"u0" : 0.75,
+	},
+},
+
+"music definitionblock " :  {
+
+	"name" : "heartbeat",
+
+	"filesub-block " :  {
+
+		"filename" : "heartbeat",
+		"u0" : 1.0,
+	},
+},
+
+"button positionsblock " :  {
+
+
+	"buttonsub-block " :  {
+
+		"name" : "left",
+
+		"positionsub-sub-block " :  {
+
+			"left" : 20.0,
+			"bottom" : 10.0,
+		},
+	},
+
+	"buttonsub-block " :  {
+
+		"name" : "right",
+
+		"positionsub-sub-block " :  {
+
+			"left" : 100.0,
+			"bottom" : 10.0,
+		},
+	},
+
+	"buttonsub-block " :  {
+
+		"name" : "jump",
+
+		"positionsub-sub-block " :  {
+
+			"right" : 20.0,
+			"bottom" : 20.0,
+		},
+	},
+
+	"buttonsub-block " :  {
+
+		"name" : "swing",
+
+		"positionsub-sub-block " :  {
+
+			"right" : 100.0,
+			"bottom" : 10.0,
+		},
+	},
+
+	"buttonsub-block " :  {
+
+		"name" : "skill",
+
+		"positionsub-sub-block " :  {
+
+			"right" : 5.0,
+			"bottom" : 90.0,
+		},
+	},
+
+	"buttonsub-block " :  {
+
+		"name" : "skillToggle",
+
+		"positionsub-sub-block " :  {
+
+			"right" : 10.0,
+			"top" : 17.0,
+		},
+	},
+
+	"buttonsub-block " :  {
+
+		"name" : "menu",
+
+		"positionsub-sub-block " :  {
+
+			"left" : 10.0,
+			"top" : 8.0,
+		},
+	},
+
+	"buttonsub-block " :  {
+
+		"name" : "consumables",
+
+		"positionsub-sub-block " :  {
+
+			"left" : 209.0,
+			"bottom" : 10.0,
+		},
+	},
+},
+
+"buttonsblock " :  {
+
+
+	"buttonsub-block " :  {
+
+		"name" : "left",
+
+		"positionsub-sub-block " :  {
+
+			"left" : 10.0,
+			"bottom" : 30.0,
+		},
+	},
+
+	"buttonsub-block " :  {
+
+		"name" : "right",
+
+		"positionsub-sub-block " :  {
+
+			"left" : 68.0,
+			"bottom" : 30.0,
+		},
+	},
+
+	"buttonsub-block " :  {
+
+		"name" : "jump",
+
+		"positionsub-sub-block " :  {
+
+			"right" : 10.0,
+			"bottom" : 38.0,
+		},
+	},
+
+	"buttonsub-block " :  {
+
+		"name" : "swing",
+
+		"positionsub-sub-block " :  {
+
+			"right" : 68.0,
+			"bottom" : 30.0,
+		},
+	},
+
+	"buttonsub-block " :  {
+
+		"name" : "skill",
+
+		"positionsub-sub-block " :  {
+
+			"right" : 5.0,
+			"bottom" : 86.0,
+		},
+	},
+
+	"buttonsub-block " :  {
+
+		"name" : "skillToggle",
+
+		"positionsub-sub-block " :  {
+
+			"right" : 10.0,
+			"top" : 17.0,
+		},
+	},
+
+	"buttonsub-block " :  {
+
+		"name" : "menu",
+
+		"positionsub-sub-block " :  {
+
+			"left" : 10.0,
+			"top" : 8.0,
+		},
+	},
+
+	"buttonsub-block " :  {
+
+		"name" : "consumables",
+
+		"positionsub-sub-block " :  {
+
+			"left" : 225.0,
+			"bottom" : 15.0,
+		},
+	},
+
+	"buttonsub-block " :  {
+
+		"name" : "exp",
+
+		"positionsub-sub-block " :  {
+
+			"bottom" : 80.0,
+		},
+	},
+},
+
+}

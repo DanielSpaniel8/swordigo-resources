@@ -1,0 +1,2091 @@
+data = {
+"scl file name" : "fire",
+
+"?itemblock " :  {
+
+
+	"?sub-itemsub-block " :  {
+
+		"name" : "blast",
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "ParticleEmitter",
+			"number" : 1,
+
+			"particle emittersub-sub-sub-block " :  {
+
+				"particle" : 102,
+				"particle" : 103,
+				"particle" : 104,
+				"u1" : 0,
+				"u2" : 30,
+				"u3" : 101,
+				"u4" : 0,
+
+				"u5sub-sub-sub-sub-block " :  {
+
+					"u0" : 1,
+
+					"u1sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 1.0,
+						"x" : 1.0,
+						"y" : 1.0,
+						"z" : 0.0,
+					},
+					"u3" : 0.0,
+					"u4" : 0.0,
+					"u5" : 0.0,
+
+					"u6sub-sub-sub-sub-sub-block " :  {
+
+						"u0" : 0.0,
+						"u1" : 0.0,
+						"u2" : 0.0,
+					},
+				},
+				"u6" : 0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "ParticleEmitter",
+			"number" : 101,
+
+			"particle emittersub-sub-sub-block " :  {
+
+				"particle" : 102,
+				"particle" : 103,
+				"particle" : 104,
+				"u1" : 0,
+				"u2" : 100,
+				"u3" : 0,
+				"u4" : 1,
+
+				"u5sub-sub-sub-sub-block " :  {
+
+					"u0" : 2,
+
+					"u1sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 0.9999999403953552,
+						"x" : 0.7444444298744202,
+						"y" : 0.45555561780929565,
+						"z" : 0.0,
+					},
+					"u2" : 100.0,
+					"u2" : 0.30000001192092896,
+					"u2" : 3.0,
+					"u2" : 30.0,
+					"u3" : 0.0,
+					"u4" : 0.0,
+					"u5" : 0.0,
+
+					"u6sub-sub-sub-sub-sub-block " :  {
+
+						"u0" : 0.0,
+						"u1" : 0.0,
+						"u2" : 0.0,
+					},
+				},
+				"u6" : 1,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Particle",
+			"number" : 102,
+
+			"particlesub-sub-sub-block " :  {
+
+				"name" : "particle_fure_1",
+				"u0" : 25.0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Particle",
+			"number" : 103,
+
+			"particlesub-sub-sub-block " :  {
+
+				"name" : "particle_fure_2",
+				"u0" : 20.0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Particle",
+			"number" : 104,
+
+			"particlesub-sub-sub-block " :  {
+
+				"name" : "particle_fure_3",
+				"u0" : 15.0,
+			},
+		},
+
+		"positionsub-sub-block " :  {
+
+			"x position" : 0.0,
+			"y position" : 0.0,
+		},
+		"z position" : 0.0,
+		"rotation" : 0.0,
+		"scale" : 1.0,
+
+		"u0sub-sub-block " :  {
+
+			"w" : -10.0,
+			"x" : -10.0,
+			"y" : 20.0,
+			"z" : 20.0,
+		},
+		"hidden" : 0,
+	},
+	"u0" : 1.0,
+},
+
+"?itemblock " :  {
+
+
+	"?sub-itemsub-block " :  {
+
+		"name" : "fireblast",
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "ParticleEmitter",
+			"number" : 2,
+
+			"particle emittersub-sub-sub-block " :  {
+
+				"particle" : 102,
+				"particle" : 103,
+				"particle" : 104,
+				"u1" : 0,
+				"u2" : 30,
+				"u3" : 101,
+				"u4" : 0,
+
+				"u5sub-sub-sub-sub-block " :  {
+
+					"u0" : 2,
+
+					"u1sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 1.0,
+						"x" : 0.6555556058883667,
+						"y" : 0.0,
+						"z" : 0.0,
+					},
+					"u2" : 30.0,
+					"u2" : 0.30000001192092896,
+					"u2" : 40.0,
+					"u2" : 40.0,
+					"u3" : 0.0,
+					"u4" : 0.0,
+					"u5" : 0.0,
+
+					"u6sub-sub-sub-sub-sub-block " :  {
+
+						"u0" : 0.0,
+						"u1" : 0.0,
+						"u2" : 0.0,
+					},
+				},
+				"u6" : 0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "ParticleEmitter",
+			"number" : 101,
+
+			"particle emittersub-sub-sub-block " :  {
+
+				"particle" : 102,
+				"particle" : 103,
+				"particle" : 104,
+				"u1" : 0,
+				"u2" : 100,
+				"u3" : 0,
+				"u4" : 1,
+
+				"u5sub-sub-sub-sub-block " :  {
+
+					"u0" : 2,
+
+					"u1sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 1.0,
+						"x" : 0.855555534362793,
+						"y" : 0.0,
+						"z" : 0.0,
+					},
+					"u2" : 40.0,
+					"u2" : 0.30000001192092896,
+					"u2" : 35.0,
+					"u2" : 35.0,
+					"u3" : 0.0,
+					"u4" : 0.0,
+					"u5" : 0.0,
+
+					"u6sub-sub-sub-sub-sub-block " :  {
+
+						"u0" : 0.0,
+						"u1" : 0.0,
+						"u2" : 0.0,
+					},
+				},
+				"u6" : 1,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Particle",
+			"number" : 102,
+
+			"particlesub-sub-sub-block " :  {
+
+				"name" : "particle_fure_1",
+				"u0" : 25.0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Particle",
+			"number" : 103,
+
+			"particlesub-sub-sub-block " :  {
+
+				"name" : "particle_fure_2",
+				"u0" : 20.0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Particle",
+			"number" : 104,
+
+			"particlesub-sub-sub-block " :  {
+
+				"name" : "particle_fure_3",
+				"u0" : 15.0,
+			},
+		},
+
+		"positionsub-sub-block " :  {
+
+			"x position" : 0.0,
+			"y position" : 0.0,
+		},
+		"z position" : 0.0,
+		"rotation" : 0.0,
+		"scale" : 1.0,
+
+		"u0sub-sub-block " :  {
+
+			"w" : 0.0,
+			"x" : 0.0,
+			"y" : 1000.0,
+			"z" : 4.0,
+		},
+		"hidden" : 0,
+	},
+	"u0" : 1.0,
+},
+
+"?itemblock " :  {
+
+
+	"?sub-itemsub-block " :  {
+
+		"name" : "firespray",
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Light",
+			"number" : 1,
+
+			"lightsub-sub-sub-block " :  {
+
+				"u0" : 3,
+				"u1" : 1.5,
+
+				"u2sub-sub-sub-sub-block " :  {
+
+					"w" : 1.0,
+					"x" : 0.5614814758300781,
+					"y" : 0.17777776718139648,
+					"z" : 1.0,
+				},
+				"u3" : 0.0,
+				"u4" : 0.00019999999494757503,
+
+				"u5sub-sub-sub-sub-block " :  {
+
+					"x" : 0.0,
+					"y" : 0.0,
+					"z" : 0.0,
+				},
+				"u6" : 300.0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "TransformController",
+			"number" : 2,
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "ParticleEmitter",
+			"number" : 102,
+
+			"particle emittersub-sub-sub-block " :  {
+
+				"particle" : 103,
+				"particle" : 104,
+				"particle" : 105,
+				"u1" : 0,
+				"u2" : 50,
+				"u3" : 0,
+				"u4" : 0,
+
+				"u5sub-sub-sub-sub-block " :  {
+
+					"u0" : 5,
+
+					"u1sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 1.0,
+						"x" : 0.49037057161331177,
+						"y" : 0.04444456100463867,
+						"z" : 0.0,
+					},
+					"u2" : 90.0,
+					"u2" : 10.0,
+					"u2" : 0.0,
+					"u2" : 15.0,
+					"u2" : 0.0,
+					"u2" : 500.0,
+					"u2" : 0.0,
+					"u2" : 0.0,
+					"u2" : 0.5,
+					"u2" : 1.0,
+					"u2" : 1.0,
+					"u2" : 0.009999999776482582,
+					"u2" : 0.30000001192092896,
+					"u2" : 0.0,
+					"u2" : 0.0,
+					"u3" : 0.05000000074505806,
+					"u4" : 0.0,
+					"u5" : 0.0,
+
+					"u6sub-sub-sub-sub-sub-block " :  {
+
+						"u0" : 0.0,
+						"u1" : 0.0,
+						"u2" : 0.0,
+					},
+				},
+				"u6" : 0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Particle",
+			"number" : 103,
+
+			"particlesub-sub-sub-block " :  {
+
+				"name" : "particle_fure_1",
+				"u0" : 40.0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Particle",
+			"number" : 104,
+
+			"particlesub-sub-sub-block " :  {
+
+				"name" : "particle_fure_2",
+				"u0" : 40.0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Particle",
+			"number" : 105,
+
+			"particlesub-sub-sub-block " :  {
+
+				"name" : "particle_fure_3",
+				"u0" : 40.0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "SimpleGlow",
+			"number" : 107,
+
+			"simple glowsub-sub-sub-block " :  {
+
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"w" : 1.0,
+					"x" : 0.47851860523223877,
+					"y" : 0.022222280502319336,
+					"z" : 0.0,
+				},
+				"u1" : 50.0,
+				"u2" : 10,
+				"u3" : 0.0,
+				"u4" : 0.15000000596046448,
+				"u5" : 1.0,
+
+				"u6sub-sub-sub-sub-block " :  {
+
+					"y" : 0.0,
+					"z" : 0.0,
+				},
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "ParticleEmitter",
+			"number" : 109,
+
+			"particle emittersub-sub-sub-block " :  {
+
+				"particle" : 110,
+				"u1" : 0,
+				"u2" : 30,
+				"u3" : 102,
+				"u4" : 0,
+
+				"u5sub-sub-sub-sub-block " :  {
+
+					"u0" : 5,
+
+					"u1sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 0.20000000298023224,
+						"x" : 0.1066666841506958,
+						"y" : 0.0,
+						"z" : 0.0,
+					},
+					"u2" : 90.0,
+					"u2" : 0.0,
+					"u2" : 0.0,
+					"u2" : 0.0,
+					"u2" : 0.0,
+					"u2" : 300.0,
+					"u2" : 0.0,
+					"u2" : 0.0,
+					"u2" : 1.0,
+					"u2" : 0.30000001192092896,
+					"u2" : 1.0,
+					"u2" : 0.019999999552965164,
+					"u2" : 0.5,
+					"u2" : 0.0,
+					"u2" : 0.0,
+					"u3" : 0.0,
+					"u4" : 0.0,
+					"u5" : 0.0,
+
+					"u6sub-sub-sub-sub-sub-block " :  {
+
+						"u0" : 0.0,
+						"u1" : 0.0,
+						"u2" : 0.0,
+					},
+				},
+				"u6" : 0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Particle",
+			"number" : 110,
+
+			"particlesub-sub-sub-block " :  {
+
+				"name" : "particle",
+				"u0" : 48.0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "ParticleEmitter",
+			"number" : 112,
+
+			"particle emittersub-sub-sub-block " :  {
+
+				"particle" : 114,
+				"u1" : 0,
+				"u2" : 50,
+				"u3" : 0,
+				"u4" : 0,
+
+				"u5sub-sub-sub-sub-block " :  {
+
+					"u0" : 5,
+
+					"u1sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 0.0,
+						"x" : 0.0,
+						"y" : 0.0,
+						"z" : 1.0,
+					},
+					"u2" : 90.0,
+					"u2" : 60.0,
+					"u2" : 0.0,
+					"u2" : 0.0,
+					"u2" : 150.0,
+					"u2" : 150.0,
+					"u2" : 0.20000000298023224,
+					"u2" : 0.0,
+					"u2" : 0.15000000596046448,
+					"u2" : 0.0,
+					"u2" : 0.0,
+					"u2" : 0.03999999910593033,
+					"u2" : 0.699999988079071,
+					"u2" : 0.20000000298023224,
+					"u2" : 0.0,
+					"u3" : 0.0,
+					"u4" : 0.0,
+					"u5" : 0.0,
+
+					"u6sub-sub-sub-sub-sub-block " :  {
+
+						"u0" : 0.0,
+						"u1" : 0.0,
+						"u2" : 0.0,
+					},
+				},
+				"u6" : 0,
+
+				"u7sub-sub-sub-sub-block " :  {
+
+					"u0" : 0.0,
+					"u1" : -200.0,
+					"u2" : 0.0,
+				},
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Particle",
+			"number" : 114,
+
+			"particlesub-sub-sub-block " :  {
+
+				"name" : "particle_fure_1",
+				"u0" : 48.0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "CollisionShape",
+			"number" : 116,
+
+			"collision shapesub-sub-sub-block " :  {
+
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"w" : -25.0,
+					"x" : 10.0,
+					"y" : 50.0,
+					"z" : 150.0,
+				},
+			},
+
+			"collision shape 2sub-sub-sub-block " :  {
+
+				"u3" : 1,
+				"w" : -15.0,
+				"x" : 15.0,
+				"z" : 1,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Damage",
+			"number" : 118,
+
+			"damagesub-sub-sub-block " :  {
+
+				"u0" : 2,
+				"u1" : 0,
+				"u2" : 0,
+				"u3" : 1,
+				"u5" : 1.0,
+				"u6" : 0.0,
+				"u7" : 0,
+				"u8" : 1,
+			},
+		},
+
+		"positionsub-sub-block " :  {
+
+			"x position" : 0.0,
+			"y position" : 0.0,
+		},
+		"z position" : 0.0,
+		"rotation" : 0.0,
+		"scale" : 1.0,
+
+		"u0sub-sub-block " :  {
+
+			"w" : -50.0,
+			"x" : -50.0,
+			"y" : 100.0,
+			"z" : 210.0,
+		},
+		"hidden" : 0,
+	},
+	"u0" : 1.0,
+},
+
+"?itemblock " :  {
+
+
+	"?sub-itemsub-block " :  {
+
+		"name" : "firesprayer",
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Model",
+			"number" : 101,
+
+			"3D modelsub-sub-sub-block " :  {
+
+				"name" : "fire_firespray",
+				"u0" : 0.0,
+				"u1" : 0.0,
+				"u2" : 0.0,
+
+				"u3sub-sub-sub-sub-block " :  {
+
+					"w" : 1.0,
+					"x" : 1.0,
+					"y" : 1.0,
+					"z" : 1.0,
+				},
+
+				"u4sub-sub-sub-sub-block " :  {
+
+					"x" : 0.0,
+					"y" : 0.0,
+					"z" : 0.0,
+				},
+				"u5" : 0,
+
+				"u6sub-sub-sub-sub-block " :  {
+
+					"w" : 1.0,
+					"x" : 1.0,
+					"y" : 1.0,
+					"z" : 1.0,
+				},
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Program",
+			"number" : 102,
+
+			"programsub-sub-sub-block " :  {
+
+				"u0" : 1,
+
+				"lua chunksub-sub-sub-sub-block " :  {
+
+					"main chunk" : "chunk >
+
+					=== lua =============
+					local self = ...;
+					
+					Program.Wait(2.0);
+					
+					local spray = Scene.CreateObject(\"firespray\", \"fspr\", self);
+					spray:setRotation(self:rotation());
+					TransformController.ScaleTo(spray, 0.01, 0);
+					spray:setHidden(true);
+					
+					
+					while true do
+						spray:setHidden(false);
+						TransformController.ScaleTo(spray, 1, 0.6);
+					
+						Program.Wait(4.0);
+						
+						TransformController.ScaleTo(spray, 0.01, 1.5);
+						Program.Wait(2);
+						spray:setHidden(true);
+					
+						Program.Wait(2.0);
+					end
+
+					=====================",
+					"secondary chunk" : "\\x1bLuaQ\\x00\\x01\\x04\\x04\\x04\\x08\\x00\\xc1\\x01\\x00\\x00local self = ...;\\r\\n\\r\\nProgram.Wait(2.0);\\r\\n\\r\\nlocal spray = Scene.CreateObject(\"firespray\", \"fspr\", self);\\r\\nspray:setRotation(self:rotation());\\r\\nTransformController.ScaleTo(spray, 0.01, 0);\\r\\nspray:setHidden(true);\\r\\n\\r\\n\\r\\nwhile true do\\r\\n\\tspray:setHidden(false);\\r\\n\\tTransformController.ScaleTo(spray, 1, 0.6);\\r\\n\\r\\n\\tProgram.Wait(4.0);\\r\\n\\t\\r\\n\\tTransformController.ScaleTo(spray, 0.01, 1.5);\\r\\n\\tProgram.Wait(2);\\r\\n\\tspray:setHidden(true);\\r\\n\\r\\n\\tProgram.Wait(2.0);\\r\\nend\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x02\\x068\\x00\\x00\\x00%\\x00\\x00\\x01E\\x00\\x00\\x00F@\\xc0\\x00\\x81\\x80\\x00\\x00\\\\@\\x00\\x01E\\xc0\\x00\\x00F\\x00\\xc1\\x00\\x81@\\x01\\x00\\xc1\\x80\\x01\\x00\\x00\\x01\\x00\\x00\\\\\\x80\\x00\\x02\\x8b\\xc0\\xc1\\x00\\x0b\\x01B\\x00\\x1c\\x01\\x00\\x01\\x9c@\\x00\\x00\\x85@\\x02\\x00\\x86\\x80B\\x01\\xc0\\x00\\x80\\x00\\x01\\xc1\\x02\\x00A\\x01\\x03\\x00\\x9c@\\x00\\x02\\x8b@\\xc3\\x00\\x02\\x01\\x80\\x00\\x9c@\\x80\\x01\\x8b@\\xc3\\x00\\x02\\x01\\x00\\x00\\x9c@\\x80\\x01\\x85@\\x02\\x00\\x86\\x80B\\x01\\xc0\\x00\\x80\\x00\\x01\\x81\\x03\\x00A\\xc1\\x03\\x00\\x9c@\\x00\\x02\\x85\\x00\\x00\\x00\\x86@@\\x01\\xc1\\x00\\x04\\x00\\x9c@\\x00\\x01\\x85@\\x02\\x00\\x86\\x80B\\x01\\xc0\\x00\\x80\\x00\\x01\\xc1\\x02\\x00AA\\x04\\x00\\x9c@\\x00\\x02\\x85\\x00\\x00\\x00\\x86@@\\x01\\xc1\\x80\\x00\\x00\\x9c@\\x00\\x01\\x8b@\\xc3\\x00\\x02\\x01\\x80\\x00\\x9c@\\x80\\x01\\x85\\x00\\x00\\x00\\x86@@\\x01\\xc1\\x80\\x00\\x00\\x9c@\\x00\\x01\\x16\\x00\\xf8\\x7f\\x1e\\x00\\x80\\x00\\x12\\x00\\x00\\x00\\x04\\x08\\x00\\x00\\x00Program\\x00\\x04\\x05\\x00\\x00\\x00Wait\\x00\\x03\\x00\\x00\\x00\\x00\\x00\\x00\\x00@\\x04\\x06\\x00\\x00\\x00Scene\\x00\\x04\\r\\x00\\x00\\x00CreateObject\\x00\\x04\\n\\x00\\x00\\x00firespray\\x00\\x04\\x05\\x00\\x00\\x00fspr\\x00\\x04\\x0c\\x00\\x00\\x00setRotation\\x00\\x04\\t\\x00\\x00\\x00rotation\\x00\\x04\\x14\\x00\\x00\\x00TransformController\\x00\\x04\\x08\\x00\\x00\\x00ScaleTo\\x00\\x03{\\x14\\xaeG\\xe1z\\x84?\\x03\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x04\\n\\x00\\x00\\x00setHidden\\x00\\x03\\x00\\x00\\x00\\x00\\x00\\x00\\xf0?\\x03333333\\xe3?\\x03\\x00\\x00\\x00\\x00\\x00\\x00\\x10@\\x03\\x00\\x00\\x00\\x00\\x00\\x00\\xf8?\\x00\\x00\\x00\\x008\\x00\\x00\\x00\\x01\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x06\\x00\\x00\\x00\\x06\\x00\\x00\\x00\\x06\\x00\\x00\\x00\\x06\\x00\\x00\\x00\\x07\\x00\\x00\\x00\\x07\\x00\\x00\\x00\\x07\\x00\\x00\\x00\\x07\\x00\\x00\\x00\\x07\\x00\\x00\\x00\\x07\\x00\\x00\\x00\\x08\\x00\\x00\\x00\\x08\\x00\\x00\\x00\\x08\\x00\\x00\\x00\\x0c\\x00\\x00\\x00\\x0c\\x00\\x00\\x00\\x0c\\x00\\x00\\x00\\r\\x00\\x00\\x00\\r\\x00\\x00\\x00\\r\\x00\\x00\\x00\\r\\x00\\x00\\x00\\r\\x00\\x00\\x00\\r\\x00\\x00\\x00\\x0f\\x00\\x00\\x00\\x0f\\x00\\x00\\x00\\x0f\\x00\\x00\\x00\\x0f\\x00\\x00\\x00\\x11\\x00\\x00\\x00\\x11\\x00\\x00\\x00\\x11\\x00\\x00\\x00\\x11\\x00\\x00\\x00\\x11\\x00\\x00\\x00\\x11\\x00\\x00\\x00\\x12\\x00\\x00\\x00\\x12\\x00\\x00\\x00\\x12\\x00\\x00\\x00\\x12\\x00\\x00\\x00\\x13\\x00\\x00\\x00\\x13\\x00\\x00\\x00\\x13\\x00\\x00\\x00\\x15\\x00\\x00\\x00\\x15\\x00\\x00\\x00\\x15\\x00\\x00\\x00\\x15\\x00\\x00\\x00\\x15\\x00\\x00\\x00\\x16\\x00\\x00\\x00\\x02\\x00\\x00\\x00\\x05\\x00\\x00\\x00self\\x00\\x01\\x00\\x00\\x007\\x00\\x00\\x00\\x06\\x00\\x00\\x00spray\\x00\\x0b\\x00\\x00\\x007\\x00\\x00\\x00\\x00\\x00\\x00\\x00",
+				},
+				"u1" : 1,
+				"u2" : 1,
+			},
+		},
+
+		"positionsub-sub-block " :  {
+
+			"x position" : 0.0,
+			"y position" : 0.0,
+		},
+		"z position" : 0.0,
+		"rotation" : 0.0,
+		"scale" : 1.0,
+
+		"u0sub-sub-block " :  {
+
+			"w" : 0.0,
+			"x" : 0.0,
+			"y" : 0.0,
+			"z" : 0.0,
+		},
+		"hidden" : 0,
+	},
+	"u0" : 1.0,
+},
+
+"?itemblock " :  {
+
+
+	"?sub-itemsub-block " :  {
+
+		"name" : "lava#2",
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "WaterMesh",
+			"number" : 101,
+
+			"water meshsub-sub-sub-block " :  {
+
+				"u0" : 111,
+				"u1" : 106,
+
+				"u2sub-sub-sub-sub-block " :  {
+
+					"w" : 1.0,
+					"x" : 0.0,
+					"y" : 0.0,
+					"z" : 0.7444444298744202,
+				},
+
+				"sub-sub-sub-sub-block " :  {
+
+					"w" : 1.0,
+					"x" : 0.0,
+					"y" : 0.0,
+					"z" : 0.7444444298744202,
+				},
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "TextureMapping",
+			"number" : 106,
+
+			"texture mappingsub-sub-sub-block " :  {
+
+				"texture file" : "water",
+				"u0" : 50.0,
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"u1" : 0.0,
+					"u2" : 0.0,
+				},
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "MonsterEntity",
+			"number" : 109,
+
+			"entitysub-sub-sub-block " :  {
+
+				"u0" : 1,
+				"u1" : 0,
+			},
+
+			"?monster entitysub-sub-sub-block " :  {
+
+				"u0" : "",
+
+				"lua chunksub-sub-sub-sub-block " :  {
+
+				},
+				"u2" : 1,
+				"u3" : 1,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "CollisionShape",
+			"number" : 111,
+
+			"collision shapesub-sub-sub-block " :  {
+
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"w" : -700.0,
+					"x" : -200.0,
+					"y" : 2100.0,
+					"z" : 800.0,
+				},
+			},
+
+			"collision shape 2sub-sub-sub-block " :  {
+
+				"u3" : 1,
+				"w" : -15.0,
+				"x" : 15.0,
+
+				"lua chunksub-sub-sub-sub-block " :  {
+
+					"main chunk" : "chunk >
+
+					=== lua =============
+					local self, target = ...;
+					
+					if target:identifier() == \"hero\" then
+						local blast = Scene.CreateObject(\"fireblast\", \"ffblsa\");
+						blast:setPosition(target:position() + Vector3.New(0,-20,0));
+						SoundLibrary.PlayEffect(\"woosh1\");
+					end
+
+					=====================",
+					"secondary chunk" : "\\x1bLuaQ\\x00\\x01\\x04\\x04\\x04\\x08\\x00\\xe7\\x00\\x00\\x00local self, target = ...;\\r\\n\\r\\nif target:identifier() == \"hero\" then\\r\\n\\tlocal blast = Scene.CreateObject(\"fireblast\", \"ffblsa\");\\r\\n\\tblast:setPosition(target:position() + Vector3.New(0,-20,0));\\r\\n\\tSoundLibrary.PlayEffect(\"woosh1\");\\r\\nend\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x02\\n\\x1a\\x00\\x00\\x00%\\x00\\x80\\x01\\x8b\\x00\\xc0\\x00\\x9c\\x80\\x00\\x01\\x17@@\\x01\\x16\\xc0\\x04\\x80\\x85\\x80\\x00\\x00\\x86\\xc0@\\x01\\xc1\\x00\\x01\\x00\\x01A\\x01\\x00\\x9c\\x80\\x80\\x01\\xcb\\x80A\\x01K\\xc1\\xc1\\x00\\\\\\x81\\x00\\x01\\x85\\x01\\x02\\x00\\x86AB\\x03\\xc1\\x81\\x02\\x00\\x01\\xc2\\x02\\x00A\\x82\\x02\\x00\\x9c\\x81\\x00\\x02L\\x81\\x81\\x02\\xdc@\\x80\\x01\\xc5\\x00\\x03\\x00\\xc6@\\xc3\\x01\\x01\\x81\\x03\\x00\\xdc@\\x00\\x01\\x1e\\x00\\x80\\x00\\x0f\\x00\\x00\\x00\\x04\\x0b\\x00\\x00\\x00identifier\\x00\\x04\\x05\\x00\\x00\\x00hero\\x00\\x04\\x06\\x00\\x00\\x00Scene\\x00\\x04\\r\\x00\\x00\\x00CreateObject\\x00\\x04\\n\\x00\\x00\\x00fireblast\\x00\\x04\\x07\\x00\\x00\\x00ffblsa\\x00\\x04\\x0c\\x00\\x00\\x00setPosition\\x00\\x04\\t\\x00\\x00\\x00position\\x00\\x04\\x08\\x00\\x00\\x00Vector3\\x00\\x04\\x04\\x00\\x00\\x00New\\x00\\x03\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x00\\x00\\x004\\xc0\\x04\\r\\x00\\x00\\x00SoundLibrary\\x00\\x04\\x0b\\x00\\x00\\x00PlayEffect\\x00\\x04\\x07\\x00\\x00\\x00woosh1\\x00\\x00\\x00\\x00\\x00\\x1a\\x00\\x00\\x00\\x01\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x06\\x00\\x00\\x00\\x06\\x00\\x00\\x00\\x06\\x00\\x00\\x00\\x06\\x00\\x00\\x00\\x07\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x05\\x00\\x00\\x00self\\x00\\x01\\x00\\x00\\x00\\x19\\x00\\x00\\x00\\x07\\x00\\x00\\x00target\\x00\\x01\\x00\\x00\\x00\\x19\\x00\\x00\\x00\\x06\\x00\\x00\\x00blast\\x00\\n\\x00\\x00\\x00\\x19\\x00\\x00\\x00\\x00\\x00\\x00\\x00",
+				},
+				"z" : 1,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Damage",
+			"number" : 113,
+
+			"damagesub-sub-sub-block " :  {
+
+				"u0" : 4,
+				"u1" : 0,
+				"u2" : 0,
+				"u5" : 1.0,
+				"u6" : 0.0,
+				"u7" : 1,
+				"u8" : 1,
+			},
+		},
+
+		"positionsub-sub-block " :  {
+
+			"x position" : 0.0,
+			"y position" : 0.0,
+		},
+		"z position" : 0.0,
+		"rotation" : 0.0,
+		"scale" : 1.0,
+
+		"u0sub-sub-block " :  {
+
+			"w" : -700.0,
+			"x" : -200.0,
+			"y" : 2100.0,
+			"z" : 800.0,
+		},
+		"hidden" : 0,
+	},
+	"u0" : 1.0,
+},
+
+"?itemblock " :  {
+
+
+	"?sub-itemsub-block " :  {
+
+		"name" : "magmapallo",
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "CollisionShape",
+			"number" : 1,
+
+			"collision shapesub-sub-sub-block " :  {
+
+
+				"u1sub-sub-sub-sub-block " :  {
+
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"y" : 0.0,
+						"z" : 0.0,
+					},
+					"u1" : 55.0,
+				},
+			},
+
+			"collision shape 2sub-sub-sub-block " :  {
+
+				"u1" : 1,
+				"u3" : 1,
+				"w" : -15.0,
+				"x" : 15.0,
+
+				"lua chunksub-sub-sub-sub-block " :  {
+
+					"main chunk" : "chunk >
+
+					=== lua =============
+					local self, target, collisionNormal, groundCollision = ...;
+					
+					if groundCollision then
+						Camera.Rumble();
+					end
+					
+
+					=====================",
+					"secondary chunk" : "\\x1bLuaQ\\x00\\x01\\x04\\x04\\x04\\x08\\x00q\\x00\\x00\\x00local self, target, collisionNormal, groundCollision = ...;\\r\\n\\r\\nif groundCollision then\\r\\n\\tCamera.Rumble();\\r\\nend\\r\\n\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x02\\x05\\x07\\x00\\x00\\x00%\\x00\\x80\\x02\\xda\\x00\\x00\\x00\\x16\\x80\\x00\\x80\\x05\\x01\\x00\\x00\\x06A@\\x02\\x1cA\\x80\\x00\\x1e\\x00\\x80\\x00\\x02\\x00\\x00\\x00\\x04\\x07\\x00\\x00\\x00Camera\\x00\\x04\\x07\\x00\\x00\\x00Rumble\\x00\\x00\\x00\\x00\\x00\\x07\\x00\\x00\\x00\\x01\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x05\\x00\\x00\\x00self\\x00\\x01\\x00\\x00\\x00\\x06\\x00\\x00\\x00\\x07\\x00\\x00\\x00target\\x00\\x01\\x00\\x00\\x00\\x06\\x00\\x00\\x00\\x10\\x00\\x00\\x00collisionNormal\\x00\\x01\\x00\\x00\\x00\\x06\\x00\\x00\\x00\\x10\\x00\\x00\\x00groundCollision\\x00\\x01\\x00\\x00\\x00\\x06\\x00\\x00\\x00\\x00\\x00\\x00\\x00",
+				},
+				"z" : 1,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "TransformController",
+			"number" : 2,
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "PhysicsObject",
+			"number" : 3,
+
+			"physics objectsub-sub-sub-block " :  {
+
+				"u0" : 1,
+				"u3" : 0.0,
+				"u4" : 0.0,
+				"u5" : 400.0,
+				"u6" : 1,
+				"u7" : 0.800000011920929,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "ProjectileController",
+			"number" : 4,
+
+			"projectile controllersub-sub-sub-block " :  {
+
+				"u0" : 0,
+				"u1" : 0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Light",
+			"number" : 5,
+
+			"lightsub-sub-sub-block " :  {
+
+				"u0" : 3,
+				"u1" : 1.5,
+
+				"u2sub-sub-sub-sub-block " :  {
+
+					"w" : 1.0,
+					"x" : 0.7555555701255798,
+					"y" : 0.5222222208976746,
+					"z" : 1.0,
+				},
+				"u3" : 0.0,
+				"u4" : 0.00019999999494757503,
+
+				"u5sub-sub-sub-sub-block " :  {
+
+					"x" : 0.0,
+					"y" : 0.0,
+					"z" : 0.0,
+				},
+				"u6" : 200.0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "ParticleEmitter",
+			"number" : 6,
+
+			"particle emittersub-sub-sub-block " :  {
+
+				"particle" : 7,
+				"particle" : 8,
+				"particle" : 9,
+				"u1" : 0,
+				"u2" : 60,
+				"u3" : 0,
+				"u4" : 0,
+
+				"u5sub-sub-sub-sub-block " :  {
+
+					"u0" : 3,
+
+					"u1sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 0.8587653636932373,
+						"x" : 0.3952264189720154,
+						"y" : 0.16345691680908203,
+						"z" : 0.0,
+					},
+					"u2" : 0.009999999776482582,
+					"u2" : 0.4000000059604645,
+					"u2" : 2.0,
+					"u2" : 60.0,
+					"u2" : 0.30000001192092896,
+					"u2" : 0.0,
+					"u2" : 1.0,
+					"u3" : 0.0,
+					"u4" : 0.0,
+					"u5" : 0.0,
+
+					"u6sub-sub-sub-sub-sub-block " :  {
+
+						"u0" : 0.0,
+						"u1" : 0.0,
+						"u2" : 53.0,
+					},
+				},
+				"u6" : 0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Particle",
+			"number" : 7,
+
+			"particlesub-sub-sub-block " :  {
+
+				"name" : "particle_fure_1",
+				"u0" : 20.0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Particle",
+			"number" : 8,
+
+			"particlesub-sub-sub-block " :  {
+
+				"name" : "particle_fure_2",
+				"u0" : 23.0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Particle",
+			"number" : 9,
+
+			"particlesub-sub-sub-block " :  {
+
+				"name" : "particle_fure_3",
+				"u0" : 17.0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "SimpleGlow",
+			"number" : 11,
+
+			"simple glowsub-sub-sub-block " :  {
+
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"w" : 0.38333335518836975,
+					"x" : 0.12777778506278992,
+					"y" : 0.12777787446975708,
+					"z" : 0.0,
+				},
+				"u1" : 90.0,
+				"u2" : 10,
+				"u3" : 0.0,
+				"u4" : 0.15000000596046448,
+				"u5" : 0.800000011920929,
+
+				"u6sub-sub-sub-sub-block " :  {
+
+					"y" : 0.0,
+					"z" : 0.0,
+				},
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Damage",
+			"number" : 12,
+
+			"damagesub-sub-sub-block " :  {
+
+				"u0" : 1,
+				"u1" : 0,
+				"u2" : 0,
+				"u5" : 1.0,
+				"u6" : 0.0,
+				"u7" : 0,
+				"u8" : 1,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Model",
+			"number" : 101,
+
+			"3D modelsub-sub-sub-block " :  {
+
+				"name" : "balloffire",
+				"u0" : 0.0,
+				"u1" : 1.0,
+				"u2" : 0.0,
+
+				"u3sub-sub-sub-sub-block " :  {
+
+					"w" : 0.41960784792900085,
+					"x" : 0.2235294133424759,
+					"y" : 0.1764705926179886,
+					"z" : 1.0,
+				},
+
+				"u4sub-sub-sub-sub-block " :  {
+
+					"x" : 0.0,
+					"y" : 0.0,
+					"z" : 0.0,
+				},
+				"u5" : 0,
+
+				"u6sub-sub-sub-sub-block " :  {
+
+					"w" : 1.0,
+					"x" : 1.0,
+					"y" : 1.0,
+					"z" : 1.0,
+				},
+			},
+		},
+
+		"positionsub-sub-block " :  {
+
+			"x position" : 0.0,
+			"y position" : 0.0,
+		},
+		"z position" : 0.0,
+		"rotation" : 0.0,
+		"scale" : 1.0,
+
+		"u0sub-sub-block " :  {
+
+			"w" : -90.0,
+			"x" : -90.0,
+			"y" : 180.0,
+			"z" : 180.0,
+		},
+		"hidden" : 0,
+
+		"lua chunksub-sub-block " :  {
+
+			"main chunk" : "chunk >
+
+			=== lua =============
+			local self = ...;
+			
+			Program.Wait(5);
+			
+			if self:isAlive() then
+				self:destroy();
+				Scene.CreateObject(\"blast\", \"bbb\", self);
+			end
+
+			=====================",
+			"secondary chunk" : "\\x1bLuaQ\\x00\\x01\\x04\\x04\\x04\\x08\\x00\\x83\\x00\\x00\\x00local self = ...;\\r\\n\\r\\nProgram.Wait(5);\\r\\n\\r\\nif self:isAlive() then\\r\\n\\tself:destroy();\\r\\n\\tScene.CreateObject(\"blast\", \"bbb\", self);\\r\\nend\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x02\\x05\\x12\\x00\\x00\\x00%\\x00\\x00\\x01E\\x00\\x00\\x00F@\\xc0\\x00\\x81\\x80\\x00\\x00\\\\@\\x00\\x01K\\xc0@\\x00\\\\\\x80\\x00\\x01Z\\x00\\x00\\x00\\x16\\xc0\\x01\\x80K\\x00A\\x00\\\\@\\x00\\x01E@\\x01\\x00F\\x80\\xc1\\x00\\x81\\xc0\\x01\\x00\\xc1\\x00\\x02\\x00\\x00\\x01\\x00\\x00\\\\@\\x00\\x02\\x1e\\x00\\x80\\x00\\t\\x00\\x00\\x00\\x04\\x08\\x00\\x00\\x00Program\\x00\\x04\\x05\\x00\\x00\\x00Wait\\x00\\x03\\x00\\x00\\x00\\x00\\x00\\x00\\x14@\\x04\\x08\\x00\\x00\\x00isAlive\\x00\\x04\\x08\\x00\\x00\\x00destroy\\x00\\x04\\x06\\x00\\x00\\x00Scene\\x00\\x04\\r\\x00\\x00\\x00CreateObject\\x00\\x04\\x06\\x00\\x00\\x00blast\\x00\\x04\\x04\\x00\\x00\\x00bbb\\x00\\x00\\x00\\x00\\x00\\x12\\x00\\x00\\x00\\x01\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x06\\x00\\x00\\x00\\x06\\x00\\x00\\x00\\x07\\x00\\x00\\x00\\x07\\x00\\x00\\x00\\x07\\x00\\x00\\x00\\x07\\x00\\x00\\x00\\x07\\x00\\x00\\x00\\x07\\x00\\x00\\x00\\x08\\x00\\x00\\x00\\x01\\x00\\x00\\x00\\x05\\x00\\x00\\x00self\\x00\\x01\\x00\\x00\\x00\\x11\\x00\\x00\\x00\\x00\\x00\\x00\\x00",
+		},
+	},
+	"u0" : 1.0,
+},
+
+"?itemblock " :  {
+
+
+	"?sub-itemsub-block " :  {
+
+		"name" : "rotating ground",
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "CollisionShape",
+			"number" : 1,
+			"? linked component" : 100,
+
+			"collision shapesub-sub-sub-block " :  {
+
+
+				"u2sub-sub-sub-sub-block " :  {
+
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"y" : -9.96514892578125,
+						"z" : -154.75289916992188,
+					},
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"y" : 21.5281982421875,
+						"z" : -150.70254516601562,
+					},
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"y" : 38.3050537109375,
+						"z" : -29.908004760742188,
+					},
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"y" : 62.6353759765625,
+						"z" : 12.703506469726562,
+					},
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"y" : 62.04803466796875,
+						"z" : 58.61082458496094,
+					},
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"y" : 37.72515869140625,
+						"z" : 136.3459014892578,
+					},
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"y" : -53.746337890625,
+						"z" : 154.75291442871094,
+					},
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"y" : -62.6353759765625,
+						"z" : 80.47584533691406,
+					},
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"y" : -50.49755859375,
+						"z" : 46.18775939941406,
+					},
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"y" : -44.12921142578125,
+						"z" : 40.49342346191406,
+					},
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"y" : -16.7825927734375,
+						"z" : -25.4476318359375,
+					},
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"y" : -45.80859375,
+						"z" : -152.2833251953125,
+					},
+					"u3" : 0,
+					"u4" : 1,
+				},
+			},
+
+			"collision shape 2sub-sub-sub-block " :  {
+
+				"u0" : 1,
+				"w" : -85.0,
+				"x" : 85.0,
+				"z" : 1,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "GroundPolygon",
+			"number" : 100,
+
+			"ground polygonsub-sub-sub-block " :  {
+
+
+				"sub-sub-sub-sub-block " :  {
+
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"x" : -9.96514892578125,
+						"y" : -154.75289916992188,
+					},
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"x" : 21.5281982421875,
+						"y" : -150.70254516601562,
+					},
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"x" : 38.3050537109375,
+						"y" : -29.908004760742188,
+					},
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"x" : 62.6353759765625,
+						"y" : 12.703506469726562,
+					},
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"x" : 62.04803466796875,
+						"y" : 58.61082458496094,
+					},
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"x" : 37.72515869140625,
+						"y" : 136.3459014892578,
+					},
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"x" : -53.746337890625,
+						"y" : 154.75291442871094,
+					},
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"x" : -62.6353759765625,
+						"y" : 80.47584533691406,
+					},
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"x" : -50.49755859375,
+						"y" : 46.18775939941406,
+					},
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"x" : -44.12921142578125,
+						"y" : 40.49342346191406,
+					},
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"x" : -16.7825927734375,
+						"y" : -25.4476318359375,
+					},
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"x" : -45.80859375,
+						"y" : -152.2833251953125,
+					},
+					"u0" : 0,
+					"u1" : 1,
+				},
+				"u1" : 1,
+				"u2" : -85.0,
+				"u3" : 85.0,
+				"u4" : "",
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "GroundMesh",
+			"number" : 101,
+
+			"ground meshsub-sub-sub-block " :  {
+
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"w" : -72.6353759765625,
+					"x" : -164.75289916992188,
+					"y" : 145.270751953125,
+					"z" : 329.50579833984375,
+				},
+
+				"u1sub-sub-sub-sub-block " :  {
+
+					"u0" : 22,
+					"u1" : 20,
+
+					"u2sub-sub-sub-sub-sub-block " :  {
+
+						"u0" : 4,
+						"u1" : 1,
+						"u2" : 2,
+						"u3" : 0,
+					},
+
+					"u3sub-sub-sub-sub-sub-block " :  {
+
+						"u0" : 7,
+						"u1" : 3,
+						"u2" : 32,
+						"u3" : 0,
+					},
+
+					"u4sub-sub-sub-sub-sub-block " :  {
+
+						"u0" : 7,
+						"u1" : 3,
+						"u2" : 32,
+						"u3" : 12,
+					},
+
+					"u5sub-sub-sub-sub-sub-block " :  {
+
+						"u0" : 7,
+						"u1" : 2,
+						"u2" : 32,
+						"u3" : 24,
+					},
+
+					"u6sub-sub-sub-sub-sub-block " :  {
+
+
+						"u0sub-sub-sub-sub-sub-sub-block " :  {
+
+							"w" : 1.0,
+							"x" : 1.0,
+							"y" : 1.0,
+							"z" : 1.0,
+						},
+
+						"u1sub-sub-sub-sub-sub-sub-block " :  {
+
+							"w" : 1.0,
+							"x" : 1.0,
+							"y" : 1.0,
+							"z" : 1.0,
+						},
+
+						"u2sub-sub-sub-sub-sub-sub-block " :  {
+
+							"w" : 1.0,
+							"x" : 1.0,
+							"y" : 1.0,
+							"z" : 1.0,
+						},
+						"u3" : 0.0,
+						"u4" : "\\n\\x10graveyard_ground\\x10\\x01 \\x01",
+					},
+
+					"u7sub-sub-sub-sub-sub-block " :  {
+
+						"u" : -62.6353759765625,
+						"v" : -154.75289916992188,
+						"w" : -110.93256378173828,
+						"x" : 125.270751953125,
+						"y" : 309.50579833984375,
+						"z" : 222.10585021972656,
+					},
+					"u8" : "@q\\x1f\\xc1\\xbe\\xc0\\x1a\\xc3\\xf4\\xd4wB\\x9cB\\xc0<\\xf4\\xed\\x7f\\xbf\\x00\\x00\\x00\\x00\\x00\\x00\\x00?\\xe8q??@q\\x1f\\xc1\\xbe\\xc0\\x1a\\xc3}\\xfc\\xcc\\xc2\\x9cB\\xc0<\\xf4\\xed\\x7f\\xbf\\x00\\x00\\x00\\x00\\x00\\x00\\x00?N`\\xb8=\\xc09\\xacA\\xda\\xb3\\x16\\xc3\\xec\\xfbbB&\\xc6n?\\xcc\\xa3\\xb8\\xbe\\x00\\x00\\x00\\x00\\xca\\x83 ?\\xa1\\x1b:?\\xc09\\xacA\\xda\\xb3\\x16\\xc3y\\xdd\\xdd\\xc2&\\xc6n?\\xcc\\xa3\\xb8\\xbe\\x00\\x00\\x00\\x00\\xca\\x83 ?\\x1b{f=`8\\x19B\\x98C\\xef\\xc1\\x8f\\xd2\\xb4B\\xcaCx?\\x8c\\xd1y\\xbe\\x00\\x00\\x00\\x00\\xa7\\xb2\\x8e?\\xc4\\x94\\\\?`8\\x19B\\x98C\\xef\\xc1\\x0c\\x03\\xd2\\xc2\\xcaCx?\\x8c\\xd1y\\xbe\\x00\\x00\\x00\\x00\\xa7\\xb2\\x8e?\\x8f\\xca\\xa3=\\xa0\\x8azB\\x90AKA=\\xe8\\xc4B\\x8bBw?\\x87\\xa4\\x84\\xbe\\x00\\x00\\x00\\x00$\\xd2\\xa7?\\x05\\xd1d?\\xa0\\x8azB\\x90AKA\\x95\\xa0\\x97\\xc2\\x8bBw?\\x87\\xa4\\x84\\xbe\\x00\\x00\\x00\\x00$\\xd2\\xa7?\\xa4wI>01xB|qjB\\xb9X\\xdeB\\x1d\\xf5z?\\xd2=J>\\x00\\x00\\x00\\x00\\xccS\\xbf?i\\xd7q?01xB|qjB5P\\xcc\\xc2\\x1d\\xf5z?\\xd2=J>\\x00\\x00\\x00\\x00\\xccS\\xbf?\\xf8!\\xbb=\\x90\\xe6\\x16B\\x8dX\\x08CIr\\xa2BI\\x88#?\\xb6\\xf5D?\\x00\\x00\\x00\\x00\\xcf\\x07\\xe9?.,S?\\x90\\xe6\\x16B\\x8dX\\x08C\\x9e\\x85\\x95\\xc2I\\x88#?\\xb6\\xf5D?\\x00\\x00\\x00\\x00\\xcf\\x07\\xe9?q\\xc7M>@\\xfcV\\xc2\\xbf\\xc0\\x1aC\\x81\\x8d\\xcaB\\xc0\\t\\xf9\\xbe\\x16\\xad_?\\x00\\x00\\x00\\x00\\xc1f\\x0c@\\xfe\\xb4g?@\\xfcV\\xc2\\xbf\\xc0\\x1aC[n\\x88\\xc2\\xc0\\t\\xf9\\xbe\\x16\\xad_?\\x00\\x00\\x00\\x00\\xc1f\\x0c@\\xd3\\x96h>\\xa0\\x8az\\xc2\\xa2\\xf3\\xa0B}3\\x9bB\\xac\\xe2\\x7f\\xbf\\x8e\\x08\\xf5\\xbc\\x00\\x00\\x00\\x00O\\x8d\\x1f@\\x86vO?\\xa0\\x8az\\xc2\\xa2\\xf3\\xa0B\'\\xc0\\xd0\\xc2\\xac\\xe2\\x7f\\xbf\\x8e\\x08\\xf5\\xbc\\x00\\x00\\x00\\x00O\\x8d\\x1f@#\\xf5\\xa8=\\x80\\xfdI\\xc2D\\xc08B\\x0fN\\xdaB$Rh\\xbf\\x1b\\x10\\xd7\\xbe\\x00\\x00\\x00\\x00\\r\\xdd(@\\xa9\\xc5o?\\x80\\xfdI\\xc2D\\xc08B@\\x9c\\xb4\\xc2$Rh\\xbf\\x1b\\x10\\xd7\\xbe\\x00\\x00\\x00\\x00\\r\\xdd(@)\\x1c\\x0e>P\\x840\\xc2D\\xf9!B\\xe7,\\xc8B\\xdc\\xa0g\\xbf\\xc0\\x07\\xda\\xbe\\x00\\x00\\x00\\x00\\xec\\x0c+@d}f?P\\x840\\xc2D\\xf9!B\\xbf=_\\xc2\\xdc\\xa0g\\xbf\\xc0\\x07\\xda\\xbe\\x00\\x00\\x00\\x00\\xec\\x0c+@T\\xb3\\x8d>\\xc0B\\x86\\xc1\\xc0\\x94\\xcb\\xc1\\xc6\\xd0\\xa3B\\x84\\xfd\\x7f\\xbfv\\xb9\\x0e<\\x00\\x00\\x00\\x00RS=@\\xa1\\xdfS?\\xc0B\\x86\\xc1\\xc0\\x94\\xcb\\xc1\\xfd\\xc8f\\xc2\\x84\\xfd\\x7f\\xbfv\\xb9\\x0e<\\x00\\x00\\x00\\x00RS=@\\x89\\xd6\\x89>",
+					"u9" : "\\x00\\x00\\x01\\x00\\x02\\x00\\x01\\x00\\x03\\x00\\x02\\x00\\x02\\x00\\x03\\x00\\x04\\x00\\x03\\x00\\x05\\x00\\x04\\x00\\x04\\x00\\x05\\x00\\x06\\x00\\x05\\x00\\x07\\x00\\x06\\x00\\x06\\x00\\x07\\x00\\x08\\x00\\x07\\x00\\t\\x00\\x08\\x00\\x08\\x00\\t\\x00\\n\\x00\\t\\x00\\x0b\\x00\\n\\x00\\n\\x00\\x0b\\x00\\x0c\\x00\\x0b\\x00\\r\\x00\\x0c\\x00\\x0c\\x00\\r\\x00\\x0e\\x00\\r\\x00\\x0f\\x00\\x0e\\x00\\x0e\\x00\\x0f\\x00\\x10\\x00\\x0f\\x00\\x11\\x00\\x10\\x00\\x10\\x00\\x11\\x00\\x12\\x00\\x11\\x00\\x13\\x00\\x12\\x00\\x12\\x00\\x13\\x00\\x14\\x00\\x13\\x00\\x15\\x00\\x14\\x00",
+				},
+
+				"u1sub-sub-sub-sub-block " :  {
+
+					"u0" : 6,
+					"u1" : 4,
+
+					"u2sub-sub-sub-sub-sub-block " :  {
+
+						"u0" : 4,
+						"u1" : 1,
+						"u2" : 2,
+						"u3" : 0,
+					},
+
+					"u3sub-sub-sub-sub-sub-block " :  {
+
+						"u0" : 7,
+						"u1" : 3,
+						"u2" : 32,
+						"u3" : 0,
+					},
+
+					"u4sub-sub-sub-sub-sub-block " :  {
+
+						"u0" : 7,
+						"u1" : 3,
+						"u2" : 32,
+						"u3" : 12,
+					},
+
+					"u5sub-sub-sub-sub-sub-block " :  {
+
+						"u0" : 7,
+						"u1" : 2,
+						"u2" : 32,
+						"u3" : 24,
+					},
+
+					"u6sub-sub-sub-sub-sub-block " :  {
+
+
+						"u0sub-sub-sub-sub-sub-sub-block " :  {
+
+							"w" : 1.0,
+							"x" : 1.0,
+							"y" : 1.0,
+							"z" : 1.0,
+						},
+
+						"u1sub-sub-sub-sub-sub-sub-block " :  {
+
+							"w" : 1.0,
+							"x" : 1.0,
+							"y" : 1.0,
+							"z" : 1.0,
+						},
+
+						"u2sub-sub-sub-sub-sub-sub-block " :  {
+
+							"w" : 1.0,
+							"x" : 1.0,
+							"y" : 1.0,
+							"z" : 1.0,
+						},
+						"u3" : 0.0,
+						"u4" : "\\n\\x10graveyard_ground\\x10\\x01 \\x01",
+					},
+
+					"u7sub-sub-sub-sub-sub-block " :  {
+
+						"u" : -45.80859375,
+						"v" : -154.75289916992188,
+						"w" : -102.4931411743164,
+						"x" : 35.84344482421875,
+						"y" : 129.30526733398438,
+						"z" : 190.6591033935547,
+					},
+					"u8" : "@q\\x1f\\xc1\\xbe\\xc0\\x1a\\xc3\\xf4\\xd4wB\\x9cB\\xc0<\\xf4\\xed\\x7f\\xbf\\x00\\x00\\x00\\x00\\x00\\x00\\x00?\\xe8q??@q\\x1f\\xc1\\xbe\\xc0\\x1a\\xc3}\\xfc\\xcc\\xc2\\x9cB\\xc0<\\xf4\\xed\\x7f\\xbf\\x00\\x00\\x00\\x00\\x00\\x00\\x00?N`\\xb8=\\xc0B\\x86\\xc1\\xc0\\x94\\xcb\\xc1\\xc6\\xd0\\xa3B\\x84\\xfd\\x7f\\xbfv\\xb9\\x0e<\\x00\\x00\\x00\\x00RS=@\\xa1\\xdfS?\\xc0B\\x86\\xc1\\xc0\\x94\\xcb\\xc1\\xfd\\xc8f\\xc2\\x84\\xfd\\x7f\\xbfv\\xb9\\x0e<\\x00\\x00\\x00\\x00RS=@\\x89\\xd6\\x89>\\x00<7\\xc2\\x88H\\x18\\xc3\\xf9T\\xb0B\\x1a\\xa5\\x7f\\xbf\\x0f\\xa8W\\xbd\\x00\\x00\\x00\\x00\\x82\\xa2^@.HZ?\\x00<7\\xc2\\x88H\\x18\\xc35\\xb2\\x9a\\xc2\\x1a\\xa5\\x7f\\xbf\\x0f\\xa8W\\xbd\\x00\\x00\\x00\\x00\\x82\\xa2^@\\xae.C>",
+					"u9" : "\\x02\\x00\\x03\\x00\\x04\\x00\\x03\\x00\\x05\\x00\\x04\\x00\\x04\\x00\\x05\\x00\\x00\\x00\\x05\\x00\\x01\\x00\\x00\\x00",
+				},
+
+				"u2sub-sub-sub-sub-block " :  {
+
+					"u0" : 30,
+					"u1" : 10,
+
+					"u2sub-sub-sub-sub-sub-block " :  {
+
+						"u0" : 7,
+						"u1" : 3,
+						"u2" : 32,
+						"u3" : 0,
+					},
+
+					"u3sub-sub-sub-sub-sub-block " :  {
+
+						"u0" : 7,
+						"u1" : 3,
+						"u2" : 32,
+						"u3" : 12,
+					},
+
+					"u4sub-sub-sub-sub-sub-block " :  {
+
+						"u0" : 7,
+						"u1" : 2,
+						"u2" : 32,
+						"u3" : 24,
+					},
+
+					"u5sub-sub-sub-sub-sub-block " :  {
+
+
+						"u0sub-sub-sub-sub-sub-sub-block " :  {
+
+							"w" : 1.0,
+							"x" : 1.0,
+							"y" : 1.0,
+							"z" : 1.0,
+						},
+
+						"u1sub-sub-sub-sub-sub-sub-block " :  {
+
+							"w" : 1.0,
+							"x" : 1.0,
+							"y" : 1.0,
+							"z" : 1.0,
+						},
+
+						"u2sub-sub-sub-sub-sub-sub-block " :  {
+
+							"w" : 1.0,
+							"x" : 1.0,
+							"y" : 1.0,
+							"z" : 1.0,
+						},
+						"u3" : 0.0,
+
+						"u4sub-sub-sub-sub-sub-sub-block " :  {
+
+							"u0" : "graveyard_ground",
+							"u1" : 1,
+							"u2" : 1,
+						},
+					},
+
+					"u3sub-sub-sub-sub-sub-block " :  {
+
+						"u" : -62.6353759765625,
+						"v" : -154.75289916992188,
+						"w" : 56.74601745605469,
+						"x" : 125.270751953125,
+						"y" : 309.50579833984375,
+						"z" : 54.427268981933594,
+					},
+					"u7" : "\\x80\\xfdI\\xc2D\\xc08B\\x0fN\\xdaB\\xaa\\x1eo\\xbf\\x81\\xfd\\x05\\xbb\\x95\\xd6\\xb6>\\xbc\\x94\\x98>\\xd8K/?@\\xfcV\\xc2\\xbf\\xc0\\x1aC\\x81\\x8d\\xcaB\\xaa\\x1eo\\xbf\\x81\\xfd\\x05\\xbb\\x95\\xd6\\xb6>q\\xed\\x91>\\xc6;\\x8f?\\xa0\\x8az\\xc2\\xa2\\xf3\\xa0B}3\\x9bB\\xaa\\x1eo\\xbf\\x81\\xfd\\x05\\xbb\\x95\\xd6\\xb6>\\x0cr\\x7f>ChR?@\\xfcV\\xc2\\xbf\\xc0\\x1aC\\x81\\x8d\\xcaB\\xb0\\xceU?\\xdbT\\x84=&\\xd1\\x0b?q\\xed\\x91>\\xc6;\\x8f?\\x80\\xfdI\\xc2D\\xc08B\\x0fN\\xdaB\\xb0\\xceU?\\xdbT\\x84=&\\xd1\\x0b?\\xbc\\x94\\x98>\\xd8K/?P\\x840\\xc2D\\xf9!B\\xe7,\\xc8B\\xb0\\xceU?\\xdbT\\x84=&\\xd1\\x0b?\\x96\\x9f\\xa5>\\x1cw)?@\\xfcV\\xc2\\xbf\\xc0\\x1aC\\x81\\x8d\\xcaB~\\x14 ?\\xc0a6=IsG?q\\xed\\x91>\\xc6;\\x8f?P\\x840\\xc2D\\xf9!B\\xe7,\\xc8B~\\x14 ?\\xc0a6=IsG?\\x96\\x9f\\xa5>\\x1cw)?\\xc0B\\x86\\xc1\\xc0\\x94\\xcb\\xc1\\xc6\\xd0\\xa3B~\\x14 ?\\xc0a6=IsG?\\x17\\xa1\\xdd>\\x1d\\xe2\\xcb>\\xc0B\\x86\\xc1\\xc0\\x94\\xcb\\xc1\\xc6\\xd0\\xa3Bk\\x8b7>\\xf2&\\x10\\xbe)Cy?\\x17\\xa1\\xdd>\\x1d\\xe2\\xcb>@q\\x1f\\xc1\\xbe\\xc0\\x1a\\xc3\\xf4\\xd4wBk\\x8b7>\\xf2&\\x10\\xbe)Cy?d\\x97\\xeb>Z\\xbc\\xf3\\xbd\\xc09\\xacA\\xda\\xb3\\x16\\xc3\\xec\\xfbbBk\\x8b7>\\xf2&\\x10\\xbe)Cy?}\\x0b\\x16?%\\x8e\\xd2\\xbd@\\xfcV\\xc2\\xbf\\xc0\\x1aC\\x81\\x8d\\xcaB:\\xbc-?\\x0b\\xf4w=\\xb7a;?q\\xed\\x91>\\xc6;\\x8f?\\xc0B\\x86\\xc1\\xc0\\x94\\xcb\\xc1\\xc6\\xd0\\xa3B:\\xbc-?\\x0b\\xf4w=\\xb7a;?\\x17\\xa1\\xdd>\\x1d\\xe2\\xcb>\\xc09\\xacA\\xda\\xb3\\x16\\xc3\\xec\\xfbbB:\\xbc-?\\x0b\\xf4w=\\xb7a;?}\\x0b\\x16?%\\x8e\\xd2\\xbd@\\xfcV\\xc2\\xbf\\xc0\\x1aC\\x81\\x8d\\xcaB\\xaf\\xbcG>\\xd5\\x07\\xc1\\xbd\\xb4\\xeby?q\\xed\\x91>\\xc6;\\x8f?\\xc09\\xacA\\xda\\xb3\\x16\\xc3\\xec\\xfbbB\\xaf\\xbcG>\\xd5\\x07\\xc1\\xbd\\xb4\\xeby?}\\x0b\\x16?%\\x8e\\xd2\\xbd\\x90\\xe6\\x16B\\x8dX\\x08CIr\\xa2B\\xaf\\xbcG>\\xd5\\x07\\xc1\\xbd\\xb4\\xeby?m\\xa1&?!\\xcf\\x85?\\xc0B\\x86\\xc1\\xc0\\x94\\xcb\\xc1\\xc6\\xd0\\xa3B\\x05[\\x15?3\\xea\\xbf\\xbd\\xed\\x86N?\\x17\\xa1\\xdd>\\x1d\\xe2\\xcb>\\x00<7\\xc2\\x88H\\x18\\xc3\\xf9T\\xb0B\\x05[\\x15?3\\xea\\xbf\\xbd\\xed\\x86N?\\x1b/\\xa2>H\\x81\\xdf\\xbd@q\\x1f\\xc1\\xbe\\xc0\\x1a\\xc3\\xf4\\xd4wB\\x05[\\x15?3\\xea\\xbf\\xbd\\xed\\x86N?d\\x97\\xeb>Z\\xbc\\xf3\\xbd`8\\x19B\\x98C\\xef\\xc1\\x8f\\xd2\\xb4B\\xd4sk\\xbf\\xa6<\\x97<\\xaf\\xc1\\xc8>q9\'?\\x98\\xbf\\xc2>\\x90\\xe6\\x16B\\x8dX\\x08CIr\\xa2B\\xd4sk\\xbf\\xa6<\\x97<\\xaf\\xc1\\xc8>m\\xa1&?!\\xcf\\x85?\\xc09\\xacA\\xda\\xb3\\x16\\xc3\\xec\\xfbbB\\xd4sk\\xbf\\xa6<\\x97<\\xaf\\xc1\\xc8>}\\x0b\\x16?%\\x8e\\xd2\\xbd`8\\x19B\\x98C\\xef\\xc1\\x8f\\xd2\\xb4BE\\xa4:\\xbf\\xf1O\\x10=\\x01\\xfc.?q9\'?\\x98\\xbf\\xc2>01xB|qjB\\xb9X\\xdeBE\\xa4:\\xbf\\xf1O\\x10=\\x01\\xfc.?\\x85\\x89??z\\x04<?\\x90\\xe6\\x16B\\x8dX\\x08CIr\\xa2BE\\xa4:\\xbf\\xf1O\\x10=\\x01\\xfc.?m\\xa1&?!\\xcf\\x85?`8\\x19B\\x98C\\xef\\xc1\\x8f\\xd2\\xb4B\\xd9\\xd5\\x13>wf\\x86\\xbe\\xf9=t?q9\'?\\x98\\xbf\\xc2>\\xa0\\x8azB\\x90AKA=\\xe8\\xc4B\\xd9\\xd5\\x13>wf\\x86\\xbe\\xf9=t?}#@?&\\x02\\r?01xB|qjB\\xb9X\\xdeB\\xd9\\xd5\\x13>wf\\x86\\xbe\\xf9=t?\\x85\\x89??z\\x04<?",
+				},
+
+				"u3sub-sub-sub-sub-block " :  {
+
+					"w" : 1.0,
+					"x" : 1.0,
+					"y" : 1.0,
+					"z" : 1.0,
+				},
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "GroundMeshGenerator",
+			"number" : 102,
+
+			"ground mesh generatorsub-sub-sub-block " :  {
+
+				"ground polygon" : 100,
+				"ground mesh" : 101,
+				"texture mapping 1" : 103,
+				"texture mapping 2" : 104,
+				"u4" : 0,
+				"u5" : 70.0,
+				"u6" : 0,
+				"u7" : 170.0,
+				"u8" : 25.0,
+				"u9" : 5.0,
+				"u10" : 5.0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "TextureMapping",
+			"number" : 103,
+
+			"texture mappingsub-sub-sub-block " :  {
+
+				"texture file" : "graveyard_ground",
+				"u0" : 250.0,
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"u1" : 0.0,
+					"u2" : 0.0,
+				},
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "TextureMapping",
+			"number" : 104,
+
+			"texture mappingsub-sub-sub-block " :  {
+
+				"texture file" : "graveyard_ground",
+				"u0" : 250.0,
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"u1" : 0.0,
+					"u2" : 0.0,
+				},
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "TransformController",
+			"number" : 107,
+		},
+
+		"positionsub-sub-block " :  {
+
+			"x position" : 0.0,
+			"y position" : 0.0,
+		},
+		"z position" : 0.0,
+		"rotation" : 0.0,
+		"scale" : 1.0,
+
+		"u0sub-sub-block " :  {
+
+			"w" : -62.6353759765625,
+			"x" : -154.75289916992188,
+			"y" : 125.270751953125,
+			"z" : 309.50579833984375,
+		},
+		"hidden" : 0,
+
+		"lua chunksub-sub-block " :  {
+
+			"main chunk" : "chunk >
+
+			=== lua =============
+			local self = ...;
+			
+			while true do
+				TransformController.RotateBy(self, 360, 10.0);
+				Program.Wait(10.0);
+			end
+
+			=====================",
+			"secondary chunk" : "\\x1bLuaQ\\x00\\x01\\x04\\x04\\x04\\x08\\x00o\\x00\\x00\\x00local self = ...;\\r\\n\\r\\nwhile true do\\r\\n\\tTransformController.RotateBy(self, 360, 10.0);\\r\\n\\tProgram.Wait(10.0);\\r\\nend\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x02\\x05\\r\\x00\\x00\\x00%\\x00\\x00\\x01E\\x00\\x00\\x00F@\\xc0\\x00\\x80\\x00\\x00\\x00\\xc1\\x80\\x00\\x00\\x01\\xc1\\x00\\x00\\\\@\\x00\\x02E\\x00\\x01\\x00F@\\xc1\\x00\\x81\\xc0\\x00\\x00\\\\@\\x00\\x01\\x16\\x00\\xfd\\x7f\\x1e\\x00\\x80\\x00\\x06\\x00\\x00\\x00\\x04\\x14\\x00\\x00\\x00TransformController\\x00\\x04\\t\\x00\\x00\\x00RotateBy\\x00\\x03\\x00\\x00\\x00\\x00\\x00\\x80v@\\x03\\x00\\x00\\x00\\x00\\x00\\x00$@\\x04\\x08\\x00\\x00\\x00Program\\x00\\x04\\x05\\x00\\x00\\x00Wait\\x00\\x00\\x00\\x00\\x00\\r\\x00\\x00\\x00\\x01\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x06\\x00\\x00\\x00\\x01\\x00\\x00\\x00\\x05\\x00\\x00\\x00self\\x00\\x01\\x00\\x00\\x00\\x0c\\x00\\x00\\x00\\x00\\x00\\x00\\x00",
+		},
+	},
+	"u0" : 1.0,
+},
+
+"?itemblock " :  {
+
+
+	"?sub-itemsub-block " :  {
+
+		"name" : "stonepillairs",
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Model",
+			"number" : 101,
+
+			"3D modelsub-sub-sub-block " :  {
+
+				"name" : "fire_stonepillairs",
+				"u0" : 0.0,
+				"u1" : 0.0,
+				"u2" : 0.0,
+
+				"u3sub-sub-sub-sub-block " :  {
+
+					"w" : 1.0,
+					"x" : 1.0,
+					"y" : 1.0,
+					"z" : 1.0,
+				},
+
+				"u4sub-sub-sub-sub-block " :  {
+
+					"x" : 0.0,
+					"y" : 0.0,
+					"z" : 0.0,
+				},
+				"u5" : 0,
+
+				"u6sub-sub-sub-sub-block " :  {
+
+					"w" : 1.0,
+					"x" : 1.0,
+					"y" : 1.0,
+					"z" : 1.0,
+				},
+			},
+		},
+
+		"positionsub-sub-block " :  {
+
+			"x position" : 0.0,
+			"y position" : 0.0,
+		},
+		"z position" : 0.0,
+		"rotation" : 0.0,
+		"scale" : 1.0,
+
+		"u0sub-sub-block " :  {
+
+			"w" : 0.0,
+			"x" : 0.0,
+			"y" : 0.0,
+			"z" : 0.0,
+		},
+		"hidden" : 0,
+	},
+	"u0" : 1.0,
+},
+
+"?itemblock " :  {
+
+
+	"?sub-itemsub-block " :  {
+
+		"name" : "stonepillairs2",
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Model",
+			"number" : 101,
+
+			"3D modelsub-sub-sub-block " :  {
+
+				"name" : "fire_stonepillairs2",
+				"u0" : 0.0,
+				"u1" : 0.0,
+				"u2" : 0.0,
+
+				"u3sub-sub-sub-sub-block " :  {
+
+					"w" : 1.0,
+					"x" : 1.0,
+					"y" : 1.0,
+					"z" : 1.0,
+				},
+
+				"u4sub-sub-sub-sub-block " :  {
+
+					"x" : 0.0,
+					"y" : 0.0,
+					"z" : 0.0,
+				},
+				"u5" : 0,
+
+				"u6sub-sub-sub-sub-block " :  {
+
+					"w" : 1.0,
+					"x" : 1.0,
+					"y" : 1.0,
+					"z" : 1.0,
+				},
+			},
+		},
+
+		"positionsub-sub-block " :  {
+
+			"x position" : 0.0,
+			"y position" : 0.0,
+		},
+		"z position" : 0.0,
+		"rotation" : 0.0,
+		"scale" : 1.0,
+
+		"u0sub-sub-block " :  {
+
+			"w" : 0.0,
+			"x" : 0.0,
+			"y" : 0.0,
+			"z" : 0.0,
+		},
+		"hidden" : 0,
+	},
+	"u0" : 0.800000011920929,
+},
+
+"?itemblock " :  {
+
+
+	"?sub-itemsub-block " :  {
+
+		"name" : "stonepillairs3",
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Model",
+			"number" : 101,
+
+			"3D modelsub-sub-sub-block " :  {
+
+				"name" : "fire_stonepillairs3",
+				"u0" : 0.0,
+				"u1" : 0.0,
+				"u2" : 0.0,
+
+				"u3sub-sub-sub-sub-block " :  {
+
+					"w" : 1.0,
+					"x" : 1.0,
+					"y" : 1.0,
+					"z" : 1.0,
+				},
+
+				"u4sub-sub-sub-sub-block " :  {
+
+					"x" : 0.0,
+					"y" : 0.0,
+					"z" : 0.0,
+				},
+				"u5" : 0,
+
+				"u6sub-sub-sub-sub-block " :  {
+
+					"w" : 1.0,
+					"x" : 1.0,
+					"y" : 1.0,
+					"z" : 1.0,
+				},
+			},
+		},
+
+		"positionsub-sub-block " :  {
+
+			"x position" : 0.0,
+			"y position" : 0.0,
+		},
+		"z position" : 0.0,
+		"rotation" : 0.0,
+		"scale" : 1.0,
+
+		"u0sub-sub-block " :  {
+
+			"w" : 0.0,
+			"x" : 0.0,
+			"y" : 0.0,
+			"z" : 0.0,
+		},
+		"hidden" : 0,
+	},
+	"u0" : 1.0,
+},
+
+"?itemblock " :  {
+
+
+	"?sub-itemsub-block " :  {
+
+		"name" : "stonepillairs4",
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Model",
+			"number" : 101,
+
+			"3D modelsub-sub-sub-block " :  {
+
+				"name" : "fire_stonepillairs4",
+				"u0" : 0.0,
+				"u1" : 0.0,
+				"u2" : 0.0,
+
+				"u3sub-sub-sub-sub-block " :  {
+
+					"w" : 1.0,
+					"x" : 1.0,
+					"y" : 1.0,
+					"z" : 1.0,
+				},
+
+				"u4sub-sub-sub-sub-block " :  {
+
+					"x" : 0.0,
+					"y" : 0.0,
+					"z" : 0.0,
+				},
+				"u5" : 0,
+
+				"u6sub-sub-sub-sub-block " :  {
+
+					"w" : 1.0,
+					"x" : 1.0,
+					"y" : 1.0,
+					"z" : 1.0,
+				},
+			},
+		},
+
+		"positionsub-sub-block " :  {
+
+			"x position" : 0.0,
+			"y position" : 0.0,
+		},
+		"z position" : 0.0,
+		"rotation" : 0.0,
+		"scale" : 1.0,
+
+		"u0sub-sub-block " :  {
+
+			"w" : 0.0,
+			"x" : 0.0,
+			"y" : 0.0,
+			"z" : 0.0,
+		},
+		"hidden" : 0,
+	},
+	"u0" : 1.0,
+},
+
+}

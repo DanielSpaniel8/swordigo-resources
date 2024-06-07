@@ -1,0 +1,321 @@
+data = {
+"scl file name" : "notredi",
+
+"?itemblock " :  {
+
+
+	"?sub-itemsub-block " :  {
+
+		"name" : "kakkapiikkipy\\xf6ryl\\xe4",
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Model",
+			"number" : 101,
+
+			"3D modelsub-sub-sub-block " :  {
+
+				"name" : "spikey",
+				"u0" : 1.5707963705062866,
+				"u1" : 0.5,
+				"u2" : 0.0,
+
+				"u3sub-sub-sub-sub-block " :  {
+
+					"w" : 0.0,
+					"x" : 0.0,
+					"y" : 0.0,
+					"z" : 1.0,
+				},
+
+				"u4sub-sub-sub-sub-block " :  {
+
+					"x" : 0.0,
+					"y" : 0.0,
+					"z" : 0.0,
+				},
+				"u5" : 0,
+
+				"u6sub-sub-sub-sub-block " :  {
+
+					"w" : 1.0,
+					"x" : 1.0,
+					"y" : 1.0,
+					"z" : 1.0,
+				},
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "KeyframeAnimation",
+			"number" : 103,
+
+			"keyframe animationsub-sub-sub-block " :  {
+
+				"linked model component number" : 101,
+				"name" : "spikey_stand",
+				"u0" : 1,
+				"u1" : 1.0,
+				"u2" : 1,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "KeyframeAnimation",
+			"number" : 104,
+
+			"keyframe animationsub-sub-sub-block " :  {
+
+				"linked model component number" : 101,
+				"name" : "spikey_move",
+				"u0" : 1,
+				"u1" : 1.0,
+				"u2" : 1,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "AnimationController",
+			"number" : 105,
+
+			"animation controllersub-sub-sub-block " :  {
+
+				"model component" : 101,
+				"u1" : 0,
+				"u2" : 0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "GenericMonsterController",
+			"number" : 106,
+
+			"monster controllersub-sub-sub-block " :  {
+
+				"u0" : 100.0,
+				"u1" : 105,
+				"u2" : 107,
+				"u3" : 113,
+			},
+
+			"generic monster controllersub-sub-sub-block " :  {
+
+				"walk animation" : 104,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "MonsterEntity",
+			"number" : 107,
+
+			"entitysub-sub-sub-block " :  {
+
+				"u0" : 18446744073709551615,
+				"u1" : 1,
+			},
+
+			"?monster entitysub-sub-sub-block " :  {
+
+				"u0" : "",
+
+				"lua chunksub-sub-sub-sub-block " :  {
+
+				},
+				"u2" : 1,
+				"u3" : 1,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Attack",
+			"number" : 108,
+
+			"attacksub-sub-sub-block " :  {
+
+				"temp0" : 103,
+				"u0" : 111,
+				"u1" : 0,
+				"u2" : 120,
+				"u3" : 1.0,
+				"u4" : 1.0,
+				"u5" : 0.20000000298023224,
+				"u6" : 1.0,
+				"u7" : 0.10000000149011612,
+				"u8" : 0.20000000298023224,
+
+				"lua chunksub-sub-sub-sub-block " :  {
+
+					"main chunk" : "chunk >
+
+					=== lua =============
+					local self, target = ...;
+					
+					Program.Wait(0.1);
+					
+					spikes = Scene.CreateObject(\"spikey_spikes\",\"spikes1\");
+					
+					TransformController.ScaleTo(spikes,0.1,0);
+					spikes:setPosition(self:position()+Vector3.New(0,30,0));
+					TransformController.ScaleTo(spikes,1,0.1);
+					Program.Wait(0.3);
+					TransformController.ScaleTo(spikes,0.1,0.5);
+					
+					Program.Wait(0.8);
+					spikes:destroy();
+					
+
+					=====================",
+					"secondary chunk" : "\\x1bLuaQ\\x00\\x01\\x04\\x04\\x04\\x08\\x00l\\x01\\x00\\x00local self, target = ...;\\r\\n\\r\\nProgram.Wait(0.1);\\r\\n\\r\\nspikes = Scene.CreateObject(\"spikey_spikes\",\"spikes1\");\\r\\n\\r\\nTransformController.ScaleTo(spikes,0.1,0);\\r\\nspikes:setPosition(self:position()+Vector3.New(0,30,0));\\r\\nTransformController.ScaleTo(spikes,1,0.1);\\r\\nProgram.Wait(0.3);\\r\\nTransformController.ScaleTo(spikes,0.1,0.5);\\r\\n\\r\\nProgram.Wait(0.8);\\r\\nspikes:destroy();\\r\\n\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x02\\t5\\x00\\x00\\x00%\\x00\\x80\\x01\\x85\\x00\\x00\\x00\\x86@@\\x01\\xc1\\x80\\x00\\x00\\x9c@\\x00\\x01\\x85\\x00\\x01\\x00\\x86@A\\x01\\xc1\\x80\\x01\\x00\\x01\\xc1\\x01\\x00\\x9c\\x80\\x80\\x01\\x87\\xc0\\x00\\x00\\x85\\x00\\x02\\x00\\x86@B\\x01\\xc5\\xc0\\x00\\x00\\x01\\x81\\x00\\x00A\\x81\\x02\\x00\\x9c@\\x00\\x02\\x85\\xc0\\x00\\x00\\x8b\\xc0B\\x01\\x0b\\x01C\\x00\\x1c\\x81\\x00\\x01EA\\x03\\x00F\\x81\\xc3\\x02\\x81\\x81\\x02\\x00\\xc1\\xc1\\x03\\x00\\x01\\x82\\x02\\x00\\\\\\x81\\x00\\x02\\x0cA\\x01\\x02\\x9c@\\x80\\x01\\x85\\x00\\x02\\x00\\x86@B\\x01\\xc5\\xc0\\x00\\x00\\x01\\x01\\x04\\x00A\\x81\\x00\\x00\\x9c@\\x00\\x02\\x85\\x00\\x00\\x00\\x86@@\\x01\\xc1@\\x04\\x00\\x9c@\\x00\\x01\\x85\\x00\\x02\\x00\\x86@B\\x01\\xc5\\xc0\\x00\\x00\\x01\\x81\\x00\\x00A\\x81\\x04\\x00\\x9c@\\x00\\x02\\x85\\x00\\x00\\x00\\x86@@\\x01\\xc1\\xc0\\x04\\x00\\x9c@\\x00\\x01\\x85\\xc0\\x00\\x00\\x8b\\x00E\\x01\\x9c@\\x00\\x01\\x1e\\x00\\x80\\x00\\x15\\x00\\x00\\x00\\x04\\x08\\x00\\x00\\x00Program\\x00\\x04\\x05\\x00\\x00\\x00Wait\\x00\\x03\\x9a\\x99\\x99\\x99\\x99\\x99\\xb9?\\x04\\x07\\x00\\x00\\x00spikes\\x00\\x04\\x06\\x00\\x00\\x00Scene\\x00\\x04\\r\\x00\\x00\\x00CreateObject\\x00\\x04\\x0e\\x00\\x00\\x00spikey_spikes\\x00\\x04\\x08\\x00\\x00\\x00spikes1\\x00\\x04\\x14\\x00\\x00\\x00TransformController\\x00\\x04\\x08\\x00\\x00\\x00ScaleTo\\x00\\x03\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x04\\x0c\\x00\\x00\\x00setPosition\\x00\\x04\\t\\x00\\x00\\x00position\\x00\\x04\\x08\\x00\\x00\\x00Vector3\\x00\\x04\\x04\\x00\\x00\\x00New\\x00\\x03\\x00\\x00\\x00\\x00\\x00\\x00>@\\x03\\x00\\x00\\x00\\x00\\x00\\x00\\xf0?\\x03333333\\xd3?\\x03\\x00\\x00\\x00\\x00\\x00\\x00\\xe0?\\x03\\x9a\\x99\\x99\\x99\\x99\\x99\\xe9?\\x04\\x08\\x00\\x00\\x00destroy\\x00\\x00\\x00\\x00\\x005\\x00\\x00\\x00\\x01\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x07\\x00\\x00\\x00\\x07\\x00\\x00\\x00\\x07\\x00\\x00\\x00\\x07\\x00\\x00\\x00\\x07\\x00\\x00\\x00\\x07\\x00\\x00\\x00\\x08\\x00\\x00\\x00\\x08\\x00\\x00\\x00\\x08\\x00\\x00\\x00\\x08\\x00\\x00\\x00\\x08\\x00\\x00\\x00\\x08\\x00\\x00\\x00\\x08\\x00\\x00\\x00\\x08\\x00\\x00\\x00\\x08\\x00\\x00\\x00\\x08\\x00\\x00\\x00\\x08\\x00\\x00\\x00\\x08\\x00\\x00\\x00\\t\\x00\\x00\\x00\\t\\x00\\x00\\x00\\t\\x00\\x00\\x00\\t\\x00\\x00\\x00\\t\\x00\\x00\\x00\\t\\x00\\x00\\x00\\n\\x00\\x00\\x00\\n\\x00\\x00\\x00\\n\\x00\\x00\\x00\\n\\x00\\x00\\x00\\x0b\\x00\\x00\\x00\\x0b\\x00\\x00\\x00\\x0b\\x00\\x00\\x00\\x0b\\x00\\x00\\x00\\x0b\\x00\\x00\\x00\\x0b\\x00\\x00\\x00\\r\\x00\\x00\\x00\\r\\x00\\x00\\x00\\r\\x00\\x00\\x00\\r\\x00\\x00\\x00\\x0e\\x00\\x00\\x00\\x0e\\x00\\x00\\x00\\x0e\\x00\\x00\\x00\\x0e\\x00\\x00\\x00\\x02\\x00\\x00\\x00\\x05\\x00\\x00\\x00self\\x00\\x01\\x00\\x00\\x004\\x00\\x00\\x00\\x07\\x00\\x00\\x00target\\x00\\x01\\x00\\x00\\x004\\x00\\x00\\x00\\x00\\x00\\x00\\x00",
+				},
+				"u9" : 0.0,
+				"u10" : 0.0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "CollisionShape",
+			"number" : 109,
+
+			"collision shapesub-sub-sub-block " :  {
+
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"w" : -18.0,
+					"x" : 4.0,
+					"y" : 36.0,
+					"z" : 38.0,
+				},
+			},
+
+			"collision shape 2sub-sub-sub-block " :  {
+
+				"u1" : 1,
+				"u2" : 1,
+				"u3" : 1,
+				"w" : -15.0,
+				"x" : 15.0,
+				"z" : 1,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "CollisionShape",
+			"number" : 111,
+
+			"collision shapesub-sub-sub-block " :  {
+
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"w" : -50.0,
+					"x" : -20.0,
+					"y" : 100.0,
+					"z" : 90.0,
+				},
+			},
+
+			"collision shape 2sub-sub-sub-block " :  {
+
+				"w" : -15.0,
+				"x" : 15.0,
+				"z" : 1,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "UtilityShape",
+			"number" : 113,
+
+			"collision shapesub-sub-sub-block " :  {
+
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"w" : -300.0,
+					"x" : -50.0,
+					"y" : 600.0,
+					"z" : 150.0,
+				},
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Damage",
+			"number" : 118,
+
+			"damagesub-sub-sub-block " :  {
+
+				"u0" : 2,
+				"u1" : 0,
+				"u2" : 0,
+				"u5" : 1.0,
+				"u6" : 0.0,
+				"u7" : 0,
+				"u8" : 1,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Health",
+			"number" : 119,
+
+			"healthsub-sub-sub-block " :  {
+
+				"u0" : 2,
+				"u1" : 0,
+
+				"u2sub-sub-sub-sub-block " :  {
+
+					"x" : 0.0,
+					"y" : 50.0,
+				},
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "SoundEffect",
+			"number" : 120,
+
+			"sound effectsub-sub-sub-block " :  {
+
+				"sound" : "spikes1",
+				"u0" : 0.20000000298023224,
+				"u1" : 1.0,
+			},
+		},
+
+		"positionsub-sub-block " :  {
+
+			"x position" : 0.0,
+			"y position" : 0.0,
+		},
+		"z position" : 0.0,
+		"rotation" : 0.0,
+		"scale" : 1.0,
+
+		"u0sub-sub-block " :  {
+
+			"w" : -50.0,
+			"x" : -20.0,
+			"y" : 100.0,
+			"z" : 90.0,
+		},
+		"hidden" : 0,
+	},
+	"u0" : 1.0,
+},
+
+}

@@ -1,0 +1,875 @@
+scl file name : woodkeep_stuff (0a @ 1)
+
+?item block { (12 @ 11)
+
+
+    ?sub-item sub-block { (0a @ 14)
+
+        name : castle_lock (12 @ 17)
+
+        component sub-sub-block { (1a @ 24)
+
+            component type : Program (0a @ 27)
+            number : 1(10 @ 30)
+
+            program sub-sub-sub-block { (4ea @ 33)
+
+                u0 : 1(08 @ 36)
+
+                lua chunk sub-sub-sub-sub-block { (12 @ 38)
+
+                    main chunk : chunk >
+
+                    === lua =============
+                    local self = ...;
+                    
+                    if Character.HasSceneFlag(self:identifier()) then
+                    	self:setHidden(true);
+                    	Program.Execute(Scene.Find(self:identifier() .. "_door"));
+                    end
+                    
+
+                    =====================
+                    secondary chunk : \x1bLuaQ\x00\x01\x04\x04\x04\x08\x00\xa3\x00\x00\x00local self = ...;\r\n\r\nif Character.HasSceneFlag(self:identifier()) then\r\n\tself:setHidden(true);\r\n\tProgram.Execute(Scene.Find(self:identifier() .. "_door"));\r\nend\r\n\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x02\x05\x16\x00\x00\x00%\x00\x00\x01E\x00\x00\x00F@\xc0\x00\x8b\x80@\x00\x9c\x00\x00\x01\\\x80\x00\x00Z\x00\x00\x00\x16\x00\x03\x80K\xc0@\x00\xc2\x00\x80\x00\\@\x80\x01E\x00\x01\x00F@\xc1\x00\x85\x80\x01\x00\x86\xc0A\x01\xcb\x80@\x00\xdc\x80\x00\x01\x01\x01\x02\x00\xd5\x00\x81\x01\x9c\x00\x00\x01\\@\x00\x00\x1e\x00\x80\x00\t\x00\x00\x00\x04\n\x00\x00\x00Character\x00\x04\r\x00\x00\x00HasSceneFlag\x00\x04\x0b\x00\x00\x00identifier\x00\x04\n\x00\x00\x00setHidden\x00\x04\x08\x00\x00\x00Program\x00\x04\x08\x00\x00\x00Execute\x00\x04\x06\x00\x00\x00Scene\x00\x04\x05\x00\x00\x00Find\x00\x04\x06\x00\x00\x00_door\x00\x00\x00\x00\x00\x16\x00\x00\x00\x01\x00\x00\x00\x03\x00\x00\x00\x03\x00\x00\x00\x03\x00\x00\x00\x03\x00\x00\x00\x03\x00\x00\x00\x03\x00\x00\x00\x03\x00\x00\x00\x04\x00\x00\x00\x04\x00\x00\x00\x04\x00\x00\x00\x05\x00\x00\x00\x05\x00\x00\x00\x05\x00\x00\x00\x05\x00\x00\x00\x05\x00\x00\x00\x05\x00\x00\x00\x05\x00\x00\x00\x05\x00\x00\x00\x05\x00\x00\x00\x05\x00\x00\x00\x06\x00\x00\x00\x01\x00\x00\x00\x05\x00\x00\x00self\x00\x01\x00\x00\x00\x15\x00\x00\x00\x00\x00\x00\x00 (12 @ e0)
+				}
+                u1 : 1(18 @ 2f5)
+                u2 : 10(20 @ 2f7)
+			}
+		}
+
+        component sub-sub-block { (1a @ 2f9)
+
+            component type : Model (0a @ 2fb)
+            number : 101(10 @ 302)
+
+            3D model sub-sub-sub-block { (32a @ 305)
+
+                name : lock_yellow (0a @ 307)
+                u0 : 1.5707963705062866 (15 @ 314)
+                u1 : 0.5 (1d @ 319)
+                u2 : 0.0 (25 @ 31e)
+
+                u3 sub-sub-sub-sub-block { (2a @ 323)
+
+                    w : 1.0 (0d @ 325)
+                    x : 1.0 (15 @ 32a)
+                    y : 1.0 (1d @ 32f)
+                    z : 1.0 (25 @ 334)
+				}
+
+                u4 sub-sub-sub-sub-block { (32 @ 339)
+
+                    x : 0.0 (0d @ 33b)
+                    y : 0.0 (15 @ 340)
+                    z : 0.0 (1d @ 345)
+				}
+                u5 : 0(38 @ 34a)
+
+                u6 sub-sub-sub-sub-block { (42 @ 34c)
+
+                    w : 1.0 (0d @ 34e)
+                    x : 1.0 (15 @ 353)
+                    y : 1.0 (1d @ 358)
+                    z : 1.0 (25 @ 35d)
+				}
+			}
+		}
+
+        component sub-sub-block { (1a @ 362)
+
+            component type : CollisionShape (0a @ 364)
+            number : 103(10 @ 374)
+
+            collision shape sub-sub-sub-block { (3c2 @ 377)
+
+
+                u0 sub-sub-sub-sub-block { (0a @ 379)
+
+                    w : -70.0 (0d @ 37b)
+                    x : -40.0 (15 @ 380)
+                    y : 140.0 (1d @ 385)
+                    z : 80.0 (25 @ 38a)
+				}
+			}
+
+            collision shape 2 sub-sub-sub-block { (3ca @ 390)
+
+                w : -15.0 (35 @ 392)
+                x : 15.0 (3d @ 397)
+                y : 4(40 @ 39c)
+                z : 1(58 @ 39e)
+			}
+		}
+
+        component sub-sub-block { (1a @ 3a0)
+
+            component type : Program (0a @ 3a3)
+            number : 105(10 @ 3ac)
+
+            program sub-sub-sub-block { (4ea @ 3af)
+
+                u0 : 1(08 @ 3b2)
+
+                lua chunk sub-sub-sub-sub-block { (12 @ 3b4)
+
+                    main chunk : chunk >
+
+                    === lua =============
+                    local self = ...;
+                    
+                    if Character.HasItem("key_yellow") then
+                    	Character.RemoveItem("key_yellow");
+                    	Character.AddSceneFlag(self:identifier()); -- Remember that the door is open
+                    
+                    	self:setHidden(true);
+                    	Program.Execute(Scene.Find(self:identifier() .. "_door"));
+                    
+                    	SoundLibrary.PlayEffect("unlock");
+                    else
+                    	Game.ShowNotification("Requires " .. Game.TitleForItem("key_yellow"));
+                    end
+
+                    =====================
+                    secondary chunk : \x1bLuaQ\x00\x01\x04\x04\x04\x08\x00\x84\x01\x00\x00local self = ...;\r\n\r\nif Character.HasItem("key_yellow") then\r\n\tCharacter.RemoveItem("key_yellow");\r\n\tCharacter.AddSceneFlag(self:identifier()); -- Remember that the door is open\r\n\r\n\tself:setHidden(true);\r\n\tProgram.Execute(Scene.Find(self:identifier() .. "_door"));\r\n\r\n\tSoundLibrary.PlayEffect("unlock");\r\nelse\r\n\tGame.ShowNotification("Requires " .. Game.TitleForItem("key_yellow"));\r\nend\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x02\x05,\x00\x00\x00%\x00\x00\x01E\x00\x00\x00F@\xc0\x00\x81\x80\x00\x00\\\x80\x00\x01Z\x00\x00\x00\x16\x80\x06\x80E\x00\x00\x00F\xc0\xc0\x00\x81\x80\x00\x00\\@\x00\x01E\x00\x00\x00F\x00\xc1\x00\x8b@A\x00\x9c\x00\x00\x01\\@\x00\x00K\x80A\x00\xc2\x00\x80\x00\\@\x80\x01E\xc0\x01\x00F\x00\xc2\x00\x85@\x02\x00\x86\x80B\x01\xcb@A\x00\xdc\x80\x00\x01\x01\xc1\x02\x00\xd5\x00\x81\x01\x9c\x00\x00\x01\\@\x00\x00E\x00\x03\x00F@\xc3\x00\x81\x80\x03\x00\\@\x00\x01\x16\x00\x02\x80E\xc0\x03\x00F\x00\xc4\x00\x81@\x04\x00\xc5\xc0\x03\x00\xc6\x80\xc4\x01\x01\x81\x00\x00\xdc\x80\x00\x01\x95\xc0\x00\x01\\@\x00\x01\x1e\x00\x80\x00\x13\x00\x00\x00\x04\n\x00\x00\x00Character\x00\x04\x08\x00\x00\x00HasItem\x00\x04\x0b\x00\x00\x00key_yellow\x00\x04\x0b\x00\x00\x00RemoveItem\x00\x04\r\x00\x00\x00AddSceneFlag\x00\x04\x0b\x00\x00\x00identifier\x00\x04\n\x00\x00\x00setHidden\x00\x04\x08\x00\x00\x00Program\x00\x04\x08\x00\x00\x00Execute\x00\x04\x06\x00\x00\x00Scene\x00\x04\x05\x00\x00\x00Find\x00\x04\x06\x00\x00\x00_door\x00\x04\r\x00\x00\x00SoundLibrary\x00\x04\x0b\x00\x00\x00PlayEffect\x00\x04\x07\x00\x00\x00unlock\x00\x04\x05\x00\x00\x00Game\x00\x04\x11\x00\x00\x00ShowNotification\x00\x04\n\x00\x00\x00Requires \x00\x04\r\x00\x00\x00TitleForItem\x00\x00\x00\x00\x00,\x00\x00\x00\x01\x00\x00\x00\x03\x00\x00\x00\x03\x00\x00\x00\x03\x00\x00\x00\x03\x00\x00\x00\x03\x00\x00\x00\x03\x00\x00\x00\x04\x00\x00\x00\x04\x00\x00\x00\x04\x00\x00\x00\x04\x00\x00\x00\x05\x00\x00\x00\x05\x00\x00\x00\x05\x00\x00\x00\x05\x00\x00\x00\x05\x00\x00\x00\x07\x00\x00\x00\x07\x00\x00\x00\x07\x00\x00\x00\x08\x00\x00\x00\x08\x00\x00\x00\x08\x00\x00\x00\x08\x00\x00\x00\x08\x00\x00\x00\x08\x00\x00\x00\x08\x00\x00\x00\x08\x00\x00\x00\x08\x00\x00\x00\x08\x00\x00\x00\n\x00\x00\x00\n\x00\x00\x00\n\x00\x00\x00\n\x00\x00\x00\n\x00\x00\x00\x0c\x00\x00\x00\x0c\x00\x00\x00\x0c\x00\x00\x00\x0c\x00\x00\x00\x0c\x00\x00\x00\x0c\x00\x00\x00\x0c\x00\x00\x00\x0c\x00\x00\x00\x0c\x00\x00\x00\r\x00\x00\x00\x01\x00\x00\x00\x05\x00\x00\x00self\x00\x01\x00\x00\x00+\x00\x00\x00\x00\x00\x00\x00 (12 @ 53d)
+				}
+                u1 : 1(18 @ 97f)
+                u2 : 2(20 @ 981)
+			}
+		}
+
+        position sub-sub-block { (22 @ 983)
+
+            x position : 0.0 (0d @ 985)
+            y position : 0.0 (15 @ 98a)
+		}
+        z position : 0.0 (2d @ 98f)
+        rotation : 0.0 (35 @ 994)
+        scale : 1.0 (3d @ 999)
+
+        u0 sub-sub-block { (42 @ 99e)
+
+            w : -70.0 (0d @ 9a0)
+            x : -40.0 (15 @ 9a5)
+            y : 140.0 (1d @ 9aa)
+            z : 80.0 (25 @ 9af)
+		}
+        hidden : 0(48 @ 9b4)
+	}
+    u0 : 1.0 (15 @ 9b6)
+}
+
+?item block { (12 @ 9bb)
+
+
+    ?sub-item sub-block { (0a @ 9be)
+
+        name : castle_lockdoor (12 @ 9c1)
+
+        component sub-sub-block { (1a @ 9d2)
+
+            component type : SoundEffect (0a @ 9d4)
+            number : 1(10 @ 9e1)
+
+            sound effect sub-sub-sub-block { (462 @ 9e4)
+
+                sound : door_close (0a @ 9e6)
+                u0 : 0.0 (15 @ 9f2)
+                u1 : 1.0 (1d @ 9f7)
+			}
+		}
+
+        component sub-sub-block { (1a @ 9fc)
+
+            component type : Model (0a @ 9fe)
+            number : 101(10 @ a05)
+
+            3D model sub-sub-sub-block { (32a @ a08)
+
+                name : castle_lockdoor (0a @ a0a)
+                u0 : 4.71238899230957 (15 @ a1b)
+                u1 : 0.0 (1d @ a20)
+                u2 : 0.0 (25 @ a25)
+
+                u3 sub-sub-sub-sub-block { (2a @ a2a)
+
+                    w : 1.0 (0d @ a2c)
+                    x : 1.0 (15 @ a31)
+                    y : 1.0 (1d @ a36)
+                    z : 1.0 (25 @ a3b)
+				}
+
+                u4 sub-sub-sub-sub-block { (32 @ a40)
+
+                    x : 0.0 (0d @ a42)
+                    y : 0.0 (15 @ a47)
+                    z : 0.0 (1d @ a4c)
+				}
+                u5 : 0(38 @ a51)
+
+                u6 sub-sub-sub-sub-block { (42 @ a53)
+
+                    w : 1.0 (0d @ a55)
+                    x : 1.0 (15 @ a5a)
+                    y : 1.0 (1d @ a5f)
+                    z : 1.0 (25 @ a64)
+				}
+			}
+		}
+
+        component sub-sub-block { (1a @ a69)
+
+            component type : DoorController (0a @ a6b)
+            number : 103(10 @ a7b)
+
+            door controller sub-sub-sub-block { (4e2 @ a7e)
+
+                u0 : 104(08 @ a80)
+                u1 : 105(10 @ a82)
+                u2 : 0(20 @ a84)
+                u3 : 1(28 @ a86)
+                u4 : 0(30 @ a88)
+			}
+		}
+
+        component sub-sub-block { (1a @ a8a)
+
+            component type : AnimationController (0a @ a8c)
+            number : 104(10 @ aa1)
+
+            animation controller sub-sub-sub-block { (4aa @ aa4)
+
+                model component : 101(08 @ aa6)
+                u1 : 0(10 @ aa8)
+                u2 : 0(18 @ aaa)
+			}
+		}
+
+        component sub-sub-block { (1a @ aac)
+
+            component type : KeyframeAnimation (0a @ aae)
+            number : 105(10 @ ac1)
+
+            keyframe animation sub-sub-sub-block { (332 @ ac4)
+
+                linked model component number : 101(08 @ ac6)
+                name : castle_lockdoor (12 @ ac8)
+                u0 : 0(18 @ ad9)
+                u1 : 0.20000000298023224 (25 @ adb)
+                u2 : 1(28 @ ae0)
+			}
+		}
+
+        component sub-sub-block { (1a @ ae2)
+
+            component type : CollisionShape (0a @ ae4)
+            number : 106(10 @ af4)
+
+            collision shape sub-sub-sub-block { (3c2 @ af7)
+
+
+                u0 sub-sub-sub-sub-block { (0a @ af9)
+
+                    w : -15.0 (0d @ afb)
+                    x : 0.0 (15 @ b00)
+                    y : 25.0 (1d @ b05)
+                    z : 246.53073120117188 (25 @ b0a)
+				}
+			}
+
+            collision shape 2 sub-sub-sub-block { (3ca @ b10)
+
+                u0 : 1(10 @ b12)
+                w : -15.0 (35 @ b14)
+                x : 15.0 (3d @ b19)
+                z : 1(58 @ b1e)
+			}
+		}
+
+        component sub-sub-block { (1a @ b20)
+
+            component type : Program (0a @ b23)
+            number : 109(10 @ b2c)
+
+            program sub-sub-sub-block { (4ea @ b2f)
+
+                u0 : 1(08 @ b32)
+
+                lua chunk sub-sub-sub-sub-block { (12 @ b34)
+
+                    main chunk : chunk >
+
+                    === lua =============
+                    local self = ...;
+                    
+                    DoorController.Open(self);
+
+                    =====================
+                    secondary chunk : \x1bLuaQ\x00\x01\x04\x04\x04\x08\x000\x00\x00\x00local self = ...;\r\n\r\nDoorController.Open(self);\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x02\x03\x06\x00\x00\x00%\x00\x00\x01E\x00\x00\x00F@\xc0\x00\x80\x00\x00\x00\\@\x00\x01\x1e\x00\x80\x00\x02\x00\x00\x00\x04\x0f\x00\x00\x00DoorController\x00\x04\x05\x00\x00\x00Open\x00\x00\x00\x00\x00\x06\x00\x00\x00\x01\x00\x00\x00\x03\x00\x00\x00\x03\x00\x00\x00\x03\x00\x00\x00\x03\x00\x00\x00\x03\x00\x00\x00\x01\x00\x00\x00\x05\x00\x00\x00self\x00\x01\x00\x00\x00\x05\x00\x00\x00\x00\x00\x00\x00 (12 @ b68)
+				}
+                u1 : 1(18 @ c2e)
+                u2 : 0(20 @ c30)
+			}
+		}
+
+        position sub-sub-block { (22 @ c32)
+
+            x position : 0.0 (0d @ c34)
+            y position : 0.0 (15 @ c39)
+		}
+        z position : 0.0 (2d @ c3e)
+        rotation : 0.0 (35 @ c43)
+        scale : 1.0 (3d @ c48)
+
+        u0 sub-sub-block { (42 @ c4d)
+
+            w : -15.0 (0d @ c4f)
+            x : 0.0 (15 @ c54)
+            y : 25.0 (1d @ c59)
+            z : 246.53073120117188 (25 @ c5e)
+		}
+        hidden : 0(48 @ c63)
+	}
+    u0 : 1.0 (15 @ c65)
+}
+
+?item block { (12 @ c6a)
+
+
+    ?sub-item sub-block { (0a @ c6d)
+
+        name : deadtree1 (12 @ c70)
+
+        component sub-sub-block { (1a @ c7b)
+
+            component type : Model (0a @ c7d)
+            number : 101(10 @ c84)
+
+            3D model sub-sub-sub-block { (32a @ c87)
+
+                name : deadtree1 (0a @ c89)
+                u0 : 0.0 (15 @ c94)
+                u1 : 0.0 (1d @ c99)
+                u2 : 0.0 (25 @ c9e)
+
+                u3 sub-sub-sub-sub-block { (2a @ ca3)
+
+                    w : 0.0 (0d @ ca5)
+                    x : 0.0 (15 @ caa)
+                    y : 0.0 (1d @ caf)
+                    z : 1.0 (25 @ cb4)
+				}
+
+                u4 sub-sub-sub-sub-block { (32 @ cb9)
+
+                    x : 0.0 (0d @ cbb)
+                    y : 0.0 (15 @ cc0)
+                    z : 0.0 (1d @ cc5)
+				}
+                u5 : 0(38 @ cca)
+
+                u6 sub-sub-sub-sub-block { (42 @ ccc)
+
+                    w : 1.0 (0d @ cce)
+                    x : 1.0 (15 @ cd3)
+                    y : 1.0 (1d @ cd8)
+                    z : 1.0 (25 @ cdd)
+				}
+			}
+		}
+
+        position sub-sub-block { (22 @ ce2)
+
+            x position : 0.0 (0d @ ce4)
+            y position : 0.0 (15 @ ce9)
+		}
+        z position : 0.0 (2d @ cee)
+        rotation : 0.0 (35 @ cf3)
+        scale : 1.0 (3d @ cf8)
+
+        u0 sub-sub-block { (42 @ cfd)
+
+            w : 0.0 (0d @ cff)
+            x : 0.0 (15 @ d04)
+            y : 0.0 (1d @ d09)
+            z : 0.0 (25 @ d0e)
+		}
+        hidden : 0(48 @ d13)
+	}
+    u0 : 1.0 (15 @ d15)
+}
+
+?item block { (12 @ d1a)
+
+
+    ?sub-item sub-block { (0a @ d1d)
+
+        name : pole1 (12 @ d20)
+
+        component sub-sub-block { (1a @ d27)
+
+            component type : Model (0a @ d29)
+            number : 101(10 @ d30)
+
+            3D model sub-sub-sub-block { (32a @ d33)
+
+                name : pole1 (0a @ d35)
+                u0 : 0.0 (15 @ d3c)
+                u1 : 0.0 (1d @ d41)
+                u2 : 0.0 (25 @ d46)
+
+                u3 sub-sub-sub-sub-block { (2a @ d4b)
+
+                    w : 0.0 (0d @ d4d)
+                    x : 0.0 (15 @ d52)
+                    y : 0.0 (1d @ d57)
+                    z : 1.0 (25 @ d5c)
+				}
+
+                u4 sub-sub-sub-sub-block { (32 @ d61)
+
+                    x : 0.0 (0d @ d63)
+                    y : 0.0 (15 @ d68)
+                    z : 0.0 (1d @ d6d)
+				}
+                u5 : 0(38 @ d72)
+
+                u6 sub-sub-sub-sub-block { (42 @ d74)
+
+                    w : 1.0 (0d @ d76)
+                    x : 1.0 (15 @ d7b)
+                    y : 1.0 (1d @ d80)
+                    z : 1.0 (25 @ d85)
+				}
+			}
+		}
+
+        position sub-sub-block { (22 @ d8a)
+
+            x position : 0.0 (0d @ d8c)
+            y position : 0.0 (15 @ d91)
+		}
+        z position : 0.0 (2d @ d96)
+        rotation : 0.0 (35 @ d9b)
+        scale : 1.0 (3d @ da0)
+
+        u0 sub-sub-block { (42 @ da5)
+
+            w : 0.0 (0d @ da7)
+            x : 0.0 (15 @ dac)
+            y : 0.0 (1d @ db1)
+            z : 0.0 (25 @ db6)
+		}
+        hidden : 0(48 @ dbb)
+	}
+    u0 : 1.0 (15 @ dbd)
+}
+
+?item block { (12 @ dc2)
+
+
+    ?sub-item sub-block { (0a @ dc5)
+
+        name : pole2 (12 @ dc8)
+
+        component sub-sub-block { (1a @ dcf)
+
+            component type : Model (0a @ dd1)
+            number : 101(10 @ dd8)
+
+            3D model sub-sub-sub-block { (32a @ ddb)
+
+                name : pole2 (0a @ ddd)
+                u0 : 0.0 (15 @ de4)
+                u1 : 0.0 (1d @ de9)
+                u2 : 0.0 (25 @ dee)
+
+                u3 sub-sub-sub-sub-block { (2a @ df3)
+
+                    w : 0.0 (0d @ df5)
+                    x : 0.0 (15 @ dfa)
+                    y : 0.0 (1d @ dff)
+                    z : 1.0 (25 @ e04)
+				}
+
+                u4 sub-sub-sub-sub-block { (32 @ e09)
+
+                    x : 0.0 (0d @ e0b)
+                    y : 0.0 (15 @ e10)
+                    z : 0.0 (1d @ e15)
+				}
+                u5 : 0(38 @ e1a)
+
+                u6 sub-sub-sub-sub-block { (42 @ e1c)
+
+                    w : 1.0 (0d @ e1e)
+                    x : 1.0 (15 @ e23)
+                    y : 1.0 (1d @ e28)
+                    z : 1.0 (25 @ e2d)
+				}
+			}
+		}
+
+        position sub-sub-block { (22 @ e32)
+
+            x position : 0.0 (0d @ e34)
+            y position : 0.0 (15 @ e39)
+		}
+        z position : 0.0 (2d @ e3e)
+        rotation : 0.0 (35 @ e43)
+        scale : 1.0 (3d @ e48)
+
+        u0 sub-sub-block { (42 @ e4d)
+
+            w : 0.0 (0d @ e4f)
+            x : 0.0 (15 @ e54)
+            y : 0.0 (1d @ e59)
+            z : 0.0 (25 @ e5e)
+		}
+        hidden : 0(48 @ e63)
+	}
+    u0 : 1.0 (15 @ e65)
+}
+
+?item block { (12 @ e6a)
+
+
+    ?sub-item sub-block { (0a @ e6d)
+
+        name : polewall (12 @ e70)
+
+        component sub-sub-block { (1a @ e7a)
+
+            component type : CollisionShape (0a @ e7c)
+            number : 1(10 @ e8c)
+            ? linked component : 103(20 @ e8e)
+
+            collision shape sub-sub-sub-block { (3c2 @ e91)
+
+
+                u2 sub-sub-sub-sub-block { (1a @ e93)
+
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ e95)
+
+                        y : 8.294042587280273 (0d @ e97)
+                        z : -19.394180297851562 (15 @ e9c)
+					}
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ ea1)
+
+                        y : 9.372367858886719 (0d @ ea3)
+                        z : 127.60641479492188 (15 @ ea8)
+					}
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ ead)
+
+                        y : 1.3621290922164917 (0d @ eaf)
+                        z : 171.5775146484375 (15 @ eb4)
+					}
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ eb9)
+
+                        y : -12.046072006225586 (0d @ ebb)
+                        z : 121.38899993896484 (15 @ ec0)
+					}
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ ec5)
+
+                        y : -8.837845802307129 (0d @ ec7)
+                        z : 16.852190017700195 (15 @ ecc)
+					}
+                    u3 : 0(10 @ ed1)
+                    u4 : 1(18 @ ed3)
+				}
+			}
+
+            collision shape 2 sub-sub-sub-block { (3ca @ ed6)
+
+                u0 : 1(10 @ ed8)
+                w : -50.0 (35 @ eda)
+                x : 50.0 (3d @ edf)
+                z : 1(58 @ ee4)
+			}
+		}
+
+        component sub-sub-block { (1a @ ee6)
+
+            component type : Model (0a @ ee8)
+            number : 101(10 @ eef)
+
+            3D model sub-sub-sub-block { (32a @ ef2)
+
+                name : polewall (0a @ ef4)
+                u0 : 1.5707963705062866 (15 @ efe)
+                u1 : 1.0 (1d @ f03)
+                u2 : 0.0 (25 @ f08)
+
+                u3 sub-sub-sub-sub-block { (2a @ f0d)
+
+                    w : 0.0 (0d @ f0f)
+                    x : 0.0 (15 @ f14)
+                    y : 0.0 (1d @ f19)
+                    z : 1.0 (25 @ f1e)
+				}
+
+                u4 sub-sub-sub-sub-block { (32 @ f23)
+
+                    x : 0.0 (0d @ f25)
+                    y : 0.0 (15 @ f2a)
+                    z : 0.0 (1d @ f2f)
+				}
+                u5 : 0(38 @ f34)
+
+                u6 sub-sub-sub-sub-block { (42 @ f36)
+
+                    w : 1.0 (0d @ f38)
+                    x : 1.0 (15 @ f3d)
+                    y : 1.0 (1d @ f42)
+                    z : 1.0 (25 @ f47)
+				}
+			}
+		}
+
+        component sub-sub-block { (1a @ f4c)
+
+            component type : GroundPolygon (0a @ f4e)
+            number : 103(10 @ f5d)
+
+            ground polygon sub-sub-sub-block { (372 @ f60)
+
+
+                 sub-sub-sub-sub-block { (12 @ f62)
+
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ f64)
+
+                        x : 8.294042587280273 (0d @ f66)
+                        y : -19.394180297851562 (15 @ f6b)
+					}
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ f70)
+
+                        x : 9.372367858886719 (0d @ f72)
+                        y : 127.60641479492188 (15 @ f77)
+					}
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ f7c)
+
+                        x : 1.3621290922164917 (0d @ f7e)
+                        y : 171.5775146484375 (15 @ f83)
+					}
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ f88)
+
+                        x : -12.046072006225586 (0d @ f8a)
+                        y : 121.38899993896484 (15 @ f8f)
+					}
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ f94)
+
+                        x : -8.837845802307129 (0d @ f96)
+                        y : 16.852190017700195 (15 @ f9b)
+					}
+                    u0 : 0(10 @ fa0)
+                    u1 : 1(18 @ fa2)
+				}
+                u1 : 1(18 @ fa4)
+                u2 : -50.0 (25 @ fa6)
+                u3 : 50.0 (2d @ fab)
+                u4 :  (32 @ fb0)
+			}
+		}
+
+        position sub-sub-block { (22 @ fb2)
+
+            x position : 0.0 (0d @ fb4)
+            y position : 0.0 (15 @ fb9)
+		}
+        z position : 0.0 (2d @ fbe)
+        rotation : 0.0 (35 @ fc3)
+        scale : 1.0 (3d @ fc8)
+
+        u0 sub-sub-block { (42 @ fcd)
+
+            w : -12.046072006225586 (0d @ fcf)
+            x : -19.394180297851562 (15 @ fd4)
+            y : 21.418439865112305 (1d @ fd9)
+            z : 190.97169494628906 (25 @ fde)
+		}
+        hidden : 0(48 @ fe3)
+	}
+    u0 : 1.0 (15 @ fe5)
+}
+
+?item block { (12 @ fea)
+
+
+    ?sub-item sub-block { (0a @ fed)
+
+        name : woodendoor (12 @ ff0)
+
+        component sub-sub-block { (1a @ ffc)
+
+            component type : BreakableObject (0a @ ffe)
+            number : 1(10 @ 100f)
+
+            breakable object sub-sub-sub-block { (502 @ 1012)
+
+                u0 : 0(08 @ 1014)
+                u1 : 15(10 @ 1016)
+                u2 : 0(18 @ 1018)
+                u3 :  (22 @ 101a)
+			}
+		}
+
+        component sub-sub-block { (1a @ 101c)
+
+            component type : Model (0a @ 101e)
+            number : 101(10 @ 1025)
+
+            3D model sub-sub-sub-block { (32a @ 1028)
+
+                name : woodendoor (0a @ 102a)
+                u0 : 4.71238899230957 (15 @ 1036)
+                u1 : 1.0 (1d @ 103b)
+                u2 : 0.0 (25 @ 1040)
+
+                u3 sub-sub-sub-sub-block { (2a @ 1045)
+
+                    w : 0.43921568989753723 (0d @ 1047)
+                    x : 0.1921568661928177 (15 @ 104c)
+                    y : 0.0784313753247261 (1d @ 1051)
+                    z : 1.0 (25 @ 1056)
+				}
+
+                u4 sub-sub-sub-sub-block { (32 @ 105b)
+
+                    x : 0.0 (0d @ 105d)
+                    y : 0.0 (15 @ 1062)
+                    z : 0.0 (1d @ 1067)
+				}
+                u5 : 0(38 @ 106c)
+
+                u6 sub-sub-sub-sub-block { (42 @ 106e)
+
+                    w : 1.0 (0d @ 1070)
+                    x : 1.0 (15 @ 1075)
+                    y : 1.0 (1d @ 107a)
+                    z : 1.0 (25 @ 107f)
+				}
+			}
+		}
+
+        component sub-sub-block { (1a @ 1084)
+
+            component type : CollisionShape (0a @ 1086)
+            number : 103(10 @ 1096)
+
+            collision shape sub-sub-sub-block { (3c2 @ 1099)
+
+
+                u0 sub-sub-sub-sub-block { (0a @ 109b)
+
+                    w : -25.0 (0d @ 109d)
+                    x : 0.0 (15 @ 10a2)
+                    y : 50.0 (1d @ 10a7)
+                    z : 170.0 (25 @ 10ac)
+				}
+			}
+
+            collision shape 2 sub-sub-sub-block { (3ca @ 10b2)
+
+                u0 : 1(10 @ 10b4)
+                u2 : 1(20 @ 10b6)
+                w : -15.0 (35 @ 10b8)
+                x : 15.0 (3d @ 10bd)
+                z : 1(58 @ 10c2)
+			}
+		}
+
+        position sub-sub-block { (22 @ 10c4)
+
+            x position : 0.0 (0d @ 10c6)
+            y position : 0.0 (15 @ 10cb)
+		}
+        z position : 0.0 (2d @ 10d0)
+        rotation : 0.0 (35 @ 10d5)
+        scale : 1.0 (3d @ 10da)
+
+        u0 sub-sub-block { (42 @ 10df)
+
+            w : -25.0 (0d @ 10e1)
+            x : 0.0 (15 @ 10e6)
+            y : 50.0 (1d @ 10eb)
+            z : 170.0 (25 @ 10f0)
+		}
+        hidden : 0(48 @ 10f5)
+	}
+    u0 : 1.0 (15 @ 10f7)
+}
+
+?item block { (12 @ 10fc)
+
+
+    ?sub-item sub-block { (0a @ 10ff)
+
+        name : woodendoor_frame (12 @ 1102)
+
+        component sub-sub-block { (1a @ 1114)
+
+            component type : Model (0a @ 1116)
+            number : 101(10 @ 111d)
+
+            3D model sub-sub-sub-block { (32a @ 1120)
+
+                name : woodendoor_frame (0a @ 1122)
+                u0 : 1.5707963705062866 (15 @ 1134)
+                u1 : 0.0 (1d @ 1139)
+                u2 : 0.0 (25 @ 113e)
+
+                u3 sub-sub-sub-sub-block { (2a @ 1143)
+
+                    w : 1.0 (0d @ 1145)
+                    x : 1.0 (15 @ 114a)
+                    y : 1.0 (1d @ 114f)
+                    z : 1.0 (25 @ 1154)
+				}
+
+                u4 sub-sub-sub-sub-block { (32 @ 1159)
+
+                    x : 0.0 (0d @ 115b)
+                    y : 0.0 (15 @ 1160)
+                    z : 0.0 (1d @ 1165)
+				}
+                u5 : 0(38 @ 116a)
+
+                u6 sub-sub-sub-sub-block { (42 @ 116c)
+
+                    w : 1.0 (0d @ 116e)
+                    x : 1.0 (15 @ 1173)
+                    y : 1.0 (1d @ 1178)
+                    z : 1.0 (25 @ 117d)
+				}
+			}
+		}
+
+        position sub-sub-block { (22 @ 1182)
+
+            x position : 0.0 (0d @ 1184)
+            y position : 0.0 (15 @ 1189)
+		}
+        z position : 0.0 (2d @ 118e)
+        rotation : 0.0 (35 @ 1193)
+        scale : 1.0 (3d @ 1198)
+
+        u0 sub-sub-block { (42 @ 119d)
+
+            w : 0.0 (0d @ 119f)
+            x : 0.0 (15 @ 11a4)
+            y : 0.0 (1d @ 11a9)
+            z : 0.0 (25 @ 11ae)
+		}
+        hidden : 0(48 @ 11b3)
+	}
+    u0 : 1.0 (15 @ 11b5)
+}

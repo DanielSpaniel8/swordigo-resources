@@ -1,0 +1,253 @@
+scl file name : lowergrove_stuff (0a @ 1)
+
+?item block { (12 @ 13)
+
+
+    ?sub-item sub-block { (0a @ 16)
+
+        name : lowergrove_torch (12 @ 19)
+
+        component sub-sub-block { (1a @ 2b)
+
+            component type : Model (0a @ 2d)
+            number : 1(10 @ 34)
+
+            3D model sub-sub-sub-block { (32a @ 37)
+
+                name : grove_torch (0a @ 39)
+                u0 : 0.0 (15 @ 46)
+                u1 : 0.5 (1d @ 4b)
+                u2 : 0.0 (25 @ 50)
+
+                u3 sub-sub-sub-sub-block { (2a @ 55)
+
+                    w : 0.0 (0d @ 57)
+                    x : 0.0 (15 @ 5c)
+                    y : 0.0 (1d @ 61)
+                    z : 1.0 (25 @ 66)
+				}
+
+                u4 sub-sub-sub-sub-block { (32 @ 6b)
+
+                    x : 0.0 (0d @ 6d)
+                    y : 0.0 (15 @ 72)
+                    z : 0.0 (1d @ 77)
+				}
+                u5 : 0(38 @ 7c)
+
+                u6 sub-sub-sub-sub-block { (42 @ 7e)
+
+                    w : 1.0 (0d @ 80)
+                    x : 1.0 (15 @ 85)
+                    y : 1.0 (1d @ 8a)
+                    z : 1.0 (25 @ 8f)
+				}
+			}
+		}
+
+        component sub-sub-block { (1a @ 94)
+
+            component type : Light (0a @ 96)
+            number : 103(10 @ 9d)
+
+            light sub-sub-sub-block { (412 @ a0)
+
+                u0 : 3(08 @ a2)
+                u1 : 1.5 (15 @ a4)
+
+                u2 sub-sub-sub-sub-block { (1a @ a9)
+
+                    w : 0.8222222328186035 (0d @ ab)
+                    x : 0.6466666460037231 (15 @ b0)
+                    y : 0.5666667222976685 (1d @ b5)
+                    z : 0.0 (25 @ ba)
+				}
+                u3 : 0.0 (25 @ bf)
+                u4 : 0.00019999999494757503 (2d @ c4)
+
+                u5 sub-sub-sub-sub-block { (32 @ c9)
+
+                    x : 0.0 (0d @ cb)
+                    y : 0.0 (15 @ d0)
+                    z : 0.0 (1d @ d5)
+				}
+                u6 : 250.0 (3d @ da)
+			}
+		}
+
+        component sub-sub-block { (1a @ df)
+
+            component type : FireEmitter (0a @ e1)
+            number : 105(10 @ ee)
+
+            fire emitter sub-sub-sub-block { (7ea @ f1)
+
+                temp0 : 108(08 @ f3)
+                temp1 : 103(18 @ f5)
+
+                u0 sub-sub-sub-sub-block { (2a @ f7)
+
+                    w : 0.8222222328186035 (0d @ f9)
+                    x : 0.6466666460037231 (15 @ fe)
+                    y : 0.5666667222976685 (1d @ 103)
+                    z : 0.0 (25 @ 108)
+				}
+                u1 : 0.10000000149011612 (35 @ 10d)
+                u2 : 0.8999999761581421 (3d @ 112)
+
+                u3 sub-sub-sub-sub-block { (42 @ 117)
+
+                    x : 2.0 (0d @ 119)
+                    y : 0.0 (15 @ 11e)
+                    z : 0.0 (1d @ 123)
+				}
+
+                u4 sub-sub-sub-sub-block { (4a @ 128)
+
+                    x : 0.0 (0d @ 12a)
+                    y : 0.0 (15 @ 12f)
+                    z : 0.0 (1d @ 134)
+				}
+			}
+		}
+
+        component sub-sub-block { (1a @ 139)
+
+            component type : ParticleEmitter (0a @ 13b)
+            number : 108(10 @ 14c)
+
+            particle emitter sub-sub-sub-block { (7d2 @ 14f)
+
+                particle : 109(10 @ 151)
+                particle : 111(10 @ 153)
+                particle : 112(10 @ 155)
+                u1 : 0(18 @ 157)
+                u2 : 30(20 @ 159)
+                u3 : 0(28 @ 15b)
+                u4 : 0(30 @ 15d)
+                u6 : 0(40 @ 15f)
+			}
+		}
+
+        component sub-sub-block { (1a @ 161)
+
+            component type : Particle (0a @ 163)
+            number : 109(10 @ 16d)
+
+            particle sub-sub-sub-block { (7da @ 170)
+
+                name : particle_fure_1 (0a @ 172)
+                u0 : 20.0 (15 @ 183)
+			}
+		}
+
+        component sub-sub-block { (1a @ 188)
+
+            component type : Particle (0a @ 18a)
+            number : 111(10 @ 194)
+
+            particle sub-sub-sub-block { (7da @ 197)
+
+                name : particle_fure_2 (0a @ 199)
+                u0 : 22.0 (15 @ 1aa)
+			}
+		}
+
+        component sub-sub-block { (1a @ 1af)
+
+            component type : Particle (0a @ 1b1)
+            number : 112(10 @ 1bb)
+
+            particle sub-sub-sub-block { (7da @ 1be)
+
+                name : particle_fure_3 (0a @ 1c0)
+                u0 : 20.0 (15 @ 1d1)
+			}
+		}
+
+        position sub-sub-block { (22 @ 1d6)
+
+            x position : 0.0 (0d @ 1d8)
+            y position : 0.0 (15 @ 1dd)
+		}
+        z position : 0.0 (2d @ 1e2)
+        rotation : 0.0 (35 @ 1e7)
+        scale : 1.0 (3d @ 1ec)
+
+        u0 sub-sub-block { (42 @ 1f1)
+
+            w : 0.0 (0d @ 1f3)
+            x : 0.0 (15 @ 1f8)
+            y : 0.0 (1d @ 1fd)
+            z : 0.0 (25 @ 202)
+		}
+        hidden : 0(48 @ 207)
+	}
+    u0 : 1.0 (15 @ 209)
+}
+
+?item block { (12 @ 20e)
+
+
+    ?sub-item sub-block { (0a @ 211)
+
+        name : lowergrove_tree1 (12 @ 214)
+
+        component sub-sub-block { (1a @ 226)
+
+            component type : Model (0a @ 228)
+            number : 101(10 @ 22f)
+
+            3D model sub-sub-sub-block { (32a @ 232)
+
+                name : lowergrove_tree1 (0a @ 234)
+                u0 : 1.5707963705062866 (15 @ 246)
+                u1 : 0.0 (1d @ 24b)
+                u2 : 0.0 (25 @ 250)
+
+                u3 sub-sub-sub-sub-block { (2a @ 255)
+
+                    w : 0.0 (0d @ 257)
+                    x : 0.0 (15 @ 25c)
+                    y : 0.0 (1d @ 261)
+                    z : 1.0 (25 @ 266)
+				}
+
+                u4 sub-sub-sub-sub-block { (32 @ 26b)
+
+                    x : 0.0 (0d @ 26d)
+                    y : 0.0 (15 @ 272)
+                    z : 0.0 (1d @ 277)
+				}
+                u5 : 0(38 @ 27c)
+
+                u6 sub-sub-sub-sub-block { (42 @ 27e)
+
+                    w : 1.0 (0d @ 280)
+                    x : 1.0 (15 @ 285)
+                    y : 1.0 (1d @ 28a)
+                    z : 1.0 (25 @ 28f)
+				}
+			}
+		}
+
+        position sub-sub-block { (22 @ 294)
+
+            x position : 0.0 (0d @ 296)
+            y position : 0.0 (15 @ 29b)
+		}
+        z position : 0.0 (2d @ 2a0)
+        rotation : 0.0 (35 @ 2a5)
+        scale : 1.0 (3d @ 2aa)
+
+        u0 sub-sub-block { (42 @ 2af)
+
+            w : 0.0 (0d @ 2b1)
+            x : 0.0 (15 @ 2b6)
+            y : 0.0 (1d @ 2bb)
+            z : 0.0 (25 @ 2c0)
+		}
+        hidden : 0(48 @ 2c5)
+	}
+    u0 : 1.0 (15 @ 2c7)
+}

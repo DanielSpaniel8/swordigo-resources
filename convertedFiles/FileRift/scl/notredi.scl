@@ -1,0 +1,318 @@
+scl file name : notredi (0a @ 1)
+
+?item block { (12 @ a)
+
+
+    ?sub-item sub-block { (0a @ d)
+
+        name : kakkapiikkipy\xf6ryl\xe4 (12 @ 10)
+
+        component sub-sub-block { (1a @ 24)
+
+            component type : Model (0a @ 26)
+            number : 101(10 @ 2d)
+
+            3D model sub-sub-sub-block { (32a @ 30)
+
+                name : spikey (0a @ 32)
+                u0 : 1.5707963705062866 (15 @ 3a)
+                u1 : 0.5 (1d @ 3f)
+                u2 : 0.0 (25 @ 44)
+
+                u3 sub-sub-sub-sub-block { (2a @ 49)
+
+                    w : 0.0 (0d @ 4b)
+                    x : 0.0 (15 @ 50)
+                    y : 0.0 (1d @ 55)
+                    z : 1.0 (25 @ 5a)
+				}
+
+                u4 sub-sub-sub-sub-block { (32 @ 5f)
+
+                    x : 0.0 (0d @ 61)
+                    y : 0.0 (15 @ 66)
+                    z : 0.0 (1d @ 6b)
+				}
+                u5 : 0(38 @ 70)
+
+                u6 sub-sub-sub-sub-block { (42 @ 72)
+
+                    w : 1.0 (0d @ 74)
+                    x : 1.0 (15 @ 79)
+                    y : 1.0 (1d @ 7e)
+                    z : 1.0 (25 @ 83)
+				}
+			}
+		}
+
+        component sub-sub-block { (1a @ 88)
+
+            component type : KeyframeAnimation (0a @ 8a)
+            number : 103(10 @ 9d)
+
+            keyframe animation sub-sub-sub-block { (332 @ a0)
+
+                linked model component number : 101(08 @ a2)
+                name : spikey_stand (12 @ a4)
+                u0 : 1(18 @ b2)
+                u1 : 1.0 (25 @ b4)
+                u2 : 1(28 @ b9)
+			}
+		}
+
+        component sub-sub-block { (1a @ bb)
+
+            component type : KeyframeAnimation (0a @ bd)
+            number : 104(10 @ d0)
+
+            keyframe animation sub-sub-sub-block { (332 @ d3)
+
+                linked model component number : 101(08 @ d5)
+                name : spikey_move (12 @ d7)
+                u0 : 1(18 @ e4)
+                u1 : 1.0 (25 @ e6)
+                u2 : 1(28 @ eb)
+			}
+		}
+
+        component sub-sub-block { (1a @ ed)
+
+            component type : AnimationController (0a @ ef)
+            number : 105(10 @ 104)
+
+            animation controller sub-sub-sub-block { (4aa @ 107)
+
+                model component : 101(08 @ 109)
+                u1 : 0(10 @ 10b)
+                u2 : 0(18 @ 10d)
+			}
+		}
+
+        component sub-sub-block { (1a @ 10f)
+
+            component type : GenericMonsterController (0a @ 111)
+            number : 106(10 @ 12b)
+
+            monster controller sub-sub-sub-block { (972 @ 12e)
+
+                u0 : 100.0 (0d @ 130)
+                u1 : 105(10 @ 135)
+                u2 : 107(18 @ 137)
+                u3 : 113(20 @ 139)
+			}
+
+            generic monster controller sub-sub-sub-block { (9d2 @ 13c)
+
+                walk animation : 104(08 @ 13e)
+			}
+		}
+
+        component sub-sub-block { (1a @ 140)
+
+            component type : MonsterEntity (0a @ 142)
+            number : 107(10 @ 151)
+
+            entity sub-sub-sub-block { (4c2 @ 154)
+
+                u0 : 18446744073709551615(08 @ 156)
+                u1 : 1(10 @ 161)
+			}
+
+            ?monster entity sub-sub-sub-block { (4f2 @ 164)
+
+                u0 :  (0a @ 166)
+
+                lua chunk sub-sub-sub-sub-block { (12 @ 168)
+
+				}
+                u2 : 1(18 @ 16a)
+                u3 : 1(20 @ 16c)
+			}
+		}
+
+        component sub-sub-block { (1a @ 16e)
+
+            component type : Attack (0a @ 171)
+            number : 108(10 @ 179)
+
+            attack sub-sub-sub-block { (992 @ 17c)
+
+                temp0 : 103(08 @ 17f)
+                u0 : 111(10 @ 181)
+                u1 : 0(18 @ 183)
+                u2 : 120(20 @ 185)
+                u3 : 1.0 (2d @ 187)
+                u4 : 1.0 (35 @ 18c)
+                u5 : 0.20000000298023224 (3d @ 191)
+                u6 : 1.0 (45 @ 196)
+                u7 : 0.10000000149011612 (4d @ 19b)
+                u8 : 0.20000000298023224 (55 @ 1a0)
+
+                lua chunk sub-sub-sub-sub-block { (5a @ 1a5)
+
+                    main chunk : chunk >
+
+                    === lua =============
+                    local self, target = ...;
+                    
+                    Program.Wait(0.1);
+                    
+                    spikes = Scene.CreateObject("spikey_spikes","spikes1");
+                    
+                    TransformController.ScaleTo(spikes,0.1,0);
+                    spikes:setPosition(self:position()+Vector3.New(0,30,0));
+                    TransformController.ScaleTo(spikes,1,0.1);
+                    Program.Wait(0.3);
+                    TransformController.ScaleTo(spikes,0.1,0.5);
+                    
+                    Program.Wait(0.8);
+                    spikes:destroy();
+                    
+
+                    =====================
+                    secondary chunk : \x1bLuaQ\x00\x01\x04\x04\x04\x08\x00l\x01\x00\x00local self, target = ...;\r\n\r\nProgram.Wait(0.1);\r\n\r\nspikes = Scene.CreateObject("spikey_spikes","spikes1");\r\n\r\nTransformController.ScaleTo(spikes,0.1,0);\r\nspikes:setPosition(self:position()+Vector3.New(0,30,0));\r\nTransformController.ScaleTo(spikes,1,0.1);\r\nProgram.Wait(0.3);\r\nTransformController.ScaleTo(spikes,0.1,0.5);\r\n\r\nProgram.Wait(0.8);\r\nspikes:destroy();\r\n\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x02\t5\x00\x00\x00%\x00\x80\x01\x85\x00\x00\x00\x86@@\x01\xc1\x80\x00\x00\x9c@\x00\x01\x85\x00\x01\x00\x86@A\x01\xc1\x80\x01\x00\x01\xc1\x01\x00\x9c\x80\x80\x01\x87\xc0\x00\x00\x85\x00\x02\x00\x86@B\x01\xc5\xc0\x00\x00\x01\x81\x00\x00A\x81\x02\x00\x9c@\x00\x02\x85\xc0\x00\x00\x8b\xc0B\x01\x0b\x01C\x00\x1c\x81\x00\x01EA\x03\x00F\x81\xc3\x02\x81\x81\x02\x00\xc1\xc1\x03\x00\x01\x82\x02\x00\\\x81\x00\x02\x0cA\x01\x02\x9c@\x80\x01\x85\x00\x02\x00\x86@B\x01\xc5\xc0\x00\x00\x01\x01\x04\x00A\x81\x00\x00\x9c@\x00\x02\x85\x00\x00\x00\x86@@\x01\xc1@\x04\x00\x9c@\x00\x01\x85\x00\x02\x00\x86@B\x01\xc5\xc0\x00\x00\x01\x81\x00\x00A\x81\x04\x00\x9c@\x00\x02\x85\x00\x00\x00\x86@@\x01\xc1\xc0\x04\x00\x9c@\x00\x01\x85\xc0\x00\x00\x8b\x00E\x01\x9c@\x00\x01\x1e\x00\x80\x00\x15\x00\x00\x00\x04\x08\x00\x00\x00Program\x00\x04\x05\x00\x00\x00Wait\x00\x03\x9a\x99\x99\x99\x99\x99\xb9?\x04\x07\x00\x00\x00spikes\x00\x04\x06\x00\x00\x00Scene\x00\x04\r\x00\x00\x00CreateObject\x00\x04\x0e\x00\x00\x00spikey_spikes\x00\x04\x08\x00\x00\x00spikes1\x00\x04\x14\x00\x00\x00TransformController\x00\x04\x08\x00\x00\x00ScaleTo\x00\x03\x00\x00\x00\x00\x00\x00\x00\x00\x04\x0c\x00\x00\x00setPosition\x00\x04\t\x00\x00\x00position\x00\x04\x08\x00\x00\x00Vector3\x00\x04\x04\x00\x00\x00New\x00\x03\x00\x00\x00\x00\x00\x00>@\x03\x00\x00\x00\x00\x00\x00\xf0?\x03333333\xd3?\x03\x00\x00\x00\x00\x00\x00\xe0?\x03\x9a\x99\x99\x99\x99\x99\xe9?\x04\x08\x00\x00\x00destroy\x00\x00\x00\x00\x005\x00\x00\x00\x01\x00\x00\x00\x03\x00\x00\x00\x03\x00\x00\x00\x03\x00\x00\x00\x03\x00\x00\x00\x05\x00\x00\x00\x05\x00\x00\x00\x05\x00\x00\x00\x05\x00\x00\x00\x05\x00\x00\x00\x05\x00\x00\x00\x07\x00\x00\x00\x07\x00\x00\x00\x07\x00\x00\x00\x07\x00\x00\x00\x07\x00\x00\x00\x07\x00\x00\x00\x08\x00\x00\x00\x08\x00\x00\x00\x08\x00\x00\x00\x08\x00\x00\x00\x08\x00\x00\x00\x08\x00\x00\x00\x08\x00\x00\x00\x08\x00\x00\x00\x08\x00\x00\x00\x08\x00\x00\x00\x08\x00\x00\x00\x08\x00\x00\x00\t\x00\x00\x00\t\x00\x00\x00\t\x00\x00\x00\t\x00\x00\x00\t\x00\x00\x00\t\x00\x00\x00\n\x00\x00\x00\n\x00\x00\x00\n\x00\x00\x00\n\x00\x00\x00\x0b\x00\x00\x00\x0b\x00\x00\x00\x0b\x00\x00\x00\x0b\x00\x00\x00\x0b\x00\x00\x00\x0b\x00\x00\x00\r\x00\x00\x00\r\x00\x00\x00\r\x00\x00\x00\r\x00\x00\x00\x0e\x00\x00\x00\x0e\x00\x00\x00\x0e\x00\x00\x00\x0e\x00\x00\x00\x02\x00\x00\x00\x05\x00\x00\x00self\x00\x01\x00\x00\x004\x00\x00\x00\x07\x00\x00\x00target\x00\x01\x00\x00\x004\x00\x00\x00\x00\x00\x00\x00 (12 @ 316)
+				}
+                u9 : 0.0 (65 @ 78c)
+                u10 : 0.0 (6d @ 791)
+			}
+		}
+
+        component sub-sub-block { (1a @ 796)
+
+            component type : CollisionShape (0a @ 798)
+            number : 109(10 @ 7a8)
+
+            collision shape sub-sub-sub-block { (3c2 @ 7ab)
+
+
+                u0 sub-sub-sub-sub-block { (0a @ 7ad)
+
+                    w : -18.0 (0d @ 7af)
+                    x : 4.0 (15 @ 7b4)
+                    y : 36.0 (1d @ 7b9)
+                    z : 38.0 (25 @ 7be)
+				}
+			}
+
+            collision shape 2 sub-sub-sub-block { (3ca @ 7c4)
+
+                u1 : 1(18 @ 7c6)
+                u2 : 1(20 @ 7c8)
+                u3 : 1(28 @ 7ca)
+                w : -15.0 (35 @ 7cc)
+                x : 15.0 (3d @ 7d1)
+                z : 1(58 @ 7d6)
+			}
+		}
+
+        component sub-sub-block { (1a @ 7d8)
+
+            component type : CollisionShape (0a @ 7da)
+            number : 111(10 @ 7ea)
+
+            collision shape sub-sub-sub-block { (3c2 @ 7ed)
+
+
+                u0 sub-sub-sub-sub-block { (0a @ 7ef)
+
+                    w : -50.0 (0d @ 7f1)
+                    x : -20.0 (15 @ 7f6)
+                    y : 100.0 (1d @ 7fb)
+                    z : 90.0 (25 @ 800)
+				}
+			}
+
+            collision shape 2 sub-sub-sub-block { (3ca @ 806)
+
+                w : -15.0 (35 @ 808)
+                x : 15.0 (3d @ 80d)
+                z : 1(58 @ 812)
+			}
+		}
+
+        component sub-sub-block { (1a @ 814)
+
+            component type : UtilityShape (0a @ 816)
+            number : 113(10 @ 824)
+
+            collision shape sub-sub-sub-block { (3c2 @ 827)
+
+
+                u0 sub-sub-sub-sub-block { (0a @ 829)
+
+                    w : -300.0 (0d @ 82b)
+                    x : -50.0 (15 @ 830)
+                    y : 600.0 (1d @ 835)
+                    z : 150.0 (25 @ 83a)
+				}
+			}
+		}
+
+        component sub-sub-block { (1a @ 83f)
+
+            component type : Damage (0a @ 841)
+            number : 118(10 @ 849)
+
+            damage sub-sub-sub-block { (3d2 @ 84c)
+
+                u0 : 2(08 @ 84e)
+                u1 : 0(10 @ 850)
+                u2 : 0(18 @ 852)
+                u5 : 1.0 (35 @ 854)
+                u6 : 0.0 (3d @ 859)
+                u7 : 0(40 @ 85e)
+                u8 : 1(48 @ 860)
+			}
+		}
+
+        component sub-sub-block { (1a @ 862)
+
+            component type : Health (0a @ 864)
+            number : 119(10 @ 86c)
+
+            health sub-sub-sub-block { (3da @ 86f)
+
+                u0 : 2(08 @ 871)
+                u1 : 0(10 @ 873)
+
+                u2 sub-sub-sub-sub-block { (1a @ 875)
+
+                    x : 0.0 (0d @ 877)
+                    y : 50.0 (15 @ 87c)
+				}
+			}
+		}
+
+        component sub-sub-block { (1a @ 881)
+
+            component type : SoundEffect (0a @ 883)
+            number : 120(10 @ 890)
+
+            sound effect sub-sub-sub-block { (462 @ 893)
+
+                sound : spikes1 (0a @ 895)
+                u0 : 0.20000000298023224 (15 @ 89e)
+                u1 : 1.0 (1d @ 8a3)
+			}
+		}
+
+        position sub-sub-block { (22 @ 8a8)
+
+            x position : 0.0 (0d @ 8aa)
+            y position : 0.0 (15 @ 8af)
+		}
+        z position : 0.0 (2d @ 8b4)
+        rotation : 0.0 (35 @ 8b9)
+        scale : 1.0 (3d @ 8be)
+
+        u0 sub-sub-block { (42 @ 8c3)
+
+            w : -50.0 (0d @ 8c5)
+            x : -20.0 (15 @ 8ca)
+            y : 100.0 (1d @ 8cf)
+            z : 90.0 (25 @ 8d4)
+		}
+        hidden : 0(48 @ 8d9)
+	}
+    u0 : 1.0 (15 @ 8db)
+}

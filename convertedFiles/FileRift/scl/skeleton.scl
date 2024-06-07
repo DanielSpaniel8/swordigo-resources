@@ -1,0 +1,2278 @@
+scl file name : skeleton (0a @ 1)
+
+?item block { (12 @ b)
+
+
+    ?sub-item sub-block { (0a @ e)
+
+        name : skeleton_bolt_ballistic (12 @ 11)
+
+        component sub-sub-block { (1a @ 2a)
+
+            component type : SimpleGlow (0a @ 2c)
+            number : 1(10 @ 38)
+
+            simple glow sub-sub-sub-block { (7f2 @ 3b)
+
+
+                u0 sub-sub-sub-sub-block { (0a @ 3d)
+
+                    w : 1.0 (0d @ 3f)
+                    x : 0.0 (15 @ 44)
+                    y : 3.5762786865234375e-07 (1d @ 49)
+                    z : 0.5 (25 @ 4e)
+				}
+                u1 : 30.0 (15 @ 53)
+                u2 : 10(18 @ 58)
+                u3 : 15.0 (25 @ 5a)
+                u4 : 0.15000000596046448 (2d @ 5f)
+                u5 : 0.800000011920929 (35 @ 64)
+
+                u6 sub-sub-sub-sub-block { (3a @ 69)
+
+                    y : 0.0 (0d @ 6b)
+                    z : 0.0 (15 @ 70)
+				}
+			}
+		}
+
+        component sub-sub-block { (1a @ 75)
+
+            component type : CollisionShape (0a @ 77)
+            number : 2(10 @ 87)
+
+            collision shape sub-sub-sub-block { (3c2 @ 8a)
+
+
+                u0 sub-sub-sub-sub-block { (0a @ 8c)
+
+                    w : -10.0 (0d @ 8e)
+                    x : -10.0 (15 @ 93)
+                    y : 20.0 (1d @ 98)
+                    z : 20.0 (25 @ 9d)
+				}
+			}
+
+            collision shape 2 sub-sub-sub-block { (3ca @ a3)
+
+                u1 : 1(18 @ a5)
+                u3 : 1(28 @ a7)
+                w : -15.0 (35 @ a9)
+                x : 15.0 (3d @ ae)
+                z : 1(58 @ b3)
+			}
+		}
+
+        component sub-sub-block { (1a @ b5)
+
+            component type : SoundEffect (0a @ b7)
+            number : 3(10 @ c4)
+
+            sound effect sub-sub-sub-block { (462 @ c7)
+
+                sound : woosh1 (0a @ c9)
+                u0 : 0.0 (15 @ d1)
+                u1 : 1.0 (1d @ d6)
+			}
+		}
+
+        component sub-sub-block { (1a @ db)
+
+            component type : Damage (0a @ dd)
+            number : 4(10 @ e5)
+
+            damage sub-sub-sub-block { (3d2 @ e8)
+
+                u0 : 4(08 @ ea)
+                u1 : 0(10 @ ec)
+                u2 : 0(18 @ ee)
+                u5 : 0.0 (35 @ f0)
+                u6 : 1.0 (3d @ f5)
+                u7 : 0(40 @ fa)
+                u8 : 1(48 @ fc)
+			}
+		}
+
+        component sub-sub-block { (1a @ fe)
+
+            component type : Light (0a @ 100)
+            number : 6(10 @ 107)
+
+            light sub-sub-sub-block { (412 @ 10a)
+
+                u0 : 3(08 @ 10c)
+                u1 : 2.0 (15 @ 10e)
+
+                u2 sub-sub-sub-sub-block { (1a @ 113)
+
+                    w : 1.0 (0d @ 115)
+                    x : 0.35555556416511536 (15 @ 11a)
+                    y : 0.35555556416511536 (1d @ 11f)
+                    z : 1.0 (25 @ 124)
+				}
+                u3 : 0.0 (25 @ 129)
+                u4 : 0.00019999999494757503 (2d @ 12e)
+
+                u5 sub-sub-sub-sub-block { (32 @ 133)
+
+                    x : 0.0 (0d @ 135)
+                    y : 0.0 (15 @ 13a)
+                    z : 0.0 (1d @ 13f)
+				}
+                u6 : 250.0 (3d @ 144)
+			}
+		}
+
+        component sub-sub-block { (1a @ 149)
+
+            component type : Properties (0a @ 14b)
+            number : 7(10 @ 157)
+
+            properties sub-sub-sub-block { (692 @ 15a)
+
+
+                lua chunk sub-sub-sub-sub-block { (0a @ 15c)
+
+				}
+			}
+		}
+
+        component sub-sub-block { (1a @ 15e)
+
+            component type : Program (0a @ 161)
+            number : 8(10 @ 16a)
+
+            program sub-sub-sub-block { (4ea @ 16d)
+
+                u0 : 1(08 @ 170)
+
+                lua chunk sub-sub-sub-sub-block { (12 @ 172)
+
+                    main chunk : chunk >
+
+                    === lua =============
+                    local self = ...;
+                    
+                    if Scene.Find(Properties.GetProperty(self, "caster") .."_skelly") == nil then
+                    	local skelly = Scene.CreateObject("summonedSkeleton", Properties.GetProperty(self, "caster") .. "_skelly", self);
+                    
+                    	TransformController.ScaleTo(skelly, 0.01, 0.001);
+                    
+                    	Program.Wait(0.01);
+                    
+                    	TransformController.ScaleTo(skelly, 1.3, 0.25);
+                    end
+                    
+                    
+
+                    =====================
+                    secondary chunk : \x1bLuaQ\x00\x01\x04\x04\x04\x08\x00b\x01\x00\x00local self = ...;\r\n\r\nif Scene.Find(Properties.GetProperty(self, "caster") .."_skelly") == nil then\r\n\tlocal skelly = Scene.CreateObject("summonedSkeleton", Properties.GetProperty(self, "caster") .. "_skelly", self);\r\n\r\n\tTransformController.ScaleTo(skelly, 0.01, 0.001);\r\n\r\n\tProgram.Wait(0.01);\r\n\r\n\tTransformController.ScaleTo(skelly, 1.3, 0.25);\r\nend\r\n\r\n\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x02\x06*\x00\x00\x00%\x00\x00\x01E\x00\x00\x00F@\xc0\x00\x85\x80\x00\x00\x86\xc0@\x01\xc0\x00\x00\x00\x01\x01\x01\x00\x9c\x80\x80\x01\xc1@\x01\x00\x95\xc0\x00\x01\\\x80\x00\x01\x17\x80\xc1\x00\x16\xc0\x06\x80E\x00\x00\x00F\xc0\xc1\x00\x81\x00\x02\x00\xc5\x80\x00\x00\xc6\xc0\xc0\x01\x00\x01\x00\x00A\x01\x01\x00\xdc\x80\x80\x01\x01A\x01\x00\xd5\x00\x81\x01\x00\x01\x00\x00\\\x80\x00\x02\x85@\x02\x00\x86\x80B\x01\xc0\x00\x80\x00\x01\xc1\x02\x00A\x01\x03\x00\x9c@\x00\x02\x85@\x03\x00\x86\x80C\x01\xc1\xc0\x02\x00\x9c@\x00\x01\x85@\x02\x00\x86\x80B\x01\xc0\x00\x80\x00\x01\xc1\x03\x00A\x01\x04\x00\x9c@\x00\x02\x1e\x00\x80\x00\x11\x00\x00\x00\x04\x06\x00\x00\x00Scene\x00\x04\x05\x00\x00\x00Find\x00\x04\x0b\x00\x00\x00Properties\x00\x04\x0c\x00\x00\x00GetProperty\x00\x04\x07\x00\x00\x00caster\x00\x04\x08\x00\x00\x00_skelly\x00\x00\x04\r\x00\x00\x00CreateObject\x00\x04\x11\x00\x00\x00summonedSkeleton\x00\x04\x14\x00\x00\x00TransformController\x00\x04\x08\x00\x00\x00ScaleTo\x00\x03{\x14\xaeG\xe1z\x84?\x03\xfc\xa9\xf1\xd2MbP?\x04\x08\x00\x00\x00Program\x00\x04\x05\x00\x00\x00Wait\x00\x03\xcd\xcc\xcc\xcc\xcc\xcc\xf4?\x03\x00\x00\x00\x00\x00\x00\xd0?\x00\x00\x00\x00*\x00\x00\x00\x01\x00\x00\x00\x03\x00\x00\x00\x03\x00\x00\x00\x03\x00\x00\x00\x03\x00\x00\x00\x03\x00\x00\x00\x03\x00\x00\x00\x03\x00\x00\x00\x03\x00\x00\x00\x03\x00\x00\x00\x03\x00\x00\x00\x03\x00\x00\x00\x03\x00\x00\x00\x04\x00\x00\x00\x04\x00\x00\x00\x04\x00\x00\x00\x04\x00\x00\x00\x04\x00\x00\x00\x04\x00\x00\x00\x04\x00\x00\x00\x04\x00\x00\x00\x04\x00\x00\x00\x04\x00\x00\x00\x04\x00\x00\x00\x04\x00\x00\x00\x06\x00\x00\x00\x06\x00\x00\x00\x06\x00\x00\x00\x06\x00\x00\x00\x06\x00\x00\x00\x06\x00\x00\x00\x08\x00\x00\x00\x08\x00\x00\x00\x08\x00\x00\x00\x08\x00\x00\x00\n\x00\x00\x00\n\x00\x00\x00\n\x00\x00\x00\n\x00\x00\x00\n\x00\x00\x00\n\x00\x00\x00\x0b\x00\x00\x00\x02\x00\x00\x00\x05\x00\x00\x00self\x00\x01\x00\x00\x00)\x00\x00\x00\x07\x00\x00\x00skelly\x00\x19\x00\x00\x00)\x00\x00\x00\x00\x00\x00\x00 (12 @ 2d9)
+				}
+                u1 : 1(18 @ 6bf)
+                u2 : 5(20 @ 6c1)
+			}
+		}
+
+        component sub-sub-block { (1a @ 6c3)
+
+            component type : EntityInfo (0a @ 6c5)
+            number : 9(10 @ 6d1)
+
+            entity info sub-sub-sub-block { (522 @ 6d4)
+
+                name : bolt (0a @ 6d6)
+			}
+		}
+
+        component sub-sub-block { (1a @ 6dc)
+
+            component type : ParticleEmitter (0a @ 6de)
+            number : 102(10 @ 6ef)
+
+            particle emitter sub-sub-sub-block { (7d2 @ 6f2)
+
+                particle : 103(10 @ 6f4)
+                particle : 104(10 @ 6f6)
+                particle : 105(10 @ 6f8)
+                u1 : 0(18 @ 6fa)
+                u2 : 30(20 @ 6fc)
+                u3 : 0(28 @ 6fe)
+                u4 : 0(30 @ 700)
+                u6 : 0(40 @ 702)
+			}
+		}
+
+        component sub-sub-block { (1a @ 704)
+
+            component type : Particle (0a @ 706)
+            number : 103(10 @ 710)
+
+            particle sub-sub-sub-block { (7da @ 713)
+
+                name : particle_fure_1 (0a @ 715)
+                u0 : 40.0 (15 @ 726)
+			}
+		}
+
+        component sub-sub-block { (1a @ 72b)
+
+            component type : Particle (0a @ 72d)
+            number : 104(10 @ 737)
+
+            particle sub-sub-sub-block { (7da @ 73a)
+
+                name : particle_fure_2 (0a @ 73c)
+                u0 : 40.0 (15 @ 74d)
+			}
+		}
+
+        component sub-sub-block { (1a @ 752)
+
+            component type : Particle (0a @ 754)
+            number : 105(10 @ 75e)
+
+            particle sub-sub-sub-block { (7da @ 761)
+
+                name : particle_fure_3 (0a @ 763)
+                u0 : 40.0 (15 @ 774)
+			}
+		}
+
+        component sub-sub-block { (1a @ 779)
+
+            component type : MagicBolt (0a @ 77b)
+            number : 106(10 @ 786)
+
+            magic bolt sub-sub-sub-block { (1132 @ 789)
+
+                u0 : 102(08 @ 78b)
+                u1 : 3(10 @ 78d)
+                u2 : 0(18 @ 78f)
+
+                u3 sub-sub-sub-sub-block { (22 @ 791)
+
+                    w : 0.4000000059604645 (0d @ 793)
+                    x : 0.05399999022483826 (15 @ 798)
+                    y : 0.054000113159418106 (1d @ 79d)
+                    z : 0.0 (25 @ 7a2)
+				}
+                u3 : 440.0 (2d @ 7a7)
+			}
+
+            temp0 sub-sub-sub-block { (1172 @ 7ad)
+
+			}
+		}
+
+        component sub-sub-block { (1a @ 7af)
+
+            component type : PhysicsObject (0a @ 7b1)
+            number : 109(10 @ 7c0)
+
+            physics object sub-sub-sub-block { (4fa @ 7c3)
+
+                u0 : 1(08 @ 7c5)
+                u2 : 0.6000000238418579 (1d @ 7c7)
+                u3 : 1500.0 (25 @ 7cc)
+                u4 : 0.0 (2d @ 7d1)
+                u5 : 700.0 (35 @ 7d6)
+                u6 : 0(38 @ 7db)
+                u7 : 0.0 (45 @ 7dd)
+			}
+		}
+
+        position sub-sub-block { (22 @ 7e2)
+
+            x position : 0.0 (0d @ 7e4)
+            y position : 0.0 (15 @ 7e9)
+		}
+        z position : 0.0 (2d @ 7ee)
+        rotation : 0.0 (35 @ 7f3)
+        scale : 1.0 (3d @ 7f8)
+
+        u0 sub-sub-block { (42 @ 7fd)
+
+            w : -50.0 (0d @ 7ff)
+            x : -50.0 (15 @ 804)
+            y : 100.0 (1d @ 809)
+            z : 100.0 (25 @ 80e)
+		}
+        hidden : 0(48 @ 813)
+	}
+    u0 : 1.5 (15 @ 815)
+}
+
+?item block { (12 @ 81a)
+
+
+    ?sub-item sub-block { (0a @ 81d)
+
+        name : skeleton_bolt_frost (12 @ 820)
+
+        component sub-sub-block { (1a @ 835)
+
+            component type : SimpleGlow (0a @ 837)
+            number : 1(10 @ 843)
+
+            simple glow sub-sub-sub-block { (7f2 @ 846)
+
+
+                u0 sub-sub-sub-sub-block { (0a @ 848)
+
+                    w : 0.0 (0d @ 84a)
+                    x : 0.0 (15 @ 84f)
+                    y : 1.0 (1d @ 854)
+                    z : 0.5 (25 @ 859)
+				}
+                u1 : 30.0 (15 @ 85e)
+                u2 : 10(18 @ 863)
+                u3 : 15.0 (25 @ 865)
+                u4 : 0.15000000596046448 (2d @ 86a)
+                u5 : 0.800000011920929 (35 @ 86f)
+
+                u6 sub-sub-sub-sub-block { (3a @ 874)
+
+                    y : 0.0 (0d @ 876)
+                    z : 0.0 (15 @ 87b)
+				}
+			}
+		}
+
+        component sub-sub-block { (1a @ 880)
+
+            component type : CollisionShape (0a @ 882)
+            number : 2(10 @ 892)
+
+            collision shape sub-sub-sub-block { (3c2 @ 895)
+
+
+                u0 sub-sub-sub-sub-block { (0a @ 897)
+
+                    w : -10.0 (0d @ 899)
+                    x : -10.0 (15 @ 89e)
+                    y : 20.0 (1d @ 8a3)
+                    z : 20.0 (25 @ 8a8)
+				}
+			}
+
+            collision shape 2 sub-sub-sub-block { (3ca @ 8ae)
+
+                u1 : 1(18 @ 8b0)
+                u3 : 1(28 @ 8b2)
+                w : -15.0 (35 @ 8b4)
+                x : 15.0 (3d @ 8b9)
+                z : 1(58 @ 8be)
+			}
+		}
+
+        component sub-sub-block { (1a @ 8c0)
+
+            component type : SoundEffect (0a @ 8c2)
+            number : 3(10 @ 8cf)
+
+            sound effect sub-sub-sub-block { (462 @ 8d2)
+
+                sound : woosh1 (0a @ 8d4)
+                u0 : 0.0 (15 @ 8dc)
+                u1 : 1.0 (1d @ 8e1)
+			}
+		}
+
+        component sub-sub-block { (1a @ 8e6)
+
+            component type : Damage (0a @ 8e8)
+            number : 4(10 @ 8f0)
+
+            damage sub-sub-sub-block { (3d2 @ 8f3)
+
+                u0 : 4(08 @ 8f5)
+                u1 : 0(10 @ 8f7)
+                u2 : 0(18 @ 8f9)
+                u5 : 0.0 (35 @ 8fb)
+                u6 : 1.0 (3d @ 900)
+                u7 : 0(40 @ 905)
+                u8 : 1(48 @ 907)
+			}
+		}
+
+        component sub-sub-block { (1a @ 909)
+
+            component type : Light (0a @ 90b)
+            number : 6(10 @ 912)
+
+            light sub-sub-sub-block { (412 @ 915)
+
+                u0 : 3(08 @ 917)
+                u1 : 2.0 (15 @ 919)
+
+                u2 sub-sub-sub-sub-block { (1a @ 91e)
+
+                    w : 0.35555556416511536 (0d @ 920)
+                    x : 0.35555556416511536 (15 @ 925)
+                    y : 1.0 (1d @ 92a)
+                    z : 1.0 (25 @ 92f)
+				}
+                u3 : 0.0 (25 @ 934)
+                u4 : 0.00019999999494757503 (2d @ 939)
+
+                u5 sub-sub-sub-sub-block { (32 @ 93e)
+
+                    x : 0.0 (0d @ 940)
+                    y : 0.0 (15 @ 945)
+                    z : 0.0 (1d @ 94a)
+				}
+                u6 : 250.0 (3d @ 94f)
+			}
+		}
+
+        component sub-sub-block { (1a @ 954)
+
+            component type : Properties (0a @ 956)
+            number : 7(10 @ 962)
+
+            properties sub-sub-sub-block { (692 @ 965)
+
+
+                lua chunk sub-sub-sub-sub-block { (0a @ 967)
+
+				}
+			}
+		}
+
+        component sub-sub-block { (1a @ 969)
+
+            component type : Program (0a @ 96c)
+            number : 8(10 @ 975)
+
+            program sub-sub-sub-block { (4ea @ 978)
+
+                u0 : 1(08 @ 97b)
+
+                lua chunk sub-sub-sub-sub-block { (12 @ 97d)
+
+                    main chunk : chunk >
+
+                    === lua =============
+                    local self = ...;
+                    
+                    if Scene.Find(Properties.GetProperty(self, "caster") .."_skelly") == nil then
+                    	local skelly = Scene.CreateObject("summonedSkeleton", Properties.GetProperty(self, "caster") .. "_skelly", self);
+                    
+                    	TransformController.ScaleTo(skelly, 0.01, 0.001);
+                    
+                    	Program.Wait(0.01);
+                    
+                    	TransformController.ScaleTo(skelly, 1.3, 0.25);
+                    end
+                    
+                    
+
+                    =====================
+                    secondary chunk : \x1bLuaQ\x00\x01\x04\x04\x04\x08\x00b\x01\x00\x00local self = ...;\r\n\r\nif Scene.Find(Properties.GetProperty(self, "caster") .."_skelly") == nil then\r\n\tlocal skelly = Scene.CreateObject("summonedSkeleton", Properties.GetProperty(self, "caster") .. "_skelly", self);\r\n\r\n\tTransformController.ScaleTo(skelly, 0.01, 0.001);\r\n\r\n\tProgram.Wait(0.01);\r\n\r\n\tTransformController.ScaleTo(skelly, 1.3, 0.25);\r\nend\r\n\r\n\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x02\x06*\x00\x00\x00%\x00\x00\x01E\x00\x00\x00F@\xc0\x00\x85\x80\x00\x00\x86\xc0@\x01\xc0\x00\x00\x00\x01\x01\x01\x00\x9c\x80\x80\x01\xc1@\x01\x00\x95\xc0\x00\x01\\\x80\x00\x01\x17\x80\xc1\x00\x16\xc0\x06\x80E\x00\x00\x00F\xc0\xc1\x00\x81\x00\x02\x00\xc5\x80\x00\x00\xc6\xc0\xc0\x01\x00\x01\x00\x00A\x01\x01\x00\xdc\x80\x80\x01\x01A\x01\x00\xd5\x00\x81\x01\x00\x01\x00\x00\\\x80\x00\x02\x85@\x02\x00\x86\x80B\x01\xc0\x00\x80\x00\x01\xc1\x02\x00A\x01\x03\x00\x9c@\x00\x02\x85@\x03\x00\x86\x80C\x01\xc1\xc0\x02\x00\x9c@\x00\x01\x85@\x02\x00\x86\x80B\x01\xc0\x00\x80\x00\x01\xc1\x03\x00A\x01\x04\x00\x9c@\x00\x02\x1e\x00\x80\x00\x11\x00\x00\x00\x04\x06\x00\x00\x00Scene\x00\x04\x05\x00\x00\x00Find\x00\x04\x0b\x00\x00\x00Properties\x00\x04\x0c\x00\x00\x00GetProperty\x00\x04\x07\x00\x00\x00caster\x00\x04\x08\x00\x00\x00_skelly\x00\x00\x04\r\x00\x00\x00CreateObject\x00\x04\x11\x00\x00\x00summonedSkeleton\x00\x04\x14\x00\x00\x00TransformController\x00\x04\x08\x00\x00\x00ScaleTo\x00\x03{\x14\xaeG\xe1z\x84?\x03\xfc\xa9\xf1\xd2MbP?\x04\x08\x00\x00\x00Program\x00\x04\x05\x00\x00\x00Wait\x00\x03\xcd\xcc\xcc\xcc\xcc\xcc\xf4?\x03\x00\x00\x00\x00\x00\x00\xd0?\x00\x00\x00\x00*\x00\x00\x00\x01\x00\x00\x00\x03\x00\x00\x00\x03\x00\x00\x00\x03\x00\x00\x00\x03\x00\x00\x00\x03\x00\x00\x00\x03\x00\x00\x00\x03\x00\x00\x00\x03\x00\x00\x00\x03\x00\x00\x00\x03\x00\x00\x00\x03\x00\x00\x00\x03\x00\x00\x00\x04\x00\x00\x00\x04\x00\x00\x00\x04\x00\x00\x00\x04\x00\x00\x00\x04\x00\x00\x00\x04\x00\x00\x00\x04\x00\x00\x00\x04\x00\x00\x00\x04\x00\x00\x00\x04\x00\x00\x00\x04\x00\x00\x00\x04\x00\x00\x00\x06\x00\x00\x00\x06\x00\x00\x00\x06\x00\x00\x00\x06\x00\x00\x00\x06\x00\x00\x00\x06\x00\x00\x00\x08\x00\x00\x00\x08\x00\x00\x00\x08\x00\x00\x00\x08\x00\x00\x00\n\x00\x00\x00\n\x00\x00\x00\n\x00\x00\x00\n\x00\x00\x00\n\x00\x00\x00\n\x00\x00\x00\x0b\x00\x00\x00\x02\x00\x00\x00\x05\x00\x00\x00self\x00\x01\x00\x00\x00)\x00\x00\x00\x07\x00\x00\x00skelly\x00\x19\x00\x00\x00)\x00\x00\x00\x00\x00\x00\x00 (12 @ ae4)
+				}
+                u1 : 1(18 @ eca)
+                u2 : 0(20 @ ecc)
+			}
+		}
+
+        component sub-sub-block { (1a @ ece)
+
+            component type : EntityInfo (0a @ ed0)
+            number : 9(10 @ edc)
+
+            entity info sub-sub-sub-block { (522 @ edf)
+
+                name : bolt (0a @ ee1)
+			}
+		}
+
+        component sub-sub-block { (1a @ ee7)
+
+            component type : ParticleEmitter (0a @ ee9)
+            number : 102(10 @ efa)
+
+            particle emitter sub-sub-sub-block { (7d2 @ efd)
+
+                particle : 103(10 @ eff)
+                particle : 104(10 @ f01)
+                particle : 105(10 @ f03)
+                u1 : 0(18 @ f05)
+                u2 : 30(20 @ f07)
+                u3 : 0(28 @ f09)
+                u4 : 0(30 @ f0b)
+                u6 : 0(40 @ f0d)
+			}
+		}
+
+        component sub-sub-block { (1a @ f0f)
+
+            component type : Particle (0a @ f11)
+            number : 103(10 @ f1b)
+
+            particle sub-sub-sub-block { (7da @ f1e)
+
+                name : particle_fure_1 (0a @ f20)
+                u0 : 40.0 (15 @ f31)
+			}
+		}
+
+        component sub-sub-block { (1a @ f36)
+
+            component type : Particle (0a @ f38)
+            number : 104(10 @ f42)
+
+            particle sub-sub-sub-block { (7da @ f45)
+
+                name : particle_fure_2 (0a @ f47)
+                u0 : 40.0 (15 @ f58)
+			}
+		}
+
+        component sub-sub-block { (1a @ f5d)
+
+            component type : Particle (0a @ f5f)
+            number : 105(10 @ f69)
+
+            particle sub-sub-sub-block { (7da @ f6c)
+
+                name : particle_fure_3 (0a @ f6e)
+                u0 : 40.0 (15 @ f7f)
+			}
+		}
+
+        component sub-sub-block { (1a @ f84)
+
+            component type : MagicBolt (0a @ f86)
+            number : 106(10 @ f91)
+
+            magic bolt sub-sub-sub-block { (1132 @ f94)
+
+                u0 : 102(08 @ f96)
+                u1 : 3(10 @ f98)
+                u2 : 0(18 @ f9a)
+
+                u3 sub-sub-sub-sub-block { (22 @ f9c)
+
+                    w : 0.07777778059244156 (0d @ f9e)
+                    x : 0.05399999022483826 (15 @ fa3)
+                    y : 0.3984445333480835 (1d @ fa8)
+                    z : 0.0 (25 @ fad)
+				}
+                u3 : 440.0 (2d @ fb2)
+			}
+
+            temp0 sub-sub-sub-block { (1172 @ fb8)
+
+			}
+		}
+
+        component sub-sub-block { (1a @ fba)
+
+            component type : PhysicsObject (0a @ fbc)
+            number : 109(10 @ fcb)
+
+            physics object sub-sub-sub-block { (4fa @ fce)
+
+                u0 : 1(08 @ fd0)
+                u2 : 0.6000000238418579 (1d @ fd2)
+                u3 : 1500.0 (25 @ fd7)
+                u4 : 0.0 (2d @ fdc)
+                u5 : 700.0 (35 @ fe1)
+                u6 : 0(38 @ fe6)
+                u7 : 0.0 (45 @ fe8)
+			}
+		}
+
+        position sub-sub-block { (22 @ fed)
+
+            x position : 0.0 (0d @ fef)
+            y position : 0.0 (15 @ ff4)
+		}
+        z position : 0.0 (2d @ ff9)
+        rotation : 0.0 (35 @ ffe)
+        scale : 1.0 (3d @ 1003)
+
+        u0 sub-sub-block { (42 @ 1008)
+
+            w : -50.0 (0d @ 100a)
+            x : -50.0 (15 @ 100f)
+            y : 100.0 (1d @ 1014)
+            z : 100.0 (25 @ 1019)
+		}
+        hidden : 0(48 @ 101e)
+	}
+    u0 : 1.5 (15 @ 1020)
+}
+
+?item block { (12 @ 1025)
+
+
+    ?sub-item sub-block { (0a @ 1028)
+
+        name : skeleton_lord_sword (12 @ 102b)
+
+        component sub-sub-block { (1a @ 1040)
+
+            component type : WeaponTrail (0a @ 1042)
+            number : 1(10 @ 104f)
+
+            weapon trail sub-sub-sub-block { (ca2 @ 1052)
+
+
+                u0 sub-sub-sub-sub-block { (0a @ 1054)
+
+                    w : 1.0 (0d @ 1056)
+                    x : 1.0 (15 @ 105b)
+                    y : 1.0 (1d @ 1060)
+                    z : 0.0 (25 @ 1065)
+				}
+			}
+		}
+
+        component sub-sub-block { (1a @ 106a)
+
+            component type : CollisionShape (0a @ 106c)
+            number : 2(10 @ 107c)
+
+            collision shape sub-sub-sub-block { (3c2 @ 107f)
+
+
+                u0 sub-sub-sub-sub-block { (0a @ 1081)
+
+                    w : 0.0 (0d @ 1083)
+                    x : 0.0 (15 @ 1088)
+                    y : 0.0 (1d @ 108d)
+                    z : 0.0 (25 @ 1092)
+				}
+			}
+
+            collision shape 2 sub-sub-sub-block { (3ca @ 1098)
+
+                w : -15.0 (35 @ 109a)
+                x : 15.0 (3d @ 109f)
+                z : 0(58 @ 10a4)
+			}
+		}
+
+        component sub-sub-block { (1a @ 10a6)
+
+            component type : Damage (0a @ 10a8)
+            number : 3(10 @ 10b0)
+
+            damage sub-sub-sub-block { (3d2 @ 10b3)
+
+                u0 : 1(08 @ 10b5)
+                u1 : 0(10 @ 10b7)
+                u2 : 0(18 @ 10b9)
+                u5 : 1.0 (35 @ 10bb)
+                u6 : 0.0 (3d @ 10c0)
+                u7 : 0(40 @ 10c5)
+                u8 : 1(48 @ 10c7)
+			}
+		}
+
+        component sub-sub-block { (1a @ 10c9)
+
+            component type : Transform (0a @ 10cb)
+            number : 4(10 @ 10d6)
+		}
+
+        component sub-sub-block { (1a @ 10d8)
+
+            component type : SoundEffect (0a @ 10da)
+            number : 7(10 @ 10e7)
+            name : swing1 (1a @ 10e9)
+
+            sound effect sub-sub-sub-block { (462 @ 10f2)
+
+                sound : sword_swing2 (0a @ 10f4)
+                u0 : 0.0 (15 @ 1102)
+                u1 : 1.0 (1d @ 1107)
+			}
+		}
+
+        component sub-sub-block { (1a @ 110c)
+
+            component type : SoundEffect (0a @ 110e)
+            number : 8(10 @ 111b)
+            name : impact1 (1a @ 111d)
+
+            sound effect sub-sub-sub-block { (462 @ 1127)
+
+                sound : sword_impact3 (0a @ 1129)
+                u0 : 0.0 (15 @ 1138)
+                u1 : 1.0 (1d @ 113d)
+			}
+		}
+
+        component sub-sub-block { (1a @ 1142)
+
+            component type : WeaponTrail (0a @ 1144)
+            number : 16(10 @ 1151)
+            name : glow (1a @ 1153)
+
+            weapon trail sub-sub-sub-block { (ca2 @ 115a)
+
+
+                u0 sub-sub-sub-sub-block { (0a @ 115c)
+
+                    w : 0.9333333373069763 (0d @ 115e)
+                    x : 0.0 (15 @ 1163)
+                    y : 0.0 (1d @ 1168)
+                    z : 0.0 (25 @ 116d)
+				}
+			}
+		}
+
+        component sub-sub-block { (1a @ 1172)
+
+            component type : Model (0a @ 1174)
+            number : 101(10 @ 117b)
+
+            3D model sub-sub-sub-block { (32a @ 117e)
+
+                name : weapon_broadsword (0a @ 1180)
+                u0 : 0.0 (15 @ 1193)
+                u1 : 1.0 (1d @ 1198)
+                u2 : 0.0 (25 @ 119d)
+
+                u3 sub-sub-sub-sub-block { (2a @ 11a2)
+
+                    w : 0.0 (0d @ 11a4)
+                    x : 0.0 (15 @ 11a9)
+                    y : 0.0 (1d @ 11ae)
+                    z : 1.0 (25 @ 11b3)
+				}
+
+                u4 sub-sub-sub-sub-block { (32 @ 11b8)
+
+                    x : 0.0 (0d @ 11ba)
+                    y : 0.0 (15 @ 11bf)
+                    z : 0.0 (1d @ 11c4)
+				}
+                u5 : 0(38 @ 11c9)
+
+                u6 sub-sub-sub-sub-block { (42 @ 11cb)
+
+                    w : 1.0 (0d @ 11cd)
+                    x : 1.0 (15 @ 11d2)
+                    y : 1.0 (1d @ 11d7)
+                    z : 1.0 (25 @ 11dc)
+				}
+			}
+		}
+
+        component sub-sub-block { (1a @ 11e1)
+
+            component type : SwingableWeapon (0a @ 11e3)
+            number : 103(10 @ 11f4)
+
+            swingable weapon sub-sub-sub-block { (c82 @ 11f7)
+
+                linked model component number : 101(08 @ 11f9)
+                u1 : 1(10 @ 11fb)
+                u2 : 0(20 @ 11fd)
+                u3 : 7(28 @ 11ff)
+                u4 : 8(30 @ 1201)
+                u5 : 16(38 @ 1203)
+                u6 : 2(40 @ 1205)
+                u7 : 10(48 @ 1207)
+                w : 50.0 (55 @ 1209)
+                x : 58.0 (5d @ 120e)
+                y : 1.0 (65 @ 1213)
+                z : 10.0 (6d @ 1218)
+                u8 : \r\xef\xeen?\x15\x00\x00\x00\x00\x1d33\xb34%\x00\x00\x00\x00 (72 @ 121d)
+			}
+		}
+
+        position sub-sub-block { (22 @ 1233)
+
+            x position : 0.0 (0d @ 1235)
+            y position : 0.0 (15 @ 123a)
+		}
+        z position : 0.0 (2d @ 123f)
+        rotation : 0.0 (35 @ 1244)
+        scale : 1.0 (3d @ 1249)
+
+        u0 sub-sub-block { (42 @ 124e)
+
+            w : 0.0 (0d @ 1250)
+            x : 0.0 (15 @ 1255)
+            y : 0.0 (1d @ 125a)
+            z : 0.0 (25 @ 125f)
+		}
+        hidden : 0(48 @ 1264)
+	}
+    u0 : 1.0 (15 @ 1266)
+}
+
+?item block { (12 @ 126b)
+
+
+    ?sub-item sub-block { (0a @ 126e)
+
+        name : skeleton_spell_cast (12 @ 1271)
+
+        component sub-sub-block { (1a @ 1286)
+
+            component type : SimpleGlow (0a @ 1288)
+            number : 1(10 @ 1294)
+
+            simple glow sub-sub-sub-block { (7f2 @ 1297)
+
+
+                u0 sub-sub-sub-sub-block { (0a @ 1299)
+
+                    w : 1.0 (0d @ 129b)
+                    x : 0.16666662693023682 (15 @ 12a0)
+                    y : 0.1666669249534607 (1d @ 12a5)
+                    z : 0.5 (25 @ 12aa)
+				}
+                u1 : 20.0 (15 @ 12af)
+                u2 : 10(18 @ 12b4)
+                u3 : 15.0 (25 @ 12b6)
+                u4 : 0.15000000596046448 (2d @ 12bb)
+                u5 : 0.800000011920929 (35 @ 12c0)
+
+                u6 sub-sub-sub-sub-block { (3a @ 12c5)
+
+                    y : 0.0 (0d @ 12c7)
+                    z : 0.0 (15 @ 12cc)
+				}
+			}
+		}
+
+        component sub-sub-block { (1a @ 12d1)
+
+            component type : ParticleEmitter (0a @ 12d3)
+            number : 102(10 @ 12e4)
+
+            particle emitter sub-sub-sub-block { (7d2 @ 12e7)
+
+                particle : 103(10 @ 12e9)
+                particle : 104(10 @ 12eb)
+                particle : 105(10 @ 12ed)
+                u1 : 0(18 @ 12ef)
+                u2 : 30(20 @ 12f1)
+                u3 : 0(28 @ 12f3)
+                u4 : 0(30 @ 12f5)
+                u6 : 0(40 @ 12f7)
+			}
+		}
+
+        component sub-sub-block { (1a @ 12f9)
+
+            component type : Particle (0a @ 12fb)
+            number : 103(10 @ 1305)
+
+            particle sub-sub-sub-block { (7da @ 1308)
+
+                name : particle_fure_1 (0a @ 130a)
+                u0 : 40.0 (15 @ 131b)
+			}
+		}
+
+        component sub-sub-block { (1a @ 1320)
+
+            component type : Particle (0a @ 1322)
+            number : 104(10 @ 132c)
+
+            particle sub-sub-sub-block { (7da @ 132f)
+
+                name : particle_fure_2 (0a @ 1331)
+                u0 : 40.0 (15 @ 1342)
+			}
+		}
+
+        component sub-sub-block { (1a @ 1347)
+
+            component type : Particle (0a @ 1349)
+            number : 105(10 @ 1353)
+
+            particle sub-sub-sub-block { (7da @ 1356)
+
+                name : particle_fure_3 (0a @ 1358)
+                u0 : 40.0 (15 @ 1369)
+			}
+		}
+
+        component sub-sub-block { (1a @ 136e)
+
+            component type : MagicSpellCast (0a @ 1370)
+            number : 109(10 @ 1380)
+
+            magic spell cast sub-sub-sub-block { (114a @ 1383)
+
+                particle emitter : 102(08 @ 1385)
+                u0 : 0(10 @ 1387)
+			}
+		}
+
+        position sub-sub-block { (22 @ 1389)
+
+            x position : 0.0 (0d @ 138b)
+            y position : 0.0 (15 @ 1390)
+		}
+        z position : 0.0 (2d @ 1395)
+        rotation : 0.0 (35 @ 139a)
+        scale : 1.0 (3d @ 139f)
+
+        u0 sub-sub-block { (42 @ 13a4)
+
+            w : -20.0 (0d @ 13a6)
+            x : -20.0 (15 @ 13ab)
+            y : 40.0 (1d @ 13b0)
+            z : 40.0 (25 @ 13b5)
+		}
+        hidden : 0(48 @ 13ba)
+	}
+    u0 : 2.0 (15 @ 13bc)
+}
+
+?item block { (12 @ 13c1)
+
+
+    ?sub-item sub-block { (0a @ 13c4)
+
+        name : skeleton_spell_cast_frost (12 @ 13c7)
+
+        component sub-sub-block { (1a @ 13e2)
+
+            component type : SimpleGlow (0a @ 13e4)
+            number : 1(10 @ 13f0)
+
+            simple glow sub-sub-sub-block { (7f2 @ 13f3)
+
+
+                u0 sub-sub-sub-sub-block { (0a @ 13f5)
+
+                    w : 0.1666666716337204 (0d @ 13f7)
+                    x : 0.16666662693023682 (15 @ 13fc)
+                    y : 1.0 (1d @ 1401)
+                    z : 0.5 (25 @ 1406)
+				}
+                u1 : 20.0 (15 @ 140b)
+                u2 : 10(18 @ 1410)
+                u3 : 15.0 (25 @ 1412)
+                u4 : 0.15000000596046448 (2d @ 1417)
+                u5 : 0.800000011920929 (35 @ 141c)
+
+                u6 sub-sub-sub-sub-block { (3a @ 1421)
+
+                    y : 0.0 (0d @ 1423)
+                    z : 0.0 (15 @ 1428)
+				}
+			}
+		}
+
+        component sub-sub-block { (1a @ 142d)
+
+            component type : ParticleEmitter (0a @ 142f)
+            number : 102(10 @ 1440)
+
+            particle emitter sub-sub-sub-block { (7d2 @ 1443)
+
+                particle : 103(10 @ 1445)
+                particle : 104(10 @ 1447)
+                particle : 105(10 @ 1449)
+                u1 : 0(18 @ 144b)
+                u2 : 30(20 @ 144d)
+                u3 : 0(28 @ 144f)
+                u4 : 0(30 @ 1451)
+                u6 : 0(40 @ 1453)
+			}
+		}
+
+        component sub-sub-block { (1a @ 1455)
+
+            component type : Particle (0a @ 1457)
+            number : 103(10 @ 1461)
+
+            particle sub-sub-sub-block { (7da @ 1464)
+
+                name : particle_fure_1 (0a @ 1466)
+                u0 : 40.0 (15 @ 1477)
+			}
+		}
+
+        component sub-sub-block { (1a @ 147c)
+
+            component type : Particle (0a @ 147e)
+            number : 104(10 @ 1488)
+
+            particle sub-sub-sub-block { (7da @ 148b)
+
+                name : particle_fure_2 (0a @ 148d)
+                u0 : 40.0 (15 @ 149e)
+			}
+		}
+
+        component sub-sub-block { (1a @ 14a3)
+
+            component type : Particle (0a @ 14a5)
+            number : 105(10 @ 14af)
+
+            particle sub-sub-sub-block { (7da @ 14b2)
+
+                name : particle_fure_3 (0a @ 14b4)
+                u0 : 40.0 (15 @ 14c5)
+			}
+		}
+
+        component sub-sub-block { (1a @ 14ca)
+
+            component type : MagicSpellCast (0a @ 14cc)
+            number : 109(10 @ 14dc)
+
+            magic spell cast sub-sub-sub-block { (114a @ 14df)
+
+                particle emitter : 102(08 @ 14e1)
+                u0 : 0(10 @ 14e3)
+			}
+		}
+
+        position sub-sub-block { (22 @ 14e5)
+
+            x position : 0.0 (0d @ 14e7)
+            y position : 0.0 (15 @ 14ec)
+		}
+        z position : 0.0 (2d @ 14f1)
+        rotation : 0.0 (35 @ 14f6)
+        scale : 1.0 (3d @ 14fb)
+
+        u0 sub-sub-block { (42 @ 1500)
+
+            w : -20.0 (0d @ 1502)
+            x : -20.0 (15 @ 1507)
+            y : 40.0 (1d @ 150c)
+            z : 40.0 (25 @ 1511)
+		}
+        hidden : 0(48 @ 1516)
+	}
+    u0 : 2.0 (15 @ 1518)
+}
+
+?item block { (12 @ 151d)
+
+
+    ?sub-item sub-block { (0a @ 1520)
+
+        name : skelly_weapon_sword (12 @ 1523)
+
+        component sub-sub-block { (1a @ 1538)
+
+            component type : WeaponTrail (0a @ 153a)
+            number : 1(10 @ 1547)
+
+            weapon trail sub-sub-sub-block { (ca2 @ 154a)
+
+
+                u0 sub-sub-sub-sub-block { (0a @ 154c)
+
+                    w : 1.0 (0d @ 154e)
+                    x : 1.0 (15 @ 1553)
+                    y : 1.0 (1d @ 1558)
+                    z : 0.0 (25 @ 155d)
+				}
+			}
+		}
+
+        component sub-sub-block { (1a @ 1562)
+
+            component type : CollisionShape (0a @ 1564)
+            number : 2(10 @ 1574)
+
+            collision shape sub-sub-sub-block { (3c2 @ 1577)
+
+
+                u0 sub-sub-sub-sub-block { (0a @ 1579)
+
+                    w : 0.0 (0d @ 157b)
+                    x : 0.0 (15 @ 1580)
+                    y : 0.0 (1d @ 1585)
+                    z : 0.0 (25 @ 158a)
+				}
+			}
+
+            collision shape 2 sub-sub-sub-block { (3ca @ 1590)
+
+                w : -15.0 (35 @ 1592)
+                x : 15.0 (3d @ 1597)
+                z : 0(58 @ 159c)
+			}
+		}
+
+        component sub-sub-block { (1a @ 159e)
+
+            component type : Damage (0a @ 15a0)
+            number : 3(10 @ 15a8)
+
+            damage sub-sub-sub-block { (3d2 @ 15ab)
+
+                u0 : 1(08 @ 15ad)
+                u1 : 0(10 @ 15af)
+                u2 : 0(18 @ 15b1)
+                u5 : 1.0 (35 @ 15b3)
+                u6 : 0.0 (3d @ 15b8)
+                u7 : 0(40 @ 15bd)
+                u8 : 1(48 @ 15bf)
+			}
+		}
+
+        component sub-sub-block { (1a @ 15c1)
+
+            component type : SoundEffect (0a @ 15c3)
+            number : 7(10 @ 15d0)
+            name : swing1 (1a @ 15d2)
+
+            sound effect sub-sub-sub-block { (462 @ 15db)
+
+                sound : sword_swing2 (0a @ 15dd)
+                u0 : 0.0 (15 @ 15eb)
+                u1 : 1.0 (1d @ 15f0)
+			}
+		}
+
+        component sub-sub-block { (1a @ 15f5)
+
+            component type : SoundEffect (0a @ 15f7)
+            number : 8(10 @ 1604)
+            name : impact1 (1a @ 1606)
+
+            sound effect sub-sub-sub-block { (462 @ 1610)
+
+                sound : sword_impact3 (0a @ 1612)
+                u0 : 0.0 (15 @ 1621)
+                u1 : 1.0 (1d @ 1626)
+			}
+		}
+
+        component sub-sub-block { (1a @ 162b)
+
+            component type : WeaponGlow (0a @ 162d)
+            number : 10(10 @ 1639)
+
+            weapon glow sub-sub-sub-block { (c9a @ 163c)
+
+                u0 : 12(08 @ 163e)
+
+                u1 sub-sub-sub-sub-block { (12 @ 1640)
+
+                    w : 1.0 (0d @ 1642)
+                    x : 1.0 (15 @ 1647)
+                    y : 1.0 (1d @ 164c)
+                    z : 0.0 (25 @ 1651)
+				}
+
+                u2 sub-sub-sub-sub-block { (1a @ 1656)
+
+                    w : 1.0 (0d @ 1658)
+                    x : 1.0 (15 @ 165d)
+                    y : 1.0 (1d @ 1662)
+                    z : 0.0 (25 @ 1667)
+				}
+                u2 : 15.0 (25 @ 166c)
+			}
+		}
+
+        component sub-sub-block { (1a @ 1671)
+
+            component type : ParticleEmitter (0a @ 1673)
+            number : 12(10 @ 1684)
+            name : glow (1a @ 1686)
+
+            particle emitter sub-sub-sub-block { (7d2 @ 168d)
+
+                particle : 13(10 @ 168f)
+                particle : 14(10 @ 1691)
+                particle : 15(10 @ 1693)
+                u1 : 0(18 @ 1695)
+                u2 : 30(20 @ 1697)
+                u3 : 0(28 @ 1699)
+                u4 : 0(30 @ 169b)
+                u6 : 0(40 @ 169d)
+			}
+		}
+
+        component sub-sub-block { (1a @ 169f)
+
+            component type : Particle (0a @ 16a1)
+            number : 13(10 @ 16ab)
+            name : glow (1a @ 16ad)
+
+            particle sub-sub-sub-block { (7da @ 16b4)
+
+                name : particle_fure_1 (0a @ 16b6)
+                u0 : 14.0 (15 @ 16c7)
+			}
+		}
+
+        component sub-sub-block { (1a @ 16cc)
+
+            component type : Particle (0a @ 16ce)
+            number : 14(10 @ 16d8)
+            name : glow (1a @ 16da)
+
+            particle sub-sub-sub-block { (7da @ 16e1)
+
+                name : particle_fure_2 (0a @ 16e3)
+                u0 : 16.0 (15 @ 16f4)
+			}
+		}
+
+        component sub-sub-block { (1a @ 16f9)
+
+            component type : Particle (0a @ 16fb)
+            number : 15(10 @ 1705)
+            name : glow (1a @ 1707)
+
+            particle sub-sub-sub-block { (7da @ 170e)
+
+                name : particle_fure_3 (0a @ 1710)
+                u0 : 14.0 (15 @ 1721)
+			}
+		}
+
+        component sub-sub-block { (1a @ 1726)
+
+            component type : WeaponTrail (0a @ 1728)
+            number : 16(10 @ 1735)
+            name : glow (1a @ 1737)
+
+            weapon trail sub-sub-sub-block { (ca2 @ 173e)
+
+
+                u0 sub-sub-sub-sub-block { (0a @ 1740)
+
+                    w : 1.0 (0d @ 1742)
+                    x : 1.0 (15 @ 1747)
+                    y : 1.0 (1d @ 174c)
+                    z : 0.0 (25 @ 1751)
+				}
+			}
+		}
+
+        component sub-sub-block { (1a @ 1756)
+
+            component type : Model (0a @ 1758)
+            number : 101(10 @ 175f)
+
+            3D model sub-sub-sub-block { (32a @ 1762)
+
+                name : skelly_sword (0a @ 1764)
+                u0 : 0.0 (15 @ 1772)
+                u1 : 1.0 (1d @ 1777)
+                u2 : 0.0 (25 @ 177c)
+
+                u3 sub-sub-sub-sub-block { (2a @ 1781)
+
+                    w : 0.0 (0d @ 1783)
+                    x : 0.0 (15 @ 1788)
+                    y : 0.0 (1d @ 178d)
+                    z : 1.0 (25 @ 1792)
+				}
+
+                u4 sub-sub-sub-sub-block { (32 @ 1797)
+
+                    x : 0.0 (0d @ 1799)
+                    y : 0.0 (15 @ 179e)
+                    z : 0.0 (1d @ 17a3)
+				}
+                u5 : 0(38 @ 17a8)
+
+                u6 sub-sub-sub-sub-block { (42 @ 17aa)
+
+                    w : 1.0 (0d @ 17ac)
+                    x : 1.0 (15 @ 17b1)
+                    y : 1.0 (1d @ 17b6)
+                    z : 1.0 (25 @ 17bb)
+				}
+			}
+		}
+
+        component sub-sub-block { (1a @ 17c0)
+
+            component type : SwingableWeapon (0a @ 17c2)
+            number : 103(10 @ 17d3)
+
+            swingable weapon sub-sub-sub-block { (c82 @ 17d6)
+
+                linked model component number : 101(08 @ 17d8)
+                u1 : 1(10 @ 17da)
+                u2 : 0(20 @ 17dc)
+                u3 : 7(28 @ 17de)
+                u4 : 8(30 @ 17e0)
+                u5 : 16(38 @ 17e2)
+                u6 : 2(40 @ 17e4)
+                u7 : 10(48 @ 17e6)
+                w : 50.0 (55 @ 17e8)
+                x : 65.0 (5d @ 17ed)
+                y : 0.0 (65 @ 17f2)
+                z : 10.0 (6d @ 17f7)
+                u8 : \r\x00\x00\x00?\x15\x00\x00\x00?\x1d\x00\x00\x00?%\x00\x00\x00\x00 (72 @ 17fc)
+			}
+		}
+
+        position sub-sub-block { (22 @ 1812)
+
+            x position : 0.0 (0d @ 1814)
+            y position : 0.0 (15 @ 1819)
+		}
+        z position : 0.0 (2d @ 181e)
+        rotation : 0.0 (35 @ 1823)
+        scale : 1.0 (3d @ 1828)
+
+        u0 sub-sub-block { (42 @ 182d)
+
+            w : 0.0 (0d @ 182f)
+            x : 0.0 (15 @ 1834)
+            y : 0.0 (1d @ 1839)
+            z : 0.0 (25 @ 183e)
+		}
+        hidden : 0(48 @ 1843)
+	}
+    u0 : 1.0 (15 @ 1845)
+}
+
+?item block { (12 @ 184a)
+
+
+    ?sub-item sub-block { (0a @ 184d)
+
+        name : summonBlast (12 @ 1850)
+
+        component sub-sub-block { (1a @ 185d)
+
+            component type : ParticleEmitter (0a @ 185f)
+            number : 2(10 @ 1870)
+
+            particle emitter sub-sub-sub-block { (7d2 @ 1873)
+
+                particle : 102(10 @ 1875)
+                particle : 103(10 @ 1877)
+                particle : 104(10 @ 1879)
+                u1 : 0(18 @ 187b)
+                u2 : 80(20 @ 187d)
+                u3 : 101(28 @ 187f)
+                u4 : 0(30 @ 1881)
+
+                u5 sub-sub-sub-sub-block { (3a @ 1883)
+
+                    u0 : 2(08 @ 1885)
+
+                    u1 sub-sub-sub-sub-sub-block { (12 @ 1887)
+
+                        w : 1.0 (0d @ 1889)
+                        x : 1.0 (15 @ 188e)
+                        y : 1.0 (1d @ 1893)
+                        z : 0.0 (25 @ 1898)
+					}
+                    u2 : 100.0 (1d @ 189d)
+                    u2 : 0.30000001192092896 (1d @ 18a2)
+                    u2 : 50.0 (1d @ 18a7)
+                    u2 : 50.0 (1d @ 18ac)
+                    u3 : 0.0 (25 @ 18b1)
+                    u4 : 0.0 (2d @ 18b6)
+                    u5 : 0.0 (35 @ 18bb)
+
+                    u6 sub-sub-sub-sub-sub-block { (3a @ 18c0)
+
+                        u0 : 0.0 (0d @ 18c2)
+                        u1 : 0.0 (15 @ 18c7)
+                        u2 : 0.0 (1d @ 18cc)
+					}
+				}
+                u6 : 0(40 @ 18d1)
+			}
+		}
+
+        component sub-sub-block { (1a @ 18d3)
+
+            component type : ParticleEmitter (0a @ 18d5)
+            number : 101(10 @ 18e6)
+
+            particle emitter sub-sub-sub-block { (7d2 @ 18e9)
+
+                particle : 102(10 @ 18eb)
+                particle : 103(10 @ 18ed)
+                particle : 104(10 @ 18ef)
+                u1 : 0(18 @ 18f1)
+                u2 : 100(20 @ 18f3)
+                u3 : 0(28 @ 18f5)
+                u4 : 1(30 @ 18f7)
+
+                u5 sub-sub-sub-sub-block { (3a @ 18f9)
+
+                    u0 : 2(08 @ 18fb)
+
+                    u1 sub-sub-sub-sub-sub-block { (12 @ 18fd)
+
+                        w : 1.0 (0d @ 18ff)
+                        x : 0.855555534362793 (15 @ 1904)
+                        y : 0.888888955116272 (1d @ 1909)
+                        z : 0.0 (25 @ 190e)
+					}
+                    u2 : 150.0 (1d @ 1913)
+                    u2 : 1.5 (1d @ 1918)
+                    u2 : 10.0 (1d @ 191d)
+                    u2 : 10.0 (1d @ 1922)
+                    u3 : 0.0 (25 @ 1927)
+                    u4 : 0.0 (2d @ 192c)
+                    u5 : 0.0 (35 @ 1931)
+
+                    u6 sub-sub-sub-sub-sub-block { (3a @ 1936)
+
+                        u0 : 0.0 (0d @ 1938)
+                        u1 : 0.0 (15 @ 193d)
+                        u2 : 0.0 (1d @ 1942)
+					}
+				}
+                u6 : 1(40 @ 1947)
+			}
+		}
+
+        component sub-sub-block { (1a @ 1949)
+
+            component type : Particle (0a @ 194b)
+            number : 102(10 @ 1955)
+
+            particle sub-sub-sub-block { (7da @ 1958)
+
+                name : particle_fure_1 (0a @ 195a)
+                u0 : 25.0 (15 @ 196b)
+			}
+		}
+
+        component sub-sub-block { (1a @ 1970)
+
+            component type : Particle (0a @ 1972)
+            number : 103(10 @ 197c)
+
+            particle sub-sub-sub-block { (7da @ 197f)
+
+                name : particle_fure_2 (0a @ 1981)
+                u0 : 20.0 (15 @ 1992)
+			}
+		}
+
+        component sub-sub-block { (1a @ 1997)
+
+            component type : Particle (0a @ 1999)
+            number : 104(10 @ 19a3)
+
+            particle sub-sub-sub-block { (7da @ 19a6)
+
+                name : particle_fure_3 (0a @ 19a8)
+                u0 : 15.0 (15 @ 19b9)
+			}
+		}
+
+        position sub-sub-block { (22 @ 19be)
+
+            x position : 0.0 (0d @ 19c0)
+            y position : 0.0 (15 @ 19c5)
+		}
+        z position : 0.0 (2d @ 19ca)
+        rotation : 0.0 (35 @ 19cf)
+        scale : 1.0 (3d @ 19d4)
+
+        u0 sub-sub-block { (42 @ 19d9)
+
+            w : -10.0 (0d @ 19db)
+            x : -10.0 (15 @ 19e0)
+            y : 20.0 (1d @ 19e5)
+            z : 20.0 (25 @ 19ea)
+		}
+        hidden : 0(48 @ 19ef)
+	}
+    u0 : 1.0 (15 @ 19f1)
+}
+
+?item block { (12 @ 19f6)
+
+
+    ?sub-item sub-block { (0a @ 19f9)
+
+        name : summon_skeleton (12 @ 19fc)
+
+        component sub-sub-block { (1a @ 1a0d)
+
+            component type : ParticleEmitter (0a @ 1a0f)
+            number : 102(10 @ 1a20)
+
+            particle emitter sub-sub-sub-block { (7d2 @ 1a23)
+
+                particle : 103(10 @ 1a25)
+                particle : 104(10 @ 1a27)
+                particle : 105(10 @ 1a29)
+                u1 : 0(18 @ 1a2b)
+                u2 : 100(20 @ 1a2d)
+                u3 : 0(28 @ 1a2f)
+                u4 : 1(30 @ 1a31)
+
+                u5 sub-sub-sub-sub-block { (3a @ 1a33)
+
+                    u0 : 1(08 @ 1a35)
+
+                    u1 sub-sub-sub-sub-sub-block { (12 @ 1a37)
+
+                        w : 1.0 (0d @ 1a39)
+                        x : 1.0 (15 @ 1a3e)
+                        y : 1.0 (1d @ 1a43)
+                        z : 0.0 (25 @ 1a48)
+					}
+                    u2 : 70.0 (1d @ 1a4d)
+                    u2 : 0.6000000238418579 (1d @ 1a52)
+                    u2 : 25.0 (1d @ 1a57)
+                    u2 : 25.0 (1d @ 1a5c)
+                    u3 : 0.0 (25 @ 1a61)
+                    u4 : 0.0 (2d @ 1a66)
+                    u5 : 0.0 (35 @ 1a6b)
+
+                    u6 sub-sub-sub-sub-sub-block { (3a @ 1a70)
+
+                        u0 : 0.0 (0d @ 1a72)
+                        u1 : 0.0 (15 @ 1a77)
+                        u2 : 0.0 (1d @ 1a7c)
+					}
+				}
+                u6 : 1(40 @ 1a81)
+			}
+		}
+
+        component sub-sub-block { (1a @ 1a83)
+
+            component type : Particle (0a @ 1a85)
+            number : 103(10 @ 1a8f)
+
+            particle sub-sub-sub-block { (7da @ 1a92)
+
+                name : particle_fure_1 (0a @ 1a94)
+                u0 : 40.0 (15 @ 1aa5)
+			}
+		}
+
+        component sub-sub-block { (1a @ 1aaa)
+
+            component type : Particle (0a @ 1aac)
+            number : 104(10 @ 1ab6)
+
+            particle sub-sub-sub-block { (7da @ 1ab9)
+
+                name : particle_fure_2 (0a @ 1abb)
+                u0 : 40.0 (15 @ 1acc)
+			}
+		}
+
+        component sub-sub-block { (1a @ 1ad1)
+
+            component type : Particle (0a @ 1ad3)
+            number : 105(10 @ 1add)
+
+            particle sub-sub-sub-block { (7da @ 1ae0)
+
+                name : particle_fure_3 (0a @ 1ae2)
+                u0 : 40.0 (15 @ 1af3)
+			}
+		}
+
+        position sub-sub-block { (22 @ 1af8)
+
+            x position : 0.0 (0d @ 1afa)
+            y position : 0.0 (15 @ 1aff)
+		}
+        z position : 0.0 (2d @ 1b04)
+        rotation : 0.0 (35 @ 1b09)
+        scale : 1.0 (3d @ 1b0e)
+
+        u0 sub-sub-block { (42 @ 1b13)
+
+            w : -30.0 (0d @ 1b15)
+            x : -30.0 (15 @ 1b1a)
+            y : 60.0 (1d @ 1b1f)
+            z : 60.0 (25 @ 1b24)
+		}
+        hidden : 0(48 @ 1b29)
+	}
+    u0 : 1.0 (15 @ 1b2b)
+}
+
+?item block { (12 @ 1b30)
+
+
+    ?sub-item sub-block { (0a @ 1b33)
+
+        name : summonedSkeleton (12 @ 1b36)
+
+        component sub-sub-block { (1a @ 1b48)
+
+            component type : Model (0a @ 1b4a)
+            number : 101(10 @ 1b51)
+
+            3D model sub-sub-sub-block { (32a @ 1b54)
+
+                name : skelly (0a @ 1b56)
+                u0 : 1.5707963705062866 (15 @ 1b5e)
+                u1 : 0.0 (1d @ 1b63)
+                u2 : 0.0 (25 @ 1b68)
+
+                u3 sub-sub-sub-sub-block { (2a @ 1b6d)
+
+                    w : 1.0 (0d @ 1b6f)
+                    x : 1.0 (15 @ 1b74)
+                    y : 1.0 (1d @ 1b79)
+                    z : 1.0 (25 @ 1b7e)
+				}
+
+                u4 sub-sub-sub-sub-block { (32 @ 1b83)
+
+                    x : 0.0 (0d @ 1b85)
+                    y : 0.0 (15 @ 1b8a)
+                    z : 0.0 (1d @ 1b8f)
+				}
+                u5 : 0(38 @ 1b94)
+
+                u6 sub-sub-sub-sub-block { (42 @ 1b96)
+
+                    w : 1.0 (0d @ 1b98)
+                    x : 1.0 (15 @ 1b9d)
+                    y : 1.0 (1d @ 1ba2)
+                    z : 1.0 (25 @ 1ba7)
+				}
+			}
+		}
+
+        component sub-sub-block { (1a @ 1bac)
+
+            component type : AnimationController (0a @ 1bae)
+            number : 102(10 @ 1bc3)
+
+            animation controller sub-sub-sub-block { (4aa @ 1bc6)
+
+                model component : 101(08 @ 1bc8)
+                u1 : 0(10 @ 1bca)
+                u2 : 0(18 @ 1bcc)
+			}
+		}
+
+        component sub-sub-block { (1a @ 1bce)
+
+            component type : MonsterEntity (0a @ 1bd1)
+            number : 103(10 @ 1be0)
+
+            entity sub-sub-sub-block { (4c2 @ 1be3)
+
+                u0 : 1(08 @ 1be5)
+                u1 : 1(10 @ 1be7)
+			}
+
+            ?monster entity sub-sub-sub-block { (4f2 @ 1bea)
+
+                u0 :  (0a @ 1bed)
+
+                lua chunk sub-sub-sub-sub-block { (12 @ 1bef)
+
+                    main chunk : chunk >
+
+                    === lua =============
+                    local self = ...;
+                    
+                    local target = EntityController.Target(self);
+                    Program.Wait(0.3);
+                    if EntityController.IsIdle(self) then
+                    	EntityController.PerformAction(self, 112);
+                    end
+                    
+
+                    =====================
+                    secondary chunk : \x1bLuaQ\x00\x01\x04\x04\x04\x08\x00\xb2\x00\x00\x00local self = ...;\r\n\r\nlocal target = EntityController.Target(self);\r\nProgram.Wait(0.3);\r\nif EntityController.IsIdle(self) then\r\n\tEntityController.PerformAction(self, 112);\r\nend\r\n\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x02\x05\x15\x00\x00\x00%\x00\x00\x01E\x00\x00\x00F@\xc0\x00\x80\x00\x00\x00\\\x80\x00\x01\x85\x80\x00\x00\x86\xc0@\x01\xc1\x00\x01\x00\x9c@\x00\x01\x85\x00\x00\x00\x86@A\x01\xc0\x00\x00\x00\x9c\x80\x00\x01\x9a\x00\x00\x00\x16\x00\x01\x80\x85\x00\x00\x00\x86\x80A\x01\xc0\x00\x00\x00\x01\xc1\x01\x00\x9c@\x80\x01\x1e\x00\x80\x00\x08\x00\x00\x00\x04\x11\x00\x00\x00EntityController\x00\x04\x07\x00\x00\x00Target\x00\x04\x08\x00\x00\x00Program\x00\x04\x05\x00\x00\x00Wait\x00\x03333333\xd3?\x04\x07\x00\x00\x00IsIdle\x00\x04\x0e\x00\x00\x00PerformAction\x00\x03\x00\x00\x00\x00\x00\x00\\@\x00\x00\x00\x00\x15\x00\x00\x00\x01\x00\x00\x00\x03\x00\x00\x00\x03\x00\x00\x00\x03\x00\x00\x00\x03\x00\x00\x00\x04\x00\x00\x00\x04\x00\x00\x00\x04\x00\x00\x00\x04\x00\x00\x00\x05\x00\x00\x00\x05\x00\x00\x00\x05\x00\x00\x00\x05\x00\x00\x00\x05\x00\x00\x00\x05\x00\x00\x00\x06\x00\x00\x00\x06\x00\x00\x00\x06\x00\x00\x00\x06\x00\x00\x00\x06\x00\x00\x00\x07\x00\x00\x00\x02\x00\x00\x00\x05\x00\x00\x00self\x00\x01\x00\x00\x00\x14\x00\x00\x00\x07\x00\x00\x00target\x00\x05\x00\x00\x00\x14\x00\x00\x00\x00\x00\x00\x00 (12 @ 1ca6)
+				}
+                u2 : 1(18 @ 1ec5)
+                u3 : 1(20 @ 1ec7)
+			}
+		}
+
+        component sub-sub-block { (1a @ 1ec9)
+
+            component type : EntityController (0a @ 1ecb)
+            number : 104(10 @ 1edd)
+
+            entity controller sub-sub-sub-block { (50a @ 1ee0)
+
+                entity component : 103(08 @ 1ee2)
+                animation controller component : 102(10 @ 1ee4)
+                u2 : 109(18 @ 1ee6)
+                collision shape : 0(20 @ 1ee8)
+                u4 : 100.0 (2d @ 1eea)
+                u5 : 800.0 (35 @ 1eef)
+                u6 : 1000.0 (3d @ 1ef4)
+                u7 : 4(40 @ 1ef9)
+			}
+		}
+
+        component sub-sub-block { (1a @ 1efb)
+
+            component type : EntityInfo (0a @ 1efd)
+            number : 105(10 @ 1f09)
+
+            entity info sub-sub-sub-block { (522 @ 1f0c)
+
+                name : Skeleton (0a @ 1f0e)
+			}
+		}
+
+        component sub-sub-block { (1a @ 1f18)
+
+            component type : CollisionShape (0a @ 1f1a)
+            number : 106(10 @ 1f2a)
+
+            collision shape sub-sub-sub-block { (3c2 @ 1f2d)
+
+
+                u0 sub-sub-sub-sub-block { (0a @ 1f2f)
+
+                    w : -10.0 (0d @ 1f31)
+                    x : 0.0 (15 @ 1f36)
+                    y : 20.0 (1d @ 1f3b)
+                    z : 50.0 (25 @ 1f40)
+				}
+			}
+
+            collision shape 2 sub-sub-sub-block { (3ca @ 1f46)
+
+                u1 : 1(18 @ 1f48)
+                u2 : 1(20 @ 1f4a)
+                u3 : 1(28 @ 1f4c)
+                w : -15.0 (35 @ 1f4e)
+                x : 15.0 (3d @ 1f53)
+                z : 1(58 @ 1f58)
+			}
+		}
+
+        component sub-sub-block { (1a @ 1f5a)
+
+            component type : SwingableWeaponController (0a @ 1f5c)
+            number : 108(10 @ 1f77)
+
+            swingable weapon controller sub-sub-sub-block { (c8a @ 1f7a)
+
+                parent model : 101(08 @ 1f7c)
+                bone : BoneWeapon1 (12 @ 1f7e)
+                child model : skelly_weapon_sword (1a @ 1f8b)
+			}
+		}
+
+        component sub-sub-block { (1a @ 1fa0)
+
+            component type : KeyframeAnimation (0a @ 1fa2)
+            number : 109(10 @ 1fb5)
+
+            keyframe animation sub-sub-sub-block { (332 @ 1fb8)
+
+                linked model component number : 101(08 @ 1fba)
+                name : skelly_walk (12 @ 1fbc)
+                u0 : 1(18 @ 1fc9)
+                u1 : 1.0 (25 @ 1fcb)
+                u2 : 1(28 @ 1fd0)
+			}
+		}
+
+        component sub-sub-block { (1a @ 1fd2)
+
+            component type : Damage (0a @ 1fd4)
+            number : 110(10 @ 1fdc)
+
+            damage sub-sub-sub-block { (3d2 @ 1fdf)
+
+                u0 : 2(08 @ 1fe1)
+                u1 : 0(10 @ 1fe3)
+                u2 : 0(18 @ 1fe5)
+                u5 : 1.0 (35 @ 1fe7)
+                u6 : 0.0 (3d @ 1fec)
+                u7 : 0(40 @ 1ff1)
+                u8 : 1(48 @ 1ff3)
+			}
+		}
+
+        component sub-sub-block { (1a @ 1ff5)
+
+            component type : Health (0a @ 1ff7)
+            number : 111(10 @ 1fff)
+
+            health sub-sub-sub-block { (3da @ 2002)
+
+                u0 : 6(08 @ 2004)
+                u1 : 0(10 @ 2006)
+
+                u2 sub-sub-sub-sub-block { (1a @ 2008)
+
+                    x : 0.0 (0d @ 200a)
+                    y : 50.0 (15 @ 200f)
+				}
+			}
+		}
+
+        component sub-sub-block { (1a @ 2014)
+
+            component type : EntityAction (0a @ 2017)
+            number : 112(10 @ 2025)
+
+            entity action sub-sub-sub-block { (512 @ 2028)
+
+
+                lua chunk sub-sub-sub-sub-block { (0a @ 202b)
+
+                    main chunk : chunk >
+
+                    === lua =============
+                    local self = ...;
+                    
+                    local attackAnimation = 113;
+                    
+                    EntityController.SetMoveSpeed(self, 0);
+                    KeyframeAnimation.SetCurrentTime(self, attackAnimation, 0.0);
+                    AnimationController.BlendToAnimation(self, attackAnimation);
+                    
+                    Program.Wait(0.1);
+                    
+                    local swingStartTime = KeyframeAnimation.TimeToFrame(self, attackAnimation, 13);
+                    local swingEndTime = KeyframeAnimation.TimeToFrame(self, attackAnimation, 16);
+                    
+                    Program.Wait(swingStartTime);
+                    EntityController.StartSwing(self, 108, swingEndTime - swingStartTime);
+                    
+                    Program.Wait(KeyframeAnimation.TimeToCompletion(self, attackAnimation));
+                    
+                    EntityController.SetMoveSpeed(self, EntityController.DefaultMoveSpeed(self));
+
+                    =====================
+                    secondary chunk : \x1bLuaQ\x00\x01\x04\x04\x04\x08\x00\x9a\x02\x00\x00local self = ...;\r\n\r\nlocal attackAnimation = 113;\r\n\r\nEntityController.SetMoveSpeed(self, 0);\r\nKeyframeAnimation.SetCurrentTime(self, attackAnimation, 0.0);\r\nAnimationController.BlendToAnimation(self, attackAnimation);\r\n\r\nProgram.Wait(0.1);\r\n\r\nlocal swingStartTime = KeyframeAnimation.TimeToFrame(self, attackAnimation, 13);\r\nlocal swingEndTime = KeyframeAnimation.TimeToFrame(self, attackAnimation, 16);\r\n\r\nProgram.Wait(swingStartTime);\r\nEntityController.StartSwing(self, 108, swingEndTime - swingStartTime);\r\n\r\nProgram.Wait(KeyframeAnimation.TimeToCompletion(self, attackAnimation));\r\n\r\nEntityController.SetMoveSpeed(self, EntityController.DefaultMoveSpeed(self));\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x02\x08=\x00\x00\x00%\x00\x00\x01A\x00\x00\x00\x85@\x00\x00\x86\x80@\x01\xc0\x00\x00\x00\x01\xc1\x00\x00\x9c@\x80\x01\x85\x00\x01\x00\x86@A\x01\xc0\x00\x00\x00\x00\x01\x80\x00A\xc1\x00\x00\x9c@\x00\x02\x85\x80\x01\x00\x86\xc0A\x01\xc0\x00\x00\x00\x00\x01\x80\x00\x9c@\x80\x01\x85\x00\x02\x00\x86@B\x01\xc1\x80\x02\x00\x9c@\x00\x01\x85\x00\x01\x00\x86\xc0B\x01\xc0\x00\x00\x00\x00\x01\x80\x00A\x01\x03\x00\x9c\x80\x00\x02\xc5\x00\x01\x00\xc6\xc0\xc2\x01\x00\x01\x00\x00@\x01\x80\x00\x81A\x03\x00\xdc\x80\x00\x02\x05\x01\x02\x00\x06AB\x02@\x01\x00\x01\x1cA\x00\x01\x05A\x00\x00\x06\x81C\x02@\x01\x00\x00\x81\xc1\x03\x00\xcd\x81\x80\x01\x1cA\x00\x02\x05\x01\x02\x00\x06AB\x02E\x01\x01\x00F\x01\xc4\x02\x80\x01\x00\x00\xc0\x01\x80\x00\\\x01\x80\x01\x1cA\x00\x00\x05A\x00\x00\x06\x81@\x02@\x01\x00\x00\x85A\x00\x00\x86AD\x03\xc0\x01\x00\x00\x9c\x01\x00\x01\x1cA\x00\x00\x1e\x00\x80\x00\x12\x00\x00\x00\x03\x00\x00\x00\x00\x00@\\@\x04\x11\x00\x00\x00EntityController\x00\x04\r\x00\x00\x00SetMoveSpeed\x00\x03\x00\x00\x00\x00\x00\x00\x00\x00\x04\x12\x00\x00\x00KeyframeAnimation\x00\x04\x0f\x00\x00\x00SetCurrentTime\x00\x04\x14\x00\x00\x00AnimationController\x00\x04\x11\x00\x00\x00BlendToAnimation\x00\x04\x08\x00\x00\x00Program\x00\x04\x05\x00\x00\x00Wait\x00\x03\x9a\x99\x99\x99\x99\x99\xb9?\x04\x0c\x00\x00\x00TimeToFrame\x00\x03\x00\x00\x00\x00\x00\x00*@\x03\x00\x00\x00\x00\x00\x000@\x04\x0b\x00\x00\x00StartSwing\x00\x03\x00\x00\x00\x00\x00\x00[@\x04\x11\x00\x00\x00TimeToCompletion\x00\x04\x11\x00\x00\x00DefaultMoveSpeed\x00\x00\x00\x00\x00=\x00\x00\x00\x01\x00\x00\x00\x03\x00\x00\x00\x05\x00\x00\x00\x05\x00\x00\x00\x05\x00\x00\x00\x05\x00\x00\x00\x05\x00\x00\x00\x06\x00\x00\x00\x06\x00\x00\x00\x06\x00\x00\x00\x06\x00\x00\x00\x06\x00\x00\x00\x06\x00\x00\x00\x07\x00\x00\x00\x07\x00\x00\x00\x07\x00\x00\x00\x07\x00\x00\x00\x07\x00\x00\x00\t\x00\x00\x00\t\x00\x00\x00\t\x00\x00\x00\t\x00\x00\x00\x0b\x00\x00\x00\x0b\x00\x00\x00\x0b\x00\x00\x00\x0b\x00\x00\x00\x0b\x00\x00\x00\x0b\x00\x00\x00\x0c\x00\x00\x00\x0c\x00\x00\x00\x0c\x00\x00\x00\x0c\x00\x00\x00\x0c\x00\x00\x00\x0c\x00\x00\x00\x0e\x00\x00\x00\x0e\x00\x00\x00\x0e\x00\x00\x00\x0e\x00\x00\x00\x0f\x00\x00\x00\x0f\x00\x00\x00\x0f\x00\x00\x00\x0f\x00\x00\x00\x0f\x00\x00\x00\x0f\x00\x00\x00\x11\x00\x00\x00\x11\x00\x00\x00\x11\x00\x00\x00\x11\x00\x00\x00\x11\x00\x00\x00\x11\x00\x00\x00\x11\x00\x00\x00\x11\x00\x00\x00\x13\x00\x00\x00\x13\x00\x00\x00\x13\x00\x00\x00\x13\x00\x00\x00\x13\x00\x00\x00\x13\x00\x00\x00\x13\x00\x00\x00\x13\x00\x00\x00\x13\x00\x00\x00\x04\x00\x00\x00\x05\x00\x00\x00self\x00\x01\x00\x00\x00<\x00\x00\x00\x10\x00\x00\x00attackAnimation\x00\x02\x00\x00\x00<\x00\x00\x00\x0f\x00\x00\x00swingStartTime\x00\x1c\x00\x00\x00<\x00\x00\x00\r\x00\x00\x00swingEndTime\x00"\x00\x00\x00<\x00\x00\x00\x00\x00\x00\x00 (12 @ 22ca)
+				}
+			}
+		}
+
+        component sub-sub-block { (1a @ 2900)
+
+            component type : KeyframeAnimation (0a @ 2902)
+            number : 113(10 @ 2915)
+
+            keyframe animation sub-sub-sub-block { (332 @ 2918)
+
+                linked model component number : 101(08 @ 291a)
+                name : skelly_attack1 (12 @ 291c)
+                u0 : 0(18 @ 292c)
+                u1 : 1.2999999523162842 (25 @ 292e)
+                u2 : 1(28 @ 2933)
+			}
+		}
+
+        component sub-sub-block { (1a @ 2935)
+
+            component type : Program (0a @ 2938)
+            number : 116(10 @ 2941)
+
+            program sub-sub-sub-block { (4ea @ 2944)
+
+                u0 : 1(08 @ 2947)
+
+                lua chunk sub-sub-sub-sub-block { (12 @ 2949)
+
+                    main chunk : chunk >
+
+                    === lua =============
+                    local self = ...;
+                    
+                    local target = EntityController.Target(self);
+                    while true do
+                    	Program.Wait(Math.RandomFloat(1.5,3));
+                    	if EntityController.IsIdle(self) then
+                    		EntityController.PerformAction(self, 112);
+                    	end
+                    end
+
+                    =====================
+                    secondary chunk : \x1bLuaQ\x00\x01\x04\x04\x04\x08\x00\xdc\x00\x00\x00local self = ...;\r\n\r\nlocal target = EntityController.Target(self);\r\nwhile true do\r\n\tProgram.Wait(Math.RandomFloat(1.5,3));\r\n\tif EntityController.IsIdle(self) then\r\n\t\tEntityController.PerformAction(self, 112);\r\n\tend\r\nend\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x02\x06\x1a\x00\x00\x00%\x00\x00\x01E\x00\x00\x00F@\xc0\x00\x80\x00\x00\x00\\\x80\x00\x01\x85\x80\x00\x00\x86\xc0@\x01\xc5\x00\x01\x00\xc6@\xc1\x01\x01\x81\x01\x00A\xc1\x01\x00\xdc\x00\x80\x01\x9c@\x00\x00\x85\x00\x00\x00\x86\x00B\x01\xc0\x00\x00\x00\x9c\x80\x00\x01\x9a\x00\x00\x00\x16@\xfc\x7f\x85\x00\x00\x00\x86@B\x01\xc0\x00\x00\x00\x01\x81\x02\x00\x9c@\x80\x01\x16\xc0\xfa\x7f\x1e\x00\x80\x00\x0b\x00\x00\x00\x04\x11\x00\x00\x00EntityController\x00\x04\x07\x00\x00\x00Target\x00\x04\x08\x00\x00\x00Program\x00\x04\x05\x00\x00\x00Wait\x00\x04\x05\x00\x00\x00Math\x00\x04\x0c\x00\x00\x00RandomFloat\x00\x03\x00\x00\x00\x00\x00\x00\xf8?\x03\x00\x00\x00\x00\x00\x00\x08@\x04\x07\x00\x00\x00IsIdle\x00\x04\x0e\x00\x00\x00PerformAction\x00\x03\x00\x00\x00\x00\x00\x00\\@\x00\x00\x00\x00\x1a\x00\x00\x00\x01\x00\x00\x00\x03\x00\x00\x00\x03\x00\x00\x00\x03\x00\x00\x00\x03\x00\x00\x00\x05\x00\x00\x00\x05\x00\x00\x00\x05\x00\x00\x00\x05\x00\x00\x00\x05\x00\x00\x00\x05\x00\x00\x00\x05\x00\x00\x00\x05\x00\x00\x00\x06\x00\x00\x00\x06\x00\x00\x00\x06\x00\x00\x00\x06\x00\x00\x00\x06\x00\x00\x00\x06\x00\x00\x00\x07\x00\x00\x00\x07\x00\x00\x00\x07\x00\x00\x00\x07\x00\x00\x00\x07\x00\x00\x00\x08\x00\x00\x00\t\x00\x00\x00\x02\x00\x00\x00\x05\x00\x00\x00self\x00\x01\x00\x00\x00\x19\x00\x00\x00\x07\x00\x00\x00target\x00\x05\x00\x00\x00\x19\x00\x00\x00\x00\x00\x00\x00 (12 @ 2a2a)
+				}
+                u1 : 1(18 @ 2cbf)
+                u2 : 1(20 @ 2cc1)
+			}
+		}
+
+        position sub-sub-block { (22 @ 2cc3)
+
+            x position : 0.0 (0d @ 2cc5)
+            y position : 0.0 (15 @ 2cca)
+		}
+        z position : 0.0 (2d @ 2ccf)
+        rotation : 0.0 (35 @ 2cd4)
+        scale : 1.0 (3d @ 2cd9)
+
+        u0 sub-sub-block { (42 @ 2cde)
+
+            w : -10.0 (0d @ 2ce0)
+            x : 0.0 (15 @ 2ce5)
+            y : 20.0 (1d @ 2cea)
+            z : 50.0 (25 @ 2cef)
+		}
+        hidden : 0(48 @ 2cf4)
+
+        lua chunk sub-sub-block { (52 @ 2cf6)
+
+            main chunk : chunk >
+
+            === lua =============
+            local self = ...;
+            
+            Program.Wait(0.1);
+            local blast = Scene.CreateObject("summonBlast", "blastie", self);
+            blast:setPosition(self:position()+Vector3.New(0,40,0));
+            
+
+            =====================
+            secondary chunk : \x1bLuaQ\x00\x01\x04\x04\x04\x08\x00\xa6\x00\x00\x00local self = ...;\r\n\r\nProgram.Wait(0.1);\r\nlocal blast = Scene.CreateObject("summonBlast", "blastie", self);\r\nblast:setPosition(self:position()+Vector3.New(0,40,0));\r\n\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x02\t\x17\x00\x00\x00%\x00\x00\x01E\x00\x00\x00F@\xc0\x00\x81\x80\x00\x00\\@\x00\x01E\xc0\x00\x00F\x00\xc1\x00\x81@\x01\x00\xc1\x80\x01\x00\x00\x01\x00\x00\\\x80\x00\x02\x8b\xc0\xc1\x00\x0b\x01B\x00\x1c\x81\x00\x01EA\x02\x00F\x81\xc2\x02\x81\xc1\x02\x00\xc1\x01\x03\x00\x01\xc2\x02\x00\\\x81\x00\x02\x0cA\x01\x02\x9c@\x80\x01\x1e\x00\x80\x00\r\x00\x00\x00\x04\x08\x00\x00\x00Program\x00\x04\x05\x00\x00\x00Wait\x00\x03\x9a\x99\x99\x99\x99\x99\xb9?\x04\x06\x00\x00\x00Scene\x00\x04\r\x00\x00\x00CreateObject\x00\x04\x0c\x00\x00\x00summonBlast\x00\x04\x08\x00\x00\x00blastie\x00\x04\x0c\x00\x00\x00setPosition\x00\x04\t\x00\x00\x00position\x00\x04\x08\x00\x00\x00Vector3\x00\x04\x04\x00\x00\x00New\x00\x03\x00\x00\x00\x00\x00\x00\x00\x00\x03\x00\x00\x00\x00\x00\x00D@\x00\x00\x00\x00\x17\x00\x00\x00\x01\x00\x00\x00\x03\x00\x00\x00\x03\x00\x00\x00\x03\x00\x00\x00\x03\x00\x00\x00\x04\x00\x00\x00\x04\x00\x00\x00\x04\x00\x00\x00\x04\x00\x00\x00\x04\x00\x00\x00\x04\x00\x00\x00\x05\x00\x00\x00\x05\x00\x00\x00\x05\x00\x00\x00\x05\x00\x00\x00\x05\x00\x00\x00\x05\x00\x00\x00\x05\x00\x00\x00\x05\x00\x00\x00\x05\x00\x00\x00\x05\x00\x00\x00\x05\x00\x00\x00\x05\x00\x00\x00\x02\x00\x00\x00\x05\x00\x00\x00self\x00\x01\x00\x00\x00\x16\x00\x00\x00\x06\x00\x00\x00blast\x00\x0b\x00\x00\x00\x16\x00\x00\x00\x00\x00\x00\x00 (12 @ 2da1)
+		}
+	}
+    u0 : 1.2999999523162842 (15 @ 2ffb)
+}
+
+?item block { (12 @ 3000)
+
+
+    ?sub-item sub-block { (0a @ 3003)
+
+        name : weapon_handglow_frost (12 @ 3006)
+
+        component sub-sub-block { (1a @ 301d)
+
+            component type : SwingableWeapon (0a @ 301f)
+            number : 1(10 @ 3030)
+
+            swingable weapon sub-sub-sub-block { (c82 @ 3033)
+
+                linked model component number : 0(08 @ 3035)
+                u1 : 0(10 @ 3037)
+                u2 : 0(20 @ 3039)
+                u3 : 0(28 @ 303b)
+                u4 : 0(30 @ 303d)
+                u5 : 0(38 @ 303f)
+                u6 : 0(40 @ 3041)
+                u7 : 0(48 @ 3043)
+                w : 50.0 (55 @ 3045)
+                x : 65.0 (5d @ 304a)
+                y : 0.0 (65 @ 304f)
+                z : 10.0 (6d @ 3054)
+                u8 : \r\x00\x00\x00?\x15\x00\x00\x00?\x1d\x00\x00\x00?%\x00\x00\x00\x00 (72 @ 3059)
+			}
+		}
+
+        component sub-sub-block { (1a @ 306f)
+
+            component type : ParticleEmitter (0a @ 3072)
+            number : 2(10 @ 3083)
+
+            particle emitter sub-sub-sub-block { (7d2 @ 3086)
+
+                particle : 3(10 @ 3088)
+                particle : 4(10 @ 308a)
+                particle : 5(10 @ 308c)
+                u1 : 0(18 @ 308e)
+                u2 : 30(20 @ 3090)
+                u3 : 0(28 @ 3092)
+                u4 : 0(30 @ 3094)
+
+                u5 sub-sub-sub-sub-block { (3a @ 3096)
+
+                    u0 : 3(08 @ 3098)
+
+                    u1 sub-sub-sub-sub-sub-block { (12 @ 309a)
+
+                        w : 0.3111111521720886 (0d @ 309c)
+                        x : 0.477777898311615 (15 @ 30a1)
+                        y : 0.9999999403953552 (1d @ 30a6)
+                        z : 0.0 (25 @ 30ab)
+					}
+                    u2 : 0.019999999552965164 (1d @ 30b0)
+                    u2 : 0.4000000059604645 (1d @ 30b5)
+                    u2 : 1.0 (1d @ 30ba)
+                    u2 : 10.0 (1d @ 30bf)
+                    u2 : 0.30000001192092896 (1d @ 30c4)
+                    u2 : 0.0 (1d @ 30c9)
+                    u2 : 1.0 (1d @ 30ce)
+                    u3 : 0.0 (25 @ 30d3)
+                    u4 : 0.0 (2d @ 30d8)
+                    u5 : 0.0 (35 @ 30dd)
+
+                    u6 sub-sub-sub-sub-sub-block { (3a @ 30e2)
+
+                        u0 : 0.0 (0d @ 30e4)
+                        u1 : 0.0 (15 @ 30e9)
+                        u2 : 0.0 (1d @ 30ee)
+					}
+				}
+                u6 : 0(40 @ 30f3)
+
+                u7 sub-sub-sub-sub-block { (4a @ 30f5)
+
+                    u0 : 0.0 (0d @ 30f7)
+                    u1 : -1.0 (15 @ 30fc)
+                    u2 : 0.0 (1d @ 3101)
+				}
+			}
+		}
+
+        component sub-sub-block { (1a @ 3106)
+
+            component type : Particle (0a @ 3108)
+            number : 3(10 @ 3112)
+
+            particle sub-sub-sub-block { (7da @ 3115)
+
+                name : particle_fure_1 (0a @ 3117)
+                u0 : 15.0 (15 @ 3128)
+			}
+		}
+
+        component sub-sub-block { (1a @ 312d)
+
+            component type : Particle (0a @ 312f)
+            number : 4(10 @ 3139)
+
+            particle sub-sub-sub-block { (7da @ 313c)
+
+                name : particle_fure_2 (0a @ 313e)
+                u0 : 20.0 (15 @ 314f)
+			}
+		}
+
+        component sub-sub-block { (1a @ 3154)
+
+            component type : Particle (0a @ 3156)
+            number : 5(10 @ 3160)
+
+            particle sub-sub-sub-block { (7da @ 3163)
+
+                name : particle_fure_3 (0a @ 3165)
+                u0 : 10.0 (15 @ 3176)
+			}
+		}
+
+        component sub-sub-block { (1a @ 317b)
+
+            component type : SimpleGlow (0a @ 317d)
+            number : 101(10 @ 3189)
+
+            simple glow sub-sub-sub-block { (7f2 @ 318c)
+
+
+                u0 sub-sub-sub-sub-block { (0a @ 318e)
+
+                    w : 0.1111111119389534 (0d @ 3190)
+                    x : 0.13333334028720856 (15 @ 3195)
+                    y : 0.6333333253860474 (1d @ 319a)
+                    z : 0.5 (25 @ 319f)
+				}
+                u1 : 20.0 (15 @ 31a4)
+                u2 : 10(18 @ 31a9)
+                u3 : 15.0 (25 @ 31ab)
+                u4 : 0.15000000596046448 (2d @ 31b0)
+                u5 : 0.800000011920929 (35 @ 31b5)
+
+                u6 sub-sub-sub-sub-block { (3a @ 31ba)
+
+                    y : 0.0 (0d @ 31bc)
+                    z : 0.0 (15 @ 31c1)
+				}
+			}
+		}
+
+        position sub-sub-block { (22 @ 31c6)
+
+            x position : 0.0 (0d @ 31c8)
+            y position : 0.0 (15 @ 31cd)
+		}
+        z position : 0.0 (2d @ 31d2)
+        rotation : 0.0 (35 @ 31d7)
+        scale : 1.0 (3d @ 31dc)
+
+        u0 sub-sub-block { (42 @ 31e1)
+
+            w : -20.0 (0d @ 31e3)
+            x : -20.0 (15 @ 31e8)
+            y : 40.0 (1d @ 31ed)
+            z : 40.0 (25 @ 31f2)
+		}
+        hidden : 0(48 @ 31f7)
+	}
+    u0 : 1.0 (15 @ 31f9)
+}
+
+?item block { (12 @ 31fe)
+
+
+    ?sub-item sub-block { (0a @ 3201)
+
+        name : weapon_handglow_red (12 @ 3204)
+
+        component sub-sub-block { (1a @ 3219)
+
+            component type : SwingableWeapon (0a @ 321b)
+            number : 1(10 @ 322c)
+
+            swingable weapon sub-sub-sub-block { (c82 @ 322f)
+
+                linked model component number : 0(08 @ 3231)
+                u1 : 0(10 @ 3233)
+                u2 : 0(20 @ 3235)
+                u3 : 0(28 @ 3237)
+                u4 : 0(30 @ 3239)
+                u5 : 0(38 @ 323b)
+                u6 : 0(40 @ 323d)
+                u7 : 0(48 @ 323f)
+                w : 50.0 (55 @ 3241)
+                x : 65.0 (5d @ 3246)
+                y : 0.0 (65 @ 324b)
+                z : 10.0 (6d @ 3250)
+                u8 : \r\x00\x00\x00?\x15\x00\x00\x00?\x1d\x00\x00\x00?%\x00\x00\x00\x00 (72 @ 3255)
+			}
+		}
+
+        component sub-sub-block { (1a @ 326b)
+
+            component type : ParticleEmitter (0a @ 326e)
+            number : 2(10 @ 327f)
+
+            particle emitter sub-sub-sub-block { (7d2 @ 3282)
+
+                particle : 3(10 @ 3284)
+                particle : 4(10 @ 3286)
+                particle : 5(10 @ 3288)
+                u1 : 0(18 @ 328a)
+                u2 : 30(20 @ 328c)
+                u3 : 0(28 @ 328e)
+                u4 : 0(30 @ 3290)
+
+                u5 sub-sub-sub-sub-block { (3a @ 3292)
+
+                    u0 : 3(08 @ 3294)
+
+                    u1 sub-sub-sub-sub-sub-block { (12 @ 3296)
+
+                        w : 0.6666666865348816 (0d @ 3298)
+                        x : 0.20000001788139343 (15 @ 329d)
+                        y : 0.18888890743255615 (1d @ 32a2)
+                        z : 0.0 (25 @ 32a7)
+					}
+                    u2 : 0.019999999552965164 (1d @ 32ac)
+                    u2 : 0.4000000059604645 (1d @ 32b1)
+                    u2 : 1.0 (1d @ 32b6)
+                    u2 : 10.0 (1d @ 32bb)
+                    u2 : 0.30000001192092896 (1d @ 32c0)
+                    u2 : 0.0 (1d @ 32c5)
+                    u2 : 1.0 (1d @ 32ca)
+                    u3 : 0.0 (25 @ 32cf)
+                    u4 : 0.0 (2d @ 32d4)
+                    u5 : 0.0 (35 @ 32d9)
+
+                    u6 sub-sub-sub-sub-sub-block { (3a @ 32de)
+
+                        u0 : 0.0 (0d @ 32e0)
+                        u1 : 0.0 (15 @ 32e5)
+                        u2 : 0.0 (1d @ 32ea)
+					}
+				}
+                u6 : 0(40 @ 32ef)
+
+                u7 sub-sub-sub-sub-block { (4a @ 32f1)
+
+                    u0 : 0.0 (0d @ 32f3)
+                    u1 : -1.0 (15 @ 32f8)
+                    u2 : 0.0 (1d @ 32fd)
+				}
+			}
+		}
+
+        component sub-sub-block { (1a @ 3302)
+
+            component type : Particle (0a @ 3304)
+            number : 3(10 @ 330e)
+
+            particle sub-sub-sub-block { (7da @ 3311)
+
+                name : particle_fure_1 (0a @ 3313)
+                u0 : 15.0 (15 @ 3324)
+			}
+		}
+
+        component sub-sub-block { (1a @ 3329)
+
+            component type : Particle (0a @ 332b)
+            number : 4(10 @ 3335)
+
+            particle sub-sub-sub-block { (7da @ 3338)
+
+                name : particle_fure_2 (0a @ 333a)
+                u0 : 20.0 (15 @ 334b)
+			}
+		}
+
+        component sub-sub-block { (1a @ 3350)
+
+            component type : Particle (0a @ 3352)
+            number : 5(10 @ 335c)
+
+            particle sub-sub-sub-block { (7da @ 335f)
+
+                name : particle_fure_3 (0a @ 3361)
+                u0 : 10.0 (15 @ 3372)
+			}
+		}
+
+        component sub-sub-block { (1a @ 3377)
+
+            component type : SimpleGlow (0a @ 3379)
+            number : 101(10 @ 3385)
+
+            simple glow sub-sub-sub-block { (7f2 @ 3388)
+
+
+                u0 sub-sub-sub-sub-block { (0a @ 338a)
+
+                    w : 0.644444465637207 (0d @ 338c)
+                    x : 0.0 (15 @ 3391)
+                    y : 0.0 (1d @ 3396)
+                    z : 0.5 (25 @ 339b)
+				}
+                u1 : 20.0 (15 @ 33a0)
+                u2 : 10(18 @ 33a5)
+                u3 : 15.0 (25 @ 33a7)
+                u4 : 0.15000000596046448 (2d @ 33ac)
+                u5 : 0.800000011920929 (35 @ 33b1)
+
+                u6 sub-sub-sub-sub-block { (3a @ 33b6)
+
+                    y : 0.0 (0d @ 33b8)
+                    z : 0.0 (15 @ 33bd)
+				}
+			}
+		}
+
+        position sub-sub-block { (22 @ 33c2)
+
+            x position : 0.0 (0d @ 33c4)
+            y position : 0.0 (15 @ 33c9)
+		}
+        z position : 0.0 (2d @ 33ce)
+        rotation : 0.0 (35 @ 33d3)
+        scale : 1.0 (3d @ 33d8)
+
+        u0 sub-sub-block { (42 @ 33dd)
+
+            w : -20.0 (0d @ 33df)
+            x : -20.0 (15 @ 33e4)
+            y : 40.0 (1d @ 33e9)
+            z : 40.0 (25 @ 33ee)
+		}
+        hidden : 0(48 @ 33f3)
+	}
+    u0 : 1.0 (15 @ 33f5)
+}

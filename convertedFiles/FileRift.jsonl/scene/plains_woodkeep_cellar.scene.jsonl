@@ -1,0 +1,5771 @@
+data = {
+
+"objectblock " :  {
+
+	"name" : "Template 1",
+	"identifier" : "Background",
+
+	"componentsub-block " :  {
+
+		"component type" : "Background",
+		"number" : 101,
+
+		"filesub-sub-block " :  {
+
+			"filename" : "blackbg",
+		},
+	},
+
+	"positionsub-block " :  {
+
+		"x position" : -863.5526733398438,
+		"y position" : 1663.13330078125,
+	},
+	"z position" : 1.7203826904296875,
+	"rotation" : 0.0,
+	"scale" : 1.0,
+
+	"u2sub-block " :  {
+
+		"w" : -30.0,
+		"x" : -30.0,
+		"y" : 60.0,
+		"z" : 60.0,
+	},
+	"hidden" : 0,
+},
+
+"objectblock " :  {
+
+	"name" : "Template 1",
+	"identifier" : "DirectionalLight",
+
+	"componentsub-block " :  {
+
+		"component type" : "Light",
+		"number" : 101,
+
+		"lightsub-sub-block " :  {
+
+			"u0" : 2,
+			"u1" : 2.0,
+
+			"u2sub-sub-sub-block " :  {
+
+				"w" : 1.0,
+				"x" : 1.0,
+				"y" : 1.0,
+				"z" : 1.0,
+			},
+		},
+	},
+
+	"componentsub-block " :  {
+
+		"component type" : "Light",
+		"number" : 103,
+
+		"lightsub-sub-block " :  {
+
+			"u0" : 1,
+			"u1" : 0.5,
+
+			"u2sub-sub-sub-block " :  {
+
+				"w" : 1.0,
+				"x" : 1.0,
+				"y" : 1.0,
+				"z" : 1.0,
+			},
+		},
+	},
+
+	"componentsub-block " :  {
+
+		"component type" : "Light",
+		"number" : 105,
+
+		"lightsub-sub-block " :  {
+
+			"u0" : 4,
+			"u1" : 1.0,
+
+			"u2sub-sub-sub-block " :  {
+
+				"w" : 0.0,
+				"x" : 0.0,
+				"y" : 0.0,
+				"z" : 1.0,
+			},
+		},
+	},
+
+	"positionsub-block " :  {
+
+		"x position" : 486.884765625,
+		"y position" : 600.453857421875,
+	},
+	"z position" : -323.73321533203125,
+	"rotation" : 0.0,
+	"scale" : 1.0,
+
+	"u2sub-block " :  {
+
+		"w" : -30.0,
+		"x" : -30.0,
+		"y" : 60.0,
+		"z" : 60.0,
+	},
+	"hidden" : 0,
+},
+
+"objectblock " :  {
+
+	"name" : "castle_lockdoor",
+	"identifier" : "door",
+
+	"positionsub-block " :  {
+
+		"x position" : -2114.165771484375,
+		"y position" : 708.5556030273438,
+	},
+	"z position" : 0.0,
+	"rotation" : 0.0,
+	"scale" : 1.0,
+
+	"u2sub-block " :  {
+
+		"w" : -15.0,
+		"x" : -0.5730754137039185,
+		"y" : 28.634246826171875,
+		"z" : 247.1038055419922,
+	},
+	"hidden" : 0,
+},
+
+"objectblock " :  {
+
+	"identifier" : "focus",
+
+	"componentsub-block " :  {
+
+		"component type" : "UtilityShape",
+		"number" : 101,
+
+		"collision shapesub-sub-block " :  {
+
+
+			"u0sub-sub-sub-block " :  {
+
+				"w" : -220.0,
+				"x" : -80.0,
+				"y" : 440.0,
+				"z" : 160.0,
+			},
+		},
+	},
+
+	"positionsub-block " :  {
+
+		"x position" : -1767.7208251953125,
+		"y position" : 772.2423095703125,
+	},
+	"z position" : 0.0,
+	"rotation" : 0.0,
+	"scale" : 1.0,
+
+	"u2sub-block " :  {
+
+		"w" : -30.0,
+		"x" : -30.0,
+		"y" : 60.0,
+		"z" : 60.0,
+	},
+	"hidden" : 0,
+},
+
+"objectblock " :  {
+
+	"identifier" : "marker1",
+
+	"positionsub-block " :  {
+
+		"x position" : -1848.911376953125,
+		"y position" : 739.9368896484375,
+	},
+	"z position" : 0.0,
+	"rotation" : 0.0,
+	"scale" : 1.0,
+
+	"u2sub-block " :  {
+
+		"w" : -30.0,
+		"x" : -30.0,
+		"y" : 60.0,
+		"z" : 60.0,
+	},
+	"hidden" : 0,
+},
+
+"objectblock " :  {
+
+	"name" : "masterghost",
+	"identifier" : "master",
+
+	"componentsub-block " :  {
+
+		"component type" : "Program",
+		"number" : 4,
+
+		"programsub-sub-block " :  {
+
+			"u0" : 1,
+
+			"lua chunksub-sub-sub-block " :  {
+
+				"main chunk" : "chunk >
+
+				=== lua =============
+				local self = ...;
+				
+				self[\"texts\"] = {
+					\"It\'s so dark in here.\", 
+					\"Be careful.\", 
+					\"I hope you will be alright.\", 
+					\"There is no Error in this game.\",
+					\"It\'s so dark in here.\", 
+					\"Be careful.\", 
+					\"I hope you will be alright.\"
+				};
+				
+
+				=====================",
+				"secondary chunk" : "\\x1bLuaQ\\x00\\x01\\x04\\x04\\x04\\x08\\x00\\xf0\\x00\\x00\\x00local self = ...;\\r\\n\\r\\nself[\"texts\"] = {\\r\\n\\t\"It\\\'s so dark in here.\", \\r\\n\\t\"Be careful.\", \\r\\n\\t\"I hope you will be alright.\", \\r\\n\\t\"There is no Error in this game.\",\\r\\n\\t\"It\\\'s so dark in here.\", \\r\\n\\t\"Be careful.\", \\r\\n\\t\"I hope you will be alright.\"\\r\\n};\\r\\n\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x02\\t\\x0c\\x00\\x00\\x00%\\x00\\x00\\x01J\\x00\\x80\\x03\\x81@\\x00\\x00\\xc1\\x80\\x00\\x00\\x01\\xc1\\x00\\x00A\\x01\\x01\\x00\\x81A\\x00\\x00\\xc1\\x81\\x00\\x00\\x01\\xc2\\x00\\x00b@\\x80\\x03\\t@\\x00\\x80\\x1e\\x00\\x80\\x00\\x05\\x00\\x00\\x00\\x04\\x06\\x00\\x00\\x00texts\\x00\\x04\\x16\\x00\\x00\\x00It\\\'s so dark in here.\\x00\\x04\\x0c\\x00\\x00\\x00Be careful.\\x00\\x04\\x1c\\x00\\x00\\x00I hope you will be alright.\\x00\\x04 \\x00\\x00\\x00There is no Error in this game.\\x00\\x00\\x00\\x00\\x00\\x0c\\x00\\x00\\x00\\x01\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x06\\x00\\x00\\x00\\x07\\x00\\x00\\x00\\x08\\x00\\x00\\x00\\t\\x00\\x00\\x00\\x0b\\x00\\x00\\x00\\x0b\\x00\\x00\\x00\\x0b\\x00\\x00\\x00\\x0b\\x00\\x00\\x00\\x01\\x00\\x00\\x00\\x05\\x00\\x00\\x00self\\x00\\x01\\x00\\x00\\x00\\x0b\\x00\\x00\\x00\\x00\\x00\\x00\\x00",
+			},
+			"u1" : 1,
+			"u2" : 10,
+		},
+	},
+
+	"positionsub-block " :  {
+
+		"x position" : -1710.5662841796875,
+		"y position" : 747.659423828125,
+	},
+	"z position" : -33.65899658203125,
+	"rotation" : 0.0,
+	"scale" : 1.0,
+
+	"u2sub-block " :  {
+
+		"w" : -50.0,
+		"x" : -50.0,
+		"y" : 100.0,
+		"z" : 100.0,
+	},
+	"hidden" : 0,
+},
+
+"objectblock " :  {
+
+	"name" : "torch#2",
+	"identifier" : "obj1",
+
+	"positionsub-block " :  {
+
+		"x position" : -3739.292236328125,
+		"y position" : 774.6715087890625,
+	},
+	"z position" : 84.07247924804688,
+	"rotation" : 0.0,
+	"scale" : 1.0,
+
+	"u2sub-block " :  {
+
+		"w" : -50.0,
+		"x" : -50.0,
+		"y" : 100.0,
+		"z" : 100.0,
+	},
+	"hidden" : 0,
+},
+
+"objectblock " :  {
+
+	"name" : "torch#2",
+	"identifier" : "obj1#2",
+
+	"positionsub-block " :  {
+
+		"x position" : -2710.474609375,
+		"y position" : 756.3767700195312,
+	},
+	"z position" : 84.07247924804688,
+	"rotation" : 0.0,
+	"scale" : 1.0,
+
+	"u2sub-block " :  {
+
+		"w" : -50.0,
+		"x" : -50.0,
+		"y" : 100.0,
+		"z" : 100.0,
+	},
+	"hidden" : 0,
+},
+
+"objectblock " :  {
+
+	"name" : "torch#2",
+	"identifier" : "obj1#3",
+
+	"positionsub-block " :  {
+
+		"x position" : -1888.269287109375,
+		"y position" : 746.4118041992188,
+	},
+	"z position" : 84.07247924804688,
+	"rotation" : 0.0,
+	"scale" : 1.0,
+
+	"u2sub-block " :  {
+
+		"w" : -50.0,
+		"x" : -50.0,
+		"y" : 100.0,
+		"z" : 100.0,
+	},
+	"hidden" : 0,
+},
+
+"objectblock " :  {
+
+	"name" : "torch#2",
+	"identifier" : "obj1#4",
+
+	"positionsub-block " :  {
+
+		"x position" : -2304.777587890625,
+		"y position" : 757.6863403320312,
+	},
+	"z position" : 84.07247924804688,
+	"rotation" : 0.0,
+	"scale" : 1.0,
+
+	"u2sub-block " :  {
+
+		"w" : -50.0,
+		"x" : -50.0,
+		"y" : 100.0,
+		"z" : 100.0,
+	},
+	"hidden" : 0,
+},
+
+"objectblock " :  {
+
+	"identifier" : "obj25#3",
+
+	"componentsub-block " :  {
+
+		"component type" : "CollisionShape",
+		"number" : 101,
+
+		"collision shapesub-sub-block " :  {
+
+
+			"u0sub-sub-sub-block " :  {
+
+				"w" : -500.0,
+				"x" : -200.0,
+				"y" : 544.5,
+				"z" : 500.0,
+			},
+		},
+
+		"collision shape 2sub-sub-block " :  {
+
+			"w" : -15.0,
+			"x" : 15.0,
+			"y" : 2,
+			"z" : 1,
+		},
+	},
+
+	"componentsub-block " :  {
+
+		"component type" : "Portal",
+		"number" : 103,
+
+		"portalsub-sub-block " :  {
+
+			"target level" : "plains_woodkeep2",
+			"spawnpoint" : "",
+			"touchable" : 0,
+			"collision shape component" : 101,
+		},
+	},
+
+	"positionsub-block " :  {
+
+		"x position" : -3653.980224609375,
+		"y position" : 1309.5087890625,
+	},
+	"z position" : 0.0,
+	"rotation" : 0.0,
+	"scale" : 1.0,
+
+	"u2sub-block " :  {
+
+		"w" : -500.0,
+		"x" : -200.0,
+		"y" : 544.5,
+		"z" : 500.0,
+	},
+	"hidden" : 0,
+},
+
+"objectblock " :  {
+
+	"identifier" : "obj27",
+
+	"componentsub-block " :  {
+
+		"component type" : "GroundPolygon",
+		"number" : 100,
+
+		"ground polygonsub-sub-block " :  {
+
+
+			"sub-sub-sub-block " :  {
+
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"x" : -1433.2493896484375,
+					"y" : -229.22116088867188,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"x" : -1183.1357421875,
+					"y" : -376.03387451171875,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"x" : -933.0220947265625,
+					"y" : -522.8465576171875,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"x" : -682.908447265625,
+					"y" : -669.6593017578125,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"x" : -423.02593994140625,
+					"y" : -668.4033813476562,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"x" : -163.14340209960938,
+					"y" : -667.1473999023438,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"x" : 96.73912048339844,
+					"y" : -665.8914184570312,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"x" : 356.62164306640625,
+					"y" : -664.635498046875,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"x" : 616.504150390625,
+					"y" : -663.3795776367188,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"x" : 876.38671875,
+					"y" : -662.1235961914062,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"x" : 1136.2691650390625,
+					"y" : -660.8676147460938,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"x" : 1396.1517333984375,
+					"y" : -659.6116943359375,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"x" : 1488.3778076171875,
+					"y" : -654.9691162109375,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"x" : 1509.3197021484375,
+					"y" : 121.1837158203125,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"x" : 1354.0291748046875,
+					"y" : 120.94366455078125,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"x" : 1198.738525390625,
+					"y" : 120.70361328125,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"x" : 1043.4478759765625,
+					"y" : 120.46356201171875,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"x" : 888.1573486328125,
+					"y" : 120.22352600097656,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"x" : 732.8667602539062,
+					"y" : 119.98348999023438,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"x" : 577.576171875,
+					"y" : 119.74343872070312,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"x" : 422.2856140136719,
+					"y" : 119.50338745117188,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"x" : 266.99505615234375,
+					"y" : 119.26333618164062,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"x" : 111.7044677734375,
+					"y" : 119.02328491210938,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"x" : -43.58610534667969,
+					"y" : 118.78323364257812,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"x" : -198.87667846679688,
+					"y" : 118.54318237304688,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"x" : -354.1672668457031,
+					"y" : 118.30314636230469,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"x" : -509.45782470703125,
+					"y" : 118.0631103515625,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"x" : -664.7484130859375,
+					"y" : 117.82305908203125,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"x" : -820.0390014648438,
+					"y" : 117.5830078125,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"x" : -1054.45654296875,
+					"y" : 117.34295654296875,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"x" : -1052.58544921875,
+					"y" : 365.36724853515625,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"x" : -1051.318603515625,
+					"y" : 637.1654663085938,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"x" : -881.09814453125,
+					"y" : 650.1265258789062,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"x" : -862.064208984375,
+					"y" : 638.2754516601562,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"x" : -862.3203125,
+					"y" : 365.27911376953125,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"x" : -404.9339294433594,
+					"y" : 364.73956298828125,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"x" : 163.59063720703125,
+					"y" : 364.11187744140625,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"x" : 844.4691162109375,
+					"y" : 361.01593017578125,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"x" : 845.2568359375,
+					"y" : 255.32891845703125,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"x" : 919.15478515625,
+					"y" : 255.17193603515625,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"x" : 918.9429931640625,
+					"y" : 281.7796630859375,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"x" : 1306.2373046875,
+					"y" : 280.87054443359375,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"x" : 1306.7518310546875,
+					"y" : 124.09893798828125,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"x" : 1505.2294921875,
+					"y" : 123.95587158203125,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"x" : 1519.23095703125,
+					"y" : 604.1306762695312,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"x" : -971.58740234375,
+					"y" : 669.6593627929688,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"x" : -1365.78857421875,
+					"y" : 611.1083984375,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"x" : -1519.23095703125,
+					"y" : 117.510498046875,
+				},
+				"u0" : 0,
+				"u1" : 1,
+			},
+			"u1" : 1,
+			"u2" : -80.0,
+			"u3" : 80.0,
+			"u4" : "",
+		},
+	},
+
+	"componentsub-block " :  {
+
+		"component type" : "GroundMesh",
+		"number" : 101,
+
+		"ground meshsub-sub-block " :  {
+
+
+			"u0sub-sub-sub-block " :  {
+
+				"w" : -1529.23095703125,
+				"x" : -679.6593017578125,
+				"y" : 3058.4619140625,
+				"z" : 1359.318603515625,
+			},
+
+			"u1sub-sub-sub-block " :  {
+
+				"u0" : 21,
+				"u1" : 20,
+
+				"u2sub-sub-sub-sub-block " :  {
+
+					"u0" : 4,
+					"u1" : 1,
+					"u2" : 2,
+					"u3" : 0,
+				},
+
+				"u3sub-sub-sub-sub-block " :  {
+
+					"u0" : 7,
+					"u1" : 3,
+					"u2" : 32,
+					"u3" : 0,
+				},
+
+				"u4sub-sub-sub-sub-block " :  {
+
+					"u0" : 7,
+					"u1" : 3,
+					"u2" : 32,
+					"u3" : 12,
+				},
+
+				"u5sub-sub-sub-sub-block " :  {
+
+					"u0" : 7,
+					"u1" : 2,
+					"u2" : 32,
+					"u3" : 24,
+				},
+
+				"u6sub-sub-sub-sub-block " :  {
+
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 1.0,
+						"x" : 1.0,
+						"y" : 1.0,
+						"z" : 1.0,
+					},
+
+					"u1sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 1.0,
+						"x" : 1.0,
+						"y" : 1.0,
+						"z" : 1.0,
+					},
+
+					"u2sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 1.0,
+						"x" : 1.0,
+						"y" : 1.0,
+						"z" : 1.0,
+					},
+					"u3" : 0.0,
+					"u4" : "\\n\\x0fwoodkeep_ground\\x10\\x00 \\x02",
+				},
+
+				"u7sub-sub-sub-sub-block " :  {
+
+					"u" : 1043.4478759765625,
+					"v" : 95.70361328125,
+					"w" : -85.0,
+					"x" : 468.871826171875,
+					"y" : 25.4847412109375,
+					"z" : 170.0,
+				},
+				"u8" : ";\\n\\xbdDp`\\xf2B\\x00\\x00\\xa0\\xc2\\x11\\x9d\\xca\\xba\\xed\\xff\\x7f?\\x00\\x00\\x00\\x00\\x00\\x00\\x00?\\xecQ8>;\\n\\xbdDp`\\xf2B\\x00\\x00\\xa0B\\x11\\x9d\\xca\\xba\\xed\\xff\\x7f?\\x00\\x00\\x00\\x00\\x00\\x00\\x00?\\x85\\xebQ?;\\n\\xbdDp`\\xdeB\\x00\\x00\\xaaB\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\x1f\\x85\\xeb>=\\nW?;\\n\\xbdDp`\\xc0B33\\xa0B\\x11\\x9d\\xca:\\xed\\xff\\x7f\\xbf\\x00\\x00\\x00\\x80\\xcd\\xcc\\xcc>\\xbc\\x05R?;\\n\\xbdDp`\\xc0B\\xcd\\xcc\\x9f\\xc2\\x11\\x9d\\xca:\\xed\\xff\\x7f\\xbf\\x00\\x00\\x00\\x80\\xcd\\xcc\\xcc>\\xc7\\xba8>;\\n\\xbdDp`\\xdeB\\x00\\x00\\xaa\\xc2\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\x1f\\x85\\xeb>\\n\\xd7#>;\\n\\xbdDp`\\xf2B\\x00\\x00\\xa0\\xc2\\x11\\x9d\\xca\\xba\\xed\\xff\\x7f?\\x00\\x00\\x00\\x00\\x00\\x00\\x00?\\xecQ8>;\\n\\xbdDp`\\xf2B\\x00\\x00\\xa0B\\x11\\x9d\\xca\\xba\\xed\\xff\\x7f?\\x00\\x00\\x00\\x00\\x00\\x00\\x00?\\x85\\xebQ?;\\n\\xbdDp`\\xdeB\\x00\\x00\\xaaB\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\x00\\x00\\x00?a^]?;\\n\\xbdDp`\\xc0B33\\xa0B\\x11\\x9d\\xca:\\xed\\xff\\x7f\\xbf\\x00\\x00\\x00\\x80\\x00\\x00\\x00?\\x06\\x87m?\\xef@\\xa9D(\\xe3\\xf1B\\x00\\x00\\xa0\\xc2\\x0b\\x9d\\xca\\xba\\xec\\xff\\x7f?\\x00\\x00\\x00\\x00D\\x82\\x8f?\\xecQ8>\\xef@\\xa9D(\\xe3\\xf1B\\x00\\x00\\xa0B\\x0b\\x9d\\xca\\xba\\xec\\xff\\x7f?\\x00\\x00\\x00\\x00D\\x82\\x8f?\\x85\\xebQ?\\xef@\\xa9D(\\xe3\\xddB\\x00\\x00\\xaaB\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\xff\\xff\\x7f?D\\x82\\x8f?a^]?\\xef@\\xa9D(\\xe3\\xbfB33\\xa0B\\x0b\\x9d\\xca:\\xec\\xff\\x7f\\xbf\\x00\\x00\\x00\\x80D\\x82\\x8f?\\x06\\x87m?\\xa2\\xd7\\x95D@h\\xf1B\\x00\\x00\\xa0\\xc2\\x07\\x9d\\xca\\xba\\xed\\xff\\x7f?\\x00\\x00\\x00\\x00\\x8b\\x04\\xdf?\\xecQ8>\\xa2\\xd7\\x95D@h\\xf1B\\x00\\x00\\xa0B\\x07\\x9d\\xca\\xba\\xed\\xff\\x7f?\\x00\\x00\\x00\\x00\\x8b\\x04\\xdf?\\x85\\xebQ?\\xa2\\xd7\\x95D@h\\xddB\\x00\\x00\\xaaB\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\x8b\\x04\\xdf?a^]?\\xa2\\xd7\\x95D@h\\xbfB33\\xa0B\\x07\\x9d\\xca:\\xed\\xff\\x7f\\xbf\\x00\\x00\\x00\\x80\\x8b\\x04\\xdf?\\x06\\x87m?Un\\x82DX\\xed\\xf0B\\x00\\x00\\xa0\\xc2e\\x9b\\xca\\xba\\xec\\xff\\x7f?\\x00\\x00\\x00\\x00iC\\x17@\\xecQ8>Un\\x82DX\\xed\\xf0B\\x00\\x00\\xa0Be\\x9b\\xca\\xba\\xec\\xff\\x7f?\\x00\\x00\\x00\\x00iC\\x17@\\x85\\xebQ?Un\\x82DX\\xed\\xdcB\\x00\\x00\\xaaB\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\xff\\xff\\x7f?iC\\x17@a^]?",
+				"u9" : "\\x00\\x00\\x04\\x00\\x05\\x00\\x00\\x00\\x03\\x00\\x04\\x00\\x00\\x00\\x01\\x00\\x03\\x00\\x01\\x00\\x02\\x00\\x03\\x00\\x06\\x00\\n\\x00\\x0b\\x00\\x07\\x00\\x06\\x00\\x0b\\x00\\x07\\x00\\x0b\\x00\\x0c\\x00\\x08\\x00\\x07\\x00\\x0c\\x00\\x08\\x00\\x0c\\x00\\r\\x00\\t\\x00\\x08\\x00\\r\\x00\\n\\x00\\x0e\\x00\\x0f\\x00\\x0b\\x00\\n\\x00\\x0f\\x00\\x0b\\x00\\x0f\\x00\\x10\\x00\\x0c\\x00\\x0b\\x00\\x10\\x00\\x0c\\x00\\x10\\x00\\x11\\x00\\r\\x00\\x0c\\x00\\x11\\x00\\x0e\\x00\\x12\\x00\\x13\\x00\\x0f\\x00\\x0e\\x00\\x13\\x00\\x0f\\x00\\x13\\x00\\x14\\x00\\x10\\x00\\x0f\\x00\\x14\\x00",
+			},
+
+			"u1sub-sub-sub-block " :  {
+
+				"u0" : 18,
+				"u1" : 20,
+
+				"u2sub-sub-sub-sub-block " :  {
+
+					"u0" : 4,
+					"u1" : 1,
+					"u2" : 2,
+					"u3" : 0,
+				},
+
+				"u3sub-sub-sub-sub-block " :  {
+
+					"u0" : 7,
+					"u1" : 3,
+					"u2" : 32,
+					"u3" : 0,
+				},
+
+				"u4sub-sub-sub-sub-block " :  {
+
+					"u0" : 7,
+					"u1" : 3,
+					"u2" : 32,
+					"u3" : 12,
+				},
+
+				"u5sub-sub-sub-sub-block " :  {
+
+					"u0" : 7,
+					"u1" : 2,
+					"u2" : 32,
+					"u3" : 24,
+				},
+
+				"u6sub-sub-sub-sub-block " :  {
+
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 1.0,
+						"x" : 1.0,
+						"y" : 1.0,
+						"z" : 1.0,
+					},
+
+					"u1sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 1.0,
+						"x" : 1.0,
+						"y" : 1.0,
+						"z" : 1.0,
+					},
+
+					"u2sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 1.0,
+						"x" : 1.0,
+						"y" : 1.0,
+						"z" : 1.0,
+					},
+					"u3" : 0.0,
+					"u4" : "\\n\\x0fwoodkeep_ground\\x10\\x00 \\x02",
+				},
+
+				"u7sub-sub-sub-sub-block " :  {
+
+					"u" : 577.576171875,
+					"v" : 94.74343872070312,
+					"w" : -80.0,
+					"x" : 621.162353515625,
+					"y" : 25.720123291015625,
+					"z" : 165.0,
+				},
+				"u8" : "\\xa2\\xd7\\x95D@h\\xddB\\x00\\x00\\xaaB\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\x8b\\x04\\xdf?a^]?\\xa2\\xd7\\x95D@h\\xbfB33\\xa0B\\x07\\x9d\\xca:\\xed\\xff\\x7f\\xbf\\x00\\x00\\x00\\x80\\x8b\\x04\\xdf?\\x06\\x87m?Un\\x82DX\\xed\\xf0B\\x00\\x00\\xa0\\xc2e\\x9b\\xca\\xba\\xec\\xff\\x7f?\\x00\\x00\\x00\\x00iC\\x17@\\xecQ8>Un\\x82DX\\xed\\xf0B\\x00\\x00\\xa0Be\\x9b\\xca\\xba\\xec\\xff\\x7f?\\x00\\x00\\x00\\x00iC\\x17@\\x85\\xebQ?Un\\x82DX\\xed\\xdcB\\x00\\x00\\xaaB\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\xff\\xff\\x7f?iC\\x17@a^]?Un\\x82DX\\xed\\xbeB33\\xa0Be\\x9b\\xca:\\xec\\xff\\x7f\\xbf\\x00\\x00\\x00\\x80iC\\x17@\\x06\\x87m?\\x12\\n^Drr\\xf0B\\x00\\x00\\xa0\\xc2\\xc2\\x99\\xca\\xba\\xec\\xff\\x7f?\\x00\\x00\\x00\\x00\\x8b\\x04?@\\xecQ8>\\x12\\n^Drr\\xf0B\\x00\\x00\\xa0B\\xc2\\x99\\xca\\xba\\xec\\xff\\x7f?\\x00\\x00\\x00\\x00\\x8b\\x04?@\\x85\\xebQ?\\x12\\n^Drr\\xdcB\\x00\\x00\\xaaB\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\x8b\\x04?@a^]?\\x12\\n^Drr\\xbeB33\\xa0B\\xc2\\x99\\xca:\\xec\\xff\\x7f\\xbf\\x00\\x00\\x00\\x80\\x8b\\x04?@\\x06\\x87m?y77D\\x8c\\xf7\\xefB\\x00\\x00\\xa0\\xc2e\\x9b\\xca\\xba\\xec\\xff\\x7f?\\x00\\x00\\x00\\x00\\xae\\xc5f@\\xecQ8>y77D\\x8c\\xf7\\xefB\\x00\\x00\\xa0Be\\x9b\\xca\\xba\\xec\\xff\\x7f?\\x00\\x00\\x00\\x00\\xae\\xc5f@\\x85\\xebQ?y77D\\x8c\\xf7\\xdbB\\x00\\x00\\xaaB\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\xff\\xff\\x7f?\\xae\\xc5f@a^]?y77D\\x8c\\xf7\\xbdB33\\xa0Be\\x9b\\xca:\\xec\\xff\\x7f\\xbf\\x00\\x00\\x00\\x80\\xae\\xc5f@\\x06\\x87m?\\xe0d\\x10D\\xa4|\\xefB\\x00\\x00\\xa0\\xc2\\r\\x9d\\xca\\xba\\xed\\xff\\x7f?\\x00\\x00\\x00\\x00hC\\x87@\\xecQ8>\\xe0d\\x10D\\xa4|\\xefB\\x00\\x00\\xa0B\\r\\x9d\\xca\\xba\\xed\\xff\\x7f?\\x00\\x00\\x00\\x00hC\\x87@\\x85\\xebQ?\\xe0d\\x10D\\xa4|\\xdbB\\x00\\x00\\xaaB\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?hC\\x87@a^]?\\xe0d\\x10D\\xa4|\\xbdB33\\xa0B\\r\\x9d\\xca:\\xed\\xff\\x7f\\xbf\\x00\\x00\\x00\\x80hC\\x87@\\x06\\x87m?",
+				"u9" : "\\x00\\x00\\x04\\x00\\x05\\x00\\x01\\x00\\x00\\x00\\x05\\x00\\x02\\x00\\x06\\x00\\x07\\x00\\x03\\x00\\x02\\x00\\x07\\x00\\x03\\x00\\x07\\x00\\x08\\x00\\x04\\x00\\x03\\x00\\x08\\x00\\x04\\x00\\x08\\x00\\t\\x00\\x05\\x00\\x04\\x00\\t\\x00\\x06\\x00\\n\\x00\\x0b\\x00\\x07\\x00\\x06\\x00\\x0b\\x00\\x07\\x00\\x0b\\x00\\x0c\\x00\\x08\\x00\\x07\\x00\\x0c\\x00\\x08\\x00\\x0c\\x00\\r\\x00\\t\\x00\\x08\\x00\\r\\x00\\n\\x00\\x0e\\x00\\x0f\\x00\\x0b\\x00\\n\\x00\\x0f\\x00\\x0b\\x00\\x0f\\x00\\x10\\x00\\x0c\\x00\\x0b\\x00\\x10\\x00\\x0c\\x00\\x10\\x00\\x11\\x00\\r\\x00\\x0c\\x00\\x11\\x00",
+			},
+
+			"u1sub-sub-sub-block " :  {
+
+				"u0" : 18,
+				"u1" : 20,
+
+				"u2sub-sub-sub-sub-block " :  {
+
+					"u0" : 4,
+					"u1" : 1,
+					"u2" : 2,
+					"u3" : 0,
+				},
+
+				"u3sub-sub-sub-sub-block " :  {
+
+					"u0" : 7,
+					"u1" : 3,
+					"u2" : 32,
+					"u3" : 0,
+				},
+
+				"u4sub-sub-sub-sub-block " :  {
+
+					"u0" : 7,
+					"u1" : 3,
+					"u2" : 32,
+					"u3" : 12,
+				},
+
+				"u5sub-sub-sub-sub-block " :  {
+
+					"u0" : 7,
+					"u1" : 2,
+					"u2" : 32,
+					"u3" : 24,
+				},
+
+				"u6sub-sub-sub-sub-block " :  {
+
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 1.0,
+						"x" : 1.0,
+						"y" : 1.0,
+						"z" : 1.0,
+					},
+
+					"u1sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 1.0,
+						"x" : 1.0,
+						"y" : 1.0,
+						"z" : 1.0,
+					},
+
+					"u2sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 1.0,
+						"x" : 1.0,
+						"y" : 1.0,
+						"z" : 1.0,
+					},
+					"u3" : 0.0,
+					"u4" : "\\n\\x0fwoodkeep_ground\\x10\\x00 \\x02",
+				},
+
+				"u7sub-sub-sub-sub-block " :  {
+
+					"u" : -43.58610534667969,
+					"v" : 94.02328491210938,
+					"w" : -80.0,
+					"x" : 621.1622924804688,
+					"y" : 25.72015380859375,
+					"z" : 165.0,
+				},
+				"u8" : "\\xe0d\\x10D\\xa4|\\xefB\\x00\\x00\\xa0\\xc2\\r\\x9d\\xca\\xba\\xed\\xff\\x7f?\\x00\\x00\\x00\\x00hC\\x87@\\xecQ8>\\xe0d\\x10D\\xa4|\\xefB\\x00\\x00\\xa0B\\r\\x9d\\xca\\xba\\xed\\xff\\x7f?\\x00\\x00\\x00\\x00hC\\x87@\\x85\\xebQ?\\xe0d\\x10D\\xa4|\\xdbB\\x00\\x00\\xaaB\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?hC\\x87@a^]?\\xe0d\\x10D\\xa4|\\xbdB33\\xa0B\\r\\x9d\\xca:\\xed\\xff\\x7f\\xbf\\x00\\x00\\x00\\x80hC\\x87@\\x06\\x87m?\\x8f$\\xd3C\\xbc\\x01\\xefB\\x00\\x00\\xa0\\xc2\\x0e\\x9d\\xca\\xba\\xec\\xff\\x7f?\\x00\\x00\\x00\\x00\\xfa#\\x9b@\\xecQ8>\\x8f$\\xd3C\\xbc\\x01\\xefB\\x00\\x00\\xa0B\\x0e\\x9d\\xca\\xba\\xec\\xff\\x7f?\\x00\\x00\\x00\\x00\\xfa#\\x9b@\\x85\\xebQ?\\x8f$\\xd3C\\xbc\\x01\\xdbB\\x00\\x00\\xaaB\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xfa#\\x9b@a^]?\\x8f$\\xd3C\\xbc\\x01\\xbdB33\\xa0B\\x0e\\x9d\\xca:\\xec\\xff\\x7f\\xbf\\x00\\x00\\x00\\x80\\xfa#\\x9b@\\x06\\x87m?^\\x7f\\x85C\\xd4\\x86\\xeeB\\x00\\x00\\xa0\\xc2\\r\\x9d\\xca\\xba\\xed\\xff\\x7f?\\x00\\x00\\x00\\x00\\x8b\\x04\\xaf@\\xecQ8>^\\x7f\\x85C\\xd4\\x86\\xeeB\\x00\\x00\\xa0B\\r\\x9d\\xca\\xba\\xed\\xff\\x7f?\\x00\\x00\\x00\\x00\\x8b\\x04\\xaf@\\x85\\xebQ?^\\x7f\\x85C\\xd4\\x86\\xdaB\\x00\\x00\\xaaB\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\x8b\\x04\\xaf@a^]?^\\x7f\\x85C\\xd4\\x86\\xbcB33\\xa0B\\r\\x9d\\xca:\\xed\\xff\\x7f\\xbf\\x00\\x00\\x00\\x80\\x8b\\x04\\xaf@\\x06\\x87m?\\xb0h\\xdfB\\xec\\x0b\\xeeB\\x00\\x00\\xa0\\xc2\\x0b\\x9d\\xca\\xba\\xec\\xff\\x7f?\\x00\\x00\\x00\\x00\\x1d\\xe5\\xc2@\\xecQ8>\\xb0h\\xdfB\\xec\\x0b\\xeeB\\x00\\x00\\xa0B\\x0b\\x9d\\xca\\xba\\xec\\xff\\x7f?\\x00\\x00\\x00\\x00\\x1d\\xe5\\xc2@\\x85\\xebQ?\\xb0h\\xdfB\\xec\\x0b\\xdaB\\x00\\x00\\xaaB\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\xff\\xff\\x7f?\\x1d\\xe5\\xc2@a^]?\\xb0h\\xdfB\\xec\\x0b\\xbcB33\\xa0B\\x0b\\x9d\\xca:\\xec\\xff\\x7f\\xbf\\x00\\x00\\x00\\x80\\x1d\\xe5\\xc2@\\x06\\x87m?,X.\\xc2\\x04\\x91\\xedB\\x00\\x00\\xa0\\xc2\\r\\x9d\\xca\\xba\\xed\\xff\\x7f?\\x00\\x00\\x00\\x00\\xae\\xc5\\xd6@\\xecQ8>,X.\\xc2\\x04\\x91\\xedB\\x00\\x00\\xa0B\\r\\x9d\\xca\\xba\\xed\\xff\\x7f?\\x00\\x00\\x00\\x00\\xae\\xc5\\xd6@\\x85\\xebQ?",
+				"u9" : "\\x00\\x00\\x04\\x00\\x05\\x00\\x01\\x00\\x00\\x00\\x05\\x00\\x01\\x00\\x05\\x00\\x06\\x00\\x02\\x00\\x01\\x00\\x06\\x00\\x02\\x00\\x06\\x00\\x07\\x00\\x03\\x00\\x02\\x00\\x07\\x00\\x04\\x00\\x08\\x00\\t\\x00\\x05\\x00\\x04\\x00\\t\\x00\\x05\\x00\\t\\x00\\n\\x00\\x06\\x00\\x05\\x00\\n\\x00\\x06\\x00\\n\\x00\\x0b\\x00\\x07\\x00\\x06\\x00\\x0b\\x00\\x08\\x00\\x0c\\x00\\r\\x00\\t\\x00\\x08\\x00\\r\\x00\\t\\x00\\r\\x00\\x0e\\x00\\n\\x00\\t\\x00\\x0e\\x00\\n\\x00\\x0e\\x00\\x0f\\x00\\x0b\\x00\\n\\x00\\x0f\\x00\\x0c\\x00\\x10\\x00\\x11\\x00\\r\\x00\\x0c\\x00\\x11\\x00",
+			},
+
+			"u1sub-sub-sub-block " :  {
+
+				"u0" : 18,
+				"u1" : 20,
+
+				"u2sub-sub-sub-sub-block " :  {
+
+					"u0" : 4,
+					"u1" : 1,
+					"u2" : 2,
+					"u3" : 0,
+				},
+
+				"u3sub-sub-sub-sub-block " :  {
+
+					"u0" : 7,
+					"u1" : 3,
+					"u2" : 32,
+					"u3" : 0,
+				},
+
+				"u4sub-sub-sub-sub-block " :  {
+
+					"u0" : 7,
+					"u1" : 3,
+					"u2" : 32,
+					"u3" : 12,
+				},
+
+				"u5sub-sub-sub-sub-block " :  {
+
+					"u0" : 7,
+					"u1" : 2,
+					"u2" : 32,
+					"u3" : 24,
+				},
+
+				"u6sub-sub-sub-sub-block " :  {
+
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 1.0,
+						"x" : 1.0,
+						"y" : 1.0,
+						"z" : 1.0,
+					},
+
+					"u1sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 1.0,
+						"x" : 1.0,
+						"y" : 1.0,
+						"z" : 1.0,
+					},
+
+					"u2sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 1.0,
+						"x" : 1.0,
+						"y" : 1.0,
+						"z" : 1.0,
+					},
+					"u3" : 0.0,
+					"u4" : "\\n\\x0fwoodkeep_ground\\x10\\x00 \\x02",
+				},
+
+				"u7sub-sub-sub-sub-block " :  {
+
+					"u" : -509.45782470703125,
+					"v" : 93.30314636230469,
+					"w" : -80.0,
+					"x" : 621.1622924804688,
+					"y" : 25.720138549804688,
+					"z" : 165.0,
+				},
+				"u8" : "\\xb0h\\xdfB\\xec\\x0b\\xeeB\\x00\\x00\\xa0B\\x0b\\x9d\\xca\\xba\\xec\\xff\\x7f?\\x00\\x00\\x00\\x00\\x1d\\xe5\\xc2@\\x85\\xebQ?\\xb0h\\xdfB\\xec\\x0b\\xdaB\\x00\\x00\\xaaB\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\xff\\xff\\x7f?\\x1d\\xe5\\xc2@a^]?\\xb0h\\xdfB\\xec\\x0b\\xbcB33\\xa0B\\x0b\\x9d\\xca:\\xec\\xff\\x7f\\xbf\\x00\\x00\\x00\\x80\\x1d\\xe5\\xc2@\\x06\\x87m?,X.\\xc2\\x04\\x91\\xedB\\x00\\x00\\xa0\\xc2\\r\\x9d\\xca\\xba\\xed\\xff\\x7f?\\x00\\x00\\x00\\x00\\xae\\xc5\\xd6@\\xecQ8>,X.\\xc2\\x04\\x91\\xedB\\x00\\x00\\xa0B\\r\\x9d\\xca\\xba\\xed\\xff\\x7f?\\x00\\x00\\x00\\x00\\xae\\xc5\\xd6@\\x85\\xebQ?,X.\\xc2\\x04\\x91\\xd9B\\x00\\x00\\xaaB\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xae\\xc5\\xd6@a^]?,X.\\xc2\\x04\\x91\\xbbB33\\xa0B\\r\\x9d\\xca:\\xed\\xff\\x7f\\xbf\\x00\\x00\\x00\\x80\\xae\\xc5\\xd6@\\x06\\x87m?n\\xe0F\\xc3\\x1c\\x16\\xedB\\x00\\x00\\xa0\\xc2e\\x9b\\xca\\xba\\xec\\xff\\x7f?\\x00\\x00\\x00\\x00?\\xa6\\xea@\\xecQ8>n\\xe0F\\xc3\\x1c\\x16\\xedB\\x00\\x00\\xa0Be\\x9b\\xca\\xba\\xec\\xff\\x7f?\\x00\\x00\\x00\\x00?\\xa6\\xea@\\x85\\xebQ?n\\xe0F\\xc3\\x1c\\x16\\xd9B\\x00\\x00\\xaaB\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\xff\\xff\\x7f??\\xa6\\xea@a^]?n\\xe0F\\xc3\\x1c\\x16\\xbbB33\\xa0Be\\x9b\\xca:\\xec\\xff\\x7f\\xbf\\x00\\x00\\x00\\x80?\\xa6\\xea@\\x06\\x87m?i\\x15\\xb1\\xc36\\x9b\\xecB\\x00\\x00\\xa0\\xc2\\xc1\\x99\\xca\\xba\\xed\\xff\\x7f?\\x00\\x00\\x00\\x00\\xd1\\x86\\xfe@\\xecQ8>i\\x15\\xb1\\xc36\\x9b\\xecB\\x00\\x00\\xa0B\\xc1\\x99\\xca\\xba\\xed\\xff\\x7f?\\x00\\x00\\x00\\x00\\xd1\\x86\\xfe@\\x85\\xebQ?i\\x15\\xb1\\xc36\\x9b\\xd8B\\x00\\x00\\xaaB\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xd1\\x86\\xfe@a^]?i\\x15\\xb1\\xc36\\x9b\\xbaB33\\xa0B\\xc1\\x99\\xca:\\xed\\xff\\x7f\\xbf\\x00\\x00\\x00\\x80\\xd1\\x86\\xfe@\\x06\\x87m?\\x9a\\xba\\xfe\\xc3P \\xecB\\x00\\x00\\xa0\\xc2g\\x9b\\xca\\xba\\xed\\xff\\x7f?\\x00\\x00\\x00\\x00\\xb13\\tA\\xecQ8>\\x9a\\xba\\xfe\\xc3P \\xecB\\x00\\x00\\xa0Bg\\x9b\\xca\\xba\\xed\\xff\\x7f?\\x00\\x00\\x00\\x00\\xb13\\tA\\x85\\xebQ?\\x9a\\xba\\xfe\\xc3P \\xd8B\\x00\\x00\\xaaB\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xb13\\tAa^]?",
+				"u9" : "\\x00\\x00\\x04\\x00\\x05\\x00\\x01\\x00\\x00\\x00\\x05\\x00\\x01\\x00\\x05\\x00\\x06\\x00\\x02\\x00\\x01\\x00\\x06\\x00\\x03\\x00\\x07\\x00\\x08\\x00\\x04\\x00\\x03\\x00\\x08\\x00\\x04\\x00\\x08\\x00\\t\\x00\\x05\\x00\\x04\\x00\\t\\x00\\x05\\x00\\t\\x00\\n\\x00\\x06\\x00\\x05\\x00\\n\\x00\\x07\\x00\\x0b\\x00\\x0c\\x00\\x08\\x00\\x07\\x00\\x0c\\x00\\x08\\x00\\x0c\\x00\\r\\x00\\t\\x00\\x08\\x00\\r\\x00\\t\\x00\\r\\x00\\x0e\\x00\\n\\x00\\t\\x00\\x0e\\x00\\x0b\\x00\\x0f\\x00\\x10\\x00\\x0c\\x00\\x0b\\x00\\x10\\x00\\x0c\\x00\\x10\\x00\\x11\\x00\\r\\x00\\x0c\\x00\\x11\\x00",
+			},
+
+			"u1sub-sub-sub-block " :  {
+
+				"u0" : 18,
+				"u1" : 20,
+
+				"u2sub-sub-sub-sub-block " :  {
+
+					"u0" : 4,
+					"u1" : 1,
+					"u2" : 2,
+					"u3" : 0,
+				},
+
+				"u3sub-sub-sub-sub-block " :  {
+
+					"u0" : 7,
+					"u1" : 3,
+					"u2" : 32,
+					"u3" : 0,
+				},
+
+				"u4sub-sub-sub-sub-block " :  {
+
+					"u0" : 7,
+					"u1" : 3,
+					"u2" : 32,
+					"u3" : 12,
+				},
+
+				"u5sub-sub-sub-sub-block " :  {
+
+					"u0" : 7,
+					"u1" : 2,
+					"u2" : 32,
+					"u3" : 24,
+				},
+
+				"u6sub-sub-sub-sub-block " :  {
+
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 1.0,
+						"x" : 1.0,
+						"y" : 1.0,
+						"z" : 1.0,
+					},
+
+					"u1sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 1.0,
+						"x" : 1.0,
+						"y" : 1.0,
+						"z" : 1.0,
+					},
+
+					"u2sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 1.0,
+						"x" : 1.0,
+						"y" : 1.0,
+						"z" : 1.0,
+					},
+					"u3" : 0.0,
+					"u4" : "\\n\\x0fwoodkeep_ground\\x10\\x00 \\x02",
+				},
+
+				"u7sub-sub-sub-sub-block " :  {
+
+					"u" : -1054.45654296875,
+					"v" : 92.34295654296875,
+					"w" : -80.0,
+					"x" : 700.289306640625,
+					"y" : 25.72015380859375,
+					"z" : 165.0,
+				},
+				"u8" : "i\\x15\\xb1\\xc36\\x9b\\xd8B\\x00\\x00\\xaaB\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xd1\\x86\\xfe@a^]?i\\x15\\xb1\\xc36\\x9b\\xbaB33\\xa0B\\xc1\\x99\\xca:\\xed\\xff\\x7f\\xbf\\x00\\x00\\x00\\x80\\xd1\\x86\\xfe@\\x06\\x87m?\\x9a\\xba\\xfe\\xc3P \\xecB\\x00\\x00\\xa0\\xc2g\\x9b\\xca\\xba\\xed\\xff\\x7f?\\x00\\x00\\x00\\x00\\xb13\\tA\\xecQ8>\\x9a\\xba\\xfe\\xc3P \\xecB\\x00\\x00\\xa0Bg\\x9b\\xca\\xba\\xed\\xff\\x7f?\\x00\\x00\\x00\\x00\\xb13\\tA\\x85\\xebQ?\\x9a\\xba\\xfe\\xc3P \\xd8B\\x00\\x00\\xaaB\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xb13\\tAa^]?\\x9a\\xba\\xfe\\xc3P \\xbaB33\\xa0Bg\\x9b\\xca:\\xed\\xff\\x7f\\xbf\\x00\\x00\\x00\\x80\\xb13\\tA\\x06\\x87m?\\xe6/&\\xc4h\\xa5\\xebB\\x00\\x00\\xa0\\xc2\\x0b\\x9d\\xca\\xba\\xec\\xff\\x7f?\\x00\\x00\\x00\\x00\\xfa#\\x13A\\xecQ8>\\xe6/&\\xc4h\\xa5\\xebB\\x00\\x00\\xa0B\\x0b\\x9d\\xca\\xba\\xec\\xff\\x7f?\\x00\\x00\\x00\\x00\\xfa#\\x13A\\x85\\xebQ?\\xe6/&\\xc4h\\xa5\\xd7B\\x00\\x00\\xaaB\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\xff\\xff\\x7f?\\xfa#\\x13Aa^]?\\xe6/&\\xc4h\\xa5\\xb9B33\\xa0B\\x0b\\x9d\\xca:\\xec\\xff\\x7f\\xbf\\x00\\x00\\x00\\x80\\xfa#\\x13A\\x06\\x87m?\\x7f\\x02M\\xc4\\x80*\\xebB\\x00\\x00\\xa0\\xc2}y\\xa1\\xba\\xf3\\xff\\x7f?\\x00\\x00\\x00\\x00C\\x14\\x1dA\\xecQ8>\\x7f\\x02M\\xc4\\x80*\\xebB\\x00\\x00\\xa0B}y\\xa1\\xba\\xf3\\xff\\x7f?\\x00\\x00\\x00\\x00C\\x14\\x1dA\\x85\\xebQ?\\x7f\\x02M\\xc4\\x80*\\xd7B\\x00\\x00\\xaaB\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?C\\x14\\x1dAa^]?\\x7f\\x02M\\xc4\\x80*\\xb9B33\\xa0B}y\\xa1:\\xf3\\xff\\x7f\\xbf\\x00\\x00\\x00\\x80C\\x14\\x1dA\\x06\\x87m?\\x9c\\xce\\x83\\xc4\\x98\\xaf\\xeaB\\x00\\x00\\xa0\\xc2\\xd38\\x86\\xba\\xf7\\xff\\x7f?\\x00\\x00\\x00\\x00\\xf6\\x14,A\\xecQ8>\\x9c\\xce\\x83\\xc4\\x98\\xaf\\xeaB\\x00\\x00\\xa0B\\xd38\\x86\\xba\\xf7\\xff\\x7f?\\x00\\x00\\x00\\x00\\xf6\\x14,A\\x85\\xebQ?\\x9c\\xce\\x83\\xc4\\x98\\xaf\\xd6B\\x00\\x00\\xaaB\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xf6\\x14,Aa^]?\\x9c\\xce\\x83\\xc4\\x98\\xaf\\xb8B33\\xa0B\\xd38\\x86:\\xf7\\xff\\x7f\\xbf\\x00\\x00\\x00\\x80\\xf6\\x14,A\\x06\\x87m?",
+				"u9" : "\\x00\\x00\\x04\\x00\\x05\\x00\\x01\\x00\\x00\\x00\\x05\\x00\\x02\\x00\\x06\\x00\\x07\\x00\\x03\\x00\\x02\\x00\\x07\\x00\\x03\\x00\\x07\\x00\\x08\\x00\\x04\\x00\\x03\\x00\\x08\\x00\\x04\\x00\\x08\\x00\\t\\x00\\x05\\x00\\x04\\x00\\t\\x00\\x06\\x00\\n\\x00\\x0b\\x00\\x07\\x00\\x06\\x00\\x0b\\x00\\x07\\x00\\x0b\\x00\\x0c\\x00\\x08\\x00\\x07\\x00\\x0c\\x00\\x08\\x00\\x0c\\x00\\r\\x00\\t\\x00\\x08\\x00\\r\\x00\\n\\x00\\x0e\\x00\\x0f\\x00\\x0b\\x00\\n\\x00\\x0f\\x00\\x0b\\x00\\x0f\\x00\\x10\\x00\\x0c\\x00\\x0b\\x00\\x10\\x00\\x0c\\x00\\x10\\x00\\x11\\x00\\r\\x00\\x0c\\x00\\x11\\x00",
+			},
+
+			"u1sub-sub-sub-block " :  {
+
+				"u0" : 24,
+				"u1" : 20,
+
+				"u2sub-sub-sub-sub-block " :  {
+
+					"u0" : 4,
+					"u1" : 1,
+					"u2" : 2,
+					"u3" : 0,
+				},
+
+				"u3sub-sub-sub-sub-block " :  {
+
+					"u0" : 7,
+					"u1" : 3,
+					"u2" : 32,
+					"u3" : 0,
+				},
+
+				"u4sub-sub-sub-sub-block " :  {
+
+					"u0" : 7,
+					"u1" : 3,
+					"u2" : 32,
+					"u3" : 12,
+				},
+
+				"u5sub-sub-sub-sub-block " :  {
+
+					"u0" : 7,
+					"u1" : 2,
+					"u2" : 32,
+					"u3" : 24,
+				},
+
+				"u6sub-sub-sub-sub-block " :  {
+
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 1.0,
+						"x" : 1.0,
+						"y" : 1.0,
+						"z" : 1.0,
+					},
+
+					"u1sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 1.0,
+						"x" : 1.0,
+						"y" : 1.0,
+						"z" : 1.0,
+					},
+
+					"u2sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 1.0,
+						"x" : 1.0,
+						"y" : 1.0,
+						"z" : 1.0,
+					},
+					"u3" : 0.0,
+					"u4" : "\\n\\x0fwoodkeep_ground\\x10\\x00 \\x02",
+				},
+
+				"u7sub-sub-sub-sub-block " :  {
+
+					"u" : -1368.7559814453125,
+					"v" : 92.34295654296875,
+					"w" : -85.0,
+					"x" : 2890.98583984375,
+					"y" : 577.31640625,
+					"z" : 170.0,
+				},
+				"u8" : "\\x9c\\xce\\x83\\xc4\\x98\\xaf\\xeaB\\x00\\x00\\xa0\\xc2\\xd38\\x86\\xba\\xf7\\xff\\x7f?\\x00\\x00\\x00\\x00\\xf6\\x14,A\\xecQ8>\\x9c\\xce\\x83\\xc4\\x98\\xaf\\xeaB\\x00\\x00\\xa0B\\xd38\\x86\\xba\\xf7\\xff\\x7f?\\x00\\x00\\x00\\x00\\xf6\\x14,A\\x85\\xebQ?\\x9c\\xce\\x83\\xc4\\x98\\xaf\\xd6B\\x00\\x00\\xaaB\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xcd\\xb8,A=\\nW?\\x9c\\xce\\x83\\xc4\\x98\\xaf\\xb8B33\\xa0B\\xd38\\x86:\\xf7\\xff\\x7f\\xbf\\x00\\x00\\x00\\x80\\x8f\\xae-A\\xbc\\x05R?\\x9c\\xce\\x83\\xc4\\x98\\xaf\\xb8B\\xcd\\xcc\\x9f\\xc2\\xd38\\x86:\\xf7\\xff\\x7f\\xbf\\x00\\x00\\x00\\x80\\x8f\\xae-A\\xc7\\xba8>\\x9c\\xce\\x83\\xc4\\x98\\xaf\\xd6B\\x00\\x00\\xaa\\xc2\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xcd\\xb8,A\\n\\xd7#>\\\\G\\xbeDP\\x03\\x17D\\x00\\x00\\xa0\\xc2\\xfep\\xd7<U\\xe9\\x7f?\\x00\\x00\\x00\\x00\\xf6\\x14,A\\xecQ8>\\\\G\\xbeDP\\x03\\x17D\\x00\\x00\\xa0B\\xfep\\xd7<U\\xe9\\x7f?\\x00\\x00\\x00\\x00\\xf6\\x14,A\\x85\\xebQ?\\\\G\\xbeDP\\x83\\x14D\\x00\\x00\\xaaB\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\x1fq+A=\\nW?\\\\G\\xbeDP\\xc3\\x10D33\\xa0B\\xfep\\xd7\\xbcU\\xe9\\x7f\\xbf\\x00\\x00\\x00\\x80\\\\{*A\\xbc\\x05R?\\\\G\\xbeDP\\xc3\\x10D\\xcd\\xcc\\x9f\\xc2\\xfep\\xd7\\xbcU\\xe9\\x7f\\xbf\\x00\\x00\\x00\\x80\\\\{*A\\xc7\\xba8>\\\\G\\xbeDP\\x83\\x14D\\x00\\x00\\xaa\\xc2\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\x1fq+A\\n\\xd7#>\\\\G\\xbeDP\\x03\\x17D\\x00\\x00\\xa0\\xc2\\xfep\\xd7<U\\xe9\\x7f?\\x00\\x00\\x00\\x00\\xf6\\x14,A\\xecQ8>\\\\G\\xbeDP\\x03\\x17D\\x00\\x00\\xa0B\\xfep\\xd7<U\\xe9\\x7f?\\x00\\x00\\x00\\x00\\xf6\\x14,A\\x85\\xebQ?\\\\G\\xbeDP\\x83\\x14D\\x00\\x00\\xaaB\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xf6\\x14,Aa^]?\\\\G\\xbeDP\\xc3\\x10D33\\xa0B\\xfep\\xd7\\xbcU\\xe9\\x7f\\xbf\\x00\\x00\\x00\\x80\\xf6\\x14,A\\x06\\x87m?\\x98\\xe5r\\xc43j\'D\\x00\\x00\\xa0\\xc2V\\x81\\x1e;\\xce\\xff\\x7f?\\x00\\x00\\x00\\x00S\\xc6\\xa5A\\xecQ8>\\x98\\xe5r\\xc43j\'D\\x00\\x00\\xa0BV\\x81\\x1e;\\xce\\xff\\x7f?\\x00\\x00\\x00\\x00S\\xc6\\xa5A\\x85\\xebQ?\\x98\\xe5r\\xc43\\xea$D\\x00\\x00\\xaaB\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\xff\\xff\\x7f?S\\xc6\\xa5Aa^]?\\x98\\xe5r\\xc43*!D33\\xa0BV\\x81\\x1e\\xbb\\xce\\xff\\x7f\\xbf\\x00\\x00\\x00\\x80S\\xc6\\xa5A\\x06\\x87m?1\\x18\\xab\\xc4\\xbb\\xaa\\x18D\\x00\\x00\\xa0\\xc2\\xe9q\\x16\\xbe\\xd78}?\\x00\\x00\\x00\\x00\\x0c\\x87\\xb2A\\xecQ8>1\\x18\\xab\\xc4\\xbb\\xaa\\x18D\\x00\\x00\\xa0B\\xe9q\\x16\\xbe\\xd78}?\\x00\\x00\\x00\\x00\\x0c\\x87\\xb2A\\x85\\xebQ?1\\x18\\xab\\xc4\\xbb*\\x16D\\x00\\x00\\xaaB\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\x0c\\x87\\xb2Aa^]?1\\x18\\xab\\xc4\\xbbj\\x12D33\\xa0B\\xe9q\\x16>\\xd78}\\xbf\\x00\\x00\\x00\\x80\\x0c\\x87\\xb2A\\x06\\x87m?",
+				"u9" : "\\x00\\x00\\x05\\x00\\x04\\x00\\x00\\x00\\x04\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x01\\x00\\x03\\x00\\x02\\x00\\x01\\x00\\x06\\x00\\n\\x00\\x0b\\x00\\x06\\x00\\t\\x00\\n\\x00\\x06\\x00\\x07\\x00\\t\\x00\\x07\\x00\\x08\\x00\\t\\x00\\x0c\\x00\\x10\\x00\\x11\\x00\\r\\x00\\x0c\\x00\\x11\\x00\\r\\x00\\x11\\x00\\x12\\x00\\x0e\\x00\\r\\x00\\x12\\x00\\x0e\\x00\\x12\\x00\\x13\\x00\\x0f\\x00\\x0e\\x00\\x13\\x00\\x10\\x00\\x14\\x00\\x15\\x00\\x11\\x00\\x10\\x00\\x15\\x00\\x11\\x00\\x15\\x00\\x16\\x00\\x12\\x00\\x11\\x00\\x16\\x00\\x12\\x00\\x16\\x00\\x17\\x00\\x13\\x00\\x12\\x00\\x17\\x00",
+			},
+
+			"u1sub-sub-sub-block " :  {
+
+				"u0" : 6,
+				"u1" : 4,
+
+				"u2sub-sub-sub-sub-block " :  {
+
+					"u0" : 4,
+					"u1" : 1,
+					"u2" : 2,
+					"u3" : 0,
+				},
+
+				"u3sub-sub-sub-sub-block " :  {
+
+					"u0" : 7,
+					"u1" : 3,
+					"u2" : 32,
+					"u3" : 0,
+				},
+
+				"u4sub-sub-sub-sub-block " :  {
+
+					"u0" : 7,
+					"u1" : 3,
+					"u2" : 32,
+					"u3" : 12,
+				},
+
+				"u5sub-sub-sub-sub-block " :  {
+
+					"u0" : 7,
+					"u1" : 2,
+					"u2" : 32,
+					"u3" : 24,
+				},
+
+				"u6sub-sub-sub-sub-block " :  {
+
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 1.0,
+						"x" : 1.0,
+						"y" : 1.0,
+						"z" : 1.0,
+					},
+
+					"u1sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 1.0,
+						"x" : 1.0,
+						"y" : 1.0,
+						"z" : 1.0,
+					},
+
+					"u2sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 1.0,
+						"x" : 1.0,
+						"y" : 1.0,
+						"z" : 1.0,
+					},
+					"u3" : 0.0,
+					"u4" : "\\n\\x0fwoodkeep_ground\\x10\\x00 \\x02",
+				},
+
+				"u7sub-sub-sub-sub-block " :  {
+
+					"u" : -1368.7559814453125,
+					"v" : 585.6676635742188,
+					"w" : -85.0,
+					"x" : 0.0,
+					"y" : 25.0,
+					"z" : 170.0,
+				},
+				"u8" : "1\\x18\\xab\\xc4\\xbb\\xaa\\x18D\\x00\\x00\\xa0\\xc2\\xe9q\\x16\\xbe\\xd78}?\\x00\\x00\\x00\\x00\\x0c\\x87\\xb2A\\xecQ8>1\\x18\\xab\\xc4\\xbb\\xaa\\x18D\\x00\\x00\\xa0B\\xe9q\\x16\\xbe\\xd78}?\\x00\\x00\\x00\\x00\\x0c\\x87\\xb2A\\x85\\xebQ?1\\x18\\xab\\xc4\\xbb*\\x16D\\x00\\x00\\xaaB\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xf8\\xd8\\xb2A=\\nW?1\\x18\\xab\\xc4\\xbbj\\x12D33\\xa0B\\xe9q\\x16>\\xd78}\\xbf\\x00\\x00\\x00\\x80\\xd9S\\xb3A\\xbc\\x05R?1\\x18\\xab\\xc4\\xbbj\\x12D\\xcd\\xcc\\x9f\\xc2\\xe9q\\x16>\\xd78}\\xbf\\x00\\x00\\x00\\x80\\xd9S\\xb3A\\xc7\\xba8>1\\x18\\xab\\xc4\\xbb*\\x16D\\x00\\x00\\xaa\\xc2\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xf8\\xd8\\xb2A\\n\\xd7#>",
+				"u9" : "\\x00\\x00\\x05\\x00\\x04\\x00\\x00\\x00\\x04\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x01\\x00\\x03\\x00\\x02\\x00\\x01\\x00",
+			},
+
+			"u1sub-sub-sub-block " :  {
+
+				"u0" : 22,
+				"u1" : 20,
+
+				"u2sub-sub-sub-sub-block " :  {
+
+					"u0" : 4,
+					"u1" : 1,
+					"u2" : 2,
+					"u3" : 0,
+				},
+
+				"u3sub-sub-sub-sub-block " :  {
+
+					"u0" : 7,
+					"u1" : 3,
+					"u2" : 32,
+					"u3" : 0,
+				},
+
+				"u4sub-sub-sub-sub-block " :  {
+
+					"u0" : 7,
+					"u1" : 3,
+					"u2" : 32,
+					"u3" : 12,
+				},
+
+				"u5sub-sub-sub-sub-block " :  {
+
+					"u0" : 7,
+					"u1" : 2,
+					"u2" : 32,
+					"u3" : 24,
+				},
+
+				"u6sub-sub-sub-sub-block " :  {
+
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 1.0,
+						"x" : 1.0,
+						"y" : 1.0,
+						"z" : 1.0,
+					},
+
+					"u1sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 1.0,
+						"x" : 1.0,
+						"y" : 1.0,
+						"z" : 1.0,
+					},
+
+					"u2sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 1.0,
+						"x" : 1.0,
+						"y" : 1.0,
+						"z" : 1.0,
+					},
+					"u3" : 0.0,
+					"u4" : "\\n\\x10woodkeep_ground2\\x10\\x01 \\x02",
+				},
+
+				"u7sub-sub-sub-sub-block " :  {
+
+					"u" : -1054.45654296875,
+					"v" : 117.34295654296875,
+					"w" : -75.0,
+					"x" : 1973.611328125,
+					"y" : 532.7835693359375,
+					"z" : 150.0,
+				},
+				"u8" : "\\x9c\\xce\\x83\\xc4\\x98\\xaf\\xeaB\\x00\\x00\\x96\\xc2#\\xfe\\x7f?\\xcf1\\xf7\\xbb\\x00\\x00\\x00\\x00\\x00\\x00\\x00?\\xcd\\xccL>\\x9c\\xce\\x83\\xc4\\x98\\xaf\\xeaB\\x00\\x00\\x96B#\\xfe\\x7f?\\xcf1\\xf7\\xbb\\x00\\x00\\x00\\x00\\x00\\x00\\x00?\\xcd\\xccL?\\xbc\\x92\\x83\\xc4\\x02\\xaf\\xb6C\\x00\\x00\\x96\\xc2\\xcf\\xfe\\x7f?i\\xcd\\xc5\\xbb\\x00\\x00\\x00\\x00\\xf7\\xfd\\xbe?\\xcd\\xccL>\\xbc\\x92\\x83\\xc4\\x02\\xaf\\xb6C\\x00\\x00\\x96B\\xcf\\xfe\\x7f?i\\xcd\\xc5\\xbb\\x00\\x00\\x00\\x00\\xf7\\xfd\\xbe?\\xcd\\xccL?2j\\x83\\xc4\\x97J\\x1fD\\x00\\x00\\x96\\xc2\\xa2M[?\\x88\\x11\\x04\\xbf\\x00\\x00\\x00\\x00\\xbe\\x13%@\\xcd\\xccL>2j\\x83\\xc4\\x97J\\x1fD\\x00\\x00\\x96B\\xa2M[?\\x88\\x11\\x04\\xbf\\x00\\x00\\x00\\x00\\xbe\\x13%@\\xcd\\xccL?HF\\\\\\xc4\\x19\\x88\"D\\x00\\x00\\x96\\xc2\\xb5.\\xc0;\\xdf\\xfe\\x7f\\xbf\\x00\\x00\\x00\\x00\\x9b\\xc7P@\\xcd\\xccL>HF\\\\\\xc4\\x19\\x88\"D\\x00\\x00\\x96B\\xb5.\\xc0;\\xdf\\xfe\\x7f\\xbf\\x00\\x00\\x00\\x00\\x9b\\xc7P@\\xcd\\xccL?\\x1c\\x84W\\xc4\\xa1\\x91\\x1fD\\x00\\x00\\x96\\xc2\\x0fr\\x7f\\xbfz\\xb7\\x86\\xbd\\x00\\x00\\x00\\x00\\n\\x85V@\\xcd\\xccL>\\x1c\\x84W\\xc4\\xa1\\x91\\x1fD\\x00\\x00\\x96B\\x0fr\\x7f\\xbfz\\xb7\\x86\\xbd\\x00\\x00\\x00\\x00\\n\\x85V@\\xcd\\xccL?\\x80\\x94W\\xc4\\xba\\xa3\\xb6C\\x00\\x00\\x96\\xc2\\xd3r\\x03\\xbf\\xe7\\xac[\\xbf\\x00\\x00\\x00\\x00\\x114\\x8e@\\xcd\\xccL>\\x80\\x94W\\xc4\\xba\\xa3\\xb6C\\x00\\x00\\x96B\\xd3r\\x03\\xbf\\xe7\\xac[\\xbf\\x00\\x00\\x00\\x00\\x114\\x8e@\\xcd\\xccL?\\x8bw\\xca\\xc3\\xaa^\\xb6C\\x00\\x00\\x96\\xc2\\xbc \\x95\\xba\\xf6\\xff\\x7f\\xbf\\x00\\x00\\x00\\x00\\xb7\\xbf\\xc8@\\xcd\\xccL>\\x8bw\\xca\\xc3\\xaa^\\xb6C\\x00\\x00\\x96B\\xbc \\x95\\xba\\xf6\\xff\\x7f\\xbf\\x00\\x00\\x00\\x00\\xb7\\xbf\\xc8@\\xcd\\xccL?4\\x97#CR\\x0e\\xb6C\\x00\\x00\\x96\\xc2iQC\\xbb\\xb6\\xff\\x7f\\xbf\\x00\\x00\\x00\\x00\\x92\\xc2\\x08A\\xcd\\xccL>4\\x97#CR\\x0e\\xb6C\\x00\\x00\\x96BiQC\\xbb\\xb6\\xff\\x7f\\xbf\\x00\\x00\\x00\\x00\\x92\\xc2\\x08A\\xcd\\xccL?\\x06\\x1eSD\\n\\x82\\xb4C\\x00\\x00\\x96\\xc2<_!\\xbe\\x1b\\xcd|\\xbf\\x00\\x00\\x00\\x003V4A\\xcd\\xccL>\\x06\\x1eSD\\n\\x82\\xb4C\\x00\\x00\\x96B<_!\\xbe\\x1b\\xcd|\\xbf\\x00\\x00\\x00\\x003V4A\\xcd\\xccL?pPSD4T\\x7fC\\x00\\x00\\x96\\xc2k+Q\\xbf%\\x98\\x13\\xbf\\x00\\x00\\x00\\x00\\xd3\\x19;A\\xcd\\xccL>pPSD4T\\x7fC\\x00\\x00\\x96Bk+Q\\xbf%\\x98\\x13\\xbf\\x00\\x00\\x00\\x00\\xd3\\x19;A\\xcd\\xccL?\\xe8\\xc9eD\\x04,\\x7fC\\x00\\x00\\x96\\xc2\\x93\\xfb\\xac>Q\\xf2p\\xbf\\x00\\x00\\x00\\x00\\x92\\xd4?A\\xcd\\xccL>\\xe8\\xc9eD\\x04,\\x7fC\\x00\\x00\\x96B\\x93\\xfb\\xac>Q\\xf2p\\xbf\\x00\\x00\\x00\\x00\\x92\\xd4?A\\xcd\\xccL?",
+				"u9" : "\\x00\\x00\\x02\\x00\\x03\\x00\\x01\\x00\\x00\\x00\\x03\\x00\\x02\\x00\\x04\\x00\\x05\\x00\\x03\\x00\\x02\\x00\\x05\\x00\\x04\\x00\\x06\\x00\\x07\\x00\\x05\\x00\\x04\\x00\\x07\\x00\\x06\\x00\\x08\\x00\\t\\x00\\x07\\x00\\x06\\x00\\t\\x00\\x08\\x00\\n\\x00\\x0b\\x00\\t\\x00\\x08\\x00\\x0b\\x00\\n\\x00\\x0c\\x00\\r\\x00\\x0b\\x00\\n\\x00\\r\\x00\\x0c\\x00\\x0e\\x00\\x0f\\x00\\r\\x00\\x0c\\x00\\x0f\\x00\\x0e\\x00\\x10\\x00\\x11\\x00\\x0f\\x00\\x0e\\x00\\x11\\x00\\x10\\x00\\x12\\x00\\x13\\x00\\x11\\x00\\x10\\x00\\x13\\x00\\x12\\x00\\x14\\x00\\x15\\x00\\x13\\x00\\x12\\x00\\x15\\x00",
+			},
+
+			"u1sub-sub-sub-block " :  {
+
+				"u0" : 24,
+				"u1" : 20,
+
+				"u2sub-sub-sub-sub-block " :  {
+
+					"u0" : 4,
+					"u1" : 1,
+					"u2" : 2,
+					"u3" : 0,
+				},
+
+				"u3sub-sub-sub-sub-block " :  {
+
+					"u0" : 7,
+					"u1" : 3,
+					"u2" : 32,
+					"u3" : 0,
+				},
+
+				"u4sub-sub-sub-sub-block " :  {
+
+					"u0" : 7,
+					"u1" : 3,
+					"u2" : 32,
+					"u3" : 12,
+				},
+
+				"u5sub-sub-sub-sub-block " :  {
+
+					"u0" : 7,
+					"u1" : 2,
+					"u2" : 32,
+					"u3" : 24,
+				},
+
+				"u6sub-sub-sub-sub-block " :  {
+
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 1.0,
+						"x" : 1.0,
+						"y" : 1.0,
+						"z" : 1.0,
+					},
+
+					"u1sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 1.0,
+						"x" : 1.0,
+						"y" : 1.0,
+						"z" : 1.0,
+					},
+
+					"u2sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 1.0,
+						"x" : 1.0,
+						"y" : 1.0,
+						"z" : 1.0,
+					},
+					"u3" : 0.0,
+					"u4" : "\\n\\x10woodkeep_ground2\\x10\\x01 \\x02",
+				},
+
+				"u7sub-sub-sub-sub-block " :  {
+
+					"u" : -1519.23095703125,
+					"v" : -669.6593017578125,
+					"w" : -75.0,
+					"x" : 3038.4619140625,
+					"y" : 1280.767822265625,
+					"z" : 150.0,
+				},
+				"u8" : "\\xe8\\xc9eD\\x04,\\x7fC\\x00\\x00\\x96\\xc2\\x93\\xfb\\xac>Q\\xf2p\\xbf\\x00\\x00\\x00\\x00\\x92\\xd4?A\\xcd\\xccL>\\xe8\\xc9eD\\x04,\\x7fC\\x00\\x00\\x96B\\x93\\xfb\\xac>Q\\xf2p\\xbf\\x00\\x00\\x00\\x00\\x92\\xd4?A\\xcd\\xccL?Z\\xbceD\\xcc\\xe3\\x8cC\\x00\\x00\\x96\\xc2K\\xab\\x87=\\x0bp\\x7f\\xbf\\x00\\x00\\x00\\x00\\x87\\x88AA\\xcd\\xccL>Z\\xbceD\\xcc\\xe3\\x8cC\\x00\\x00\\x96BK\\xab\\x87=\\x0bp\\x7f\\xbf\\x00\\x00\\x00\\x00\\x87\\x88AA\\xcd\\xccL?\\x98G\\xa3Dno\\x8cC\\x00\\x00\\x96\\xc2V\\xd8\\xc0\\xbe\\xa1%m\\xbf\\x00\\x00\\x00\\x00\\xfaQZA\\xcd\\xccL>\\x98G\\xa3Dno\\x8cC\\x00\\x00\\x96BV\\xd8\\xc0\\xbe\\xa1%m\\xbf\\x00\\x00\\x00\\x00\\xfaQZA\\xcd\\xccL?\\x0fX\\xa3D\\xa82\\xf8B\\x00\\x00\\x96\\xc2\\x9f\\x83\\x1e\\xbfC\\x05I\\xbf\\x00\\x00\\x00\\x00\\x89ZdA\\xcd\\xccL>\\x0fX\\xa3D\\xa82\\xf8B\\x00\\x00\\x96B\\x9f\\x83\\x1e\\xbfC\\x05I\\xbf\\x00\\x00\\x00\\x00\\x89ZdA\\xcd\\xccL?X\'\\xbcDh\\xe9\\xf7B\\x00\\x00\\x96\\xc2\\xb8\\x17j?H<\\xcf\\xbe\\x00\\x00\\x00\\x00e\\x0eqA\\xcd\\xccL>X\'\\xbcDh\\xe9\\xf7B\\x00\\x00\\x96B\\xb8\\x17j?H<\\xcf\\xbe\\x00\\x00\\x00\\x00e\\x0eqA\\xcd\\xccL?d\\xe7\\xbdD]\\x08\\x17D\\x00\\x00\\x96\\xc2(\\xe4\\x7f?\\x15\\xc5\\xee\\xbc\\x00\\x00\\x00\\x00w\\xe6\\x87A\\xcd\\xccL>d\\xe7\\xbdD]\\x08\\x17D\\x00\\x00\\x96B(\\xe4\\x7f?\\x15\\xc5\\xee\\xbc\\x00\\x00\\x00\\x00w\\xe6\\x87A\\xcd\\xccL?<\\xb9\\xaa\\xc4\\xf0\\xc6\\x18D\\x00\\x00\\x96\\xc2\\xddut\\xbf\\n\\xfd\\x97>\\x00\\x00\\x00\\x00w\\xe6\\x87A\\xcd\\xccL><\\xb9\\xaa\\xc4\\xf0\\xc6\\x18D\\x00\\x00\\x96B\\xddut\\xbf\\n\\xfd\\x97>\\x00\\x00\\x00\\x00w\\xe6\\x87A\\xcd\\xccL?d\\xe7\\xbd\\xc4`\\x05\\xebB\\x00\\x00\\x96\\xc2\\xd6-\\x7f\\xbfW\\xe2\\xa3=\\x00\\x00\\x00\\x00\\xe4p\\x98A\\xcd\\xccL>d\\xe7\\xbd\\xc4`\\x05\\xebB\\x00\\x00\\x96B\\xd6-\\x7f\\xbfW\\xe2\\xa3=\\x00\\x00\\x00\\x00\\xe4p\\x98A\\xcd\\xccL?\\xfb\'\\xb3\\xc4\\x9e8e\\xc3\\x00\\x00\\x96\\xc2\\xb1\\x98S\\xbf\\xf2\\x17\\x10\\xbf\\x00\\x00\\x00\\x00Y\\xdf\\xa3A\\xcd\\xccL>\\xfb\'\\xb3\\xc4\\x9e8e\\xc3\\x00\\x00\\x96B\\xb1\\x98S\\xbf\\xf2\\x17\\x10\\xbf\\x00\\x00\\x00\\x00Y\\xdf\\xa3A\\xcd\\xccL?X\\xe4\\x93\\xc4V\\x04\\xbc\\xc3\\x00\\x00\\x96\\xc2\\x84\\x97\\x01\\xbf\\x9b\\xc6\\\\\\xbf\\x00\\x00\\x00\\x00.\'\\xadA\\xcd\\xccL>X\\xe4\\x93\\xc4V\\x04\\xbc\\xc3\\x00\\x00\\x96B\\x84\\x97\\x01\\xbf\\x9b\\xc6\\\\\\xbf\\x00\\x00\\x00\\x00.\'\\xadA\\xcd\\xccL?jAi\\xc4.\\xb6\\x02\\xc4\\x00\\x00\\x96\\xc2\\x84\\x97\\x01\\xbf\\x9a\\xc6\\\\\\xbf\\x00\\x00\\x00\\x00\\x03o\\xb6A\\xcd\\xccL>jAi\\xc4.\\xb6\\x02\\xc4\\x00\\x00\\x96B\\x84\\x97\\x01\\xbf\\x9a\\xc6\\\\\\xbf\\x00\\x00\\x00\\x00\\x03o\\xb6A\\xcd\\xccL?$\\xba*\\xc42j\'\\xc4\\x00\\x00\\x96\\xc2\\x85\\x84\\x8c\\xbe\\x88+v\\xbf\\x00\\x00\\x00\\x00\\xd8\\xb6\\xbfA\\xcd\\xccL>$\\xba*\\xc42j\'\\xc4\\x00\\x00\\x96B\\x85\\x84\\x8c\\xbe\\x88+v\\xbf\\x00\\x00\\x00\\x00\\xd8\\xb6\\xbfA\\xcd\\xccL?",
+				"u9" : "\\x00\\x00\\x02\\x00\\x03\\x00\\x01\\x00\\x00\\x00\\x03\\x00\\x02\\x00\\x04\\x00\\x05\\x00\\x03\\x00\\x02\\x00\\x05\\x00\\x04\\x00\\x06\\x00\\x07\\x00\\x05\\x00\\x04\\x00\\x07\\x00\\x06\\x00\\x08\\x00\\t\\x00\\x07\\x00\\x06\\x00\\t\\x00\\x08\\x00\\n\\x00\\x0b\\x00\\t\\x00\\x08\\x00\\x0b\\x00\\x0c\\x00\\x0e\\x00\\x0f\\x00\\r\\x00\\x0c\\x00\\x0f\\x00\\x0e\\x00\\x10\\x00\\x11\\x00\\x0f\\x00\\x0e\\x00\\x11\\x00\\x10\\x00\\x12\\x00\\x13\\x00\\x11\\x00\\x10\\x00\\x13\\x00\\x12\\x00\\x14\\x00\\x15\\x00\\x13\\x00\\x12\\x00\\x15\\x00\\x14\\x00\\x16\\x00\\x17\\x00\\x15\\x00\\x14\\x00\\x17\\x00",
+			},
+
+			"u1sub-sub-sub-block " :  {
+
+				"u0" : 22,
+				"u1" : 20,
+
+				"u2sub-sub-sub-sub-block " :  {
+
+					"u0" : 4,
+					"u1" : 1,
+					"u2" : 2,
+					"u3" : 0,
+				},
+
+				"u3sub-sub-sub-sub-block " :  {
+
+					"u0" : 7,
+					"u1" : 3,
+					"u2" : 32,
+					"u3" : 0,
+				},
+
+				"u4sub-sub-sub-sub-block " :  {
+
+					"u0" : 7,
+					"u1" : 3,
+					"u2" : 32,
+					"u3" : 12,
+				},
+
+				"u5sub-sub-sub-sub-block " :  {
+
+					"u0" : 7,
+					"u1" : 2,
+					"u2" : 32,
+					"u3" : 24,
+				},
+
+				"u6sub-sub-sub-sub-block " :  {
+
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 1.0,
+						"x" : 1.0,
+						"y" : 1.0,
+						"z" : 1.0,
+					},
+
+					"u1sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 1.0,
+						"x" : 1.0,
+						"y" : 1.0,
+						"z" : 1.0,
+					},
+
+					"u2sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 1.0,
+						"x" : 1.0,
+						"y" : 1.0,
+						"z" : 1.0,
+					},
+					"u3" : 0.0,
+					"u4" : "\\n\\x10woodkeep_ground2\\x10\\x01 \\x02",
+				},
+
+				"u7sub-sub-sub-sub-block " :  {
+
+					"u" : -682.908447265625,
+					"v" : -669.6593017578125,
+					"w" : -75.0,
+					"x" : 2192.22802734375,
+					"y" : 790.843017578125,
+					"z" : 150.0,
+				},
+				"u8" : "$\\xba*\\xc42j\'\\xc4\\x00\\x00\\x96\\xc2\\x85\\x84\\x8c\\xbe\\x88+v\\xbf\\x00\\x00\\x00\\x00\\xd8\\xb6\\xbfA\\xcd\\xccL>$\\xba*\\xc42j\'\\xc4\\x00\\x00\\x96B\\x85\\x84\\x8c\\xbe\\x88+v\\xbf\\x00\\x00\\x00\\x00\\xd8\\xb6\\xbfA\\xcd\\xccL?R\\x83\\xd3\\xc3\\xd1\\x19\'\\xc4\\x00\\x00\\x96\\xc2\\xb2[\\x9e;=\\xff\\x7f\\xbf\\x00\\x00\\x00\\x00\\xd4\\x07\\xc8A\\xcd\\xccL>R\\x83\\xd3\\xc3\\xd1\\x19\'\\xc4\\x00\\x00\\x96B\\xb2[\\x9e;=\\xff\\x7f\\xbf\\x00\\x00\\x00\\x00\\xd4\\x07\\xc8A\\xcd\\xccL?\\xb6$#\\xc3o\\xc9&\\xc4\\x00\\x00\\x96\\xc2\\xae\\\\\\x9e;=\\xff\\x7f\\xbf\\x00\\x00\\x00\\x00\\xd0X\\xd0A\\xcd\\xccL>\\xb6$#\\xc3o\\xc9&\\xc4\\x00\\x00\\x96B\\xae\\\\\\x9e;=\\xff\\x7f\\xbf\\x00\\x00\\x00\\x00\\xd0X\\xd0A\\xcd\\xccL?nz\\xc1B\\ry&\\xc4\\x00\\x00\\x96\\xc2\\xb2[\\x9e;=\\xff\\x7f\\xbf\\x00\\x00\\x00\\x00\\xcc\\xa9\\xd8A\\xcd\\xccL>nz\\xc1B\\ry&\\xc4\\x00\\x00\\x96B\\xb2[\\x9e;=\\xff\\x7f\\xbf\\x00\\x00\\x00\\x00\\xcc\\xa9\\xd8A\\xcd\\xccL?\\x92O\\xb2C\\xac(&\\xc4\\x00\\x00\\x96\\xc2\\xb6Z\\x9e;=\\xff\\x7f\\xbf\\x00\\x00\\x00\\x00\\xc8\\xfa\\xe0A\\xcd\\xccL>\\x92O\\xb2C\\xac(&\\xc4\\x00\\x00\\x96B\\xb6Z\\x9e;=\\xff\\x7f\\xbf\\x00\\x00\\x00\\x00\\xc8\\xfa\\xe0A\\xcd\\xccL?D \\x1aDK\\xd8%\\xc4\\x00\\x00\\x96\\xc2\\xb1[\\x9e;=\\xff\\x7f\\xbf\\x00\\x00\\x00\\x00\\xc4K\\xe9A\\xcd\\xccL>D \\x1aDK\\xd8%\\xc4\\x00\\x00\\x96B\\xb1[\\x9e;=\\xff\\x7f\\xbf\\x00\\x00\\x00\\x00\\xc4K\\xe9A\\xcd\\xccL?\\xc0\\x18[D\\xe9\\x87%\\xc4\\x00\\x00\\x96\\xc2\\xae\\\\\\x9e;=\\xff\\x7f\\xbf\\x00\\x00\\x00\\x00\\xbf\\x9c\\xf1A\\xcd\\xccL>\\xc0\\x18[D\\xe9\\x87%\\xc4\\x00\\x00\\x96B\\xae\\\\\\x9e;=\\xff\\x7f\\xbf\\x00\\x00\\x00\\x00\\xbf\\x9c\\xf1A\\xcd\\xccL?\\x9d\\x08\\x8eD\\x877%\\xc4\\x00\\x00\\x96\\xc2\\xb2[\\x9e;=\\xff\\x7f\\xbf\\x00\\x00\\x00\\x00\\xba\\xed\\xf9A\\xcd\\xccL>\\x9d\\x08\\x8eD\\x877%\\xc4\\x00\\x00\\x96B\\xb2[\\x9e;=\\xff\\x7f\\xbf\\x00\\x00\\x00\\x00\\xba\\xed\\xf9A\\xcd\\xccL?\\xdb\\x84\\xaeD&\\xe7$\\xc4\\x00\\x00\\x96\\xc2i6\\x89<\\xcd\\xf6\\x7f\\xbf\\x00\\x00\\x00\\x00[\\x1f\\x01B\\xcd\\xccL>\\xdb\\x84\\xaeD&\\xe7$\\xc4\\x00\\x00\\x96Bi6\\x89<\\xcd\\xf6\\x7f\\xbf\\x00\\x00\\x00\\x00[\\x1f\\x01B\\xcd\\xccL?\\x17\\x0c\\xbaD\\x06\\xbe#\\xc4\\x00\\x00\\x96\\xc2IZ}?\\x11\\xe2\\x12\\xbe\\x00\\x00\\x00\\x00\\x98\\x99\\x02B\\xcd\\xccL>\\x17\\x0c\\xbaD\\x06\\xbe#\\xc4\\x00\\x00\\x96BIZ}?\\x11\\xe2\\x12\\xbe\\x00\\x00\\x00\\x00\\x98\\x99\\x02B\\xcd\\xccL?;\\xaa\\xbcD\\x10^\\xf2B\\x00\\x00\\x96\\xc2(\\xe8\\x7f?\\x10\\xf4\\xdc\\xbc\\x00\\x00\\x00\\x00\\xdf\\x05\\x0fB\\xcd\\xccL>;\\xaa\\xbcD\\x10^\\xf2B\\x00\\x00\\x96B(\\xe8\\x7f?\\x10\\xf4\\xdc\\xbc\\x00\\x00\\x00\\x00\\xdf\\x05\\x0fB\\xcd\\xccL?",
+				"u9" : "\\x00\\x00\\x02\\x00\\x03\\x00\\x01\\x00\\x00\\x00\\x03\\x00\\x02\\x00\\x04\\x00\\x05\\x00\\x03\\x00\\x02\\x00\\x05\\x00\\x04\\x00\\x06\\x00\\x07\\x00\\x05\\x00\\x04\\x00\\x07\\x00\\x06\\x00\\x08\\x00\\t\\x00\\x07\\x00\\x06\\x00\\t\\x00\\x08\\x00\\n\\x00\\x0b\\x00\\t\\x00\\x08\\x00\\x0b\\x00\\n\\x00\\x0c\\x00\\r\\x00\\x0b\\x00\\n\\x00\\r\\x00\\x0c\\x00\\x0e\\x00\\x0f\\x00\\r\\x00\\x0c\\x00\\x0f\\x00\\x0e\\x00\\x10\\x00\\x11\\x00\\x0f\\x00\\x0e\\x00\\x11\\x00\\x10\\x00\\x12\\x00\\x13\\x00\\x11\\x00\\x10\\x00\\x13\\x00\\x12\\x00\\x14\\x00\\x15\\x00\\x13\\x00\\x12\\x00\\x15\\x00",
+			},
+
+			"u2sub-sub-sub-block " :  {
+
+				"u0" : 60,
+				"u1" : 20,
+
+				"u2sub-sub-sub-sub-block " :  {
+
+					"u0" : 7,
+					"u1" : 3,
+					"u2" : 32,
+					"u3" : 0,
+				},
+
+				"u3sub-sub-sub-sub-block " :  {
+
+					"u0" : 7,
+					"u1" : 3,
+					"u2" : 32,
+					"u3" : 12,
+				},
+
+				"u4sub-sub-sub-sub-block " :  {
+
+					"u0" : 7,
+					"u1" : 2,
+					"u2" : 32,
+					"u3" : 24,
+				},
+
+				"u5sub-sub-sub-sub-block " :  {
+
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 1.0,
+						"x" : 1.0,
+						"y" : 1.0,
+						"z" : 1.0,
+					},
+
+					"u1sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 1.0,
+						"x" : 1.0,
+						"y" : 1.0,
+						"z" : 1.0,
+					},
+
+					"u2sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 1.0,
+						"x" : 1.0,
+						"y" : 1.0,
+						"z" : 1.0,
+					},
+					"u3" : 0.0,
+
+					"u4sub-sub-sub-sub-sub-block " :  {
+
+						"u0" : "woodkeep_ground2",
+						"u1" : 1,
+						"u2" : 2,
+					},
+				},
+
+				"u3sub-sub-sub-sub-block " :  {
+
+					"u" : -1519.23095703125,
+					"v" : -522.8465576171875,
+					"w" : 75.0,
+					"x" : 3038.4619140625,
+					"y" : 1192.505859375,
+					"z" : 0.0,
+				},
+				"u7" : "\\xfb\\\'\\xb3\\xc4\\x9e8e\\xc3\\x00\\x00\\x96B\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80\\x00\\x00\\x80?\\xb7t\\xa7\\xc0\\xe7q\\xd5\\xbe<\\xb9\\xaa\\xc4\\xf0\\xc6\\x18D\\x00\\x00\\x96B\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80\\x00\\x00\\x80?)\\xd2\\x9e\\xc0\\x9aq<@d\\xe7\\xbd\\xc4`\\x05\\xebB\\x00\\x00\\x96B\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80\\x00\\x00\\x80?)v\\xb2\\xc0\\xacTx?X\\xe4\\x93\\xc4V\\x04\\xbc\\xc3\\x00\\x00\\x96B\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xfep\\x87\\xc0\\x83\\x87\\x80\\xbf<\\xb9\\xaa\\xc4\\xf0\\xc6\\x18D\\x00\\x00\\x96B\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?)\\xd2\\x9e\\xc0\\x9aq<@\\xfb\\\'\\xb3\\xc4\\x9e8e\\xc3\\x00\\x00\\x96B\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xb7t\\xa7\\xc0\\xe7q\\xd5\\xbe<\\xb9\\xaa\\xc4\\xf0\\xc6\\x18D\\x00\\x00\\x96B\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?)\\xd2\\x9e\\xc0\\x9aq<@X\\xe4\\x93\\xc4V\\x04\\xbc\\xc3\\x00\\x00\\x96B\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xfep\\x87\\xc0\\x83\\x87\\x80\\xbf\\x9c\\xce\\x83\\xc4\\x98\\xaf\\xeaB\\x00\\x00\\x96B\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xdd\\xf0m\\xc0\\xc1(x?<\\xb9\\xaa\\xc4\\xf0\\xc6\\x18D\\x00\\x00\\x96B\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?)\\xd2\\x9e\\xc0\\x9aq<@\\x9c\\xce\\x83\\xc4\\x98\\xaf\\xeaB\\x00\\x00\\x96B\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xdd\\xf0m\\xc0\\xc1(x?\\xbc\\x92\\x83\\xc4\\x02\\xaf\\xb6C\\x00\\x00\\x96B\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?=vm\\xc0j\\x11\\xfb?<\\xb9\\xaa\\xc4\\xf0\\xc6\\x18D\\x00\\x00\\x96B\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?)\\xd2\\x9e\\xc0\\x9aq<@\\xbc\\x92\\x83\\xc4\\x02\\xaf\\xb6C\\x00\\x00\\x96B\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?=vm\\xc0j\\x11\\xfb?2j\\x83\\xc4\\x97J\\x1fD\\x00\\x00\\x96B\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?7#m\\xc0G\\x1dC@<\\xb9\\xaa\\xc4\\xf0\\xc6\\x18D\\x00\\x00\\x96B\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\xff\\xff\\x7f?)\\xd2\\x9e\\xc0\\x9aq<@2j\\x83\\xc4\\x97J\\x1fD\\x00\\x00\\x96B\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\xff\\xff\\x7f?7#m\\xc0G\\x1dC@\\x98\\xe5r\\xc43j\\\'D\\x00\\x00\\x96B\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\xff\\xff\\x7f?\\xf4\\xb9X\\xc0\\xccnK@jAi\\xc4.\\xb6\\x02\\xc4\\x00\\x00\\x96B\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\x89\\xdaN\\xc0\\x8b\\xb2\\xcb\\xbf\\x9c\\xce\\x83\\xc4\\x98\\xaf\\xeaB\\x00\\x00\\x96B\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xdd\\xf0m\\xc0\\xc1(x?X\\xe4\\x93\\xc4V\\x04\\xbc\\xc3\\x00\\x00\\x96B\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xfep\\x87\\xc0\\x83\\x87\\x80\\xbfHF\\\\\\xc4\\x19\\x88\"D\\x00\\x00\\x96B\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xa6\\x8fA\\xc0\\xb1nF@\\x98\\xe5r\\xc43j\\\'D\\x00\\x00\\x96B\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xf4\\xb9X\\xc0\\xccnK@2j\\x83\\xc4\\x97J\\x1fD\\x00\\x00\\x96B\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?7#m\\xc0G\\x1dC@HF\\\\\\xc4\\x19\\x88\"D\\x00\\x00\\x96B\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xa6\\x8fA\\xc0\\xb1nF@\\x1c\\x84W\\xc4\\xa1\\x91\\x1fD\\x00\\x00\\x96B\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?=\\xb0<\\xc0\\x05fC@\\x8bw\\xca\\xc3\\xaa^\\xb6C\\x00\\x00\\x96B\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\x80S\\x8f\\xbf%\\xbf\\xfa?HF\\\\\\xc4\\x19\\x88\"D\\x00\\x00\\x96B\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xa6\\x8fA\\xc0\\xb1nF@\\x8bw\\xca\\xc3\\xaa^\\xb6C\\x00\\x00\\x96B\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\x80S\\x8f\\xbf%\\xbf\\xfa?4\\x97#CR\\x0e\\xb6C\\x00\\x00\\x96B\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\\'\\xc2\\x93?\\xdfl\\xfa?HF\\\\\\xc4\\x19\\x88\"D\\x00\\x00\\x96B\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xa6\\x8fA\\xc0\\xb1nF@4\\x97#CR\\x0e\\xb6C\\x00\\x00\\x96B\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\\'\\xc2\\x93?\\xdfl\\xfa?\\x06\\x1eSD\\n\\x82\\xb4C\\x00\\x00\\x96B\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?!/x@\\x14\\xd7\\xf8?\\x98\\xe5r\\xc43j\\\'D\\x00\\x00\\x96B\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xf4\\xb9X\\xc0\\xccnK@HF\\\\\\xc4\\x19\\x88\"D\\x00\\x00\\x96B\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xa6\\x8fA\\xc0\\xb1nF@\\x06\\x1eSD\\n\\x82\\xb4C\\x00\\x00\\x96B\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?!/x@\\x14\\xd7\\xf8?\\x06\\x1eSD\\n\\x82\\xb4C\\x00\\x00\\x96B\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?!/x@\\x14\\xd7\\xf8?pPSD4T\\x7fC\\x00\\x00\\x96B\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xc1bx@y\\xba\\xc2?Z\\xbceD\\xcc\\xe3\\x8cC\\x00\\x00\\x96B\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xed\\x9f\\x85@mE\\xd0?\\x06\\x1eSD\\n\\x82\\xb4C\\x00\\x00\\x96B\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?!/x@\\x14\\xd7\\xf8?Z\\xbceD\\xcc\\xe3\\x8cC\\x00\\x00\\x96B\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xed\\x9f\\x85@mE\\xd0?\\x98G\\xa3Dno\\x8cC\\x00\\x00\\x96B\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xc92\\xb7@D\\xce\\xcf?\\x98G\\xa3Dno\\x8cC\\x00\\x00\\x96B\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xc92\\xb7@D\\xce\\xcf?\\x0fX\\xa3D\\xa82\\xf8B\\x00\\x00\\x96B\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xa5C\\xb7@\\xcb\\x13\\x7f?X\\\'\\xbcDh\\xe9\\xf7B\\x00\\x00\\x96B\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\\\\\xab\\xd0@J\\xee~?\\x98G\\xa3Dno\\x8cC\\x00\\x00\\x96B\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xc92\\xb7@D\\xce\\xcf?X\\\'\\xbcDh\\xe9\\xf7B\\x00\\x00\\x96B\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\\\\\xab\\xd0@J\\xee~?d\\xe7\\xbdD]\\x08\\x17D\\x00\\x00\\x96B\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?)v\\xd2@O\\xa8:@\\x06\\x1eSD\\n\\x82\\xb4C\\x00\\x00\\x96B\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\xff\\xff\\x7f?!/x@\\x14\\xd7\\xf8?\\x98G\\xa3Dno\\x8cC\\x00\\x00\\x96B\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\xff\\xff\\x7f?\\xc92\\xb7@D\\xce\\xcf?d\\xe7\\xbdD]\\x08\\x17D\\x00\\x00\\x96B\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\xff\\xff\\x7f?)v\\xd2@O\\xa8:@\\x98\\xe5r\\xc43j\\\'D\\x00\\x00\\x96B\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xf4\\xb9X\\xc0\\xccnK@\\x06\\x1eSD\\n\\x82\\xb4C\\x00\\x00\\x96B\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?!/x@\\x14\\xd7\\xf8?d\\xe7\\xbdD]\\x08\\x17D\\x00\\x00\\x96B\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?)v\\xd2@O\\xa8:@\\x1c\\x84W\\xc4\\xa1\\x91\\x1fD\\x00\\x00\\x96B\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?=\\xb0<\\xc0\\x05fC@\\x80\\x94W\\xc4\\xba\\xa3\\xb6C\\x00\\x00\\x96B\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\x06\\xc1<\\xc0\\xdd\\x05\\xfb?\\x8bw\\xca\\xc3\\xaa^\\xb6C\\x00\\x00\\x96B\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\x80S\\x8f\\xbf%\\xbf\\xfa?pPSD4T\\x7fC\\x00\\x00\\x96B\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x80\\x00\\x00\\x80?\\xc1bx@y\\xba\\xc2?\\xe8\\xc9eD\\x04,\\x7fC\\x00\\x00\\x96B\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x80\\x00\\x00\\x80?\\xdd\\xa6\\x85@\\xe5\\xa5\\xc2?Z\\xbceD\\xcc\\xe3\\x8cC\\x00\\x00\\x96B\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x80\\x00\\x00\\x80?\\xed\\x9f\\x85@mE\\xd0?",
+			},
+
+			"u2sub-sub-sub-block " :  {
+
+				"u0" : 60,
+				"u1" : 20,
+
+				"u2sub-sub-sub-sub-block " :  {
+
+					"u0" : 7,
+					"u1" : 3,
+					"u2" : 32,
+					"u3" : 0,
+				},
+
+				"u3sub-sub-sub-sub-block " :  {
+
+					"u0" : 7,
+					"u1" : 3,
+					"u2" : 32,
+					"u3" : 12,
+				},
+
+				"u4sub-sub-sub-sub-block " :  {
+
+					"u0" : 7,
+					"u1" : 2,
+					"u2" : 32,
+					"u3" : 24,
+				},
+
+				"u5sub-sub-sub-sub-block " :  {
+
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 1.0,
+						"x" : 1.0,
+						"y" : 1.0,
+						"z" : 1.0,
+					},
+
+					"u1sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 1.0,
+						"x" : 1.0,
+						"y" : 1.0,
+						"z" : 1.0,
+					},
+
+					"u2sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 1.0,
+						"x" : 1.0,
+						"y" : 1.0,
+						"z" : 1.0,
+					},
+					"u3" : 0.0,
+
+					"u4sub-sub-sub-sub-sub-block " :  {
+
+						"u0" : "woodkeep_ground2",
+						"u1" : 1,
+						"u2" : 2,
+					},
+				},
+
+				"u3sub-sub-sub-sub-block " :  {
+
+					"u" : -1054.45654296875,
+					"v" : -669.6593017578125,
+					"w" : 75.0,
+					"x" : 2190.7255859375,
+					"y" : 790.1228637695312,
+					"z" : 0.0,
+				},
+				"u7" : "jAi\\xc4.\\xb6\\x02\\xc4\\x00\\x00\\x96B\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80\\x00\\x00\\x80?\\x89\\xdaN\\xc0\\x8b\\xb2\\xcb\\xbf\\x7f\\x02M\\xc4\\x80*\\xebB\\x00\\x00\\x96B\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80\\x00\\x00\\x80?\\x13\\xee1\\xc0\\xaegx?\\x9c\\xce\\x83\\xc4\\x98\\xaf\\xeaB\\x00\\x00\\x96B\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80\\x00\\x00\\x80?\\xdd\\xf0m\\xc0\\xc1(x?$\\xba*\\xc42j\'\\xc4\\x00\\x00\\x96B\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\x17\\xd3\\x0e\\xc0\\xcbn\\x0b\\xc0\\x7f\\x02M\\xc4\\x80*\\xebB\\x00\\x00\\x96B\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\x13\\xee1\\xc0\\xaegx?jAi\\xc4.\\xb6\\x02\\xc4\\x00\\x00\\x96B\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\x89\\xdaN\\xc0\\x8b\\xb2\\xcb\\xbf$\\xba*\\xc42j\'\\xc4\\x00\\x00\\x96B\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80\\x00\\x00\\x80?\\x17\\xd3\\x0e\\xc0\\xcbn\\x0b\\xc0\\xe6/&\\xc4h\\xa5\\xebB\\x00\\x00\\x96B\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80\\x00\\x00\\x80?\\xf4,\\n\\xc0\\x9c\\xa6x?\\x7f\\x02M\\xc4\\x80*\\xebB\\x00\\x00\\x96B\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80\\x00\\x00\\x80?\\x13\\xee1\\xc0\\xaegx?R\\x83\\xd3\\xc3\\xd1\\x19\'\\xc4\\x00\\x00\\x96B\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xdb\\x96\\x98\\xbf|\\x1c\\x0b\\xc0\\x9a\\xba\\xfe\\xc3P \\xecB\\x00\\x00\\x96B\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xa8\\xd7\\xc4\\xbf\\x89\\xe5x?\\xe6/&\\xc4h\\xa5\\xebB\\x00\\x00\\x96B\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xf4,\\n\\xc0\\x9c\\xa6x?R\\x83\\xd3\\xc3\\xd1\\x19\'\\xc4\\x00\\x00\\x96B\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\xff\\xff\\x7f?\\xdb\\x96\\x98\\xbf|\\x1c\\x0b\\xc0\\xe6/&\\xc4h\\xa5\\xebB\\x00\\x00\\x96B\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\xff\\xff\\x7f?\\xf4,\\n\\xc0\\x9c\\xa6x?$\\xba*\\xc42j\'\\xc4\\x00\\x00\\x96B\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\xff\\xff\\x7f?\\x17\\xd3\\x0e\\xc0\\xcbn\\x0b\\xc0R\\x83\\xd3\\xc3\\xd1\\x19\'\\xc4\\x00\\x00\\x96B\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80\\xff\\xff\\x7f?\\xdb\\x96\\x98\\xbf|\\x1c\\x0b\\xc0i\\x15\\xb1\\xc36\\x9b\\xecB\\x00\\x00\\x96B\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80\\xff\\xff\\x7f?\\xd3\\xaaj\\xbfv$y?\\x9a\\xba\\xfe\\xc3P \\xecB\\x00\\x00\\x96B\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80\\xff\\xff\\x7f?\\xa8\\xd7\\xc4\\xbf\\x89\\xe5x?\\xb6$#\\xc3o\\xc9&\\xc4\\x00\\x00\\x96B\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?B<\\x1c\\xbe,\\xca\\n\\xc0n\\xe0F\\xc3\\x1c\\x16\\xedB\\x00\\x00\\x96B\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xa8L\\x97\\xbebcy?i\\x15\\xb1\\xc36\\x9b\\xecB\\x00\\x00\\x96B\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xd3\\xaaj\\xbfv$y?\\xb6$#\\xc3o\\xc9&\\xc4\\x00\\x00\\x96B\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?B<\\x1c\\xbe,\\xca\\n\\xc0i\\x15\\xb1\\xc36\\x9b\\xecB\\x00\\x00\\x96B\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xd3\\xaaj\\xbfv$y?R\\x83\\xd3\\xc3\\xd1\\x19\'\\xc4\\x00\\x00\\x96B\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xdb\\x96\\x98\\xbf|\\x1c\\x0b\\xc0\\xb6$#\\xc3o\\xc9&\\xc4\\x00\\x00\\x96B\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80\\x00\\x00\\x80?B<\\x1c\\xbe,\\xca\\n\\xc0,X.\\xc2\\x04\\x91\\xedB\\x00\\x00\\x96B\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80\\x00\\x00\\x80?T\\xbc\\xa6>P\\xa2y?n\\xe0F\\xc3\\x1c\\x16\\xedB\\x00\\x00\\x96B\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80\\x00\\x00\\x80?\\xa8L\\x97\\xbebcy?nz\\xc1B\\ry&\\xc4\\x00\\x00\\x96B\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\xff\\xff\\x7f?\\x94\\x0fc?\\xdcw\\n\\xc0,X.\\xc2\\x04\\x91\\xedB\\x00\\x00\\x96B\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\xff\\xff\\x7f?T\\xbc\\xa6>P\\xa2y?\\xb6$#\\xc3o\\xc9&\\xc4\\x00\\x00\\x96B\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\xff\\xff\\x7f?B<\\x1c\\xbe,\\xca\\n\\xc0nz\\xc1B\\ry&\\xc4\\x00\\x00\\x96B\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80\\x00\\x00\\x80?\\x94\\x0fc?\\xdcw\\n\\xc0\\xb0h\\xdfB\\xec\\x0b\\xeeB\\x00\\x00\\x96B\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80\\x00\\x00\\x80?\\xa8br?=\\xe1y?,X.\\xc2\\x04\\x91\\xedB\\x00\\x00\\x96B\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80\\x00\\x00\\x80?T\\xbc\\xa6>P\\xa2y?\\x92O\\xb2C\\xac(&\\xc4\\x00\\x00\\x96B\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\xff\\xff\\x7f?\\x1d\\x97\\xf6?\\x8d%\\n\\xc0^\\x7f\\x85C\\xd4\\x86\\xeeB\\x00\\x00\\x96B\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\xff\\xff\\x7f?\\x93\\xb3\\xc8?+ z?\\xb0h\\xdfB\\xec\\x0b\\xeeB\\x00\\x00\\x96B\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\xff\\xff\\x7f?\\xa8br?=\\xe1y?\\x92O\\xb2C\\xac(&\\xc4\\x00\\x00\\x96B\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\x1d\\x97\\xf6?\\x8d%\\n\\xc0\\xb0h\\xdfB\\xec\\x0b\\xeeB\\x00\\x00\\x96B\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xa8br?=\\xe1y?nz\\xc1B\\ry&\\xc4\\x00\\x00\\x96B\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\x94\\x0fc?\\xdcw\\n\\xc0\\x92O\\xb2C\\xac(&\\xc4\\x00\\x00\\x96B\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80\\x00\\x00\\x80?\\x1d\\x97\\xf6?\\x8d%\\n\\xc0\\x8f$\\xd3C\\xbc\\x01\\xefB\\x00\\x00\\x96B\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80\\x00\\x00\\x80?\\xe9\\x1a\\x0c@\\x19_z?^\\x7f\\x85C\\xd4\\x86\\xeeB\\x00\\x00\\x96B\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80\\x00\\x00\\x80?\\x93\\xb3\\xc8?+ z?D \\x1aDK\\xd8%\\xc4\\x00\\x00\\x96B\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?7\\xd3=@>\\xd3\\t\\xc0\\xe0d\\x10D\\xa4|\\xefB\\x00\\x00\\x96B\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\x08\\xdc3@\\x06\\x9ez?\\x8f$\\xd3C\\xbc\\x01\\xefB\\x00\\x00\\x96B\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xe9\\x1a\\x0c@\\x19_z?D \\x1aDK\\xd8%\\xc4\\x00\\x00\\x96B\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?7\\xd3=@>\\xd3\\t\\xc0\\x8f$\\xd3C\\xbc\\x01\\xefB\\x00\\x00\\x96B\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xe9\\x1a\\x0c@\\x19_z?\\x92O\\xb2C\\xac(&\\xc4\\x00\\x00\\x96B\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\x1d\\x97\\xf6?\\x8d%\\n\\xc0D \\x1aDK\\xd8%\\xc4\\x00\\x00\\x96B\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80\\x00\\x00\\x80?7\\xd3=@>\\xd3\\t\\xc0y77D\\x8c\\xf7\\xefB\\x00\\x00\\x96B\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80\\x00\\x00\\x80?(\\x9d[@\\xf4\\xdcz?\\xe0d\\x10D\\xa4|\\xefB\\x00\\x00\\x96B\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80\\x00\\x00\\x80?\\x08\\xdc3@\\x06\\x9ez?\\xc0\\x18[D\\xe9\\x87%\\xc4\\x00\\x00\\x96B\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?q-\\x80@\\xef\\x80\\t\\xc0y77D\\x8c\\xf7\\xefB\\x00\\x00\\x96B\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?(\\x9d[@\\xf4\\xdcz?D \\x1aDK\\xd8%\\xc4\\x00\\x00\\x96B\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?7\\xd3=@>\\xd3\\t\\xc0\\xc0\\x18[D\\xe9\\x87%\\xc4\\x00\\x00\\x96B\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80\\xff\\xff\\x7f?q-\\x80@\\xef\\x80\\t\\xc0\\x12\\n^Drr\\xf0B\\x00\\x00\\x96B\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80\\xff\\xff\\x7f?$\\xaf\\x81@\\xe0\\x1b{?y77D\\x8c\\xf7\\xefB\\x00\\x00\\x96B\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80\\xff\\xff\\x7f?(\\x9d[@\\xf4\\xdcz?\\x9d\\x08\\x8eD\\x877%\\xc4\\x00\\x00\\x96B\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?Eq\\xa1@\\x9f.\\t\\xc0Un\\x82DX\\xed\\xf0B\\x00\\x00\\x96B\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xb3\\x8f\\x95@\\xcdZ{?\\x12\\n^Drr\\xf0B\\x00\\x00\\x96B\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?$\\xaf\\x81@\\xe0\\x1b{?",
+			},
+
+			"u2sub-sub-sub-block " :  {
+
+				"u0" : 18,
+				"u1" : 6,
+
+				"u2sub-sub-sub-sub-block " :  {
+
+					"u0" : 7,
+					"u1" : 3,
+					"u2" : 32,
+					"u3" : 0,
+				},
+
+				"u3sub-sub-sub-sub-block " :  {
+
+					"u0" : 7,
+					"u1" : 3,
+					"u2" : 32,
+					"u3" : 12,
+				},
+
+				"u4sub-sub-sub-sub-block " :  {
+
+					"u0" : 7,
+					"u1" : 2,
+					"u2" : 32,
+					"u3" : 24,
+				},
+
+				"u5sub-sub-sub-sub-block " :  {
+
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 1.0,
+						"x" : 1.0,
+						"y" : 1.0,
+						"z" : 1.0,
+					},
+
+					"u1sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 1.0,
+						"x" : 1.0,
+						"y" : 1.0,
+						"z" : 1.0,
+					},
+
+					"u2sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 1.0,
+						"x" : 1.0,
+						"y" : 1.0,
+						"z" : 1.0,
+					},
+					"u3" : 0.0,
+
+					"u4sub-sub-sub-sub-sub-block " :  {
+
+						"u0" : "woodkeep_ground2",
+						"u1" : 1,
+						"u2" : 2,
+					},
+				},
+
+				"u3sub-sub-sub-sub-block " :  {
+
+					"u" : 876.38671875,
+					"v" : -662.1235961914062,
+					"w" : 75.0,
+					"x" : 632.9329833984375,
+					"y" : 783.3073120117188,
+					"z" : 0.0,
+				},
+				"u7" : "\\x9d\\x08\\x8eD\\x877%\\xc4\\x00\\x00\\x96B\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\xff\\xff\\x7f?Eq\\xa1@\\x9f.\\t\\xc0\\x12\\n^Drr\\xf0B\\x00\\x00\\x96B\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\xff\\xff\\x7f?$\\xaf\\x81@\\xe0\\x1b{?\\xc0\\x18[D\\xe9\\x87%\\xc4\\x00\\x00\\x96B\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\xff\\xff\\x7f?q-\\x80@\\xef\\x80\\t\\xc0\\x9d\\x08\\x8eD\\x877%\\xc4\\x00\\x00\\x96B\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80\\x00\\x00\\x80?Eq\\xa1@\\x9f.\\t\\xc0\\xa2\\xd7\\x95D@h\\xf1B\\x00\\x00\\x96B\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80\\x00\\x00\\x80?Dp\\xa9@\\xba\\x99{?Un\\x82DX\\xed\\xf0B\\x00\\x00\\x96B\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80\\x00\\x00\\x80?\\xb3\\x8f\\x95@\\xcdZ{?\\xdb\\x84\\xaeD&\\xe7$\\xc4\\x00\\x00\\x96B\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\x1a\\xb5\\xc2@P\\xdc\\x08\\xc0\\xef@\\xa9D(\\xe3\\xf1B\\x00\\x00\\x96B\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xd4P\\xbd@\\xa8\\xd8{?\\xa2\\xd7\\x95D@h\\xf1B\\x00\\x00\\x96B\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?Dp\\xa9@\\xba\\x99{?\\xdb\\x84\\xaeD&\\xe7$\\xc4\\x00\\x00\\x96B\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\xff\\xff\\x7f?\\x1a\\xb5\\xc2@P\\xdc\\x08\\xc0\\xa2\\xd7\\x95D@h\\xf1B\\x00\\x00\\x96B\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\xff\\xff\\x7f?Dp\\xa9@\\xba\\x99{?\\x9d\\x08\\x8eD\\x877%\\xc4\\x00\\x00\\x96B\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\xff\\xff\\x7f?Eq\\xa1@\\x9f.\\t\\xc0\\xef@\\xa9D(\\xe3\\xf1B\\x00\\x00\\x96B\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xd4P\\xbd@\\xa8\\xd8{?\\xdb\\x84\\xaeD&\\xe7$\\xc4\\x00\\x00\\x96B\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\x1a\\xb5\\xc2@P\\xdc\\x08\\xc0\\x17\\x0c\\xbaD\\x06\\xbe#\\xc4\\x00\\x00\\x96B\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?*\\x83\\xce@\\x0e\\xac\\x07\\xc0\\xef@\\xa9D(\\xe3\\xf1B\\x00\\x00\\x96B\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xd4P\\xbd@\\xa8\\xd8{?\\x17\\x0c\\xbaD\\x06\\xbe#\\xc4\\x00\\x00\\x96B\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?*\\x83\\xce@\\x0e\\xac\\x07\\xc0;\\xaa\\xbcD\\x10^\\xf2B\\x00\\x00\\x96B\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?c1\\xd1@\\x96\\x17|?",
+			},
+
+			"u3sub-sub-sub-block " :  {
+
+				"w" : 1.0,
+				"x" : 1.0,
+				"y" : 1.0,
+				"z" : 1.0,
+			},
+		},
+	},
+
+	"componentsub-block " :  {
+
+		"component type" : "GroundMeshGenerator",
+		"number" : 102,
+
+		"ground mesh generatorsub-sub-block " :  {
+
+			"ground polygon" : 100,
+			"ground mesh" : 101,
+			"texture mapping 1" : 103,
+			"texture mapping 2" : 104,
+			"u4" : 0,
+			"u5" : 0.0,
+			"u6" : 1,
+			"u7" : 150.0,
+			"u8" : 25.0,
+			"u9" : 5.0,
+			"u10" : 5.0,
+		},
+	},
+
+	"componentsub-block " :  {
+
+		"component type" : "TextureMapping",
+		"number" : 103,
+
+		"texture mappingsub-sub-block " :  {
+
+			"texture file" : "woodkeep_ground2",
+			"u0" : 250.0,
+
+			"u0sub-sub-sub-block " :  {
+
+				"u1" : 0.0,
+				"u2" : 0.0,
+			},
+		},
+	},
+
+	"componentsub-block " :  {
+
+		"component type" : "TextureMapping",
+		"number" : 104,
+
+		"texture mappingsub-sub-block " :  {
+
+			"texture file" : "woodkeep_ground",
+			"u0" : 250.0,
+
+			"u0sub-sub-sub-block " :  {
+
+				"u1" : 0.0,
+				"u2" : 0.0,
+			},
+		},
+	},
+
+	"componentsub-block " :  {
+
+		"component type" : "CollisionShape",
+		"number" : 105,
+		"? linked component" : 100,
+
+		"collision shapesub-sub-block " :  {
+
+
+			"u2sub-sub-sub-block " :  {
+
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"y" : -1433.2493896484375,
+					"z" : -229.22116088867188,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"y" : -1183.1357421875,
+					"z" : -376.03387451171875,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"y" : -933.0220947265625,
+					"z" : -522.8465576171875,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"y" : -682.908447265625,
+					"z" : -669.6593017578125,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"y" : -423.02593994140625,
+					"z" : -668.4033813476562,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"y" : -163.14340209960938,
+					"z" : -667.1473999023438,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"y" : 96.73912048339844,
+					"z" : -665.8914184570312,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"y" : 356.62164306640625,
+					"z" : -664.635498046875,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"y" : 616.504150390625,
+					"z" : -663.3795776367188,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"y" : 876.38671875,
+					"z" : -662.1235961914062,
+				},
+				"u3" : 0,
+				"u4" : 0,
+			},
+		},
+
+		"collision shape 2sub-sub-block " :  {
+
+			"u0" : 1,
+			"w" : -80.0,
+			"x" : 80.0,
+			"z" : 1,
+		},
+	},
+
+	"componentsub-block " :  {
+
+		"component type" : "CollisionShape",
+		"number" : 106,
+		"? linked component" : 100,
+
+		"collision shapesub-sub-block " :  {
+
+
+			"u2sub-sub-sub-block " :  {
+
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"y" : 356.62164306640625,
+					"z" : -664.635498046875,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"y" : 616.504150390625,
+					"z" : -663.3795776367188,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"y" : 876.38671875,
+					"z" : -662.1235961914062,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"y" : 1136.2691650390625,
+					"z" : -660.8676147460938,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"y" : 1396.1517333984375,
+					"z" : -659.6116943359375,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"y" : 1488.3778076171875,
+					"z" : -654.9691162109375,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"y" : 1509.3197021484375,
+					"z" : 121.1837158203125,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"y" : 1354.0291748046875,
+					"z" : 120.94366455078125,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"y" : 1198.738525390625,
+					"z" : 120.70361328125,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"y" : 1043.4478759765625,
+					"z" : 120.46356201171875,
+				},
+				"u3" : 0,
+				"u4" : 0,
+			},
+		},
+
+		"collision shape 2sub-sub-block " :  {
+
+			"u0" : 1,
+			"w" : -80.0,
+			"x" : 80.0,
+			"z" : 1,
+		},
+	},
+
+	"componentsub-block " :  {
+
+		"component type" : "CollisionShape",
+		"number" : 107,
+		"? linked component" : 100,
+
+		"collision shapesub-sub-block " :  {
+
+
+			"u2sub-sub-sub-block " :  {
+
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"y" : 1354.0291748046875,
+					"z" : 120.94366455078125,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"y" : 1198.738525390625,
+					"z" : 120.70361328125,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"y" : 1043.4478759765625,
+					"z" : 120.46356201171875,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"y" : 888.1573486328125,
+					"z" : 120.22352600097656,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"y" : 732.8667602539062,
+					"z" : 119.98348999023438,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"y" : 577.576171875,
+					"z" : 119.74343872070312,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"y" : 422.2856140136719,
+					"z" : 119.50338745117188,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"y" : 266.99505615234375,
+					"z" : 119.26333618164062,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"y" : 111.7044677734375,
+					"z" : 119.02328491210938,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"y" : -43.58610534667969,
+					"z" : 118.78323364257812,
+				},
+				"u3" : 0,
+				"u4" : 0,
+			},
+		},
+
+		"collision shape 2sub-sub-block " :  {
+
+			"u0" : 1,
+			"w" : -80.0,
+			"x" : 80.0,
+			"z" : 1,
+		},
+	},
+
+	"componentsub-block " :  {
+
+		"component type" : "CollisionShape",
+		"number" : 108,
+		"? linked component" : 100,
+
+		"collision shapesub-sub-block " :  {
+
+
+			"u2sub-sub-sub-block " :  {
+
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"y" : 266.99505615234375,
+					"z" : 119.26333618164062,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"y" : 111.7044677734375,
+					"z" : 119.02328491210938,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"y" : -43.58610534667969,
+					"z" : 118.78323364257812,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"y" : -198.87667846679688,
+					"z" : 118.54318237304688,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"y" : -354.1672668457031,
+					"z" : 118.30314636230469,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"y" : -509.45782470703125,
+					"z" : 118.0631103515625,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"y" : -664.7484130859375,
+					"z" : 117.82305908203125,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"y" : -820.0390014648438,
+					"z" : 117.5830078125,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"y" : -1054.45654296875,
+					"z" : 117.34295654296875,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"y" : -1052.58544921875,
+					"z" : 365.36724853515625,
+				},
+				"u3" : 0,
+				"u4" : 0,
+			},
+		},
+
+		"collision shape 2sub-sub-block " :  {
+
+			"u0" : 1,
+			"w" : -80.0,
+			"x" : 80.0,
+			"z" : 1,
+		},
+	},
+
+	"componentsub-block " :  {
+
+		"component type" : "CollisionShape",
+		"number" : 109,
+		"? linked component" : 100,
+
+		"collision shapesub-sub-block " :  {
+
+
+			"u2sub-sub-sub-block " :  {
+
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"y" : -820.0390014648438,
+					"z" : 117.5830078125,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"y" : -1054.45654296875,
+					"z" : 117.34295654296875,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"y" : -1052.58544921875,
+					"z" : 365.36724853515625,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"y" : -1051.318603515625,
+					"z" : 637.1654663085938,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"y" : -881.09814453125,
+					"z" : 650.1265258789062,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"y" : -862.064208984375,
+					"z" : 638.2754516601562,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"y" : -862.3203125,
+					"z" : 365.27911376953125,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"y" : -404.9339294433594,
+					"z" : 364.73956298828125,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"y" : 163.59063720703125,
+					"z" : 364.11187744140625,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"y" : 844.4691162109375,
+					"z" : 361.01593017578125,
+				},
+				"u3" : 0,
+				"u4" : 0,
+			},
+		},
+
+		"collision shape 2sub-sub-block " :  {
+
+			"u0" : 1,
+			"w" : -80.0,
+			"x" : 80.0,
+			"z" : 1,
+		},
+	},
+
+	"componentsub-block " :  {
+
+		"component type" : "CollisionShape",
+		"number" : 110,
+		"? linked component" : 100,
+
+		"collision shapesub-sub-block " :  {
+
+
+			"u2sub-sub-sub-block " :  {
+
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"y" : -404.9339294433594,
+					"z" : 364.73956298828125,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"y" : 163.59063720703125,
+					"z" : 364.11187744140625,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"y" : 844.4691162109375,
+					"z" : 361.01593017578125,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"y" : 845.2568359375,
+					"z" : 255.32891845703125,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"y" : 919.15478515625,
+					"z" : 255.17193603515625,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"y" : 918.9429931640625,
+					"z" : 281.7796630859375,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"y" : 1306.2373046875,
+					"z" : 280.87054443359375,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"y" : 1306.7518310546875,
+					"z" : 124.09893798828125,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"y" : 1505.2294921875,
+					"z" : 123.95587158203125,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"y" : 1519.23095703125,
+					"z" : 604.1306762695312,
+				},
+				"u3" : 0,
+				"u4" : 0,
+			},
+		},
+
+		"collision shape 2sub-sub-block " :  {
+
+			"u0" : 1,
+			"w" : -80.0,
+			"x" : 80.0,
+			"z" : 1,
+		},
+	},
+
+	"componentsub-block " :  {
+
+		"component type" : "CollisionShape",
+		"number" : 111,
+		"? linked component" : 100,
+
+		"collision shapesub-sub-block " :  {
+
+
+			"u2sub-sub-sub-block " :  {
+
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"y" : 1306.7518310546875,
+					"z" : 124.09893798828125,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"y" : 1505.2294921875,
+					"z" : 123.95587158203125,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"y" : 1519.23095703125,
+					"z" : 604.1306762695312,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"y" : -971.58740234375,
+					"z" : 669.6593627929688,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"y" : -1365.78857421875,
+					"z" : 611.1083984375,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"y" : -1519.23095703125,
+					"z" : 117.510498046875,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"y" : -1433.2493896484375,
+					"z" : -229.22116088867188,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"y" : -1183.1357421875,
+					"z" : -376.03387451171875,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"y" : -933.0220947265625,
+					"z" : -522.8465576171875,
+				},
+				"u3" : 0,
+				"u4" : 0,
+			},
+		},
+
+		"collision shape 2sub-sub-block " :  {
+
+			"u0" : 1,
+			"w" : -80.0,
+			"x" : 80.0,
+			"z" : 1,
+		},
+	},
+
+	"positionsub-block " :  {
+
+		"x position" : -2974.95458984375,
+		"y position" : 589.7543334960938,
+	},
+	"z position" : 0.0,
+	"rotation" : 0.0,
+	"scale" : 1.0,
+
+	"u2sub-block " :  {
+
+		"w" : -1519.23095703125,
+		"x" : -669.6593017578125,
+		"y" : 3038.4619140625,
+		"z" : 1339.318603515625,
+	},
+	"hidden" : 0,
+},
+
+"objectblock " :  {
+
+	"identifier" : "obj27#9",
+
+	"componentsub-block " :  {
+
+		"component type" : "GroundPolygon",
+		"number" : 100,
+
+		"ground polygonsub-sub-block " :  {
+
+
+			"sub-sub-sub-block " :  {
+
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"x" : -1226.165771484375,
+					"y" : -429.043212890625,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"x" : -921.228759765625,
+					"y" : -426.4698486328125,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"x" : -616.291748046875,
+					"y" : -423.896484375,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"x" : -311.354736328125,
+					"y" : -421.3231506347656,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"x" : -6.417724609375,
+					"y" : -418.7497863769531,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"x" : 298.519287109375,
+					"y" : -416.1764221191406,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"x" : 603.456298828125,
+					"y" : -413.60308837890625,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"x" : 908.393310546875,
+					"y" : -411.02972412109375,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"x" : 1213.330322265625,
+					"y" : -408.45635986328125,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"x" : 1226.1656494140625,
+					"y" : 429.0432434082031,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"x" : -1211.95458984375,
+					"y" : 414.5881652832031,
+				},
+				"u0" : 0,
+				"u1" : 1,
+			},
+			"u1" : 1,
+			"u2" : -75.0,
+			"u3" : 75.0,
+			"u4" : "",
+		},
+	},
+
+	"componentsub-block " :  {
+
+		"component type" : "GroundMesh",
+		"number" : 101,
+
+		"ground meshsub-sub-block " :  {
+
+
+			"u0sub-sub-sub-block " :  {
+
+				"w" : -1236.165771484375,
+				"x" : -439.043212890625,
+				"y" : 2472.33154296875,
+				"z" : 878.08642578125,
+			},
+
+			"u1sub-sub-sub-block " :  {
+
+				"u0" : 22,
+				"u1" : 20,
+
+				"u2sub-sub-sub-sub-block " :  {
+
+					"u0" : 4,
+					"u1" : 1,
+					"u2" : 2,
+					"u3" : 0,
+				},
+
+				"u3sub-sub-sub-sub-block " :  {
+
+					"u0" : 7,
+					"u1" : 3,
+					"u2" : 32,
+					"u3" : 0,
+				},
+
+				"u4sub-sub-sub-sub-block " :  {
+
+					"u0" : 7,
+					"u1" : 3,
+					"u2" : 32,
+					"u3" : 12,
+				},
+
+				"u5sub-sub-sub-sub-block " :  {
+
+					"u0" : 7,
+					"u1" : 2,
+					"u2" : 32,
+					"u3" : 24,
+				},
+
+				"u6sub-sub-sub-sub-block " :  {
+
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 1.0,
+						"x" : 1.0,
+						"y" : 1.0,
+						"z" : 1.0,
+					},
+
+					"u1sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 1.0,
+						"x" : 1.0,
+						"y" : 1.0,
+						"z" : 1.0,
+					},
+
+					"u2sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 1.0,
+						"x" : 1.0,
+						"y" : 1.0,
+						"z" : 1.0,
+					},
+					"u3" : 0.0,
+					"u4" : "\\n\\x10woodkeep_ground2\\x10\\x01 \\x02",
+				},
+
+				"u7sub-sub-sub-sub-block " :  {
+
+					"u" : -1226.165771484375,
+					"v" : -429.043212890625,
+					"w" : -75.0,
+					"x" : 2452.33154296875,
+					"y" : 858.08642578125,
+					"z" : 150.0,
+				},
+				"u8" : "NE\\x99\\xc4\\x88\\x85\\xd6\\xc3\\x00\\x00\\x96B\\xed\\xf3q\\xbf\\\'E\\xa7\\xbe\\x00\\x00\\x00\\x00\\x00\\x00\\x00?\\xcd\\xccL?NE\\x99\\xc4\\x88\\x85\\xd6\\xc3\\x00\\x00\\x96\\xc2\\xed\\xf3q\\xbf\\\'E\\xa7\\xbe\\x00\\x00\\x00\\x00\\x00\\x00\\x00?\\xcd\\xccL>\\xa4Nf\\xc4$<\\xd5\\xc3\\x00\\x00\\x96B{B\\n<\\xaa\\xfd\\x7f\\xbf\\x00\\x00\\x00\\x00!\"\\xdc?\\xcd\\xccL?\\xa4Nf\\xc4$<\\xd5\\xc3\\x00\\x00\\x96\\xc2{B\\n<\\xaa\\xfd\\x7f\\xbf\\x00\\x00\\x00\\x00!\"\\xdc?\\xcd\\xccL>\\xac\\x12\\x1a\\xc4\\xc0\\xf2\\xd3\\xc3\\x00\\x00\\x96BFB\\n<\\xaa\\xfd\\x7f\\xbf\\x00\\x00\\x00\\x00!\"<@\\xcd\\xccL?\\xac\\x12\\x1a\\xc4\\xc0\\xf2\\xd3\\xc3\\x00\\x00\\x96\\xc2FB\\n<\\xaa\\xfd\\x7f\\xbf\\x00\\x00\\x00\\x00!\"<@\\xcd\\xccL>h\\xad\\x9b\\xc3]\\xa9\\xd2\\xc3\\x00\\x00\\x96BFB\\n<\\xaa\\xfd\\x7f\\xbf\\x00\\x00\\x00\\x00\\x99\\x19\\x85@\\xcd\\xccL?h\\xad\\x9b\\xc3]\\xa9\\xd2\\xc3\\x00\\x00\\x96\\xc2FB\\n<\\xaa\\xfd\\x7f\\xbf\\x00\\x00\\x00\\x00\\x99\\x19\\x85@\\xcd\\xccL>\\x00^\\xcd\\xc0\\xf9_\\xd1\\xc3\\x00\\x00\\x96B{B\\n<\\xaa\\xfd\\x7f\\xbf\\x00\\x00\\x00\\x00!\"\\xac@\\xcd\\xccL?\\x00^\\xcd\\xc0\\xf9_\\xd1\\xc3\\x00\\x00\\x96\\xc2{B\\n<\\xaa\\xfd\\x7f\\xbf\\x00\\x00\\x00\\x00!\"\\xac@\\xcd\\xccL>xB\\x95C\\x95\\x16\\xd0\\xc3\\x00\\x00\\x96BFB\\n<\\xaa\\xfd\\x7f\\xbf\\x00\\x00\\x00\\x00\\xa9*\\xd3@\\xcd\\xccL?xB\\x95C\\x95\\x16\\xd0\\xc3\\x00\\x00\\x96\\xc2FB\\n<\\xaa\\xfd\\x7f\\xbf\\x00\\x00\\x00\\x00\\xa9*\\xd3@\\xcd\\xccL>4\\xdd\\x16D2\\xcd\\xce\\xc3\\x00\\x00\\x96BFB\\n<\\xaa\\xfd\\x7f\\xbf\\x00\\x00\\x00\\x0013\\xfa@\\xcd\\xccL?4\\xdd\\x16D2\\xcd\\xce\\xc3\\x00\\x00\\x96\\xc2FB\\n<\\xaa\\xfd\\x7f\\xbf\\x00\\x00\\x00\\x0013\\xfa@\\xcd\\xccL>,\\x19cD\\xce\\x83\\xcd\\xc3\\x00\\x00\\x96B{B\\n<\\xaa\\xfd\\x7f\\xbf\\x00\\x00\\x00\\x00\\xdd\\x9d\\x10A\\xcd\\xccL?,\\x19cD\\xce\\x83\\xcd\\xc3\\x00\\x00\\x96\\xc2{B\\n<\\xaa\\xfd\\x7f\\xbf\\x00\\x00\\x00\\x00\\xdd\\x9d\\x10A\\xcd\\xccL>\\x92\\xaa\\x97Dj:\\xcc\\xc3\\x00\\x00\\x96B,qo?v%\\xb5\\xbe\\x00\\x00\\x00\\x00!\"$A\\xcd\\xccL?\\x92\\xaa\\x97Dj:\\xcc\\xc3\\x00\\x00\\x96\\xc2,qo?v%\\xb5\\xbe\\x00\\x00\\x00\\x00!\"$A\\xcd\\xccL>ME\\x99D\\x89\\x85\\xd6C\\x00\\x00\\x96B9\\x89\\xa4>\\xcckr?\\x00\\x00\\x00\\x00U\\xbdYA\\xcd\\xccL?ME\\x99D\\x89\\x85\\xd6C\\x00\\x00\\x96\\xc29\\x89\\xa4>\\xcckr?\\x00\\x00\\x00\\x00U\\xbdYA\\xcd\\xccL>\\x8c~\\x97\\xc4IK\\xcfC\\x00\\x00\\x96Ba\\x19\\xa9\\xbe\\x82\\xa2q?\\x00\\x00\\x00\\x00\\x19\\xe4\\xbaA\\xcd\\xccL?\\x8c~\\x97\\xc4IK\\xcfC\\x00\\x00\\x96\\xc2a\\x19\\xa9\\xbe\\x82\\xa2q?\\x00\\x00\\x00\\x00\\x19\\xe4\\xbaA\\xcd\\xccL>",
+				"u9" : "\\x00\\x00\\x01\\x00\\x02\\x00\\x01\\x00\\x03\\x00\\x02\\x00\\x02\\x00\\x03\\x00\\x04\\x00\\x03\\x00\\x05\\x00\\x04\\x00\\x04\\x00\\x05\\x00\\x06\\x00\\x05\\x00\\x07\\x00\\x06\\x00\\x06\\x00\\x07\\x00\\x08\\x00\\x07\\x00\\t\\x00\\x08\\x00\\x08\\x00\\t\\x00\\n\\x00\\t\\x00\\x0b\\x00\\n\\x00\\n\\x00\\x0b\\x00\\x0c\\x00\\x0b\\x00\\r\\x00\\x0c\\x00\\x0c\\x00\\r\\x00\\x0e\\x00\\r\\x00\\x0f\\x00\\x0e\\x00\\x0e\\x00\\x0f\\x00\\x10\\x00\\x0f\\x00\\x11\\x00\\x10\\x00\\x10\\x00\\x11\\x00\\x12\\x00\\x11\\x00\\x13\\x00\\x12\\x00\\x12\\x00\\x13\\x00\\x14\\x00\\x13\\x00\\x15\\x00\\x14\\x00",
+			},
+
+			"u1sub-sub-sub-block " :  {
+
+				"u0" : 4,
+				"u1" : 2,
+
+				"u2sub-sub-sub-sub-block " :  {
+
+					"u0" : 4,
+					"u1" : 1,
+					"u2" : 2,
+					"u3" : 0,
+				},
+
+				"u3sub-sub-sub-sub-block " :  {
+
+					"u0" : 7,
+					"u1" : 3,
+					"u2" : 32,
+					"u3" : 0,
+				},
+
+				"u4sub-sub-sub-sub-block " :  {
+
+					"u0" : 7,
+					"u1" : 3,
+					"u2" : 32,
+					"u3" : 12,
+				},
+
+				"u5sub-sub-sub-sub-block " :  {
+
+					"u0" : 7,
+					"u1" : 2,
+					"u2" : 32,
+					"u3" : 24,
+				},
+
+				"u6sub-sub-sub-sub-block " :  {
+
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 1.0,
+						"x" : 1.0,
+						"y" : 1.0,
+						"z" : 1.0,
+					},
+
+					"u1sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 1.0,
+						"x" : 1.0,
+						"y" : 1.0,
+						"z" : 1.0,
+					},
+
+					"u2sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 1.0,
+						"x" : 1.0,
+						"y" : 1.0,
+						"z" : 1.0,
+					},
+					"u3" : 0.0,
+					"u4" : "\\n\\x10woodkeep_ground2\\x10\\x01 \\x02",
+				},
+
+				"u7sub-sub-sub-sub-block " :  {
+
+					"u" : -1226.165771484375,
+					"v" : -429.043212890625,
+					"w" : -75.0,
+					"x" : 14.211181640625,
+					"y" : 843.63134765625,
+					"z" : 150.0,
+				},
+				"u8" : "NE\\x99\\xc4\\x88\\x85\\xd6\\xc3\\x00\\x00\\x96B\\xed\\xf3q\\xbf\'E\\xa7\\xbe\\x00\\x00\\x00\\x00\\x00\\x00\\x00?\\xcd\\xccL?NE\\x99\\xc4\\x88\\x85\\xd6\\xc3\\x00\\x00\\x96\\xc2\\xed\\xf3q\\xbf\'E\\xa7\\xbe\\x00\\x00\\x00\\x00\\x00\\x00\\x00?\\xcd\\xccL>\\x8c~\\x97\\xc4IK\\xcfC\\x00\\x00\\x96Ba\\x19\\xa9\\xbe\\x82\\xa2q?\\x00\\x00\\x00\\x00\\x19\\xe4\\xbaA\\xcd\\xccL?\\x8c~\\x97\\xc4IK\\xcfC\\x00\\x00\\x96\\xc2a\\x19\\xa9\\xbe\\x82\\xa2q?\\x00\\x00\\x00\\x00\\x19\\xe4\\xbaA\\xcd\\xccL>",
+				"u9" : "\\x02\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x01\\x00\\x00\\x00",
+			},
+
+			"u2sub-sub-sub-block " :  {
+
+				"u0" : 27,
+				"u1" : 9,
+
+				"u2sub-sub-sub-sub-block " :  {
+
+					"u0" : 7,
+					"u1" : 3,
+					"u2" : 32,
+					"u3" : 0,
+				},
+
+				"u3sub-sub-sub-sub-block " :  {
+
+					"u0" : 7,
+					"u1" : 3,
+					"u2" : 32,
+					"u3" : 12,
+				},
+
+				"u4sub-sub-sub-sub-block " :  {
+
+					"u0" : 7,
+					"u1" : 2,
+					"u2" : 32,
+					"u3" : 24,
+				},
+
+				"u5sub-sub-sub-sub-block " :  {
+
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 1.0,
+						"x" : 1.0,
+						"y" : 1.0,
+						"z" : 1.0,
+					},
+
+					"u1sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 1.0,
+						"x" : 1.0,
+						"y" : 1.0,
+						"z" : 1.0,
+					},
+
+					"u2sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 1.0,
+						"x" : 1.0,
+						"y" : 1.0,
+						"z" : 1.0,
+					},
+					"u3" : 0.0,
+
+					"u4sub-sub-sub-sub-sub-block " :  {
+
+						"u0" : "woodkeep_ground2",
+						"u1" : 1,
+						"u2" : 2,
+					},
+				},
+
+				"u3sub-sub-sub-sub-block " :  {
+
+					"u" : -1226.165771484375,
+					"v" : -429.043212890625,
+					"w" : 75.0,
+					"x" : 2452.33154296875,
+					"y" : 858.08642578125,
+					"z" : 0.0,
+				},
+				"u7" : "\\xa4Nf\\xc4$<\\xd5\\xc3\\x00\\x00\\x96B\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\xff\\xff\\x7f?\\xa6\\xd5K\\xc0BZ\\x9a\\xbf\\x8c~\\x97\\xc4IK\\xcfC\\x00\\x00\\x96B\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\xff\\xff\\x7f?T!\\x8b\\xc0s\"\\n@NE\\x99\\xc4\\x88\\x85\\xd6\\xc3\\x00\\x00\\x96B\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\xff\\xff\\x7f?\\x00\\xf3\\x8c\\xc0\\x8d\\xab\\x9b\\xbf\\x8c~\\x97\\xc4IK\\xcfC\\x00\\x00\\x96B\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\xff\\xff\\x7f?T!\\x8b\\xc0s\"\\n@\\xa4Nf\\xc4$<\\xd5\\xc3\\x00\\x00\\x96B\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\xff\\xff\\x7f?\\xa6\\xd5K\\xc0BZ\\x9a\\xbf\\xac\\x12\\x1a\\xc4\\xc0\\xf2\\xd3\\xc3\\x00\\x00\\x96B\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\xff\\xff\\x7f?\\x98\\x8a\\xfb\\xbf\\xf6\\x08\\x99\\xbf\\x8c~\\x97\\xc4IK\\xcfC\\x00\\x00\\x96B\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?T!\\x8b\\xc0s\"\\n@\\xac\\x12\\x1a\\xc4\\xc0\\xf2\\xd3\\xc3\\x00\\x00\\x96B\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\x98\\x8a\\xfb\\xbf\\xf6\\x08\\x99\\xbfh\\xad\\x9b\\xc3]\\xa9\\xd2\\xc3\\x00\\x00\\x96B\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xc7\\xd3>\\xbf\\xab\\xb7\\x97\\xbf\\x8c~\\x97\\xc4IK\\xcfC\\x00\\x00\\x96B\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?T!\\x8b\\xc0s\"\\n@h\\xad\\x9b\\xc3]\\xa9\\xd2\\xc3\\x00\\x00\\x96B\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xc7\\xd3>\\xbf\\xab\\xb7\\x97\\xbf\\x00^\\xcd\\xc0\\xf9_\\xd1\\xc3\\x00\\x00\\x96B\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?D\\xdb\\xf2>_f\\x96\\xbf\\x8c~\\x97\\xc4IK\\xcfC\\x00\\x00\\x96B\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?T!\\x8b\\xc0s\"\\n@\\x00^\\xcd\\xc0\\xf9_\\xd1\\xc3\\x00\\x00\\x96B\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?D\\xdb\\xf2>_f\\x96\\xbfxB\\x95C\\x95\\x16\\xd0\\xc3\\x00\\x00\\x96B\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\x85\\xd7\\xd8?\\x13\\x15\\x95\\xbf\\x8c~\\x97\\xc4IK\\xcfC\\x00\\x00\\x96B\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?T!\\x8b\\xc0s\"\\n@xB\\x95C\\x95\\x16\\xd0\\xc3\\x00\\x00\\x96B\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\x85\\xd7\\xd8?\\x13\\x15\\x95\\xbf4\\xdd\\x16D2\\xcd\\xce\\xc3\\x00\\x00\\x96B\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\x1d|:@\\xc9\\xc3\\x93\\xbf\\x8c~\\x97\\xc4IK\\xcfC\\x00\\x00\\x96B\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\xff\\xff\\x7f?T!\\x8b\\xc0s\"\\n@4\\xdd\\x16D2\\xcd\\xce\\xc3\\x00\\x00\\x96B\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\xff\\xff\\x7f?\\x1d|:@\\xc9\\xc3\\x93\\xbf,\\x19cD\\xce\\x83\\xcd\\xc3\\x00\\x00\\x96B\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\xff\\xff\\x7f?;F\\x84@}r\\x92\\xbf\\x8c~\\x97\\xc4IK\\xcfC\\x00\\x00\\x96B\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\xff\\xff\\x7f?T!\\x8b\\xc0s\"\\n@,\\x19cD\\xce\\x83\\xcd\\xc3\\x00\\x00\\x96B\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\xff\\xff\\x7f?;F\\x84@}r\\x92\\xbf\\x92\\xaa\\x97Dj:\\xcc\\xc3\\x00\\x00\\x96B\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\xff\\xff\\x7f?hN\\xab@1!\\x91\\xbf\\x8c~\\x97\\xc4IK\\xcfC\\x00\\x00\\x96B\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?T!\\x8b\\xc0s\"\\n@\\x92\\xaa\\x97Dj:\\xcc\\xc3\\x00\\x00\\x96B\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?hN\\xab@1!\\x91\\xbfME\\x99D\\x89\\x85\\xd6C\\x00\\x00\\x96B\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xff\\xf2\\xac@\\xc7\\xd5\\r@",
+			},
+
+			"u3sub-sub-sub-block " :  {
+
+				"w" : 0.800000011920929,
+				"x" : 0.47777777910232544,
+				"y" : 0.011111111380159855,
+				"z" : 1.0,
+			},
+		},
+	},
+
+	"componentsub-block " :  {
+
+		"component type" : "GroundMeshGenerator",
+		"number" : 102,
+
+		"ground mesh generatorsub-sub-block " :  {
+
+			"ground polygon" : 100,
+			"ground mesh" : 101,
+			"texture mapping 1" : 103,
+			"texture mapping 2" : 103,
+			"u4" : 0,
+			"u5" : 0.0,
+			"u6" : 0,
+			"u7" : 150.0,
+			"u8" : 25.0,
+			"u9" : 5.0,
+			"u10" : 5.0,
+		},
+	},
+
+	"componentsub-block " :  {
+
+		"component type" : "TextureMapping",
+		"number" : 103,
+
+		"texture mappingsub-sub-block " :  {
+
+			"texture file" : "woodkeep_ground2",
+			"u0" : 250.0,
+
+			"u0sub-sub-sub-block " :  {
+
+				"u1" : 0.0,
+				"u2" : 0.0,
+			},
+		},
+	},
+
+	"componentsub-block " :  {
+
+		"component type" : "CollisionShape",
+		"number" : 104,
+		"? linked component" : 100,
+
+		"collision shapesub-sub-block " :  {
+
+
+			"u2sub-sub-sub-block " :  {
+
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"y" : -1226.165771484375,
+					"z" : -429.043212890625,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"y" : -921.228759765625,
+					"z" : -426.4698486328125,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"y" : -616.291748046875,
+					"z" : -423.896484375,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"y" : -311.354736328125,
+					"z" : -421.3231506347656,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"y" : -6.417724609375,
+					"z" : -418.7497863769531,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"y" : 298.519287109375,
+					"z" : -416.1764221191406,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"y" : 603.456298828125,
+					"z" : -413.60308837890625,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"y" : 908.393310546875,
+					"z" : -411.02972412109375,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"y" : 1213.330322265625,
+					"z" : -408.45635986328125,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"y" : 1226.1656494140625,
+					"z" : 429.0432434082031,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"y" : -1211.95458984375,
+					"z" : 414.5881652832031,
+				},
+				"u3" : 0,
+				"u4" : 1,
+			},
+		},
+
+		"collision shape 2sub-sub-block " :  {
+
+			"u0" : 1,
+			"w" : -75.0,
+			"x" : 75.0,
+			"z" : 1,
+		},
+	},
+
+	"positionsub-block " :  {
+
+		"x position" : -2849.98681640625,
+		"y position" : 844.9111328125,
+	},
+	"z position" : -161.75106811523438,
+	"rotation" : 0.0,
+	"scale" : 1.0,
+
+	"u2sub-block " :  {
+
+		"w" : -1226.165771484375,
+		"x" : -429.043212890625,
+		"y" : 2452.33154296875,
+		"z" : 858.08642578125,
+	},
+	"hidden" : 0,
+},
+
+"objectblock " :  {
+
+	"name" : "woodblock",
+	"identifier" : "obj3",
+
+	"componentsub-block " :  {
+
+		"component type" : "Model",
+		"number" : 101,
+
+		"3D modelsub-sub-block " :  {
+
+			"name" : "woodblock",
+			"u0" : 1.5707963705062866,
+			"u1" : 0.10000000149011612,
+			"u2" : 0.0,
+
+			"u3sub-sub-sub-block " :  {
+
+				"w" : 0.16862745583057404,
+				"x" : 0.08235294371843338,
+				"y" : 0.007843137718737125,
+				"z" : 1.0,
+			},
+
+			"u4sub-sub-sub-block " :  {
+
+				"x" : 0.0,
+				"y" : 0.0,
+				"z" : 0.0,
+			},
+			"u5" : 0,
+
+			"u6sub-sub-sub-block " :  {
+
+				"w" : 1.0,
+				"x" : 1.0,
+				"y" : 1.0,
+				"z" : 1.0,
+			},
+		},
+	},
+
+	"componentsub-block " :  {
+
+		"component type" : "Program",
+		"number" : 120,
+
+		"programsub-sub-block " :  {
+
+			"u0" : 1,
+
+			"lua chunksub-sub-sub-block " :  {
+
+				"main chunk" : "chunk >
+
+				=== lua =============
+				local self = ...;
+				
+				Program.Wait(0.8);
+				SoundLibrary.PlayEffect(\"surprise2\");
+				DoorController.Open(Scene.Find(\"door\"));
+				
+
+				=====================",
+				"secondary chunk" : "\\x1bLuaQ\\x00\\x01\\x04\\x04\\x04\\x08\\x00{\\x00\\x00\\x00local self = ...;\\r\\n\\r\\nProgram.Wait(0.8);\\r\\nSoundLibrary.PlayEffect(\"surprise2\");\\r\\nDoorController.Open(Scene.Find(\"door\"));\\r\\n\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x02\\x04\\x11\\x00\\x00\\x00%\\x00\\x00\\x01E\\x00\\x00\\x00F@\\xc0\\x00\\x81\\x80\\x00\\x00\\\\@\\x00\\x01E\\xc0\\x00\\x00F\\x00\\xc1\\x00\\x81@\\x01\\x00\\\\@\\x00\\x01E\\x80\\x01\\x00F\\xc0\\xc1\\x00\\x85\\x00\\x02\\x00\\x86@B\\x01\\xc1\\x80\\x02\\x00\\x9c\\x00\\x00\\x01\\\\@\\x00\\x00\\x1e\\x00\\x80\\x00\\x0b\\x00\\x00\\x00\\x04\\x08\\x00\\x00\\x00Program\\x00\\x04\\x05\\x00\\x00\\x00Wait\\x00\\x03\\x9a\\x99\\x99\\x99\\x99\\x99\\xe9?\\x04\\r\\x00\\x00\\x00SoundLibrary\\x00\\x04\\x0b\\x00\\x00\\x00PlayEffect\\x00\\x04\\n\\x00\\x00\\x00surprise2\\x00\\x04\\x0f\\x00\\x00\\x00DoorController\\x00\\x04\\x05\\x00\\x00\\x00Open\\x00\\x04\\x06\\x00\\x00\\x00Scene\\x00\\x04\\x05\\x00\\x00\\x00Find\\x00\\x04\\x05\\x00\\x00\\x00door\\x00\\x00\\x00\\x00\\x00\\x11\\x00\\x00\\x00\\x01\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x01\\x00\\x00\\x00\\x05\\x00\\x00\\x00self\\x00\\x01\\x00\\x00\\x00\\x10\\x00\\x00\\x00\\x00\\x00\\x00\\x00",
+			},
+			"u1" : 1,
+			"u2" : 5,
+		},
+	},
+
+	"positionsub-block " :  {
+
+		"x position" : -2343.5,
+		"y position" : 707.2127075195312,
+	},
+	"z position" : 0.0,
+	"rotation" : 0.0,
+	"scale" : 1.0,
+
+	"u2sub-block " :  {
+
+		"w" : -39.42015838623047,
+		"x" : -0.5142250061035156,
+		"y" : 94.0374755859375,
+		"z" : 164.51486206054688,
+	},
+	"hidden" : 0,
+},
+
+"objectblock " :  {
+
+	"identifier" : "obj4",
+
+	"componentsub-block " :  {
+
+		"component type" : "GroundPolygon",
+		"number" : 100,
+
+		"ground polygonsub-sub-block " :  {
+
+
+			"sub-sub-sub-block " :  {
+
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"x" : -19.45867919921875,
+					"y" : -99.92015075683594,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"x" : 19.45867919921875,
+					"y" : -100.07984924316406,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"x" : 19.45867919921875,
+					"y" : 99.92015075683594,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"x" : -19.45867919921875,
+					"y" : 100.07984924316406,
+				},
+				"u0" : 0,
+				"u1" : 1,
+			},
+			"u1" : 1,
+			"u2" : -30.0,
+			"u3" : 30.0,
+			"u4" : "",
+		},
+	},
+
+	"componentsub-block " :  {
+
+		"component type" : "GroundMesh",
+		"number" : 101,
+
+		"ground meshsub-sub-block " :  {
+
+
+			"u0sub-sub-sub-block " :  {
+
+				"w" : -29.45867919921875,
+				"x" : -110.07984924316406,
+				"y" : 58.9173583984375,
+				"z" : 220.15969848632812,
+			},
+
+			"u1sub-sub-sub-block " :  {
+
+				"u0" : 20,
+				"u1" : 14,
+
+				"u2sub-sub-sub-sub-block " :  {
+
+					"u0" : 4,
+					"u1" : 1,
+					"u2" : 2,
+					"u3" : 0,
+				},
+
+				"u3sub-sub-sub-sub-block " :  {
+
+					"u0" : 7,
+					"u1" : 3,
+					"u2" : 32,
+					"u3" : 0,
+				},
+
+				"u4sub-sub-sub-sub-block " :  {
+
+					"u0" : 7,
+					"u1" : 3,
+					"u2" : 32,
+					"u3" : 12,
+				},
+
+				"u5sub-sub-sub-sub-block " :  {
+
+					"u0" : 7,
+					"u1" : 2,
+					"u2" : 32,
+					"u3" : 24,
+				},
+
+				"u6sub-sub-sub-sub-block " :  {
+
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 1.0,
+						"x" : 1.0,
+						"y" : 1.0,
+						"z" : 1.0,
+					},
+
+					"u1sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 1.0,
+						"x" : 1.0,
+						"y" : 1.0,
+						"z" : 1.0,
+					},
+
+					"u2sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 1.0,
+						"x" : 1.0,
+						"y" : 1.0,
+						"z" : 1.0,
+					},
+					"u3" : 0.0,
+					"u4" : "\\n\\x10woodkeep_ground2\\x10\\x01 \\x02",
+				},
+
+				"u7sub-sub-sub-sub-block " :  {
+
+					"u" : -22.458654403686523,
+					"v" : 74.9078369140625,
+					"w" : -35.0,
+					"x" : 44.91730880737305,
+					"y" : 25.184326171875,
+					"z" : 70.0,
+				},
+				"u8" : "S\\xab\\xb3A\\xd0\\xd0\\xc7B\\x00\\x00\\xf0\\xc1\\x9av\\x86;s\\xff\\x7f?\\x00\\x00\\x00\\x00\\x00\\x00\\x00?\\\\\\x8f\\xc2>S\\xab\\xb3A\\xd0\\xd0\\xc7B\\x00\\x00\\xf0A\\x9av\\x86;s\\xff\\x7f?\\x00\\x00\\x00\\x00\\x00\\x00\\x00?R\\xb8\\x1e?S\\xab\\xb3A\\xd0\\xd0\\xb3B\\x00\\x00\\x0cB\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\x1f\\x85\\xeb>\\n\\xd7#?S\\xab\\xb3A\\xd0\\xd0\\x95B\\xcd\\xcc\\xf0A\\x9av\\x86\\xbbs\\xff\\x7f\\xbf\\x00\\x00\\x00\\x80\\xcd\\xcc\\xcc>\\x89\\xd2\\x1e?S\\xab\\xb3A\\xd0\\xd0\\x95B33\\xef\\xc1\\x9av\\x86\\xbbs\\xff\\x7f\\xbf\\x00\\x00\\x00\\x80\\xcd\\xcc\\xcc>\\xca\\xc3\\xc2>S\\xab\\xb3A\\xd0\\xd0\\xb3B\\x00\\x00\\x0c\\xc2\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\x1f\\x85\\xeb>\\xecQ\\xb8>S\\xab\\xb3A\\xd0\\xd0\\xc7B\\x00\\x00\\xf0\\xc1\\x9av\\x86;s\\xff\\x7f?\\x00\\x00\\x00\\x00\\x00\\x00\\x00?\\\\\\x8f\\xc2>S\\xab\\xb3A\\xd0\\xd0\\xc7B\\x00\\x00\\xf0A\\x9av\\x86;s\\xff\\x7f?\\x00\\x00\\x00\\x00\\x00\\x00\\x00?R\\xb8\\x1e?S\\xab\\xb3A\\xd0\\xd0\\xb3B\\x00\\x00\\x0cB\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\x00\\x00\\x00?.+*?S\\xab\\xb3A\\xd0\\xd0\\x95B\\xcd\\xcc\\xf0A\\x9av\\x86\\xbbs\\xff\\x7f\\xbf\\x00\\x00\\x00\\x80\\x00\\x00\\x00?\\xd3S:?S\\xab\\xb3\\xc10/\\xc8B\\x00\\x00\\xf0\\xc1\\x9av\\x86;s\\xff\\x7f?\\x00\\x00\\x00\\x00\\n\\xda\'?\\\\\\x8f\\xc2>S\\xab\\xb3\\xc10/\\xc8B\\x00\\x00\\xf0A\\x9av\\x86;s\\xff\\x7f?\\x00\\x00\\x00\\x00\\n\\xda\'?R\\xb8\\x1e?S\\xab\\xb3\\xc10/\\xb4B\\x00\\x00\\x0cB\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\n\\xda\'?.+*?S\\xab\\xb3\\xc10/\\x96B\\xcd\\xcc\\xf0A\\x9av\\x86\\xbbs\\xff\\x7f\\xbf\\x00\\x00\\x00\\x80\\n\\xda\'?\\xd3S:?S\\xab\\xb3\\xc10/\\xc8B\\x00\\x00\\xf0\\xc1\\x9av\\x86;s\\xff\\x7f?\\x00\\x00\\x00\\x00\\n\\xda\'?\\\\\\x8f\\xc2>S\\xab\\xb3\\xc10/\\xc8B\\x00\\x00\\xf0A\\x9av\\x86;s\\xff\\x7f?\\x00\\x00\\x00\\x00\\n\\xda\'?R\\xb8\\x1e?S\\xab\\xb3\\xc10/\\xb4B\\x00\\x00\\x0cB\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?z\\x172?\\n\\xd7#?S\\xab\\xb3\\xc10/\\x96B\\xcd\\xcc\\xf0A\\x9av\\x86\\xbbs\\xff\\x7f\\xbf\\x00\\x00\\x00\\x80\\xa3sA?\\x89\\xd2\\x1e?S\\xab\\xb3\\xc10/\\x96B33\\xef\\xc1\\x9av\\x86\\xbbs\\xff\\x7f\\xbf\\x00\\x00\\x00\\x80\\xa3sA?\\xca\\xc3\\xc2>S\\xab\\xb3\\xc10/\\xb4B\\x00\\x00\\x0c\\xc2\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?z\\x172?\\xecQ\\xb8>",
+				"u9" : "\\x00\\x00\\x04\\x00\\x05\\x00\\x00\\x00\\x03\\x00\\x04\\x00\\x00\\x00\\x01\\x00\\x03\\x00\\x01\\x00\\x02\\x00\\x03\\x00\\x06\\x00\\n\\x00\\x0b\\x00\\x07\\x00\\x06\\x00\\x0b\\x00\\x07\\x00\\x0b\\x00\\x0c\\x00\\x08\\x00\\x07\\x00\\x0c\\x00\\x08\\x00\\x0c\\x00\\r\\x00\\t\\x00\\x08\\x00\\r\\x00\\x0e\\x00\\x13\\x00\\x12\\x00\\x0e\\x00\\x12\\x00\\x11\\x00\\x0e\\x00\\x11\\x00\\x0f\\x00\\x11\\x00\\x10\\x00\\x0f\\x00",
+			},
+
+			"u1sub-sub-sub-block " :  {
+
+				"u0" : 8,
+				"u1" : 6,
+
+				"u2sub-sub-sub-sub-block " :  {
+
+					"u0" : 4,
+					"u1" : 1,
+					"u2" : 2,
+					"u3" : 0,
+				},
+
+				"u3sub-sub-sub-sub-block " :  {
+
+					"u0" : 7,
+					"u1" : 3,
+					"u2" : 32,
+					"u3" : 0,
+				},
+
+				"u4sub-sub-sub-sub-block " :  {
+
+					"u0" : 7,
+					"u1" : 3,
+					"u2" : 32,
+					"u3" : 12,
+				},
+
+				"u5sub-sub-sub-sub-block " :  {
+
+					"u0" : 7,
+					"u1" : 2,
+					"u2" : 32,
+					"u3" : 24,
+				},
+
+				"u6sub-sub-sub-sub-block " :  {
+
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 1.0,
+						"x" : 1.0,
+						"y" : 1.0,
+						"z" : 1.0,
+					},
+
+					"u1sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 1.0,
+						"x" : 1.0,
+						"y" : 1.0,
+						"z" : 1.0,
+					},
+
+					"u2sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 1.0,
+						"x" : 1.0,
+						"y" : 1.0,
+						"z" : 1.0,
+					},
+					"u3" : 0.0,
+					"u4" : "\\n\\x10woodkeep_ground2\\x10\\x01 \\x02",
+				},
+
+				"u7sub-sub-sub-sub-block " :  {
+
+					"u" : -19.45867919921875,
+					"v" : -100.07984924316406,
+					"w" : -25.0,
+					"x" : 38.9173583984375,
+					"y" : 200.15969848632812,
+					"z" : 50.0,
+				},
+				"u8" : "`\\xab\\x9b\\xc1\\xe2(\\xc8B\\x00\\x00\\xc8\\xc1\\x00\\x00\\x80\\xbf\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x00?\\xcd\\xcc\\xcc>`\\xab\\x9b\\xc1\\xe2(\\xc8B\\x00\\x00\\xc8A\\x00\\x00\\x80\\xbf\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x00?\\x9a\\x99\\x19?`\\xab\\x9b\\xc1\\x1e\\xd7\\xc7\\xc2\\x00\\x00\\xc8\\xc1OK{\\xbf$pC\\xbe\\x00\\x00\\x00\\x00ff\\xa6?\\xcd\\xcc\\xcc>`\\xab\\x9b\\xc1\\x1e\\xd7\\xc7\\xc2\\x00\\x00\\xc8AOK{\\xbf$pC\\xbe\\x00\\x00\\x00\\x00ff\\xa6?\\x9a\\x99\\x19?`\\xab\\x9bA\\xe2(\\xc8\\xc2\\x00\\x00\\xc8\\xc1\\x8eG{?/\\xbdC\\xbe\\x00\\x00\\x00\\x00lS\\xba?\\xcd\\xcc\\xcc>`\\xab\\x9bA\\xe2(\\xc8\\xc2\\x00\\x00\\xc8A\\x8eG{?/\\xbdC\\xbe\\x00\\x00\\x00\\x00lS\\xba?\\x9a\\x99\\x19?`\\xab\\x9bA\\x1e\\xd7\\xc7B\\x00\\x00\\xc8\\xc1\\x00\\x00\\x80?\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\xe9\\\\\\x10@\\xcd\\xcc\\xcc>`\\xab\\x9bA\\x1e\\xd7\\xc7B\\x00\\x00\\xc8A\\x00\\x00\\x80?\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\xe9\\\\\\x10@\\x9a\\x99\\x19?",
+				"u9" : "\\x00\\x00\\x02\\x00\\x03\\x00\\x01\\x00\\x00\\x00\\x03\\x00\\x02\\x00\\x04\\x00\\x05\\x00\\x03\\x00\\x02\\x00\\x05\\x00\\x04\\x00\\x06\\x00\\x07\\x00\\x05\\x00\\x04\\x00\\x07\\x00",
+			},
+
+			"u2sub-sub-sub-block " :  {
+
+				"u0" : 6,
+				"u1" : 2,
+
+				"u2sub-sub-sub-sub-block " :  {
+
+					"u0" : 7,
+					"u1" : 3,
+					"u2" : 32,
+					"u3" : 0,
+				},
+
+				"u3sub-sub-sub-sub-block " :  {
+
+					"u0" : 7,
+					"u1" : 3,
+					"u2" : 32,
+					"u3" : 12,
+				},
+
+				"u4sub-sub-sub-sub-block " :  {
+
+					"u0" : 7,
+					"u1" : 2,
+					"u2" : 32,
+					"u3" : 24,
+				},
+
+				"u5sub-sub-sub-sub-block " :  {
+
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 1.0,
+						"x" : 1.0,
+						"y" : 1.0,
+						"z" : 1.0,
+					},
+
+					"u1sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 1.0,
+						"x" : 1.0,
+						"y" : 1.0,
+						"z" : 1.0,
+					},
+
+					"u2sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 1.0,
+						"x" : 1.0,
+						"y" : 1.0,
+						"z" : 1.0,
+					},
+					"u3" : 0.0,
+
+					"u4sub-sub-sub-sub-sub-block " :  {
+
+						"u0" : "woodkeep_ground2",
+						"u1" : 1,
+						"u2" : 2,
+					},
+				},
+
+				"u3sub-sub-sub-sub-block " :  {
+
+					"u" : -19.45867919921875,
+					"v" : -100.07984924316406,
+					"w" : 25.0,
+					"x" : 38.9173583984375,
+					"y" : 200.15969848632812,
+					"z" : 0.0,
+				},
+				"u7" : "`\\xab\\x9bA\\x1e\\xd7\\xc7B\\x00\\x00\\xc8A\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xfa\\xec\\x13?xQf?`\\xab\\x9b\\xc1\\x1e\\xd7\\xc7\\xc2\\x00\\x00\\xc8A\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\x0c&\\xd8>Bt\\xcd=`\\xab\\x9bA\\xe2(\\xc8\\xc2\\x00\\x00\\xc8A\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xfa\\xec\\x13?X%\\xcc=`\\xab\\x9bA\\x1e\\xd7\\xc7B\\x00\\x00\\xc8A\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xfa\\xec\\x13?xQf?`\\xab\\x9b\\xc1\\xe2(\\xc8B\\x00\\x00\\xc8A\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\x0c&\\xd8>U{f?`\\xab\\x9b\\xc1\\x1e\\xd7\\xc7\\xc2\\x00\\x00\\xc8A\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\x0c&\\xd8>Bt\\xcd=",
+			},
+
+			"u3sub-sub-sub-block " :  {
+
+				"w" : 1.0,
+				"x" : 1.0,
+				"y" : 1.0,
+				"z" : 1.0,
+			},
+		},
+	},
+
+	"componentsub-block " :  {
+
+		"component type" : "GroundMeshGenerator",
+		"number" : 102,
+
+		"ground mesh generatorsub-sub-block " :  {
+
+			"ground polygon" : 100,
+			"ground mesh" : 101,
+			"texture mapping 1" : 103,
+			"texture mapping 2" : 104,
+			"u4" : 0,
+			"u5" : 0.0,
+			"u6" : 1,
+			"u7" : 50.0,
+			"u8" : 25.0,
+			"u9" : 5.0,
+			"u10" : 5.0,
+		},
+	},
+
+	"componentsub-block " :  {
+
+		"component type" : "TextureMapping",
+		"number" : 103,
+
+		"texture mappingsub-sub-block " :  {
+
+			"texture file" : "woodkeep_ground2",
+			"u0" : 250.0,
+
+			"u0sub-sub-sub-block " :  {
+
+				"u1" : 0.0,
+				"u2" : 0.0,
+			},
+		},
+	},
+
+	"componentsub-block " :  {
+
+		"component type" : "TextureMapping",
+		"number" : 104,
+
+		"texture mappingsub-sub-block " :  {
+
+			"texture file" : "woodkeep_ground2",
+			"u0" : 250.0,
+
+			"u0sub-sub-sub-block " :  {
+
+				"u1" : 0.0,
+				"u2" : 0.0,
+			},
+		},
+	},
+
+	"componentsub-block " :  {
+
+		"component type" : "CollisionShape",
+		"number" : 105,
+		"? linked component" : 100,
+
+		"collision shapesub-sub-block " :  {
+
+
+			"u2sub-sub-sub-block " :  {
+
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"y" : -19.45867919921875,
+					"z" : -99.92015075683594,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"y" : 19.45867919921875,
+					"z" : -100.07984924316406,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"y" : 19.45867919921875,
+					"z" : 99.92015075683594,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"y" : -19.45867919921875,
+					"z" : 100.07984924316406,
+				},
+				"u3" : 0,
+				"u4" : 1,
+			},
+		},
+
+		"collision shape 2sub-sub-block " :  {
+
+			"u0" : 1,
+			"w" : -30.0,
+			"x" : 30.0,
+			"z" : 1,
+		},
+	},
+
+	"positionsub-block " :  {
+
+		"x position" : -3738.22998046875,
+		"y position" : 673.2437133789062,
+	},
+	"z position" : 85.1934814453125,
+	"rotation" : 0.0,
+	"scale" : 1.0,
+
+	"u2sub-block " :  {
+
+		"w" : -19.45867919921875,
+		"x" : -100.07984924316406,
+		"y" : 38.9173583984375,
+		"z" : 200.15969848632812,
+	},
+	"hidden" : 0,
+},
+
+"objectblock " :  {
+
+	"identifier" : "obj4#2",
+
+	"componentsub-block " :  {
+
+		"component type" : "GroundPolygon",
+		"number" : 100,
+
+		"ground polygonsub-sub-block " :  {
+
+
+			"sub-sub-sub-block " :  {
+
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"x" : -19.45867919921875,
+					"y" : -99.92015075683594,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"x" : 19.45867919921875,
+					"y" : -100.07984924316406,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"x" : 19.45867919921875,
+					"y" : 99.92015075683594,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"x" : -19.45867919921875,
+					"y" : 100.07984924316406,
+				},
+				"u0" : 0,
+				"u1" : 1,
+			},
+			"u1" : 1,
+			"u2" : -30.0,
+			"u3" : 30.0,
+			"u4" : "",
+		},
+	},
+
+	"componentsub-block " :  {
+
+		"component type" : "GroundMesh",
+		"number" : 101,
+
+		"ground meshsub-sub-block " :  {
+
+
+			"u0sub-sub-sub-block " :  {
+
+				"w" : -29.45867919921875,
+				"x" : -110.07984924316406,
+				"y" : 58.9173583984375,
+				"z" : 220.15969848632812,
+			},
+
+			"u1sub-sub-sub-block " :  {
+
+				"u0" : 20,
+				"u1" : 14,
+
+				"u2sub-sub-sub-sub-block " :  {
+
+					"u0" : 4,
+					"u1" : 1,
+					"u2" : 2,
+					"u3" : 0,
+				},
+
+				"u3sub-sub-sub-sub-block " :  {
+
+					"u0" : 7,
+					"u1" : 3,
+					"u2" : 32,
+					"u3" : 0,
+				},
+
+				"u4sub-sub-sub-sub-block " :  {
+
+					"u0" : 7,
+					"u1" : 3,
+					"u2" : 32,
+					"u3" : 12,
+				},
+
+				"u5sub-sub-sub-sub-block " :  {
+
+					"u0" : 7,
+					"u1" : 2,
+					"u2" : 32,
+					"u3" : 24,
+				},
+
+				"u6sub-sub-sub-sub-block " :  {
+
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 1.0,
+						"x" : 1.0,
+						"y" : 1.0,
+						"z" : 1.0,
+					},
+
+					"u1sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 1.0,
+						"x" : 1.0,
+						"y" : 1.0,
+						"z" : 1.0,
+					},
+
+					"u2sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 1.0,
+						"x" : 1.0,
+						"y" : 1.0,
+						"z" : 1.0,
+					},
+					"u3" : 0.0,
+					"u4" : "\\n\\x10woodkeep_ground2\\x10\\x01 \\x02",
+				},
+
+				"u7sub-sub-sub-sub-block " :  {
+
+					"u" : -22.458654403686523,
+					"v" : 74.9078369140625,
+					"w" : -35.0,
+					"x" : 44.91730880737305,
+					"y" : 25.184326171875,
+					"z" : 70.0,
+				},
+				"u8" : "S\\xab\\xb3A\\xd0\\xd0\\xc7B\\x00\\x00\\xf0\\xc1\\x9av\\x86;s\\xff\\x7f?\\x00\\x00\\x00\\x00\\x00\\x00\\x00?\\\\\\x8f\\xc2>S\\xab\\xb3A\\xd0\\xd0\\xc7B\\x00\\x00\\xf0A\\x9av\\x86;s\\xff\\x7f?\\x00\\x00\\x00\\x00\\x00\\x00\\x00?R\\xb8\\x1e?S\\xab\\xb3A\\xd0\\xd0\\xb3B\\x00\\x00\\x0cB\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\x1f\\x85\\xeb>\\n\\xd7#?S\\xab\\xb3A\\xd0\\xd0\\x95B\\xcd\\xcc\\xf0A\\x9av\\x86\\xbbs\\xff\\x7f\\xbf\\x00\\x00\\x00\\x80\\xcd\\xcc\\xcc>\\x89\\xd2\\x1e?S\\xab\\xb3A\\xd0\\xd0\\x95B33\\xef\\xc1\\x9av\\x86\\xbbs\\xff\\x7f\\xbf\\x00\\x00\\x00\\x80\\xcd\\xcc\\xcc>\\xca\\xc3\\xc2>S\\xab\\xb3A\\xd0\\xd0\\xb3B\\x00\\x00\\x0c\\xc2\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\x1f\\x85\\xeb>\\xecQ\\xb8>S\\xab\\xb3A\\xd0\\xd0\\xc7B\\x00\\x00\\xf0\\xc1\\x9av\\x86;s\\xff\\x7f?\\x00\\x00\\x00\\x00\\x00\\x00\\x00?\\\\\\x8f\\xc2>S\\xab\\xb3A\\xd0\\xd0\\xc7B\\x00\\x00\\xf0A\\x9av\\x86;s\\xff\\x7f?\\x00\\x00\\x00\\x00\\x00\\x00\\x00?R\\xb8\\x1e?S\\xab\\xb3A\\xd0\\xd0\\xb3B\\x00\\x00\\x0cB\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\x00\\x00\\x00?.+*?S\\xab\\xb3A\\xd0\\xd0\\x95B\\xcd\\xcc\\xf0A\\x9av\\x86\\xbbs\\xff\\x7f\\xbf\\x00\\x00\\x00\\x80\\x00\\x00\\x00?\\xd3S:?S\\xab\\xb3\\xc10/\\xc8B\\x00\\x00\\xf0\\xc1\\x9av\\x86;s\\xff\\x7f?\\x00\\x00\\x00\\x00\\n\\xda\'?\\\\\\x8f\\xc2>S\\xab\\xb3\\xc10/\\xc8B\\x00\\x00\\xf0A\\x9av\\x86;s\\xff\\x7f?\\x00\\x00\\x00\\x00\\n\\xda\'?R\\xb8\\x1e?S\\xab\\xb3\\xc10/\\xb4B\\x00\\x00\\x0cB\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\n\\xda\'?.+*?S\\xab\\xb3\\xc10/\\x96B\\xcd\\xcc\\xf0A\\x9av\\x86\\xbbs\\xff\\x7f\\xbf\\x00\\x00\\x00\\x80\\n\\xda\'?\\xd3S:?S\\xab\\xb3\\xc10/\\xc8B\\x00\\x00\\xf0\\xc1\\x9av\\x86;s\\xff\\x7f?\\x00\\x00\\x00\\x00\\n\\xda\'?\\\\\\x8f\\xc2>S\\xab\\xb3\\xc10/\\xc8B\\x00\\x00\\xf0A\\x9av\\x86;s\\xff\\x7f?\\x00\\x00\\x00\\x00\\n\\xda\'?R\\xb8\\x1e?S\\xab\\xb3\\xc10/\\xb4B\\x00\\x00\\x0cB\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?z\\x172?\\n\\xd7#?S\\xab\\xb3\\xc10/\\x96B\\xcd\\xcc\\xf0A\\x9av\\x86\\xbbs\\xff\\x7f\\xbf\\x00\\x00\\x00\\x80\\xa3sA?\\x89\\xd2\\x1e?S\\xab\\xb3\\xc10/\\x96B33\\xef\\xc1\\x9av\\x86\\xbbs\\xff\\x7f\\xbf\\x00\\x00\\x00\\x80\\xa3sA?\\xca\\xc3\\xc2>S\\xab\\xb3\\xc10/\\xb4B\\x00\\x00\\x0c\\xc2\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?z\\x172?\\xecQ\\xb8>",
+				"u9" : "\\x00\\x00\\x04\\x00\\x05\\x00\\x00\\x00\\x03\\x00\\x04\\x00\\x00\\x00\\x01\\x00\\x03\\x00\\x01\\x00\\x02\\x00\\x03\\x00\\x06\\x00\\n\\x00\\x0b\\x00\\x07\\x00\\x06\\x00\\x0b\\x00\\x07\\x00\\x0b\\x00\\x0c\\x00\\x08\\x00\\x07\\x00\\x0c\\x00\\x08\\x00\\x0c\\x00\\r\\x00\\t\\x00\\x08\\x00\\r\\x00\\x0e\\x00\\x13\\x00\\x12\\x00\\x0e\\x00\\x12\\x00\\x11\\x00\\x0e\\x00\\x11\\x00\\x0f\\x00\\x11\\x00\\x10\\x00\\x0f\\x00",
+			},
+
+			"u1sub-sub-sub-block " :  {
+
+				"u0" : 8,
+				"u1" : 6,
+
+				"u2sub-sub-sub-sub-block " :  {
+
+					"u0" : 4,
+					"u1" : 1,
+					"u2" : 2,
+					"u3" : 0,
+				},
+
+				"u3sub-sub-sub-sub-block " :  {
+
+					"u0" : 7,
+					"u1" : 3,
+					"u2" : 32,
+					"u3" : 0,
+				},
+
+				"u4sub-sub-sub-sub-block " :  {
+
+					"u0" : 7,
+					"u1" : 3,
+					"u2" : 32,
+					"u3" : 12,
+				},
+
+				"u5sub-sub-sub-sub-block " :  {
+
+					"u0" : 7,
+					"u1" : 2,
+					"u2" : 32,
+					"u3" : 24,
+				},
+
+				"u6sub-sub-sub-sub-block " :  {
+
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 1.0,
+						"x" : 1.0,
+						"y" : 1.0,
+						"z" : 1.0,
+					},
+
+					"u1sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 1.0,
+						"x" : 1.0,
+						"y" : 1.0,
+						"z" : 1.0,
+					},
+
+					"u2sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 1.0,
+						"x" : 1.0,
+						"y" : 1.0,
+						"z" : 1.0,
+					},
+					"u3" : 0.0,
+					"u4" : "\\n\\x10woodkeep_ground2\\x10\\x01 \\x02",
+				},
+
+				"u7sub-sub-sub-sub-block " :  {
+
+					"u" : -19.45867919921875,
+					"v" : -100.07984924316406,
+					"w" : -25.0,
+					"x" : 38.9173583984375,
+					"y" : 200.15969848632812,
+					"z" : 50.0,
+				},
+				"u8" : "`\\xab\\x9b\\xc1\\xe2(\\xc8B\\x00\\x00\\xc8\\xc1\\x00\\x00\\x80\\xbf\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x00?\\xcd\\xcc\\xcc>`\\xab\\x9b\\xc1\\xe2(\\xc8B\\x00\\x00\\xc8A\\x00\\x00\\x80\\xbf\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x00?\\x9a\\x99\\x19?`\\xab\\x9b\\xc1\\x1e\\xd7\\xc7\\xc2\\x00\\x00\\xc8\\xc1OK{\\xbf$pC\\xbe\\x00\\x00\\x00\\x00ff\\xa6?\\xcd\\xcc\\xcc>`\\xab\\x9b\\xc1\\x1e\\xd7\\xc7\\xc2\\x00\\x00\\xc8AOK{\\xbf$pC\\xbe\\x00\\x00\\x00\\x00ff\\xa6?\\x9a\\x99\\x19?`\\xab\\x9bA\\xe2(\\xc8\\xc2\\x00\\x00\\xc8\\xc1\\x8eG{?/\\xbdC\\xbe\\x00\\x00\\x00\\x00lS\\xba?\\xcd\\xcc\\xcc>`\\xab\\x9bA\\xe2(\\xc8\\xc2\\x00\\x00\\xc8A\\x8eG{?/\\xbdC\\xbe\\x00\\x00\\x00\\x00lS\\xba?\\x9a\\x99\\x19?`\\xab\\x9bA\\x1e\\xd7\\xc7B\\x00\\x00\\xc8\\xc1\\x00\\x00\\x80?\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\xe9\\\\\\x10@\\xcd\\xcc\\xcc>`\\xab\\x9bA\\x1e\\xd7\\xc7B\\x00\\x00\\xc8A\\x00\\x00\\x80?\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\xe9\\\\\\x10@\\x9a\\x99\\x19?",
+				"u9" : "\\x00\\x00\\x02\\x00\\x03\\x00\\x01\\x00\\x00\\x00\\x03\\x00\\x02\\x00\\x04\\x00\\x05\\x00\\x03\\x00\\x02\\x00\\x05\\x00\\x04\\x00\\x06\\x00\\x07\\x00\\x05\\x00\\x04\\x00\\x07\\x00",
+			},
+
+			"u2sub-sub-sub-block " :  {
+
+				"u0" : 6,
+				"u1" : 2,
+
+				"u2sub-sub-sub-sub-block " :  {
+
+					"u0" : 7,
+					"u1" : 3,
+					"u2" : 32,
+					"u3" : 0,
+				},
+
+				"u3sub-sub-sub-sub-block " :  {
+
+					"u0" : 7,
+					"u1" : 3,
+					"u2" : 32,
+					"u3" : 12,
+				},
+
+				"u4sub-sub-sub-sub-block " :  {
+
+					"u0" : 7,
+					"u1" : 2,
+					"u2" : 32,
+					"u3" : 24,
+				},
+
+				"u5sub-sub-sub-sub-block " :  {
+
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 1.0,
+						"x" : 1.0,
+						"y" : 1.0,
+						"z" : 1.0,
+					},
+
+					"u1sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 1.0,
+						"x" : 1.0,
+						"y" : 1.0,
+						"z" : 1.0,
+					},
+
+					"u2sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 1.0,
+						"x" : 1.0,
+						"y" : 1.0,
+						"z" : 1.0,
+					},
+					"u3" : 0.0,
+
+					"u4sub-sub-sub-sub-sub-block " :  {
+
+						"u0" : "woodkeep_ground2",
+						"u1" : 1,
+						"u2" : 2,
+					},
+				},
+
+				"u3sub-sub-sub-sub-block " :  {
+
+					"u" : -19.45867919921875,
+					"v" : -100.07984924316406,
+					"w" : 25.0,
+					"x" : 38.9173583984375,
+					"y" : 200.15969848632812,
+					"z" : 0.0,
+				},
+				"u7" : "`\\xab\\x9bA\\x1e\\xd7\\xc7B\\x00\\x00\\xc8A\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xfa\\xec\\x13?xQf?`\\xab\\x9b\\xc1\\x1e\\xd7\\xc7\\xc2\\x00\\x00\\xc8A\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\x0c&\\xd8>Bt\\xcd=`\\xab\\x9bA\\xe2(\\xc8\\xc2\\x00\\x00\\xc8A\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xfa\\xec\\x13?X%\\xcc=`\\xab\\x9bA\\x1e\\xd7\\xc7B\\x00\\x00\\xc8A\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xfa\\xec\\x13?xQf?`\\xab\\x9b\\xc1\\xe2(\\xc8B\\x00\\x00\\xc8A\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\x0c&\\xd8>U{f?`\\xab\\x9b\\xc1\\x1e\\xd7\\xc7\\xc2\\x00\\x00\\xc8A\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\x0c&\\xd8>Bt\\xcd=",
+			},
+
+			"u3sub-sub-sub-block " :  {
+
+				"w" : 1.0,
+				"x" : 1.0,
+				"y" : 1.0,
+				"z" : 1.0,
+			},
+		},
+	},
+
+	"componentsub-block " :  {
+
+		"component type" : "GroundMeshGenerator",
+		"number" : 102,
+
+		"ground mesh generatorsub-sub-block " :  {
+
+			"ground polygon" : 100,
+			"ground mesh" : 101,
+			"texture mapping 1" : 103,
+			"texture mapping 2" : 104,
+			"u4" : 0,
+			"u5" : 0.0,
+			"u6" : 1,
+			"u7" : 50.0,
+			"u8" : 25.0,
+			"u9" : 5.0,
+			"u10" : 5.0,
+		},
+	},
+
+	"componentsub-block " :  {
+
+		"component type" : "TextureMapping",
+		"number" : 103,
+
+		"texture mappingsub-sub-block " :  {
+
+			"texture file" : "woodkeep_ground2",
+			"u0" : 250.0,
+
+			"u0sub-sub-sub-block " :  {
+
+				"u1" : 0.0,
+				"u2" : 0.0,
+			},
+		},
+	},
+
+	"componentsub-block " :  {
+
+		"component type" : "TextureMapping",
+		"number" : 104,
+
+		"texture mappingsub-sub-block " :  {
+
+			"texture file" : "woodkeep_ground2",
+			"u0" : 250.0,
+
+			"u0sub-sub-sub-block " :  {
+
+				"u1" : 0.0,
+				"u2" : 0.0,
+			},
+		},
+	},
+
+	"componentsub-block " :  {
+
+		"component type" : "CollisionShape",
+		"number" : 105,
+		"? linked component" : 100,
+
+		"collision shapesub-sub-block " :  {
+
+
+			"u2sub-sub-sub-block " :  {
+
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"y" : -19.45867919921875,
+					"z" : -99.92015075683594,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"y" : 19.45867919921875,
+					"z" : -100.07984924316406,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"y" : 19.45867919921875,
+					"z" : 99.92015075683594,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"y" : -19.45867919921875,
+					"z" : 100.07984924316406,
+				},
+				"u3" : 0,
+				"u4" : 1,
+			},
+		},
+
+		"collision shape 2sub-sub-block " :  {
+
+			"u0" : 1,
+			"w" : -30.0,
+			"x" : 30.0,
+			"z" : 1,
+		},
+	},
+
+	"positionsub-block " :  {
+
+		"x position" : -3151.734375,
+		"y position" : 667.0728149414062,
+	},
+	"z position" : 85.1934814453125,
+	"rotation" : 0.0,
+	"scale" : 1.0,
+
+	"u2sub-block " :  {
+
+		"w" : -19.45867919921875,
+		"x" : -100.07984924316406,
+		"y" : 38.9173583984375,
+		"z" : 200.15969848632812,
+	},
+	"hidden" : 0,
+},
+
+"objectblock " :  {
+
+	"identifier" : "obj4#3",
+
+	"componentsub-block " :  {
+
+		"component type" : "GroundPolygon",
+		"number" : 100,
+
+		"ground polygonsub-sub-block " :  {
+
+
+			"sub-sub-sub-block " :  {
+
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"x" : -19.45867919921875,
+					"y" : -99.92015075683594,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"x" : 19.45867919921875,
+					"y" : -100.07984924316406,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"x" : 19.45867919921875,
+					"y" : 99.92015075683594,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"x" : -19.45867919921875,
+					"y" : 100.07984924316406,
+				},
+				"u0" : 0,
+				"u1" : 1,
+			},
+			"u1" : 1,
+			"u2" : -30.0,
+			"u3" : 30.0,
+			"u4" : "",
+		},
+	},
+
+	"componentsub-block " :  {
+
+		"component type" : "GroundMesh",
+		"number" : 101,
+
+		"ground meshsub-sub-block " :  {
+
+
+			"u0sub-sub-sub-block " :  {
+
+				"w" : -29.45867919921875,
+				"x" : -110.07984924316406,
+				"y" : 58.9173583984375,
+				"z" : 220.15969848632812,
+			},
+
+			"u1sub-sub-sub-block " :  {
+
+				"u0" : 20,
+				"u1" : 14,
+
+				"u2sub-sub-sub-sub-block " :  {
+
+					"u0" : 4,
+					"u1" : 1,
+					"u2" : 2,
+					"u3" : 0,
+				},
+
+				"u3sub-sub-sub-sub-block " :  {
+
+					"u0" : 7,
+					"u1" : 3,
+					"u2" : 32,
+					"u3" : 0,
+				},
+
+				"u4sub-sub-sub-sub-block " :  {
+
+					"u0" : 7,
+					"u1" : 3,
+					"u2" : 32,
+					"u3" : 12,
+				},
+
+				"u5sub-sub-sub-sub-block " :  {
+
+					"u0" : 7,
+					"u1" : 2,
+					"u2" : 32,
+					"u3" : 24,
+				},
+
+				"u6sub-sub-sub-sub-block " :  {
+
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 1.0,
+						"x" : 1.0,
+						"y" : 1.0,
+						"z" : 1.0,
+					},
+
+					"u1sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 1.0,
+						"x" : 1.0,
+						"y" : 1.0,
+						"z" : 1.0,
+					},
+
+					"u2sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 1.0,
+						"x" : 1.0,
+						"y" : 1.0,
+						"z" : 1.0,
+					},
+					"u3" : 0.0,
+					"u4" : "\\n\\x10woodkeep_ground2\\x10\\x01 \\x02",
+				},
+
+				"u7sub-sub-sub-sub-block " :  {
+
+					"u" : -22.458654403686523,
+					"v" : 74.9078369140625,
+					"w" : -35.0,
+					"x" : 44.91730880737305,
+					"y" : 25.184326171875,
+					"z" : 70.0,
+				},
+				"u8" : "S\\xab\\xb3A\\xd0\\xd0\\xc7B\\x00\\x00\\xf0\\xc1\\x9av\\x86;s\\xff\\x7f?\\x00\\x00\\x00\\x00\\x00\\x00\\x00?\\\\\\x8f\\xc2>S\\xab\\xb3A\\xd0\\xd0\\xc7B\\x00\\x00\\xf0A\\x9av\\x86;s\\xff\\x7f?\\x00\\x00\\x00\\x00\\x00\\x00\\x00?R\\xb8\\x1e?S\\xab\\xb3A\\xd0\\xd0\\xb3B\\x00\\x00\\x0cB\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\x1f\\x85\\xeb>\\n\\xd7#?S\\xab\\xb3A\\xd0\\xd0\\x95B\\xcd\\xcc\\xf0A\\x9av\\x86\\xbbs\\xff\\x7f\\xbf\\x00\\x00\\x00\\x80\\xcd\\xcc\\xcc>\\x89\\xd2\\x1e?S\\xab\\xb3A\\xd0\\xd0\\x95B33\\xef\\xc1\\x9av\\x86\\xbbs\\xff\\x7f\\xbf\\x00\\x00\\x00\\x80\\xcd\\xcc\\xcc>\\xca\\xc3\\xc2>S\\xab\\xb3A\\xd0\\xd0\\xb3B\\x00\\x00\\x0c\\xc2\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\x1f\\x85\\xeb>\\xecQ\\xb8>S\\xab\\xb3A\\xd0\\xd0\\xc7B\\x00\\x00\\xf0\\xc1\\x9av\\x86;s\\xff\\x7f?\\x00\\x00\\x00\\x00\\x00\\x00\\x00?\\\\\\x8f\\xc2>S\\xab\\xb3A\\xd0\\xd0\\xc7B\\x00\\x00\\xf0A\\x9av\\x86;s\\xff\\x7f?\\x00\\x00\\x00\\x00\\x00\\x00\\x00?R\\xb8\\x1e?S\\xab\\xb3A\\xd0\\xd0\\xb3B\\x00\\x00\\x0cB\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\x00\\x00\\x00?.+*?S\\xab\\xb3A\\xd0\\xd0\\x95B\\xcd\\xcc\\xf0A\\x9av\\x86\\xbbs\\xff\\x7f\\xbf\\x00\\x00\\x00\\x80\\x00\\x00\\x00?\\xd3S:?S\\xab\\xb3\\xc10/\\xc8B\\x00\\x00\\xf0\\xc1\\x9av\\x86;s\\xff\\x7f?\\x00\\x00\\x00\\x00\\n\\xda\'?\\\\\\x8f\\xc2>S\\xab\\xb3\\xc10/\\xc8B\\x00\\x00\\xf0A\\x9av\\x86;s\\xff\\x7f?\\x00\\x00\\x00\\x00\\n\\xda\'?R\\xb8\\x1e?S\\xab\\xb3\\xc10/\\xb4B\\x00\\x00\\x0cB\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\n\\xda\'?.+*?S\\xab\\xb3\\xc10/\\x96B\\xcd\\xcc\\xf0A\\x9av\\x86\\xbbs\\xff\\x7f\\xbf\\x00\\x00\\x00\\x80\\n\\xda\'?\\xd3S:?S\\xab\\xb3\\xc10/\\xc8B\\x00\\x00\\xf0\\xc1\\x9av\\x86;s\\xff\\x7f?\\x00\\x00\\x00\\x00\\n\\xda\'?\\\\\\x8f\\xc2>S\\xab\\xb3\\xc10/\\xc8B\\x00\\x00\\xf0A\\x9av\\x86;s\\xff\\x7f?\\x00\\x00\\x00\\x00\\n\\xda\'?R\\xb8\\x1e?S\\xab\\xb3\\xc10/\\xb4B\\x00\\x00\\x0cB\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?z\\x172?\\n\\xd7#?S\\xab\\xb3\\xc10/\\x96B\\xcd\\xcc\\xf0A\\x9av\\x86\\xbbs\\xff\\x7f\\xbf\\x00\\x00\\x00\\x80\\xa3sA?\\x89\\xd2\\x1e?S\\xab\\xb3\\xc10/\\x96B33\\xef\\xc1\\x9av\\x86\\xbbs\\xff\\x7f\\xbf\\x00\\x00\\x00\\x80\\xa3sA?\\xca\\xc3\\xc2>S\\xab\\xb3\\xc10/\\xb4B\\x00\\x00\\x0c\\xc2\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?z\\x172?\\xecQ\\xb8>",
+				"u9" : "\\x00\\x00\\x04\\x00\\x05\\x00\\x00\\x00\\x03\\x00\\x04\\x00\\x00\\x00\\x01\\x00\\x03\\x00\\x01\\x00\\x02\\x00\\x03\\x00\\x06\\x00\\n\\x00\\x0b\\x00\\x07\\x00\\x06\\x00\\x0b\\x00\\x07\\x00\\x0b\\x00\\x0c\\x00\\x08\\x00\\x07\\x00\\x0c\\x00\\x08\\x00\\x0c\\x00\\r\\x00\\t\\x00\\x08\\x00\\r\\x00\\x0e\\x00\\x13\\x00\\x12\\x00\\x0e\\x00\\x12\\x00\\x11\\x00\\x0e\\x00\\x11\\x00\\x0f\\x00\\x11\\x00\\x10\\x00\\x0f\\x00",
+			},
+
+			"u1sub-sub-sub-block " :  {
+
+				"u0" : 8,
+				"u1" : 6,
+
+				"u2sub-sub-sub-sub-block " :  {
+
+					"u0" : 4,
+					"u1" : 1,
+					"u2" : 2,
+					"u3" : 0,
+				},
+
+				"u3sub-sub-sub-sub-block " :  {
+
+					"u0" : 7,
+					"u1" : 3,
+					"u2" : 32,
+					"u3" : 0,
+				},
+
+				"u4sub-sub-sub-sub-block " :  {
+
+					"u0" : 7,
+					"u1" : 3,
+					"u2" : 32,
+					"u3" : 12,
+				},
+
+				"u5sub-sub-sub-sub-block " :  {
+
+					"u0" : 7,
+					"u1" : 2,
+					"u2" : 32,
+					"u3" : 24,
+				},
+
+				"u6sub-sub-sub-sub-block " :  {
+
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 1.0,
+						"x" : 1.0,
+						"y" : 1.0,
+						"z" : 1.0,
+					},
+
+					"u1sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 1.0,
+						"x" : 1.0,
+						"y" : 1.0,
+						"z" : 1.0,
+					},
+
+					"u2sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 1.0,
+						"x" : 1.0,
+						"y" : 1.0,
+						"z" : 1.0,
+					},
+					"u3" : 0.0,
+					"u4" : "\\n\\x10woodkeep_ground2\\x10\\x01 \\x02",
+				},
+
+				"u7sub-sub-sub-sub-block " :  {
+
+					"u" : -19.45867919921875,
+					"v" : -100.07984924316406,
+					"w" : -25.0,
+					"x" : 38.9173583984375,
+					"y" : 200.15969848632812,
+					"z" : 50.0,
+				},
+				"u8" : "`\\xab\\x9b\\xc1\\xe2(\\xc8B\\x00\\x00\\xc8\\xc1\\x00\\x00\\x80\\xbf\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x00?\\xcd\\xcc\\xcc>`\\xab\\x9b\\xc1\\xe2(\\xc8B\\x00\\x00\\xc8A\\x00\\x00\\x80\\xbf\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x00?\\x9a\\x99\\x19?`\\xab\\x9b\\xc1\\x1e\\xd7\\xc7\\xc2\\x00\\x00\\xc8\\xc1OK{\\xbf$pC\\xbe\\x00\\x00\\x00\\x00ff\\xa6?\\xcd\\xcc\\xcc>`\\xab\\x9b\\xc1\\x1e\\xd7\\xc7\\xc2\\x00\\x00\\xc8AOK{\\xbf$pC\\xbe\\x00\\x00\\x00\\x00ff\\xa6?\\x9a\\x99\\x19?`\\xab\\x9bA\\xe2(\\xc8\\xc2\\x00\\x00\\xc8\\xc1\\x8eG{?/\\xbdC\\xbe\\x00\\x00\\x00\\x00lS\\xba?\\xcd\\xcc\\xcc>`\\xab\\x9bA\\xe2(\\xc8\\xc2\\x00\\x00\\xc8A\\x8eG{?/\\xbdC\\xbe\\x00\\x00\\x00\\x00lS\\xba?\\x9a\\x99\\x19?`\\xab\\x9bA\\x1e\\xd7\\xc7B\\x00\\x00\\xc8\\xc1\\x00\\x00\\x80?\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\xe9\\\\\\x10@\\xcd\\xcc\\xcc>`\\xab\\x9bA\\x1e\\xd7\\xc7B\\x00\\x00\\xc8A\\x00\\x00\\x80?\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\xe9\\\\\\x10@\\x9a\\x99\\x19?",
+				"u9" : "\\x00\\x00\\x02\\x00\\x03\\x00\\x01\\x00\\x00\\x00\\x03\\x00\\x02\\x00\\x04\\x00\\x05\\x00\\x03\\x00\\x02\\x00\\x05\\x00\\x04\\x00\\x06\\x00\\x07\\x00\\x05\\x00\\x04\\x00\\x07\\x00",
+			},
+
+			"u2sub-sub-sub-block " :  {
+
+				"u0" : 6,
+				"u1" : 2,
+
+				"u2sub-sub-sub-sub-block " :  {
+
+					"u0" : 7,
+					"u1" : 3,
+					"u2" : 32,
+					"u3" : 0,
+				},
+
+				"u3sub-sub-sub-sub-block " :  {
+
+					"u0" : 7,
+					"u1" : 3,
+					"u2" : 32,
+					"u3" : 12,
+				},
+
+				"u4sub-sub-sub-sub-block " :  {
+
+					"u0" : 7,
+					"u1" : 2,
+					"u2" : 32,
+					"u3" : 24,
+				},
+
+				"u5sub-sub-sub-sub-block " :  {
+
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 1.0,
+						"x" : 1.0,
+						"y" : 1.0,
+						"z" : 1.0,
+					},
+
+					"u1sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 1.0,
+						"x" : 1.0,
+						"y" : 1.0,
+						"z" : 1.0,
+					},
+
+					"u2sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 1.0,
+						"x" : 1.0,
+						"y" : 1.0,
+						"z" : 1.0,
+					},
+					"u3" : 0.0,
+
+					"u4sub-sub-sub-sub-sub-block " :  {
+
+						"u0" : "woodkeep_ground2",
+						"u1" : 1,
+						"u2" : 2,
+					},
+				},
+
+				"u3sub-sub-sub-sub-block " :  {
+
+					"u" : -19.45867919921875,
+					"v" : -100.07984924316406,
+					"w" : 25.0,
+					"x" : 38.9173583984375,
+					"y" : 200.15969848632812,
+					"z" : 0.0,
+				},
+				"u7" : "`\\xab\\x9bA\\x1e\\xd7\\xc7B\\x00\\x00\\xc8A\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xfa\\xec\\x13?xQf?`\\xab\\x9b\\xc1\\x1e\\xd7\\xc7\\xc2\\x00\\x00\\xc8A\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\x0c&\\xd8>Bt\\xcd=`\\xab\\x9bA\\xe2(\\xc8\\xc2\\x00\\x00\\xc8A\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xfa\\xec\\x13?X%\\xcc=`\\xab\\x9bA\\x1e\\xd7\\xc7B\\x00\\x00\\xc8A\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xfa\\xec\\x13?xQf?`\\xab\\x9b\\xc1\\xe2(\\xc8B\\x00\\x00\\xc8A\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\x0c&\\xd8>U{f?`\\xab\\x9b\\xc1\\x1e\\xd7\\xc7\\xc2\\x00\\x00\\xc8A\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\x0c&\\xd8>Bt\\xcd=",
+			},
+
+			"u3sub-sub-sub-block " :  {
+
+				"w" : 1.0,
+				"x" : 1.0,
+				"y" : 1.0,
+				"z" : 1.0,
+			},
+		},
+	},
+
+	"componentsub-block " :  {
+
+		"component type" : "GroundMeshGenerator",
+		"number" : 102,
+
+		"ground mesh generatorsub-sub-block " :  {
+
+			"ground polygon" : 100,
+			"ground mesh" : 101,
+			"texture mapping 1" : 103,
+			"texture mapping 2" : 104,
+			"u4" : 0,
+			"u5" : 0.0,
+			"u6" : 1,
+			"u7" : 50.0,
+			"u8" : 25.0,
+			"u9" : 5.0,
+			"u10" : 5.0,
+		},
+	},
+
+	"componentsub-block " :  {
+
+		"component type" : "TextureMapping",
+		"number" : 103,
+
+		"texture mappingsub-sub-block " :  {
+
+			"texture file" : "woodkeep_ground2",
+			"u0" : 250.0,
+
+			"u0sub-sub-sub-block " :  {
+
+				"u1" : 0.0,
+				"u2" : 0.0,
+			},
+		},
+	},
+
+	"componentsub-block " :  {
+
+		"component type" : "TextureMapping",
+		"number" : 104,
+
+		"texture mappingsub-sub-block " :  {
+
+			"texture file" : "woodkeep_ground2",
+			"u0" : 250.0,
+
+			"u0sub-sub-sub-block " :  {
+
+				"u1" : 0.0,
+				"u2" : 0.0,
+			},
+		},
+	},
+
+	"componentsub-block " :  {
+
+		"component type" : "CollisionShape",
+		"number" : 105,
+		"? linked component" : 100,
+
+		"collision shapesub-sub-block " :  {
+
+
+			"u2sub-sub-sub-block " :  {
+
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"y" : -19.45867919921875,
+					"z" : -99.92015075683594,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"y" : 19.45867919921875,
+					"z" : -100.07984924316406,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"y" : 19.45867919921875,
+					"z" : 99.92015075683594,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"y" : -19.45867919921875,
+					"z" : 100.07984924316406,
+				},
+				"u3" : 0,
+				"u4" : 1,
+			},
+		},
+
+		"collision shape 2sub-sub-block " :  {
+
+			"u0" : 1,
+			"w" : -30.0,
+			"x" : 30.0,
+			"z" : 1,
+		},
+	},
+
+	"positionsub-block " :  {
+
+		"x position" : -2710.414306640625,
+		"y position" : 654.474365234375,
+	},
+	"z position" : 85.1934814453125,
+	"rotation" : 0.0,
+	"scale" : 1.0,
+
+	"u2sub-block " :  {
+
+		"w" : -19.45867919921875,
+		"x" : -100.07984924316406,
+		"y" : 38.9173583984375,
+		"z" : 200.15969848632812,
+	},
+	"hidden" : 0,
+},
+
+"objectblock " :  {
+
+	"identifier" : "obj4#4",
+
+	"componentsub-block " :  {
+
+		"component type" : "GroundPolygon",
+		"number" : 100,
+
+		"ground polygonsub-sub-block " :  {
+
+
+			"sub-sub-sub-block " :  {
+
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"x" : -19.45867919921875,
+					"y" : -99.92015075683594,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"x" : 19.45867919921875,
+					"y" : -100.07984924316406,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"x" : 19.45867919921875,
+					"y" : 99.92015075683594,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"x" : -19.45867919921875,
+					"y" : 100.07984924316406,
+				},
+				"u0" : 0,
+				"u1" : 1,
+			},
+			"u1" : 1,
+			"u2" : -30.0,
+			"u3" : 30.0,
+			"u4" : "",
+		},
+	},
+
+	"componentsub-block " :  {
+
+		"component type" : "GroundMesh",
+		"number" : 101,
+
+		"ground meshsub-sub-block " :  {
+
+
+			"u0sub-sub-sub-block " :  {
+
+				"w" : -29.45867919921875,
+				"x" : -110.07984924316406,
+				"y" : 58.9173583984375,
+				"z" : 220.15969848632812,
+			},
+
+			"u1sub-sub-sub-block " :  {
+
+				"u0" : 20,
+				"u1" : 14,
+
+				"u2sub-sub-sub-sub-block " :  {
+
+					"u0" : 4,
+					"u1" : 1,
+					"u2" : 2,
+					"u3" : 0,
+				},
+
+				"u3sub-sub-sub-sub-block " :  {
+
+					"u0" : 7,
+					"u1" : 3,
+					"u2" : 32,
+					"u3" : 0,
+				},
+
+				"u4sub-sub-sub-sub-block " :  {
+
+					"u0" : 7,
+					"u1" : 3,
+					"u2" : 32,
+					"u3" : 12,
+				},
+
+				"u5sub-sub-sub-sub-block " :  {
+
+					"u0" : 7,
+					"u1" : 2,
+					"u2" : 32,
+					"u3" : 24,
+				},
+
+				"u6sub-sub-sub-sub-block " :  {
+
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 1.0,
+						"x" : 1.0,
+						"y" : 1.0,
+						"z" : 1.0,
+					},
+
+					"u1sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 1.0,
+						"x" : 1.0,
+						"y" : 1.0,
+						"z" : 1.0,
+					},
+
+					"u2sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 1.0,
+						"x" : 1.0,
+						"y" : 1.0,
+						"z" : 1.0,
+					},
+					"u3" : 0.0,
+					"u4" : "\\n\\x10woodkeep_ground2\\x10\\x01 \\x02",
+				},
+
+				"u7sub-sub-sub-sub-block " :  {
+
+					"u" : -22.458654403686523,
+					"v" : 74.9078369140625,
+					"w" : -35.0,
+					"x" : 44.91730880737305,
+					"y" : 25.184326171875,
+					"z" : 70.0,
+				},
+				"u8" : "S\\xab\\xb3A\\xd0\\xd0\\xc7B\\x00\\x00\\xf0\\xc1\\x9av\\x86;s\\xff\\x7f?\\x00\\x00\\x00\\x00\\x00\\x00\\x00?\\\\\\x8f\\xc2>S\\xab\\xb3A\\xd0\\xd0\\xc7B\\x00\\x00\\xf0A\\x9av\\x86;s\\xff\\x7f?\\x00\\x00\\x00\\x00\\x00\\x00\\x00?R\\xb8\\x1e?S\\xab\\xb3A\\xd0\\xd0\\xb3B\\x00\\x00\\x0cB\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\x1f\\x85\\xeb>\\n\\xd7#?S\\xab\\xb3A\\xd0\\xd0\\x95B\\xcd\\xcc\\xf0A\\x9av\\x86\\xbbs\\xff\\x7f\\xbf\\x00\\x00\\x00\\x80\\xcd\\xcc\\xcc>\\x89\\xd2\\x1e?S\\xab\\xb3A\\xd0\\xd0\\x95B33\\xef\\xc1\\x9av\\x86\\xbbs\\xff\\x7f\\xbf\\x00\\x00\\x00\\x80\\xcd\\xcc\\xcc>\\xca\\xc3\\xc2>S\\xab\\xb3A\\xd0\\xd0\\xb3B\\x00\\x00\\x0c\\xc2\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\x1f\\x85\\xeb>\\xecQ\\xb8>S\\xab\\xb3A\\xd0\\xd0\\xc7B\\x00\\x00\\xf0\\xc1\\x9av\\x86;s\\xff\\x7f?\\x00\\x00\\x00\\x00\\x00\\x00\\x00?\\\\\\x8f\\xc2>S\\xab\\xb3A\\xd0\\xd0\\xc7B\\x00\\x00\\xf0A\\x9av\\x86;s\\xff\\x7f?\\x00\\x00\\x00\\x00\\x00\\x00\\x00?R\\xb8\\x1e?S\\xab\\xb3A\\xd0\\xd0\\xb3B\\x00\\x00\\x0cB\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\x00\\x00\\x00?.+*?S\\xab\\xb3A\\xd0\\xd0\\x95B\\xcd\\xcc\\xf0A\\x9av\\x86\\xbbs\\xff\\x7f\\xbf\\x00\\x00\\x00\\x80\\x00\\x00\\x00?\\xd3S:?S\\xab\\xb3\\xc10/\\xc8B\\x00\\x00\\xf0\\xc1\\x9av\\x86;s\\xff\\x7f?\\x00\\x00\\x00\\x00\\n\\xda\'?\\\\\\x8f\\xc2>S\\xab\\xb3\\xc10/\\xc8B\\x00\\x00\\xf0A\\x9av\\x86;s\\xff\\x7f?\\x00\\x00\\x00\\x00\\n\\xda\'?R\\xb8\\x1e?S\\xab\\xb3\\xc10/\\xb4B\\x00\\x00\\x0cB\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\n\\xda\'?.+*?S\\xab\\xb3\\xc10/\\x96B\\xcd\\xcc\\xf0A\\x9av\\x86\\xbbs\\xff\\x7f\\xbf\\x00\\x00\\x00\\x80\\n\\xda\'?\\xd3S:?S\\xab\\xb3\\xc10/\\xc8B\\x00\\x00\\xf0\\xc1\\x9av\\x86;s\\xff\\x7f?\\x00\\x00\\x00\\x00\\n\\xda\'?\\\\\\x8f\\xc2>S\\xab\\xb3\\xc10/\\xc8B\\x00\\x00\\xf0A\\x9av\\x86;s\\xff\\x7f?\\x00\\x00\\x00\\x00\\n\\xda\'?R\\xb8\\x1e?S\\xab\\xb3\\xc10/\\xb4B\\x00\\x00\\x0cB\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?z\\x172?\\n\\xd7#?S\\xab\\xb3\\xc10/\\x96B\\xcd\\xcc\\xf0A\\x9av\\x86\\xbbs\\xff\\x7f\\xbf\\x00\\x00\\x00\\x80\\xa3sA?\\x89\\xd2\\x1e?S\\xab\\xb3\\xc10/\\x96B33\\xef\\xc1\\x9av\\x86\\xbbs\\xff\\x7f\\xbf\\x00\\x00\\x00\\x80\\xa3sA?\\xca\\xc3\\xc2>S\\xab\\xb3\\xc10/\\xb4B\\x00\\x00\\x0c\\xc2\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?z\\x172?\\xecQ\\xb8>",
+				"u9" : "\\x00\\x00\\x04\\x00\\x05\\x00\\x00\\x00\\x03\\x00\\x04\\x00\\x00\\x00\\x01\\x00\\x03\\x00\\x01\\x00\\x02\\x00\\x03\\x00\\x06\\x00\\n\\x00\\x0b\\x00\\x07\\x00\\x06\\x00\\x0b\\x00\\x07\\x00\\x0b\\x00\\x0c\\x00\\x08\\x00\\x07\\x00\\x0c\\x00\\x08\\x00\\x0c\\x00\\r\\x00\\t\\x00\\x08\\x00\\r\\x00\\x0e\\x00\\x13\\x00\\x12\\x00\\x0e\\x00\\x12\\x00\\x11\\x00\\x0e\\x00\\x11\\x00\\x0f\\x00\\x11\\x00\\x10\\x00\\x0f\\x00",
+			},
+
+			"u1sub-sub-sub-block " :  {
+
+				"u0" : 8,
+				"u1" : 6,
+
+				"u2sub-sub-sub-sub-block " :  {
+
+					"u0" : 4,
+					"u1" : 1,
+					"u2" : 2,
+					"u3" : 0,
+				},
+
+				"u3sub-sub-sub-sub-block " :  {
+
+					"u0" : 7,
+					"u1" : 3,
+					"u2" : 32,
+					"u3" : 0,
+				},
+
+				"u4sub-sub-sub-sub-block " :  {
+
+					"u0" : 7,
+					"u1" : 3,
+					"u2" : 32,
+					"u3" : 12,
+				},
+
+				"u5sub-sub-sub-sub-block " :  {
+
+					"u0" : 7,
+					"u1" : 2,
+					"u2" : 32,
+					"u3" : 24,
+				},
+
+				"u6sub-sub-sub-sub-block " :  {
+
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 1.0,
+						"x" : 1.0,
+						"y" : 1.0,
+						"z" : 1.0,
+					},
+
+					"u1sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 1.0,
+						"x" : 1.0,
+						"y" : 1.0,
+						"z" : 1.0,
+					},
+
+					"u2sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 1.0,
+						"x" : 1.0,
+						"y" : 1.0,
+						"z" : 1.0,
+					},
+					"u3" : 0.0,
+					"u4" : "\\n\\x10woodkeep_ground2\\x10\\x01 \\x02",
+				},
+
+				"u7sub-sub-sub-sub-block " :  {
+
+					"u" : -19.45867919921875,
+					"v" : -100.07984924316406,
+					"w" : -25.0,
+					"x" : 38.9173583984375,
+					"y" : 200.15969848632812,
+					"z" : 50.0,
+				},
+				"u8" : "`\\xab\\x9b\\xc1\\xe2(\\xc8B\\x00\\x00\\xc8\\xc1\\x00\\x00\\x80\\xbf\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x00?\\xcd\\xcc\\xcc>`\\xab\\x9b\\xc1\\xe2(\\xc8B\\x00\\x00\\xc8A\\x00\\x00\\x80\\xbf\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x00?\\x9a\\x99\\x19?`\\xab\\x9b\\xc1\\x1e\\xd7\\xc7\\xc2\\x00\\x00\\xc8\\xc1OK{\\xbf$pC\\xbe\\x00\\x00\\x00\\x00ff\\xa6?\\xcd\\xcc\\xcc>`\\xab\\x9b\\xc1\\x1e\\xd7\\xc7\\xc2\\x00\\x00\\xc8AOK{\\xbf$pC\\xbe\\x00\\x00\\x00\\x00ff\\xa6?\\x9a\\x99\\x19?`\\xab\\x9bA\\xe2(\\xc8\\xc2\\x00\\x00\\xc8\\xc1\\x8eG{?/\\xbdC\\xbe\\x00\\x00\\x00\\x00lS\\xba?\\xcd\\xcc\\xcc>`\\xab\\x9bA\\xe2(\\xc8\\xc2\\x00\\x00\\xc8A\\x8eG{?/\\xbdC\\xbe\\x00\\x00\\x00\\x00lS\\xba?\\x9a\\x99\\x19?`\\xab\\x9bA\\x1e\\xd7\\xc7B\\x00\\x00\\xc8\\xc1\\x00\\x00\\x80?\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\xe9\\\\\\x10@\\xcd\\xcc\\xcc>`\\xab\\x9bA\\x1e\\xd7\\xc7B\\x00\\x00\\xc8A\\x00\\x00\\x80?\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\xe9\\\\\\x10@\\x9a\\x99\\x19?",
+				"u9" : "\\x00\\x00\\x02\\x00\\x03\\x00\\x01\\x00\\x00\\x00\\x03\\x00\\x02\\x00\\x04\\x00\\x05\\x00\\x03\\x00\\x02\\x00\\x05\\x00\\x04\\x00\\x06\\x00\\x07\\x00\\x05\\x00\\x04\\x00\\x07\\x00",
+			},
+
+			"u2sub-sub-sub-block " :  {
+
+				"u0" : 6,
+				"u1" : 2,
+
+				"u2sub-sub-sub-sub-block " :  {
+
+					"u0" : 7,
+					"u1" : 3,
+					"u2" : 32,
+					"u3" : 0,
+				},
+
+				"u3sub-sub-sub-sub-block " :  {
+
+					"u0" : 7,
+					"u1" : 3,
+					"u2" : 32,
+					"u3" : 12,
+				},
+
+				"u4sub-sub-sub-sub-block " :  {
+
+					"u0" : 7,
+					"u1" : 2,
+					"u2" : 32,
+					"u3" : 24,
+				},
+
+				"u5sub-sub-sub-sub-block " :  {
+
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 1.0,
+						"x" : 1.0,
+						"y" : 1.0,
+						"z" : 1.0,
+					},
+
+					"u1sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 1.0,
+						"x" : 1.0,
+						"y" : 1.0,
+						"z" : 1.0,
+					},
+
+					"u2sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 1.0,
+						"x" : 1.0,
+						"y" : 1.0,
+						"z" : 1.0,
+					},
+					"u3" : 0.0,
+
+					"u4sub-sub-sub-sub-sub-block " :  {
+
+						"u0" : "woodkeep_ground2",
+						"u1" : 1,
+						"u2" : 2,
+					},
+				},
+
+				"u3sub-sub-sub-sub-block " :  {
+
+					"u" : -19.45867919921875,
+					"v" : -100.07984924316406,
+					"w" : 25.0,
+					"x" : 38.9173583984375,
+					"y" : 200.15969848632812,
+					"z" : 0.0,
+				},
+				"u7" : "`\\xab\\x9bA\\x1e\\xd7\\xc7B\\x00\\x00\\xc8A\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xfa\\xec\\x13?xQf?`\\xab\\x9b\\xc1\\x1e\\xd7\\xc7\\xc2\\x00\\x00\\xc8A\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\x0c&\\xd8>Bt\\xcd=`\\xab\\x9bA\\xe2(\\xc8\\xc2\\x00\\x00\\xc8A\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xfa\\xec\\x13?X%\\xcc=`\\xab\\x9bA\\x1e\\xd7\\xc7B\\x00\\x00\\xc8A\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xfa\\xec\\x13?xQf?`\\xab\\x9b\\xc1\\xe2(\\xc8B\\x00\\x00\\xc8A\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\x0c&\\xd8>U{f?`\\xab\\x9b\\xc1\\x1e\\xd7\\xc7\\xc2\\x00\\x00\\xc8A\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\x0c&\\xd8>Bt\\xcd=",
+			},
+
+			"u3sub-sub-sub-block " :  {
+
+				"w" : 1.0,
+				"x" : 1.0,
+				"y" : 1.0,
+				"z" : 1.0,
+			},
+		},
+	},
+
+	"componentsub-block " :  {
+
+		"component type" : "GroundMeshGenerator",
+		"number" : 102,
+
+		"ground mesh generatorsub-sub-block " :  {
+
+			"ground polygon" : 100,
+			"ground mesh" : 101,
+			"texture mapping 1" : 103,
+			"texture mapping 2" : 104,
+			"u4" : 0,
+			"u5" : 0.0,
+			"u6" : 1,
+			"u7" : 50.0,
+			"u8" : 25.0,
+			"u9" : 5.0,
+			"u10" : 5.0,
+		},
+	},
+
+	"componentsub-block " :  {
+
+		"component type" : "TextureMapping",
+		"number" : 103,
+
+		"texture mappingsub-sub-block " :  {
+
+			"texture file" : "woodkeep_ground2",
+			"u0" : 250.0,
+
+			"u0sub-sub-sub-block " :  {
+
+				"u1" : 0.0,
+				"u2" : 0.0,
+			},
+		},
+	},
+
+	"componentsub-block " :  {
+
+		"component type" : "TextureMapping",
+		"number" : 104,
+
+		"texture mappingsub-sub-block " :  {
+
+			"texture file" : "woodkeep_ground2",
+			"u0" : 250.0,
+
+			"u0sub-sub-sub-block " :  {
+
+				"u1" : 0.0,
+				"u2" : 0.0,
+			},
+		},
+	},
+
+	"componentsub-block " :  {
+
+		"component type" : "CollisionShape",
+		"number" : 105,
+		"? linked component" : 100,
+
+		"collision shapesub-sub-block " :  {
+
+
+			"u2sub-sub-sub-block " :  {
+
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"y" : -19.45867919921875,
+					"z" : -99.92015075683594,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"y" : 19.45867919921875,
+					"z" : -100.07984924316406,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"y" : 19.45867919921875,
+					"z" : 99.92015075683594,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"y" : -19.45867919921875,
+					"z" : 100.07984924316406,
+				},
+				"u3" : 0,
+				"u4" : 1,
+			},
+		},
+
+		"collision shape 2sub-sub-block " :  {
+
+			"u0" : 1,
+			"w" : -30.0,
+			"x" : 30.0,
+			"z" : 1,
+		},
+	},
+
+	"positionsub-block " :  {
+
+		"x position" : -1887.537841796875,
+		"y position" : 645.2520141601562,
+	},
+	"z position" : 85.1934814453125,
+	"rotation" : 0.0,
+	"scale" : 1.0,
+
+	"u2sub-block " :  {
+
+		"w" : -19.45867919921875,
+		"x" : -100.07984924316406,
+		"y" : 38.9173583984375,
+		"z" : 200.15969848632812,
+	},
+	"hidden" : 0,
+},
+
+"objectblock " :  {
+
+	"identifier" : "obj4#5",
+
+	"componentsub-block " :  {
+
+		"component type" : "GroundPolygon",
+		"number" : 100,
+
+		"ground polygonsub-sub-block " :  {
+
+
+			"sub-sub-sub-block " :  {
+
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"x" : -19.45867919921875,
+					"y" : -99.92015075683594,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"x" : 19.45867919921875,
+					"y" : -100.07984924316406,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"x" : 19.45867919921875,
+					"y" : 99.92015075683594,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"x" : -19.45867919921875,
+					"y" : 100.07984924316406,
+				},
+				"u0" : 0,
+				"u1" : 1,
+			},
+			"u1" : 1,
+			"u2" : -30.0,
+			"u3" : 30.0,
+			"u4" : "",
+		},
+	},
+
+	"componentsub-block " :  {
+
+		"component type" : "GroundMesh",
+		"number" : 101,
+
+		"ground meshsub-sub-block " :  {
+
+
+			"u0sub-sub-sub-block " :  {
+
+				"w" : -29.45867919921875,
+				"x" : -110.07984924316406,
+				"y" : 58.9173583984375,
+				"z" : 220.15969848632812,
+			},
+
+			"u1sub-sub-sub-block " :  {
+
+				"u0" : 20,
+				"u1" : 14,
+
+				"u2sub-sub-sub-sub-block " :  {
+
+					"u0" : 4,
+					"u1" : 1,
+					"u2" : 2,
+					"u3" : 0,
+				},
+
+				"u3sub-sub-sub-sub-block " :  {
+
+					"u0" : 7,
+					"u1" : 3,
+					"u2" : 32,
+					"u3" : 0,
+				},
+
+				"u4sub-sub-sub-sub-block " :  {
+
+					"u0" : 7,
+					"u1" : 3,
+					"u2" : 32,
+					"u3" : 12,
+				},
+
+				"u5sub-sub-sub-sub-block " :  {
+
+					"u0" : 7,
+					"u1" : 2,
+					"u2" : 32,
+					"u3" : 24,
+				},
+
+				"u6sub-sub-sub-sub-block " :  {
+
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 1.0,
+						"x" : 1.0,
+						"y" : 1.0,
+						"z" : 1.0,
+					},
+
+					"u1sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 1.0,
+						"x" : 1.0,
+						"y" : 1.0,
+						"z" : 1.0,
+					},
+
+					"u2sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 1.0,
+						"x" : 1.0,
+						"y" : 1.0,
+						"z" : 1.0,
+					},
+					"u3" : 0.0,
+					"u4" : "\\n\\x10woodkeep_ground2\\x10\\x01 \\x02",
+				},
+
+				"u7sub-sub-sub-sub-block " :  {
+
+					"u" : -22.458654403686523,
+					"v" : 74.9078369140625,
+					"w" : -35.0,
+					"x" : 44.91730880737305,
+					"y" : 25.184326171875,
+					"z" : 70.0,
+				},
+				"u8" : "S\\xab\\xb3A\\xd0\\xd0\\xc7B\\x00\\x00\\xf0\\xc1\\x9av\\x86;s\\xff\\x7f?\\x00\\x00\\x00\\x00\\x00\\x00\\x00?\\\\\\x8f\\xc2>S\\xab\\xb3A\\xd0\\xd0\\xc7B\\x00\\x00\\xf0A\\x9av\\x86;s\\xff\\x7f?\\x00\\x00\\x00\\x00\\x00\\x00\\x00?R\\xb8\\x1e?S\\xab\\xb3A\\xd0\\xd0\\xb3B\\x00\\x00\\x0cB\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\x1f\\x85\\xeb>\\n\\xd7#?S\\xab\\xb3A\\xd0\\xd0\\x95B\\xcd\\xcc\\xf0A\\x9av\\x86\\xbbs\\xff\\x7f\\xbf\\x00\\x00\\x00\\x80\\xcd\\xcc\\xcc>\\x89\\xd2\\x1e?S\\xab\\xb3A\\xd0\\xd0\\x95B33\\xef\\xc1\\x9av\\x86\\xbbs\\xff\\x7f\\xbf\\x00\\x00\\x00\\x80\\xcd\\xcc\\xcc>\\xca\\xc3\\xc2>S\\xab\\xb3A\\xd0\\xd0\\xb3B\\x00\\x00\\x0c\\xc2\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\x1f\\x85\\xeb>\\xecQ\\xb8>S\\xab\\xb3A\\xd0\\xd0\\xc7B\\x00\\x00\\xf0\\xc1\\x9av\\x86;s\\xff\\x7f?\\x00\\x00\\x00\\x00\\x00\\x00\\x00?\\\\\\x8f\\xc2>S\\xab\\xb3A\\xd0\\xd0\\xc7B\\x00\\x00\\xf0A\\x9av\\x86;s\\xff\\x7f?\\x00\\x00\\x00\\x00\\x00\\x00\\x00?R\\xb8\\x1e?S\\xab\\xb3A\\xd0\\xd0\\xb3B\\x00\\x00\\x0cB\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\x00\\x00\\x00?.+*?S\\xab\\xb3A\\xd0\\xd0\\x95B\\xcd\\xcc\\xf0A\\x9av\\x86\\xbbs\\xff\\x7f\\xbf\\x00\\x00\\x00\\x80\\x00\\x00\\x00?\\xd3S:?S\\xab\\xb3\\xc10/\\xc8B\\x00\\x00\\xf0\\xc1\\x9av\\x86;s\\xff\\x7f?\\x00\\x00\\x00\\x00\\n\\xda\'?\\\\\\x8f\\xc2>S\\xab\\xb3\\xc10/\\xc8B\\x00\\x00\\xf0A\\x9av\\x86;s\\xff\\x7f?\\x00\\x00\\x00\\x00\\n\\xda\'?R\\xb8\\x1e?S\\xab\\xb3\\xc10/\\xb4B\\x00\\x00\\x0cB\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\n\\xda\'?.+*?S\\xab\\xb3\\xc10/\\x96B\\xcd\\xcc\\xf0A\\x9av\\x86\\xbbs\\xff\\x7f\\xbf\\x00\\x00\\x00\\x80\\n\\xda\'?\\xd3S:?S\\xab\\xb3\\xc10/\\xc8B\\x00\\x00\\xf0\\xc1\\x9av\\x86;s\\xff\\x7f?\\x00\\x00\\x00\\x00\\n\\xda\'?\\\\\\x8f\\xc2>S\\xab\\xb3\\xc10/\\xc8B\\x00\\x00\\xf0A\\x9av\\x86;s\\xff\\x7f?\\x00\\x00\\x00\\x00\\n\\xda\'?R\\xb8\\x1e?S\\xab\\xb3\\xc10/\\xb4B\\x00\\x00\\x0cB\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?z\\x172?\\n\\xd7#?S\\xab\\xb3\\xc10/\\x96B\\xcd\\xcc\\xf0A\\x9av\\x86\\xbbs\\xff\\x7f\\xbf\\x00\\x00\\x00\\x80\\xa3sA?\\x89\\xd2\\x1e?S\\xab\\xb3\\xc10/\\x96B33\\xef\\xc1\\x9av\\x86\\xbbs\\xff\\x7f\\xbf\\x00\\x00\\x00\\x80\\xa3sA?\\xca\\xc3\\xc2>S\\xab\\xb3\\xc10/\\xb4B\\x00\\x00\\x0c\\xc2\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?z\\x172?\\xecQ\\xb8>",
+				"u9" : "\\x00\\x00\\x04\\x00\\x05\\x00\\x00\\x00\\x03\\x00\\x04\\x00\\x00\\x00\\x01\\x00\\x03\\x00\\x01\\x00\\x02\\x00\\x03\\x00\\x06\\x00\\n\\x00\\x0b\\x00\\x07\\x00\\x06\\x00\\x0b\\x00\\x07\\x00\\x0b\\x00\\x0c\\x00\\x08\\x00\\x07\\x00\\x0c\\x00\\x08\\x00\\x0c\\x00\\r\\x00\\t\\x00\\x08\\x00\\r\\x00\\x0e\\x00\\x13\\x00\\x12\\x00\\x0e\\x00\\x12\\x00\\x11\\x00\\x0e\\x00\\x11\\x00\\x0f\\x00\\x11\\x00\\x10\\x00\\x0f\\x00",
+			},
+
+			"u1sub-sub-sub-block " :  {
+
+				"u0" : 8,
+				"u1" : 6,
+
+				"u2sub-sub-sub-sub-block " :  {
+
+					"u0" : 4,
+					"u1" : 1,
+					"u2" : 2,
+					"u3" : 0,
+				},
+
+				"u3sub-sub-sub-sub-block " :  {
+
+					"u0" : 7,
+					"u1" : 3,
+					"u2" : 32,
+					"u3" : 0,
+				},
+
+				"u4sub-sub-sub-sub-block " :  {
+
+					"u0" : 7,
+					"u1" : 3,
+					"u2" : 32,
+					"u3" : 12,
+				},
+
+				"u5sub-sub-sub-sub-block " :  {
+
+					"u0" : 7,
+					"u1" : 2,
+					"u2" : 32,
+					"u3" : 24,
+				},
+
+				"u6sub-sub-sub-sub-block " :  {
+
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 1.0,
+						"x" : 1.0,
+						"y" : 1.0,
+						"z" : 1.0,
+					},
+
+					"u1sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 1.0,
+						"x" : 1.0,
+						"y" : 1.0,
+						"z" : 1.0,
+					},
+
+					"u2sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 1.0,
+						"x" : 1.0,
+						"y" : 1.0,
+						"z" : 1.0,
+					},
+					"u3" : 0.0,
+					"u4" : "\\n\\x10woodkeep_ground2\\x10\\x01 \\x02",
+				},
+
+				"u7sub-sub-sub-sub-block " :  {
+
+					"u" : -19.45867919921875,
+					"v" : -100.07984924316406,
+					"w" : -25.0,
+					"x" : 38.9173583984375,
+					"y" : 200.15969848632812,
+					"z" : 50.0,
+				},
+				"u8" : "`\\xab\\x9b\\xc1\\xe2(\\xc8B\\x00\\x00\\xc8\\xc1\\x00\\x00\\x80\\xbf\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x00?\\xcd\\xcc\\xcc>`\\xab\\x9b\\xc1\\xe2(\\xc8B\\x00\\x00\\xc8A\\x00\\x00\\x80\\xbf\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x00?\\x9a\\x99\\x19?`\\xab\\x9b\\xc1\\x1e\\xd7\\xc7\\xc2\\x00\\x00\\xc8\\xc1OK{\\xbf$pC\\xbe\\x00\\x00\\x00\\x00ff\\xa6?\\xcd\\xcc\\xcc>`\\xab\\x9b\\xc1\\x1e\\xd7\\xc7\\xc2\\x00\\x00\\xc8AOK{\\xbf$pC\\xbe\\x00\\x00\\x00\\x00ff\\xa6?\\x9a\\x99\\x19?`\\xab\\x9bA\\xe2(\\xc8\\xc2\\x00\\x00\\xc8\\xc1\\x8eG{?/\\xbdC\\xbe\\x00\\x00\\x00\\x00lS\\xba?\\xcd\\xcc\\xcc>`\\xab\\x9bA\\xe2(\\xc8\\xc2\\x00\\x00\\xc8A\\x8eG{?/\\xbdC\\xbe\\x00\\x00\\x00\\x00lS\\xba?\\x9a\\x99\\x19?`\\xab\\x9bA\\x1e\\xd7\\xc7B\\x00\\x00\\xc8\\xc1\\x00\\x00\\x80?\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\xe9\\\\\\x10@\\xcd\\xcc\\xcc>`\\xab\\x9bA\\x1e\\xd7\\xc7B\\x00\\x00\\xc8A\\x00\\x00\\x80?\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\xe9\\\\\\x10@\\x9a\\x99\\x19?",
+				"u9" : "\\x00\\x00\\x02\\x00\\x03\\x00\\x01\\x00\\x00\\x00\\x03\\x00\\x02\\x00\\x04\\x00\\x05\\x00\\x03\\x00\\x02\\x00\\x05\\x00\\x04\\x00\\x06\\x00\\x07\\x00\\x05\\x00\\x04\\x00\\x07\\x00",
+			},
+
+			"u2sub-sub-sub-block " :  {
+
+				"u0" : 6,
+				"u1" : 2,
+
+				"u2sub-sub-sub-sub-block " :  {
+
+					"u0" : 7,
+					"u1" : 3,
+					"u2" : 32,
+					"u3" : 0,
+				},
+
+				"u3sub-sub-sub-sub-block " :  {
+
+					"u0" : 7,
+					"u1" : 3,
+					"u2" : 32,
+					"u3" : 12,
+				},
+
+				"u4sub-sub-sub-sub-block " :  {
+
+					"u0" : 7,
+					"u1" : 2,
+					"u2" : 32,
+					"u3" : 24,
+				},
+
+				"u5sub-sub-sub-sub-block " :  {
+
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 1.0,
+						"x" : 1.0,
+						"y" : 1.0,
+						"z" : 1.0,
+					},
+
+					"u1sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 1.0,
+						"x" : 1.0,
+						"y" : 1.0,
+						"z" : 1.0,
+					},
+
+					"u2sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 1.0,
+						"x" : 1.0,
+						"y" : 1.0,
+						"z" : 1.0,
+					},
+					"u3" : 0.0,
+
+					"u4sub-sub-sub-sub-sub-block " :  {
+
+						"u0" : "woodkeep_ground2",
+						"u1" : 1,
+						"u2" : 2,
+					},
+				},
+
+				"u3sub-sub-sub-sub-block " :  {
+
+					"u" : -19.45867919921875,
+					"v" : -100.07984924316406,
+					"w" : 25.0,
+					"x" : 38.9173583984375,
+					"y" : 200.15969848632812,
+					"z" : 0.0,
+				},
+				"u7" : "`\\xab\\x9bA\\x1e\\xd7\\xc7B\\x00\\x00\\xc8A\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xfa\\xec\\x13?xQf?`\\xab\\x9b\\xc1\\x1e\\xd7\\xc7\\xc2\\x00\\x00\\xc8A\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\x0c&\\xd8>Bt\\xcd=`\\xab\\x9bA\\xe2(\\xc8\\xc2\\x00\\x00\\xc8A\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xfa\\xec\\x13?X%\\xcc=`\\xab\\x9bA\\x1e\\xd7\\xc7B\\x00\\x00\\xc8A\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xfa\\xec\\x13?xQf?`\\xab\\x9b\\xc1\\xe2(\\xc8B\\x00\\x00\\xc8A\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\x0c&\\xd8>U{f?`\\xab\\x9b\\xc1\\x1e\\xd7\\xc7\\xc2\\x00\\x00\\xc8A\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\x0c&\\xd8>Bt\\xcd=",
+			},
+
+			"u3sub-sub-sub-block " :  {
+
+				"w" : 1.0,
+				"x" : 1.0,
+				"y" : 1.0,
+				"z" : 1.0,
+			},
+		},
+	},
+
+	"componentsub-block " :  {
+
+		"component type" : "GroundMeshGenerator",
+		"number" : 102,
+
+		"ground mesh generatorsub-sub-block " :  {
+
+			"ground polygon" : 100,
+			"ground mesh" : 101,
+			"texture mapping 1" : 103,
+			"texture mapping 2" : 104,
+			"u4" : 0,
+			"u5" : 0.0,
+			"u6" : 1,
+			"u7" : 50.0,
+			"u8" : 25.0,
+			"u9" : 5.0,
+			"u10" : 5.0,
+		},
+	},
+
+	"componentsub-block " :  {
+
+		"component type" : "TextureMapping",
+		"number" : 103,
+
+		"texture mappingsub-sub-block " :  {
+
+			"texture file" : "woodkeep_ground2",
+			"u0" : 250.0,
+
+			"u0sub-sub-sub-block " :  {
+
+				"u1" : 0.0,
+				"u2" : 0.0,
+			},
+		},
+	},
+
+	"componentsub-block " :  {
+
+		"component type" : "TextureMapping",
+		"number" : 104,
+
+		"texture mappingsub-sub-block " :  {
+
+			"texture file" : "woodkeep_ground2",
+			"u0" : 250.0,
+
+			"u0sub-sub-sub-block " :  {
+
+				"u1" : 0.0,
+				"u2" : 0.0,
+			},
+		},
+	},
+
+	"componentsub-block " :  {
+
+		"component type" : "CollisionShape",
+		"number" : 105,
+		"? linked component" : 100,
+
+		"collision shapesub-sub-block " :  {
+
+
+			"u2sub-sub-sub-block " :  {
+
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"y" : -19.45867919921875,
+					"z" : -99.92015075683594,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"y" : 19.45867919921875,
+					"z" : -100.07984924316406,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"y" : 19.45867919921875,
+					"z" : 99.92015075683594,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"y" : -19.45867919921875,
+					"z" : 100.07984924316406,
+				},
+				"u3" : 0,
+				"u4" : 1,
+			},
+		},
+
+		"collision shape 2sub-sub-block " :  {
+
+			"u0" : 1,
+			"w" : -30.0,
+			"x" : 30.0,
+			"z" : 1,
+		},
+	},
+
+	"positionsub-block " :  {
+
+		"x position" : -2304.71728515625,
+		"y position" : 655.783935546875,
+	},
+	"z position" : 85.1934814453125,
+	"rotation" : 0.0,
+	"scale" : 1.0,
+
+	"u2sub-block " :  {
+
+		"w" : -19.45867919921875,
+		"x" : -100.07984924316406,
+		"y" : 38.9173583984375,
+		"z" : 200.15969848632812,
+	},
+	"hidden" : 0,
+},
+
+"objectblock " :  {
+
+	"name" : "torch#2",
+	"identifier" : "obj7",
+
+	"positionsub-block " :  {
+
+		"x position" : -3150.962646484375,
+		"y position" : 768.6658935546875,
+	},
+	"z position" : 84.07247924804688,
+	"rotation" : 0.0,
+	"scale" : 1.0,
+
+	"u2sub-block " :  {
+
+		"w" : -50.0,
+		"x" : -50.0,
+		"y" : 100.0,
+		"z" : 100.0,
+	},
+	"hidden" : 0,
+},
+
+"objectblock " :  {
+
+	"name" : "platformwood1",
+	"identifier" : "obj8",
+
+	"componentsub-block " :  {
+
+		"component type" : "UtilityShape",
+		"number" : 105,
+
+		"collision shapesub-sub-block " :  {
+
+
+			"u0sub-sub-sub-block " :  {
+
+				"w" : -50.0,
+				"x" : 0.0,
+				"y" : 100.0,
+				"z" : 500.0,
+			},
+		},
+	},
+
+	"componentsub-block " :  {
+
+		"component type" : "ElevatorController",
+		"number" : 108,
+
+		"elevator controllersub-sub-block " :  {
+
+			"temp0" : 105,
+			"u0" : 2,
+		},
+	},
+
+	"positionsub-block " :  {
+
+		"x position" : -3948.203125,
+		"y position" : 727.2616577148438,
+	},
+	"z position" : 0.0,
+	"rotation" : 0.0,
+	"scale" : 1.0,
+
+	"u2sub-block " :  {
+
+		"w" : -74.63359069824219,
+		"x" : -500.0,
+		"y" : 159.58056640625,
+		"z" : 1000.0,
+	},
+	"hidden" : 0,
+},
+
+"objectblock " :  {
+
+	"identifier" : "spawn_default",
+
+	"componentsub-block " :  {
+
+		"component type" : "SpawnPoint",
+		"number" : 101,
+
+		"spawnpointsub-sub-block " :  {
+
+			"u0" : 1,
+
+			"u1sub-sub-sub-block " :  {
+
+				"x" : 0.0,
+				"y" : 0.0,
+				"z" : 0.0,
+			},
+		},
+	},
+
+	"positionsub-block " :  {
+
+		"x position" : -2919.5498046875,
+		"y position" : 740.8418579101562,
+	},
+	"z position" : 0.0,
+	"rotation" : 0.0,
+	"scale" : 1.0,
+
+	"u2sub-block " :  {
+
+		"w" : -30.0,
+		"x" : -30.0,
+		"y" : 60.0,
+		"z" : 60.0,
+	},
+	"hidden" : 0,
+},
+
+"objectblock " :  {
+
+	"identifier" : "spawn_from_plains_woodkeep2",
+
+	"componentsub-block " :  {
+
+		"component type" : "SpawnPoint",
+		"number" : 101,
+
+		"spawnpointsub-sub-block " :  {
+
+			"u0" : 1,
+
+			"u1sub-sub-sub-block " :  {
+
+				"x" : 0.0,
+				"y" : 0.0,
+				"z" : 0.0,
+			},
+		},
+	},
+
+	"positionsub-block " :  {
+
+		"x position" : -3816.24853515625,
+		"y position" : 738.7699584960938,
+	},
+	"z position" : 0.0,
+	"rotation" : 0.0,
+	"scale" : 1.0,
+
+	"u2sub-block " :  {
+
+		"w" : -30.0,
+		"x" : -30.0,
+		"y" : 60.0,
+		"z" : 60.0,
+	},
+	"hidden" : 0,
+},
+
+"objectblock " :  {
+
+	"name" : "spellget_script",
+	"identifier" : "trigger",
+
+	"componentsub-block " :  {
+
+		"component type" : "CollisionShape",
+		"number" : 101,
+
+		"collision shapesub-sub-block " :  {
+
+
+			"u0sub-sub-sub-block " :  {
+
+				"w" : -50.0,
+				"x" : -100.0,
+				"y" : 100.0,
+				"z" : 200.0,
+			},
+		},
+
+		"collision shape 2sub-sub-block " :  {
+
+			"w" : -15.0,
+			"x" : 15.0,
+
+			"lua chunksub-sub-sub-block " :  {
+
+				"main chunk" : "chunk >
+
+				=== lua =============
+				local self, target = ...;
+				
+				if target:identifier() == \"hero\" and not Character.HasSkill(\"bomb\") then
+				
+					CollisionShape.SetEnabled(self, 101, false);
+					Game.SetCinematicMode(true, true);
+					Game.FadeOut();
+					Program.Wait(1);
+					target:setPosition(Scene.Find(\"marker1\"):position());
+					Entity.SetFacingDirection(target, 1);
+					Camera.FocusAtShape(Scene.Find(\"focus\"));
+					Camera.JumpToFocus();
+					Game.FadeIn();
+					Program.Wait(1);
+					ShowTextBubbles(\"masterBubble\", Scene.Find(\"master\"):position() + Vector3.New(0, 40, 0), true, {
+						\"You have come far, young one.\"
+					});
+					
+					HideTextBubble(\"masterBubble\");
+					
+					ShowTextBubbles(\"heroBubble\", target:position() + Vector3.New(0, 40, 0), true, {
+						\"Master! Is it really you?\"
+					});
+				
+					HideTextBubble(\"heroBubble\");
+					
+					ShowQuestBubbles(\"quest03_woodkeep\",self:identifier(), Scene.Find(\"master\"):position() + Vector3.New(0, 40, 0), true, {
+						\"Yes, it is me. But I can\'t be with you for long. My grip of this world is fading.\",
+						\"I guess you have come looking for the legendary sword. I knew I could count on you.\",
+						\"The weapon you are looking for is called The Mageblade. It is hidden somewhere within this fortress.\",
+						\"For thousands of years the sword has been wielded by the heroes of this land against the darkness.\",
+						\"Now, the corruptors have come here to destroy it.\",
+						\"You have to stop them and find the sword before it is lost forever.\",
+						\"Learn this magic, it will help you on your way.\"
+					}, 
+					240);
+					
+					HideTextBubble(self:identifier());
+				
+					Character.AddSkill(\"bomb\");
+					Camera.ResetFocus();
+				
+					Program.Wait(0.5);
+					Program.Wait(1.0);
+				
+					Game.SetCinematicMode(false, true);
+				end
+				
+
+				=====================",
+				"secondary chunk" : "\\x1bLuaQ\\x00\\x01\\x04\\x04\\x04\\x08\\x00y\\x06\\x00\\x00local self, target = ...;\\r\\n\\r\\nif target:identifier() == \"hero\" and not Character.HasSkill(\"bomb\") then\\r\\n\\r\\n\\tCollisionShape.SetEnabled(self, 101, false);\\r\\n\\tGame.SetCinematicMode(true, true);\\r\\n\\tGame.FadeOut();\\r\\n\\tProgram.Wait(1);\\r\\n\\ttarget:setPosition(Scene.Find(\"marker1\"):position());\\r\\n\\tEntity.SetFacingDirection(target, 1);\\r\\n\\tCamera.FocusAtShape(Scene.Find(\"focus\"));\\r\\n\\tCamera.JumpToFocus();\\r\\n\\tGame.FadeIn();\\r\\n\\tProgram.Wait(1);\\r\\n\\tShowTextBubbles(\"masterBubble\", Scene.Find(\"master\"):position() + Vector3.New(0, 40, 0), true, {\\r\\n\\t\\t\"You have come far, young one.\"\\r\\n\\t});\\r\\n\\t\\r\\n\\tHideTextBubble(\"masterBubble\");\\r\\n\\t\\r\\n\\tShowTextBubbles(\"heroBubble\", target:position() + Vector3.New(0, 40, 0), true, {\\r\\n\\t\\t\"Master! Is it really you?\"\\r\\n\\t});\\r\\n\\r\\n\\tHideTextBubble(\"heroBubble\");\\r\\n\\t\\r\\n\\tShowQuestBubbles(\"quest03_woodkeep\",self:identifier(), Scene.Find(\"master\"):position() + Vector3.New(0, 40, 0), true, {\\r\\n\\t\\t\"Yes, it is me. But I can\\\'t be with you for long. My grip of this world is fading.\",\\r\\n\\t\\t\"I guess you have come looking for the legendary sword. I knew I could count on you.\",\\r\\n\\t\\t\"The weapon you are looking for is called The Mageblade. It is hidden somewhere within this fortress.\",\\r\\n\\t\\t\"For thousands of years the sword has been wielded by the heroes of this land against the darkness.\",\\r\\n\\t\\t\"Now, the corruptors have come here to destroy it.\",\\r\\n\\t\\t\"You have to stop them and find the sword before it is lost forever.\",\\r\\n\\t\\t\"Learn this magic, it will help you on your way.\"\\r\\n\\t}, \\r\\n\\t240);\\r\\n\\t\\r\\n\\tHideTextBubble(self:identifier());\\r\\n\\r\\n\\tCharacter.AddSkill(\"bomb\");\\r\\n\\tCamera.ResetFocus();\\r\\n\\r\\n\\tProgram.Wait(0.5);\\r\\n\\tProgram.Wait(1.0);\\r\\n\\r\\n\\tGame.SetCinematicMode(false, true);\\r\\nend\\r\\n\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x02\\x0f\\x9b\\x00\\x00\\x00%\\x00\\x80\\x01\\x8b\\x00\\xc0\\x00\\x9c\\x80\\x00\\x01\\x17@@\\x01\\x16\\x00%\\x80\\x85\\x80\\x00\\x00\\x86\\xc0@\\x01\\xc1\\x00\\x01\\x00\\x9c\\x80\\x00\\x01\\x9a@\\x00\\x00\\x16\\x80#\\x80\\x85@\\x01\\x00\\x86\\x80A\\x01\\xc0\\x00\\x00\\x00\\x01\\xc1\\x01\\x00B\\x01\\x00\\x00\\x9c@\\x00\\x02\\x85\\x00\\x02\\x00\\x86@B\\x01\\xc2\\x00\\x80\\x00\\x02\\x01\\x80\\x00\\x9c@\\x80\\x01\\x85\\x00\\x02\\x00\\x86\\x80B\\x01\\x9c@\\x80\\x00\\x85\\xc0\\x02\\x00\\x86\\x00C\\x01\\xc1@\\x03\\x00\\x9c@\\x00\\x01\\x8b\\x80\\xc3\\x00\\x05\\xc1\\x03\\x00\\x06\\x01D\\x02AA\\x04\\x00\\x1c\\x81\\x00\\x01\\x0b\\x81D\\x02\\x1c\\x01\\x00\\x01\\x9c@\\x00\\x00\\x85\\xc0\\x04\\x00\\x86\\x00E\\x01\\xc0\\x00\\x80\\x00\\x01A\\x03\\x00\\x9c@\\x80\\x01\\x85@\\x05\\x00\\x86\\x80E\\x01\\xc5\\xc0\\x03\\x00\\xc6\\x00\\xc4\\x01\\x01\\xc1\\x05\\x00\\xdc\\x00\\x00\\x01\\x9c@\\x00\\x00\\x85@\\x05\\x00\\x86\\x00F\\x01\\x9c@\\x80\\x00\\x85\\x00\\x02\\x00\\x86@F\\x01\\x9c@\\x80\\x00\\x85\\xc0\\x02\\x00\\x86\\x00C\\x01\\xc1@\\x03\\x00\\x9c@\\x00\\x01\\x85\\x80\\x06\\x00\\xc1\\xc0\\x06\\x00\\x05\\xc1\\x03\\x00\\x06\\x01D\\x02A\\x01\\x07\\x00\\x1c\\x81\\x00\\x01\\x0b\\x81D\\x02\\x1c\\x81\\x00\\x01EA\\x07\\x00F\\x81\\xc7\\x02\\x81\\xc1\\x07\\x00\\xc1\\x01\\x08\\x00\\x01\\xc2\\x07\\x00\\\\\\x81\\x00\\x02\\x0cA\\x01\\x02B\\x01\\x80\\x00\\x8a\\x01\\x80\\x00\\xc1A\\x08\\x00\\xa2A\\x80\\x00\\x9c@\\x80\\x02\\x85\\x80\\x08\\x00\\xc1\\xc0\\x06\\x00\\x9c@\\x00\\x01\\x85\\x80\\x06\\x00\\xc1\\xc0\\x08\\x00\\x0b\\x81\\xc4\\x00\\x1c\\x81\\x00\\x01EA\\x07\\x00F\\x81\\xc7\\x02\\x81\\xc1\\x07\\x00\\xc1\\x01\\x08\\x00\\x01\\xc2\\x07\\x00\\\\\\x81\\x00\\x02\\x0cA\\x01\\x02B\\x01\\x80\\x00\\x8a\\x01\\x80\\x00\\xc1\\x01\\t\\x00\\xa2A\\x80\\x00\\x9c@\\x80\\x02\\x85\\x80\\x08\\x00\\xc1\\xc0\\x08\\x00\\x9c@\\x00\\x01\\x85@\\t\\x00\\xc1\\x80\\t\\x00\\x0b\\x01@\\x00\\x1c\\x81\\x00\\x01E\\xc1\\x03\\x00F\\x01\\xc4\\x02\\x81\\x01\\x07\\x00\\\\\\x81\\x00\\x01K\\x81\\xc4\\x02\\\\\\x81\\x00\\x01\\x85A\\x07\\x00\\x86\\x81G\\x03\\xc1\\xc1\\x07\\x00\\x01\\x02\\x08\\x00A\\xc2\\x07\\x00\\x9c\\x81\\x00\\x02L\\x81\\x81\\x02\\x82\\x01\\x80\\x00\\xca\\x01\\x80\\x03\\x01\\xc2\\t\\x00A\\x02\\n\\x00\\x81B\\n\\x00\\xc1\\x82\\n\\x00\\x01\\xc3\\n\\x00A\\x03\\x0b\\x00\\x81C\\x0b\\x00\\xe2A\\x80\\x03\\x01\\x82\\x0b\\x00\\x9c@\\x80\\x03\\x85\\x80\\x08\\x00\\xcb\\x00@\\x00\\xdc\\x00\\x00\\x01\\x9c@\\x00\\x00\\x85\\x80\\x00\\x00\\x86\\xc0K\\x01\\xc1\\x00\\x01\\x00\\x9c@\\x00\\x01\\x85@\\x05\\x00\\x86\\x00L\\x01\\x9c@\\x80\\x00\\x85\\xc0\\x02\\x00\\x86\\x00C\\x01\\xc1@\\x0c\\x00\\x9c@\\x00\\x01\\x85\\xc0\\x02\\x00\\x86\\x00C\\x01\\xc1@\\x03\\x00\\x9c@\\x00\\x01\\x85\\x00\\x02\\x00\\x86@B\\x01\\xc2\\x00\\x00\\x00\\x02\\x01\\x80\\x00\\x9c@\\x80\\x01\\x1e\\x00\\x80\\x002\\x00\\x00\\x00\\x04\\x0b\\x00\\x00\\x00identifier\\x00\\x04\\x05\\x00\\x00\\x00hero\\x00\\x04\\n\\x00\\x00\\x00Character\\x00\\x04\\t\\x00\\x00\\x00HasSkill\\x00\\x04\\x05\\x00\\x00\\x00bomb\\x00\\x04\\x0f\\x00\\x00\\x00CollisionShape\\x00\\x04\\x0b\\x00\\x00\\x00SetEnabled\\x00\\x03\\x00\\x00\\x00\\x00\\x00@Y@\\x04\\x05\\x00\\x00\\x00Game\\x00\\x04\\x11\\x00\\x00\\x00SetCinematicMode\\x00\\x04\\x08\\x00\\x00\\x00FadeOut\\x00\\x04\\x08\\x00\\x00\\x00Program\\x00\\x04\\x05\\x00\\x00\\x00Wait\\x00\\x03\\x00\\x00\\x00\\x00\\x00\\x00\\xf0?\\x04\\x0c\\x00\\x00\\x00setPosition\\x00\\x04\\x06\\x00\\x00\\x00Scene\\x00\\x04\\x05\\x00\\x00\\x00Find\\x00\\x04\\x08\\x00\\x00\\x00marker1\\x00\\x04\\t\\x00\\x00\\x00position\\x00\\x04\\x07\\x00\\x00\\x00Entity\\x00\\x04\\x13\\x00\\x00\\x00SetFacingDirection\\x00\\x04\\x07\\x00\\x00\\x00Camera\\x00\\x04\\r\\x00\\x00\\x00FocusAtShape\\x00\\x04\\x06\\x00\\x00\\x00focus\\x00\\x04\\x0c\\x00\\x00\\x00JumpToFocus\\x00\\x04\\x07\\x00\\x00\\x00FadeIn\\x00\\x04\\x10\\x00\\x00\\x00ShowTextBubbles\\x00\\x04\\r\\x00\\x00\\x00masterBubble\\x00\\x04\\x07\\x00\\x00\\x00master\\x00\\x04\\x08\\x00\\x00\\x00Vector3\\x00\\x04\\x04\\x00\\x00\\x00New\\x00\\x03\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x00\\x00\\x00D@\\x04\\x1e\\x00\\x00\\x00You have come far, young one.\\x00\\x04\\x0f\\x00\\x00\\x00HideTextBubble\\x00\\x04\\x0b\\x00\\x00\\x00heroBubble\\x00\\x04\\x1a\\x00\\x00\\x00Master! Is it really you?\\x00\\x04\\x11\\x00\\x00\\x00ShowQuestBubbles\\x00\\x04\\x11\\x00\\x00\\x00quest03_woodkeep\\x00\\x04R\\x00\\x00\\x00Yes, it is me. But I can\\\'t be with you for long. My grip of this world is fading.\\x00\\x04T\\x00\\x00\\x00I guess you have come looking for the legendary sword. I knew I could count on you.\\x00\\x04e\\x00\\x00\\x00The weapon you are looking for is called The Mageblade. It is hidden somewhere within this fortress.\\x00\\x04c\\x00\\x00\\x00For thousands of years the sword has been wielded by the heroes of this land against the darkness.\\x00\\x042\\x00\\x00\\x00Now, the corruptors have come here to destroy it.\\x00\\x04D\\x00\\x00\\x00You have to stop them and find the sword before it is lost forever.\\x00\\x040\\x00\\x00\\x00Learn this magic, it will help you on your way.\\x00\\x03\\x00\\x00\\x00\\x00\\x00\\x00n@\\x04\\t\\x00\\x00\\x00AddSkill\\x00\\x04\\x0b\\x00\\x00\\x00ResetFocus\\x00\\x03\\x00\\x00\\x00\\x00\\x00\\x00\\xe0?\\x00\\x00\\x00\\x00\\x9b\\x00\\x00\\x00\\x01\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x06\\x00\\x00\\x00\\x06\\x00\\x00\\x00\\x06\\x00\\x00\\x00\\x06\\x00\\x00\\x00\\x06\\x00\\x00\\x00\\x07\\x00\\x00\\x00\\x07\\x00\\x00\\x00\\x07\\x00\\x00\\x00\\x08\\x00\\x00\\x00\\x08\\x00\\x00\\x00\\x08\\x00\\x00\\x00\\x08\\x00\\x00\\x00\\t\\x00\\x00\\x00\\t\\x00\\x00\\x00\\t\\x00\\x00\\x00\\t\\x00\\x00\\x00\\t\\x00\\x00\\x00\\t\\x00\\x00\\x00\\t\\x00\\x00\\x00\\t\\x00\\x00\\x00\\n\\x00\\x00\\x00\\n\\x00\\x00\\x00\\n\\x00\\x00\\x00\\n\\x00\\x00\\x00\\n\\x00\\x00\\x00\\x0b\\x00\\x00\\x00\\x0b\\x00\\x00\\x00\\x0b\\x00\\x00\\x00\\x0b\\x00\\x00\\x00\\x0b\\x00\\x00\\x00\\x0b\\x00\\x00\\x00\\x0b\\x00\\x00\\x00\\x0c\\x00\\x00\\x00\\x0c\\x00\\x00\\x00\\x0c\\x00\\x00\\x00\\r\\x00\\x00\\x00\\r\\x00\\x00\\x00\\r\\x00\\x00\\x00\\x0e\\x00\\x00\\x00\\x0e\\x00\\x00\\x00\\x0e\\x00\\x00\\x00\\x0e\\x00\\x00\\x00\\x0f\\x00\\x00\\x00\\x0f\\x00\\x00\\x00\\x0f\\x00\\x00\\x00\\x0f\\x00\\x00\\x00\\x0f\\x00\\x00\\x00\\x0f\\x00\\x00\\x00\\x0f\\x00\\x00\\x00\\x0f\\x00\\x00\\x00\\x0f\\x00\\x00\\x00\\x0f\\x00\\x00\\x00\\x0f\\x00\\x00\\x00\\x0f\\x00\\x00\\x00\\x0f\\x00\\x00\\x00\\x0f\\x00\\x00\\x00\\x0f\\x00\\x00\\x00\\x0f\\x00\\x00\\x00\\x0f\\x00\\x00\\x00\\x11\\x00\\x00\\x00\\x11\\x00\\x00\\x00\\x0f\\x00\\x00\\x00\\x13\\x00\\x00\\x00\\x13\\x00\\x00\\x00\\x13\\x00\\x00\\x00\\x15\\x00\\x00\\x00\\x15\\x00\\x00\\x00\\x15\\x00\\x00\\x00\\x15\\x00\\x00\\x00\\x15\\x00\\x00\\x00\\x15\\x00\\x00\\x00\\x15\\x00\\x00\\x00\\x15\\x00\\x00\\x00\\x15\\x00\\x00\\x00\\x15\\x00\\x00\\x00\\x15\\x00\\x00\\x00\\x15\\x00\\x00\\x00\\x15\\x00\\x00\\x00\\x17\\x00\\x00\\x00\\x17\\x00\\x00\\x00\\x15\\x00\\x00\\x00\\x19\\x00\\x00\\x00\\x19\\x00\\x00\\x00\\x19\\x00\\x00\\x00\\x1b\\x00\\x00\\x00\\x1b\\x00\\x00\\x00\\x1b\\x00\\x00\\x00\\x1b\\x00\\x00\\x00\\x1b\\x00\\x00\\x00\\x1b\\x00\\x00\\x00\\x1b\\x00\\x00\\x00\\x1b\\x00\\x00\\x00\\x1b\\x00\\x00\\x00\\x1b\\x00\\x00\\x00\\x1b\\x00\\x00\\x00\\x1b\\x00\\x00\\x00\\x1b\\x00\\x00\\x00\\x1b\\x00\\x00\\x00\\x1b\\x00\\x00\\x00\\x1b\\x00\\x00\\x00\\x1b\\x00\\x00\\x00\\x1b\\x00\\x00\\x00\\x1b\\x00\\x00\\x00\\x1c\\x00\\x00\\x00\\x1d\\x00\\x00\\x00\\x1e\\x00\\x00\\x00\\x1f\\x00\\x00\\x00 \\x00\\x00\\x00!\\x00\\x00\\x00#\\x00\\x00\\x00#\\x00\\x00\\x00$\\x00\\x00\\x00\\x1b\\x00\\x00\\x00&\\x00\\x00\\x00&\\x00\\x00\\x00&\\x00\\x00\\x00&\\x00\\x00\\x00(\\x00\\x00\\x00(\\x00\\x00\\x00(\\x00\\x00\\x00(\\x00\\x00\\x00)\\x00\\x00\\x00)\\x00\\x00\\x00)\\x00\\x00\\x00+\\x00\\x00\\x00+\\x00\\x00\\x00+\\x00\\x00\\x00+\\x00\\x00\\x00,\\x00\\x00\\x00,\\x00\\x00\\x00,\\x00\\x00\\x00,\\x00\\x00\\x00.\\x00\\x00\\x00.\\x00\\x00\\x00.\\x00\\x00\\x00.\\x00\\x00\\x00.\\x00\\x00\\x00/\\x00\\x00\\x00\\x02\\x00\\x00\\x00\\x05\\x00\\x00\\x00self\\x00\\x01\\x00\\x00\\x00\\x9a\\x00\\x00\\x00\\x07\\x00\\x00\\x00target\\x00\\x01\\x00\\x00\\x00\\x9a\\x00\\x00\\x00\\x00\\x00\\x00\\x00",
+			},
+			"z" : 1,
+		},
+	},
+
+	"positionsub-block " :  {
+
+		"x position" : -1813.6558837890625,
+		"y position" : 783.1627807617188,
+	},
+	"z position" : 0.0,
+	"rotation" : 0.0,
+	"scale" : 1.0,
+
+	"u2sub-block " :  {
+
+		"w" : -50.0,
+		"x" : -100.0,
+		"y" : 100.0,
+		"z" : 200.0,
+	},
+	"hidden" : 0,
+},
+
+"dependenciesblock " :  {
+
+	"name" : "plains_woodkeep_cellar",
+
+	"u0sub-block " :  {
+
+
+		"u0sub-sub-block " :  {
+
+			"name" : "Template 1",
+
+			"u0sub-sub-sub-block " :  {
+
+				"y" : 0.0,
+				"z" : 0.0,
+			},
+			"u1" : 0.0,
+			"u2" : 0.0,
+			"u3" : 1.0,
+
+			"u1sub-sub-sub-block " :  {
+
+				"w" : 0.0,
+				"x" : 0.0,
+				"y" : 0.0,
+				"z" : 0.0,
+			},
+			"u5" : 0,
+		},
+		"u1" : 1.0,
+	},
+
+	"u0sub-block " :  {
+
+
+		"u0sub-sub-block " :  {
+
+			"name" : "torch#2",
+
+			"componentsub-sub-sub-block " :  {
+
+				"component type" : "Model",
+				"number" : 1,
+
+				"3D modelsub-sub-sub-sub-block " :  {
+
+					"name" : "torch",
+					"u0" : 0.0,
+					"u1" : 0.0,
+					"u2" : 0.0,
+
+					"u3sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 0.0,
+						"x" : 0.0,
+						"y" : 0.0,
+						"z" : 1.0,
+					},
+
+					"u4sub-sub-sub-sub-sub-block " :  {
+
+						"x" : 0.0,
+						"y" : 0.0,
+						"z" : 0.0,
+					},
+					"u5" : 0,
+
+					"u6sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 1.0,
+						"x" : 1.0,
+						"y" : 1.0,
+						"z" : 1.0,
+					},
+				},
+			},
+
+			"componentsub-sub-sub-block " :  {
+
+				"component type" : "SimpleGlow",
+				"number" : 2,
+
+				"simple glowsub-sub-sub-sub-block " :  {
+
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 0.3876543343067169,
+						"x" : 0.21119344234466553,
+						"y" : 0.05679014325141907,
+						"z" : 0.0,
+					},
+					"u1" : 40.0,
+					"u2" : 15,
+					"u3" : 5.0,
+					"u4" : 0.11999999731779099,
+					"u5" : 1.5,
+
+					"u6sub-sub-sub-sub-sub-block " :  {
+
+						"y" : 0.0,
+						"z" : 30.0,
+					},
+				},
+			},
+
+			"componentsub-sub-sub-block " :  {
+
+				"component type" : "Light",
+				"number" : 103,
+
+				"lightsub-sub-sub-sub-block " :  {
+
+					"u0" : 3,
+					"u1" : 1.5,
+
+					"u2sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 1.0,
+						"x" : 0.47999998927116394,
+						"y" : 0.0,
+						"z" : 1.0,
+					},
+					"u3" : 0.0,
+					"u4" : 0.00019999999494757503,
+
+					"u5sub-sub-sub-sub-sub-block " :  {
+
+						"x" : 0.0,
+						"y" : 30.0,
+						"z" : 0.0,
+					},
+					"u6" : 250.0,
+				},
+			},
+
+			"componentsub-sub-sub-block " :  {
+
+				"component type" : "FireEmitter",
+				"number" : 105,
+
+				"fire emittersub-sub-sub-sub-block " :  {
+
+					"temp0" : 108,
+					"temp1" : 103,
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 1.0,
+						"x" : 0.47999998927116394,
+						"y" : 0.0,
+						"z" : 0.0,
+					},
+					"u1" : 0.10000000149011612,
+					"u2" : 0.8999999761581421,
+
+					"u3sub-sub-sub-sub-sub-block " :  {
+
+						"x" : 2.0,
+						"y" : 0.0,
+						"z" : 0.0,
+					},
+
+					"u4sub-sub-sub-sub-sub-block " :  {
+
+						"x" : 0.0,
+						"y" : 15.0,
+						"z" : 0.0,
+					},
+				},
+			},
+
+			"componentsub-sub-sub-block " :  {
+
+				"component type" : "ParticleEmitter",
+				"number" : 108,
+
+				"particle emittersub-sub-sub-sub-block " :  {
+
+					"particle" : 109,
+					"particle" : 111,
+					"particle" : 112,
+					"u1" : 0,
+					"u2" : 30,
+					"u3" : 0,
+					"u4" : 0,
+					"u6" : 0,
+				},
+			},
+
+			"componentsub-sub-sub-block " :  {
+
+				"component type" : "Particle",
+				"number" : 109,
+
+				"particlesub-sub-sub-sub-block " :  {
+
+					"name" : "particle_fure_1",
+					"u0" : 20.0,
+				},
+			},
+
+			"componentsub-sub-sub-block " :  {
+
+				"component type" : "Particle",
+				"number" : 111,
+
+				"particlesub-sub-sub-sub-block " :  {
+
+					"name" : "particle_fure_2",
+					"u0" : 22.0,
+				},
+			},
+
+			"componentsub-sub-sub-block " :  {
+
+				"component type" : "Particle",
+				"number" : 112,
+
+				"particlesub-sub-sub-sub-block " :  {
+
+					"name" : "particle_fure_3",
+					"u0" : 20.0,
+				},
+			},
+
+			"u0sub-sub-sub-block " :  {
+
+				"y" : 0.0,
+				"z" : 0.0,
+			},
+			"u1" : 0.0,
+			"u2" : 0.0,
+			"u3" : 1.0,
+
+			"u1sub-sub-sub-block " :  {
+
+				"w" : -40.0,
+				"x" : -40.0,
+				"y" : 80.0,
+				"z" : 80.0,
+			},
+			"u5" : 0,
+		},
+		"u1" : 1.0,
+	},
+	"scl file" : "caves_stuff",
+	"scl file" : "game_common",
+	"scl file" : "master",
+	"scl file" : "monsters",
+	"scl file" : "npc",
+	"scl file" : "particles_fire",
+	"scl file" : "plains_stuff",
+	"scl file" : "platforms",
+	"scl file" : "towers_stuff",
+	"scl file" : "traps",
+	"scl file" : "traps_stuffs",
+	"scl file" : "trash",
+	"scl file" : "woodkeep_stuff",
+},
+
+"u0block " :  {
+
+	"w" : -4100.0,
+	"x" : 0.0,
+	"y" : 2600.0,
+	"z" : 1200.0,
+},
+
+}

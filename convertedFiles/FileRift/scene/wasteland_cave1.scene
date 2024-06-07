@@ -1,0 +1,4367 @@
+
+object block { (0a @ 1)
+
+    identifier : Background (12 @ 3)
+
+    component sub-block { (1a @ f)
+
+        component type : Background (0a @ 11)
+        number : 101(10 @ 1d)
+
+        file sub-sub-block { (642 @ 20)
+
+            filename : cavesbackground2 (0a @ 22)
+		}
+	}
+
+    position sub-block { (22 @ 34)
+
+        x position : -16.404083251953125 (0d @ 36)
+        y position : 1002.650634765625 (15 @ 3b)
+	}
+    z position : 1.7203826904296875 (2d @ 40)
+    rotation : 0.0 (35 @ 45)
+    scale : 1.0 (3d @ 4a)
+
+    u2 sub-block { (42 @ 4f)
+
+        w : -30.0 (0d @ 51)
+        x : -30.0 (15 @ 56)
+        y : 60.0 (1d @ 5b)
+        z : 60.0 (25 @ 60)
+	}
+    hidden : 0(48 @ 65)
+}
+
+object block { (0a @ 67)
+
+    identifier : DirectionalLight (12 @ 6a)
+
+    component sub-block { (1a @ 7c)
+
+        component type : Light (0a @ 7e)
+        number : 101(10 @ 85)
+
+        light sub-sub-block { (412 @ 88)
+
+            u0 : 2(08 @ 8a)
+            u1 : 2.0 (15 @ 8c)
+
+            u2 sub-sub-sub-block { (1a @ 91)
+
+                w : 1.0 (0d @ 93)
+                x : 1.0 (15 @ 98)
+                y : 1.0 (1d @ 9d)
+                z : 1.0 (25 @ a2)
+			}
+		}
+	}
+
+    component sub-block { (1a @ a7)
+
+        component type : Light (0a @ a9)
+        number : 103(10 @ b0)
+
+        light sub-sub-block { (412 @ b3)
+
+            u0 : 1(08 @ b5)
+            u1 : 0.30000001192092896 (15 @ b7)
+
+            u2 sub-sub-sub-block { (1a @ bc)
+
+                w : 1.0 (0d @ be)
+                x : 1.0 (15 @ c3)
+                y : 1.0 (1d @ c8)
+                z : 1.0 (25 @ cd)
+			}
+		}
+	}
+
+    component sub-block { (1a @ d2)
+
+        component type : Light (0a @ d4)
+        number : 105(10 @ db)
+
+        light sub-sub-block { (412 @ de)
+
+            u0 : 4(08 @ e0)
+            u1 : 1.0 (15 @ e2)
+
+            u2 sub-sub-sub-block { (1a @ e7)
+
+                w : 0.0 (0d @ e9)
+                x : 0.0 (15 @ ee)
+                y : 0.0 (1d @ f3)
+                z : 1.0 (25 @ f8)
+			}
+		}
+	}
+
+    position sub-block { (22 @ fd)
+
+        x position : -966.8255615234375 (0d @ ff)
+        y position : 490.68658447265625 (15 @ 104)
+	}
+    z position : 620.09765625 (2d @ 109)
+    rotation : 0.0 (35 @ 10e)
+    scale : 1.0 (3d @ 113)
+
+    u2 sub-block { (42 @ 118)
+
+        w : -30.0 (0d @ 11a)
+        x : -30.0 (15 @ 11f)
+        y : 60.0 (1d @ 124)
+        z : 60.0 (25 @ 129)
+	}
+    hidden : 0(48 @ 12e)
+}
+
+object block { (0a @ 130)
+
+    name : firebat (0a @ 132)
+    identifier : firebat1 (12 @ 13b)
+
+    position sub-block { (22 @ 145)
+
+        x position : -2096.213623046875 (0d @ 147)
+        y position : -1407.078125 (15 @ 14c)
+	}
+    z position : 0.0 (2d @ 151)
+    rotation : 0.0 (35 @ 156)
+    scale : 1.0 (3d @ 15b)
+
+    u2 sub-block { (42 @ 160)
+
+        w : -39.71588897705078 (0d @ 162)
+        x : -40.159324645996094 (15 @ 167)
+        y : 81.01205444335938 (1d @ 16c)
+        z : 60.159324645996094 (25 @ 171)
+	}
+    hidden : 0(48 @ 176)
+}
+
+object block { (0a @ 178)
+
+    name : firebat (0a @ 17a)
+    identifier : firebat1#2 (12 @ 183)
+
+    position sub-block { (22 @ 18f)
+
+        x position : -2196.867431640625 (0d @ 191)
+        y position : -1215.0185546875 (15 @ 196)
+	}
+    z position : 0.0 (2d @ 19b)
+    rotation : 0.0 (35 @ 1a0)
+    scale : 1.0 (3d @ 1a5)
+
+    u2 sub-block { (42 @ 1aa)
+
+        w : -39.71588897705078 (0d @ 1ac)
+        x : -40.159324645996094 (15 @ 1b1)
+        y : 81.01205444335938 (1d @ 1b6)
+        z : 60.159324645996094 (25 @ 1bb)
+	}
+    hidden : 0(48 @ 1c0)
+}
+
+object block { (0a @ 1c2)
+
+    name : firebat (0a @ 1c4)
+    identifier : firebat1#3 (12 @ 1cd)
+
+    position sub-block { (22 @ 1d9)
+
+        x position : -2241.512939453125 (0d @ 1db)
+        y position : -1379.8709716796875 (15 @ 1e0)
+	}
+    z position : 0.0 (2d @ 1e5)
+    rotation : 0.0 (35 @ 1ea)
+    scale : 1.0 (3d @ 1ef)
+
+    u2 sub-block { (42 @ 1f4)
+
+        w : -39.71588897705078 (0d @ 1f6)
+        x : -40.159324645996094 (15 @ 1fb)
+        y : 81.01205444335938 (1d @ 200)
+        z : 60.159324645996094 (25 @ 205)
+	}
+    hidden : 0(48 @ 20a)
+}
+
+object block { (0a @ 20c)
+
+    name : focuswpadding (0a @ 20f)
+    identifier : focusArea (12 @ 21e)
+
+    component sub-block { (1a @ 229)
+
+        component type : CollisionShape (0a @ 22b)
+        number : 101(10 @ 23b)
+
+        collision shape sub-sub-block { (3c2 @ 23e)
+
+
+            u0 sub-sub-sub-block { (0a @ 240)
+
+                w : -600.0 (0d @ 242)
+                x : -400.0 (15 @ 247)
+                y : 1200.0 (1d @ 24c)
+                z : 800.0 (25 @ 251)
+			}
+		}
+
+        collision shape 2 sub-sub-block { (3ca @ 257)
+
+            w : -15.0 (35 @ 259)
+            x : 15.0 (3d @ 25e)
+            z : 1(58 @ 263)
+		}
+	}
+
+    position sub-block { (22 @ 265)
+
+        x position : -2315.7978515625 (0d @ 267)
+        y position : -1622.858154296875 (15 @ 26c)
+	}
+    z position : 0.0 (2d @ 271)
+    rotation : 0.0 (35 @ 276)
+    scale : 1.0 (3d @ 27b)
+
+    u2 sub-block { (42 @ 280)
+
+        w : -600.0 (0d @ 282)
+        x : -400.0 (15 @ 287)
+        y : 1200.0 (1d @ 28c)
+        z : 800.0 (25 @ 291)
+	}
+    hidden : 0(48 @ 296)
+}
+
+object block { (0a @ 298)
+
+    name : focuswpadding (0a @ 29b)
+    identifier : focusArea#2 (12 @ 2aa)
+
+    component sub-block { (1a @ 2b7)
+
+        component type : CollisionShape (0a @ 2ba)
+        number : 101(10 @ 2ca)
+
+        collision shape sub-sub-block { (3c2 @ 2cd)
+
+
+            u0 sub-sub-sub-block { (0a @ 2cf)
+
+                w : -400.0 (0d @ 2d1)
+                x : -400.0 (15 @ 2d6)
+                y : 600.0 (1d @ 2db)
+                z : 800.0 (25 @ 2e0)
+			}
+		}
+
+        collision shape 2 sub-sub-block { (3ca @ 2e6)
+
+            w : -15.0 (35 @ 2e9)
+            x : 15.0 (3d @ 2ee)
+
+            lua chunk sub-sub-sub-block { (4a @ 2f3)
+
+                main chunk : chunk >
+
+                === lua =============
+                local self, target= ...;
+                
+                if target:identifier() == "hero" then
+                	Camera.FocusAtShape(Scene.Find("focusArea"), Rectangle.New(100, 100, 100, 100));
+                end
+
+                =====================
+                secondary chunk : \x1bLuaQ\x00\x01\x04\x04\x04\x08\x00\x9a\x00\x00\x00local self, target= ...;\r\n\r\nif target:identifier() == "hero" then\r\n\tCamera.FocusAtShape(Scene.Find("focusArea"), Rectangle.New(100, 100, 100, 100));\r\nend\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x02\t\x14\x00\x00\x00%\x00\x80\x01\x8b\x00\xc0\x00\x9c\x80\x00\x01\x17@@\x01\x16@\x03\x80\x85\x80\x00\x00\x86\xc0@\x01\xc5\x00\x01\x00\xc6@\xc1\x01\x01\x81\x01\x00\xdc\x80\x00\x01\x05\xc1\x01\x00\x06\x01B\x02AA\x02\x00\x81A\x02\x00\xc1A\x02\x00\x01B\x02\x00\x1c\x01\x80\x02\x9c@\x00\x00\x1e\x00\x80\x00\n\x00\x00\x00\x04\x0b\x00\x00\x00identifier\x00\x04\x05\x00\x00\x00hero\x00\x04\x07\x00\x00\x00Camera\x00\x04\r\x00\x00\x00FocusAtShape\x00\x04\x06\x00\x00\x00Scene\x00\x04\x05\x00\x00\x00Find\x00\x04\n\x00\x00\x00focusArea\x00\x04\n\x00\x00\x00Rectangle\x00\x04\x04\x00\x00\x00New\x00\x03\x00\x00\x00\x00\x00\x00Y@\x00\x00\x00\x00\x14\x00\x00\x00\x01\x00\x00\x00\x03\x00\x00\x00\x03\x00\x00\x00\x03\x00\x00\x00\x03\x00\x00\x00\x04\x00\x00\x00\x04\x00\x00\x00\x04\x00\x00\x00\x04\x00\x00\x00\x04\x00\x00\x00\x04\x00\x00\x00\x04\x00\x00\x00\x04\x00\x00\x00\x04\x00\x00\x00\x04\x00\x00\x00\x04\x00\x00\x00\x04\x00\x00\x00\x04\x00\x00\x00\x04\x00\x00\x00\x05\x00\x00\x00\x02\x00\x00\x00\x05\x00\x00\x00self\x00\x01\x00\x00\x00\x13\x00\x00\x00\x07\x00\x00\x00target\x00\x01\x00\x00\x00\x13\x00\x00\x00\x00\x00\x00\x00 (12 @ 392)
+			}
+
+            lua chunk sub-sub-sub-block { (52 @ 5a4)
+
+                main chunk : chunk >
+
+                === lua =============
+                local self, target = ...;
+                
+                if target:identifier() == "hero" then
+                	Camera.ResetFocus();
+                end
+
+                =====================
+                secondary chunk : \x1bLuaQ\x00\x01\x04\x04\x04\x08\x00_\x00\x00\x00local self, target = ...;\r\n\r\nif target:identifier() == "hero" then\r\n\tCamera.ResetFocus();\r\nend\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x02\x04\t\x00\x00\x00%\x00\x80\x01\x8b\x00\xc0\x00\x9c\x80\x00\x01\x17@@\x01\x16\x80\x00\x80\x85\x80\x00\x00\x86\xc0@\x01\x9c@\x80\x00\x1e\x00\x80\x00\x04\x00\x00\x00\x04\x0b\x00\x00\x00identifier\x00\x04\x05\x00\x00\x00hero\x00\x04\x07\x00\x00\x00Camera\x00\x04\x0b\x00\x00\x00ResetFocus\x00\x00\x00\x00\x00\t\x00\x00\x00\x01\x00\x00\x00\x03\x00\x00\x00\x03\x00\x00\x00\x03\x00\x00\x00\x03\x00\x00\x00\x04\x00\x00\x00\x04\x00\x00\x00\x04\x00\x00\x00\x05\x00\x00\x00\x02\x00\x00\x00\x05\x00\x00\x00self\x00\x01\x00\x00\x00\x08\x00\x00\x00\x07\x00\x00\x00target\x00\x01\x00\x00\x00\x08\x00\x00\x00\x00\x00\x00\x00 (12 @ 607)
+			}
+            z : 1(58 @ 73f)
+		}
+	}
+
+    position sub-block { (22 @ 741)
+
+        x position : -2204.069091796875 (0d @ 743)
+        y position : -1517.658447265625 (15 @ 748)
+	}
+    z position : 0.0 (2d @ 74d)
+    rotation : 0.0 (35 @ 752)
+    scale : 1.0 (3d @ 757)
+
+    u2 sub-block { (42 @ 75c)
+
+        w : -400.0 (0d @ 75e)
+        x : -400.0 (15 @ 763)
+        y : 600.0 (1d @ 768)
+        z : 800.0 (25 @ 76d)
+	}
+    hidden : 0(48 @ 772)
+}
+
+object block { (0a @ 774)
+
+    identifier : obj1 (12 @ 777)
+
+    component sub-block { (1a @ 77d)
+
+        component type : GroundPolygon (0a @ 780)
+        number : 100(10 @ 78f)
+
+        ground polygon sub-sub-block { (372 @ 792)
+
+
+             sub-sub-sub-block { (12 @ 795)
+
+
+                u0 sub-sub-sub-sub-block { (0a @ 798)
+
+                    x : 496.1414794921875 (0d @ 79a)
+                    y : 57.7413330078125 (15 @ 79f)
+				}
+
+                u0 sub-sub-sub-sub-block { (0a @ 7a4)
+
+                    x : 386.2491455078125 (0d @ 7a6)
+                    y : 216.0169677734375 (15 @ 7ab)
+				}
+
+                u0 sub-sub-sub-sub-block { (0a @ 7b0)
+
+                    x : 217.81005859375 (0d @ 7b2)
+                    y : 201.96923828125 (15 @ 7b7)
+				}
+
+                u0 sub-sub-sub-sub-block { (0a @ 7bc)
+
+                    x : 137.13137817382812 (0d @ 7be)
+                    y : 221.6610107421875 (15 @ 7c3)
+				}
+
+                u0 sub-sub-sub-sub-block { (0a @ 7c8)
+
+                    x : -37.2880859375 (0d @ 7ca)
+                    y : 139.4210205078125 (15 @ 7cf)
+				}
+
+                u0 sub-sub-sub-sub-block { (0a @ 7d4)
+
+                    x : -167.725341796875 (0d @ 7d6)
+                    y : 213.2344970703125 (15 @ 7db)
+				}
+
+                u0 sub-sub-sub-sub-block { (0a @ 7e0)
+
+                    x : -295.2286376953125 (0d @ 7e2)
+                    y : 140.395751953125 (15 @ 7e7)
+				}
+
+                u0 sub-sub-sub-sub-block { (0a @ 7ec)
+
+                    x : -340.60888671875 (0d @ 7ee)
+                    y : 234.740966796875 (15 @ 7f3)
+				}
+
+                u0 sub-sub-sub-sub-block { (0a @ 7f8)
+
+                    x : -377.18994140625 (0d @ 7fa)
+                    y : 144.30401611328125 (15 @ 7ff)
+				}
+
+                u0 sub-sub-sub-sub-block { (0a @ 804)
+
+                    x : -496.1414794921875 (0d @ 806)
+                    y : -48.849365234375 (15 @ 80b)
+				}
+
+                u0 sub-sub-sub-sub-block { (0a @ 810)
+
+                    x : -358.24560546875 (0d @ 812)
+                    y : -234.740966796875 (15 @ 817)
+				}
+
+                u0 sub-sub-sub-sub-block { (0a @ 81c)
+
+                    x : -61.47802734375 (0d @ 81e)
+                    y : -186.06005859375 (15 @ 823)
+				}
+
+                u0 sub-sub-sub-sub-block { (0a @ 828)
+
+                    x : 488.795166015625 (0d @ 82a)
+                    y : -148.581787109375 (15 @ 82f)
+				}
+                u0 : 0(10 @ 834)
+                u1 : 1(18 @ 836)
+			}
+            u1 : 0(18 @ 838)
+            u2 : -50.0 (25 @ 83a)
+            u3 : 50.0 (2d @ 83f)
+            u4 :  (32 @ 844)
+		}
+	}
+
+    component sub-block { (1a @ 846)
+
+        component type : GroundMesh (0a @ 849)
+        number : 101(10 @ 855)
+
+        ground mesh sub-sub-block { (37a @ 858)
+
+
+            u0 sub-sub-sub-block { (3a @ 85b)
+
+                w : -506.1414794921875 (0d @ 85d)
+                x : -244.740966796875 (15 @ 862)
+                y : 1012.282958984375 (1d @ 867)
+                z : 489.48193359375 (25 @ 86c)
+			}
+
+            u1 sub-sub-sub-block { (42 @ 871)
+
+                u0 : 22(08 @ 874)
+                u1 : 20(10 @ 876)
+
+                u2 sub-sub-sub-sub-block { (1a @ 878)
+
+                    u0 : 4(08 @ 87a)
+                    u1 : 1(10 @ 87c)
+                    u2 : 2(18 @ 87e)
+                    u3 : 0(20 @ 880)
+				}
+
+                u3 sub-sub-sub-sub-block { (22 @ 882)
+
+                    u0 : 7(08 @ 884)
+                    u1 : 3(10 @ 886)
+                    u2 : 32(18 @ 888)
+                    u3 : 0(20 @ 88a)
+				}
+
+                u4 sub-sub-sub-sub-block { (2a @ 88c)
+
+                    u0 : 7(08 @ 88e)
+                    u1 : 3(10 @ 890)
+                    u2 : 32(18 @ 892)
+                    u3 : 12(20 @ 894)
+				}
+
+                u5 sub-sub-sub-sub-block { (32 @ 896)
+
+                    u0 : 7(08 @ 898)
+                    u1 : 2(10 @ 89a)
+                    u2 : 32(18 @ 89c)
+                    u3 : 24(20 @ 89e)
+				}
+
+                u6 sub-sub-sub-sub-block { (52 @ 8a0)
+
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 8a2)
+
+                        w : 1.0 (0d @ 8a4)
+                        x : 1.0 (15 @ 8a9)
+                        y : 1.0 (1d @ 8ae)
+                        z : 1.0 (25 @ 8b3)
+					}
+
+                    u1 sub-sub-sub-sub-sub-block { (12 @ 8b8)
+
+                        w : 1.0 (0d @ 8ba)
+                        x : 1.0 (15 @ 8bf)
+                        y : 1.0 (1d @ 8c4)
+                        z : 1.0 (25 @ 8c9)
+					}
+
+                    u2 sub-sub-sub-sub-sub-block { (1a @ 8ce)
+
+                        w : 1.0 (0d @ 8d0)
+                        x : 1.0 (15 @ 8d5)
+                        y : 1.0 (1d @ 8da)
+                        z : 1.0 (25 @ 8df)
+					}
+                    u3 : 0.0 (25 @ 8e4)
+                    u4 : \n\ncavewalls2\x10\x01 \x01 (2a @ 8e9)
+				}
+
+                u7 sub-sub-sub-sub-block { (5a @ 8fb)
+
+                    u : -496.1414794921875 (0d @ 8fd)
+                    v : -234.740966796875 (15 @ 902)
+                    w : -57.409305572509766 (1d @ 907)
+                    x : 992.282958984375 (25 @ 90c)
+                    y : 469.48193359375 (2d @ 911)
+                    z : 114.88739013671875 (35 @ 916)
+				}
+                u8 : \x1c\x12\xf8C \xf7fB\x8f\xaa-B-pv?\x01\xa0\x8a>\x00\x00\x00\x00\x00\x00\x00?du,?\x1c\x12\xf8C \xf7fB\xfe\xfd[\xc2-pv?\x01\xa0\x8a>\x00\x00\x00\x00\x00\x00\x00?0]\x8f>\xe4\x1f\xc1CX\x04XC\xb1\xb5\'BY\x90\xeb>\xc0Kc?\x00\x00\x00\x00\x9b\xa7\xa2?\x06\xef*?\xe4\x1f\xc1CX\x04XC!\xa3e\xc2Y\x90\xeb>\xc0Kc?\x00\x00\x00\x00\x9b\xa7\xa2?\xfdl\x8a>`\xcfYC \xf8IC-/NB&\x8d\xb9<0\xef\x7f?\x00\x00\x00\x00\xe71\xf9?~\xc84?`\xcfYC \xf8IC+\xdd^\xc2&\x8d\xb9<0\xef\x7f?\x00\x00\x00\x00\xe71\xf9?\xc7\xe4\x8d>\xa2!\tC8\xa9]C#`WB\xab\xdas\xbe\x9a\xa2x?\x00\x00\x00\x00\x86\xdb\x11@\xda"7?\xa2!\tC8\xa9]CU\x80=\xc2\xab\xdas\xbe\x9a\xa2x?\x00\x00\x00\x00\x86\xdb\x11@\xb0\xf9\x9e>\x00\'\x15\xc2\xc8k\x0bC\x8e\xe9eB\tY\xe2\xbc\xfb\xe6\x7f?\x00\x00\x00\x0039C@\x89\xdb:?\x00\'\x15\xc2\xc8k\x0bC\x8c\x9b[\xc2\tY\xe2\xbc\xfb\xe6\x7f?\x00\x00\x00\x0039C@\x98\x8f\x8f>\xb0\xb9\'\xc3\x08<UC\x05\xafCB\xf5\xa6w;\x87\xff\x7f?\x00\x00\x00\x00\\\x97i@S\x182?\xb0\xb9\'\xc3\x08<UC[L<\xc2\xf5\xa6w;\x87\xff\x7f?\x00\x00\x00\x00\\\x97i@_\x97\x9f>D\x9d\x93\xc3Pe\x0cC\x00\x9aZB\xd3\xd1\xfc=\xb9\n~?\x00\x00\x00\x00f\x97\x87@F\xf67?D\x9d\x93\xc3Pe\x0cCY\xd14\xc2\xd3\xd1\xfc=\xb9\n~?\x00\x00\x00\x00f\x97\x87@\xdbk\xa3>\xf0M\xaa\xc3\xb0\xbdjC#\x8b?B\xd3\x17C=\xa0\xb5\x7f?\x00\x00\x00\x00\xf2\xfd\x94@\xff\x081?\xf0M\xaa\xc3\xb0\xbdjC\xa9$^\xc2\xd3\x17C=\xa0\xb5\x7f?\x00\x00\x00\x00\xf2\xfd\x94@?C\x8e>P\x98\xbc\xc3\xd4M\x10CR\x9acBxu`\xbfw4\xf6>\x00\x00\x00\x00\xa2z\xa1@.D:?P\x98\xbc\xc3\xd4M\x10C$\x10N\xc2xu`\xbfw4\xf6>\x00\x00\x00\x00\xa2z\xa1@\xe7~\x96>\x1c\x12\xf8\xc3\xc0eC\xc2;>YBM\xae\x7f\xbf\x94uL\xbd\x00\x00\x00\x00\xd2\x83\xbe@>\x9d7?\x1c\x12\xf8\xc3\xc0eC\xc2\xed\xa3&\xc2M\xae\x7f\xbf\x94uL\xbd\x00\x00\x00\x00\xd2\x83\xbe@\x1e\xae\xaa>p\x1f\xb3\xc3\xb0\xbdj\xc3LwDBp \x9a\xbe\x1e t\xbf\x00\x00\x00\x00\x1b$\xdc@\x99K2?p\x1f\xb3\xc3\xb0\xbdj\xc3\xb6\xcb(\xc2p \x9a\xbe\x1e t\xbf\x00\x00\x00\x00\x1b$\xdc@\x9b\x93\xa9> (192 @ 91c)
+                u9 : \x00\x00\x01\x00\x02\x00\x01\x00\x03\x00\x02\x00\x02\x00\x03\x00\x04\x00\x03\x00\x05\x00\x04\x00\x04\x00\x05\x00\x06\x00\x05\x00\x07\x00\x06\x00\x06\x00\x07\x00\x08\x00\x07\x00\t\x00\x08\x00\x08\x00\t\x00\n\x00\t\x00\x0b\x00\n\x00\n\x00\x0b\x00\x0c\x00\x0b\x00\r\x00\x0c\x00\x0c\x00\r\x00\x0e\x00\r\x00\x0f\x00\x0e\x00\x0e\x00\x0f\x00\x10\x00\x0f\x00\x11\x00\x10\x00\x10\x00\x11\x00\x12\x00\x11\x00\x13\x00\x12\x00\x12\x00\x13\x00\x14\x00\x13\x00\x15\x00\x14\x00 (19a @ be0)
+			}
+
+            u1 sub-sub-sub-block { (42 @ c5a)
+
+                u0 : 8(08 @ c5d)
+                u1 : 6(10 @ c5f)
+
+                u2 sub-sub-sub-sub-block { (1a @ c61)
+
+                    u0 : 4(08 @ c63)
+                    u1 : 1(10 @ c65)
+                    u2 : 2(18 @ c67)
+                    u3 : 0(20 @ c69)
+				}
+
+                u3 sub-sub-sub-sub-block { (22 @ c6b)
+
+                    u0 : 7(08 @ c6d)
+                    u1 : 3(10 @ c6f)
+                    u2 : 32(18 @ c71)
+                    u3 : 0(20 @ c73)
+				}
+
+                u4 sub-sub-sub-sub-block { (2a @ c75)
+
+                    u0 : 7(08 @ c77)
+                    u1 : 3(10 @ c79)
+                    u2 : 32(18 @ c7b)
+                    u3 : 12(20 @ c7d)
+				}
+
+                u5 sub-sub-sub-sub-block { (32 @ c7f)
+
+                    u0 : 7(08 @ c81)
+                    u1 : 2(10 @ c83)
+                    u2 : 32(18 @ c85)
+                    u3 : 24(20 @ c87)
+				}
+
+                u6 sub-sub-sub-sub-block { (52 @ c89)
+
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ c8b)
+
+                        w : 1.0 (0d @ c8d)
+                        x : 1.0 (15 @ c92)
+                        y : 1.0 (1d @ c97)
+                        z : 1.0 (25 @ c9c)
+					}
+
+                    u1 sub-sub-sub-sub-sub-block { (12 @ ca1)
+
+                        w : 1.0 (0d @ ca3)
+                        x : 1.0 (15 @ ca8)
+                        y : 1.0 (1d @ cad)
+                        z : 1.0 (25 @ cb2)
+					}
+
+                    u2 sub-sub-sub-sub-sub-block { (1a @ cb7)
+
+                        w : 1.0 (0d @ cb9)
+                        x : 1.0 (15 @ cbe)
+                        y : 1.0 (1d @ cc3)
+                        z : 1.0 (25 @ cc8)
+					}
+                    u3 : 0.0 (25 @ ccd)
+                    u4 : \n\ncavewalls2\x10\x01 \x01 (2a @ cd2)
+				}
+
+                u7 sub-sub-sub-sub-block { (5a @ ce4)
+
+                    u : -358.24560546875 (0d @ ce6)
+                    v : -234.740966796875 (15 @ ceb)
+                    w : -59.18132781982422 (1d @ cf0)
+                    x : 854.3870849609375 (25 @ cf5)
+                    y : 292.4822998046875 (2d @ cfa)
+                    z : 110.55303955078125 (35 @ cff)
+				}
+                u8 : \x1c\x12\xf8C \xf7fB\x8f\xaa-B-pv?\x01\xa0\x8a>\x00\x00\x00\x00\x00\x00\x00?du,?\x1c\x12\xf8C \xf7fB\xfe\xfd[\xc2-pv?\x01\xa0\x8a>\x00\x00\x00\x00\x00\x00\x00?0]\x8f>p\x1f\xb3\xc3\xb0\xbdj\xc3LwDBp \x9a\xbe\x1e t\xbf\x00\x00\x00\x00\x1b$\xdc@\x99K2?p\x1f\xb3\xc3\xb0\xbdj\xc3\xb6\xcb(\xc2p \x9a\xbe\x1e t\xbf\x00\x00\x00\x00\x1b$\xdc@\x9b\x93\xa9>\x80\xe9u\xc2`\x0f:\xc3E\x9eKB\xb1?\xcf=\x93\xaf~\xbf\x00\x00\x00\x00GQ\x01AS 4?\x80\xe9u\xc2`\x0f:\xc3CA?\xc2\xb1?\xcf=\x93\xaf~\xbf\x00\x00\x00\x00GQ\x01A\xd6\x13\x9e>\xc8e\xf4C\xf0\x94\x14\xc3\xa1|MB\xb8\x1b\xcd>\x81\x8fj\xbf\x00\x00\x00\x00\xd7\x9d$A\xc9\x9a4?\xc8e\xf4C\xf0\x94\x14\xc3\xae\xb9l\xc2\xb8\x1b\xcd>\x81\x8fj\xbf\x00\x00\x00\x00\xd7\x9d$A\xf1\xcb\x86> (192 @ d05)
+                u9 : \x02\x00\x03\x00\x04\x00\x03\x00\x05\x00\x04\x00\x04\x00\x05\x00\x06\x00\x05\x00\x07\x00\x06\x00\x06\x00\x07\x00\x00\x00\x07\x00\x01\x00\x00\x00 (19a @ e09)
+			}
+
+            u2 sub-sub-sub-block { (4a @ e2f)
+
+                u0 : 33(08 @ e32)
+                u1 : 11(10 @ e34)
+
+                u2 sub-sub-sub-sub-block { (22 @ e36)
+
+                    u0 : 7(08 @ e38)
+                    u1 : 3(10 @ e3a)
+                    u2 : 32(18 @ e3c)
+                    u3 : 0(20 @ e3e)
+				}
+
+                u3 sub-sub-sub-sub-block { (2a @ e40)
+
+                    u0 : 7(08 @ e42)
+                    u1 : 3(10 @ e44)
+                    u2 : 32(18 @ e46)
+                    u3 : 12(20 @ e48)
+				}
+
+                u4 sub-sub-sub-sub-block { (32 @ e4a)
+
+                    u0 : 7(08 @ e4c)
+                    u1 : 2(10 @ e4e)
+                    u2 : 32(18 @ e50)
+                    u3 : 24(20 @ e52)
+				}
+
+                u5 sub-sub-sub-sub-block { (52 @ e54)
+
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ e56)
+
+                        w : 1.0 (0d @ e58)
+                        x : 1.0 (15 @ e5d)
+                        y : 1.0 (1d @ e62)
+                        z : 1.0 (25 @ e67)
+					}
+
+                    u1 sub-sub-sub-sub-sub-block { (12 @ e6c)
+
+                        w : 1.0 (0d @ e6e)
+                        x : 1.0 (15 @ e73)
+                        y : 1.0 (1d @ e78)
+                        z : 1.0 (25 @ e7d)
+					}
+
+                    u2 sub-sub-sub-sub-sub-block { (1a @ e82)
+
+                        w : 1.0 (0d @ e84)
+                        x : 1.0 (15 @ e89)
+                        y : 1.0 (1d @ e8e)
+                        z : 1.0 (25 @ e93)
+					}
+                    u3 : 0.0 (25 @ e98)
+
+                    u4 sub-sub-sub-sub-sub-block { (2a @ e9d)
+
+                        u0 : cavewalls (0a @ e9f)
+                        u1 : 1(10 @ eaa)
+                        u2 : 1(20 @ eac)
+					}
+				}
+
+                u3 sub-sub-sub-sub-block { (5a @ eae)
+
+                    u : -496.1414794921875 (0d @ eb0)
+                    v : -234.740966796875 (15 @ eb5)
+                    w : 41.927433013916016 (1d @ eba)
+                    x : 992.282958984375 (25 @ ebf)
+                    y : 469.48193359375 (2d @ ec4)
+                    z : 15.550647735595703 (35 @ ec9)
+				}
+                u7 : p\x1f\xb3\xc3\xb0\xbdj\xc3LwDB\x04Y/<\x06\xcf\xa3\xbc$\xef\x7f?\xf0\xd7n\xbf\xdf\xbf\xe0\xbeP\x98\xbc\xc3\xd4M\x10CR\x9acB\x04Y/<\x06\xcf\xa3\xbc$\xef\x7f?\n\x1f\x81\xbf7\xe2\x89?\x1c\x12\xf8\xc3\xc0eC\xc2;>YB\x04Y/<\x06\xcf\xa3\xbc$\xef\x7f?B\x06\xbe\xbf\xdd\xf4\x9b>p\x1f\xb3\xc3\xb0\xbdj\xc3LwDB\x99\xed\x82>\xa5\xbf\xe7\xbbO{w?\xf0\xd7n\xbf\xdf\xbf\xe0\xbe\xf0M\xaa\xc3\xb0\xbdjC#\x8b?B\x99\xed\x82>\xa5\xbf\xe7\xbbO{w?\x93\xc8\\\xbf\xf8/\xb8?P\x98\xbc\xc3\xd4M\x10CR\x9acB\x99\xed\x82>\xa5\xbf\xe7\xbbO{w?\n\x1f\x81\xbf7\xe2\x89?\x80\xe9u\xc2`\x0f:\xc3E\x9eKB\x7f\x90\x15=\xf9\x84p<:\xcd\x7f?\xcf\x17\x82>\x1d\x1az\xbe\xb0\xb9'\xc3\x08<UC\x05\xafCB\x7f\x90\x15=\xf9\x84p<:\xcd\x7f?\xc5\x00/\xbe\x12-\xad?D\x9d\x93\xc3Pe\x0cC\x00\x9aZB\x7f\x90\x15=\xf9\x84p<:\xcd\x7f?jP.\xbf\xf4\xe1\x87?D\x9d\x93\xc3Pe\x0cC\x00\x9aZBb5\x07\xbe\xf3\xac\xf7;P\xc0}?jP.\xbf\xf4\xe1\x87?\xf0M\xaa\xc3\xb0\xbdjC#\x8b?Bb5\x07\xbe\xf3\xac\xf7;P\xc0}?\x93\xc8\\\xbf\xf8/\xb8?p\x1f\xb3\xc3\xb0\xbdj\xc3LwDBb5\x07\xbe\xf3\xac\xf7;P\xc0}?\xf0\xd7n\xbf\xdf\xbf\xe0\xbe\x80\xe9u\xc2`\x0f:\xc3E\x9eKB-\xf2r\xbbrvg\xbc\x03\xf9\x7f?\xcf\x17\x82>\x1d\x1az\xbeD\x9d\x93\xc3Pe\x0cC\x00\x9aZB-\xf2r\xbbrvg\xbc\x03\xf9\x7f?jP.\xbf\xf4\xe1\x87?p\x1f\xb3\xc3\xb0\xbdj\xc3LwDB-\xf2r\xbbrvg\xbc\x03\xf9\x7f?\xf0\xd7n\xbf\xdf\xbf\xe0\xbe\x80\xe9u\xc2`\x0f:\xc3E\x9eKB\xa1\xf7\x96\xbdh3p\xbc\xa3F\x7f?\xcf\x17\x82>\x1d\x1az\xbe\x00'\x15\xc2\xc8k\x0bC\x8e\xe9eB\xa1\xf7\x96\xbdh3p\xbc\xa3F\x7f?N\xa2\xb3>1b\x87?\xb0\xb9'\xc3\x08<UC\x05\xafCB\xa1\xf7\x96\xbdh3p\xbc\xa3F\x7f?\xc5\x00/\xbe\x12-\xad?\xc8e\xf4C\xf0\x94\x14\xc3\xa1|MB\xc1d[=t\x90'=\xfaj\x7f?\xae!\x1d@\x98.\xc1\xbd\xe4\x1f\xc1CX\x04XC\xb1\xb5'B\xc1d[=t\x90'=\xfaj\x7f?9\xe1\x02@\xc7\x99\xae?`\xcfYC \xf8IC-/NB\xc1d[=t\x90'=\xfaj\x7f?\xcd\x84\xaf?\x83h\xa7?\xc8e\xf4C\xf0\x94\x14\xc3\xa1|MB\x92\t\x0f=\x93\x12\xd9<\x00\xc1\x7f?\xae!\x1d@\x98.\xc1\xbd`\xcfYC \xf8IC-/NB\x92\t\x0f=\x93\x12\xd9<\x00\xc1\x7f?\xcd\x84\xaf?\x83h\xa7?\xa2!\tC8\xa9]C#`WB\x92\t\x0f=\x93\x12\xd9<\x00\xc1\x7f?\x166\x86?\x8d}\xb1?\xc8e\xf4C\xf0\x94\x14\xc3\xa1|MB,\xae\x87<F]\x14<R\xf4\x7f?\xae!\x1d@\x98.\xc1\xbd\xa2!\tC8\xa9]C#`WB,\xae\x87<F]\x14<R\xf4\x7f?\x166\x86?\x8d}\xb1?\x00'\x15\xc2\xc8k\x0bC\x8e\xe9eB,\xae\x87<F]\x14<R\xf4\x7f?N\xa2\xb3>1b\x87?\xc8e\xf4C\xf0\x94\x14\xc3\xa1|MB=\xb8\n:\x8f\xbc\xa5\xbc\x94\xf2\x7f?\xae!\x1d@\x98.\xc1\xbd\x00'\x15\xc2\xc8k\x0bC\x8e\xe9eB=\xb8\n:\x8f\xbc\xa5\xbc\x94\xf2\x7f?N\xa2\xb3>1b\x87?\x80\xe9u\xc2`\x0f:\xc3E\x9eKB=\xb8\n:\x8f\xbc\xa5\xbc\x94\xf2\x7f?\xcf\x17\x82>\x1d\x1az\xbe\xc8e\xf4C\xf0\x94\x14\xc3\xa1|MBzS#=\xf5\xe0\x17=\xc6\x9e\x7f?\xae!\x1d@\x98.\xc1\xbd\x1c\x12\xf8C \xf7fB\x8f\xaa-BzS#=\xf5\xe0\x17=\xc6\x9e\x7f?!\x03\x1f@\x8b ;?\xe4\x1f\xc1CX\x04XC\xb1\xb5'BzS#=\xf5\xe0\x17=\xc6\x9e\x7f?9\xe1\x02@\xc7\x99\xae? (192 @ ecf)
+			}
+
+            u3 sub-sub-sub-block { (52 @ 12f2)
+
+                w : 0.5 (0d @ 12f4)
+                x : 0.5 (15 @ 12f9)
+                y : 0.5 (1d @ 12fe)
+                z : 1.0 (25 @ 1303)
+			}
+		}
+	}
+
+    component sub-block { (1a @ 1308)
+
+        component type : GroundMeshGenerator (0a @ 130a)
+        number : 102(10 @ 131f)
+
+        ground mesh generator sub-sub-block { (382 @ 1322)
+
+            ground polygon : 100(08 @ 1324)
+            ground mesh : 101(10 @ 1326)
+            texture mapping 1 : 103(18 @ 1328)
+            texture mapping 2 : 104(20 @ 132a)
+            u4 : 0(28 @ 132c)
+            u5 : 20.0 (35 @ 132e)
+            u6 : 0(38 @ 1333)
+            u7 : 100.0 (45 @ 1335)
+            u8 : 25.0 (4d @ 133a)
+            u9 : 5.0 (55 @ 133f)
+            u10 : 5.0 (5d @ 1344)
+		}
+	}
+
+    component sub-block { (1a @ 1349)
+
+        component type : TextureMapping (0a @ 134b)
+        number : 103(10 @ 135b)
+
+        texture mapping sub-sub-block { (38a @ 135e)
+
+            texture file : cavewalls (0a @ 1360)
+            u0 : 250.0 (15 @ 136b)
+
+            u0 sub-sub-sub-block { (1a @ 1370)
+
+                u1 : 0.0 (0d @ 1372)
+                u2 : 0.0 (15 @ 1377)
+			}
+		}
+	}
+
+    component sub-block { (1a @ 137c)
+
+        component type : TextureMapping (0a @ 137e)
+        number : 104(10 @ 138e)
+
+        texture mapping sub-sub-block { (38a @ 1391)
+
+            texture file : cavewalls2 (0a @ 1393)
+            u0 : 250.0 (15 @ 139f)
+
+            u0 sub-sub-sub-block { (1a @ 13a4)
+
+                u1 : 0.0 (0d @ 13a6)
+                u2 : 0.0 (15 @ 13ab)
+			}
+		}
+	}
+
+    position sub-block { (22 @ 13b0)
+
+        x position : -2989.817626953125 (0d @ 13b2)
+        y position : -1789.3062744140625 (15 @ 13b7)
+	}
+    z position : -177.32369995117188 (2d @ 13bc)
+    rotation : 0.0 (35 @ 13c1)
+    scale : 1.0 (3d @ 13c6)
+
+    u2 sub-block { (42 @ 13cb)
+
+        w : -496.1414794921875 (0d @ 13cd)
+        x : -234.740966796875 (15 @ 13d2)
+        y : 992.282958984375 (1d @ 13d7)
+        z : 469.48193359375 (25 @ 13dc)
+	}
+    hidden : 0(48 @ 13e1)
+}
+
+object block { (0a @ 13e3)
+
+    identifier : obj14 (12 @ 13e6)
+
+    component sub-block { (1a @ 13ed)
+
+        component type : CollisionShape (0a @ 13ef)
+        number : 101(10 @ 13ff)
+
+        collision shape sub-sub-block { (3c2 @ 1402)
+
+
+            u0 sub-sub-sub-block { (0a @ 1404)
+
+                w : -45.0 (0d @ 1406)
+                x : -200.0 (15 @ 140b)
+                y : 90.0 (1d @ 1410)
+                z : 400.0 (25 @ 1415)
+			}
+		}
+
+        collision shape 2 sub-sub-block { (3ca @ 141b)
+
+            w : -15.0 (35 @ 141d)
+            x : 15.0 (3d @ 1422)
+            y : 2(40 @ 1427)
+            z : 1(58 @ 1429)
+		}
+	}
+
+    component sub-block { (1a @ 142b)
+
+        component type : Portal (0a @ 142d)
+        number : 104(10 @ 1435)
+
+        portal sub-sub-block { (fa2 @ 1438)
+
+            target level : wasteland_part1 (0a @ 143a)
+            spawnpoint :  (12 @ 144b)
+            touchable : 0(18 @ 144d)
+            collision shape component : 101(20 @ 144f)
+		}
+	}
+
+    position sub-block { (22 @ 1451)
+
+        x position : -3141.363525390625 (0d @ 1453)
+        y position : -1194.291259765625 (15 @ 1458)
+	}
+    z position : 0.0 (2d @ 145d)
+    rotation : 0.0 (35 @ 1462)
+    scale : 1.0 (3d @ 1467)
+
+    u2 sub-block { (42 @ 146c)
+
+        w : -45.0 (0d @ 146e)
+        x : -200.0 (15 @ 1473)
+        y : 90.0 (1d @ 1478)
+        z : 400.0 (25 @ 147d)
+	}
+    hidden : 0(48 @ 1482)
+}
+
+object block { (0a @ 1484)
+
+    identifier : obj14#2 (12 @ 1487)
+
+    component sub-block { (1a @ 1490)
+
+        component type : CollisionShape (0a @ 1492)
+        number : 101(10 @ 14a2)
+
+        collision shape sub-sub-block { (3c2 @ 14a5)
+
+
+            u0 sub-sub-sub-block { (0a @ 14a7)
+
+                w : -45.0 (0d @ 14a9)
+                x : -200.0 (15 @ 14ae)
+                y : 90.0 (1d @ 14b3)
+                z : 400.0 (25 @ 14b8)
+			}
+		}
+
+        collision shape 2 sub-sub-block { (3ca @ 14be)
+
+            w : -15.0 (35 @ 14c0)
+            x : 15.0 (3d @ 14c5)
+            y : 2(40 @ 14ca)
+            z : 1(58 @ 14cc)
+		}
+	}
+
+    component sub-block { (1a @ 14ce)
+
+        component type : Portal (0a @ 14d0)
+        number : 104(10 @ 14d8)
+
+        portal sub-sub-block { (fa2 @ 14db)
+
+            target level : wasteland_house1 (0a @ 14dd)
+            spawnpoint :  (12 @ 14ef)
+            touchable : 0(18 @ 14f1)
+            collision shape component : 101(20 @ 14f3)
+		}
+	}
+
+    position sub-block { (22 @ 14f5)
+
+        x position : -3143.034912109375 (0d @ 14f7)
+        y position : -1707.234130859375 (15 @ 14fc)
+	}
+    z position : 0.0 (2d @ 1501)
+    rotation : 0.0 (35 @ 1506)
+    scale : 1.0 (3d @ 150b)
+
+    u2 sub-block { (42 @ 1510)
+
+        w : -45.0 (0d @ 1512)
+        x : -200.0 (15 @ 1517)
+        y : 90.0 (1d @ 151c)
+        z : 400.0 (25 @ 1521)
+	}
+    hidden : 0(48 @ 1526)
+}
+
+object block { (0a @ 1528)
+
+    name : stonepile (0a @ 152a)
+    identifier : obj3 (12 @ 1535)
+
+    position sub-block { (22 @ 153b)
+
+        x position : -2476.3828125 (0d @ 153d)
+        y position : -1814.150390625 (15 @ 1542)
+	}
+    z position : 0.0 (2d @ 1547)
+    rotation : 0.0 (35 @ 154c)
+    scale : 1.0 (3d @ 1551)
+
+    u2 sub-block { (42 @ 1556)
+
+        w : -53.978271484375 (0d @ 1558)
+        x : -14.460078239440918 (15 @ 155d)
+        y : 132.95672607421875 (1d @ 1562)
+        z : 145.86697387695312 (25 @ 1567)
+	}
+    hidden : 0(48 @ 156c)
+}
+
+object block { (0a @ 156e)
+
+    name : point_250_15 (0a @ 1570)
+    identifier : obj4 (12 @ 157e)
+
+    position sub-block { (22 @ 1584)
+
+        x position : -2528.30615234375 (0d @ 1586)
+        y position : -1234.2449951171875 (15 @ 158b)
+	}
+    z position : 0.0 (2d @ 1590)
+    rotation : 0.0 (35 @ 1595)
+    scale : 1.0 (3d @ 159a)
+
+    u2 sub-block { (42 @ 159f)
+
+        w : -50.0 (0d @ 15a1)
+        x : -50.0 (15 @ 15a6)
+        y : 100.0 (1d @ 15ab)
+        z : 100.0 (25 @ 15b0)
+	}
+    hidden : 0(48 @ 15b5)
+}
+
+object block { (0a @ 15b7)
+
+    name : point_250_15 (0a @ 15b9)
+    identifier : obj4#2 (12 @ 15c7)
+
+    position sub-block { (22 @ 15cf)
+
+        x position : -2887.474853515625 (0d @ 15d1)
+        y position : -1222.90234375 (15 @ 15d6)
+	}
+    z position : 0.0 (2d @ 15db)
+    rotation : 0.0 (35 @ 15e0)
+    scale : 1.0 (3d @ 15e5)
+
+    u2 sub-block { (42 @ 15ea)
+
+        w : -50.0 (0d @ 15ec)
+        x : -50.0 (15 @ 15f1)
+        y : 100.0 (1d @ 15f6)
+        z : 100.0 (25 @ 15fb)
+	}
+    hidden : 0(48 @ 1600)
+}
+
+object block { (0a @ 1602)
+
+    name : point_250_15 (0a @ 1604)
+    identifier : obj4#3 (12 @ 1612)
+
+    position sub-block { (22 @ 161a)
+
+        x position : -2738.60009765625 (0d @ 161c)
+        y position : -1045.3690185546875 (15 @ 1621)
+	}
+    z position : 0.0 (2d @ 1626)
+    rotation : 0.0 (35 @ 162b)
+    scale : 1.0 (3d @ 1630)
+
+    u2 sub-block { (42 @ 1635)
+
+        w : -50.0 (0d @ 1637)
+        x : -50.0 (15 @ 163c)
+        y : 100.0 (1d @ 1641)
+        z : 100.0 (25 @ 1646)
+	}
+    hidden : 0(48 @ 164b)
+}
+
+object block { (0a @ 164d)
+
+    name : point_250_15 (0a @ 164f)
+    identifier : obj4#4 (12 @ 165d)
+
+    position sub-block { (22 @ 1665)
+
+        x position : -2682.12158203125 (0d @ 1667)
+        y position : -1456.3446044921875 (15 @ 166c)
+	}
+    z position : 0.0 (2d @ 1671)
+    rotation : 0.0 (35 @ 1676)
+    scale : 1.0 (3d @ 167b)
+
+    u2 sub-block { (42 @ 1680)
+
+        w : -50.0 (0d @ 1682)
+        x : -50.0 (15 @ 1687)
+        y : 100.0 (1d @ 168c)
+        z : 100.0 (25 @ 1691)
+	}
+    hidden : 0(48 @ 1696)
+}
+
+object block { (0a @ 1698)
+
+    name : point_250_15 (0a @ 169a)
+    identifier : obj4#5 (12 @ 16a8)
+
+    position sub-block { (22 @ 16b0)
+
+        x position : -3145.37841796875 (0d @ 16b2)
+        y position : -1299.265625 (15 @ 16b7)
+	}
+    z position : 0.0 (2d @ 16bc)
+    rotation : 0.0 (35 @ 16c1)
+    scale : 1.0 (3d @ 16c6)
+
+    u2 sub-block { (42 @ 16cb)
+
+        w : -50.0 (0d @ 16cd)
+        x : -50.0 (15 @ 16d2)
+        y : 100.0 (1d @ 16d7)
+        z : 100.0 (25 @ 16dc)
+	}
+    hidden : 0(48 @ 16e1)
+}
+
+object block { (0a @ 16e3)
+
+    identifier : obj5 (12 @ 16e6)
+
+    component sub-block { (1a @ 16ec)
+
+        component type : GroundPolygon (0a @ 16ef)
+        number : 100(10 @ 16fe)
+
+        ground polygon sub-sub-block { (372 @ 1701)
+
+
+             sub-sub-sub-block { (12 @ 1704)
+
+
+                u0 sub-sub-sub-sub-block { (0a @ 1707)
+
+                    x : -562.12548828125 (0d @ 1709)
+                    y : -100.67022705078125 (15 @ 170e)
+				}
+
+                u0 sub-sub-sub-sub-block { (0a @ 1713)
+
+                    x : -198.04010009765625 (0d @ 1715)
+                    y : -773.2092895507812 (15 @ 171a)
+				}
+
+                u0 sub-sub-sub-sub-block { (0a @ 171f)
+
+                    x : 346.23565673828125 (0d @ 1721)
+                    y : -628.7117309570312 (15 @ 1726)
+				}
+
+                u0 sub-sub-sub-sub-block { (0a @ 172b)
+
+                    x : 536.3961791992188 (0d @ 172d)
+                    y : -60.16143798828125 (15 @ 1732)
+				}
+
+                u0 sub-sub-sub-sub-block { (0a @ 1737)
+
+                    x : 537.4015502929688 (0d @ 1739)
+                    y : -32.178619384765625 (15 @ 173e)
+				}
+
+                u0 sub-sub-sub-sub-block { (0a @ 1743)
+
+                    x : 538.4066772460938 (0d @ 1745)
+                    y : -4.195892333984375 (15 @ 174a)
+				}
+
+                u0 sub-sub-sub-sub-block { (0a @ 174f)
+
+                    x : 539.3939819335938 (0d @ 1751)
+                    y : 39.907623291015625 (15 @ 1756)
+				}
+
+                u0 sub-sub-sub-sub-block { (0a @ 175b)
+
+                    x : 540.3810424804688 (0d @ 175d)
+                    y : 84.01089477539062 (15 @ 1762)
+				}
+
+                u0 sub-sub-sub-sub-block { (0a @ 1767)
+
+                    x : 541.3546752929688 (0d @ 1769)
+                    y : 140.26492309570312 (15 @ 176e)
+				}
+
+                u0 sub-sub-sub-sub-block { (0a @ 1773)
+
+                    x : 542.3280639648438 (0d @ 1775)
+                    y : 196.51889038085938 (15 @ 177a)
+				}
+
+                u0 sub-sub-sub-sub-block { (0a @ 177f)
+
+                    x : 543.2921752929688 (0d @ 1781)
+                    y : 261.1877136230469 (15 @ 1786)
+				}
+
+                u0 sub-sub-sub-sub-block { (0a @ 178b)
+
+                    x : -247.54473876953125 (0d @ 178d)
+                    y : 249.00738525390625 (15 @ 1792)
+				}
+
+                u0 sub-sub-sub-sub-block { (0a @ 1797)
+
+                    x : -296.02935791015625 (0d @ 1799)
+                    y : 346.7269287109375 (15 @ 179e)
+				}
+
+                u0 sub-sub-sub-sub-block { (0a @ 17a3)
+
+                    x : 146.6104736328125 (0d @ 17a5)
+                    y : 400.861083984375 (15 @ 17aa)
+				}
+
+                u0 sub-sub-sub-sub-block { (0a @ 17af)
+
+                    x : 345.97314453125 (0d @ 17b1)
+                    y : 470.2261962890625 (15 @ 17b6)
+				}
+
+                u0 sub-sub-sub-sub-block { (0a @ 17bb)
+
+                    x : 416.2647705078125 (0d @ 17bd)
+                    y : 453.70867919921875 (15 @ 17c2)
+				}
+
+                u0 sub-sub-sub-sub-block { (0a @ 17c7)
+
+                    x : 493.36492919921875 (0d @ 17c9)
+                    y : 370.7901611328125 (15 @ 17ce)
+				}
+
+                u0 sub-sub-sub-sub-block { (0a @ 17d3)
+
+                    x : 562.1254272460938 (0d @ 17d5)
+                    y : 363.3468017578125 (15 @ 17da)
+				}
+
+                u0 sub-sub-sub-sub-block { (0a @ 17df)
+
+                    x : 540.077880859375 (0d @ 17e1)
+                    y : 762.7499389648438 (15 @ 17e6)
+				}
+
+                u0 sub-sub-sub-sub-block { (0a @ 17eb)
+
+                    x : 350.83154296875 (0d @ 17ed)
+                    y : 759.5994262695312 (15 @ 17f2)
+				}
+
+                u0 sub-sub-sub-sub-block { (0a @ 17f7)
+
+                    x : 252.02740478515625 (0d @ 17f9)
+                    y : 759.81103515625 (15 @ 17fe)
+				}
+
+                u0 sub-sub-sub-sub-block { (0a @ 1803)
+
+                    x : 151.45660400390625 (0d @ 1805)
+                    y : 758.4202270507812 (15 @ 180a)
+				}
+
+                u0 sub-sub-sub-sub-block { (0a @ 180f)
+
+                    x : 66.7103271484375 (0d @ 1811)
+                    y : 759.058837890625 (15 @ 1816)
+				}
+
+                u0 sub-sub-sub-sub-block { (0a @ 181b)
+
+                    x : -193.1746826171875 (0d @ 181d)
+                    y : 752.2135009765625 (15 @ 1822)
+				}
+
+                u0 sub-sub-sub-sub-block { (0a @ 1827)
+
+                    x : -496.0062255859375 (0d @ 1829)
+                    y : 773.2092895507812 (15 @ 182e)
+				}
+                u0 : 0(10 @ 1833)
+                u1 : 1(18 @ 1835)
+			}
+            u1 : 1(18 @ 1837)
+            u2 : -117.5 (25 @ 1839)
+            u3 : 117.5 (2d @ 183e)
+            u4 :  (32 @ 1843)
+		}
+	}
+
+    component sub-block { (1a @ 1845)
+
+        component type : GroundMesh (0a @ 1848)
+        number : 101(10 @ 1854)
+
+        ground mesh sub-sub-block { (37a @ 1857)
+
+
+            u0 sub-sub-sub-block { (3a @ 185a)
+
+                w : -572.12548828125 (0d @ 185c)
+                x : -783.2092895507812 (15 @ 1861)
+                y : 1144.2509765625 (1d @ 1866)
+                z : 1566.4185791015625 (25 @ 186b)
+			}
+
+            u1 sub-sub-sub-block { (42 @ 1870)
+
+                u0 : 30(08 @ 1873)
+                u1 : 20(10 @ 1875)
+
+                u2 sub-sub-sub-sub-block { (1a @ 1877)
+
+                    u0 : 4(08 @ 1879)
+                    u1 : 1(10 @ 187b)
+                    u2 : 2(18 @ 187d)
+                    u3 : 0(20 @ 187f)
+				}
+
+                u3 sub-sub-sub-sub-block { (22 @ 1881)
+
+                    u0 : 7(08 @ 1883)
+                    u1 : 3(10 @ 1885)
+                    u2 : 32(18 @ 1887)
+                    u3 : 0(20 @ 1889)
+				}
+
+                u4 sub-sub-sub-sub-block { (2a @ 188b)
+
+                    u0 : 7(08 @ 188d)
+                    u1 : 3(10 @ 188f)
+                    u2 : 32(18 @ 1891)
+                    u3 : 12(20 @ 1893)
+				}
+
+                u5 sub-sub-sub-sub-block { (32 @ 1895)
+
+                    u0 : 7(08 @ 1897)
+                    u1 : 2(10 @ 1899)
+                    u2 : 32(18 @ 189b)
+                    u3 : 24(20 @ 189d)
+				}
+
+                u6 sub-sub-sub-sub-block { (52 @ 189f)
+
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 18a1)
+
+                        w : 1.0 (0d @ 18a3)
+                        x : 1.0 (15 @ 18a8)
+                        y : 1.0 (1d @ 18ad)
+                        z : 1.0 (25 @ 18b2)
+					}
+
+                    u1 sub-sub-sub-sub-sub-block { (12 @ 18b7)
+
+                        w : 1.0 (0d @ 18b9)
+                        x : 1.0 (15 @ 18be)
+                        y : 1.0 (1d @ 18c3)
+                        z : 1.0 (25 @ 18c8)
+					}
+
+                    u2 sub-sub-sub-sub-sub-block { (1a @ 18cd)
+
+                        w : 1.0 (0d @ 18cf)
+                        x : 1.0 (15 @ 18d4)
+                        y : 1.0 (1d @ 18d9)
+                        z : 1.0 (25 @ 18de)
+					}
+                    u3 : 0.0 (25 @ 18e3)
+                    u4 : \n\x08brown128\x10\x01 \x02 (2a @ 18e8)
+				}
+
+                u7 sub-sub-sub-sub-block { (5a @ 18f8)
+
+                    u : -247.54473876953125 (0d @ 18fa)
+                    v : 224.00738525390625 (15 @ 18ff)
+                    w : -122.5 (1d @ 1904)
+                    x : 793.8365478515625 (25 @ 1909)
+                    y : 538.79248046875 (2d @ 190e)
+                    z : 245.0 (35 @ 1913)
+				}
+                u8 : \xad\x92\x08D\xf1\x9d\x82C\x00\x00\xeb\xc2BP|\xbc:\xf8\x7f?\x00\x00\x00\x00\x00\x00\x00?\x8f\xc2\xf5<\xad\x92\x08D\xf1\x9d\x82C\x00\x00\xebBBP|\xbc:\xf8\x7f?\x00\x00\x00\x00\x00\x00\x00?\xecQx?\xad\x92\x08D\xe2;{C\x00\x00\xf5B\x00\x00\x00\x80\x00\x00\x00\x00\x00\x00\x80?\x1f\x85\xeb>\xa4p}?\xad\x92\x08D\xe2;lC33\xebBBP|<:\xf8\x7f\xbf\x00\x00\x00\x80\xcd\xcc\xcc>"lx?\xad\x92\x08D\xe2;lC\xcd\xcc\xea\xc2BP|<:\xf8\x7f\xbf\x00\x00\x00\x80\xcd\xcc\xcc>h\t\xf9<\xad\x92\x08D\xe2;{C\x00\x00\xf5\xc2\x00\x00\x00\x80\x00\x00\x00\x00\x00\x00\x80?\x1f\x85\xeb>\n\xd7#<\xad\x92\x08D\xf1\x9d\x82C\x00\x00\xeb\xc2BP|\xbc:\xf8\x7f?\x00\x00\x00\x00\x00\x00\x00?\x8f\xc2\xf5<\xad\x92\x08D\xf1\x9d\x82C\x00\x00\xebBBP|\xbc:\xf8\x7f?\x00\x00\x00\x00\x00\x00\x00?\xecQx?\xad\x92\x08D\xe2;{C\x00\x00\xf5B\x00\x00\x00\x80\x00\x00\x00\x00\x00\x00\x80?\x00\x00\x00?d\xe2\x81?\xad\x92\x08D\xe2;lC33\xebBBP|<:\xf8\x7f\xbf\x00\x00\x00\x80\x00\x00\x00?\xb6\xf6\x89?t\x8bw\xc3\xe4\x01yC\x00\x00\xeb\xc2BP|\xbc:\xf8\x7f?\x00\x00\x00\x00pzj@\x8f\xc2\xf5<t\x8bw\xc3\xe4\x01yC\x00\x00\xebBBP|\xbc:\xf8\x7f?\x00\x00\x00\x00pzj@\xecQx?t\x8bw\xc3\xe4\x01oC\x00\x00\xf5B\x00\x00\x00\x80\x00\x00\x00\x00\x00\x00\x80?pzj@d\xe2\x81?t\x8bw\xc3\xe4\x01`C33\xebBBP|<:\xf8\x7f\xbf\x00\x00\x00\x80pzj@\xb6\xf6\x89?t\x8bw\xc3\xe4\x01yC\x00\x00\xeb\xc2BP|\xbc:\xf8\x7f?\x00\x00\x00\x00pzj@\x8f\xc2\xf5<t\x8bw\xc3\xe4\x01yC\x00\x00\xebBBP|\xbc:\xf8\x7f?\x00\x00\x00\x00pzj@\xecQx?t\x8bw\xc3\xe4\x01oC\x00\x00\xf5B\x00\x00\x00\x80\x00\x00\x00\x00\x00\x00\x80?\xcc\tm@\xa4p}?t\x8bw\xc3\xe4\x01`C33\xebBBP|<:\xf8\x7f\xbf\x00\x00\x00\x80\xd6\xe0p@"lx?t\x8bw\xc3\xe4\x01`C\xcd\xcc\xea\xc2BP|<:\xf8\x7f\xbf\x00\x00\x00\x80\xd6\xe0p@h\t\xf9<t\x8bw\xc3\xe4\x01oC\x00\x00\xf5\xc2\x00\x00\x00\x80\x00\x00\x00\x00\x00\x00\x80?\xcc\tm@\n\xd7#<\xf5\xc4\x07D1\xb3>D\x00\x00\xeb\xc2\xe2[\x88\xbc\xed\xf6\x7f?\x00\x00\x00\x00pzj@\x8f\xc2\xf5<\xf5\xc4\x07D1\xb3>D\x00\x00\xebB\xe2[\x88\xbc\xed\xf6\x7f?\x00\x00\x00\x00pzj@\xecQx?\xf5\xc4\x07D13<D\x00\x00\xf5B\x00\x00\x00\x80\x00\x00\x00\x00\x00\x00\x80?\x13\xebg@\xa4p}?\xf5\xc4\x07D1s8D33\xebB\xe2[\x88<\xed\xf6\x7f\xbf\x00\x00\x00\x80\t\x14d@"lx?\xf5\xc4\x07D1s8D\xcd\xcc\xea\xc2\xe2[\x88<\xed\xf6\x7f\xbf\x00\x00\x00\x80\t\x14d@h\t\xf9<\xf5\xc4\x07D13<D\x00\x00\xf5\xc2\x00\x00\x00\x80\x00\x00\x00\x00\x00\x00\x80?\x13\xebg@\n\xd7#<\xf5\xc4\x07D1\xb3>D\x00\x00\xeb\xc2\xe2[\x88\xbc\xed\xf6\x7f?\x00\x00\x00\x00pzj@\x8f\xc2\xf5<\xf5\xc4\x07D1\xb3>D\x00\x00\xebB\xe2[\x88\xbc\xed\xf6\x7f?\x00\x00\x00\x00pzj@\xecQx?pj\xafC]\xe6=D\x00\x00\xeb\xc2*\'\'\xbc\x97\xfc\x7f?\x00\x00\x00\x00Mw\x8d@\x8f\xc2\xf5<pj\xafC]\xe6=D\x00\x00\xebB*\'\'\xbc\x97\xfc\x7f?\x00\x00\x00\x00Mw\x8d@\xecQx? (192 @ 1919)
+                u9 : \x00\x00\x04\x00\x05\x00\x00\x00\x03\x00\x04\x00\x00\x00\x01\x00\x03\x00\x01\x00\x02\x00\x03\x00\x06\x00\n\x00\x0b\x00\x07\x00\x06\x00\x0b\x00\x07\x00\x0b\x00\x0c\x00\x08\x00\x07\x00\x0c\x00\x08\x00\x0c\x00\r\x00\t\x00\x08\x00\r\x00\x0e\x00\x13\x00\x12\x00\x0e\x00\x12\x00\x11\x00\x0e\x00\x11\x00\x0f\x00\x11\x00\x10\x00\x0f\x00\x14\x00\x18\x00\x19\x00\x14\x00\x17\x00\x18\x00\x14\x00\x15\x00\x17\x00\x15\x00\x16\x00\x17\x00\x1a\x00\x1c\x00\x1d\x00\x1b\x00\x1a\x00\x1d\x00 (19a @ 1cdd)
+			}
+
+            u1 sub-sub-sub-block { (42 @ 1d57)
+
+                u0 : 18(08 @ 1d5a)
+                u1 : 20(10 @ 1d5c)
+
+                u2 sub-sub-sub-sub-block { (1a @ 1d5e)
+
+                    u0 : 4(08 @ 1d60)
+                    u1 : 1(10 @ 1d62)
+                    u2 : 2(18 @ 1d64)
+                    u3 : 0(20 @ 1d66)
+				}
+
+                u3 sub-sub-sub-sub-block { (22 @ 1d68)
+
+                    u0 : 7(08 @ 1d6a)
+                    u1 : 3(10 @ 1d6c)
+                    u2 : 32(18 @ 1d6e)
+                    u3 : 0(20 @ 1d70)
+				}
+
+                u4 sub-sub-sub-sub-block { (2a @ 1d72)
+
+                    u0 : 7(08 @ 1d74)
+                    u1 : 3(10 @ 1d76)
+                    u2 : 32(18 @ 1d78)
+                    u3 : 12(20 @ 1d7a)
+				}
+
+                u5 sub-sub-sub-sub-block { (32 @ 1d7c)
+
+                    u0 : 7(08 @ 1d7e)
+                    u1 : 2(10 @ 1d80)
+                    u2 : 32(18 @ 1d82)
+                    u3 : 24(20 @ 1d84)
+				}
+
+                u6 sub-sub-sub-sub-block { (52 @ 1d86)
+
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 1d88)
+
+                        w : 1.0 (0d @ 1d8a)
+                        x : 1.0 (15 @ 1d8f)
+                        y : 1.0 (1d @ 1d94)
+                        z : 1.0 (25 @ 1d99)
+					}
+
+                    u1 sub-sub-sub-sub-sub-block { (12 @ 1d9e)
+
+                        w : 1.0 (0d @ 1da0)
+                        x : 1.0 (15 @ 1da5)
+                        y : 1.0 (1d @ 1daa)
+                        z : 1.0 (25 @ 1daf)
+					}
+
+                    u2 sub-sub-sub-sub-sub-block { (1a @ 1db4)
+
+                        w : 1.0 (0d @ 1db6)
+                        x : 1.0 (15 @ 1dbb)
+                        y : 1.0 (1d @ 1dc0)
+                        z : 1.0 (25 @ 1dc5)
+					}
+                    u3 : 0.0 (25 @ 1dca)
+                    u4 : \n\x08brown128\x10\x01 \x02 (2a @ 1dcf)
+				}
+
+                u7 sub-sub-sub-sub-block { (5a @ 1ddf)
+
+                    u : 66.7103271484375 (0d @ 1de1)
+                    v : 733.4202270507812 (15 @ 1de6)
+                    w : -117.5 (1d @ 1deb)
+                    x : 476.36712646484375 (25 @ 1df0)
+                    y : 29.379638671875 (2d @ 1df5)
+                    z : 240.0 (35 @ 1dfa)
+				}
+                u8 : \xf5\xc4\x07D1\xb3>D\x00\x00\xebB\xe2[\x88\xbc\xed\xf6\x7f?\x00\x00\x00\x00pzj@\xecQx?\xf5\xc4\x07D13<D\x00\x00\xf5B\x00\x00\x00\x80\x00\x00\x00\x00\x00\x00\x80?pzj@d\xe2\x81?\xf5\xc4\x07D1s8D33\xebB\xe2[\x88<\xed\xf6\x7f\xbf\x00\x00\x00\x80pzj@\xb6\xf6\x89?pj\xafC]\xe6=D\x00\x00\xeb\xc2*''\xbc\x97\xfc\x7f?\x00\x00\x00\x00Mw\x8d@\x8f\xc2\xf5<pj\xafC]\xe6=D\x00\x00\xebB*''\xbc\x97\xfc\x7f?\x00\x00\x00\x00Mw\x8d@\xecQx?pj\xafC]f;D\x00\x00\xf5B\x00\x00\x00\x80\x00\x00\x00\x00\x00\x00\x80?Mw\x8d@d\xe2\x81?pj\xafC]\xa67D33\xebB*''<\x97\xfc\x7f\xbf\x00\x00\x00\x80Mw\x8d@\xb6\xf6\x89?\x04\x07|C\xe8\xf3=D\x00\x00\xeb\xc2c\xcd\xc1\xbb\xd9\xfe\x7f?\x00\x00\x00\x00\xec\x1c\x9a@\x8f\xc2\xf5<\x04\x07|C\xe8\xf3=D\x00\x00\xebBc\xcd\xc1\xbb\xd9\xfe\x7f?\x00\x00\x00\x00\xec\x1c\x9a@\xecQx?\x04\x07|C\xe8s;D\x00\x00\xf5B\x00\x00\x00\x80\x00\x00\x00\x00\x00\x00\x80?\xec\x1c\x9a@d\xe2\x81?\x04\x07|C\xe8\xb37D33\xebBc\xcd\xc1;\xd9\xfe\x7f\xbf\x00\x00\x00\x80\xec\x1c\x9a@\xb6\xf6\x89?\xe4t\x17C\xe5\x9a=D\x00\x00\xeb\xc2\xdd\x00\x85\xbbv\xff\x7f?\x00\x00\x00\x00\xbd\xfc\xa6@\x8f\xc2\xf5<\xe4t\x17C\xe5\x9a=D\x00\x00\xebB\xdd\x00\x85\xbbv\xff\x7f?\x00\x00\x00\x00\xbd\xfc\xa6@\xecQx?\xe4t\x17C\xe5\x1a;D\x00\x00\xf5B\x00\x00\x00\x80\x00\x00\x00\x00\xff\xff\x7f?\xbd\xfc\xa6@d\xe2\x81?\xe4t\x17C\xe5Z7D33\xebB\xdd\x00\x85;v\xff\x7f\xbf\x00\x00\x00\x80\xbd\xfc\xa6@\xb6\xf6\x89?\xb0k\x85B\xc4\xc3=D\x00\x00\xeb\xc2\x13\x83\x93\xbc`\xf5\x7f?\x00\x00\x00\x00\xc9\xd5\xb1@\x8f\xc2\xf5<\xb0k\x85B\xc4\xc3=D\x00\x00\xebB\x13\x83\x93\xbc`\xf5\x7f?\x00\x00\x00\x00\xc9\xd5\xb1@\xecQx?\xb0k\x85B\xc4C;D\x00\x00\xf5B\x00\x00\x00\x80\x00\x00\x00\x00\x00\x00\x80?\xc9\xd5\xb1@d\xe2\x81? (192 @ 1e00)
+                u9 : \x00\x00\x04\x00\x05\x00\x01\x00\x00\x00\x05\x00\x01\x00\x05\x00\x06\x00\x02\x00\x01\x00\x06\x00\x03\x00\x07\x00\x08\x00\x04\x00\x03\x00\x08\x00\x04\x00\x08\x00\t\x00\x05\x00\x04\x00\t\x00\x05\x00\t\x00\n\x00\x06\x00\x05\x00\n\x00\x07\x00\x0b\x00\x0c\x00\x08\x00\x07\x00\x0c\x00\x08\x00\x0c\x00\r\x00\t\x00\x08\x00\r\x00\t\x00\r\x00\x0e\x00\n\x00\t\x00\x0e\x00\x0b\x00\x0f\x00\x10\x00\x0c\x00\x0b\x00\x10\x00\x0c\x00\x10\x00\x11\x00\r\x00\x0c\x00\x11\x00 (19a @ 2044)
+			}
+
+            u1 sub-sub-sub-block { (42 @ 20be)
+
+                u0 : 20(08 @ 20c1)
+                u1 : 18(10 @ 20c3)
+
+                u2 sub-sub-sub-sub-block { (1a @ 20c5)
+
+                    u0 : 4(08 @ 20c7)
+                    u1 : 1(10 @ 20c9)
+                    u2 : 2(18 @ 20cb)
+                    u3 : 0(20 @ 20cd)
+				}
+
+                u3 sub-sub-sub-sub-block { (22 @ 20cf)
+
+                    u0 : 7(08 @ 20d1)
+                    u1 : 3(10 @ 20d3)
+                    u2 : 32(18 @ 20d5)
+                    u3 : 0(20 @ 20d7)
+				}
+
+                u4 sub-sub-sub-sub-block { (2a @ 20d9)
+
+                    u0 : 7(08 @ 20db)
+                    u1 : 3(10 @ 20dd)
+                    u2 : 32(18 @ 20df)
+                    u3 : 12(20 @ 20e1)
+				}
+
+                u5 sub-sub-sub-sub-block { (32 @ 20e3)
+
+                    u0 : 7(08 @ 20e5)
+                    u1 : 2(10 @ 20e7)
+                    u2 : 32(18 @ 20e9)
+                    u3 : 24(20 @ 20eb)
+				}
+
+                u6 sub-sub-sub-sub-block { (52 @ 20ed)
+
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 20ef)
+
+                        w : 1.0 (0d @ 20f1)
+                        x : 1.0 (15 @ 20f6)
+                        y : 1.0 (1d @ 20fb)
+                        z : 1.0 (25 @ 2100)
+					}
+
+                    u1 sub-sub-sub-sub-sub-block { (12 @ 2105)
+
+                        w : 1.0 (0d @ 2107)
+                        x : 1.0 (15 @ 210c)
+                        y : 1.0 (1d @ 2111)
+                        z : 1.0 (25 @ 2116)
+					}
+
+                    u2 sub-sub-sub-sub-sub-block { (1a @ 211b)
+
+                        w : 1.0 (0d @ 211d)
+                        x : 1.0 (15 @ 2122)
+                        y : 1.0 (1d @ 2127)
+                        z : 1.0 (25 @ 212c)
+					}
+                    u3 : 0.0 (25 @ 2131)
+                    u4 : \n\x08brown128\x10\x01 \x02 (2a @ 2136)
+				}
+
+                u7 sub-sub-sub-sub-block { (5a @ 2146)
+
+                    u : -498.9990539550781 (0d @ 2148)
+                    v : 727.2135009765625 (15 @ 214d)
+                    w : -122.5 (1d @ 2152)
+                    x : 650.4556884765625 (25 @ 2157)
+                    y : 46.20330810546875 (2d @ 215c)
+                    z : 245.0 (35 @ 2161)
+				}
+                u8 : \xe4t\x17C\xe5\x1a;D\x00\x00\xf5B\x00\x00\x00\x80\x00\x00\x00\x00\xff\xff\x7f?\xbd\xfc\xa6@d\xe2\x81?\xe4t\x17C\xe5Z7D33\xebB\xdd\x00\x85;v\xff\x7f\xbf\x00\x00\x00\x80\xbd\xfc\xa6@\xb6\xf6\x89?\xb0k\x85B\xc4\xc3=D\x00\x00\xeb\xc2\x13\x83\x93\xbc`\xf5\x7f?\x00\x00\x00\x00\xc9\xd5\xb1@\x8f\xc2\xf5<\xb0k\x85B\xc4\xc3=D\x00\x00\xebB\x13\x83\x93\xbc`\xf5\x7f?\x00\x00\x00\x00\xc9\xd5\xb1@\xecQx?\xb0k\x85B\xc4C;D\x00\x00\xf5B\x00\x00\x00\x80\x00\x00\x00\x00\x00\x00\x80?\xc9\xd5\xb1@d\xe2\x81?\xb0k\x85B\xc4\x837D33\xebB\x13\x83\x93<`\xf5\x7f\xbf\x00\x00\x00\x80\xc9\xd5\xb1@\xb6\xf6\x89?\xb8,A\xc3\xaa\r<D\x00\x00\xeb\xc2\xbc\xef\xcd<I\xeb\x7f?\x00\x00\x00\x00\xa6\x1c\xd3@\x8f\xc2\xf5<\xb8,A\xc3\xaa\r<D\x00\x00\xebB\xbc\xef\xcd<I\xeb\x7f?\x00\x00\x00\x00\xa6\x1c\xd3@\xecQx?\xb8,A\xc3\xaa\x8d9D\x00\x00\xf5B\x00\x00\x00\x80\x00\x00\x00\x00\x00\x00\x80?\xa6\x1c\xd3@d\xe2\x81?\xb8,A\xc3\xaa\xcd5D33\xebB\xbc\xef\xcd\xbcI\xeb\x7f\xbf\x00\x00\x00\x80\xa6\x1c\xd3@\xb6\xf6\x89?\xe1\x7f\xf9\xc3\xadZAD\x00\x00\xeb\xc2\xaa\xa6\x8d=\x0ec\x7f?\x00\x00\x00\x00\xa7\xf7\xf9@\x8f\xc2\xf5<\xe1\x7f\xf9\xc3\xadZAD\x00\x00\xebB\xaa\xa6\x8d=\x0ec\x7f?\x00\x00\x00\x00\xa7\xf7\xf9@\xecQx?\xe1\x7f\xf9\xc3\xad\xda>D\x00\x00\xf5B\x00\x00\x00\x80\x00\x00\x00\x00\x00\x00\x80?\xa7\xf7\xf9@d\xe2\x81?\xe1\x7f\xf9\xc3\xad\x1a;D33\xebB\xaa\xa6\x8d\xbd\x0ec\x7f\xbf\x00\x00\x00\x80\xa7\xf7\xf9@\xb6\xf6\x89?\xe1\x7f\xf9\xc3\xadZAD\x00\x00\xeb\xc2\xaa\xa6\x8d=\x0ec\x7f?\x00\x00\x00\x00\xa7\xf7\xf9@\x8f\xc2\xf5<\xe1\x7f\xf9\xc3\xadZAD\x00\x00\xebB\xaa\xa6\x8d=\x0ec\x7f?\x00\x00\x00\x00\xa7\xf7\xf9@\xecQx?\xe1\x7f\xf9\xc3\xad\xda>D\x00\x00\xf5B\x00\x00\x00\x80\x00\x00\x00\x00\x00\x00\x80?U?\xfb@\xa4p}?\xe1\x7f\xf9\xc3\xad\x1a;D33\xebB\xaa\xa6\x8d\xbd\x0ec\x7f\xbf\x00\x00\x00\x80\xda*\xfd@"lx?\xe1\x7f\xf9\xc3\xad\x1a;D\xcd\xcc\xea\xc2\xaa\xa6\x8d\xbd\x0ec\x7f\xbf\x00\x00\x00\x80\xda*\xfd@h\t\xf9<\xe1\x7f\xf9\xc3\xad\xda>D\x00\x00\xf5\xc2\x00\x00\x00\x80\x00\x00\x00\x00\x00\x00\x80?U?\xfb@\n\xd7#< (192 @ 2167)
+                u9 : \x00\x00\x04\x00\x05\x00\x01\x00\x00\x00\x05\x00\x02\x00\x06\x00\x07\x00\x03\x00\x02\x00\x07\x00\x03\x00\x07\x00\x08\x00\x04\x00\x03\x00\x08\x00\x04\x00\x08\x00\t\x00\x05\x00\x04\x00\t\x00\x06\x00\n\x00\x0b\x00\x07\x00\x06\x00\x0b\x00\x07\x00\x0b\x00\x0c\x00\x08\x00\x07\x00\x0c\x00\x08\x00\x0c\x00\r\x00\t\x00\x08\x00\r\x00\x0e\x00\x13\x00\x12\x00\x0e\x00\x12\x00\x11\x00\x0e\x00\x11\x00\x0f\x00\x11\x00\x10\x00\x0f\x00 (19a @ 23eb)
+			}
+
+            u1 sub-sub-sub-block { (42 @ 2459)
+
+                u0 : 24(08 @ 245c)
+                u1 : 20(10 @ 245e)
+
+                u2 sub-sub-sub-sub-block { (1a @ 2460)
+
+                    u0 : 4(08 @ 2462)
+                    u1 : 1(10 @ 2464)
+                    u2 : 2(18 @ 2466)
+                    u3 : 0(20 @ 2468)
+				}
+
+                u3 sub-sub-sub-sub-block { (22 @ 246a)
+
+                    u0 : 7(08 @ 246c)
+                    u1 : 3(10 @ 246e)
+                    u2 : 32(18 @ 2470)
+                    u3 : 0(20 @ 2472)
+				}
+
+                u4 sub-sub-sub-sub-block { (2a @ 2474)
+
+                    u0 : 7(08 @ 2476)
+                    u1 : 3(10 @ 2478)
+                    u2 : 32(18 @ 247a)
+                    u3 : 12(20 @ 247c)
+				}
+
+                u5 sub-sub-sub-sub-block { (32 @ 247e)
+
+                    u0 : 7(08 @ 2480)
+                    u1 : 2(10 @ 2482)
+                    u2 : 32(18 @ 2484)
+                    u3 : 24(20 @ 2486)
+				}
+
+                u6 sub-sub-sub-sub-block { (52 @ 2488)
+
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 248a)
+
+                        w : 1.0 (0d @ 248c)
+                        x : 1.0 (15 @ 2491)
+                        y : 1.0 (1d @ 2496)
+                        z : 1.0 (25 @ 249b)
+					}
+
+                    u1 sub-sub-sub-sub-sub-block { (12 @ 24a0)
+
+                        w : 1.0 (0d @ 24a2)
+                        x : 1.0 (15 @ 24a7)
+                        y : 1.0 (1d @ 24ac)
+                        z : 1.0 (25 @ 24b1)
+					}
+
+                    u2 sub-sub-sub-sub-sub-block { (1a @ 24b6)
+
+                        w : 1.0 (0d @ 24b8)
+                        x : 1.0 (15 @ 24bd)
+                        y : 1.0 (1d @ 24c2)
+                        z : 1.0 (25 @ 24c7)
+					}
+                    u3 : 0.0 (25 @ 24cc)
+                    u4 : \n\tcavewalls\x10\x01 \x01 (2a @ 24d1)
+				}
+
+                u7 sub-sub-sub-sub-block { (5a @ 24e2)
+
+                    u : -562.12548828125 (0d @ 24e4)
+                    v : -773.2092895507812 (15 @ 24e9)
+                    w : -112.5 (1d @ 24ee)
+                    x : 1124.2508544921875 (25 @ 24f3)
+                    y : 1546.4185791015625 (2d @ 24f8)
+                    z : 225.0 (35 @ 24fd)
+				}
+                u8 : t\x8bw\xc3\xe4\x01yC\x00\x00\xe1\xc2\x0eSe?K\x90\xe3>\x00\x00\x00\x00\x00\x00\x00?\xcd\xccL=t\x8bw\xc3\xe4\x01yC\x00\x00\xe1B\x0eSe?K\x90\xe3>\x00\x00\x00\x00\x00\x00\x00?33s?\xc2\x03\x94\xc3\x0c]\xadC\x00\x00\xe1\xc2-\x11\xb8>q\xe2n\xbf\x00\x00\x00\x00`\xb4o?\xcd\xccL=\xc2\x03\x94\xc3\x0c]\xadC\x00\x00\xe1B-\x11\xb8>q\xe2n\xbf\x00\x00\x00\x00`\xb4o?33s?H\x9c\x12C8n\xc8C\x00\x00\xe1\xc2\x9coA>\x14d{\xbf\x00\x00\x00\x00\x12\x16.@\xcd\xccL=H\x9c\x12C8n\xc8C\x00\x00\xe1B\x9coA>\x14d{\xbf\x00\x00\x00\x00\x12\x16.@33s?\x90\xfc\xacC\xf4\x1c\xebC\x00\x00\xe1\xc2\x99\xf0D>\x8a8{\xbf\x00\x00\x00\x00\xc2\x1fd@\xcd\xccL=\x90\xfc\xacC\xf4\x1c\xebC\x00\x00\xe1B\x99\xf0D>\x8a8{\xbf\x00\x00\x00\x00\xc2\x1fd@33s?\xe4!\xd0C\xb6\xda\xe2C\x00\x00\xe1\xc2\x15,\x0f\xbf\x8e8T\xbf\x00\x00\x00\x00\xdd\x9bv@\xcd\xccL=\xe4!\xd0C\xb6\xda\xe2C\x00\x00\xe1B\x15,\x0f\xbf\x8e8T\xbf\x00\x00\x00\x00\xdd\x9bv@33s?\xb6\xae\xf6C$e\xb9C\x00\x00\xe1\xc2\xba\xd1\x06\xbf~\x9fY\xbf\x00\x00\x00\x00\x18\xcc\x89@\xcd\xccL=\xb6\xae\xf6C$e\xb9C\x00\x00\xe1B\xba\xd1\x06\xbf~\x9fY\xbf\x00\x00\x00\x00\x18\xcc\x89@33s?\x07\x88\x0cDd\xac\xb5C\x00\x00\xe1\xc2|3~?}\\\xf2\xbd\x00\x00\x00\x00f\xa6\x92@\xcd\xccL=\x07\x88\x0cDd\xac\xb5C\x00\x00\xe1B|3~?}\\\xf2\xbd\x00\x00\x00\x00f\xa6\x92@33s?\xfc\x04\x07D\xff\xaf>D\x00\x00\xe1\xc2a\x9c\x7f?\xb4\xc2a=\x00\x00\x00\x00\xf8\xd9\xc5@\xcd\xccL=\xfc\x04\x07D\xff\xaf>D\x00\x00\xe1Ba\x9c\x7f?\xb4\xc2a=\x00\x00\x00\x00\xf8\xd9\xc5@33s?\xcc\x00\xf8\xc3eMAD\x00\x00\xe1\xc27E\x7f\xbf~\x83\x9a=\x00\x00\x00\x00\xf8\xd9\xc5@\xcd\xccL=\xcc\x00\xf8\xc3eMAD\x00\x00\xe1B7E\x7f\xbf~\x83\x9a=\x00\x00\x00\x00\xf8\xd9\xc5@33s?\x08\x88\x0c\xc4(W\xc9\xc2\x00\x00\xe1\xc2N`{\xbf\xfa\xbdA\xbe\x00\x00\x00\x00\x8d\x03\x1bA\xcd\xccL=\x08\x88\x0c\xc4(W\xc9\xc2\x00\x00\xe1BN`{\xbf\xfa\xbdA\xbe\x00\x00\x00\x00\x8d\x03\x1bA33s?D\nF\xc3eMA\xc4\x00\x00\xe1\xc28\xa8\x00\xbfdR]\xbf\x00\x00\x00\x00z\xf5KA\xcd\xccL=D\nF\xc3eMA\xc4\x00\x00\xe1B8\xa8\x00\xbfdR]\xbf\x00\x00\x00\x00z\xf5KA33s?*\x1e\xadC\x8d-\x1d\xc4\x00\x00\xe1\xc28S2?\x90\xac7\xbf\x00\x00\x00\x00\xcd\xffoA\xcd\xccL=*\x1e\xadC\x8d-\x1d\xc4\x00\x00\xe1B8S2?\x90\xac7\xbf\x00\x00\x00\x00\xcd\xffoA33s? (192 @ 2503)
+                u9 : \x00\x00\x02\x00\x03\x00\x01\x00\x00\x00\x03\x00\x02\x00\x04\x00\x05\x00\x03\x00\x02\x00\x05\x00\x04\x00\x06\x00\x07\x00\x05\x00\x04\x00\x07\x00\x06\x00\x08\x00\t\x00\x07\x00\x06\x00\t\x00\x08\x00\n\x00\x0b\x00\t\x00\x08\x00\x0b\x00\n\x00\x0c\x00\r\x00\x0b\x00\n\x00\r\x00\x0c\x00\x0e\x00\x0f\x00\r\x00\x0c\x00\x0f\x00\x10\x00\x12\x00\x13\x00\x11\x00\x10\x00\x13\x00\x12\x00\x14\x00\x15\x00\x13\x00\x12\x00\x15\x00\x14\x00\x16\x00\x17\x00\x15\x00\x14\x00\x17\x00 (19a @ 2807)
+			}
+
+            u1 sub-sub-sub-block { (42 @ 2881)
+
+                u0 : 18(08 @ 2884)
+                u1 : 16(10 @ 2886)
+
+                u2 sub-sub-sub-sub-block { (1a @ 2888)
+
+                    u0 : 4(08 @ 288a)
+                    u1 : 1(10 @ 288c)
+                    u2 : 2(18 @ 288e)
+                    u3 : 0(20 @ 2890)
+				}
+
+                u3 sub-sub-sub-sub-block { (22 @ 2892)
+
+                    u0 : 7(08 @ 2894)
+                    u1 : 3(10 @ 2896)
+                    u2 : 32(18 @ 2898)
+                    u3 : 0(20 @ 289a)
+				}
+
+                u4 sub-sub-sub-sub-block { (2a @ 289c)
+
+                    u0 : 7(08 @ 289e)
+                    u1 : 3(10 @ 28a0)
+                    u2 : 32(18 @ 28a2)
+                    u3 : 12(20 @ 28a4)
+				}
+
+                u5 sub-sub-sub-sub-block { (32 @ 28a6)
+
+                    u0 : 7(08 @ 28a8)
+                    u1 : 2(10 @ 28aa)
+                    u2 : 32(18 @ 28ac)
+                    u3 : 24(20 @ 28ae)
+				}
+
+                u6 sub-sub-sub-sub-block { (52 @ 28b0)
+
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 28b2)
+
+                        w : 1.0 (0d @ 28b4)
+                        x : 1.0 (15 @ 28b9)
+                        y : 1.0 (1d @ 28be)
+                        z : 1.0 (25 @ 28c3)
+					}
+
+                    u1 sub-sub-sub-sub-sub-block { (12 @ 28c8)
+
+                        w : 1.0 (0d @ 28ca)
+                        x : 1.0 (15 @ 28cf)
+                        y : 1.0 (1d @ 28d4)
+                        z : 1.0 (25 @ 28d9)
+					}
+
+                    u2 sub-sub-sub-sub-sub-block { (1a @ 28de)
+
+                        w : 1.0 (0d @ 28e0)
+                        x : 1.0 (15 @ 28e5)
+                        y : 1.0 (1d @ 28ea)
+                        z : 1.0 (25 @ 28ef)
+					}
+                    u3 : 0.0 (25 @ 28f4)
+                    u4 : \n\tcavewalls\x10\x01 \x01 (2a @ 28f9)
+				}
+
+                u7 sub-sub-sub-sub-block { (5a @ 290a)
+
+                    u : 346.23565673828125 (0d @ 290c)
+                    v : -628.7117309570312 (15 @ 2911)
+                    w : -112.5 (1d @ 2916)
+                    x : 197.0565185546875 (25 @ 291b)
+                    y : 889.8994140625 (2d @ 2920)
+                    z : 225.0 (35 @ 2925)
+				}
+                u8 : *\x1e\xadC\x8d-\x1d\xc4\x00\x00\xe1\xc28S2?\x90\xac7\xbf\x00\x00\x00\x00\xcd\xffoA\xcd\xccL=*\x1e\xadC\x8d-\x1d\xc4\x00\x00\xe1B8S2?\x90\xac7\xbf\x00\x00\x00\x00\xcd\xffoA33s?[\x19\x06DP\xa5p\xc2\x00\x00\xe1\xc2\xb4\xc9s?\xd1?\x9c\xbe\x00\x00\x00\x00\x12/\x8bA\xcd\xccL=[\x19\x06DP\xa5p\xc2\x00\x00\xe1B\xb4\xc9s?\xd1?\x9c\xbe\x00\x00\x00\x00\x12/\x8bA33s?\xb3Y\x06D\xe8\xb6\x00\xc2\x00\x00\xe1\xc2\xc1\xd5\x7f?\x9c\x0c\x13\xbd\x00\x00\x00\x00u\x14\x8cA\xcd\xccL=\xb3Y\x06D\xe8\xb6\x00\xc2\x00\x00\xe1B\xc1\xd5\x7f?\x9c\x0c\x13\xbd\x00\x00\x00\x00u\x14\x8cA33s?\x07\x9a\x06D\xc0D\x86\xc0\x00\x00\xe1\xc2\xfb\xe6\x7f?8V\xe2\xbc\x00\x00\x00\x00\xd7\xf9\x8cA\xcd\xccL=\x07\x9a\x06D\xc0D\x86\xc0\x00\x00\xe1B\xfb\xe6\x7f?8V\xe2\xbc\x00\x00\x00\x00\xd7\xf9\x8cA33s?7\xd9\x06Dh\xa1\x1fB\x00\x00\xe1\xc2\x96\xef\x7f?\x93Q\xb7\xbc\x00\x00\x00\x00:c\x8eA\xcd\xccL=7\xd9\x06Dh\xa1\x1fB\x00\x00\xe1B\x96\xef\x7f?\x93Q\xb7\xbc\x00\x00\x00\x00:c\x8eA33s?c\x18\x07D\x94\x05\xa8B\x00\x00\xe1\xc2\x7f\xf3\x7f?\x83\x04\xa0\xbc\x00\x00\x00\x00\x9d\xcc\x8fA\xcd\xccL=c\x18\x07D\x94\x05\xa8B\x00\x00\xe1B\x7f\xf3\x7f?\x83\x04\xa0\xbc\x00\x00\x00\x00\x9d\xcc\x8fA33s?\xb3V\x07D\xd2C\x0cC\x00\x00\xe1\xc21\xf6\x7f?\x19\xbf\x8d\xbc\x00\x00\x00\x00\x83\x99\x91A\xcd\xccL=\xb3V\x07D\xd2C\x0cC\x00\x00\xe1B1\xf6\x7f?\x19\xbf\x8d\xbc\x00\x00\x00\x00\x83\x99\x91A33s?\xff\x94\x07D\xd6\x84DC\x00\x00\xe1\xc2\x97\xf7\x7f?\x8f=\x83\xbc\x00\x00\x00\x00if\x93A\xcd\xccL=\xff\x94\x07D\xd6\x84DC\x00\x00\xe1B\x97\xf7\x7f?\x8f=\x83\xbc\x00\x00\x00\x00if\x93A33s?\xb3\xd2\x07D\x07\x98\x82C\x00\x00\xe1\xc2\xb7\xf8\x7f?\x95;t\xbc\x00\x00\x00\x00<x\x95A\xcd\xccL=\xb3\xd2\x07D\x07\x98\x82C\x00\x00\xe1B\xb7\xf8\x7f?\x95;t\xbc\x00\x00\x00\x00<x\x95A33s? (192 @ 292b)
+                u9 : \x00\x00\x02\x00\x03\x00\x01\x00\x00\x00\x03\x00\x02\x00\x04\x00\x05\x00\x03\x00\x02\x00\x05\x00\x04\x00\x06\x00\x07\x00\x05\x00\x04\x00\x07\x00\x06\x00\x08\x00\t\x00\x07\x00\x06\x00\t\x00\x08\x00\n\x00\x0b\x00\t\x00\x08\x00\x0b\x00\n\x00\x0c\x00\r\x00\x0b\x00\n\x00\r\x00\x0c\x00\x0e\x00\x0f\x00\r\x00\x0c\x00\x0f\x00\x0e\x00\x10\x00\x11\x00\x0f\x00\x0e\x00\x11\x00 (19a @ 2b6f)
+			}
+
+            u2 sub-sub-sub-block { (4a @ 2bd1)
+
+                u0 : 60(08 @ 2bd4)
+                u1 : 20(10 @ 2bd6)
+
+                u2 sub-sub-sub-sub-block { (22 @ 2bd8)
+
+                    u0 : 7(08 @ 2bda)
+                    u1 : 3(10 @ 2bdc)
+                    u2 : 32(18 @ 2bde)
+                    u3 : 0(20 @ 2be0)
+				}
+
+                u3 sub-sub-sub-sub-block { (2a @ 2be2)
+
+                    u0 : 7(08 @ 2be4)
+                    u1 : 3(10 @ 2be6)
+                    u2 : 32(18 @ 2be8)
+                    u3 : 12(20 @ 2bea)
+				}
+
+                u4 sub-sub-sub-sub-block { (32 @ 2bec)
+
+                    u0 : 7(08 @ 2bee)
+                    u1 : 2(10 @ 2bf0)
+                    u2 : 32(18 @ 2bf2)
+                    u3 : 24(20 @ 2bf4)
+				}
+
+                u5 sub-sub-sub-sub-block { (52 @ 2bf6)
+
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 2bf8)
+
+                        w : 1.0 (0d @ 2bfa)
+                        x : 1.0 (15 @ 2bff)
+                        y : 1.0 (1d @ 2c04)
+                        z : 1.0 (25 @ 2c09)
+					}
+
+                    u1 sub-sub-sub-sub-sub-block { (12 @ 2c0e)
+
+                        w : 1.0 (0d @ 2c10)
+                        x : 1.0 (15 @ 2c15)
+                        y : 1.0 (1d @ 2c1a)
+                        z : 1.0 (25 @ 2c1f)
+					}
+
+                    u2 sub-sub-sub-sub-sub-block { (1a @ 2c24)
+
+                        w : 1.0 (0d @ 2c26)
+                        x : 1.0 (15 @ 2c2b)
+                        y : 1.0 (1d @ 2c30)
+                        z : 1.0 (25 @ 2c35)
+					}
+                    u3 : 0.0 (25 @ 2c3a)
+
+                    u4 sub-sub-sub-sub-sub-block { (2a @ 2c3f)
+
+                        u0 : cavewalls (0a @ 2c41)
+                        u1 : 1(10 @ 2c4c)
+                        u2 : 1(20 @ 2c4e)
+					}
+				}
+
+                u3 sub-sub-sub-sub-block { (5a @ 2c50)
+
+                    u : -562.12548828125 (0d @ 2c52)
+                    v : -773.2092895507812 (15 @ 2c57)
+                    w : 112.5 (1d @ 2c5c)
+                    x : 1124.2508544921875 (25 @ 2c61)
+                    y : 1546.4185791015625 (2d @ 2c66)
+                    z : 0.0 (35 @ 2c6b)
+				}
+                u7 : \xfc\x04\x07D\xff\xaf>D\x00\x00\xe1B\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x80?\x8bB*@\x94Cc@\xb6\xae\xf6C$e\xb9C\x00\x00\xe1B\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x80?*M\x1e@5\xd8\xfd?\x07\x88\x0cDd\xac\xb5C\x00\x00\xe1B\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x80?t\xe7/@\x98\x08\xfa?pj\xafC]\xe6=D\x00\x00\xe1B\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x80?1\xa0\xf3?\x1cub@\xe4!\xd0C\xb6\xda\xe2C\x00\x00\xe1B\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x80?T\x90\n@A&\x14@\xb6\xae\xf6C$e\xb9C\x00\x00\xe1B\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x80?*M\x1e@5\xd8\xfd?pj\xafC]\xe6=D\x00\x00\xe1B\x00\x00\x00\x80\x00\x00\x00\x00\x00\x00\x80?1\xa0\xf3?\x1cub@\xb6\xae\xf6C$e\xb9C\x00\x00\xe1B\x00\x00\x00\x80\x00\x00\x00\x00\x00\x00\x80?*M\x1e@5\xd8\xfd?\xfc\x04\x07D\xff\xaf>D\x00\x00\xe1B\x00\x00\x00\x80\x00\x00\x00\x00\x00\x00\x80?\x8bB*@\x94Cc@pj\xafC]\xe6=D\x00\x00\xe1B\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x80?1\xa0\xf3?\x1cub@\x90\xfc\xacC\xf4\x1c\xebC\x00\x00\xe1B\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x80?d#\xf1?\xbe`\x18@\xe4!\xd0C\xb6\xda\xe2C\x00\x00\xe1B\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x80?T\x90\n@A&\x14@\x04\x07|C\xe8\xf3=D\x00\x00\xe1B\x00\x00\x00\x80\x00\x00\x00\x00\x00\x00\x80?\xbc\t\xc1?\xfa\x82b@\x90\xfc\xacC\xf4\x1c\xebC\x00\x00\xe1B\x00\x00\x00\x80\x00\x00\x00\x00\x00\x00\x80?d#\xf1?\xbe`\x18@pj\xafC]\xe6=D\x00\x00\xe1B\x00\x00\x00\x80\x00\x00\x00\x00\x00\x00\x80?1\xa0\xf3?\x1cub@\x90\xfc\xacC\xf4\x1c\xebC\x00\x00\xe1B\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x80?d#\xf1?\xbe`\x18@\x04\x07|C\xe8\xf3=D\x00\x00\xe1B\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x80?\xbc\t\xc1?\xfa\x82b@\xe4t\x17C\xe5\x9a=D\x00\x00\xe1B\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x80?\xb8\x8b\x8d?\xd4\'b@\x90\xfc\xacC\xf4\x1c\xebC\x00\x00\xe1B\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x80?d#\xf1?\xbe`\x18@\xe4t\x17C\xe5\x9a=D\x00\x00\xe1B\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x80?\xb8\x8b\x8d?\xd4\'b@H\x9c\x12C8n\xc8C\x00\x00\xe1B\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x80?\x87\x10\x8b?\xd5\x9e\x06@\xb0k\x85B\xc4\xc3=D\x00\x00\xe1B\x00\x00\x00\x80\x00\x00\x00\x00\x00\x00\x80?\xb6OD?\xaeQb@H\x9c\x12C8n\xc8C\x00\x00\xe1B\x00\x00\x00\x80\x00\x00\x00\x00\x00\x00\x80?\x87\x10\x8b?\xd5\x9e\x06@\xe4t\x17C\xe5\x9a=D\x00\x00\xe1B\x00\x00\x00\x80\x00\x00\x00\x00\x00\x00\x80?\xb8\x8b\x8d?\xd4\'b@H\x9c\x12C8n\xc8C\x00\x00\xe1B\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x80?\x87\x10\x8b?\xd5\x9e\x06@\xb0k\x85B\xc4\xc3=D\x00\x00\xe1B\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x80?\xb6OD?\xaeQb@\xb8,A\xc3\xaa\r<D\x00\x00\xe1B\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x80?+\x9f\x8b\xbe\x10\x91`@H\x9c\x12C8n\xc8C\x00\x00\xe1B\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x80?\x87\x10\x8b?\xd5\x9e\x06@\xb8,A\xc3\xaa\r<D\x00\x00\xe1B\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x80?+\x9f\x8b\xbe\x10\x91`@\xc2\x03\x94\xc3\x0c]\xadC\x00\x00\xe1B\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x80?R"/\xbf1\x86\xf1?\xcc\x00\xf8\xc3eMAD\x00\x00\xe1B\x00\x00\x00\x80\x00\x00\x00\x00\xff\xff\x7f?\x87\xf4\xbd\xbf\x0b\xf1e@\xc2\x03\x94\xc3\x0c]\xadC\x00\x00\xe1B\x00\x00\x00\x80\x00\x00\x00\x00\xff\xff\x7f?R"/\xbf1\x86\xf1?\xb8,A\xc3\xaa\r<D\x00\x00\xe1B\x00\x00\x00\x80\x00\x00\x00\x00\xff\xff\x7f?+\x9f\x8b\xbe\x10\x91`@D\nF\xc3eMA\xc4\x00\x00\xe1B\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x80?\x0c\x96\x95\xbe\x0b\xf1%\xc0t\x8bw\xc3\xe4\x01yC\x00\x00\xe1B\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x80?\xbc\xf8\xfa\xbe\xe5}\xbf?\xc2\x03\x94\xc3\x0c]\xadC\x00\x00\xe1B\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x80?R"/\xbf1\x86\xf1?D\nF\xc3eMA\xc4\x00\x00\xe1B\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x80?\x0c\x96\x95\xbe\x0b\xf1%\xc0\xc2\x03\x94\xc3\x0c]\xadC\x00\x00\xe1B\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x80?R"/\xbf1\x86\xf1?\xcc\x00\xf8\xc3eMAD\x00\x00\xe1B\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x80?\x87\xf4\xbd\xbf\x0b\xf1e@D\nF\xc3eMA\xc4\x00\x00\xe1B\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x80?\x0c\x96\x95\xbe\x0b\xf1%\xc0\xcc\x00\xf8\xc3eMAD\x00\x00\xe1B\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x80?\x87\xf4\xbd\xbf\x0b\xf1e@\x08\x88\x0c\xc4(W\xc9\xc2\x00\x00\xe1B\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x80?\xe9\xce\xdf\xbf;O\xc7=t\x8bw\xc3\xe4\x01yC\x00\x00\xe1B\x00\x00\x00\x80\x00\x00\x00\x00\x00\x00\x80?\xbc\xf8\xfa\xbe\xe5}\xbf?D\nF\xc3eMA\xc4\x00\x00\xe1B\x00\x00\x00\x80\x00\x00\x00\x00\x00\x00\x80?\x0c\x96\x95\xbe\x0b\xf1%\xc0*\x1e\xadC\x8d-\x1d\xc4\x00\x00\xe1B\x00\x00\x00\x80\x00\x00\x00\x00\x00\x00\x80?\xcdE\xf1?A\xf3\x00\xc0t\x8bw\xc3\xe4\x01yC\x00\x00\xe1B\x00\x00\x00\x80\x00\x00\x00\x00\x00\x00\x80?\xbc\xf8\xfa\xbe\xe5}\xbf?*\x1e\xadC\x8d-\x1d\xc4\x00\x00\xe1B\x00\x00\x00\x80\x00\x00\x00\x00\x00\x00\x80?\xcdE\xf1?A\xf3\x00\xc0[\x19\x06DP\xa5p\xc2\x00\x00\xe1B\x00\x00\x00\x80\x00\x00\x00\x00\x00\x00\x80?CQ)@\x14\xca\x84>t\x8bw\xc3\xe4\x01yC\x00\x00\xe1B\x00\x00\x00\x80\x00\x00\x00\x00\x00\x00\x80?\xbc\xf8\xfa\xbe\xe5}\xbf?[\x19\x06DP\xa5p\xc2\x00\x00\xe1B\x00\x00\x00\x80\x00\x00\x00\x00\x00\x00\x80?CQ)@\x14\xca\x84>\xb3Y\x06D\xe8\xb6\x00\xc2\x00\x00\xe1B\x00\x00\x00\x80\x00\x00\x00\x00\x00\x00\x80?&\x93)@#\x19\xbe>t\x8bw\xc3\xe4\x01yC\x00\x00\xe1B\x00\x00\x00\x80\x00\x00\x00\x00\x00\x00\x80?\xbc\xf8\xfa\xbe\xe5}\xbf?\xb3Y\x06D\xe8\xb6\x00\xc2\x00\x00\xe1B\x00\x00\x00\x80\x00\x00\x00\x00\x00\x00\x80?&\x93)@#\x19\xbe>\x07\x9a\x06D\xc0D\x86\xc0\x00\x00\xe1B\x00\x00\x00\x80\x00\x00\x00\x00\x00\x00\x80?\x05\xd5)@%h\xf7>t\x8bw\xc3\xe4\x01yC\x00\x00\xe1B\x00\x00\x00\x80\x00\x00\x00\x00\x00\x00\x80?\xbc\xf8\xfa\xbe\xe5}\xbf?\x07\x9a\x06D\xc0D\x86\xc0\x00\x00\xe1B\x00\x00\x00\x80\x00\x00\x00\x00\x00\x00\x80?\x05\xd5)@%h\xf7>7\xd9\x06Dh\xa1\x1fB\x00\x00\xe1B\x00\x00\x00\x80\x00\x00\x00\x00\x00\x00\x80?\xb9\x15*@\x8b\xdd(?t\x8bw\xc3\xe4\x01yC\x00\x00\xe1B\x00\x00\x00\x80\x00\x00\x00\x00\x00\x00\x80?\xbc\xf8\xfa\xbe\xe5}\xbf?7\xd9\x06Dh\xa1\x1fB\x00\x00\xe1B\x00\x00\x00\x80\x00\x00\x00\x00\x00\x00\x80?\xb9\x15*@\x8b\xdd(?c\x18\x07D\x94\x05\xa8B\x00\x00\xe1B\x00\x00\x00\x80\x00\x00\x00\x00\x00\x00\x80?iV*@\xf4\x06V? (192 @ 2c71)
+			}
+
+            u2 sub-sub-sub-block { (4a @ 33f4)
+
+                u0 : 9(08 @ 33f7)
+                u1 : 3(10 @ 33f9)
+
+                u2 sub-sub-sub-sub-block { (22 @ 33fb)
+
+                    u0 : 7(08 @ 33fd)
+                    u1 : 3(10 @ 33ff)
+                    u2 : 32(18 @ 3401)
+                    u3 : 0(20 @ 3403)
+				}
+
+                u3 sub-sub-sub-sub-block { (2a @ 3405)
+
+                    u0 : 7(08 @ 3407)
+                    u1 : 3(10 @ 3409)
+                    u2 : 32(18 @ 340b)
+                    u3 : 12(20 @ 340d)
+				}
+
+                u4 sub-sub-sub-sub-block { (32 @ 340f)
+
+                    u0 : 7(08 @ 3411)
+                    u1 : 2(10 @ 3413)
+                    u2 : 32(18 @ 3415)
+                    u3 : 24(20 @ 3417)
+				}
+
+                u5 sub-sub-sub-sub-block { (52 @ 3419)
+
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 341b)
+
+                        w : 1.0 (0d @ 341d)
+                        x : 1.0 (15 @ 3422)
+                        y : 1.0 (1d @ 3427)
+                        z : 1.0 (25 @ 342c)
+					}
+
+                    u1 sub-sub-sub-sub-sub-block { (12 @ 3431)
+
+                        w : 1.0 (0d @ 3433)
+                        x : 1.0 (15 @ 3438)
+                        y : 1.0 (1d @ 343d)
+                        z : 1.0 (25 @ 3442)
+					}
+
+                    u2 sub-sub-sub-sub-sub-block { (1a @ 3447)
+
+                        w : 1.0 (0d @ 3449)
+                        x : 1.0 (15 @ 344e)
+                        y : 1.0 (1d @ 3453)
+                        z : 1.0 (25 @ 3458)
+					}
+                    u3 : 0.0 (25 @ 345d)
+
+                    u4 sub-sub-sub-sub-sub-block { (2a @ 3462)
+
+                        u0 : cavewalls (0a @ 3464)
+                        u1 : 1(10 @ 346f)
+                        u2 : 1(20 @ 3471)
+					}
+				}
+
+                u3 sub-sub-sub-sub-block { (5a @ 3473)
+
+                    u : -247.54473876953125 (0d @ 3475)
+                    v : 84.01089477539062 (15 @ 347a)
+                    w : 112.5 (1d @ 347f)
+                    x : 790.8369140625 (25 @ 3484)
+                    y : 177.17681884765625 (2d @ 3489)
+                    z : 0.0 (35 @ 348e)
+				}
+                u7 : t\x8bw\xc3\xe4\x01yC\x00\x00\xe1B\x00\x00\x00\x80\x00\x00\x00\x00\x00\x00\x80?\xbc\xf8\xfa\xbe\xe5}\xbf?c\x18\x07D\x94\x05\xa8B\x00\x00\xe1B\x00\x00\x00\x80\x00\x00\x00\x00\x00\x00\x80?iV*@\xf4\x06V?\xb3V\x07D\xd2C\x0cC\x00\x00\xe1B\x00\x00\x00\x80\x00\x00\x00\x00\x00\x00\x80?8\x96*@\xce\xd0\x87?t\x8bw\xc3\xe4\x01yC\x00\x00\xe1B\x00\x00\x00\x80\x00\x00\x00\x00\x00\x00\x80?\xbc\xf8\xfa\xbe\xe5}\xbf?\xb3V\x07D\xd2C\x0cC\x00\x00\xe1B\x00\x00\x00\x80\x00\x00\x00\x00\x00\x00\x80?8\x96*@\xce\xd0\x87?\xff\x94\x07D\xd6\x84DC\x00\x00\xe1B\x00\x00\x00\x80\x00\x00\x00\x00\x00\x00\x80?\x03\xd6*@ \x9e\xa4?t\x8bw\xc3\xe4\x01yC\x00\x00\xe1B\x00\x00\x00\x80\x00\x00\x00\x00\x00\x00\x80?\xbc\xf8\xfa\xbe\xe5}\xbf?\xff\x94\x07D\xd6\x84DC\x00\x00\xe1B\x00\x00\x00\x80\x00\x00\x00\x00\x00\x00\x80?\x03\xd6*@ \x9e\xa4?\xb3\xd2\x07D\x07\x98\x82C\x00\x00\xe1B\x00\x00\x00\x80\x00\x00\x00\x00\x00\x00\x80?2\x15+@e\xba\xc5? (192 @ 3494)
+			}
+
+            u3 sub-sub-sub-block { (52 @ 35b7)
+
+                w : 1.0 (0d @ 35b9)
+                x : 1.0 (15 @ 35be)
+                y : 1.0 (1d @ 35c3)
+                z : 1.0 (25 @ 35c8)
+			}
+		}
+	}
+
+    component sub-block { (1a @ 35cd)
+
+        component type : GroundMeshGenerator (0a @ 35cf)
+        number : 102(10 @ 35e4)
+
+        ground mesh generator sub-sub-block { (382 @ 35e7)
+
+            ground polygon : 100(08 @ 35e9)
+            ground mesh : 101(10 @ 35eb)
+            texture mapping 1 : 103(18 @ 35ed)
+            texture mapping 2 : 104(20 @ 35ef)
+            u4 : 0(28 @ 35f1)
+            u5 : 0.0 (35 @ 35f3)
+            u6 : 1(38 @ 35f8)
+            u7 : 225.0 (45 @ 35fa)
+            u8 : 25.0 (4d @ 35ff)
+            u9 : 5.0 (55 @ 3604)
+            u10 : 5.0 (5d @ 3609)
+		}
+	}
+
+    component sub-block { (1a @ 360e)
+
+        component type : TextureMapping (0a @ 3610)
+        number : 103(10 @ 3620)
+
+        texture mapping sub-sub-block { (38a @ 3623)
+
+            texture file : cavewalls (0a @ 3625)
+            u0 : 250.0 (15 @ 3630)
+
+            u0 sub-sub-sub-block { (1a @ 3635)
+
+                u1 : 0.0 (0d @ 3637)
+                u2 : 0.0 (15 @ 363c)
+			}
+		}
+	}
+
+    component sub-block { (1a @ 3641)
+
+        component type : TextureMapping (0a @ 3643)
+        number : 104(10 @ 3653)
+
+        texture mapping sub-sub-block { (38a @ 3656)
+
+            texture file : brown128 (0a @ 3658)
+            u0 : 250.0 (15 @ 3662)
+
+            u0 sub-sub-sub-block { (1a @ 3667)
+
+                u1 : 0.0 (0d @ 3669)
+                u2 : 0.0 (15 @ 366e)
+			}
+		}
+	}
+
+    component sub-block { (1a @ 3673)
+
+        component type : CollisionShape (0a @ 3676)
+        number : 105(10 @ 3686)
+        ? linked component : 100(20 @ 3688)
+
+        collision shape sub-sub-block { (3c2 @ 368b)
+
+
+            u2 sub-sub-sub-block { (1a @ 368d)
+
+
+                u0 sub-sub-sub-sub-block { (0a @ 368f)
+
+                    y : -562.12548828125 (0d @ 3691)
+                    z : -100.67022705078125 (15 @ 3696)
+				}
+
+                u0 sub-sub-sub-sub-block { (0a @ 369b)
+
+                    y : -198.04010009765625 (0d @ 369d)
+                    z : -773.2092895507812 (15 @ 36a2)
+				}
+
+                u0 sub-sub-sub-sub-block { (0a @ 36a7)
+
+                    y : 346.23565673828125 (0d @ 36a9)
+                    z : -628.7117309570312 (15 @ 36ae)
+				}
+
+                u0 sub-sub-sub-sub-block { (0a @ 36b3)
+
+                    y : 536.3961791992188 (0d @ 36b5)
+                    z : -60.16143798828125 (15 @ 36ba)
+				}
+
+                u0 sub-sub-sub-sub-block { (0a @ 36bf)
+
+                    y : 537.4015502929688 (0d @ 36c1)
+                    z : -32.178619384765625 (15 @ 36c6)
+				}
+
+                u0 sub-sub-sub-sub-block { (0a @ 36cb)
+
+                    y : 538.4066772460938 (0d @ 36cd)
+                    z : -4.195892333984375 (15 @ 36d2)
+				}
+
+                u0 sub-sub-sub-sub-block { (0a @ 36d7)
+
+                    y : 539.3939819335938 (0d @ 36d9)
+                    z : 39.907623291015625 (15 @ 36de)
+				}
+
+                u0 sub-sub-sub-sub-block { (0a @ 36e3)
+
+                    y : 540.3810424804688 (0d @ 36e5)
+                    z : 84.01089477539062 (15 @ 36ea)
+				}
+
+                u0 sub-sub-sub-sub-block { (0a @ 36ef)
+
+                    y : 541.3546752929688 (0d @ 36f1)
+                    z : 140.26492309570312 (15 @ 36f6)
+				}
+
+                u0 sub-sub-sub-sub-block { (0a @ 36fb)
+
+                    y : 542.3280639648438 (0d @ 36fd)
+                    z : 196.51889038085938 (15 @ 3702)
+				}
+                u3 : 0(10 @ 3707)
+                u4 : 0(18 @ 3709)
+			}
+		}
+
+        collision shape 2 sub-sub-block { (3ca @ 370c)
+
+            u0 : 1(10 @ 370e)
+            w : -117.5 (35 @ 3710)
+            x : 117.5 (3d @ 3715)
+            z : 1(58 @ 371a)
+		}
+	}
+
+    component sub-block { (1a @ 371c)
+
+        component type : CollisionShape (0a @ 371f)
+        number : 106(10 @ 372f)
+        ? linked component : 100(20 @ 3731)
+
+        collision shape sub-sub-block { (3c2 @ 3734)
+
+
+            u2 sub-sub-sub-block { (1a @ 3736)
+
+
+                u0 sub-sub-sub-sub-block { (0a @ 3738)
+
+                    y : 540.3810424804688 (0d @ 373a)
+                    z : 84.01089477539062 (15 @ 373f)
+				}
+
+                u0 sub-sub-sub-sub-block { (0a @ 3744)
+
+                    y : 541.3546752929688 (0d @ 3746)
+                    z : 140.26492309570312 (15 @ 374b)
+				}
+
+                u0 sub-sub-sub-sub-block { (0a @ 3750)
+
+                    y : 542.3280639648438 (0d @ 3752)
+                    z : 196.51889038085938 (15 @ 3757)
+				}
+
+                u0 sub-sub-sub-sub-block { (0a @ 375c)
+
+                    y : 543.2921752929688 (0d @ 375e)
+                    z : 261.1877136230469 (15 @ 3763)
+				}
+
+                u0 sub-sub-sub-sub-block { (0a @ 3768)
+
+                    y : -247.54473876953125 (0d @ 376a)
+                    z : 249.00738525390625 (15 @ 376f)
+				}
+
+                u0 sub-sub-sub-sub-block { (0a @ 3774)
+
+                    y : -296.02935791015625 (0d @ 3776)
+                    z : 346.7269287109375 (15 @ 377b)
+				}
+
+                u0 sub-sub-sub-sub-block { (0a @ 3780)
+
+                    y : 146.6104736328125 (0d @ 3782)
+                    z : 400.861083984375 (15 @ 3787)
+				}
+
+                u0 sub-sub-sub-sub-block { (0a @ 378c)
+
+                    y : 345.97314453125 (0d @ 378e)
+                    z : 470.2261962890625 (15 @ 3793)
+				}
+
+                u0 sub-sub-sub-sub-block { (0a @ 3798)
+
+                    y : 416.2647705078125 (0d @ 379a)
+                    z : 453.70867919921875 (15 @ 379f)
+				}
+
+                u0 sub-sub-sub-sub-block { (0a @ 37a4)
+
+                    y : 493.36492919921875 (0d @ 37a6)
+                    z : 370.7901611328125 (15 @ 37ab)
+				}
+                u3 : 0(10 @ 37b0)
+                u4 : 0(18 @ 37b2)
+			}
+		}
+
+        collision shape 2 sub-sub-block { (3ca @ 37b5)
+
+            u0 : 1(10 @ 37b7)
+            w : -117.5 (35 @ 37b9)
+            x : 117.5 (3d @ 37be)
+            z : 1(58 @ 37c3)
+		}
+	}
+
+    component sub-block { (1a @ 37c5)
+
+        component type : CollisionShape (0a @ 37c8)
+        number : 107(10 @ 37d8)
+        ? linked component : 100(20 @ 37da)
+
+        collision shape sub-sub-block { (3c2 @ 37dd)
+
+
+            u2 sub-sub-sub-block { (1a @ 37e0)
+
+
+                u0 sub-sub-sub-sub-block { (0a @ 37e3)
+
+                    y : 345.97314453125 (0d @ 37e5)
+                    z : 470.2261962890625 (15 @ 37ea)
+				}
+
+                u0 sub-sub-sub-sub-block { (0a @ 37ef)
+
+                    y : 416.2647705078125 (0d @ 37f1)
+                    z : 453.70867919921875 (15 @ 37f6)
+				}
+
+                u0 sub-sub-sub-sub-block { (0a @ 37fb)
+
+                    y : 493.36492919921875 (0d @ 37fd)
+                    z : 370.7901611328125 (15 @ 3802)
+				}
+
+                u0 sub-sub-sub-sub-block { (0a @ 3807)
+
+                    y : 562.1254272460938 (0d @ 3809)
+                    z : 363.3468017578125 (15 @ 380e)
+				}
+
+                u0 sub-sub-sub-sub-block { (0a @ 3813)
+
+                    y : 540.077880859375 (0d @ 3815)
+                    z : 762.7499389648438 (15 @ 381a)
+				}
+
+                u0 sub-sub-sub-sub-block { (0a @ 381f)
+
+                    y : 350.83154296875 (0d @ 3821)
+                    z : 759.5994262695312 (15 @ 3826)
+				}
+
+                u0 sub-sub-sub-sub-block { (0a @ 382b)
+
+                    y : 252.02740478515625 (0d @ 382d)
+                    z : 759.81103515625 (15 @ 3832)
+				}
+
+                u0 sub-sub-sub-sub-block { (0a @ 3837)
+
+                    y : 151.45660400390625 (0d @ 3839)
+                    z : 758.4202270507812 (15 @ 383e)
+				}
+
+                u0 sub-sub-sub-sub-block { (0a @ 3843)
+
+                    y : 66.7103271484375 (0d @ 3845)
+                    z : 759.058837890625 (15 @ 384a)
+				}
+
+                u0 sub-sub-sub-sub-block { (0a @ 384f)
+
+                    y : -193.1746826171875 (0d @ 3851)
+                    z : 752.2135009765625 (15 @ 3856)
+				}
+
+                u0 sub-sub-sub-sub-block { (0a @ 385b)
+
+                    y : -496.0062255859375 (0d @ 385d)
+                    z : 773.2092895507812 (15 @ 3862)
+				}
+
+                u0 sub-sub-sub-sub-block { (0a @ 3867)
+
+                    y : -562.12548828125 (0d @ 3869)
+                    z : -100.67022705078125 (15 @ 386e)
+				}
+
+                u0 sub-sub-sub-sub-block { (0a @ 3873)
+
+                    y : -198.04010009765625 (0d @ 3875)
+                    z : -773.2092895507812 (15 @ 387a)
+				}
+
+                u0 sub-sub-sub-sub-block { (0a @ 387f)
+
+                    y : 346.23565673828125 (0d @ 3881)
+                    z : -628.7117309570312 (15 @ 3886)
+				}
+                u3 : 0(10 @ 388b)
+                u4 : 0(18 @ 388d)
+			}
+		}
+
+        collision shape 2 sub-sub-block { (3ca @ 3890)
+
+            u0 : 1(10 @ 3892)
+            w : -117.5 (35 @ 3894)
+            x : 117.5 (3d @ 3899)
+            z : 1(58 @ 389e)
+		}
+	}
+
+    position sub-block { (22 @ 38a0)
+
+        x position : -2998.718505859375 (0d @ 38a2)
+        y position : -2079.379150390625 (15 @ 38a7)
+	}
+    z position : 0.0 (2d @ 38ac)
+    rotation : 0.0 (35 @ 38b1)
+    scale : 1.0 (3d @ 38b6)
+
+    u2 sub-block { (42 @ 38bb)
+
+        w : -562.12548828125 (0d @ 38bd)
+        x : -773.2092895507812 (15 @ 38c2)
+        y : 1124.2509765625 (1d @ 38c7)
+        z : 1546.4185791015625 (25 @ 38cc)
+	}
+    hidden : 0(48 @ 38d1)
+}
+
+object block { (0a @ 38d3)
+
+    identifier : obj5#2 (12 @ 38d6)
+
+    component sub-block { (1a @ 38de)
+
+        component type : GroundPolygon (0a @ 38e1)
+        number : 100(10 @ 38f0)
+
+        ground polygon sub-sub-block { (372 @ 38f3)
+
+
+             sub-sub-sub-block { (12 @ 38f6)
+
+
+                u0 sub-sub-sub-sub-block { (0a @ 38f9)
+
+                    x : -373.0367431640625 (0d @ 38fb)
+                    y : -141.35223388671875 (15 @ 3900)
+				}
+
+                u0 sub-sub-sub-sub-block { (0a @ 3905)
+
+                    x : -708.5401611328125 (0d @ 3907)
+                    y : -727.4314575195312 (15 @ 390c)
+				}
+
+                u0 sub-sub-sub-sub-block { (0a @ 3911)
+
+                    x : -238.859619140625 (0d @ 3913)
+                    y : -740.9749145507812 (15 @ 3918)
+				}
+
+                u0 sub-sub-sub-sub-block { (0a @ 391d)
+
+                    x : -104.47119140625 (0d @ 391f)
+                    y : -729.947998046875 (15 @ 3924)
+				}
+
+                u0 sub-sub-sub-sub-block { (0a @ 3929)
+
+                    x : -130.727294921875 (0d @ 392b)
+                    y : -637.41845703125 (15 @ 3930)
+				}
+
+                u0 sub-sub-sub-sub-block { (0a @ 3935)
+
+                    x : -99.930419921875 (0d @ 3937)
+                    y : -561.7940063476562 (15 @ 393c)
+				}
+
+                u0 sub-sub-sub-sub-block { (0a @ 3941)
+
+                    x : -31.812255859375 (0d @ 3943)
+                    y : -595.902587890625 (15 @ 3948)
+				}
+
+                u0 sub-sub-sub-sub-block { (0a @ 394d)
+
+                    x : 19.111328125 (0d @ 394f)
+                    y : -557.26318359375 (15 @ 3954)
+				}
+
+                u0 sub-sub-sub-sub-block { (0a @ 3959)
+
+                    x : 61.685302734375 (0d @ 395b)
+                    y : -464.77642822265625 (15 @ 3960)
+				}
+
+                u0 sub-sub-sub-sub-block { (0a @ 3965)
+
+                    x : 86.010009765625 (0d @ 3967)
+                    y : -554.0762329101562 (15 @ 396c)
+				}
+
+                u0 sub-sub-sub-sub-block { (0a @ 3971)
+
+                    x : 137.535888671875 (0d @ 3973)
+                    y : -556.3299560546875 (15 @ 3978)
+				}
+
+                u0 sub-sub-sub-sub-block { (0a @ 397d)
+
+                    x : 178.87060546875 (0d @ 397f)
+                    y : -444.26416015625 (15 @ 3984)
+				}
+
+                u0 sub-sub-sub-sub-block { (0a @ 3989)
+
+                    x : 203.777099609375 (0d @ 398b)
+                    y : -469.01025390625 (15 @ 3990)
+				}
+
+                u0 sub-sub-sub-sub-block { (0a @ 3995)
+
+                    x : 236.266845703125 (0d @ 3997)
+                    y : -719.177734375 (15 @ 399c)
+				}
+
+                u0 sub-sub-sub-sub-block { (0a @ 39a1)
+
+                    x : 51.97021484375 (0d @ 39a3)
+                    y : -720.5767822265625 (15 @ 39a8)
+				}
+
+                u0 sub-sub-sub-sub-block { (0a @ 39ad)
+
+                    x : 51.9033203125 (0d @ 39af)
+                    y : -745.6199951171875 (15 @ 39b4)
+				}
+
+                u0 sub-sub-sub-sub-block { (0a @ 39b9)
+
+                    x : 61.3359375 (0d @ 39bb)
+                    y : -774.7054443359375 (15 @ 39c0)
+				}
+
+                u0 sub-sub-sub-sub-block { (0a @ 39c5)
+
+                    x : 86.59423828125 (0d @ 39c7)
+                    y : -798.16064453125 (15 @ 39cc)
+				}
+
+                u0 sub-sub-sub-sub-block { (0a @ 39d1)
+
+                    x : 147.92144775390625 (0d @ 39d3)
+                    y : -748.4835205078125 (15 @ 39d8)
+				}
+
+                u0 sub-sub-sub-sub-block { (0a @ 39dd)
+
+                    x : 167.540283203125 (0d @ 39df)
+                    y : -753.9281005859375 (15 @ 39e4)
+				}
+
+                u0 sub-sub-sub-sub-block { (0a @ 39e9)
+
+                    x : 187.333251953125 (0d @ 39eb)
+                    y : -785.274169921875 (15 @ 39f0)
+				}
+
+                u0 sub-sub-sub-sub-block { (0a @ 39f5)
+
+                    x : 203.737060546875 (0d @ 39f7)
+                    y : -749.1229858398438 (15 @ 39fc)
+				}
+
+                u0 sub-sub-sub-sub-block { (0a @ 3a01)
+
+                    x : 217.904052734375 (0d @ 3a03)
+                    y : -768.086181640625 (15 @ 3a08)
+				}
+
+                u0 sub-sub-sub-sub-block { (0a @ 3a0d)
+
+                    x : 234.31396484375 (0d @ 3a0f)
+                    y : -782.5467529296875 (15 @ 3a14)
+				}
+
+                u0 sub-sub-sub-sub-block { (0a @ 3a19)
+
+                    x : 244.8792724609375 (0d @ 3a1b)
+                    y : -755.2978515625 (15 @ 3a20)
+				}
+
+                u0 sub-sub-sub-sub-block { (0a @ 3a25)
+
+                    x : 262.229248046875 (0d @ 3a27)
+                    y : -788.7783203125 (15 @ 3a2c)
+				}
+
+                u0 sub-sub-sub-sub-block { (0a @ 3a31)
+
+                    x : 279.5445556640625 (0d @ 3a33)
+                    y : -768.2774658203125 (15 @ 3a38)
+				}
+
+                u0 sub-sub-sub-sub-block { (0a @ 3a3d)
+
+                    x : 296.877197265625 (0d @ 3a3f)
+                    y : -774.767333984375 (15 @ 3a44)
+				}
+
+                u0 sub-sub-sub-sub-block { (0a @ 3a49)
+
+                    x : 328.29052734375 (0d @ 3a4b)
+                    y : -729.0384521484375 (15 @ 3a50)
+				}
+
+                u0 sub-sub-sub-sub-block { (0a @ 3a55)
+
+                    x : 355.417724609375 (0d @ 3a57)
+                    y : -784.3193359375 (15 @ 3a5c)
+				}
+
+                u0 sub-sub-sub-sub-block { (0a @ 3a61)
+
+                    x : 355.466796875 (0d @ 3a63)
+                    y : -691.643798828125 (15 @ 3a68)
+				}
+
+                u0 sub-sub-sub-sub-block { (0a @ 3a6d)
+
+                    x : 375.27734375 (0d @ 3a6f)
+                    y : -675.2579345703125 (15 @ 3a74)
+				}
+
+                u0 sub-sub-sub-sub-block { (0a @ 3a79)
+
+                    x : 380.403564453125 (0d @ 3a7b)
+                    y : -692.5703125 (15 @ 3a80)
+				}
+
+                u0 sub-sub-sub-sub-block { (0a @ 3a85)
+
+                    x : 408.211669921875 (0d @ 3a87)
+                    y : -583.0588989257812 (15 @ 3a8c)
+				}
+
+                u0 sub-sub-sub-sub-block { (0a @ 3a91)
+
+                    x : 419.75732421875 (0d @ 3a93)
+                    y : -546.4127807617188 (15 @ 3a98)
+				}
+
+                u0 sub-sub-sub-sub-block { (0a @ 3a9d)
+
+                    x : 410.383056640625 (0d @ 3a9f)
+                    y : -497.87078857421875 (15 @ 3aa4)
+				}
+
+                u0 sub-sub-sub-sub-block { (0a @ 3aa9)
+
+                    x : 467.106689453125 (0d @ 3aab)
+                    y : -491.11669921875 (15 @ 3ab0)
+				}
+
+                u0 sub-sub-sub-sub-block { (0a @ 3ab5)
+
+                    x : 458.124267578125 (0d @ 3ab7)
+                    y : -421.45648193359375 (15 @ 3abc)
+				}
+
+                u0 sub-sub-sub-sub-block { (0a @ 3ac1)
+
+                    x : 419.81591796875 (0d @ 3ac3)
+                    y : -337.35150146484375 (15 @ 3ac8)
+				}
+
+                u0 sub-sub-sub-sub-block { (0a @ 3acd)
+
+                    x : 443.699951171875 (0d @ 3acf)
+                    y : -308.8385009765625 (15 @ 3ad4)
+				}
+
+                u0 sub-sub-sub-sub-block { (0a @ 3ad9)
+
+                    x : 389.1069641113281 (0d @ 3adb)
+                    y : -262.59051513671875 (15 @ 3ae0)
+				}
+
+                u0 sub-sub-sub-sub-block { (0a @ 3ae5)
+
+                    x : 493.43719482421875 (0d @ 3ae7)
+                    y : -175.650146484375 (15 @ 3aec)
+				}
+
+                u0 sub-sub-sub-sub-block { (0a @ 3af1)
+
+                    x : 510.760498046875 (0d @ 3af3)
+                    y : 112.10577392578125 (15 @ 3af8)
+				}
+
+                u0 sub-sub-sub-sub-block { (0a @ 3afd)
+
+                    x : 486.26202392578125 (0d @ 3aff)
+                    y : 484.34759521484375 (15 @ 3b04)
+				}
+
+                u0 sub-sub-sub-sub-block { (0a @ 3b09)
+
+                    x : 578.9182739257812 (0d @ 3b0b)
+                    y : 672.1793823242188 (15 @ 3b10)
+				}
+
+                u0 sub-sub-sub-sub-block { (0a @ 3b15)
+
+                    x : 708.5401611328125 (0d @ 3b17)
+                    y : 774.2007446289062 (15 @ 3b1c)
+				}
+
+                u0 sub-sub-sub-sub-block { (0a @ 3b21)
+
+                    x : 375.780029296875 (0d @ 3b23)
+                    y : 798.1605834960938 (15 @ 3b28)
+				}
+
+                u0 sub-sub-sub-sub-block { (0a @ 3b2d)
+
+                    x : 92.32821655273438 (0d @ 3b2f)
+                    y : 792.3765869140625 (15 @ 3b34)
+				}
+
+                u0 sub-sub-sub-sub-block { (0a @ 3b39)
+
+                    x : -368.382568359375 (0d @ 3b3b)
+                    y : 773.4208984375 (15 @ 3b40)
+				}
+
+                u0 sub-sub-sub-sub-block { (0a @ 3b45)
+
+                    x : -373.19598388671875 (0d @ 3b47)
+                    y : -11.90374755859375 (15 @ 3b4c)
+				}
+                u0 : 0(10 @ 3b51)
+                u1 : 1(18 @ 3b53)
+			}
+            u1 : 1(18 @ 3b55)
+            u2 : -117.5 (25 @ 3b57)
+            u3 : 117.5 (2d @ 3b5c)
+            u4 :  (32 @ 3b61)
+		}
+	}
+
+    component sub-block { (1a @ 3b63)
+
+        component type : GroundMesh (0a @ 3b66)
+        number : 101(10 @ 3b72)
+
+        ground mesh sub-sub-block { (37a @ 3b75)
+
+
+            u0 sub-sub-sub-block { (3a @ 3b78)
+
+                w : -718.5401611328125 (0d @ 3b7a)
+                x : -808.16064453125 (15 @ 3b7f)
+                y : 1437.080322265625 (1d @ 3b84)
+                z : 1616.3212890625 (25 @ 3b89)
+			}
+
+            u1 sub-sub-sub-block { (42 @ 3b8e)
+
+                u0 : 30(08 @ 3b91)
+                u1 : 20(10 @ 3b93)
+
+                u2 sub-sub-sub-sub-block { (1a @ 3b95)
+
+                    u0 : 4(08 @ 3b97)
+                    u1 : 1(10 @ 3b99)
+                    u2 : 2(18 @ 3b9b)
+                    u3 : 0(20 @ 3b9d)
+				}
+
+                u3 sub-sub-sub-sub-block { (22 @ 3b9f)
+
+                    u0 : 7(08 @ 3ba1)
+                    u1 : 3(10 @ 3ba3)
+                    u2 : 32(18 @ 3ba5)
+                    u3 : 0(20 @ 3ba7)
+				}
+
+                u4 sub-sub-sub-sub-block { (2a @ 3ba9)
+
+                    u0 : 7(08 @ 3bab)
+                    u1 : 3(10 @ 3bad)
+                    u2 : 32(18 @ 3baf)
+                    u3 : 12(20 @ 3bb1)
+				}
+
+                u5 sub-sub-sub-sub-block { (32 @ 3bb3)
+
+                    u0 : 7(08 @ 3bb5)
+                    u1 : 2(10 @ 3bb7)
+                    u2 : 32(18 @ 3bb9)
+                    u3 : 24(20 @ 3bbb)
+				}
+
+                u6 sub-sub-sub-sub-block { (52 @ 3bbd)
+
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 3bbf)
+
+                        w : 1.0 (0d @ 3bc1)
+                        x : 1.0 (15 @ 3bc6)
+                        y : 1.0 (1d @ 3bcb)
+                        z : 1.0 (25 @ 3bd0)
+					}
+
+                    u1 sub-sub-sub-sub-sub-block { (12 @ 3bd5)
+
+                        w : 1.0 (0d @ 3bd7)
+                        x : 1.0 (15 @ 3bdc)
+                        y : 1.0 (1d @ 3be1)
+                        z : 1.0 (25 @ 3be6)
+					}
+
+                    u2 sub-sub-sub-sub-sub-block { (1a @ 3beb)
+
+                        w : 1.0 (0d @ 3bed)
+                        x : 1.0 (15 @ 3bf2)
+                        y : 1.0 (1d @ 3bf7)
+                        z : 1.0 (25 @ 3bfc)
+					}
+                    u3 : 0.0 (25 @ 3c01)
+                    u4 : \n\x08brown128\x10\x01 \x02 (2a @ 3c06)
+				}
+
+                u7 sub-sub-sub-sub-block { (5a @ 3c16)
+
+                    u : 48.97030258178711 (0d @ 3c18)
+                    v : -745.5995483398438 (15 @ 3c1d)
+                    w : -122.5 (1d @ 3c22)
+                    x : 397.0186767578125 (25 @ 3c27)
+                    y : 483.009033203125 (2d @ 3c2c)
+                    z : 245.0 (35 @ 3c31)
+				}
+                u8 : PDlC`\xcb3\xc4\x00\x00\xeb\xc2v\xbe\xf8\xbb\x1d\xfe\x7f?\x00\x00\x00\x00\x00\x00\x00?\x8f\xc2\xf5<PDlC`\xcb3\xc4\x00\x00\xebBv\xbe\xf8\xbb\x1d\xfe\x7f?\x00\x00\x00\x00\x00\x00\x00?\xecQx?PDlC`K6\xc4\x00\x00\xf5B\x00\x00\x00\x80\x00\x00\x00\x00\x00\x00\x80?\x1f\x85\xeb>\xa4p}?PDlC`\x0b:\xc433\xebBv\xbe\xf8;\x1d\xfe\x7f\xbf\x00\x00\x00\x80\xcd\xcc\xcc>"lx?PDlC`\x0b:\xc4\xcd\xcc\xea\xc2v\xbe\xf8;\x1d\xfe\x7f\xbf\x00\x00\x00\x80\xcd\xcc\xcc>h\t\xf9<PDlC`K6\xc4\x00\x00\xf5\xc2\x00\x00\x00\x80\x00\x00\x00\x00\x00\x00\x80?\x1f\x85\xeb>\n\xd7#<PDlC`\xcb3\xc4\x00\x00\xeb\xc2v\xbe\xf8\xbb\x1d\xfe\x7f?\x00\x00\x00\x00\x00\x00\x00?\x8f\xc2\xf5<PDlC`\xcb3\xc4\x00\x00\xebBv\xbe\xf8\xbb\x1d\xfe\x7f?\x00\x00\x00\x00\x00\x00\x00?\xecQx?PDlC`K6\xc4\x00\x00\xf5B\x00\x00\x00\x80\x00\x00\x00\x00\x00\x00\x80?\x00\x00\x00?d\xe2\x81?PDlC`\x0b:\xc433\xebBv\xbe\xf8;\x1d\xfe\x7f\xbf\x00\x00\x00\x80\x00\x00\x00?\xb6\xf6\x89?\x97\xe1CB_&4\xc4\x00\x00\xeb\xc2v\xbe\xf8\xbb\x1d\xfe\x7f?\x00\x00\x00\x00\xd3\\\x9e?\x8f\xc2\xf5<\x97\xe1CB_&4\xc4\x00\x00\xebBv\xbe\xf8\xbb\x1d\xfe\x7f?\x00\x00\x00\x00\xd3\\\x9e?\xecQx?\x97\xe1CB_\xa66\xc4\x00\x00\xf5B\x00\x00\x00\x80\x00\x00\x00\x00\x00\x00\x80?\xd3\\\x9e?d\xe2\x81?\x97\xe1CB_f:\xc433\xebBv\xbe\xf8;\x1d\xfe\x7f\xbf\x00\x00\x00\x80\xd3\\\x9e?\xb6\xf6\x89?\x97\xe1CB_&4\xc4\x00\x00\xeb\xc2v\xbe\xf8\xbb\x1d\xfe\x7f?\x00\x00\x00\x00\xd3\\\x9e?\x8f\xc2\xf5<\x97\xe1CB_&4\xc4\x00\x00\xebBv\xbe\xf8\xbb\x1d\xfe\x7f?\x00\x00\x00\x00\xd3\\\x9e?\xecQx?\x97\xe1CB_\xa66\xc4\x00\x00\xf5B\x00\x00\x00\x80\x00\x00\x00\x00\x00\x00\x80?\x8b{\xa3?\xa4p}?\x97\xe1CB_f:\xc433\xebBv\xbe\xf8;\x1d\xfe\x7f\xbf\x00\x00\x00\x80\xa0)\xab?"lx?\x97\xe1CB_f:\xc4\xcd\xcc\xea\xc2v\xbe\xf8;\x1d\xfe\x7f\xbf\x00\x00\x00\x80\xa0)\xab?h\t\xf9<\x97\xe1CB_\xa66\xc4\x00\x00\xf5\xc2\x00\x00\x00\x80\x00\x00\x00\x00\x00\x00\x80?\x8b{\xa3?\n\xd7#<\x97\xfe\xdeC\x8ac\x9b\xc3\x00\x00\xeb\xc2>y%?\xecTC?\x00\x00\x00\x00\xd3\\\x9e?\x8f\xc2\xf5<\x97\xfe\xdeC\x8ac\x9b\xc3\x00\x00\xebB>y%?\xecTC?\x00\x00\x00\x00\xd3\\\x9e?\xecQx?\x97\xfe\xdeC\x8ac\xa0\xc3\x00\x00\xf5B\x00\x00\x00\x80\x00\x00\x00\x00\x00\x00\x80?\x1b>\x99?\xa4p}?\x97\xfe\xdeC\x8a\xe3\xa7\xc333\xebB>y%\xbf\xecTC\xbf\x00\x00\x00\x80\x06\x90\x91?"lx?\x97\xfe\xdeC\x8a\xe3\xa7\xc3\xcd\xcc\xea\xc2>y%\xbf\xecTC\xbf\x00\x00\x00\x80\x06\x90\x91?h\t\xf9<\x97\xfe\xdeC\x8ac\xa0\xc3\x00\x00\xf5\xc2\x00\x00\x00\x80\x00\x00\x00\x00\x00\x00\x80?\x1b>\x99?\n\xd7#<\x97\xfe\xdeC\x8ac\x9b\xc3\x00\x00\xeb\xc2>y%?\xecTC?\x00\x00\x00\x00\xd3\\\x9e?\x8f\xc2\xf5<\x97\xfe\xdeC\x8ac\x9b\xc3\x00\x00\xebB>y%?\xecTC?\x00\x00\x00\x00\xd3\\\x9e?\xecQx?\xb1\x8d\xc2C\x96K\x83\xc3\x00\x00\xeb\xc2>y%?\xecTC?\x00\x00\x00\x00\xe7\xfe\xc2?\x8f\xc2\xf5<\xb1\x8d\xc2C\x96K\x83\xc3\x00\x00\xebB>y%?\xecTC?\x00\x00\x00\x00\xe7\xfe\xc2?\xecQx? (192 @ 3c37)
+                u9 : \x00\x00\x04\x00\x05\x00\x00\x00\x03\x00\x04\x00\x00\x00\x01\x00\x03\x00\x01\x00\x02\x00\x03\x00\x06\x00\n\x00\x0b\x00\x07\x00\x06\x00\x0b\x00\x07\x00\x0b\x00\x0c\x00\x08\x00\x07\x00\x0c\x00\x08\x00\x0c\x00\r\x00\t\x00\x08\x00\r\x00\x0e\x00\x13\x00\x12\x00\x0e\x00\x12\x00\x11\x00\x0e\x00\x11\x00\x0f\x00\x11\x00\x10\x00\x0f\x00\x14\x00\x18\x00\x19\x00\x14\x00\x17\x00\x18\x00\x14\x00\x15\x00\x17\x00\x15\x00\x16\x00\x17\x00\x1a\x00\x1c\x00\x1d\x00\x1b\x00\x1a\x00\x1d\x00 (19a @ 3ffb)
+			}
+
+            u1 sub-sub-sub-block { (42 @ 4075)
+
+                u0 : 28(08 @ 4078)
+                u1 : 20(10 @ 407a)
+
+                u2 sub-sub-sub-sub-block { (1a @ 407c)
+
+                    u0 : 4(08 @ 407e)
+                    u1 : 1(10 @ 4080)
+                    u2 : 2(18 @ 4082)
+                    u3 : 0(20 @ 4084)
+				}
+
+                u3 sub-sub-sub-sub-block { (22 @ 4086)
+
+                    u0 : 7(08 @ 4088)
+                    u1 : 3(10 @ 408a)
+                    u2 : 32(18 @ 408c)
+                    u3 : 0(20 @ 408e)
+				}
+
+                u4 sub-sub-sub-sub-block { (2a @ 4090)
+
+                    u0 : 7(08 @ 4092)
+                    u1 : 3(10 @ 4094)
+                    u2 : 32(18 @ 4096)
+                    u3 : 12(20 @ 4098)
+				}
+
+                u5 sub-sub-sub-sub-block { (32 @ 409a)
+
+                    u0 : 7(08 @ 409c)
+                    u1 : 2(10 @ 409e)
+                    u2 : 32(18 @ 40a0)
+                    u3 : 24(20 @ 40a2)
+				}
+
+                u6 sub-sub-sub-sub-block { (52 @ 40a4)
+
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 40a6)
+
+                        w : 1.0 (0d @ 40a8)
+                        x : 1.0 (15 @ 40ad)
+                        y : 1.0 (1d @ 40b2)
+                        z : 1.0 (25 @ 40b7)
+					}
+
+                    u1 sub-sub-sub-sub-sub-block { (12 @ 40bc)
+
+                        w : 1.0 (0d @ 40be)
+                        x : 1.0 (15 @ 40c3)
+                        y : 1.0 (1d @ 40c8)
+                        z : 1.0 (25 @ 40cd)
+					}
+
+                    u2 sub-sub-sub-sub-sub-block { (1a @ 40d2)
+
+                        w : 1.0 (0d @ 40d4)
+                        x : 1.0 (15 @ 40d9)
+                        y : 1.0 (1d @ 40de)
+                        z : 1.0 (25 @ 40e3)
+					}
+                    u3 : 0.0 (25 @ 40e8)
+                    u4 : \n\x08brown128\x10\x01 \x02 (2a @ 40ed)
+				}
+
+                u7 sub-sub-sub-sub-block { (5a @ 40fd)
+
+                    u : 92.32821655273438 (0d @ 40ff)
+                    v : -335.77764892578125 (15 @ 4104)
+                    w : -122.5 (1d @ 4109)
+                    x : 619.2042236328125 (25 @ 410e)
+                    y : 1133.938232421875 (2d @ 4113)
+                    z : 245.0 (35 @ 4118)
+				}
+                u8 : \x97\xfe\xdeC\x8ac\x9b\xc3\x00\x00\xebB>y%?\xecTC?\x00\x00\x00\x00\xd3\\\x9e?\xecQx?\x97\xfe\xdeC\x8ac\xa0\xc3\x00\x00\xf5B\x00\x00\x00\x80\x00\x00\x00\x00\x00\x00\x80?\xd3\\\x9e?d\xe2\x81?\x97\xfe\xdeC\x8a\xe3\xa7\xc333\xebB>y%\xbf\xecTC\xbf\x00\x00\x00\x80\xd3\\\x9e?\xb6\xf6\x89?\xb1\x8d\xc2C\x96K\x83\xc3\x00\x00\xebB>y%?\xecTC?\x00\x00\x00\x00\xe7\xfe\xc2?\xecQx?\xb1\x8d\xc2C\x96K\x88\xc3\x00\x00\xf5B\x00\x00\x00\x80\x00\x00\x00\x00\x00\x00\x80?\xe7\xfe\xc2?d\xe2\x81?\xb1\x8d\xc2C\x96\xcb\x8f\xc333\xebB>y%\xbf\xecTC\xbf\x00\x00\x00\x80\xe7\xfe\xc2?\xb6\xf6\x89?\xb1\x8d\xc2C\x96K\x83\xc3\x00\x00\xeb\xc2>y%?\xecTC?\x00\x00\x00\x00\xe7\xfe\xc2?\x8f\xc2\xf5<\xb1\x8d\xc2C\x96K\x83\xc3\x00\x00\xebB>y%?\xecTC?\x00\x00\x00\x00\xe7\xfe\xc2?\xecQx?\xb1\x8d\xc2C\x96K\x88\xc3\x00\x00\xf5B\x00\x00\x00\x80\x00\x00\x00\x00\x00\x00\x80?\xa0\x1d\xc8?\xa4p}?\xb1\x8d\xc2C\x96\xcb\x8f\xc333\xebB>y%\xbf\xecTC\xbf\x00\x00\x00\x80\xb4\xcb\xcf?"lx?\xb1\x8d\xc2C\x96\xcb\x8f\xc3\xcd\xcc\xea\xc2>y%\xbf\xecTC\xbf\x00\x00\x00\x80\xb4\xcb\xcf?h\t\xf9<\xb1\x8d\xc2C\x96K\x88\xc3\x00\x00\xf5\xc2\x00\x00\x00\x80\x00\x00\x00\x00\x00\x00\x80?\xa0\x1d\xc8?\n\xd7#<\x13\xe21D\x0f\x7fAD\x00\x00\xeb\xc2\x01\x15\x93=\xc6V\x7f?\x00\x00\x00\x00\xe7\xfe\xc2?\x8f\xc2\xf5<\x13\xe21D\x0f\x7fAD\x00\x00\xebB\x01\x15\x93=\xc6V\x7f?\x00\x00\x00\x00\xe7\xfe\xc2?\xecQx?\x13\xe21D\x0f\xff>D\x00\x00\xf5B\x00\x00\x00\x80\x00\x00\x00\x00\x00\x00\x80?/\xe0\xbd?\xa4p}?\x13\xe21D\x0f?;D33\xebB\x01\x15\x93\xbd\xc6V\x7f\xbf\x00\x00\x00\x80\x1b2\xb6?"lx?\x13\xe21D\x0f?;D\xcd\xcc\xea\xc2\x01\x15\x93\xbd\xc6V\x7f\xbf\x00\x00\x00\x80\x1b2\xb6?h\t\xf9<\x13\xe21D\x0f\xff>D\x00\x00\xf5\xc2\x00\x00\x00\x80\x00\x00\x00\x00\x00\x00\x80?/\xe0\xbd?\n\xd7#<\x13\xe21D\x0f\x7fAD\x00\x00\xeb\xc2\x01\x15\x93=\xc6V\x7f?\x00\x00\x00\x00\xe7\xfe\xc2?\x8f\xc2\xf5<\x13\xe21D\x0f\x7fAD\x00\x00\xebB\x01\x15\x93=\xc6V\x7f?\x00\x00\x00\x00\xe7\xfe\xc2?\xecQx?\x13\xe21D\x0f\xff>D\x00\x00\xf5B\x00\x00\x00\x80\x00\x00\x00\x00\x00\x00\x80?\xe7\xfe\xc2?d\xe2\x81?\x13\xe21D\x0f?;D33\xebB\x01\x15\x93\xbd\xc6V\x7f\xbf\x00\x00\x00\x80\xe7\xfe\xc2?\xb6\xf6\x89?\xd8\xe3\xbbCG\x8aGD\x00\x00\xeb\xc2\xe4\x86\xf1<\x82\xe3\x7f?\x00\x00\x00\x00\xae\xe76@\x8f\xc2\xf5<\xd8\xe3\xbbCG\x8aGD\x00\x00\xebB\xe4\x86\xf1<\x82\xe3\x7f?\x00\x00\x00\x00\xae\xe76@\xecQx?\xd8\xe3\xbbCG\nED\x00\x00\xf5B\x00\x00\x00\x80\x00\x00\x00\x00\xff\xff\x7f?\xae\xe76@d\xe2\x81?\xd8\xe3\xbbCGJAD33\xebB\xe4\x86\xf1\xbc\x82\xe3\x7f\xbf\x00\x00\x00\x80\xae\xe76@\xb6\xf6\x89?\x0c\xa8\xb8B\x1a\x18FD\x00\x00\xeb\xc2\xa9\x18\x08\xbd\xd1\xdb\x7f?\x00\x00\x00\x00\xd8{\x7f@\x8f\xc2\xf5<\x0c\xa8\xb8B\x1a\x18FD\x00\x00\xebB\xa9\x18\x08\xbd\xd1\xdb\x7f?\x00\x00\x00\x00\xd8{\x7f@\xecQx? (192 @ 411e)
+                u9 : \x00\x00\x03\x00\x04\x00\x01\x00\x00\x00\x04\x00\x01\x00\x04\x00\x05\x00\x02\x00\x01\x00\x05\x00\x06\x00\x0b\x00\n\x00\x06\x00\n\x00\t\x00\x06\x00\t\x00\x07\x00\t\x00\x08\x00\x07\x00\x0c\x00\x10\x00\x11\x00\x0c\x00\x0f\x00\x10\x00\x0c\x00\r\x00\x0f\x00\r\x00\x0e\x00\x0f\x00\x12\x00\x16\x00\x17\x00\x13\x00\x12\x00\x17\x00\x13\x00\x17\x00\x18\x00\x14\x00\x13\x00\x18\x00\x14\x00\x18\x00\x19\x00\x15\x00\x14\x00\x19\x00\x16\x00\x1a\x00\x1b\x00\x17\x00\x16\x00\x1b\x00 (19a @ 44a2)
+			}
+
+            u1 sub-sub-sub-block { (42 @ 451c)
+
+                u0 : 17(08 @ 451f)
+                u1 : 14(10 @ 4521)
+
+                u2 sub-sub-sub-sub-block { (1a @ 4523)
+
+                    u0 : 4(08 @ 4525)
+                    u1 : 1(10 @ 4527)
+                    u2 : 2(18 @ 4529)
+                    u3 : 0(20 @ 452b)
+				}
+
+                u3 sub-sub-sub-sub-block { (22 @ 452d)
+
+                    u0 : 7(08 @ 452f)
+                    u1 : 3(10 @ 4531)
+                    u2 : 32(18 @ 4533)
+                    u3 : 0(20 @ 4535)
+				}
+
+                u4 sub-sub-sub-sub-block { (2a @ 4537)
+
+                    u0 : 7(08 @ 4539)
+                    u1 : 3(10 @ 453b)
+                    u2 : 32(18 @ 453d)
+                    u3 : 12(20 @ 453f)
+				}
+
+                u5 sub-sub-sub-sub-block { (32 @ 4541)
+
+                    u0 : 7(08 @ 4543)
+                    u1 : 2(10 @ 4545)
+                    u2 : 32(18 @ 4547)
+                    u3 : 24(20 @ 4549)
+				}
+
+                u6 sub-sub-sub-sub-block { (52 @ 454b)
+
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 454d)
+
+                        w : 1.0 (0d @ 454f)
+                        x : 1.0 (15 @ 4554)
+                        y : 1.0 (1d @ 4559)
+                        z : 1.0 (25 @ 455e)
+					}
+
+                    u1 sub-sub-sub-sub-sub-block { (12 @ 4563)
+
+                        w : 1.0 (0d @ 4565)
+                        x : 1.0 (15 @ 456a)
+                        y : 1.0 (1d @ 456f)
+                        z : 1.0 (25 @ 4574)
+					}
+
+                    u2 sub-sub-sub-sub-sub-block { (1a @ 4579)
+
+                        w : 1.0 (0d @ 457b)
+                        x : 1.0 (15 @ 4580)
+                        y : 1.0 (1d @ 4585)
+                        z : 1.0 (25 @ 458a)
+					}
+                    u3 : 0.0 (25 @ 458f)
+                    u4 : \n\x08brown128\x10\x01 \x02 (2a @ 4594)
+				}
+
+                u7 sub-sub-sub-sub-block { (5a @ 45a4)
+
+                    u : -371.3800354003906 (0d @ 45a6)
+                    v : 748.2975463867188 (15 @ 45ab)
+                    w : -122.5 (1d @ 45b0)
+                    x : 747.1600341796875 (25 @ 45b5)
+                    y : 49.863037109375 (2d @ 45ba)
+                    z : 245.0 (35 @ 45bf)
+				}
+                u8 : \xd8\xe3\xbbCG\x8aGD\x00\x00\xebB\xe4\x86\xf1<\x82\xe3\x7f?\x00\x00\x00\x00\xae\xe76@\xecQx?\xd8\xe3\xbbCG\nED\x00\x00\xf5B\x00\x00\x00\x80\x00\x00\x00\x00\xff\xff\x7f?\xae\xe76@d\xe2\x81?\xd8\xe3\xbbCGJAD33\xebB\xe4\x86\xf1\xbc\x82\xe3\x7f\xbf\x00\x00\x00\x80\xae\xe76@\xb6\xf6\x89?\x0c\xa8\xb8B\x1a\x18FD\x00\x00\xeb\xc2\xa9\x18\x08\xbd\xd1\xdb\x7f?\x00\x00\x00\x00\xd8{\x7f@\x8f\xc2\xf5<\x0c\xa8\xb8B\x1a\x18FD\x00\x00\xebB\xa9\x18\x08\xbd\xd1\xdb\x7f?\x00\x00\x00\x00\xd8{\x7f@\xecQx?\x0c\xa8\xb8B\x1a\x98CD\x00\x00\xf5B\x00\x00\x00\x80\x00\x00\x00\x00\x00\x00\x80?\xd8{\x7f@d\xe2\x81?\x0c\xa8\xb8B\x1a\xd8?D33\xebB\xa9\x18\x08=\xd1\xdb\x7f\xbf\x00\x00\x00\x80\xd8{\x7f@\xb6\xf6\x89?\xa5\xb0\xb9\xc3\x0bSAD\x00\x00\xeb\xc2\x9bb(\xbd\x9a\xc8\x7f?\x00\x00\x00\x00D\xc3\xba@\x8f\xc2\xf5<\xa5\xb0\xb9\xc3\x0bSAD\x00\x00\xebB\x9bb(\xbd\x9a\xc8\x7f?\x00\x00\x00\x00D\xc3\xba@\xecQx?\xa5\xb0\xb9\xc3\x0b\xd3>D\x00\x00\xf5B\x00\x00\x00\x80\x00\x00\x00\x00\xff\xff\x7f?D\xc3\xba@d\xe2\x81?\xa5\xb0\xb9\xc3\x0b\x13;D33\xebB\x9bb(=\x9a\xc8\x7f\xbf\x00\x00\x00\x80D\xc3\xba@\xb6\xf6\x89?\xa5\xb0\xb9\xc3\x0bSAD\x00\x00\xeb\xc2\x9bb(\xbd\x9a\xc8\x7f?\x00\x00\x00\x00D\xc3\xba@\x8f\xc2\xf5<\xa5\xb0\xb9\xc3\x0bSAD\x00\x00\xebB\x9bb(\xbd\x9a\xc8\x7f?\x00\x00\x00\x00D\xc3\xba@\xecQx?\xa5\xb0\xb9\xc3\x0b\xd3>D\x00\x00\xf5B\x00\x00\x00\x80\x00\x00\x00\x00\xff\xff\x7f?\xf2\n\xbc@\xa4p}?\xa5\xb0\xb9\xc3\x0b\x13;D33\xebB\x9bb(=\x9a\xc8\x7f\xbf\x00\x00\x00\x80w\xf6\xbd@"lx?\xa5\xb0\xb9\xc3\x0b\x13;D\xcd\xcc\xea\xc2\x9bb(=\x9a\xc8\x7f\xbf\x00\x00\x00\x80w\xf6\xbd@h\t\xf9<\xa5\xb0\xb9\xc3\x0b\xd3>D\x00\x00\xf5\xc2\x00\x00\x00\x80\x00\x00\x00\x00\xff\xff\x7f?\xf2\n\xbc@\n\xd7#< (192 @ 45c5)
+                u9 : \x00\x00\x04\x00\x05\x00\x01\x00\x00\x00\x05\x00\x01\x00\x05\x00\x06\x00\x02\x00\x01\x00\x06\x00\x03\x00\x07\x00\x08\x00\x04\x00\x03\x00\x08\x00\x04\x00\x08\x00\t\x00\x05\x00\x04\x00\t\x00\x05\x00\t\x00\n\x00\x06\x00\x05\x00\n\x00\x0b\x00\x10\x00\x0f\x00\x0b\x00\x0f\x00\x0e\x00\x0b\x00\x0e\x00\x0c\x00\x0e\x00\r\x00\x0c\x00 (19a @ 47e9)
+			}
+
+            u1 sub-sub-sub-block { (42 @ 483f)
+
+                u0 : 22(08 @ 4842)
+                u1 : 20(10 @ 4844)
+
+                u2 sub-sub-sub-sub-block { (1a @ 4846)
+
+                    u0 : 4(08 @ 4848)
+                    u1 : 1(10 @ 484a)
+                    u2 : 2(18 @ 484c)
+                    u3 : 0(20 @ 484e)
+				}
+
+                u3 sub-sub-sub-sub-block { (22 @ 4850)
+
+                    u0 : 7(08 @ 4852)
+                    u1 : 3(10 @ 4854)
+                    u2 : 32(18 @ 4856)
+                    u3 : 0(20 @ 4858)
+				}
+
+                u4 sub-sub-sub-sub-block { (2a @ 485a)
+
+                    u0 : 7(08 @ 485c)
+                    u1 : 3(10 @ 485e)
+                    u2 : 32(18 @ 4860)
+                    u3 : 12(20 @ 4862)
+				}
+
+                u5 sub-sub-sub-sub-block { (32 @ 4864)
+
+                    u0 : 7(08 @ 4866)
+                    u1 : 2(10 @ 4868)
+                    u2 : 32(18 @ 486a)
+                    u3 : 24(20 @ 486c)
+				}
+
+                u6 sub-sub-sub-sub-block { (52 @ 486e)
+
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 4870)
+
+                        w : 1.0 (0d @ 4872)
+                        x : 1.0 (15 @ 4877)
+                        y : 1.0 (1d @ 487c)
+                        z : 1.0 (25 @ 4881)
+					}
+
+                    u1 sub-sub-sub-sub-sub-block { (12 @ 4886)
+
+                        w : 1.0 (0d @ 4888)
+                        x : 1.0 (15 @ 488d)
+                        y : 1.0 (1d @ 4892)
+                        z : 1.0 (25 @ 4897)
+					}
+
+                    u2 sub-sub-sub-sub-sub-block { (1a @ 489c)
+
+                        w : 1.0 (0d @ 489e)
+                        x : 1.0 (15 @ 48a3)
+                        y : 1.0 (1d @ 48a8)
+                        z : 1.0 (25 @ 48ad)
+					}
+                    u3 : 0.0 (25 @ 48b2)
+                    u4 : \n\tcavewalls\x10\x01 \x01 (2a @ 48b7)
+				}
+
+                u7 sub-sub-sub-sub-block { (5a @ 48c8)
+
+                    u : 51.9033203125 (0d @ 48ca)
+                    v : -798.16064453125 (15 @ 48cf)
+                    w : -112.5 (1d @ 48d4)
+                    x : 192.9759521484375 (25 @ 48d9)
+                    y : 77.5838623046875 (2d @ 48de)
+                    z : 225.0 (35 @ 48e3)
+				}
+                u8 : \x80\xe1OB\xea$4\xc4\x00\x00\xe1\xc2\xc4\xff\x7f\xbf\x89\x0e/;\x00\x00\x00\x00\x00\x00\x00?\xcd\xccL=\x80\xe1OB\xea$4\xc4\x00\x00\xe1B\xc4\xff\x7f\xbf\x89\x0e/;\x00\x00\x00\x00\x00\x00\x00?33s?\x00\x9dOB\xaeg:\xc4\x00\x00\xe1\xc2y@|\xbf\xe8\x95.\xbe\x00\x00\x00\x00\xf4\xa4\x19?\xcd\xccL=\x00\x9dOB\xaeg:\xc4\x00\x00\xe1By@|\xbf\xe8\x95.\xbe\x00\x00\x00\x00\xf4\xa4\x19?33s?\x00XuB&\xadA\xc4\x00\x00\xe1\xc28\xa2U\xbf6\x0e\r\xbf\x00\x00\x00\x00w\xf48?\xcd\xccL=\x00XuB&\xadA\xc4\x00\x00\xe1B8\xa2U\xbf6\x0e\r\xbf\x00\x00\x00\x00w\xf48?33s?@0\xadBH\x8aG\xc4\x00\x00\xe1\xc2yf\x94>\xca\x02u\xbf\x00\x00\x00\x00^@\\?\xcd\xccL=@0\xadBH\x8aG\xc4\x00\x00\xe1Byf\x94>\xca\x02u\xbf\x00\x00\x00\x00^@\\?33s?\xe4\xeb\x13C\xf2\x1e;\xc4\x00\x00\xe1\xc2\xdf\x83\xf5>\xcf\xa5`\xbf\x00\x00\x00\x00\xc8\x88\x96?\xcd\xccL=\xe4\xeb\x13C\xf2\x1e;\xc4\x00\x00\xe1B\xdf\x83\xf5>\xcf\xa5`\xbf\x00\x00\x00\x00\xc8\x88\x96?33s?P\x8a\'Cf{<\xc4\x00\x00\xe1\xc2\x81\xb0.\xbf\x9f";\xbf\x00\x00\x00\x00r\xf5\xa0?\xcd\xccL=P\x8a\'Cf{<\xc4\x00\x00\xe1B\x81\xb0.\xbf\x9f";\xbf\x00\x00\x00\x00r\xf5\xa0?33s?PU;C\x8cQD\xc4\x00\x00\xe1\xc2\xed\xc0\x06>\x11\xc6}\xbf\x00\x00\x00\x00\x8e\xf0\xb3?\xcd\xccL=PU;C\x8cQD\xc4\x00\x00\xe1B\xed\xc0\x06>\x11\xc6}\xbf\x00\x00\x00\x00\x8e\xf0\xb3?33s?\xb0\xbcKC\xdfG;\xc4\x00\x00\xe1\xc2\x8e\xec\xfa>\x07&_\xbf\x00\x00\x00\x00\xf5C\xc8?\xcd\xccL=\xb0\xbcKC\xdfG;\xc4\x00\x00\xe1B\x8e\xec\xfa>\x07&_\xbf\x00\x00\x00\x00\xf5C\xc8?33s?p\xe7YC\x84\x05@\xc4\x00\x00\xe1\xc2w\xe2<\xbf\xe2\xcb,\xbf\x00\x00\x00\x00\x89b\xd4?\xcd\xccL=p\xe7YC\x84\x05@\xc4\x00\x00\xe1Bw\xe2<\xbf\xe2\xcb,\xbf\x00\x00\x00\x00\x89b\xd4?33s?`PjC\xfe\xa2C\xc4\x00\x00\xe1\xc2 T\xdb>^Rg\xbf\x00\x00\x00\x00^\x95\xdf?\xcd\xccL=`PjC\xfe\xa2C\xc4\x00\x00\xe1B T\xdb>^Rg\xbf\x00\x00\x00\x00^\x95\xdf?33s?\x18\xe1tC\x10\xd3<\xc4\x00\x00\xe1\xc2\x08\x19_\xbe\xb2\xd9y\xbf\x00\x00\x00\x00\x02\x8c\xee?\xcd\xccL=\x18\xe1tC\x10\xd3<\xc4\x00\x00\xe1B\x08\x19_\xbe\xb2\xd9y\xbf\x00\x00\x00\x00\x02\x8c\xee?33s? (192 @ 48e9)
+                u9 : \x00\x00\x02\x00\x03\x00\x01\x00\x00\x00\x03\x00\x02\x00\x04\x00\x05\x00\x03\x00\x02\x00\x05\x00\x04\x00\x06\x00\x07\x00\x05\x00\x04\x00\x07\x00\x06\x00\x08\x00\t\x00\x07\x00\x06\x00\t\x00\x08\x00\n\x00\x0b\x00\t\x00\x08\x00\x0b\x00\n\x00\x0c\x00\r\x00\x0b\x00\n\x00\r\x00\x0c\x00\x0e\x00\x0f\x00\r\x00\x0c\x00\x0f\x00\x0e\x00\x10\x00\x11\x00\x0f\x00\x0e\x00\x11\x00\x10\x00\x12\x00\x13\x00\x11\x00\x10\x00\x13\x00\x12\x00\x14\x00\x15\x00\x13\x00\x12\x00\x15\x00 (19a @ 4bad)
+			}
+
+            u1 sub-sub-sub-block { (42 @ 4c27)
+
+                u0 : 22(08 @ 4c2a)
+                u1 : 20(10 @ 4c2c)
+
+                u2 sub-sub-sub-sub-block { (1a @ 4c2e)
+
+                    u0 : 4(08 @ 4c30)
+                    u1 : 1(10 @ 4c32)
+                    u2 : 2(18 @ 4c34)
+                    u3 : 0(20 @ 4c36)
+				}
+
+                u3 sub-sub-sub-sub-block { (22 @ 4c38)
+
+                    u0 : 7(08 @ 4c3a)
+                    u1 : 3(10 @ 4c3c)
+                    u2 : 32(18 @ 4c3e)
+                    u3 : 0(20 @ 4c40)
+				}
+
+                u4 sub-sub-sub-sub-block { (2a @ 4c42)
+
+                    u0 : 7(08 @ 4c44)
+                    u1 : 3(10 @ 4c46)
+                    u2 : 32(18 @ 4c48)
+                    u3 : 12(20 @ 4c4a)
+				}
+
+                u5 sub-sub-sub-sub-block { (32 @ 4c4c)
+
+                    u0 : 7(08 @ 4c4e)
+                    u1 : 2(10 @ 4c50)
+                    u2 : 32(18 @ 4c52)
+                    u3 : 24(20 @ 4c54)
+				}
+
+                u6 sub-sub-sub-sub-block { (52 @ 4c56)
+
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 4c58)
+
+                        w : 1.0 (0d @ 4c5a)
+                        x : 1.0 (15 @ 4c5f)
+                        y : 1.0 (1d @ 4c64)
+                        z : 1.0 (25 @ 4c69)
+					}
+
+                    u1 sub-sub-sub-sub-sub-block { (12 @ 4c6e)
+
+                        w : 1.0 (0d @ 4c70)
+                        x : 1.0 (15 @ 4c75)
+                        y : 1.0 (1d @ 4c7a)
+                        z : 1.0 (25 @ 4c7f)
+					}
+
+                    u2 sub-sub-sub-sub-sub-block { (1a @ 4c84)
+
+                        w : 1.0 (0d @ 4c86)
+                        x : 1.0 (15 @ 4c8b)
+                        y : 1.0 (1d @ 4c90)
+                        z : 1.0 (25 @ 4c95)
+					}
+                    u3 : 0.0 (25 @ 4c9a)
+                    u4 : \n\tcavewalls\x10\x01 \x01 (2a @ 4c9f)
+				}
+
+                u7 sub-sub-sub-sub-block { (5a @ 4cb0)
+
+                    u : 244.8792724609375 (0d @ 4cb2)
+                    v : -788.7783203125 (15 @ 4cb7)
+                    w : -112.5 (1d @ 4cbc)
+                    x : 174.8780517578125 (25 @ 4cc1)
+                    y : 242.36553955078125 (2d @ 4cc6)
+                    z : 225.0 (35 @ 4ccb)
+				}
+                u8 : \x18\xe1tC\x10\xd3<\xc4\x00\x00\xe1\xc2\x08\x19_\xbe\xb2\xd9y\xbf\x00\x00\x00\x00\x02\x8c\xee?\xcd\xccL=\x18\xe1tC\x10\xd3<\xc4\x00\x00\xe1B\x08\x19_\xbe\xb2\xd9y\xbf\x00\x00\x00\x00\x02\x8c\xee?33s?X\x1d\x83C\xd01E\xc4\x00\x00\xe1\xc2\xc5\x88\xb3\xbe\xd3\xbeo\xbf\x00\x00\x00\x00L\xed\x00@\xcd\xccL=X\x1d\x83C\xd01E\xc4\x00\x00\xe1B\xc5\x88\xb3\xbe\xd3\xbeo\xbf\x00\x00\x00\x00L\xed\x00@33s?\xb4\xc5\x8bC\xc2\x11@\xc4\x00\x00\xe1\xc2\x8a\xf1\xbf>mTm\xbf\x00\x00\x00\x00\xf1\xcb\x07@\xcd\xccL=\xb4\xc5\x8bC\xc2\x11@\xc4\x00\x00\xe1B\x8a\xf1\xbf>mTm\xbf\x00\x00\x00\x00\xf1\xcb\x07@33s?Hp\x94C\x1c\xb1A\xc4\x00\x00\xe1\xc2\x85\x86 ?\tkG\xbf\x00\x00\x00\x00\xde\x88\x0c@\xcd\xccL=Hp\x94C\x1c\xb1A\xc4\x00\x00\xe1B\x85\x86 ?\tkG\xbf\x00\x00\x00\x00\xde\x88\x0c@33s?0%\xa4CvB6\xc4\x00\x00\xe1\xc2\x80\xe7$\xbe\x9f\xa8|\xbf\x00\x00\x00\x00\xbe\xbc\x1a@\xcd\xccL=0%\xa4CvB6\xc4\x00\x00\xe1B\x80\xe7$\xbe\x9f\xa8|\xbf\x00\x00\x00\x00\xbe\xbc\x1a@33s?x\xb5\xb1Cp\x14D\xc4\x00\x00\xe1\xc2\xb5\x16O?\x06\x80\x16\xbf\x00\x00\x00\x00S\x80*@\xcd\xccL=x\xb5\xb1Cp\x14D\xc4\x00\x00\xe1B\xb5\x16O?\x06\x80\x16\xbf\x00\x00\x00\x00S\x80*@33s?\xc0\xbb\xb1C4\xe9,\xc4\x00\x00\xe1\xc2\xbe\xdb{?\ns7\xbe\x00\x00\x00\x00\xe89B@\xcd\xccL=\xc0\xbb\xb1C4\xe9,\xc4\x00\x00\xe1B\xbe\xdb{?\ns7\xbe\x00\x00\x00\x00\xe89B@33s?\x80\xa3\xbbC\x82\xd0(\xc4\x00\x00\xe1\xc2z\x14\x18\xbd\xd0\xd2\x7f\xbf\x00\x00\x00\x00\xc7\xceH@\xcd\xccL=\x80\xa3\xbbC\x82\xd0(\xc4\x00\x00\xe1Bz\x14\x18\xbd\xd0\xd2\x7f\xbf\x00\x00\x00\x00\xc7\xceH@33s?\xa83\xbeC\x80$-\xc4\x00\x00\xe1\xc2\xb4\x14q?\x86;\xac\xbe\x00\x00\x00\x00\rnM@\xcd\xccL=\xa83\xbeC\x80$-\xc4\x00\x00\xe1B\xb4\x14q?\x86;\xac\xbe\x00\x00\x00\x00\rnM@33s?\x18\x1b\xccC\xc5\xc3\x11\xc4\x00\x00\xe1\xc222w?2\x1e\x85\xbe\x00\x00\x00\x00\xc3Zj@\xcd\xccL=\x18\x1b\xccC\xc5\xc3\x11\xc4\x00\x00\xe1B22w?2\x1e\x85\xbe\x00\x00\x00\x00\xc3Zj@33s?\xf0\xe0\xd1Ck\x9a\x08\xc4\x00\x00\xe1\xc2\xb9\xea\x7f?\x9d\xbd\xd0\xbc\x00\x00\x00\x00\xc70t@\xcd\xccL=\xf0\xe0\xd1Ck\x9a\x08\xc4\x00\x00\xe1B\xb9\xea\x7f?\x9d\xbd\xd0\xbc\x00\x00\x00\x00\xc70t@33s? (192 @ 4cd1)
+                u9 : \x00\x00\x02\x00\x03\x00\x01\x00\x00\x00\x03\x00\x02\x00\x04\x00\x05\x00\x03\x00\x02\x00\x05\x00\x04\x00\x06\x00\x07\x00\x05\x00\x04\x00\x07\x00\x06\x00\x08\x00\t\x00\x07\x00\x06\x00\t\x00\x08\x00\n\x00\x0b\x00\t\x00\x08\x00\x0b\x00\n\x00\x0c\x00\r\x00\x0b\x00\n\x00\r\x00\x0c\x00\x0e\x00\x0f\x00\r\x00\x0c\x00\x0f\x00\x0e\x00\x10\x00\x11\x00\x0f\x00\x0e\x00\x11\x00\x10\x00\x12\x00\x13\x00\x11\x00\x10\x00\x13\x00\x12\x00\x14\x00\x15\x00\x13\x00\x12\x00\x15\x00 (19a @ 4f95)
+			}
+
+            u1 sub-sub-sub-block { (42 @ 500f)
+
+                u0 : 24(08 @ 5012)
+                u1 : 20(10 @ 5014)
+
+                u2 sub-sub-sub-sub-block { (1a @ 5016)
+
+                    u0 : 4(08 @ 5018)
+                    u1 : 1(10 @ 501a)
+                    u2 : 2(18 @ 501c)
+                    u3 : 0(20 @ 501e)
+				}
+
+                u3 sub-sub-sub-sub-block { (22 @ 5020)
+
+                    u0 : 7(08 @ 5022)
+                    u1 : 3(10 @ 5024)
+                    u2 : 32(18 @ 5026)
+                    u3 : 0(20 @ 5028)
+				}
+
+                u4 sub-sub-sub-sub-block { (2a @ 502a)
+
+                    u0 : 7(08 @ 502c)
+                    u1 : 3(10 @ 502e)
+                    u2 : 32(18 @ 5030)
+                    u3 : 12(20 @ 5032)
+				}
+
+                u5 sub-sub-sub-sub-block { (32 @ 5034)
+
+                    u0 : 7(08 @ 5036)
+                    u1 : 2(10 @ 5038)
+                    u2 : 32(18 @ 503a)
+                    u3 : 24(20 @ 503c)
+				}
+
+                u6 sub-sub-sub-sub-block { (52 @ 503e)
+
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 5040)
+
+                        w : 1.0 (0d @ 5042)
+                        x : 1.0 (15 @ 5047)
+                        y : 1.0 (1d @ 504c)
+                        z : 1.0 (25 @ 5051)
+					}
+
+                    u1 sub-sub-sub-sub-sub-block { (12 @ 5056)
+
+                        w : 1.0 (0d @ 5058)
+                        x : 1.0 (15 @ 505d)
+                        y : 1.0 (1d @ 5062)
+                        z : 1.0 (25 @ 5067)
+					}
+
+                    u2 sub-sub-sub-sub-sub-block { (1a @ 506c)
+
+                        w : 1.0 (0d @ 506e)
+                        x : 1.0 (15 @ 5073)
+                        y : 1.0 (1d @ 5078)
+                        z : 1.0 (25 @ 507d)
+					}
+                    u3 : 0.0 (25 @ 5082)
+                    u4 : \n\tcavewalls\x10\x01 \x01 (2a @ 5087)
+				}
+
+                u7 sub-sub-sub-sub-block { (5a @ 5098)
+
+                    u : 389.1069641113281 (0d @ 509a)
+                    v : -546.4127807617188 (15 @ 509f)
+                    w : -112.5 (1d @ 50a4)
+                    x : 319.4331970214844 (25 @ 50a9)
+                    y : 1320.613525390625 (2d @ 50ae)
+                    z : 225.0 (35 @ 50b3)
+				}
+                u8 : \xf0\xe0\xd1Ck\x9a\x08\xc4\x00\x00\xe1\xc2\xb9\xea\x7f?\x9d\xbd\xd0\xbc\x00\x00\x00\x00\xc70t@\xcd\xccL=\xf0\xe0\xd1Ck\x9a\x08\xc4\x00\x00\xe1B\xb9\xea\x7f?\x9d\xbd\xd0\xbc\x00\x00\x00\x00\xc70t@33s?\x081\xcdCv\xef\xf8\xc3\x00\x00\xe1\xc2\xaasB?\xb9\x81&\xbf\x00\x00\x00\x00fl\x80@\xcd\xccL=\x081\xcdCv\xef\xf8\xc3\x00\x00\xe1B\xaasB?\xb9\x81&\xbf\x00\x00\x00\x00fl\x80@33s?\xa8\x8d\xe9C\xf0\x8e\xf5\xc3\x00\x00\xe1\xc26\x1cY?\xbc\xa4\x07\xbf\x00\x00\x00\x00@\xbc\x87@\xcd\xccL=\xa8\x8d\xe9C\xf0\x8e\xf5\xc3\x00\x00\xe1B6\x1cY?\xbc\xa4\x07\xbf\x00\x00\x00\x00@\xbc\x87@33s?\xe8\x0f\xe5Cn\xba\xd2\xc3\x00\x00\xe1\xc2h\xb0t?Y\x82\x96>\x00\x00\x00\x00\xc6\xb9\x90@\xcd\xccL=\xe8\x0f\xe5Cn\xba\xd2\xc3\x00\x00\xe1Bh\xb0t?Y\x82\x96>\x00\x00\x00\x00\xc6\xb9\x90@33s?p\xe8\xd1C\xfe\xac\xa8\xc3\x00\x00\xe1\xc2\xf8\xec}?\xd2\x17\x02>\x00\x00\x00\x00%\x8e\x9c@\xcd\xccL=p\xe8\xd1C\xfe\xac\xa8\xc3\x00\x00\xe1B\xf8\xec}?\xd2\x17\x02>\x00\x00\x00\x00%\x8e\x9c@33s?\x98\xd9\xddCTk\x9a\xc3\x00\x00\xe1\xc2:?D?\x19c$\xbf\x00\x00\x00\x00\xf0P\xa1@\xcd\xccL=\x98\xd9\xddCTk\x9a\xc3\x00\x00\xe1B:?D?\x19c$\xbf\x00\x00\x00\x00\xf0P\xa1@33s?\xb1\x8d\xc2C\x96K\x83\xc3\x00\x00\xe1\xc2\xb4\xe2#?\x82\xaaD\xbf\x00\x00\x00\x00\xf0P\xa1@\xcd\xccL=\xb1\x8d\xc2C\x96K\x83\xc3\x00\x00\xe1B\xb4\xe2#?\x82\xaaD\xbf\x00\x00\x00\x00\xf0P\xa1@33s?\xf6\xb7\xf6Cp\xa6/\xc3\x00\x00\xe1\xc2\xf7|s?\x95\x1b\x9e\xbe\x00\x00\x00\x00\x0b\xb3\xb2@\xcd\xccL=\xf6\xb7\xf6Cp\xa6/\xc3\x00\x00\xe1B\xf7|s?\x95\x1b\x9e\xbe\x00\x00\x00\x00\x0b\xb3\xb2@33s?Xa\xffC(6\xe0B\x00\x00\xe1\xc2!\xfc\x7f?\xb7\x1b2<\x00\x00\x00\x00M\x99\xd7@\xcd\xccL=Xa\xffC(6\xe0B\x00\x00\xe1B!\xfc\x7f?\xb7\x1b2<\x00\x00\x00\x00M\x99\xd7@33s?\x8a!\xf3C~,\xf2C\x00\x00\xe1\xc2\x0c ~?\x9cg\xf7\xbd\x00\x00\x00\x00\xa7\xac\x03A\xcd\xccL=\x8a!\xf3C~,\xf2C\x00\x00\xe1B\x0c ~?\x9cg\xf7\xbd\x00\x00\x00\x00\xa7\xac\x03A33s?\xc5\xba\x10D{\x0b(D\x00\x00\xe1\xc2\xcf$K?\xa7\xc8\x1b\xbf\x00\x00\x00\x00\'\x14\x11A\xcd\xccL=\xc5\xba\x10D{\x0b(D\x00\x00\xe1B\xcf$K?\xa7\xc8\x1b\xbf\x00\x00\x00\x00\'\x14\x11A33s?\x92"1D\xd9\x8cAD\x00\x00\xe1\xc2\xacT\x1e?@*I\xbf\x00\x00\x00\x00\xc7\xa2\x1bA\xcd\xccL=\x92"1D\xd9\x8cAD\x00\x00\xe1B\xacT\x1e?@*I\xbf\x00\x00\x00\x00\xc7\xa2\x1bA33s? (192 @ 50b9)
+                u9 : \x00\x00\x02\x00\x03\x00\x01\x00\x00\x00\x03\x00\x02\x00\x04\x00\x05\x00\x03\x00\x02\x00\x05\x00\x04\x00\x06\x00\x07\x00\x05\x00\x04\x00\x07\x00\x06\x00\x08\x00\t\x00\x07\x00\x06\x00\t\x00\x08\x00\n\x00\x0b\x00\t\x00\x08\x00\x0b\x00\x0c\x00\x0e\x00\x0f\x00\r\x00\x0c\x00\x0f\x00\x0e\x00\x10\x00\x11\x00\x0f\x00\x0e\x00\x11\x00\x10\x00\x12\x00\x13\x00\x11\x00\x10\x00\x13\x00\x12\x00\x14\x00\x15\x00\x13\x00\x12\x00\x15\x00\x14\x00\x16\x00\x17\x00\x15\x00\x14\x00\x17\x00 (19a @ 53bd)
+			}
+
+            u1 sub-sub-sub-block { (42 @ 5437)
+
+                u0 : 22(08 @ 543a)
+                u1 : 20(10 @ 543c)
+
+                u2 sub-sub-sub-sub-block { (1a @ 543e)
+
+                    u0 : 4(08 @ 5440)
+                    u1 : 1(10 @ 5442)
+                    u2 : 2(18 @ 5444)
+                    u3 : 0(20 @ 5446)
+				}
+
+                u3 sub-sub-sub-sub-block { (22 @ 5448)
+
+                    u0 : 7(08 @ 544a)
+                    u1 : 3(10 @ 544c)
+                    u2 : 32(18 @ 544e)
+                    u3 : 0(20 @ 5450)
+				}
+
+                u4 sub-sub-sub-sub-block { (2a @ 5452)
+
+                    u0 : 7(08 @ 5454)
+                    u1 : 3(10 @ 5456)
+                    u2 : 32(18 @ 5458)
+                    u3 : 12(20 @ 545a)
+				}
+
+                u5 sub-sub-sub-sub-block { (32 @ 545c)
+
+                    u0 : 7(08 @ 545e)
+                    u1 : 2(10 @ 5460)
+                    u2 : 32(18 @ 5462)
+                    u3 : 24(20 @ 5464)
+				}
+
+                u6 sub-sub-sub-sub-block { (52 @ 5466)
+
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 5468)
+
+                        w : 1.0 (0d @ 546a)
+                        x : 1.0 (15 @ 546f)
+                        y : 1.0 (1d @ 5474)
+                        z : 1.0 (25 @ 5479)
+					}
+
+                    u1 sub-sub-sub-sub-sub-block { (12 @ 547e)
+
+                        w : 1.0 (0d @ 5480)
+                        x : 1.0 (15 @ 5485)
+                        y : 1.0 (1d @ 548a)
+                        z : 1.0 (25 @ 548f)
+					}
+
+                    u2 sub-sub-sub-sub-sub-block { (1a @ 5494)
+
+                        w : 1.0 (0d @ 5496)
+                        x : 1.0 (15 @ 549b)
+                        y : 1.0 (1d @ 54a0)
+                        z : 1.0 (25 @ 54a5)
+					}
+                    u3 : 0.0 (25 @ 54aa)
+                    u4 : \n\tcavewalls\x10\x01 \x01 (2a @ 54af)
+				}
+
+                u7 sub-sub-sub-sub-block { (5a @ 54c0)
+
+                    u : -708.5401611328125 (0d @ 54c2)
+                    v : -740.9749145507812 (15 @ 54c7)
+                    w : -112.5 (1d @ 54cc)
+                    x : 770.2254638671875 (25 @ 54d1)
+                    y : 1514.395751953125 (2d @ 54d6)
+                    z : 225.0 (35 @ 54db)
+				}
+                u8 : \xf80\xb8\xc3\xf0ZAD\x00\x00\xe1\xc2\xc5\xfe\x7f\xbf\x88\xd6\xc8;\x00\x00\x00\x00\xc7\xa2\x1bA\xcd\xccL=\xf80\xb8\xc3\xf0ZAD\x00\x00\xe1B\xc5\xfe\x7f\xbf\x88\xd6\xc8;\x00\x00\x00\x00\xc7\xa2\x1bA33s?\x16\x99\xba\xc3\xc0u>\xc1\x00\x00\xe1\xc2&\xff\x7f\xbf\xef\xb6\xa6;\x00\x00\x00\x00\xc7\xe5MA\xcd\xccL=\x16\x99\xba\xc3\xc0u>\xc1\x00\x00\xe1B&\xff\x7f\xbf\xef\xb6\xa6;\x00\x00\x00\x00\xc7\xe5MA33s?\xb4\x84\xba\xc3,Z\r\xc3\x00\x00\xe1\xc2\x0c\xceg\xbfPG\xd9>\x00\x00\x00\x00\xa9.VA\xcd\xccL=\xb4\x84\xba\xc3,Z\r\xc3\x00\x00\xe1B\x0c\xceg\xbfPG\xd9>\x00\x00\x00\x00\xa9.VA33s?\x92"1\xc4\x9d\xdb5\xc4\x00\x00\xe1\xc2`\xd2y\xbf\x18\x9c_\xbe\x00\x00\x00\x00\x84\xb3\x80A\xcd\xccL=\x92"1\xc4\x9d\xdb5\xc4\x00\x00\xe1B`\xd2y\xbf\x18\x9c_\xbe\x00\x00\x00\x00\x84\xb3\x80A33s?\x10\xdcn\xc3e>9\xc4\x00\x00\xe1\xc2}\x82\x88\xbbo\xff\x7f\xbf\x00\x00\x00\x00\xbd\xbc\x8fA\xcd\xccL=\x10\xdcn\xc3e>9\xc4\x00\x00\xe1B}\x82\x88\xbbo\xff\x7f\xbf\x00\x00\x00\x00\xbd\xbc\x8fA33s?@\xf1\xd0\xc2\xac|6\xc4\x00\x00\xe1\xc2\xa7\x101?\x99\xe38\xbf\x00\x00\x00\x00Y\r\x94A\xcd\xccL=@\xf1\xd0\xc2\xac|6\xc4\x00\x00\xe1B\xa7\x101?\x99\xe38\xbf\x00\x00\x00\x00Y\r\x94A33s?0\xba\x02\xc3\xc8Z\x1f\xc4\x00\x00\xe1\xc2\x1e\xe8\x7f?\x1f"\xdd\xbc\x00\x00\x00\x00G!\x97A\xcd\xccL=0\xba\x02\xc3\xc8Z\x1f\xc4\x00\x00\xe1B\x1e\xe8\x7f?\x1f"\xdd\xbc\x00\x00\x00\x00G!\x97A33s?`\xdc\xc7\xc2\xd1r\x0c\xc4\x00\x00\xe1\xc2\xca%\xc6>9\rl\xbf\x00\x00\x00\x001\xbe\x99A\xcd\xccL=`\xdc\xc7\xc2\xd1r\x0c\xc4\x00\x00\xe1B\xca%\xc6>9\rl\xbf\x00\x00\x00\x001\xbe\x99A33s?\x80\x7f\xfe\xc1\xc4\xf9\x14\xc4\x00\x00\xe1\xc2\xc1\xc8\x1b=\x95\xd0\x7f\xbf\x00\x00\x00\x00D.\x9cA\xcd\xccL=\x80\x7f\xfe\xc1\xc4\xf9\x14\xc4\x00\x00\xe1B\xc1\xc8\x1b=\x95\xd0\x7f\xbf\x00\x00\x00\x00D.\x9cA33s?\x00\xe4\x98A\xd8P\x0b\xc4\x00\x00\xe1\xc2apP?\xd3\x9f\x14\xbf\x00\x00\x00\x00\xed9\x9eA\xcd\xccL=\x00\xe4\x98A\xd8P\x0b\xc4\x00\x00\xe1BapP?\xd3\x9f\x14\xbf\x00\x00\x00\x00\xed9\x9eA33s?\xc0\xbdvBbc\xe8\xc3\x00\x00\xe1\xc2\xf8\xe7B=\xc4\xb5\x7f\xbf\x00\x00\x00\x00\xff{\xa1A\xcd\xccL=\xc0\xbdvBbc\xe8\xc3\x00\x00\xe1B\xf8\xe7B=\xc4\xb5\x7f\xbf\x00\x00\x00\x00\xff{\xa1A33s? (192 @ 54e1)
+                u9 : \x00\x00\x02\x00\x03\x00\x01\x00\x00\x00\x03\x00\x02\x00\x04\x00\x05\x00\x03\x00\x02\x00\x05\x00\x04\x00\x06\x00\x07\x00\x05\x00\x04\x00\x07\x00\x06\x00\x08\x00\t\x00\x07\x00\x06\x00\t\x00\x08\x00\n\x00\x0b\x00\t\x00\x08\x00\x0b\x00\n\x00\x0c\x00\r\x00\x0b\x00\n\x00\r\x00\x0c\x00\x0e\x00\x0f\x00\r\x00\x0c\x00\x0f\x00\x0e\x00\x10\x00\x11\x00\x0f\x00\x0e\x00\x11\x00\x10\x00\x12\x00\x13\x00\x11\x00\x10\x00\x13\x00\x12\x00\x14\x00\x15\x00\x13\x00\x12\x00\x15\x00 (19a @ 57a5)
+			}
+
+            u1 sub-sub-sub-block { (42 @ 581f)
+
+                u0 : 12(08 @ 5822)
+                u1 : 10(10 @ 5824)
+
+                u2 sub-sub-sub-sub-block { (1a @ 5826)
+
+                    u0 : 4(08 @ 5828)
+                    u1 : 1(10 @ 582a)
+                    u2 : 2(18 @ 582c)
+                    u3 : 0(20 @ 582e)
+				}
+
+                u3 sub-sub-sub-sub-block { (22 @ 5830)
+
+                    u0 : 7(08 @ 5832)
+                    u1 : 3(10 @ 5834)
+                    u2 : 32(18 @ 5836)
+                    u3 : 0(20 @ 5838)
+				}
+
+                u4 sub-sub-sub-sub-block { (2a @ 583a)
+
+                    u0 : 7(08 @ 583c)
+                    u1 : 3(10 @ 583e)
+                    u2 : 32(18 @ 5840)
+                    u3 : 12(20 @ 5842)
+				}
+
+                u5 sub-sub-sub-sub-block { (32 @ 5844)
+
+                    u0 : 7(08 @ 5846)
+                    u1 : 2(10 @ 5848)
+                    u2 : 32(18 @ 584a)
+                    u3 : 24(20 @ 584c)
+				}
+
+                u6 sub-sub-sub-sub-block { (52 @ 584e)
+
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 5850)
+
+                        w : 1.0 (0d @ 5852)
+                        x : 1.0 (15 @ 5857)
+                        y : 1.0 (1d @ 585c)
+                        z : 1.0 (25 @ 5861)
+					}
+
+                    u1 sub-sub-sub-sub-sub-block { (12 @ 5866)
+
+                        w : 1.0 (0d @ 5868)
+                        x : 1.0 (15 @ 586d)
+                        y : 1.0 (1d @ 5872)
+                        z : 1.0 (25 @ 5877)
+					}
+
+                    u2 sub-sub-sub-sub-sub-block { (1a @ 587c)
+
+                        w : 1.0 (0d @ 587e)
+                        x : 1.0 (15 @ 5883)
+                        y : 1.0 (1d @ 5888)
+                        z : 1.0 (25 @ 588d)
+					}
+                    u3 : 0.0 (25 @ 5892)
+                    u4 : \n\tcavewalls\x10\x01 \x01 (2a @ 5897)
+				}
+
+                u7 sub-sub-sub-sub-block { (5a @ 58a8)
+
+                    u : 61.685302734375 (0d @ 58aa)
+                    v : -719.177734375 (15 @ 58af)
+                    w : -112.5 (1d @ 58b4)
+                    x : 174.58154296875 (25 @ 58b9)
+                    y : 274.91357421875 (2d @ 58be)
+                    z : 225.0 (35 @ 58c3)
+				}
+                u8 : \xc0\xbdvBbc\xe8\xc3\x00\x00\xe1\xc2\xf8\xe7B=\xc4\xb5\x7f\xbf\x00\x00\x00\x00\xff{\xa1A\xcd\xccL=\xc0\xbdvBbc\xe8\xc3\x00\x00\xe1B\xf8\xe7B=\xc4\xb5\x7f\xbf\x00\x00\x00\x00\xff{\xa1A33s? \x05\xacB\xe1\x84\n\xc4\x00\x00\xe1\xc2P"E\xbf\x82R#\xbf\x00\x00\x00\x002r\xa4A\xcd\xccL= \x05\xacB\xe1\x84\n\xc4\x00\x00\xe1BP"E\xbf\x82R#\xbf\x00\x00\x00\x002r\xa4A33s?0\x89\tC\x1e\x15\x0b\xc4\x00\x00\xe1\xc2)zC?@M%\xbf\x00\x00\x00\x00\xb3\x18\xa6A\xcd\xccL=0\x89\tC\x1e\x15\x0b\xc4\x00\x00\xe1B)zC?@M%\xbf\x00\x00\x00\x00\xb3\x18\xa6A33s?\xe0\xde2C\xd0!\xde\xc3\x00\x00\xe1\xc2X\xf4K?\x93\xb8\x1a\xbf\x00\x00\x00\x003\xeb\xa9A\xcd\xccL=\xe0\xde2C\xd0!\xde\xc3\x00\x00\xe1BX\xf4K?\x93\xb8\x1a\xbf\x00\x00\x00\x003\xeb\xa9A33s?\xf0\xc6KCP\x81\xea\xc3\x00\x00\xe1\xc2\xbe\x98z\xbf\tGQ\xbe\x00\x00\x00\x00\xd2\n\xabA\xcd\xccL=\xf0\xc6KCP\x81\xea\xc3\x00\x00\xe1B\xbe\x98z\xbf\tGQ\xbe\x00\x00\x00\x00\xd2\n\xabA33s?PDlC`\xcb3\xc4\x00\x00\xe1\xc24\xde}\xbf\xa0\xe1\x03\xbe\x00\x00\x00\x00g\x1d\xb3A\xcd\xccL=PDlC`\xcb3\xc4\x00\x00\xe1B4\xde}\xbf\xa0\xe1\x03\xbe\x00\x00\x00\x00g\x1d\xb3A33s? (192 @ 58c9)
+                u9 : \x00\x00\x02\x00\x03\x00\x01\x00\x00\x00\x03\x00\x02\x00\x04\x00\x05\x00\x03\x00\x02\x00\x05\x00\x04\x00\x06\x00\x07\x00\x05\x00\x04\x00\x07\x00\x06\x00\x08\x00\t\x00\x07\x00\x06\x00\t\x00\x08\x00\n\x00\x0b\x00\t\x00\x08\x00\x0b\x00 (19a @ 5a4d)
+			}
+
+            u2 sub-sub-sub-block { (4a @ 5a8b)
+
+                u0 : 60(08 @ 5a8e)
+                u1 : 20(10 @ 5a90)
+
+                u2 sub-sub-sub-sub-block { (22 @ 5a92)
+
+                    u0 : 7(08 @ 5a94)
+                    u1 : 3(10 @ 5a96)
+                    u2 : 32(18 @ 5a98)
+                    u3 : 0(20 @ 5a9a)
+				}
+
+                u3 sub-sub-sub-sub-block { (2a @ 5a9c)
+
+                    u0 : 7(08 @ 5a9e)
+                    u1 : 3(10 @ 5aa0)
+                    u2 : 32(18 @ 5aa2)
+                    u3 : 12(20 @ 5aa4)
+				}
+
+                u4 sub-sub-sub-sub-block { (32 @ 5aa6)
+
+                    u0 : 7(08 @ 5aa8)
+                    u1 : 2(10 @ 5aaa)
+                    u2 : 32(18 @ 5aac)
+                    u3 : 24(20 @ 5aae)
+				}
+
+                u5 sub-sub-sub-sub-block { (52 @ 5ab0)
+
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 5ab2)
+
+                        w : 1.0 (0d @ 5ab4)
+                        x : 1.0 (15 @ 5ab9)
+                        y : 1.0 (1d @ 5abe)
+                        z : 1.0 (25 @ 5ac3)
+					}
+
+                    u1 sub-sub-sub-sub-sub-block { (12 @ 5ac8)
+
+                        w : 1.0 (0d @ 5aca)
+                        x : 1.0 (15 @ 5acf)
+                        y : 1.0 (1d @ 5ad4)
+                        z : 1.0 (25 @ 5ad9)
+					}
+
+                    u2 sub-sub-sub-sub-sub-block { (1a @ 5ade)
+
+                        w : 1.0 (0d @ 5ae0)
+                        x : 1.0 (15 @ 5ae5)
+                        y : 1.0 (1d @ 5aea)
+                        z : 1.0 (25 @ 5aef)
+					}
+                    u3 : 0.0 (25 @ 5af4)
+
+                    u4 sub-sub-sub-sub-sub-block { (2a @ 5af9)
+
+                        u0 : cavewalls (0a @ 5afb)
+                        u1 : 1(10 @ 5b06)
+                        u2 : 1(20 @ 5b08)
+					}
+				}
+
+                u3 sub-sub-sub-sub-block { (5a @ 5b0a)
+
+                    u : 92.32821655273438 (0d @ 5b0c)
+                    v : -788.7783203125 (15 @ 5b11)
+                    w : 112.5 (1d @ 5b16)
+                    x : 616.2119140625 (25 @ 5b1b)
+                    y : 1586.93896484375 (2d @ 5b20)
+                    z : 0.0 (35 @ 5b25)
+				}
+                u7 : \x081\xcdCv\xef\xf8\xc3\x00\x00\xe1B\x00\x00\x00\x80\x00\x00\x00\x00\x00\x00\x80?\xdd\x0e\t@\xec\xe8\xbe\xbf\x18\x1b\xccC\xc5\xc3\x11\xc4\x00\x00\xe1B\x00\x00\x00\x80\x00\x00\x00\x00\x00\x00\x80?\x8f\x80\x08@\xb2\x86\xea\xbf\xf0\xe0\xd1Ck\x9a\x08\xc4\x00\x00\xe1B\x00\x00\x00\x80\x00\x00\x00\x00\x00\x00\x80?7u\x0b@j\xc3\xd7\xbf\xb1\x8d\xc2C\x96K\x83\xc3\x00\x00\xe1B\x00\x00\x00\x80\x00\x00\x00\x00\x00\x00\x80?\x84\x9c\x03@\x87\xe4\x0c\xbf\x18\x1b\xccC\xc5\xc3\x11\xc4\x00\x00\xe1B\x00\x00\x00\x80\x00\x00\x00\x00\x00\x00\x80?\x8f\x80\x08@\xb2\x86\xea\xbf\x081\xcdCv\xef\xf8\xc3\x00\x00\xe1B\x00\x00\x00\x80\x00\x00\x00\x00\x00\x00\x80?\xdd\x0e\t@\xec\xe8\xbe\xbf\xb1\x8d\xc2C\x96K\x83\xc3\x00\x00\xe1B\x00\x00\x00\x80\x00\x00\x00\x00\xff\xff\x7f?\x84\x9c\x03@\x87\xe4\x0c\xbf\x081\xcdCv\xef\xf8\xc3\x00\x00\xe1B\x00\x00\x00\x80\x00\x00\x00\x00\xff\xff\x7f?\xdd\x0e\t@\xec\xe8\xbe\xbfp\xe8\xd1C\xfe\xac\xa8\xc3\x00\x00\xe1B\x00\x00\x00\x80\x00\x00\x00\x00\xff\xff\x7f?\x0ey\x0b@\xacrY\xbf\xb1\x8d\xc2C\x96K\x83\xc3\x00\x00\xe1B\x00\x00\x00\x80\x00\x00\x00\x00\x00\x00\x80?\x84\x9c\x03@\x87\xe4\x0c\xbfp\xe8\xd1C\xfe\xac\xa8\xc3\x00\x00\xe1B\x00\x00\x00\x80\x00\x00\x00\x00\x00\x00\x80?\x0ey\x0b@\xacrY\xbf\x98\xd9\xddCTk\x9a\xc3\x00\x00\xe1B\x00\x00\x00\x80\x00\x00\x00\x00\x00\x00\x80?R\x96\x11@)@<\xbf\xb1\x8d\xc2C\x96K\x83\xc3\x00\x00\xe1B\x00\x00\x00\x80\x00\x00\x00\x00\x00\x00\x80?\x84\x9c\x03@\x87\xe4\x0c\xbf\xa83\xbeC\x80$-\xc4\x00\x00\xe1B\x00\x00\x00\x80\x00\x00\x00\x00\x00\x00\x80?!b\x01@JL\x11\xc0\x18\x1b\xccC\xc5\xc3\x11\xc4\x00\x00\xe1B\x00\x00\x00\x80\x00\x00\x00\x00\x00\x00\x80?\x8f\x80\x08@\xb2\x86\xea\xbf\xd8\xe3\xbbCG\x8aGD\x00\x00\xe1B\x00\x00\x00\x80\x00\x00\x00\x00\x00\x00\x80?\x1f3\x00@ATl@\xa83\xbeC\x80$-\xc4\x00\x00\xe1B\x00\x00\x00\x80\x00\x00\x00\x00\x00\x00\x80?!b\x01@JL\x11\xc0\xb1\x8d\xc2C\x96K\x83\xc3\x00\x00\xe1B\x00\x00\x00\x80\x00\x00\x00\x00\x00\x00\x80?\x84\x9c\x03@\x87\xe4\x0c\xbf\xd8\xe3\xbbCG\x8aGD\x00\x00\xe1B\x00\x00\x00\x80\x00\x00\x00\x00\x00\x00\x80?\x1f3\x00@ATl@\xb1\x8d\xc2C\x96K\x83\xc3\x00\x00\xe1B\x00\x00\x00\x80\x00\x00\x00\x00\x00\x00\x80?\x84\x9c\x03@\x87\xe4\x0c\xbf\x8a!\xf3C~,\xf2C\x00\x00\xe1B\x00\x00\x00\x80\x00\x00\x00\x00\x00\x00\x80?\xab{\x1c@4\xfe\x1b@\xd8\xe3\xbbCG\x8aGD\x00\x00\xe1B\x00\x00\x00\x80\x00\x00\x00\x00\x00\x00\x80?\x1f3\x00@ATl@\x8a!\xf3C~,\xf2C\x00\x00\xe1B\x00\x00\x00\x80\x00\x00\x00\x00\x00\x00\x80?\xab{\x1c@4\xfe\x1b@\xc5\xba\x10D{\x0b(D\x00\x00\xe1B\x00\x00\x00\x80\x00\x00\x00\x00\x00\x00\x80?\xfd34@\xf3\x13L@\xd8\xe3\xbbCG\x8aGD\x00\x00\xe1B\x00\x00\x00\x80\x00\x00\x00\x00\x00\x00\x80?\x1f3\x00@ATl@\xc5\xba\x10D{\x0b(D\x00\x00\xe1B\x00\x00\x00\x80\x00\x00\x00\x00\x00\x00\x80?\xfd34@\xf3\x13L@\x92"1D\xd9\x8cAD\x00\x00\xe1B\x00\x00\x00\x80\x00\x00\x00\x00\x00\x00\x80?\xe3bU@\x052f@\xd8\xe3\xbbCG\x8aGD\x00\x00\xe1B\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x80?\x1f3\x00@ATl@\x80\xa3\xbbC\x82\xd0(\xc4\x00\x00\xe1B\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x80?-\x12\x00@\xb4\xdd\x0c\xc0\xa83\xbeC\x80$-\xc4\x00\x00\xe1B\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x80?!b\x01@JL\x11\xc0\x0c\xa8\xb8B\x1a\x18FD\x00\x00\xe1B\x00\x00\x00\x80\x00\x00\x00\x00\x00\x00\x80?J\x8b^?1\xd9j@0\x89\tC\x1e\x15\x0b\xc4\x00\x00\xe1B\x00\x00\x00\x80\x00\x00\x00\x00\x00\x00\x80?\x1bk\x86?H\xd7\xdc\xbf\xe0\xde2C\xd0!\xde\xc3\x00\x00\xe1B\x00\x00\x00\x80\x00\x00\x00\x00\x00\x00\x80?\xee\x94\x9b?\x98v\xa3\xbf\x0c\xa8\xb8B\x1a\x18FD\x00\x00\xe1B\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x80?J\x8b^?1\xd9j@\xe0\xde2C\xd0!\xde\xc3\x00\x00\xe1B\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x80?\xee\x94\x9b?\x98v\xa3\xbf\xf0\xc6KCP\x81\xea\xc3\x00\x00\xe1B\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x80?yU\xa8?\x1d"\xb0\xbf\x0c\xa8\xb8B\x1a\x18FD\x00\x00\xe1B\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x80?J\x8b^?1\xd9j@\xf0\xc6KCP\x81\xea\xc3\x00\x00\xe1B\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x80?yU\xa8?\x1d"\xb0\xbfPDlC`\xcb3\xc4\x00\x00\xe1B\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x80?\xf8\xf7\xb8?\x08\x1c\x18\xc0\x0c\xa8\xb8B\x1a\x18FD\x00\x00\xe1B\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x80?J\x8b^?1\xd9j@PDlC`\xcb3\xc4\x00\x00\xe1B\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x80?\xf8\xf7\xb8?\x08\x1c\x18\xc0\x18\xe1tC\x10\xd3<\xc4\x00\x00\xe1B\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x80?\xd1`\xbd?3[!\xc0\x0c\xa8\xb8B\x1a\x18FD\x00\x00\xe1B\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x80?J\x8b^?1\xd9j@\x18\xe1tC\x10\xd3<\xc4\x00\x00\xe1B\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x80?\xd1`\xbd?3[!\xc0X\x1d\x83C\xd01E\xc4\x00\x00\xe1B\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x80?\xe9B\xc6?`\xed)\xc0\x0c\xa8\xb8B\x1a\x18FD\x00\x00\xe1B\x00\x00\x00\x80\x00\x00\x00\x00\x00\x00\x80?J\x8b^?1\xd9j@X\x1d\x83C\xd01E\xc4\x00\x00\xe1B\x00\x00\x00\x80\x00\x00\x00\x00\x00\x00\x80?\xe9B\xc6?`\xed)\xc0\xb4\xc5\x8bC\xc2\x11@\xc4\x00\x00\xe1B\x00\x00\x00\x80\x00\x00\x00\x00\x00\x00\x80?w \xcf?\xd5\xad$\xc0\x0c\xa8\xb8B\x1a\x18FD\x00\x00\xe1B\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x80?J\x8b^?1\xd9j@\xb4\xc5\x8bC\xc2\x11@\xc4\x00\x00\xe1B\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x80?w \xcf?\xd5\xad$\xc0Hp\x94C\x1c\xb1A\xc4\x00\x00\xe1B\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x80?J\x00\xd8?\'W&\xc0\x0c\xa8\xb8B\x1a\x18FD\x00\x00\xe1B\x00\x00\x00\x80\x00\x00\x00\x00\xff\xff\x7f?J\x8b^?1\xd9j@Hp\x94C\x1c\xb1A\xc4\x00\x00\xe1B\x00\x00\x00\x80\x00\x00\x00\x00\xff\xff\x7f?J\x00\xd8?\'W&\xc00%\xa4CvB6\xc4\x00\x00\xe1B\x00\x00\x00\x80\x00\x00\x00\x00\xff\xff\x7f?\xb2\x15\xe8?D\xa2\x1a\xc0\x0c\xa8\xb8B\x1a\x18FD\x00\x00\xe1B\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x80?J\x8b^?1\xd9j@0%\xa4CvB6\xc4\x00\x00\xe1B\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x80?\xb2\x15\xe8?D\xa2\x1a\xc0x\xb5\xb1Cp\x14D\xc4\x00\x00\xe1B\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x80?P\xf9\xf5?\'\xc9(\xc0\x0c\xa8\xb8B\x1a\x18FD\x00\x00\xe1B\x00\x00\x00\x80\x00\x00\x00\x00\x00\x00\x80?J\x8b^?1\xd9j@x\xb5\xb1Cp\x14D\xc4\x00\x00\xe1B\x00\x00\x00\x80\x00\x00\x00\x00\x00\x00\x80?P\xf9\xf5?\'\xc9(\xc0\xc0\xbb\xb1C4\xe9,\xc4\x00\x00\xe1B\x00\x00\x00\x80\x00\x00\x00\x00\x00\x00\x80?\xbe\xff\xf5?\x91\x0f\x11\xc0 (192 @ 5b2b)
+			}
+
+            u2 sub-sub-sub-block { (4a @ 62ae)
+
+                u0 : 60(08 @ 62b1)
+                u1 : 20(10 @ 62b3)
+
+                u2 sub-sub-sub-sub-block { (22 @ 62b5)
+
+                    u0 : 7(08 @ 62b7)
+                    u1 : 3(10 @ 62b9)
+                    u2 : 32(18 @ 62bb)
+                    u3 : 0(20 @ 62bd)
+				}
+
+                u3 sub-sub-sub-sub-block { (2a @ 62bf)
+
+                    u0 : 7(08 @ 62c1)
+                    u1 : 3(10 @ 62c3)
+                    u2 : 32(18 @ 62c5)
+                    u3 : 12(20 @ 62c7)
+				}
+
+                u4 sub-sub-sub-sub-block { (32 @ 62c9)
+
+                    u0 : 7(08 @ 62cb)
+                    u1 : 2(10 @ 62cd)
+                    u2 : 32(18 @ 62cf)
+                    u3 : 24(20 @ 62d1)
+				}
+
+                u5 sub-sub-sub-sub-block { (52 @ 62d3)
+
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 62d5)
+
+                        w : 1.0 (0d @ 62d7)
+                        x : 1.0 (15 @ 62dc)
+                        y : 1.0 (1d @ 62e1)
+                        z : 1.0 (25 @ 62e6)
+					}
+
+                    u1 sub-sub-sub-sub-sub-block { (12 @ 62eb)
+
+                        w : 1.0 (0d @ 62ed)
+                        x : 1.0 (15 @ 62f2)
+                        y : 1.0 (1d @ 62f7)
+                        z : 1.0 (25 @ 62fc)
+					}
+
+                    u2 sub-sub-sub-sub-sub-block { (1a @ 6301)
+
+                        w : 1.0 (0d @ 6303)
+                        x : 1.0 (15 @ 6308)
+                        y : 1.0 (1d @ 630d)
+                        z : 1.0 (25 @ 6312)
+					}
+                    u3 : 0.0 (25 @ 6317)
+
+                    u4 sub-sub-sub-sub-sub-block { (2a @ 631c)
+
+                        u0 : cavewalls (0a @ 631e)
+                        u1 : 1(10 @ 6329)
+                        u2 : 1(20 @ 632b)
+					}
+				}
+
+                u3 sub-sub-sub-sub-block { (5a @ 632d)
+
+                    u : -708.5401611328125 (0d @ 632f)
+                    v : -798.16064453125 (15 @ 6334)
+                    w : 112.5 (1d @ 6339)
+                    x : 1084.3201904296875 (25 @ 633e)
+                    y : 1596.3212890625 (2d @ 6343)
+                    z : 0.0 (35 @ 6348)
+				}
+                u7 : \x0c\xa8\xb8B\x1a\x18FD\x00\x00\xe1B\x00\x00\x00\x80\x00\x00\x00\x00\x00\x00\x80?J\x8b^?1\xd9j@\xc0\xbb\xb1C4\xe9,\xc4\x00\x00\xe1B\x00\x00\x00\x80\x00\x00\x00\x00\x00\x00\x80?\xbe\xff\xf5?\x91\x0f\x11\xc0\x80\xa3\xbbC\x82\xd0(\xc4\x00\x00\xe1B\x00\x00\x00\x80\x00\x00\x00\x00\x00\x00\x80?-\x12\x00@\xb4\xdd\x0c\xc0\x0c\xa8\xb8B\x1a\x18FD\x00\x00\xe1B\x00\x00\x00\x80\x00\x00\x00\x00\xff\xff\x7f?J\x8b^?1\xd9j@\x80\xa3\xbbC\x82\xd0(\xc4\x00\x00\xe1B\x00\x00\x00\x80\x00\x00\x00\x00\xff\xff\x7f?-\x12\x00@\xb4\xdd\x0c\xc0\xd8\xe3\xbbCG\x8aGD\x00\x00\xe1B\x00\x00\x00\x80\x00\x00\x00\x00\xff\xff\x7f?\x1f3\x00@ATl@PDlC`\xcb3\xc4\x00\x00\xe1B\x00\x00\x00\x80\x00\x00\x00\x00\x00\x00\x80?\xf8\xf7\xb8?\x08\x1c\x18\xc0`PjC\xfe\xa2C\xc4\x00\x00\xe1B\x00\x00\x00\x80\x00\x00\x00\x00\x00\x00\x80?\x00\xf8\xb7?\xfcT(\xc0\x18\xe1tC\x10\xd3<\xc4\x00\x00\xe1B\x00\x00\x00\x80\x00\x00\x00\x00\x00\x00\x80?\xd1`\xbd?3[!\xc0\x0c\xa8\xb8B\x1a\x18FD\x00\x00\xe1B\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x80?J\x8b^?1\xd9j@ \x05\xacB\xe1\x84\n\xc4\x00\x00\xe1B\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x80?\x02\x13X?\xe1\xaf\xdb\xbf0\x89\tC\x1e\x15\x0b\xc4\x00\x00\xe1B\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x80?\x1bk\x86?H\xd7\xdc\xbf\xf80\xb8\xc3\xf0ZAD\x00\x00\xe1B\x00\x00\x00\x80\x00\x00\x00\x00\x00\x00\x80?H9y\xbf\xe9\xfee@\x10\xdcn\xc3e>9\xc4\x00\x00\xe1B\x00\x00\x00\x80\x00\x00\x00\x00\x00\x00\x80?;/\xe9\xbe\x88\xb0\x1d\xc00\xba\x02\xc3\xc8Z\x1f\xc4\x00\x00\xe1B\x00\x00\x00\x80\x00\x00\x00\x00\x00\x00\x80?\x08\xac\xbb\xbc\xdb-\x03\xc0\xf80\xb8\xc3\xf0ZAD\x00\x00\xe1B\x00\x00\x00\x80\x00\x00\x00\x00\x00\x00\x80?H9y\xbf\xe9\xfee@0\xba\x02\xc3\xc8Z\x1f\xc4\x00\x00\xe1B\x00\x00\x00\x80\x00\x00\x00\x00\x00\x00\x80?\x08\xac\xbb\xbc\xdb-\x03\xc0`\xdc\xc7\xc2\xd1r\x0c\xc4\x00\x00\xe1B\x00\x00\x00\x80\x00\x00\x00\x00\x00\x00\x80?\xb8^\xcd=w\xa3\xdf\xbf\xf80\xb8\xc3\xf0ZAD\x00\x00\xe1B\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x80?H9y\xbf\xe9\xfee@`\xdc\xc7\xc2\xd1r\x0c\xc4\x00\x00\xe1B\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x80?\xb8^\xcd=w\xa3\xdf\xbf\x80\x7f\xfe\xc1\xc4\xf9\x14\xc4\x00\x00\xe1B\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x80?7\xd9\xbe>%\x1a\xf1\xbf\xf80\xb8\xc3\xf0ZAD\x00\x00\xe1B\x00\x00\x00\x80\x00\x00\x00\x00\x00\x00\x80?H9y\xbf\xe9\xfee@\x80\x7f\xfe\xc1\xc4\xf9\x14\xc4\x00\x00\xe1B\x00\x00\x00\x80\x00\x00\x00\x00\x00\x00\x80?7\xd9\xbe>%\x1a\xf1\xbf\x00\xe4\x98A\xd8P\x0b\xc4\x00\x00\xe1B\x00\x00\x00\x80\x00\x00\x00\x00\x00\x00\x80?\xec\x91\x13?\x9aQ\xdd\xbf\xf80\xb8\xc3\xf0ZAD\x00\x00\xe1B\x00\x00\x00\x80\x00\x00\x00\x00\x00\x00\x80?H9y\xbf\xe9\xfee@\x00\xe4\x98A\xd8P\x0b\xc4\x00\x00\xe1B\x00\x00\x00\x80\x00\x00\x00\x00\x00\x00\x80?\xec\x91\x13?\x9aQ\xdd\xbf\xc0\xbdvBbc\xe8\xc3\x00\x00\xe1B\x00\x00\x00\x80\x00\x00\x00\x00\x00\x00\x80?o*??-\xf7\xad\xbf\xc0\xbdvBbc\xe8\xc3\x00\x00\xe1B\x00\x00\x00\x80\x00\x00\x00\x00\x00\x00\x80?o*??-\xf7\xad\xbf \x05\xacB\xe1\x84\n\xc4\x00\x00\xe1B\x00\x00\x00\x80\x00\x00\x00\x00\x00\x00\x80?\x02\x13X?\xe1\xaf\xdb\xbf\x0c\xa8\xb8B\x1a\x18FD\x00\x00\xe1B\x00\x00\x00\x80\x00\x00\x00\x00\x00\x00\x80?J\x8b^?1\xd9j@\xf80\xb8\xc3\xf0ZAD\x00\x00\xe1B\x00\x00\x00\x80\x00\x00\x00\x00\x00\x00\x80?H9y\xbf\xe9\xfee@\xc0\xbdvBbc\xe8\xc3\x00\x00\xe1B\x00\x00\x00\x80\x00\x00\x00\x00\x00\x00\x80?o*??-\xf7\xad\xbf\x0c\xa8\xb8B\x1a\x18FD\x00\x00\xe1B\x00\x00\x00\x80\x00\x00\x00\x00\x00\x00\x80?J\x8b^?1\xd9j@\x10\xdcn\xc3e>9\xc4\x00\x00\xe1B\x00\x00\x00\x00\x00\x00\x00\x80\x00\x00\x80?;/\xe9\xbe\x88\xb0\x1d\xc0@\xf1\xd0\xc2\xac|6\xc4\x00\x00\xe1B\x00\x00\x00\x00\x00\x00\x00\x80\x00\x00\x80?\x08,\xa8=\xdf\xdd\x1a\xc00\xba\x02\xc3\xc8Z\x1f\xc4\x00\x00\xe1B\x00\x00\x00\x00\x00\x00\x00\x80\x00\x00\x80?\x08\xac\xbb\xbc\xdb-\x03\xc0\x10\xdcn\xc3e>9\xc4\x00\x00\xe1B\x00\x00\x00\x00\x00\x00\x00\x00\xff\xff\x7f?;/\xe9\xbe\x88\xb0\x1d\xc0\xf80\xb8\xc3\xf0ZAD\x00\x00\xe1B\x00\x00\x00\x00\x00\x00\x00\x00\xff\xff\x7f?H9y\xbf\xe9\xfee@\xb4\x84\xba\xc3,Z\r\xc3\x00\x00\xe1B\x00\x00\x00\x00\x00\x00\x00\x00\xff\xff\x7f?X\xfd}\xbf\x1f\xf5\x85\xbd\x10\xdcn\xc3e>9\xc4\x00\x00\xe1B\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x80?;/\xe9\xbe\x88\xb0\x1d\xc0\xb4\x84\xba\xc3,Z\r\xc3\x00\x00\xe1B\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x80?X\xfd}\xbf\x1f\xf5\x85\xbd\x92"1\xc4\x9d\xdb5\xc4\x00\x00\xe1B\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x80?\xe3b\x15\xc0\xf38\x1a\xc0\xf80\xb8\xc3\xf0ZAD\x00\x00\xe1B\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x80?H9y\xbf\xe9\xfee@\x16\x99\xba\xc3\xc0u>\xc1\x00\x00\xe1B\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x80?\x17\'~\xbf\x02\x9f\xe7>\xb4\x84\xba\xc3,Z\r\xc3\x00\x00\xe1B\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x80?X\xfd}\xbf\x1f\xf5\x85\xbd\x80\xe1OB\xea$4\xc4\x00\x00\xe1B\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x80?\xae75?\xb8w\x18\xc0\x00XuB&\xadA\xc4\x00\x00\xe1B\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x80?\xd9\xce>?\x19S&\xc0@0\xadBH\x8aG\xc4\x00\x00\xe1B\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x80?)\xacX?BT,\xc0\x80\xe1OB\xea$4\xc4\x00\x00\xe1B\x00\x00\x00\x80\x00\x00\x00\x00\xff\xff\x7f?\xae75?\xb8w\x18\xc0@0\xadBH\x8aG\xc4\x00\x00\xe1B\x00\x00\x00\x80\x00\x00\x00\x00\xff\xff\x7f?)\xacX?BT,\xc0\xe4\xeb\x13C\xf2\x1e;\xc4\x00\x00\xe1B\x00\x00\x00\x80\x00\x00\x00\x00\xff\xff\x7f?\\\xbc\x8b?\x9e\x9c\x1f\xc0\x80\xe1OB\xea$4\xc4\x00\x00\xe1B\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x80?\xae75?\xb8w\x18\xc0\xe4\xeb\x13C\xf2\x1e;\xc4\x00\x00\xe1B\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x80?\\\xbc\x8b?\x9e\x9c\x1f\xc0P\x8a\'Cf{<\xc4\x00\x00\xe1B\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x80?\xd7\xc7\x95?o\x01!\xc0P\x8a\'Cf{<\xc4\x00\x00\xe1B\x00\x00\x00\x80\x00\x00\x00\x00\x00\x00\x80?\xd7\xc7\x95?o\x01!\xc0PU;C\x8cQD\xc4\x00\x00\xe1B\x00\x00\x00\x80\x00\x00\x00\x00\x00\x00\x80?%\xea\x9f?\xba\x07)\xc0\xb0\xbcKC\xdfG;\xc4\x00\x00\xe1B\x00\x00\x00\x80\x00\x00\x00\x00\x00\x00\x80?9P\xa8?\x86\xc6\x1f\xc0\x80\xe1OB\xea$4\xc4\x00\x00\xe1B\x00\x00\x00\x80\x00\x00\x00\x00\x00\x00\x80?\xae75?\xb8w\x18\xc0P\x8a\'Cf{<\xc4\x00\x00\xe1B\x00\x00\x00\x80\x00\x00\x00\x00\x00\x00\x80?\xd7\xc7\x95?o\x01!\xc0\xb0\xbcKC\xdfG;\xc4\x00\x00\xe1B\x00\x00\x00\x80\x00\x00\x00\x00\x00\x00\x80?9P\xa8?\x86\xc6\x1f\xc0 (192 @ 634e)
+			}
+
+            u2 sub-sub-sub-block { (4a @ 6ad1)
+
+                u0 : 24(08 @ 6ad4)
+                u1 : 8(10 @ 6ad6)
+
+                u2 sub-sub-sub-sub-block { (22 @ 6ad8)
+
+                    u0 : 7(08 @ 6ada)
+                    u1 : 3(10 @ 6adc)
+                    u2 : 32(18 @ 6ade)
+                    u3 : 0(20 @ 6ae0)
+				}
+
+                u3 sub-sub-sub-sub-block { (2a @ 6ae2)
+
+                    u0 : 7(08 @ 6ae4)
+                    u1 : 3(10 @ 6ae6)
+                    u2 : 32(18 @ 6ae8)
+                    u3 : 12(20 @ 6aea)
+				}
+
+                u4 sub-sub-sub-sub-block { (32 @ 6aec)
+
+                    u0 : 7(08 @ 6aee)
+                    u1 : 2(10 @ 6af0)
+                    u2 : 32(18 @ 6af2)
+                    u3 : 24(20 @ 6af4)
+				}
+
+                u5 sub-sub-sub-sub-block { (52 @ 6af6)
+
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 6af8)
+
+                        w : 1.0 (0d @ 6afa)
+                        x : 1.0 (15 @ 6aff)
+                        y : 1.0 (1d @ 6b04)
+                        z : 1.0 (25 @ 6b09)
+					}
+
+                    u1 sub-sub-sub-sub-sub-block { (12 @ 6b0e)
+
+                        w : 1.0 (0d @ 6b10)
+                        x : 1.0 (15 @ 6b15)
+                        y : 1.0 (1d @ 6b1a)
+                        z : 1.0 (25 @ 6b1f)
+					}
+
+                    u2 sub-sub-sub-sub-sub-block { (1a @ 6b24)
+
+                        w : 1.0 (0d @ 6b26)
+                        x : 1.0 (15 @ 6b2b)
+                        y : 1.0 (1d @ 6b30)
+                        z : 1.0 (25 @ 6b35)
+					}
+                    u3 : 0.0 (25 @ 6b3a)
+
+                    u4 sub-sub-sub-sub-sub-block { (2a @ 6b3f)
+
+                        u0 : cavewalls (0a @ 6b41)
+                        u1 : 1(10 @ 6b4c)
+                        u2 : 1(20 @ 6b4e)
+					}
+				}
+
+                u3 sub-sub-sub-sub-block { (5a @ 6b50)
+
+                    u : 51.9033203125 (0d @ 6b52)
+                    v : -782.5467529296875 (15 @ 6b57)
+                    w : 112.5 (1d @ 6b5c)
+                    x : 458.857177734375 (25 @ 6b61)
+                    y : 1266.894287109375 (2d @ 6b66)
+                    z : 0.0 (35 @ 6b6b)
+				}
+                u7 : \xb0\xbcKC\xdfG;\xc4\x00\x00\xe1B\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x80?9P\xa8?\x86\xc6\x1f\xc0p\xe7YC\x84\x05@\xc4\x00\x00\xe1B\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x80?\x1f\x91\xaf?L\xa1$\xc0`PjC\xfe\xa2C\xc4\x00\x00\xe1B\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x80?\x00\xf8\xb7?\xfcT(\xc0\xb0\xbcKC\xdfG;\xc4\x00\x00\xe1B\x00\x00\x00\x80\x00\x00\x00\x00\x00\x00\x80?9P\xa8?\x86\xc6\x1f\xc0`PjC\xfe\xa2C\xc4\x00\x00\xe1B\x00\x00\x00\x80\x00\x00\x00\x00\x00\x00\x80?\x00\xf8\xb7?\xfcT(\xc0PDlC`\xcb3\xc4\x00\x00\xe1B\x00\x00\x00\x80\x00\x00\x00\x00\x00\x00\x80?\xf8\xf7\xb8?\x08\x1c\x18\xc0\x80\xe1OB\xea$4\xc4\x00\x00\xe1B\x00\x00\x00\x80\x00\x00\x00\x00\x00\x00\x80?\xae75?\xb8w\x18\xc0\xb0\xbcKC\xdfG;\xc4\x00\x00\xe1B\x00\x00\x00\x80\x00\x00\x00\x00\x00\x00\x80?9P\xa8?\x86\xc6\x1f\xc0PDlC`\xcb3\xc4\x00\x00\xe1B\x00\x00\x00\x80\x00\x00\x00\x00\x00\x00\x80?\xf8\xf7\xb8?\x08\x1c\x18\xc0\x80\xe1OB\xea$4\xc4\x00\x00\xe1B\x00\x00\x00\x00\x00\x00\x00\x00\xff\xff\x7f?\xae75?\xb8w\x18\xc0\x00\x9dOB\xaeg:\xc4\x00\x00\xe1B\x00\x00\x00\x00\x00\x00\x00\x00\xff\xff\x7f?%&5?\xf4\xe0\x1e\xc0\x00XuB&\xadA\xc4\x00\x00\xe1B\x00\x00\x00\x00\x00\x00\x00\x00\xff\xff\x7f?\xd9\xce>?\x19S&\xc0\xf6\xb7\xf6Cp\xa6/\xc3\x00\x00\xe1B\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x80?\xe6Q\x1e@\x87vO\xbe\x8a!\xf3C~,\xf2C\x00\x00\xe1B\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x80?\xab{\x1c@4\xfe\x1b@\xb1\x8d\xc2C\x96K\x83\xc3\x00\x00\xe1B\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x80?\x84\x9c\x03@\x87\xe4\x0c\xbf\xf6\xb7\xf6Cp\xa6/\xc3\x00\x00\xe1B\x00\x00\x00\x00\x00\x00\x00\x80\x00\x00\x80?\xe6Q\x1e@\x87vO\xbeXa\xffC(6\xe0B\x00\x00\xe1B\x00\x00\x00\x00\x00\x00\x00\x80\x00\x00\x80?3\xc1"@\xdb\xcbr?\x8a!\xf3C~,\xf2C\x00\x00\xe1B\x00\x00\x00\x00\x00\x00\x00\x80\x00\x00\x80?\xab{\x1c@4\xfe\x1b@\xa8\x8d\xe9C\xf0\x8e\xf5\xc3\x00\x00\xe1B\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x80?N\x94\x17@\xa6s\xbb\xbf\xe8\x0f\xe5Cn\xba\xd2\xc3\x00\x00\xe1B\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x80?\xa2G\x15@%\xc9\x97\xbfp\xe8\xd1C\xfe\xac\xa8\xc3\x00\x00\xe1B\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x80?\x0ey\x0b@\xacrY\xbf\xa8\x8d\xe9C\xf0\x8e\xf5\xc3\x00\x00\xe1B\x00\x00\x00\x00\x00\x00\x00\x00\xff\xff\x7f?N\x94\x17@\xa6s\xbb\xbfp\xe8\xd1C\xfe\xac\xa8\xc3\x00\x00\xe1B\x00\x00\x00\x00\x00\x00\x00\x00\xff\xff\x7f?\x0ey\x0b@\xacrY\xbf\x081\xcdCv\xef\xf8\xc3\x00\x00\xe1B\x00\x00\x00\x00\x00\x00\x00\x00\xff\xff\x7f?\xdd\x0e\t@\xec\xe8\xbe\xbf (192 @ 6b71)
+			}
+
+            u3 sub-sub-sub-block { (52 @ 6e74)
+
+                w : 1.0 (0d @ 6e76)
+                x : 1.0 (15 @ 6e7b)
+                y : 1.0 (1d @ 6e80)
+                z : 1.0 (25 @ 6e85)
+			}
+		}
+	}
+
+    component sub-block { (1a @ 6e8a)
+
+        component type : GroundMeshGenerator (0a @ 6e8c)
+        number : 102(10 @ 6ea1)
+
+        ground mesh generator sub-sub-block { (382 @ 6ea4)
+
+            ground polygon : 100(08 @ 6ea6)
+            ground mesh : 101(10 @ 6ea8)
+            texture mapping 1 : 103(18 @ 6eaa)
+            texture mapping 2 : 104(20 @ 6eac)
+            u4 : 0(28 @ 6eae)
+            u5 : 0.0 (35 @ 6eb0)
+            u6 : 1(38 @ 6eb5)
+            u7 : 225.0 (45 @ 6eb7)
+            u8 : 25.0 (4d @ 6ebc)
+            u9 : 5.0 (55 @ 6ec1)
+            u10 : 5.0 (5d @ 6ec6)
+		}
+	}
+
+    component sub-block { (1a @ 6ecb)
+
+        component type : TextureMapping (0a @ 6ecd)
+        number : 103(10 @ 6edd)
+
+        texture mapping sub-sub-block { (38a @ 6ee0)
+
+            texture file : cavewalls (0a @ 6ee2)
+            u0 : 250.0 (15 @ 6eed)
+
+            u0 sub-sub-sub-block { (1a @ 6ef2)
+
+                u1 : 0.0 (0d @ 6ef4)
+                u2 : 0.0 (15 @ 6ef9)
+			}
+		}
+	}
+
+    component sub-block { (1a @ 6efe)
+
+        component type : TextureMapping (0a @ 6f00)
+        number : 104(10 @ 6f10)
+
+        texture mapping sub-sub-block { (38a @ 6f13)
+
+            texture file : brown128 (0a @ 6f15)
+            u0 : 250.0 (15 @ 6f1f)
+
+            u0 sub-sub-sub-block { (1a @ 6f24)
+
+                u1 : 0.0 (0d @ 6f26)
+                u2 : 0.0 (15 @ 6f2b)
+			}
+		}
+	}
+
+    component sub-block { (1a @ 6f30)
+
+        component type : CollisionShape (0a @ 6f33)
+        number : 105(10 @ 6f43)
+        ? linked component : 100(20 @ 6f45)
+
+        collision shape sub-sub-block { (3c2 @ 6f48)
+
+
+            u2 sub-sub-sub-block { (1a @ 6f4a)
+
+
+                u0 sub-sub-sub-sub-block { (0a @ 6f4c)
+
+                    y : -373.0367431640625 (0d @ 6f4e)
+                    z : -141.35223388671875 (15 @ 6f53)
+				}
+
+                u0 sub-sub-sub-sub-block { (0a @ 6f58)
+
+                    y : -708.5401611328125 (0d @ 6f5a)
+                    z : -727.4314575195312 (15 @ 6f5f)
+				}
+
+                u0 sub-sub-sub-sub-block { (0a @ 6f64)
+
+                    y : -238.859619140625 (0d @ 6f66)
+                    z : -740.9749145507812 (15 @ 6f6b)
+				}
+
+                u0 sub-sub-sub-sub-block { (0a @ 6f70)
+
+                    y : -104.47119140625 (0d @ 6f72)
+                    z : -729.947998046875 (15 @ 6f77)
+				}
+
+                u0 sub-sub-sub-sub-block { (0a @ 6f7c)
+
+                    y : -130.727294921875 (0d @ 6f7e)
+                    z : -637.41845703125 (15 @ 6f83)
+				}
+
+                u0 sub-sub-sub-sub-block { (0a @ 6f88)
+
+                    y : -99.930419921875 (0d @ 6f8a)
+                    z : -561.7940063476562 (15 @ 6f8f)
+				}
+
+                u0 sub-sub-sub-sub-block { (0a @ 6f94)
+
+                    y : -31.812255859375 (0d @ 6f96)
+                    z : -595.902587890625 (15 @ 6f9b)
+				}
+
+                u0 sub-sub-sub-sub-block { (0a @ 6fa0)
+
+                    y : 19.111328125 (0d @ 6fa2)
+                    z : -557.26318359375 (15 @ 6fa7)
+				}
+
+                u0 sub-sub-sub-sub-block { (0a @ 6fac)
+
+                    y : 61.685302734375 (0d @ 6fae)
+                    z : -464.77642822265625 (15 @ 6fb3)
+				}
+
+                u0 sub-sub-sub-sub-block { (0a @ 6fb8)
+
+                    y : 86.010009765625 (0d @ 6fba)
+                    z : -554.0762329101562 (15 @ 6fbf)
+				}
+                u3 : 0(10 @ 6fc4)
+                u4 : 0(18 @ 6fc6)
+			}
+		}
+
+        collision shape 2 sub-sub-block { (3ca @ 6fc9)
+
+            u0 : 1(10 @ 6fcb)
+            w : -117.5 (35 @ 6fcd)
+            x : 117.5 (3d @ 6fd2)
+            z : 1(58 @ 6fd7)
+		}
+	}
+
+    component sub-block { (1a @ 6fd9)
+
+        component type : CollisionShape (0a @ 6fdc)
+        number : 106(10 @ 6fec)
+        ? linked component : 100(20 @ 6fee)
+
+        collision shape sub-sub-block { (3c2 @ 6ff1)
+
+
+            u2 sub-sub-sub-block { (1a @ 6ff3)
+
+
+                u0 sub-sub-sub-sub-block { (0a @ 6ff5)
+
+                    y : 19.111328125 (0d @ 6ff7)
+                    z : -557.26318359375 (15 @ 6ffc)
+				}
+
+                u0 sub-sub-sub-sub-block { (0a @ 7001)
+
+                    y : 61.685302734375 (0d @ 7003)
+                    z : -464.77642822265625 (15 @ 7008)
+				}
+
+                u0 sub-sub-sub-sub-block { (0a @ 700d)
+
+                    y : 86.010009765625 (0d @ 700f)
+                    z : -554.0762329101562 (15 @ 7014)
+				}
+
+                u0 sub-sub-sub-sub-block { (0a @ 7019)
+
+                    y : 137.535888671875 (0d @ 701b)
+                    z : -556.3299560546875 (15 @ 7020)
+				}
+
+                u0 sub-sub-sub-sub-block { (0a @ 7025)
+
+                    y : 178.87060546875 (0d @ 7027)
+                    z : -444.26416015625 (15 @ 702c)
+				}
+
+                u0 sub-sub-sub-sub-block { (0a @ 7031)
+
+                    y : 203.777099609375 (0d @ 7033)
+                    z : -469.01025390625 (15 @ 7038)
+				}
+
+                u0 sub-sub-sub-sub-block { (0a @ 703d)
+
+                    y : 236.266845703125 (0d @ 703f)
+                    z : -719.177734375 (15 @ 7044)
+				}
+
+                u0 sub-sub-sub-sub-block { (0a @ 7049)
+
+                    y : 51.97021484375 (0d @ 704b)
+                    z : -720.5767822265625 (15 @ 7050)
+				}
+
+                u0 sub-sub-sub-sub-block { (0a @ 7055)
+
+                    y : 51.9033203125 (0d @ 7057)
+                    z : -745.6199951171875 (15 @ 705c)
+				}
+
+                u0 sub-sub-sub-sub-block { (0a @ 7061)
+
+                    y : 61.3359375 (0d @ 7063)
+                    z : -774.7054443359375 (15 @ 7068)
+				}
+                u3 : 0(10 @ 706d)
+                u4 : 0(18 @ 706f)
+			}
+		}
+
+        collision shape 2 sub-sub-block { (3ca @ 7072)
+
+            u0 : 1(10 @ 7074)
+            w : -117.5 (35 @ 7076)
+            x : 117.5 (3d @ 707b)
+            z : 1(58 @ 7080)
+		}
+	}
+
+    component sub-block { (1a @ 7082)
+
+        component type : CollisionShape (0a @ 7085)
+        number : 107(10 @ 7095)
+        ? linked component : 100(20 @ 7097)
+
+        collision shape sub-sub-block { (3c2 @ 709a)
+
+
+            u2 sub-sub-sub-block { (1a @ 709c)
+
+
+                u0 sub-sub-sub-sub-block { (0a @ 709e)
+
+                    y : 51.97021484375 (0d @ 70a0)
+                    z : -720.5767822265625 (15 @ 70a5)
+				}
+
+                u0 sub-sub-sub-sub-block { (0a @ 70aa)
+
+                    y : 51.9033203125 (0d @ 70ac)
+                    z : -745.6199951171875 (15 @ 70b1)
+				}
+
+                u0 sub-sub-sub-sub-block { (0a @ 70b6)
+
+                    y : 61.3359375 (0d @ 70b8)
+                    z : -774.7054443359375 (15 @ 70bd)
+				}
+
+                u0 sub-sub-sub-sub-block { (0a @ 70c2)
+
+                    y : 86.59423828125 (0d @ 70c4)
+                    z : -798.16064453125 (15 @ 70c9)
+				}
+
+                u0 sub-sub-sub-sub-block { (0a @ 70ce)
+
+                    y : 147.92144775390625 (0d @ 70d0)
+                    z : -748.4835205078125 (15 @ 70d5)
+				}
+
+                u0 sub-sub-sub-sub-block { (0a @ 70da)
+
+                    y : 167.540283203125 (0d @ 70dc)
+                    z : -753.9281005859375 (15 @ 70e1)
+				}
+
+                u0 sub-sub-sub-sub-block { (0a @ 70e6)
+
+                    y : 187.333251953125 (0d @ 70e8)
+                    z : -785.274169921875 (15 @ 70ed)
+				}
+
+                u0 sub-sub-sub-sub-block { (0a @ 70f2)
+
+                    y : 203.737060546875 (0d @ 70f4)
+                    z : -749.1229858398438 (15 @ 70f9)
+				}
+
+                u0 sub-sub-sub-sub-block { (0a @ 70fe)
+
+                    y : 217.904052734375 (0d @ 7100)
+                    z : -768.086181640625 (15 @ 7105)
+				}
+
+                u0 sub-sub-sub-sub-block { (0a @ 710a)
+
+                    y : 234.31396484375 (0d @ 710c)
+                    z : -782.5467529296875 (15 @ 7111)
+				}
+                u3 : 0(10 @ 7116)
+                u4 : 0(18 @ 7118)
+			}
+		}
+
+        collision shape 2 sub-sub-block { (3ca @ 711b)
+
+            u0 : 1(10 @ 711d)
+            w : -117.5 (35 @ 711f)
+            x : 117.5 (3d @ 7124)
+            z : 1(58 @ 7129)
+		}
+	}
+
+    component sub-block { (1a @ 712b)
+
+        component type : CollisionShape (0a @ 712e)
+        number : 108(10 @ 713e)
+        ? linked component : 100(20 @ 7140)
+
+        collision shape sub-sub-block { (3c2 @ 7143)
+
+
+            u2 sub-sub-sub-block { (1a @ 7145)
+
+
+                u0 sub-sub-sub-sub-block { (0a @ 7147)
+
+                    y : 203.737060546875 (0d @ 7149)
+                    z : -749.1229858398438 (15 @ 714e)
+				}
+
+                u0 sub-sub-sub-sub-block { (0a @ 7153)
+
+                    y : 217.904052734375 (0d @ 7155)
+                    z : -768.086181640625 (15 @ 715a)
+				}
+
+                u0 sub-sub-sub-sub-block { (0a @ 715f)
+
+                    y : 234.31396484375 (0d @ 7161)
+                    z : -782.5467529296875 (15 @ 7166)
+				}
+
+                u0 sub-sub-sub-sub-block { (0a @ 716b)
+
+                    y : 244.8792724609375 (0d @ 716d)
+                    z : -755.2978515625 (15 @ 7172)
+				}
+
+                u0 sub-sub-sub-sub-block { (0a @ 7177)
+
+                    y : 262.229248046875 (0d @ 7179)
+                    z : -788.7783203125 (15 @ 717e)
+				}
+
+                u0 sub-sub-sub-sub-block { (0a @ 7183)
+
+                    y : 279.5445556640625 (0d @ 7185)
+                    z : -768.2774658203125 (15 @ 718a)
+				}
+
+                u0 sub-sub-sub-sub-block { (0a @ 718f)
+
+                    y : 296.877197265625 (0d @ 7191)
+                    z : -774.767333984375 (15 @ 7196)
+				}
+
+                u0 sub-sub-sub-sub-block { (0a @ 719b)
+
+                    y : 328.29052734375 (0d @ 719d)
+                    z : -729.0384521484375 (15 @ 71a2)
+				}
+
+                u0 sub-sub-sub-sub-block { (0a @ 71a7)
+
+                    y : 355.417724609375 (0d @ 71a9)
+                    z : -784.3193359375 (15 @ 71ae)
+				}
+
+                u0 sub-sub-sub-sub-block { (0a @ 71b3)
+
+                    y : 355.466796875 (0d @ 71b5)
+                    z : -691.643798828125 (15 @ 71ba)
+				}
+                u3 : 0(10 @ 71bf)
+                u4 : 0(18 @ 71c1)
+			}
+		}
+
+        collision shape 2 sub-sub-block { (3ca @ 71c4)
+
+            u0 : 1(10 @ 71c6)
+            w : -117.5 (35 @ 71c8)
+            x : 117.5 (3d @ 71cd)
+            z : 1(58 @ 71d2)
+		}
+	}
+
+    component sub-block { (1a @ 71d4)
+
+        component type : CollisionShape (0a @ 71d7)
+        number : 109(10 @ 71e7)
+        ? linked component : 100(20 @ 71e9)
+
+        collision shape sub-sub-block { (3c2 @ 71ec)
+
+
+            u2 sub-sub-sub-block { (1a @ 71ee)
+
+
+                u0 sub-sub-sub-sub-block { (0a @ 71f0)
+
+                    y : 328.29052734375 (0d @ 71f2)
+                    z : -729.0384521484375 (15 @ 71f7)
+				}
+
+                u0 sub-sub-sub-sub-block { (0a @ 71fc)
+
+                    y : 355.417724609375 (0d @ 71fe)
+                    z : -784.3193359375 (15 @ 7203)
+				}
+
+                u0 sub-sub-sub-sub-block { (0a @ 7208)
+
+                    y : 355.466796875 (0d @ 720a)
+                    z : -691.643798828125 (15 @ 720f)
+				}
+
+                u0 sub-sub-sub-sub-block { (0a @ 7214)
+
+                    y : 375.27734375 (0d @ 7216)
+                    z : -675.2579345703125 (15 @ 721b)
+				}
+
+                u0 sub-sub-sub-sub-block { (0a @ 7220)
+
+                    y : 380.403564453125 (0d @ 7222)
+                    z : -692.5703125 (15 @ 7227)
+				}
+
+                u0 sub-sub-sub-sub-block { (0a @ 722c)
+
+                    y : 408.211669921875 (0d @ 722e)
+                    z : -583.0588989257812 (15 @ 7233)
+				}
+
+                u0 sub-sub-sub-sub-block { (0a @ 7238)
+
+                    y : 419.75732421875 (0d @ 723a)
+                    z : -546.4127807617188 (15 @ 723f)
+				}
+
+                u0 sub-sub-sub-sub-block { (0a @ 7244)
+
+                    y : 410.383056640625 (0d @ 7246)
+                    z : -497.87078857421875 (15 @ 724b)
+				}
+
+                u0 sub-sub-sub-sub-block { (0a @ 7250)
+
+                    y : 467.106689453125 (0d @ 7252)
+                    z : -491.11669921875 (15 @ 7257)
+				}
+
+                u0 sub-sub-sub-sub-block { (0a @ 725c)
+
+                    y : 458.124267578125 (0d @ 725e)
+                    z : -421.45648193359375 (15 @ 7263)
+				}
+                u3 : 0(10 @ 7268)
+                u4 : 0(18 @ 726a)
+			}
+		}
+
+        collision shape 2 sub-sub-block { (3ca @ 726d)
+
+            u0 : 1(10 @ 726f)
+            w : -117.5 (35 @ 7271)
+            x : 117.5 (3d @ 7276)
+            z : 1(58 @ 727b)
+		}
+	}
+
+    component sub-block { (1a @ 727d)
+
+        component type : CollisionShape (0a @ 7280)
+        number : 110(10 @ 7290)
+        ? linked component : 100(20 @ 7292)
+
+        collision shape sub-sub-block { (3c2 @ 7295)
+
+
+            u2 sub-sub-sub-block { (1a @ 7297)
+
+
+                u0 sub-sub-sub-sub-block { (0a @ 7299)
+
+                    y : 410.383056640625 (0d @ 729b)
+                    z : -497.87078857421875 (15 @ 72a0)
+				}
+
+                u0 sub-sub-sub-sub-block { (0a @ 72a5)
+
+                    y : 467.106689453125 (0d @ 72a7)
+                    z : -491.11669921875 (15 @ 72ac)
+				}
+
+                u0 sub-sub-sub-sub-block { (0a @ 72b1)
+
+                    y : 458.124267578125 (0d @ 72b3)
+                    z : -421.45648193359375 (15 @ 72b8)
+				}
+
+                u0 sub-sub-sub-sub-block { (0a @ 72bd)
+
+                    y : 419.81591796875 (0d @ 72bf)
+                    z : -337.35150146484375 (15 @ 72c4)
+				}
+
+                u0 sub-sub-sub-sub-block { (0a @ 72c9)
+
+                    y : 443.699951171875 (0d @ 72cb)
+                    z : -308.8385009765625 (15 @ 72d0)
+				}
+
+                u0 sub-sub-sub-sub-block { (0a @ 72d5)
+
+                    y : 389.1069641113281 (0d @ 72d7)
+                    z : -262.59051513671875 (15 @ 72dc)
+				}
+
+                u0 sub-sub-sub-sub-block { (0a @ 72e1)
+
+                    y : 493.43719482421875 (0d @ 72e3)
+                    z : -175.650146484375 (15 @ 72e8)
+				}
+
+                u0 sub-sub-sub-sub-block { (0a @ 72ed)
+
+                    y : 510.760498046875 (0d @ 72ef)
+                    z : 112.10577392578125 (15 @ 72f4)
+				}
+
+                u0 sub-sub-sub-sub-block { (0a @ 72f9)
+
+                    y : 486.26202392578125 (0d @ 72fb)
+                    z : 484.34759521484375 (15 @ 7300)
+				}
+
+                u0 sub-sub-sub-sub-block { (0a @ 7305)
+
+                    y : 578.9182739257812 (0d @ 7307)
+                    z : 672.1793823242188 (15 @ 730c)
+				}
+                u3 : 0(10 @ 7311)
+                u4 : 0(18 @ 7313)
+			}
+		}
+
+        collision shape 2 sub-sub-block { (3ca @ 7316)
+
+            u0 : 1(10 @ 7318)
+            w : -117.5 (35 @ 731a)
+            x : 117.5 (3d @ 731f)
+            z : 1(58 @ 7324)
+		}
+	}
+
+    component sub-block { (1a @ 7326)
+
+        component type : CollisionShape (0a @ 7329)
+        number : 111(10 @ 7339)
+        ? linked component : 100(20 @ 733b)
+
+        collision shape sub-sub-block { (3c2 @ 733e)
+
+
+            u2 sub-sub-sub-block { (1a @ 7341)
+
+
+                u0 sub-sub-sub-sub-block { (0a @ 7344)
+
+                    y : 510.760498046875 (0d @ 7346)
+                    z : 112.10577392578125 (15 @ 734b)
+				}
+
+                u0 sub-sub-sub-sub-block { (0a @ 7350)
+
+                    y : 486.26202392578125 (0d @ 7352)
+                    z : 484.34759521484375 (15 @ 7357)
+				}
+
+                u0 sub-sub-sub-sub-block { (0a @ 735c)
+
+                    y : 578.9182739257812 (0d @ 735e)
+                    z : 672.1793823242188 (15 @ 7363)
+				}
+
+                u0 sub-sub-sub-sub-block { (0a @ 7368)
+
+                    y : 708.5401611328125 (0d @ 736a)
+                    z : 774.2007446289062 (15 @ 736f)
+				}
+
+                u0 sub-sub-sub-sub-block { (0a @ 7374)
+
+                    y : 375.780029296875 (0d @ 7376)
+                    z : 798.1605834960938 (15 @ 737b)
+				}
+
+                u0 sub-sub-sub-sub-block { (0a @ 7380)
+
+                    y : 92.32821655273438 (0d @ 7382)
+                    z : 792.3765869140625 (15 @ 7387)
+				}
+
+                u0 sub-sub-sub-sub-block { (0a @ 738c)
+
+                    y : -368.382568359375 (0d @ 738e)
+                    z : 773.4208984375 (15 @ 7393)
+				}
+
+                u0 sub-sub-sub-sub-block { (0a @ 7398)
+
+                    y : -373.19598388671875 (0d @ 739a)
+                    z : -11.90374755859375 (15 @ 739f)
+				}
+
+                u0 sub-sub-sub-sub-block { (0a @ 73a4)
+
+                    y : -373.0367431640625 (0d @ 73a6)
+                    z : -141.35223388671875 (15 @ 73ab)
+				}
+
+                u0 sub-sub-sub-sub-block { (0a @ 73b0)
+
+                    y : -708.5401611328125 (0d @ 73b2)
+                    z : -727.4314575195312 (15 @ 73b7)
+				}
+
+                u0 sub-sub-sub-sub-block { (0a @ 73bc)
+
+                    y : -238.859619140625 (0d @ 73be)
+                    z : -740.9749145507812 (15 @ 73c3)
+				}
+                u3 : 0(10 @ 73c8)
+                u4 : 0(18 @ 73ca)
+			}
+		}
+
+        collision shape 2 sub-sub-block { (3ca @ 73cd)
+
+            u0 : 1(10 @ 73cf)
+            w : -117.5 (35 @ 73d1)
+            x : 117.5 (3d @ 73d6)
+            z : 1(58 @ 73db)
+		}
+	}
+
+    position sub-block { (22 @ 73dd)
+
+        x position : -2854.06396484375 (0d @ 73df)
+        y position : -427.88330078125 (15 @ 73e4)
+	}
+    z position : 0.0 (2d @ 73e9)
+    rotation : 0.0 (35 @ 73ee)
+    scale : 1.0 (3d @ 73f3)
+
+    u2 sub-block { (42 @ 73f8)
+
+        w : -708.5401611328125 (0d @ 73fa)
+        x : -798.16064453125 (15 @ 73ff)
+        y : 1417.080322265625 (1d @ 7404)
+        z : 1596.3212890625 (25 @ 7409)
+	}
+    hidden : 0(48 @ 740e)
+}
+
+object block { (0a @ 7410)
+
+    name : point_150_15 (0a @ 7412)
+    identifier : obj6 (12 @ 7420)
+
+    position sub-block { (22 @ 7426)
+
+        x position : -2656.366943359375 (0d @ 7428)
+        y position : -1725.9862060546875 (15 @ 742d)
+	}
+    z position : 0.0 (2d @ 7432)
+    rotation : 0.0 (35 @ 7437)
+    scale : 1.0 (3d @ 743c)
+
+    u2 sub-block { (42 @ 7441)
+
+        w : -30.0 (0d @ 7443)
+        x : -30.0 (15 @ 7448)
+        y : 60.0 (1d @ 744d)
+        z : 60.0 (25 @ 7452)
+	}
+    hidden : 0(48 @ 7457)
+}
+
+object block { (0a @ 7459)
+
+    name : point_150_15 (0a @ 745b)
+    identifier : obj6#2 (12 @ 7469)
+
+    position sub-block { (22 @ 7471)
+
+        x position : -2926.346923828125 (0d @ 7473)
+        y position : -1841.2242431640625 (15 @ 7478)
+	}
+    z position : 0.0 (2d @ 747d)
+    rotation : 0.0 (35 @ 7482)
+    scale : 1.0 (3d @ 7487)
+
+    u2 sub-block { (42 @ 748c)
+
+        w : -30.0 (0d @ 748e)
+        x : -30.0 (15 @ 7493)
+        y : 60.0 (1d @ 7498)
+        z : 60.0 (25 @ 749d)
+	}
+    hidden : 0(48 @ 74a2)
+}
+
+object block { (0a @ 74a4)
+
+    name : point_150_15 (0a @ 74a6)
+    identifier : obj6#3 (12 @ 74b4)
+
+    position sub-block { (22 @ 74bc)
+
+        x position : -3063.4794921875 (0d @ 74be)
+        y position : -1743.0919189453125 (15 @ 74c3)
+	}
+    z position : 0.0 (2d @ 74c8)
+    rotation : 0.0 (35 @ 74cd)
+    scale : 1.0 (3d @ 74d2)
+
+    u2 sub-block { (42 @ 74d7)
+
+        w : -30.0 (0d @ 74d9)
+        x : -30.0 (15 @ 74de)
+        y : 60.0 (1d @ 74e3)
+        z : 60.0 (25 @ 74e8)
+	}
+    hidden : 0(48 @ 74ed)
+}
+
+object block { (0a @ 74ef)
+
+    name : point_150_15 (0a @ 74f1)
+    identifier : obj6#4 (12 @ 74ff)
+
+    position sub-block { (22 @ 7507)
+
+        x position : -2452.5009765625 (0d @ 7509)
+        y position : -1848.5550537109375 (15 @ 750e)
+	}
+    z position : 0.0 (2d @ 7513)
+    rotation : 0.0 (35 @ 7518)
+    scale : 1.0 (3d @ 751d)
+
+    u2 sub-block { (42 @ 7522)
+
+        w : -30.0 (0d @ 7524)
+        x : -30.0 (15 @ 7529)
+        y : 60.0 (1d @ 752e)
+        z : 60.0 (25 @ 7533)
+	}
+    hidden : 0(48 @ 7538)
+}
+
+object block { (0a @ 753a)
+
+    name : chest_left (0a @ 753d)
+    identifier : obj7 (12 @ 7549)
+
+    component sub-block { (1a @ 754f)
+
+        component type : ItemDrop (0a @ 7551)
+        number : 112(10 @ 755b)
+
+        item drop sub-sub-block { (fca @ 755e)
+
+            name : sshard_yellow (0a @ 7560)
+            identifier : wlches1ss (12 @ 756f)
+
+            item sub-sub-sub-block { (1a @ 757a)
+
+                item type : sshard_yellow (0a @ 757c)
+                identifier : wlches1ss (12 @ 758b)
+                u0 : 1.0 (1d @ 7596)
+                u1 : 1(20 @ 759b)
+                u2 : 1(28 @ 759d)
+			}
+            u0 : 1(20 @ 759f)
+            u1 : 0(28 @ 75a1)
+		}
+	}
+
+    position sub-block { (22 @ 75a3)
+
+        x position : -2692.802490234375 (0d @ 75a5)
+        y position : -1121.0396728515625 (15 @ 75aa)
+	}
+    z position : 0.0 (2d @ 75af)
+    rotation : 0.0 (35 @ 75b4)
+    scale : 1.0 (3d @ 75b9)
+
+    u2 sub-block { (42 @ 75be)
+
+        w : -80.0 (0d @ 75c0)
+        x : -49.7855224609375 (15 @ 75c5)
+        y : 115.00291442871094 (1d @ 75ca)
+        z : 73.7855224609375 (25 @ 75cf)
+	}
+    hidden : 0(48 @ 75d4)
+}
+
+object block { (0a @ 75d6)
+
+    identifier : spawn_default (12 @ 75d8)
+
+    component sub-block { (1a @ 75e7)
+
+        component type : SpawnPoint (0a @ 75e9)
+        number : 101(10 @ 75f5)
+
+        spawnpoint sub-sub-block { (faa @ 75f8)
+
+            u0 : 1(08 @ 75fa)
+
+            u1 sub-sub-sub-block { (12 @ 75fc)
+
+                x : 0.0 (0d @ 75fe)
+                y : 0.0 (15 @ 7603)
+                z : 0.0 (1d @ 7608)
+			}
+		}
+	}
+
+    position sub-block { (22 @ 760d)
+
+        x position : -3041.2626953125 (0d @ 760f)
+        y position : -1288.4521484375 (15 @ 7614)
+	}
+    z position : -1.1977767944335938 (2d @ 7619)
+    rotation : 0.0 (35 @ 761e)
+    scale : 1.0 (3d @ 7623)
+
+    u2 sub-block { (42 @ 7628)
+
+        w : -30.0 (0d @ 762a)
+        x : -30.0 (15 @ 762f)
+        y : 60.0 (1d @ 7634)
+        z : 60.0 (25 @ 7639)
+	}
+    hidden : 0(48 @ 763e)
+}
+
+object block { (0a @ 7640)
+
+    identifier : spawn_from_wasteland_house1 (12 @ 7642)
+
+    component sub-block { (1a @ 765f)
+
+        component type : SpawnPoint (0a @ 7661)
+        number : 101(10 @ 766d)
+
+        spawnpoint sub-sub-block { (faa @ 7670)
+
+            u0 : 1(08 @ 7672)
+
+            u1 sub-sub-sub-block { (12 @ 7674)
+
+                x : 0.0 (0d @ 7676)
+                y : 0.0 (15 @ 767b)
+                z : 0.0 (1d @ 7680)
+			}
+		}
+	}
+
+    position sub-block { (22 @ 7685)
+
+        x position : -3045.032470703125 (0d @ 7687)
+        y position : -1797.28955078125 (15 @ 768c)
+	}
+    z position : -1.1977767944335938 (2d @ 7691)
+    rotation : 0.0 (35 @ 7696)
+    scale : 1.0 (3d @ 769b)
+
+    u2 sub-block { (42 @ 76a0)
+
+        w : -30.0 (0d @ 76a2)
+        x : -30.0 (15 @ 76a7)
+        y : 60.0 (1d @ 76ac)
+        z : 60.0 (25 @ 76b1)
+	}
+    hidden : 0(48 @ 76b6)
+}
+
+object block { (0a @ 76b8)
+
+    identifier : spawn_from_wasteland_part1 (12 @ 76ba)
+
+    component sub-block { (1a @ 76d6)
+
+        component type : SpawnPoint (0a @ 76d8)
+        number : 101(10 @ 76e4)
+
+        spawnpoint sub-sub-block { (faa @ 76e7)
+
+            u0 : 1(08 @ 76e9)
+
+            u1 sub-sub-sub-block { (12 @ 76eb)
+
+                x : 0.0 (0d @ 76ed)
+                y : 0.0 (15 @ 76f2)
+                z : 0.0 (1d @ 76f7)
+			}
+		}
+	}
+
+    position sub-block { (22 @ 76fc)
+
+        x position : -3042.18896484375 (0d @ 76fe)
+        y position : -1294.673583984375 (15 @ 7703)
+	}
+    z position : -1.1977767944335938 (2d @ 7708)
+    rotation : 0.0 (35 @ 770d)
+    scale : 1.0 (3d @ 7712)
+
+    u2 sub-block { (42 @ 7717)
+
+        w : -30.0 (0d @ 7719)
+        x : -30.0 (15 @ 771e)
+        y : 60.0 (1d @ 7723)
+        z : 60.0 (25 @ 7728)
+	}
+    hidden : 0(48 @ 772d)
+}
+
+dependencies block { (12 @ 772f)
+
+    name : wasteland_cave1 (0a @ 7732)
+
+    u0 sub-block { (12 @ 7743)
+
+
+        u0 sub-sub-block { (0a @ 7745)
+
+            name : Template 1 (12 @ 7747)
+
+            u0 sub-sub-sub-block { (22 @ 7753)
+
+                y : 0.0 (0d @ 7755)
+                z : 0.0 (15 @ 775a)
+			}
+            u1 : 0.0 (2d @ 775f)
+            u2 : 0.0 (35 @ 7764)
+            u3 : 1.0 (3d @ 7769)
+
+            u1 sub-sub-sub-block { (42 @ 776e)
+
+                w : -10.0 (0d @ 7770)
+                x : -10.0 (15 @ 7775)
+                y : 20.0 (1d @ 777a)
+                z : 20.0 (25 @ 777f)
+			}
+            u5 : 0(48 @ 7784)
+		}
+        u1 : 1.0 (15 @ 7786)
+	}
+    scl file : caves_stuff (1a @ 778b)
+    scl file : collectibles (1a @ 7798)
+    scl file : game_common (1a @ 77a6)
+    scl file : hiro (1a @ 77b3)
+    scl file : lights (1a @ 77b9)
+    scl file : monsters (1a @ 77c1)
+    scl file : plains_stuff (1a @ 77cb)
+    scl file : rocks (1a @ 77d9)
+    scl file : scriptarea (1a @ 77e0)
+    scl file : traps_stuffs (1a @ 77ec)
+    scl file : trash (1a @ 77fa)
+    scl file : ui_game (1a @ 7801)
+    scl file : weapons (1a @ 780a)
+    scl file : woodkeep_stuff (1a @ 7813)
+}
+
+u0 block { (1a @ 7823)
+
+    w : -3100.0 (0d @ 7825)
+    x : -2000.0 (15 @ 782a)
+    y : 4600.0 (1d @ 782f)
+    z : 3000.0 (25 @ 7834)
+}
+
+lua chunk block { (2a @ 7839)
+
+    main chunk : chunk >
+
+    === lua =============
+    MusicPlayer.PlayMusic(Game.DefaultMusicName(),false);
+
+    =====================
+    secondary chunk : \x1bLuaQ\x00\x01\x04\x04\x04\x08\x006\x00\x00\x00MusicPlayer.PlayMusic(Game.DefaultMusicName(),false);\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x02\x03\x08\x00\x00\x00\x05\x00\x00\x00\x06@@\x00E\x80\x00\x00F\xc0\xc0\x00\\\x80\x80\x00\x82\x00\x00\x00\x1c@\x80\x01\x1e\x00\x80\x00\x04\x00\x00\x00\x04\x0c\x00\x00\x00MusicPlayer\x00\x04\n\x00\x00\x00PlayMusic\x00\x04\x05\x00\x00\x00Game\x00\x04\x11\x00\x00\x00DefaultMusicName\x00\x00\x00\x00\x00\x08\x00\x00\x00\x01\x00\x00\x00\x01\x00\x00\x00\x01\x00\x00\x00\x01\x00\x00\x00\x01\x00\x00\x00\x01\x00\x00\x00\x01\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00 (12 @ 7873)
+}

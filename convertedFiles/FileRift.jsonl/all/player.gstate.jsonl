@@ -1,0 +1,62 @@
+data = {
+
+"inventoryblock " :  {
+
+	"soul shards" : 998,
+
+	"itemsub-block " :  {
+
+		"name" : "legendsword",
+	},
+
+	"itemsub-block " :  {
+
+		"name" : "platearmor",
+	},
+
+	"itemsub-block " :  {
+
+		"name" : "shadowtrinket",
+	},
+
+	"itemsub-block " :  {
+
+		"name" : "icetrinket",
+	},
+
+	"itemsub-block " :  {
+
+		"name" : "firetrinket",
+	},
+
+	"itemsub-block " :  {
+
+		"name" : "iselon_shard_1",
+	},
+
+	"itemsub-block " :  {
+
+		"name" : "iselon_shard_2",
+	},
+
+	"itemsub-block " :  {
+
+		"name" : "iselon_shard_3",
+	},
+
+	"itemsub-block " :  {
+
+		"name" : "iselon_shard_4",
+	},
+	"skill" : "bolt",
+	"skill" : "bomb",
+	"skill" : "hookshot",
+	"skill" : "dimension",
+	"selected skill" : "hookshot",
+	"sword trinket" : "firetrinket",
+},
+"spawn level" : "town_herohouse",
+"spawnpoint" : "spawn_default",
+"u1" : "map",
+
+}

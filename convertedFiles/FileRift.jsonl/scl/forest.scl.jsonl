@@ -1,0 +1,272 @@
+data = {
+"scl file name" : "forest",
+
+"?itemblock " :  {
+
+
+	"?sub-itemsub-block " :  {
+
+		"name" : "forest_light",
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Light",
+			"number" : 101,
+
+			"lightsub-sub-sub-block " :  {
+
+				"u0" : 3,
+				"u1" : 2.0,
+
+				"u2sub-sub-sub-sub-block " :  {
+
+					"w" : 0.8518518805503845,
+					"x" : 0.6938270330429077,
+					"y" : 0.614814817905426,
+					"z" : 1.0,
+				},
+				"u3" : 0.0,
+				"u4" : 0.00019999999494757503,
+
+				"u5sub-sub-sub-sub-block " :  {
+
+					"x" : 0.0,
+					"y" : 0.0,
+					"z" : 0.0,
+				},
+				"u6" : 250.0,
+			},
+		},
+
+		"positionsub-sub-block " :  {
+
+			"x position" : 0.0,
+			"y position" : 0.0,
+		},
+		"z position" : 0.0,
+		"rotation" : 0.0,
+		"scale" : 1.0,
+
+		"u0sub-sub-block " :  {
+
+			"w" : -50.0,
+			"x" : -50.0,
+			"y" : 100.0,
+			"z" : 100.0,
+		},
+		"hidden" : 0,
+	},
+	"u0" : 1.0,
+},
+
+"?itemblock " :  {
+
+
+	"?sub-itemsub-block " :  {
+
+		"name" : "forest_spirit",
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Light",
+			"number" : 1,
+
+			"lightsub-sub-sub-block " :  {
+
+				"u0" : 3,
+				"u1" : 2.0,
+
+				"u2sub-sub-sub-sub-block " :  {
+
+					"w" : 1.0,
+					"x" : 1.0,
+					"y" : 1.0,
+					"z" : 1.0,
+				},
+				"u3" : 0.0,
+				"u4" : 0.00019999999494757503,
+
+				"u5sub-sub-sub-sub-block " :  {
+
+					"x" : 0.0,
+					"y" : 0.0,
+					"z" : 0.0,
+				},
+				"u6" : 150.0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "ParticleEmitter",
+			"number" : 120,
+
+			"particle emittersub-sub-sub-block " :  {
+
+				"particle" : 123,
+				"u1" : 0,
+				"u2" : 100,
+				"u3" : 0,
+				"u4" : 0,
+
+				"u5sub-sub-sub-sub-block " :  {
+
+					"u0" : 3,
+
+					"u1sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 0.12839508056640625,
+						"x" : 0.22716054320335388,
+						"y" : 0.22716057300567627,
+						"z" : 0.0,
+					},
+					"u2" : 0.00800000037997961,
+					"u2" : 0.20000000298023224,
+					"u2" : 0.800000011920929,
+					"u2" : 8.0,
+					"u2" : 0.30000001192092896,
+					"u2" : 0.0,
+					"u2" : 1.0,
+					"u3" : 0.0,
+					"u4" : 0.0,
+					"u5" : 0.0,
+
+					"u6sub-sub-sub-sub-sub-block " :  {
+
+						"u0" : 0.0,
+						"u1" : 0.0,
+						"u2" : 0.0,
+					},
+				},
+				"u6" : 0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Particle",
+			"number" : 123,
+
+			"particlesub-sub-sub-block " :  {
+
+				"name" : "particle",
+				"u0" : 15.0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "SimpleGlow",
+			"number" : 127,
+
+			"simple glowsub-sub-sub-block " :  {
+
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"w" : 0.6308642029762268,
+					"x" : 0.7913580536842346,
+					"y" : 0.780658483505249,
+					"z" : 0.5,
+				},
+				"u1" : 15.0,
+				"u2" : 20,
+				"u3" : 15.0,
+				"u4" : 0.15000000596046448,
+				"u5" : 0.800000011920929,
+
+				"u6sub-sub-sub-sub-block " :  {
+
+					"y" : 0.0,
+					"z" : 0.0,
+				},
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "ParticleEmitter",
+			"number" : 129,
+
+			"particle emittersub-sub-sub-block " :  {
+
+				"particle" : 123,
+				"u1" : 0,
+				"u2" : 30,
+				"u3" : 120,
+				"u4" : 0,
+
+				"u5sub-sub-sub-sub-block " :  {
+
+					"u0" : 3,
+
+					"u1sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 0.5333333611488342,
+						"x" : 0.5333333611488342,
+						"y" : 0.5333333611488342,
+						"z" : 0.0,
+					},
+					"u2" : 0.009999999776482582,
+					"u2" : 0.20000000298023224,
+					"u2" : 0.20000000298023224,
+					"u2" : 6.0,
+					"u2" : 0.30000001192092896,
+					"u2" : 0.0,
+					"u2" : 1.0,
+					"u3" : 0.0,
+					"u4" : 0.0,
+					"u5" : 0.0,
+
+					"u6sub-sub-sub-sub-sub-block " :  {
+
+						"u0" : 0.0,
+						"u1" : 0.0,
+						"u2" : 0.0,
+					},
+				},
+				"u6" : 0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "OrbitController",
+			"number" : 131,
+
+			"orbit controllersub-sub-sub-block " :  {
+
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"x" : 0.38283267617225647,
+					"y" : 0.9218900203704834,
+					"z" : 0.059648867696523666,
+				},
+				"u1" : 6.2831854820251465,
+				"u2" : 40.0,
+			},
+		},
+
+		"positionsub-sub-block " :  {
+
+			"x position" : 0.0,
+			"y position" : 0.0,
+		},
+		"z position" : 0.0,
+		"rotation" : 0.0,
+		"scale" : 1.0,
+
+		"u0sub-sub-block " :  {
+
+			"w" : -15.0,
+			"x" : -15.0,
+			"y" : 30.0,
+			"z" : 30.0,
+		},
+		"hidden" : 0,
+	},
+	"u0" : 1.0,
+},
+
+}

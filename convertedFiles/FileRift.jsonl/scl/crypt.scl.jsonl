@@ -1,0 +1,446 @@
+data = {
+"scl file name" : "crypt",
+
+"?itemblock " :  {
+
+
+	"?sub-itemsub-block " :  {
+
+		"name" : "crypt_torch",
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Model",
+			"number" : 1,
+
+			"3D modelsub-sub-sub-block " :  {
+
+				"name" : "torch",
+				"u0" : 0.0,
+				"u1" : 0.0,
+				"u2" : 0.0,
+
+				"u3sub-sub-sub-sub-block " :  {
+
+					"w" : 0.0,
+					"x" : 0.0,
+					"y" : 0.0,
+					"z" : 1.0,
+				},
+
+				"u4sub-sub-sub-sub-block " :  {
+
+					"x" : 0.0,
+					"y" : 0.0,
+					"z" : 0.0,
+				},
+				"u5" : 0,
+
+				"u6sub-sub-sub-sub-block " :  {
+
+					"w" : 1.0,
+					"x" : 1.0,
+					"y" : 1.0,
+					"z" : 1.0,
+				},
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "SimpleGlow",
+			"number" : 2,
+
+			"simple glowsub-sub-sub-block " :  {
+
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"w" : 0.23333333432674408,
+					"x" : 0.35555556416511536,
+					"y" : 0.20000000298023224,
+					"z" : 0.5,
+				},
+				"u1" : 27.0,
+				"u2" : 10,
+				"u3" : 15.0,
+				"u4" : 0.07000000029802322,
+				"u5" : 0.800000011920929,
+
+				"u6sub-sub-sub-sub-block " :  {
+
+					"y" : -1.0,
+					"z" : 15.0,
+				},
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "TransformController",
+			"number" : 3,
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Light",
+			"number" : 103,
+
+			"lightsub-sub-sub-block " :  {
+
+				"u0" : 3,
+				"u1" : 1.5,
+
+				"u2sub-sub-sub-sub-block " :  {
+
+					"w" : 0.6222222447395325,
+					"x" : 0.9355555176734924,
+					"y" : 0.0,
+					"z" : 1.0,
+				},
+				"u3" : 0.0,
+				"u4" : 0.00019999999494757503,
+
+				"u5sub-sub-sub-sub-block " :  {
+
+					"x" : 0.0,
+					"y" : 0.0,
+					"z" : 0.0,
+				},
+				"u6" : 250.0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "FireEmitter",
+			"number" : 105,
+
+			"fire emittersub-sub-sub-block " :  {
+
+				"temp0" : 108,
+				"temp1" : 103,
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"w" : 0.3888888955116272,
+					"x" : 0.7888888716697693,
+					"y" : 0.0,
+					"z" : 0.0,
+				},
+				"u1" : 0.10000000149011612,
+				"u2" : 0.8999999761581421,
+
+				"u3sub-sub-sub-sub-block " :  {
+
+					"x" : 2.0,
+					"y" : 0.0,
+					"z" : 0.0,
+				},
+
+				"u4sub-sub-sub-sub-block " :  {
+
+					"x" : 0.0,
+					"y" : 15.0,
+					"z" : 0.0,
+				},
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "ParticleEmitter",
+			"number" : 108,
+
+			"particle emittersub-sub-sub-block " :  {
+
+				"particle" : 109,
+				"particle" : 111,
+				"particle" : 112,
+				"u1" : 0,
+				"u2" : 30,
+				"u3" : 0,
+				"u4" : 0,
+				"u6" : 0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Particle",
+			"number" : 109,
+
+			"particlesub-sub-sub-block " :  {
+
+				"name" : "particle_fure_1",
+				"u0" : 20.0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Particle",
+			"number" : 111,
+
+			"particlesub-sub-sub-block " :  {
+
+				"name" : "particle_fure_2",
+				"u0" : 22.0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Particle",
+			"number" : 112,
+
+			"particlesub-sub-sub-block " :  {
+
+				"name" : "particle_fure_3",
+				"u0" : 20.0,
+			},
+		},
+
+		"positionsub-sub-block " :  {
+
+			"x position" : 0.0,
+			"y position" : 0.0,
+		},
+		"z position" : 0.0,
+		"rotation" : 0.0,
+		"scale" : 1.0,
+
+		"u0sub-sub-block " :  {
+
+			"w" : -27.0,
+			"x" : -27.0,
+			"y" : 54.0,
+			"z" : 54.0,
+		},
+		"hidden" : 0,
+	},
+	"u0" : 1.0,
+},
+
+"?itemblock " :  {
+
+
+	"?sub-itemsub-block " :  {
+
+		"name" : "torch_red",
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Model",
+			"number" : 1,
+
+			"3D modelsub-sub-sub-block " :  {
+
+				"name" : "torch",
+				"u0" : 0.0,
+				"u1" : 0.0,
+				"u2" : 0.0,
+
+				"u3sub-sub-sub-sub-block " :  {
+
+					"w" : 0.0,
+					"x" : 0.0,
+					"y" : 0.0,
+					"z" : 1.0,
+				},
+
+				"u4sub-sub-sub-sub-block " :  {
+
+					"x" : 0.0,
+					"y" : 0.0,
+					"z" : 0.0,
+				},
+				"u5" : 0,
+
+				"u6sub-sub-sub-sub-block " :  {
+
+					"w" : 1.0,
+					"x" : 1.0,
+					"y" : 1.0,
+					"z" : 1.0,
+				},
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "SimpleGlow",
+			"number" : 2,
+
+			"simple glowsub-sub-sub-block " :  {
+
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"w" : 0.4555555582046509,
+					"x" : 0.0,
+					"y" : 0.0,
+					"z" : 0.5,
+				},
+				"u1" : 27.0,
+				"u2" : 10,
+				"u3" : 15.0,
+				"u4" : 0.07000000029802322,
+				"u5" : 0.800000011920929,
+
+				"u6sub-sub-sub-sub-block " :  {
+
+					"y" : -1.0,
+					"z" : 15.0,
+				},
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "TransformController",
+			"number" : 3,
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Light",
+			"number" : 103,
+
+			"lightsub-sub-sub-block " :  {
+
+				"u0" : 3,
+				"u1" : 2.0,
+
+				"u2sub-sub-sub-sub-block " :  {
+
+					"w" : 1.0,
+					"x" : 0.0,
+					"y" : 0.0,
+					"z" : 1.0,
+				},
+				"u3" : 0.0,
+				"u4" : 0.00019999999494757503,
+
+				"u5sub-sub-sub-sub-block " :  {
+
+					"x" : 0.0,
+					"y" : 0.0,
+					"z" : 0.0,
+				},
+				"u6" : 500.0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "FireEmitter",
+			"number" : 105,
+
+			"fire emittersub-sub-sub-block " :  {
+
+				"temp0" : 108,
+				"temp1" : 103,
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"w" : 1.0,
+					"x" : 0.4444444477558136,
+					"y" : 0.0,
+					"z" : 0.0,
+				},
+				"u1" : 0.10000000149011612,
+				"u2" : 0.8999999761581421,
+
+				"u3sub-sub-sub-sub-block " :  {
+
+					"x" : 2.0,
+					"y" : 0.0,
+					"z" : 0.0,
+				},
+
+				"u4sub-sub-sub-sub-block " :  {
+
+					"x" : 0.0,
+					"y" : 15.0,
+					"z" : 0.0,
+				},
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "ParticleEmitter",
+			"number" : 108,
+
+			"particle emittersub-sub-sub-block " :  {
+
+				"particle" : 109,
+				"particle" : 111,
+				"particle" : 112,
+				"u1" : 0,
+				"u2" : 30,
+				"u3" : 0,
+				"u4" : 0,
+				"u6" : 0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Particle",
+			"number" : 109,
+
+			"particlesub-sub-sub-block " :  {
+
+				"name" : "particle_fure_1",
+				"u0" : 20.0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Particle",
+			"number" : 111,
+
+			"particlesub-sub-sub-block " :  {
+
+				"name" : "particle_fure_2",
+				"u0" : 22.0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Particle",
+			"number" : 112,
+
+			"particlesub-sub-sub-block " :  {
+
+				"name" : "particle_fure_3",
+				"u0" : 20.0,
+			},
+		},
+
+		"positionsub-sub-block " :  {
+
+			"x position" : 0.0,
+			"y position" : 0.0,
+		},
+		"z position" : 0.0,
+		"rotation" : 0.0,
+		"scale" : 1.0,
+
+		"u0sub-sub-block " :  {
+
+			"w" : -27.0,
+			"x" : -27.0,
+			"y" : 54.0,
+			"z" : 54.0,
+		},
+		"hidden" : 0,
+	},
+	"u0" : 1.0,
+},
+
+}

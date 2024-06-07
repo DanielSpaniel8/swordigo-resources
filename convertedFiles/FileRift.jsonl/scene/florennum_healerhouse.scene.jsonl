@@ -1,0 +1,2563 @@
+data = {
+
+"objectblock " :  {
+
+	"name" : "Template 1",
+	"identifier" : "Background",
+
+	"componentsub-block " :  {
+
+		"component type" : "Background",
+		"number" : 101,
+
+		"filesub-sub-block " :  {
+
+			"filename" : "blackbg",
+		},
+	},
+
+	"positionsub-block " :  {
+
+		"x position" : -764.890380859375,
+		"y position" : 1126.6429443359375,
+	},
+	"z position" : 1.7203826904296875,
+	"rotation" : 0.0,
+	"scale" : 1.0,
+
+	"u2sub-block " :  {
+
+		"w" : -30.0,
+		"x" : -30.0,
+		"y" : 60.0,
+		"z" : 60.0,
+	},
+	"hidden" : 0,
+},
+
+"objectblock " :  {
+
+	"name" : "Template 1",
+	"identifier" : "DirectionalLight",
+
+	"componentsub-block " :  {
+
+		"component type" : "Light",
+		"number" : 101,
+
+		"lightsub-sub-block " :  {
+
+			"u0" : 2,
+			"u1" : 2.0,
+
+			"u2sub-sub-sub-block " :  {
+
+				"w" : 1.0,
+				"x" : 1.0,
+				"y" : 1.0,
+				"z" : 1.0,
+			},
+		},
+	},
+
+	"componentsub-block " :  {
+
+		"component type" : "Light",
+		"number" : 103,
+
+		"lightsub-sub-block " :  {
+
+			"u0" : 1,
+			"u1" : 0.30000001192092896,
+
+			"u2sub-sub-sub-block " :  {
+
+				"w" : 1.0,
+				"x" : 0.699999988079071,
+				"y" : 0.699999988079071,
+				"z" : 1.0,
+			},
+		},
+	},
+
+	"componentsub-block " :  {
+
+		"component type" : "Light",
+		"number" : 105,
+
+		"lightsub-sub-block " :  {
+
+			"u0" : 4,
+			"u1" : 0.699999988079071,
+
+			"u2sub-sub-sub-block " :  {
+
+				"w" : 0.0,
+				"x" : 0.0,
+				"y" : 0.0,
+				"z" : 1.0,
+			},
+		},
+	},
+
+	"positionsub-block " :  {
+
+		"x position" : 333.21319580078125,
+		"y position" : 472.45867919921875,
+	},
+	"z position" : 674.1119384765625,
+	"rotation" : 0.0,
+	"scale" : 1.0,
+
+	"u2sub-block " :  {
+
+		"w" : -30.0,
+		"x" : -30.0,
+		"y" : 60.0,
+		"z" : 60.0,
+	},
+	"hidden" : 0,
+},
+
+"objectblock " :  {
+
+	"name" : "npc_healer",
+	"identifier" : "healer",
+
+	"componentsub-block " :  {
+
+		"component type" : "Model",
+		"number" : 101,
+
+		"3D modelsub-sub-block " :  {
+
+			"name" : "npc_healer",
+			"u0" : 2.6179938316345215,
+			"u1" : 0.5,
+			"u2" : 0.0,
+
+			"u3sub-sub-sub-block " :  {
+
+				"w" : 0.0,
+				"x" : 0.0,
+				"y" : 0.0,
+				"z" : 1.0,
+			},
+
+			"u4sub-sub-sub-block " :  {
+
+				"x" : 0.0,
+				"y" : 0.0,
+				"z" : 0.0,
+			},
+			"u5" : 0,
+
+			"u6sub-sub-sub-block " :  {
+
+				"w" : 1.0,
+				"x" : 1.0,
+				"y" : 1.0,
+				"z" : 1.0,
+			},
+		},
+	},
+
+	"positionsub-block " :  {
+
+		"x position" : 138.62838745117188,
+		"y position" : 95.08027648925781,
+	},
+	"z position" : -25.7708740234375,
+	"rotation" : 0.0,
+	"scale" : 1.0,
+
+	"u2sub-block " :  {
+
+		"w" : -30.158405303955078,
+		"x" : -40.0,
+		"y" : 58.810089111328125,
+		"z" : 67.98746490478516,
+	},
+	"hidden" : 0,
+},
+
+"objectblock " :  {
+
+	"identifier" : "obj1",
+
+	"componentsub-block " :  {
+
+		"component type" : "Model",
+		"number" : 101,
+
+		"3D modelsub-sub-block " :  {
+
+			"name" : "shop_pedastal",
+			"u0" : 3.1415927410125732,
+			"u1" : 0.0,
+			"u2" : 0.0,
+
+			"u3sub-sub-sub-block " :  {
+
+				"w" : 0.0,
+				"x" : 0.0,
+				"y" : 0.0,
+				"z" : 1.0,
+			},
+
+			"u4sub-sub-sub-block " :  {
+
+				"x" : 0.0,
+				"y" : 0.0,
+				"z" : 0.0,
+			},
+			"u5" : 0,
+
+			"u6sub-sub-sub-block " :  {
+
+				"w" : 1.0,
+				"x" : 1.0,
+				"y" : 1.0,
+				"z" : 1.0,
+			},
+		},
+	},
+
+	"positionsub-block " :  {
+
+		"x position" : -234.989990234375,
+		"y position" : 60.2171630859375,
+	},
+	"z position" : -74.64070129394531,
+	"rotation" : 0.0,
+	"scale" : 1.0,
+
+	"u2sub-block " :  {
+
+		"w" : -34.17585372924805,
+		"x" : 3.244429588317871,
+		"y" : 58.53529357910156,
+		"z" : 121.26319122314453,
+	},
+	"hidden" : 0,
+},
+
+"objectblock " :  {
+
+	"identifier" : "obj1#2",
+
+	"componentsub-block " :  {
+
+		"component type" : "Model",
+		"number" : 101,
+
+		"3D modelsub-sub-block " :  {
+
+			"name" : "shop_pedastal",
+			"u0" : 3.1415927410125732,
+			"u1" : 0.0,
+			"u2" : 0.0,
+
+			"u3sub-sub-sub-block " :  {
+
+				"w" : 0.0,
+				"x" : 0.0,
+				"y" : 0.0,
+				"z" : 1.0,
+			},
+
+			"u4sub-sub-sub-block " :  {
+
+				"x" : 0.0,
+				"y" : 0.0,
+				"z" : 0.0,
+			},
+			"u5" : 0,
+
+			"u6sub-sub-sub-block " :  {
+
+				"w" : 1.0,
+				"x" : 1.0,
+				"y" : 1.0,
+				"z" : 1.0,
+			},
+		},
+	},
+
+	"positionsub-block " :  {
+
+		"x position" : 68.73486328125,
+		"y position" : -15.689987182617188,
+	},
+	"z position" : -74.64070129394531,
+	"rotation" : 0.0,
+	"scale" : 1.0,
+
+	"u2sub-block " :  {
+
+		"w" : -34.17585372924805,
+		"x" : 3.244429588317871,
+		"y" : 58.53529357910156,
+		"z" : 121.26319122314453,
+	},
+	"hidden" : 0,
+},
+
+"objectblock " :  {
+
+	"identifier" : "obj1#5",
+
+	"componentsub-block " :  {
+
+		"component type" : "Model",
+		"number" : 101,
+
+		"3D modelsub-sub-block " :  {
+
+			"name" : "shop_pedastal",
+			"u0" : 0.0,
+			"u1" : 0.0,
+			"u2" : 0.0,
+
+			"u3sub-sub-sub-block " :  {
+
+				"w" : 0.0,
+				"x" : 0.0,
+				"y" : 0.0,
+				"z" : 1.0,
+			},
+
+			"u4sub-sub-sub-block " :  {
+
+				"x" : 0.0,
+				"y" : 0.0,
+				"z" : 0.0,
+			},
+			"u5" : 0,
+
+			"u6sub-sub-sub-block " :  {
+
+				"w" : 1.0,
+				"x" : 1.0,
+				"y" : 1.0,
+				"z" : 1.0,
+			},
+		},
+	},
+
+	"positionsub-block " :  {
+
+		"x position" : -229.76943969726562,
+		"y position" : 420.85601806640625,
+	},
+	"z position" : 66.75812530517578,
+	"rotation" : 3.143308639526367,
+	"scale" : 1.0,
+
+	"u2sub-block " :  {
+
+		"w" : -24.35943603515625,
+		"x" : 3.244429588317871,
+		"y" : 58.53528594970703,
+		"z" : 121.26319122314453,
+	},
+	"hidden" : 0,
+},
+
+"objectblock " :  {
+
+	"identifier" : "obj1#6",
+
+	"componentsub-block " :  {
+
+		"component type" : "Model",
+		"number" : 101,
+
+		"3D modelsub-sub-block " :  {
+
+			"name" : "shop_pedastal",
+			"u0" : 0.0,
+			"u1" : 0.0,
+			"u2" : 0.0,
+
+			"u3sub-sub-sub-block " :  {
+
+				"w" : 0.0,
+				"x" : 0.0,
+				"y" : 0.0,
+				"z" : 1.0,
+			},
+
+			"u4sub-sub-sub-block " :  {
+
+				"x" : 0.0,
+				"y" : 0.0,
+				"z" : 0.0,
+			},
+			"u5" : 0,
+
+			"u6sub-sub-sub-block " :  {
+
+				"w" : 1.0,
+				"x" : 1.0,
+				"y" : 1.0,
+				"z" : 1.0,
+			},
+		},
+	},
+
+	"positionsub-block " :  {
+
+		"x position" : 73.95541381835938,
+		"y position" : 344.94891357421875,
+	},
+	"z position" : 66.75812530517578,
+	"rotation" : 3.143308639526367,
+	"scale" : 1.0,
+
+	"u2sub-block " :  {
+
+		"w" : -24.35943603515625,
+		"x" : 3.244429588317871,
+		"y" : 58.53528594970703,
+		"z" : 121.26319122314453,
+	},
+	"hidden" : 0,
+},
+
+"objectblock " :  {
+
+	"name" : "Template 1",
+	"identifier" : "obj14",
+
+	"componentsub-block " :  {
+
+		"component type" : "CollisionShape",
+		"number" : 101,
+
+		"collision shapesub-sub-block " :  {
+
+
+			"u0sub-sub-sub-block " :  {
+
+				"w" : -45.0,
+				"x" : -200.0,
+				"y" : 90.0,
+				"z" : 400.0,
+			},
+		},
+
+		"collision shape 2sub-sub-block " :  {
+
+			"w" : -15.0,
+			"x" : 15.0,
+			"y" : 2,
+			"z" : 1,
+		},
+	},
+
+	"componentsub-block " :  {
+
+		"component type" : "Portal",
+		"number" : 104,
+
+		"portalsub-sub-block " :  {
+
+			"target level" : "florennum_part1",
+			"spawnpoint" : "",
+			"touchable" : 0,
+			"collision shape component" : 101,
+		},
+	},
+
+	"positionsub-block " :  {
+
+		"x position" : -520.8963623046875,
+		"y position" : 208.5292510986328,
+	},
+	"z position" : 0.0,
+	"rotation" : 0.0,
+	"scale" : 1.0,
+
+	"u2sub-block " :  {
+
+		"w" : -45.0,
+		"x" : -200.0,
+		"y" : 90.0,
+		"z" : 400.0,
+	},
+	"hidden" : 0,
+},
+
+"objectblock " :  {
+
+	"identifier" : "obj2",
+
+	"componentsub-block " :  {
+
+		"component type" : "GroundPolygon",
+		"number" : 100,
+
+		"ground polygonsub-sub-block " :  {
+
+
+			"sub-sub-sub-block " :  {
+
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"x" : -856.493896484375,
+					"y" : -665.9594116210938,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"x" : 128.023193359375,
+					"y" : -620.7755126953125,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"x" : 1152.041748046875,
+					"y" : -661.479248046875,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"x" : 1110.00048828125,
+					"y" : 665.9594116210938,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"x" : 35.3670654296875,
+					"y" : 528.6842651367188,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"x" : -850.3056030273438,
+					"y" : 568.693603515625,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"x" : -828.6021118164062,
+					"y" : 119.34304809570312,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"x" : -829.7075805664062,
+					"y" : 0.0397186279296875,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"x" : -653.1134033203125,
+					"y" : 0.392242431640625,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"x" : -652.4718627929688,
+					"y" : 105.92819213867188,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"x" : -375.24322509765625,
+					"y" : 107.98162841796875,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"x" : -373.12237548828125,
+					"y" : 4.8261566162109375,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"x" : -111.83383178710938,
+					"y" : 4.24951171875,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"x" : -110.81745910644531,
+					"y" : -160.80563354492188,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"x" : -340.61456298828125,
+					"y" : -161.73277282714844,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"x" : -340.7044677734375,
+					"y" : -131.1568603515625,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"x" : -373.8843994140625,
+					"y" : -130.7213134765625,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"x" : -374.1207275390625,
+					"y" : -100.34588623046875,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"x" : -1152.041748046875,
+					"y" : -100.25949096679688,
+				},
+				"u0" : 0,
+				"u1" : 1,
+			},
+			"u1" : 1,
+			"u2" : -55.0,
+			"u3" : 55.0,
+			"u4" : "",
+		},
+	},
+
+	"componentsub-block " :  {
+
+		"component type" : "GroundMesh",
+		"number" : 101,
+
+		"ground meshsub-sub-block " :  {
+
+
+			"u0sub-sub-sub-block " :  {
+
+				"w" : -1162.041748046875,
+				"x" : -675.9594116210938,
+				"y" : 2324.08349609375,
+				"z" : 1351.9188232421875,
+			},
+
+			"u1sub-sub-sub-block " :  {
+
+				"u0" : 24,
+				"u1" : 20,
+
+				"u2sub-sub-sub-sub-block " :  {
+
+					"u0" : 4,
+					"u1" : 1,
+					"u2" : 2,
+					"u3" : 0,
+				},
+
+				"u3sub-sub-sub-sub-block " :  {
+
+					"u0" : 7,
+					"u1" : 3,
+					"u2" : 32,
+					"u3" : 0,
+				},
+
+				"u4sub-sub-sub-sub-block " :  {
+
+					"u0" : 7,
+					"u1" : 3,
+					"u2" : 32,
+					"u3" : 12,
+				},
+
+				"u5sub-sub-sub-sub-block " :  {
+
+					"u0" : 7,
+					"u1" : 2,
+					"u2" : 32,
+					"u3" : 24,
+				},
+
+				"u6sub-sub-sub-sub-block " :  {
+
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 1.0,
+						"x" : 1.0,
+						"y" : 1.0,
+						"z" : 1.0,
+					},
+
+					"u1sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 1.0,
+						"x" : 1.0,
+						"y" : 1.0,
+						"z" : 1.0,
+					},
+
+					"u2sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 1.0,
+						"x" : 1.0,
+						"y" : 1.0,
+						"z" : 1.0,
+					},
+					"u3" : 0.0,
+					"u4" : "\\n\\x07ground3\\x10\\x01 \\x01",
+				},
+
+				"u7sub-sub-sub-sub-block " :  {
+
+					"u" : -853.3025512695312,
+					"v" : 503.68426513671875,
+					"w" : -60.0,
+					"x" : 1966.27880859375,
+					"y" : 162.6552734375,
+					"z" : 120.0,
+				},
+				"u8" : ">\\x1f\\x8bD\\xbb\\x95&D\\x00\\x00\\\\\\xc2\\xb7\\xc0\\x01\\xbe\\xc0\\xef}?\\x00\\x00\\x00\\x00\\x00\\x00\\x00?)\\\\\\x8f>>\\x1f\\x8bD\\xbb\\x95&D\\x00\\x00\\\\B\\xb7\\xc0\\x01\\xbe\\xc0\\xef}?\\x00\\x00\\x00\\x00\\x00\\x00\\x00?\\xecQ8?>\\x1f\\x8bD\\xbb\\x15$D\\x00\\x00pB\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\x1f\\x85\\xeb>\\xa4p=?>\\x1f\\x8bD\\xbbU Dff\\\\B\\xb7\\xc0\\x01>\\xc0\\xef}\\xbf\\x00\\x00\\x00\\x80\\xcd\\xcc\\xcc>\"l8?>\\x1f\\x8bD\\xbbU D\\x9a\\x99[\\xc2\\xb7\\xc0\\x01>\\xc0\\xef}\\xbf\\x00\\x00\\x00\\x80\\xcd\\xcc\\xcc>\\x96\\x90\\x8f>>\\x1f\\x8bD\\xbb\\x15$D\\x00\\x00p\\xc2\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\x1f\\x85\\xeb>\\xb8\\x1e\\x85>>\\x1f\\x8bD\\xbb\\x95&D\\x00\\x00\\\\\\xc2\\xb7\\xc0\\x01\\xbe\\xc0\\xef}?\\x00\\x00\\x00\\x00\\x00\\x00\\x00?)\\\\\\x8f>>\\x1f\\x8bD\\xbb\\x95&D\\x00\\x00\\\\B\\xb7\\xc0\\x01\\xbe\\xc0\\xef}?\\x00\\x00\\x00\\x00\\x00\\x00\\x00?\\xecQ8?>\\x1f\\x8bD\\xbb\\x15$D\\x00\\x00pB\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\x00\\x00\\x00?\\xc8\\xc4C?>\\x1f\\x8bD\\xbbU Dff\\\\B\\xb7\\xc0\\x01>\\xc0\\xef}\\xbf\\x00\\x00\\x00\\x80\\x00\\x00\\x00?m\\xedS?\\xe0w\\rB\\xcb+\\x04D\\x00\\x00\\\\\\xc2\\xf6\\xfbJ\\xbdy\\xaf\\x7f?\\x00\\x00\\x00\\x00\\xbb\\xab\\x9a@)\\\\\\x8f>\\xe0w\\rB\\xcb+\\x04D\\x00\\x00\\\\B\\xf6\\xfbJ\\xbdy\\xaf\\x7f?\\x00\\x00\\x00\\x00\\xbb\\xab\\x9a@\\xecQ8?\\xe0w\\rB\\xcb\\xab\\x01D\\x00\\x00pB\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\xff\\xff\\x7f?\\xbb\\xab\\x9a@\\xc8\\xc4C?\\xe0w\\rB\\x96\\xd7\\xfbCff\\\\B\\xf6\\xfbJ=y\\xaf\\x7f\\xbf\\x00\\x00\\x00\\x80\\xbb\\xab\\x9a@m\\xedS?]SU\\xc4\\x0e5\\x0eD\\x00\\x00\\\\\\xc2\\x11\\xd88=<\\xbd\\x7f?\\x00\\x00\\x00\\x00\\x86\\x13\\x06A)\\\\\\x8f>]SU\\xc4\\x0e5\\x0eD\\x00\\x00\\\\B\\x11\\xd88=<\\xbd\\x7f?\\x00\\x00\\x00\\x00\\x86\\x13\\x06A\\xecQ8?]SU\\xc4\\x0e\\xb5\\x0bD\\x00\\x00pB\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\x86\\x13\\x06A\\xc8\\xc4C?]SU\\xc4\\x0e\\xf5\\x07Dff\\\\B\\x11\\xd88\\xbd<\\xbd\\x7f\\xbf\\x00\\x00\\x00\\x80\\x86\\x13\\x06Am\\xedS?]SU\\xc4\\x0e5\\x0eD\\x00\\x00\\\\\\xc2\\x11\\xd88=<\\xbd\\x7f?\\x00\\x00\\x00\\x00\\x86\\x13\\x06A)\\\\\\x8f>]SU\\xc4\\x0e5\\x0eD\\x00\\x00\\\\B\\x11\\xd88=<\\xbd\\x7f?\\x00\\x00\\x00\\x00\\x86\\x13\\x06A\\xecQ8?]SU\\xc4\\x0e\\xb5\\x0bD\\x00\\x00pB\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?]\\xb7\\x06A\\xa4p=?]SU\\xc4\\x0e\\xf5\\x07Dff\\\\B\\x11\\xd88\\xbd<\\xbd\\x7f\\xbf\\x00\\x00\\x00\\x80 \\xad\\x07A\"l8?]SU\\xc4\\x0e\\xf5\\x07D\\x9a\\x99[\\xc2\\x11\\xd88\\xbd<\\xbd\\x7f\\xbf\\x00\\x00\\x00\\x80 \\xad\\x07A\\x96\\x90\\x8f>]SU\\xc4\\x0e\\xb5\\x0bD\\x00\\x00p\\xc2\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?]\\xb7\\x06A\\xb8\\x1e\\x85>",
+				"u9" : "\\x00\\x00\\x04\\x00\\x05\\x00\\x00\\x00\\x03\\x00\\x04\\x00\\x00\\x00\\x01\\x00\\x03\\x00\\x01\\x00\\x02\\x00\\x03\\x00\\x06\\x00\\n\\x00\\x0b\\x00\\x07\\x00\\x06\\x00\\x0b\\x00\\x07\\x00\\x0b\\x00\\x0c\\x00\\x08\\x00\\x07\\x00\\x0c\\x00\\x08\\x00\\x0c\\x00\\r\\x00\\t\\x00\\x08\\x00\\r\\x00\\n\\x00\\x0e\\x00\\x0f\\x00\\x0b\\x00\\n\\x00\\x0f\\x00\\x0b\\x00\\x0f\\x00\\x10\\x00\\x0c\\x00\\x0b\\x00\\x10\\x00\\x0c\\x00\\x10\\x00\\x11\\x00\\r\\x00\\x0c\\x00\\x11\\x00\\x12\\x00\\x17\\x00\\x16\\x00\\x12\\x00\\x16\\x00\\x15\\x00\\x12\\x00\\x15\\x00\\x13\\x00\\x15\\x00\\x14\\x00\\x13\\x00",
+			},
+
+			"u1sub-sub-sub-block " :  {
+
+				"u0" : 30,
+				"u1" : 20,
+
+				"u2sub-sub-sub-sub-block " :  {
+
+					"u0" : 4,
+					"u1" : 1,
+					"u2" : 2,
+					"u3" : 0,
+				},
+
+				"u3sub-sub-sub-sub-block " :  {
+
+					"u0" : 7,
+					"u1" : 3,
+					"u2" : 32,
+					"u3" : 0,
+				},
+
+				"u4sub-sub-sub-sub-block " :  {
+
+					"u0" : 7,
+					"u1" : 3,
+					"u2" : 32,
+					"u3" : 12,
+				},
+
+				"u5sub-sub-sub-sub-block " :  {
+
+					"u0" : 7,
+					"u1" : 2,
+					"u2" : 32,
+					"u3" : 24,
+				},
+
+				"u6sub-sub-sub-sub-block " :  {
+
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 1.0,
+						"x" : 1.0,
+						"y" : 1.0,
+						"z" : 1.0,
+					},
+
+					"u1sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 1.0,
+						"x" : 1.0,
+						"y" : 1.0,
+						"z" : 1.0,
+					},
+
+					"u2sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 1.0,
+						"x" : 1.0,
+						"y" : 1.0,
+						"z" : 1.0,
+					},
+					"u3" : 0.0,
+					"u4" : "\\n\\x07ground3\\x10\\x01 \\x01",
+				},
+
+				"u7sub-sub-sub-sub-block " :  {
+
+					"u" : -373.8843994140625,
+					"v" : -186.73277282714844,
+					"w" : -60.0,
+					"x" : 263.06695556640625,
+					"y" : 56.01145935058594,
+					"z" : 120.0,
+				},
+				"u8" : "\\x8a\\xa2\\xdd\\xc2>\\xce \\xc3\\x00\\x00\\\\\\xc2g4\\x84\\xbby\\xff\\x7f?\\x00\\x00\\x00\\x00\\x86\\x13\\x06A)\\\\\\x8f>\\x8a\\xa2\\xdd\\xc2>\\xce \\xc3\\x00\\x00\\\\Bg4\\x84\\xbby\\xff\\x7f?\\x00\\x00\\x00\\x00\\x86\\x13\\x06A\\xecQ8?\\x8a\\xa2\\xdd\\xc2>\\xce*\\xc3\\x00\\x00pB\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\xff\\xff\\x7f?\\xafo\\x05A\\xa4p=?\\x8a\\xa2\\xdd\\xc2>\\xce9\\xc3ff\\\\Bg4\\x84;y\\xff\\x7f\\xbf\\x00\\x00\\x00\\x80\\xecy\\x04A\"l8?\\x8a\\xa2\\xdd\\xc2>\\xce9\\xc3\\x9a\\x99[\\xc2g4\\x84;y\\xff\\x7f\\xbf\\x00\\x00\\x00\\x80\\xecy\\x04A\\x96\\x90\\x8f>\\x8a\\xa2\\xdd\\xc2>\\xce*\\xc3\\x00\\x00p\\xc2\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\xff\\xff\\x7f?\\xafo\\x05A\\xb8\\x1e\\x85>\\x8a\\xa2\\xdd\\xc2>\\xce \\xc3\\x00\\x00\\\\\\xc2g4\\x84\\xbby\\xff\\x7f?\\x00\\x00\\x00\\x00\\x86\\x13\\x06A)\\\\\\x8f>\\x8a\\xa2\\xdd\\xc2>\\xce \\xc3\\x00\\x00\\\\Bg4\\x84\\xbby\\xff\\x7f?\\x00\\x00\\x00\\x00\\x86\\x13\\x06A\\xecQ8?\\x8a\\xa2\\xdd\\xc2>\\xce*\\xc3\\x00\\x00pB\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\xff\\xff\\x7f?\\x86\\x13\\x06A\\xc8\\xc4C?\\x8a\\xa2\\xdd\\xc2>\\xce9\\xc3ff\\\\Bg4\\x84;y\\xff\\x7f\\xbf\\x00\\x00\\x00\\x80\\x86\\x13\\x06Am\\xedS?\\xaaN\\xaa\\xc3\\x97\\xbb!\\xc3\\x00\\x00\\\\\\xc2g4\\x84\\xbby\\xff\\x7f?\\x00\\x00\\x00\\x00\\x8d\\xc8\\x14A)\\\\\\x8f>\\xaaN\\xaa\\xc3\\x97\\xbb!\\xc3\\x00\\x00\\\\Bg4\\x84\\xbby\\xff\\x7f?\\x00\\x00\\x00\\x00\\x8d\\xc8\\x14A\\xecQ8?\\xaaN\\xaa\\xc3\\x97\\xbb+\\xc3\\x00\\x00pB\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\xff\\xff\\x7f?\\x8d\\xc8\\x14A\\xc8\\xc4C?\\xaaN\\xaa\\xc3\\x97\\xbb:\\xc3ff\\\\Bg4\\x84;y\\xff\\x7f\\xbf\\x00\\x00\\x00\\x80\\x8d\\xc8\\x14Am\\xedS?\\xaaN\\xaa\\xc3\\x97\\xbb!\\xc3\\x00\\x00\\\\\\xc2g4\\x84\\xbby\\xff\\x7f?\\x00\\x00\\x00\\x00\\x8d\\xc8\\x14A)\\\\\\x8f>\\xaaN\\xaa\\xc3\\x97\\xbb!\\xc3\\x00\\x00\\\\Bg4\\x84\\xbby\\xff\\x7f?\\x00\\x00\\x00\\x00\\x8d\\xc8\\x14A\\xecQ8?\\xaaN\\xaa\\xc3\\x97\\xbb+\\xc3\\x00\\x00pB\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\xff\\xff\\x7f?dl\\x15A\\xa4p=?\\xaaN\\xaa\\xc3\\x97\\xbb:\\xc3ff\\\\Bg4\\x84;y\\xff\\x7f\\xbf\\x00\\x00\\x00\\x80\\\'b\\x16A\"l8?\\xaaN\\xaa\\xc3\\x97\\xbb:\\xc3\\x9a\\x99[\\xc2g4\\x84;y\\xff\\x7f\\xbf\\x00\\x00\\x00\\x80\\\'b\\x16A\\x96\\x90\\x8f>\\xaaN\\xaa\\xc3\\x97\\xbb+\\xc3\\x00\\x00p\\xc2\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\xff\\xff\\x7f?dl\\x15A\\xb8\\x1e\\x85>4\\xda\\xa8\\xc3=2\\x03\\xc3\\x00\\x00\\\\\\xc2\\x1e\\rW<[\\xfa\\x7f?\\x00\\x00\\x00\\x00\\x8d\\xc8\\x14A)\\\\\\x8f>4\\xda\\xa8\\xc3=2\\x03\\xc3\\x00\\x00\\\\B\\x1e\\rW<[\\xfa\\x7f?\\x00\\x00\\x00\\x00\\x8d\\xc8\\x14A\\xecQ8?4\\xda\\xa8\\xc3=2\\r\\xc3\\x00\\x00pB\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xb6$\\x14A\\xa4p=?4\\xda\\xa8\\xc3=2\\x1c\\xc3ff\\\\B\\x1e\\rW\\xbc[\\xfa\\x7f\\xbf\\x00\\x00\\x00\\x80\\xf4.\\x13A\"l8?4\\xda\\xa8\\xc3=2\\x1c\\xc3\\x9a\\x99[\\xc2\\x1e\\rW\\xbc[\\xfa\\x7f\\xbf\\x00\\x00\\x00\\x80\\xf4.\\x13A\\x96\\x90\\x8f>4\\xda\\xa8\\xc3=2\\r\\xc3\\x00\\x00p\\xc2\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xb6$\\x14A\\xb8\\x1e\\x85>4\\xda\\xa8\\xc3=2\\x03\\xc3\\x00\\x00\\\\\\xc2\\x1e\\rW<[\\xfa\\x7f?\\x00\\x00\\x00\\x00\\x8d\\xc8\\x14A)\\\\\\x8f>4\\xda\\xa8\\xc3=2\\x03\\xc3\\x00\\x00\\\\B\\x1e\\rW<[\\xfa\\x7f?\\x00\\x00\\x00\\x00\\x8d\\xc8\\x14A\\xecQ8?4\\xf1\\xba\\xc3\\xa8\\xb8\\x02\\xc3\\x00\\x00\\\\\\xc2\\x1e\\rW<[\\xfa\\x7f?\\x00\\x00\\x00\\x008\\xe8\\x16A)\\\\\\x8f>4\\xf1\\xba\\xc3\\xa8\\xb8\\x02\\xc3\\x00\\x00\\\\B\\x1e\\rW<[\\xfa\\x7f?\\x00\\x00\\x00\\x008\\xe8\\x16A\\xecQ8?",
+				"u9" : "\\x00\\x00\\x04\\x00\\x05\\x00\\x00\\x00\\x03\\x00\\x04\\x00\\x00\\x00\\x01\\x00\\x03\\x00\\x01\\x00\\x02\\x00\\x03\\x00\\x06\\x00\\n\\x00\\x0b\\x00\\x07\\x00\\x06\\x00\\x0b\\x00\\x07\\x00\\x0b\\x00\\x0c\\x00\\x08\\x00\\x07\\x00\\x0c\\x00\\x08\\x00\\x0c\\x00\\r\\x00\\t\\x00\\x08\\x00\\r\\x00\\x0e\\x00\\x13\\x00\\x12\\x00\\x0e\\x00\\x12\\x00\\x11\\x00\\x0e\\x00\\x11\\x00\\x0f\\x00\\x11\\x00\\x10\\x00\\x0f\\x00\\x14\\x00\\x18\\x00\\x19\\x00\\x14\\x00\\x17\\x00\\x18\\x00\\x14\\x00\\x15\\x00\\x17\\x00\\x15\\x00\\x16\\x00\\x17\\x00\\x1a\\x00\\x1c\\x00\\x1d\\x00\\x1b\\x00\\x1a\\x00\\x1d\\x00",
+			},
+
+			"u1sub-sub-sub-block " :  {
+
+				"u0" : 30,
+				"u1" : 20,
+
+				"u2sub-sub-sub-sub-block " :  {
+
+					"u0" : 4,
+					"u1" : 1,
+					"u2" : 2,
+					"u3" : 0,
+				},
+
+				"u3sub-sub-sub-sub-block " :  {
+
+					"u0" : 7,
+					"u1" : 3,
+					"u2" : 32,
+					"u3" : 0,
+				},
+
+				"u4sub-sub-sub-sub-block " :  {
+
+					"u0" : 7,
+					"u1" : 3,
+					"u2" : 32,
+					"u3" : 12,
+				},
+
+				"u5sub-sub-sub-sub-block " :  {
+
+					"u0" : 7,
+					"u1" : 2,
+					"u2" : 32,
+					"u3" : 24,
+				},
+
+				"u6sub-sub-sub-sub-block " :  {
+
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 1.0,
+						"x" : 1.0,
+						"y" : 1.0,
+						"z" : 1.0,
+					},
+
+					"u1sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 1.0,
+						"x" : 1.0,
+						"y" : 1.0,
+						"z" : 1.0,
+					},
+
+					"u2sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 1.0,
+						"x" : 1.0,
+						"y" : 1.0,
+						"z" : 1.0,
+					},
+					"u3" : 0.0,
+					"u4" : "\\n\\x07ground3\\x10\\x01 \\x01",
+				},
+
+				"u7sub-sub-sub-sub-block " :  {
+
+					"u" : -1155.041748046875,
+					"v" : -156.1962432861328,
+					"w" : -60.0,
+					"x" : 817.3370361328125,
+					"y" : 55.93708801269531,
+					"z" : 120.0,
+				},
+				"u8" : "4\\xda\\xa8\\xc3=2\\x03\\xc3\\x00\\x00\\\\B\\x1e\\rW<[\\xfa\\x7f?\\x00\\x00\\x00\\x00\\x8d\\xc8\\x14A\\xecQ8?4\\xda\\xa8\\xc3=2\\r\\xc3\\x00\\x00pB\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\x8d\\xc8\\x14A\\xc8\\xc4C?4\\xda\\xa8\\xc3=2\\x1c\\xc3ff\\\\B\\x1e\\rW\\xbc[\\xfa\\x7f\\xbf\\x00\\x00\\x00\\x80\\x8d\\xc8\\x14Am\\xedS?4\\xf1\\xba\\xc3\\xa8\\xb8\\x02\\xc3\\x00\\x00\\\\B\\x1e\\rW<[\\xfa\\x7f?\\x00\\x00\\x00\\x008\\xe8\\x16A\\xecQ8?4\\xf1\\xba\\xc3\\xa8\\xb8\\x0c\\xc3\\x00\\x00pB\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?8\\xe8\\x16A\\xc8\\xc4C?4\\xf1\\xba\\xc3\\xa8\\xb8\\x1b\\xc3ff\\\\B\\x1e\\rW\\xbc[\\xfa\\x7f\\xbf\\x00\\x00\\x00\\x808\\xe8\\x16Am\\xedS?4\\xf1\\xba\\xc3\\xa8\\xb8\\x02\\xc3\\x00\\x00\\\\\\xc2\\x1e\\rW<[\\xfa\\x7f?\\x00\\x00\\x00\\x008\\xe8\\x16A)\\\\\\x8f>4\\xf1\\xba\\xc3\\xa8\\xb8\\x02\\xc3\\x00\\x00\\\\B\\x1e\\rW<[\\xfa\\x7f?\\x00\\x00\\x00\\x008\\xe8\\x16A\\xecQ8?4\\xf1\\xba\\xc3\\xa8\\xb8\\x0c\\xc3\\x00\\x00pB\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\x0f\\x8c\\x17A\\xa4p=?4\\xf1\\xba\\xc3\\xa8\\xb8\\x1b\\xc3ff\\\\B\\x1e\\rW\\xbc[\\xfa\\x7f\\xbf\\x00\\x00\\x00\\x80\\xd2\\x81\\x18A\"l8?4\\xf1\\xba\\xc3\\xa8\\xb8\\x1b\\xc3\\x9a\\x99[\\xc2\\x1e\\rW\\xbc[\\xfa\\x7f\\xbf\\x00\\x00\\x00\\x80\\xd2\\x81\\x18A\\x96\\x90\\x8f>4\\xf1\\xba\\xc3\\xa8\\xb8\\x0c\\xc3\\x00\\x00p\\xc2\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\x0f\\x8c\\x17A\\xb8\\x1e\\x85>t\\x8f\\xb9\\xc3D\\xb1\\xc8\\xc2\\x00\\x00\\\\\\xc2p\\xe8\\xe88\\x00\\x00\\x80?\\x00\\x00\\x00\\x008\\xe8\\x16A)\\\\\\x8f>t\\x8f\\xb9\\xc3D\\xb1\\xc8\\xc2\\x00\\x00\\\\Bp\\xe8\\xe88\\x00\\x00\\x80?\\x00\\x00\\x00\\x008\\xe8\\x16A\\xecQ8?t\\x8f\\xb9\\xc3D\\xb1\\xdc\\xc2\\x00\\x00pB\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?aD\\x16A\\xa4p=?t\\x8f\\xb9\\xc3D\\xb1\\xfa\\xc2ff\\\\Bp\\xe8\\xe8\\xb8\\x00\\x00\\x80\\xbf\\x00\\x00\\x00\\x80\\x9fN\\x15A\"l8?t\\x8f\\xb9\\xc3D\\xb1\\xfa\\xc2\\x9a\\x99[\\xc2p\\xe8\\xe8\\xb8\\x00\\x00\\x80\\xbf\\x00\\x00\\x00\\x80\\x9fN\\x15A\\x96\\x90\\x8f>t\\x8f\\xb9\\xc3D\\xb1\\xdc\\xc2\\x00\\x00p\\xc2\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?aD\\x16A\\xb8\\x1e\\x85>t\\x8f\\xb9\\xc3D\\xb1\\xc8\\xc2\\x00\\x00\\\\\\xc2p\\xe8\\xe88\\x00\\x00\\x80?\\x00\\x00\\x00\\x008\\xe8\\x16A)\\\\\\x8f>t\\x8f\\xb9\\xc3D\\xb1\\xc8\\xc2\\x00\\x00\\\\Bp\\xe8\\xe88\\x00\\x00\\x80?\\x00\\x00\\x00\\x008\\xe8\\x16A\\xecQ8?t\\x8f\\xb9\\xc3D\\xb1\\xdc\\xc2\\x00\\x00pB\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?8\\xe8\\x16A\\xc8\\xc4C?t\\x8f\\xb9\\xc3D\\xb1\\xfa\\xc2ff\\\\Bp\\xe8\\xe8\\xb8\\x00\\x00\\x80\\xbf\\x00\\x00\\x00\\x808\\xe8\\x16Am\\xedS?Va\\x90\\xc4\\xb0\\x84\\xc8\\xc2\\x00\\x00\\\\\\xc2p\\xe8\\xe88\\x00\\x00\\x80?\\x00\\x00\\x00\\x00\\xae\\xb1HA)\\\\\\x8f>Va\\x90\\xc4\\xb0\\x84\\xc8\\xc2\\x00\\x00\\\\Bp\\xe8\\xe88\\x00\\x00\\x80?\\x00\\x00\\x00\\x00\\xae\\xb1HA\\xecQ8?Va\\x90\\xc4\\xb0\\x84\\xdc\\xc2\\x00\\x00pB\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xae\\xb1HA\\xc8\\xc4C?Va\\x90\\xc4\\xb0\\x84\\xfa\\xc2ff\\\\Bp\\xe8\\xe8\\xb8\\x00\\x00\\x80\\xbf\\x00\\x00\\x00\\x80\\xae\\xb1HAm\\xedS?Va\\x90\\xc4\\xb0\\x84\\xc8\\xc2\\x00\\x00\\\\\\xc2p\\xe8\\xe88\\x00\\x00\\x80?\\x00\\x00\\x00\\x00\\xae\\xb1HA)\\\\\\x8f>Va\\x90\\xc4\\xb0\\x84\\xfa\\xc2ff\\\\Bp\\xe8\\xe8\\xb8\\x00\\x00\\x80\\xbf\\x00\\x00\\x00\\x80HKJA\"l8?Va\\x90\\xc4\\xb0\\x84\\xfa\\xc2\\x9a\\x99[\\xc2p\\xe8\\xe8\\xb8\\x00\\x00\\x80\\xbf\\x00\\x00\\x00\\x80HKJA\\x96\\x90\\x8f>Va\\x90\\xc4\\xb0\\x84\\xdc\\xc2\\x00\\x00p\\xc2\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\x85UIA\\xb8\\x1e\\x85>",
+				"u9" : "\\x00\\x00\\x03\\x00\\x04\\x00\\x01\\x00\\x00\\x00\\x04\\x00\\x01\\x00\\x04\\x00\\x05\\x00\\x02\\x00\\x01\\x00\\x05\\x00\\x06\\x00\\x0b\\x00\\n\\x00\\x06\\x00\\n\\x00\\t\\x00\\x06\\x00\\t\\x00\\x07\\x00\\t\\x00\\x08\\x00\\x07\\x00\\x0c\\x00\\x10\\x00\\x11\\x00\\x0c\\x00\\x0f\\x00\\x10\\x00\\x0c\\x00\\r\\x00\\x0f\\x00\\r\\x00\\x0e\\x00\\x0f\\x00\\x12\\x00\\x16\\x00\\x17\\x00\\x13\\x00\\x12\\x00\\x17\\x00\\x13\\x00\\x17\\x00\\x18\\x00\\x14\\x00\\x13\\x00\\x18\\x00\\x14\\x00\\x18\\x00\\x19\\x00\\x15\\x00\\x14\\x00\\x19\\x00\\x1a\\x00\\x1d\\x00\\x1c\\x00\\x1a\\x00\\x1c\\x00\\x1b\\x00",
+			},
+
+			"u1sub-sub-sub-block " :  {
+
+				"u0" : 4,
+				"u1" : 2,
+
+				"u2sub-sub-sub-sub-block " :  {
+
+					"u0" : 4,
+					"u1" : 1,
+					"u2" : 2,
+					"u3" : 0,
+				},
+
+				"u3sub-sub-sub-sub-block " :  {
+
+					"u0" : 7,
+					"u1" : 3,
+					"u2" : 32,
+					"u3" : 0,
+				},
+
+				"u4sub-sub-sub-sub-block " :  {
+
+					"u0" : 7,
+					"u1" : 3,
+					"u2" : 32,
+					"u3" : 12,
+				},
+
+				"u5sub-sub-sub-sub-block " :  {
+
+					"u0" : 7,
+					"u1" : 2,
+					"u2" : 32,
+					"u3" : 24,
+				},
+
+				"u6sub-sub-sub-sub-block " :  {
+
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 1.0,
+						"x" : 1.0,
+						"y" : 1.0,
+						"z" : 1.0,
+					},
+
+					"u1sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 1.0,
+						"x" : 1.0,
+						"y" : 1.0,
+						"z" : 1.0,
+					},
+
+					"u2sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 1.0,
+						"x" : 1.0,
+						"y" : 1.0,
+						"z" : 1.0,
+					},
+					"u3" : 0.0,
+					"u4" : "\\n\\x07ground3\\x10\\x01 \\x01",
+				},
+
+				"u7sub-sub-sub-sub-block " :  {
+
+					"u" : -1155.041748046875,
+					"v" : -125.2591552734375,
+					"w" : -55.0,
+					"x" : 0.0,
+					"y" : 25.0,
+					"z" : 115.0,
+				},
+				"u8" : "Va\\x90\\xc4\\xb0\\x84\\xc8\\xc2\\x00\\x00\\\\\\xc2p\\xe8\\xe88\\x00\\x00\\x80?\\x00\\x00\\x00\\x00\\xae\\xb1HA)\\\\\\x8f>Va\\x90\\xc4\\xb0\\x84\\xc8\\xc2\\x00\\x00\\\\Bp\\xe8\\xe88\\x00\\x00\\x80?\\x00\\x00\\x00\\x00\\xae\\xb1HA\\xecQ8?Va\\x90\\xc4\\xb0\\x84\\xdc\\xc2\\x00\\x00pB\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\x85UIA\\xa4p=?Va\\x90\\xc4\\xb0\\x84\\xfa\\xc2ff\\\\Bp\\xe8\\xe8\\xb8\\x00\\x00\\x80\\xbf\\x00\\x00\\x00\\x80HKJA\"l8?",
+				"u9" : "\\x00\\x00\\x03\\x00\\x01\\x00\\x03\\x00\\x02\\x00\\x01\\x00",
+			},
+
+			"u1sub-sub-sub-block " :  {
+
+				"u0" : 26,
+				"u1" : 20,
+
+				"u2sub-sub-sub-sub-block " :  {
+
+					"u0" : 4,
+					"u1" : 1,
+					"u2" : 2,
+					"u3" : 0,
+				},
+
+				"u3sub-sub-sub-sub-block " :  {
+
+					"u0" : 7,
+					"u1" : 3,
+					"u2" : 32,
+					"u3" : 0,
+				},
+
+				"u4sub-sub-sub-sub-block " :  {
+
+					"u0" : 7,
+					"u1" : 3,
+					"u2" : 32,
+					"u3" : 12,
+				},
+
+				"u5sub-sub-sub-sub-block " :  {
+
+					"u0" : 7,
+					"u1" : 2,
+					"u2" : 32,
+					"u3" : 24,
+				},
+
+				"u6sub-sub-sub-sub-block " :  {
+
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 1.0,
+						"x" : 1.0,
+						"y" : 1.0,
+						"z" : 1.0,
+					},
+
+					"u1sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 1.0,
+						"x" : 1.0,
+						"y" : 1.0,
+						"z" : 1.0,
+					},
+
+					"u2sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 1.0,
+						"x" : 1.0,
+						"y" : 1.0,
+						"z" : 1.0,
+					},
+					"u3" : 0.0,
+					"u4" : "\\n\\x10florennum_ground\\x10\\x01 \\x01",
+				},
+
+				"u7sub-sub-sub-sub-block " :  {
+
+					"u" : -850.3056030273438,
+					"v" : -161.73277282714844,
+					"w" : -50.0,
+					"x" : 739.4881591796875,
+					"y" : 730.4263916015625,
+					"z" : 100.0,
+				},
+				"u8" : "\\x8f\\x93T\\xc4d,\\x0eD\\x00\\x00H\\xc2\\xb1\\xb3\\x7f\\xbf\\xec\\x9aE\\xbd\\x00\\x00\\x00\\x00\\x00\\x00\\x00?\\x9a\\x99\\x99>\\x8f\\x93T\\xc4d,\\x0eD\\x00\\x00HB\\xb1\\xb3\\x7f\\xbf\\xec\\x9aE\\xbd\\x00\\x00\\x00\\x00\\x00\\x00\\x00?333?\\x89&O\\xc4\\xa4\\xaf\\xeeB\\x00\\x00H\\xc2\\r\\xd5\\x7f\\xbf\\x13E\\x14\\xbd\\x00\\x00\\x00\\x00\\xf8*\\x13@\\x9a\\x99\\x99>\\x89&O\\xc4\\xa4\\xaf\\xeeB\\x00\\x00HB\\r\\xd5\\x7f\\xbf\\x13E\\x14\\xbd\\x00\\x00\\x00\\x00\\xf8*\\x13@333?ImO\\xc4\\x00\\xb0\"=\\x00\\x00H\\xc2\\xdc\\xa2\\x0f\\xbf;\\xe8S\\xbf\\x00\\x00\\x00\\x00\\xf8\\xb51@\\x9a\\x99\\x99>ImO\\xc4\\x00\\xb0\"=\\x00\\x00HB\\xdc\\xa2\\x0f\\xbf;\\xe8S\\xbf\\x00\\x00\\x00\\x00\\xf8\\xb51@333?BG#\\xc4\\x00\\xd4\\xc8>\\x00\\x00H\\xc27L\\x03?\\xfe\\xc3[\\xbf\\x00\\x00\\x00\\x00E\\xeb^@\\x9a\\x99\\x99>BG#\\xc4\\x00\\xd4\\xc8>\\x00\\x00HB7L\\x03?\\xfe\\xc3[\\xbf\\x00\\x00\\x00\\x00E\\xeb^@333?3\\x1e#\\xc4<\\xdb\\xd3B\\x00\\x00H\\xc2s\\xde\\xb8>\\xce\\xban\\xbf\\x00\\x00\\x00\\x00\\xcd\\xefy@\\x9a\\x99\\x99>3\\x1e#\\xc4<\\xdb\\xd3B\\x00\\x00HBs\\xde\\xb8>\\xce\\xban\\xbf\\x00\\x00\\x00\\x00\\xcd\\xefy@333?\"\\x9f\\xbb\\xc3\\x98\\xf6\\xd7B\\x00\\x00H\\xc2\\x03>\\xae\\xbe7\\xb8p\\xbf\\x00\\x00\\x00\\x00`t\\xa0@\\x9a\\x99\\x99>\"\\x9f\\xbb\\xc3\\x98\\xf6\\xd7B\\x00\\x00HB\\x03>\\xae\\xbe7\\xb8p\\xbf\\x00\\x00\\x00\\x00`t\\xa0@333?\\xaa\\x8f\\xba\\xc3\\xe0o\\x9a@\\x00\\x00H\\xc2\\xfd\\x9a\\xbb\\xbe\\x072n\\xbf\\x00\\x00\\x00\\x00J\\xa9\\xad@\\x9a\\x99\\x99>\\xaa\\x8f\\xba\\xc3\\xe0o\\x9a@\\x00\\x00HB\\xfd\\x9a\\xbb\\xbe\\x072n\\xbf\\x00\\x00\\x00\\x00J\\xa9\\xad@333?\\xec\\xaa\\xdf\\xc2\\x00\\xfc\\x87@\\x00\\x00H\\xc2\\x8e\\xae\\x08\\xbf?uX\\xbf\\x00\\x00\\x00\\x006\\x1b\\xcf@\\x9a\\x99\\x99>\\xec\\xaa\\xdf\\xc2\\x00\\xfc\\x87@\\x00\\x00HB\\x8e\\xae\\x08\\xbf?uX\\xbf\\x00\\x00\\x00\\x006\\x1b\\xcf@333?\\x8a\\xa2\\xdd\\xc2>\\xce \\xc3\\x00\\x00H\\xc2\\xc1\\xfe\\x7f\\xbf1\\xc6\\xc9\\xbb\\x00\\x00\\x00\\x00\\xd7;\\xe4@\\x9a\\x99\\x99>\\x8a\\xa2\\xdd\\xc2>\\xce \\xc3\\x00\\x00HB\\xc1\\xfe\\x7f\\xbf1\\xc6\\xc9\\xbb\\x00\\x00\\x00\\x00\\xd7;\\xe4@333?\\xaaN\\xaa\\xc3\\x97\\xbb!\\xc3\\x00\\x00H\\xc2\\xb9\\xff\\x7f?,\\xb3@;\\x00\\x00\\x00\\x00\\xd7;\\xe4@\\x9a\\x99\\x99>\\xaaN\\xaa\\xc3\\x97\\xbb!\\xc3\\x00\\x00HB\\xb9\\xff\\x7f?,\\xb3@;\\x00\\x00\\x00\\x00\\xd7;\\xe4@333?,Z\\xaa\\xc3((\\x03\\xc3\\x00\\x00H\\xc2\\xb9\\xff\\x7f?,\\xb3@;\\x00\\x00\\x00\\x00\\xc2%\\xe8@\\x9a\\x99\\x99>,Z\\xaa\\xc3((\\x03\\xc3\\x00\\x00HB\\xb9\\xff\\x7f?,\\xb3@;\\x00\\x00\\x00\\x00\\xc2%\\xe8@333?4\\xf1\\xba\\xc3\\xa8\\xb8\\x02\\xc3\\x00\\x00H\\xc2\\x05\\xfe\\x7f?j\\xef\\xfe;\\x00\\x00\\x00\\x00\\xc2%\\xe8@\\x9a\\x99\\x99>4\\xf1\\xba\\xc3\\xa8\\xb8\\x02\\xc3\\x00\\x00HB\\x05\\xfe\\x7f?j\\xef\\xfe;\\x00\\x00\\x00\\x00\\xc2%\\xe8@333?t\\x0f\\xbb\\xc3\\x18\\xb1\\xc8\\xc2\\x00\\x00H\\xc2\\x05\\xfe\\x7f?j\\xef\\xfe;\\x00\\x00\\x00\\x00!\\t\\xec@\\x9a\\x99\\x99>t\\x0f\\xbb\\xc3\\x18\\xb1\\xc8\\xc2\\x00\\x00HB\\x05\\xfe\\x7f?j\\xef\\xfe;\\x00\\x00\\x00\\x00!\\t\\xec@333?",
+				"u9" : "\\x00\\x00\\x02\\x00\\x03\\x00\\x01\\x00\\x00\\x00\\x03\\x00\\x02\\x00\\x04\\x00\\x05\\x00\\x03\\x00\\x02\\x00\\x05\\x00\\x04\\x00\\x06\\x00\\x07\\x00\\x05\\x00\\x04\\x00\\x07\\x00\\x06\\x00\\x08\\x00\\t\\x00\\x07\\x00\\x06\\x00\\t\\x00\\x08\\x00\\n\\x00\\x0b\\x00\\t\\x00\\x08\\x00\\x0b\\x00\\n\\x00\\x0c\\x00\\r\\x00\\x0b\\x00\\n\\x00\\r\\x00\\x0c\\x00\\x0e\\x00\\x0f\\x00\\r\\x00\\x0c\\x00\\x0f\\x00\\x0e\\x00\\x10\\x00\\x11\\x00\\x0f\\x00\\x0e\\x00\\x11\\x00\\x12\\x00\\x14\\x00\\x15\\x00\\x13\\x00\\x12\\x00\\x15\\x00\\x16\\x00\\x18\\x00\\x19\\x00\\x17\\x00\\x16\\x00\\x19\\x00",
+			},
+
+			"u1sub-sub-sub-block " :  {
+
+				"u0" : 10,
+				"u1" : 8,
+
+				"u2sub-sub-sub-sub-block " :  {
+
+					"u0" : 4,
+					"u1" : 1,
+					"u2" : 2,
+					"u3" : 0,
+				},
+
+				"u3sub-sub-sub-sub-block " :  {
+
+					"u0" : 7,
+					"u1" : 3,
+					"u2" : 32,
+					"u3" : 0,
+				},
+
+				"u4sub-sub-sub-sub-block " :  {
+
+					"u0" : 7,
+					"u1" : 3,
+					"u2" : 32,
+					"u3" : 12,
+				},
+
+				"u5sub-sub-sub-sub-block " :  {
+
+					"u0" : 7,
+					"u1" : 2,
+					"u2" : 32,
+					"u3" : 24,
+				},
+
+				"u6sub-sub-sub-sub-block " :  {
+
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 1.0,
+						"x" : 1.0,
+						"y" : 1.0,
+						"z" : 1.0,
+					},
+
+					"u1sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 1.0,
+						"x" : 1.0,
+						"y" : 1.0,
+						"z" : 1.0,
+					},
+
+					"u2sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 1.0,
+						"x" : 1.0,
+						"y" : 1.0,
+						"z" : 1.0,
+					},
+					"u3" : 0.0,
+					"u4" : "\\n\\x10florennum_ground\\x10\\x01 \\x01",
+				},
+
+				"u7sub-sub-sub-sub-block " :  {
+
+					"u" : -1152.041748046875,
+					"v" : -665.9594116210938,
+					"w" : -50.0,
+					"x" : 2304.08349609375,
+					"y" : 1331.9188232421875,
+					"z" : 100.0,
+				},
+				"u8" : "V\\x01\\x90\\xc4\\xdc\\x84\\xc8\\xc2\\x00\\x00H\\xc2`\\xe6b\\xbf\\x06\\x16\\xed\\xbe\\x00\\x00\\x00\\x00!\\t\\xec@\\x9a\\x99\\x99>V\\x01\\x90\\xc4\\xdc\\x84\\xc8\\xc2\\x00\\x00HB`\\xe6b\\xbf\\x06\\x16\\xed\\xbe\\x00\\x00\\x00\\x00!\\t\\xec@333?\\x9c\\x1fV\\xc4g}&\\xc4\\x00\\x00H\\xc2[\\xdc\\xc0\\xbe\\xd0$m\\xbf\\x00\\x00\\x00\\x00\\xad\\xdd\\x1eA\\x9a\\x99\\x99>\\x9c\\x1fV\\xc4g}&\\xc4\\x00\\x00HB[\\xdc\\xc0\\xbe\\xd0$m\\xbf\\x00\\x00\\x00\\x00\\xad\\xdd\\x1eA333?\\xf0\\x05\\x00C\\xa21\\x1b\\xc4\\x00\\x00H\\xc2\\x88.\\x12;\\xd7\\xff\\x7f\\xbf\\x00\\x00\\x00\\x00\\xfc\\xf0]A\\x9a\\x99\\x99>\\xf0\\x05\\x00C\\xa21\\x1b\\xc4\\x00\\x00HB\\x88.\\x12;\\xd7\\xff\\x7f\\xbf\\x00\\x00\\x00\\x00\\xfc\\xf0]A333?V\\x01\\x90D\\xac^%\\xc4\\x00\\x00H\\xc2\\x04\\x82K?\\xd3N\\x1b\\xbf\\x00\\x00\\x00\\x00\\xe0\\xc3\\x8fA\\x9a\\x99\\x99>V\\x01\\x90D\\xac^%\\xc4\\x00\\x00HB\\x04\\x82K?\\xd3N\\x1b\\xbf\\x00\\x00\\x00\\x00\\xe0\\xc3\\x8fA333?\\x04\\xc0\\x8aDg}&D\\x00\\x00H\\xc2)\\xdf\\x7f?\\xc5\\xa8\\x01=\\x00\\x00\\x00\\x00\\xb4C\\xbaA\\x9a\\x99\\x99>\\x04\\xc0\\x8aDg}&D\\x00\\x00HB)\\xdf\\x7f?\\xc5\\xa8\\x01=\\x00\\x00\\x00\\x00\\xb4C\\xbaA333?",
+				"u9" : "\\x00\\x00\\x02\\x00\\x03\\x00\\x01\\x00\\x00\\x00\\x03\\x00\\x02\\x00\\x04\\x00\\x05\\x00\\x03\\x00\\x02\\x00\\x05\\x00\\x04\\x00\\x06\\x00\\x07\\x00\\x05\\x00\\x04\\x00\\x07\\x00\\x06\\x00\\x08\\x00\\t\\x00\\x07\\x00\\x06\\x00\\t\\x00",
+			},
+
+			"u2sub-sub-sub-block " :  {
+
+				"u0" : 51,
+				"u1" : 17,
+
+				"u2sub-sub-sub-sub-block " :  {
+
+					"u0" : 7,
+					"u1" : 3,
+					"u2" : 32,
+					"u3" : 0,
+				},
+
+				"u3sub-sub-sub-sub-block " :  {
+
+					"u0" : 7,
+					"u1" : 3,
+					"u2" : 32,
+					"u3" : 12,
+				},
+
+				"u4sub-sub-sub-sub-block " :  {
+
+					"u0" : 7,
+					"u1" : 2,
+					"u2" : 32,
+					"u3" : 24,
+				},
+
+				"u5sub-sub-sub-sub-block " :  {
+
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 1.0,
+						"x" : 1.0,
+						"y" : 1.0,
+						"z" : 1.0,
+					},
+
+					"u1sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 1.0,
+						"x" : 1.0,
+						"y" : 1.0,
+						"z" : 1.0,
+					},
+
+					"u2sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 1.0,
+						"x" : 1.0,
+						"y" : 1.0,
+						"z" : 1.0,
+					},
+					"u3" : 0.0,
+
+					"u4sub-sub-sub-sub-sub-block " :  {
+
+						"u0" : "florennum_ground",
+						"u1" : 1,
+						"u2" : 1,
+					},
+				},
+
+				"u3sub-sub-sub-sub-block " :  {
+
+					"u" : -1152.041748046875,
+					"v" : -665.9594116210938,
+					"w" : 50.0,
+					"x" : 2304.08349609375,
+					"y" : 1331.9188232421875,
+					"z" : 0.0,
+				},
+				"u7" : "\\x9c\\x1fV\\xc4g}&\\xc4\\x00\\x00HB\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80\\x00\\x00\\x80?/C;\\xc0Q|\\n\\xc0t\\x0f\\xbb\\xc3\\x18\\xb1\\xc8\\xc2\\x00\\x00HB\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80\\x00\\x00\\x80?\\x82\\x19\\x7f\\xbfl\\xf7\\xc9=V\\x01\\x90\\xc4\\xdc\\x84\\xc8\\xc2\\x00\\x00HB\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80\\x00\\x00\\x80?\\x1bv\\x83\\xc0\\x9c\\xac\\xca=\\xf0\\x05\\x00C\\xa21\\x1b\\xc4\\x00\\x00HB\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?B\\x8c\\x81?J\\xd6\\xfd\\xbf\\xe0w\\rB\\xcb+\\x04D\\x00\\x00HB\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?D7$?\\xdaW\\\'@\\x8a\\xa2\\xdd\\xc2>\\xce \\xc3\\x00\\x00HB\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xe0]h=\\xec\\xa8\\x12\\xbe\\xf0\\x05\\x00C\\xa21\\x1b\\xc4\\x00\\x00HB\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?B\\x8c\\x81?J\\xd6\\xfd\\xbf\\x8a\\xa2\\xdd\\xc2>\\xce \\xc3\\x00\\x00HB\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xe0]h=\\xec\\xa8\\x12\\xbe\\xaaN\\xaa\\xc3\\x97\\xbb!\\xc3\\x00\\x00HB\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\x10\\xca\\\\\\xbf\\x1cu\\x16\\xbe\\xaaN\\xaa\\xc3\\x97\\xbb!\\xc3\\x00\\x00HB\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\x10\\xca\\\\\\xbf\\x1cu\\x16\\xbe,Z\\xaa\\xc3((\\x03\\xc3\\x00\\x00HB\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xa2\\xe1\\\\\\xbf\\x80\\xbf\\xc9\\xbc4\\xf1\\xba\\xc3\\xa8\\xb8\\x02\\xc3\\x00\\x00HB\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\x8e\\xdb~\\xbf\\xe0y\\xbb\\xbc\\xf0\\x05\\x00C\\xa21\\x1b\\xc4\\x00\\x00HB\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?B\\x8c\\x81?J\\xd6\\xfd\\xbf\\xaaN\\xaa\\xc3\\x97\\xbb!\\xc3\\x00\\x00HB\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\x10\\xca\\\\\\xbf\\x1cu\\x16\\xbe4\\xf1\\xba\\xc3\\xa8\\xb8\\x02\\xc3\\x00\\x00HB\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\x8e\\xdb~\\xbf\\xe0y\\xbb\\xbc4\\xf1\\xba\\xc3\\xa8\\xb8\\x02\\xc3\\x00\\x00HB\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\x8e\\xdb~\\xbf\\xe0y\\xbb\\xbct\\x0f\\xbb\\xc3\\x18\\xb1\\xc8\\xc2\\x00\\x00HB\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\x82\\x19\\x7f\\xbfl\\xf7\\xc9=\\x9c\\x1fV\\xc4g}&\\xc4\\x00\\x00HB\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?/C;\\xc0Q|\\n\\xc0\\xf0\\x05\\x00C\\xa21\\x1b\\xc4\\x00\\x00HB\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\xff\\xff\\x7f?B\\x8c\\x81?J\\xd6\\xfd\\xbf4\\xf1\\xba\\xc3\\xa8\\xb8\\x02\\xc3\\x00\\x00HB\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\xff\\xff\\x7f?\\x8e\\xdb~\\xbf\\xe0y\\xbb\\xbc\\x9c\\x1fV\\xc4g}&\\xc4\\x00\\x00HB\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\xff\\xff\\x7f?/C;\\xc0Q|\\n\\xc0\\x8f\\x93T\\xc4d,\\x0eD\\x00\\x00HB\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xa1\\xad9\\xc0\\xe7\\x951@\\x89&O\\xc4\\xa4\\xaf\\xeeB\\x00\\x00HB\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?E\\x1f4\\xc0\\x105z?BG#\\xc4\\x00\\xd4\\xc8>\\x00\\x00HB\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?q2\\x07\\xc0\\xd3f\\x00?\\x8f\\x93T\\xc4d,\\x0eD\\x00\\x00HB\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xa1\\xad9\\xc0\\xe7\\x951@BG#\\xc4\\x00\\xd4\\xc8>\\x00\\x00HB\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?q2\\x07\\xc0\\xd3f\\x00?3\\x1e#\\xc4<\\xdb\\xd3B\\x00\\x00HB\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?e\\x08\\x07\\xc0pxl?\\x8f\\x93T\\xc4d,\\x0eD\\x00\\x00HB\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xa1\\xad9\\xc0\\xe7\\x951@3\\x1e#\\xc4<\\xdb\\xd3B\\x00\\x00HB\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?e\\x08\\x07\\xc0pxl?\"\\x9f\\xbb\\xc3\\x98\\xf6\\xd7B\\x00\\x00HB\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xe1\\x1f\\x80\\xbf\\xbc\\x92n?\"\\x9f\\xbb\\xc3\\x98\\xf6\\xd7B\\x00\\x00HB\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xe1\\x1f\\x80\\xbf\\xbc\\x92n?\\xaa\\x8f\\xba\\xc3\\xe0o\\x9a@\\x00\\x00HB\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xca\\x13~\\xbf&\\xf1\\x04?\\xec\\xaa\\xdf\\xc2\\x00\\xfc\\x87@\\x00\\x00HB\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xe8\\xb6W=\\xfcY\\x04?\\x8f\\x93T\\xc4d,\\x0eD\\x00\\x00HB\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xa1\\xad9\\xc0\\xe7\\x951@\"\\x9f\\xbb\\xc3\\x98\\xf6\\xd7B\\x00\\x00HB\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xe1\\x1f\\x80\\xbf\\xbc\\x92n?\\xec\\xaa\\xdf\\xc2\\x00\\xfc\\x87@\\x00\\x00HB\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xe8\\xb6W=\\xfcY\\x04?\\xec\\xaa\\xdf\\xc2\\x00\\xfc\\x87@\\x00\\x00HB\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xe8\\xb6W=\\xfcY\\x04?\\x8a\\xa2\\xdd\\xc2>\\xce \\xc3\\x00\\x00HB\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xe0]h=\\xec\\xa8\\x12\\xbe\\xe0w\\rB\\xcb+\\x04D\\x00\\x00HB\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?D7$?\\xdaW\\\'@\\x8f\\x93T\\xc4d,\\x0eD\\x00\\x00HB\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xa1\\xad9\\xc0\\xe7\\x951@\\xec\\xaa\\xdf\\xc2\\x00\\xfc\\x87@\\x00\\x00HB\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xe8\\xb6W=\\xfcY\\x04?\\xe0w\\rB\\xcb+\\x04D\\x00\\x00HB\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?D7$?\\xdaW\\\'@\\xf0\\x05\\x00C\\xa21\\x1b\\xc4\\x00\\x00HB\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80\\x00\\x00\\x80?B\\x8c\\x81?J\\xd6\\xfd\\xbf\\x04\\xc0\\x8aDg}&D\\x00\\x00HB\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80\\x00\\x00\\x80?\\x7f\\x14\\x9e@Q|J@\\xe0w\\rB\\xcb+\\x04D\\x00\\x00HB\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80\\x00\\x00\\x80?D7$?\\xdaW\\\'@\\xf0\\x05\\x00C\\xa21\\x1b\\xc4\\x00\\x00HB\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x80\\x00\\x00\\x80?B\\x8c\\x81?J\\xd6\\xfd\\xbfV\\x01\\x90D\\xac^%\\xc4\\x00\\x00HB\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x80\\x00\\x00\\x80?\\x1bv\\xa3@\\xb4V\\t\\xc0\\x04\\xc0\\x8aDg}&D\\x00\\x00HB\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x80\\x00\\x00\\x80?\\x7f\\x14\\x9e@Q|J@\\x89&O\\xc4\\xa4\\xaf\\xeeB\\x00\\x00HB\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?E\\x1f4\\xc0\\x105z?ImO\\xc4\\x00\\xb0\"=\\x00\\x00HB\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xb7g4\\xc0i\\n\\x00?BG#\\xc4\\x00\\xd4\\xc8>\\x00\\x00HB\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?q2\\x07\\xc0\\xd3f\\x00?",
+			},
+
+			"u3sub-sub-sub-block " :  {
+
+				"w" : 1.0,
+				"x" : 1.0,
+				"y" : 1.0,
+				"z" : 1.0,
+			},
+		},
+	},
+
+	"componentsub-block " :  {
+
+		"component type" : "GroundMeshGenerator",
+		"number" : 102,
+
+		"ground mesh generatorsub-sub-block " :  {
+
+			"ground polygon" : 100,
+			"ground mesh" : 101,
+			"texture mapping 1" : 103,
+			"texture mapping 2" : 104,
+			"u4" : 0,
+			"u5" : 0.0,
+			"u6" : 1,
+			"u7" : 100.0,
+			"u8" : 25.0,
+			"u9" : 5.0,
+			"u10" : 5.0,
+		},
+	},
+
+	"componentsub-block " :  {
+
+		"component type" : "TextureMapping",
+		"number" : 103,
+
+		"texture mappingsub-sub-block " :  {
+
+			"texture file" : "florennum_ground",
+			"u0" : 250.0,
+
+			"u0sub-sub-sub-block " :  {
+
+				"u1" : 0.0,
+				"u2" : 0.0,
+			},
+		},
+	},
+
+	"componentsub-block " :  {
+
+		"component type" : "TextureMapping",
+		"number" : 104,
+
+		"texture mappingsub-sub-block " :  {
+
+			"texture file" : "ground3",
+			"u0" : 250.0,
+
+			"u0sub-sub-sub-block " :  {
+
+				"u1" : 0.0,
+				"u2" : 0.0,
+			},
+		},
+	},
+
+	"componentsub-block " :  {
+
+		"component type" : "CollisionShape",
+		"number" : 105,
+		"? linked component" : 100,
+
+		"collision shapesub-sub-block " :  {
+
+
+			"u2sub-sub-sub-block " :  {
+
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"y" : -856.493896484375,
+					"z" : -665.9594116210938,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"y" : 128.023193359375,
+					"z" : -620.7755126953125,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"y" : 1152.041748046875,
+					"z" : -661.479248046875,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"y" : 1110.00048828125,
+					"z" : 665.9594116210938,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"y" : 35.3670654296875,
+					"z" : 528.6842651367188,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"y" : -850.3056030273438,
+					"z" : 568.693603515625,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"y" : -828.6021118164062,
+					"z" : 119.34304809570312,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"y" : -829.7075805664062,
+					"z" : 0.0397186279296875,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"y" : -653.1134033203125,
+					"z" : 0.392242431640625,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"y" : -652.4718627929688,
+					"z" : 105.92819213867188,
+				},
+				"u3" : 0,
+				"u4" : 0,
+			},
+		},
+
+		"collision shape 2sub-sub-block " :  {
+
+			"u0" : 1,
+			"w" : -55.0,
+			"x" : 55.0,
+			"z" : 1,
+		},
+	},
+
+	"componentsub-block " :  {
+
+		"component type" : "CollisionShape",
+		"number" : 106,
+		"? linked component" : 100,
+
+		"collision shapesub-sub-block " :  {
+
+
+			"u2sub-sub-sub-block " :  {
+
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"y" : -829.7075805664062,
+					"z" : 0.0397186279296875,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"y" : -653.1134033203125,
+					"z" : 0.392242431640625,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"y" : -652.4718627929688,
+					"z" : 105.92819213867188,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"y" : -375.24322509765625,
+					"z" : 107.98162841796875,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"y" : -373.12237548828125,
+					"z" : 4.8261566162109375,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"y" : -111.83383178710938,
+					"z" : 4.24951171875,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"y" : -110.81745910644531,
+					"z" : -160.80563354492188,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"y" : -340.61456298828125,
+					"z" : -161.73277282714844,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"y" : -340.7044677734375,
+					"z" : -131.1568603515625,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"y" : -373.8843994140625,
+					"z" : -130.7213134765625,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"y" : -374.1207275390625,
+					"z" : -100.34588623046875,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"y" : -1152.041748046875,
+					"z" : -100.25949096679688,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"y" : -856.493896484375,
+					"z" : -665.9594116210938,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"y" : 128.023193359375,
+					"z" : -620.7755126953125,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"y" : 1152.041748046875,
+					"z" : -661.479248046875,
+				},
+				"u3" : 0,
+				"u4" : 0,
+			},
+		},
+
+		"collision shape 2sub-sub-block " :  {
+
+			"u0" : 1,
+			"w" : -55.0,
+			"x" : 55.0,
+			"z" : 1,
+		},
+	},
+
+	"positionsub-block " :  {
+
+		"x position" : 307.61163330078125,
+		"y position" : 219.49380493164062,
+	},
+	"z position" : 0.0,
+	"rotation" : 0.0,
+	"scale" : 1.0,
+
+	"u2sub-block " :  {
+
+		"w" : -1152.041748046875,
+		"x" : -665.9594116210938,
+		"y" : 2304.08349609375,
+		"z" : 1331.9188232421875,
+	},
+	"hidden" : 0,
+},
+
+"objectblock " :  {
+
+	"identifier" : "obj2#2",
+
+	"componentsub-block " :  {
+
+		"component type" : "GroundPolygon",
+		"number" : 100,
+
+		"ground polygonsub-sub-block " :  {
+
+
+			"sub-sub-sub-block " :  {
+
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"x" : -1287.79345703125,
+					"y" : -1430.6282958984375,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"x" : -303.2763671875,
+					"y" : -1385.4444580078125,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"x" : 1563.6116943359375,
+					"y" : -1462.847412109375,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"x" : 1573.0953369140625,
+					"y" : 1462.847412109375,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"x" : -344.407958984375,
+					"y" : 1362.2720947265625,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"x" : -1230.08056640625,
+					"y" : 1402.2813720703125,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"x" : -1249.65576171875,
+					"y" : 9.8604736328125,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"x" : -1250.76123046875,
+					"y" : -109.44287109375,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"x" : -1573.0953369140625,
+					"y" : -209.7420654296875,
+				},
+				"u0" : 0,
+				"u1" : 1,
+			},
+			"u1" : 1,
+			"u2" : -55.0,
+			"u3" : 55.0,
+			"u4" : "",
+		},
+	},
+
+	"componentsub-block " :  {
+
+		"component type" : "GroundMesh",
+		"number" : 101,
+
+		"ground meshsub-sub-block " :  {
+
+
+			"u0sub-sub-sub-block " :  {
+
+				"w" : -1583.0953369140625,
+				"x" : -1472.847412109375,
+				"y" : 3166.1904296875,
+				"z" : 2945.69482421875,
+			},
+
+			"u1sub-sub-sub-block " :  {
+
+				"u0" : 24,
+				"u1" : 20,
+
+				"u2sub-sub-sub-sub-block " :  {
+
+					"u0" : 4,
+					"u1" : 1,
+					"u2" : 2,
+					"u3" : 0,
+				},
+
+				"u3sub-sub-sub-sub-block " :  {
+
+					"u0" : 7,
+					"u1" : 3,
+					"u2" : 32,
+					"u3" : 0,
+				},
+
+				"u4sub-sub-sub-sub-block " :  {
+
+					"u0" : 7,
+					"u1" : 3,
+					"u2" : 32,
+					"u3" : 12,
+				},
+
+				"u5sub-sub-sub-sub-block " :  {
+
+					"u0" : 7,
+					"u1" : 2,
+					"u2" : 32,
+					"u3" : 24,
+				},
+
+				"u6sub-sub-sub-sub-block " :  {
+
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 1.0,
+						"x" : 1.0,
+						"y" : 1.0,
+						"z" : 1.0,
+					},
+
+					"u1sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 1.0,
+						"x" : 1.0,
+						"y" : 1.0,
+						"z" : 1.0,
+					},
+
+					"u2sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 1.0,
+						"x" : 1.0,
+						"y" : 1.0,
+						"z" : 1.0,
+					},
+					"u3" : 0.0,
+					"u4" : "\\n\\x07ground3\\x10\\x01 \\x01",
+				},
+
+				"u7sub-sub-sub-sub-block " :  {
+
+					"u" : -1233.0775146484375,
+					"v" : 1337.2720947265625,
+					"w" : -60.0,
+					"x" : 2809.168701171875,
+					"y" : 125.732421875,
+					"z" : 120.0,
+				},
+				"u8" : "\\xeb\\x02\\xc5D%\\xe0\\xb6D\\x00\\x00\\\\\\xc2\\x8d\\x8bV\\xbd\\t\\xa6\\x7f?\\x00\\x00\\x00\\x00\\x00\\x00\\x00?)\\\\\\x8f>\\xeb\\x02\\xc5D%\\xe0\\xb6D\\x00\\x00\\\\B\\x8d\\x8bV\\xbd\\t\\xa6\\x7f?\\x00\\x00\\x00\\x00\\x00\\x00\\x00?\\xecQ8?\\xeb\\x02\\xc5D%\\xa0\\xb5D\\x00\\x00pB\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\x1f\\x85\\xeb>\\xa4p=?\\xeb\\x02\\xc5D%\\xc0\\xb3Dff\\\\B\\x8d\\x8bV=\\t\\xa6\\x7f\\xbf\\x00\\x00\\x00\\x80\\xcd\\xcc\\xcc>\"l8?\\xeb\\x02\\xc5D%\\xc0\\xb3D\\x9a\\x99[\\xc2\\x8d\\x8bV=\\t\\xa6\\x7f\\xbf\\x00\\x00\\x00\\x80\\xcd\\xcc\\xcc>\\x96\\x90\\x8f>\\xeb\\x02\\xc5D%\\xa0\\xb5D\\x00\\x00p\\xc2\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\x1f\\x85\\xeb>\\xb8\\x1e\\x85>\\xeb\\x02\\xc5D%\\xe0\\xb6D\\x00\\x00\\\\\\xc2\\x8d\\x8bV\\xbd\\t\\xa6\\x7f?\\x00\\x00\\x00\\x00\\x00\\x00\\x00?)\\\\\\x8f>\\xeb\\x02\\xc5D%\\xe0\\xb6D\\x00\\x00\\\\B\\x8d\\x8bV\\xbd\\t\\xa6\\x7f?\\x00\\x00\\x00\\x00\\x00\\x00\\x00?\\xecQ8?\\xeb\\x02\\xc5D%\\xa0\\xb5D\\x00\\x00pB\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\x00\\x00\\x00?\\xc8\\xc4C?\\xeb\\x02\\xc5D%\\xc0\\xb3Dff\\\\B\\x8d\\x8bV=\\t\\xa6\\x7f\\xbf\\x00\\x00\\x00\\x80\\x00\\x00\\x00?m\\xedS?84\\xac\\xc3\\xb5H\\xaaD\\x00\\x00\\\\\\xc2\\xf5\\xf4\\xb0\\xbc\\xb5\\xf0\\x7f?\\x00\\x00\\x00\\x00\\x90\\xe3\\x02A)\\\\\\x8f>84\\xac\\xc3\\xb5H\\xaaD\\x00\\x00\\\\B\\xf5\\xf4\\xb0\\xbc\\xb5\\xf0\\x7f?\\x00\\x00\\x00\\x00\\x90\\xe3\\x02A\\xecQ8?84\\xac\\xc3\\xb5\\x08\\xa9D\\x00\\x00pB\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\x90\\xe3\\x02A\\xc8\\xc4C?84\\xac\\xc3\\xb5(\\xa7Dff\\\\B\\xf5\\xf4\\xb0<\\xb5\\xf0\\x7f\\xbf\\x00\\x00\\x00\\x80\\x90\\xe3\\x02Am\\xedS?{\"\\x9a\\xc4VM\\xafD\\x00\\x00\\\\\\xc2\\x00\\xd88=<\\xbd\\x7f?\\x00\\x00\\x00\\x007\\xa1;A)\\\\\\x8f>{\"\\x9a\\xc4VM\\xafD\\x00\\x00\\\\B\\x00\\xd88=<\\xbd\\x7f?\\x00\\x00\\x00\\x007\\xa1;A\\xecQ8?{\"\\x9a\\xc4V\\r\\xaeD\\x00\\x00pB\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?7\\xa1;A\\xc8\\xc4C?{\"\\x9a\\xc4V-\\xacDff\\\\B\\x00\\xd88\\xbd<\\xbd\\x7f\\xbf\\x00\\x00\\x00\\x807\\xa1;Am\\xedS?{\"\\x9a\\xc4VM\\xafD\\x00\\x00\\\\\\xc2\\x00\\xd88=<\\xbd\\x7f?\\x00\\x00\\x00\\x007\\xa1;A)\\\\\\x8f>{\"\\x9a\\xc4VM\\xafD\\x00\\x00\\\\B\\x00\\xd88=<\\xbd\\x7f?\\x00\\x00\\x00\\x007\\xa1;A\\xecQ8?{\"\\x9a\\xc4V\\r\\xaeD\\x00\\x00pB\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\x0eE<A\\xa4p=?{\"\\x9a\\xc4V-\\xacDff\\\\B\\x00\\xd88\\xbd<\\xbd\\x7f\\xbf\\x00\\x00\\x00\\x80\\xd1:=A\"l8?{\"\\x9a\\xc4V-\\xacD\\x9a\\x99[\\xc2\\x00\\xd88\\xbd<\\xbd\\x7f\\xbf\\x00\\x00\\x00\\x80\\xd1:=A\\x96\\x90\\x8f>{\"\\x9a\\xc4V\\r\\xaeD\\x00\\x00p\\xc2\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\x0eE<A\\xb8\\x1e\\x85>",
+				"u9" : "\\x00\\x00\\x04\\x00\\x05\\x00\\x00\\x00\\x03\\x00\\x04\\x00\\x00\\x00\\x01\\x00\\x03\\x00\\x01\\x00\\x02\\x00\\x03\\x00\\x06\\x00\\n\\x00\\x0b\\x00\\x07\\x00\\x06\\x00\\x0b\\x00\\x07\\x00\\x0b\\x00\\x0c\\x00\\x08\\x00\\x07\\x00\\x0c\\x00\\x08\\x00\\x0c\\x00\\r\\x00\\t\\x00\\x08\\x00\\r\\x00\\n\\x00\\x0e\\x00\\x0f\\x00\\x0b\\x00\\n\\x00\\x0f\\x00\\x0b\\x00\\x0f\\x00\\x10\\x00\\x0c\\x00\\x0b\\x00\\x10\\x00\\x0c\\x00\\x10\\x00\\x11\\x00\\r\\x00\\x0c\\x00\\x11\\x00\\x12\\x00\\x17\\x00\\x16\\x00\\x12\\x00\\x16\\x00\\x15\\x00\\x12\\x00\\x15\\x00\\x13\\x00\\x15\\x00\\x14\\x00\\x13\\x00",
+			},
+
+			"u1sub-sub-sub-block " :  {
+
+				"u0" : 20,
+				"u1" : 14,
+
+				"u2sub-sub-sub-sub-block " :  {
+
+					"u0" : 4,
+					"u1" : 1,
+					"u2" : 2,
+					"u3" : 0,
+				},
+
+				"u3sub-sub-sub-sub-block " :  {
+
+					"u0" : 7,
+					"u1" : 3,
+					"u2" : 32,
+					"u3" : 0,
+				},
+
+				"u4sub-sub-sub-sub-block " :  {
+
+					"u0" : 7,
+					"u1" : 3,
+					"u2" : 32,
+					"u3" : 12,
+				},
+
+				"u5sub-sub-sub-sub-block " :  {
+
+					"u0" : 7,
+					"u1" : 2,
+					"u2" : 32,
+					"u3" : 24,
+				},
+
+				"u6sub-sub-sub-sub-block " :  {
+
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 1.0,
+						"x" : 1.0,
+						"y" : 1.0,
+						"z" : 1.0,
+					},
+
+					"u1sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 1.0,
+						"x" : 1.0,
+						"y" : 1.0,
+						"z" : 1.0,
+					},
+
+					"u2sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 1.0,
+						"x" : 1.0,
+						"y" : 1.0,
+						"z" : 1.0,
+					},
+					"u3" : 0.0,
+					"u4" : "\\n\\x07ground3\\x10\\x01 \\x01",
+				},
+
+				"u7sub-sub-sub-sub-block " :  {
+
+					"u" : -1575.9598388671875,
+					"v" : -235.63340759277344,
+					"w" : -60.0,
+					"x" : 325.1986083984375,
+					"y" : 126.19053649902344,
+					"z" : 120.0,
+				},
+				"u8" : "\\\\X\\x9c\\xc4\\xc0\\xe2\\xda\\xc2\\x00\\x00\\\\\\xc2K\\x1f\\x98\\xbe\\x88pt?\\x00\\x00\\x00\\x007\\xa1;A)\\\\\\x8f>\\\\X\\x9c\\xc4\\xc0\\xe2\\xda\\xc2\\x00\\x00\\\\BK\\x1f\\x98\\xbe\\x88pt?\\x00\\x00\\x00\\x007\\xa1;A\\xecQ8?\\\\X\\x9c\\xc4\\xc0\\xe2\\xee\\xc2\\x00\\x00pB\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?`\\xfd:A\\xa4p=?\\\\X\\x9c\\xc4`q\\x06\\xc3ff\\\\BK\\x1f\\x98>\\x88pt\\xbf\\x00\\x00\\x00\\x80\\x9e\\x07:A\"l8?\\\\X\\x9c\\xc4`q\\x06\\xc3\\x9a\\x99[\\xc2K\\x1f\\x98>\\x88pt\\xbf\\x00\\x00\\x00\\x80\\x9e\\x07:A\\x96\\x90\\x8f>\\\\X\\x9c\\xc4\\xc0\\xe2\\xee\\xc2\\x00\\x00p\\xc2\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?`\\xfd:A\\xb8\\x1e\\x85>\\\\X\\x9c\\xc4\\xc0\\xe2\\xda\\xc2\\x00\\x00\\\\\\xc2K\\x1f\\x98\\xbe\\x88pt?\\x00\\x00\\x00\\x007\\xa1;A)\\\\\\x8f>\\\\X\\x9c\\xc4\\xc0\\xe2\\xda\\xc2\\x00\\x00\\\\BK\\x1f\\x98\\xbe\\x88pt?\\x00\\x00\\x00\\x007\\xa1;A\\xecQ8?\\\\X\\x9c\\xc4\\xc0\\xe2\\xee\\xc2\\x00\\x00pB\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?7\\xa1;A\\xc8\\xc4C?\\\\X\\x9c\\xc4`q\\x06\\xc3ff\\\\BK\\x1f\\x98>\\x88pt\\xbf\\x00\\x00\\x00\\x807\\xa1;Am\\xedS?\\xb7\\xfe\\xc4\\xc4\\\'\\xa2R\\xc3\\x00\\x00\\\\\\xc2K\\x1f\\x98\\xbe\\x88pt?\\x00\\x00\\x00\\x00\\x1a<QA)\\\\\\x8f>\\xb7\\xfe\\xc4\\xc4\\\'\\xa2R\\xc3\\x00\\x00\\\\BK\\x1f\\x98\\xbe\\x88pt?\\x00\\x00\\x00\\x00\\x1a<QA\\xecQ8?\\xb7\\xfe\\xc4\\xc4\\\'\\xa2\\\\\\xc3\\x00\\x00pB\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\x1a<QA\\xc8\\xc4C?\\xb7\\xfe\\xc4\\xc4\\\'\\xa2k\\xc3ff\\\\BK\\x1f\\x98>\\x88pt\\xbf\\x00\\x00\\x00\\x80\\x1a<QAm\\xedS?\\xb7\\xfe\\xc4\\xc4\\\'\\xa2R\\xc3\\x00\\x00\\\\\\xc2K\\x1f\\x98\\xbe\\x88pt?\\x00\\x00\\x00\\x00\\x1a<QA)\\\\\\x8f>\\xb7\\xfe\\xc4\\xc4\\\'\\xa2R\\xc3\\x00\\x00\\\\BK\\x1f\\x98\\xbe\\x88pt?\\x00\\x00\\x00\\x00\\x1a<QA\\xecQ8?\\xb7\\xfe\\xc4\\xc4\\\'\\xa2\\\\\\xc3\\x00\\x00pB\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xf1\\xdfQA\\xa4p=?\\xb7\\xfe\\xc4\\xc4\\\'\\xa2k\\xc3ff\\\\BK\\x1f\\x98>\\x88pt\\xbf\\x00\\x00\\x00\\x80\\xb3\\xd5RA\"l8?\\xb7\\xfe\\xc4\\xc4\\\'\\xa2k\\xc3\\x9a\\x99[\\xc2K\\x1f\\x98>\\x88pt\\xbf\\x00\\x00\\x00\\x80\\xb3\\xd5RA\\x96\\x90\\x8f>\\xb7\\xfe\\xc4\\xc4\\\'\\xa2\\\\\\xc3\\x00\\x00p\\xc2\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xf1\\xdfQA\\xb8\\x1e\\x85>",
+				"u9" : "\\x00\\x00\\x04\\x00\\x05\\x00\\x00\\x00\\x03\\x00\\x04\\x00\\x00\\x00\\x01\\x00\\x03\\x00\\x01\\x00\\x02\\x00\\x03\\x00\\x06\\x00\\n\\x00\\x0b\\x00\\x07\\x00\\x06\\x00\\x0b\\x00\\x07\\x00\\x0b\\x00\\x0c\\x00\\x08\\x00\\x07\\x00\\x0c\\x00\\x08\\x00\\x0c\\x00\\r\\x00\\t\\x00\\x08\\x00\\r\\x00\\x0e\\x00\\x13\\x00\\x12\\x00\\x0e\\x00\\x12\\x00\\x11\\x00\\x0e\\x00\\x11\\x00\\x0f\\x00\\x11\\x00\\x10\\x00\\x0f\\x00",
+			},
+
+			"u1sub-sub-sub-block " :  {
+
+				"u0" : 16,
+				"u1" : 12,
+
+				"u2sub-sub-sub-sub-block " :  {
+
+					"u0" : 4,
+					"u1" : 1,
+					"u2" : 2,
+					"u3" : 0,
+				},
+
+				"u3sub-sub-sub-sub-block " :  {
+
+					"u0" : 7,
+					"u1" : 3,
+					"u2" : 32,
+					"u3" : 0,
+				},
+
+				"u4sub-sub-sub-sub-block " :  {
+
+					"u0" : 7,
+					"u1" : 3,
+					"u2" : 32,
+					"u3" : 12,
+				},
+
+				"u5sub-sub-sub-sub-block " :  {
+
+					"u0" : 7,
+					"u1" : 2,
+					"u2" : 32,
+					"u3" : 24,
+				},
+
+				"u6sub-sub-sub-sub-block " :  {
+
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 1.0,
+						"x" : 1.0,
+						"y" : 1.0,
+						"z" : 1.0,
+					},
+
+					"u1sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 1.0,
+						"x" : 1.0,
+						"y" : 1.0,
+						"z" : 1.0,
+					},
+
+					"u2sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 1.0,
+						"x" : 1.0,
+						"y" : 1.0,
+						"z" : 1.0,
+					},
+					"u3" : 0.0,
+					"u4" : "\\n\\x10florennum_ground\\x10\\x01 \\x01",
+				},
+
+				"u7sub-sub-sub-sub-block " :  {
+
+					"u" : -1573.0953369140625,
+					"v" : -1462.847412109375,
+					"w" : -50.0,
+					"x" : 3146.190673828125,
+					"y" : 2925.69482421875,
+					"z" : 100.0,
+				},
+				"u8" : "\\x94\\xc2\\x99\\xc4\\x01I\\xafD\\x00\\x00H\\xc2\\x86\\xf9\\x7f\\xbfUOf<\\x00\\x00\\x00\\x00\\x00\\x00\\x00?\\x9a\\x99\\x99>\\x94\\xc2\\x99\\xc4\\x01I\\xafD\\x00\\x00HB\\x86\\xf9\\x7f\\xbfUOf<\\x00\\x00\\x00\\x00\\x00\\x00\\x00?333?\\xfc4\\x9c\\xc4\\x80\\xc4\\x1dA\\x00\\x00H\\xc2\\xdd\\xf9\\x7f\\xbfy\\x1d`<\\x00\\x00\\x00\\x00[?\\xc2@\\x9a\\x99\\x99>\\xfc4\\x9c\\xc4\\x80\\xc4\\x1dA\\x00\\x00HB\\xdd\\xf9\\x7f\\xbfy\\x1d`<\\x00\\x00\\x00\\x00[?\\xc2@333?\\\\X\\x9c\\xc4\\xc0\\xe2\\xda\\xc2\\x00\\x00H\\xc20\\xfd\\x7f\\xbf\\xe4\\xce\\x17<\\x00\\x00\\x00\\x00\\xdb\\x84\\xd1@\\x9a\\x99\\x99>\\\\X\\x9c\\xc4\\xc0\\xe2\\xda\\xc2\\x00\\x00HB0\\xfd\\x7f\\xbf\\xe4\\xce\\x17<\\x00\\x00\\x00\\x00\\xdb\\x84\\xd1@333?\\r\\xa3\\xc4\\xc4\\xf8\\xbdQ\\xc3\\x00\\x00H\\xc2\\xb2Hy\\xbf\\xd4\\x03i\\xbe\\x00\\x00\\x00\\x00\\xdb\\x84\\xd1@\\x9a\\x99\\x99>\\r\\xa3\\xc4\\xc4\\xf8\\xbdQ\\xc3\\x00\\x00HB\\xb2Hy\\xbf\\xd4\\x03i\\xbe\\x00\\x00\\x00\\x00\\xdb\\x84\\xd1@333?d\\xf9\\xa0\\xc4\\x1b\\xd4\\xb2\\xc4\\x00\\x00H\\xc2\\x8b\\xec-\\xbf\\xcb\\xd8;\\xbf\\x00\\x00\\x00\\x00V\\x009A\\x9a\\x99\\x99>d\\xf9\\xa0\\xc4\\x1b\\xd4\\xb2\\xc4\\x00\\x00HB\\x8b\\xec-\\xbf\\xcb\\xd8;\\xbf\\x00\\x00\\x00\\x00V\\x009A333?`\\xa3\\x97\\xc39.\\xad\\xc4\\x00\\x00H\\xc2\\x04\\x1e9\\xbc\\xd1\\xfb\\x7f\\xbf\\x00\\x00\\x00\\x00\\xa4\\x13xA\\x9a\\x99\\x99>`\\xa3\\x97\\xc39.\\xad\\xc4\\x00\\x00HB\\x04\\x1e9\\xbc\\xd1\\xfb\\x7f\\xbf\\x00\\x00\\x00\\x00\\xa4\\x13xA333?\\x93s\\xc3D\\x1e\\xdb\\xb6\\xc4\\x00\\x00H\\xc2\\xde\\xc7U?\\x1f\\xd5\\x0c\\xbf\\x00\\x00\\x00\\x00\\x81\\xd4\\xb7A\\x9a\\x99\\x99>\\x93s\\xc3D\\x1e\\xdb\\xb6\\xc4\\x00\\x00HB\\xde\\xc7U?\\x1f\\xd5\\x0c\\xbf\\x00\\x00\\x00\\x00\\x81\\xd4\\xb7A333?\\r\\xa3\\xc4D\\x1e\\xdb\\xb6D\\x00\\x00H\\xc2\\xa8\\xff\\x7f?\\x14oT\\xbb\\x00\\x00\\x00\\x00\\xf6\\xb9\\nB\\x9a\\x99\\x99>\\r\\xa3\\xc4D\\x1e\\xdb\\xb6D\\x00\\x00HB\\xa8\\xff\\x7f?\\x14oT\\xbb\\x00\\x00\\x00\\x00\\xf6\\xb9\\nB333?",
+				"u9" : "\\x00\\x00\\x02\\x00\\x03\\x00\\x01\\x00\\x00\\x00\\x03\\x00\\x02\\x00\\x04\\x00\\x05\\x00\\x03\\x00\\x02\\x00\\x05\\x00\\x06\\x00\\x08\\x00\\t\\x00\\x07\\x00\\x06\\x00\\t\\x00\\x08\\x00\\n\\x00\\x0b\\x00\\t\\x00\\x08\\x00\\x0b\\x00\\n\\x00\\x0c\\x00\\r\\x00\\x0b\\x00\\n\\x00\\r\\x00\\x0c\\x00\\x0e\\x00\\x0f\\x00\\r\\x00\\x0c\\x00\\x0f\\x00",
+			},
+
+			"u2sub-sub-sub-block " :  {
+
+				"u0" : 21,
+				"u1" : 7,
+
+				"u2sub-sub-sub-sub-block " :  {
+
+					"u0" : 7,
+					"u1" : 3,
+					"u2" : 32,
+					"u3" : 0,
+				},
+
+				"u3sub-sub-sub-sub-block " :  {
+
+					"u0" : 7,
+					"u1" : 3,
+					"u2" : 32,
+					"u3" : 12,
+				},
+
+				"u4sub-sub-sub-sub-block " :  {
+
+					"u0" : 7,
+					"u1" : 2,
+					"u2" : 32,
+					"u3" : 24,
+				},
+
+				"u5sub-sub-sub-sub-block " :  {
+
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 1.0,
+						"x" : 1.0,
+						"y" : 1.0,
+						"z" : 1.0,
+					},
+
+					"u1sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 1.0,
+						"x" : 1.0,
+						"y" : 1.0,
+						"z" : 1.0,
+					},
+
+					"u2sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 1.0,
+						"x" : 1.0,
+						"y" : 1.0,
+						"z" : 1.0,
+					},
+					"u3" : 0.0,
+
+					"u4sub-sub-sub-sub-sub-block " :  {
+
+						"u0" : "florennum_ground",
+						"u1" : 1,
+						"u2" : 1,
+					},
+				},
+
+				"u3sub-sub-sub-sub-block " :  {
+
+					"u" : -1573.0953369140625,
+					"v" : -1462.847412109375,
+					"w" : 50.0,
+					"x" : 3146.1904296875,
+					"y" : 2925.69482421875,
+					"z" : 0.0,
+				},
+				"u7" : "84\\xac\\xc3\\xb5H\\xaaD\\x00\\x00HB\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?z\\xac`\\xbf\\xef^\\xbe@`\\xa3\\x97\\xc39.\\xad\\xc4\\x00\\x00HB\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\x14\\x8e6\\xbf>V\\xa1\\xc0\\x93s\\xc3D\\x1e\\xdb\\xb6\\xc4\\x00\\x00HB\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?n$\\xd8@\\x96>\\xab\\xc084\\xac\\xc3\\xb5H\\xaaD\\x00\\x00HB\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?z\\xac`\\xbf\\xef^\\xbe@\\x93s\\xc3D\\x1e\\xdb\\xb6\\xc4\\x00\\x00HB\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?n$\\xd8@\\x96>\\xab\\xc0\\r\\xa3\\xc4D\\x1e\\xdb\\xb6D\\x00\\x00HB\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?0[\\xd9@\\x96>\\xcb@`\\xa3\\x97\\xc39.\\xad\\xc4\\x00\\x00HB\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\x14\\x8e6\\xbf>V\\xa1\\xc084\\xac\\xc3\\xb5H\\xaaD\\x00\\x00HB\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?z\\xac`\\xbf\\xef^\\xbe@\\x94\\xc2\\x99\\xc4\\x01I\\xafD\\x00\\x00HB\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?Hs\\x8d\\xc0\\xf5}\\xc3@`\\xa3\\x97\\xc39.\\xad\\xc4\\x00\\x00HB\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\x14\\x8e6\\xbf>V\\xa1\\xc0\\x94\\xc2\\x99\\xc4\\x01I\\xafD\\x00\\x00HB\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?Hs\\x8d\\xc0\\xf5}\\xc3@\\xfc4\\x9c\\xc4\\x80\\xc4\\x1dA\\x00\\x00HB\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xb8\\xf4\\x8f\\xc0\\xdd\\x18\\n?`\\xa3\\x97\\xc39.\\xad\\xc4\\x00\\x00HB\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\xff\\xff\\x7f?\\x14\\x8e6\\xbf>V\\xa1\\xc0\\xfc4\\x9c\\xc4\\x80\\xc4\\x1dA\\x00\\x00HB\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\xff\\xff\\x7f?\\xb8\\xf4\\x8f\\xc0\\xdd\\x18\\n?\\\\X\\x9c\\xc4\\xc0\\xe2\\xda\\xc2\\x00\\x00HB\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\xff\\xff\\x7f?\\xf2\\x18\\x90\\xc0P\\xe3~=`\\xa3\\x97\\xc39.\\xad\\xc4\\x00\\x00HB\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\x14\\x8e6\\xbf>V\\xa1\\xc0\\\\X\\x9c\\xc4\\xc0\\xe2\\xda\\xc2\\x00\\x00HB\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xf2\\x18\\x90\\xc0P\\xe3~=d\\xf9\\xa0\\xc4\\x1b\\xd4\\xb2\\xc4\\x00\\x00HB\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?j\\xd6\\x94\\xc0\\xd4\\x1e\\xa7\\xc0\\\\X\\x9c\\xc4\\xc0\\xe2\\xda\\xc2\\x00\\x00HB\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xf2\\x18\\x90\\xc0P\\xe3~=\\r\\xa3\\xc4\\xc4\\xf8\\xbdQ\\xc3\\x00\\x00HB\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?0[\\xb9\\xc0@\\x8d\\xad\\xbed\\xf9\\xa0\\xc4\\x1b\\xd4\\xb2\\xc4\\x00\\x00HB\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?j\\xd6\\x94\\xc0\\xd4\\x1e\\xa7\\xc0",
+			},
+
+			"u3sub-sub-sub-block " :  {
+
+				"w" : 0.12380953133106232,
+				"x" : 0.11428571492433548,
+				"y" : 0.10952380299568176,
+				"z" : 1.0,
+			},
+		},
+	},
+
+	"componentsub-block " :  {
+
+		"component type" : "GroundMeshGenerator",
+		"number" : 102,
+
+		"ground mesh generatorsub-sub-block " :  {
+
+			"ground polygon" : 100,
+			"ground mesh" : 101,
+			"texture mapping 1" : 103,
+			"texture mapping 2" : 104,
+			"u4" : 0,
+			"u5" : 0.0,
+			"u6" : 1,
+			"u7" : 100.0,
+			"u8" : 25.0,
+			"u9" : 5.0,
+			"u10" : 5.0,
+		},
+	},
+
+	"componentsub-block " :  {
+
+		"component type" : "TextureMapping",
+		"number" : 103,
+
+		"texture mappingsub-sub-block " :  {
+
+			"texture file" : "florennum_ground",
+			"u0" : 250.0,
+
+			"u0sub-sub-sub-block " :  {
+
+				"u1" : 0.0,
+				"u2" : 0.0,
+			},
+		},
+	},
+
+	"componentsub-block " :  {
+
+		"component type" : "TextureMapping",
+		"number" : 104,
+
+		"texture mappingsub-sub-block " :  {
+
+			"texture file" : "ground3",
+			"u0" : 250.0,
+
+			"u0sub-sub-sub-block " :  {
+
+				"u1" : 0.0,
+				"u2" : 0.0,
+			},
+		},
+	},
+
+	"componentsub-block " :  {
+
+		"component type" : "CollisionShape",
+		"number" : 105,
+		"? linked component" : 100,
+
+		"collision shapesub-sub-block " :  {
+
+
+			"u2sub-sub-sub-block " :  {
+
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"y" : -1287.79345703125,
+					"z" : -1430.6282958984375,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"y" : -303.2763671875,
+					"z" : -1385.4444580078125,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"y" : 1563.6116943359375,
+					"z" : -1462.847412109375,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"y" : 1573.0953369140625,
+					"z" : 1462.847412109375,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"y" : -344.407958984375,
+					"z" : 1362.2720947265625,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"y" : -1230.08056640625,
+					"z" : 1402.2813720703125,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"y" : -1249.65576171875,
+					"z" : 9.8604736328125,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"y" : -1250.76123046875,
+					"z" : -109.44287109375,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"y" : -1573.0953369140625,
+					"z" : -209.7420654296875,
+				},
+				"u3" : 0,
+				"u4" : 1,
+			},
+		},
+
+		"collision shape 2sub-sub-block " :  {
+
+			"u0" : 1,
+			"w" : -55.0,
+			"x" : 55.0,
+			"z" : 1,
+		},
+	},
+
+	"positionsub-block " :  {
+
+		"x position" : 250.84857177734375,
+		"y position" : 178.37945556640625,
+	},
+	"z position" : -598.3671875,
+	"rotation" : 0.0,
+	"scale" : 1.0,
+
+	"u2sub-block " :  {
+
+		"w" : -1573.0953369140625,
+		"x" : -1462.847412109375,
+		"y" : 3146.1904296875,
+		"z" : 2925.69482421875,
+	},
+	"hidden" : 0,
+},
+
+"objectblock " :  {
+
+	"identifier" : "obj3",
+
+	"componentsub-block " :  {
+
+		"component type" : "CollisionShape",
+		"number" : 101,
+
+		"collision shapesub-sub-block " :  {
+
+
+			"u0sub-sub-sub-block " :  {
+
+				"w" : -70.0,
+				"x" : -100.0,
+				"y" : 140.0,
+				"z" : 200.0,
+			},
+		},
+
+		"collision shape 2sub-sub-block " :  {
+
+			"w" : -15.0,
+			"x" : 15.0,
+
+			"lua chunksub-sub-sub-block " :  {
+
+				"main chunk" : "chunk >
+
+				=== lua =============
+				local self, target = ...;
+				
+				if target:identifier() == \"hero\" and Health.CurrentHealth(target) < Health.MaxHealth(target) then
+				
+					Game.SetCinematicMode(true, false);
+				
+					self:setHidden(true);
+				
+					Program.Wait(0.5);
+				
+					local healer = Scene.Find(\"healer\");
+				
+					ShowTextBubbles(\"healerBubble\", healer:position() + Vector3.New(0, 40, 0), true, {
+						\"You\'re injured. I can help you.\", 
+					});
+					
+					HideTextBubble(\"healerBubble\");
+				
+					Game.FadeOut();
+					
+					Program.Wait(1.0);
+					Health.SetCurrentHealth(target, Health.MaxHealth(target));
+					Health.SetCurrentMana(target, Health.MaxMana(target));
+					Game.FadeIn();
+						
+					ShowTextBubbles(\"healerBubble\", healer:position() + Vector3.New(0, 40, 0), true, {
+						\"Come see me if you get hurt again.\", 
+					});
+				
+					HideTextBubble(\"healerBubble\");
+				
+					Game.SetCinematicMode(false, true);
+				
+				elseif target:identifier() == \"hero\" then
+					Game.SetCinematicMode(true, false);
+				
+					self:setHidden(true);
+				
+					Program.Wait(0.5);
+				
+					local healer = Scene.Find(\"healer\");
+				
+					ShowTextBubbles(\"healerBubble\", healer:position() + Vector3.New(0, 40, 0), true, {
+						\"If you ever get hurt, come visit me.\", 
+					});
+				
+					Game.FadeOut();
+					
+					Program.Wait(1.0);
+					Health.SetCurrentMana(target, Health.MaxMana(target));
+					Game.FadeIn();
+					HideTextBubble(\"healerBubble\");
+				
+					Game.SetCinematicMode(false, true);
+				end
+				
+
+				=====================",
+				"secondary chunk" : "\\x1bLuaQ\\x00\\x01\\x04\\x04\\x04\\x08\\x00/\\x05\\x00\\x00local self, target = ...;\\r\\n\\r\\nif target:identifier() == \"hero\" and Health.CurrentHealth(target) < Health.MaxHealth(target) then\\r\\n\\r\\n\\tGame.SetCinematicMode(true, false);\\r\\n\\r\\n\\tself:setHidden(true);\\r\\n\\r\\n\\tProgram.Wait(0.5);\\r\\n\\r\\n\\tlocal healer = Scene.Find(\"healer\");\\r\\n\\r\\n\\tShowTextBubbles(\"healerBubble\", healer:position() + Vector3.New(0, 40, 0), true, {\\r\\n\\t\\t\"You\\\'re injured. I can help you.\", \\r\\n\\t});\\r\\n\\t\\r\\n\\tHideTextBubble(\"healerBubble\");\\r\\n\\r\\n\\tGame.FadeOut();\\r\\n\\t\\r\\n\\tProgram.Wait(1.0);\\r\\n\\tHealth.SetCurrentHealth(target, Health.MaxHealth(target));\\r\\n\\tHealth.SetCurrentMana(target, Health.MaxMana(target));\\r\\n\\tGame.FadeIn();\\r\\n\\t\\t\\r\\n\\tShowTextBubbles(\"healerBubble\", healer:position() + Vector3.New(0, 40, 0), true, {\\r\\n\\t\\t\"Come see me if you get hurt again.\", \\r\\n\\t});\\r\\n\\r\\n\\tHideTextBubble(\"healerBubble\");\\r\\n\\r\\n\\tGame.SetCinematicMode(false, true);\\r\\n\\r\\nelseif target:identifier() == \"hero\" then\\r\\n\\tGame.SetCinematicMode(true, false);\\r\\n\\r\\n\\tself:setHidden(true);\\r\\n\\r\\n\\tProgram.Wait(0.5);\\r\\n\\r\\n\\tlocal healer = Scene.Find(\"healer\");\\r\\n\\r\\n\\tShowTextBubbles(\"healerBubble\", healer:position() + Vector3.New(0, 40, 0), true, {\\r\\n\\t\\t\"If you ever get hurt, come visit me.\", \\r\\n\\t});\\r\\n\\r\\n\\tGame.FadeOut();\\r\\n\\t\\r\\n\\tProgram.Wait(1.0);\\r\\n\\tHealth.SetCurrentMana(target, Health.MaxMana(target));\\r\\n\\tGame.FadeIn();\\r\\n\\tHideTextBubble(\"healerBubble\");\\r\\n\\r\\n\\tGame.SetCinematicMode(false, true);\\r\\nend\\r\\n\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x02\\n\\xa4\\x00\\x00\\x00%\\x00\\x80\\x01\\x8b\\x00\\xc0\\x00\\x9c\\x80\\x00\\x01\\x17@@\\x01\\x16\\xc0\\x17\\x80\\x85\\x80\\x00\\x00\\x86\\xc0@\\x01\\xc0\\x00\\x80\\x00\\x9c\\x80\\x00\\x01\\xc5\\x80\\x00\\x00\\xc6\\x00\\xc1\\x01\\x00\\x01\\x80\\x00\\xdc\\x80\\x00\\x01\\x18\\xc0\\x00\\x01\\x16@\\x15\\x80\\x85@\\x01\\x00\\x86\\x80A\\x01\\xc2\\x00\\x80\\x00\\x02\\x01\\x00\\x00\\x9c@\\x80\\x01\\x8b\\xc0A\\x00\\x02\\x01\\x80\\x00\\x9c@\\x80\\x01\\x85\\x00\\x02\\x00\\x86@B\\x01\\xc1\\x80\\x02\\x00\\x9c@\\x00\\x01\\x85\\xc0\\x02\\x00\\x86\\x00C\\x01\\xc1@\\x03\\x00\\x9c\\x80\\x00\\x01\\xc5\\x80\\x03\\x00\\x01\\xc1\\x03\\x00K\\x01D\\x01\\\\\\x81\\x00\\x01\\x85A\\x04\\x00\\x86\\x81D\\x03\\xc1\\xc1\\x04\\x00\\x01\\x02\\x05\\x00A\\xc2\\x04\\x00\\x9c\\x81\\x00\\x02L\\x81\\x81\\x02\\x82\\x01\\x80\\x00\\xca\\x01\\x80\\x00\\x01B\\x05\\x00\\xe2A\\x80\\x00\\xdc@\\x80\\x02\\xc5\\x80\\x05\\x00\\x01\\xc1\\x03\\x00\\xdc@\\x00\\x01\\xc5@\\x01\\x00\\xc6\\xc0\\xc5\\x01\\xdc@\\x80\\x00\\xc5\\x00\\x02\\x00\\xc6@\\xc2\\x01\\x01\\x01\\x06\\x00\\xdc@\\x00\\x01\\xc5\\x80\\x00\\x00\\xc6@\\xc6\\x01\\x00\\x01\\x80\\x00E\\x81\\x00\\x00F\\x01\\xc1\\x02\\x80\\x01\\x80\\x00\\\\\\x01\\x00\\x01\\xdc@\\x00\\x00\\xc5\\x80\\x00\\x00\\xc6\\x80\\xc6\\x01\\x00\\x01\\x80\\x00E\\x81\\x00\\x00F\\xc1\\xc6\\x02\\x80\\x01\\x80\\x00\\\\\\x01\\x00\\x01\\xdc@\\x00\\x00\\xc5@\\x01\\x00\\xc6\\x00\\xc7\\x01\\xdc@\\x80\\x00\\xc5\\x80\\x03\\x00\\x01\\xc1\\x03\\x00K\\x01D\\x01\\\\\\x81\\x00\\x01\\x85A\\x04\\x00\\x86\\x81D\\x03\\xc1\\xc1\\x04\\x00\\x01\\x02\\x05\\x00A\\xc2\\x04\\x00\\x9c\\x81\\x00\\x02L\\x81\\x81\\x02\\x82\\x01\\x80\\x00\\xca\\x01\\x80\\x00\\x01B\\x07\\x00\\xe2A\\x80\\x00\\xdc@\\x80\\x02\\xc5\\x80\\x05\\x00\\x01\\xc1\\x03\\x00\\xdc@\\x00\\x01\\xc5@\\x01\\x00\\xc6\\x80\\xc1\\x01\\x02\\x01\\x00\\x00B\\x01\\x80\\x00\\xdc@\\x80\\x01\\x16@\\x0f\\x80\\x8b\\x00\\xc0\\x00\\x9c\\x80\\x00\\x01\\x17@@\\x01\\x16@\\x0e\\x80\\x85@\\x01\\x00\\x86\\x80A\\x01\\xc2\\x00\\x80\\x00\\x02\\x01\\x00\\x00\\x9c@\\x80\\x01\\x8b\\xc0A\\x00\\x02\\x01\\x80\\x00\\x9c@\\x80\\x01\\x85\\x00\\x02\\x00\\x86@B\\x01\\xc1\\x80\\x02\\x00\\x9c@\\x00\\x01\\x85\\xc0\\x02\\x00\\x86\\x00C\\x01\\xc1@\\x03\\x00\\x9c\\x80\\x00\\x01\\xc5\\x80\\x03\\x00\\x01\\xc1\\x03\\x00K\\x01D\\x01\\\\\\x81\\x00\\x01\\x85A\\x04\\x00\\x86\\x81D\\x03\\xc1\\xc1\\x04\\x00\\x01\\x02\\x05\\x00A\\xc2\\x04\\x00\\x9c\\x81\\x00\\x02L\\x81\\x81\\x02\\x82\\x01\\x80\\x00\\xca\\x01\\x80\\x00\\x01\\x82\\x07\\x00\\xe2A\\x80\\x00\\xdc@\\x80\\x02\\xc5@\\x01\\x00\\xc6\\xc0\\xc5\\x01\\xdc@\\x80\\x00\\xc5\\x00\\x02\\x00\\xc6@\\xc2\\x01\\x01\\x01\\x06\\x00\\xdc@\\x00\\x01\\xc5\\x80\\x00\\x00\\xc6\\x80\\xc6\\x01\\x00\\x01\\x80\\x00E\\x81\\x00\\x00F\\xc1\\xc6\\x02\\x80\\x01\\x80\\x00\\\\\\x01\\x00\\x01\\xdc@\\x00\\x00\\xc5@\\x01\\x00\\xc6\\x00\\xc7\\x01\\xdc@\\x80\\x00\\xc5\\x80\\x05\\x00\\x01\\xc1\\x03\\x00\\xdc@\\x00\\x01\\xc5@\\x01\\x00\\xc6\\x80\\xc1\\x01\\x02\\x01\\x00\\x00B\\x01\\x80\\x00\\xdc@\\x80\\x01\\x1e\\x00\\x80\\x00\\x1f\\x00\\x00\\x00\\x04\\x0b\\x00\\x00\\x00identifier\\x00\\x04\\x05\\x00\\x00\\x00hero\\x00\\x04\\x07\\x00\\x00\\x00Health\\x00\\x04\\x0e\\x00\\x00\\x00CurrentHealth\\x00\\x04\\n\\x00\\x00\\x00MaxHealth\\x00\\x04\\x05\\x00\\x00\\x00Game\\x00\\x04\\x11\\x00\\x00\\x00SetCinematicMode\\x00\\x04\\n\\x00\\x00\\x00setHidden\\x00\\x04\\x08\\x00\\x00\\x00Program\\x00\\x04\\x05\\x00\\x00\\x00Wait\\x00\\x03\\x00\\x00\\x00\\x00\\x00\\x00\\xe0?\\x04\\x06\\x00\\x00\\x00Scene\\x00\\x04\\x05\\x00\\x00\\x00Find\\x00\\x04\\x07\\x00\\x00\\x00healer\\x00\\x04\\x10\\x00\\x00\\x00ShowTextBubbles\\x00\\x04\\r\\x00\\x00\\x00healerBubble\\x00\\x04\\t\\x00\\x00\\x00position\\x00\\x04\\x08\\x00\\x00\\x00Vector3\\x00\\x04\\x04\\x00\\x00\\x00New\\x00\\x03\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x00\\x00\\x00D@\\x04 \\x00\\x00\\x00You\\\'re injured. I can help you.\\x00\\x04\\x0f\\x00\\x00\\x00HideTextBubble\\x00\\x04\\x08\\x00\\x00\\x00FadeOut\\x00\\x03\\x00\\x00\\x00\\x00\\x00\\x00\\xf0?\\x04\\x11\\x00\\x00\\x00SetCurrentHealth\\x00\\x04\\x0f\\x00\\x00\\x00SetCurrentMana\\x00\\x04\\x08\\x00\\x00\\x00MaxMana\\x00\\x04\\x07\\x00\\x00\\x00FadeIn\\x00\\x04#\\x00\\x00\\x00Come see me if you get hurt again.\\x00\\x04%\\x00\\x00\\x00If you ever get hurt, come visit me.\\x00\\x00\\x00\\x00\\x00\\xa4\\x00\\x00\\x00\\x01\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x07\\x00\\x00\\x00\\x07\\x00\\x00\\x00\\x07\\x00\\x00\\x00\\t\\x00\\x00\\x00\\t\\x00\\x00\\x00\\t\\x00\\x00\\x00\\t\\x00\\x00\\x00\\x0b\\x00\\x00\\x00\\x0b\\x00\\x00\\x00\\x0b\\x00\\x00\\x00\\x0b\\x00\\x00\\x00\\r\\x00\\x00\\x00\\r\\x00\\x00\\x00\\r\\x00\\x00\\x00\\r\\x00\\x00\\x00\\r\\x00\\x00\\x00\\r\\x00\\x00\\x00\\r\\x00\\x00\\x00\\r\\x00\\x00\\x00\\r\\x00\\x00\\x00\\r\\x00\\x00\\x00\\r\\x00\\x00\\x00\\r\\x00\\x00\\x00\\r\\x00\\x00\\x00\\x0f\\x00\\x00\\x00\\x0f\\x00\\x00\\x00\\r\\x00\\x00\\x00\\x11\\x00\\x00\\x00\\x11\\x00\\x00\\x00\\x11\\x00\\x00\\x00\\x13\\x00\\x00\\x00\\x13\\x00\\x00\\x00\\x13\\x00\\x00\\x00\\x15\\x00\\x00\\x00\\x15\\x00\\x00\\x00\\x15\\x00\\x00\\x00\\x15\\x00\\x00\\x00\\x16\\x00\\x00\\x00\\x16\\x00\\x00\\x00\\x16\\x00\\x00\\x00\\x16\\x00\\x00\\x00\\x16\\x00\\x00\\x00\\x16\\x00\\x00\\x00\\x16\\x00\\x00\\x00\\x16\\x00\\x00\\x00\\x17\\x00\\x00\\x00\\x17\\x00\\x00\\x00\\x17\\x00\\x00\\x00\\x17\\x00\\x00\\x00\\x17\\x00\\x00\\x00\\x17\\x00\\x00\\x00\\x17\\x00\\x00\\x00\\x17\\x00\\x00\\x00\\x18\\x00\\x00\\x00\\x18\\x00\\x00\\x00\\x18\\x00\\x00\\x00\\x1a\\x00\\x00\\x00\\x1a\\x00\\x00\\x00\\x1a\\x00\\x00\\x00\\x1a\\x00\\x00\\x00\\x1a\\x00\\x00\\x00\\x1a\\x00\\x00\\x00\\x1a\\x00\\x00\\x00\\x1a\\x00\\x00\\x00\\x1a\\x00\\x00\\x00\\x1a\\x00\\x00\\x00\\x1a\\x00\\x00\\x00\\x1a\\x00\\x00\\x00\\x1a\\x00\\x00\\x00\\x1c\\x00\\x00\\x00\\x1c\\x00\\x00\\x00\\x1a\\x00\\x00\\x00\\x1e\\x00\\x00\\x00\\x1e\\x00\\x00\\x00\\x1e\\x00\\x00\\x00 \\x00\\x00\\x00 \\x00\\x00\\x00 \\x00\\x00\\x00 \\x00\\x00\\x00 \\x00\\x00\\x00 \\x00\\x00\\x00\"\\x00\\x00\\x00\"\\x00\\x00\\x00\"\\x00\\x00\\x00\"\\x00\\x00\\x00#\\x00\\x00\\x00#\\x00\\x00\\x00#\\x00\\x00\\x00#\\x00\\x00\\x00#\\x00\\x00\\x00%\\x00\\x00\\x00%\\x00\\x00\\x00%\\x00\\x00\\x00\\\'\\x00\\x00\\x00\\\'\\x00\\x00\\x00\\\'\\x00\\x00\\x00\\\'\\x00\\x00\\x00)\\x00\\x00\\x00)\\x00\\x00\\x00)\\x00\\x00\\x00)\\x00\\x00\\x00+\\x00\\x00\\x00+\\x00\\x00\\x00+\\x00\\x00\\x00+\\x00\\x00\\x00+\\x00\\x00\\x00+\\x00\\x00\\x00+\\x00\\x00\\x00+\\x00\\x00\\x00+\\x00\\x00\\x00+\\x00\\x00\\x00+\\x00\\x00\\x00+\\x00\\x00\\x00+\\x00\\x00\\x00-\\x00\\x00\\x00-\\x00\\x00\\x00+\\x00\\x00\\x00/\\x00\\x00\\x00/\\x00\\x00\\x00/\\x00\\x00\\x001\\x00\\x00\\x001\\x00\\x00\\x001\\x00\\x00\\x001\\x00\\x00\\x002\\x00\\x00\\x002\\x00\\x00\\x002\\x00\\x00\\x002\\x00\\x00\\x002\\x00\\x00\\x002\\x00\\x00\\x002\\x00\\x00\\x002\\x00\\x00\\x003\\x00\\x00\\x003\\x00\\x00\\x003\\x00\\x00\\x004\\x00\\x00\\x004\\x00\\x00\\x004\\x00\\x00\\x006\\x00\\x00\\x006\\x00\\x00\\x006\\x00\\x00\\x006\\x00\\x00\\x006\\x00\\x00\\x007\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x05\\x00\\x00\\x00self\\x00\\x01\\x00\\x00\\x00\\xa3\\x00\\x00\\x00\\x07\\x00\\x00\\x00target\\x00\\x01\\x00\\x00\\x00\\xa3\\x00\\x00\\x00\\x07\\x00\\x00\\x00healer\\x00\\x1f\\x00\\x00\\x00d\\x00\\x00\\x00\\x07\\x00\\x00\\x00healer\\x00y\\x00\\x00\\x00\\xa3\\x00\\x00\\x00\\x00\\x00\\x00\\x00",
+			},
+			"z" : 1,
+		},
+	},
+
+	"positionsub-block " :  {
+
+		"x position" : 131.9550018310547,
+		"y position" : 157.33346557617188,
+	},
+	"z position" : 0.0,
+	"rotation" : 0.0,
+	"scale" : 1.0,
+
+	"u2sub-block " :  {
+
+		"w" : -70.0,
+		"x" : -100.0,
+		"y" : 140.0,
+		"z" : 200.0,
+	},
+	"hidden" : 0,
+},
+
+"objectblock " :  {
+
+	"name" : "shop_torch",
+	"identifier" : "obj3#6",
+
+	"componentsub-block " :  {
+
+		"component type" : "Model",
+		"number" : 1,
+
+		"3D modelsub-sub-block " :  {
+
+			"name" : "grove_torch",
+			"u0" : 4.71238899230957,
+			"u1" : 0.5,
+			"u2" : 0.0,
+
+			"u3sub-sub-sub-block " :  {
+
+				"w" : 0.0,
+				"x" : 0.0,
+				"y" : 0.0,
+				"z" : 1.0,
+			},
+
+			"u4sub-sub-sub-block " :  {
+
+				"x" : 0.0,
+				"y" : 0.0,
+				"z" : 0.0,
+			},
+			"u5" : 0,
+
+			"u6sub-sub-sub-block " :  {
+
+				"w" : 1.0,
+				"x" : 1.0,
+				"y" : 1.0,
+				"z" : 1.0,
+			},
+		},
+	},
+
+	"positionsub-block " :  {
+
+		"x position" : -234.33160400390625,
+		"y position" : 248.3966827392578,
+	},
+	"z position" : 129.9084930419922,
+	"rotation" : 0.0,
+	"scale" : 1.0,
+
+	"u2sub-block " :  {
+
+		"w" : -50.0,
+		"x" : -50.0,
+		"y" : 100.0,
+		"z" : 131.89849853515625,
+	},
+	"hidden" : 0,
+},
+
+"objectblock " :  {
+
+	"name" : "shop_torch",
+	"identifier" : "obj3#7",
+
+	"componentsub-block " :  {
+
+		"component type" : "Model",
+		"number" : 1,
+
+		"3D modelsub-sub-block " :  {
+
+			"name" : "grove_torch",
+			"u0" : 4.71238899230957,
+			"u1" : 0.5,
+			"u2" : 0.0,
+
+			"u3sub-sub-sub-block " :  {
+
+				"w" : 0.0,
+				"x" : 0.0,
+				"y" : 0.0,
+				"z" : 1.0,
+			},
+
+			"u4sub-sub-sub-block " :  {
+
+				"x" : 0.0,
+				"y" : 0.0,
+				"z" : 0.0,
+			},
+			"u5" : 0,
+
+			"u6sub-sub-sub-block " :  {
+
+				"w" : 1.0,
+				"x" : 1.0,
+				"y" : 1.0,
+				"z" : 1.0,
+			},
+		},
+	},
+
+	"positionsub-block " :  {
+
+		"x position" : 69.39324951171875,
+		"y position" : 172.48953247070312,
+	},
+	"z position" : 129.9084930419922,
+	"rotation" : 0.0,
+	"scale" : 1.0,
+
+	"u2sub-block " :  {
+
+		"w" : -50.0,
+		"x" : -50.0,
+		"y" : 100.0,
+		"z" : 131.89849853515625,
+	},
+	"hidden" : 0,
+},
+
+"objectblock " :  {
+
+	"name" : "Template 1",
+	"identifier" : "obj4#2",
+
+	"componentsub-block " :  {
+
+		"component type" : "Model",
+		"number" : 101,
+
+		"3D modelsub-sub-block " :  {
+
+			"name" : "carpet1",
+			"u0" : 0.0,
+			"u1" : 0.20000000298023224,
+			"u2" : 0.0,
+
+			"u3sub-sub-sub-block " :  {
+
+				"w" : 0.0,
+				"x" : 0.0,
+				"y" : 0.0,
+				"z" : 1.0,
+			},
+
+			"u4sub-sub-sub-block " :  {
+
+				"x" : 0.0,
+				"y" : 0.0,
+				"z" : 0.0,
+			},
+			"u5" : 0,
+
+			"u6sub-sub-sub-block " :  {
+
+				"w" : 1.0,
+				"x" : 1.0,
+				"y" : 1.0,
+				"z" : 1.0,
+			},
+		},
+	},
+
+	"positionsub-block " :  {
+
+		"x position" : -251.9095458984375,
+		"y position" : 118.07052612304688,
+	},
+	"z position" : 0.0,
+	"rotation" : 0.0,
+	"scale" : 1.0,
+
+	"u2sub-block " :  {
+
+		"w" : -128.824951171875,
+		"x" : 0.0,
+		"y" : 258.7838439941406,
+		"z" : 1.204187035560608,
+	},
+	"hidden" : 0,
+},
+
+"objectblock " :  {
+
+	"identifier" : "obj5#3",
+
+	"componentsub-block " :  {
+
+		"component type" : "Sprite",
+		"number" : 101,
+
+		"spritesub-sub-block " :  {
+
+		},
+	},
+
+	"positionsub-block " :  {
+
+		"x position" : -266.9688720703125,
+		"y position" : 216.5774688720703,
+	},
+	"z position" : -73.69035339355469,
+	"rotation" : 0.0,
+	"scale" : 1.0,
+
+	"u2sub-block " :  {
+
+		"w" : -0.0,
+		"x" : -0.0,
+		"y" : 0.0,
+		"z" : 0.0,
+	},
+	"hidden" : 0,
+},
+
+"objectblock " :  {
+
+	"identifier" : "spawn_default",
+
+	"componentsub-block " :  {
+
+		"component type" : "SpawnPoint",
+		"number" : 101,
+
+		"spawnpointsub-sub-block " :  {
+
+			"u0" : 1,
+
+			"u1sub-sub-sub-block " :  {
+
+				"x" : 0.0,
+				"y" : 0.0,
+				"z" : 0.0,
+			},
+		},
+	},
+
+	"positionsub-block " :  {
+
+		"x position" : -405.064697265625,
+		"y position" : 154.61892700195312,
+	},
+	"z position" : -1.1977767944335938,
+	"rotation" : 0.0,
+	"scale" : 1.0,
+
+	"u2sub-block " :  {
+
+		"w" : -30.0,
+		"x" : -30.0,
+		"y" : 60.0,
+		"z" : 60.0,
+	},
+	"hidden" : 0,
+},
+
+"objectblock " :  {
+
+	"identifier" : "spawn_from_florennum_part1",
+
+	"componentsub-block " :  {
+
+		"component type" : "SpawnPoint",
+		"number" : 101,
+
+		"spawnpointsub-sub-block " :  {
+
+			"u0" : 1,
+
+			"u1sub-sub-sub-block " :  {
+
+				"x" : 0.0,
+				"y" : 0.0,
+				"z" : 0.0,
+			},
+		},
+	},
+
+	"positionsub-block " :  {
+
+		"x position" : -403.041259765625,
+		"y position" : 154.82208251953125,
+	},
+	"z position" : -1.1977767944335938,
+	"rotation" : 0.0,
+	"scale" : 1.0,
+
+	"u2sub-block " :  {
+
+		"w" : -30.0,
+		"x" : -30.0,
+		"y" : 60.0,
+		"z" : 60.0,
+	},
+	"hidden" : 0,
+},
+
+"objectblock " :  {
+
+	"identifier" : "text",
+
+	"positionsub-block " :  {
+
+		"x position" : 826.0087890625,
+		"y position" : 466.03125,
+	},
+	"z position" : 0.0,
+	"rotation" : 0.0,
+	"scale" : 1.0,
+
+	"u2sub-block " :  {
+
+		"w" : -30.0,
+		"x" : -30.0,
+		"y" : 60.0,
+		"z" : 60.0,
+	},
+	"hidden" : 1,
+},
+
+"dependenciesblock " :  {
+
+	"name" : "florennum_healerhouse",
+
+	"u0sub-block " :  {
+
+
+		"u0sub-sub-block " :  {
+
+			"name" : "Template 1",
+
+			"u0sub-sub-sub-block " :  {
+
+				"y" : 0.0,
+				"z" : 0.0,
+			},
+			"u1" : 0.0,
+			"u2" : 0.0,
+			"u3" : 1.0,
+
+			"u1sub-sub-sub-block " :  {
+
+				"w" : -10.0,
+				"x" : -10.0,
+				"y" : 20.0,
+				"z" : 20.0,
+			},
+			"u5" : 0,
+		},
+		"u1" : 1.0,
+	},
+	"scl file" : "caves_stuff",
+	"scl file" : "collectibles",
+	"scl file" : "game_common",
+	"scl file" : "lowergrove_stuff",
+	"scl file" : "monsters",
+	"scl file" : "npc",
+	"scl file" : "plains_stuff",
+	"scl file" : "rocks",
+	"scl file" : "towers_stuff",
+	"scl file" : "traps_stuffs",
+	"scl file" : "trash",
+	"scl file" : "woodkeep_stuff",
+},
+
+"u0block " :  {
+
+	"w" : -450.0,
+	"x" : -300.0,
+	"y" : 1450.0,
+	"z" : 1000.0,
+},
+
+"groupblock " :  {
+
+	"name" : "bg_group",
+	"object" : "obj2#2",
+	"u2" : 1,
+},
+
+}

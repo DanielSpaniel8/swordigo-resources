@@ -1,0 +1,1933 @@
+scl file name : weapons (0a @ 1)
+
+?item block { (12 @ a)
+
+
+    ?sub-item sub-block { (0a @ d)
+
+        name : brass_sword (12 @ 10)
+
+        component sub-sub-block { (1a @ 1d)
+
+            component type : WeaponTrail (0a @ 1f)
+            number : 1(10 @ 2c)
+
+            weapon trail sub-sub-sub-block { (ca2 @ 2f)
+
+
+                u0 sub-sub-sub-sub-block { (0a @ 31)
+
+                    w : 1.0 (0d @ 33)
+                    x : 1.0 (15 @ 38)
+                    y : 1.0 (1d @ 3d)
+                    z : 0.0 (25 @ 42)
+				}
+			}
+		}
+
+        component sub-sub-block { (1a @ 47)
+
+            component type : CollisionShape (0a @ 49)
+            number : 2(10 @ 59)
+
+            collision shape sub-sub-sub-block { (3c2 @ 5c)
+
+
+                u0 sub-sub-sub-sub-block { (0a @ 5e)
+
+                    w : 0.0 (0d @ 60)
+                    x : 0.0 (15 @ 65)
+                    y : 0.0 (1d @ 6a)
+                    z : 0.0 (25 @ 6f)
+				}
+			}
+
+            collision shape 2 sub-sub-sub-block { (3ca @ 75)
+
+                u3 : 1(28 @ 77)
+                w : -15.0 (35 @ 79)
+                x : 15.0 (3d @ 7e)
+                z : 1(58 @ 83)
+			}
+		}
+
+        component sub-sub-block { (1a @ 85)
+
+            component type : Damage (0a @ 87)
+            number : 3(10 @ 8f)
+
+            damage sub-sub-sub-block { (3d2 @ 92)
+
+                u0 : 1(08 @ 94)
+                u1 : 1(10 @ 96)
+                u2 : 0(18 @ 98)
+                u5 : 1.0 (35 @ 9a)
+                u6 : 0.0 (3d @ 9f)
+                u7 : 0(40 @ a4)
+                u8 : 1(48 @ a6)
+			}
+		}
+
+        component sub-sub-block { (1a @ a8)
+
+            component type : ParticleEmitter (0a @ aa)
+            number : 4(10 @ bb)
+            name : impact (1a @ bd)
+
+            particle emitter sub-sub-sub-block { (7d2 @ c6)
+
+                particle : 5(10 @ c8)
+                particle : 6(10 @ ca)
+                u1 : 0(18 @ cc)
+                u2 : 30(20 @ ce)
+                u3 : 0(28 @ d0)
+                u4 : 0(30 @ d2)
+                u6 : 0(40 @ d4)
+			}
+		}
+
+        component sub-sub-block { (1a @ d6)
+
+            component type : Particle (0a @ d8)
+            number : 5(10 @ e2)
+
+            particle sub-sub-sub-block { (7da @ e5)
+
+                name : flash_particle (0a @ e7)
+                u0 : 50.0 (15 @ f7)
+			}
+		}
+
+        component sub-sub-block { (1a @ fc)
+
+            component type : Particle (0a @ fe)
+            number : 6(10 @ 108)
+
+            particle sub-sub-sub-block { (7da @ 10b)
+
+                name : spark_particle (0a @ 10d)
+                u0 : 10.0 (15 @ 11d)
+			}
+		}
+
+        component sub-sub-block { (1a @ 122)
+
+            component type : SoundEffect (0a @ 124)
+            number : 7(10 @ 131)
+            name : swing1 (1a @ 133)
+
+            sound effect sub-sub-sub-block { (462 @ 13c)
+
+                sound : sword_swing2 (0a @ 13e)
+                u0 : 0.0 (15 @ 14c)
+                u1 : 1.0 (1d @ 151)
+			}
+		}
+
+        component sub-sub-block { (1a @ 156)
+
+            component type : SoundEffect (0a @ 158)
+            number : 8(10 @ 165)
+            name : impact1 (1a @ 167)
+
+            sound effect sub-sub-sub-block { (462 @ 171)
+
+                sound : sword_impact3 (0a @ 173)
+                u0 : 0.0 (15 @ 182)
+                u1 : 1.0 (1d @ 187)
+			}
+		}
+
+        component sub-sub-block { (1a @ 18c)
+
+            component type : WeaponGlow (0a @ 18e)
+            number : 10(10 @ 19a)
+
+            weapon glow sub-sub-sub-block { (c9a @ 19d)
+
+                u0 : 12(08 @ 19f)
+
+                u1 sub-sub-sub-sub-block { (12 @ 1a1)
+
+                    w : 1.0 (0d @ 1a3)
+                    x : 1.0 (15 @ 1a8)
+                    y : 1.0 (1d @ 1ad)
+                    z : 0.0 (25 @ 1b2)
+				}
+
+                u2 sub-sub-sub-sub-block { (1a @ 1b7)
+
+                    w : 1.0 (0d @ 1b9)
+                    x : 1.0 (15 @ 1be)
+                    y : 1.0 (1d @ 1c3)
+                    z : 0.0 (25 @ 1c8)
+				}
+                u2 : 15.0 (25 @ 1cd)
+			}
+		}
+
+        component sub-sub-block { (1a @ 1d2)
+
+            component type : ParticleEmitter (0a @ 1d4)
+            number : 12(10 @ 1e5)
+            name : glow (1a @ 1e7)
+
+            particle emitter sub-sub-sub-block { (7d2 @ 1ee)
+
+                particle : 13(10 @ 1f0)
+                particle : 14(10 @ 1f2)
+                particle : 15(10 @ 1f4)
+                u1 : 0(18 @ 1f6)
+                u2 : 30(20 @ 1f8)
+                u3 : 0(28 @ 1fa)
+                u4 : 0(30 @ 1fc)
+                u6 : 0(40 @ 1fe)
+			}
+		}
+
+        component sub-sub-block { (1a @ 200)
+
+            component type : Particle (0a @ 202)
+            number : 13(10 @ 20c)
+            name : glow (1a @ 20e)
+
+            particle sub-sub-sub-block { (7da @ 215)
+
+                name : particle_fure_1 (0a @ 217)
+                u0 : 14.0 (15 @ 228)
+			}
+		}
+
+        component sub-sub-block { (1a @ 22d)
+
+            component type : Particle (0a @ 22f)
+            number : 14(10 @ 239)
+            name : glow (1a @ 23b)
+
+            particle sub-sub-sub-block { (7da @ 242)
+
+                name : particle_fure_2 (0a @ 244)
+                u0 : 16.0 (15 @ 255)
+			}
+		}
+
+        component sub-sub-block { (1a @ 25a)
+
+            component type : Particle (0a @ 25c)
+            number : 15(10 @ 266)
+            name : glow (1a @ 268)
+
+            particle sub-sub-sub-block { (7da @ 26f)
+
+                name : particle_fure_3 (0a @ 271)
+                u0 : 14.0 (15 @ 282)
+			}
+		}
+
+        component sub-sub-block { (1a @ 287)
+
+            component type : WeaponTrail (0a @ 289)
+            number : 16(10 @ 296)
+            name : glow (1a @ 298)
+
+            weapon trail sub-sub-sub-block { (ca2 @ 29f)
+
+
+                u0 sub-sub-sub-sub-block { (0a @ 2a1)
+
+                    w : 1.0 (0d @ 2a3)
+                    x : 1.0 (15 @ 2a8)
+                    y : 1.0 (1d @ 2ad)
+                    z : 0.0 (25 @ 2b2)
+				}
+			}
+		}
+
+        component sub-sub-block { (1a @ 2b7)
+
+            component type : Model (0a @ 2b9)
+            number : 101(10 @ 2c0)
+
+            3D model sub-sub-sub-block { (32a @ 2c3)
+
+                name : weapon_ironsword (0a @ 2c5)
+                u0 : 0.0 (15 @ 2d7)
+                u1 : 1.0 (1d @ 2dc)
+                u2 : 0.0 (25 @ 2e1)
+
+                u3 sub-sub-sub-sub-block { (2a @ 2e6)
+
+                    w : 0.0 (0d @ 2e8)
+                    x : 0.0 (15 @ 2ed)
+                    y : 0.0 (1d @ 2f2)
+                    z : 1.0 (25 @ 2f7)
+				}
+
+                u4 sub-sub-sub-sub-block { (32 @ 2fc)
+
+                    x : 0.0 (0d @ 2fe)
+                    y : 0.0 (15 @ 303)
+                    z : 0.0 (1d @ 308)
+				}
+                u5 : 0(38 @ 30d)
+
+                u6 sub-sub-sub-sub-block { (42 @ 30f)
+
+                    w : 1.0 (0d @ 311)
+                    x : 1.0 (15 @ 316)
+                    y : 1.0 (1d @ 31b)
+                    z : 1.0 (25 @ 320)
+				}
+			}
+		}
+
+        component sub-sub-block { (1a @ 325)
+
+            component type : SwingableWeapon (0a @ 327)
+            number : 103(10 @ 338)
+
+            swingable weapon sub-sub-sub-block { (c82 @ 33b)
+
+                linked model component number : 101(08 @ 33d)
+                u1 : 1(10 @ 33f)
+                u2 : 4(20 @ 341)
+                u3 : 7(28 @ 343)
+                u4 : 8(30 @ 345)
+                u5 : 16(38 @ 347)
+                u6 : 2(40 @ 349)
+                u7 : 10(48 @ 34b)
+                w : 50.0 (55 @ 34d)
+                x : 65.0 (5d @ 352)
+                y : 0.0 (65 @ 357)
+                z : 10.0 (6d @ 35c)
+                u8 : \r\x00\x00\x00?\x15\x00\x00\x00?\x1d\x00\x00\x00?%\x00\x00\x00\x00 (72 @ 361)
+			}
+		}
+
+        position sub-sub-block { (22 @ 377)
+
+            x position : 0.0 (0d @ 379)
+            y position : 0.0 (15 @ 37e)
+		}
+        z position : 0.0 (2d @ 383)
+        rotation : 0.0 (35 @ 388)
+        scale : 1.0 (3d @ 38d)
+
+        u0 sub-sub-block { (42 @ 392)
+
+            w : 0.0 (0d @ 394)
+            x : 0.0 (15 @ 399)
+            y : 0.0 (1d @ 39e)
+            z : 0.0 (25 @ 3a3)
+		}
+        hidden : 0(48 @ 3a8)
+	}
+    u0 : 1.0 (15 @ 3aa)
+}
+
+?item block { (12 @ 3af)
+
+
+    ?sub-item sub-block { (0a @ 3b2)
+
+        name : weapon_brasssword (12 @ 3b5)
+
+        component sub-sub-block { (1a @ 3c8)
+
+            component type : WeaponTrail (0a @ 3ca)
+            number : 1(10 @ 3d7)
+
+            weapon trail sub-sub-sub-block { (ca2 @ 3da)
+
+
+                u0 sub-sub-sub-sub-block { (0a @ 3dc)
+
+                    w : 1.0 (0d @ 3de)
+                    x : 1.0 (15 @ 3e3)
+                    y : 1.0 (1d @ 3e8)
+                    z : 0.0 (25 @ 3ed)
+				}
+			}
+		}
+
+        component sub-sub-block { (1a @ 3f2)
+
+            component type : CollisionShape (0a @ 3f4)
+            number : 2(10 @ 404)
+
+            collision shape sub-sub-sub-block { (3c2 @ 407)
+
+
+                u0 sub-sub-sub-sub-block { (0a @ 409)
+
+                    w : 0.0 (0d @ 40b)
+                    x : 0.0 (15 @ 410)
+                    y : 0.0 (1d @ 415)
+                    z : 0.0 (25 @ 41a)
+				}
+			}
+
+            collision shape 2 sub-sub-sub-block { (3ca @ 420)
+
+                u3 : 1(28 @ 422)
+                w : -15.0 (35 @ 424)
+                x : 15.0 (3d @ 429)
+                y : 5(40 @ 42e)
+                z : 0(58 @ 430)
+			}
+		}
+
+        component sub-sub-block { (1a @ 432)
+
+            component type : Damage (0a @ 434)
+            number : 3(10 @ 43c)
+
+            damage sub-sub-sub-block { (3d2 @ 43f)
+
+                u0 : 1(08 @ 441)
+                u1 : 1(10 @ 443)
+                u2 : 0(18 @ 445)
+                u5 : 1.0 (35 @ 447)
+                u6 : 0.0 (3d @ 44c)
+                u7 : 0(40 @ 451)
+                u8 : 1(48 @ 453)
+			}
+		}
+
+        component sub-sub-block { (1a @ 455)
+
+            component type : Transform (0a @ 457)
+            number : 4(10 @ 462)
+		}
+
+        component sub-sub-block { (1a @ 464)
+
+            component type : SoundEffect (0a @ 466)
+            number : 7(10 @ 473)
+            name : swing1 (1a @ 475)
+
+            sound effect sub-sub-sub-block { (462 @ 47e)
+
+                sound : sword_swing2 (0a @ 480)
+                u0 : 0.0 (15 @ 48e)
+                u1 : 1.0 (1d @ 493)
+			}
+		}
+
+        component sub-sub-block { (1a @ 498)
+
+            component type : SoundEffect (0a @ 49a)
+            number : 8(10 @ 4a7)
+            name : impact1 (1a @ 4a9)
+
+            sound effect sub-sub-sub-block { (462 @ 4b3)
+
+                sound : sword_impact3 (0a @ 4b5)
+                u0 : 0.0 (15 @ 4c4)
+                u1 : 1.0 (1d @ 4c9)
+			}
+		}
+
+        component sub-sub-block { (1a @ 4ce)
+
+            component type : WeaponTrail (0a @ 4d0)
+            number : 16(10 @ 4dd)
+            name : glow (1a @ 4df)
+
+            weapon trail sub-sub-sub-block { (ca2 @ 4e6)
+
+
+                u0 sub-sub-sub-sub-block { (0a @ 4e8)
+
+                    w : 0.5882353186607361 (0d @ 4ea)
+                    x : 0.27450981736183167 (15 @ 4ef)
+                    y : 0.16078431904315948 (1d @ 4f4)
+                    z : 0.0 (25 @ 4f9)
+				}
+			}
+		}
+
+        component sub-sub-block { (1a @ 4fe)
+
+            component type : Model (0a @ 500)
+            number : 101(10 @ 507)
+
+            3D model sub-sub-sub-block { (32a @ 50a)
+
+                name : weapon_ironsword (0a @ 50c)
+                u0 : 0.0 (15 @ 51e)
+                u1 : 1.0 (1d @ 523)
+                u2 : 0.0 (25 @ 528)
+
+                u3 sub-sub-sub-sub-block { (2a @ 52d)
+
+                    w : 0.0 (0d @ 52f)
+                    x : 0.0 (15 @ 534)
+                    y : 0.0 (1d @ 539)
+                    z : 1.0 (25 @ 53e)
+				}
+
+                u4 sub-sub-sub-sub-block { (32 @ 543)
+
+                    x : 0.0 (0d @ 545)
+                    y : 0.0 (15 @ 54a)
+                    z : 0.0 (1d @ 54f)
+				}
+                u5 : 0(38 @ 554)
+
+                u6 sub-sub-sub-sub-block { (42 @ 556)
+
+                    w : 1.0 (0d @ 558)
+                    x : 0.644444465637207 (15 @ 55d)
+                    y : 0.4333333373069763 (1d @ 562)
+                    z : 1.0 (25 @ 567)
+				}
+			}
+		}
+
+        component sub-sub-block { (1a @ 56c)
+
+            component type : SwingableWeapon (0a @ 56e)
+            number : 103(10 @ 57f)
+
+            swingable weapon sub-sub-sub-block { (c82 @ 582)
+
+                linked model component number : 101(08 @ 584)
+                u1 : 1(10 @ 586)
+                u2 : 0(20 @ 588)
+                u3 : 7(28 @ 58a)
+                u4 : 8(30 @ 58c)
+                u5 : 16(38 @ 58e)
+                u6 : 2(40 @ 590)
+                u7 : 0(48 @ 592)
+                w : 55.0 (55 @ 594)
+                x : 55.0 (5d @ 599)
+                y : 1.0 (65 @ 59e)
+                z : 6.0 (6d @ 5a3)
+                u8 : \r\x9b\x83\x17?\x15\xd5E\x8e>\x1d\xf0\xa1'>%\x00\x00\x00\x00 (72 @ 5a8)
+			}
+		}
+
+        position sub-sub-block { (22 @ 5be)
+
+            x position : 0.0 (0d @ 5c0)
+            y position : 0.0 (15 @ 5c5)
+		}
+        z position : 0.0 (2d @ 5ca)
+        rotation : 0.0 (35 @ 5cf)
+        scale : 1.0 (3d @ 5d4)
+
+        u0 sub-sub-block { (42 @ 5d9)
+
+            w : 0.0 (0d @ 5db)
+            x : 0.0 (15 @ 5e0)
+            y : 0.0 (1d @ 5e5)
+            z : 0.0 (25 @ 5ea)
+		}
+        hidden : 0(48 @ 5ef)
+	}
+    u0 : 0.8500000238418579 (15 @ 5f1)
+}
+
+?item block { (12 @ 5f6)
+
+
+    ?sub-item sub-block { (0a @ 5f9)
+
+        name : weapon_broadsword (12 @ 5fc)
+
+        component sub-sub-block { (1a @ 60f)
+
+            component type : WeaponTrail (0a @ 611)
+            number : 1(10 @ 61e)
+
+            weapon trail sub-sub-sub-block { (ca2 @ 621)
+
+
+                u0 sub-sub-sub-sub-block { (0a @ 623)
+
+                    w : 1.0 (0d @ 625)
+                    x : 1.0 (15 @ 62a)
+                    y : 1.0 (1d @ 62f)
+                    z : 0.0 (25 @ 634)
+				}
+			}
+		}
+
+        component sub-sub-block { (1a @ 639)
+
+            component type : CollisionShape (0a @ 63b)
+            number : 2(10 @ 64b)
+
+            collision shape sub-sub-sub-block { (3c2 @ 64e)
+
+
+                u0 sub-sub-sub-sub-block { (0a @ 650)
+
+                    w : 0.0 (0d @ 652)
+                    x : 0.0 (15 @ 657)
+                    y : 0.0 (1d @ 65c)
+                    z : 0.0 (25 @ 661)
+				}
+			}
+
+            collision shape 2 sub-sub-sub-block { (3ca @ 667)
+
+                u3 : 1(28 @ 669)
+                w : -15.0 (35 @ 66b)
+                x : 15.0 (3d @ 670)
+                y : 5(40 @ 675)
+                z : 1(58 @ 677)
+			}
+		}
+
+        component sub-sub-block { (1a @ 679)
+
+            component type : Damage (0a @ 67b)
+            number : 3(10 @ 683)
+
+            damage sub-sub-sub-block { (3d2 @ 686)
+
+                u0 : 1(08 @ 688)
+                u1 : 1(10 @ 68a)
+                u2 : 0(18 @ 68c)
+                u5 : 1.0 (35 @ 68e)
+                u6 : 0.0 (3d @ 693)
+                u7 : 0(40 @ 698)
+                u8 : 1(48 @ 69a)
+			}
+		}
+
+        component sub-sub-block { (1a @ 69c)
+
+            component type : Transform (0a @ 69e)
+            number : 4(10 @ 6a9)
+		}
+
+        component sub-sub-block { (1a @ 6ab)
+
+            component type : SoundEffect (0a @ 6ad)
+            number : 7(10 @ 6ba)
+            name : swing1 (1a @ 6bc)
+
+            sound effect sub-sub-sub-block { (462 @ 6c5)
+
+                sound : sword_swing2 (0a @ 6c7)
+                u0 : 0.0 (15 @ 6d5)
+                u1 : 1.0 (1d @ 6da)
+			}
+		}
+
+        component sub-sub-block { (1a @ 6df)
+
+            component type : SoundEffect (0a @ 6e1)
+            number : 8(10 @ 6ee)
+            name : impact1 (1a @ 6f0)
+
+            sound effect sub-sub-sub-block { (462 @ 6fa)
+
+                sound : sword_impact3 (0a @ 6fc)
+                u0 : 0.0 (15 @ 70b)
+                u1 : 1.0 (1d @ 710)
+			}
+		}
+
+        component sub-sub-block { (1a @ 715)
+
+            component type : WeaponTrail (0a @ 717)
+            number : 16(10 @ 724)
+            name : glow (1a @ 726)
+
+            weapon trail sub-sub-sub-block { (ca2 @ 72d)
+
+
+                u0 sub-sub-sub-sub-block { (0a @ 72f)
+
+                    w : 0.7607843279838562 (0d @ 731)
+                    x : 0.3490196168422699 (15 @ 736)
+                    y : 0.14509804546833038 (1d @ 73b)
+                    z : 0.0 (25 @ 740)
+				}
+			}
+		}
+
+        component sub-sub-block { (1a @ 745)
+
+            component type : Model (0a @ 747)
+            number : 101(10 @ 74e)
+
+            3D model sub-sub-sub-block { (32a @ 751)
+
+                name : weapon_broadsword (0a @ 753)
+                u0 : 0.0 (15 @ 766)
+                u1 : 1.0 (1d @ 76b)
+                u2 : 0.0 (25 @ 770)
+
+                u3 sub-sub-sub-sub-block { (2a @ 775)
+
+                    w : 0.0 (0d @ 777)
+                    x : 0.0 (15 @ 77c)
+                    y : 0.0 (1d @ 781)
+                    z : 1.0 (25 @ 786)
+				}
+
+                u4 sub-sub-sub-sub-block { (32 @ 78b)
+
+                    x : 0.0 (0d @ 78d)
+                    y : 0.0 (15 @ 792)
+                    z : 0.0 (1d @ 797)
+				}
+                u5 : 0(38 @ 79c)
+
+                u6 sub-sub-sub-sub-block { (42 @ 79e)
+
+                    w : 1.0 (0d @ 7a0)
+                    x : 1.0 (15 @ 7a5)
+                    y : 1.0 (1d @ 7aa)
+                    z : 1.0 (25 @ 7af)
+				}
+			}
+		}
+
+        component sub-sub-block { (1a @ 7b4)
+
+            component type : SwingableWeapon (0a @ 7b6)
+            number : 103(10 @ 7c7)
+
+            swingable weapon sub-sub-sub-block { (c82 @ 7ca)
+
+                linked model component number : 101(08 @ 7cc)
+                u1 : 1(10 @ 7ce)
+                u2 : 0(20 @ 7d0)
+                u3 : 7(28 @ 7d2)
+                u4 : 8(30 @ 7d4)
+                u5 : 16(38 @ 7d6)
+                u6 : 2(40 @ 7d8)
+                u7 : 0(48 @ 7da)
+                w : 58.0 (55 @ 7dc)
+                x : 58.0 (5d @ 7e1)
+                y : 1.0 (65 @ 7e6)
+                z : 8.0 (6d @ 7eb)
+                u8 : \r\x8a\xaaC?\x15i\x8c\xb4>\x1d(P\x16>%\x00\x00\x00\x00 (72 @ 7f0)
+			}
+		}
+
+        position sub-sub-block { (22 @ 806)
+
+            x position : 0.0 (0d @ 808)
+            y position : 0.0 (15 @ 80d)
+		}
+        z position : 0.0 (2d @ 812)
+        rotation : 0.0 (35 @ 817)
+        scale : 1.0 (3d @ 81c)
+
+        u0 sub-sub-block { (42 @ 821)
+
+            w : 0.0 (0d @ 823)
+            x : 0.0 (15 @ 828)
+            y : 0.0 (1d @ 82d)
+            z : 0.0 (25 @ 832)
+		}
+        hidden : 0(48 @ 837)
+	}
+    u0 : 1.0 (15 @ 839)
+}
+
+?item block { (12 @ 83e)
+
+
+    ?sub-item sub-block { (0a @ 841)
+
+        name : weapon_ironsword (12 @ 844)
+
+        component sub-sub-block { (1a @ 856)
+
+            component type : WeaponTrail (0a @ 858)
+            number : 1(10 @ 865)
+
+            weapon trail sub-sub-sub-block { (ca2 @ 868)
+
+
+                u0 sub-sub-sub-sub-block { (0a @ 86a)
+
+                    w : 1.0 (0d @ 86c)
+                    x : 1.0 (15 @ 871)
+                    y : 1.0 (1d @ 876)
+                    z : 0.0 (25 @ 87b)
+				}
+			}
+		}
+
+        component sub-sub-block { (1a @ 880)
+
+            component type : CollisionShape (0a @ 882)
+            number : 2(10 @ 892)
+
+            collision shape sub-sub-sub-block { (3c2 @ 895)
+
+
+                u0 sub-sub-sub-sub-block { (0a @ 897)
+
+                    w : 0.0 (0d @ 899)
+                    x : 0.0 (15 @ 89e)
+                    y : 0.0 (1d @ 8a3)
+                    z : 0.0 (25 @ 8a8)
+				}
+			}
+
+            collision shape 2 sub-sub-sub-block { (3ca @ 8ae)
+
+                u3 : 1(28 @ 8b0)
+                w : -15.0 (35 @ 8b2)
+                x : 15.0 (3d @ 8b7)
+                y : 5(40 @ 8bc)
+                z : 1(58 @ 8be)
+			}
+		}
+
+        component sub-sub-block { (1a @ 8c0)
+
+            component type : Damage (0a @ 8c2)
+            number : 3(10 @ 8ca)
+
+            damage sub-sub-sub-block { (3d2 @ 8cd)
+
+                u0 : 1(08 @ 8cf)
+                u1 : 1(10 @ 8d1)
+                u2 : 0(18 @ 8d3)
+                u5 : 1.0 (35 @ 8d5)
+                u6 : 0.0 (3d @ 8da)
+                u7 : 0(40 @ 8df)
+                u8 : 1(48 @ 8e1)
+			}
+		}
+
+        component sub-sub-block { (1a @ 8e3)
+
+            component type : Transform (0a @ 8e5)
+            number : 4(10 @ 8f0)
+		}
+
+        component sub-sub-block { (1a @ 8f2)
+
+            component type : SoundEffect (0a @ 8f4)
+            number : 7(10 @ 901)
+            name : swing1 (1a @ 903)
+
+            sound effect sub-sub-sub-block { (462 @ 90c)
+
+                sound : sword_swing2 (0a @ 90e)
+                u0 : 0.0 (15 @ 91c)
+                u1 : 1.0 (1d @ 921)
+			}
+		}
+
+        component sub-sub-block { (1a @ 926)
+
+            component type : SoundEffect (0a @ 928)
+            number : 8(10 @ 935)
+            name : impact1 (1a @ 937)
+
+            sound effect sub-sub-sub-block { (462 @ 941)
+
+                sound : sword_impact3 (0a @ 943)
+                u0 : 0.0 (15 @ 952)
+                u1 : 1.0 (1d @ 957)
+			}
+		}
+
+        component sub-sub-block { (1a @ 95c)
+
+            component type : WeaponTrail (0a @ 95e)
+            number : 16(10 @ 96b)
+            name : glow (1a @ 96d)
+
+            weapon trail sub-sub-sub-block { (ca2 @ 974)
+
+
+                u0 sub-sub-sub-sub-block { (0a @ 976)
+
+                    w : 0.5568627715110779 (0d @ 978)
+                    x : 0.29019609093666077 (15 @ 97d)
+                    y : 0.19607843458652496 (1d @ 982)
+                    z : 0.0 (25 @ 987)
+				}
+			}
+		}
+
+        component sub-sub-block { (1a @ 98c)
+
+            component type : Model (0a @ 98e)
+            number : 101(10 @ 995)
+
+            3D model sub-sub-sub-block { (32a @ 998)
+
+                name : weapon_ironsword (0a @ 99a)
+                u0 : 0.0 (15 @ 9ac)
+                u1 : 1.0 (1d @ 9b1)
+                u2 : 0.0 (25 @ 9b6)
+
+                u3 sub-sub-sub-sub-block { (2a @ 9bb)
+
+                    w : 0.0 (0d @ 9bd)
+                    x : 0.0 (15 @ 9c2)
+                    y : 0.0 (1d @ 9c7)
+                    z : 1.0 (25 @ 9cc)
+				}
+
+                u4 sub-sub-sub-sub-block { (32 @ 9d1)
+
+                    x : 0.0 (0d @ 9d3)
+                    y : 0.0 (15 @ 9d8)
+                    z : 0.0 (1d @ 9dd)
+				}
+                u5 : 0(38 @ 9e2)
+
+                u6 sub-sub-sub-sub-block { (42 @ 9e4)
+
+                    w : 1.0 (0d @ 9e6)
+                    x : 1.0 (15 @ 9eb)
+                    y : 1.0 (1d @ 9f0)
+                    z : 1.0 (25 @ 9f5)
+				}
+			}
+		}
+
+        component sub-sub-block { (1a @ 9fa)
+
+            component type : SwingableWeapon (0a @ 9fc)
+            number : 103(10 @ a0d)
+
+            swingable weapon sub-sub-sub-block { (c82 @ a10)
+
+                linked model component number : 101(08 @ a12)
+                u1 : 1(10 @ a14)
+                u2 : 0(20 @ a16)
+                u3 : 7(28 @ a18)
+                u4 : 8(30 @ a1a)
+                u5 : 16(38 @ a1c)
+                u6 : 2(40 @ a1e)
+                u7 : 0(48 @ a20)
+                w : 55.0 (55 @ a22)
+                x : 55.0 (5d @ a27)
+                y : 1.0 (65 @ a2c)
+                z : 6.0 (6d @ a31)
+                u8 : \r\xe3\xea\x0e?\x15\xd6K\x96>\x1d\xd0\x04J>%\x00\x00\x00\x00 (72 @ a36)
+			}
+		}
+
+        position sub-sub-block { (22 @ a4c)
+
+            x position : 0.0 (0d @ a4e)
+            y position : 0.0 (15 @ a53)
+		}
+        z position : 0.0 (2d @ a58)
+        rotation : 0.0 (35 @ a5d)
+        scale : 1.0 (3d @ a62)
+
+        u0 sub-sub-block { (42 @ a67)
+
+            w : 0.0 (0d @ a69)
+            x : 0.0 (15 @ a6e)
+            y : 0.0 (1d @ a73)
+            z : 0.0 (25 @ a78)
+		}
+        hidden : 0(48 @ a7d)
+	}
+    u0 : 1.0 (15 @ a7f)
+}
+
+?item block { (12 @ a84)
+
+
+    ?sub-item sub-block { (0a @ a87)
+
+        name : weapon_legendsword (12 @ a8a)
+
+        component sub-sub-block { (1a @ a9e)
+
+            component type : WeaponTrail (0a @ aa0)
+            number : 1(10 @ aad)
+
+            weapon trail sub-sub-sub-block { (ca2 @ ab0)
+
+
+                u0 sub-sub-sub-sub-block { (0a @ ab2)
+
+                    w : 1.0 (0d @ ab4)
+                    x : 1.0 (15 @ ab9)
+                    y : 1.0 (1d @ abe)
+                    z : 0.0 (25 @ ac3)
+				}
+			}
+		}
+
+        component sub-sub-block { (1a @ ac8)
+
+            component type : CollisionShape (0a @ aca)
+            number : 2(10 @ ada)
+
+            collision shape sub-sub-sub-block { (3c2 @ add)
+
+
+                u0 sub-sub-sub-sub-block { (0a @ adf)
+
+                    w : 0.0 (0d @ ae1)
+                    x : 0.0 (15 @ ae6)
+                    y : 0.0 (1d @ aeb)
+                    z : 0.0 (25 @ af0)
+				}
+			}
+
+            collision shape 2 sub-sub-sub-block { (3ca @ af6)
+
+                u3 : 1(28 @ af8)
+                w : -15.0 (35 @ afa)
+                x : 15.0 (3d @ aff)
+                y : 5(40 @ b04)
+                z : 1(58 @ b06)
+			}
+		}
+
+        component sub-sub-block { (1a @ b08)
+
+            component type : Damage (0a @ b0a)
+            number : 3(10 @ b12)
+
+            damage sub-sub-sub-block { (3d2 @ b15)
+
+                u0 : 1(08 @ b17)
+                u1 : 1(10 @ b19)
+                u2 : 0(18 @ b1b)
+                u5 : 1.0 (35 @ b1d)
+                u6 : 1.0 (3d @ b22)
+                u7 : 0(40 @ b27)
+                u8 : 1(48 @ b29)
+			}
+		}
+
+        component sub-sub-block { (1a @ b2b)
+
+            component type : Transform (0a @ b2d)
+            number : 4(10 @ b38)
+		}
+
+        component sub-sub-block { (1a @ b3a)
+
+            component type : SoundEffect (0a @ b3c)
+            number : 7(10 @ b49)
+            name : swing1 (1a @ b4b)
+
+            sound effect sub-sub-sub-block { (462 @ b54)
+
+                sound : sword_swing2 (0a @ b56)
+                u0 : 0.0 (15 @ b64)
+                u1 : 1.0 (1d @ b69)
+			}
+		}
+
+        component sub-sub-block { (1a @ b6e)
+
+            component type : SoundEffect (0a @ b70)
+            number : 8(10 @ b7d)
+            name : impact1 (1a @ b7f)
+
+            sound effect sub-sub-sub-block { (462 @ b89)
+
+                sound : sword_impact3 (0a @ b8b)
+                u0 : 0.0 (15 @ b9a)
+                u1 : 1.0 (1d @ b9f)
+			}
+		}
+
+        component sub-sub-block { (1a @ ba4)
+
+            component type : WeaponTrail (0a @ ba6)
+            number : 16(10 @ bb3)
+            name : glow (1a @ bb5)
+
+            weapon trail sub-sub-sub-block { (ca2 @ bbc)
+
+
+                u0 sub-sub-sub-sub-block { (0a @ bbe)
+
+                    w : 0.7098039388656616 (0d @ bc0)
+                    x : 0.3176470696926117 (15 @ bc5)
+                    y : 0.1764705926179886 (1d @ bca)
+                    z : 0.0 (25 @ bcf)
+				}
+			}
+		}
+
+        component sub-sub-block { (1a @ bd4)
+
+            component type : Model (0a @ bd6)
+            number : 101(10 @ bdd)
+
+            3D model sub-sub-sub-block { (32a @ be0)
+
+                name : weapon_legendsword (0a @ be2)
+                u0 : 0.0 (15 @ bf6)
+                u1 : 5.0 (1d @ bfb)
+                u2 : 0.0 (25 @ c00)
+
+                u3 sub-sub-sub-sub-block { (2a @ c05)
+
+                    w : 0.0 (0d @ c07)
+                    x : 0.0 (15 @ c0c)
+                    y : 0.0 (1d @ c11)
+                    z : 1.0 (25 @ c16)
+				}
+
+                u4 sub-sub-sub-sub-block { (32 @ c1b)
+
+                    x : 0.0 (0d @ c1d)
+                    y : 0.0 (15 @ c22)
+                    z : 0.0 (1d @ c27)
+				}
+                u5 : 0(38 @ c2c)
+
+                u6 sub-sub-sub-sub-block { (42 @ c2e)
+
+                    w : 1.0 (0d @ c30)
+                    x : 1.0 (15 @ c35)
+                    y : 1.0 (1d @ c3a)
+                    z : 1.0 (25 @ c3f)
+				}
+			}
+		}
+
+        component sub-sub-block { (1a @ c44)
+
+            component type : SwingableWeapon (0a @ c46)
+            number : 103(10 @ c57)
+
+            swingable weapon sub-sub-sub-block { (c82 @ c5a)
+
+                linked model component number : 101(08 @ c5c)
+                u1 : 1(10 @ c5e)
+                u2 : 0(20 @ c60)
+                u3 : 7(28 @ c62)
+                u4 : 8(30 @ c64)
+                u5 : 16(38 @ c66)
+                u6 : 2(40 @ c68)
+                u7 : 0(48 @ c6a)
+                w : 65.0 (55 @ c6c)
+                x : 65.0 (5d @ c71)
+                y : 1.0 (65 @ c76)
+                z : 14.0 (6d @ c7b)
+                u8 : \ra\x0b6?\x15\n\xd7\xa3>\x1d`\x0b6>%\x00\x00\x00\x00 (72 @ c80)
+			}
+		}
+
+        position sub-sub-block { (22 @ c96)
+
+            x position : 0.0 (0d @ c98)
+            y position : 0.0 (15 @ c9d)
+		}
+        z position : 0.0 (2d @ ca2)
+        rotation : 0.0 (35 @ ca7)
+        scale : 1.0 (3d @ cac)
+
+        u0 sub-sub-block { (42 @ cb1)
+
+            w : 0.0 (0d @ cb3)
+            x : 0.0 (15 @ cb8)
+            y : 0.0 (1d @ cbd)
+            z : 0.0 (25 @ cc2)
+		}
+        hidden : 0(48 @ cc7)
+	}
+    u0 : 1.0 (15 @ cc9)
+}
+
+?item block { (12 @ cce)
+
+
+    ?sub-item sub-block { (0a @ cd1)
+
+        name : weapon_magicsword (12 @ cd4)
+
+        component sub-sub-block { (1a @ ce7)
+
+            component type : WeaponTrail (0a @ ce9)
+            number : 1(10 @ cf6)
+
+            weapon trail sub-sub-sub-block { (ca2 @ cf9)
+
+
+                u0 sub-sub-sub-sub-block { (0a @ cfb)
+
+                    w : 1.0 (0d @ cfd)
+                    x : 1.0 (15 @ d02)
+                    y : 1.0 (1d @ d07)
+                    z : 0.0 (25 @ d0c)
+				}
+			}
+		}
+
+        component sub-sub-block { (1a @ d11)
+
+            component type : CollisionShape (0a @ d13)
+            number : 2(10 @ d23)
+
+            collision shape sub-sub-sub-block { (3c2 @ d26)
+
+
+                u0 sub-sub-sub-sub-block { (0a @ d28)
+
+                    w : 0.0 (0d @ d2a)
+                    x : 0.0 (15 @ d2f)
+                    y : 0.0 (1d @ d34)
+                    z : 0.0 (25 @ d39)
+				}
+			}
+
+            collision shape 2 sub-sub-sub-block { (3ca @ d3f)
+
+                u3 : 1(28 @ d41)
+                w : -15.0 (35 @ d43)
+                x : 15.0 (3d @ d48)
+                y : 5(40 @ d4d)
+                z : 1(58 @ d4f)
+			}
+		}
+
+        component sub-sub-block { (1a @ d51)
+
+            component type : Damage (0a @ d53)
+            number : 3(10 @ d5b)
+
+            damage sub-sub-sub-block { (3d2 @ d5e)
+
+                u0 : 1(08 @ d60)
+                u1 : 1(10 @ d62)
+                u2 : 0(18 @ d64)
+                u5 : 1.0 (35 @ d66)
+                u6 : 0.0 (3d @ d6b)
+                u7 : 0(40 @ d70)
+                u8 : 1(48 @ d72)
+			}
+		}
+
+        component sub-sub-block { (1a @ d74)
+
+            component type : Transform (0a @ d76)
+            number : 4(10 @ d81)
+		}
+
+        component sub-sub-block { (1a @ d83)
+
+            component type : SoundEffect (0a @ d85)
+            number : 7(10 @ d92)
+            name : swing1 (1a @ d94)
+
+            sound effect sub-sub-sub-block { (462 @ d9d)
+
+                sound : sword_swing2 (0a @ d9f)
+                u0 : 0.0 (15 @ dad)
+                u1 : 1.0 (1d @ db2)
+			}
+		}
+
+        component sub-sub-block { (1a @ db7)
+
+            component type : SoundEffect (0a @ db9)
+            number : 8(10 @ dc6)
+            name : impact1 (1a @ dc8)
+
+            sound effect sub-sub-sub-block { (462 @ dd2)
+
+                sound : sword_impact3 (0a @ dd4)
+                u0 : 0.0 (15 @ de3)
+                u1 : 1.0 (1d @ de8)
+			}
+		}
+
+        component sub-sub-block { (1a @ ded)
+
+            component type : WeaponTrail (0a @ def)
+            number : 16(10 @ dfc)
+            name : glow (1a @ dfe)
+
+            weapon trail sub-sub-sub-block { (ca2 @ e05)
+
+
+                u0 sub-sub-sub-sub-block { (0a @ e07)
+
+                    w : 0.7647058963775635 (0d @ e09)
+                    x : 0.32549020648002625 (15 @ e0e)
+                    y : 0.16470588743686676 (1d @ e13)
+                    z : 0.0 (25 @ e18)
+				}
+			}
+		}
+
+        component sub-sub-block { (1a @ e1d)
+
+            component type : Model (0a @ e1f)
+            number : 101(10 @ e26)
+
+            3D model sub-sub-sub-block { (32a @ e29)
+
+                name : weapon_magicsword (0a @ e2b)
+                u0 : 0.0 (15 @ e3e)
+                u1 : 1.0 (1d @ e43)
+                u2 : 0.0 (25 @ e48)
+
+                u3 sub-sub-sub-sub-block { (2a @ e4d)
+
+                    w : 0.0 (0d @ e4f)
+                    x : 0.0 (15 @ e54)
+                    y : 0.0 (1d @ e59)
+                    z : 1.0 (25 @ e5e)
+				}
+
+                u4 sub-sub-sub-sub-block { (32 @ e63)
+
+                    x : 0.0 (0d @ e65)
+                    y : 0.0 (15 @ e6a)
+                    z : 0.0 (1d @ e6f)
+				}
+                u5 : 0(38 @ e74)
+
+                u6 sub-sub-sub-sub-block { (42 @ e76)
+
+                    w : 1.0 (0d @ e78)
+                    x : 1.0 (15 @ e7d)
+                    y : 1.0 (1d @ e82)
+                    z : 1.0 (25 @ e87)
+				}
+			}
+		}
+
+        component sub-sub-block { (1a @ e8c)
+
+            component type : SwingableWeapon (0a @ e8e)
+            number : 103(10 @ e9f)
+
+            swingable weapon sub-sub-sub-block { (c82 @ ea2)
+
+                linked model component number : 101(08 @ ea4)
+                u1 : 1(10 @ ea6)
+                u2 : 0(20 @ ea8)
+                u3 : 7(28 @ eaa)
+                u4 : 8(30 @ eac)
+                u5 : 16(38 @ eae)
+                u6 : 2(40 @ eb0)
+                u7 : 0(48 @ eb2)
+                w : 65.0 (55 @ eb4)
+                x : 65.0 (5d @ eb9)
+                y : 1.0 (65 @ ebe)
+                z : 6.0 (6d @ ec3)
+                u8 : \r\xd0tD?\x15\x8b\x13\xa7>\x1d|\xe8)>%\x00\x00\x00\x00 (72 @ ec8)
+			}
+		}
+
+        position sub-sub-block { (22 @ ede)
+
+            x position : 0.0 (0d @ ee0)
+            y position : 0.0 (15 @ ee5)
+		}
+        z position : 0.0 (2d @ eea)
+        rotation : 0.0 (35 @ eef)
+        scale : 1.0 (3d @ ef4)
+
+        u0 sub-sub-block { (42 @ ef9)
+
+            w : 0.0 (0d @ efb)
+            x : 0.0 (15 @ f00)
+            y : 0.0 (1d @ f05)
+            z : 0.0 (25 @ f0a)
+		}
+        hidden : 0(48 @ f0f)
+	}
+    u0 : 1.0 (15 @ f11)
+}
+
+?item block { (12 @ f16)
+
+
+    ?sub-item sub-block { (0a @ f19)
+
+        name : weapon_needle (12 @ f1c)
+
+        component sub-sub-block { (1a @ f2b)
+
+            component type : WeaponTrail (0a @ f2d)
+            number : 1(10 @ f3a)
+
+            weapon trail sub-sub-sub-block { (ca2 @ f3d)
+
+
+                u0 sub-sub-sub-sub-block { (0a @ f3f)
+
+                    w : 1.0 (0d @ f41)
+                    x : 1.0 (15 @ f46)
+                    y : 1.0 (1d @ f4b)
+                    z : 0.0 (25 @ f50)
+				}
+			}
+		}
+
+        component sub-sub-block { (1a @ f55)
+
+            component type : CollisionShape (0a @ f57)
+            number : 2(10 @ f67)
+
+            collision shape sub-sub-sub-block { (3c2 @ f6a)
+
+
+                u0 sub-sub-sub-sub-block { (0a @ f6c)
+
+                    w : 0.0 (0d @ f6e)
+                    x : 0.0 (15 @ f73)
+                    y : 0.0 (1d @ f78)
+                    z : 0.0 (25 @ f7d)
+				}
+			}
+
+            collision shape 2 sub-sub-sub-block { (3ca @ f83)
+
+                u3 : 1(28 @ f85)
+                w : -15.0 (35 @ f87)
+                x : 15.0 (3d @ f8c)
+                y : 5(40 @ f91)
+                z : 0(58 @ f93)
+			}
+		}
+
+        component sub-sub-block { (1a @ f95)
+
+            component type : Damage (0a @ f97)
+            number : 3(10 @ f9f)
+
+            damage sub-sub-sub-block { (3d2 @ fa2)
+
+                u0 : 1(08 @ fa4)
+                u1 : 1(10 @ fa6)
+                u2 : 0(18 @ fa8)
+                u5 : 1.0 (35 @ faa)
+                u6 : 0.0 (3d @ faf)
+                u7 : 0(40 @ fb4)
+                u8 : 1(48 @ fb6)
+			}
+		}
+
+        component sub-sub-block { (1a @ fb8)
+
+            component type : Transform (0a @ fba)
+            number : 4(10 @ fc5)
+		}
+
+        component sub-sub-block { (1a @ fc7)
+
+            component type : SoundEffect (0a @ fc9)
+            number : 7(10 @ fd6)
+            name : swing1 (1a @ fd8)
+
+            sound effect sub-sub-sub-block { (462 @ fe1)
+
+                sound : sword_swing2 (0a @ fe3)
+                u0 : 0.0 (15 @ ff1)
+                u1 : 1.0 (1d @ ff6)
+			}
+		}
+
+        component sub-sub-block { (1a @ ffb)
+
+            component type : SoundEffect (0a @ ffd)
+            number : 8(10 @ 100a)
+            name : impact1 (1a @ 100c)
+
+            sound effect sub-sub-sub-block { (462 @ 1016)
+
+                sound : sword_impact3 (0a @ 1018)
+                u0 : 0.0 (15 @ 1027)
+                u1 : 1.0 (1d @ 102c)
+			}
+		}
+
+        component sub-sub-block { (1a @ 1031)
+
+            component type : WeaponTrail (0a @ 1033)
+            number : 16(10 @ 1040)
+            name : glow (1a @ 1042)
+
+            weapon trail sub-sub-sub-block { (ca2 @ 1049)
+
+
+                u0 sub-sub-sub-sub-block { (0a @ 104b)
+
+                    w : 0.5568627715110779 (0d @ 104d)
+                    x : 0.29019609093666077 (15 @ 1052)
+                    y : 0.19607843458652496 (1d @ 1057)
+                    z : 0.0 (25 @ 105c)
+				}
+			}
+		}
+
+        component sub-sub-block { (1a @ 1061)
+
+            component type : Model (0a @ 1063)
+            number : 101(10 @ 106a)
+
+            3D model sub-sub-sub-block { (32a @ 106d)
+
+                name : weapon_ironsword (0a @ 106f)
+                u0 : 0.0 (15 @ 1081)
+                u1 : 1.0 (1d @ 1086)
+                u2 : 0.0 (25 @ 108b)
+
+                u3 sub-sub-sub-sub-block { (2a @ 1090)
+
+                    w : 0.0 (0d @ 1092)
+                    x : 0.0 (15 @ 1097)
+                    y : 0.0 (1d @ 109c)
+                    z : 1.0 (25 @ 10a1)
+				}
+
+                u4 sub-sub-sub-sub-block { (32 @ 10a6)
+
+                    x : 0.0 (0d @ 10a8)
+                    y : 0.0 (15 @ 10ad)
+                    z : 0.0 (1d @ 10b2)
+				}
+                u5 : 0(38 @ 10b7)
+
+                u6 sub-sub-sub-sub-block { (42 @ 10b9)
+
+                    w : 1.0 (0d @ 10bb)
+                    x : 0.7222222089767456 (15 @ 10c0)
+                    y : 0.8222222328186035 (1d @ 10c5)
+                    z : 1.0 (25 @ 10ca)
+				}
+			}
+		}
+
+        component sub-sub-block { (1a @ 10cf)
+
+            component type : SwingableWeapon (0a @ 10d1)
+            number : 103(10 @ 10e2)
+
+            swingable weapon sub-sub-sub-block { (c82 @ 10e5)
+
+                linked model component number : 101(08 @ 10e7)
+                u1 : 1(10 @ 10e9)
+                u2 : 0(20 @ 10eb)
+                u3 : 7(28 @ 10ed)
+                u4 : 8(30 @ 10ef)
+                u5 : 16(38 @ 10f1)
+                u6 : 2(40 @ 10f3)
+                u7 : 0(48 @ 10f5)
+                w : 55.0 (55 @ 10f7)
+                x : 55.0 (5d @ 10fc)
+                y : 0.0 (65 @ 1101)
+                z : 6.0 (6d @ 1106)
+                u8 : \r\xe3\xea\x0e?\x15\xd6K\x96>\x1d\xd0\x04J>%\x00\x00\x00\x00 (72 @ 110b)
+			}
+		}
+
+        position sub-sub-block { (22 @ 1121)
+
+            x position : 0.0 (0d @ 1123)
+            y position : 0.0 (15 @ 1128)
+		}
+        z position : 0.0 (2d @ 112d)
+        rotation : 0.0 (35 @ 1132)
+        scale : 1.0 (3d @ 1137)
+
+        u0 sub-sub-block { (42 @ 113c)
+
+            w : 0.0 (0d @ 113e)
+            x : 0.0 (15 @ 1143)
+            y : 0.0 (1d @ 1148)
+            z : 0.0 (25 @ 114d)
+		}
+        hidden : 0(48 @ 1152)
+	}
+    u0 : 1.0 (15 @ 1154)
+}
+
+?item block { (12 @ 1159)
+
+
+    ?sub-item sub-block { (0a @ 115c)
+
+        name : weapon_stoneclub (12 @ 115f)
+
+        component sub-sub-block { (1a @ 1171)
+
+            component type : WeaponTrail (0a @ 1173)
+            number : 1(10 @ 1180)
+
+            weapon trail sub-sub-sub-block { (ca2 @ 1183)
+
+
+                u0 sub-sub-sub-sub-block { (0a @ 1185)
+
+                    w : 1.0 (0d @ 1187)
+                    x : 1.0 (15 @ 118c)
+                    y : 1.0 (1d @ 1191)
+                    z : 0.0 (25 @ 1196)
+				}
+			}
+		}
+
+        component sub-sub-block { (1a @ 119b)
+
+            component type : CollisionShape (0a @ 119d)
+            number : 2(10 @ 11ad)
+
+            collision shape sub-sub-sub-block { (3c2 @ 11b0)
+
+
+                u0 sub-sub-sub-sub-block { (0a @ 11b2)
+
+                    w : 0.0 (0d @ 11b4)
+                    x : 0.0 (15 @ 11b9)
+                    y : 0.0 (1d @ 11be)
+                    z : 0.0 (25 @ 11c3)
+				}
+			}
+
+            collision shape 2 sub-sub-sub-block { (3ca @ 11c9)
+
+                u3 : 1(28 @ 11cb)
+                w : -15.0 (35 @ 11cd)
+                x : 15.0 (3d @ 11d2)
+                y : 5(40 @ 11d7)
+                z : 0(58 @ 11d9)
+			}
+		}
+
+        component sub-sub-block { (1a @ 11db)
+
+            component type : Damage (0a @ 11dd)
+            number : 3(10 @ 11e5)
+
+            damage sub-sub-sub-block { (3d2 @ 11e8)
+
+                u0 : 1(08 @ 11ea)
+                u1 : 1(10 @ 11ec)
+                u2 : 1(18 @ 11ee)
+                u5 : 1.0 (35 @ 11f0)
+                u6 : 0.0 (3d @ 11f5)
+                u7 : 0(40 @ 11fa)
+                u8 : 1(48 @ 11fc)
+			}
+		}
+
+        component sub-sub-block { (1a @ 11fe)
+
+            component type : SoundEffect (0a @ 1200)
+            number : 7(10 @ 120d)
+            name : swing1 (1a @ 120f)
+
+            sound effect sub-sub-sub-block { (462 @ 1218)
+
+                sound : sword_swing2 (0a @ 121a)
+                u0 : 0.0 (15 @ 1228)
+                u1 : 1.0 (1d @ 122d)
+			}
+		}
+
+        component sub-sub-block { (1a @ 1232)
+
+            component type : SoundEffect (0a @ 1234)
+            number : 8(10 @ 1241)
+            name : impact1 (1a @ 1243)
+
+            sound effect sub-sub-sub-block { (462 @ 124d)
+
+                sound : sword_impact3 (0a @ 124f)
+                u0 : 0.0 (15 @ 125e)
+                u1 : 1.0 (1d @ 1263)
+			}
+		}
+
+        component sub-sub-block { (1a @ 1268)
+
+            component type : Model (0a @ 126a)
+            number : 101(10 @ 1271)
+
+            3D model sub-sub-sub-block { (32a @ 1274)
+
+                name : weapon_club (0a @ 1276)
+                u0 : 0.0 (15 @ 1283)
+                u1 : 1.0 (1d @ 1288)
+                u2 : 0.0 (25 @ 128d)
+
+                u3 sub-sub-sub-sub-block { (2a @ 1292)
+
+                    w : 0.0 (0d @ 1294)
+                    x : 0.0 (15 @ 1299)
+                    y : 0.0 (1d @ 129e)
+                    z : 1.0 (25 @ 12a3)
+				}
+
+                u4 sub-sub-sub-sub-block { (32 @ 12a8)
+
+                    x : 0.0 (0d @ 12aa)
+                    y : 0.0 (15 @ 12af)
+                    z : 0.0 (1d @ 12b4)
+				}
+                u5 : 0(38 @ 12b9)
+
+                u6 sub-sub-sub-sub-block { (42 @ 12bb)
+
+                    w : 1.0 (0d @ 12bd)
+                    x : 1.0 (15 @ 12c2)
+                    y : 1.0 (1d @ 12c7)
+                    z : 1.0 (25 @ 12cc)
+				}
+			}
+		}
+
+        component sub-sub-block { (1a @ 12d1)
+
+            component type : SwingableWeapon (0a @ 12d3)
+            number : 103(10 @ 12e4)
+
+            swingable weapon sub-sub-sub-block { (c82 @ 12e7)
+
+                linked model component number : 101(08 @ 12e9)
+                u1 : 1(10 @ 12eb)
+                u2 : 0(20 @ 12ed)
+                u3 : 7(28 @ 12ef)
+                u4 : 8(30 @ 12f1)
+                u5 : 0(38 @ 12f3)
+                u6 : 2(40 @ 12f5)
+                u7 : 10(48 @ 12f7)
+                w : 50.0 (55 @ 12f9)
+                x : 65.0 (5d @ 12fe)
+                y : 0.0 (65 @ 1303)
+                z : 10.0 (6d @ 1308)
+                u8 : \r\x00\x00\x00?\x15\x00\x00\x00?\x1d\x00\x00\x00?%\x00\x00\x00\x00 (72 @ 130d)
+			}
+		}
+
+        position sub-sub-block { (22 @ 1323)
+
+            x position : 0.0 (0d @ 1325)
+            y position : 0.0 (15 @ 132a)
+		}
+        z position : 0.0 (2d @ 132f)
+        rotation : 0.0 (35 @ 1334)
+        scale : 1.0 (3d @ 1339)
+
+        u0 sub-sub-block { (42 @ 133e)
+
+            w : 0.0 (0d @ 1340)
+            x : 0.0 (15 @ 1345)
+            y : 0.0 (1d @ 134a)
+            z : 0.0 (25 @ 134f)
+		}
+        hidden : 0(48 @ 1354)
+	}
+    u0 : 1.0 (15 @ 1356)
+}
+
+?item block { (12 @ 135b)
+
+
+    ?sub-item sub-block { (0a @ 135e)
+
+        name : weapon_thorn (12 @ 1361)
+
+        component sub-sub-block { (1a @ 136f)
+
+            component type : WeaponTrail (0a @ 1371)
+            number : 1(10 @ 137e)
+
+            weapon trail sub-sub-sub-block { (ca2 @ 1381)
+
+
+                u0 sub-sub-sub-sub-block { (0a @ 1383)
+
+                    w : 1.0 (0d @ 1385)
+                    x : 1.0 (15 @ 138a)
+                    y : 1.0 (1d @ 138f)
+                    z : 0.0 (25 @ 1394)
+				}
+			}
+		}
+
+        component sub-sub-block { (1a @ 1399)
+
+            component type : CollisionShape (0a @ 139b)
+            number : 2(10 @ 13ab)
+
+            collision shape sub-sub-sub-block { (3c2 @ 13ae)
+
+
+                u0 sub-sub-sub-sub-block { (0a @ 13b0)
+
+                    w : 0.0 (0d @ 13b2)
+                    x : 0.0 (15 @ 13b7)
+                    y : 0.0 (1d @ 13bc)
+                    z : 0.0 (25 @ 13c1)
+				}
+			}
+
+            collision shape 2 sub-sub-sub-block { (3ca @ 13c7)
+
+                u3 : 1(28 @ 13c9)
+                w : -15.0 (35 @ 13cb)
+                x : 15.0 (3d @ 13d0)
+                y : 5(40 @ 13d5)
+                z : 0(58 @ 13d7)
+			}
+		}
+
+        component sub-sub-block { (1a @ 13d9)
+
+            component type : Damage (0a @ 13db)
+            number : 3(10 @ 13e3)
+
+            damage sub-sub-sub-block { (3d2 @ 13e6)
+
+                u0 : 1(08 @ 13e8)
+                u1 : 1(10 @ 13ea)
+                u2 : 0(18 @ 13ec)
+                u5 : 1.0 (35 @ 13ee)
+                u6 : 0.0 (3d @ 13f3)
+                u7 : 0(40 @ 13f8)
+                u8 : 1(48 @ 13fa)
+			}
+		}
+
+        component sub-sub-block { (1a @ 13fc)
+
+            component type : Transform (0a @ 13fe)
+            number : 4(10 @ 1409)
+		}
+
+        component sub-sub-block { (1a @ 140b)
+
+            component type : SoundEffect (0a @ 140d)
+            number : 7(10 @ 141a)
+            name : swing1 (1a @ 141c)
+
+            sound effect sub-sub-sub-block { (462 @ 1425)
+
+                sound : sword_swing2 (0a @ 1427)
+                u0 : 0.0 (15 @ 1435)
+                u1 : 1.0 (1d @ 143a)
+			}
+		}
+
+        component sub-sub-block { (1a @ 143f)
+
+            component type : SoundEffect (0a @ 1441)
+            number : 8(10 @ 144e)
+            name : impact1 (1a @ 1450)
+
+            sound effect sub-sub-sub-block { (462 @ 145a)
+
+                sound : sword_impact3 (0a @ 145c)
+                u0 : 0.0 (15 @ 146b)
+                u1 : 1.0 (1d @ 1470)
+			}
+		}
+
+        component sub-sub-block { (1a @ 1475)
+
+            component type : WeaponTrail (0a @ 1477)
+            number : 16(10 @ 1484)
+            name : glow (1a @ 1486)
+
+            weapon trail sub-sub-sub-block { (ca2 @ 148d)
+
+
+                u0 sub-sub-sub-sub-block { (0a @ 148f)
+
+                    w : 0.7607843279838562 (0d @ 1491)
+                    x : 0.3490196168422699 (15 @ 1496)
+                    y : 0.14509804546833038 (1d @ 149b)
+                    z : 0.0 (25 @ 14a0)
+				}
+			}
+		}
+
+        component sub-sub-block { (1a @ 14a5)
+
+            component type : Model (0a @ 14a7)
+            number : 101(10 @ 14ae)
+
+            3D model sub-sub-sub-block { (32a @ 14b1)
+
+                name : weapon_broadsword (0a @ 14b3)
+                u0 : 0.0 (15 @ 14c6)
+                u1 : 1.0 (1d @ 14cb)
+                u2 : 0.0 (25 @ 14d0)
+
+                u3 sub-sub-sub-sub-block { (2a @ 14d5)
+
+                    w : 0.0 (0d @ 14d7)
+                    x : 0.0 (15 @ 14dc)
+                    y : 0.0 (1d @ 14e1)
+                    z : 1.0 (25 @ 14e6)
+				}
+
+                u4 sub-sub-sub-sub-block { (32 @ 14eb)
+
+                    x : 0.0 (0d @ 14ed)
+                    y : 0.0 (15 @ 14f2)
+                    z : 0.0 (1d @ 14f7)
+				}
+                u5 : 0(38 @ 14fc)
+
+                u6 sub-sub-sub-sub-block { (42 @ 14fe)
+
+                    w : 0.6777777671813965 (0d @ 1500)
+                    x : 1.0 (15 @ 1505)
+                    y : 0.644444465637207 (1d @ 150a)
+                    z : 1.0 (25 @ 150f)
+				}
+			}
+		}
+
+        component sub-sub-block { (1a @ 1514)
+
+            component type : SwingableWeapon (0a @ 1516)
+            number : 103(10 @ 1527)
+
+            swingable weapon sub-sub-sub-block { (c82 @ 152a)
+
+                linked model component number : 101(08 @ 152c)
+                u1 : 1(10 @ 152e)
+                u2 : 0(20 @ 1530)
+                u3 : 7(28 @ 1532)
+                u4 : 8(30 @ 1534)
+                u5 : 16(38 @ 1536)
+                u6 : 2(40 @ 1538)
+                u7 : 0(48 @ 153a)
+                w : 58.0 (55 @ 153c)
+                x : 58.0 (5d @ 1541)
+                y : 0.0 (65 @ 1546)
+                z : 8.0 (6d @ 154b)
+                u8 : \r\x8a\xaaC?\x15i\x8c\xb4>\x1d(P\x16>%\x00\x00\x00\x00 (72 @ 1550)
+			}
+		}
+
+        position sub-sub-block { (22 @ 1566)
+
+            x position : 0.0 (0d @ 1568)
+            y position : 0.0 (15 @ 156d)
+		}
+        z position : 0.0 (2d @ 1572)
+        rotation : 0.0 (35 @ 1577)
+        scale : 1.0 (3d @ 157c)
+
+        u0 sub-sub-block { (42 @ 1581)
+
+            w : 0.0 (0d @ 1583)
+            x : 0.0 (15 @ 1588)
+            y : 0.0 (1d @ 158d)
+            z : 0.0 (25 @ 1592)
+		}
+        hidden : 0(48 @ 1597)
+	}
+    u0 : 1.0 (15 @ 1599)
+}

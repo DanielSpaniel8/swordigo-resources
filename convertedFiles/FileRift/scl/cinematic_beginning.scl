@@ -1,0 +1,1525 @@
+scl file name : cinematic_beginning (0a @ 1)
+
+?item block { (12 @ 16)
+
+
+    ?sub-item sub-block { (0a @ 19)
+
+        name : b_bolt (12 @ 1c)
+
+        component sub-sub-block { (1a @ 24)
+
+            component type : SimpleGlow (0a @ 26)
+            number : 1(10 @ 32)
+
+            simple glow sub-sub-sub-block { (7f2 @ 35)
+
+
+                u0 sub-sub-sub-sub-block { (0a @ 37)
+
+                    w : 1.0 (0d @ 39)
+                    x : 0.0 (15 @ 3e)
+                    y : 3.5762786865234375e-07 (1d @ 43)
+                    z : 0.5 (25 @ 48)
+				}
+                u1 : 30.0 (15 @ 4d)
+                u2 : 10(18 @ 52)
+                u3 : 15.0 (25 @ 54)
+                u4 : 0.15000000596046448 (2d @ 59)
+                u5 : 0.800000011920929 (35 @ 5e)
+
+                u6 sub-sub-sub-sub-block { (3a @ 63)
+
+                    y : 0.0 (0d @ 65)
+                    z : 0.0 (15 @ 6a)
+				}
+			}
+		}
+
+        component sub-sub-block { (1a @ 6f)
+
+            component type : CollisionShape (0a @ 72)
+            number : 2(10 @ 82)
+
+            collision shape sub-sub-sub-block { (3c2 @ 85)
+
+
+                u0 sub-sub-sub-sub-block { (0a @ 87)
+
+                    w : -5.0 (0d @ 89)
+                    x : -5.0 (15 @ 8e)
+                    y : 10.0 (1d @ 93)
+                    z : 10.0 (25 @ 98)
+				}
+			}
+
+            collision shape 2 sub-sub-sub-block { (3ca @ 9e)
+
+                u1 : 1(18 @ a1)
+                u3 : 1(28 @ a3)
+                w : -15.0 (35 @ a5)
+                x : 15.0 (3d @ aa)
+
+                lua chunk sub-sub-sub-sub-block { (4a @ af)
+
+                    main chunk : chunk >
+
+                    === lua =============
+                    local self, target = ...;
+                    
+                    if target:identifier() == "hero" then
+                    	AnimationController.BlendToAnimation(target, 13, 0.1);
+                    	target:setVelocity(Vector3.New(-70,220,0));
+                    end
+
+                    =====================
+                    secondary chunk : \x1bLuaQ\x00\x01\x04\x04\x04\x08\x00\xaf\x00\x00\x00local self, target = ...;\r\n\r\nif target:identifier() == "hero" then\r\n\tAnimationController.BlendToAnimation(target, 13, 0.1);\r\n\ttarget:setVelocity(Vector3.New(-70,220,0));\r\nend\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x02\x08\x14\x00\x00\x00%\x00\x80\x01\x8b\x00\xc0\x00\x9c\x80\x00\x01\x17@@\x01\x16@\x03\x80\x85\x80\x00\x00\x86\xc0@\x01\xc0\x00\x80\x00\x01\x01\x01\x00AA\x01\x00\x9c@\x00\x02\x8b\x80\xc1\x00\x05\xc1\x01\x00\x06\x01B\x02AA\x02\x00\x81\x81\x02\x00\xc1\xc1\x02\x00\x1c\x01\x00\x02\x9c@\x00\x00\x1e\x00\x80\x00\x0c\x00\x00\x00\x04\x0b\x00\x00\x00identifier\x00\x04\x05\x00\x00\x00hero\x00\x04\x14\x00\x00\x00AnimationController\x00\x04\x11\x00\x00\x00BlendToAnimation\x00\x03\x00\x00\x00\x00\x00\x00*@\x03\x9a\x99\x99\x99\x99\x99\xb9?\x04\x0c\x00\x00\x00setVelocity\x00\x04\x08\x00\x00\x00Vector3\x00\x04\x04\x00\x00\x00New\x00\x03\x00\x00\x00\x00\x00\x80Q\xc0\x03\x00\x00\x00\x00\x00\x80k@\x03\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x14\x00\x00\x00\x01\x00\x00\x00\x03\x00\x00\x00\x03\x00\x00\x00\x03\x00\x00\x00\x03\x00\x00\x00\x04\x00\x00\x00\x04\x00\x00\x00\x04\x00\x00\x00\x04\x00\x00\x00\x04\x00\x00\x00\x04\x00\x00\x00\x05\x00\x00\x00\x05\x00\x00\x00\x05\x00\x00\x00\x05\x00\x00\x00\x05\x00\x00\x00\x05\x00\x00\x00\x05\x00\x00\x00\x05\x00\x00\x00\x06\x00\x00\x00\x02\x00\x00\x00\x05\x00\x00\x00self\x00\x01\x00\x00\x00\x13\x00\x00\x00\x07\x00\x00\x00target\x00\x01\x00\x00\x00\x13\x00\x00\x00\x00\x00\x00\x00 (12 @ 163)
+				}
+                z : 1(58 @ 3aa)
+			}
+		}
+
+        component sub-sub-block { (1a @ 3ac)
+
+            component type : Damage (0a @ 3ae)
+            number : 4(10 @ 3b6)
+
+            damage sub-sub-sub-block { (3d2 @ 3b9)
+
+                u0 : 0(08 @ 3bb)
+                u1 : 0(10 @ 3bd)
+                u2 : 0(18 @ 3bf)
+                u5 : 1.0 (35 @ 3c1)
+                u6 : 0.0 (3d @ 3c6)
+                u7 : 0(40 @ 3cb)
+                u8 : 1(48 @ 3cd)
+			}
+		}
+
+        component sub-sub-block { (1a @ 3cf)
+
+            component type : SoundEffect (0a @ 3d1)
+            number : 5(10 @ 3de)
+
+            sound effect sub-sub-sub-block { (462 @ 3e1)
+
+                sound : sword_impact3 (0a @ 3e3)
+                u0 : 0.0 (15 @ 3f2)
+                u1 : 1.0 (1d @ 3f7)
+			}
+		}
+
+        component sub-sub-block { (1a @ 3fc)
+
+            component type : Light (0a @ 3fe)
+            number : 6(10 @ 405)
+
+            light sub-sub-sub-block { (412 @ 408)
+
+                u0 : 3(08 @ 40a)
+                u1 : 10.0 (15 @ 40c)
+
+                u2 sub-sub-sub-sub-block { (1a @ 411)
+
+                    w : 1.0 (0d @ 413)
+                    x : 0.35555556416511536 (15 @ 418)
+                    y : 0.35555556416511536 (1d @ 41d)
+                    z : 1.0 (25 @ 422)
+				}
+                u3 : 0.0 (25 @ 427)
+                u4 : 0.00019999999494757503 (2d @ 42c)
+
+                u5 sub-sub-sub-sub-block { (32 @ 431)
+
+                    x : 0.0 (0d @ 433)
+                    y : 0.0 (15 @ 438)
+                    z : 0.0 (1d @ 43d)
+				}
+                u6 : 250.0 (3d @ 442)
+			}
+		}
+
+        component sub-sub-block { (1a @ 447)
+
+            component type : ParticleEmitter (0a @ 449)
+            number : 102(10 @ 45a)
+
+            particle emitter sub-sub-sub-block { (7d2 @ 45d)
+
+                particle : 103(10 @ 45f)
+                particle : 104(10 @ 461)
+                particle : 105(10 @ 463)
+                u1 : 0(18 @ 465)
+                u2 : 30(20 @ 467)
+                u3 : 0(28 @ 469)
+                u4 : 0(30 @ 46b)
+                u6 : 0(40 @ 46d)
+			}
+		}
+
+        component sub-sub-block { (1a @ 46f)
+
+            component type : Particle (0a @ 471)
+            number : 103(10 @ 47b)
+
+            particle sub-sub-sub-block { (7da @ 47e)
+
+                name : particle_fure_1 (0a @ 480)
+                u0 : 40.0 (15 @ 491)
+			}
+		}
+
+        component sub-sub-block { (1a @ 496)
+
+            component type : Particle (0a @ 498)
+            number : 104(10 @ 4a2)
+
+            particle sub-sub-sub-block { (7da @ 4a5)
+
+                name : particle_fure_2 (0a @ 4a7)
+                u0 : 40.0 (15 @ 4b8)
+			}
+		}
+
+        component sub-sub-block { (1a @ 4bd)
+
+            component type : Particle (0a @ 4bf)
+            number : 105(10 @ 4c9)
+
+            particle sub-sub-sub-block { (7da @ 4cc)
+
+                name : particle_fure_3 (0a @ 4ce)
+                u0 : 40.0 (15 @ 4df)
+			}
+		}
+
+        component sub-sub-block { (1a @ 4e4)
+
+            component type : MagicBolt (0a @ 4e6)
+            number : 106(10 @ 4f1)
+
+            magic bolt sub-sub-sub-block { (1132 @ 4f4)
+
+                u0 : 102(08 @ 4f6)
+                u1 : 0(10 @ 4f8)
+                u2 : 0(18 @ 4fa)
+
+                u3 sub-sub-sub-sub-block { (22 @ 4fc)
+
+                    w : 0.4000000059604645 (0d @ 4fe)
+                    x : 0.05399999022483826 (15 @ 503)
+                    y : 0.054000113159418106 (1d @ 508)
+                    z : 0.0 (25 @ 50d)
+				}
+                u3 : 390.0 (2d @ 512)
+			}
+
+            temp0 sub-sub-sub-block { (1172 @ 518)
+
+			}
+		}
+
+        component sub-sub-block { (1a @ 51a)
+
+            component type : ProjectileController (0a @ 51c)
+            number : 107(10 @ 532)
+
+            projectile controller sub-sub-sub-block { (115a @ 535)
+
+                u0 : 1(08 @ 537)
+                u1 : 1(10 @ 539)
+			}
+		}
+
+        position sub-sub-block { (22 @ 53b)
+
+            x position : 0.0 (0d @ 53d)
+            y position : 0.0 (15 @ 542)
+		}
+        z position : 0.0 (2d @ 547)
+        rotation : 0.0 (35 @ 54c)
+        scale : 1.0 (3d @ 551)
+
+        u0 sub-sub-block { (42 @ 556)
+
+            w : -50.0 (0d @ 558)
+            x : -50.0 (15 @ 55d)
+            y : 100.0 (1d @ 562)
+            z : 100.0 (25 @ 567)
+		}
+        hidden : 0(48 @ 56c)
+	}
+    u0 : 1.5 (15 @ 56e)
+}
+
+?item block { (12 @ 573)
+
+
+    ?sub-item sub-block { (0a @ 576)
+
+        name : bolt (12 @ 579)
+
+        component sub-sub-block { (1a @ 57f)
+
+            component type : SimpleGlow (0a @ 581)
+            number : 1(10 @ 58d)
+
+            simple glow sub-sub-sub-block { (7f2 @ 590)
+
+
+                u0 sub-sub-sub-sub-block { (0a @ 592)
+
+                    w : 1.0 (0d @ 594)
+                    x : 0.0 (15 @ 599)
+                    y : 3.5762786865234375e-07 (1d @ 59e)
+                    z : 0.5 (25 @ 5a3)
+				}
+                u1 : 30.0 (15 @ 5a8)
+                u2 : 10(18 @ 5ad)
+                u3 : 15.0 (25 @ 5af)
+                u4 : 0.15000000596046448 (2d @ 5b4)
+                u5 : 0.800000011920929 (35 @ 5b9)
+
+                u6 sub-sub-sub-sub-block { (3a @ 5be)
+
+                    y : 0.0 (0d @ 5c0)
+                    z : 0.0 (15 @ 5c5)
+				}
+			}
+		}
+
+        component sub-sub-block { (1a @ 5ca)
+
+            component type : CollisionShape (0a @ 5cd)
+            number : 2(10 @ 5dd)
+
+            collision shape sub-sub-sub-block { (3c2 @ 5e0)
+
+
+                u0 sub-sub-sub-sub-block { (0a @ 5e2)
+
+                    w : -5.0 (0d @ 5e4)
+                    x : -5.0 (15 @ 5e9)
+                    y : 10.0 (1d @ 5ee)
+                    z : 10.0 (25 @ 5f3)
+				}
+			}
+
+            collision shape 2 sub-sub-sub-block { (3ca @ 5f9)
+
+                u1 : 1(18 @ 5fc)
+                u3 : 1(28 @ 5fe)
+                w : -15.0 (35 @ 600)
+                x : 15.0 (3d @ 605)
+
+                lua chunk sub-sub-sub-sub-block { (4a @ 60a)
+
+                    main chunk : chunk >
+
+                    === lua =============
+                    local self, target = ...;
+                    
+                    if target:identifier() == "hero" then
+                    	AnimationController.BlendToAnimation(target, 13, 0.1);
+                    	target:setVelocity(Vector3.New(-70,220,0));
+                    end
+
+                    =====================
+                    secondary chunk : \x1bLuaQ\x00\x01\x04\x04\x04\x08\x00\xaf\x00\x00\x00local self, target = ...;\r\n\r\nif target:identifier() == "hero" then\r\n\tAnimationController.BlendToAnimation(target, 13, 0.1);\r\n\ttarget:setVelocity(Vector3.New(-70,220,0));\r\nend\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x02\x08\x14\x00\x00\x00%\x00\x80\x01\x8b\x00\xc0\x00\x9c\x80\x00\x01\x17@@\x01\x16@\x03\x80\x85\x80\x00\x00\x86\xc0@\x01\xc0\x00\x80\x00\x01\x01\x01\x00AA\x01\x00\x9c@\x00\x02\x8b\x80\xc1\x00\x05\xc1\x01\x00\x06\x01B\x02AA\x02\x00\x81\x81\x02\x00\xc1\xc1\x02\x00\x1c\x01\x00\x02\x9c@\x00\x00\x1e\x00\x80\x00\x0c\x00\x00\x00\x04\x0b\x00\x00\x00identifier\x00\x04\x05\x00\x00\x00hero\x00\x04\x14\x00\x00\x00AnimationController\x00\x04\x11\x00\x00\x00BlendToAnimation\x00\x03\x00\x00\x00\x00\x00\x00*@\x03\x9a\x99\x99\x99\x99\x99\xb9?\x04\x0c\x00\x00\x00setVelocity\x00\x04\x08\x00\x00\x00Vector3\x00\x04\x04\x00\x00\x00New\x00\x03\x00\x00\x00\x00\x00\x80Q\xc0\x03\x00\x00\x00\x00\x00\x80k@\x03\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x14\x00\x00\x00\x01\x00\x00\x00\x03\x00\x00\x00\x03\x00\x00\x00\x03\x00\x00\x00\x03\x00\x00\x00\x04\x00\x00\x00\x04\x00\x00\x00\x04\x00\x00\x00\x04\x00\x00\x00\x04\x00\x00\x00\x04\x00\x00\x00\x05\x00\x00\x00\x05\x00\x00\x00\x05\x00\x00\x00\x05\x00\x00\x00\x05\x00\x00\x00\x05\x00\x00\x00\x05\x00\x00\x00\x05\x00\x00\x00\x06\x00\x00\x00\x02\x00\x00\x00\x05\x00\x00\x00self\x00\x01\x00\x00\x00\x13\x00\x00\x00\x07\x00\x00\x00target\x00\x01\x00\x00\x00\x13\x00\x00\x00\x00\x00\x00\x00 (12 @ 6be)
+				}
+                z : 1(58 @ 905)
+			}
+		}
+
+        component sub-sub-block { (1a @ 907)
+
+            component type : SoundEffect (0a @ 909)
+            number : 3(10 @ 916)
+
+            sound effect sub-sub-sub-block { (462 @ 919)
+
+                sound : woosh1 (0a @ 91b)
+                u0 : 0.0 (15 @ 923)
+                u1 : 1.0 (1d @ 928)
+			}
+		}
+
+        component sub-sub-block { (1a @ 92d)
+
+            component type : Damage (0a @ 92f)
+            number : 4(10 @ 937)
+
+            damage sub-sub-sub-block { (3d2 @ 93a)
+
+                u0 : 0(08 @ 93c)
+                u1 : 1(10 @ 93e)
+                u2 : 0(18 @ 940)
+                u5 : 1.0 (35 @ 942)
+                u6 : 0.0 (3d @ 947)
+                u7 : 0(40 @ 94c)
+                u8 : 1(48 @ 94e)
+			}
+		}
+
+        component sub-sub-block { (1a @ 950)
+
+            component type : Light (0a @ 952)
+            number : 6(10 @ 959)
+
+            light sub-sub-sub-block { (412 @ 95c)
+
+                u0 : 3(08 @ 95e)
+                u1 : 1.2000000476837158 (15 @ 960)
+
+                u2 sub-sub-sub-sub-block { (1a @ 965)
+
+                    w : 1.0 (0d @ 967)
+                    x : 0.35555556416511536 (15 @ 96c)
+                    y : 0.35555556416511536 (1d @ 971)
+                    z : 1.0 (25 @ 976)
+				}
+                u3 : 0.0 (25 @ 97b)
+                u4 : 0.00019999999494757503 (2d @ 980)
+
+                u5 sub-sub-sub-sub-block { (32 @ 985)
+
+                    x : 0.0 (0d @ 987)
+                    y : 0.0 (15 @ 98c)
+                    z : 0.0 (1d @ 991)
+				}
+                u6 : 220.0 (3d @ 996)
+			}
+		}
+
+        component sub-sub-block { (1a @ 99b)
+
+            component type : ParticleEmitter (0a @ 99d)
+            number : 102(10 @ 9ae)
+
+            particle emitter sub-sub-sub-block { (7d2 @ 9b1)
+
+                particle : 103(10 @ 9b3)
+                particle : 104(10 @ 9b5)
+                particle : 105(10 @ 9b7)
+                u1 : 0(18 @ 9b9)
+                u2 : 30(20 @ 9bb)
+                u3 : 0(28 @ 9bd)
+                u4 : 0(30 @ 9bf)
+                u6 : 0(40 @ 9c1)
+			}
+		}
+
+        component sub-sub-block { (1a @ 9c3)
+
+            component type : Particle (0a @ 9c5)
+            number : 103(10 @ 9cf)
+
+            particle sub-sub-sub-block { (7da @ 9d2)
+
+                name : particle_fure_1 (0a @ 9d4)
+                u0 : 40.0 (15 @ 9e5)
+			}
+		}
+
+        component sub-sub-block { (1a @ 9ea)
+
+            component type : Particle (0a @ 9ec)
+            number : 104(10 @ 9f6)
+
+            particle sub-sub-sub-block { (7da @ 9f9)
+
+                name : particle_fure_2 (0a @ 9fb)
+                u0 : 40.0 (15 @ a0c)
+			}
+		}
+
+        component sub-sub-block { (1a @ a11)
+
+            component type : Particle (0a @ a13)
+            number : 105(10 @ a1d)
+
+            particle sub-sub-sub-block { (7da @ a20)
+
+                name : particle_fure_3 (0a @ a22)
+                u0 : 40.0 (15 @ a33)
+			}
+		}
+
+        component sub-sub-block { (1a @ a38)
+
+            component type : MagicBolt (0a @ a3a)
+            number : 106(10 @ a45)
+
+            magic bolt sub-sub-sub-block { (1132 @ a48)
+
+                u0 : 102(08 @ a4a)
+                u1 : 0(10 @ a4c)
+                u2 : 0(18 @ a4e)
+
+                u3 sub-sub-sub-sub-block { (22 @ a50)
+
+                    w : 0.4000000059604645 (0d @ a52)
+                    x : 0.05399999022483826 (15 @ a57)
+                    y : 0.054000113159418106 (1d @ a5c)
+                    z : 0.0 (25 @ a61)
+				}
+                u3 : 480.0 (2d @ a66)
+			}
+
+            temp0 sub-sub-sub-block { (1172 @ a6c)
+
+			}
+		}
+
+        component sub-sub-block { (1a @ a6e)
+
+            component type : ProjectileController (0a @ a70)
+            number : 107(10 @ a86)
+
+            projectile controller sub-sub-sub-block { (115a @ a89)
+
+                u0 : 1(08 @ a8b)
+                u1 : 1(10 @ a8d)
+			}
+		}
+
+        position sub-sub-block { (22 @ a8f)
+
+            x position : 0.0 (0d @ a91)
+            y position : 0.0 (15 @ a96)
+		}
+        z position : 0.0 (2d @ a9b)
+        rotation : 0.0 (35 @ aa0)
+        scale : 1.0 (3d @ aa5)
+
+        u0 sub-sub-block { (42 @ aaa)
+
+            w : -50.0 (0d @ aac)
+            x : -50.0 (15 @ ab1)
+            y : 100.0 (1d @ ab6)
+            z : 100.0 (25 @ abb)
+		}
+        hidden : 0(48 @ ac0)
+	}
+    u0 : 1.5 (15 @ ac2)
+}
+
+?item block { (12 @ ac7)
+
+
+    ?sub-item sub-block { (0a @ aca)
+
+        name : bossbolt (12 @ acd)
+
+        component sub-sub-block { (1a @ ad7)
+
+            component type : SimpleGlow (0a @ ad9)
+            number : 1(10 @ ae5)
+
+            simple glow sub-sub-sub-block { (7f2 @ ae8)
+
+
+                u0 sub-sub-sub-sub-block { (0a @ aea)
+
+                    w : 1.0 (0d @ aec)
+                    x : 0.0 (15 @ af1)
+                    y : 3.5762786865234375e-07 (1d @ af6)
+                    z : 0.5 (25 @ afb)
+				}
+                u1 : 30.0 (15 @ b00)
+                u2 : 10(18 @ b05)
+                u3 : 15.0 (25 @ b07)
+                u4 : 0.15000000596046448 (2d @ b0c)
+                u5 : 0.800000011920929 (35 @ b11)
+
+                u6 sub-sub-sub-sub-block { (3a @ b16)
+
+                    y : 0.0 (0d @ b18)
+                    z : 0.0 (15 @ b1d)
+				}
+			}
+		}
+
+        component sub-sub-block { (1a @ b22)
+
+            component type : CollisionShape (0a @ b25)
+            number : 2(10 @ b35)
+
+            collision shape sub-sub-sub-block { (3c2 @ b38)
+
+
+                u0 sub-sub-sub-sub-block { (0a @ b3a)
+
+                    w : -5.0 (0d @ b3c)
+                    x : -5.0 (15 @ b41)
+                    y : 10.0 (1d @ b46)
+                    z : 10.0 (25 @ b4b)
+				}
+			}
+
+            collision shape 2 sub-sub-sub-block { (3ca @ b51)
+
+                u1 : 1(18 @ b54)
+                u3 : 1(28 @ b56)
+                w : -15.0 (35 @ b58)
+                x : 15.0 (3d @ b5d)
+
+                lua chunk sub-sub-sub-sub-block { (4a @ b62)
+
+                    main chunk : chunk >
+
+                    === lua =============
+                    local self, target = ...;
+                    
+                    if target:identifier() == "hero" then
+                    	local clone = target:clone();
+                    	Scene.AddObject(clone);
+                    	clone:setPosition(target:position());
+                    	target:setHidden(true);
+                    	AnimationController.BlendToAnimation(clone, 13, 0.2);
+                    	clone:setVelocity(Vector3.New(-70,220,0));
+                    end
+
+                    =====================
+                    secondary chunk : \x1bLuaQ\x00\x01\x04\x04\x04\x08\x00)\x01\x00\x00local self, target = ...;\r\n\r\nif target:identifier() == "hero" then\r\n\tlocal clone = target:clone();\r\n\tScene.AddObject(clone);\r\n\tclone:setPosition(target:position());\r\n\ttarget:setHidden(true);\r\n\tAnimationController.BlendToAnimation(clone, 13, 0.2);\r\n\tclone:setVelocity(Vector3.New(-70,220,0));\r\nend\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x02\t!\x00\x00\x00%\x00\x80\x01\x8b\x00\xc0\x00\x9c\x80\x00\x01\x17@@\x01\x16\x80\x06\x80\x8b\x80\xc0\x00\x9c\x80\x00\x01\xc5\xc0\x00\x00\xc6\x00\xc1\x01\x00\x01\x00\x01\xdc@\x00\x01\xcb@A\x01K\x81\xc1\x00\\\x01\x00\x01\xdc@\x00\x00\xcb\xc0\xc1\x00B\x01\x80\x00\xdc@\x80\x01\xc5\x00\x02\x00\xc6@\xc2\x01\x00\x01\x00\x01A\x81\x02\x00\x81\xc1\x02\x00\xdc@\x00\x02\xcb\x00C\x01EA\x03\x00F\x81\xc3\x02\x81\xc1\x03\x00\xc1\x01\x04\x00\x01B\x04\x00\\\x01\x00\x02\xdc@\x00\x00\x1e\x00\x80\x00\x12\x00\x00\x00\x04\x0b\x00\x00\x00identifier\x00\x04\x05\x00\x00\x00hero\x00\x04\x06\x00\x00\x00clone\x00\x04\x06\x00\x00\x00Scene\x00\x04\n\x00\x00\x00AddObject\x00\x04\x0c\x00\x00\x00setPosition\x00\x04\t\x00\x00\x00position\x00\x04\n\x00\x00\x00setHidden\x00\x04\x14\x00\x00\x00AnimationController\x00\x04\x11\x00\x00\x00BlendToAnimation\x00\x03\x00\x00\x00\x00\x00\x00*@\x03\x9a\x99\x99\x99\x99\x99\xc9?\x04\x0c\x00\x00\x00setVelocity\x00\x04\x08\x00\x00\x00Vector3\x00\x04\x04\x00\x00\x00New\x00\x03\x00\x00\x00\x00\x00\x80Q\xc0\x03\x00\x00\x00\x00\x00\x80k@\x03\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00!\x00\x00\x00\x01\x00\x00\x00\x03\x00\x00\x00\x03\x00\x00\x00\x03\x00\x00\x00\x03\x00\x00\x00\x04\x00\x00\x00\x04\x00\x00\x00\x05\x00\x00\x00\x05\x00\x00\x00\x05\x00\x00\x00\x05\x00\x00\x00\x06\x00\x00\x00\x06\x00\x00\x00\x06\x00\x00\x00\x06\x00\x00\x00\x07\x00\x00\x00\x07\x00\x00\x00\x07\x00\x00\x00\x08\x00\x00\x00\x08\x00\x00\x00\x08\x00\x00\x00\x08\x00\x00\x00\x08\x00\x00\x00\x08\x00\x00\x00\t\x00\x00\x00\t\x00\x00\x00\t\x00\x00\x00\t\x00\x00\x00\t\x00\x00\x00\t\x00\x00\x00\t\x00\x00\x00\t\x00\x00\x00\n\x00\x00\x00\x03\x00\x00\x00\x05\x00\x00\x00self\x00\x01\x00\x00\x00 \x00\x00\x00\x07\x00\x00\x00target\x00\x01\x00\x00\x00 \x00\x00\x00\x06\x00\x00\x00clone\x00\x07\x00\x00\x00 \x00\x00\x00\x00\x00\x00\x00 (12 @ c90)
+				}
+                z : 1(58 @ 101e)
+			}
+		}
+
+        component sub-sub-block { (1a @ 1020)
+
+            component type : SoundEffect (0a @ 1022)
+            number : 3(10 @ 102f)
+
+            sound effect sub-sub-sub-block { (462 @ 1032)
+
+                sound : woosh1 (0a @ 1034)
+                u0 : 0.0 (15 @ 103c)
+                u1 : 1.0 (1d @ 1041)
+			}
+		}
+
+        component sub-sub-block { (1a @ 1046)
+
+            component type : Damage (0a @ 1048)
+            number : 4(10 @ 1050)
+
+            damage sub-sub-sub-block { (3d2 @ 1053)
+
+                u0 : 0(08 @ 1055)
+                u1 : 0(10 @ 1057)
+                u2 : 0(18 @ 1059)
+                u5 : 1.0 (35 @ 105b)
+                u6 : 0.0 (3d @ 1060)
+                u7 : 0(40 @ 1065)
+                u8 : 1(48 @ 1067)
+			}
+		}
+
+        component sub-sub-block { (1a @ 1069)
+
+            component type : SoundEffect (0a @ 106b)
+            number : 5(10 @ 1078)
+
+            sound effect sub-sub-sub-block { (462 @ 107b)
+
+                sound : sword_impact3 (0a @ 107d)
+                u0 : 0.0 (15 @ 108c)
+                u1 : 1.0 (1d @ 1091)
+			}
+		}
+
+        component sub-sub-block { (1a @ 1096)
+
+            component type : Light (0a @ 1098)
+            number : 6(10 @ 109f)
+
+            light sub-sub-sub-block { (412 @ 10a2)
+
+                u0 : 3(08 @ 10a4)
+                u1 : 1.2000000476837158 (15 @ 10a6)
+
+                u2 sub-sub-sub-sub-block { (1a @ 10ab)
+
+                    w : 1.0 (0d @ 10ad)
+                    x : 0.35555556416511536 (15 @ 10b2)
+                    y : 0.35555556416511536 (1d @ 10b7)
+                    z : 1.0 (25 @ 10bc)
+				}
+                u3 : 0.0 (25 @ 10c1)
+                u4 : 0.00019999999494757503 (2d @ 10c6)
+
+                u5 sub-sub-sub-sub-block { (32 @ 10cb)
+
+                    x : 0.0 (0d @ 10cd)
+                    y : 0.0 (15 @ 10d2)
+                    z : 0.0 (1d @ 10d7)
+				}
+                u6 : 200.0 (3d @ 10dc)
+			}
+		}
+
+        component sub-sub-block { (1a @ 10e1)
+
+            component type : ParticleEmitter (0a @ 10e3)
+            number : 102(10 @ 10f4)
+
+            particle emitter sub-sub-sub-block { (7d2 @ 10f7)
+
+                particle : 103(10 @ 10f9)
+                particle : 104(10 @ 10fb)
+                particle : 105(10 @ 10fd)
+                u1 : 0(18 @ 10ff)
+                u2 : 30(20 @ 1101)
+                u3 : 0(28 @ 1103)
+                u4 : 0(30 @ 1105)
+                u6 : 0(40 @ 1107)
+			}
+		}
+
+        component sub-sub-block { (1a @ 1109)
+
+            component type : Particle (0a @ 110b)
+            number : 103(10 @ 1115)
+
+            particle sub-sub-sub-block { (7da @ 1118)
+
+                name : particle_fure_1 (0a @ 111a)
+                u0 : 40.0 (15 @ 112b)
+			}
+		}
+
+        component sub-sub-block { (1a @ 1130)
+
+            component type : Particle (0a @ 1132)
+            number : 104(10 @ 113c)
+
+            particle sub-sub-sub-block { (7da @ 113f)
+
+                name : particle_fure_2 (0a @ 1141)
+                u0 : 40.0 (15 @ 1152)
+			}
+		}
+
+        component sub-sub-block { (1a @ 1157)
+
+            component type : Particle (0a @ 1159)
+            number : 105(10 @ 1163)
+
+            particle sub-sub-sub-block { (7da @ 1166)
+
+                name : particle_fure_3 (0a @ 1168)
+                u0 : 40.0 (15 @ 1179)
+			}
+		}
+
+        component sub-sub-block { (1a @ 117e)
+
+            component type : MagicBolt (0a @ 1180)
+            number : 106(10 @ 118b)
+
+            magic bolt sub-sub-sub-block { (1132 @ 118e)
+
+                u0 : 102(08 @ 1190)
+                u1 : 3(10 @ 1192)
+                u2 : 5(18 @ 1194)
+
+                u3 sub-sub-sub-sub-block { (22 @ 1196)
+
+                    w : 0.4000000059604645 (0d @ 1198)
+                    x : 0.05399999022483826 (15 @ 119d)
+                    y : 0.054000113159418106 (1d @ 11a2)
+                    z : 0.0 (25 @ 11a7)
+				}
+                u3 : 480.0 (2d @ 11ac)
+			}
+
+            temp0 sub-sub-sub-block { (1172 @ 11b2)
+
+			}
+		}
+
+        component sub-sub-block { (1a @ 11b4)
+
+            component type : ProjectileController (0a @ 11b6)
+            number : 107(10 @ 11cc)
+
+            projectile controller sub-sub-sub-block { (115a @ 11cf)
+
+                u0 : 1(08 @ 11d1)
+                u1 : 1(10 @ 11d3)
+			}
+		}
+
+        position sub-sub-block { (22 @ 11d5)
+
+            x position : 0.0 (0d @ 11d7)
+            y position : 0.0 (15 @ 11dc)
+		}
+        z position : 0.0 (2d @ 11e1)
+        rotation : 0.0 (35 @ 11e6)
+        scale : 1.0 (3d @ 11eb)
+
+        u0 sub-sub-block { (42 @ 11f0)
+
+            w : -50.0 (0d @ 11f2)
+            x : -50.0 (15 @ 11f7)
+            y : 100.0 (1d @ 11fc)
+            z : 100.0 (25 @ 1201)
+		}
+        hidden : 0(48 @ 1206)
+	}
+    u0 : 1.5 (15 @ 1208)
+}
+
+?item block { (12 @ 120d)
+
+
+    ?sub-item sub-block { (0a @ 1210)
+
+        name : firstboss (12 @ 1213)
+
+        component sub-sub-block { (1a @ 121e)
+
+            component type : Model (0a @ 1220)
+            number : 101(10 @ 1227)
+
+            3D model sub-sub-sub-block { (32a @ 122a)
+
+                name : boss1_shadowform (0a @ 122c)
+                u0 : 1.5707963705062866 (15 @ 123e)
+                u1 : 0.0 (1d @ 1243)
+                u2 : 0.0 (25 @ 1248)
+
+                u3 sub-sub-sub-sub-block { (2a @ 124d)
+
+                    w : 0.0 (0d @ 124f)
+                    x : 0.0 (15 @ 1254)
+                    y : 0.0 (1d @ 1259)
+                    z : 1.0 (25 @ 125e)
+				}
+
+                u4 sub-sub-sub-sub-block { (32 @ 1263)
+
+                    x : 0.0 (0d @ 1265)
+                    y : 0.0 (15 @ 126a)
+                    z : 0.0 (1d @ 126f)
+				}
+                u5 : 0(38 @ 1274)
+
+                u6 sub-sub-sub-sub-block { (42 @ 1276)
+
+                    w : 1.0 (0d @ 1278)
+                    x : 1.0 (15 @ 127d)
+                    y : 1.0 (1d @ 1282)
+                    z : 1.0 (25 @ 1287)
+				}
+			}
+		}
+
+        component sub-sub-block { (1a @ 128c)
+
+            component type : KeyframeAnimation (0a @ 128e)
+            number : 102(10 @ 12a1)
+
+            keyframe animation sub-sub-sub-block { (332 @ 12a4)
+
+                linked model component number : 101(08 @ 12a6)
+                name : boss1_shadowform_move (12 @ 12a8)
+                u0 : 1(18 @ 12bf)
+                u1 : 1.0 (25 @ 12c1)
+                u2 : 1(28 @ 12c6)
+			}
+		}
+
+        component sub-sub-block { (1a @ 12c8)
+
+            component type : KeyframeAnimation (0a @ 12ca)
+            number : 103(10 @ 12dd)
+
+            keyframe animation sub-sub-sub-block { (332 @ 12e0)
+
+                linked model component number : 101(08 @ 12e2)
+                name : boss1_shadowform_spinstart (12 @ 12e4)
+                u0 : 0(18 @ 1300)
+                u1 : 0.5 (25 @ 1302)
+                u2 : 1(28 @ 1307)
+			}
+		}
+
+        component sub-sub-block { (1a @ 1309)
+
+            component type : KeyframeAnimation (0a @ 130b)
+            number : 104(10 @ 131e)
+
+            keyframe animation sub-sub-sub-block { (332 @ 1321)
+
+                linked model component number : 101(08 @ 1323)
+                name : boss1_shadowform_spin (12 @ 1325)
+                u0 : 1(18 @ 133c)
+                u1 : 2.0 (25 @ 133e)
+                u2 : 1(28 @ 1343)
+			}
+		}
+
+        component sub-sub-block { (1a @ 1345)
+
+            component type : Damage (0a @ 1347)
+            number : 106(10 @ 134f)
+
+            damage sub-sub-sub-block { (3d2 @ 1352)
+
+                u0 : 1000(08 @ 1354)
+                u1 : 0(10 @ 1357)
+                u2 : 0(18 @ 1359)
+                u5 : 1.0 (35 @ 135b)
+                u6 : 0.0 (3d @ 1360)
+                u7 : 0(40 @ 1365)
+                u8 : 1(48 @ 1367)
+			}
+		}
+
+        component sub-sub-block { (1a @ 1369)
+
+            component type : Health (0a @ 136b)
+            number : 107(10 @ 1373)
+
+            health sub-sub-sub-block { (3da @ 1376)
+
+                u0 : 800(08 @ 1378)
+                u1 : 0(10 @ 137b)
+
+                u2 sub-sub-sub-sub-block { (1a @ 137d)
+
+                    x : 0.0 (0d @ 137f)
+                    y : 50.0 (15 @ 1384)
+				}
+			}
+		}
+
+        component sub-sub-block { (1a @ 1389)
+
+            component type : MonsterEntity (0a @ 138c)
+            number : 108(10 @ 139b)
+
+            entity sub-sub-sub-block { (4c2 @ 139e)
+
+                u0 : 18446744073709551615(08 @ 13a0)
+                u1 : 1(10 @ 13ab)
+			}
+
+            ?monster entity sub-sub-sub-block { (4f2 @ 13ae)
+
+                u0 :  (0a @ 13b1)
+
+                lua chunk sub-sub-sub-sub-block { (12 @ 13b3)
+
+                    main chunk : chunk >
+
+                    === lua =============
+                    local self = ...;
+                    
+                    self["hurt"] = self["hurt"] + 1
+                    
+                    if self["hurt"] >= 1 then
+                    	Program.Execute(self, 147);
+                    	self["hurt"] = -10;
+                    end
+                    
+
+                    =====================
+                    secondary chunk : \x1bLuaQ\x00\x01\x04\x04\x04\x08\x00\x8d\x00\x00\x00local self = ...;\r\n\r\nself["hurt"] = self["hurt"] + 1\r\n\r\nif self["hurt"] >= 1 then\r\n\tProgram.Execute(self, 147);\r\n\tself["hurt"] = -10;\r\nend\r\n\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x02\x04\x0e\x00\x00\x00%\x00\x00\x01F\x00@\x00L@\xc0\x00\t@\x00\x80F\x00@\x00\x19@\x80\x80\x16@\x01\x80E\x80\x00\x00F\xc0\xc0\x00\x80\x00\x00\x00\xc1\x00\x01\x00\\@\x80\x01\t@A\x80\x1e\x00\x80\x00\x06\x00\x00\x00\x04\x05\x00\x00\x00hurt\x00\x03\x00\x00\x00\x00\x00\x00\xf0?\x04\x08\x00\x00\x00Program\x00\x04\x08\x00\x00\x00Execute\x00\x03\x00\x00\x00\x00\x00`b@\x03\x00\x00\x00\x00\x00\x00$\xc0\x00\x00\x00\x00\x0e\x00\x00\x00\x01\x00\x00\x00\x03\x00\x00\x00\x03\x00\x00\x00\x03\x00\x00\x00\x05\x00\x00\x00\x05\x00\x00\x00\x05\x00\x00\x00\x06\x00\x00\x00\x06\x00\x00\x00\x06\x00\x00\x00\x06\x00\x00\x00\x06\x00\x00\x00\x07\x00\x00\x00\x08\x00\x00\x00\x01\x00\x00\x00\x05\x00\x00\x00self\x00\x01\x00\x00\x00\r\x00\x00\x00\x00\x00\x00\x00 (12 @ 1445)
+				}
+                u2 : 1(18 @ 15c9)
+                u3 : 1(20 @ 15cb)
+			}
+		}
+
+        component sub-sub-block { (1a @ 15cd)
+
+            component type : CollisionShape (0a @ 15cf)
+            number : 109(10 @ 15df)
+
+            collision shape sub-sub-sub-block { (3c2 @ 15e2)
+
+
+                u0 sub-sub-sub-sub-block { (0a @ 15e4)
+
+                    w : -40.0 (0d @ 15e6)
+                    x : 0.0 (15 @ 15eb)
+                    y : 80.0 (1d @ 15f0)
+                    z : 300.0 (25 @ 15f5)
+				}
+			}
+
+            collision shape 2 sub-sub-sub-block { (3ca @ 15fb)
+
+                u1 : 1(18 @ 15fd)
+                u2 : 1(20 @ 15ff)
+                u3 : 1(28 @ 1601)
+                w : -15.0 (35 @ 1603)
+                x : 15.0 (3d @ 1608)
+                z : 1(58 @ 160d)
+			}
+		}
+
+        component sub-sub-block { (1a @ 160f)
+
+            component type : AnimationController (0a @ 1611)
+            number : 111(10 @ 1626)
+
+            animation controller sub-sub-sub-block { (4aa @ 1629)
+
+                model component : 101(08 @ 162b)
+                u1 : 0(10 @ 162d)
+                u2 : 0(18 @ 162f)
+			}
+		}
+
+        component sub-sub-block { (1a @ 1631)
+
+            component type : SimpleGlow (0a @ 1633)
+            number : 114(10 @ 163f)
+
+            simple glow sub-sub-sub-block { (7f2 @ 1642)
+
+
+                u0 sub-sub-sub-sub-block { (0a @ 1644)
+
+                    w : 0.3222222626209259 (0d @ 1646)
+                    x : 0.17777778208255768 (15 @ 164b)
+                    y : 0.17777778208255768 (1d @ 1650)
+                    z : 0.3333333432674408 (25 @ 1655)
+				}
+                u1 : 50.0 (15 @ 165a)
+                u2 : 10(18 @ 165f)
+                u3 : 15.0 (25 @ 1661)
+                u4 : 0.0 (2d @ 1666)
+                u5 : 0.800000011920929 (35 @ 166b)
+
+                u6 sub-sub-sub-sub-block { (3a @ 1670)
+
+                    y : 0.0 (0d @ 1672)
+                    z : 40.0 (15 @ 1677)
+				}
+			}
+		}
+
+        component sub-sub-block { (1a @ 167c)
+
+            component type : EntityController (0a @ 167e)
+            number : 117(10 @ 1690)
+
+            entity controller sub-sub-sub-block { (50a @ 1693)
+
+                entity component : 108(08 @ 1695)
+                animation controller component : 111(10 @ 1697)
+                u2 : 102(18 @ 1699)
+                collision shape : 109(20 @ 169b)
+                u4 : 100.0 (2d @ 169d)
+                u5 : 16000.0 (35 @ 16a2)
+                u6 : 1000.0 (3d @ 16a7)
+                u7 : 3(40 @ 16ac)
+			}
+		}
+
+        component sub-sub-block { (1a @ 16ae)
+
+            component type : EntityAction (0a @ 16b1)
+            number : 118(10 @ 16bf)
+
+            entity action sub-sub-sub-block { (512 @ 16c2)
+
+
+                lua chunk sub-sub-sub-sub-block { (0a @ 16c5)
+
+                    main chunk : chunk >
+
+                    === lua =============
+                    local self = ...;
+                    
+                    local spinStartAnimation = 103;
+                    local spinAnimation = 104;
+                    local damageShape = 119;
+                    
+                    AnimationController.BlendToAnimation(self, spinStartAnimation);
+                    Program.Wait(KeyframeAnimation.TimeToCompletion(self, spinStartAnimation));
+                    
+                    EntityController.SetMoveSpeed(self, 150);
+                    CollisionShape.SetEnabled(self, damageShape, true);
+                    
+                    AnimationController.BlendToAnimation(self, spinAnimation);
+                    
+                    Program.Wait(3);
+                    
+                    CollisionShape.SetEnabled(self, damageShape, false);
+                    
+
+                    =====================
+                    secondary chunk : \x1bLuaQ\x00\x01\x04\x04\x04\x08\x00\xe9\x01\x00\x00local self = ...;\r\n\r\nlocal spinStartAnimation = 103;\r\nlocal spinAnimation = 104;\r\nlocal damageShape = 119;\r\n\r\nAnimationController.BlendToAnimation(self, spinStartAnimation);\r\nProgram.Wait(KeyframeAnimation.TimeToCompletion(self, spinStartAnimation));\r\n\r\nEntityController.SetMoveSpeed(self, 150);\r\nCollisionShape.SetEnabled(self, damageShape, true);\r\n\r\nAnimationController.BlendToAnimation(self, spinAnimation);\r\n\r\nProgram.Wait(3);\r\n\r\nCollisionShape.SetEnabled(self, damageShape, false);\r\n\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x02\x08,\x00\x00\x00%\x00\x00\x01A\x00\x00\x00\x81@\x00\x00\xc1\x80\x00\x00\x05\xc1\x00\x00\x06\x01A\x02@\x01\x00\x00\x80\x01\x80\x00\x1cA\x80\x01\x05A\x01\x00\x06\x81A\x02E\xc1\x01\x00F\x01\xc2\x02\x80\x01\x00\x00\xc0\x01\x80\x00\\\x01\x80\x01\x1cA\x00\x00\x05A\x02\x00\x06\x81B\x02@\x01\x00\x00\x81\xc1\x02\x00\x1cA\x80\x01\x05\x01\x03\x00\x06AC\x02@\x01\x00\x00\x80\x01\x80\x01\xc2\x01\x80\x00\x1cA\x00\x02\x05\xc1\x00\x00\x06\x01A\x02@\x01\x00\x00\x80\x01\x00\x01\x1cA\x80\x01\x05A\x01\x00\x06\x81A\x02A\x81\x03\x00\x1cA\x00\x01\x05\x01\x03\x00\x06AC\x02@\x01\x00\x00\x80\x01\x80\x01\xc2\x01\x00\x00\x1cA\x00\x02\x1e\x00\x80\x00\x0f\x00\x00\x00\x03\x00\x00\x00\x00\x00\xc0Y@\x03\x00\x00\x00\x00\x00\x00Z@\x03\x00\x00\x00\x00\x00\xc0]@\x04\x14\x00\x00\x00AnimationController\x00\x04\x11\x00\x00\x00BlendToAnimation\x00\x04\x08\x00\x00\x00Program\x00\x04\x05\x00\x00\x00Wait\x00\x04\x12\x00\x00\x00KeyframeAnimation\x00\x04\x11\x00\x00\x00TimeToCompletion\x00\x04\x11\x00\x00\x00EntityController\x00\x04\r\x00\x00\x00SetMoveSpeed\x00\x03\x00\x00\x00\x00\x00\xc0b@\x04\x0f\x00\x00\x00CollisionShape\x00\x04\x0b\x00\x00\x00SetEnabled\x00\x03\x00\x00\x00\x00\x00\x00\x08@\x00\x00\x00\x00,\x00\x00\x00\x01\x00\x00\x00\x03\x00\x00\x00\x04\x00\x00\x00\x05\x00\x00\x00\x07\x00\x00\x00\x07\x00\x00\x00\x07\x00\x00\x00\x07\x00\x00\x00\x07\x00\x00\x00\x08\x00\x00\x00\x08\x00\x00\x00\x08\x00\x00\x00\x08\x00\x00\x00\x08\x00\x00\x00\x08\x00\x00\x00\x08\x00\x00\x00\x08\x00\x00\x00\n\x00\x00\x00\n\x00\x00\x00\n\x00\x00\x00\n\x00\x00\x00\n\x00\x00\x00\x0b\x00\x00\x00\x0b\x00\x00\x00\x0b\x00\x00\x00\x0b\x00\x00\x00\x0b\x00\x00\x00\x0b\x00\x00\x00\r\x00\x00\x00\r\x00\x00\x00\r\x00\x00\x00\r\x00\x00\x00\r\x00\x00\x00\x0f\x00\x00\x00\x0f\x00\x00\x00\x0f\x00\x00\x00\x0f\x00\x00\x00\x11\x00\x00\x00\x11\x00\x00\x00\x11\x00\x00\x00\x11\x00\x00\x00\x11\x00\x00\x00\x11\x00\x00\x00\x11\x00\x00\x00\x04\x00\x00\x00\x05\x00\x00\x00self\x00\x01\x00\x00\x00+\x00\x00\x00\x13\x00\x00\x00spinStartAnimation\x00\x02\x00\x00\x00+\x00\x00\x00\x0e\x00\x00\x00spinAnimation\x00\x03\x00\x00\x00+\x00\x00\x00\x0c\x00\x00\x00damageShape\x00\x04\x00\x00\x00+\x00\x00\x00\x00\x00\x00\x00 (12 @ 18b3)
+				}
+			}
+		}
+
+        component sub-sub-block { (1a @ 1d81)
+
+            component type : CollisionShape (0a @ 1d83)
+            number : 119(10 @ 1d93)
+            name : spindamage (1a @ 1d95)
+
+            collision shape sub-sub-sub-block { (3c2 @ 1da2)
+
+
+                u0 sub-sub-sub-sub-block { (0a @ 1da4)
+
+                    w : -200.0 (0d @ 1da6)
+                    x : 0.0 (15 @ 1dab)
+                    y : 400.0 (1d @ 1db0)
+                    z : 60.0 (25 @ 1db5)
+				}
+			}
+
+            collision shape 2 sub-sub-sub-block { (3ca @ 1dbb)
+
+                u3 : 1(28 @ 1dbd)
+                w : -15.0 (35 @ 1dbf)
+                x : 15.0 (3d @ 1dc4)
+                z : 0(58 @ 1dc9)
+			}
+		}
+
+        component sub-sub-block { (1a @ 1dcb)
+
+            component type : ParticleEmitter (0a @ 1dce)
+            number : 124(10 @ 1ddf)
+
+            particle emitter sub-sub-sub-block { (7d2 @ 1de2)
+
+                particle : 125(10 @ 1de5)
+                particle : 126(10 @ 1de7)
+                particle : 127(10 @ 1de9)
+                u1 : 0(18 @ 1deb)
+                u2 : 100(20 @ 1ded)
+                u3 : 0(28 @ 1def)
+                u4 : 0(30 @ 1df1)
+
+                u5 sub-sub-sub-sub-block { (3a @ 1df3)
+
+                    u0 : 5(08 @ 1df6)
+
+                    u1 sub-sub-sub-sub-sub-block { (12 @ 1df8)
+
+                        w : 0.0 (0d @ 1dfa)
+                        x : 0.0 (15 @ 1dff)
+                        y : 0.0 (1d @ 1e04)
+                        z : 1.0 (25 @ 1e09)
+					}
+                    u2 : 260.0 (1d @ 1e0e)
+                    u2 : 45.0 (1d @ 1e13)
+                    u2 : 0.0 (1d @ 1e18)
+                    u2 : 15.0 (1d @ 1e1d)
+                    u2 : 0.0 (1d @ 1e22)
+                    u2 : 450.0 (1d @ 1e27)
+                    u2 : 0.0 (1d @ 1e2c)
+                    u2 : 0.0 (1d @ 1e31)
+                    u2 : 1.0 (1d @ 1e36)
+                    u2 : 0.0 (1d @ 1e3b)
+                    u2 : 1.0 (1d @ 1e40)
+                    u2 : 0.004999999888241291 (1d @ 1e45)
+                    u2 : 0.20000000298023224 (1d @ 1e4a)
+                    u2 : 0.0 (1d @ 1e4f)
+                    u2 : 0.0 (1d @ 1e54)
+                    u3 : 0.0 (25 @ 1e59)
+                    u4 : 0.0 (2d @ 1e5e)
+                    u5 : 0.0 (35 @ 1e63)
+
+                    u6 sub-sub-sub-sub-sub-block { (3a @ 1e68)
+
+                        u0 : 0.0 (0d @ 1e6a)
+                        u1 : 50.0 (15 @ 1e6f)
+                        u2 : 0.0 (1d @ 1e74)
+					}
+				}
+                u6 : 0(40 @ 1e79)
+
+                u7 sub-sub-sub-sub-block { (4a @ 1e7b)
+
+                    u0 : 0.0 (0d @ 1e7d)
+                    u1 : 3000.0 (15 @ 1e82)
+                    u2 : 0.0 (1d @ 1e87)
+				}
+			}
+		}
+
+        component sub-sub-block { (1a @ 1e8c)
+
+            component type : Particle (0a @ 1e8e)
+            number : 125(10 @ 1e98)
+
+            particle sub-sub-sub-block { (7da @ 1e9b)
+
+                name : particle_fure_1 (0a @ 1e9d)
+                u0 : 25.0 (15 @ 1eae)
+			}
+		}
+
+        component sub-sub-block { (1a @ 1eb3)
+
+            component type : Particle (0a @ 1eb5)
+            number : 126(10 @ 1ebf)
+
+            particle sub-sub-sub-block { (7da @ 1ec2)
+
+                name : particle_fure_2 (0a @ 1ec4)
+                u0 : 20.0 (15 @ 1ed5)
+			}
+		}
+
+        component sub-sub-block { (1a @ 1eda)
+
+            component type : Particle (0a @ 1edc)
+            number : 127(10 @ 1ee6)
+
+            particle sub-sub-sub-block { (7da @ 1ee9)
+
+                name : particle_fure_3 (0a @ 1eeb)
+                u0 : 15.0 (15 @ 1efc)
+			}
+		}
+
+        component sub-sub-block { (1a @ 1f01)
+
+            component type : EntityAction (0a @ 1f04)
+            number : 132(10 @ 1f12)
+            name : castbolt (1a @ 1f15)
+
+            entity action sub-sub-sub-block { (512 @ 1f20)
+
+
+                lua chunk sub-sub-sub-sub-block { (0a @ 1f23)
+
+                    main chunk : chunk >
+
+                    === lua =============
+                    local self = ...;
+                    
+                    local invokeAnimation = 102;
+                    local castAnimation = 142;
+                    
+                    KeyframeAnimation.SetCurrentTime(self, invokeAnimation, 0.0);
+                    AnimationController.BlendToAnimation(self, invokeAnimation);
+                    
+                    
+                    Skill.BeginCasting(self, "bossbolt", Vector3.New(EntityController.FacingDirection(self), 0, 0));
+                    
+                    Program.Wait(0.5);
+                    
+                    KeyframeAnimation.SetCurrentTime(self, castAnimation, 0.0);
+                    AnimationController.BlendToAnimation(self, castAnimation);
+                    
+                    Program.Wait(KeyframeAnimation.TimeToFrame(self, castAnimation, 13));
+                    
+                    Skill.FinishCasting(self);
+                    
+                    Program.Wait(KeyframeAnimation.TimeToCompletion(self, castAnimation));
+                    
+                    
+                    
+
+                    =====================
+                    secondary chunk : \x1bLuaQ\x00\x01\x04\x04\x04\x08\x00{\x02\x00\x00local self = ...;\r\n\r\nlocal invokeAnimation = 102;\r\nlocal castAnimation = 142;\r\n\r\nKeyframeAnimation.SetCurrentTime(self, invokeAnimation, 0.0);\r\nAnimationController.BlendToAnimation(self, invokeAnimation);\r\n\r\n\r\nSkill.BeginCasting(self, "bossbolt", Vector3.New(EntityController.FacingDirection(self), 0, 0));\r\n\r\nProgram.Wait(0.5);\r\n\r\nKeyframeAnimation.SetCurrentTime(self, castAnimation, 0.0);\r\nAnimationController.BlendToAnimation(self, castAnimation);\r\n\r\nProgram.Wait(KeyframeAnimation.TimeToFrame(self, castAnimation, 13));\r\n\r\nSkill.FinishCasting(self);\r\n\r\nProgram.Wait(KeyframeAnimation.TimeToCompletion(self, castAnimation));\r\n\r\n\r\n\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x02\nA\x00\x00\x00%\x00\x00\x01A\x00\x00\x00\x81@\x00\x00\xc5\x80\x00\x00\xc6\xc0\xc0\x01\x00\x01\x00\x00@\x01\x80\x00\x81\x01\x01\x00\xdc@\x00\x02\xc5@\x01\x00\xc6\x80\xc1\x01\x00\x01\x00\x00@\x01\x80\x00\xdc@\x80\x01\xc5\xc0\x01\x00\xc6\x00\xc2\x01\x00\x01\x00\x00AA\x02\x00\x85\x81\x02\x00\x86\xc1B\x03\xc5\x01\x03\x00\xc6A\xc3\x03\x00\x02\x00\x00\xdc\x81\x00\x01\x01\x02\x01\x00A\x02\x01\x00\x9c\x01\x00\x02\xdc@\x00\x00\xc5\x80\x03\x00\xc6\xc0\xc3\x01\x01\x01\x04\x00\xdc@\x00\x01\xc5\x80\x00\x00\xc6\xc0\xc0\x01\x00\x01\x00\x00@\x01\x00\x01\x81\x01\x01\x00\xdc@\x00\x02\xc5@\x01\x00\xc6\x80\xc1\x01\x00\x01\x00\x00@\x01\x00\x01\xdc@\x80\x01\xc5\x80\x03\x00\xc6\xc0\xc3\x01\x05\x81\x00\x00\x06AD\x02@\x01\x00\x00\x80\x01\x00\x01\xc1\x81\x04\x00\x1c\x01\x00\x02\xdc@\x00\x00\xc5\xc0\x01\x00\xc6\xc0\xc4\x01\x00\x01\x00\x00\xdc@\x00\x01\xc5\x80\x03\x00\xc6\xc0\xc3\x01\x05\x81\x00\x00\x06\x01E\x02@\x01\x00\x00\x80\x01\x00\x01\x1c\x01\x80\x01\xdc@\x00\x00\x1e\x00\x80\x00\x15\x00\x00\x00\x03\x00\x00\x00\x00\x00\x80Y@\x03\x00\x00\x00\x00\x00\xc0a@\x04\x12\x00\x00\x00KeyframeAnimation\x00\x04\x0f\x00\x00\x00SetCurrentTime\x00\x03\x00\x00\x00\x00\x00\x00\x00\x00\x04\x14\x00\x00\x00AnimationController\x00\x04\x11\x00\x00\x00BlendToAnimation\x00\x04\x06\x00\x00\x00Skill\x00\x04\r\x00\x00\x00BeginCasting\x00\x04\t\x00\x00\x00bossbolt\x00\x04\x08\x00\x00\x00Vector3\x00\x04\x04\x00\x00\x00New\x00\x04\x11\x00\x00\x00EntityController\x00\x04\x10\x00\x00\x00FacingDirection\x00\x04\x08\x00\x00\x00Program\x00\x04\x05\x00\x00\x00Wait\x00\x03\x00\x00\x00\x00\x00\x00\xe0?\x04\x0c\x00\x00\x00TimeToFrame\x00\x03\x00\x00\x00\x00\x00\x00*@\x04\x0e\x00\x00\x00FinishCasting\x00\x04\x11\x00\x00\x00TimeToCompletion\x00\x00\x00\x00\x00A\x00\x00\x00\x01\x00\x00\x00\x03\x00\x00\x00\x04\x00\x00\x00\x06\x00\x00\x00\x06\x00\x00\x00\x06\x00\x00\x00\x06\x00\x00\x00\x06\x00\x00\x00\x06\x00\x00\x00\x07\x00\x00\x00\x07\x00\x00\x00\x07\x00\x00\x00\x07\x00\x00\x00\x07\x00\x00\x00\n\x00\x00\x00\n\x00\x00\x00\n\x00\x00\x00\n\x00\x00\x00\n\x00\x00\x00\n\x00\x00\x00\n\x00\x00\x00\n\x00\x00\x00\n\x00\x00\x00\n\x00\x00\x00\n\x00\x00\x00\n\x00\x00\x00\n\x00\x00\x00\n\x00\x00\x00\x0c\x00\x00\x00\x0c\x00\x00\x00\x0c\x00\x00\x00\x0c\x00\x00\x00\x0e\x00\x00\x00\x0e\x00\x00\x00\x0e\x00\x00\x00\x0e\x00\x00\x00\x0e\x00\x00\x00\x0e\x00\x00\x00\x0f\x00\x00\x00\x0f\x00\x00\x00\x0f\x00\x00\x00\x0f\x00\x00\x00\x0f\x00\x00\x00\x11\x00\x00\x00\x11\x00\x00\x00\x11\x00\x00\x00\x11\x00\x00\x00\x11\x00\x00\x00\x11\x00\x00\x00\x11\x00\x00\x00\x11\x00\x00\x00\x11\x00\x00\x00\x13\x00\x00\x00\x13\x00\x00\x00\x13\x00\x00\x00\x13\x00\x00\x00\x15\x00\x00\x00\x15\x00\x00\x00\x15\x00\x00\x00\x15\x00\x00\x00\x15\x00\x00\x00\x15\x00\x00\x00\x15\x00\x00\x00\x15\x00\x00\x00\x15\x00\x00\x00\x03\x00\x00\x00\x05\x00\x00\x00self\x00\x01\x00\x00\x00@\x00\x00\x00\x10\x00\x00\x00invokeAnimation\x00\x02\x00\x00\x00@\x00\x00\x00\x0e\x00\x00\x00castAnimation\x00\x03\x00\x00\x00@\x00\x00\x00\x00\x00\x00\x00 (12 @ 21a3)
+				}
+			}
+		}
+
+        component sub-sub-block { (1a @ 27e8)
+
+            component type : Skill (0a @ 27ea)
+            number : 137(10 @ 27f1)
+
+            skill sub-sub-sub-block { (1142 @ 27f5)
+
+                u0 : 0(08 @ 27f7)
+
+                u1 sub-sub-sub-sub-block { (12 @ 27f9)
+
+                    x : 70.0 (0d @ 27fb)
+                    y : 50.0 (15 @ 2800)
+				}
+                cast animation : boss1_spellcast (1a @ 2805)
+			}
+		}
+
+        component sub-sub-block { (1a @ 2816)
+
+            component type : KeyframeAnimation (0a @ 2818)
+            number : 142(10 @ 282b)
+
+            keyframe animation sub-sub-sub-block { (332 @ 282f)
+
+                linked model component number : 101(08 @ 2831)
+                name : boss1_shadowform_shoot (12 @ 2833)
+                u0 : 1(18 @ 284b)
+                u1 : 1.0 (25 @ 284d)
+                u2 : 1(28 @ 2852)
+			}
+		}
+
+        component sub-sub-block { (1a @ 2854)
+
+            component type : Program (0a @ 2857)
+            number : 147(10 @ 2860)
+
+            program sub-sub-sub-block { (4ea @ 2864)
+
+                u0 : 1(08 @ 2867)
+
+                lua chunk sub-sub-sub-sub-block { (12 @ 2869)
+
+                    main chunk : chunk >
+
+                    === lua =============
+                    local self = ...;
+                    
+                    Program.Wait(0.2);
+                    Game.FadeOut();
+                    Game.SetCinematicMode(true, false);
+                    Program.Wait(0.5);
+                    Scene.Find("hero"):setPosition(Scene.Find("questMarker3"):position());
+                    Game.FadeIn();
+                    ShowTextBubble("corruptorBubble", self:position() + Vector3.New(0, 80, 0), "You\'re no match to me!");
+                    Program.Wait(1.0);
+                    
+                    Program.Wait(1.5);
+                    HideTextBubble("corruptorBubble");
+                    
+                    Game.Flash();
+                    Scene.OverrideLights(1,0,0);
+                    
+                    Scene.Find("followherofocus1")["target"] = Scene.Find("questMarker3");
+                    EntityController.PerformAction(self, 132);
+                    local focus1 = Scene.Find("focus1");
+                    Program.Wait(0.4);
+                    Scene.Find("followherofocus1"):setHidden(true);
+                    TransformController.TranslateBy(focus1, Vector3.New(-2000,300,0), 3);
+                    Program.Wait(0.1);
+                    
+                    Camera.FocusAtShape(focus1, Rectangle.New(0,0,0,0));
+                    Camera.JumpToFocus();
+                    Camera.FollowShape(focus1, Rectangle.New(0,0,0,0));
+                    
+                    Program.Wait(1.3);
+                    Scene.Find("followherofocus1"):setHidden(false);
+                    MusicPlayer.PlayMusic("gameover");
+                    Program.Wait(1.0);
+                    ShowTextBubble("corruptorBubble2", self:position() + Vector3.New(0, 80, 0), "BWHA BWHA BWHA!");
+                    
+                    Program.Wait(1.5);
+                    HideTextBubble("corruptorBubble2");
+                    
+                    Program.Wait(3.0);
+                    
+                    Character.SetQuestCompleted("quest01_find_master");
+                    Character.AddQuest("quest02_village_elder");
+                    
+                    Game.FadeOut(1.5);
+                    Program.Wait(1.5);
+                    MusicPlayer.FadeOut(1.5);
+                    Program.Wait(2);
+                    Game.SetCinematicMode(false, false);
+                    
+                    Game.EnterPortal("town_healerhouse", "spawn_from_resurrection");
+                    
+
+                    =====================
+                    secondary chunk : \x1bLuaQ\x00\x01\x04\x04\x04\x08\x00\xc8\x05\x00\x00local self = ...;\r\n\r\nProgram.Wait(0.2);\r\nGame.FadeOut();\r\nGame.SetCinematicMode(true, false);\r\nProgram.Wait(0.5);\r\nScene.Find("hero"):setPosition(Scene.Find("questMarker3"):position());\r\nGame.FadeIn();\r\nShowTextBubble("corruptorBubble", self:position() + Vector3.New(0, 80, 0), "You\'re no match to me!");\r\nProgram.Wait(1.0);\r\n\r\nProgram.Wait(1.5);\r\nHideTextBubble("corruptorBubble");\r\n\r\nGame.Flash();\r\nScene.OverrideLights(1,0,0);\r\n\r\nScene.Find("followherofocus1")["target"] = Scene.Find("questMarker3");\r\nEntityController.PerformAction(self, 132);\r\nlocal focus1 = Scene.Find("focus1");\r\nProgram.Wait(0.4);\r\nScene.Find("followherofocus1"):setHidden(true);\r\nTransformController.TranslateBy(focus1, Vector3.New(-2000,300,0), 3);\r\nProgram.Wait(0.1);\r\n\r\nCamera.FocusAtShape(focus1, Rectangle.New(0,0,0,0));\r\nCamera.JumpToFocus();\r\nCamera.FollowShape(focus1, Rectangle.New(0,0,0,0));\r\n\r\nProgram.Wait(1.3);\r\nScene.Find("followherofocus1"):setHidden(false);\r\nMusicPlayer.PlayMusic("gameover");\r\nProgram.Wait(1.0);\r\nShowTextBubble("corruptorBubble2", self:position() + Vector3.New(0, 80, 0), "BWHA BWHA BWHA!");\r\n\r\nProgram.Wait(1.5);\r\nHideTextBubble("corruptorBubble2");\r\n\r\nProgram.Wait(3.0);\r\n\r\nCharacter.SetQuestCompleted("quest01_find_master");\r\nCharacter.AddQuest("quest02_village_elder");\r\n\r\nGame.FadeOut(1.5);\r\nProgram.Wait(1.5);\r\nMusicPlayer.FadeOut(1.5);\r\nProgram.Wait(2);\r\nGame.SetCinematicMode(false, false);\r\n\r\nGame.EnterPortal("town_healerhouse", "spawn_from_resurrection");\r\n\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x02\t\xd4\x00\x00\x00%\x00\x00\x01E\x00\x00\x00F@\xc0\x00\x81\x80\x00\x00\\@\x00\x01E\xc0\x00\x00F\x00\xc1\x00\\@\x80\x00E\xc0\x00\x00F@\xc1\x00\x82\x00\x80\x00\xc2\x00\x00\x00\\@\x80\x01E\x00\x00\x00F@\xc0\x00\x81\x80\x01\x00\\@\x00\x01E\xc0\x01\x00F\x00\xc2\x00\x81@\x02\x00\\\x80\x00\x01K\x80\xc2\x00\xc5\xc0\x01\x00\xc6\x00\xc2\x01\x01\xc1\x02\x00\xdc\x80\x00\x01\xcb\x00\xc3\x01\xdc\x00\x00\x01\\@\x00\x00E\xc0\x00\x00F@\xc3\x00\\@\x80\x00E\x80\x03\x00\x81\xc0\x03\x00\xcb\x00C\x00\xdc\x80\x00\x01\x05\x01\x04\x00\x06AD\x02A\x81\x04\x00\x81\xc1\x04\x00\xc1\x81\x04\x00\x1c\x81\x00\x02\xcc\x00\x81\x01\x01\x01\x05\x00\\@\x00\x02E\x00\x00\x00F@\xc0\x00\x81@\x05\x00\\@\x00\x01E\x00\x00\x00F@\xc0\x00\x81\x80\x05\x00\\@\x00\x01E\xc0\x05\x00\x81\xc0\x03\x00\\@\x00\x01E\xc0\x00\x00F\x00\xc6\x00\\@\x80\x00E\xc0\x01\x00F@\xc6\x00\x81@\x05\x00\xc1\x80\x04\x00\x01\x81\x04\x00\\@\x00\x02E\xc0\x01\x00F\x00\xc2\x00\x81\x80\x06\x00\\\x80\x00\x01\x85\xc0\x01\x00\x86\x00B\x01\xc1\xc0\x02\x00\x9c\x80\x00\x01I\x80\x80\x8dE\x00\x07\x00F@\xc7\x00\x80\x00\x00\x00\xc1\x80\x07\x00\\@\x80\x01E\xc0\x01\x00F\x00\xc2\x00\x81\xc0\x07\x00\\\x80\x00\x01\x85\x00\x00\x00\x86@@\x01\xc1\x00\x08\x00\x9c@\x00\x01\x85\xc0\x01\x00\x86\x00B\x01\xc1\x80\x06\x00\x9c\x80\x00\x01\x8b@H\x01\x02\x01\x80\x00\x9c@\x80\x01\x85\x80\x08\x00\x86\xc0H\x01\xc0\x00\x80\x00\x05\x01\x04\x00\x06AD\x02A\x01\t\x00\x81A\t\x00\xc1\x81\x04\x00\x1c\x81\x00\x02A\x81\t\x00\x9c@\x00\x02\x85\x00\x00\x00\x86@@\x01\xc1\xc0\t\x00\x9c@\x00\x01\x85\x00\n\x00\x86@J\x01\xc0\x00\x80\x00\x05\x81\n\x00\x06AD\x02A\x81\x04\x00\x81\x81\x04\x00\xc1\x81\x04\x00\x01\x82\x04\x00\x1c\x01\x80\x02\x9c@\x00\x00\x85\x00\n\x00\x86\xc0J\x01\x9c@\x80\x00\x85\x00\n\x00\x86\x00K\x01\xc0\x00\x80\x00\x05\x81\n\x00\x06AD\x02A\x81\x04\x00\x81\x81\x04\x00\xc1\x81\x04\x00\x01\x82\x04\x00\x1c\x01\x80\x02\x9c@\x00\x00\x85\x00\x00\x00\x86@@\x01\xc1@\x0b\x00\x9c@\x00\x01\x85\xc0\x01\x00\x86\x00B\x01\xc1\x80\x06\x00\x9c\x80\x00\x01\x8b@H\x01\x02\x01\x00\x00\x9c@\x80\x01\x85\x80\x0b\x00\x86\xc0K\x01\xc1\x00\x0c\x00\x9c@\x00\x01\x85\x00\x00\x00\x86@@\x01\xc1@\x05\x00\x9c@\x00\x01\x85\x80\x03\x00\xc1@\x0c\x00\x0b\x01C\x00\x1c\x81\x00\x01E\x01\x04\x00FA\xc4\x02\x81\x81\x04\x00\xc1\xc1\x04\x00\x01\x82\x04\x00\\\x81\x00\x02\x0cA\x01\x02A\x81\x0c\x00\x9c@\x00\x02\x85\x00\x00\x00\x86@@\x01\xc1\x80\x05\x00\x9c@\x00\x01\x85\xc0\x05\x00\xc1@\x0c\x00\x9c@\x00\x01\x85\x00\x00\x00\x86@@\x01\xc1\x80\t\x00\x9c@\x00\x01\x85\xc0\x0c\x00\x86\x00M\x01\xc1@\r\x00\x9c@\x00\x01\x85\xc0\x0c\x00\x86\x80M\x01\xc1\xc0\r\x00\x9c@\x00\x01\x85\xc0\x00\x00\x86\x00A\x01\xc1\x80\x05\x00\x9c@\x00\x01\x85\x00\x00\x00\x86@@\x01\xc1\x80\x05\x00\x9c@\x00\x01\x85\x80\x0b\x00\x86\x00A\x01\xc1\x80\x05\x00\x9c@\x00\x01\x85\x00\x00\x00\x86@@\x01\xc1\x00\x0e\x00\x9c@\x00\x01\x85\xc0\x00\x00\x86@A\x01\xc2\x00\x00\x00\x02\x01\x00\x00\x9c@\x80\x01\x85\xc0\x00\x00\x86@N\x01\xc1\x80\x0e\x00\x01\xc1\x0e\x00\x9c@\x80\x01\x1e\x00\x80\x00<\x00\x00\x00\x04\x08\x00\x00\x00Program\x00\x04\x05\x00\x00\x00Wait\x00\x03\x9a\x99\x99\x99\x99\x99\xc9?\x04\x05\x00\x00\x00Game\x00\x04\x08\x00\x00\x00FadeOut\x00\x04\x11\x00\x00\x00SetCinematicMode\x00\x03\x00\x00\x00\x00\x00\x00\xe0?\x04\x06\x00\x00\x00Scene\x00\x04\x05\x00\x00\x00Find\x00\x04\x05\x00\x00\x00hero\x00\x04\x0c\x00\x00\x00setPosition\x00\x04\r\x00\x00\x00questMarker3\x00\x04\t\x00\x00\x00position\x00\x04\x07\x00\x00\x00FadeIn\x00\x04\x0f\x00\x00\x00ShowTextBubble\x00\x04\x10\x00\x00\x00corruptorBubble\x00\x04\x08\x00\x00\x00Vector3\x00\x04\x04\x00\x00\x00New\x00\x03\x00\x00\x00\x00\x00\x00\x00\x00\x03\x00\x00\x00\x00\x00\x00T@\x04\x17\x00\x00\x00You\'re no match to me!\x00\x03\x00\x00\x00\x00\x00\x00\xf0?\x03\x00\x00\x00\x00\x00\x00\xf8?\x04\x0f\x00\x00\x00HideTextBubble\x00\x04\x06\x00\x00\x00Flash\x00\x04\x0f\x00\x00\x00OverrideLights\x00\x04\x11\x00\x00\x00followherofocus1\x00\x04\x07\x00\x00\x00target\x00\x04\x11\x00\x00\x00EntityController\x00\x04\x0e\x00\x00\x00PerformAction\x00\x03\x00\x00\x00\x00\x00\x80`@\x04\x07\x00\x00\x00focus1\x00\x03\x9a\x99\x99\x99\x99\x99\xd9?\x04\n\x00\x00\x00setHidden\x00\x04\x14\x00\x00\x00TransformController\x00\x04\x0c\x00\x00\x00TranslateBy\x00\x03\x00\x00\x00\x00\x00@\x9f\xc0\x03\x00\x00\x00\x00\x00\xc0r@\x03\x00\x00\x00\x00\x00\x00\x08@\x03\x9a\x99\x99\x99\x99\x99\xb9?\x04\x07\x00\x00\x00Camera\x00\x04\r\x00\x00\x00FocusAtShape\x00\x04\n\x00\x00\x00Rectangle\x00\x04\x0c\x00\x00\x00JumpToFocus\x00\x04\x0c\x00\x00\x00FollowShape\x00\x03\xcd\xcc\xcc\xcc\xcc\xcc\xf4?\x04\x0c\x00\x00\x00MusicPlayer\x00\x04\n\x00\x00\x00PlayMusic\x00\x04\t\x00\x00\x00gameover\x00\x04\x11\x00\x00\x00corruptorBubble2\x00\x04\x10\x00\x00\x00BWHA BWHA BWHA!\x00\x04\n\x00\x00\x00Character\x00\x04\x12\x00\x00\x00SetQuestCompleted\x00\x04\x14\x00\x00\x00quest01_find_master\x00\x04\t\x00\x00\x00AddQuest\x00\x04\x16\x00\x00\x00quest02_village_elder\x00\x03\x00\x00\x00\x00\x00\x00\x00@\x04\x0c\x00\x00\x00EnterPortal\x00\x04\x11\x00\x00\x00town_healerhouse\x00\x04\x18\x00\x00\x00spawn_from_resurrection\x00\x00\x00\x00\x00\xd4\x00\x00\x00\x01\x00\x00\x00\x03\x00\x00\x00\x03\x00\x00\x00\x03\x00\x00\x00\x03\x00\x00\x00\x04\x00\x00\x00\x04\x00\x00\x00\x04\x00\x00\x00\x05\x00\x00\x00\x05\x00\x00\x00\x05\x00\x00\x00\x05\x00\x00\x00\x05\x00\x00\x00\x06\x00\x00\x00\x06\x00\x00\x00\x06\x00\x00\x00\x06\x00\x00\x00\x07\x00\x00\x00\x07\x00\x00\x00\x07\x00\x00\x00\x07\x00\x00\x00\x07\x00\x00\x00\x07\x00\x00\x00\x07\x00\x00\x00\x07\x00\x00\x00\x07\x00\x00\x00\x07\x00\x00\x00\x07\x00\x00\x00\x07\x00\x00\x00\x08\x00\x00\x00\x08\x00\x00\x00\x08\x00\x00\x00\t\x00\x00\x00\t\x00\x00\x00\t\x00\x00\x00\t\x00\x00\x00\t\x00\x00\x00\t\x00\x00\x00\t\x00\x00\x00\t\x00\x00\x00\t\x00\x00\x00\t\x00\x00\x00\t\x00\x00\x00\t\x00\x00\x00\t\x00\x00\x00\n\x00\x00\x00\n\x00\x00\x00\n\x00\x00\x00\n\x00\x00\x00\x0c\x00\x00\x00\x0c\x00\x00\x00\x0c\x00\x00\x00\x0c\x00\x00\x00\r\x00\x00\x00\r\x00\x00\x00\r\x00\x00\x00\x0f\x00\x00\x00\x0f\x00\x00\x00\x0f\x00\x00\x00\x10\x00\x00\x00\x10\x00\x00\x00\x10\x00\x00\x00\x10\x00\x00\x00\x10\x00\x00\x00\x10\x00\x00\x00\x12\x00\x00\x00\x12\x00\x00\x00\x12\x00\x00\x00\x12\x00\x00\x00\x12\x00\x00\x00\x12\x00\x00\x00\x12\x00\x00\x00\x12\x00\x00\x00\x12\x00\x00\x00\x13\x00\x00\x00\x13\x00\x00\x00\x13\x00\x00\x00\x13\x00\x00\x00\x13\x00\x00\x00\x14\x00\x00\x00\x14\x00\x00\x00\x14\x00\x00\x00\x14\x00\x00\x00\x15\x00\x00\x00\x15\x00\x00\x00\x15\x00\x00\x00\x15\x00\x00\x00\x16\x00\x00\x00\x16\x00\x00\x00\x16\x00\x00\x00\x16\x00\x00\x00\x16\x00\x00\x00\x16\x00\x00\x00\x16\x00\x00\x00\x17\x00\x00\x00\x17\x00\x00\x00\x17\x00\x00\x00\x17\x00\x00\x00\x17\x00\x00\x00\x17\x00\x00\x00\x17\x00\x00\x00\x17\x00\x00\x00\x17\x00\x00\x00\x17\x00\x00\x00\x17\x00\x00\x00\x18\x00\x00\x00\x18\x00\x00\x00\x18\x00\x00\x00\x18\x00\x00\x00\x1a\x00\x00\x00\x1a\x00\x00\x00\x1a\x00\x00\x00\x1a\x00\x00\x00\x1a\x00\x00\x00\x1a\x00\x00\x00\x1a\x00\x00\x00\x1a\x00\x00\x00\x1a\x00\x00\x00\x1a\x00\x00\x00\x1a\x00\x00\x00\x1b\x00\x00\x00\x1b\x00\x00\x00\x1b\x00\x00\x00\x1c\x00\x00\x00\x1c\x00\x00\x00\x1c\x00\x00\x00\x1c\x00\x00\x00\x1c\x00\x00\x00\x1c\x00\x00\x00\x1c\x00\x00\x00\x1c\x00\x00\x00\x1c\x00\x00\x00\x1c\x00\x00\x00\x1c\x00\x00\x00\x1e\x00\x00\x00\x1e\x00\x00\x00\x1e\x00\x00\x00\x1e\x00\x00\x00\x1f\x00\x00\x00\x1f\x00\x00\x00\x1f\x00\x00\x00\x1f\x00\x00\x00\x1f\x00\x00\x00\x1f\x00\x00\x00\x1f\x00\x00\x00 \x00\x00\x00 \x00\x00\x00 \x00\x00\x00 \x00\x00\x00!\x00\x00\x00!\x00\x00\x00!\x00\x00\x00!\x00\x00\x00"\x00\x00\x00"\x00\x00\x00"\x00\x00\x00"\x00\x00\x00"\x00\x00\x00"\x00\x00\x00"\x00\x00\x00"\x00\x00\x00"\x00\x00\x00"\x00\x00\x00"\x00\x00\x00"\x00\x00\x00"\x00\x00\x00$\x00\x00\x00$\x00\x00\x00$\x00\x00\x00$\x00\x00\x00%\x00\x00\x00%\x00\x00\x00%\x00\x00\x00\'\x00\x00\x00\'\x00\x00\x00\'\x00\x00\x00\'\x00\x00\x00)\x00\x00\x00)\x00\x00\x00)\x00\x00\x00)\x00\x00\x00*\x00\x00\x00*\x00\x00\x00*\x00\x00\x00*\x00\x00\x00,\x00\x00\x00,\x00\x00\x00,\x00\x00\x00,\x00\x00\x00-\x00\x00\x00-\x00\x00\x00-\x00\x00\x00-\x00\x00\x00.\x00\x00\x00.\x00\x00\x00.\x00\x00\x00.\x00\x00\x00/\x00\x00\x00/\x00\x00\x00/\x00\x00\x00/\x00\x00\x000\x00\x00\x000\x00\x00\x000\x00\x00\x000\x00\x00\x000\x00\x00\x002\x00\x00\x002\x00\x00\x002\x00\x00\x002\x00\x00\x002\x00\x00\x002\x00\x00\x00\x02\x00\x00\x00\x05\x00\x00\x00self\x00\x01\x00\x00\x00\xd3\x00\x00\x00\x07\x00\x00\x00focus1\x00S\x00\x00\x00\xd3\x00\x00\x00\x00\x00\x00\x00 (12 @ 2e36)
+				}
+                u1 : 1(18 @ 3e89)
+                u2 : 0(20 @ 3e8b)
+			}
+		}
+
+        component sub-sub-block { (1a @ 3e8d)
+
+            component type : Program (0a @ 3e90)
+            number : 148(10 @ 3e99)
+
+            program sub-sub-sub-block { (4ea @ 3e9d)
+
+                u0 : 1(08 @ 3ea0)
+
+                lua chunk sub-sub-sub-sub-block { (12 @ 3ea2)
+
+                    main chunk : chunk >
+
+                    === lua =============
+                    local self = ...;
+                    
+                    self["hurt"] = 0;
+
+                    =====================
+                    secondary chunk : \x1bLuaQ\x00\x01\x04\x04\x04\x08\x00\'\x00\x00\x00local self = ...;\r\n\r\nself["hurt"] = 0;\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x02\x02\x03\x00\x00\x00%\x00\x00\x01\t@@\x80\x1e\x00\x80\x00\x02\x00\x00\x00\x04\x05\x00\x00\x00hurt\x00\x03\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x03\x00\x00\x00\x01\x00\x00\x00\x03\x00\x00\x00\x03\x00\x00\x00\x01\x00\x00\x00\x05\x00\x00\x00self\x00\x01\x00\x00\x00\x02\x00\x00\x00\x00\x00\x00\x00 (12 @ 3ecd)
+				}
+                u1 : 1(18 @ 3f67)
+                u2 : 10(20 @ 3f69)
+			}
+		}
+
+        component sub-sub-block { (1a @ 3f6b)
+
+            component type : EntityAction (0a @ 3f6d)
+            number : 149(10 @ 3f7b)
+
+            entity action sub-sub-sub-block { (512 @ 3f7f)
+
+
+                lua chunk sub-sub-sub-sub-block { (0a @ 3f81)
+
+				}
+			}
+		}
+
+        position sub-sub-block { (22 @ 3f83)
+
+            x position : 0.0 (0d @ 3f85)
+            y position : 0.0 (15 @ 3f8a)
+		}
+        z position : 0.0 (2d @ 3f8f)
+        rotation : 0.0 (35 @ 3f94)
+        scale : 1.0 (3d @ 3f99)
+
+        u0 sub-sub-block { (42 @ 3f9e)
+
+            w : -200.0 (0d @ 3fa0)
+            x : -50.0 (15 @ 3fa5)
+            y : 400.0 (1d @ 3faa)
+            z : 350.0 (25 @ 3faf)
+		}
+        hidden : 0(48 @ 3fb4)
+	}
+    u0 : 1.0 (15 @ 3fb6)
+}
+
+?item block { (12 @ 3fbb)
+
+
+    ?sub-item sub-block { (0a @ 3fbe)
+
+        name : spellcast (12 @ 3fc1)
+
+        component sub-sub-block { (1a @ 3fcc)
+
+            component type : SimpleGlow (0a @ 3fce)
+            number : 1(10 @ 3fda)
+
+            simple glow sub-sub-sub-block { (7f2 @ 3fdd)
+
+
+                u0 sub-sub-sub-sub-block { (0a @ 3fdf)
+
+                    w : 1.0 (0d @ 3fe1)
+                    x : 0.16666662693023682 (15 @ 3fe6)
+                    y : 0.1666669249534607 (1d @ 3feb)
+                    z : 0.5 (25 @ 3ff0)
+				}
+                u1 : 20.0 (15 @ 3ff5)
+                u2 : 10(18 @ 3ffa)
+                u3 : 15.0 (25 @ 3ffc)
+                u4 : 0.15000000596046448 (2d @ 4001)
+                u5 : 0.800000011920929 (35 @ 4006)
+
+                u6 sub-sub-sub-sub-block { (3a @ 400b)
+
+                    y : 0.0 (0d @ 400d)
+                    z : 0.0 (15 @ 4012)
+				}
+			}
+		}
+
+        component sub-sub-block { (1a @ 4017)
+
+            component type : ParticleEmitter (0a @ 4019)
+            number : 102(10 @ 402a)
+
+            particle emitter sub-sub-sub-block { (7d2 @ 402d)
+
+                particle : 103(10 @ 402f)
+                particle : 104(10 @ 4031)
+                particle : 105(10 @ 4033)
+                u1 : 0(18 @ 4035)
+                u2 : 30(20 @ 4037)
+                u3 : 0(28 @ 4039)
+                u4 : 0(30 @ 403b)
+                u6 : 0(40 @ 403d)
+			}
+		}
+
+        component sub-sub-block { (1a @ 403f)
+
+            component type : Particle (0a @ 4041)
+            number : 103(10 @ 404b)
+
+            particle sub-sub-sub-block { (7da @ 404e)
+
+                name : particle_fure_1 (0a @ 4050)
+                u0 : 40.0 (15 @ 4061)
+			}
+		}
+
+        component sub-sub-block { (1a @ 4066)
+
+            component type : Particle (0a @ 4068)
+            number : 104(10 @ 4072)
+
+            particle sub-sub-sub-block { (7da @ 4075)
+
+                name : particle_fure_2 (0a @ 4077)
+                u0 : 40.0 (15 @ 4088)
+			}
+		}
+
+        component sub-sub-block { (1a @ 408d)
+
+            component type : Particle (0a @ 408f)
+            number : 105(10 @ 4099)
+
+            particle sub-sub-sub-block { (7da @ 409c)
+
+                name : particle_fure_3 (0a @ 409e)
+                u0 : 40.0 (15 @ 40af)
+			}
+		}
+
+        component sub-sub-block { (1a @ 40b4)
+
+            component type : MagicSpellCast (0a @ 40b6)
+            number : 109(10 @ 40c6)
+
+            magic spell cast sub-sub-sub-block { (114a @ 40c9)
+
+                particle emitter : 102(08 @ 40cb)
+                u0 : 0(10 @ 40cd)
+			}
+		}
+
+        position sub-sub-block { (22 @ 40cf)
+
+            x position : 0.0 (0d @ 40d1)
+            y position : 0.0 (15 @ 40d6)
+		}
+        z position : 0.0 (2d @ 40db)
+        rotation : 0.0 (35 @ 40e0)
+        scale : 1.0 (3d @ 40e5)
+
+        u0 sub-sub-block { (42 @ 40ea)
+
+            w : -20.0 (0d @ 40ec)
+            x : -20.0 (15 @ 40f1)
+            y : 40.0 (1d @ 40f6)
+            z : 40.0 (25 @ 40fb)
+		}
+        hidden : 0(48 @ 4100)
+	}
+    u0 : 2.0 (15 @ 4102)
+}

@@ -1,0 +1,2560 @@
+
+object block { (0a @ 1)
+
+    name : Template 1 (0a @ 3)
+    identifier : Background (12 @ f)
+
+    component sub-block { (1a @ 1b)
+
+        component type : Background (0a @ 1d)
+        number : 101(10 @ 29)
+
+        file sub-sub-block { (642 @ 2c)
+
+            filename : blackbg (0a @ 2e)
+		}
+	}
+
+    position sub-block { (22 @ 37)
+
+        x position : -764.890380859375 (0d @ 39)
+        y position : 1126.6429443359375 (15 @ 3e)
+	}
+    z position : 1.7203826904296875 (2d @ 43)
+    rotation : 0.0 (35 @ 48)
+    scale : 1.0 (3d @ 4d)
+
+    u2 sub-block { (42 @ 52)
+
+        w : -30.0 (0d @ 54)
+        x : -30.0 (15 @ 59)
+        y : 60.0 (1d @ 5e)
+        z : 60.0 (25 @ 63)
+	}
+    hidden : 0(48 @ 68)
+}
+
+object block { (0a @ 6a)
+
+    name : Template 1 (0a @ 6d)
+    identifier : DirectionalLight (12 @ 79)
+
+    component sub-block { (1a @ 8b)
+
+        component type : Light (0a @ 8d)
+        number : 101(10 @ 94)
+
+        light sub-sub-block { (412 @ 97)
+
+            u0 : 2(08 @ 99)
+            u1 : 2.0 (15 @ 9b)
+
+            u2 sub-sub-sub-block { (1a @ a0)
+
+                w : 1.0 (0d @ a2)
+                x : 1.0 (15 @ a7)
+                y : 1.0 (1d @ ac)
+                z : 1.0 (25 @ b1)
+			}
+		}
+	}
+
+    component sub-block { (1a @ b6)
+
+        component type : Light (0a @ b8)
+        number : 103(10 @ bf)
+
+        light sub-sub-block { (412 @ c2)
+
+            u0 : 1(08 @ c4)
+            u1 : 0.30000001192092896 (15 @ c6)
+
+            u2 sub-sub-sub-block { (1a @ cb)
+
+                w : 1.0 (0d @ cd)
+                x : 0.699999988079071 (15 @ d2)
+                y : 0.699999988079071 (1d @ d7)
+                z : 1.0 (25 @ dc)
+			}
+		}
+	}
+
+    component sub-block { (1a @ e1)
+
+        component type : Light (0a @ e3)
+        number : 105(10 @ ea)
+
+        light sub-sub-block { (412 @ ed)
+
+            u0 : 4(08 @ ef)
+            u1 : 0.699999988079071 (15 @ f1)
+
+            u2 sub-sub-sub-block { (1a @ f6)
+
+                w : 0.0 (0d @ f8)
+                x : 0.0 (15 @ fd)
+                y : 0.0 (1d @ 102)
+                z : 1.0 (25 @ 107)
+			}
+		}
+	}
+
+    position sub-block { (22 @ 10c)
+
+        x position : 333.21319580078125 (0d @ 10e)
+        y position : 472.45867919921875 (15 @ 113)
+	}
+    z position : 674.1119384765625 (2d @ 118)
+    rotation : 0.0 (35 @ 11d)
+    scale : 1.0 (3d @ 122)
+
+    u2 sub-block { (42 @ 127)
+
+        w : -30.0 (0d @ 129)
+        x : -30.0 (15 @ 12e)
+        y : 60.0 (1d @ 133)
+        z : 60.0 (25 @ 138)
+	}
+    hidden : 0(48 @ 13d)
+}
+
+object block { (0a @ 13f)
+
+    name : npc_healer (0a @ 142)
+    identifier : healer (12 @ 14e)
+
+    component sub-block { (1a @ 156)
+
+        component type : Model (0a @ 158)
+        number : 101(10 @ 15f)
+
+        3D model sub-sub-block { (32a @ 162)
+
+            name : npc_healer (0a @ 164)
+            u0 : 2.6179938316345215 (15 @ 170)
+            u1 : 0.5 (1d @ 175)
+            u2 : 0.0 (25 @ 17a)
+
+            u3 sub-sub-sub-block { (2a @ 17f)
+
+                w : 0.0 (0d @ 181)
+                x : 0.0 (15 @ 186)
+                y : 0.0 (1d @ 18b)
+                z : 1.0 (25 @ 190)
+			}
+
+            u4 sub-sub-sub-block { (32 @ 195)
+
+                x : 0.0 (0d @ 197)
+                y : 0.0 (15 @ 19c)
+                z : 0.0 (1d @ 1a1)
+			}
+            u5 : 0(38 @ 1a6)
+
+            u6 sub-sub-sub-block { (42 @ 1a8)
+
+                w : 1.0 (0d @ 1aa)
+                x : 1.0 (15 @ 1af)
+                y : 1.0 (1d @ 1b4)
+                z : 1.0 (25 @ 1b9)
+			}
+		}
+	}
+
+    position sub-block { (22 @ 1be)
+
+        x position : 138.62838745117188 (0d @ 1c0)
+        y position : 95.08027648925781 (15 @ 1c5)
+	}
+    z position : -25.7708740234375 (2d @ 1ca)
+    rotation : 0.0 (35 @ 1cf)
+    scale : 1.0 (3d @ 1d4)
+
+    u2 sub-block { (42 @ 1d9)
+
+        w : -30.158405303955078 (0d @ 1db)
+        x : -40.0 (15 @ 1e0)
+        y : 58.810089111328125 (1d @ 1e5)
+        z : 67.98746490478516 (25 @ 1ea)
+	}
+    hidden : 0(48 @ 1ef)
+}
+
+object block { (0a @ 1f1)
+
+    identifier : obj1 (12 @ 1f4)
+
+    component sub-block { (1a @ 1fa)
+
+        component type : Model (0a @ 1fc)
+        number : 101(10 @ 203)
+
+        3D model sub-sub-block { (32a @ 206)
+
+            name : shop_pedastal (0a @ 208)
+            u0 : 3.1415927410125732 (15 @ 217)
+            u1 : 0.0 (1d @ 21c)
+            u2 : 0.0 (25 @ 221)
+
+            u3 sub-sub-sub-block { (2a @ 226)
+
+                w : 0.0 (0d @ 228)
+                x : 0.0 (15 @ 22d)
+                y : 0.0 (1d @ 232)
+                z : 1.0 (25 @ 237)
+			}
+
+            u4 sub-sub-sub-block { (32 @ 23c)
+
+                x : 0.0 (0d @ 23e)
+                y : 0.0 (15 @ 243)
+                z : 0.0 (1d @ 248)
+			}
+            u5 : 0(38 @ 24d)
+
+            u6 sub-sub-sub-block { (42 @ 24f)
+
+                w : 1.0 (0d @ 251)
+                x : 1.0 (15 @ 256)
+                y : 1.0 (1d @ 25b)
+                z : 1.0 (25 @ 260)
+			}
+		}
+	}
+
+    position sub-block { (22 @ 265)
+
+        x position : -234.989990234375 (0d @ 267)
+        y position : 60.2171630859375 (15 @ 26c)
+	}
+    z position : -74.64070129394531 (2d @ 271)
+    rotation : 0.0 (35 @ 276)
+    scale : 1.0 (3d @ 27b)
+
+    u2 sub-block { (42 @ 280)
+
+        w : -34.17585372924805 (0d @ 282)
+        x : 3.244429588317871 (15 @ 287)
+        y : 58.53529357910156 (1d @ 28c)
+        z : 121.26319122314453 (25 @ 291)
+	}
+    hidden : 0(48 @ 296)
+}
+
+object block { (0a @ 298)
+
+    identifier : obj1#2 (12 @ 29b)
+
+    component sub-block { (1a @ 2a3)
+
+        component type : Model (0a @ 2a5)
+        number : 101(10 @ 2ac)
+
+        3D model sub-sub-block { (32a @ 2af)
+
+            name : shop_pedastal (0a @ 2b1)
+            u0 : 3.1415927410125732 (15 @ 2c0)
+            u1 : 0.0 (1d @ 2c5)
+            u2 : 0.0 (25 @ 2ca)
+
+            u3 sub-sub-sub-block { (2a @ 2cf)
+
+                w : 0.0 (0d @ 2d1)
+                x : 0.0 (15 @ 2d6)
+                y : 0.0 (1d @ 2db)
+                z : 1.0 (25 @ 2e0)
+			}
+
+            u4 sub-sub-sub-block { (32 @ 2e5)
+
+                x : 0.0 (0d @ 2e7)
+                y : 0.0 (15 @ 2ec)
+                z : 0.0 (1d @ 2f1)
+			}
+            u5 : 0(38 @ 2f6)
+
+            u6 sub-sub-sub-block { (42 @ 2f8)
+
+                w : 1.0 (0d @ 2fa)
+                x : 1.0 (15 @ 2ff)
+                y : 1.0 (1d @ 304)
+                z : 1.0 (25 @ 309)
+			}
+		}
+	}
+
+    position sub-block { (22 @ 30e)
+
+        x position : 68.73486328125 (0d @ 310)
+        y position : -15.689987182617188 (15 @ 315)
+	}
+    z position : -74.64070129394531 (2d @ 31a)
+    rotation : 0.0 (35 @ 31f)
+    scale : 1.0 (3d @ 324)
+
+    u2 sub-block { (42 @ 329)
+
+        w : -34.17585372924805 (0d @ 32b)
+        x : 3.244429588317871 (15 @ 330)
+        y : 58.53529357910156 (1d @ 335)
+        z : 121.26319122314453 (25 @ 33a)
+	}
+    hidden : 0(48 @ 33f)
+}
+
+object block { (0a @ 341)
+
+    identifier : obj1#5 (12 @ 344)
+
+    component sub-block { (1a @ 34c)
+
+        component type : Model (0a @ 34e)
+        number : 101(10 @ 355)
+
+        3D model sub-sub-block { (32a @ 358)
+
+            name : shop_pedastal (0a @ 35a)
+            u0 : 0.0 (15 @ 369)
+            u1 : 0.0 (1d @ 36e)
+            u2 : 0.0 (25 @ 373)
+
+            u3 sub-sub-sub-block { (2a @ 378)
+
+                w : 0.0 (0d @ 37a)
+                x : 0.0 (15 @ 37f)
+                y : 0.0 (1d @ 384)
+                z : 1.0 (25 @ 389)
+			}
+
+            u4 sub-sub-sub-block { (32 @ 38e)
+
+                x : 0.0 (0d @ 390)
+                y : 0.0 (15 @ 395)
+                z : 0.0 (1d @ 39a)
+			}
+            u5 : 0(38 @ 39f)
+
+            u6 sub-sub-sub-block { (42 @ 3a1)
+
+                w : 1.0 (0d @ 3a3)
+                x : 1.0 (15 @ 3a8)
+                y : 1.0 (1d @ 3ad)
+                z : 1.0 (25 @ 3b2)
+			}
+		}
+	}
+
+    position sub-block { (22 @ 3b7)
+
+        x position : -229.76943969726562 (0d @ 3b9)
+        y position : 420.85601806640625 (15 @ 3be)
+	}
+    z position : 66.75812530517578 (2d @ 3c3)
+    rotation : 3.143308639526367 (35 @ 3c8)
+    scale : 1.0 (3d @ 3cd)
+
+    u2 sub-block { (42 @ 3d2)
+
+        w : -24.35943603515625 (0d @ 3d4)
+        x : 3.244429588317871 (15 @ 3d9)
+        y : 58.53528594970703 (1d @ 3de)
+        z : 121.26319122314453 (25 @ 3e3)
+	}
+    hidden : 0(48 @ 3e8)
+}
+
+object block { (0a @ 3ea)
+
+    identifier : obj1#6 (12 @ 3ed)
+
+    component sub-block { (1a @ 3f5)
+
+        component type : Model (0a @ 3f7)
+        number : 101(10 @ 3fe)
+
+        3D model sub-sub-block { (32a @ 401)
+
+            name : shop_pedastal (0a @ 403)
+            u0 : 0.0 (15 @ 412)
+            u1 : 0.0 (1d @ 417)
+            u2 : 0.0 (25 @ 41c)
+
+            u3 sub-sub-sub-block { (2a @ 421)
+
+                w : 0.0 (0d @ 423)
+                x : 0.0 (15 @ 428)
+                y : 0.0 (1d @ 42d)
+                z : 1.0 (25 @ 432)
+			}
+
+            u4 sub-sub-sub-block { (32 @ 437)
+
+                x : 0.0 (0d @ 439)
+                y : 0.0 (15 @ 43e)
+                z : 0.0 (1d @ 443)
+			}
+            u5 : 0(38 @ 448)
+
+            u6 sub-sub-sub-block { (42 @ 44a)
+
+                w : 1.0 (0d @ 44c)
+                x : 1.0 (15 @ 451)
+                y : 1.0 (1d @ 456)
+                z : 1.0 (25 @ 45b)
+			}
+		}
+	}
+
+    position sub-block { (22 @ 460)
+
+        x position : 73.95541381835938 (0d @ 462)
+        y position : 344.94891357421875 (15 @ 467)
+	}
+    z position : 66.75812530517578 (2d @ 46c)
+    rotation : 3.143308639526367 (35 @ 471)
+    scale : 1.0 (3d @ 476)
+
+    u2 sub-block { (42 @ 47b)
+
+        w : -24.35943603515625 (0d @ 47d)
+        x : 3.244429588317871 (15 @ 482)
+        y : 58.53528594970703 (1d @ 487)
+        z : 121.26319122314453 (25 @ 48c)
+	}
+    hidden : 0(48 @ 491)
+}
+
+object block { (0a @ 493)
+
+    name : Template 1 (0a @ 496)
+    identifier : obj14 (12 @ 4a2)
+
+    component sub-block { (1a @ 4a9)
+
+        component type : CollisionShape (0a @ 4ab)
+        number : 101(10 @ 4bb)
+
+        collision shape sub-sub-block { (3c2 @ 4be)
+
+
+            u0 sub-sub-sub-block { (0a @ 4c0)
+
+                w : -45.0 (0d @ 4c2)
+                x : -200.0 (15 @ 4c7)
+                y : 90.0 (1d @ 4cc)
+                z : 400.0 (25 @ 4d1)
+			}
+		}
+
+        collision shape 2 sub-sub-block { (3ca @ 4d7)
+
+            w : -15.0 (35 @ 4d9)
+            x : 15.0 (3d @ 4de)
+            y : 2(40 @ 4e3)
+            z : 1(58 @ 4e5)
+		}
+	}
+
+    component sub-block { (1a @ 4e7)
+
+        component type : Portal (0a @ 4e9)
+        number : 104(10 @ 4f1)
+
+        portal sub-sub-block { (fa2 @ 4f4)
+
+            target level : florennum_part1 (0a @ 4f6)
+            spawnpoint :  (12 @ 507)
+            touchable : 0(18 @ 509)
+            collision shape component : 101(20 @ 50b)
+		}
+	}
+
+    position sub-block { (22 @ 50d)
+
+        x position : -520.8963623046875 (0d @ 50f)
+        y position : 208.5292510986328 (15 @ 514)
+	}
+    z position : 0.0 (2d @ 519)
+    rotation : 0.0 (35 @ 51e)
+    scale : 1.0 (3d @ 523)
+
+    u2 sub-block { (42 @ 528)
+
+        w : -45.0 (0d @ 52a)
+        x : -200.0 (15 @ 52f)
+        y : 90.0 (1d @ 534)
+        z : 400.0 (25 @ 539)
+	}
+    hidden : 0(48 @ 53e)
+}
+
+object block { (0a @ 540)
+
+    identifier : obj2 (12 @ 543)
+
+    component sub-block { (1a @ 549)
+
+        component type : GroundPolygon (0a @ 54c)
+        number : 100(10 @ 55b)
+
+        ground polygon sub-sub-block { (372 @ 55e)
+
+
+             sub-sub-sub-block { (12 @ 561)
+
+
+                u0 sub-sub-sub-sub-block { (0a @ 564)
+
+                    x : -856.493896484375 (0d @ 566)
+                    y : -665.9594116210938 (15 @ 56b)
+				}
+
+                u0 sub-sub-sub-sub-block { (0a @ 570)
+
+                    x : 128.023193359375 (0d @ 572)
+                    y : -620.7755126953125 (15 @ 577)
+				}
+
+                u0 sub-sub-sub-sub-block { (0a @ 57c)
+
+                    x : 1152.041748046875 (0d @ 57e)
+                    y : -661.479248046875 (15 @ 583)
+				}
+
+                u0 sub-sub-sub-sub-block { (0a @ 588)
+
+                    x : 1110.00048828125 (0d @ 58a)
+                    y : 665.9594116210938 (15 @ 58f)
+				}
+
+                u0 sub-sub-sub-sub-block { (0a @ 594)
+
+                    x : 35.3670654296875 (0d @ 596)
+                    y : 528.6842651367188 (15 @ 59b)
+				}
+
+                u0 sub-sub-sub-sub-block { (0a @ 5a0)
+
+                    x : -850.3056030273438 (0d @ 5a2)
+                    y : 568.693603515625 (15 @ 5a7)
+				}
+
+                u0 sub-sub-sub-sub-block { (0a @ 5ac)
+
+                    x : -828.6021118164062 (0d @ 5ae)
+                    y : 119.34304809570312 (15 @ 5b3)
+				}
+
+                u0 sub-sub-sub-sub-block { (0a @ 5b8)
+
+                    x : -829.7075805664062 (0d @ 5ba)
+                    y : 0.0397186279296875 (15 @ 5bf)
+				}
+
+                u0 sub-sub-sub-sub-block { (0a @ 5c4)
+
+                    x : -653.1134033203125 (0d @ 5c6)
+                    y : 0.392242431640625 (15 @ 5cb)
+				}
+
+                u0 sub-sub-sub-sub-block { (0a @ 5d0)
+
+                    x : -652.4718627929688 (0d @ 5d2)
+                    y : 105.92819213867188 (15 @ 5d7)
+				}
+
+                u0 sub-sub-sub-sub-block { (0a @ 5dc)
+
+                    x : -375.24322509765625 (0d @ 5de)
+                    y : 107.98162841796875 (15 @ 5e3)
+				}
+
+                u0 sub-sub-sub-sub-block { (0a @ 5e8)
+
+                    x : -373.12237548828125 (0d @ 5ea)
+                    y : 4.8261566162109375 (15 @ 5ef)
+				}
+
+                u0 sub-sub-sub-sub-block { (0a @ 5f4)
+
+                    x : -111.83383178710938 (0d @ 5f6)
+                    y : 4.24951171875 (15 @ 5fb)
+				}
+
+                u0 sub-sub-sub-sub-block { (0a @ 600)
+
+                    x : -110.81745910644531 (0d @ 602)
+                    y : -160.80563354492188 (15 @ 607)
+				}
+
+                u0 sub-sub-sub-sub-block { (0a @ 60c)
+
+                    x : -340.61456298828125 (0d @ 60e)
+                    y : -161.73277282714844 (15 @ 613)
+				}
+
+                u0 sub-sub-sub-sub-block { (0a @ 618)
+
+                    x : -340.7044677734375 (0d @ 61a)
+                    y : -131.1568603515625 (15 @ 61f)
+				}
+
+                u0 sub-sub-sub-sub-block { (0a @ 624)
+
+                    x : -373.8843994140625 (0d @ 626)
+                    y : -130.7213134765625 (15 @ 62b)
+				}
+
+                u0 sub-sub-sub-sub-block { (0a @ 630)
+
+                    x : -374.1207275390625 (0d @ 632)
+                    y : -100.34588623046875 (15 @ 637)
+				}
+
+                u0 sub-sub-sub-sub-block { (0a @ 63c)
+
+                    x : -1152.041748046875 (0d @ 63e)
+                    y : -100.25949096679688 (15 @ 643)
+				}
+                u0 : 0(10 @ 648)
+                u1 : 1(18 @ 64a)
+			}
+            u1 : 1(18 @ 64c)
+            u2 : -55.0 (25 @ 64e)
+            u3 : 55.0 (2d @ 653)
+            u4 :  (32 @ 658)
+		}
+	}
+
+    component sub-block { (1a @ 65a)
+
+        component type : GroundMesh (0a @ 65d)
+        number : 101(10 @ 669)
+
+        ground mesh sub-sub-block { (37a @ 66c)
+
+
+            u0 sub-sub-sub-block { (3a @ 66f)
+
+                w : -1162.041748046875 (0d @ 671)
+                x : -675.9594116210938 (15 @ 676)
+                y : 2324.08349609375 (1d @ 67b)
+                z : 1351.9188232421875 (25 @ 680)
+			}
+
+            u1 sub-sub-sub-block { (42 @ 685)
+
+                u0 : 24(08 @ 688)
+                u1 : 20(10 @ 68a)
+
+                u2 sub-sub-sub-sub-block { (1a @ 68c)
+
+                    u0 : 4(08 @ 68e)
+                    u1 : 1(10 @ 690)
+                    u2 : 2(18 @ 692)
+                    u3 : 0(20 @ 694)
+				}
+
+                u3 sub-sub-sub-sub-block { (22 @ 696)
+
+                    u0 : 7(08 @ 698)
+                    u1 : 3(10 @ 69a)
+                    u2 : 32(18 @ 69c)
+                    u3 : 0(20 @ 69e)
+				}
+
+                u4 sub-sub-sub-sub-block { (2a @ 6a0)
+
+                    u0 : 7(08 @ 6a2)
+                    u1 : 3(10 @ 6a4)
+                    u2 : 32(18 @ 6a6)
+                    u3 : 12(20 @ 6a8)
+				}
+
+                u5 sub-sub-sub-sub-block { (32 @ 6aa)
+
+                    u0 : 7(08 @ 6ac)
+                    u1 : 2(10 @ 6ae)
+                    u2 : 32(18 @ 6b0)
+                    u3 : 24(20 @ 6b2)
+				}
+
+                u6 sub-sub-sub-sub-block { (52 @ 6b4)
+
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 6b6)
+
+                        w : 1.0 (0d @ 6b8)
+                        x : 1.0 (15 @ 6bd)
+                        y : 1.0 (1d @ 6c2)
+                        z : 1.0 (25 @ 6c7)
+					}
+
+                    u1 sub-sub-sub-sub-sub-block { (12 @ 6cc)
+
+                        w : 1.0 (0d @ 6ce)
+                        x : 1.0 (15 @ 6d3)
+                        y : 1.0 (1d @ 6d8)
+                        z : 1.0 (25 @ 6dd)
+					}
+
+                    u2 sub-sub-sub-sub-sub-block { (1a @ 6e2)
+
+                        w : 1.0 (0d @ 6e4)
+                        x : 1.0 (15 @ 6e9)
+                        y : 1.0 (1d @ 6ee)
+                        z : 1.0 (25 @ 6f3)
+					}
+                    u3 : 0.0 (25 @ 6f8)
+                    u4 : \n\x07ground3\x10\x01 \x01 (2a @ 6fd)
+				}
+
+                u7 sub-sub-sub-sub-block { (5a @ 70c)
+
+                    u : -853.3025512695312 (0d @ 70e)
+                    v : 503.68426513671875 (15 @ 713)
+                    w : -60.0 (1d @ 718)
+                    x : 1966.27880859375 (25 @ 71d)
+                    y : 162.6552734375 (2d @ 722)
+                    z : 120.0 (35 @ 727)
+				}
+                u8 : >\x1f\x8bD\xbb\x95&D\x00\x00\\\xc2\xb7\xc0\x01\xbe\xc0\xef}?\x00\x00\x00\x00\x00\x00\x00?)\\\x8f>>\x1f\x8bD\xbb\x95&D\x00\x00\\B\xb7\xc0\x01\xbe\xc0\xef}?\x00\x00\x00\x00\x00\x00\x00?\xecQ8?>\x1f\x8bD\xbb\x15$D\x00\x00pB\x00\x00\x00\x80\x00\x00\x00\x00\x00\x00\x80?\x1f\x85\xeb>\xa4p=?>\x1f\x8bD\xbbU Dff\\B\xb7\xc0\x01>\xc0\xef}\xbf\x00\x00\x00\x80\xcd\xcc\xcc>"l8?>\x1f\x8bD\xbbU D\x9a\x99[\xc2\xb7\xc0\x01>\xc0\xef}\xbf\x00\x00\x00\x80\xcd\xcc\xcc>\x96\x90\x8f>>\x1f\x8bD\xbb\x15$D\x00\x00p\xc2\x00\x00\x00\x80\x00\x00\x00\x00\x00\x00\x80?\x1f\x85\xeb>\xb8\x1e\x85>>\x1f\x8bD\xbb\x95&D\x00\x00\\\xc2\xb7\xc0\x01\xbe\xc0\xef}?\x00\x00\x00\x00\x00\x00\x00?)\\\x8f>>\x1f\x8bD\xbb\x95&D\x00\x00\\B\xb7\xc0\x01\xbe\xc0\xef}?\x00\x00\x00\x00\x00\x00\x00?\xecQ8?>\x1f\x8bD\xbb\x15$D\x00\x00pB\x00\x00\x00\x80\x00\x00\x00\x00\x00\x00\x80?\x00\x00\x00?\xc8\xc4C?>\x1f\x8bD\xbbU Dff\\B\xb7\xc0\x01>\xc0\xef}\xbf\x00\x00\x00\x80\x00\x00\x00?m\xedS?\xe0w\rB\xcb+\x04D\x00\x00\\\xc2\xf6\xfbJ\xbdy\xaf\x7f?\x00\x00\x00\x00\xbb\xab\x9a@)\\\x8f>\xe0w\rB\xcb+\x04D\x00\x00\\B\xf6\xfbJ\xbdy\xaf\x7f?\x00\x00\x00\x00\xbb\xab\x9a@\xecQ8?\xe0w\rB\xcb\xab\x01D\x00\x00pB\x00\x00\x00\x80\x00\x00\x00\x00\xff\xff\x7f?\xbb\xab\x9a@\xc8\xc4C?\xe0w\rB\x96\xd7\xfbCff\\B\xf6\xfbJ=y\xaf\x7f\xbf\x00\x00\x00\x80\xbb\xab\x9a@m\xedS?]SU\xc4\x0e5\x0eD\x00\x00\\\xc2\x11\xd88=<\xbd\x7f?\x00\x00\x00\x00\x86\x13\x06A)\\\x8f>]SU\xc4\x0e5\x0eD\x00\x00\\B\x11\xd88=<\xbd\x7f?\x00\x00\x00\x00\x86\x13\x06A\xecQ8?]SU\xc4\x0e\xb5\x0bD\x00\x00pB\x00\x00\x00\x80\x00\x00\x00\x00\x00\x00\x80?\x86\x13\x06A\xc8\xc4C?]SU\xc4\x0e\xf5\x07Dff\\B\x11\xd88\xbd<\xbd\x7f\xbf\x00\x00\x00\x80\x86\x13\x06Am\xedS?]SU\xc4\x0e5\x0eD\x00\x00\\\xc2\x11\xd88=<\xbd\x7f?\x00\x00\x00\x00\x86\x13\x06A)\\\x8f>]SU\xc4\x0e5\x0eD\x00\x00\\B\x11\xd88=<\xbd\x7f?\x00\x00\x00\x00\x86\x13\x06A\xecQ8?]SU\xc4\x0e\xb5\x0bD\x00\x00pB\x00\x00\x00\x80\x00\x00\x00\x00\x00\x00\x80?]\xb7\x06A\xa4p=?]SU\xc4\x0e\xf5\x07Dff\\B\x11\xd88\xbd<\xbd\x7f\xbf\x00\x00\x00\x80 \xad\x07A"l8?]SU\xc4\x0e\xf5\x07D\x9a\x99[\xc2\x11\xd88\xbd<\xbd\x7f\xbf\x00\x00\x00\x80 \xad\x07A\x96\x90\x8f>]SU\xc4\x0e\xb5\x0bD\x00\x00p\xc2\x00\x00\x00\x80\x00\x00\x00\x00\x00\x00\x80?]\xb7\x06A\xb8\x1e\x85> (192 @ 72d)
+                u9 : \x00\x00\x04\x00\x05\x00\x00\x00\x03\x00\x04\x00\x00\x00\x01\x00\x03\x00\x01\x00\x02\x00\x03\x00\x06\x00\n\x00\x0b\x00\x07\x00\x06\x00\x0b\x00\x07\x00\x0b\x00\x0c\x00\x08\x00\x07\x00\x0c\x00\x08\x00\x0c\x00\r\x00\t\x00\x08\x00\r\x00\n\x00\x0e\x00\x0f\x00\x0b\x00\n\x00\x0f\x00\x0b\x00\x0f\x00\x10\x00\x0c\x00\x0b\x00\x10\x00\x0c\x00\x10\x00\x11\x00\r\x00\x0c\x00\x11\x00\x12\x00\x17\x00\x16\x00\x12\x00\x16\x00\x15\x00\x12\x00\x15\x00\x13\x00\x15\x00\x14\x00\x13\x00 (19a @ a31)
+			}
+
+            u1 sub-sub-sub-block { (42 @ aab)
+
+                u0 : 30(08 @ aae)
+                u1 : 20(10 @ ab0)
+
+                u2 sub-sub-sub-sub-block { (1a @ ab2)
+
+                    u0 : 4(08 @ ab4)
+                    u1 : 1(10 @ ab6)
+                    u2 : 2(18 @ ab8)
+                    u3 : 0(20 @ aba)
+				}
+
+                u3 sub-sub-sub-sub-block { (22 @ abc)
+
+                    u0 : 7(08 @ abe)
+                    u1 : 3(10 @ ac0)
+                    u2 : 32(18 @ ac2)
+                    u3 : 0(20 @ ac4)
+				}
+
+                u4 sub-sub-sub-sub-block { (2a @ ac6)
+
+                    u0 : 7(08 @ ac8)
+                    u1 : 3(10 @ aca)
+                    u2 : 32(18 @ acc)
+                    u3 : 12(20 @ ace)
+				}
+
+                u5 sub-sub-sub-sub-block { (32 @ ad0)
+
+                    u0 : 7(08 @ ad2)
+                    u1 : 2(10 @ ad4)
+                    u2 : 32(18 @ ad6)
+                    u3 : 24(20 @ ad8)
+				}
+
+                u6 sub-sub-sub-sub-block { (52 @ ada)
+
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ adc)
+
+                        w : 1.0 (0d @ ade)
+                        x : 1.0 (15 @ ae3)
+                        y : 1.0 (1d @ ae8)
+                        z : 1.0 (25 @ aed)
+					}
+
+                    u1 sub-sub-sub-sub-sub-block { (12 @ af2)
+
+                        w : 1.0 (0d @ af4)
+                        x : 1.0 (15 @ af9)
+                        y : 1.0 (1d @ afe)
+                        z : 1.0 (25 @ b03)
+					}
+
+                    u2 sub-sub-sub-sub-sub-block { (1a @ b08)
+
+                        w : 1.0 (0d @ b0a)
+                        x : 1.0 (15 @ b0f)
+                        y : 1.0 (1d @ b14)
+                        z : 1.0 (25 @ b19)
+					}
+                    u3 : 0.0 (25 @ b1e)
+                    u4 : \n\x07ground3\x10\x01 \x01 (2a @ b23)
+				}
+
+                u7 sub-sub-sub-sub-block { (5a @ b32)
+
+                    u : -373.8843994140625 (0d @ b34)
+                    v : -186.73277282714844 (15 @ b39)
+                    w : -60.0 (1d @ b3e)
+                    x : 263.06695556640625 (25 @ b43)
+                    y : 56.01145935058594 (2d @ b48)
+                    z : 120.0 (35 @ b4d)
+				}
+                u8 : \x8a\xa2\xdd\xc2>\xce \xc3\x00\x00\\\xc2g4\x84\xbby\xff\x7f?\x00\x00\x00\x00\x86\x13\x06A)\\\x8f>\x8a\xa2\xdd\xc2>\xce \xc3\x00\x00\\Bg4\x84\xbby\xff\x7f?\x00\x00\x00\x00\x86\x13\x06A\xecQ8?\x8a\xa2\xdd\xc2>\xce*\xc3\x00\x00pB\x00\x00\x00\x80\x00\x00\x00\x00\xff\xff\x7f?\xafo\x05A\xa4p=?\x8a\xa2\xdd\xc2>\xce9\xc3ff\\Bg4\x84;y\xff\x7f\xbf\x00\x00\x00\x80\xecy\x04A"l8?\x8a\xa2\xdd\xc2>\xce9\xc3\x9a\x99[\xc2g4\x84;y\xff\x7f\xbf\x00\x00\x00\x80\xecy\x04A\x96\x90\x8f>\x8a\xa2\xdd\xc2>\xce*\xc3\x00\x00p\xc2\x00\x00\x00\x80\x00\x00\x00\x00\xff\xff\x7f?\xafo\x05A\xb8\x1e\x85>\x8a\xa2\xdd\xc2>\xce \xc3\x00\x00\\\xc2g4\x84\xbby\xff\x7f?\x00\x00\x00\x00\x86\x13\x06A)\\\x8f>\x8a\xa2\xdd\xc2>\xce \xc3\x00\x00\\Bg4\x84\xbby\xff\x7f?\x00\x00\x00\x00\x86\x13\x06A\xecQ8?\x8a\xa2\xdd\xc2>\xce*\xc3\x00\x00pB\x00\x00\x00\x80\x00\x00\x00\x00\xff\xff\x7f?\x86\x13\x06A\xc8\xc4C?\x8a\xa2\xdd\xc2>\xce9\xc3ff\\Bg4\x84;y\xff\x7f\xbf\x00\x00\x00\x80\x86\x13\x06Am\xedS?\xaaN\xaa\xc3\x97\xbb!\xc3\x00\x00\\\xc2g4\x84\xbby\xff\x7f?\x00\x00\x00\x00\x8d\xc8\x14A)\\\x8f>\xaaN\xaa\xc3\x97\xbb!\xc3\x00\x00\\Bg4\x84\xbby\xff\x7f?\x00\x00\x00\x00\x8d\xc8\x14A\xecQ8?\xaaN\xaa\xc3\x97\xbb+\xc3\x00\x00pB\x00\x00\x00\x80\x00\x00\x00\x00\xff\xff\x7f?\x8d\xc8\x14A\xc8\xc4C?\xaaN\xaa\xc3\x97\xbb:\xc3ff\\Bg4\x84;y\xff\x7f\xbf\x00\x00\x00\x80\x8d\xc8\x14Am\xedS?\xaaN\xaa\xc3\x97\xbb!\xc3\x00\x00\\\xc2g4\x84\xbby\xff\x7f?\x00\x00\x00\x00\x8d\xc8\x14A)\\\x8f>\xaaN\xaa\xc3\x97\xbb!\xc3\x00\x00\\Bg4\x84\xbby\xff\x7f?\x00\x00\x00\x00\x8d\xc8\x14A\xecQ8?\xaaN\xaa\xc3\x97\xbb+\xc3\x00\x00pB\x00\x00\x00\x80\x00\x00\x00\x00\xff\xff\x7f?dl\x15A\xa4p=?\xaaN\xaa\xc3\x97\xbb:\xc3ff\\Bg4\x84;y\xff\x7f\xbf\x00\x00\x00\x80\'b\x16A"l8?\xaaN\xaa\xc3\x97\xbb:\xc3\x9a\x99[\xc2g4\x84;y\xff\x7f\xbf\x00\x00\x00\x80\'b\x16A\x96\x90\x8f>\xaaN\xaa\xc3\x97\xbb+\xc3\x00\x00p\xc2\x00\x00\x00\x80\x00\x00\x00\x00\xff\xff\x7f?dl\x15A\xb8\x1e\x85>4\xda\xa8\xc3=2\x03\xc3\x00\x00\\\xc2\x1e\rW<[\xfa\x7f?\x00\x00\x00\x00\x8d\xc8\x14A)\\\x8f>4\xda\xa8\xc3=2\x03\xc3\x00\x00\\B\x1e\rW<[\xfa\x7f?\x00\x00\x00\x00\x8d\xc8\x14A\xecQ8?4\xda\xa8\xc3=2\r\xc3\x00\x00pB\x00\x00\x00\x80\x00\x00\x00\x00\x00\x00\x80?\xb6$\x14A\xa4p=?4\xda\xa8\xc3=2\x1c\xc3ff\\B\x1e\rW\xbc[\xfa\x7f\xbf\x00\x00\x00\x80\xf4.\x13A"l8?4\xda\xa8\xc3=2\x1c\xc3\x9a\x99[\xc2\x1e\rW\xbc[\xfa\x7f\xbf\x00\x00\x00\x80\xf4.\x13A\x96\x90\x8f>4\xda\xa8\xc3=2\r\xc3\x00\x00p\xc2\x00\x00\x00\x80\x00\x00\x00\x00\x00\x00\x80?\xb6$\x14A\xb8\x1e\x85>4\xda\xa8\xc3=2\x03\xc3\x00\x00\\\xc2\x1e\rW<[\xfa\x7f?\x00\x00\x00\x00\x8d\xc8\x14A)\\\x8f>4\xda\xa8\xc3=2\x03\xc3\x00\x00\\B\x1e\rW<[\xfa\x7f?\x00\x00\x00\x00\x8d\xc8\x14A\xecQ8?4\xf1\xba\xc3\xa8\xb8\x02\xc3\x00\x00\\\xc2\x1e\rW<[\xfa\x7f?\x00\x00\x00\x008\xe8\x16A)\\\x8f>4\xf1\xba\xc3\xa8\xb8\x02\xc3\x00\x00\\B\x1e\rW<[\xfa\x7f?\x00\x00\x00\x008\xe8\x16A\xecQ8? (192 @ b53)
+                u9 : \x00\x00\x04\x00\x05\x00\x00\x00\x03\x00\x04\x00\x00\x00\x01\x00\x03\x00\x01\x00\x02\x00\x03\x00\x06\x00\n\x00\x0b\x00\x07\x00\x06\x00\x0b\x00\x07\x00\x0b\x00\x0c\x00\x08\x00\x07\x00\x0c\x00\x08\x00\x0c\x00\r\x00\t\x00\x08\x00\r\x00\x0e\x00\x13\x00\x12\x00\x0e\x00\x12\x00\x11\x00\x0e\x00\x11\x00\x0f\x00\x11\x00\x10\x00\x0f\x00\x14\x00\x18\x00\x19\x00\x14\x00\x17\x00\x18\x00\x14\x00\x15\x00\x17\x00\x15\x00\x16\x00\x17\x00\x1a\x00\x1c\x00\x1d\x00\x1b\x00\x1a\x00\x1d\x00 (19a @ f17)
+			}
+
+            u1 sub-sub-sub-block { (42 @ f91)
+
+                u0 : 30(08 @ f94)
+                u1 : 20(10 @ f96)
+
+                u2 sub-sub-sub-sub-block { (1a @ f98)
+
+                    u0 : 4(08 @ f9a)
+                    u1 : 1(10 @ f9c)
+                    u2 : 2(18 @ f9e)
+                    u3 : 0(20 @ fa0)
+				}
+
+                u3 sub-sub-sub-sub-block { (22 @ fa2)
+
+                    u0 : 7(08 @ fa4)
+                    u1 : 3(10 @ fa6)
+                    u2 : 32(18 @ fa8)
+                    u3 : 0(20 @ faa)
+				}
+
+                u4 sub-sub-sub-sub-block { (2a @ fac)
+
+                    u0 : 7(08 @ fae)
+                    u1 : 3(10 @ fb0)
+                    u2 : 32(18 @ fb2)
+                    u3 : 12(20 @ fb4)
+				}
+
+                u5 sub-sub-sub-sub-block { (32 @ fb6)
+
+                    u0 : 7(08 @ fb8)
+                    u1 : 2(10 @ fba)
+                    u2 : 32(18 @ fbc)
+                    u3 : 24(20 @ fbe)
+				}
+
+                u6 sub-sub-sub-sub-block { (52 @ fc0)
+
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ fc2)
+
+                        w : 1.0 (0d @ fc4)
+                        x : 1.0 (15 @ fc9)
+                        y : 1.0 (1d @ fce)
+                        z : 1.0 (25 @ fd3)
+					}
+
+                    u1 sub-sub-sub-sub-sub-block { (12 @ fd8)
+
+                        w : 1.0 (0d @ fda)
+                        x : 1.0 (15 @ fdf)
+                        y : 1.0 (1d @ fe4)
+                        z : 1.0 (25 @ fe9)
+					}
+
+                    u2 sub-sub-sub-sub-sub-block { (1a @ fee)
+
+                        w : 1.0 (0d @ ff0)
+                        x : 1.0 (15 @ ff5)
+                        y : 1.0 (1d @ ffa)
+                        z : 1.0 (25 @ fff)
+					}
+                    u3 : 0.0 (25 @ 1004)
+                    u4 : \n\x07ground3\x10\x01 \x01 (2a @ 1009)
+				}
+
+                u7 sub-sub-sub-sub-block { (5a @ 1018)
+
+                    u : -1155.041748046875 (0d @ 101a)
+                    v : -156.1962432861328 (15 @ 101f)
+                    w : -60.0 (1d @ 1024)
+                    x : 817.3370361328125 (25 @ 1029)
+                    y : 55.93708801269531 (2d @ 102e)
+                    z : 120.0 (35 @ 1033)
+				}
+                u8 : 4\xda\xa8\xc3=2\x03\xc3\x00\x00\\B\x1e\rW<[\xfa\x7f?\x00\x00\x00\x00\x8d\xc8\x14A\xecQ8?4\xda\xa8\xc3=2\r\xc3\x00\x00pB\x00\x00\x00\x80\x00\x00\x00\x00\x00\x00\x80?\x8d\xc8\x14A\xc8\xc4C?4\xda\xa8\xc3=2\x1c\xc3ff\\B\x1e\rW\xbc[\xfa\x7f\xbf\x00\x00\x00\x80\x8d\xc8\x14Am\xedS?4\xf1\xba\xc3\xa8\xb8\x02\xc3\x00\x00\\B\x1e\rW<[\xfa\x7f?\x00\x00\x00\x008\xe8\x16A\xecQ8?4\xf1\xba\xc3\xa8\xb8\x0c\xc3\x00\x00pB\x00\x00\x00\x80\x00\x00\x00\x00\x00\x00\x80?8\xe8\x16A\xc8\xc4C?4\xf1\xba\xc3\xa8\xb8\x1b\xc3ff\\B\x1e\rW\xbc[\xfa\x7f\xbf\x00\x00\x00\x808\xe8\x16Am\xedS?4\xf1\xba\xc3\xa8\xb8\x02\xc3\x00\x00\\\xc2\x1e\rW<[\xfa\x7f?\x00\x00\x00\x008\xe8\x16A)\\\x8f>4\xf1\xba\xc3\xa8\xb8\x02\xc3\x00\x00\\B\x1e\rW<[\xfa\x7f?\x00\x00\x00\x008\xe8\x16A\xecQ8?4\xf1\xba\xc3\xa8\xb8\x0c\xc3\x00\x00pB\x00\x00\x00\x80\x00\x00\x00\x00\x00\x00\x80?\x0f\x8c\x17A\xa4p=?4\xf1\xba\xc3\xa8\xb8\x1b\xc3ff\\B\x1e\rW\xbc[\xfa\x7f\xbf\x00\x00\x00\x80\xd2\x81\x18A"l8?4\xf1\xba\xc3\xa8\xb8\x1b\xc3\x9a\x99[\xc2\x1e\rW\xbc[\xfa\x7f\xbf\x00\x00\x00\x80\xd2\x81\x18A\x96\x90\x8f>4\xf1\xba\xc3\xa8\xb8\x0c\xc3\x00\x00p\xc2\x00\x00\x00\x80\x00\x00\x00\x00\x00\x00\x80?\x0f\x8c\x17A\xb8\x1e\x85>t\x8f\xb9\xc3D\xb1\xc8\xc2\x00\x00\\\xc2p\xe8\xe88\x00\x00\x80?\x00\x00\x00\x008\xe8\x16A)\\\x8f>t\x8f\xb9\xc3D\xb1\xc8\xc2\x00\x00\\Bp\xe8\xe88\x00\x00\x80?\x00\x00\x00\x008\xe8\x16A\xecQ8?t\x8f\xb9\xc3D\xb1\xdc\xc2\x00\x00pB\x00\x00\x00\x80\x00\x00\x00\x00\x00\x00\x80?aD\x16A\xa4p=?t\x8f\xb9\xc3D\xb1\xfa\xc2ff\\Bp\xe8\xe8\xb8\x00\x00\x80\xbf\x00\x00\x00\x80\x9fN\x15A"l8?t\x8f\xb9\xc3D\xb1\xfa\xc2\x9a\x99[\xc2p\xe8\xe8\xb8\x00\x00\x80\xbf\x00\x00\x00\x80\x9fN\x15A\x96\x90\x8f>t\x8f\xb9\xc3D\xb1\xdc\xc2\x00\x00p\xc2\x00\x00\x00\x80\x00\x00\x00\x00\x00\x00\x80?aD\x16A\xb8\x1e\x85>t\x8f\xb9\xc3D\xb1\xc8\xc2\x00\x00\\\xc2p\xe8\xe88\x00\x00\x80?\x00\x00\x00\x008\xe8\x16A)\\\x8f>t\x8f\xb9\xc3D\xb1\xc8\xc2\x00\x00\\Bp\xe8\xe88\x00\x00\x80?\x00\x00\x00\x008\xe8\x16A\xecQ8?t\x8f\xb9\xc3D\xb1\xdc\xc2\x00\x00pB\x00\x00\x00\x80\x00\x00\x00\x00\x00\x00\x80?8\xe8\x16A\xc8\xc4C?t\x8f\xb9\xc3D\xb1\xfa\xc2ff\\Bp\xe8\xe8\xb8\x00\x00\x80\xbf\x00\x00\x00\x808\xe8\x16Am\xedS?Va\x90\xc4\xb0\x84\xc8\xc2\x00\x00\\\xc2p\xe8\xe88\x00\x00\x80?\x00\x00\x00\x00\xae\xb1HA)\\\x8f>Va\x90\xc4\xb0\x84\xc8\xc2\x00\x00\\Bp\xe8\xe88\x00\x00\x80?\x00\x00\x00\x00\xae\xb1HA\xecQ8?Va\x90\xc4\xb0\x84\xdc\xc2\x00\x00pB\x00\x00\x00\x80\x00\x00\x00\x00\x00\x00\x80?\xae\xb1HA\xc8\xc4C?Va\x90\xc4\xb0\x84\xfa\xc2ff\\Bp\xe8\xe8\xb8\x00\x00\x80\xbf\x00\x00\x00\x80\xae\xb1HAm\xedS?Va\x90\xc4\xb0\x84\xc8\xc2\x00\x00\\\xc2p\xe8\xe88\x00\x00\x80?\x00\x00\x00\x00\xae\xb1HA)\\\x8f>Va\x90\xc4\xb0\x84\xfa\xc2ff\\Bp\xe8\xe8\xb8\x00\x00\x80\xbf\x00\x00\x00\x80HKJA"l8?Va\x90\xc4\xb0\x84\xfa\xc2\x9a\x99[\xc2p\xe8\xe8\xb8\x00\x00\x80\xbf\x00\x00\x00\x80HKJA\x96\x90\x8f>Va\x90\xc4\xb0\x84\xdc\xc2\x00\x00p\xc2\x00\x00\x00\x80\x00\x00\x00\x00\x00\x00\x80?\x85UIA\xb8\x1e\x85> (192 @ 1039)
+                u9 : \x00\x00\x03\x00\x04\x00\x01\x00\x00\x00\x04\x00\x01\x00\x04\x00\x05\x00\x02\x00\x01\x00\x05\x00\x06\x00\x0b\x00\n\x00\x06\x00\n\x00\t\x00\x06\x00\t\x00\x07\x00\t\x00\x08\x00\x07\x00\x0c\x00\x10\x00\x11\x00\x0c\x00\x0f\x00\x10\x00\x0c\x00\r\x00\x0f\x00\r\x00\x0e\x00\x0f\x00\x12\x00\x16\x00\x17\x00\x13\x00\x12\x00\x17\x00\x13\x00\x17\x00\x18\x00\x14\x00\x13\x00\x18\x00\x14\x00\x18\x00\x19\x00\x15\x00\x14\x00\x19\x00\x1a\x00\x1d\x00\x1c\x00\x1a\x00\x1c\x00\x1b\x00 (19a @ 13fd)
+			}
+
+            u1 sub-sub-sub-block { (42 @ 1477)
+
+                u0 : 4(08 @ 147a)
+                u1 : 2(10 @ 147c)
+
+                u2 sub-sub-sub-sub-block { (1a @ 147e)
+
+                    u0 : 4(08 @ 1480)
+                    u1 : 1(10 @ 1482)
+                    u2 : 2(18 @ 1484)
+                    u3 : 0(20 @ 1486)
+				}
+
+                u3 sub-sub-sub-sub-block { (22 @ 1488)
+
+                    u0 : 7(08 @ 148a)
+                    u1 : 3(10 @ 148c)
+                    u2 : 32(18 @ 148e)
+                    u3 : 0(20 @ 1490)
+				}
+
+                u4 sub-sub-sub-sub-block { (2a @ 1492)
+
+                    u0 : 7(08 @ 1494)
+                    u1 : 3(10 @ 1496)
+                    u2 : 32(18 @ 1498)
+                    u3 : 12(20 @ 149a)
+				}
+
+                u5 sub-sub-sub-sub-block { (32 @ 149c)
+
+                    u0 : 7(08 @ 149e)
+                    u1 : 2(10 @ 14a0)
+                    u2 : 32(18 @ 14a2)
+                    u3 : 24(20 @ 14a4)
+				}
+
+                u6 sub-sub-sub-sub-block { (52 @ 14a6)
+
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 14a8)
+
+                        w : 1.0 (0d @ 14aa)
+                        x : 1.0 (15 @ 14af)
+                        y : 1.0 (1d @ 14b4)
+                        z : 1.0 (25 @ 14b9)
+					}
+
+                    u1 sub-sub-sub-sub-sub-block { (12 @ 14be)
+
+                        w : 1.0 (0d @ 14c0)
+                        x : 1.0 (15 @ 14c5)
+                        y : 1.0 (1d @ 14ca)
+                        z : 1.0 (25 @ 14cf)
+					}
+
+                    u2 sub-sub-sub-sub-sub-block { (1a @ 14d4)
+
+                        w : 1.0 (0d @ 14d6)
+                        x : 1.0 (15 @ 14db)
+                        y : 1.0 (1d @ 14e0)
+                        z : 1.0 (25 @ 14e5)
+					}
+                    u3 : 0.0 (25 @ 14ea)
+                    u4 : \n\x07ground3\x10\x01 \x01 (2a @ 14ef)
+				}
+
+                u7 sub-sub-sub-sub-block { (5a @ 14fe)
+
+                    u : -1155.041748046875 (0d @ 1500)
+                    v : -125.2591552734375 (15 @ 1505)
+                    w : -55.0 (1d @ 150a)
+                    x : 0.0 (25 @ 150f)
+                    y : 25.0 (2d @ 1514)
+                    z : 115.0 (35 @ 1519)
+				}
+                u8 : Va\x90\xc4\xb0\x84\xc8\xc2\x00\x00\\\xc2p\xe8\xe88\x00\x00\x80?\x00\x00\x00\x00\xae\xb1HA)\\\x8f>Va\x90\xc4\xb0\x84\xc8\xc2\x00\x00\\Bp\xe8\xe88\x00\x00\x80?\x00\x00\x00\x00\xae\xb1HA\xecQ8?Va\x90\xc4\xb0\x84\xdc\xc2\x00\x00pB\x00\x00\x00\x80\x00\x00\x00\x00\x00\x00\x80?\x85UIA\xa4p=?Va\x90\xc4\xb0\x84\xfa\xc2ff\\Bp\xe8\xe8\xb8\x00\x00\x80\xbf\x00\x00\x00\x80HKJA"l8? (192 @ 151f)
+                u9 : \x00\x00\x03\x00\x01\x00\x03\x00\x02\x00\x01\x00 (19a @ 15a3)
+			}
+
+            u1 sub-sub-sub-block { (42 @ 15b1)
+
+                u0 : 26(08 @ 15b4)
+                u1 : 20(10 @ 15b6)
+
+                u2 sub-sub-sub-sub-block { (1a @ 15b8)
+
+                    u0 : 4(08 @ 15ba)
+                    u1 : 1(10 @ 15bc)
+                    u2 : 2(18 @ 15be)
+                    u3 : 0(20 @ 15c0)
+				}
+
+                u3 sub-sub-sub-sub-block { (22 @ 15c2)
+
+                    u0 : 7(08 @ 15c4)
+                    u1 : 3(10 @ 15c6)
+                    u2 : 32(18 @ 15c8)
+                    u3 : 0(20 @ 15ca)
+				}
+
+                u4 sub-sub-sub-sub-block { (2a @ 15cc)
+
+                    u0 : 7(08 @ 15ce)
+                    u1 : 3(10 @ 15d0)
+                    u2 : 32(18 @ 15d2)
+                    u3 : 12(20 @ 15d4)
+				}
+
+                u5 sub-sub-sub-sub-block { (32 @ 15d6)
+
+                    u0 : 7(08 @ 15d8)
+                    u1 : 2(10 @ 15da)
+                    u2 : 32(18 @ 15dc)
+                    u3 : 24(20 @ 15de)
+				}
+
+                u6 sub-sub-sub-sub-block { (52 @ 15e0)
+
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 15e2)
+
+                        w : 1.0 (0d @ 15e4)
+                        x : 1.0 (15 @ 15e9)
+                        y : 1.0 (1d @ 15ee)
+                        z : 1.0 (25 @ 15f3)
+					}
+
+                    u1 sub-sub-sub-sub-sub-block { (12 @ 15f8)
+
+                        w : 1.0 (0d @ 15fa)
+                        x : 1.0 (15 @ 15ff)
+                        y : 1.0 (1d @ 1604)
+                        z : 1.0 (25 @ 1609)
+					}
+
+                    u2 sub-sub-sub-sub-sub-block { (1a @ 160e)
+
+                        w : 1.0 (0d @ 1610)
+                        x : 1.0 (15 @ 1615)
+                        y : 1.0 (1d @ 161a)
+                        z : 1.0 (25 @ 161f)
+					}
+                    u3 : 0.0 (25 @ 1624)
+                    u4 : \n\x10florennum_ground\x10\x01 \x01 (2a @ 1629)
+				}
+
+                u7 sub-sub-sub-sub-block { (5a @ 1641)
+
+                    u : -850.3056030273438 (0d @ 1643)
+                    v : -161.73277282714844 (15 @ 1648)
+                    w : -50.0 (1d @ 164d)
+                    x : 739.4881591796875 (25 @ 1652)
+                    y : 730.4263916015625 (2d @ 1657)
+                    z : 100.0 (35 @ 165c)
+				}
+                u8 : \x8f\x93T\xc4d,\x0eD\x00\x00H\xc2\xb1\xb3\x7f\xbf\xec\x9aE\xbd\x00\x00\x00\x00\x00\x00\x00?\x9a\x99\x99>\x8f\x93T\xc4d,\x0eD\x00\x00HB\xb1\xb3\x7f\xbf\xec\x9aE\xbd\x00\x00\x00\x00\x00\x00\x00?333?\x89&O\xc4\xa4\xaf\xeeB\x00\x00H\xc2\r\xd5\x7f\xbf\x13E\x14\xbd\x00\x00\x00\x00\xf8*\x13@\x9a\x99\x99>\x89&O\xc4\xa4\xaf\xeeB\x00\x00HB\r\xd5\x7f\xbf\x13E\x14\xbd\x00\x00\x00\x00\xf8*\x13@333?ImO\xc4\x00\xb0"=\x00\x00H\xc2\xdc\xa2\x0f\xbf;\xe8S\xbf\x00\x00\x00\x00\xf8\xb51@\x9a\x99\x99>ImO\xc4\x00\xb0"=\x00\x00HB\xdc\xa2\x0f\xbf;\xe8S\xbf\x00\x00\x00\x00\xf8\xb51@333?BG#\xc4\x00\xd4\xc8>\x00\x00H\xc27L\x03?\xfe\xc3[\xbf\x00\x00\x00\x00E\xeb^@\x9a\x99\x99>BG#\xc4\x00\xd4\xc8>\x00\x00HB7L\x03?\xfe\xc3[\xbf\x00\x00\x00\x00E\xeb^@333?3\x1e#\xc4<\xdb\xd3B\x00\x00H\xc2s\xde\xb8>\xce\xban\xbf\x00\x00\x00\x00\xcd\xefy@\x9a\x99\x99>3\x1e#\xc4<\xdb\xd3B\x00\x00HBs\xde\xb8>\xce\xban\xbf\x00\x00\x00\x00\xcd\xefy@333?"\x9f\xbb\xc3\x98\xf6\xd7B\x00\x00H\xc2\x03>\xae\xbe7\xb8p\xbf\x00\x00\x00\x00`t\xa0@\x9a\x99\x99>"\x9f\xbb\xc3\x98\xf6\xd7B\x00\x00HB\x03>\xae\xbe7\xb8p\xbf\x00\x00\x00\x00`t\xa0@333?\xaa\x8f\xba\xc3\xe0o\x9a@\x00\x00H\xc2\xfd\x9a\xbb\xbe\x072n\xbf\x00\x00\x00\x00J\xa9\xad@\x9a\x99\x99>\xaa\x8f\xba\xc3\xe0o\x9a@\x00\x00HB\xfd\x9a\xbb\xbe\x072n\xbf\x00\x00\x00\x00J\xa9\xad@333?\xec\xaa\xdf\xc2\x00\xfc\x87@\x00\x00H\xc2\x8e\xae\x08\xbf?uX\xbf\x00\x00\x00\x006\x1b\xcf@\x9a\x99\x99>\xec\xaa\xdf\xc2\x00\xfc\x87@\x00\x00HB\x8e\xae\x08\xbf?uX\xbf\x00\x00\x00\x006\x1b\xcf@333?\x8a\xa2\xdd\xc2>\xce \xc3\x00\x00H\xc2\xc1\xfe\x7f\xbf1\xc6\xc9\xbb\x00\x00\x00\x00\xd7;\xe4@\x9a\x99\x99>\x8a\xa2\xdd\xc2>\xce \xc3\x00\x00HB\xc1\xfe\x7f\xbf1\xc6\xc9\xbb\x00\x00\x00\x00\xd7;\xe4@333?\xaaN\xaa\xc3\x97\xbb!\xc3\x00\x00H\xc2\xb9\xff\x7f?,\xb3@;\x00\x00\x00\x00\xd7;\xe4@\x9a\x99\x99>\xaaN\xaa\xc3\x97\xbb!\xc3\x00\x00HB\xb9\xff\x7f?,\xb3@;\x00\x00\x00\x00\xd7;\xe4@333?,Z\xaa\xc3((\x03\xc3\x00\x00H\xc2\xb9\xff\x7f?,\xb3@;\x00\x00\x00\x00\xc2%\xe8@\x9a\x99\x99>,Z\xaa\xc3((\x03\xc3\x00\x00HB\xb9\xff\x7f?,\xb3@;\x00\x00\x00\x00\xc2%\xe8@333?4\xf1\xba\xc3\xa8\xb8\x02\xc3\x00\x00H\xc2\x05\xfe\x7f?j\xef\xfe;\x00\x00\x00\x00\xc2%\xe8@\x9a\x99\x99>4\xf1\xba\xc3\xa8\xb8\x02\xc3\x00\x00HB\x05\xfe\x7f?j\xef\xfe;\x00\x00\x00\x00\xc2%\xe8@333?t\x0f\xbb\xc3\x18\xb1\xc8\xc2\x00\x00H\xc2\x05\xfe\x7f?j\xef\xfe;\x00\x00\x00\x00!\t\xec@\x9a\x99\x99>t\x0f\xbb\xc3\x18\xb1\xc8\xc2\x00\x00HB\x05\xfe\x7f?j\xef\xfe;\x00\x00\x00\x00!\t\xec@333? (192 @ 1662)
+                u9 : \x00\x00\x02\x00\x03\x00\x01\x00\x00\x00\x03\x00\x02\x00\x04\x00\x05\x00\x03\x00\x02\x00\x05\x00\x04\x00\x06\x00\x07\x00\x05\x00\x04\x00\x07\x00\x06\x00\x08\x00\t\x00\x07\x00\x06\x00\t\x00\x08\x00\n\x00\x0b\x00\t\x00\x08\x00\x0b\x00\n\x00\x0c\x00\r\x00\x0b\x00\n\x00\r\x00\x0c\x00\x0e\x00\x0f\x00\r\x00\x0c\x00\x0f\x00\x0e\x00\x10\x00\x11\x00\x0f\x00\x0e\x00\x11\x00\x12\x00\x14\x00\x15\x00\x13\x00\x12\x00\x15\x00\x16\x00\x18\x00\x19\x00\x17\x00\x16\x00\x19\x00 (19a @ 19a6)
+			}
+
+            u1 sub-sub-sub-block { (42 @ 1a20)
+
+                u0 : 10(08 @ 1a23)
+                u1 : 8(10 @ 1a25)
+
+                u2 sub-sub-sub-sub-block { (1a @ 1a27)
+
+                    u0 : 4(08 @ 1a29)
+                    u1 : 1(10 @ 1a2b)
+                    u2 : 2(18 @ 1a2d)
+                    u3 : 0(20 @ 1a2f)
+				}
+
+                u3 sub-sub-sub-sub-block { (22 @ 1a31)
+
+                    u0 : 7(08 @ 1a33)
+                    u1 : 3(10 @ 1a35)
+                    u2 : 32(18 @ 1a37)
+                    u3 : 0(20 @ 1a39)
+				}
+
+                u4 sub-sub-sub-sub-block { (2a @ 1a3b)
+
+                    u0 : 7(08 @ 1a3d)
+                    u1 : 3(10 @ 1a3f)
+                    u2 : 32(18 @ 1a41)
+                    u3 : 12(20 @ 1a43)
+				}
+
+                u5 sub-sub-sub-sub-block { (32 @ 1a45)
+
+                    u0 : 7(08 @ 1a47)
+                    u1 : 2(10 @ 1a49)
+                    u2 : 32(18 @ 1a4b)
+                    u3 : 24(20 @ 1a4d)
+				}
+
+                u6 sub-sub-sub-sub-block { (52 @ 1a4f)
+
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 1a51)
+
+                        w : 1.0 (0d @ 1a53)
+                        x : 1.0 (15 @ 1a58)
+                        y : 1.0 (1d @ 1a5d)
+                        z : 1.0 (25 @ 1a62)
+					}
+
+                    u1 sub-sub-sub-sub-sub-block { (12 @ 1a67)
+
+                        w : 1.0 (0d @ 1a69)
+                        x : 1.0 (15 @ 1a6e)
+                        y : 1.0 (1d @ 1a73)
+                        z : 1.0 (25 @ 1a78)
+					}
+
+                    u2 sub-sub-sub-sub-sub-block { (1a @ 1a7d)
+
+                        w : 1.0 (0d @ 1a7f)
+                        x : 1.0 (15 @ 1a84)
+                        y : 1.0 (1d @ 1a89)
+                        z : 1.0 (25 @ 1a8e)
+					}
+                    u3 : 0.0 (25 @ 1a93)
+                    u4 : \n\x10florennum_ground\x10\x01 \x01 (2a @ 1a98)
+				}
+
+                u7 sub-sub-sub-sub-block { (5a @ 1ab0)
+
+                    u : -1152.041748046875 (0d @ 1ab2)
+                    v : -665.9594116210938 (15 @ 1ab7)
+                    w : -50.0 (1d @ 1abc)
+                    x : 2304.08349609375 (25 @ 1ac1)
+                    y : 1331.9188232421875 (2d @ 1ac6)
+                    z : 100.0 (35 @ 1acb)
+				}
+                u8 : V\x01\x90\xc4\xdc\x84\xc8\xc2\x00\x00H\xc2`\xe6b\xbf\x06\x16\xed\xbe\x00\x00\x00\x00!\t\xec@\x9a\x99\x99>V\x01\x90\xc4\xdc\x84\xc8\xc2\x00\x00HB`\xe6b\xbf\x06\x16\xed\xbe\x00\x00\x00\x00!\t\xec@333?\x9c\x1fV\xc4g}&\xc4\x00\x00H\xc2[\xdc\xc0\xbe\xd0$m\xbf\x00\x00\x00\x00\xad\xdd\x1eA\x9a\x99\x99>\x9c\x1fV\xc4g}&\xc4\x00\x00HB[\xdc\xc0\xbe\xd0$m\xbf\x00\x00\x00\x00\xad\xdd\x1eA333?\xf0\x05\x00C\xa21\x1b\xc4\x00\x00H\xc2\x88.\x12;\xd7\xff\x7f\xbf\x00\x00\x00\x00\xfc\xf0]A\x9a\x99\x99>\xf0\x05\x00C\xa21\x1b\xc4\x00\x00HB\x88.\x12;\xd7\xff\x7f\xbf\x00\x00\x00\x00\xfc\xf0]A333?V\x01\x90D\xac^%\xc4\x00\x00H\xc2\x04\x82K?\xd3N\x1b\xbf\x00\x00\x00\x00\xe0\xc3\x8fA\x9a\x99\x99>V\x01\x90D\xac^%\xc4\x00\x00HB\x04\x82K?\xd3N\x1b\xbf\x00\x00\x00\x00\xe0\xc3\x8fA333?\x04\xc0\x8aDg}&D\x00\x00H\xc2)\xdf\x7f?\xc5\xa8\x01=\x00\x00\x00\x00\xb4C\xbaA\x9a\x99\x99>\x04\xc0\x8aDg}&D\x00\x00HB)\xdf\x7f?\xc5\xa8\x01=\x00\x00\x00\x00\xb4C\xbaA333? (192 @ 1ad1)
+                u9 : \x00\x00\x02\x00\x03\x00\x01\x00\x00\x00\x03\x00\x02\x00\x04\x00\x05\x00\x03\x00\x02\x00\x05\x00\x04\x00\x06\x00\x07\x00\x05\x00\x04\x00\x07\x00\x06\x00\x08\x00\t\x00\x07\x00\x06\x00\t\x00 (19a @ 1c15)
+			}
+
+            u2 sub-sub-sub-block { (4a @ 1c47)
+
+                u0 : 51(08 @ 1c4a)
+                u1 : 17(10 @ 1c4c)
+
+                u2 sub-sub-sub-sub-block { (22 @ 1c4e)
+
+                    u0 : 7(08 @ 1c50)
+                    u1 : 3(10 @ 1c52)
+                    u2 : 32(18 @ 1c54)
+                    u3 : 0(20 @ 1c56)
+				}
+
+                u3 sub-sub-sub-sub-block { (2a @ 1c58)
+
+                    u0 : 7(08 @ 1c5a)
+                    u1 : 3(10 @ 1c5c)
+                    u2 : 32(18 @ 1c5e)
+                    u3 : 12(20 @ 1c60)
+				}
+
+                u4 sub-sub-sub-sub-block { (32 @ 1c62)
+
+                    u0 : 7(08 @ 1c64)
+                    u1 : 2(10 @ 1c66)
+                    u2 : 32(18 @ 1c68)
+                    u3 : 24(20 @ 1c6a)
+				}
+
+                u5 sub-sub-sub-sub-block { (52 @ 1c6c)
+
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 1c6e)
+
+                        w : 1.0 (0d @ 1c70)
+                        x : 1.0 (15 @ 1c75)
+                        y : 1.0 (1d @ 1c7a)
+                        z : 1.0 (25 @ 1c7f)
+					}
+
+                    u1 sub-sub-sub-sub-sub-block { (12 @ 1c84)
+
+                        w : 1.0 (0d @ 1c86)
+                        x : 1.0 (15 @ 1c8b)
+                        y : 1.0 (1d @ 1c90)
+                        z : 1.0 (25 @ 1c95)
+					}
+
+                    u2 sub-sub-sub-sub-sub-block { (1a @ 1c9a)
+
+                        w : 1.0 (0d @ 1c9c)
+                        x : 1.0 (15 @ 1ca1)
+                        y : 1.0 (1d @ 1ca6)
+                        z : 1.0 (25 @ 1cab)
+					}
+                    u3 : 0.0 (25 @ 1cb0)
+
+                    u4 sub-sub-sub-sub-sub-block { (2a @ 1cb5)
+
+                        u0 : florennum_ground (0a @ 1cb7)
+                        u1 : 1(10 @ 1cc9)
+                        u2 : 1(20 @ 1ccb)
+					}
+				}
+
+                u3 sub-sub-sub-sub-block { (5a @ 1ccd)
+
+                    u : -1152.041748046875 (0d @ 1ccf)
+                    v : -665.9594116210938 (15 @ 1cd4)
+                    w : 50.0 (1d @ 1cd9)
+                    x : 2304.08349609375 (25 @ 1cde)
+                    y : 1331.9188232421875 (2d @ 1ce3)
+                    z : 0.0 (35 @ 1ce8)
+				}
+                u7 : \x9c\x1fV\xc4g}&\xc4\x00\x00HB\x00\x00\x00\x00\x00\x00\x00\x80\x00\x00\x80?/C;\xc0Q|\n\xc0t\x0f\xbb\xc3\x18\xb1\xc8\xc2\x00\x00HB\x00\x00\x00\x00\x00\x00\x00\x80\x00\x00\x80?\x82\x19\x7f\xbfl\xf7\xc9=V\x01\x90\xc4\xdc\x84\xc8\xc2\x00\x00HB\x00\x00\x00\x00\x00\x00\x00\x80\x00\x00\x80?\x1bv\x83\xc0\x9c\xac\xca=\xf0\x05\x00C\xa21\x1b\xc4\x00\x00HB\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x80?B\x8c\x81?J\xd6\xfd\xbf\xe0w\rB\xcb+\x04D\x00\x00HB\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x80?D7$?\xdaW\'@\x8a\xa2\xdd\xc2>\xce \xc3\x00\x00HB\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x80?\xe0]h=\xec\xa8\x12\xbe\xf0\x05\x00C\xa21\x1b\xc4\x00\x00HB\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x80?B\x8c\x81?J\xd6\xfd\xbf\x8a\xa2\xdd\xc2>\xce \xc3\x00\x00HB\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x80?\xe0]h=\xec\xa8\x12\xbe\xaaN\xaa\xc3\x97\xbb!\xc3\x00\x00HB\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x80?\x10\xca\\\xbf\x1cu\x16\xbe\xaaN\xaa\xc3\x97\xbb!\xc3\x00\x00HB\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x80?\x10\xca\\\xbf\x1cu\x16\xbe,Z\xaa\xc3((\x03\xc3\x00\x00HB\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x80?\xa2\xe1\\\xbf\x80\xbf\xc9\xbc4\xf1\xba\xc3\xa8\xb8\x02\xc3\x00\x00HB\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x80?\x8e\xdb~\xbf\xe0y\xbb\xbc\xf0\x05\x00C\xa21\x1b\xc4\x00\x00HB\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x80?B\x8c\x81?J\xd6\xfd\xbf\xaaN\xaa\xc3\x97\xbb!\xc3\x00\x00HB\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x80?\x10\xca\\\xbf\x1cu\x16\xbe4\xf1\xba\xc3\xa8\xb8\x02\xc3\x00\x00HB\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x80?\x8e\xdb~\xbf\xe0y\xbb\xbc4\xf1\xba\xc3\xa8\xb8\x02\xc3\x00\x00HB\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x80?\x8e\xdb~\xbf\xe0y\xbb\xbct\x0f\xbb\xc3\x18\xb1\xc8\xc2\x00\x00HB\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x80?\x82\x19\x7f\xbfl\xf7\xc9=\x9c\x1fV\xc4g}&\xc4\x00\x00HB\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x80?/C;\xc0Q|\n\xc0\xf0\x05\x00C\xa21\x1b\xc4\x00\x00HB\x00\x00\x00\x00\x00\x00\x00\x00\xff\xff\x7f?B\x8c\x81?J\xd6\xfd\xbf4\xf1\xba\xc3\xa8\xb8\x02\xc3\x00\x00HB\x00\x00\x00\x00\x00\x00\x00\x00\xff\xff\x7f?\x8e\xdb~\xbf\xe0y\xbb\xbc\x9c\x1fV\xc4g}&\xc4\x00\x00HB\x00\x00\x00\x00\x00\x00\x00\x00\xff\xff\x7f?/C;\xc0Q|\n\xc0\x8f\x93T\xc4d,\x0eD\x00\x00HB\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x80?\xa1\xad9\xc0\xe7\x951@\x89&O\xc4\xa4\xaf\xeeB\x00\x00HB\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x80?E\x1f4\xc0\x105z?BG#\xc4\x00\xd4\xc8>\x00\x00HB\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x80?q2\x07\xc0\xd3f\x00?\x8f\x93T\xc4d,\x0eD\x00\x00HB\x00\x00\x00\x80\x00\x00\x00\x00\x00\x00\x80?\xa1\xad9\xc0\xe7\x951@BG#\xc4\x00\xd4\xc8>\x00\x00HB\x00\x00\x00\x80\x00\x00\x00\x00\x00\x00\x80?q2\x07\xc0\xd3f\x00?3\x1e#\xc4<\xdb\xd3B\x00\x00HB\x00\x00\x00\x80\x00\x00\x00\x00\x00\x00\x80?e\x08\x07\xc0pxl?\x8f\x93T\xc4d,\x0eD\x00\x00HB\x00\x00\x00\x80\x00\x00\x00\x00\x00\x00\x80?\xa1\xad9\xc0\xe7\x951@3\x1e#\xc4<\xdb\xd3B\x00\x00HB\x00\x00\x00\x80\x00\x00\x00\x00\x00\x00\x80?e\x08\x07\xc0pxl?"\x9f\xbb\xc3\x98\xf6\xd7B\x00\x00HB\x00\x00\x00\x80\x00\x00\x00\x00\x00\x00\x80?\xe1\x1f\x80\xbf\xbc\x92n?"\x9f\xbb\xc3\x98\xf6\xd7B\x00\x00HB\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x80?\xe1\x1f\x80\xbf\xbc\x92n?\xaa\x8f\xba\xc3\xe0o\x9a@\x00\x00HB\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x80?\xca\x13~\xbf&\xf1\x04?\xec\xaa\xdf\xc2\x00\xfc\x87@\x00\x00HB\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x80?\xe8\xb6W=\xfcY\x04?\x8f\x93T\xc4d,\x0eD\x00\x00HB\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x80?\xa1\xad9\xc0\xe7\x951@"\x9f\xbb\xc3\x98\xf6\xd7B\x00\x00HB\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x80?\xe1\x1f\x80\xbf\xbc\x92n?\xec\xaa\xdf\xc2\x00\xfc\x87@\x00\x00HB\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x80?\xe8\xb6W=\xfcY\x04?\xec\xaa\xdf\xc2\x00\xfc\x87@\x00\x00HB\x00\x00\x00\x80\x00\x00\x00\x00\x00\x00\x80?\xe8\xb6W=\xfcY\x04?\x8a\xa2\xdd\xc2>\xce \xc3\x00\x00HB\x00\x00\x00\x80\x00\x00\x00\x00\x00\x00\x80?\xe0]h=\xec\xa8\x12\xbe\xe0w\rB\xcb+\x04D\x00\x00HB\x00\x00\x00\x80\x00\x00\x00\x00\x00\x00\x80?D7$?\xdaW\'@\x8f\x93T\xc4d,\x0eD\x00\x00HB\x00\x00\x00\x80\x00\x00\x00\x00\x00\x00\x80?\xa1\xad9\xc0\xe7\x951@\xec\xaa\xdf\xc2\x00\xfc\x87@\x00\x00HB\x00\x00\x00\x80\x00\x00\x00\x00\x00\x00\x80?\xe8\xb6W=\xfcY\x04?\xe0w\rB\xcb+\x04D\x00\x00HB\x00\x00\x00\x80\x00\x00\x00\x00\x00\x00\x80?D7$?\xdaW\'@\xf0\x05\x00C\xa21\x1b\xc4\x00\x00HB\x00\x00\x00\x00\x00\x00\x00\x80\x00\x00\x80?B\x8c\x81?J\xd6\xfd\xbf\x04\xc0\x8aDg}&D\x00\x00HB\x00\x00\x00\x00\x00\x00\x00\x80\x00\x00\x80?\x7f\x14\x9e@Q|J@\xe0w\rB\xcb+\x04D\x00\x00HB\x00\x00\x00\x00\x00\x00\x00\x80\x00\x00\x80?D7$?\xdaW\'@\xf0\x05\x00C\xa21\x1b\xc4\x00\x00HB\x00\x00\x00\x80\x00\x00\x00\x80\x00\x00\x80?B\x8c\x81?J\xd6\xfd\xbfV\x01\x90D\xac^%\xc4\x00\x00HB\x00\x00\x00\x80\x00\x00\x00\x80\x00\x00\x80?\x1bv\xa3@\xb4V\t\xc0\x04\xc0\x8aDg}&D\x00\x00HB\x00\x00\x00\x80\x00\x00\x00\x80\x00\x00\x80?\x7f\x14\x9e@Q|J@\x89&O\xc4\xa4\xaf\xeeB\x00\x00HB\x00\x00\x00\x80\x00\x00\x00\x00\x00\x00\x80?E\x1f4\xc0\x105z?ImO\xc4\x00\xb0"=\x00\x00HB\x00\x00\x00\x80\x00\x00\x00\x00\x00\x00\x80?\xb7g4\xc0i\n\x00?BG#\xc4\x00\xd4\xc8>\x00\x00HB\x00\x00\x00\x80\x00\x00\x00\x00\x00\x00\x80?q2\x07\xc0\xd3f\x00? (192 @ 1cee)
+			}
+
+            u3 sub-sub-sub-block { (52 @ 2351)
+
+                w : 1.0 (0d @ 2353)
+                x : 1.0 (15 @ 2358)
+                y : 1.0 (1d @ 235d)
+                z : 1.0 (25 @ 2362)
+			}
+		}
+	}
+
+    component sub-block { (1a @ 2367)
+
+        component type : GroundMeshGenerator (0a @ 2369)
+        number : 102(10 @ 237e)
+
+        ground mesh generator sub-sub-block { (382 @ 2381)
+
+            ground polygon : 100(08 @ 2383)
+            ground mesh : 101(10 @ 2385)
+            texture mapping 1 : 103(18 @ 2387)
+            texture mapping 2 : 104(20 @ 2389)
+            u4 : 0(28 @ 238b)
+            u5 : 0.0 (35 @ 238d)
+            u6 : 1(38 @ 2392)
+            u7 : 100.0 (45 @ 2394)
+            u8 : 25.0 (4d @ 2399)
+            u9 : 5.0 (55 @ 239e)
+            u10 : 5.0 (5d @ 23a3)
+		}
+	}
+
+    component sub-block { (1a @ 23a8)
+
+        component type : TextureMapping (0a @ 23aa)
+        number : 103(10 @ 23ba)
+
+        texture mapping sub-sub-block { (38a @ 23bd)
+
+            texture file : florennum_ground (0a @ 23bf)
+            u0 : 250.0 (15 @ 23d1)
+
+            u0 sub-sub-sub-block { (1a @ 23d6)
+
+                u1 : 0.0 (0d @ 23d8)
+                u2 : 0.0 (15 @ 23dd)
+			}
+		}
+	}
+
+    component sub-block { (1a @ 23e2)
+
+        component type : TextureMapping (0a @ 23e4)
+        number : 104(10 @ 23f4)
+
+        texture mapping sub-sub-block { (38a @ 23f7)
+
+            texture file : ground3 (0a @ 23f9)
+            u0 : 250.0 (15 @ 2402)
+
+            u0 sub-sub-sub-block { (1a @ 2407)
+
+                u1 : 0.0 (0d @ 2409)
+                u2 : 0.0 (15 @ 240e)
+			}
+		}
+	}
+
+    component sub-block { (1a @ 2413)
+
+        component type : CollisionShape (0a @ 2416)
+        number : 105(10 @ 2426)
+        ? linked component : 100(20 @ 2428)
+
+        collision shape sub-sub-block { (3c2 @ 242b)
+
+
+            u2 sub-sub-sub-block { (1a @ 242d)
+
+
+                u0 sub-sub-sub-sub-block { (0a @ 242f)
+
+                    y : -856.493896484375 (0d @ 2431)
+                    z : -665.9594116210938 (15 @ 2436)
+				}
+
+                u0 sub-sub-sub-sub-block { (0a @ 243b)
+
+                    y : 128.023193359375 (0d @ 243d)
+                    z : -620.7755126953125 (15 @ 2442)
+				}
+
+                u0 sub-sub-sub-sub-block { (0a @ 2447)
+
+                    y : 1152.041748046875 (0d @ 2449)
+                    z : -661.479248046875 (15 @ 244e)
+				}
+
+                u0 sub-sub-sub-sub-block { (0a @ 2453)
+
+                    y : 1110.00048828125 (0d @ 2455)
+                    z : 665.9594116210938 (15 @ 245a)
+				}
+
+                u0 sub-sub-sub-sub-block { (0a @ 245f)
+
+                    y : 35.3670654296875 (0d @ 2461)
+                    z : 528.6842651367188 (15 @ 2466)
+				}
+
+                u0 sub-sub-sub-sub-block { (0a @ 246b)
+
+                    y : -850.3056030273438 (0d @ 246d)
+                    z : 568.693603515625 (15 @ 2472)
+				}
+
+                u0 sub-sub-sub-sub-block { (0a @ 2477)
+
+                    y : -828.6021118164062 (0d @ 2479)
+                    z : 119.34304809570312 (15 @ 247e)
+				}
+
+                u0 sub-sub-sub-sub-block { (0a @ 2483)
+
+                    y : -829.7075805664062 (0d @ 2485)
+                    z : 0.0397186279296875 (15 @ 248a)
+				}
+
+                u0 sub-sub-sub-sub-block { (0a @ 248f)
+
+                    y : -653.1134033203125 (0d @ 2491)
+                    z : 0.392242431640625 (15 @ 2496)
+				}
+
+                u0 sub-sub-sub-sub-block { (0a @ 249b)
+
+                    y : -652.4718627929688 (0d @ 249d)
+                    z : 105.92819213867188 (15 @ 24a2)
+				}
+                u3 : 0(10 @ 24a7)
+                u4 : 0(18 @ 24a9)
+			}
+		}
+
+        collision shape 2 sub-sub-block { (3ca @ 24ac)
+
+            u0 : 1(10 @ 24ae)
+            w : -55.0 (35 @ 24b0)
+            x : 55.0 (3d @ 24b5)
+            z : 1(58 @ 24ba)
+		}
+	}
+
+    component sub-block { (1a @ 24bc)
+
+        component type : CollisionShape (0a @ 24bf)
+        number : 106(10 @ 24cf)
+        ? linked component : 100(20 @ 24d1)
+
+        collision shape sub-sub-block { (3c2 @ 24d4)
+
+
+            u2 sub-sub-sub-block { (1a @ 24d7)
+
+
+                u0 sub-sub-sub-sub-block { (0a @ 24da)
+
+                    y : -829.7075805664062 (0d @ 24dc)
+                    z : 0.0397186279296875 (15 @ 24e1)
+				}
+
+                u0 sub-sub-sub-sub-block { (0a @ 24e6)
+
+                    y : -653.1134033203125 (0d @ 24e8)
+                    z : 0.392242431640625 (15 @ 24ed)
+				}
+
+                u0 sub-sub-sub-sub-block { (0a @ 24f2)
+
+                    y : -652.4718627929688 (0d @ 24f4)
+                    z : 105.92819213867188 (15 @ 24f9)
+				}
+
+                u0 sub-sub-sub-sub-block { (0a @ 24fe)
+
+                    y : -375.24322509765625 (0d @ 2500)
+                    z : 107.98162841796875 (15 @ 2505)
+				}
+
+                u0 sub-sub-sub-sub-block { (0a @ 250a)
+
+                    y : -373.12237548828125 (0d @ 250c)
+                    z : 4.8261566162109375 (15 @ 2511)
+				}
+
+                u0 sub-sub-sub-sub-block { (0a @ 2516)
+
+                    y : -111.83383178710938 (0d @ 2518)
+                    z : 4.24951171875 (15 @ 251d)
+				}
+
+                u0 sub-sub-sub-sub-block { (0a @ 2522)
+
+                    y : -110.81745910644531 (0d @ 2524)
+                    z : -160.80563354492188 (15 @ 2529)
+				}
+
+                u0 sub-sub-sub-sub-block { (0a @ 252e)
+
+                    y : -340.61456298828125 (0d @ 2530)
+                    z : -161.73277282714844 (15 @ 2535)
+				}
+
+                u0 sub-sub-sub-sub-block { (0a @ 253a)
+
+                    y : -340.7044677734375 (0d @ 253c)
+                    z : -131.1568603515625 (15 @ 2541)
+				}
+
+                u0 sub-sub-sub-sub-block { (0a @ 2546)
+
+                    y : -373.8843994140625 (0d @ 2548)
+                    z : -130.7213134765625 (15 @ 254d)
+				}
+
+                u0 sub-sub-sub-sub-block { (0a @ 2552)
+
+                    y : -374.1207275390625 (0d @ 2554)
+                    z : -100.34588623046875 (15 @ 2559)
+				}
+
+                u0 sub-sub-sub-sub-block { (0a @ 255e)
+
+                    y : -1152.041748046875 (0d @ 2560)
+                    z : -100.25949096679688 (15 @ 2565)
+				}
+
+                u0 sub-sub-sub-sub-block { (0a @ 256a)
+
+                    y : -856.493896484375 (0d @ 256c)
+                    z : -665.9594116210938 (15 @ 2571)
+				}
+
+                u0 sub-sub-sub-sub-block { (0a @ 2576)
+
+                    y : 128.023193359375 (0d @ 2578)
+                    z : -620.7755126953125 (15 @ 257d)
+				}
+
+                u0 sub-sub-sub-sub-block { (0a @ 2582)
+
+                    y : 1152.041748046875 (0d @ 2584)
+                    z : -661.479248046875 (15 @ 2589)
+				}
+                u3 : 0(10 @ 258e)
+                u4 : 0(18 @ 2590)
+			}
+		}
+
+        collision shape 2 sub-sub-block { (3ca @ 2593)
+
+            u0 : 1(10 @ 2595)
+            w : -55.0 (35 @ 2597)
+            x : 55.0 (3d @ 259c)
+            z : 1(58 @ 25a1)
+		}
+	}
+
+    position sub-block { (22 @ 25a3)
+
+        x position : 307.61163330078125 (0d @ 25a5)
+        y position : 219.49380493164062 (15 @ 25aa)
+	}
+    z position : 0.0 (2d @ 25af)
+    rotation : 0.0 (35 @ 25b4)
+    scale : 1.0 (3d @ 25b9)
+
+    u2 sub-block { (42 @ 25be)
+
+        w : -1152.041748046875 (0d @ 25c0)
+        x : -665.9594116210938 (15 @ 25c5)
+        y : 2304.08349609375 (1d @ 25ca)
+        z : 1331.9188232421875 (25 @ 25cf)
+	}
+    hidden : 0(48 @ 25d4)
+}
+
+object block { (0a @ 25d6)
+
+    identifier : obj2#2 (12 @ 25d9)
+
+    component sub-block { (1a @ 25e1)
+
+        component type : GroundPolygon (0a @ 25e4)
+        number : 100(10 @ 25f3)
+
+        ground polygon sub-sub-block { (372 @ 25f6)
+
+
+             sub-sub-sub-block { (12 @ 25f9)
+
+
+                u0 sub-sub-sub-sub-block { (0a @ 25fb)
+
+                    x : -1287.79345703125 (0d @ 25fd)
+                    y : -1430.6282958984375 (15 @ 2602)
+				}
+
+                u0 sub-sub-sub-sub-block { (0a @ 2607)
+
+                    x : -303.2763671875 (0d @ 2609)
+                    y : -1385.4444580078125 (15 @ 260e)
+				}
+
+                u0 sub-sub-sub-sub-block { (0a @ 2613)
+
+                    x : 1563.6116943359375 (0d @ 2615)
+                    y : -1462.847412109375 (15 @ 261a)
+				}
+
+                u0 sub-sub-sub-sub-block { (0a @ 261f)
+
+                    x : 1573.0953369140625 (0d @ 2621)
+                    y : 1462.847412109375 (15 @ 2626)
+				}
+
+                u0 sub-sub-sub-sub-block { (0a @ 262b)
+
+                    x : -344.407958984375 (0d @ 262d)
+                    y : 1362.2720947265625 (15 @ 2632)
+				}
+
+                u0 sub-sub-sub-sub-block { (0a @ 2637)
+
+                    x : -1230.08056640625 (0d @ 2639)
+                    y : 1402.2813720703125 (15 @ 263e)
+				}
+
+                u0 sub-sub-sub-sub-block { (0a @ 2643)
+
+                    x : -1249.65576171875 (0d @ 2645)
+                    y : 9.8604736328125 (15 @ 264a)
+				}
+
+                u0 sub-sub-sub-sub-block { (0a @ 264f)
+
+                    x : -1250.76123046875 (0d @ 2651)
+                    y : -109.44287109375 (15 @ 2656)
+				}
+
+                u0 sub-sub-sub-sub-block { (0a @ 265b)
+
+                    x : -1573.0953369140625 (0d @ 265d)
+                    y : -209.7420654296875 (15 @ 2662)
+				}
+                u0 : 0(10 @ 2667)
+                u1 : 1(18 @ 2669)
+			}
+            u1 : 1(18 @ 266b)
+            u2 : -55.0 (25 @ 266d)
+            u3 : 55.0 (2d @ 2672)
+            u4 :  (32 @ 2677)
+		}
+	}
+
+    component sub-block { (1a @ 2679)
+
+        component type : GroundMesh (0a @ 267c)
+        number : 101(10 @ 2688)
+
+        ground mesh sub-sub-block { (37a @ 268b)
+
+
+            u0 sub-sub-sub-block { (3a @ 268e)
+
+                w : -1583.0953369140625 (0d @ 2690)
+                x : -1472.847412109375 (15 @ 2695)
+                y : 3166.1904296875 (1d @ 269a)
+                z : 2945.69482421875 (25 @ 269f)
+			}
+
+            u1 sub-sub-sub-block { (42 @ 26a4)
+
+                u0 : 24(08 @ 26a7)
+                u1 : 20(10 @ 26a9)
+
+                u2 sub-sub-sub-sub-block { (1a @ 26ab)
+
+                    u0 : 4(08 @ 26ad)
+                    u1 : 1(10 @ 26af)
+                    u2 : 2(18 @ 26b1)
+                    u3 : 0(20 @ 26b3)
+				}
+
+                u3 sub-sub-sub-sub-block { (22 @ 26b5)
+
+                    u0 : 7(08 @ 26b7)
+                    u1 : 3(10 @ 26b9)
+                    u2 : 32(18 @ 26bb)
+                    u3 : 0(20 @ 26bd)
+				}
+
+                u4 sub-sub-sub-sub-block { (2a @ 26bf)
+
+                    u0 : 7(08 @ 26c1)
+                    u1 : 3(10 @ 26c3)
+                    u2 : 32(18 @ 26c5)
+                    u3 : 12(20 @ 26c7)
+				}
+
+                u5 sub-sub-sub-sub-block { (32 @ 26c9)
+
+                    u0 : 7(08 @ 26cb)
+                    u1 : 2(10 @ 26cd)
+                    u2 : 32(18 @ 26cf)
+                    u3 : 24(20 @ 26d1)
+				}
+
+                u6 sub-sub-sub-sub-block { (52 @ 26d3)
+
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 26d5)
+
+                        w : 1.0 (0d @ 26d7)
+                        x : 1.0 (15 @ 26dc)
+                        y : 1.0 (1d @ 26e1)
+                        z : 1.0 (25 @ 26e6)
+					}
+
+                    u1 sub-sub-sub-sub-sub-block { (12 @ 26eb)
+
+                        w : 1.0 (0d @ 26ed)
+                        x : 1.0 (15 @ 26f2)
+                        y : 1.0 (1d @ 26f7)
+                        z : 1.0 (25 @ 26fc)
+					}
+
+                    u2 sub-sub-sub-sub-sub-block { (1a @ 2701)
+
+                        w : 1.0 (0d @ 2703)
+                        x : 1.0 (15 @ 2708)
+                        y : 1.0 (1d @ 270d)
+                        z : 1.0 (25 @ 2712)
+					}
+                    u3 : 0.0 (25 @ 2717)
+                    u4 : \n\x07ground3\x10\x01 \x01 (2a @ 271c)
+				}
+
+                u7 sub-sub-sub-sub-block { (5a @ 272b)
+
+                    u : -1233.0775146484375 (0d @ 272d)
+                    v : 1337.2720947265625 (15 @ 2732)
+                    w : -60.0 (1d @ 2737)
+                    x : 2809.168701171875 (25 @ 273c)
+                    y : 125.732421875 (2d @ 2741)
+                    z : 120.0 (35 @ 2746)
+				}
+                u8 : \xeb\x02\xc5D%\xe0\xb6D\x00\x00\\\xc2\x8d\x8bV\xbd\t\xa6\x7f?\x00\x00\x00\x00\x00\x00\x00?)\\\x8f>\xeb\x02\xc5D%\xe0\xb6D\x00\x00\\B\x8d\x8bV\xbd\t\xa6\x7f?\x00\x00\x00\x00\x00\x00\x00?\xecQ8?\xeb\x02\xc5D%\xa0\xb5D\x00\x00pB\x00\x00\x00\x80\x00\x00\x00\x00\x00\x00\x80?\x1f\x85\xeb>\xa4p=?\xeb\x02\xc5D%\xc0\xb3Dff\\B\x8d\x8bV=\t\xa6\x7f\xbf\x00\x00\x00\x80\xcd\xcc\xcc>"l8?\xeb\x02\xc5D%\xc0\xb3D\x9a\x99[\xc2\x8d\x8bV=\t\xa6\x7f\xbf\x00\x00\x00\x80\xcd\xcc\xcc>\x96\x90\x8f>\xeb\x02\xc5D%\xa0\xb5D\x00\x00p\xc2\x00\x00\x00\x80\x00\x00\x00\x00\x00\x00\x80?\x1f\x85\xeb>\xb8\x1e\x85>\xeb\x02\xc5D%\xe0\xb6D\x00\x00\\\xc2\x8d\x8bV\xbd\t\xa6\x7f?\x00\x00\x00\x00\x00\x00\x00?)\\\x8f>\xeb\x02\xc5D%\xe0\xb6D\x00\x00\\B\x8d\x8bV\xbd\t\xa6\x7f?\x00\x00\x00\x00\x00\x00\x00?\xecQ8?\xeb\x02\xc5D%\xa0\xb5D\x00\x00pB\x00\x00\x00\x80\x00\x00\x00\x00\x00\x00\x80?\x00\x00\x00?\xc8\xc4C?\xeb\x02\xc5D%\xc0\xb3Dff\\B\x8d\x8bV=\t\xa6\x7f\xbf\x00\x00\x00\x80\x00\x00\x00?m\xedS?84\xac\xc3\xb5H\xaaD\x00\x00\\\xc2\xf5\xf4\xb0\xbc\xb5\xf0\x7f?\x00\x00\x00\x00\x90\xe3\x02A)\\\x8f>84\xac\xc3\xb5H\xaaD\x00\x00\\B\xf5\xf4\xb0\xbc\xb5\xf0\x7f?\x00\x00\x00\x00\x90\xe3\x02A\xecQ8?84\xac\xc3\xb5\x08\xa9D\x00\x00pB\x00\x00\x00\x80\x00\x00\x00\x00\x00\x00\x80?\x90\xe3\x02A\xc8\xc4C?84\xac\xc3\xb5(\xa7Dff\\B\xf5\xf4\xb0<\xb5\xf0\x7f\xbf\x00\x00\x00\x80\x90\xe3\x02Am\xedS?{"\x9a\xc4VM\xafD\x00\x00\\\xc2\x00\xd88=<\xbd\x7f?\x00\x00\x00\x007\xa1;A)\\\x8f>{"\x9a\xc4VM\xafD\x00\x00\\B\x00\xd88=<\xbd\x7f?\x00\x00\x00\x007\xa1;A\xecQ8?{"\x9a\xc4V\r\xaeD\x00\x00pB\x00\x00\x00\x80\x00\x00\x00\x00\x00\x00\x80?7\xa1;A\xc8\xc4C?{"\x9a\xc4V-\xacDff\\B\x00\xd88\xbd<\xbd\x7f\xbf\x00\x00\x00\x807\xa1;Am\xedS?{"\x9a\xc4VM\xafD\x00\x00\\\xc2\x00\xd88=<\xbd\x7f?\x00\x00\x00\x007\xa1;A)\\\x8f>{"\x9a\xc4VM\xafD\x00\x00\\B\x00\xd88=<\xbd\x7f?\x00\x00\x00\x007\xa1;A\xecQ8?{"\x9a\xc4V\r\xaeD\x00\x00pB\x00\x00\x00\x80\x00\x00\x00\x00\x00\x00\x80?\x0eE<A\xa4p=?{"\x9a\xc4V-\xacDff\\B\x00\xd88\xbd<\xbd\x7f\xbf\x00\x00\x00\x80\xd1:=A"l8?{"\x9a\xc4V-\xacD\x9a\x99[\xc2\x00\xd88\xbd<\xbd\x7f\xbf\x00\x00\x00\x80\xd1:=A\x96\x90\x8f>{"\x9a\xc4V\r\xaeD\x00\x00p\xc2\x00\x00\x00\x80\x00\x00\x00\x00\x00\x00\x80?\x0eE<A\xb8\x1e\x85> (192 @ 274c)
+                u9 : \x00\x00\x04\x00\x05\x00\x00\x00\x03\x00\x04\x00\x00\x00\x01\x00\x03\x00\x01\x00\x02\x00\x03\x00\x06\x00\n\x00\x0b\x00\x07\x00\x06\x00\x0b\x00\x07\x00\x0b\x00\x0c\x00\x08\x00\x07\x00\x0c\x00\x08\x00\x0c\x00\r\x00\t\x00\x08\x00\r\x00\n\x00\x0e\x00\x0f\x00\x0b\x00\n\x00\x0f\x00\x0b\x00\x0f\x00\x10\x00\x0c\x00\x0b\x00\x10\x00\x0c\x00\x10\x00\x11\x00\r\x00\x0c\x00\x11\x00\x12\x00\x17\x00\x16\x00\x12\x00\x16\x00\x15\x00\x12\x00\x15\x00\x13\x00\x15\x00\x14\x00\x13\x00 (19a @ 2a50)
+			}
+
+            u1 sub-sub-sub-block { (42 @ 2aca)
+
+                u0 : 20(08 @ 2acd)
+                u1 : 14(10 @ 2acf)
+
+                u2 sub-sub-sub-sub-block { (1a @ 2ad1)
+
+                    u0 : 4(08 @ 2ad3)
+                    u1 : 1(10 @ 2ad5)
+                    u2 : 2(18 @ 2ad7)
+                    u3 : 0(20 @ 2ad9)
+				}
+
+                u3 sub-sub-sub-sub-block { (22 @ 2adb)
+
+                    u0 : 7(08 @ 2add)
+                    u1 : 3(10 @ 2adf)
+                    u2 : 32(18 @ 2ae1)
+                    u3 : 0(20 @ 2ae3)
+				}
+
+                u4 sub-sub-sub-sub-block { (2a @ 2ae5)
+
+                    u0 : 7(08 @ 2ae7)
+                    u1 : 3(10 @ 2ae9)
+                    u2 : 32(18 @ 2aeb)
+                    u3 : 12(20 @ 2aed)
+				}
+
+                u5 sub-sub-sub-sub-block { (32 @ 2aef)
+
+                    u0 : 7(08 @ 2af1)
+                    u1 : 2(10 @ 2af3)
+                    u2 : 32(18 @ 2af5)
+                    u3 : 24(20 @ 2af7)
+				}
+
+                u6 sub-sub-sub-sub-block { (52 @ 2af9)
+
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 2afb)
+
+                        w : 1.0 (0d @ 2afd)
+                        x : 1.0 (15 @ 2b02)
+                        y : 1.0 (1d @ 2b07)
+                        z : 1.0 (25 @ 2b0c)
+					}
+
+                    u1 sub-sub-sub-sub-sub-block { (12 @ 2b11)
+
+                        w : 1.0 (0d @ 2b13)
+                        x : 1.0 (15 @ 2b18)
+                        y : 1.0 (1d @ 2b1d)
+                        z : 1.0 (25 @ 2b22)
+					}
+
+                    u2 sub-sub-sub-sub-sub-block { (1a @ 2b27)
+
+                        w : 1.0 (0d @ 2b29)
+                        x : 1.0 (15 @ 2b2e)
+                        y : 1.0 (1d @ 2b33)
+                        z : 1.0 (25 @ 2b38)
+					}
+                    u3 : 0.0 (25 @ 2b3d)
+                    u4 : \n\x07ground3\x10\x01 \x01 (2a @ 2b42)
+				}
+
+                u7 sub-sub-sub-sub-block { (5a @ 2b51)
+
+                    u : -1575.9598388671875 (0d @ 2b53)
+                    v : -235.63340759277344 (15 @ 2b58)
+                    w : -60.0 (1d @ 2b5d)
+                    x : 325.1986083984375 (25 @ 2b62)
+                    y : 126.19053649902344 (2d @ 2b67)
+                    z : 120.0 (35 @ 2b6c)
+				}
+                u8 : \\X\x9c\xc4\xc0\xe2\xda\xc2\x00\x00\\\xc2K\x1f\x98\xbe\x88pt?\x00\x00\x00\x007\xa1;A)\\\x8f>\\X\x9c\xc4\xc0\xe2\xda\xc2\x00\x00\\BK\x1f\x98\xbe\x88pt?\x00\x00\x00\x007\xa1;A\xecQ8?\\X\x9c\xc4\xc0\xe2\xee\xc2\x00\x00pB\x00\x00\x00\x80\x00\x00\x00\x00\x00\x00\x80?`\xfd:A\xa4p=?\\X\x9c\xc4`q\x06\xc3ff\\BK\x1f\x98>\x88pt\xbf\x00\x00\x00\x80\x9e\x07:A"l8?\\X\x9c\xc4`q\x06\xc3\x9a\x99[\xc2K\x1f\x98>\x88pt\xbf\x00\x00\x00\x80\x9e\x07:A\x96\x90\x8f>\\X\x9c\xc4\xc0\xe2\xee\xc2\x00\x00p\xc2\x00\x00\x00\x80\x00\x00\x00\x00\x00\x00\x80?`\xfd:A\xb8\x1e\x85>\\X\x9c\xc4\xc0\xe2\xda\xc2\x00\x00\\\xc2K\x1f\x98\xbe\x88pt?\x00\x00\x00\x007\xa1;A)\\\x8f>\\X\x9c\xc4\xc0\xe2\xda\xc2\x00\x00\\BK\x1f\x98\xbe\x88pt?\x00\x00\x00\x007\xa1;A\xecQ8?\\X\x9c\xc4\xc0\xe2\xee\xc2\x00\x00pB\x00\x00\x00\x80\x00\x00\x00\x00\x00\x00\x80?7\xa1;A\xc8\xc4C?\\X\x9c\xc4`q\x06\xc3ff\\BK\x1f\x98>\x88pt\xbf\x00\x00\x00\x807\xa1;Am\xedS?\xb7\xfe\xc4\xc4\'\xa2R\xc3\x00\x00\\\xc2K\x1f\x98\xbe\x88pt?\x00\x00\x00\x00\x1a<QA)\\\x8f>\xb7\xfe\xc4\xc4\'\xa2R\xc3\x00\x00\\BK\x1f\x98\xbe\x88pt?\x00\x00\x00\x00\x1a<QA\xecQ8?\xb7\xfe\xc4\xc4\'\xa2\\\xc3\x00\x00pB\x00\x00\x00\x80\x00\x00\x00\x00\x00\x00\x80?\x1a<QA\xc8\xc4C?\xb7\xfe\xc4\xc4\'\xa2k\xc3ff\\BK\x1f\x98>\x88pt\xbf\x00\x00\x00\x80\x1a<QAm\xedS?\xb7\xfe\xc4\xc4\'\xa2R\xc3\x00\x00\\\xc2K\x1f\x98\xbe\x88pt?\x00\x00\x00\x00\x1a<QA)\\\x8f>\xb7\xfe\xc4\xc4\'\xa2R\xc3\x00\x00\\BK\x1f\x98\xbe\x88pt?\x00\x00\x00\x00\x1a<QA\xecQ8?\xb7\xfe\xc4\xc4\'\xa2\\\xc3\x00\x00pB\x00\x00\x00\x80\x00\x00\x00\x00\x00\x00\x80?\xf1\xdfQA\xa4p=?\xb7\xfe\xc4\xc4\'\xa2k\xc3ff\\BK\x1f\x98>\x88pt\xbf\x00\x00\x00\x80\xb3\xd5RA"l8?\xb7\xfe\xc4\xc4\'\xa2k\xc3\x9a\x99[\xc2K\x1f\x98>\x88pt\xbf\x00\x00\x00\x80\xb3\xd5RA\x96\x90\x8f>\xb7\xfe\xc4\xc4\'\xa2\\\xc3\x00\x00p\xc2\x00\x00\x00\x80\x00\x00\x00\x00\x00\x00\x80?\xf1\xdfQA\xb8\x1e\x85> (192 @ 2b72)
+                u9 : \x00\x00\x04\x00\x05\x00\x00\x00\x03\x00\x04\x00\x00\x00\x01\x00\x03\x00\x01\x00\x02\x00\x03\x00\x06\x00\n\x00\x0b\x00\x07\x00\x06\x00\x0b\x00\x07\x00\x0b\x00\x0c\x00\x08\x00\x07\x00\x0c\x00\x08\x00\x0c\x00\r\x00\t\x00\x08\x00\r\x00\x0e\x00\x13\x00\x12\x00\x0e\x00\x12\x00\x11\x00\x0e\x00\x11\x00\x0f\x00\x11\x00\x10\x00\x0f\x00 (19a @ 2df6)
+			}
+
+            u1 sub-sub-sub-block { (42 @ 2e4c)
+
+                u0 : 16(08 @ 2e4f)
+                u1 : 12(10 @ 2e51)
+
+                u2 sub-sub-sub-sub-block { (1a @ 2e53)
+
+                    u0 : 4(08 @ 2e55)
+                    u1 : 1(10 @ 2e57)
+                    u2 : 2(18 @ 2e59)
+                    u3 : 0(20 @ 2e5b)
+				}
+
+                u3 sub-sub-sub-sub-block { (22 @ 2e5d)
+
+                    u0 : 7(08 @ 2e5f)
+                    u1 : 3(10 @ 2e61)
+                    u2 : 32(18 @ 2e63)
+                    u3 : 0(20 @ 2e65)
+				}
+
+                u4 sub-sub-sub-sub-block { (2a @ 2e67)
+
+                    u0 : 7(08 @ 2e69)
+                    u1 : 3(10 @ 2e6b)
+                    u2 : 32(18 @ 2e6d)
+                    u3 : 12(20 @ 2e6f)
+				}
+
+                u5 sub-sub-sub-sub-block { (32 @ 2e71)
+
+                    u0 : 7(08 @ 2e73)
+                    u1 : 2(10 @ 2e75)
+                    u2 : 32(18 @ 2e77)
+                    u3 : 24(20 @ 2e79)
+				}
+
+                u6 sub-sub-sub-sub-block { (52 @ 2e7b)
+
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 2e7d)
+
+                        w : 1.0 (0d @ 2e7f)
+                        x : 1.0 (15 @ 2e84)
+                        y : 1.0 (1d @ 2e89)
+                        z : 1.0 (25 @ 2e8e)
+					}
+
+                    u1 sub-sub-sub-sub-sub-block { (12 @ 2e93)
+
+                        w : 1.0 (0d @ 2e95)
+                        x : 1.0 (15 @ 2e9a)
+                        y : 1.0 (1d @ 2e9f)
+                        z : 1.0 (25 @ 2ea4)
+					}
+
+                    u2 sub-sub-sub-sub-sub-block { (1a @ 2ea9)
+
+                        w : 1.0 (0d @ 2eab)
+                        x : 1.0 (15 @ 2eb0)
+                        y : 1.0 (1d @ 2eb5)
+                        z : 1.0 (25 @ 2eba)
+					}
+                    u3 : 0.0 (25 @ 2ebf)
+                    u4 : \n\x10florennum_ground\x10\x01 \x01 (2a @ 2ec4)
+				}
+
+                u7 sub-sub-sub-sub-block { (5a @ 2edc)
+
+                    u : -1573.0953369140625 (0d @ 2ede)
+                    v : -1462.847412109375 (15 @ 2ee3)
+                    w : -50.0 (1d @ 2ee8)
+                    x : 3146.190673828125 (25 @ 2eed)
+                    y : 2925.69482421875 (2d @ 2ef2)
+                    z : 100.0 (35 @ 2ef7)
+				}
+                u8 : \x94\xc2\x99\xc4\x01I\xafD\x00\x00H\xc2\x86\xf9\x7f\xbfUOf<\x00\x00\x00\x00\x00\x00\x00?\x9a\x99\x99>\x94\xc2\x99\xc4\x01I\xafD\x00\x00HB\x86\xf9\x7f\xbfUOf<\x00\x00\x00\x00\x00\x00\x00?333?\xfc4\x9c\xc4\x80\xc4\x1dA\x00\x00H\xc2\xdd\xf9\x7f\xbfy\x1d`<\x00\x00\x00\x00[?\xc2@\x9a\x99\x99>\xfc4\x9c\xc4\x80\xc4\x1dA\x00\x00HB\xdd\xf9\x7f\xbfy\x1d`<\x00\x00\x00\x00[?\xc2@333?\\X\x9c\xc4\xc0\xe2\xda\xc2\x00\x00H\xc20\xfd\x7f\xbf\xe4\xce\x17<\x00\x00\x00\x00\xdb\x84\xd1@\x9a\x99\x99>\\X\x9c\xc4\xc0\xe2\xda\xc2\x00\x00HB0\xfd\x7f\xbf\xe4\xce\x17<\x00\x00\x00\x00\xdb\x84\xd1@333?\r\xa3\xc4\xc4\xf8\xbdQ\xc3\x00\x00H\xc2\xb2Hy\xbf\xd4\x03i\xbe\x00\x00\x00\x00\xdb\x84\xd1@\x9a\x99\x99>\r\xa3\xc4\xc4\xf8\xbdQ\xc3\x00\x00HB\xb2Hy\xbf\xd4\x03i\xbe\x00\x00\x00\x00\xdb\x84\xd1@333?d\xf9\xa0\xc4\x1b\xd4\xb2\xc4\x00\x00H\xc2\x8b\xec-\xbf\xcb\xd8;\xbf\x00\x00\x00\x00V\x009A\x9a\x99\x99>d\xf9\xa0\xc4\x1b\xd4\xb2\xc4\x00\x00HB\x8b\xec-\xbf\xcb\xd8;\xbf\x00\x00\x00\x00V\x009A333?`\xa3\x97\xc39.\xad\xc4\x00\x00H\xc2\x04\x1e9\xbc\xd1\xfb\x7f\xbf\x00\x00\x00\x00\xa4\x13xA\x9a\x99\x99>`\xa3\x97\xc39.\xad\xc4\x00\x00HB\x04\x1e9\xbc\xd1\xfb\x7f\xbf\x00\x00\x00\x00\xa4\x13xA333?\x93s\xc3D\x1e\xdb\xb6\xc4\x00\x00H\xc2\xde\xc7U?\x1f\xd5\x0c\xbf\x00\x00\x00\x00\x81\xd4\xb7A\x9a\x99\x99>\x93s\xc3D\x1e\xdb\xb6\xc4\x00\x00HB\xde\xc7U?\x1f\xd5\x0c\xbf\x00\x00\x00\x00\x81\xd4\xb7A333?\r\xa3\xc4D\x1e\xdb\xb6D\x00\x00H\xc2\xa8\xff\x7f?\x14oT\xbb\x00\x00\x00\x00\xf6\xb9\nB\x9a\x99\x99>\r\xa3\xc4D\x1e\xdb\xb6D\x00\x00HB\xa8\xff\x7f?\x14oT\xbb\x00\x00\x00\x00\xf6\xb9\nB333? (192 @ 2efd)
+                u9 : \x00\x00\x02\x00\x03\x00\x01\x00\x00\x00\x03\x00\x02\x00\x04\x00\x05\x00\x03\x00\x02\x00\x05\x00\x06\x00\x08\x00\t\x00\x07\x00\x06\x00\t\x00\x08\x00\n\x00\x0b\x00\t\x00\x08\x00\x0b\x00\n\x00\x0c\x00\r\x00\x0b\x00\n\x00\r\x00\x0c\x00\x0e\x00\x0f\x00\r\x00\x0c\x00\x0f\x00 (19a @ 3101)
+			}
+
+            u2 sub-sub-sub-block { (4a @ 314b)
+
+                u0 : 21(08 @ 314e)
+                u1 : 7(10 @ 3150)
+
+                u2 sub-sub-sub-sub-block { (22 @ 3152)
+
+                    u0 : 7(08 @ 3154)
+                    u1 : 3(10 @ 3156)
+                    u2 : 32(18 @ 3158)
+                    u3 : 0(20 @ 315a)
+				}
+
+                u3 sub-sub-sub-sub-block { (2a @ 315c)
+
+                    u0 : 7(08 @ 315e)
+                    u1 : 3(10 @ 3160)
+                    u2 : 32(18 @ 3162)
+                    u3 : 12(20 @ 3164)
+				}
+
+                u4 sub-sub-sub-sub-block { (32 @ 3166)
+
+                    u0 : 7(08 @ 3168)
+                    u1 : 2(10 @ 316a)
+                    u2 : 32(18 @ 316c)
+                    u3 : 24(20 @ 316e)
+				}
+
+                u5 sub-sub-sub-sub-block { (52 @ 3170)
+
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 3172)
+
+                        w : 1.0 (0d @ 3174)
+                        x : 1.0 (15 @ 3179)
+                        y : 1.0 (1d @ 317e)
+                        z : 1.0 (25 @ 3183)
+					}
+
+                    u1 sub-sub-sub-sub-sub-block { (12 @ 3188)
+
+                        w : 1.0 (0d @ 318a)
+                        x : 1.0 (15 @ 318f)
+                        y : 1.0 (1d @ 3194)
+                        z : 1.0 (25 @ 3199)
+					}
+
+                    u2 sub-sub-sub-sub-sub-block { (1a @ 319e)
+
+                        w : 1.0 (0d @ 31a0)
+                        x : 1.0 (15 @ 31a5)
+                        y : 1.0 (1d @ 31aa)
+                        z : 1.0 (25 @ 31af)
+					}
+                    u3 : 0.0 (25 @ 31b4)
+
+                    u4 sub-sub-sub-sub-sub-block { (2a @ 31b9)
+
+                        u0 : florennum_ground (0a @ 31bb)
+                        u1 : 1(10 @ 31cd)
+                        u2 : 1(20 @ 31cf)
+					}
+				}
+
+                u3 sub-sub-sub-sub-block { (5a @ 31d1)
+
+                    u : -1573.0953369140625 (0d @ 31d3)
+                    v : -1462.847412109375 (15 @ 31d8)
+                    w : 50.0 (1d @ 31dd)
+                    x : 3146.1904296875 (25 @ 31e2)
+                    y : 2925.69482421875 (2d @ 31e7)
+                    z : 0.0 (35 @ 31ec)
+				}
+                u7 : 84\xac\xc3\xb5H\xaaD\x00\x00HB\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x80?z\xac`\xbf\xef^\xbe@`\xa3\x97\xc39.\xad\xc4\x00\x00HB\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x80?\x14\x8e6\xbf>V\xa1\xc0\x93s\xc3D\x1e\xdb\xb6\xc4\x00\x00HB\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x80?n$\xd8@\x96>\xab\xc084\xac\xc3\xb5H\xaaD\x00\x00HB\x00\x00\x00\x80\x00\x00\x00\x00\x00\x00\x80?z\xac`\xbf\xef^\xbe@\x93s\xc3D\x1e\xdb\xb6\xc4\x00\x00HB\x00\x00\x00\x80\x00\x00\x00\x00\x00\x00\x80?n$\xd8@\x96>\xab\xc0\r\xa3\xc4D\x1e\xdb\xb6D\x00\x00HB\x00\x00\x00\x80\x00\x00\x00\x00\x00\x00\x80?0[\xd9@\x96>\xcb@`\xa3\x97\xc39.\xad\xc4\x00\x00HB\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x80?\x14\x8e6\xbf>V\xa1\xc084\xac\xc3\xb5H\xaaD\x00\x00HB\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x80?z\xac`\xbf\xef^\xbe@\x94\xc2\x99\xc4\x01I\xafD\x00\x00HB\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x80?Hs\x8d\xc0\xf5}\xc3@`\xa3\x97\xc39.\xad\xc4\x00\x00HB\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x80?\x14\x8e6\xbf>V\xa1\xc0\x94\xc2\x99\xc4\x01I\xafD\x00\x00HB\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x80?Hs\x8d\xc0\xf5}\xc3@\xfc4\x9c\xc4\x80\xc4\x1dA\x00\x00HB\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x80?\xb8\xf4\x8f\xc0\xdd\x18\n?`\xa3\x97\xc39.\xad\xc4\x00\x00HB\x00\x00\x00\x00\x00\x00\x00\x00\xff\xff\x7f?\x14\x8e6\xbf>V\xa1\xc0\xfc4\x9c\xc4\x80\xc4\x1dA\x00\x00HB\x00\x00\x00\x00\x00\x00\x00\x00\xff\xff\x7f?\xb8\xf4\x8f\xc0\xdd\x18\n?\\X\x9c\xc4\xc0\xe2\xda\xc2\x00\x00HB\x00\x00\x00\x00\x00\x00\x00\x00\xff\xff\x7f?\xf2\x18\x90\xc0P\xe3~=`\xa3\x97\xc39.\xad\xc4\x00\x00HB\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x80?\x14\x8e6\xbf>V\xa1\xc0\\X\x9c\xc4\xc0\xe2\xda\xc2\x00\x00HB\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x80?\xf2\x18\x90\xc0P\xe3~=d\xf9\xa0\xc4\x1b\xd4\xb2\xc4\x00\x00HB\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x80?j\xd6\x94\xc0\xd4\x1e\xa7\xc0\\X\x9c\xc4\xc0\xe2\xda\xc2\x00\x00HB\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x80?\xf2\x18\x90\xc0P\xe3~=\r\xa3\xc4\xc4\xf8\xbdQ\xc3\x00\x00HB\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x80?0[\xb9\xc0@\x8d\xad\xbed\xf9\xa0\xc4\x1b\xd4\xb2\xc4\x00\x00HB\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x80?j\xd6\x94\xc0\xd4\x1e\xa7\xc0 (192 @ 31f2)
+			}
+
+            u3 sub-sub-sub-block { (52 @ 3495)
+
+                w : 0.12380953133106232 (0d @ 3497)
+                x : 0.11428571492433548 (15 @ 349c)
+                y : 0.10952380299568176 (1d @ 34a1)
+                z : 1.0 (25 @ 34a6)
+			}
+		}
+	}
+
+    component sub-block { (1a @ 34ab)
+
+        component type : GroundMeshGenerator (0a @ 34ad)
+        number : 102(10 @ 34c2)
+
+        ground mesh generator sub-sub-block { (382 @ 34c5)
+
+            ground polygon : 100(08 @ 34c7)
+            ground mesh : 101(10 @ 34c9)
+            texture mapping 1 : 103(18 @ 34cb)
+            texture mapping 2 : 104(20 @ 34cd)
+            u4 : 0(28 @ 34cf)
+            u5 : 0.0 (35 @ 34d1)
+            u6 : 1(38 @ 34d6)
+            u7 : 100.0 (45 @ 34d8)
+            u8 : 25.0 (4d @ 34dd)
+            u9 : 5.0 (55 @ 34e2)
+            u10 : 5.0 (5d @ 34e7)
+		}
+	}
+
+    component sub-block { (1a @ 34ec)
+
+        component type : TextureMapping (0a @ 34ee)
+        number : 103(10 @ 34fe)
+
+        texture mapping sub-sub-block { (38a @ 3501)
+
+            texture file : florennum_ground (0a @ 3503)
+            u0 : 250.0 (15 @ 3515)
+
+            u0 sub-sub-sub-block { (1a @ 351a)
+
+                u1 : 0.0 (0d @ 351c)
+                u2 : 0.0 (15 @ 3521)
+			}
+		}
+	}
+
+    component sub-block { (1a @ 3526)
+
+        component type : TextureMapping (0a @ 3528)
+        number : 104(10 @ 3538)
+
+        texture mapping sub-sub-block { (38a @ 353b)
+
+            texture file : ground3 (0a @ 353d)
+            u0 : 250.0 (15 @ 3546)
+
+            u0 sub-sub-sub-block { (1a @ 354b)
+
+                u1 : 0.0 (0d @ 354d)
+                u2 : 0.0 (15 @ 3552)
+			}
+		}
+	}
+
+    component sub-block { (1a @ 3557)
+
+        component type : CollisionShape (0a @ 355a)
+        number : 105(10 @ 356a)
+        ? linked component : 100(20 @ 356c)
+
+        collision shape sub-sub-block { (3c2 @ 356f)
+
+
+            u2 sub-sub-sub-block { (1a @ 3571)
+
+
+                u0 sub-sub-sub-sub-block { (0a @ 3573)
+
+                    y : -1287.79345703125 (0d @ 3575)
+                    z : -1430.6282958984375 (15 @ 357a)
+				}
+
+                u0 sub-sub-sub-sub-block { (0a @ 357f)
+
+                    y : -303.2763671875 (0d @ 3581)
+                    z : -1385.4444580078125 (15 @ 3586)
+				}
+
+                u0 sub-sub-sub-sub-block { (0a @ 358b)
+
+                    y : 1563.6116943359375 (0d @ 358d)
+                    z : -1462.847412109375 (15 @ 3592)
+				}
+
+                u0 sub-sub-sub-sub-block { (0a @ 3597)
+
+                    y : 1573.0953369140625 (0d @ 3599)
+                    z : 1462.847412109375 (15 @ 359e)
+				}
+
+                u0 sub-sub-sub-sub-block { (0a @ 35a3)
+
+                    y : -344.407958984375 (0d @ 35a5)
+                    z : 1362.2720947265625 (15 @ 35aa)
+				}
+
+                u0 sub-sub-sub-sub-block { (0a @ 35af)
+
+                    y : -1230.08056640625 (0d @ 35b1)
+                    z : 1402.2813720703125 (15 @ 35b6)
+				}
+
+                u0 sub-sub-sub-sub-block { (0a @ 35bb)
+
+                    y : -1249.65576171875 (0d @ 35bd)
+                    z : 9.8604736328125 (15 @ 35c2)
+				}
+
+                u0 sub-sub-sub-sub-block { (0a @ 35c7)
+
+                    y : -1250.76123046875 (0d @ 35c9)
+                    z : -109.44287109375 (15 @ 35ce)
+				}
+
+                u0 sub-sub-sub-sub-block { (0a @ 35d3)
+
+                    y : -1573.0953369140625 (0d @ 35d5)
+                    z : -209.7420654296875 (15 @ 35da)
+				}
+                u3 : 0(10 @ 35df)
+                u4 : 1(18 @ 35e1)
+			}
+		}
+
+        collision shape 2 sub-sub-block { (3ca @ 35e4)
+
+            u0 : 1(10 @ 35e6)
+            w : -55.0 (35 @ 35e8)
+            x : 55.0 (3d @ 35ed)
+            z : 1(58 @ 35f2)
+		}
+	}
+
+    position sub-block { (22 @ 35f4)
+
+        x position : 250.84857177734375 (0d @ 35f6)
+        y position : 178.37945556640625 (15 @ 35fb)
+	}
+    z position : -598.3671875 (2d @ 3600)
+    rotation : 0.0 (35 @ 3605)
+    scale : 1.0 (3d @ 360a)
+
+    u2 sub-block { (42 @ 360f)
+
+        w : -1573.0953369140625 (0d @ 3611)
+        x : -1462.847412109375 (15 @ 3616)
+        y : 3146.1904296875 (1d @ 361b)
+        z : 2925.69482421875 (25 @ 3620)
+	}
+    hidden : 0(48 @ 3625)
+}
+
+object block { (0a @ 3627)
+
+    identifier : obj3 (12 @ 362a)
+
+    component sub-block { (1a @ 3630)
+
+        component type : CollisionShape (0a @ 3633)
+        number : 101(10 @ 3643)
+
+        collision shape sub-sub-block { (3c2 @ 3646)
+
+
+            u0 sub-sub-sub-block { (0a @ 3648)
+
+                w : -70.0 (0d @ 364a)
+                x : -100.0 (15 @ 364f)
+                y : 140.0 (1d @ 3654)
+                z : 200.0 (25 @ 3659)
+			}
+		}
+
+        collision shape 2 sub-sub-block { (3ca @ 365f)
+
+            w : -15.0 (35 @ 3662)
+            x : 15.0 (3d @ 3667)
+
+            lua chunk sub-sub-sub-block { (4a @ 366c)
+
+                main chunk : chunk >
+
+                === lua =============
+                local self, target = ...;
+                
+                if target:identifier() == "hero" and Health.CurrentHealth(target) < Health.MaxHealth(target) then
+                
+                	Game.SetCinematicMode(true, false);
+                
+                	self:setHidden(true);
+                
+                	Program.Wait(0.5);
+                
+                	local healer = Scene.Find("healer");
+                
+                	ShowTextBubbles("healerBubble", healer:position() + Vector3.New(0, 40, 0), true, {
+                		"You\'re injured. I can help you.", 
+                	});
+                	
+                	HideTextBubble("healerBubble");
+                
+                	Game.FadeOut();
+                	
+                	Program.Wait(1.0);
+                	Health.SetCurrentHealth(target, Health.MaxHealth(target));
+                	Health.SetCurrentMana(target, Health.MaxMana(target));
+                	Game.FadeIn();
+                		
+                	ShowTextBubbles("healerBubble", healer:position() + Vector3.New(0, 40, 0), true, {
+                		"Come see me if you get hurt again.", 
+                	});
+                
+                	HideTextBubble("healerBubble");
+                
+                	Game.SetCinematicMode(false, true);
+                
+                elseif target:identifier() == "hero" then
+                	Game.SetCinematicMode(true, false);
+                
+                	self:setHidden(true);
+                
+                	Program.Wait(0.5);
+                
+                	local healer = Scene.Find("healer");
+                
+                	ShowTextBubbles("healerBubble", healer:position() + Vector3.New(0, 40, 0), true, {
+                		"If you ever get hurt, come visit me.", 
+                	});
+                
+                	Game.FadeOut();
+                	
+                	Program.Wait(1.0);
+                	Health.SetCurrentMana(target, Health.MaxMana(target));
+                	Game.FadeIn();
+                	HideTextBubble("healerBubble");
+                
+                	Game.SetCinematicMode(false, true);
+                end
+                
+
+                =====================
+                secondary chunk : \x1bLuaQ\x00\x01\x04\x04\x04\x08\x00/\x05\x00\x00local self, target = ...;\r\n\r\nif target:identifier() == "hero" and Health.CurrentHealth(target) < Health.MaxHealth(target) then\r\n\r\n\tGame.SetCinematicMode(true, false);\r\n\r\n\tself:setHidden(true);\r\n\r\n\tProgram.Wait(0.5);\r\n\r\n\tlocal healer = Scene.Find("healer");\r\n\r\n\tShowTextBubbles("healerBubble", healer:position() + Vector3.New(0, 40, 0), true, {\r\n\t\t"You\'re injured. I can help you.", \r\n\t});\r\n\t\r\n\tHideTextBubble("healerBubble");\r\n\r\n\tGame.FadeOut();\r\n\t\r\n\tProgram.Wait(1.0);\r\n\tHealth.SetCurrentHealth(target, Health.MaxHealth(target));\r\n\tHealth.SetCurrentMana(target, Health.MaxMana(target));\r\n\tGame.FadeIn();\r\n\t\t\r\n\tShowTextBubbles("healerBubble", healer:position() + Vector3.New(0, 40, 0), true, {\r\n\t\t"Come see me if you get hurt again.", \r\n\t});\r\n\r\n\tHideTextBubble("healerBubble");\r\n\r\n\tGame.SetCinematicMode(false, true);\r\n\r\nelseif target:identifier() == "hero" then\r\n\tGame.SetCinematicMode(true, false);\r\n\r\n\tself:setHidden(true);\r\n\r\n\tProgram.Wait(0.5);\r\n\r\n\tlocal healer = Scene.Find("healer");\r\n\r\n\tShowTextBubbles("healerBubble", healer:position() + Vector3.New(0, 40, 0), true, {\r\n\t\t"If you ever get hurt, come visit me.", \r\n\t});\r\n\r\n\tGame.FadeOut();\r\n\t\r\n\tProgram.Wait(1.0);\r\n\tHealth.SetCurrentMana(target, Health.MaxMana(target));\r\n\tGame.FadeIn();\r\n\tHideTextBubble("healerBubble");\r\n\r\n\tGame.SetCinematicMode(false, true);\r\nend\r\n\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x02\n\xa4\x00\x00\x00%\x00\x80\x01\x8b\x00\xc0\x00\x9c\x80\x00\x01\x17@@\x01\x16\xc0\x17\x80\x85\x80\x00\x00\x86\xc0@\x01\xc0\x00\x80\x00\x9c\x80\x00\x01\xc5\x80\x00\x00\xc6\x00\xc1\x01\x00\x01\x80\x00\xdc\x80\x00\x01\x18\xc0\x00\x01\x16@\x15\x80\x85@\x01\x00\x86\x80A\x01\xc2\x00\x80\x00\x02\x01\x00\x00\x9c@\x80\x01\x8b\xc0A\x00\x02\x01\x80\x00\x9c@\x80\x01\x85\x00\x02\x00\x86@B\x01\xc1\x80\x02\x00\x9c@\x00\x01\x85\xc0\x02\x00\x86\x00C\x01\xc1@\x03\x00\x9c\x80\x00\x01\xc5\x80\x03\x00\x01\xc1\x03\x00K\x01D\x01\\\x81\x00\x01\x85A\x04\x00\x86\x81D\x03\xc1\xc1\x04\x00\x01\x02\x05\x00A\xc2\x04\x00\x9c\x81\x00\x02L\x81\x81\x02\x82\x01\x80\x00\xca\x01\x80\x00\x01B\x05\x00\xe2A\x80\x00\xdc@\x80\x02\xc5\x80\x05\x00\x01\xc1\x03\x00\xdc@\x00\x01\xc5@\x01\x00\xc6\xc0\xc5\x01\xdc@\x80\x00\xc5\x00\x02\x00\xc6@\xc2\x01\x01\x01\x06\x00\xdc@\x00\x01\xc5\x80\x00\x00\xc6@\xc6\x01\x00\x01\x80\x00E\x81\x00\x00F\x01\xc1\x02\x80\x01\x80\x00\\\x01\x00\x01\xdc@\x00\x00\xc5\x80\x00\x00\xc6\x80\xc6\x01\x00\x01\x80\x00E\x81\x00\x00F\xc1\xc6\x02\x80\x01\x80\x00\\\x01\x00\x01\xdc@\x00\x00\xc5@\x01\x00\xc6\x00\xc7\x01\xdc@\x80\x00\xc5\x80\x03\x00\x01\xc1\x03\x00K\x01D\x01\\\x81\x00\x01\x85A\x04\x00\x86\x81D\x03\xc1\xc1\x04\x00\x01\x02\x05\x00A\xc2\x04\x00\x9c\x81\x00\x02L\x81\x81\x02\x82\x01\x80\x00\xca\x01\x80\x00\x01B\x07\x00\xe2A\x80\x00\xdc@\x80\x02\xc5\x80\x05\x00\x01\xc1\x03\x00\xdc@\x00\x01\xc5@\x01\x00\xc6\x80\xc1\x01\x02\x01\x00\x00B\x01\x80\x00\xdc@\x80\x01\x16@\x0f\x80\x8b\x00\xc0\x00\x9c\x80\x00\x01\x17@@\x01\x16@\x0e\x80\x85@\x01\x00\x86\x80A\x01\xc2\x00\x80\x00\x02\x01\x00\x00\x9c@\x80\x01\x8b\xc0A\x00\x02\x01\x80\x00\x9c@\x80\x01\x85\x00\x02\x00\x86@B\x01\xc1\x80\x02\x00\x9c@\x00\x01\x85\xc0\x02\x00\x86\x00C\x01\xc1@\x03\x00\x9c\x80\x00\x01\xc5\x80\x03\x00\x01\xc1\x03\x00K\x01D\x01\\\x81\x00\x01\x85A\x04\x00\x86\x81D\x03\xc1\xc1\x04\x00\x01\x02\x05\x00A\xc2\x04\x00\x9c\x81\x00\x02L\x81\x81\x02\x82\x01\x80\x00\xca\x01\x80\x00\x01\x82\x07\x00\xe2A\x80\x00\xdc@\x80\x02\xc5@\x01\x00\xc6\xc0\xc5\x01\xdc@\x80\x00\xc5\x00\x02\x00\xc6@\xc2\x01\x01\x01\x06\x00\xdc@\x00\x01\xc5\x80\x00\x00\xc6\x80\xc6\x01\x00\x01\x80\x00E\x81\x00\x00F\xc1\xc6\x02\x80\x01\x80\x00\\\x01\x00\x01\xdc@\x00\x00\xc5@\x01\x00\xc6\x00\xc7\x01\xdc@\x80\x00\xc5\x80\x05\x00\x01\xc1\x03\x00\xdc@\x00\x01\xc5@\x01\x00\xc6\x80\xc1\x01\x02\x01\x00\x00B\x01\x80\x00\xdc@\x80\x01\x1e\x00\x80\x00\x1f\x00\x00\x00\x04\x0b\x00\x00\x00identifier\x00\x04\x05\x00\x00\x00hero\x00\x04\x07\x00\x00\x00Health\x00\x04\x0e\x00\x00\x00CurrentHealth\x00\x04\n\x00\x00\x00MaxHealth\x00\x04\x05\x00\x00\x00Game\x00\x04\x11\x00\x00\x00SetCinematicMode\x00\x04\n\x00\x00\x00setHidden\x00\x04\x08\x00\x00\x00Program\x00\x04\x05\x00\x00\x00Wait\x00\x03\x00\x00\x00\x00\x00\x00\xe0?\x04\x06\x00\x00\x00Scene\x00\x04\x05\x00\x00\x00Find\x00\x04\x07\x00\x00\x00healer\x00\x04\x10\x00\x00\x00ShowTextBubbles\x00\x04\r\x00\x00\x00healerBubble\x00\x04\t\x00\x00\x00position\x00\x04\x08\x00\x00\x00Vector3\x00\x04\x04\x00\x00\x00New\x00\x03\x00\x00\x00\x00\x00\x00\x00\x00\x03\x00\x00\x00\x00\x00\x00D@\x04 \x00\x00\x00You\'re injured. I can help you.\x00\x04\x0f\x00\x00\x00HideTextBubble\x00\x04\x08\x00\x00\x00FadeOut\x00\x03\x00\x00\x00\x00\x00\x00\xf0?\x04\x11\x00\x00\x00SetCurrentHealth\x00\x04\x0f\x00\x00\x00SetCurrentMana\x00\x04\x08\x00\x00\x00MaxMana\x00\x04\x07\x00\x00\x00FadeIn\x00\x04#\x00\x00\x00Come see me if you get hurt again.\x00\x04%\x00\x00\x00If you ever get hurt, come visit me.\x00\x00\x00\x00\x00\xa4\x00\x00\x00\x01\x00\x00\x00\x03\x00\x00\x00\x03\x00\x00\x00\x03\x00\x00\x00\x03\x00\x00\x00\x03\x00\x00\x00\x03\x00\x00\x00\x03\x00\x00\x00\x03\x00\x00\x00\x03\x00\x00\x00\x03\x00\x00\x00\x03\x00\x00\x00\x03\x00\x00\x00\x03\x00\x00\x00\x03\x00\x00\x00\x05\x00\x00\x00\x05\x00\x00\x00\x05\x00\x00\x00\x05\x00\x00\x00\x05\x00\x00\x00\x07\x00\x00\x00\x07\x00\x00\x00\x07\x00\x00\x00\t\x00\x00\x00\t\x00\x00\x00\t\x00\x00\x00\t\x00\x00\x00\x0b\x00\x00\x00\x0b\x00\x00\x00\x0b\x00\x00\x00\x0b\x00\x00\x00\r\x00\x00\x00\r\x00\x00\x00\r\x00\x00\x00\r\x00\x00\x00\r\x00\x00\x00\r\x00\x00\x00\r\x00\x00\x00\r\x00\x00\x00\r\x00\x00\x00\r\x00\x00\x00\r\x00\x00\x00\r\x00\x00\x00\r\x00\x00\x00\x0f\x00\x00\x00\x0f\x00\x00\x00\r\x00\x00\x00\x11\x00\x00\x00\x11\x00\x00\x00\x11\x00\x00\x00\x13\x00\x00\x00\x13\x00\x00\x00\x13\x00\x00\x00\x15\x00\x00\x00\x15\x00\x00\x00\x15\x00\x00\x00\x15\x00\x00\x00\x16\x00\x00\x00\x16\x00\x00\x00\x16\x00\x00\x00\x16\x00\x00\x00\x16\x00\x00\x00\x16\x00\x00\x00\x16\x00\x00\x00\x16\x00\x00\x00\x17\x00\x00\x00\x17\x00\x00\x00\x17\x00\x00\x00\x17\x00\x00\x00\x17\x00\x00\x00\x17\x00\x00\x00\x17\x00\x00\x00\x17\x00\x00\x00\x18\x00\x00\x00\x18\x00\x00\x00\x18\x00\x00\x00\x1a\x00\x00\x00\x1a\x00\x00\x00\x1a\x00\x00\x00\x1a\x00\x00\x00\x1a\x00\x00\x00\x1a\x00\x00\x00\x1a\x00\x00\x00\x1a\x00\x00\x00\x1a\x00\x00\x00\x1a\x00\x00\x00\x1a\x00\x00\x00\x1a\x00\x00\x00\x1a\x00\x00\x00\x1c\x00\x00\x00\x1c\x00\x00\x00\x1a\x00\x00\x00\x1e\x00\x00\x00\x1e\x00\x00\x00\x1e\x00\x00\x00 \x00\x00\x00 \x00\x00\x00 \x00\x00\x00 \x00\x00\x00 \x00\x00\x00 \x00\x00\x00"\x00\x00\x00"\x00\x00\x00"\x00\x00\x00"\x00\x00\x00#\x00\x00\x00#\x00\x00\x00#\x00\x00\x00#\x00\x00\x00#\x00\x00\x00%\x00\x00\x00%\x00\x00\x00%\x00\x00\x00\'\x00\x00\x00\'\x00\x00\x00\'\x00\x00\x00\'\x00\x00\x00)\x00\x00\x00)\x00\x00\x00)\x00\x00\x00)\x00\x00\x00+\x00\x00\x00+\x00\x00\x00+\x00\x00\x00+\x00\x00\x00+\x00\x00\x00+\x00\x00\x00+\x00\x00\x00+\x00\x00\x00+\x00\x00\x00+\x00\x00\x00+\x00\x00\x00+\x00\x00\x00+\x00\x00\x00-\x00\x00\x00-\x00\x00\x00+\x00\x00\x00/\x00\x00\x00/\x00\x00\x00/\x00\x00\x001\x00\x00\x001\x00\x00\x001\x00\x00\x001\x00\x00\x002\x00\x00\x002\x00\x00\x002\x00\x00\x002\x00\x00\x002\x00\x00\x002\x00\x00\x002\x00\x00\x002\x00\x00\x003\x00\x00\x003\x00\x00\x003\x00\x00\x004\x00\x00\x004\x00\x00\x004\x00\x00\x006\x00\x00\x006\x00\x00\x006\x00\x00\x006\x00\x00\x006\x00\x00\x007\x00\x00\x00\x04\x00\x00\x00\x05\x00\x00\x00self\x00\x01\x00\x00\x00\xa3\x00\x00\x00\x07\x00\x00\x00target\x00\x01\x00\x00\x00\xa3\x00\x00\x00\x07\x00\x00\x00healer\x00\x1f\x00\x00\x00d\x00\x00\x00\x07\x00\x00\x00healer\x00y\x00\x00\x00\xa3\x00\x00\x00\x00\x00\x00\x00 (12 @ 3ba0)
+			}
+            z : 1(58 @ 4869)
+		}
+	}
+
+    position sub-block { (22 @ 486b)
+
+        x position : 131.9550018310547 (0d @ 486d)
+        y position : 157.33346557617188 (15 @ 4872)
+	}
+    z position : 0.0 (2d @ 4877)
+    rotation : 0.0 (35 @ 487c)
+    scale : 1.0 (3d @ 4881)
+
+    u2 sub-block { (42 @ 4886)
+
+        w : -70.0 (0d @ 4888)
+        x : -100.0 (15 @ 488d)
+        y : 140.0 (1d @ 4892)
+        z : 200.0 (25 @ 4897)
+	}
+    hidden : 0(48 @ 489c)
+}
+
+object block { (0a @ 489e)
+
+    name : shop_torch (0a @ 48a1)
+    identifier : obj3#6 (12 @ 48ad)
+
+    component sub-block { (1a @ 48b5)
+
+        component type : Model (0a @ 48b7)
+        number : 1(10 @ 48be)
+
+        3D model sub-sub-block { (32a @ 48c1)
+
+            name : grove_torch (0a @ 48c3)
+            u0 : 4.71238899230957 (15 @ 48d0)
+            u1 : 0.5 (1d @ 48d5)
+            u2 : 0.0 (25 @ 48da)
+
+            u3 sub-sub-sub-block { (2a @ 48df)
+
+                w : 0.0 (0d @ 48e1)
+                x : 0.0 (15 @ 48e6)
+                y : 0.0 (1d @ 48eb)
+                z : 1.0 (25 @ 48f0)
+			}
+
+            u4 sub-sub-sub-block { (32 @ 48f5)
+
+                x : 0.0 (0d @ 48f7)
+                y : 0.0 (15 @ 48fc)
+                z : 0.0 (1d @ 4901)
+			}
+            u5 : 0(38 @ 4906)
+
+            u6 sub-sub-sub-block { (42 @ 4908)
+
+                w : 1.0 (0d @ 490a)
+                x : 1.0 (15 @ 490f)
+                y : 1.0 (1d @ 4914)
+                z : 1.0 (25 @ 4919)
+			}
+		}
+	}
+
+    position sub-block { (22 @ 491e)
+
+        x position : -234.33160400390625 (0d @ 4920)
+        y position : 248.3966827392578 (15 @ 4925)
+	}
+    z position : 129.9084930419922 (2d @ 492a)
+    rotation : 0.0 (35 @ 492f)
+    scale : 1.0 (3d @ 4934)
+
+    u2 sub-block { (42 @ 4939)
+
+        w : -50.0 (0d @ 493b)
+        x : -50.0 (15 @ 4940)
+        y : 100.0 (1d @ 4945)
+        z : 131.89849853515625 (25 @ 494a)
+	}
+    hidden : 0(48 @ 494f)
+}
+
+object block { (0a @ 4951)
+
+    name : shop_torch (0a @ 4954)
+    identifier : obj3#7 (12 @ 4960)
+
+    component sub-block { (1a @ 4968)
+
+        component type : Model (0a @ 496a)
+        number : 1(10 @ 4971)
+
+        3D model sub-sub-block { (32a @ 4974)
+
+            name : grove_torch (0a @ 4976)
+            u0 : 4.71238899230957 (15 @ 4983)
+            u1 : 0.5 (1d @ 4988)
+            u2 : 0.0 (25 @ 498d)
+
+            u3 sub-sub-sub-block { (2a @ 4992)
+
+                w : 0.0 (0d @ 4994)
+                x : 0.0 (15 @ 4999)
+                y : 0.0 (1d @ 499e)
+                z : 1.0 (25 @ 49a3)
+			}
+
+            u4 sub-sub-sub-block { (32 @ 49a8)
+
+                x : 0.0 (0d @ 49aa)
+                y : 0.0 (15 @ 49af)
+                z : 0.0 (1d @ 49b4)
+			}
+            u5 : 0(38 @ 49b9)
+
+            u6 sub-sub-sub-block { (42 @ 49bb)
+
+                w : 1.0 (0d @ 49bd)
+                x : 1.0 (15 @ 49c2)
+                y : 1.0 (1d @ 49c7)
+                z : 1.0 (25 @ 49cc)
+			}
+		}
+	}
+
+    position sub-block { (22 @ 49d1)
+
+        x position : 69.39324951171875 (0d @ 49d3)
+        y position : 172.48953247070312 (15 @ 49d8)
+	}
+    z position : 129.9084930419922 (2d @ 49dd)
+    rotation : 0.0 (35 @ 49e2)
+    scale : 1.0 (3d @ 49e7)
+
+    u2 sub-block { (42 @ 49ec)
+
+        w : -50.0 (0d @ 49ee)
+        x : -50.0 (15 @ 49f3)
+        y : 100.0 (1d @ 49f8)
+        z : 131.89849853515625 (25 @ 49fd)
+	}
+    hidden : 0(48 @ 4a02)
+}
+
+object block { (0a @ 4a04)
+
+    name : Template 1 (0a @ 4a07)
+    identifier : obj4#2 (12 @ 4a13)
+
+    component sub-block { (1a @ 4a1b)
+
+        component type : Model (0a @ 4a1d)
+        number : 101(10 @ 4a24)
+
+        3D model sub-sub-block { (32a @ 4a27)
+
+            name : carpet1 (0a @ 4a29)
+            u0 : 0.0 (15 @ 4a32)
+            u1 : 0.20000000298023224 (1d @ 4a37)
+            u2 : 0.0 (25 @ 4a3c)
+
+            u3 sub-sub-sub-block { (2a @ 4a41)
+
+                w : 0.0 (0d @ 4a43)
+                x : 0.0 (15 @ 4a48)
+                y : 0.0 (1d @ 4a4d)
+                z : 1.0 (25 @ 4a52)
+			}
+
+            u4 sub-sub-sub-block { (32 @ 4a57)
+
+                x : 0.0 (0d @ 4a59)
+                y : 0.0 (15 @ 4a5e)
+                z : 0.0 (1d @ 4a63)
+			}
+            u5 : 0(38 @ 4a68)
+
+            u6 sub-sub-sub-block { (42 @ 4a6a)
+
+                w : 1.0 (0d @ 4a6c)
+                x : 1.0 (15 @ 4a71)
+                y : 1.0 (1d @ 4a76)
+                z : 1.0 (25 @ 4a7b)
+			}
+		}
+	}
+
+    position sub-block { (22 @ 4a80)
+
+        x position : -251.9095458984375 (0d @ 4a82)
+        y position : 118.07052612304688 (15 @ 4a87)
+	}
+    z position : 0.0 (2d @ 4a8c)
+    rotation : 0.0 (35 @ 4a91)
+    scale : 1.0 (3d @ 4a96)
+
+    u2 sub-block { (42 @ 4a9b)
+
+        w : -128.824951171875 (0d @ 4a9d)
+        x : 0.0 (15 @ 4aa2)
+        y : 258.7838439941406 (1d @ 4aa7)
+        z : 1.204187035560608 (25 @ 4aac)
+	}
+    hidden : 0(48 @ 4ab1)
+}
+
+object block { (0a @ 4ab3)
+
+    identifier : obj5#3 (12 @ 4ab5)
+
+    component sub-block { (1a @ 4abd)
+
+        component type : Sprite (0a @ 4abf)
+        number : 101(10 @ 4ac7)
+
+        sprite sub-sub-block { (322 @ 4aca)
+
+		}
+	}
+
+    position sub-block { (22 @ 4acc)
+
+        x position : -266.9688720703125 (0d @ 4ace)
+        y position : 216.5774688720703 (15 @ 4ad3)
+	}
+    z position : -73.69035339355469 (2d @ 4ad8)
+    rotation : 0.0 (35 @ 4add)
+    scale : 1.0 (3d @ 4ae2)
+
+    u2 sub-block { (42 @ 4ae7)
+
+        w : -0.0 (0d @ 4ae9)
+        x : -0.0 (15 @ 4aee)
+        y : 0.0 (1d @ 4af3)
+        z : 0.0 (25 @ 4af8)
+	}
+    hidden : 0(48 @ 4afd)
+}
+
+object block { (0a @ 4aff)
+
+    identifier : spawn_default (12 @ 4b01)
+
+    component sub-block { (1a @ 4b10)
+
+        component type : SpawnPoint (0a @ 4b12)
+        number : 101(10 @ 4b1e)
+
+        spawnpoint sub-sub-block { (faa @ 4b21)
+
+            u0 : 1(08 @ 4b23)
+
+            u1 sub-sub-sub-block { (12 @ 4b25)
+
+                x : 0.0 (0d @ 4b27)
+                y : 0.0 (15 @ 4b2c)
+                z : 0.0 (1d @ 4b31)
+			}
+		}
+	}
+
+    position sub-block { (22 @ 4b36)
+
+        x position : -405.064697265625 (0d @ 4b38)
+        y position : 154.61892700195312 (15 @ 4b3d)
+	}
+    z position : -1.1977767944335938 (2d @ 4b42)
+    rotation : 0.0 (35 @ 4b47)
+    scale : 1.0 (3d @ 4b4c)
+
+    u2 sub-block { (42 @ 4b51)
+
+        w : -30.0 (0d @ 4b53)
+        x : -30.0 (15 @ 4b58)
+        y : 60.0 (1d @ 4b5d)
+        z : 60.0 (25 @ 4b62)
+	}
+    hidden : 0(48 @ 4b67)
+}
+
+object block { (0a @ 4b69)
+
+    identifier : spawn_from_florennum_part1 (12 @ 4b6b)
+
+    component sub-block { (1a @ 4b87)
+
+        component type : SpawnPoint (0a @ 4b89)
+        number : 101(10 @ 4b95)
+
+        spawnpoint sub-sub-block { (faa @ 4b98)
+
+            u0 : 1(08 @ 4b9a)
+
+            u1 sub-sub-sub-block { (12 @ 4b9c)
+
+                x : 0.0 (0d @ 4b9e)
+                y : 0.0 (15 @ 4ba3)
+                z : 0.0 (1d @ 4ba8)
+			}
+		}
+	}
+
+    position sub-block { (22 @ 4bad)
+
+        x position : -403.041259765625 (0d @ 4baf)
+        y position : 154.82208251953125 (15 @ 4bb4)
+	}
+    z position : -1.1977767944335938 (2d @ 4bb9)
+    rotation : 0.0 (35 @ 4bbe)
+    scale : 1.0 (3d @ 4bc3)
+
+    u2 sub-block { (42 @ 4bc8)
+
+        w : -30.0 (0d @ 4bca)
+        x : -30.0 (15 @ 4bcf)
+        y : 60.0 (1d @ 4bd4)
+        z : 60.0 (25 @ 4bd9)
+	}
+    hidden : 0(48 @ 4bde)
+}
+
+object block { (0a @ 4be0)
+
+    identifier : text (12 @ 4be2)
+
+    position sub-block { (22 @ 4be8)
+
+        x position : 826.0087890625 (0d @ 4bea)
+        y position : 466.03125 (15 @ 4bef)
+	}
+    z position : 0.0 (2d @ 4bf4)
+    rotation : 0.0 (35 @ 4bf9)
+    scale : 1.0 (3d @ 4bfe)
+
+    u2 sub-block { (42 @ 4c03)
+
+        w : -30.0 (0d @ 4c05)
+        x : -30.0 (15 @ 4c0a)
+        y : 60.0 (1d @ 4c0f)
+        z : 60.0 (25 @ 4c14)
+	}
+    hidden : 1(48 @ 4c19)
+}
+
+dependencies block { (12 @ 4c1b)
+
+    name : florennum_healerhouse (0a @ 4c1e)
+
+    u0 sub-block { (12 @ 4c35)
+
+
+        u0 sub-sub-block { (0a @ 4c37)
+
+            name : Template 1 (12 @ 4c39)
+
+            u0 sub-sub-sub-block { (22 @ 4c45)
+
+                y : 0.0 (0d @ 4c47)
+                z : 0.0 (15 @ 4c4c)
+			}
+            u1 : 0.0 (2d @ 4c51)
+            u2 : 0.0 (35 @ 4c56)
+            u3 : 1.0 (3d @ 4c5b)
+
+            u1 sub-sub-sub-block { (42 @ 4c60)
+
+                w : -10.0 (0d @ 4c62)
+                x : -10.0 (15 @ 4c67)
+                y : 20.0 (1d @ 4c6c)
+                z : 20.0 (25 @ 4c71)
+			}
+            u5 : 0(48 @ 4c76)
+		}
+        u1 : 1.0 (15 @ 4c78)
+	}
+    scl file : caves_stuff (1a @ 4c7d)
+    scl file : collectibles (1a @ 4c8a)
+    scl file : game_common (1a @ 4c98)
+    scl file : lowergrove_stuff (1a @ 4ca5)
+    scl file : monsters (1a @ 4cb7)
+    scl file : npc (1a @ 4cc1)
+    scl file : plains_stuff (1a @ 4cc6)
+    scl file : rocks (1a @ 4cd4)
+    scl file : towers_stuff (1a @ 4cdb)
+    scl file : traps_stuffs (1a @ 4ce9)
+    scl file : trash (1a @ 4cf7)
+    scl file : woodkeep_stuff (1a @ 4cfe)
+}
+
+u0 block { (1a @ 4d0e)
+
+    w : -450.0 (0d @ 4d10)
+    x : -300.0 (15 @ 4d15)
+    y : 1450.0 (1d @ 4d1a)
+    z : 1000.0 (25 @ 4d1f)
+}
+
+group block { (22 @ 4d24)
+
+    name : bg_group (0a @ 4d26)
+    object : obj2#2 (12 @ 4d30)
+    u2 : 1(30 @ 4d38)
+}

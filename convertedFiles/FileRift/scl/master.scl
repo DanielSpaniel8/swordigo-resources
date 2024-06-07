@@ -1,0 +1,626 @@
+scl file name : master (0a @ 1)
+
+?item block { (12 @ 9)
+
+
+    ?sub-item sub-block { (0a @ c)
+
+        name : masterghost (12 @ f)
+
+        component sub-sub-block { (1a @ 1c)
+
+            component type : Entity (0a @ 1e)
+            number : 1(10 @ 26)
+
+            entity sub-sub-sub-block { (4c2 @ 29)
+
+                u0 : 18446744073709551615(08 @ 2b)
+                u1 : 1(10 @ 36)
+			}
+		}
+
+        component sub-sub-block { (1a @ 38)
+
+            component type : EntityAction (0a @ 3b)
+            number : 2(10 @ 49)
+
+            entity action sub-sub-sub-block { (512 @ 4c)
+
+
+                lua chunk sub-sub-sub-sub-block { (0a @ 4f)
+
+                    main chunk : chunk >
+
+                    === lua =============
+                    local self = ...;
+                    
+                    if self["texts"] ~= nil then
+                    	local text = self["texts"][Math.RandomInt(1,#self["texts"])];
+                    
+                    	local bubble = ShowTextBubble(self:identifier().."_bubble", self:position() + Vector3.New(0, 20, 0), text);
+                    	
+                    	local time = 0;
+                    	local interval = 0.01;
+                    	while time < 2 do
+                    		bubble:setPosition(self:position() + Vector3.New(0, 40, 0));
+                    		Program.Wait(interval);
+                    		time = time + interval;
+                    	end
+                    	
+                    	HideTextBubble(bubble:identifier());
+                    
+                    	Program.Wait(0.4);
+                    end
+
+                    =====================
+                    secondary chunk : \x1bLuaQ\x00\x01\x04\x04\x04\x08\x00\xe6\x01\x00\x00local self = ...;\r\n\r\nif self["texts"] ~= nil then\r\n\tlocal text = self["texts"][Math.RandomInt(1,#self["texts"])];\r\n\r\n\tlocal bubble = ShowTextBubble(self:identifier().."_bubble", self:position() + Vector3.New(0, 20, 0), text);\r\n\t\r\n\tlocal time = 0;\r\n\tlocal interval = 0.01;\r\n\twhile time < 2 do\r\n\t\tbubble:setPosition(self:position() + Vector3.New(0, 40, 0));\r\n\t\tProgram.Wait(interval);\r\n\t\ttime = time + interval;\r\n\tend\r\n\t\r\n\tHideTextBubble(bubble:identifier());\r\n\r\n\tProgram.Wait(0.4);\r\nend\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x02\x0c:\x00\x00\x00%\x00\x00\x01F\x00@\x00W@\xc0\x00\x16\x00\r\x80F\x00@\x00\x85\x80\x00\x00\x86\xc0@\x01\xc1\x00\x01\x00\x06\x01@\x00\x14\x01\x00\x02\x9c\x80\x80\x01F\x80\x80\x00\x85@\x01\x00\xcb\x80A\x00\xdc\x80\x00\x01\x01\xc1\x01\x00\xd5\x00\x81\x01\x0b\x01B\x00\x1c\x81\x00\x01EA\x02\x00F\x81\xc2\x02\x81\xc1\x02\x00\xc1\x01\x03\x00\x01\xc2\x02\x00\\\x81\x00\x02\x0cA\x01\x02@\x01\x80\x00\x9c\x80\x00\x02\xc1\xc0\x02\x00\x01A\x03\x00\x18\x80\xc3\x01\x16\x00\x04\x80K\xc1C\x01\xcb\x01B\x00\xdc\x81\x00\x01\x05B\x02\x00\x06\x82B\x04A\xc2\x02\x00\x81\x02\x04\x00\xc1\xc2\x02\x00\x1c\x82\x00\x02\xcc\x01\x82\x03\\A\x80\x01EA\x04\x00F\x81\xc4\x02\x80\x01\x00\x02\\A\x00\x01\xcc\x00\x81\x01\x16\x00\xfb\x7fE\xc1\x04\x00\x8b\x81A\x01\x9c\x01\x00\x01\\A\x00\x00EA\x04\x00F\x81\xc4\x02\x81\x01\x05\x00\\A\x00\x01\x1e\x00\x80\x00\x15\x00\x00\x00\x04\x06\x00\x00\x00texts\x00\x00\x04\x05\x00\x00\x00Math\x00\x04\n\x00\x00\x00RandomInt\x00\x03\x00\x00\x00\x00\x00\x00\xf0?\x04\x0f\x00\x00\x00ShowTextBubble\x00\x04\x0b\x00\x00\x00identifier\x00\x04\x08\x00\x00\x00_bubble\x00\x04\t\x00\x00\x00position\x00\x04\x08\x00\x00\x00Vector3\x00\x04\x04\x00\x00\x00New\x00\x03\x00\x00\x00\x00\x00\x00\x00\x00\x03\x00\x00\x00\x00\x00\x004@\x03{\x14\xaeG\xe1z\x84?\x03\x00\x00\x00\x00\x00\x00\x00@\x04\x0c\x00\x00\x00setPosition\x00\x03\x00\x00\x00\x00\x00\x00D@\x04\x08\x00\x00\x00Program\x00\x04\x05\x00\x00\x00Wait\x00\x04\x0f\x00\x00\x00HideTextBubble\x00\x03\x9a\x99\x99\x99\x99\x99\xd9?\x00\x00\x00\x00:\x00\x00\x00\x01\x00\x00\x00\x03\x00\x00\x00\x03\x00\x00\x00\x03\x00\x00\x00\x04\x00\x00\x00\x04\x00\x00\x00\x04\x00\x00\x00\x04\x00\x00\x00\x04\x00\x00\x00\x04\x00\x00\x00\x04\x00\x00\x00\x04\x00\x00\x00\x06\x00\x00\x00\x06\x00\x00\x00\x06\x00\x00\x00\x06\x00\x00\x00\x06\x00\x00\x00\x06\x00\x00\x00\x06\x00\x00\x00\x06\x00\x00\x00\x06\x00\x00\x00\x06\x00\x00\x00\x06\x00\x00\x00\x06\x00\x00\x00\x06\x00\x00\x00\x06\x00\x00\x00\x06\x00\x00\x00\x06\x00\x00\x00\x08\x00\x00\x00\t\x00\x00\x00\n\x00\x00\x00\n\x00\x00\x00\x0b\x00\x00\x00\x0b\x00\x00\x00\x0b\x00\x00\x00\x0b\x00\x00\x00\x0b\x00\x00\x00\x0b\x00\x00\x00\x0b\x00\x00\x00\x0b\x00\x00\x00\x0b\x00\x00\x00\x0b\x00\x00\x00\x0b\x00\x00\x00\x0c\x00\x00\x00\x0c\x00\x00\x00\x0c\x00\x00\x00\x0c\x00\x00\x00\r\x00\x00\x00\r\x00\x00\x00\x10\x00\x00\x00\x10\x00\x00\x00\x10\x00\x00\x00\x10\x00\x00\x00\x12\x00\x00\x00\x12\x00\x00\x00\x12\x00\x00\x00\x12\x00\x00\x00\x13\x00\x00\x00\x05\x00\x00\x00\x05\x00\x00\x00self\x00\x01\x00\x00\x009\x00\x00\x00\x05\x00\x00\x00text\x00\x0c\x00\x00\x009\x00\x00\x00\x07\x00\x00\x00bubble\x00\x1c\x00\x00\x009\x00\x00\x00\x05\x00\x00\x00time\x00\x1d\x00\x00\x009\x00\x00\x00\t\x00\x00\x00interval\x00\x1e\x00\x00\x009\x00\x00\x00\x00\x00\x00\x00 (12 @ 23a)
+				}
+			}
+		}
+
+        component sub-sub-block { (1a @ 777)
+
+            component type : EntityController (0a @ 779)
+            number : 3(10 @ 78b)
+
+            entity controller sub-sub-sub-block { (50a @ 78e)
+
+                entity component : 1(08 @ 790)
+                animation controller component : 109(10 @ 792)
+                u2 : 103(18 @ 794)
+                collision shape : 0(20 @ 796)
+                u4 : 0.0 (2d @ 798)
+                u5 : 800.0 (35 @ 79d)
+                u6 : 0.0 (3d @ 7a2)
+                u7 : 1(40 @ 7a7)
+			}
+		}
+
+        component sub-sub-block { (1a @ 7a9)
+
+            component type : Program (0a @ 7ac)
+            number : 4(10 @ 7b5)
+
+            program sub-sub-sub-block { (4ea @ 7b8)
+
+                u0 : 1(08 @ 7bb)
+
+                lua chunk sub-sub-sub-sub-block { (12 @ 7bd)
+
+                    main chunk : chunk >
+
+                    === lua =============
+                    local self = ...;
+                    
+                    self["texts"] = {
+                    	"It\'s so dark in here.", 
+                    	"Be careful.", 
+                    	"I hope you will be alright.", 
+                    	"There is no Error in this game.",
+                    	"It\'s so dark in here.", 
+                    	"Be careful.", 
+                    	"I hope you will be alright."
+                    };
+                    
+
+                    =====================
+                    secondary chunk : \x1bLuaQ\x00\x01\x04\x04\x04\x08\x00\xf0\x00\x00\x00local self = ...;\r\n\r\nself["texts"] = {\r\n\t"It\'s so dark in here.", \r\n\t"Be careful.", \r\n\t"I hope you will be alright.", \r\n\t"There is no Error in this game.",\r\n\t"It\'s so dark in here.", \r\n\t"Be careful.", \r\n\t"I hope you will be alright."\r\n};\r\n\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x02\t\x0c\x00\x00\x00%\x00\x00\x01J\x00\x80\x03\x81@\x00\x00\xc1\x80\x00\x00\x01\xc1\x00\x00A\x01\x01\x00\x81A\x00\x00\xc1\x81\x00\x00\x01\xc2\x00\x00b@\x80\x03\t@\x00\x80\x1e\x00\x80\x00\x05\x00\x00\x00\x04\x06\x00\x00\x00texts\x00\x04\x16\x00\x00\x00It\'s so dark in here.\x00\x04\x0c\x00\x00\x00Be careful.\x00\x04\x1c\x00\x00\x00I hope you will be alright.\x00\x04 \x00\x00\x00There is no Error in this game.\x00\x00\x00\x00\x00\x0c\x00\x00\x00\x01\x00\x00\x00\x03\x00\x00\x00\x04\x00\x00\x00\x05\x00\x00\x00\x06\x00\x00\x00\x07\x00\x00\x00\x08\x00\x00\x00\t\x00\x00\x00\x0b\x00\x00\x00\x0b\x00\x00\x00\x0b\x00\x00\x00\x0b\x00\x00\x00\x01\x00\x00\x00\x05\x00\x00\x00self\x00\x01\x00\x00\x00\x0b\x00\x00\x00\x00\x00\x00\x00 (12 @ 8b2)
+				}
+                u1 : 1(18 @ ac7)
+                u2 : 10(20 @ ac9)
+			}
+		}
+
+        component sub-sub-block { (1a @ acb)
+
+            component type : Model (0a @ acd)
+            number : 101(10 @ ad4)
+
+            3D model sub-sub-sub-block { (32a @ ad7)
+
+                name : oldman_ghost (0a @ ad9)
+                u0 : 2.356194496154785 (15 @ ae7)
+                u1 : 0.0 (1d @ aec)
+                u2 : 0.0 (25 @ af1)
+
+                u3 sub-sub-sub-sub-block { (2a @ af6)
+
+                    w : 0.0 (0d @ af8)
+                    x : 0.0 (15 @ afd)
+                    y : 0.0 (1d @ b02)
+                    z : 1.0 (25 @ b07)
+				}
+
+                u4 sub-sub-sub-sub-block { (32 @ b0c)
+
+                    x : 0.0 (0d @ b0e)
+                    y : 0.0 (15 @ b13)
+                    z : 0.0 (1d @ b18)
+				}
+                u5 : 1(38 @ b1d)
+
+                u6 sub-sub-sub-sub-block { (42 @ b1f)
+
+                    w : 0.45679008960723877 (0d @ b21)
+                    x : 0.916872501373291 (15 @ b26)
+                    y : 0.9876543283462524 (1d @ b2b)
+                    z : 0.0 (25 @ b30)
+				}
+			}
+		}
+
+        component sub-sub-block { (1a @ b35)
+
+            component type : KeyframeAnimation (0a @ b37)
+            number : 103(10 @ b4a)
+
+            keyframe animation sub-sub-sub-block { (332 @ b4d)
+
+                linked model component number : 101(08 @ b4f)
+                name : npc_oldman_stand (12 @ b51)
+                u0 : 1(18 @ b63)
+                u1 : 0.6000000238418579 (25 @ b65)
+                u2 : 1(28 @ b6a)
+			}
+		}
+
+        component sub-sub-block { (1a @ b6c)
+
+            component type : AnimationController (0a @ b6e)
+            number : 109(10 @ b83)
+
+            animation controller sub-sub-sub-block { (4aa @ b86)
+
+                model component : 101(08 @ b88)
+                u1 : 103(10 @ b8a)
+                u2 : 1(18 @ b8c)
+			}
+		}
+
+        component sub-sub-block { (1a @ b8e)
+
+            component type : CollisionShape (0a @ b91)
+            number : 111(10 @ ba1)
+
+            collision shape sub-sub-sub-block { (3c2 @ ba4)
+
+
+                u0 sub-sub-sub-sub-block { (0a @ ba6)
+
+                    w : -32.70899963378906 (0d @ ba8)
+                    x : -34.29396057128906 (15 @ bad)
+                    y : 64.53463745117188 (1d @ bb2)
+                    z : 62.28142547607422 (25 @ bb7)
+				}
+			}
+
+            collision shape 2 sub-sub-sub-block { (3ca @ bbd)
+
+                u1 : 1(18 @ bc0)
+                w : -15.0 (35 @ bc2)
+                x : 100.0 (3d @ bc7)
+
+                lua chunk sub-sub-sub-sub-block { (4a @ bcc)
+
+                    main chunk : chunk >
+
+                    === lua =============
+                    local self, target = ...;
+                    
+                    if target:identifier() == "hero" and EntityController.IsIdle(self) then
+                    	EntityController.PerformAction(self, 2);
+                    end
+
+                    =====================
+                    secondary chunk : \x1bLuaQ\x00\x01\x04\x04\x04\x08\x00\x95\x00\x00\x00local self, target = ...;\r\n\r\nif target:identifier() == "hero" and EntityController.IsIdle(self) then\r\n\tEntityController.PerformAction(self, 2);\r\nend\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x02\x05\x11\x00\x00\x00%\x00\x80\x01\x8b\x00\xc0\x00\x9c\x80\x00\x01\x17@@\x01\x16\x80\x02\x80\x85\x80\x00\x00\x86\xc0@\x01\xc0\x00\x00\x00\x9c\x80\x00\x01\x9a\x00\x00\x00\x16\x00\x01\x80\x85\x80\x00\x00\x86\x00A\x01\xc0\x00\x00\x00\x01A\x01\x00\x9c@\x80\x01\x1e\x00\x80\x00\x06\x00\x00\x00\x04\x0b\x00\x00\x00identifier\x00\x04\x05\x00\x00\x00hero\x00\x04\x11\x00\x00\x00EntityController\x00\x04\x07\x00\x00\x00IsIdle\x00\x04\x0e\x00\x00\x00PerformAction\x00\x03\x00\x00\x00\x00\x00\x00\x00@\x00\x00\x00\x00\x11\x00\x00\x00\x01\x00\x00\x00\x03\x00\x00\x00\x03\x00\x00\x00\x03\x00\x00\x00\x03\x00\x00\x00\x03\x00\x00\x00\x03\x00\x00\x00\x03\x00\x00\x00\x03\x00\x00\x00\x03\x00\x00\x00\x03\x00\x00\x00\x04\x00\x00\x00\x04\x00\x00\x00\x04\x00\x00\x00\x04\x00\x00\x00\x04\x00\x00\x00\x05\x00\x00\x00\x02\x00\x00\x00\x05\x00\x00\x00self\x00\x01\x00\x00\x00\x10\x00\x00\x00\x07\x00\x00\x00target\x00\x01\x00\x00\x00\x10\x00\x00\x00\x00\x00\x00\x00 (12 @ c66)
+				}
+                z : 1(58 @ e36)
+			}
+		}
+
+        component sub-sub-block { (1a @ e38)
+
+            component type : Health (0a @ e3a)
+            number : 114(10 @ e42)
+
+            health sub-sub-sub-block { (3da @ e45)
+
+                u0 : 1(08 @ e47)
+                u1 : 0(10 @ e49)
+
+                u2 sub-sub-sub-sub-block { (1a @ e4b)
+
+                    x : 0.0 (0d @ e4d)
+                    y : 50.0 (15 @ e52)
+				}
+			}
+		}
+
+        component sub-sub-block { (1a @ e57)
+
+            component type : ParticleEmitter (0a @ e5a)
+            number : 117(10 @ e6b)
+
+            particle emitter sub-sub-sub-block { (7d2 @ e6e)
+
+                particle : 120(10 @ e71)
+                particle : 121(10 @ e73)
+                particle : 122(10 @ e75)
+                u1 : 0(18 @ e77)
+                u2 : 30(20 @ e79)
+                u3 : 0(28 @ e7b)
+                u4 : 0(30 @ e7d)
+
+                u5 sub-sub-sub-sub-block { (3a @ e7f)
+
+                    u0 : 5(08 @ e82)
+
+                    u1 sub-sub-sub-sub-sub-block { (12 @ e84)
+
+                        w : 0.09333334863185883 (0d @ e86)
+                        x : 0.1733333319425583 (15 @ e8b)
+                        y : 0.1733333021402359 (1d @ e90)
+                        z : 0.0 (25 @ e95)
+					}
+                    u2 : 90.0 (1d @ e9a)
+                    u2 : 180.0 (1d @ e9f)
+                    u2 : 0.0 (1d @ ea4)
+                    u2 : 20.0 (1d @ ea9)
+                    u2 : 20.0 (1d @ eae)
+                    u2 : 0.0 (1d @ eb3)
+                    u2 : 0.0 (1d @ eb8)
+                    u2 : 0.0 (1d @ ebd)
+                    u2 : 0.800000011920929 (1d @ ec2)
+                    u2 : 0.0 (1d @ ec7)
+                    u2 : 0.5 (1d @ ecc)
+                    u2 : 0.029999999329447746 (1d @ ed1)
+                    u2 : 1.100000023841858 (1d @ ed6)
+                    u2 : 0.0 (1d @ edb)
+                    u2 : 0.0 (1d @ ee0)
+                    u3 : 0.0 (25 @ ee5)
+                    u4 : 0.0 (2d @ eea)
+                    u5 : 0.0 (35 @ eef)
+
+                    u6 sub-sub-sub-sub-sub-block { (3a @ ef4)
+
+                        u0 : 0.0 (0d @ ef6)
+                        u1 : -30.0 (15 @ efb)
+                        u2 : 0.0 (1d @ f00)
+					}
+				}
+                u6 : 0(40 @ f05)
+
+                u7 sub-sub-sub-sub-block { (4a @ f07)
+
+                    u0 : 0.0 (0d @ f09)
+                    u1 : 150.0 (15 @ f0e)
+                    u2 : 0.0 (1d @ f13)
+				}
+			}
+		}
+
+        component sub-sub-block { (1a @ f18)
+
+            component type : Particle (0a @ f1a)
+            number : 120(10 @ f24)
+
+            particle sub-sub-sub-block { (7da @ f27)
+
+                name : particle_fure_1 (0a @ f29)
+                u0 : 10.0 (15 @ f3a)
+			}
+		}
+
+        component sub-sub-block { (1a @ f3f)
+
+            component type : Particle (0a @ f41)
+            number : 121(10 @ f4b)
+
+            particle sub-sub-sub-block { (7da @ f4e)
+
+                name : particle_fure_2 (0a @ f50)
+                u0 : 20.0 (15 @ f61)
+			}
+		}
+
+        component sub-sub-block { (1a @ f66)
+
+            component type : Particle (0a @ f68)
+            number : 122(10 @ f72)
+
+            particle sub-sub-sub-block { (7da @ f75)
+
+                name : particle_fure_3 (0a @ f77)
+                u0 : 30.0 (15 @ f88)
+			}
+		}
+
+        component sub-sub-block { (1a @ f8d)
+
+            component type : SimpleGlow (0a @ f8f)
+            number : 123(10 @ f9b)
+
+            simple glow sub-sub-sub-block { (7f2 @ f9e)
+
+
+                u0 sub-sub-sub-sub-block { (0a @ fa0)
+
+                    w : 0.2172839641571045 (0d @ fa2)
+                    x : 0.2716049551963806 (15 @ fa7)
+                    y : 0.2716049551963806 (1d @ fac)
+                    z : 0.0 (25 @ fb1)
+				}
+                u1 : 50.0 (15 @ fb6)
+                u2 : 10(18 @ fbb)
+                u3 : -20.0 (25 @ fbd)
+                u4 : 0.15000000596046448 (2d @ fc2)
+                u5 : 0.800000011920929 (35 @ fc7)
+
+                u6 sub-sub-sub-sub-block { (3a @ fcc)
+
+                    y : 0.0 (0d @ fce)
+                    z : -15.0 (15 @ fd3)
+				}
+			}
+		}
+
+        position sub-sub-block { (22 @ fd8)
+
+            x position : 0.0 (0d @ fda)
+            y position : 0.0 (15 @ fdf)
+		}
+        z position : 0.0 (2d @ fe4)
+        rotation : 0.0 (35 @ fe9)
+        scale : 1.0 (3d @ fee)
+
+        u0 sub-sub-block { (42 @ ff3)
+
+            w : -50.0 (0d @ ff5)
+            x : -50.0 (15 @ ffa)
+            y : 100.0 (1d @ fff)
+            z : 100.0 (25 @ 1004)
+		}
+        hidden : 0(48 @ 1009)
+	}
+    u0 : 1.0 (15 @ 100b)
+}
+
+?item block { (12 @ 1010)
+
+
+    ?sub-item sub-block { (0a @ 1013)
+
+        name : shardquesttrigger (12 @ 1016)
+
+        component sub-sub-block { (1a @ 1029)
+
+            component type : CollisionShape (0a @ 102c)
+            number : 101(10 @ 103c)
+
+            collision shape sub-sub-sub-block { (3c2 @ 103f)
+
+
+                u0 sub-sub-sub-sub-block { (0a @ 1041)
+
+                    w : -80.0 (0d @ 1043)
+                    x : -150.0 (15 @ 1048)
+                    y : 160.0 (1d @ 104d)
+                    z : 500.0 (25 @ 1052)
+				}
+			}
+
+            collision shape 2 sub-sub-sub-block { (3ca @ 1058)
+
+                w : -15.0 (35 @ 105b)
+                x : 15.0 (3d @ 1060)
+
+                lua chunk sub-sub-sub-sub-block { (52 @ 1065)
+
+                    main chunk : chunk >
+
+                    === lua =============
+                    local self = ...;
+                    
+                    if Character.HasItem("iselon_shard_3") then
+                    
+                    	Game.SetCinematicMode(true, true);
+                    	Game.FadeOut();
+                    
+                    	Program.Wait(1.0);
+                    	local hero = Scene.Find("hero");
+                    	hero:setPosition(Scene.Find("questheromarker"):position());
+                    	Entity.SetFacingDirection(hero, 1);
+                    
+                    	local master = Scene.Find("master");
+                    	master:setHidden(false);
+                    
+                    	Game.FadeIn();
+                    	Program.Wait(1.0);
+                    
+                    	if Character.HasItem("iselon_shard_4") then
+                    		AssembleQuestTrigger(master);
+                    	else
+                    		ShowQuestBubbles("quest072_ice", self:identifier(), master:position() + Vector3.New(0, 40, 0), true, {
+                    			"You have done well, hero.",
+                    			"There is only one more shard missing.",
+                    			"Go to a castle on top of the snowy peaks of Mount Atlon.",
+                    			"You will find what you need there.",
+                    			"I will be waiting for you.",
+                    		});
+                    
+                    		HideTextBubble(self:identifier());
+                    
+                    		Character.AddQuest("quest072_ice");
+                    	end
+                    
+                    	Character.SetQuestCompleted("quest071_fire");
+                    
+                    	Game.Flash();
+                    	master:setHidden(true);
+                    	Game.SetCinematicMode(false, true);
+                    
+                    end
+                    
+                    DoorController.Open(Scene.Find("endDoor"));
+                    
+
+                    =====================
+                    secondary chunk : \x1bLuaQ\x00\x01\x04\x04\x04\x08\x00:\x04\x00\x00local self = ...;\r\n\r\nif Character.HasItem("iselon_shard_3") then\r\n\r\n\tGame.SetCinematicMode(true, true);\r\n\tGame.FadeOut();\r\n\r\n\tProgram.Wait(1.0);\r\n\tlocal hero = Scene.Find("hero");\r\n\thero:setPosition(Scene.Find("questheromarker"):position());\r\n\tEntity.SetFacingDirection(hero, 1);\r\n\r\n\tlocal master = Scene.Find("master");\r\n\tmaster:setHidden(false);\r\n\r\n\tGame.FadeIn();\r\n\tProgram.Wait(1.0);\r\n\r\n\tif Character.HasItem("iselon_shard_4") then\r\n\t\tAssembleQuestTrigger(master);\r\n\telse\r\n\t\tShowQuestBubbles("quest072_ice", self:identifier(), master:position() + Vector3.New(0, 40, 0), true, {\r\n\t\t\t"You have done well, hero.",\r\n\t\t\t"There is only one more shard missing.",\r\n\t\t\t"Go to a castle on top of the snowy peaks of Mount Atlon.",\r\n\t\t\t"You will find what you need there.",\r\n\t\t\t"I will be waiting for you.",\r\n\t\t});\r\n\r\n\t\tHideTextBubble(self:identifier());\r\n\r\n\t\tCharacter.AddQuest("quest072_ice");\r\n\tend\r\n\r\n\tCharacter.SetQuestCompleted("quest071_fire");\r\n\r\n\tGame.Flash();\r\n\tmaster:setHidden(true);\r\n\tGame.SetCinematicMode(false, true);\r\n\r\nend\r\n\r\nDoorController.Open(Scene.Find("endDoor"));\r\n\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x02\x0eq\x00\x00\x00%\x00\x00\x01E\x00\x00\x00F@\xc0\x00\x81\x80\x00\x00\\\x80\x00\x01Z\x00\x00\x00\x16@\x18\x80E\xc0\x00\x00F\x00\xc1\x00\x82\x00\x80\x00\xc2\x00\x80\x00\\@\x80\x01E\xc0\x00\x00F@\xc1\x00\\@\x80\x00E\x80\x01\x00F\xc0\xc1\x00\x81\x00\x02\x00\\@\x00\x01E@\x02\x00F\x80\xc2\x00\x81\xc0\x02\x00\\\x80\x00\x01\x8b\x00\xc3\x00\x05A\x02\x00\x06\x81B\x02AA\x03\x00\x1c\x81\x00\x01\x0b\x81C\x02\x1c\x01\x00\x01\x9c@\x00\x00\x85\xc0\x03\x00\x86\x00D\x01\xc0\x00\x80\x00\x01\x01\x02\x00\x9c@\x80\x01\x85@\x02\x00\x86\x80B\x01\xc1@\x04\x00\x9c\x80\x00\x01\xcb\x80D\x01B\x01\x00\x00\xdc@\x80\x01\xc5\xc0\x00\x00\xc6\xc0\xc4\x01\xdc@\x80\x00\xc5\x80\x01\x00\xc6\xc0\xc1\x01\x01\x01\x02\x00\xdc@\x00\x01\xc5\x00\x00\x00\xc6@\xc0\x01\x01\x01\x05\x00\xdc\x80\x00\x01\xda\x00\x00\x00\x16\xc0\x00\x80\xc5@\x05\x00\x00\x01\x00\x01\xdc@\x00\x01\x16@\x07\x80\xc5\x80\x05\x00\x01\xc1\x05\x00K\x01F\x00\\\x81\x00\x01\x8b\x81C\x01\x9c\x81\x00\x01\xc5A\x06\x00\xc6\x81\xc6\x03\x01\xc2\x06\x00A\x02\x07\x00\x81\xc2\x06\x00\xdc\x81\x00\x02\x8c\xc1\x01\x03\xc2\x01\x80\x00\n\x02\x80\x02AB\x07\x00\x81\x82\x07\x00\xc1\xc2\x07\x00\x01\x03\x08\x00AC\x08\x00"B\x80\x02\xdc@\x00\x03\xc5\x80\x08\x00\x0b\x01F\x00\x1c\x01\x00\x01\xdc@\x00\x00\xc5\x00\x00\x00\xc6\xc0\xc8\x01\x01\xc1\x05\x00\xdc@\x00\x01\xc5\x00\x00\x00\xc6\x00\xc9\x01\x01A\t\x00\xdc@\x00\x01\xc5\xc0\x00\x00\xc6\x80\xc9\x01\xdc@\x80\x00\xcb\x80D\x01B\x01\x80\x00\xdc@\x80\x01\xc5\xc0\x00\x00\xc6\x00\xc1\x01\x02\x01\x00\x00B\x01\x80\x00\xdc@\x80\x01E\xc0\t\x00F\x00\xca\x00\x85@\x02\x00\x86\x80B\x01\xc1@\n\x00\x9c\x00\x00\x01\\@\x00\x00\x1e\x00\x80\x00*\x00\x00\x00\x04\n\x00\x00\x00Character\x00\x04\x08\x00\x00\x00HasItem\x00\x04\x0f\x00\x00\x00iselon_shard_3\x00\x04\x05\x00\x00\x00Game\x00\x04\x11\x00\x00\x00SetCinematicMode\x00\x04\x08\x00\x00\x00FadeOut\x00\x04\x08\x00\x00\x00Program\x00\x04\x05\x00\x00\x00Wait\x00\x03\x00\x00\x00\x00\x00\x00\xf0?\x04\x06\x00\x00\x00Scene\x00\x04\x05\x00\x00\x00Find\x00\x04\x05\x00\x00\x00hero\x00\x04\x0c\x00\x00\x00setPosition\x00\x04\x10\x00\x00\x00questheromarker\x00\x04\t\x00\x00\x00position\x00\x04\x07\x00\x00\x00Entity\x00\x04\x13\x00\x00\x00SetFacingDirection\x00\x04\x07\x00\x00\x00master\x00\x04\n\x00\x00\x00setHidden\x00\x04\x07\x00\x00\x00FadeIn\x00\x04\x0f\x00\x00\x00iselon_shard_4\x00\x04\x15\x00\x00\x00AssembleQuestTrigger\x00\x04\x11\x00\x00\x00ShowQuestBubbles\x00\x04\r\x00\x00\x00quest072_ice\x00\x04\x0b\x00\x00\x00identifier\x00\x04\x08\x00\x00\x00Vector3\x00\x04\x04\x00\x00\x00New\x00\x03\x00\x00\x00\x00\x00\x00\x00\x00\x03\x00\x00\x00\x00\x00\x00D@\x04\x1a\x00\x00\x00You have done well, hero.\x00\x04&\x00\x00\x00There is only one more shard missing.\x00\x049\x00\x00\x00Go to a castle on top of the snowy peaks of Mount Atlon.\x00\x04#\x00\x00\x00You will find what you need there.\x00\x04\x1b\x00\x00\x00I will be waiting for you.\x00\x04\x0f\x00\x00\x00HideTextBubble\x00\x04\t\x00\x00\x00AddQuest\x00\x04\x12\x00\x00\x00SetQuestCompleted\x00\x04\x0e\x00\x00\x00quest071_fire\x00\x04\x06\x00\x00\x00Flash\x00\x04\x0f\x00\x00\x00DoorController\x00\x04\x05\x00\x00\x00Open\x00\x04\x08\x00\x00\x00endDoor\x00\x00\x00\x00\x00q\x00\x00\x00\x01\x00\x00\x00\x03\x00\x00\x00\x03\x00\x00\x00\x03\x00\x00\x00\x03\x00\x00\x00\x03\x00\x00\x00\x03\x00\x00\x00\x05\x00\x00\x00\x05\x00\x00\x00\x05\x00\x00\x00\x05\x00\x00\x00\x05\x00\x00\x00\x06\x00\x00\x00\x06\x00\x00\x00\x06\x00\x00\x00\x08\x00\x00\x00\x08\x00\x00\x00\x08\x00\x00\x00\x08\x00\x00\x00\t\x00\x00\x00\t\x00\x00\x00\t\x00\x00\x00\t\x00\x00\x00\n\x00\x00\x00\n\x00\x00\x00\n\x00\x00\x00\n\x00\x00\x00\n\x00\x00\x00\n\x00\x00\x00\n\x00\x00\x00\n\x00\x00\x00\x0b\x00\x00\x00\x0b\x00\x00\x00\x0b\x00\x00\x00\x0b\x00\x00\x00\x0b\x00\x00\x00\r\x00\x00\x00\r\x00\x00\x00\r\x00\x00\x00\r\x00\x00\x00\x0e\x00\x00\x00\x0e\x00\x00\x00\x0e\x00\x00\x00\x10\x00\x00\x00\x10\x00\x00\x00\x10\x00\x00\x00\x11\x00\x00\x00\x11\x00\x00\x00\x11\x00\x00\x00\x11\x00\x00\x00\x13\x00\x00\x00\x13\x00\x00\x00\x13\x00\x00\x00\x13\x00\x00\x00\x13\x00\x00\x00\x13\x00\x00\x00\x14\x00\x00\x00\x14\x00\x00\x00\x14\x00\x00\x00\x14\x00\x00\x00\x16\x00\x00\x00\x16\x00\x00\x00\x16\x00\x00\x00\x16\x00\x00\x00\x16\x00\x00\x00\x16\x00\x00\x00\x16\x00\x00\x00\x16\x00\x00\x00\x16\x00\x00\x00\x16\x00\x00\x00\x16\x00\x00\x00\x16\x00\x00\x00\x16\x00\x00\x00\x16\x00\x00\x00\x16\x00\x00\x00\x17\x00\x00\x00\x18\x00\x00\x00\x19\x00\x00\x00\x1a\x00\x00\x00\x1c\x00\x00\x00\x1c\x00\x00\x00\x16\x00\x00\x00\x1e\x00\x00\x00\x1e\x00\x00\x00\x1e\x00\x00\x00\x1e\x00\x00\x00 \x00\x00\x00 \x00\x00\x00 \x00\x00\x00 \x00\x00\x00#\x00\x00\x00#\x00\x00\x00#\x00\x00\x00#\x00\x00\x00%\x00\x00\x00%\x00\x00\x00%\x00\x00\x00&\x00\x00\x00&\x00\x00\x00&\x00\x00\x00\'\x00\x00\x00\'\x00\x00\x00\'\x00\x00\x00\'\x00\x00\x00\'\x00\x00\x00+\x00\x00\x00+\x00\x00\x00+\x00\x00\x00+\x00\x00\x00+\x00\x00\x00+\x00\x00\x00+\x00\x00\x00+\x00\x00\x00\x03\x00\x00\x00\x05\x00\x00\x00self\x00\x01\x00\x00\x00p\x00\x00\x00\x05\x00\x00\x00hero\x00\x17\x00\x00\x00i\x00\x00\x00\x07\x00\x00\x00master\x00(\x00\x00\x00i\x00\x00\x00\x00\x00\x00\x00 (12 @ 14a4)
+				}
+                z : 1(58 @ 1fcd)
+			}
+		}
+
+        position sub-sub-block { (22 @ 1fcf)
+
+            x position : 0.0 (0d @ 1fd1)
+            y position : 0.0 (15 @ 1fd6)
+		}
+        z position : 0.0 (2d @ 1fdb)
+        rotation : 0.0 (35 @ 1fe0)
+        scale : 1.0 (3d @ 1fe5)
+
+        u0 sub-sub-block { (42 @ 1fea)
+
+            w : -80.0 (0d @ 1fec)
+            x : -150.0 (15 @ 1ff1)
+            y : 160.0 (1d @ 1ff6)
+            z : 500.0 (25 @ 1ffb)
+		}
+        hidden : 0(48 @ 2000)
+	}
+    u0 : 1.0 (15 @ 2002)
+}
+
+?item block { (12 @ 2007)
+
+
+    ?sub-item sub-block { (0a @ 200a)
+
+        name : spellget_script (12 @ 200d)
+
+        component sub-sub-block { (1a @ 201e)
+
+            component type : CollisionShape (0a @ 2021)
+            number : 101(10 @ 2031)
+
+            collision shape sub-sub-sub-block { (3c2 @ 2034)
+
+
+                u0 sub-sub-sub-sub-block { (0a @ 2036)
+
+                    w : -50.0 (0d @ 2038)
+                    x : -100.0 (15 @ 203d)
+                    y : 100.0 (1d @ 2042)
+                    z : 200.0 (25 @ 2047)
+				}
+			}
+
+            collision shape 2 sub-sub-sub-block { (3ca @ 204d)
+
+                w : -15.0 (35 @ 2050)
+                x : 15.0 (3d @ 2055)
+
+                lua chunk sub-sub-sub-sub-block { (4a @ 205a)
+
+                    main chunk : chunk >
+
+                    === lua =============
+                    local self, target = ...;
+                    
+                    if target:identifier() == "hero" and not Character.HasSkill("bomb") then
+                    
+                    	CollisionShape.SetEnabled(self, 101, false);
+                    	Game.SetCinematicMode(true, true);
+                    	Game.FadeOut();
+                    	Program.Wait(1);
+                    	target:setPosition(Scene.Find("marker1"):position());
+                    	Entity.SetFacingDirection(target, 1);
+                    	Camera.FocusAtShape(Scene.Find("focus"));
+                    	Camera.JumpToFocus();
+                    	Game.FadeIn();
+                    	Program.Wait(1);
+                    	ShowTextBubbles("masterBubble", Scene.Find("master"):position() + Vector3.New(0, 40, 0), true, {
+                    		"You have come far, young one."
+                    	});
+                    	
+                    	HideTextBubble("masterBubble");
+                    	
+                    	ShowTextBubbles("heroBubble", target:position() + Vector3.New(0, 40, 0), true, {
+                    		"Master! Is it really you?"
+                    	});
+                    
+                    	HideTextBubble("heroBubble");
+                    	
+                    	ShowTextBubbles("masterBubble", Scene.Find("master"):position() + Vector3.New(0, 40, 0), true, {
+                    		"Yes. It is me. But I can\'t be with you for long. My grip of this world is fading.",
+                    		"The corruptor that slew me is in this fortress. I can feel it.",
+                    		"It\'s trying to get to the chamber of the Mageblade.",
+                    		"You have to stop it before the sword is lost forever.",
+                    		"Learn this magic, it will help you on your way."
+                    	});
+                    	
+                    	HideTextBubble("masterBubble");
+                    
+                    	Character.AddSkill("bomb");
+                    	Camera.ResetFocus();
+                    
+                    	Program.Wait(0.5);
+                    	Program.Wait(1.0);
+                    
+                    	Game.Flash();
+                    	Scene.Find("master"):setHidden(true);
+                    
+                    	Game.SetCinematicMode(false, true);
+                    end
+                    
+
+                    =====================
+                    secondary chunk : \x1bLuaQ\x00\x01\x04\x04\x04\x08\x00\x9c\x05\x00\x00local self, target = ...;\r\n\r\nif target:identifier() == "hero" and not Character.HasSkill("bomb") then\r\n\r\n\tCollisionShape.SetEnabled(self, 101, false);\r\n\tGame.SetCinematicMode(true, true);\r\n\tGame.FadeOut();\r\n\tProgram.Wait(1);\r\n\ttarget:setPosition(Scene.Find("marker1"):position());\r\n\tEntity.SetFacingDirection(target, 1);\r\n\tCamera.FocusAtShape(Scene.Find("focus"));\r\n\tCamera.JumpToFocus();\r\n\tGame.FadeIn();\r\n\tProgram.Wait(1);\r\n\tShowTextBubbles("masterBubble", Scene.Find("master"):position() + Vector3.New(0, 40, 0), true, {\r\n\t\t"You have come far, young one."\r\n\t});\r\n\t\r\n\tHideTextBubble("masterBubble");\r\n\t\r\n\tShowTextBubbles("heroBubble", target:position() + Vector3.New(0, 40, 0), true, {\r\n\t\t"Master! Is it really you?"\r\n\t});\r\n\r\n\tHideTextBubble("heroBubble");\r\n\t\r\n\tShowTextBubbles("masterBubble", Scene.Find("master"):position() + Vector3.New(0, 40, 0), true, {\r\n\t\t"Yes. It is me. But I can\'t be with you for long. My grip of this world is fading.",\r\n\t\t"The corruptor that slew me is in this fortress. I can feel it.",\r\n\t\t"It\'s trying to get to the chamber of the Mageblade.",\r\n\t\t"You have to stop it before the sword is lost forever.",\r\n\t\t"Learn this magic, it will help you on your way."\r\n\t});\r\n\t\r\n\tHideTextBubble("masterBubble");\r\n\r\n\tCharacter.AddSkill("bomb");\r\n\tCamera.ResetFocus();\r\n\r\n\tProgram.Wait(0.5);\r\n\tProgram.Wait(1.0);\r\n\r\n\tGame.Flash();\r\n\tScene.Find("master"):setHidden(true);\r\n\r\n\tGame.SetCinematicMode(false, true);\r\nend\r\n\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x02\x0c\x9f\x00\x00\x00%\x00\x80\x01\x8b\x00\xc0\x00\x9c\x80\x00\x01\x17@@\x01\x16\x00&\x80\x85\x80\x00\x00\x86\xc0@\x01\xc1\x00\x01\x00\x9c\x80\x00\x01\x9a@\x00\x00\x16\x80$\x80\x85@\x01\x00\x86\x80A\x01\xc0\x00\x00\x00\x01\xc1\x01\x00B\x01\x00\x00\x9c@\x00\x02\x85\x00\x02\x00\x86@B\x01\xc2\x00\x80\x00\x02\x01\x80\x00\x9c@\x80\x01\x85\x00\x02\x00\x86\x80B\x01\x9c@\x80\x00\x85\xc0\x02\x00\x86\x00C\x01\xc1@\x03\x00\x9c@\x00\x01\x8b\x80\xc3\x00\x05\xc1\x03\x00\x06\x01D\x02AA\x04\x00\x1c\x81\x00\x01\x0b\x81D\x02\x1c\x01\x00\x01\x9c@\x00\x00\x85\xc0\x04\x00\x86\x00E\x01\xc0\x00\x80\x00\x01A\x03\x00\x9c@\x80\x01\x85@\x05\x00\x86\x80E\x01\xc5\xc0\x03\x00\xc6\x00\xc4\x01\x01\xc1\x05\x00\xdc\x00\x00\x01\x9c@\x00\x00\x85@\x05\x00\x86\x00F\x01\x9c@\x80\x00\x85\x00\x02\x00\x86@F\x01\x9c@\x80\x00\x85\xc0\x02\x00\x86\x00C\x01\xc1@\x03\x00\x9c@\x00\x01\x85\x80\x06\x00\xc1\xc0\x06\x00\x05\xc1\x03\x00\x06\x01D\x02A\x01\x07\x00\x1c\x81\x00\x01\x0b\x81D\x02\x1c\x81\x00\x01EA\x07\x00F\x81\xc7\x02\x81\xc1\x07\x00\xc1\x01\x08\x00\x01\xc2\x07\x00\\\x81\x00\x02\x0cA\x01\x02B\x01\x80\x00\x8a\x01\x80\x00\xc1A\x08\x00\xa2A\x80\x00\x9c@\x80\x02\x85\x80\x08\x00\xc1\xc0\x06\x00\x9c@\x00\x01\x85\x80\x06\x00\xc1\xc0\x08\x00\x0b\x81\xc4\x00\x1c\x81\x00\x01EA\x07\x00F\x81\xc7\x02\x81\xc1\x07\x00\xc1\x01\x08\x00\x01\xc2\x07\x00\\\x81\x00\x02\x0cA\x01\x02B\x01\x80\x00\x8a\x01\x80\x00\xc1\x01\t\x00\xa2A\x80\x00\x9c@\x80\x02\x85\x80\x08\x00\xc1\xc0\x08\x00\x9c@\x00\x01\x85\x80\x06\x00\xc1\xc0\x06\x00\x05\xc1\x03\x00\x06\x01D\x02A\x01\x07\x00\x1c\x81\x00\x01\x0b\x81D\x02\x1c\x81\x00\x01EA\x07\x00F\x81\xc7\x02\x81\xc1\x07\x00\xc1\x01\x08\x00\x01\xc2\x07\x00\\\x81\x00\x02\x0cA\x01\x02B\x01\x80\x00\x8a\x01\x80\x02\xc1A\t\x00\x01\x82\t\x00A\xc2\t\x00\x81\x02\n\x00\xc1B\n\x00\xa2A\x80\x02\x9c@\x80\x02\x85\x80\x08\x00\xc1\xc0\x06\x00\x9c@\x00\x01\x85\x80\x00\x00\x86\x80J\x01\xc1\x00\x01\x00\x9c@\x00\x01\x85@\x05\x00\x86\xc0J\x01\x9c@\x80\x00\x85\xc0\x02\x00\x86\x00C\x01\xc1\x00\x0b\x00\x9c@\x00\x01\x85\xc0\x02\x00\x86\x00C\x01\xc1@\x03\x00\x9c@\x00\x01\x85\x00\x02\x00\x86@K\x01\x9c@\x80\x00\x85\xc0\x03\x00\x86\x00D\x01\xc1\x00\x07\x00\x9c\x80\x00\x01\x8b\x80K\x01\x02\x01\x80\x00\x9c@\x80\x01\x85\x00\x02\x00\x86@B\x01\xc2\x00\x00\x00\x02\x01\x80\x00\x9c@\x80\x01\x1e\x00\x80\x00/\x00\x00\x00\x04\x0b\x00\x00\x00identifier\x00\x04\x05\x00\x00\x00hero\x00\x04\n\x00\x00\x00Character\x00\x04\t\x00\x00\x00HasSkill\x00\x04\x05\x00\x00\x00bomb\x00\x04\x0f\x00\x00\x00CollisionShape\x00\x04\x0b\x00\x00\x00SetEnabled\x00\x03\x00\x00\x00\x00\x00@Y@\x04\x05\x00\x00\x00Game\x00\x04\x11\x00\x00\x00SetCinematicMode\x00\x04\x08\x00\x00\x00FadeOut\x00\x04\x08\x00\x00\x00Program\x00\x04\x05\x00\x00\x00Wait\x00\x03\x00\x00\x00\x00\x00\x00\xf0?\x04\x0c\x00\x00\x00setPosition\x00\x04\x06\x00\x00\x00Scene\x00\x04\x05\x00\x00\x00Find\x00\x04\x08\x00\x00\x00marker1\x00\x04\t\x00\x00\x00position\x00\x04\x07\x00\x00\x00Entity\x00\x04\x13\x00\x00\x00SetFacingDirection\x00\x04\x07\x00\x00\x00Camera\x00\x04\r\x00\x00\x00FocusAtShape\x00\x04\x06\x00\x00\x00focus\x00\x04\x0c\x00\x00\x00JumpToFocus\x00\x04\x07\x00\x00\x00FadeIn\x00\x04\x10\x00\x00\x00ShowTextBubbles\x00\x04\r\x00\x00\x00masterBubble\x00\x04\x07\x00\x00\x00master\x00\x04\x08\x00\x00\x00Vector3\x00\x04\x04\x00\x00\x00New\x00\x03\x00\x00\x00\x00\x00\x00\x00\x00\x03\x00\x00\x00\x00\x00\x00D@\x04\x1e\x00\x00\x00You have come far, young one.\x00\x04\x0f\x00\x00\x00HideTextBubble\x00\x04\x0b\x00\x00\x00heroBubble\x00\x04\x1a\x00\x00\x00Master! Is it really you?\x00\x04R\x00\x00\x00Yes. It is me. But I can\'t be with you for long. My grip of this world is fading.\x00\x04?\x00\x00\x00The corruptor that slew me is in this fortress. I can feel it.\x00\x044\x00\x00\x00It\'s trying to get to the chamber of the Mageblade.\x00\x046\x00\x00\x00You have to stop it before the sword is lost forever.\x00\x040\x00\x00\x00Learn this magic, it will help you on your way.\x00\x04\t\x00\x00\x00AddSkill\x00\x04\x0b\x00\x00\x00ResetFocus\x00\x03\x00\x00\x00\x00\x00\x00\xe0?\x04\x06\x00\x00\x00Flash\x00\x04\n\x00\x00\x00setHidden\x00\x00\x00\x00\x00\x9f\x00\x00\x00\x01\x00\x00\x00\x03\x00\x00\x00\x03\x00\x00\x00\x03\x00\x00\x00\x03\x00\x00\x00\x03\x00\x00\x00\x03\x00\x00\x00\x03\x00\x00\x00\x03\x00\x00\x00\x03\x00\x00\x00\x03\x00\x00\x00\x05\x00\x00\x00\x05\x00\x00\x00\x05\x00\x00\x00\x05\x00\x00\x00\x05\x00\x00\x00\x05\x00\x00\x00\x06\x00\x00\x00\x06\x00\x00\x00\x06\x00\x00\x00\x06\x00\x00\x00\x06\x00\x00\x00\x07\x00\x00\x00\x07\x00\x00\x00\x07\x00\x00\x00\x08\x00\x00\x00\x08\x00\x00\x00\x08\x00\x00\x00\x08\x00\x00\x00\t\x00\x00\x00\t\x00\x00\x00\t\x00\x00\x00\t\x00\x00\x00\t\x00\x00\x00\t\x00\x00\x00\t\x00\x00\x00\t\x00\x00\x00\n\x00\x00\x00\n\x00\x00\x00\n\x00\x00\x00\n\x00\x00\x00\n\x00\x00\x00\x0b\x00\x00\x00\x0b\x00\x00\x00\x0b\x00\x00\x00\x0b\x00\x00\x00\x0b\x00\x00\x00\x0b\x00\x00\x00\x0b\x00\x00\x00\x0c\x00\x00\x00\x0c\x00\x00\x00\x0c\x00\x00\x00\r\x00\x00\x00\r\x00\x00\x00\r\x00\x00\x00\x0e\x00\x00\x00\x0e\x00\x00\x00\x0e\x00\x00\x00\x0e\x00\x00\x00\x0f\x00\x00\x00\x0f\x00\x00\x00\x0f\x00\x00\x00\x0f\x00\x00\x00\x0f\x00\x00\x00\x0f\x00\x00\x00\x0f\x00\x00\x00\x0f\x00\x00\x00\x0f\x00\x00\x00\x0f\x00\x00\x00\x0f\x00\x00\x00\x0f\x00\x00\x00\x0f\x00\x00\x00\x0f\x00\x00\x00\x0f\x00\x00\x00\x0f\x00\x00\x00\x0f\x00\x00\x00\x11\x00\x00\x00\x11\x00\x00\x00\x0f\x00\x00\x00\x13\x00\x00\x00\x13\x00\x00\x00\x13\x00\x00\x00\x15\x00\x00\x00\x15\x00\x00\x00\x15\x00\x00\x00\x15\x00\x00\x00\x15\x00\x00\x00\x15\x00\x00\x00\x15\x00\x00\x00\x15\x00\x00\x00\x15\x00\x00\x00\x15\x00\x00\x00\x15\x00\x00\x00\x15\x00\x00\x00\x15\x00\x00\x00\x17\x00\x00\x00\x17\x00\x00\x00\x15\x00\x00\x00\x19\x00\x00\x00\x19\x00\x00\x00\x19\x00\x00\x00\x1b\x00\x00\x00\x1b\x00\x00\x00\x1b\x00\x00\x00\x1b\x00\x00\x00\x1b\x00\x00\x00\x1b\x00\x00\x00\x1b\x00\x00\x00\x1b\x00\x00\x00\x1b\x00\x00\x00\x1b\x00\x00\x00\x1b\x00\x00\x00\x1b\x00\x00\x00\x1b\x00\x00\x00\x1b\x00\x00\x00\x1b\x00\x00\x00\x1b\x00\x00\x00\x1b\x00\x00\x00\x1c\x00\x00\x00\x1d\x00\x00\x00\x1e\x00\x00\x00\x1f\x00\x00\x00!\x00\x00\x00!\x00\x00\x00\x1b\x00\x00\x00#\x00\x00\x00#\x00\x00\x00#\x00\x00\x00%\x00\x00\x00%\x00\x00\x00%\x00\x00\x00%\x00\x00\x00&\x00\x00\x00&\x00\x00\x00&\x00\x00\x00(\x00\x00\x00(\x00\x00\x00(\x00\x00\x00(\x00\x00\x00)\x00\x00\x00)\x00\x00\x00)\x00\x00\x00)\x00\x00\x00+\x00\x00\x00+\x00\x00\x00+\x00\x00\x00,\x00\x00\x00,\x00\x00\x00,\x00\x00\x00,\x00\x00\x00,\x00\x00\x00,\x00\x00\x00,\x00\x00\x00.\x00\x00\x00.\x00\x00\x00.\x00\x00\x00.\x00\x00\x00.\x00\x00\x00/\x00\x00\x00\x02\x00\x00\x00\x05\x00\x00\x00self\x00\x01\x00\x00\x00\x9e\x00\x00\x00\x07\x00\x00\x00target\x00\x01\x00\x00\x00\x9e\x00\x00\x00\x00\x00\x00\x00 (12 @ 25fb)
+				}
+                z : 1(58 @ 3496)
+			}
+		}
+
+        position sub-sub-block { (22 @ 3498)
+
+            x position : 0.0 (0d @ 349a)
+            y position : 0.0 (15 @ 349f)
+		}
+        z position : 0.0 (2d @ 34a4)
+        rotation : 0.0 (35 @ 34a9)
+        scale : 1.0 (3d @ 34ae)
+
+        u0 sub-sub-block { (42 @ 34b3)
+
+            w : -50.0 (0d @ 34b5)
+            x : -100.0 (15 @ 34ba)
+            y : 100.0 (1d @ 34bf)
+            z : 200.0 (25 @ 34c4)
+		}
+        hidden : 0(48 @ 34c9)
+	}
+    u0 : 1.0 (15 @ 34cb)
+}
+
+lua chunk block { (2a @ 34d0)
+
+    main chunk : chunk >
+
+    === lua =============
+    function AssembleQuestTrigger(master)
+    	ShowQuestBubbles("quest09_assemble", master:identifier(), master:position() + Vector3.New(0, 40, 0), true, {
+    		"Masterfully done, hero.",
+    		"Now venture into the Great Caves and find the Chambers of Power",
+    		"There, the forces of the ancients will combine The Mageblade once again.",
+    	});
+    
+    	HideTextBubble(master:identifier());
+    
+    	Character.AddQuest("quest09_assemble");
+    end
+
+    =====================
+    secondary chunk : \x1bLuaQ\x00\x01\x04\x04\x04\x08\x00\xa8\x01\x00\x00function AssembleQuestTrigger(master)\r\n\tShowQuestBubbles("quest09_assemble", master:identifier(), master:position() + Vector3.New(0, 40, 0), true, {\r\n\t\t"Masterfully done, hero.",\r\n\t\t"Now venture into the Great Caves and find the Chambers of Power",\r\n\t\t"There, the forces of the ancients will combine The Mageblade once again.",\r\n\t});\r\n\r\n\tHideTextBubble(master:identifier());\r\n\r\n\tCharacter.AddQuest("quest09_assemble");\r\nend\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x02\x02\x03\x00\x00\x00$\x00\x00\x00\x07\x00\x00\x00\x1e\x00\x80\x00\x01\x00\x00\x00\x04\x15\x00\x00\x00AssembleQuestTrigger\x00\x01\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x0b\x00\x00\x00\x00\x01\x00\n\x1d\x00\x00\x00E\x00\x00\x00\x81@\x00\x00\xcb\x80@\x00\xdc\x80\x00\x01\x0b\xc1@\x00\x1c\x81\x00\x01E\x01\x01\x00FA\xc1\x02\x81\x81\x01\x00\xc1\xc1\x01\x00\x01\x82\x01\x00\\\x81\x00\x02\x0cA\x01\x02B\x01\x80\x00\x8a\x01\x80\x01\xc1\x01\x02\x00\x01B\x02\x00A\x82\x02\x00\xa2A\x80\x01\\@\x00\x03E\xc0\x02\x00\x8b\x80@\x00\x9c\x00\x00\x01\\@\x00\x00E\x00\x03\x00F@\xc3\x00\x81@\x00\x00\\@\x00\x01\x1e\x00\x80\x00\x0e\x00\x00\x00\x04\x11\x00\x00\x00ShowQuestBubbles\x00\x04\x11\x00\x00\x00quest09_assemble\x00\x04\x0b\x00\x00\x00identifier\x00\x04\t\x00\x00\x00position\x00\x04\x08\x00\x00\x00Vector3\x00\x04\x04\x00\x00\x00New\x00\x03\x00\x00\x00\x00\x00\x00\x00\x00\x03\x00\x00\x00\x00\x00\x00D@\x04\x18\x00\x00\x00Masterfully done, hero.\x00\x04@\x00\x00\x00Now venture into the Great Caves and find the Chambers of Power\x00\x04I\x00\x00\x00There, the forces of the ancients will combine The Mageblade once again.\x00\x04\x0f\x00\x00\x00HideTextBubble\x00\x04\n\x00\x00\x00Character\x00\x04\t\x00\x00\x00AddQuest\x00\x00\x00\x00\x00\x1d\x00\x00\x00\x02\x00\x00\x00\x02\x00\x00\x00\x02\x00\x00\x00\x02\x00\x00\x00\x02\x00\x00\x00\x02\x00\x00\x00\x02\x00\x00\x00\x02\x00\x00\x00\x02\x00\x00\x00\x02\x00\x00\x00\x02\x00\x00\x00\x02\x00\x00\x00\x02\x00\x00\x00\x02\x00\x00\x00\x02\x00\x00\x00\x03\x00\x00\x00\x04\x00\x00\x00\x06\x00\x00\x00\x06\x00\x00\x00\x02\x00\x00\x00\x08\x00\x00\x00\x08\x00\x00\x00\x08\x00\x00\x00\x08\x00\x00\x00\n\x00\x00\x00\n\x00\x00\x00\n\x00\x00\x00\n\x00\x00\x00\x0b\x00\x00\x00\x01\x00\x00\x00\x07\x00\x00\x00master\x00\x00\x00\x00\x00\x1c\x00\x00\x00\x00\x00\x00\x00\x03\x00\x00\x00\x0b\x00\x00\x00\x01\x00\x00\x00\x0b\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00 (12 @ 367d)
+    program name : AssembleQuestTrigger (1a @ 3b04)
+}

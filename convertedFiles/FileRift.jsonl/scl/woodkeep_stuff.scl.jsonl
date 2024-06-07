@@ -1,0 +1,878 @@
+data = {
+"scl file name" : "woodkeep_stuff",
+
+"?itemblock " :  {
+
+
+	"?sub-itemsub-block " :  {
+
+		"name" : "castle_lock",
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Program",
+			"number" : 1,
+
+			"programsub-sub-sub-block " :  {
+
+				"u0" : 1,
+
+				"lua chunksub-sub-sub-sub-block " :  {
+
+					"main chunk" : "chunk >
+
+					=== lua =============
+					local self = ...;
+					
+					if Character.HasSceneFlag(self:identifier()) then
+						self:setHidden(true);
+						Program.Execute(Scene.Find(self:identifier() .. \"_door\"));
+					end
+					
+
+					=====================",
+					"secondary chunk" : "\\x1bLuaQ\\x00\\x01\\x04\\x04\\x04\\x08\\x00\\xa3\\x00\\x00\\x00local self = ...;\\r\\n\\r\\nif Character.HasSceneFlag(self:identifier()) then\\r\\n\\tself:setHidden(true);\\r\\n\\tProgram.Execute(Scene.Find(self:identifier() .. \"_door\"));\\r\\nend\\r\\n\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x02\\x05\\x16\\x00\\x00\\x00%\\x00\\x00\\x01E\\x00\\x00\\x00F@\\xc0\\x00\\x8b\\x80@\\x00\\x9c\\x00\\x00\\x01\\\\\\x80\\x00\\x00Z\\x00\\x00\\x00\\x16\\x00\\x03\\x80K\\xc0@\\x00\\xc2\\x00\\x80\\x00\\\\@\\x80\\x01E\\x00\\x01\\x00F@\\xc1\\x00\\x85\\x80\\x01\\x00\\x86\\xc0A\\x01\\xcb\\x80@\\x00\\xdc\\x80\\x00\\x01\\x01\\x01\\x02\\x00\\xd5\\x00\\x81\\x01\\x9c\\x00\\x00\\x01\\\\@\\x00\\x00\\x1e\\x00\\x80\\x00\\t\\x00\\x00\\x00\\x04\\n\\x00\\x00\\x00Character\\x00\\x04\\r\\x00\\x00\\x00HasSceneFlag\\x00\\x04\\x0b\\x00\\x00\\x00identifier\\x00\\x04\\n\\x00\\x00\\x00setHidden\\x00\\x04\\x08\\x00\\x00\\x00Program\\x00\\x04\\x08\\x00\\x00\\x00Execute\\x00\\x04\\x06\\x00\\x00\\x00Scene\\x00\\x04\\x05\\x00\\x00\\x00Find\\x00\\x04\\x06\\x00\\x00\\x00_door\\x00\\x00\\x00\\x00\\x00\\x16\\x00\\x00\\x00\\x01\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x06\\x00\\x00\\x00\\x01\\x00\\x00\\x00\\x05\\x00\\x00\\x00self\\x00\\x01\\x00\\x00\\x00\\x15\\x00\\x00\\x00\\x00\\x00\\x00\\x00",
+				},
+				"u1" : 1,
+				"u2" : 10,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Model",
+			"number" : 101,
+
+			"3D modelsub-sub-sub-block " :  {
+
+				"name" : "lock_yellow",
+				"u0" : 1.5707963705062866,
+				"u1" : 0.5,
+				"u2" : 0.0,
+
+				"u3sub-sub-sub-sub-block " :  {
+
+					"w" : 1.0,
+					"x" : 1.0,
+					"y" : 1.0,
+					"z" : 1.0,
+				},
+
+				"u4sub-sub-sub-sub-block " :  {
+
+					"x" : 0.0,
+					"y" : 0.0,
+					"z" : 0.0,
+				},
+				"u5" : 0,
+
+				"u6sub-sub-sub-sub-block " :  {
+
+					"w" : 1.0,
+					"x" : 1.0,
+					"y" : 1.0,
+					"z" : 1.0,
+				},
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "CollisionShape",
+			"number" : 103,
+
+			"collision shapesub-sub-sub-block " :  {
+
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"w" : -70.0,
+					"x" : -40.0,
+					"y" : 140.0,
+					"z" : 80.0,
+				},
+			},
+
+			"collision shape 2sub-sub-sub-block " :  {
+
+				"w" : -15.0,
+				"x" : 15.0,
+				"y" : 4,
+				"z" : 1,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Program",
+			"number" : 105,
+
+			"programsub-sub-sub-block " :  {
+
+				"u0" : 1,
+
+				"lua chunksub-sub-sub-sub-block " :  {
+
+					"main chunk" : "chunk >
+
+					=== lua =============
+					local self = ...;
+					
+					if Character.HasItem(\"key_yellow\") then
+						Character.RemoveItem(\"key_yellow\");
+						Character.AddSceneFlag(self:identifier()); -- Remember that the door is open
+					
+						self:setHidden(true);
+						Program.Execute(Scene.Find(self:identifier() .. \"_door\"));
+					
+						SoundLibrary.PlayEffect(\"unlock\");
+					else
+						Game.ShowNotification(\"Requires \" .. Game.TitleForItem(\"key_yellow\"));
+					end
+
+					=====================",
+					"secondary chunk" : "\\x1bLuaQ\\x00\\x01\\x04\\x04\\x04\\x08\\x00\\x84\\x01\\x00\\x00local self = ...;\\r\\n\\r\\nif Character.HasItem(\"key_yellow\") then\\r\\n\\tCharacter.RemoveItem(\"key_yellow\");\\r\\n\\tCharacter.AddSceneFlag(self:identifier()); -- Remember that the door is open\\r\\n\\r\\n\\tself:setHidden(true);\\r\\n\\tProgram.Execute(Scene.Find(self:identifier() .. \"_door\"));\\r\\n\\r\\n\\tSoundLibrary.PlayEffect(\"unlock\");\\r\\nelse\\r\\n\\tGame.ShowNotification(\"Requires \" .. Game.TitleForItem(\"key_yellow\"));\\r\\nend\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x02\\x05,\\x00\\x00\\x00%\\x00\\x00\\x01E\\x00\\x00\\x00F@\\xc0\\x00\\x81\\x80\\x00\\x00\\\\\\x80\\x00\\x01Z\\x00\\x00\\x00\\x16\\x80\\x06\\x80E\\x00\\x00\\x00F\\xc0\\xc0\\x00\\x81\\x80\\x00\\x00\\\\@\\x00\\x01E\\x00\\x00\\x00F\\x00\\xc1\\x00\\x8b@A\\x00\\x9c\\x00\\x00\\x01\\\\@\\x00\\x00K\\x80A\\x00\\xc2\\x00\\x80\\x00\\\\@\\x80\\x01E\\xc0\\x01\\x00F\\x00\\xc2\\x00\\x85@\\x02\\x00\\x86\\x80B\\x01\\xcb@A\\x00\\xdc\\x80\\x00\\x01\\x01\\xc1\\x02\\x00\\xd5\\x00\\x81\\x01\\x9c\\x00\\x00\\x01\\\\@\\x00\\x00E\\x00\\x03\\x00F@\\xc3\\x00\\x81\\x80\\x03\\x00\\\\@\\x00\\x01\\x16\\x00\\x02\\x80E\\xc0\\x03\\x00F\\x00\\xc4\\x00\\x81@\\x04\\x00\\xc5\\xc0\\x03\\x00\\xc6\\x80\\xc4\\x01\\x01\\x81\\x00\\x00\\xdc\\x80\\x00\\x01\\x95\\xc0\\x00\\x01\\\\@\\x00\\x01\\x1e\\x00\\x80\\x00\\x13\\x00\\x00\\x00\\x04\\n\\x00\\x00\\x00Character\\x00\\x04\\x08\\x00\\x00\\x00HasItem\\x00\\x04\\x0b\\x00\\x00\\x00key_yellow\\x00\\x04\\x0b\\x00\\x00\\x00RemoveItem\\x00\\x04\\r\\x00\\x00\\x00AddSceneFlag\\x00\\x04\\x0b\\x00\\x00\\x00identifier\\x00\\x04\\n\\x00\\x00\\x00setHidden\\x00\\x04\\x08\\x00\\x00\\x00Program\\x00\\x04\\x08\\x00\\x00\\x00Execute\\x00\\x04\\x06\\x00\\x00\\x00Scene\\x00\\x04\\x05\\x00\\x00\\x00Find\\x00\\x04\\x06\\x00\\x00\\x00_door\\x00\\x04\\r\\x00\\x00\\x00SoundLibrary\\x00\\x04\\x0b\\x00\\x00\\x00PlayEffect\\x00\\x04\\x07\\x00\\x00\\x00unlock\\x00\\x04\\x05\\x00\\x00\\x00Game\\x00\\x04\\x11\\x00\\x00\\x00ShowNotification\\x00\\x04\\n\\x00\\x00\\x00Requires \\x00\\x04\\r\\x00\\x00\\x00TitleForItem\\x00\\x00\\x00\\x00\\x00,\\x00\\x00\\x00\\x01\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x07\\x00\\x00\\x00\\x07\\x00\\x00\\x00\\x07\\x00\\x00\\x00\\x08\\x00\\x00\\x00\\x08\\x00\\x00\\x00\\x08\\x00\\x00\\x00\\x08\\x00\\x00\\x00\\x08\\x00\\x00\\x00\\x08\\x00\\x00\\x00\\x08\\x00\\x00\\x00\\x08\\x00\\x00\\x00\\x08\\x00\\x00\\x00\\x08\\x00\\x00\\x00\\n\\x00\\x00\\x00\\n\\x00\\x00\\x00\\n\\x00\\x00\\x00\\n\\x00\\x00\\x00\\n\\x00\\x00\\x00\\x0c\\x00\\x00\\x00\\x0c\\x00\\x00\\x00\\x0c\\x00\\x00\\x00\\x0c\\x00\\x00\\x00\\x0c\\x00\\x00\\x00\\x0c\\x00\\x00\\x00\\x0c\\x00\\x00\\x00\\x0c\\x00\\x00\\x00\\x0c\\x00\\x00\\x00\\r\\x00\\x00\\x00\\x01\\x00\\x00\\x00\\x05\\x00\\x00\\x00self\\x00\\x01\\x00\\x00\\x00+\\x00\\x00\\x00\\x00\\x00\\x00\\x00",
+				},
+				"u1" : 1,
+				"u2" : 2,
+			},
+		},
+
+		"positionsub-sub-block " :  {
+
+			"x position" : 0.0,
+			"y position" : 0.0,
+		},
+		"z position" : 0.0,
+		"rotation" : 0.0,
+		"scale" : 1.0,
+
+		"u0sub-sub-block " :  {
+
+			"w" : -70.0,
+			"x" : -40.0,
+			"y" : 140.0,
+			"z" : 80.0,
+		},
+		"hidden" : 0,
+	},
+	"u0" : 1.0,
+},
+
+"?itemblock " :  {
+
+
+	"?sub-itemsub-block " :  {
+
+		"name" : "castle_lockdoor",
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "SoundEffect",
+			"number" : 1,
+
+			"sound effectsub-sub-sub-block " :  {
+
+				"sound" : "door_close",
+				"u0" : 0.0,
+				"u1" : 1.0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Model",
+			"number" : 101,
+
+			"3D modelsub-sub-sub-block " :  {
+
+				"name" : "castle_lockdoor",
+				"u0" : 4.71238899230957,
+				"u1" : 0.0,
+				"u2" : 0.0,
+
+				"u3sub-sub-sub-sub-block " :  {
+
+					"w" : 1.0,
+					"x" : 1.0,
+					"y" : 1.0,
+					"z" : 1.0,
+				},
+
+				"u4sub-sub-sub-sub-block " :  {
+
+					"x" : 0.0,
+					"y" : 0.0,
+					"z" : 0.0,
+				},
+				"u5" : 0,
+
+				"u6sub-sub-sub-sub-block " :  {
+
+					"w" : 1.0,
+					"x" : 1.0,
+					"y" : 1.0,
+					"z" : 1.0,
+				},
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "DoorController",
+			"number" : 103,
+
+			"door controllersub-sub-sub-block " :  {
+
+				"u0" : 104,
+				"u1" : 105,
+				"u2" : 0,
+				"u3" : 1,
+				"u4" : 0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "AnimationController",
+			"number" : 104,
+
+			"animation controllersub-sub-sub-block " :  {
+
+				"model component" : 101,
+				"u1" : 0,
+				"u2" : 0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "KeyframeAnimation",
+			"number" : 105,
+
+			"keyframe animationsub-sub-sub-block " :  {
+
+				"linked model component number" : 101,
+				"name" : "castle_lockdoor",
+				"u0" : 0,
+				"u1" : 0.20000000298023224,
+				"u2" : 1,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "CollisionShape",
+			"number" : 106,
+
+			"collision shapesub-sub-sub-block " :  {
+
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"w" : -15.0,
+					"x" : 0.0,
+					"y" : 25.0,
+					"z" : 246.53073120117188,
+				},
+			},
+
+			"collision shape 2sub-sub-sub-block " :  {
+
+				"u0" : 1,
+				"w" : -15.0,
+				"x" : 15.0,
+				"z" : 1,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Program",
+			"number" : 109,
+
+			"programsub-sub-sub-block " :  {
+
+				"u0" : 1,
+
+				"lua chunksub-sub-sub-sub-block " :  {
+
+					"main chunk" : "chunk >
+
+					=== lua =============
+					local self = ...;
+					
+					DoorController.Open(self);
+
+					=====================",
+					"secondary chunk" : "\\x1bLuaQ\\x00\\x01\\x04\\x04\\x04\\x08\\x000\\x00\\x00\\x00local self = ...;\\r\\n\\r\\nDoorController.Open(self);\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x02\\x03\\x06\\x00\\x00\\x00%\\x00\\x00\\x01E\\x00\\x00\\x00F@\\xc0\\x00\\x80\\x00\\x00\\x00\\\\@\\x00\\x01\\x1e\\x00\\x80\\x00\\x02\\x00\\x00\\x00\\x04\\x0f\\x00\\x00\\x00DoorController\\x00\\x04\\x05\\x00\\x00\\x00Open\\x00\\x00\\x00\\x00\\x00\\x06\\x00\\x00\\x00\\x01\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x01\\x00\\x00\\x00\\x05\\x00\\x00\\x00self\\x00\\x01\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x00\\x00\\x00\\x00",
+				},
+				"u1" : 1,
+				"u2" : 0,
+			},
+		},
+
+		"positionsub-sub-block " :  {
+
+			"x position" : 0.0,
+			"y position" : 0.0,
+		},
+		"z position" : 0.0,
+		"rotation" : 0.0,
+		"scale" : 1.0,
+
+		"u0sub-sub-block " :  {
+
+			"w" : -15.0,
+			"x" : 0.0,
+			"y" : 25.0,
+			"z" : 246.53073120117188,
+		},
+		"hidden" : 0,
+	},
+	"u0" : 1.0,
+},
+
+"?itemblock " :  {
+
+
+	"?sub-itemsub-block " :  {
+
+		"name" : "deadtree1",
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Model",
+			"number" : 101,
+
+			"3D modelsub-sub-sub-block " :  {
+
+				"name" : "deadtree1",
+				"u0" : 0.0,
+				"u1" : 0.0,
+				"u2" : 0.0,
+
+				"u3sub-sub-sub-sub-block " :  {
+
+					"w" : 0.0,
+					"x" : 0.0,
+					"y" : 0.0,
+					"z" : 1.0,
+				},
+
+				"u4sub-sub-sub-sub-block " :  {
+
+					"x" : 0.0,
+					"y" : 0.0,
+					"z" : 0.0,
+				},
+				"u5" : 0,
+
+				"u6sub-sub-sub-sub-block " :  {
+
+					"w" : 1.0,
+					"x" : 1.0,
+					"y" : 1.0,
+					"z" : 1.0,
+				},
+			},
+		},
+
+		"positionsub-sub-block " :  {
+
+			"x position" : 0.0,
+			"y position" : 0.0,
+		},
+		"z position" : 0.0,
+		"rotation" : 0.0,
+		"scale" : 1.0,
+
+		"u0sub-sub-block " :  {
+
+			"w" : 0.0,
+			"x" : 0.0,
+			"y" : 0.0,
+			"z" : 0.0,
+		},
+		"hidden" : 0,
+	},
+	"u0" : 1.0,
+},
+
+"?itemblock " :  {
+
+
+	"?sub-itemsub-block " :  {
+
+		"name" : "pole1",
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Model",
+			"number" : 101,
+
+			"3D modelsub-sub-sub-block " :  {
+
+				"name" : "pole1",
+				"u0" : 0.0,
+				"u1" : 0.0,
+				"u2" : 0.0,
+
+				"u3sub-sub-sub-sub-block " :  {
+
+					"w" : 0.0,
+					"x" : 0.0,
+					"y" : 0.0,
+					"z" : 1.0,
+				},
+
+				"u4sub-sub-sub-sub-block " :  {
+
+					"x" : 0.0,
+					"y" : 0.0,
+					"z" : 0.0,
+				},
+				"u5" : 0,
+
+				"u6sub-sub-sub-sub-block " :  {
+
+					"w" : 1.0,
+					"x" : 1.0,
+					"y" : 1.0,
+					"z" : 1.0,
+				},
+			},
+		},
+
+		"positionsub-sub-block " :  {
+
+			"x position" : 0.0,
+			"y position" : 0.0,
+		},
+		"z position" : 0.0,
+		"rotation" : 0.0,
+		"scale" : 1.0,
+
+		"u0sub-sub-block " :  {
+
+			"w" : 0.0,
+			"x" : 0.0,
+			"y" : 0.0,
+			"z" : 0.0,
+		},
+		"hidden" : 0,
+	},
+	"u0" : 1.0,
+},
+
+"?itemblock " :  {
+
+
+	"?sub-itemsub-block " :  {
+
+		"name" : "pole2",
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Model",
+			"number" : 101,
+
+			"3D modelsub-sub-sub-block " :  {
+
+				"name" : "pole2",
+				"u0" : 0.0,
+				"u1" : 0.0,
+				"u2" : 0.0,
+
+				"u3sub-sub-sub-sub-block " :  {
+
+					"w" : 0.0,
+					"x" : 0.0,
+					"y" : 0.0,
+					"z" : 1.0,
+				},
+
+				"u4sub-sub-sub-sub-block " :  {
+
+					"x" : 0.0,
+					"y" : 0.0,
+					"z" : 0.0,
+				},
+				"u5" : 0,
+
+				"u6sub-sub-sub-sub-block " :  {
+
+					"w" : 1.0,
+					"x" : 1.0,
+					"y" : 1.0,
+					"z" : 1.0,
+				},
+			},
+		},
+
+		"positionsub-sub-block " :  {
+
+			"x position" : 0.0,
+			"y position" : 0.0,
+		},
+		"z position" : 0.0,
+		"rotation" : 0.0,
+		"scale" : 1.0,
+
+		"u0sub-sub-block " :  {
+
+			"w" : 0.0,
+			"x" : 0.0,
+			"y" : 0.0,
+			"z" : 0.0,
+		},
+		"hidden" : 0,
+	},
+	"u0" : 1.0,
+},
+
+"?itemblock " :  {
+
+
+	"?sub-itemsub-block " :  {
+
+		"name" : "polewall",
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "CollisionShape",
+			"number" : 1,
+			"? linked component" : 103,
+
+			"collision shapesub-sub-sub-block " :  {
+
+
+				"u2sub-sub-sub-sub-block " :  {
+
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"y" : 8.294042587280273,
+						"z" : -19.394180297851562,
+					},
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"y" : 9.372367858886719,
+						"z" : 127.60641479492188,
+					},
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"y" : 1.3621290922164917,
+						"z" : 171.5775146484375,
+					},
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"y" : -12.046072006225586,
+						"z" : 121.38899993896484,
+					},
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"y" : -8.837845802307129,
+						"z" : 16.852190017700195,
+					},
+					"u3" : 0,
+					"u4" : 1,
+				},
+			},
+
+			"collision shape 2sub-sub-sub-block " :  {
+
+				"u0" : 1,
+				"w" : -50.0,
+				"x" : 50.0,
+				"z" : 1,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Model",
+			"number" : 101,
+
+			"3D modelsub-sub-sub-block " :  {
+
+				"name" : "polewall",
+				"u0" : 1.5707963705062866,
+				"u1" : 1.0,
+				"u2" : 0.0,
+
+				"u3sub-sub-sub-sub-block " :  {
+
+					"w" : 0.0,
+					"x" : 0.0,
+					"y" : 0.0,
+					"z" : 1.0,
+				},
+
+				"u4sub-sub-sub-sub-block " :  {
+
+					"x" : 0.0,
+					"y" : 0.0,
+					"z" : 0.0,
+				},
+				"u5" : 0,
+
+				"u6sub-sub-sub-sub-block " :  {
+
+					"w" : 1.0,
+					"x" : 1.0,
+					"y" : 1.0,
+					"z" : 1.0,
+				},
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "GroundPolygon",
+			"number" : 103,
+
+			"ground polygonsub-sub-sub-block " :  {
+
+
+				"sub-sub-sub-sub-block " :  {
+
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"x" : 8.294042587280273,
+						"y" : -19.394180297851562,
+					},
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"x" : 9.372367858886719,
+						"y" : 127.60641479492188,
+					},
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"x" : 1.3621290922164917,
+						"y" : 171.5775146484375,
+					},
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"x" : -12.046072006225586,
+						"y" : 121.38899993896484,
+					},
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"x" : -8.837845802307129,
+						"y" : 16.852190017700195,
+					},
+					"u0" : 0,
+					"u1" : 1,
+				},
+				"u1" : 1,
+				"u2" : -50.0,
+				"u3" : 50.0,
+				"u4" : "",
+			},
+		},
+
+		"positionsub-sub-block " :  {
+
+			"x position" : 0.0,
+			"y position" : 0.0,
+		},
+		"z position" : 0.0,
+		"rotation" : 0.0,
+		"scale" : 1.0,
+
+		"u0sub-sub-block " :  {
+
+			"w" : -12.046072006225586,
+			"x" : -19.394180297851562,
+			"y" : 21.418439865112305,
+			"z" : 190.97169494628906,
+		},
+		"hidden" : 0,
+	},
+	"u0" : 1.0,
+},
+
+"?itemblock " :  {
+
+
+	"?sub-itemsub-block " :  {
+
+		"name" : "woodendoor",
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "BreakableObject",
+			"number" : 1,
+
+			"breakable objectsub-sub-sub-block " :  {
+
+				"u0" : 0,
+				"u1" : 15,
+				"u2" : 0,
+				"u3" : "",
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Model",
+			"number" : 101,
+
+			"3D modelsub-sub-sub-block " :  {
+
+				"name" : "woodendoor",
+				"u0" : 4.71238899230957,
+				"u1" : 1.0,
+				"u2" : 0.0,
+
+				"u3sub-sub-sub-sub-block " :  {
+
+					"w" : 0.43921568989753723,
+					"x" : 0.1921568661928177,
+					"y" : 0.0784313753247261,
+					"z" : 1.0,
+				},
+
+				"u4sub-sub-sub-sub-block " :  {
+
+					"x" : 0.0,
+					"y" : 0.0,
+					"z" : 0.0,
+				},
+				"u5" : 0,
+
+				"u6sub-sub-sub-sub-block " :  {
+
+					"w" : 1.0,
+					"x" : 1.0,
+					"y" : 1.0,
+					"z" : 1.0,
+				},
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "CollisionShape",
+			"number" : 103,
+
+			"collision shapesub-sub-sub-block " :  {
+
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"w" : -25.0,
+					"x" : 0.0,
+					"y" : 50.0,
+					"z" : 170.0,
+				},
+			},
+
+			"collision shape 2sub-sub-sub-block " :  {
+
+				"u0" : 1,
+				"u2" : 1,
+				"w" : -15.0,
+				"x" : 15.0,
+				"z" : 1,
+			},
+		},
+
+		"positionsub-sub-block " :  {
+
+			"x position" : 0.0,
+			"y position" : 0.0,
+		},
+		"z position" : 0.0,
+		"rotation" : 0.0,
+		"scale" : 1.0,
+
+		"u0sub-sub-block " :  {
+
+			"w" : -25.0,
+			"x" : 0.0,
+			"y" : 50.0,
+			"z" : 170.0,
+		},
+		"hidden" : 0,
+	},
+	"u0" : 1.0,
+},
+
+"?itemblock " :  {
+
+
+	"?sub-itemsub-block " :  {
+
+		"name" : "woodendoor_frame",
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Model",
+			"number" : 101,
+
+			"3D modelsub-sub-sub-block " :  {
+
+				"name" : "woodendoor_frame",
+				"u0" : 1.5707963705062866,
+				"u1" : 0.0,
+				"u2" : 0.0,
+
+				"u3sub-sub-sub-sub-block " :  {
+
+					"w" : 1.0,
+					"x" : 1.0,
+					"y" : 1.0,
+					"z" : 1.0,
+				},
+
+				"u4sub-sub-sub-sub-block " :  {
+
+					"x" : 0.0,
+					"y" : 0.0,
+					"z" : 0.0,
+				},
+				"u5" : 0,
+
+				"u6sub-sub-sub-sub-block " :  {
+
+					"w" : 1.0,
+					"x" : 1.0,
+					"y" : 1.0,
+					"z" : 1.0,
+				},
+			},
+		},
+
+		"positionsub-sub-block " :  {
+
+			"x position" : 0.0,
+			"y position" : 0.0,
+		},
+		"z position" : 0.0,
+		"rotation" : 0.0,
+		"scale" : 1.0,
+
+		"u0sub-sub-block " :  {
+
+			"w" : 0.0,
+			"x" : 0.0,
+			"y" : 0.0,
+			"z" : 0.0,
+		},
+		"hidden" : 0,
+	},
+	"u0" : 1.0,
+},
+
+}

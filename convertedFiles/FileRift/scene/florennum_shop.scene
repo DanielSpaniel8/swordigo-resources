@@ -1,0 +1,3179 @@
+
+object block { (0a @ 1)
+
+    name : Template 1 (0a @ 3)
+    identifier : Background (12 @ f)
+
+    component sub-block { (1a @ 1b)
+
+        component type : Background (0a @ 1d)
+        number : 101(10 @ 29)
+
+        file sub-sub-block { (642 @ 2c)
+
+            filename : blackbg (0a @ 2e)
+		}
+	}
+
+    position sub-block { (22 @ 37)
+
+        x position : -764.890380859375 (0d @ 39)
+        y position : 1126.6429443359375 (15 @ 3e)
+	}
+    z position : 1.7203826904296875 (2d @ 43)
+    rotation : 0.0 (35 @ 48)
+    scale : 1.0 (3d @ 4d)
+
+    u2 sub-block { (42 @ 52)
+
+        w : -30.0 (0d @ 54)
+        x : -30.0 (15 @ 59)
+        y : 60.0 (1d @ 5e)
+        z : 60.0 (25 @ 63)
+	}
+    hidden : 0(48 @ 68)
+}
+
+object block { (0a @ 6a)
+
+    name : Template 1 (0a @ 6d)
+    identifier : DirectionalLight (12 @ 79)
+
+    component sub-block { (1a @ 8b)
+
+        component type : Light (0a @ 8d)
+        number : 101(10 @ 94)
+
+        light sub-sub-block { (412 @ 97)
+
+            u0 : 2(08 @ 99)
+            u1 : 2.0 (15 @ 9b)
+
+            u2 sub-sub-sub-block { (1a @ a0)
+
+                w : 1.0 (0d @ a2)
+                x : 1.0 (15 @ a7)
+                y : 1.0 (1d @ ac)
+                z : 1.0 (25 @ b1)
+			}
+		}
+	}
+
+    component sub-block { (1a @ b6)
+
+        component type : Light (0a @ b8)
+        number : 103(10 @ bf)
+
+        light sub-sub-block { (412 @ c2)
+
+            u0 : 1(08 @ c4)
+            u1 : 0.30000001192092896 (15 @ c6)
+
+            u2 sub-sub-sub-block { (1a @ cb)
+
+                w : 1.0 (0d @ cd)
+                x : 0.699999988079071 (15 @ d2)
+                y : 0.699999988079071 (1d @ d7)
+                z : 1.0 (25 @ dc)
+			}
+		}
+	}
+
+    component sub-block { (1a @ e1)
+
+        component type : Light (0a @ e3)
+        number : 105(10 @ ea)
+
+        light sub-sub-block { (412 @ ed)
+
+            u0 : 4(08 @ ef)
+            u1 : 0.699999988079071 (15 @ f1)
+
+            u2 sub-sub-sub-block { (1a @ f6)
+
+                w : 0.0 (0d @ f8)
+                x : 0.0 (15 @ fd)
+                y : 0.0 (1d @ 102)
+                z : 1.0 (25 @ 107)
+			}
+		}
+	}
+
+    position sub-block { (22 @ 10c)
+
+        x position : 333.21319580078125 (0d @ 10e)
+        y position : 472.45867919921875 (15 @ 113)
+	}
+    z position : 674.1119384765625 (2d @ 118)
+    rotation : 0.0 (35 @ 11d)
+    scale : 1.0 (3d @ 122)
+
+    u2 sub-block { (42 @ 127)
+
+        w : -30.0 (0d @ 129)
+        x : -30.0 (15 @ 12e)
+        y : 60.0 (1d @ 133)
+        z : 60.0 (25 @ 138)
+	}
+    hidden : 0(48 @ 13d)
+}
+
+object block { (0a @ 13f)
+
+    name : iapstoremodel (0a @ 141)
+    identifier : iapstoremodel (12 @ 150)
+
+    position sub-block { (22 @ 15f)
+
+        x position : 734.7191772460938 (0d @ 161)
+        y position : 211.74551391601562 (15 @ 166)
+	}
+    z position : -70.0 (2d @ 16b)
+    rotation : 0.0 (35 @ 170)
+    scale : 1.0 (3d @ 175)
+
+    u2 sub-block { (42 @ 17a)
+
+        w : -30.0 (0d @ 17c)
+        x : -30.0 (15 @ 181)
+        y : 60.0 (1d @ 186)
+        z : 60.0 (25 @ 18b)
+	}
+    hidden : 0(48 @ 190)
+}
+
+object block { (0a @ 192)
+
+    name : iapstoretrigger (0a @ 194)
+    identifier : iapstoretrigger1 (12 @ 1a5)
+
+    position sub-block { (22 @ 1b7)
+
+        x position : 734.9124145507812 (0d @ 1b9)
+        y position : 161.8505401611328 (15 @ 1be)
+	}
+    z position : -35.0 (2d @ 1c3)
+    rotation : 0.0 (35 @ 1c8)
+    scale : 1.0 (3d @ 1cd)
+
+    u2 sub-block { (42 @ 1d2)
+
+        w : -41.5 (0d @ 1d4)
+        x : -43.0 (15 @ 1d9)
+        y : 83.0 (1d @ 1de)
+        z : 133.0 (25 @ 1e3)
+	}
+    hidden : 0(48 @ 1e8)
+}
+
+object block { (0a @ 1ea)
+
+    name : shop_item (0a @ 1ed)
+    identifier : item1 (12 @ 1f8)
+
+    component sub-block { (1a @ 1ff)
+
+        component type : Program (0a @ 202)
+        number : 1(10 @ 20b)
+
+        program sub-sub-block { (4ea @ 20e)
+
+            u0 : 1(08 @ 211)
+
+            lua chunk sub-sub-sub-block { (12 @ 213)
+
+                main chunk : chunk >
+
+                === lua =============
+                local self = ...;
+                
+                CreateShopItem(self, "healingpotion", 50);
+
+                =====================
+                secondary chunk : \x1bLuaQ\x00\x01\x04\x04\x04\x08\x00@\x00\x00\x00local self = ...;\r\n\r\nCreateShopItem(self, "healingpotion", 50);\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x02\x05\x07\x00\x00\x00%\x00\x00\x01E\x00\x00\x00\x80\x00\x00\x00\xc1@\x00\x00\x01\x81\x00\x00\\@\x00\x02\x1e\x00\x80\x00\x03\x00\x00\x00\x04\x0f\x00\x00\x00CreateShopItem\x00\x04\x0e\x00\x00\x00healingpotion\x00\x03\x00\x00\x00\x00\x00\x00I@\x00\x00\x00\x00\x07\x00\x00\x00\x01\x00\x00\x00\x03\x00\x00\x00\x03\x00\x00\x00\x03\x00\x00\x00\x03\x00\x00\x00\x03\x00\x00\x00\x03\x00\x00\x00\x01\x00\x00\x00\x05\x00\x00\x00self\x00\x01\x00\x00\x00\x06\x00\x00\x00\x00\x00\x00\x00 (12 @ 257)
+			}
+            u1 : 1(18 @ 347)
+            u2 : 10(20 @ 349)
+		}
+	}
+
+    position sub-block { (22 @ 34b)
+
+        x position : -65.331787109375 (0d @ 34d)
+        y position : 182.58050537109375 (15 @ 352)
+	}
+    z position : -70.40111541748047 (2d @ 357)
+    rotation : 0.0 (35 @ 35c)
+    scale : 1.0 (3d @ 361)
+
+    u2 sub-block { (42 @ 366)
+
+        w : -40.0 (0d @ 368)
+        x : -80.0 (15 @ 36d)
+        y : 80.0 (1d @ 372)
+        z : 93.73445129394531 (25 @ 377)
+	}
+    hidden : 0(48 @ 37c)
+}
+
+object block { (0a @ 37e)
+
+    name : shop_item (0a @ 381)
+    identifier : item2 (12 @ 38c)
+
+    component sub-block { (1a @ 393)
+
+        component type : Program (0a @ 396)
+        number : 1(10 @ 39f)
+
+        program sub-sub-block { (4ea @ 3a2)
+
+            u0 : 1(08 @ 3a5)
+
+            lua chunk sub-sub-sub-block { (12 @ 3a7)
+
+                main chunk : chunk >
+
+                === lua =============
+                local self = ...;
+                
+                if CreateShopItem(self, "platearmor", 300, "platearmor1") then
+                else
+                	CreateShopItem(self, "healingpotion", 50);
+                end
+
+                =====================
+                secondary chunk : \x1bLuaQ\x00\x01\x04\x04\x04\x08\x00\x8c\x00\x00\x00local self = ...;\r\n\r\nif CreateShopItem(self, "platearmor", 300, "platearmor1") then\r\nelse\r\n\tCreateShopItem(self, "healingpotion", 50);\r\nend\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x02\x06\x10\x00\x00\x00%\x00\x00\x01E\x00\x00\x00\x80\x00\x00\x00\xc1@\x00\x00\x01\x81\x00\x00A\xc1\x00\x00\\\x80\x80\x02Z\x00\x00\x00\x16\x00\x00\x80\x16\x00\x01\x80E\x00\x00\x00\x80\x00\x00\x00\xc1\x00\x01\x00\x01A\x01\x00\\@\x00\x02\x1e\x00\x80\x00\x06\x00\x00\x00\x04\x0f\x00\x00\x00CreateShopItem\x00\x04\x0b\x00\x00\x00platearmor\x00\x03\x00\x00\x00\x00\x00\xc0r@\x04\x0c\x00\x00\x00platearmor1\x00\x04\x0e\x00\x00\x00healingpotion\x00\x03\x00\x00\x00\x00\x00\x00I@\x00\x00\x00\x00\x10\x00\x00\x00\x01\x00\x00\x00\x03\x00\x00\x00\x03\x00\x00\x00\x03\x00\x00\x00\x03\x00\x00\x00\x03\x00\x00\x00\x03\x00\x00\x00\x03\x00\x00\x00\x03\x00\x00\x00\x03\x00\x00\x00\x05\x00\x00\x00\x05\x00\x00\x00\x05\x00\x00\x00\x05\x00\x00\x00\x05\x00\x00\x00\x06\x00\x00\x00\x01\x00\x00\x00\x05\x00\x00\x00self\x00\x01\x00\x00\x00\x0f\x00\x00\x00\x00\x00\x00\x00 (12 @ 438)
+			}
+            u1 : 1(18 @ 5e6)
+            u2 : 10(20 @ 5e8)
+		}
+	}
+
+    position sub-block { (22 @ 5ea)
+
+        x position : 129.77175903320312 (0d @ 5ec)
+        y position : 182.58050537109375 (15 @ 5f1)
+	}
+    z position : -70.40111541748047 (2d @ 5f6)
+    rotation : 0.0 (35 @ 5fb)
+    scale : 1.0 (3d @ 600)
+
+    u2 sub-block { (42 @ 605)
+
+        w : -40.0 (0d @ 607)
+        x : -80.0 (15 @ 60c)
+        y : 80.0 (1d @ 611)
+        z : 93.73445129394531 (25 @ 616)
+	}
+    hidden : 0(48 @ 61b)
+}
+
+object block { (0a @ 61d)
+
+    name : shop_item (0a @ 620)
+    identifier : item3 (12 @ 62b)
+
+    component sub-block { (1a @ 632)
+
+        component type : Program (0a @ 635)
+        number : 1(10 @ 63e)
+
+        program sub-sub-block { (4ea @ 641)
+
+            u0 : 1(08 @ 644)
+
+            lua chunk sub-sub-sub-block { (12 @ 646)
+
+                main chunk : chunk >
+
+                === lua =============
+                local self = ...;
+                
+                if CreateShopItem(self, "broadsword", 200, "broadsword1") then
+                else
+                	CreateShopItem(self, "healingpotion", 50);
+                end
+
+                =====================
+                secondary chunk : \x1bLuaQ\x00\x01\x04\x04\x04\x08\x00\x8c\x00\x00\x00local self = ...;\r\n\r\nif CreateShopItem(self, "broadsword", 200, "broadsword1") then\r\nelse\r\n\tCreateShopItem(self, "healingpotion", 50);\r\nend\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x02\x06\x10\x00\x00\x00%\x00\x00\x01E\x00\x00\x00\x80\x00\x00\x00\xc1@\x00\x00\x01\x81\x00\x00A\xc1\x00\x00\\\x80\x80\x02Z\x00\x00\x00\x16\x00\x00\x80\x16\x00\x01\x80E\x00\x00\x00\x80\x00\x00\x00\xc1\x00\x01\x00\x01A\x01\x00\\@\x00\x02\x1e\x00\x80\x00\x06\x00\x00\x00\x04\x0f\x00\x00\x00CreateShopItem\x00\x04\x0b\x00\x00\x00broadsword\x00\x03\x00\x00\x00\x00\x00\x00i@\x04\x0c\x00\x00\x00broadsword1\x00\x04\x0e\x00\x00\x00healingpotion\x00\x03\x00\x00\x00\x00\x00\x00I@\x00\x00\x00\x00\x10\x00\x00\x00\x01\x00\x00\x00\x03\x00\x00\x00\x03\x00\x00\x00\x03\x00\x00\x00\x03\x00\x00\x00\x03\x00\x00\x00\x03\x00\x00\x00\x03\x00\x00\x00\x03\x00\x00\x00\x03\x00\x00\x00\x05\x00\x00\x00\x05\x00\x00\x00\x05\x00\x00\x00\x05\x00\x00\x00\x05\x00\x00\x00\x06\x00\x00\x00\x01\x00\x00\x00\x05\x00\x00\x00self\x00\x01\x00\x00\x00\x0f\x00\x00\x00\x00\x00\x00\x00 (12 @ 6d7)
+			}
+            u1 : 1(18 @ 885)
+            u2 : 10(20 @ 887)
+		}
+	}
+
+    position sub-block { (22 @ 889)
+
+        x position : 319.5544128417969 (0d @ 88b)
+        y position : 182.58050537109375 (15 @ 890)
+	}
+    z position : -70.40111541748047 (2d @ 895)
+    rotation : 0.0 (35 @ 89a)
+    scale : 1.0 (3d @ 89f)
+
+    u2 sub-block { (42 @ 8a4)
+
+        w : -40.0 (0d @ 8a6)
+        x : -80.0 (15 @ 8ab)
+        y : 80.0 (1d @ 8b0)
+        z : 93.73445129394531 (25 @ 8b5)
+	}
+    hidden : 0(48 @ 8ba)
+}
+
+object block { (0a @ 8bc)
+
+    name : shop_item (0a @ 8bf)
+    identifier : item3#2 (12 @ 8ca)
+
+    component sub-block { (1a @ 8d3)
+
+        component type : Program (0a @ 8d6)
+        number : 1(10 @ 8df)
+
+        program sub-sub-block { (4ea @ 8e2)
+
+            u0 : 1(08 @ 8e5)
+
+            lua chunk sub-sub-sub-block { (12 @ 8e7)
+
+                main chunk : chunk >
+
+                === lua =============
+                local self = ...;
+                
+                if CreateShopItem(self, "firetrinket", 150, "firetrinket1") then
+                else
+                	CreateShopItem(self, "healingpotion", 50);
+                end
+
+                =====================
+                secondary chunk : \x1bLuaQ\x00\x01\x04\x04\x04\x08\x00\x8e\x00\x00\x00local self = ...;\r\n\r\nif CreateShopItem(self, "firetrinket", 150, "firetrinket1") then\r\nelse\r\n\tCreateShopItem(self, "healingpotion", 50);\r\nend\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x02\x06\x10\x00\x00\x00%\x00\x00\x01E\x00\x00\x00\x80\x00\x00\x00\xc1@\x00\x00\x01\x81\x00\x00A\xc1\x00\x00\\\x80\x80\x02Z\x00\x00\x00\x16\x00\x00\x80\x16\x00\x01\x80E\x00\x00\x00\x80\x00\x00\x00\xc1\x00\x01\x00\x01A\x01\x00\\@\x00\x02\x1e\x00\x80\x00\x06\x00\x00\x00\x04\x0f\x00\x00\x00CreateShopItem\x00\x04\x0c\x00\x00\x00firetrinket\x00\x03\x00\x00\x00\x00\x00\xc0b@\x04\r\x00\x00\x00firetrinket1\x00\x04\x0e\x00\x00\x00healingpotion\x00\x03\x00\x00\x00\x00\x00\x00I@\x00\x00\x00\x00\x10\x00\x00\x00\x01\x00\x00\x00\x03\x00\x00\x00\x03\x00\x00\x00\x03\x00\x00\x00\x03\x00\x00\x00\x03\x00\x00\x00\x03\x00\x00\x00\x03\x00\x00\x00\x03\x00\x00\x00\x03\x00\x00\x00\x05\x00\x00\x00\x05\x00\x00\x00\x05\x00\x00\x00\x05\x00\x00\x00\x05\x00\x00\x00\x06\x00\x00\x00\x01\x00\x00\x00\x05\x00\x00\x00self\x00\x01\x00\x00\x00\x0f\x00\x00\x00\x00\x00\x00\x00 (12 @ 97a)
+			}
+            u1 : 1(18 @ b2c)
+            u2 : 10(20 @ b2e)
+		}
+	}
+
+    position sub-block { (22 @ b30)
+
+        x position : 505.1642150878906 (0d @ b32)
+        y position : 182.58050537109375 (15 @ b37)
+	}
+    z position : -70.40111541748047 (2d @ b3c)
+    rotation : 0.0 (35 @ b41)
+    scale : 1.0 (3d @ b46)
+
+    u2 sub-block { (42 @ b4b)
+
+        w : -40.0 (0d @ b4d)
+        x : -80.0 (15 @ b52)
+        y : 80.0 (1d @ b57)
+        z : 93.73445129394531 (25 @ b5c)
+	}
+    hidden : 0(48 @ b61)
+}
+
+object block { (0a @ b63)
+
+    identifier : itemcheck (12 @ b66)
+
+    component sub-block { (1a @ b71)
+
+        component type : CollisionShape (0a @ b74)
+        number : 101(10 @ b84)
+
+        collision shape sub-sub-block { (3c2 @ b87)
+
+
+            u0 sub-sub-sub-block { (0a @ b89)
+
+                w : -30.0 (0d @ b8b)
+                x : -50.0 (15 @ b90)
+                y : 60.0 (1d @ b95)
+                z : 150.0 (25 @ b9a)
+			}
+		}
+
+        collision shape 2 sub-sub-block { (3ca @ ba0)
+
+            w : -15.0 (35 @ ba3)
+            x : 15.0 (3d @ ba8)
+
+            lua chunk sub-sub-sub-block { (4a @ bad)
+
+                main chunk : chunk >
+
+                === lua =============
+                local self, target = ...;
+                
+                if target:identifier() == "hero" and boughtItemPrices ~= nil then
+                
+                	Program.Print("Checking bought items");
+                
+                	local uncollectedPrice = 0;
+                
+                	for identifier, price in pairs(boughtItemPrices) do
+                
+                		Program.Print("Checking " .. identifier .. " with price " .. price);
+                
+                		local itemObject = Scene.Find(identifier);
+                
+                		if itemObject ~= nil then
+                			-- Item not collected
+                
+                			uncollectedPrice = uncollectedPrice + price;
+                			itemObject:destroy();
+                
+                			Program.Print(identifier .. " not collected");
+                		else
+                			Program.Print(identifier .. " collected");
+                		end
+                	end
+                
+                	boughtItemPrices = nil;
+                
+                	if uncollectedPrice > 0 then
+                
+                		Game.SetCinematicMode(true, true);
+                
+                		Program.Wait(0.5);
+                
+                		local shopkeeper = Scene.Find("shopkeeper");
+                
+                		local text = "Didn\'t like the items? Here, have your Soul Shards back.";
+                		local bubble = ShowTextBubbles(shopkeeper:identifier() .. "_bubble", 
+                			shopkeeper:position() + Vector3.New(13, 27, 0), true, { text });
+                
+                		HideTextBubble(bubble:identifier());
+                
+                		Character.SetNumCoins(Character.NumCoins() + uncollectedPrice);
+                
+                		Game.SetCinematicMode(false, true);
+                	end
+                end
+                
+
+                =====================
+                secondary chunk : \x1bLuaQ\x00\x01\x04\x04\x04\x08\x00\x8c\x04\x00\x00local self, target = ...;\r\n\r\nif target:identifier() == "hero" and boughtItemPrices ~= nil then\r\n\r\n\tProgram.Print("Checking bought items");\r\n\r\n\tlocal uncollectedPrice = 0;\r\n\r\n\tfor identifier, price in pairs(boughtItemPrices) do\r\n\r\n\t\tProgram.Print("Checking " .. identifier .. " with price " .. price);\r\n\r\n\t\tlocal itemObject = Scene.Find(identifier);\r\n\r\n\t\tif itemObject ~= nil then\r\n\t\t\t-- Item not collected\r\n\r\n\t\t\tuncollectedPrice = uncollectedPrice + price;\r\n\t\t\titemObject:destroy();\r\n\r\n\t\t\tProgram.Print(identifier .. " not collected");\r\n\t\telse\r\n\t\t\tProgram.Print(identifier .. " collected");\r\n\t\tend\r\n\tend\r\n\r\n\tboughtItemPrices = nil;\r\n\r\n\tif uncollectedPrice > 0 then\r\n\r\n\t\tGame.SetCinematicMode(true, true);\r\n\r\n\t\tProgram.Wait(0.5);\r\n\r\n\t\tlocal shopkeeper = Scene.Find("shopkeeper");\r\n\r\n\t\tlocal text = "Didn\'t like the items? Here, have your Soul Shards back.";\r\n\t\tlocal bubble = ShowTextBubbles(shopkeeper:identifier() .. "_bubble", \r\n\t\t\tshopkeeper:position() + Vector3.New(13, 27, 0), true, { text });\r\n\r\n\t\tHideTextBubble(bubble:identifier());\r\n\r\n\t\tCharacter.SetNumCoins(Character.NumCoins() + uncollectedPrice);\r\n\r\n\t\tGame.SetCinematicMode(false, true);\r\n\tend\r\nend\r\n\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x02\rg\x00\x00\x00%\x00\x80\x01\x8b\x00\xc0\x00\x9c\x80\x00\x01\x17@@\x01\x16\x00\x18\x80\x85\x80\x00\x00W\xc0@\x01\x16@\x17\x80\x85\x00\x01\x00\x86@A\x01\xc1\x80\x01\x00\x9c@\x00\x01\x81\xc0\x01\x00\xc5\x00\x02\x00\x05\x81\x00\x00\xdc\x00\x01\x01\x16@\x07\x80\x05\x02\x01\x00\x06BA\x04AB\x02\x00\x80\x02\x00\x03\xc1\x82\x02\x00\x00\x03\x80\x03U\x02\x83\x04\x1cB\x00\x01\x05\xc2\x02\x00\x06\x02C\x04@\x02\x00\x03\x1c\x82\x00\x01W\xc0@\x04\x16@\x02\x80\x8c\xc0\x01\x01KBC\x04\\B\x00\x01E\x02\x01\x00FB\xc1\x04\x80\x02\x00\x03\xc1\x82\x03\x00\x95\xc2\x02\x05\\B\x00\x01\x16@\x01\x80E\x02\x01\x00FB\xc1\x04\x80\x02\x00\x03\xc1\xc2\x03\x00\x95\xc2\x02\x05\\B\x00\x01\xe1\x80\x00\x00\x16\xc0\xf7\x7f\xc3\x00\x80\x01\xc7\x80\x00\x00\x18\x80\x80\x83\x16\x00\x0c\x80\xc5\x00\x04\x00\xc6@\xc4\x01\x02\x01\x80\x00B\x01\x80\x00\xdc@\x80\x01\xc5\x00\x01\x00\xc6\x80\xc4\x01\x01\xc1\x04\x00\xdc@\x00\x01\xc5\xc0\x02\x00\xc6\x00\xc3\x01\x01\x01\x05\x00\xdc\x80\x00\x01\x01A\x05\x00E\x81\x05\x00\x8b\x01\xc0\x01\x9c\x81\x00\x01\xc1\xc1\x05\x00\x95\xc1\x01\x03\xcb\x01\xc6\x01\xdc\x81\x00\x01\x05B\x06\x00\x06\x82F\x04A\xc2\x06\x00\x81\x02\x07\x00\xc1\xc2\x01\x00\x1c\x82\x00\x02\xcc\x01\x82\x03\x02\x02\x80\x00J\x02\x80\x00\x80\x02\x00\x02bB\x80\x00\\\x81\x80\x02\x85A\x07\x00\xcb\x01\xc0\x02\xdc\x01\x00\x01\x9cA\x00\x00\x85\x81\x07\x00\x86\xc1G\x03\xc5\x81\x07\x00\xc6\x01\xc8\x03\xdc\x81\x80\x00\xcc\x81\x80\x03\x9cA\x00\x01\x85\x01\x04\x00\x86AD\x03\xc2\x01\x00\x00\x02\x02\x80\x00\x9cA\x80\x01\x1e\x00\x80\x00!\x00\x00\x00\x04\x0b\x00\x00\x00identifier\x00\x04\x05\x00\x00\x00hero\x00\x04\x11\x00\x00\x00boughtItemPrices\x00\x00\x04\x08\x00\x00\x00Program\x00\x04\x06\x00\x00\x00Print\x00\x04\x16\x00\x00\x00Checking bought items\x00\x03\x00\x00\x00\x00\x00\x00\x00\x00\x04\x06\x00\x00\x00pairs\x00\x04\n\x00\x00\x00Checking \x00\x04\r\x00\x00\x00 with price \x00\x04\x06\x00\x00\x00Scene\x00\x04\x05\x00\x00\x00Find\x00\x04\x08\x00\x00\x00destroy\x00\x04\x0f\x00\x00\x00 not collected\x00\x04\x0b\x00\x00\x00 collected\x00\x04\x05\x00\x00\x00Game\x00\x04\x11\x00\x00\x00SetCinematicMode\x00\x04\x05\x00\x00\x00Wait\x00\x03\x00\x00\x00\x00\x00\x00\xe0?\x04\x0b\x00\x00\x00shopkeeper\x00\x049\x00\x00\x00Didn\'t like the items? Here, have your Soul Shards back.\x00\x04\x10\x00\x00\x00ShowTextBubbles\x00\x04\x08\x00\x00\x00_bubble\x00\x04\t\x00\x00\x00position\x00\x04\x08\x00\x00\x00Vector3\x00\x04\x04\x00\x00\x00New\x00\x03\x00\x00\x00\x00\x00\x00*@\x03\x00\x00\x00\x00\x00\x00;@\x04\x0f\x00\x00\x00HideTextBubble\x00\x04\n\x00\x00\x00Character\x00\x04\x0c\x00\x00\x00SetNumCoins\x00\x04\t\x00\x00\x00NumCoins\x00\x00\x00\x00\x00g\x00\x00\x00\x01\x00\x00\x00\x03\x00\x00\x00\x03\x00\x00\x00\x03\x00\x00\x00\x03\x00\x00\x00\x03\x00\x00\x00\x03\x00\x00\x00\x03\x00\x00\x00\x05\x00\x00\x00\x05\x00\x00\x00\x05\x00\x00\x00\x05\x00\x00\x00\x07\x00\x00\x00\t\x00\x00\x00\t\x00\x00\x00\t\x00\x00\x00\t\x00\x00\x00\x0b\x00\x00\x00\x0b\x00\x00\x00\x0b\x00\x00\x00\x0b\x00\x00\x00\x0b\x00\x00\x00\x0b\x00\x00\x00\x0b\x00\x00\x00\x0b\x00\x00\x00\r\x00\x00\x00\r\x00\x00\x00\r\x00\x00\x00\r\x00\x00\x00\x0f\x00\x00\x00\x0f\x00\x00\x00\x12\x00\x00\x00\x13\x00\x00\x00\x13\x00\x00\x00\x15\x00\x00\x00\x15\x00\x00\x00\x15\x00\x00\x00\x15\x00\x00\x00\x15\x00\x00\x00\x15\x00\x00\x00\x15\x00\x00\x00\x17\x00\x00\x00\x17\x00\x00\x00\x17\x00\x00\x00\x17\x00\x00\x00\x17\x00\x00\x00\x17\x00\x00\x00\t\x00\x00\x00\x18\x00\x00\x00\x1b\x00\x00\x00\x1b\x00\x00\x00\x1d\x00\x00\x00\x1d\x00\x00\x00\x1f\x00\x00\x00\x1f\x00\x00\x00\x1f\x00\x00\x00\x1f\x00\x00\x00\x1f\x00\x00\x00!\x00\x00\x00!\x00\x00\x00!\x00\x00\x00!\x00\x00\x00#\x00\x00\x00#\x00\x00\x00#\x00\x00\x00#\x00\x00\x00%\x00\x00\x00&\x00\x00\x00&\x00\x00\x00&\x00\x00\x00&\x00\x00\x00&\x00\x00\x00\'\x00\x00\x00\'\x00\x00\x00\'\x00\x00\x00\'\x00\x00\x00\'\x00\x00\x00\'\x00\x00\x00\'\x00\x00\x00\'\x00\x00\x00\'\x00\x00\x00\'\x00\x00\x00\'\x00\x00\x00\'\x00\x00\x00\'\x00\x00\x00&\x00\x00\x00)\x00\x00\x00)\x00\x00\x00)\x00\x00\x00)\x00\x00\x00+\x00\x00\x00+\x00\x00\x00+\x00\x00\x00+\x00\x00\x00+\x00\x00\x00+\x00\x00\x00+\x00\x00\x00-\x00\x00\x00-\x00\x00\x00-\x00\x00\x00-\x00\x00\x00-\x00\x00\x00/\x00\x00\x00\x0c\x00\x00\x00\x05\x00\x00\x00self\x00\x01\x00\x00\x00f\x00\x00\x00\x07\x00\x00\x00target\x00\x01\x00\x00\x00f\x00\x00\x00\x11\x00\x00\x00uncollectedPrice\x00\r\x00\x00\x00f\x00\x00\x00\x10\x00\x00\x00(for generator)\x00\x10\x00\x00\x001\x00\x00\x00\x0c\x00\x00\x00(for state)\x00\x10\x00\x00\x001\x00\x00\x00\x0e\x00\x00\x00(for control)\x00\x10\x00\x00\x001\x00\x00\x00\x0b\x00\x00\x00identifier\x00\x11\x00\x00\x00/\x00\x00\x00\x06\x00\x00\x00price\x00\x11\x00\x00\x00/\x00\x00\x00\x0b\x00\x00\x00itemObject\x00\x1d\x00\x00\x00/\x00\x00\x00\x0b\x00\x00\x00shopkeeper\x00B\x00\x00\x00f\x00\x00\x00\x05\x00\x00\x00text\x00C\x00\x00\x00f\x00\x00\x00\x07\x00\x00\x00bubble\x00V\x00\x00\x00f\x00\x00\x00\x00\x00\x00\x00 (12 @ 103e)
+			}
+            z : 1(58 @ 1b3d)
+		}
+	}
+
+    position sub-block { (22 @ 1b3f)
+
+        x position : -391.1263427734375 (0d @ 1b41)
+        y position : 126.84329223632812 (15 @ 1b46)
+	}
+    z position : 0.0 (2d @ 1b4b)
+    rotation : 0.0 (35 @ 1b50)
+    scale : 1.0 (3d @ 1b55)
+
+    u2 sub-block { (42 @ 1b5a)
+
+        w : -30.0 (0d @ 1b5c)
+        x : -50.0 (15 @ 1b61)
+        y : 60.0 (1d @ 1b66)
+        z : 150.0 (25 @ 1b6b)
+	}
+    hidden : 0(48 @ 1b70)
+}
+
+object block { (0a @ 1b72)
+
+    identifier : obj1 (12 @ 1b75)
+
+    component sub-block { (1a @ 1b7b)
+
+        component type : Model (0a @ 1b7d)
+        number : 101(10 @ 1b84)
+
+        3D model sub-sub-block { (32a @ 1b87)
+
+            name : shop_pedastal (0a @ 1b89)
+            u0 : 3.1415927410125732 (15 @ 1b98)
+            u1 : 0.0 (1d @ 1b9d)
+            u2 : 0.0 (25 @ 1ba2)
+
+            u3 sub-sub-sub-block { (2a @ 1ba7)
+
+                w : 0.0 (0d @ 1ba9)
+                x : 0.0 (15 @ 1bae)
+                y : 0.0 (1d @ 1bb3)
+                z : 1.0 (25 @ 1bb8)
+			}
+
+            u4 sub-sub-sub-block { (32 @ 1bbd)
+
+                x : 0.0 (0d @ 1bbf)
+                y : 0.0 (15 @ 1bc4)
+                z : 0.0 (1d @ 1bc9)
+			}
+            u5 : 0(38 @ 1bce)
+
+            u6 sub-sub-sub-block { (42 @ 1bd0)
+
+                w : 1.0 (0d @ 1bd2)
+                x : 1.0 (15 @ 1bd7)
+                y : 1.0 (1d @ 1bdc)
+                z : 1.0 (25 @ 1be1)
+			}
+		}
+	}
+
+    position sub-block { (22 @ 1be6)
+
+        x position : -59.85655975341797 (0d @ 1be8)
+        y position : 60.162200927734375 (15 @ 1bed)
+	}
+    z position : -74.64070129394531 (2d @ 1bf2)
+    rotation : 0.0 (35 @ 1bf7)
+    scale : 1.0 (3d @ 1bfc)
+
+    u2 sub-block { (42 @ 1c01)
+
+        w : -34.17585372924805 (0d @ 1c03)
+        x : 3.244429588317871 (15 @ 1c08)
+        y : 58.53529357910156 (1d @ 1c0d)
+        z : 121.26319122314453 (25 @ 1c12)
+	}
+    hidden : 0(48 @ 1c17)
+}
+
+object block { (0a @ 1c19)
+
+    identifier : obj1#2 (12 @ 1c1c)
+
+    component sub-block { (1a @ 1c24)
+
+        component type : Model (0a @ 1c26)
+        number : 101(10 @ 1c2d)
+
+        3D model sub-sub-block { (32a @ 1c30)
+
+            name : shop_pedastal (0a @ 1c32)
+            u0 : 3.1415927410125732 (15 @ 1c41)
+            u1 : 0.0 (1d @ 1c46)
+            u2 : 0.0 (25 @ 1c4b)
+
+            u3 sub-sub-sub-block { (2a @ 1c50)
+
+                w : 0.0 (0d @ 1c52)
+                x : 0.0 (15 @ 1c57)
+                y : 0.0 (1d @ 1c5c)
+                z : 1.0 (25 @ 1c61)
+			}
+
+            u4 sub-sub-sub-block { (32 @ 1c66)
+
+                x : 0.0 (0d @ 1c68)
+                y : 0.0 (15 @ 1c6d)
+                z : 0.0 (1d @ 1c72)
+			}
+            u5 : 0(38 @ 1c77)
+
+            u6 sub-sub-sub-block { (42 @ 1c79)
+
+                w : 1.0 (0d @ 1c7b)
+                x : 1.0 (15 @ 1c80)
+                y : 1.0 (1d @ 1c85)
+                z : 1.0 (25 @ 1c8a)
+			}
+		}
+	}
+
+    position sub-block { (22 @ 1c8f)
+
+        x position : 134.4188232421875 (0d @ 1c91)
+        y position : 61.609352111816406 (15 @ 1c96)
+	}
+    z position : -74.64070129394531 (2d @ 1c9b)
+    rotation : 0.0 (35 @ 1ca0)
+    scale : 1.0 (3d @ 1ca5)
+
+    u2 sub-block { (42 @ 1caa)
+
+        w : -34.17585372924805 (0d @ 1cac)
+        x : 3.244429588317871 (15 @ 1cb1)
+        y : 58.53529357910156 (1d @ 1cb6)
+        z : 121.26319122314453 (25 @ 1cbb)
+	}
+    hidden : 0(48 @ 1cc0)
+}
+
+object block { (0a @ 1cc2)
+
+    identifier : obj1#3 (12 @ 1cc5)
+
+    component sub-block { (1a @ 1ccd)
+
+        component type : Model (0a @ 1ccf)
+        number : 101(10 @ 1cd6)
+
+        3D model sub-sub-block { (32a @ 1cd9)
+
+            name : shop_pedastal (0a @ 1cdb)
+            u0 : 3.1415927410125732 (15 @ 1cea)
+            u1 : 0.0 (1d @ 1cef)
+            u2 : 0.0 (25 @ 1cf4)
+
+            u3 sub-sub-sub-block { (2a @ 1cf9)
+
+                w : 0.0 (0d @ 1cfb)
+                x : 0.0 (15 @ 1d00)
+                y : 0.0 (1d @ 1d05)
+                z : 1.0 (25 @ 1d0a)
+			}
+
+            u4 sub-sub-sub-block { (32 @ 1d0f)
+
+                x : 0.0 (0d @ 1d11)
+                y : 0.0 (15 @ 1d16)
+                z : 0.0 (1d @ 1d1b)
+			}
+            u5 : 0(38 @ 1d20)
+
+            u6 sub-sub-sub-block { (42 @ 1d22)
+
+                w : 1.0 (0d @ 1d24)
+                x : 1.0 (15 @ 1d29)
+                y : 1.0 (1d @ 1d2e)
+                z : 1.0 (25 @ 1d33)
+			}
+		}
+	}
+
+    position sub-block { (22 @ 1d38)
+
+        x position : 323.8992614746094 (0d @ 1d3a)
+        y position : 62.28509521484375 (15 @ 1d3f)
+	}
+    z position : -74.64070129394531 (2d @ 1d44)
+    rotation : 0.0 (35 @ 1d49)
+    scale : 1.0 (3d @ 1d4e)
+
+    u2 sub-block { (42 @ 1d53)
+
+        w : -34.17585372924805 (0d @ 1d55)
+        x : 3.244429588317871 (15 @ 1d5a)
+        y : 58.53529357910156 (1d @ 1d5f)
+        z : 121.26319122314453 (25 @ 1d64)
+	}
+    hidden : 0(48 @ 1d69)
+}
+
+object block { (0a @ 1d6b)
+
+    identifier : obj1#4 (12 @ 1d6e)
+
+    component sub-block { (1a @ 1d76)
+
+        component type : Model (0a @ 1d78)
+        number : 101(10 @ 1d7f)
+
+        3D model sub-sub-block { (32a @ 1d82)
+
+            name : shop_pedastal (0a @ 1d84)
+            u0 : 3.1415927410125732 (15 @ 1d93)
+            u1 : 0.0 (1d @ 1d98)
+            u2 : 0.0 (25 @ 1d9d)
+
+            u3 sub-sub-sub-block { (2a @ 1da2)
+
+                w : 0.0 (0d @ 1da4)
+                x : 0.0 (15 @ 1da9)
+                y : 0.0 (1d @ 1dae)
+                z : 1.0 (25 @ 1db3)
+			}
+
+            u4 sub-sub-sub-block { (32 @ 1db8)
+
+                x : 0.0 (0d @ 1dba)
+                y : 0.0 (15 @ 1dbf)
+                z : 0.0 (1d @ 1dc4)
+			}
+            u5 : 0(38 @ 1dc9)
+
+            u6 sub-sub-sub-block { (42 @ 1dcb)
+
+                w : 1.0 (0d @ 1dcd)
+                x : 1.0 (15 @ 1dd2)
+                y : 1.0 (1d @ 1dd7)
+                z : 1.0 (25 @ 1ddc)
+			}
+		}
+	}
+
+    position sub-block { (22 @ 1de1)
+
+        x position : 509.5090637207031 (0d @ 1de3)
+        y position : 62.28509521484375 (15 @ 1de8)
+	}
+    z position : -74.64070129394531 (2d @ 1ded)
+    rotation : 0.0 (35 @ 1df2)
+    scale : 1.0 (3d @ 1df7)
+
+    u2 sub-block { (42 @ 1dfc)
+
+        w : -34.17585372924805 (0d @ 1dfe)
+        x : 3.244429588317871 (15 @ 1e03)
+        y : 58.53529357910156 (1d @ 1e08)
+        z : 121.26319122314453 (25 @ 1e0d)
+	}
+    hidden : 0(48 @ 1e12)
+}
+
+object block { (0a @ 1e14)
+
+    identifier : obj1#5 (12 @ 1e17)
+
+    component sub-block { (1a @ 1e1f)
+
+        component type : Model (0a @ 1e21)
+        number : 101(10 @ 1e28)
+
+        3D model sub-sub-block { (32a @ 1e2b)
+
+            name : shop_pedastal (0a @ 1e2d)
+            u0 : 0.0 (15 @ 1e3c)
+            u1 : 0.0 (1d @ 1e41)
+            u2 : 0.0 (25 @ 1e46)
+
+            u3 sub-sub-sub-block { (2a @ 1e4b)
+
+                w : 0.0 (0d @ 1e4d)
+                x : 0.0 (15 @ 1e52)
+                y : 0.0 (1d @ 1e57)
+                z : 1.0 (25 @ 1e5c)
+			}
+
+            u4 sub-sub-sub-block { (32 @ 1e61)
+
+                x : 0.0 (0d @ 1e63)
+                y : 0.0 (15 @ 1e68)
+                z : 0.0 (1d @ 1e6d)
+			}
+            u5 : 0(38 @ 1e72)
+
+            u6 sub-sub-sub-block { (42 @ 1e74)
+
+                w : 1.0 (0d @ 1e76)
+                x : 1.0 (15 @ 1e7b)
+                y : 1.0 (1d @ 1e80)
+                z : 1.0 (25 @ 1e85)
+			}
+		}
+	}
+
+    position sub-block { (22 @ 1e8a)
+
+        x position : 222.52822875976562 (0d @ 1e8c)
+        y position : 422.7967834472656 (15 @ 1e91)
+	}
+    z position : 66.75812530517578 (2d @ 1e96)
+    rotation : 3.143308639526367 (35 @ 1e9b)
+    scale : 1.0 (3d @ 1ea0)
+
+    u2 sub-block { (42 @ 1ea5)
+
+        w : -24.35943603515625 (0d @ 1ea7)
+        x : 3.244429588317871 (15 @ 1eac)
+        y : 58.53528594970703 (1d @ 1eb1)
+        z : 121.26319122314453 (25 @ 1eb6)
+	}
+    hidden : 0(48 @ 1ebb)
+}
+
+object block { (0a @ 1ebd)
+
+    identifier : obj1#6 (12 @ 1ec0)
+
+    component sub-block { (1a @ 1ec8)
+
+        component type : Model (0a @ 1eca)
+        number : 101(10 @ 1ed1)
+
+        3D model sub-sub-block { (32a @ 1ed4)
+
+            name : shop_pedastal (0a @ 1ed6)
+            u0 : 0.0 (15 @ 1ee5)
+            u1 : 0.0 (1d @ 1eea)
+            u2 : 0.0 (25 @ 1eef)
+
+            u3 sub-sub-sub-block { (2a @ 1ef4)
+
+                w : 0.0 (0d @ 1ef6)
+                x : 0.0 (15 @ 1efb)
+                y : 0.0 (1d @ 1f00)
+                z : 1.0 (25 @ 1f05)
+			}
+
+            u4 sub-sub-sub-block { (32 @ 1f0a)
+
+                x : 0.0 (0d @ 1f0c)
+                y : 0.0 (15 @ 1f11)
+                z : 0.0 (1d @ 1f16)
+			}
+            u5 : 0(38 @ 1f1b)
+
+            u6 sub-sub-sub-block { (42 @ 1f1d)
+
+                w : 1.0 (0d @ 1f1f)
+                x : 1.0 (15 @ 1f24)
+                y : 1.0 (1d @ 1f29)
+                z : 1.0 (25 @ 1f2e)
+			}
+		}
+	}
+
+    position sub-block { (22 @ 1f33)
+
+        x position : 20.47504425048828 (0d @ 1f35)
+        y position : 419.4893798828125 (15 @ 1f3a)
+	}
+    z position : 66.75812530517578 (2d @ 1f3f)
+    rotation : 3.143308639526367 (35 @ 1f44)
+    scale : 1.0 (3d @ 1f49)
+
+    u2 sub-block { (42 @ 1f4e)
+
+        w : -24.35943603515625 (0d @ 1f50)
+        x : 3.244429588317871 (15 @ 1f55)
+        y : 58.53528594970703 (1d @ 1f5a)
+        z : 121.26319122314453 (25 @ 1f5f)
+	}
+    hidden : 0(48 @ 1f64)
+}
+
+object block { (0a @ 1f66)
+
+    identifier : obj1#7 (12 @ 1f69)
+
+    component sub-block { (1a @ 1f71)
+
+        component type : Model (0a @ 1f73)
+        number : 101(10 @ 1f7a)
+
+        3D model sub-sub-block { (32a @ 1f7d)
+
+            name : shop_pedastal (0a @ 1f7f)
+            u0 : 0.0 (15 @ 1f8e)
+            u1 : 0.0 (1d @ 1f93)
+            u2 : 0.0 (25 @ 1f98)
+
+            u3 sub-sub-sub-block { (2a @ 1f9d)
+
+                w : 0.0 (0d @ 1f9f)
+                x : 0.0 (15 @ 1fa4)
+                y : 0.0 (1d @ 1fa9)
+                z : 1.0 (25 @ 1fae)
+			}
+
+            u4 sub-sub-sub-block { (32 @ 1fb3)
+
+                x : 0.0 (0d @ 1fb5)
+                y : 0.0 (15 @ 1fba)
+                z : 0.0 (1d @ 1fbf)
+			}
+            u5 : 0(38 @ 1fc4)
+
+            u6 sub-sub-sub-block { (42 @ 1fc6)
+
+                w : 1.0 (0d @ 1fc8)
+                x : 1.0 (15 @ 1fcd)
+                y : 1.0 (1d @ 1fd2)
+                z : 1.0 (25 @ 1fd7)
+			}
+		}
+	}
+
+    position sub-block { (22 @ 1fdc)
+
+        x position : 408.1380310058594 (0d @ 1fde)
+        y position : 422.7967834472656 (15 @ 1fe3)
+	}
+    z position : 66.75812530517578 (2d @ 1fe8)
+    rotation : 3.143308639526367 (35 @ 1fed)
+    scale : 1.0 (3d @ 1ff2)
+
+    u2 sub-block { (42 @ 1ff7)
+
+        w : -24.35943603515625 (0d @ 1ff9)
+        x : 3.244429588317871 (15 @ 1ffe)
+        y : 58.53528594970703 (1d @ 2003)
+        z : 121.26319122314453 (25 @ 2008)
+	}
+    hidden : 0(48 @ 200d)
+}
+
+object block { (0a @ 200f)
+
+    identifier : obj1#8 (12 @ 2012)
+
+    component sub-block { (1a @ 201a)
+
+        component type : Model (0a @ 201c)
+        number : 101(10 @ 2023)
+
+        3D model sub-sub-block { (32a @ 2026)
+
+            name : shop_pedastal (0a @ 2028)
+            u0 : 0.0 (15 @ 2037)
+            u1 : 0.0 (1d @ 203c)
+            u2 : 0.0 (25 @ 2041)
+
+            u3 sub-sub-sub-block { (2a @ 2046)
+
+                w : 0.0 (0d @ 2048)
+                x : 0.0 (15 @ 204d)
+                y : 0.0 (1d @ 2052)
+                z : 1.0 (25 @ 2057)
+			}
+
+            u4 sub-sub-sub-block { (32 @ 205c)
+
+                x : 0.0 (0d @ 205e)
+                y : 0.0 (15 @ 2063)
+                z : 0.0 (1d @ 2068)
+			}
+            u5 : 0(38 @ 206d)
+
+            u6 sub-sub-sub-block { (42 @ 206f)
+
+                w : 1.0 (0d @ 2071)
+                x : 1.0 (15 @ 2076)
+                y : 1.0 (1d @ 207b)
+                z : 1.0 (25 @ 2080)
+			}
+		}
+	}
+
+    position sub-block { (22 @ 2085)
+
+        x position : 615.7161865234375 (0d @ 2087)
+        y position : 422.79681396484375 (15 @ 208c)
+	}
+    z position : 66.75812530517578 (2d @ 2091)
+    rotation : 3.143308639526367 (35 @ 2096)
+    scale : 1.0 (3d @ 209b)
+
+    u2 sub-block { (42 @ 20a0)
+
+        w : -24.35943603515625 (0d @ 20a2)
+        x : 3.244429588317871 (15 @ 20a7)
+        y : 58.53528594970703 (1d @ 20ac)
+        z : 121.26319122314453 (25 @ 20b1)
+	}
+    hidden : 0(48 @ 20b6)
+}
+
+object block { (0a @ 20b8)
+
+    identifier : obj1#9 (12 @ 20bb)
+
+    component sub-block { (1a @ 20c3)
+
+        component type : Model (0a @ 20c5)
+        number : 101(10 @ 20cc)
+
+        3D model sub-sub-block { (32a @ 20cf)
+
+            name : shop_pedastal (0a @ 20d1)
+            u0 : 3.1415927410125732 (15 @ 20e0)
+            u1 : 0.0 (1d @ 20e5)
+            u2 : 0.0 (25 @ 20ea)
+
+            u3 sub-sub-sub-block { (2a @ 20ef)
+
+                w : 0.0 (0d @ 20f1)
+                x : 0.0 (15 @ 20f6)
+                y : 0.0 (1d @ 20fb)
+                z : 1.0 (25 @ 2100)
+			}
+
+            u4 sub-sub-sub-block { (32 @ 2105)
+
+                x : 0.0 (0d @ 2107)
+                y : 0.0 (15 @ 210c)
+                z : 0.0 (1d @ 2111)
+			}
+            u5 : 0(38 @ 2116)
+
+            u6 sub-sub-sub-block { (42 @ 2118)
+
+                w : 1.0 (0d @ 211a)
+                x : 1.0 (15 @ 211f)
+                y : 1.0 (1d @ 2124)
+                z : 1.0 (25 @ 2129)
+			}
+		}
+	}
+
+    position sub-block { (22 @ 212e)
+
+        x position : 739.79541015625 (0d @ 2130)
+        y position : 62.28509521484375 (15 @ 2135)
+	}
+    z position : -74.64070129394531 (2d @ 213a)
+    rotation : 0.0 (35 @ 213f)
+    scale : 1.0 (3d @ 2144)
+
+    u2 sub-block { (42 @ 2149)
+
+        w : -34.17585372924805 (0d @ 214b)
+        x : 3.244429588317871 (15 @ 2150)
+        y : 58.53529357910156 (1d @ 2155)
+        z : 121.26319122314453 (25 @ 215a)
+	}
+    hidden : 0(48 @ 215f)
+}
+
+object block { (0a @ 2161)
+
+    name : Template 1 (0a @ 2164)
+    identifier : obj14 (12 @ 2170)
+
+    component sub-block { (1a @ 2177)
+
+        component type : CollisionShape (0a @ 2179)
+        number : 101(10 @ 2189)
+
+        collision shape sub-sub-block { (3c2 @ 218c)
+
+
+            u0 sub-sub-sub-block { (0a @ 218e)
+
+                w : -45.0 (0d @ 2190)
+                x : -200.0 (15 @ 2195)
+                y : 90.0 (1d @ 219a)
+                z : 400.0 (25 @ 219f)
+			}
+		}
+
+        collision shape 2 sub-sub-block { (3ca @ 21a5)
+
+            w : -15.0 (35 @ 21a7)
+            x : 15.0 (3d @ 21ac)
+            y : 2(40 @ 21b1)
+            z : 1(58 @ 21b3)
+		}
+	}
+
+    component sub-block { (1a @ 21b5)
+
+        component type : Portal (0a @ 21b7)
+        number : 104(10 @ 21bf)
+
+        portal sub-sub-block { (fa2 @ 21c2)
+
+            target level : florennum_part1 (0a @ 21c4)
+            spawnpoint :  (12 @ 21d5)
+            touchable : 0(18 @ 21d7)
+            collision shape component : 101(20 @ 21d9)
+		}
+	}
+
+    position sub-block { (22 @ 21db)
+
+        x position : -520.8963623046875 (0d @ 21dd)
+        y position : 208.5292510986328 (15 @ 21e2)
+	}
+    z position : 0.0 (2d @ 21e7)
+    rotation : 0.0 (35 @ 21ec)
+    scale : 1.0 (3d @ 21f1)
+
+    u2 sub-block { (42 @ 21f6)
+
+        w : -45.0 (0d @ 21f8)
+        x : -200.0 (15 @ 21fd)
+        y : 90.0 (1d @ 2202)
+        z : 400.0 (25 @ 2207)
+	}
+    hidden : 0(48 @ 220c)
+}
+
+object block { (0a @ 220e)
+
+    identifier : obj2 (12 @ 2211)
+
+    component sub-block { (1a @ 2217)
+
+        component type : GroundPolygon (0a @ 221a)
+        number : 100(10 @ 2229)
+
+        ground polygon sub-sub-block { (372 @ 222c)
+
+
+             sub-sub-sub-block { (12 @ 222f)
+
+
+                u0 sub-sub-sub-sub-block { (0a @ 2232)
+
+                    x : -856.493896484375 (0d @ 2234)
+                    y : -665.9594116210938 (15 @ 2239)
+				}
+
+                u0 sub-sub-sub-sub-block { (0a @ 223e)
+
+                    x : 128.023193359375 (0d @ 2240)
+                    y : -620.7755126953125 (15 @ 2245)
+				}
+
+                u0 sub-sub-sub-sub-block { (0a @ 224a)
+
+                    x : 1152.041748046875 (0d @ 224c)
+                    y : -661.479248046875 (15 @ 2251)
+				}
+
+                u0 sub-sub-sub-sub-block { (0a @ 2256)
+
+                    x : 1110.00048828125 (0d @ 2258)
+                    y : 665.9594116210938 (15 @ 225d)
+				}
+
+                u0 sub-sub-sub-sub-block { (0a @ 2262)
+
+                    x : 35.3670654296875 (0d @ 2264)
+                    y : 528.6842651367188 (15 @ 2269)
+				}
+
+                u0 sub-sub-sub-sub-block { (0a @ 226e)
+
+                    x : -850.3056030273438 (0d @ 2270)
+                    y : 568.693603515625 (15 @ 2275)
+				}
+
+                u0 sub-sub-sub-sub-block { (0a @ 227a)
+
+                    x : -828.6021118164062 (0d @ 227c)
+                    y : 119.34304809570312 (15 @ 2281)
+				}
+
+                u0 sub-sub-sub-sub-block { (0a @ 2286)
+
+                    x : -829.7075805664062 (0d @ 2288)
+                    y : 0.0397186279296875 (15 @ 228d)
+				}
+
+                u0 sub-sub-sub-sub-block { (0a @ 2292)
+
+                    x : -653.1134033203125 (0d @ 2294)
+                    y : 0.392242431640625 (15 @ 2299)
+				}
+
+                u0 sub-sub-sub-sub-block { (0a @ 229e)
+
+                    x : -652.4718627929688 (0d @ 22a0)
+                    y : 105.92819213867188 (15 @ 22a5)
+				}
+
+                u0 sub-sub-sub-sub-block { (0a @ 22aa)
+
+                    x : 36.786346435546875 (0d @ 22ac)
+                    y : 109.73516845703125 (15 @ 22b1)
+				}
+
+                u0 sub-sub-sub-sub-block { (0a @ 22b6)
+
+                    x : 539.5307006835938 (0d @ 22b8)
+                    y : 109.98556518554688 (15 @ 22bd)
+				}
+
+                u0 sub-sub-sub-sub-block { (0a @ 22c2)
+
+                    x : 541.1885986328125 (0d @ 22c4)
+                    y : -100.60771179199219 (15 @ 22c9)
+				}
+
+                u0 sub-sub-sub-sub-block { (0a @ 22ce)
+
+                    x : 32.66650390625 (0d @ 22d0)
+                    y : -100.34588623046875 (15 @ 22d5)
+				}
+
+                u0 sub-sub-sub-sub-block { (0a @ 22da)
+
+                    x : -1152.041748046875 (0d @ 22dc)
+                    y : -100.25949096679688 (15 @ 22e1)
+				}
+                u0 : 0(10 @ 22e6)
+                u1 : 1(18 @ 22e8)
+			}
+            u1 : 1(18 @ 22ea)
+            u2 : -55.0 (25 @ 22ec)
+            u3 : 55.0 (2d @ 22f1)
+            u4 :  (32 @ 22f6)
+		}
+	}
+
+    component sub-block { (1a @ 22f8)
+
+        component type : GroundMesh (0a @ 22fb)
+        number : 101(10 @ 2307)
+
+        ground mesh sub-sub-block { (37a @ 230a)
+
+
+            u0 sub-sub-sub-block { (3a @ 230d)
+
+                w : -1162.041748046875 (0d @ 230f)
+                x : -675.9594116210938 (15 @ 2314)
+                y : 2324.08349609375 (1d @ 2319)
+                z : 1351.9188232421875 (25 @ 231e)
+			}
+
+            u1 sub-sub-sub-block { (42 @ 2323)
+
+                u0 : 24(08 @ 2326)
+                u1 : 20(10 @ 2328)
+
+                u2 sub-sub-sub-sub-block { (1a @ 232a)
+
+                    u0 : 4(08 @ 232c)
+                    u1 : 1(10 @ 232e)
+                    u2 : 2(18 @ 2330)
+                    u3 : 0(20 @ 2332)
+				}
+
+                u3 sub-sub-sub-sub-block { (22 @ 2334)
+
+                    u0 : 7(08 @ 2336)
+                    u1 : 3(10 @ 2338)
+                    u2 : 32(18 @ 233a)
+                    u3 : 0(20 @ 233c)
+				}
+
+                u4 sub-sub-sub-sub-block { (2a @ 233e)
+
+                    u0 : 7(08 @ 2340)
+                    u1 : 3(10 @ 2342)
+                    u2 : 32(18 @ 2344)
+                    u3 : 12(20 @ 2346)
+				}
+
+                u5 sub-sub-sub-sub-block { (32 @ 2348)
+
+                    u0 : 7(08 @ 234a)
+                    u1 : 2(10 @ 234c)
+                    u2 : 32(18 @ 234e)
+                    u3 : 24(20 @ 2350)
+				}
+
+                u6 sub-sub-sub-sub-block { (52 @ 2352)
+
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 2354)
+
+                        w : 1.0 (0d @ 2356)
+                        x : 1.0 (15 @ 235b)
+                        y : 1.0 (1d @ 2360)
+                        z : 1.0 (25 @ 2365)
+					}
+
+                    u1 sub-sub-sub-sub-sub-block { (12 @ 236a)
+
+                        w : 1.0 (0d @ 236c)
+                        x : 1.0 (15 @ 2371)
+                        y : 1.0 (1d @ 2376)
+                        z : 1.0 (25 @ 237b)
+					}
+
+                    u2 sub-sub-sub-sub-sub-block { (1a @ 2380)
+
+                        w : 1.0 (0d @ 2382)
+                        x : 1.0 (15 @ 2387)
+                        y : 1.0 (1d @ 238c)
+                        z : 1.0 (25 @ 2391)
+					}
+                    u3 : 0.0 (25 @ 2396)
+                    u4 : \n\x07ground3\x10\x01 \x01 (2a @ 239b)
+				}
+
+                u7 sub-sub-sub-sub-block { (5a @ 23aa)
+
+                    u : -853.3025512695312 (0d @ 23ac)
+                    v : 503.68426513671875 (15 @ 23b1)
+                    w : -60.0 (1d @ 23b6)
+                    x : 1966.27880859375 (25 @ 23bb)
+                    y : 162.6552734375 (2d @ 23c0)
+                    z : 120.0 (35 @ 23c5)
+				}
+                u8 : >\x1f\x8bD\xbb\x95&D\x00\x00\\\xc2\xb7\xc0\x01\xbe\xc0\xef}?\x00\x00\x00\x00\x00\x00\x00?)\\\x8f>>\x1f\x8bD\xbb\x95&D\x00\x00\\B\xb7\xc0\x01\xbe\xc0\xef}?\x00\x00\x00\x00\x00\x00\x00?\xecQ8?>\x1f\x8bD\xbb\x15$D\x00\x00pB\x00\x00\x00\x80\x00\x00\x00\x00\x00\x00\x80?\x1f\x85\xeb>\xa4p=?>\x1f\x8bD\xbbU Dff\\B\xb7\xc0\x01>\xc0\xef}\xbf\x00\x00\x00\x80\xcd\xcc\xcc>"l8?>\x1f\x8bD\xbbU D\x9a\x99[\xc2\xb7\xc0\x01>\xc0\xef}\xbf\x00\x00\x00\x80\xcd\xcc\xcc>\x96\x90\x8f>>\x1f\x8bD\xbb\x15$D\x00\x00p\xc2\x00\x00\x00\x80\x00\x00\x00\x00\x00\x00\x80?\x1f\x85\xeb>\xb8\x1e\x85>>\x1f\x8bD\xbb\x95&D\x00\x00\\\xc2\xb7\xc0\x01\xbe\xc0\xef}?\x00\x00\x00\x00\x00\x00\x00?)\\\x8f>>\x1f\x8bD\xbb\x95&D\x00\x00\\B\xb7\xc0\x01\xbe\xc0\xef}?\x00\x00\x00\x00\x00\x00\x00?\xecQ8?>\x1f\x8bD\xbb\x15$D\x00\x00pB\x00\x00\x00\x80\x00\x00\x00\x00\x00\x00\x80?\x00\x00\x00?\xc8\xc4C?>\x1f\x8bD\xbbU Dff\\B\xb7\xc0\x01>\xc0\xef}\xbf\x00\x00\x00\x80\x00\x00\x00?m\xedS?\xe0w\rB\xcb+\x04D\x00\x00\\\xc2\xf6\xfbJ\xbdy\xaf\x7f?\x00\x00\x00\x00\xbb\xab\x9a@)\\\x8f>\xe0w\rB\xcb+\x04D\x00\x00\\B\xf6\xfbJ\xbdy\xaf\x7f?\x00\x00\x00\x00\xbb\xab\x9a@\xecQ8?\xe0w\rB\xcb\xab\x01D\x00\x00pB\x00\x00\x00\x80\x00\x00\x00\x00\xff\xff\x7f?\xbb\xab\x9a@\xc8\xc4C?\xe0w\rB\x96\xd7\xfbCff\\B\xf6\xfbJ=y\xaf\x7f\xbf\x00\x00\x00\x80\xbb\xab\x9a@m\xedS?]SU\xc4\x0e5\x0eD\x00\x00\\\xc2\x11\xd88=<\xbd\x7f?\x00\x00\x00\x00\x86\x13\x06A)\\\x8f>]SU\xc4\x0e5\x0eD\x00\x00\\B\x11\xd88=<\xbd\x7f?\x00\x00\x00\x00\x86\x13\x06A\xecQ8?]SU\xc4\x0e\xb5\x0bD\x00\x00pB\x00\x00\x00\x80\x00\x00\x00\x00\x00\x00\x80?\x86\x13\x06A\xc8\xc4C?]SU\xc4\x0e\xf5\x07Dff\\B\x11\xd88\xbd<\xbd\x7f\xbf\x00\x00\x00\x80\x86\x13\x06Am\xedS?]SU\xc4\x0e5\x0eD\x00\x00\\\xc2\x11\xd88=<\xbd\x7f?\x00\x00\x00\x00\x86\x13\x06A)\\\x8f>]SU\xc4\x0e5\x0eD\x00\x00\\B\x11\xd88=<\xbd\x7f?\x00\x00\x00\x00\x86\x13\x06A\xecQ8?]SU\xc4\x0e\xb5\x0bD\x00\x00pB\x00\x00\x00\x80\x00\x00\x00\x00\x00\x00\x80?]\xb7\x06A\xa4p=?]SU\xc4\x0e\xf5\x07Dff\\B\x11\xd88\xbd<\xbd\x7f\xbf\x00\x00\x00\x80 \xad\x07A"l8?]SU\xc4\x0e\xf5\x07D\x9a\x99[\xc2\x11\xd88\xbd<\xbd\x7f\xbf\x00\x00\x00\x80 \xad\x07A\x96\x90\x8f>]SU\xc4\x0e\xb5\x0bD\x00\x00p\xc2\x00\x00\x00\x80\x00\x00\x00\x00\x00\x00\x80?]\xb7\x06A\xb8\x1e\x85> (192 @ 23cb)
+                u9 : \x00\x00\x04\x00\x05\x00\x00\x00\x03\x00\x04\x00\x00\x00\x01\x00\x03\x00\x01\x00\x02\x00\x03\x00\x06\x00\n\x00\x0b\x00\x07\x00\x06\x00\x0b\x00\x07\x00\x0b\x00\x0c\x00\x08\x00\x07\x00\x0c\x00\x08\x00\x0c\x00\r\x00\t\x00\x08\x00\r\x00\n\x00\x0e\x00\x0f\x00\x0b\x00\n\x00\x0f\x00\x0b\x00\x0f\x00\x10\x00\x0c\x00\x0b\x00\x10\x00\x0c\x00\x10\x00\x11\x00\r\x00\x0c\x00\x11\x00\x12\x00\x17\x00\x16\x00\x12\x00\x16\x00\x15\x00\x12\x00\x15\x00\x13\x00\x15\x00\x14\x00\x13\x00 (19a @ 26cf)
+			}
+
+            u1 sub-sub-sub-block { (42 @ 2749)
+
+                u0 : 24(08 @ 274c)
+                u1 : 20(10 @ 274e)
+
+                u2 sub-sub-sub-sub-block { (1a @ 2750)
+
+                    u0 : 4(08 @ 2752)
+                    u1 : 1(10 @ 2754)
+                    u2 : 2(18 @ 2756)
+                    u3 : 0(20 @ 2758)
+				}
+
+                u3 sub-sub-sub-sub-block { (22 @ 275a)
+
+                    u0 : 7(08 @ 275c)
+                    u1 : 3(10 @ 275e)
+                    u2 : 32(18 @ 2760)
+                    u3 : 0(20 @ 2762)
+				}
+
+                u4 sub-sub-sub-sub-block { (2a @ 2764)
+
+                    u0 : 7(08 @ 2766)
+                    u1 : 3(10 @ 2768)
+                    u2 : 32(18 @ 276a)
+                    u3 : 12(20 @ 276c)
+				}
+
+                u5 sub-sub-sub-sub-block { (32 @ 276e)
+
+                    u0 : 7(08 @ 2770)
+                    u1 : 2(10 @ 2772)
+                    u2 : 32(18 @ 2774)
+                    u3 : 24(20 @ 2776)
+				}
+
+                u6 sub-sub-sub-sub-block { (52 @ 2778)
+
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 277a)
+
+                        w : 1.0 (0d @ 277c)
+                        x : 1.0 (15 @ 2781)
+                        y : 1.0 (1d @ 2786)
+                        z : 1.0 (25 @ 278b)
+					}
+
+                    u1 sub-sub-sub-sub-sub-block { (12 @ 2790)
+
+                        w : 1.0 (0d @ 2792)
+                        x : 1.0 (15 @ 2797)
+                        y : 1.0 (1d @ 279c)
+                        z : 1.0 (25 @ 27a1)
+					}
+
+                    u2 sub-sub-sub-sub-sub-block { (1a @ 27a6)
+
+                        w : 1.0 (0d @ 27a8)
+                        x : 1.0 (15 @ 27ad)
+                        y : 1.0 (1d @ 27b2)
+                        z : 1.0 (25 @ 27b7)
+					}
+                    u3 : 0.0 (25 @ 27bc)
+                    u4 : \n\x07ground3\x10\x01 \x01 (2a @ 27c1)
+				}
+
+                u7 sub-sub-sub-sub-block { (5a @ 27d0)
+
+                    u : -1155.041748046875 (0d @ 27d2)
+                    v : -125.60771179199219 (15 @ 27d7)
+                    w : -60.0 (1d @ 27dc)
+                    x : 1696.2303466796875 (25 @ 27e1)
+                    y : 25.34844207763672 (2d @ 27e6)
+                    z : 120.0 (35 @ 27eb)
+				}
+                u8 : \x12L\x07D&7\xc9\xc2\x00\x00\\\xc2\xb5\xf8\x06:\xff\xff\x7f?\x00\x00\x00\x00\x86\x13\x06A)\\\x8f>\x12L\x07D&7\xc9\xc2\x00\x00\\B\xb5\xf8\x06:\xff\xff\x7f?\x00\x00\x00\x00\x86\x13\x06A\xecQ8?\x12L\x07D&7\xdd\xc2\x00\x00pB\x00\x00\x00\x80\x00\x00\x00\x00\x00\x00\x80?\xafo\x05A\xa4p=?\x12L\x07D&7\xfb\xc2ff\\B\xb5\xf8\x06\xba\xff\xff\x7f\xbf\x00\x00\x00\x80\xecy\x04A"l8?\x12L\x07D&7\xfb\xc2\x9a\x99[\xc2\xb5\xf8\x06\xba\xff\xff\x7f\xbf\x00\x00\x00\x80\xecy\x04A\x96\x90\x8f>\x12L\x07D&7\xdd\xc2\x00\x00p\xc2\x00\x00\x00\x80\x00\x00\x00\x00\x00\x00\x80?\xafo\x05A\xb8\x1e\x85>\x12L\x07D&7\xc9\xc2\x00\x00\\\xc2\xb5\xf8\x06:\xff\xff\x7f?\x00\x00\x00\x00\x86\x13\x06A)\\\x8f>\x12L\x07D&7\xc9\xc2\x00\x00\\B\xb5\xf8\x06:\xff\xff\x7f?\x00\x00\x00\x00\x86\x13\x06A\xecQ8?\x12L\x07D&7\xdd\xc2\x00\x00pB\x00\x00\x00\x80\x00\x00\x00\x00\x00\x00\x80?\x86\x13\x06A\xc8\xc4C?\x12L\x07D&7\xfb\xc2ff\\B\xb5\xf8\x06\xba\xff\xff\x7f\xbf\x00\x00\x00\x80\x86\x13\x06Am\xedS?\x80\xaa\x02B\x18\xb1\xc8\xc2\x00\x00\\\xc2\x05\xa5W9\x00\x00\x80?\x00\x00\x00\x00\'\x9f&A)\\\x8f>\x80\xaa\x02B\x18\xb1\xc8\xc2\x00\x00\\B\x05\xa5W9\x00\x00\x80?\x00\x00\x00\x00\'\x9f&A\xecQ8?\x80\xaa\x02B\x18\xb1\xdc\xc2\x00\x00pB\x00\x00\x00\x80\x00\x00\x00\x00\x00\x00\x80?\'\x9f&A\xc8\xc4C?\x80\xaa\x02B\x18\xb1\xfa\xc2ff\\B\x05\xa5W\xb9\x00\x00\x80\xbf\x00\x00\x00\x80\'\x9f&Am\xedS?Va\x90\xc4\xbf\x84\xc8\xc2\x00\x00\\\xc2\x80\xef\x988\x00\x00\x80?\x00\x00\x00\x00iqrA)\\\x8f>Va\x90\xc4\xbf\x84\xc8\xc2\x00\x00\\B\x80\xef\x988\x00\x00\x80?\x00\x00\x00\x00iqrA\xecQ8?Va\x90\xc4\xbf\x84\xdc\xc2\x00\x00pB\x00\x00\x00\x80\x00\x00\x00\x00\x00\x00\x80?iqrA\xc8\xc4C?Va\x90\xc4\xbf\x84\xfa\xc2ff\\B\x80\xef\x98\xb8\x00\x00\x80\xbf\x00\x00\x00\x80iqrAm\xedS?Va\x90\xc4\xbf\x84\xc8\xc2\x00\x00\\\xc2\x80\xef\x988\x00\x00\x80?\x00\x00\x00\x00iqrA)\\\x8f>Va\x90\xc4\xbf\x84\xc8\xc2\x00\x00\\B\x80\xef\x988\x00\x00\x80?\x00\x00\x00\x00iqrA\xecQ8?Va\x90\xc4\xbf\x84\xdc\xc2\x00\x00pB\x00\x00\x00\x80\x00\x00\x00\x00\x00\x00\x80?A\x15sA\xa4p=?Va\x90\xc4\xbf\x84\xfa\xc2ff\\B\x80\xef\x98\xb8\x00\x00\x80\xbf\x00\x00\x00\x80\x03\x0btA"l8?Va\x90\xc4\xbf\x84\xfa\xc2\x9a\x99[\xc2\x80\xef\x98\xb8\x00\x00\x80\xbf\x00\x00\x00\x80\x03\x0btA\x96\x90\x8f>Va\x90\xc4\xbf\x84\xdc\xc2\x00\x00p\xc2\x00\x00\x00\x80\x00\x00\x00\x00\x00\x00\x80?A\x15sA\xb8\x1e\x85> (192 @ 27f1)
+                u9 : \x00\x00\x04\x00\x05\x00\x00\x00\x03\x00\x04\x00\x00\x00\x01\x00\x03\x00\x01\x00\x02\x00\x03\x00\x06\x00\n\x00\x0b\x00\x07\x00\x06\x00\x0b\x00\x07\x00\x0b\x00\x0c\x00\x08\x00\x07\x00\x0c\x00\x08\x00\x0c\x00\r\x00\t\x00\x08\x00\r\x00\n\x00\x0e\x00\x0f\x00\x0b\x00\n\x00\x0f\x00\x0b\x00\x0f\x00\x10\x00\x0c\x00\x0b\x00\x10\x00\x0c\x00\x10\x00\x11\x00\r\x00\x0c\x00\x11\x00\x12\x00\x17\x00\x16\x00\x12\x00\x16\x00\x15\x00\x12\x00\x15\x00\x13\x00\x15\x00\x14\x00\x13\x00 (19a @ 2af5)
+			}
+
+            u1 sub-sub-sub-block { (42 @ 2b6f)
+
+                u0 : 24(08 @ 2b72)
+                u1 : 20(10 @ 2b74)
+
+                u2 sub-sub-sub-sub-block { (1a @ 2b76)
+
+                    u0 : 4(08 @ 2b78)
+                    u1 : 1(10 @ 2b7a)
+                    u2 : 2(18 @ 2b7c)
+                    u3 : 0(20 @ 2b7e)
+				}
+
+                u3 sub-sub-sub-sub-block { (22 @ 2b80)
+
+                    u0 : 7(08 @ 2b82)
+                    u1 : 3(10 @ 2b84)
+                    u2 : 32(18 @ 2b86)
+                    u3 : 0(20 @ 2b88)
+				}
+
+                u4 sub-sub-sub-sub-block { (2a @ 2b8a)
+
+                    u0 : 7(08 @ 2b8c)
+                    u1 : 3(10 @ 2b8e)
+                    u2 : 32(18 @ 2b90)
+                    u3 : 12(20 @ 2b92)
+				}
+
+                u5 sub-sub-sub-sub-block { (32 @ 2b94)
+
+                    u0 : 7(08 @ 2b96)
+                    u1 : 2(10 @ 2b98)
+                    u2 : 32(18 @ 2b9a)
+                    u3 : 24(20 @ 2b9c)
+				}
+
+                u6 sub-sub-sub-sub-block { (52 @ 2b9e)
+
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 2ba0)
+
+                        w : 1.0 (0d @ 2ba2)
+                        x : 1.0 (15 @ 2ba7)
+                        y : 1.0 (1d @ 2bac)
+                        z : 1.0 (25 @ 2bb1)
+					}
+
+                    u1 sub-sub-sub-sub-sub-block { (12 @ 2bb6)
+
+                        w : 1.0 (0d @ 2bb8)
+                        x : 1.0 (15 @ 2bbd)
+                        y : 1.0 (1d @ 2bc2)
+                        z : 1.0 (25 @ 2bc7)
+					}
+
+                    u2 sub-sub-sub-sub-sub-block { (1a @ 2bcc)
+
+                        w : 1.0 (0d @ 2bce)
+                        x : 1.0 (15 @ 2bd3)
+                        y : 1.0 (1d @ 2bd8)
+                        z : 1.0 (25 @ 2bdd)
+					}
+                    u3 : 0.0 (25 @ 2be2)
+                    u4 : \n\x10florennum_ground\x10\x01 \x01 (2a @ 2be7)
+				}
+
+                u7 sub-sub-sub-sub-block { (5a @ 2bff)
+
+                    u : -1152.041748046875 (0d @ 2c01)
+                    v : -665.9594116210938 (15 @ 2c06)
+                    w : -50.0 (1d @ 2c0b)
+                    x : 2304.08349609375 (25 @ 2c10)
+                    y : 1234.653076171875 (2d @ 2c15)
+                    z : 100.0 (35 @ 2c1a)
+				}
+                u8 : \x8f\x93T\xc4d,\x0eD\x00\x00H\xc2\xb1\xb3\x7f\xbf\xec\x9aE\xbd\x00\x00\x00\x00\x00\x00\x00?\x9a\x99\x99>\x8f\x93T\xc4d,\x0eD\x00\x00HB\xb1\xb3\x7f\xbf\xec\x9aE\xbd\x00\x00\x00\x00\x00\x00\x00?333?\x89&O\xc4\xa4\xaf\xeeB\x00\x00H\xc2\r\xd5\x7f\xbf\x13E\x14\xbd\x00\x00\x00\x00\xf8*\x13@\x9a\x99\x99>\x89&O\xc4\xa4\xaf\xeeB\x00\x00HB\r\xd5\x7f\xbf\x13E\x14\xbd\x00\x00\x00\x00\xf8*\x13@333?ImO\xc4\x00\xb0"=\x00\x00H\xc2\xdc\xa2\x0f\xbf;\xe8S\xbf\x00\x00\x00\x00\xf8\xb51@\x9a\x99\x99>ImO\xc4\x00\xb0"=\x00\x00HB\xdc\xa2\x0f\xbf;\xe8S\xbf\x00\x00\x00\x00\xf8\xb51@333?BG#\xc4\x00\xd4\xc8>\x00\x00H\xc27L\x03?\xfe\xc3[\xbf\x00\x00\x00\x00E\xeb^@\x9a\x99\x99>BG#\xc4\x00\xd4\xc8>\x00\x00HB7L\x03?\xfe\xc3[\xbf\x00\x00\x00\x00E\xeb^@333?3\x1e#\xc4<\xdb\xd3B\x00\x00H\xc2HK >\x13\xd8|\xbf\x00\x00\x00\x00\xcd\xefy@\x9a\x99\x99>3\x1e#\xc4<\xdb\xd3B\x00\x00HBHK >\x13\xd8|\xbf\x00\x00\x00\x00\xcd\xefy@333?8%\x13Bhx\xdbB\x00\x00H\xc2r\x12_;\x9e\xff\x7f\xbf\x00\x00\x00\x00\xdb1\xd5@\x9a\x99\x99>8%\x13Bhx\xdbB\x00\x00HBr\x12_;\x9e\xff\x7f\xbf\x00\x00\x00\x00\xdb1\xd5@333?\xf7\xe1\x06D\x9c\xf8\xdbB\x00\x00H\xc2!\x10\xc5\xbeOGl\xbf\x00\x00\x00\x00\xe4\xc5\nA\x9a\x99\x99>\xf7\xe1\x06D\x9c\xf8\xdbB\x00\x00HB!\x10\xc5\xbeOGl\xbf\x00\x00\x00\x00\xe4\xc5\nA333?\x12L\x07D&7\xc9\xc2\x00\x00H\xc2\xf8\xfd\x7f\xbf\xaf\xfa\x00\xbc\x00\x00\x00\x00\\@\x18A\x9a\x99\x99>\x12L\x07D&7\xc9\xc2\x00\x00HB\xf8\xfd\x7f\xbf\xaf\xfa\x00\xbc\x00\x00\x00\x00\\@\x18A333?V\x01\x90\xc4\xdc\x84\xc8\xc2\x00\x00H\xc2`\xe6b\xbf\x06\x16\xed\xbe\x00\x00\x00\x00\\@\x18A\x9a\x99\x99>V\x01\x90\xc4\xdc\x84\xc8\xc2\x00\x00HB`\xe6b\xbf\x06\x16\xed\xbe\x00\x00\x00\x00\\@\x18A333?\x9c\x1fV\xc4g}&\xc4\x00\x00H\xc2[\xdc\xc0\xbe\xd0$m\xbf\x00\x00\x00\x00y\x19AA\x9a\x99\x99>\x9c\x1fV\xc4g}&\xc4\x00\x00HB[\xdc\xc0\xbe\xd0$m\xbf\x00\x00\x00\x00y\x19AA333?\xf0\x05\x00C\xa21\x1b\xc4\x00\x00H\xc2\x88.\x12;\xd7\xff\x7f\xbf\x00\x00\x00\x00d\x16\x80A\x9a\x99\x99>\xf0\x05\x00C\xa21\x1b\xc4\x00\x00HB\x88.\x12;\xd7\xff\x7f\xbf\x00\x00\x00\x00d\x16\x80A333?V\x01\x90D\xac^%\xc4\x00\x00H\xc2\x04\x82K?\xd3N\x1b\xbf\x00\x00\x00\x00\xc6\xe1\xa0A\x9a\x99\x99>V\x01\x90D\xac^%\xc4\x00\x00HB\x04\x82K?\xd3N\x1b\xbf\x00\x00\x00\x00\xc6\xe1\xa0A333? (192 @ 2c20)
+                u9 : \x00\x00\x02\x00\x03\x00\x01\x00\x00\x00\x03\x00\x02\x00\x04\x00\x05\x00\x03\x00\x02\x00\x05\x00\x04\x00\x06\x00\x07\x00\x05\x00\x04\x00\x07\x00\x06\x00\x08\x00\t\x00\x07\x00\x06\x00\t\x00\x08\x00\n\x00\x0b\x00\t\x00\x08\x00\x0b\x00\n\x00\x0c\x00\r\x00\x0b\x00\n\x00\r\x00\x0c\x00\x0e\x00\x0f\x00\r\x00\x0c\x00\x0f\x00\x10\x00\x12\x00\x13\x00\x11\x00\x10\x00\x13\x00\x12\x00\x14\x00\x15\x00\x13\x00\x12\x00\x15\x00\x14\x00\x16\x00\x17\x00\x15\x00\x14\x00\x17\x00 (19a @ 2f24)
+			}
+
+            u1 sub-sub-sub-block { (42 @ 2f9e)
+
+                u0 : 4(08 @ 2fa1)
+                u1 : 2(10 @ 2fa3)
+
+                u2 sub-sub-sub-sub-block { (1a @ 2fa5)
+
+                    u0 : 4(08 @ 2fa7)
+                    u1 : 1(10 @ 2fa9)
+                    u2 : 2(18 @ 2fab)
+                    u3 : 0(20 @ 2fad)
+				}
+
+                u3 sub-sub-sub-sub-block { (22 @ 2faf)
+
+                    u0 : 7(08 @ 2fb1)
+                    u1 : 3(10 @ 2fb3)
+                    u2 : 32(18 @ 2fb5)
+                    u3 : 0(20 @ 2fb7)
+				}
+
+                u4 sub-sub-sub-sub-block { (2a @ 2fb9)
+
+                    u0 : 7(08 @ 2fbb)
+                    u1 : 3(10 @ 2fbd)
+                    u2 : 32(18 @ 2fbf)
+                    u3 : 12(20 @ 2fc1)
+				}
+
+                u5 sub-sub-sub-sub-block { (32 @ 2fc3)
+
+                    u0 : 7(08 @ 2fc5)
+                    u1 : 2(10 @ 2fc7)
+                    u2 : 32(18 @ 2fc9)
+                    u3 : 24(20 @ 2fcb)
+				}
+
+                u6 sub-sub-sub-sub-block { (52 @ 2fcd)
+
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 2fcf)
+
+                        w : 1.0 (0d @ 2fd1)
+                        x : 1.0 (15 @ 2fd6)
+                        y : 1.0 (1d @ 2fdb)
+                        z : 1.0 (25 @ 2fe0)
+					}
+
+                    u1 sub-sub-sub-sub-sub-block { (12 @ 2fe5)
+
+                        w : 1.0 (0d @ 2fe7)
+                        x : 1.0 (15 @ 2fec)
+                        y : 1.0 (1d @ 2ff1)
+                        z : 1.0 (25 @ 2ff6)
+					}
+
+                    u2 sub-sub-sub-sub-sub-block { (1a @ 2ffb)
+
+                        w : 1.0 (0d @ 2ffd)
+                        x : 1.0 (15 @ 3002)
+                        y : 1.0 (1d @ 3007)
+                        z : 1.0 (25 @ 300c)
+					}
+                    u3 : 0.0 (25 @ 3011)
+                    u4 : \n\x10florennum_ground\x10\x01 \x01 (2a @ 3016)
+				}
+
+                u7 sub-sub-sub-sub-block { (5a @ 302e)
+
+                    u : 1110.00048828125 (0d @ 3030)
+                    v : -661.479248046875 (15 @ 3035)
+                    w : -50.0 (1d @ 303a)
+                    x : 42.041259765625 (25 @ 303f)
+                    y : 1327.438720703125 (2d @ 3044)
+                    z : 100.0 (35 @ 3049)
+				}
+                u8 : V\x01\x90D\xac^%\xc4\x00\x00H\xc2\x04\x82K?\xd3N\x1b\xbf\x00\x00\x00\x00\xc6\xe1\xa0A\x9a\x99\x99>V\x01\x90D\xac^%\xc4\x00\x00HB\x04\x82K?\xd3N\x1b\xbf\x00\x00\x00\x00\xc6\xe1\xa0A333?\x04\xc0\x8aDg}&D\x00\x00H\xc2)\xdf\x7f?\xc5\xa8\x01=\x00\x00\x00\x00\x9aa\xcbA\x9a\x99\x99>\x04\xc0\x8aDg}&D\x00\x00HB)\xdf\x7f?\xc5\xa8\x01=\x00\x00\x00\x00\x9aa\xcbA333? (192 @ 304f)
+                u9 : \x00\x00\x02\x00\x03\x00\x01\x00\x00\x00\x03\x00 (19a @ 30d3)
+			}
+
+            u2 sub-sub-sub-block { (4a @ 30e1)
+
+                u0 : 39(08 @ 30e4)
+                u1 : 13(10 @ 30e6)
+
+                u2 sub-sub-sub-sub-block { (22 @ 30e8)
+
+                    u0 : 7(08 @ 30ea)
+                    u1 : 3(10 @ 30ec)
+                    u2 : 32(18 @ 30ee)
+                    u3 : 0(20 @ 30f0)
+				}
+
+                u3 sub-sub-sub-sub-block { (2a @ 30f2)
+
+                    u0 : 7(08 @ 30f4)
+                    u1 : 3(10 @ 30f6)
+                    u2 : 32(18 @ 30f8)
+                    u3 : 12(20 @ 30fa)
+				}
+
+                u4 sub-sub-sub-sub-block { (32 @ 30fc)
+
+                    u0 : 7(08 @ 30fe)
+                    u1 : 2(10 @ 3100)
+                    u2 : 32(18 @ 3102)
+                    u3 : 24(20 @ 3104)
+				}
+
+                u5 sub-sub-sub-sub-block { (52 @ 3106)
+
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 3108)
+
+                        w : 1.0 (0d @ 310a)
+                        x : 1.0 (15 @ 310f)
+                        y : 1.0 (1d @ 3114)
+                        z : 1.0 (25 @ 3119)
+					}
+
+                    u1 sub-sub-sub-sub-sub-block { (12 @ 311e)
+
+                        w : 1.0 (0d @ 3120)
+                        x : 1.0 (15 @ 3125)
+                        y : 1.0 (1d @ 312a)
+                        z : 1.0 (25 @ 312f)
+					}
+
+                    u2 sub-sub-sub-sub-sub-block { (1a @ 3134)
+
+                        w : 1.0 (0d @ 3136)
+                        x : 1.0 (15 @ 313b)
+                        y : 1.0 (1d @ 3140)
+                        z : 1.0 (25 @ 3145)
+					}
+                    u3 : 0.0 (25 @ 314a)
+
+                    u4 sub-sub-sub-sub-sub-block { (2a @ 314f)
+
+                        u0 : florennum_ground (0a @ 3151)
+                        u1 : 1(10 @ 3163)
+                        u2 : 1(20 @ 3165)
+					}
+				}
+
+                u3 sub-sub-sub-sub-block { (5a @ 3167)
+
+                    u : -1152.041748046875 (0d @ 3169)
+                    v : -665.9594116210938 (15 @ 316e)
+                    w : 50.0 (1d @ 3173)
+                    x : 2304.08349609375 (25 @ 3178)
+                    y : 1331.9189453125 (2d @ 317d)
+                    z : 0.0 (35 @ 3182)
+				}
+                u7 : \x8f\x93T\xc4d,\x0eD\x00\x00HB\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x80?\xa1\xad9\xc0\xe7\x951@\x89&O\xc4\xa4\xaf\xeeB\x00\x00HB\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x80?E\x1f4\xc0\x105z?BG#\xc4\x00\xd4\xc8>\x00\x00HB\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x80?q2\x07\xc0\xd3f\x00?\x8f\x93T\xc4d,\x0eD\x00\x00HB\x00\x00\x00\x80\x00\x00\x00\x00\x00\x00\x80?\xa1\xad9\xc0\xe7\x951@BG#\xc4\x00\xd4\xc8>\x00\x00HB\x00\x00\x00\x80\x00\x00\x00\x00\x00\x00\x80?q2\x07\xc0\xd3f\x00?3\x1e#\xc4<\xdb\xd3B\x00\x00HB\x00\x00\x00\x80\x00\x00\x00\x00\x00\x00\x80?e\x08\x07\xc0pxl?\x8f\x93T\xc4d,\x0eD\x00\x00HB\x00\x00\x00\x80\x00\x00\x00\x00\x00\x00\x80?\xa1\xad9\xc0\xe7\x951@3\x1e#\xc4<\xdb\xd3B\x00\x00HB\x00\x00\x00\x80\x00\x00\x00\x00\x00\x00\x80?e\x08\x07\xc0pxl?\xe0w\rB\xcb+\x04D\x00\x00HB\x00\x00\x00\x80\x00\x00\x00\x00\x00\x00\x80?D7$?\xdaW\'@\x89&O\xc4\xa4\xaf\xeeB\x00\x00HB\x00\x00\x00\x80\x00\x00\x00\x00\x00\x00\x80?E\x1f4\xc0\x105z?ImO\xc4\x00\xb0"=\x00\x00HB\x00\x00\x00\x80\x00\x00\x00\x00\x00\x00\x80?\xb7g4\xc0i\n\x00?BG#\xc4\x00\xd4\xc8>\x00\x00HB\x00\x00\x00\x80\x00\x00\x00\x00\x00\x00\x80?q2\x07\xc0\xd3f\x00?8%\x13Bhx\xdbB\x00\x00HB\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x80?R\xab%?j^p?\xe0w\rB\xcb+\x04D\x00\x00HB\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x80?D7$?\xdaW\'@3\x1e#\xc4<\xdb\xd3B\x00\x00HB\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x80?e\x08\x07\xc0pxl?\xe0w\rB\xcb+\x04D\x00\x00HB\x00\x00\x00\x80\x00\x00\x00\x00\x00\x00\x80?D7$?\xdaW\'@8%\x13Bhx\xdbB\x00\x00HB\x00\x00\x00\x80\x00\x00\x00\x00\x00\x00\x80?R\xab%?j^p?\xf7\xe1\x06D\x9c\xf8\xdbB\x00\x00HB\x00\x00\x00\x80\x00\x00\x00\x00\x00\x00\x80?\xaf\x1e*@\x0e\xa0p?\xf7\xe1\x06D\x9c\xf8\xdbB\x00\x00HB\x00\x00\x00\x80\x00\x00\x00\x00\xff\xff\x7f?\xaf\x1e*@\x0e\xa0p?\x12L\x07D&7\xc9\xc2\x00\x00HB\x00\x00\x00\x80\x00\x00\x00\x00\xff\xff\x7f?V\x8b*@X\xd2\xc7=\x04\xc0\x8aDg}&D\x00\x00HB\x00\x00\x00\x80\x00\x00\x00\x00\xff\xff\x7f?\x7f\x14\x9e@Q|J@\xe0w\rB\xcb+\x04D\x00\x00HB\x00\x00\x00\x80\x00\x00\x00\x00\xff\xff\x7f?D7$?\xdaW\'@\xf7\xe1\x06D\x9c\xf8\xdbB\x00\x00HB\x00\x00\x00\x80\x00\x00\x00\x00\xff\xff\x7f?\xaf\x1e*@\x0e\xa0p?\x04\xc0\x8aDg}&D\x00\x00HB\x00\x00\x00\x80\x00\x00\x00\x00\xff\xff\x7f?\x7f\x14\x9e@Q|J@V\x01\x90D\xac^%\xc4\x00\x00HB\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x80?\x1bv\xa3@\xb4V\t\xc0\x04\xc0\x8aDg}&D\x00\x00HB\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x80?\x7f\x14\x9e@Q|J@\x12L\x07D&7\xc9\xc2\x00\x00HB\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x80?V\x8b*@X\xd2\xc7=V\x01\x90D\xac^%\xc4\x00\x00HB\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x80?\x1bv\xa3@\xb4V\t\xc0\x12L\x07D&7\xc9\xc2\x00\x00HB\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x80?V\x8b*@X\xd2\xc7=\xf0\x05\x00C\xa21\x1b\xc4\x00\x00HB\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x80?B\x8c\x81?J\xd6\xfd\xbf\x80\xaa\x02B\x18\xb1\xc8\xc2\x00\x00HB\x00\x00\x00\x80\x00\x00\x00\x00\x00\x00\x80?Ts!?l\xf7\xc9=\xf0\x05\x00C\xa21\x1b\xc4\x00\x00HB\x00\x00\x00\x80\x00\x00\x00\x00\x00\x00\x80?B\x8c\x81?J\xd6\xfd\xbf\x12L\x07D&7\xc9\xc2\x00\x00HB\x00\x00\x00\x80\x00\x00\x00\x00\x00\x00\x80?V\x8b*@X\xd2\xc7=\x80\xaa\x02B\x18\xb1\xc8\xc2\x00\x00HB\x00\x00\x00\x80\x00\x00\x00\x00\x00\x00\x80?Ts!?l\xf7\xc9=\x9c\x1fV\xc4g}&\xc4\x00\x00HB\x00\x00\x00\x80\x00\x00\x00\x00\x00\x00\x80?/C;\xc0Q|\n\xc0\xf0\x05\x00C\xa21\x1b\xc4\x00\x00HB\x00\x00\x00\x80\x00\x00\x00\x00\x00\x00\x80?B\x8c\x81?J\xd6\xfd\xbf\x80\xaa\x02B\x18\xb1\xc8\xc2\x00\x00HB\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x80?Ts!?l\xf7\xc9=V\x01\x90\xc4\xdc\x84\xc8\xc2\x00\x00HB\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x80?\x1bv\x83\xc0\x9c\xac\xca=\x9c\x1fV\xc4g}&\xc4\x00\x00HB\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x80?/C;\xc0Q|\n\xc0 (192 @ 3188)
+			}
+
+            u3 sub-sub-sub-block { (52 @ 366b)
+
+                w : 1.0 (0d @ 366d)
+                x : 1.0 (15 @ 3672)
+                y : 1.0 (1d @ 3677)
+                z : 1.0 (25 @ 367c)
+			}
+		}
+	}
+
+    component sub-block { (1a @ 3681)
+
+        component type : GroundMeshGenerator (0a @ 3683)
+        number : 102(10 @ 3698)
+
+        ground mesh generator sub-sub-block { (382 @ 369b)
+
+            ground polygon : 100(08 @ 369d)
+            ground mesh : 101(10 @ 369f)
+            texture mapping 1 : 103(18 @ 36a1)
+            texture mapping 2 : 104(20 @ 36a3)
+            u4 : 0(28 @ 36a5)
+            u5 : 0.0 (35 @ 36a7)
+            u6 : 1(38 @ 36ac)
+            u7 : 100.0 (45 @ 36ae)
+            u8 : 25.0 (4d @ 36b3)
+            u9 : 5.0 (55 @ 36b8)
+            u10 : 5.0 (5d @ 36bd)
+		}
+	}
+
+    component sub-block { (1a @ 36c2)
+
+        component type : TextureMapping (0a @ 36c4)
+        number : 103(10 @ 36d4)
+
+        texture mapping sub-sub-block { (38a @ 36d7)
+
+            texture file : florennum_ground (0a @ 36d9)
+            u0 : 250.0 (15 @ 36eb)
+
+            u0 sub-sub-sub-block { (1a @ 36f0)
+
+                u1 : 0.0 (0d @ 36f2)
+                u2 : 0.0 (15 @ 36f7)
+			}
+		}
+	}
+
+    component sub-block { (1a @ 36fc)
+
+        component type : TextureMapping (0a @ 36fe)
+        number : 104(10 @ 370e)
+
+        texture mapping sub-sub-block { (38a @ 3711)
+
+            texture file : ground3 (0a @ 3713)
+            u0 : 250.0 (15 @ 371c)
+
+            u0 sub-sub-sub-block { (1a @ 3721)
+
+                u1 : 0.0 (0d @ 3723)
+                u2 : 0.0 (15 @ 3728)
+			}
+		}
+	}
+
+    component sub-block { (1a @ 372d)
+
+        component type : CollisionShape (0a @ 3730)
+        number : 105(10 @ 3740)
+        ? linked component : 100(20 @ 3742)
+
+        collision shape sub-sub-block { (3c2 @ 3745)
+
+
+            u2 sub-sub-sub-block { (1a @ 3747)
+
+
+                u0 sub-sub-sub-sub-block { (0a @ 3749)
+
+                    y : -856.493896484375 (0d @ 374b)
+                    z : -665.9594116210938 (15 @ 3750)
+				}
+
+                u0 sub-sub-sub-sub-block { (0a @ 3755)
+
+                    y : 128.023193359375 (0d @ 3757)
+                    z : -620.7755126953125 (15 @ 375c)
+				}
+
+                u0 sub-sub-sub-sub-block { (0a @ 3761)
+
+                    y : 1152.041748046875 (0d @ 3763)
+                    z : -661.479248046875 (15 @ 3768)
+				}
+
+                u0 sub-sub-sub-sub-block { (0a @ 376d)
+
+                    y : 1110.00048828125 (0d @ 376f)
+                    z : 665.9594116210938 (15 @ 3774)
+				}
+
+                u0 sub-sub-sub-sub-block { (0a @ 3779)
+
+                    y : 35.3670654296875 (0d @ 377b)
+                    z : 528.6842651367188 (15 @ 3780)
+				}
+
+                u0 sub-sub-sub-sub-block { (0a @ 3785)
+
+                    y : -850.3056030273438 (0d @ 3787)
+                    z : 568.693603515625 (15 @ 378c)
+				}
+
+                u0 sub-sub-sub-sub-block { (0a @ 3791)
+
+                    y : -828.6021118164062 (0d @ 3793)
+                    z : 119.34304809570312 (15 @ 3798)
+				}
+
+                u0 sub-sub-sub-sub-block { (0a @ 379d)
+
+                    y : -829.7075805664062 (0d @ 379f)
+                    z : 0.0397186279296875 (15 @ 37a4)
+				}
+
+                u0 sub-sub-sub-sub-block { (0a @ 37a9)
+
+                    y : -653.1134033203125 (0d @ 37ab)
+                    z : 0.392242431640625 (15 @ 37b0)
+				}
+
+                u0 sub-sub-sub-sub-block { (0a @ 37b5)
+
+                    y : -652.4718627929688 (0d @ 37b7)
+                    z : 105.92819213867188 (15 @ 37bc)
+				}
+                u3 : 0(10 @ 37c1)
+                u4 : 0(18 @ 37c3)
+			}
+		}
+
+        collision shape 2 sub-sub-block { (3ca @ 37c6)
+
+            u0 : 1(10 @ 37c8)
+            w : -55.0 (35 @ 37ca)
+            x : 55.0 (3d @ 37cf)
+            z : 1(58 @ 37d4)
+		}
+	}
+
+    component sub-block { (1a @ 37d6)
+
+        component type : CollisionShape (0a @ 37d9)
+        number : 106(10 @ 37e9)
+        ? linked component : 100(20 @ 37eb)
+
+        collision shape sub-sub-block { (3c2 @ 37ee)
+
+
+            u2 sub-sub-sub-block { (1a @ 37f1)
+
+
+                u0 sub-sub-sub-sub-block { (0a @ 37f4)
+
+                    y : -829.7075805664062 (0d @ 37f6)
+                    z : 0.0397186279296875 (15 @ 37fb)
+				}
+
+                u0 sub-sub-sub-sub-block { (0a @ 3800)
+
+                    y : -653.1134033203125 (0d @ 3802)
+                    z : 0.392242431640625 (15 @ 3807)
+				}
+
+                u0 sub-sub-sub-sub-block { (0a @ 380c)
+
+                    y : -652.4718627929688 (0d @ 380e)
+                    z : 105.92819213867188 (15 @ 3813)
+				}
+
+                u0 sub-sub-sub-sub-block { (0a @ 3818)
+
+                    y : 36.786346435546875 (0d @ 381a)
+                    z : 109.73516845703125 (15 @ 381f)
+				}
+
+                u0 sub-sub-sub-sub-block { (0a @ 3824)
+
+                    y : 539.5307006835938 (0d @ 3826)
+                    z : 109.98556518554688 (15 @ 382b)
+				}
+
+                u0 sub-sub-sub-sub-block { (0a @ 3830)
+
+                    y : 541.1885986328125 (0d @ 3832)
+                    z : -100.60771179199219 (15 @ 3837)
+				}
+
+                u0 sub-sub-sub-sub-block { (0a @ 383c)
+
+                    y : 32.66650390625 (0d @ 383e)
+                    z : -100.34588623046875 (15 @ 3843)
+				}
+
+                u0 sub-sub-sub-sub-block { (0a @ 3848)
+
+                    y : -1152.041748046875 (0d @ 384a)
+                    z : -100.25949096679688 (15 @ 384f)
+				}
+
+                u0 sub-sub-sub-sub-block { (0a @ 3854)
+
+                    y : -856.493896484375 (0d @ 3856)
+                    z : -665.9594116210938 (15 @ 385b)
+				}
+
+                u0 sub-sub-sub-sub-block { (0a @ 3860)
+
+                    y : 128.023193359375 (0d @ 3862)
+                    z : -620.7755126953125 (15 @ 3867)
+				}
+
+                u0 sub-sub-sub-sub-block { (0a @ 386c)
+
+                    y : 1152.041748046875 (0d @ 386e)
+                    z : -661.479248046875 (15 @ 3873)
+				}
+                u3 : 0(10 @ 3878)
+                u4 : 0(18 @ 387a)
+			}
+		}
+
+        collision shape 2 sub-sub-block { (3ca @ 387d)
+
+            u0 : 1(10 @ 387f)
+            w : -55.0 (35 @ 3881)
+            x : 55.0 (3d @ 3886)
+            z : 1(58 @ 388b)
+		}
+	}
+
+    position sub-block { (22 @ 388d)
+
+        x position : 307.61163330078125 (0d @ 388f)
+        y position : 219.49380493164062 (15 @ 3894)
+	}
+    z position : 0.0 (2d @ 3899)
+    rotation : 0.0 (35 @ 389e)
+    scale : 1.0 (3d @ 38a3)
+
+    u2 sub-block { (42 @ 38a8)
+
+        w : -1152.041748046875 (0d @ 38aa)
+        x : -665.9594116210938 (15 @ 38af)
+        y : 2304.08349609375 (1d @ 38b4)
+        z : 1331.9188232421875 (25 @ 38b9)
+	}
+    hidden : 0(48 @ 38be)
+}
+
+object block { (0a @ 38c0)
+
+    identifier : obj2#2 (12 @ 38c3)
+
+    component sub-block { (1a @ 38cb)
+
+        component type : GroundPolygon (0a @ 38ce)
+        number : 100(10 @ 38dd)
+
+        ground polygon sub-sub-block { (372 @ 38e0)
+
+
+             sub-sub-sub-block { (12 @ 38e3)
+
+
+                u0 sub-sub-sub-sub-block { (0a @ 38e5)
+
+                    x : -1287.79345703125 (0d @ 38e7)
+                    y : -1430.6282958984375 (15 @ 38ec)
+				}
+
+                u0 sub-sub-sub-sub-block { (0a @ 38f1)
+
+                    x : -303.2763671875 (0d @ 38f3)
+                    y : -1385.4444580078125 (15 @ 38f8)
+				}
+
+                u0 sub-sub-sub-sub-block { (0a @ 38fd)
+
+                    x : 1563.6116943359375 (0d @ 38ff)
+                    y : -1462.847412109375 (15 @ 3904)
+				}
+
+                u0 sub-sub-sub-sub-block { (0a @ 3909)
+
+                    x : 1573.0953369140625 (0d @ 390b)
+                    y : 1462.847412109375 (15 @ 3910)
+				}
+
+                u0 sub-sub-sub-sub-block { (0a @ 3915)
+
+                    x : -344.407958984375 (0d @ 3917)
+                    y : 1362.2720947265625 (15 @ 391c)
+				}
+
+                u0 sub-sub-sub-sub-block { (0a @ 3921)
+
+                    x : -1230.08056640625 (0d @ 3923)
+                    y : 1402.2813720703125 (15 @ 3928)
+				}
+
+                u0 sub-sub-sub-sub-block { (0a @ 392d)
+
+                    x : -1249.65576171875 (0d @ 392f)
+                    y : 9.8604736328125 (15 @ 3934)
+				}
+
+                u0 sub-sub-sub-sub-block { (0a @ 3939)
+
+                    x : -1250.76123046875 (0d @ 393b)
+                    y : -109.44287109375 (15 @ 3940)
+				}
+
+                u0 sub-sub-sub-sub-block { (0a @ 3945)
+
+                    x : -1573.0953369140625 (0d @ 3947)
+                    y : -209.7420654296875 (15 @ 394c)
+				}
+                u0 : 0(10 @ 3951)
+                u1 : 1(18 @ 3953)
+			}
+            u1 : 1(18 @ 3955)
+            u2 : -55.0 (25 @ 3957)
+            u3 : 55.0 (2d @ 395c)
+            u4 :  (32 @ 3961)
+		}
+	}
+
+    component sub-block { (1a @ 3963)
+
+        component type : GroundMesh (0a @ 3966)
+        number : 101(10 @ 3972)
+
+        ground mesh sub-sub-block { (37a @ 3975)
+
+
+            u0 sub-sub-sub-block { (3a @ 3978)
+
+                w : -1583.0953369140625 (0d @ 397a)
+                x : -1472.847412109375 (15 @ 397f)
+                y : 3166.1904296875 (1d @ 3984)
+                z : 2945.69482421875 (25 @ 3989)
+			}
+
+            u1 sub-sub-sub-block { (42 @ 398e)
+
+                u0 : 24(08 @ 3991)
+                u1 : 20(10 @ 3993)
+
+                u2 sub-sub-sub-sub-block { (1a @ 3995)
+
+                    u0 : 4(08 @ 3997)
+                    u1 : 1(10 @ 3999)
+                    u2 : 2(18 @ 399b)
+                    u3 : 0(20 @ 399d)
+				}
+
+                u3 sub-sub-sub-sub-block { (22 @ 399f)
+
+                    u0 : 7(08 @ 39a1)
+                    u1 : 3(10 @ 39a3)
+                    u2 : 32(18 @ 39a5)
+                    u3 : 0(20 @ 39a7)
+				}
+
+                u4 sub-sub-sub-sub-block { (2a @ 39a9)
+
+                    u0 : 7(08 @ 39ab)
+                    u1 : 3(10 @ 39ad)
+                    u2 : 32(18 @ 39af)
+                    u3 : 12(20 @ 39b1)
+				}
+
+                u5 sub-sub-sub-sub-block { (32 @ 39b3)
+
+                    u0 : 7(08 @ 39b5)
+                    u1 : 2(10 @ 39b7)
+                    u2 : 32(18 @ 39b9)
+                    u3 : 24(20 @ 39bb)
+				}
+
+                u6 sub-sub-sub-sub-block { (52 @ 39bd)
+
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 39bf)
+
+                        w : 1.0 (0d @ 39c1)
+                        x : 1.0 (15 @ 39c6)
+                        y : 1.0 (1d @ 39cb)
+                        z : 1.0 (25 @ 39d0)
+					}
+
+                    u1 sub-sub-sub-sub-sub-block { (12 @ 39d5)
+
+                        w : 1.0 (0d @ 39d7)
+                        x : 1.0 (15 @ 39dc)
+                        y : 1.0 (1d @ 39e1)
+                        z : 1.0 (25 @ 39e6)
+					}
+
+                    u2 sub-sub-sub-sub-sub-block { (1a @ 39eb)
+
+                        w : 1.0 (0d @ 39ed)
+                        x : 1.0 (15 @ 39f2)
+                        y : 1.0 (1d @ 39f7)
+                        z : 1.0 (25 @ 39fc)
+					}
+                    u3 : 0.0 (25 @ 3a01)
+                    u4 : \n\x07ground3\x10\x01 \x01 (2a @ 3a06)
+				}
+
+                u7 sub-sub-sub-sub-block { (5a @ 3a15)
+
+                    u : -1233.0775146484375 (0d @ 3a17)
+                    v : 1337.2720947265625 (15 @ 3a1c)
+                    w : -60.0 (1d @ 3a21)
+                    x : 2809.168701171875 (25 @ 3a26)
+                    y : 125.732421875 (2d @ 3a2b)
+                    z : 120.0 (35 @ 3a30)
+				}
+                u8 : \xeb\x02\xc5D%\xe0\xb6D\x00\x00\\\xc2\x8d\x8bV\xbd\t\xa6\x7f?\x00\x00\x00\x00\x00\x00\x00?)\\\x8f>\xeb\x02\xc5D%\xe0\xb6D\x00\x00\\B\x8d\x8bV\xbd\t\xa6\x7f?\x00\x00\x00\x00\x00\x00\x00?\xecQ8?\xeb\x02\xc5D%\xa0\xb5D\x00\x00pB\x00\x00\x00\x80\x00\x00\x00\x00\x00\x00\x80?\x1f\x85\xeb>\xa4p=?\xeb\x02\xc5D%\xc0\xb3Dff\\B\x8d\x8bV=\t\xa6\x7f\xbf\x00\x00\x00\x80\xcd\xcc\xcc>"l8?\xeb\x02\xc5D%\xc0\xb3D\x9a\x99[\xc2\x8d\x8bV=\t\xa6\x7f\xbf\x00\x00\x00\x80\xcd\xcc\xcc>\x96\x90\x8f>\xeb\x02\xc5D%\xa0\xb5D\x00\x00p\xc2\x00\x00\x00\x80\x00\x00\x00\x00\x00\x00\x80?\x1f\x85\xeb>\xb8\x1e\x85>\xeb\x02\xc5D%\xe0\xb6D\x00\x00\\\xc2\x8d\x8bV\xbd\t\xa6\x7f?\x00\x00\x00\x00\x00\x00\x00?)\\\x8f>\xeb\x02\xc5D%\xe0\xb6D\x00\x00\\B\x8d\x8bV\xbd\t\xa6\x7f?\x00\x00\x00\x00\x00\x00\x00?\xecQ8?\xeb\x02\xc5D%\xa0\xb5D\x00\x00pB\x00\x00\x00\x80\x00\x00\x00\x00\x00\x00\x80?\x00\x00\x00?\xc8\xc4C?\xeb\x02\xc5D%\xc0\xb3Dff\\B\x8d\x8bV=\t\xa6\x7f\xbf\x00\x00\x00\x80\x00\x00\x00?m\xedS?84\xac\xc3\xb5H\xaaD\x00\x00\\\xc2\xf5\xf4\xb0\xbc\xb5\xf0\x7f?\x00\x00\x00\x00\x90\xe3\x02A)\\\x8f>84\xac\xc3\xb5H\xaaD\x00\x00\\B\xf5\xf4\xb0\xbc\xb5\xf0\x7f?\x00\x00\x00\x00\x90\xe3\x02A\xecQ8?84\xac\xc3\xb5\x08\xa9D\x00\x00pB\x00\x00\x00\x80\x00\x00\x00\x00\x00\x00\x80?\x90\xe3\x02A\xc8\xc4C?84\xac\xc3\xb5(\xa7Dff\\B\xf5\xf4\xb0<\xb5\xf0\x7f\xbf\x00\x00\x00\x80\x90\xe3\x02Am\xedS?{"\x9a\xc4VM\xafD\x00\x00\\\xc2\x00\xd88=<\xbd\x7f?\x00\x00\x00\x007\xa1;A)\\\x8f>{"\x9a\xc4VM\xafD\x00\x00\\B\x00\xd88=<\xbd\x7f?\x00\x00\x00\x007\xa1;A\xecQ8?{"\x9a\xc4V\r\xaeD\x00\x00pB\x00\x00\x00\x80\x00\x00\x00\x00\x00\x00\x80?7\xa1;A\xc8\xc4C?{"\x9a\xc4V-\xacDff\\B\x00\xd88\xbd<\xbd\x7f\xbf\x00\x00\x00\x807\xa1;Am\xedS?{"\x9a\xc4VM\xafD\x00\x00\\\xc2\x00\xd88=<\xbd\x7f?\x00\x00\x00\x007\xa1;A)\\\x8f>{"\x9a\xc4VM\xafD\x00\x00\\B\x00\xd88=<\xbd\x7f?\x00\x00\x00\x007\xa1;A\xecQ8?{"\x9a\xc4V\r\xaeD\x00\x00pB\x00\x00\x00\x80\x00\x00\x00\x00\x00\x00\x80?\x0eE<A\xa4p=?{"\x9a\xc4V-\xacDff\\B\x00\xd88\xbd<\xbd\x7f\xbf\x00\x00\x00\x80\xd1:=A"l8?{"\x9a\xc4V-\xacD\x9a\x99[\xc2\x00\xd88\xbd<\xbd\x7f\xbf\x00\x00\x00\x80\xd1:=A\x96\x90\x8f>{"\x9a\xc4V\r\xaeD\x00\x00p\xc2\x00\x00\x00\x80\x00\x00\x00\x00\x00\x00\x80?\x0eE<A\xb8\x1e\x85> (192 @ 3a36)
+                u9 : \x00\x00\x04\x00\x05\x00\x00\x00\x03\x00\x04\x00\x00\x00\x01\x00\x03\x00\x01\x00\x02\x00\x03\x00\x06\x00\n\x00\x0b\x00\x07\x00\x06\x00\x0b\x00\x07\x00\x0b\x00\x0c\x00\x08\x00\x07\x00\x0c\x00\x08\x00\x0c\x00\r\x00\t\x00\x08\x00\r\x00\n\x00\x0e\x00\x0f\x00\x0b\x00\n\x00\x0f\x00\x0b\x00\x0f\x00\x10\x00\x0c\x00\x0b\x00\x10\x00\x0c\x00\x10\x00\x11\x00\r\x00\x0c\x00\x11\x00\x12\x00\x17\x00\x16\x00\x12\x00\x16\x00\x15\x00\x12\x00\x15\x00\x13\x00\x15\x00\x14\x00\x13\x00 (19a @ 3d3a)
+			}
+
+            u1 sub-sub-sub-block { (42 @ 3db4)
+
+                u0 : 20(08 @ 3db7)
+                u1 : 14(10 @ 3db9)
+
+                u2 sub-sub-sub-sub-block { (1a @ 3dbb)
+
+                    u0 : 4(08 @ 3dbd)
+                    u1 : 1(10 @ 3dbf)
+                    u2 : 2(18 @ 3dc1)
+                    u3 : 0(20 @ 3dc3)
+				}
+
+                u3 sub-sub-sub-sub-block { (22 @ 3dc5)
+
+                    u0 : 7(08 @ 3dc7)
+                    u1 : 3(10 @ 3dc9)
+                    u2 : 32(18 @ 3dcb)
+                    u3 : 0(20 @ 3dcd)
+				}
+
+                u4 sub-sub-sub-sub-block { (2a @ 3dcf)
+
+                    u0 : 7(08 @ 3dd1)
+                    u1 : 3(10 @ 3dd3)
+                    u2 : 32(18 @ 3dd5)
+                    u3 : 12(20 @ 3dd7)
+				}
+
+                u5 sub-sub-sub-sub-block { (32 @ 3dd9)
+
+                    u0 : 7(08 @ 3ddb)
+                    u1 : 2(10 @ 3ddd)
+                    u2 : 32(18 @ 3ddf)
+                    u3 : 24(20 @ 3de1)
+				}
+
+                u6 sub-sub-sub-sub-block { (52 @ 3de3)
+
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 3de5)
+
+                        w : 1.0 (0d @ 3de7)
+                        x : 1.0 (15 @ 3dec)
+                        y : 1.0 (1d @ 3df1)
+                        z : 1.0 (25 @ 3df6)
+					}
+
+                    u1 sub-sub-sub-sub-sub-block { (12 @ 3dfb)
+
+                        w : 1.0 (0d @ 3dfd)
+                        x : 1.0 (15 @ 3e02)
+                        y : 1.0 (1d @ 3e07)
+                        z : 1.0 (25 @ 3e0c)
+					}
+
+                    u2 sub-sub-sub-sub-sub-block { (1a @ 3e11)
+
+                        w : 1.0 (0d @ 3e13)
+                        x : 1.0 (15 @ 3e18)
+                        y : 1.0 (1d @ 3e1d)
+                        z : 1.0 (25 @ 3e22)
+					}
+                    u3 : 0.0 (25 @ 3e27)
+                    u4 : \n\x07ground3\x10\x01 \x01 (2a @ 3e2c)
+				}
+
+                u7 sub-sub-sub-sub-block { (5a @ 3e3b)
+
+                    u : -1575.9598388671875 (0d @ 3e3d)
+                    v : -235.63340759277344 (15 @ 3e42)
+                    w : -60.0 (1d @ 3e47)
+                    x : 325.1986083984375 (25 @ 3e4c)
+                    y : 126.19053649902344 (2d @ 3e51)
+                    z : 120.0 (35 @ 3e56)
+				}
+                u8 : \\X\x9c\xc4\xc0\xe2\xda\xc2\x00\x00\\\xc2K\x1f\x98\xbe\x88pt?\x00\x00\x00\x007\xa1;A)\\\x8f>\\X\x9c\xc4\xc0\xe2\xda\xc2\x00\x00\\BK\x1f\x98\xbe\x88pt?\x00\x00\x00\x007\xa1;A\xecQ8?\\X\x9c\xc4\xc0\xe2\xee\xc2\x00\x00pB\x00\x00\x00\x80\x00\x00\x00\x00\x00\x00\x80?`\xfd:A\xa4p=?\\X\x9c\xc4`q\x06\xc3ff\\BK\x1f\x98>\x88pt\xbf\x00\x00\x00\x80\x9e\x07:A"l8?\\X\x9c\xc4`q\x06\xc3\x9a\x99[\xc2K\x1f\x98>\x88pt\xbf\x00\x00\x00\x80\x9e\x07:A\x96\x90\x8f>\\X\x9c\xc4\xc0\xe2\xee\xc2\x00\x00p\xc2\x00\x00\x00\x80\x00\x00\x00\x00\x00\x00\x80?`\xfd:A\xb8\x1e\x85>\\X\x9c\xc4\xc0\xe2\xda\xc2\x00\x00\\\xc2K\x1f\x98\xbe\x88pt?\x00\x00\x00\x007\xa1;A)\\\x8f>\\X\x9c\xc4\xc0\xe2\xda\xc2\x00\x00\\BK\x1f\x98\xbe\x88pt?\x00\x00\x00\x007\xa1;A\xecQ8?\\X\x9c\xc4\xc0\xe2\xee\xc2\x00\x00pB\x00\x00\x00\x80\x00\x00\x00\x00\x00\x00\x80?7\xa1;A\xc8\xc4C?\\X\x9c\xc4`q\x06\xc3ff\\BK\x1f\x98>\x88pt\xbf\x00\x00\x00\x807\xa1;Am\xedS?\xb7\xfe\xc4\xc4\'\xa2R\xc3\x00\x00\\\xc2K\x1f\x98\xbe\x88pt?\x00\x00\x00\x00\x1a<QA)\\\x8f>\xb7\xfe\xc4\xc4\'\xa2R\xc3\x00\x00\\BK\x1f\x98\xbe\x88pt?\x00\x00\x00\x00\x1a<QA\xecQ8?\xb7\xfe\xc4\xc4\'\xa2\\\xc3\x00\x00pB\x00\x00\x00\x80\x00\x00\x00\x00\x00\x00\x80?\x1a<QA\xc8\xc4C?\xb7\xfe\xc4\xc4\'\xa2k\xc3ff\\BK\x1f\x98>\x88pt\xbf\x00\x00\x00\x80\x1a<QAm\xedS?\xb7\xfe\xc4\xc4\'\xa2R\xc3\x00\x00\\\xc2K\x1f\x98\xbe\x88pt?\x00\x00\x00\x00\x1a<QA)\\\x8f>\xb7\xfe\xc4\xc4\'\xa2R\xc3\x00\x00\\BK\x1f\x98\xbe\x88pt?\x00\x00\x00\x00\x1a<QA\xecQ8?\xb7\xfe\xc4\xc4\'\xa2\\\xc3\x00\x00pB\x00\x00\x00\x80\x00\x00\x00\x00\x00\x00\x80?\xf1\xdfQA\xa4p=?\xb7\xfe\xc4\xc4\'\xa2k\xc3ff\\BK\x1f\x98>\x88pt\xbf\x00\x00\x00\x80\xb3\xd5RA"l8?\xb7\xfe\xc4\xc4\'\xa2k\xc3\x9a\x99[\xc2K\x1f\x98>\x88pt\xbf\x00\x00\x00\x80\xb3\xd5RA\x96\x90\x8f>\xb7\xfe\xc4\xc4\'\xa2\\\xc3\x00\x00p\xc2\x00\x00\x00\x80\x00\x00\x00\x00\x00\x00\x80?\xf1\xdfQA\xb8\x1e\x85> (192 @ 3e5c)
+                u9 : \x00\x00\x04\x00\x05\x00\x00\x00\x03\x00\x04\x00\x00\x00\x01\x00\x03\x00\x01\x00\x02\x00\x03\x00\x06\x00\n\x00\x0b\x00\x07\x00\x06\x00\x0b\x00\x07\x00\x0b\x00\x0c\x00\x08\x00\x07\x00\x0c\x00\x08\x00\x0c\x00\r\x00\t\x00\x08\x00\r\x00\x0e\x00\x13\x00\x12\x00\x0e\x00\x12\x00\x11\x00\x0e\x00\x11\x00\x0f\x00\x11\x00\x10\x00\x0f\x00 (19a @ 40e0)
+			}
+
+            u1 sub-sub-sub-block { (42 @ 4136)
+
+                u0 : 16(08 @ 4139)
+                u1 : 12(10 @ 413b)
+
+                u2 sub-sub-sub-sub-block { (1a @ 413d)
+
+                    u0 : 4(08 @ 413f)
+                    u1 : 1(10 @ 4141)
+                    u2 : 2(18 @ 4143)
+                    u3 : 0(20 @ 4145)
+				}
+
+                u3 sub-sub-sub-sub-block { (22 @ 4147)
+
+                    u0 : 7(08 @ 4149)
+                    u1 : 3(10 @ 414b)
+                    u2 : 32(18 @ 414d)
+                    u3 : 0(20 @ 414f)
+				}
+
+                u4 sub-sub-sub-sub-block { (2a @ 4151)
+
+                    u0 : 7(08 @ 4153)
+                    u1 : 3(10 @ 4155)
+                    u2 : 32(18 @ 4157)
+                    u3 : 12(20 @ 4159)
+				}
+
+                u5 sub-sub-sub-sub-block { (32 @ 415b)
+
+                    u0 : 7(08 @ 415d)
+                    u1 : 2(10 @ 415f)
+                    u2 : 32(18 @ 4161)
+                    u3 : 24(20 @ 4163)
+				}
+
+                u6 sub-sub-sub-sub-block { (52 @ 4165)
+
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 4167)
+
+                        w : 1.0 (0d @ 4169)
+                        x : 1.0 (15 @ 416e)
+                        y : 1.0 (1d @ 4173)
+                        z : 1.0 (25 @ 4178)
+					}
+
+                    u1 sub-sub-sub-sub-sub-block { (12 @ 417d)
+
+                        w : 1.0 (0d @ 417f)
+                        x : 1.0 (15 @ 4184)
+                        y : 1.0 (1d @ 4189)
+                        z : 1.0 (25 @ 418e)
+					}
+
+                    u2 sub-sub-sub-sub-sub-block { (1a @ 4193)
+
+                        w : 1.0 (0d @ 4195)
+                        x : 1.0 (15 @ 419a)
+                        y : 1.0 (1d @ 419f)
+                        z : 1.0 (25 @ 41a4)
+					}
+                    u3 : 0.0 (25 @ 41a9)
+                    u4 : \n\x10florennum_ground\x10\x01 \x01 (2a @ 41ae)
+				}
+
+                u7 sub-sub-sub-sub-block { (5a @ 41c6)
+
+                    u : -1573.0953369140625 (0d @ 41c8)
+                    v : -1462.847412109375 (15 @ 41cd)
+                    w : -50.0 (1d @ 41d2)
+                    x : 3146.190673828125 (25 @ 41d7)
+                    y : 2925.69482421875 (2d @ 41dc)
+                    z : 100.0 (35 @ 41e1)
+				}
+                u8 : \x94\xc2\x99\xc4\x01I\xafD\x00\x00H\xc2\x86\xf9\x7f\xbfUOf<\x00\x00\x00\x00\x00\x00\x00?\x9a\x99\x99>\x94\xc2\x99\xc4\x01I\xafD\x00\x00HB\x86\xf9\x7f\xbfUOf<\x00\x00\x00\x00\x00\x00\x00?333?\xfc4\x9c\xc4\x80\xc4\x1dA\x00\x00H\xc2\xdd\xf9\x7f\xbfy\x1d`<\x00\x00\x00\x00[?\xc2@\x9a\x99\x99>\xfc4\x9c\xc4\x80\xc4\x1dA\x00\x00HB\xdd\xf9\x7f\xbfy\x1d`<\x00\x00\x00\x00[?\xc2@333?\\X\x9c\xc4\xc0\xe2\xda\xc2\x00\x00H\xc20\xfd\x7f\xbf\xe4\xce\x17<\x00\x00\x00\x00\xdb\x84\xd1@\x9a\x99\x99>\\X\x9c\xc4\xc0\xe2\xda\xc2\x00\x00HB0\xfd\x7f\xbf\xe4\xce\x17<\x00\x00\x00\x00\xdb\x84\xd1@333?\r\xa3\xc4\xc4\xf8\xbdQ\xc3\x00\x00H\xc2\xb2Hy\xbf\xd4\x03i\xbe\x00\x00\x00\x00\xdb\x84\xd1@\x9a\x99\x99>\r\xa3\xc4\xc4\xf8\xbdQ\xc3\x00\x00HB\xb2Hy\xbf\xd4\x03i\xbe\x00\x00\x00\x00\xdb\x84\xd1@333?d\xf9\xa0\xc4\x1b\xd4\xb2\xc4\x00\x00H\xc2\x8b\xec-\xbf\xcb\xd8;\xbf\x00\x00\x00\x00V\x009A\x9a\x99\x99>d\xf9\xa0\xc4\x1b\xd4\xb2\xc4\x00\x00HB\x8b\xec-\xbf\xcb\xd8;\xbf\x00\x00\x00\x00V\x009A333?`\xa3\x97\xc39.\xad\xc4\x00\x00H\xc2\x04\x1e9\xbc\xd1\xfb\x7f\xbf\x00\x00\x00\x00\xa4\x13xA\x9a\x99\x99>`\xa3\x97\xc39.\xad\xc4\x00\x00HB\x04\x1e9\xbc\xd1\xfb\x7f\xbf\x00\x00\x00\x00\xa4\x13xA333?\x93s\xc3D\x1e\xdb\xb6\xc4\x00\x00H\xc2\xde\xc7U?\x1f\xd5\x0c\xbf\x00\x00\x00\x00\x81\xd4\xb7A\x9a\x99\x99>\x93s\xc3D\x1e\xdb\xb6\xc4\x00\x00HB\xde\xc7U?\x1f\xd5\x0c\xbf\x00\x00\x00\x00\x81\xd4\xb7A333?\r\xa3\xc4D\x1e\xdb\xb6D\x00\x00H\xc2\xa8\xff\x7f?\x14oT\xbb\x00\x00\x00\x00\xf6\xb9\nB\x9a\x99\x99>\r\xa3\xc4D\x1e\xdb\xb6D\x00\x00HB\xa8\xff\x7f?\x14oT\xbb\x00\x00\x00\x00\xf6\xb9\nB333? (192 @ 41e7)
+                u9 : \x00\x00\x02\x00\x03\x00\x01\x00\x00\x00\x03\x00\x02\x00\x04\x00\x05\x00\x03\x00\x02\x00\x05\x00\x06\x00\x08\x00\t\x00\x07\x00\x06\x00\t\x00\x08\x00\n\x00\x0b\x00\t\x00\x08\x00\x0b\x00\n\x00\x0c\x00\r\x00\x0b\x00\n\x00\r\x00\x0c\x00\x0e\x00\x0f\x00\r\x00\x0c\x00\x0f\x00 (19a @ 43eb)
+			}
+
+            u2 sub-sub-sub-block { (4a @ 4435)
+
+                u0 : 21(08 @ 4438)
+                u1 : 7(10 @ 443a)
+
+                u2 sub-sub-sub-sub-block { (22 @ 443c)
+
+                    u0 : 7(08 @ 443e)
+                    u1 : 3(10 @ 4440)
+                    u2 : 32(18 @ 4442)
+                    u3 : 0(20 @ 4444)
+				}
+
+                u3 sub-sub-sub-sub-block { (2a @ 4446)
+
+                    u0 : 7(08 @ 4448)
+                    u1 : 3(10 @ 444a)
+                    u2 : 32(18 @ 444c)
+                    u3 : 12(20 @ 444e)
+				}
+
+                u4 sub-sub-sub-sub-block { (32 @ 4450)
+
+                    u0 : 7(08 @ 4452)
+                    u1 : 2(10 @ 4454)
+                    u2 : 32(18 @ 4456)
+                    u3 : 24(20 @ 4458)
+				}
+
+                u5 sub-sub-sub-sub-block { (52 @ 445a)
+
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 445c)
+
+                        w : 1.0 (0d @ 445e)
+                        x : 1.0 (15 @ 4463)
+                        y : 1.0 (1d @ 4468)
+                        z : 1.0 (25 @ 446d)
+					}
+
+                    u1 sub-sub-sub-sub-sub-block { (12 @ 4472)
+
+                        w : 1.0 (0d @ 4474)
+                        x : 1.0 (15 @ 4479)
+                        y : 1.0 (1d @ 447e)
+                        z : 1.0 (25 @ 4483)
+					}
+
+                    u2 sub-sub-sub-sub-sub-block { (1a @ 4488)
+
+                        w : 1.0 (0d @ 448a)
+                        x : 1.0 (15 @ 448f)
+                        y : 1.0 (1d @ 4494)
+                        z : 1.0 (25 @ 4499)
+					}
+                    u3 : 0.0 (25 @ 449e)
+
+                    u4 sub-sub-sub-sub-sub-block { (2a @ 44a3)
+
+                        u0 : florennum_ground (0a @ 44a5)
+                        u1 : 1(10 @ 44b7)
+                        u2 : 1(20 @ 44b9)
+					}
+				}
+
+                u3 sub-sub-sub-sub-block { (5a @ 44bb)
+
+                    u : -1573.0953369140625 (0d @ 44bd)
+                    v : -1462.847412109375 (15 @ 44c2)
+                    w : 50.0 (1d @ 44c7)
+                    x : 3146.190673828125 (25 @ 44cc)
+                    y : 2925.69482421875 (2d @ 44d1)
+                    z : 0.0 (35 @ 44d6)
+				}
+                u7 : d\xf9\xa0\xc4\x1b\xd4\xb2\xc4\x00\x00HB\x00\x00\x00\x00\x00\x00\x00\x80\xff\xff\x7f?j\xd6\x94\xc0\xd4\x1e\xa7\xc0\\X\x9c\xc4\xc0\xe2\xda\xc2\x00\x00HB\x00\x00\x00\x00\x00\x00\x00\x80\xff\xff\x7f?\xf2\x18\x90\xc0P\xe3~=\r\xa3\xc4\xc4\xf8\xbdQ\xc3\x00\x00HB\x00\x00\x00\x00\x00\x00\x00\x80\xff\xff\x7f?0[\xb9\xc0@\x8d\xad\xbe`\xa3\x97\xc39.\xad\xc4\x00\x00HB\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x80?\x14\x8e6\xbf>V\xa1\xc084\xac\xc3\xb5H\xaaD\x00\x00HB\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x80?z\xac`\xbf\xef^\xbe@\x94\xc2\x99\xc4\x01I\xafD\x00\x00HB\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x80?Hs\x8d\xc0\xf5}\xc3@`\xa3\x97\xc39.\xad\xc4\x00\x00HB\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x80?\x14\x8e6\xbf>V\xa1\xc0\x94\xc2\x99\xc4\x01I\xafD\x00\x00HB\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x80?Hs\x8d\xc0\xf5}\xc3@\xfc4\x9c\xc4\x80\xc4\x1dA\x00\x00HB\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x80?\xb8\xf4\x8f\xc0\xdd\x18\n?`\xa3\x97\xc39.\xad\xc4\x00\x00HB\x00\x00\x00\x00\x00\x00\x00\x00\xff\xff\x7f?\x14\x8e6\xbf>V\xa1\xc0\xfc4\x9c\xc4\x80\xc4\x1dA\x00\x00HB\x00\x00\x00\x00\x00\x00\x00\x00\xff\xff\x7f?\xb8\xf4\x8f\xc0\xdd\x18\n?\\X\x9c\xc4\xc0\xe2\xda\xc2\x00\x00HB\x00\x00\x00\x00\x00\x00\x00\x00\xff\xff\x7f?\xf2\x18\x90\xc0P\xe3~=`\xa3\x97\xc39.\xad\xc4\x00\x00HB\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x80?\x14\x8e6\xbf>V\xa1\xc0\\X\x9c\xc4\xc0\xe2\xda\xc2\x00\x00HB\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x80?\xf2\x18\x90\xc0P\xe3~=d\xf9\xa0\xc4\x1b\xd4\xb2\xc4\x00\x00HB\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x80?j\xd6\x94\xc0\xd4\x1e\xa7\xc084\xac\xc3\xb5H\xaaD\x00\x00HB\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x80?z\xac`\xbf\xef^\xbe@`\xa3\x97\xc39.\xad\xc4\x00\x00HB\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x80?\x14\x8e6\xbf>V\xa1\xc0\x93s\xc3D\x1e\xdb\xb6\xc4\x00\x00HB\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x80?n$\xd8@\x96>\xab\xc084\xac\xc3\xb5H\xaaD\x00\x00HB\x00\x00\x00\x80\x00\x00\x00\x00\x00\x00\x80?z\xac`\xbf\xef^\xbe@\x93s\xc3D\x1e\xdb\xb6\xc4\x00\x00HB\x00\x00\x00\x80\x00\x00\x00\x00\x00\x00\x80?n$\xd8@\x96>\xab\xc0\r\xa3\xc4D\x1e\xdb\xb6D\x00\x00HB\x00\x00\x00\x80\x00\x00\x00\x00\x00\x00\x80?0[\xd9@\x96>\xcb@ (192 @ 44dc)
+			}
+
+            u3 sub-sub-sub-block { (52 @ 477f)
+
+                w : 0.12380953133106232 (0d @ 4781)
+                x : 0.11428571492433548 (15 @ 4786)
+                y : 0.10952380299568176 (1d @ 478b)
+                z : 1.0 (25 @ 4790)
+			}
+		}
+	}
+
+    component sub-block { (1a @ 4795)
+
+        component type : GroundMeshGenerator (0a @ 4797)
+        number : 102(10 @ 47ac)
+
+        ground mesh generator sub-sub-block { (382 @ 47af)
+
+            ground polygon : 100(08 @ 47b1)
+            ground mesh : 101(10 @ 47b3)
+            texture mapping 1 : 103(18 @ 47b5)
+            texture mapping 2 : 104(20 @ 47b7)
+            u4 : 0(28 @ 47b9)
+            u5 : 0.0 (35 @ 47bb)
+            u6 : 1(38 @ 47c0)
+            u7 : 100.0 (45 @ 47c2)
+            u8 : 25.0 (4d @ 47c7)
+            u9 : 5.0 (55 @ 47cc)
+            u10 : 5.0 (5d @ 47d1)
+		}
+	}
+
+    component sub-block { (1a @ 47d6)
+
+        component type : TextureMapping (0a @ 47d8)
+        number : 103(10 @ 47e8)
+
+        texture mapping sub-sub-block { (38a @ 47eb)
+
+            texture file : florennum_ground (0a @ 47ed)
+            u0 : 250.0 (15 @ 47ff)
+
+            u0 sub-sub-sub-block { (1a @ 4804)
+
+                u1 : 0.0 (0d @ 4806)
+                u2 : 0.0 (15 @ 480b)
+			}
+		}
+	}
+
+    component sub-block { (1a @ 4810)
+
+        component type : TextureMapping (0a @ 4812)
+        number : 104(10 @ 4822)
+
+        texture mapping sub-sub-block { (38a @ 4825)
+
+            texture file : ground3 (0a @ 4827)
+            u0 : 250.0 (15 @ 4830)
+
+            u0 sub-sub-sub-block { (1a @ 4835)
+
+                u1 : 0.0 (0d @ 4837)
+                u2 : 0.0 (15 @ 483c)
+			}
+		}
+	}
+
+    component sub-block { (1a @ 4841)
+
+        component type : CollisionShape (0a @ 4844)
+        number : 105(10 @ 4854)
+        ? linked component : 100(20 @ 4856)
+
+        collision shape sub-sub-block { (3c2 @ 4859)
+
+
+            u2 sub-sub-sub-block { (1a @ 485b)
+
+
+                u0 sub-sub-sub-sub-block { (0a @ 485d)
+
+                    y : -1287.79345703125 (0d @ 485f)
+                    z : -1430.6282958984375 (15 @ 4864)
+				}
+
+                u0 sub-sub-sub-sub-block { (0a @ 4869)
+
+                    y : -303.2763671875 (0d @ 486b)
+                    z : -1385.4444580078125 (15 @ 4870)
+				}
+
+                u0 sub-sub-sub-sub-block { (0a @ 4875)
+
+                    y : 1563.6116943359375 (0d @ 4877)
+                    z : -1462.847412109375 (15 @ 487c)
+				}
+
+                u0 sub-sub-sub-sub-block { (0a @ 4881)
+
+                    y : 1573.0953369140625 (0d @ 4883)
+                    z : 1462.847412109375 (15 @ 4888)
+				}
+
+                u0 sub-sub-sub-sub-block { (0a @ 488d)
+
+                    y : -344.407958984375 (0d @ 488f)
+                    z : 1362.2720947265625 (15 @ 4894)
+				}
+
+                u0 sub-sub-sub-sub-block { (0a @ 4899)
+
+                    y : -1230.08056640625 (0d @ 489b)
+                    z : 1402.2813720703125 (15 @ 48a0)
+				}
+
+                u0 sub-sub-sub-sub-block { (0a @ 48a5)
+
+                    y : -1249.65576171875 (0d @ 48a7)
+                    z : 9.8604736328125 (15 @ 48ac)
+				}
+
+                u0 sub-sub-sub-sub-block { (0a @ 48b1)
+
+                    y : -1250.76123046875 (0d @ 48b3)
+                    z : -109.44287109375 (15 @ 48b8)
+				}
+
+                u0 sub-sub-sub-sub-block { (0a @ 48bd)
+
+                    y : -1573.0953369140625 (0d @ 48bf)
+                    z : -209.7420654296875 (15 @ 48c4)
+				}
+                u3 : 0(10 @ 48c9)
+                u4 : 1(18 @ 48cb)
+			}
+		}
+
+        collision shape 2 sub-sub-block { (3ca @ 48ce)
+
+            u0 : 1(10 @ 48d0)
+            w : -55.0 (35 @ 48d2)
+            x : 55.0 (3d @ 48d7)
+            z : 1(58 @ 48dc)
+		}
+	}
+
+    position sub-block { (22 @ 48de)
+
+        x position : 250.84857177734375 (0d @ 48e0)
+        y position : 178.37945556640625 (15 @ 48e5)
+	}
+    z position : -598.3671875 (2d @ 48ea)
+    rotation : 0.0 (35 @ 48ef)
+    scale : 1.0 (3d @ 48f4)
+
+    u2 sub-block { (42 @ 48f9)
+
+        w : -1573.0953369140625 (0d @ 48fb)
+        x : -1462.847412109375 (15 @ 4900)
+        y : 3146.1904296875 (1d @ 4905)
+        z : 2925.69482421875 (25 @ 490a)
+	}
+    hidden : 0(48 @ 490f)
+}
+
+object block { (0a @ 4911)
+
+    name : shop_torch (0a @ 4914)
+    identifier : obj3#5 (12 @ 4920)
+
+    component sub-block { (1a @ 4928)
+
+        component type : Model (0a @ 492a)
+        number : 1(10 @ 4931)
+
+        3D model sub-sub-block { (32a @ 4934)
+
+            name : grove_torch (0a @ 4936)
+            u0 : 4.71238899230957 (15 @ 4943)
+            u1 : 0.5 (1d @ 4948)
+            u2 : 0.0 (25 @ 494d)
+
+            u3 sub-sub-sub-block { (2a @ 4952)
+
+                w : 0.0 (0d @ 4954)
+                x : 0.0 (15 @ 4959)
+                y : 0.0 (1d @ 495e)
+                z : 1.0 (25 @ 4963)
+			}
+
+            u4 sub-sub-sub-block { (32 @ 4968)
+
+                x : 0.0 (0d @ 496a)
+                y : 0.0 (15 @ 496f)
+                z : 0.0 (1d @ 4974)
+			}
+            u5 : 0(38 @ 4979)
+
+            u6 sub-sub-sub-block { (42 @ 497b)
+
+                w : 1.0 (0d @ 497d)
+                x : 1.0 (15 @ 4982)
+                y : 1.0 (1d @ 4987)
+                z : 1.0 (25 @ 498c)
+			}
+		}
+	}
+
+    position sub-block { (22 @ 4991)
+
+        x position : 16.61042022705078 (0d @ 4993)
+        y position : 250.3374786376953 (15 @ 4998)
+	}
+    z position : 129.9084930419922 (2d @ 499d)
+    rotation : 0.0 (35 @ 49a2)
+    scale : 1.0 (3d @ 49a7)
+
+    u2 sub-block { (42 @ 49ac)
+
+        w : -50.0 (0d @ 49ae)
+        x : -50.0 (15 @ 49b3)
+        y : 100.0 (1d @ 49b8)
+        z : 131.89849853515625 (25 @ 49bd)
+	}
+    hidden : 0(48 @ 49c2)
+}
+
+object block { (0a @ 49c4)
+
+    name : shop_torch (0a @ 49c7)
+    identifier : obj3#6 (12 @ 49d3)
+
+    component sub-block { (1a @ 49db)
+
+        component type : Model (0a @ 49dd)
+        number : 1(10 @ 49e4)
+
+        3D model sub-sub-block { (32a @ 49e7)
+
+            name : grove_torch (0a @ 49e9)
+            u0 : 4.71238899230957 (15 @ 49f6)
+            u1 : 0.5 (1d @ 49fb)
+            u2 : 0.0 (25 @ 4a00)
+
+            u3 sub-sub-sub-block { (2a @ 4a05)
+
+                w : 0.0 (0d @ 4a07)
+                x : 0.0 (15 @ 4a0c)
+                y : 0.0 (1d @ 4a11)
+                z : 1.0 (25 @ 4a16)
+			}
+
+            u4 sub-sub-sub-block { (32 @ 4a1b)
+
+                x : 0.0 (0d @ 4a1d)
+                y : 0.0 (15 @ 4a22)
+                z : 0.0 (1d @ 4a27)
+			}
+            u5 : 0(38 @ 4a2c)
+
+            u6 sub-sub-sub-block { (42 @ 4a2e)
+
+                w : 1.0 (0d @ 4a30)
+                x : 1.0 (15 @ 4a35)
+                y : 1.0 (1d @ 4a3a)
+                z : 1.0 (25 @ 4a3f)
+			}
+		}
+	}
+
+    position sub-block { (22 @ 4a44)
+
+        x position : 217.96607971191406 (0d @ 4a46)
+        y position : 250.3374786376953 (15 @ 4a4b)
+	}
+    z position : 129.9084930419922 (2d @ 4a50)
+    rotation : 0.0 (35 @ 4a55)
+    scale : 1.0 (3d @ 4a5a)
+
+    u2 sub-block { (42 @ 4a5f)
+
+        w : -50.0 (0d @ 4a61)
+        x : -50.0 (15 @ 4a66)
+        y : 100.0 (1d @ 4a6b)
+        z : 131.89849853515625 (25 @ 4a70)
+	}
+    hidden : 0(48 @ 4a75)
+}
+
+object block { (0a @ 4a77)
+
+    name : shop_torch (0a @ 4a79)
+    identifier : obj3#7 (12 @ 4a85)
+
+    position sub-block { (22 @ 4a8d)
+
+        x position : -299.06866455078125 (0d @ 4a8f)
+        y position : 213.19644165039062 (15 @ 4a94)
+	}
+    z position : -1.269134521484375 (2d @ 4a99)
+    rotation : 0.0 (35 @ 4a9e)
+    scale : 1.0 (3d @ 4aa3)
+
+    u2 sub-block { (42 @ 4aa8)
+
+        w : -50.0 (0d @ 4aaa)
+        x : -50.0 (15 @ 4aaf)
+        y : 100.0 (1d @ 4ab4)
+        z : 131.89849853515625 (25 @ 4ab9)
+	}
+    hidden : 0(48 @ 4abe)
+}
+
+object block { (0a @ 4ac0)
+
+    name : shop_torch (0a @ 4ac3)
+    identifier : obj3#8 (12 @ 4acf)
+
+    component sub-block { (1a @ 4ad7)
+
+        component type : Model (0a @ 4ad9)
+        number : 1(10 @ 4ae0)
+
+        3D model sub-sub-block { (32a @ 4ae3)
+
+            name : grove_torch (0a @ 4ae5)
+            u0 : 4.71238899230957 (15 @ 4af2)
+            u1 : 0.5 (1d @ 4af7)
+            u2 : 0.0 (25 @ 4afc)
+
+            u3 sub-sub-sub-block { (2a @ 4b01)
+
+                w : 0.0 (0d @ 4b03)
+                x : 0.0 (15 @ 4b08)
+                y : 0.0 (1d @ 4b0d)
+                z : 1.0 (25 @ 4b12)
+			}
+
+            u4 sub-sub-sub-block { (32 @ 4b17)
+
+                x : 0.0 (0d @ 4b19)
+                y : 0.0 (15 @ 4b1e)
+                z : 0.0 (1d @ 4b23)
+			}
+            u5 : 0(38 @ 4b28)
+
+            u6 sub-sub-sub-block { (42 @ 4b2a)
+
+                w : 1.0 (0d @ 4b2c)
+                x : 1.0 (15 @ 4b31)
+                y : 1.0 (1d @ 4b36)
+                z : 1.0 (25 @ 4b3b)
+			}
+		}
+	}
+
+    position sub-block { (22 @ 4b40)
+
+        x position : 403.57586669921875 (0d @ 4b42)
+        y position : 250.3374786376953 (15 @ 4b47)
+	}
+    z position : 129.9084930419922 (2d @ 4b4c)
+    rotation : 0.0 (35 @ 4b51)
+    scale : 1.0 (3d @ 4b56)
+
+    u2 sub-block { (42 @ 4b5b)
+
+        w : -50.0 (0d @ 4b5d)
+        x : -50.0 (15 @ 4b62)
+        y : 100.0 (1d @ 4b67)
+        z : 131.89849853515625 (25 @ 4b6c)
+	}
+    hidden : 0(48 @ 4b71)
+}
+
+object block { (0a @ 4b73)
+
+    name : shop_torch (0a @ 4b76)
+    identifier : obj3#9 (12 @ 4b82)
+
+    component sub-block { (1a @ 4b8a)
+
+        component type : Model (0a @ 4b8c)
+        number : 1(10 @ 4b93)
+
+        3D model sub-sub-block { (32a @ 4b96)
+
+            name : grove_torch (0a @ 4b98)
+            u0 : 4.71238899230957 (15 @ 4ba5)
+            u1 : 0.5 (1d @ 4baa)
+            u2 : 0.0 (25 @ 4baf)
+
+            u3 sub-sub-sub-block { (2a @ 4bb4)
+
+                w : 0.0 (0d @ 4bb6)
+                x : 0.0 (15 @ 4bbb)
+                y : 0.0 (1d @ 4bc0)
+                z : 1.0 (25 @ 4bc5)
+			}
+
+            u4 sub-sub-sub-block { (32 @ 4bca)
+
+                x : 0.0 (0d @ 4bcc)
+                y : 0.0 (15 @ 4bd1)
+                z : 0.0 (1d @ 4bd6)
+			}
+            u5 : 0(38 @ 4bdb)
+
+            u6 sub-sub-sub-block { (42 @ 4bdd)
+
+                w : 1.0 (0d @ 4bdf)
+                x : 1.0 (15 @ 4be4)
+                y : 1.0 (1d @ 4be9)
+                z : 1.0 (25 @ 4bee)
+			}
+		}
+	}
+
+    position sub-block { (22 @ 4bf3)
+
+        x position : 611.154052734375 (0d @ 4bf5)
+        y position : 250.3374786376953 (15 @ 4bfa)
+	}
+    z position : 129.9084930419922 (2d @ 4bff)
+    rotation : 0.0 (35 @ 4c04)
+    scale : 1.0 (3d @ 4c09)
+
+    u2 sub-block { (42 @ 4c0e)
+
+        w : -50.0 (0d @ 4c10)
+        x : -50.0 (15 @ 4c15)
+        y : 100.0 (1d @ 4c1a)
+        z : 131.89849853515625 (25 @ 4c1f)
+	}
+    hidden : 0(48 @ 4c24)
+}
+
+object block { (0a @ 4c26)
+
+    name : Template 1 (0a @ 4c29)
+    identifier : obj4 (12 @ 4c35)
+
+    component sub-block { (1a @ 4c3b)
+
+        component type : Model (0a @ 4c3d)
+        number : 101(10 @ 4c44)
+
+        3D model sub-sub-block { (32a @ 4c47)
+
+            name : carpet1 (0a @ 4c49)
+            u0 : 0.0 (15 @ 4c52)
+            u1 : 0.20000000298023224 (1d @ 4c57)
+            u2 : 0.0 (25 @ 4c5c)
+
+            u3 sub-sub-sub-block { (2a @ 4c61)
+
+                w : 0.0 (0d @ 4c63)
+                x : 0.0 (15 @ 4c68)
+                y : 0.0 (1d @ 4c6d)
+                z : 1.0 (25 @ 4c72)
+			}
+
+            u4 sub-sub-sub-block { (32 @ 4c77)
+
+                x : 0.0 (0d @ 4c79)
+                y : 0.0 (15 @ 4c7e)
+                z : 0.0 (1d @ 4c83)
+			}
+            u5 : 0(38 @ 4c88)
+
+            u6 sub-sub-sub-block { (42 @ 4c8a)
+
+                w : 1.0 (0d @ 4c8c)
+                x : 1.0 (15 @ 4c91)
+                y : 1.0 (1d @ 4c96)
+                z : 1.0 (25 @ 4c9b)
+			}
+		}
+	}
+
+    position sub-block { (22 @ 4ca0)
+
+        x position : 229.09310913085938 (0d @ 4ca2)
+        y position : 118.04256439208984 (15 @ 4ca7)
+	}
+    z position : 0.0 (2d @ 4cac)
+    rotation : 0.0 (35 @ 4cb1)
+    scale : 1.0 (3d @ 4cb6)
+
+    u2 sub-block { (42 @ 4cbb)
+
+        w : -128.824951171875 (0d @ 4cbd)
+        x : 0.0 (15 @ 4cc2)
+        y : 258.7838439941406 (1d @ 4cc7)
+        z : 1.204187035560608 (25 @ 4ccc)
+	}
+    hidden : 0(48 @ 4cd1)
+}
+
+object block { (0a @ 4cd3)
+
+    name : Template 1 (0a @ 4cd6)
+    identifier : obj4#2 (12 @ 4ce2)
+
+    component sub-block { (1a @ 4cea)
+
+        component type : Model (0a @ 4cec)
+        number : 101(10 @ 4cf3)
+
+        3D model sub-sub-block { (32a @ 4cf6)
+
+            name : carpet1 (0a @ 4cf8)
+            u0 : 0.0 (15 @ 4d01)
+            u1 : 0.20000000298023224 (1d @ 4d06)
+            u2 : 0.0 (25 @ 4d0b)
+
+            u3 sub-sub-sub-block { (2a @ 4d10)
+
+                w : 0.0 (0d @ 4d12)
+                x : 0.0 (15 @ 4d17)
+                y : 0.0 (1d @ 4d1c)
+                z : 1.0 (25 @ 4d21)
+			}
+
+            u4 sub-sub-sub-block { (32 @ 4d26)
+
+                x : 0.0 (0d @ 4d28)
+                y : 0.0 (15 @ 4d2d)
+                z : 0.0 (1d @ 4d32)
+			}
+            u5 : 0(38 @ 4d37)
+
+            u6 sub-sub-sub-block { (42 @ 4d39)
+
+                w : 1.0 (0d @ 4d3b)
+                x : 1.0 (15 @ 4d40)
+                y : 1.0 (1d @ 4d45)
+                z : 1.0 (25 @ 4d4a)
+			}
+		}
+	}
+
+    position sub-block { (22 @ 4d4f)
+
+        x position : -251.9095458984375 (0d @ 4d51)
+        y position : 118.07052612304688 (15 @ 4d56)
+	}
+    z position : 0.0 (2d @ 4d5b)
+    rotation : 0.0 (35 @ 4d60)
+    scale : 1.0 (3d @ 4d65)
+
+    u2 sub-block { (42 @ 4d6a)
+
+        w : -128.824951171875 (0d @ 4d6c)
+        x : 0.0 (15 @ 4d71)
+        y : 258.7838439941406 (1d @ 4d76)
+        z : 1.204187035560608 (25 @ 4d7b)
+	}
+    hidden : 0(48 @ 4d80)
+}
+
+object block { (0a @ 4d82)
+
+    identifier : obj5#3 (12 @ 4d84)
+
+    component sub-block { (1a @ 4d8c)
+
+        component type : Sprite (0a @ 4d8e)
+        number : 101(10 @ 4d96)
+
+        sprite sub-sub-block { (322 @ 4d99)
+
+		}
+	}
+
+    position sub-block { (22 @ 4d9b)
+
+        x position : 314.79754638671875 (0d @ 4d9d)
+        y position : 223.25537109375 (15 @ 4da2)
+	}
+    z position : -73.69035339355469 (2d @ 4da7)
+    rotation : 0.0 (35 @ 4dac)
+    scale : 1.0 (3d @ 4db1)
+
+    u2 sub-block { (42 @ 4db6)
+
+        w : -0.0 (0d @ 4db8)
+        x : -0.0 (15 @ 4dbd)
+        y : 0.0 (1d @ 4dc2)
+        z : 0.0 (25 @ 4dc7)
+	}
+    hidden : 0(48 @ 4dcc)
+}
+
+object block { (0a @ 4dce)
+
+    name : npc_shopkeeper (0a @ 4dd1)
+    identifier : shopkeeper (12 @ 4de1)
+
+    component sub-block { (1a @ 4ded)
+
+        component type : Model (0a @ 4def)
+        number : 101(10 @ 4df6)
+
+        3D model sub-sub-block { (32a @ 4df9)
+
+            name : npc_male2 (0a @ 4dfb)
+            u0 : 2.356194496154785 (15 @ 4e06)
+            u1 : 0.0 (1d @ 4e0b)
+            u2 : 0.0 (25 @ 4e10)
+
+            u3 sub-sub-sub-block { (2a @ 4e15)
+
+                w : 0.0 (0d @ 4e17)
+                x : 0.0 (15 @ 4e1c)
+                y : 0.0 (1d @ 4e21)
+                z : 1.0 (25 @ 4e26)
+			}
+
+            u4 sub-sub-sub-block { (32 @ 4e2b)
+
+                x : 0.0 (0d @ 4e2d)
+                y : 0.0 (15 @ 4e32)
+                z : 0.0 (1d @ 4e37)
+			}
+            u5 : 0(38 @ 4e3c)
+
+            u6 sub-sub-sub-block { (42 @ 4e3e)
+
+                w : 1.0 (0d @ 4e40)
+                x : 1.0 (15 @ 4e45)
+                y : 1.0 (1d @ 4e4a)
+                z : 1.0 (25 @ 4e4f)
+			}
+		}
+	}
+
+    component sub-block { (1a @ 4e54)
+
+        component type : CollisionShape (0a @ 4e57)
+        number : 108(10 @ 4e67)
+
+        collision shape sub-sub-block { (3c2 @ 4e6a)
+
+
+            u0 sub-sub-sub-block { (0a @ 4e6c)
+
+                w : -60.0 (0d @ 4e6e)
+                x : -10.0 (15 @ 4e73)
+                y : 120.0 (1d @ 4e78)
+                z : 20.0 (25 @ 4e7d)
+			}
+		}
+
+        collision shape 2 sub-sub-block { (3ca @ 4e83)
+
+            w : -50.0 (35 @ 4e86)
+            x : 50.0 (3d @ 4e8b)
+
+            lua chunk sub-sub-sub-block { (4a @ 4e90)
+
+                main chunk : chunk >
+
+                === lua =============
+                local self, target = ...;
+                
+                if target:identifier() == "hero" then
+                	local text;
+                
+                	if Entity.GetFacingDirection(target) == 1 then
+                		text = "Hello, hope they don\'t find my shop.";
+                	else
+                		text = "Come back later to see if there is anything new!";
+                	end
+                
+                	ShowTextBubble(self:identifier() .. "_bubble", self:position() + Vector3.New(13, 27, 0), text);
+                end
+
+                =====================
+                secondary chunk : \x1bLuaQ\x00\x01\x04\x04\x04\x08\x00j\x01\x00\x00local self, target = ...;\r\n\r\nif target:identifier() == "hero" then\r\n\tlocal text;\r\n\r\n\tif Entity.GetFacingDirection(target) == 1 then\r\n\t\ttext = "Hello, hope they don\'t find my shop.";\r\n\telse\r\n\t\ttext = "Come back later to see if there is anything new!";\r\n\tend\r\n\r\n\tShowTextBubble(self:identifier() .. "_bubble", self:position() + Vector3.New(13, 27, 0), text);\r\nend\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x02\n \x00\x00\x00%\x00\x80\x01\x8b\x00\xc0\x00\x9c\x80\x00\x01\x17@@\x01\x16@\x06\x80\x83\x00\x00\x01\xc5\x80\x00\x00\xc6\xc0\xc0\x01\x00\x01\x80\x00\xdc\x80\x00\x01\x17\x00\xc1\x01\x16@\x00\x80\x81@\x01\x00\x16\x00\x00\x80\x81\x80\x01\x00\xc5\xc0\x01\x00\x0b\x01@\x00\x1c\x81\x00\x01A\x01\x02\x00\x15A\x01\x02KAB\x00\\\x81\x00\x01\x85\x81\x02\x00\x86\xc1B\x03\xc1\x01\x03\x00\x01B\x03\x00A\x82\x03\x00\x9c\x81\x00\x02L\x81\x81\x02\x80\x01\x00\x01\xdc@\x00\x02\x1e\x00\x80\x00\x0f\x00\x00\x00\x04\x0b\x00\x00\x00identifier\x00\x04\x05\x00\x00\x00hero\x00\x04\x07\x00\x00\x00Entity\x00\x04\x13\x00\x00\x00GetFacingDirection\x00\x03\x00\x00\x00\x00\x00\x00\xf0?\x04%\x00\x00\x00Hello, hope they don\'t find my shop.\x00\x041\x00\x00\x00Come back later to see if there is anything new!\x00\x04\x0f\x00\x00\x00ShowTextBubble\x00\x04\x08\x00\x00\x00_bubble\x00\x04\t\x00\x00\x00position\x00\x04\x08\x00\x00\x00Vector3\x00\x04\x04\x00\x00\x00New\x00\x03\x00\x00\x00\x00\x00\x00*@\x03\x00\x00\x00\x00\x00\x00;@\x03\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00 \x00\x00\x00\x01\x00\x00\x00\x03\x00\x00\x00\x03\x00\x00\x00\x03\x00\x00\x00\x03\x00\x00\x00\x04\x00\x00\x00\x06\x00\x00\x00\x06\x00\x00\x00\x06\x00\x00\x00\x06\x00\x00\x00\x06\x00\x00\x00\x06\x00\x00\x00\x07\x00\x00\x00\x07\x00\x00\x00\t\x00\x00\x00\x0c\x00\x00\x00\x0c\x00\x00\x00\x0c\x00\x00\x00\x0c\x00\x00\x00\x0c\x00\x00\x00\x0c\x00\x00\x00\x0c\x00\x00\x00\x0c\x00\x00\x00\x0c\x00\x00\x00\x0c\x00\x00\x00\x0c\x00\x00\x00\x0c\x00\x00\x00\x0c\x00\x00\x00\x0c\x00\x00\x00\x0c\x00\x00\x00\x0c\x00\x00\x00\r\x00\x00\x00\x03\x00\x00\x00\x05\x00\x00\x00self\x00\x01\x00\x00\x00\x1f\x00\x00\x00\x07\x00\x00\x00target\x00\x01\x00\x00\x00\x1f\x00\x00\x00\x05\x00\x00\x00text\x00\x06\x00\x00\x00\x1f\x00\x00\x00\x00\x00\x00\x00 (12 @ 4fff)
+			}
+
+            lua chunk sub-sub-sub-block { (52 @ 53dc)
+
+                main chunk : chunk >
+
+                === lua =============
+                local self, target = ...;
+                
+                if target:identifier() == "hero" then
+                	HideTextBubble(self:identifier() .. "_bubble");
+                end
+
+                =====================
+                secondary chunk : \x1bLuaQ\x00\x01\x04\x04\x04\x08\x00z\x00\x00\x00local self, target = ...;\r\n\r\nif target:identifier() == "hero" then\r\n\tHideTextBubble(self:identifier() .. "_bubble");\r\nend\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x02\x05\x0c\x00\x00\x00%\x00\x80\x01\x8b\x00\xc0\x00\x9c\x80\x00\x01\x17@@\x01\x16@\x01\x80\x85\x80\x00\x00\xcb\x00@\x00\xdc\x80\x00\x01\x01\xc1\x00\x00\xd5\x00\x81\x01\x9c@\x00\x01\x1e\x00\x80\x00\x04\x00\x00\x00\x04\x0b\x00\x00\x00identifier\x00\x04\x05\x00\x00\x00hero\x00\x04\x0f\x00\x00\x00HideTextBubble\x00\x04\x08\x00\x00\x00_bubble\x00\x00\x00\x00\x00\x0c\x00\x00\x00\x01\x00\x00\x00\x03\x00\x00\x00\x03\x00\x00\x00\x03\x00\x00\x00\x03\x00\x00\x00\x04\x00\x00\x00\x04\x00\x00\x00\x04\x00\x00\x00\x04\x00\x00\x00\x04\x00\x00\x00\x04\x00\x00\x00\x05\x00\x00\x00\x02\x00\x00\x00\x05\x00\x00\x00self\x00\x01\x00\x00\x00\x0b\x00\x00\x00\x07\x00\x00\x00target\x00\x01\x00\x00\x00\x0b\x00\x00\x00\x00\x00\x00\x00 (12 @ 545a)
+			}
+            z : 1(58 @ 55ca)
+		}
+	}
+
+    position sub-block { (22 @ 55cc)
+
+        x position : -204.91587829589844 (0d @ 55ce)
+        y position : 153.0607452392578 (15 @ 55d3)
+	}
+    z position : -28.221389770507812 (2d @ 55d8)
+    rotation : 0.0 (35 @ 55dd)
+    scale : 1.0 (3d @ 55e2)
+
+    u2 sub-block { (42 @ 55e7)
+
+        w : -60.0 (0d @ 55e9)
+        x : -33.81779098510742 (15 @ 55ee)
+        y : 120.0 (1d @ 55f3)
+        z : 61.80525588989258 (25 @ 55f8)
+	}
+    hidden : 0(48 @ 55fd)
+}
+
+object block { (0a @ 55ff)
+
+    identifier : spawn_default (12 @ 5601)
+
+    component sub-block { (1a @ 5610)
+
+        component type : SpawnPoint (0a @ 5612)
+        number : 101(10 @ 561e)
+
+        spawnpoint sub-sub-block { (faa @ 5621)
+
+            u0 : 1(08 @ 5623)
+
+            u1 sub-sub-sub-block { (12 @ 5625)
+
+                x : 0.0 (0d @ 5627)
+                y : 0.0 (15 @ 562c)
+                z : 0.0 (1d @ 5631)
+			}
+		}
+	}
+
+    position sub-block { (22 @ 5636)
+
+        x position : -396.7161560058594 (0d @ 5638)
+        y position : 155.60543823242188 (15 @ 563d)
+	}
+    z position : -1.1977767944335938 (2d @ 5642)
+    rotation : 0.0 (35 @ 5647)
+    scale : 1.0 (3d @ 564c)
+
+    u2 sub-block { (42 @ 5651)
+
+        w : -30.0 (0d @ 5653)
+        x : -30.0 (15 @ 5658)
+        y : 60.0 (1d @ 565d)
+        z : 60.0 (25 @ 5662)
+	}
+    hidden : 0(48 @ 5667)
+}
+
+object block { (0a @ 5669)
+
+    identifier : spawn_from_florennum_part1 (12 @ 566b)
+
+    component sub-block { (1a @ 5687)
+
+        component type : SpawnPoint (0a @ 5689)
+        number : 101(10 @ 5695)
+
+        spawnpoint sub-sub-block { (faa @ 5698)
+
+            u0 : 1(08 @ 569a)
+
+            u1 sub-sub-sub-block { (12 @ 569c)
+
+                x : 0.0 (0d @ 569e)
+                y : 0.0 (15 @ 56a3)
+                z : 0.0 (1d @ 56a8)
+			}
+		}
+	}
+
+    position sub-block { (22 @ 56ad)
+
+        x position : -403.041259765625 (0d @ 56af)
+        y position : 154.82208251953125 (15 @ 56b4)
+	}
+    z position : -1.1977767944335938 (2d @ 56b9)
+    rotation : 0.0 (35 @ 56be)
+    scale : 1.0 (3d @ 56c3)
+
+    u2 sub-block { (42 @ 56c8)
+
+        w : -30.0 (0d @ 56ca)
+        x : -30.0 (15 @ 56cf)
+        y : 60.0 (1d @ 56d4)
+        z : 60.0 (25 @ 56d9)
+	}
+    hidden : 0(48 @ 56de)
+}
+
+object block { (0a @ 56e0)
+
+    identifier : text (12 @ 56e2)
+
+    position sub-block { (22 @ 56e8)
+
+        x position : 826.0087890625 (0d @ 56ea)
+        y position : 466.03125 (15 @ 56ef)
+	}
+    z position : 0.0 (2d @ 56f4)
+    rotation : 0.0 (35 @ 56f9)
+    scale : 1.0 (3d @ 56fe)
+
+    u2 sub-block { (42 @ 5703)
+
+        w : -30.0 (0d @ 5705)
+        x : -30.0 (15 @ 570a)
+        y : 60.0 (1d @ 570f)
+        z : 60.0 (25 @ 5714)
+	}
+    hidden : 1(48 @ 5719)
+}
+
+dependencies block { (12 @ 571b)
+
+    name : florennum_shop (0a @ 571e)
+
+    u0 sub-block { (12 @ 572e)
+
+
+        u0 sub-sub-block { (0a @ 5730)
+
+            name : Template 1 (12 @ 5732)
+
+            u0 sub-sub-sub-block { (22 @ 573e)
+
+                y : 0.0 (0d @ 5740)
+                z : 0.0 (15 @ 5745)
+			}
+            u1 : 0.0 (2d @ 574a)
+            u2 : 0.0 (35 @ 574f)
+            u3 : 1.0 (3d @ 5754)
+
+            u1 sub-sub-sub-block { (42 @ 5759)
+
+                w : -10.0 (0d @ 575b)
+                x : -10.0 (15 @ 5760)
+                y : 20.0 (1d @ 5765)
+                z : 20.0 (25 @ 576a)
+			}
+            u5 : 0(48 @ 576f)
+		}
+        u1 : 1.0 (15 @ 5771)
+	}
+    scl file : caves_stuff (1a @ 5776)
+    scl file : collectibles (1a @ 5783)
+    scl file : game_common (1a @ 5791)
+    scl file : lowergrove_stuff (1a @ 579e)
+    scl file : monsters (1a @ 57b0)
+    scl file : npc (1a @ 57ba)
+    scl file : plains_stuff (1a @ 57bf)
+    scl file : rocks (1a @ 57cd)
+    scl file : towers_stuff (1a @ 57d4)
+    scl file : traps_stuffs (1a @ 57e2)
+    scl file : trash (1a @ 57f0)
+    scl file : woodkeep_stuff (1a @ 57f7)
+}
+
+u0 block { (1a @ 5807)
+
+    w : -450.0 (0d @ 5809)
+    x : -300.0 (15 @ 580e)
+    y : 1750.0 (1d @ 5813)
+    z : 1000.0 (25 @ 5818)
+}
+
+group block { (22 @ 581d)
+
+    name : bg_group (0a @ 581f)
+    object : obj2#2 (12 @ 5829)
+    u2 : 1(30 @ 5831)
+}

@@ -1,0 +1,800 @@
+scl file name : traps_stuffs (0a @ 1)
+
+?item block { (12 @ f)
+
+
+    ?sub-item sub-block { (0a @ 12)
+
+        name : dropping_ground (12 @ 15)
+
+        component sub-sub-block { (1a @ 26)
+
+            component type : TransformController (0a @ 28)
+            number : 1(10 @ 3d)
+		}
+
+        component sub-sub-block { (1a @ 3f)
+
+            component type : Program (0a @ 42)
+            number : 2(10 @ 4b)
+
+            program sub-sub-sub-block { (4ea @ 4e)
+
+                u0 : 1(08 @ 51)
+
+                lua chunk sub-sub-sub-sub-block { (12 @ 53)
+
+                    main chunk : chunk >
+
+                    === lua =============
+                    local self = ...;
+                    
+                    local newBlock = self:clone();
+                    newBlock:setPosition(PhysicsObject.OriginalPosition(self));
+                    PhysicsObject.SetEnabled(newBlock, false);
+                    
+                    Program.Wait(3.0);
+                    
+                    Scene.AddObject(newBlock);
+                    TransformController.ScaleTo(newBlock, 0.01, 0);
+                    TransformController.ScaleTo(newBlock, 1, 0.2);
+
+                    =====================
+                    secondary chunk : \x1bLuaQ\x00\x01\x04\x04\x04\x08\x002\x01\x00\x00local self = ...;\r\n\r\nlocal newBlock = self:clone();\r\nnewBlock:setPosition(PhysicsObject.OriginalPosition(self));\r\nPhysicsObject.SetEnabled(newBlock, false);\r\n\r\nProgram.Wait(3.0);\r\n\r\nScene.AddObject(newBlock);\r\nTransformController.ScaleTo(newBlock, 0.01, 0);\r\nTransformController.ScaleTo(newBlock, 1, 0.2);\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x02\x06#\x00\x00\x00%\x00\x00\x01K\x00@\x00\\\x80\x00\x01\x8b@\xc0\x00\x05\x81\x00\x00\x06\xc1@\x02@\x01\x00\x00\x1c\x01\x00\x01\x9c@\x00\x00\x85\x80\x00\x00\x86\x00A\x01\xc0\x00\x80\x00\x02\x01\x00\x00\x9c@\x80\x01\x85@\x01\x00\x86\x80A\x01\xc1\xc0\x01\x00\x9c@\x00\x01\x85\x00\x02\x00\x86@B\x01\xc0\x00\x80\x00\x9c@\x00\x01\x85\x80\x02\x00\x86\xc0B\x01\xc0\x00\x80\x00\x01\x01\x03\x00AA\x03\x00\x9c@\x00\x02\x85\x80\x02\x00\x86\xc0B\x01\xc0\x00\x80\x00\x01\x81\x03\x00A\xc1\x03\x00\x9c@\x00\x02\x1e\x00\x80\x00\x10\x00\x00\x00\x04\x06\x00\x00\x00clone\x00\x04\x0c\x00\x00\x00setPosition\x00\x04\x0e\x00\x00\x00PhysicsObject\x00\x04\x11\x00\x00\x00OriginalPosition\x00\x04\x0b\x00\x00\x00SetEnabled\x00\x04\x08\x00\x00\x00Program\x00\x04\x05\x00\x00\x00Wait\x00\x03\x00\x00\x00\x00\x00\x00\x08@\x04\x06\x00\x00\x00Scene\x00\x04\n\x00\x00\x00AddObject\x00\x04\x14\x00\x00\x00TransformController\x00\x04\x08\x00\x00\x00ScaleTo\x00\x03{\x14\xaeG\xe1z\x84?\x03\x00\x00\x00\x00\x00\x00\x00\x00\x03\x00\x00\x00\x00\x00\x00\xf0?\x03\x9a\x99\x99\x99\x99\x99\xc9?\x00\x00\x00\x00#\x00\x00\x00\x01\x00\x00\x00\x03\x00\x00\x00\x03\x00\x00\x00\x04\x00\x00\x00\x04\x00\x00\x00\x04\x00\x00\x00\x04\x00\x00\x00\x04\x00\x00\x00\x04\x00\x00\x00\x05\x00\x00\x00\x05\x00\x00\x00\x05\x00\x00\x00\x05\x00\x00\x00\x05\x00\x00\x00\x07\x00\x00\x00\x07\x00\x00\x00\x07\x00\x00\x00\x07\x00\x00\x00\t\x00\x00\x00\t\x00\x00\x00\t\x00\x00\x00\t\x00\x00\x00\n\x00\x00\x00\n\x00\x00\x00\n\x00\x00\x00\n\x00\x00\x00\n\x00\x00\x00\n\x00\x00\x00\x0b\x00\x00\x00\x0b\x00\x00\x00\x0b\x00\x00\x00\x0b\x00\x00\x00\x0b\x00\x00\x00\x0b\x00\x00\x00\x0b\x00\x00\x00\x02\x00\x00\x00\x05\x00\x00\x00self\x00\x01\x00\x00\x00"\x00\x00\x00\t\x00\x00\x00newBlock\x00\x03\x00\x00\x00"\x00\x00\x00\x00\x00\x00\x00 (12 @ 18a)
+				}
+                u1 : 1(18 @ 50a)
+                u2 : 5(20 @ 50c)
+			}
+		}
+
+        component sub-sub-block { (1a @ 50e)
+
+            component type : CollisionShape (0a @ 511)
+            number : 3(10 @ 521)
+            ? linked component : 100(20 @ 523)
+
+            collision shape sub-sub-sub-block { (3c2 @ 526)
+
+
+                u2 sub-sub-sub-sub-block { (1a @ 528)
+
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 52a)
+
+                        y : 25.786911010742188 (0d @ 52c)
+                        z : 38.710350036621094 (15 @ 531)
+					}
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 536)
+
+                        y : -25.786911010742188 (0d @ 538)
+                        z : 37.740196228027344 (15 @ 53d)
+					}
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 542)
+
+                        y : -16.473190307617188 (0d @ 544)
+                        z : -38.710350036621094 (15 @ 549)
+					}
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 54e)
+
+                        y : 16.7816162109375 (0d @ 550)
+                        z : -15.8463134765625 (15 @ 555)
+					}
+                    u3 : 0(10 @ 55a)
+                    u4 : 1(18 @ 55c)
+				}
+			}
+
+            collision shape 2 sub-sub-sub-block { (3ca @ 55f)
+
+                u0 : 1(10 @ 562)
+                w : -30.0 (35 @ 564)
+                x : 30.0 (3d @ 569)
+
+                lua chunk sub-sub-sub-sub-block { (4a @ 56e)
+
+                    main chunk : chunk >
+
+                    === lua =============
+                    local self, target = ...;
+                    
+                    if target:identifier() == "hero" then
+                    	if not PhysicsObject.IsEnabled(self) then
+                    		PhysicsObject.SetEnabled(self, true);
+                    		SoundLibrary.PlayEffect("chirp1");
+                    	end
+                    end
+
+                    =====================
+                    secondary chunk : \x1bLuaQ\x00\x01\x04\x04\x04\x08\x00\xc9\x00\x00\x00local self, target = ...;\r\n\r\nif target:identifier() == "hero" then\r\n\tif not PhysicsObject.IsEnabled(self) then\r\n\t\tPhysicsObject.SetEnabled(self, true);\r\n\t\tSoundLibrary.PlayEffect("chirp1");\r\n\tend\r\nend\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x02\x05\x15\x00\x00\x00%\x00\x80\x01\x8b\x00\xc0\x00\x9c\x80\x00\x01\x17@@\x01\x16\x80\x03\x80\x85\x80\x00\x00\x86\xc0@\x01\xc0\x00\x00\x00\x9c\x80\x00\x01\x9a@\x00\x00\x16\x00\x02\x80\x85\x80\x00\x00\x86\x00A\x01\xc0\x00\x00\x00\x02\x01\x80\x00\x9c@\x80\x01\x85@\x01\x00\x86\x80A\x01\xc1\xc0\x01\x00\x9c@\x00\x01\x1e\x00\x80\x00\x08\x00\x00\x00\x04\x0b\x00\x00\x00identifier\x00\x04\x05\x00\x00\x00hero\x00\x04\x0e\x00\x00\x00PhysicsObject\x00\x04\n\x00\x00\x00IsEnabled\x00\x04\x0b\x00\x00\x00SetEnabled\x00\x04\r\x00\x00\x00SoundLibrary\x00\x04\x0b\x00\x00\x00PlayEffect\x00\x04\x07\x00\x00\x00chirp1\x00\x00\x00\x00\x00\x15\x00\x00\x00\x01\x00\x00\x00\x03\x00\x00\x00\x03\x00\x00\x00\x03\x00\x00\x00\x03\x00\x00\x00\x04\x00\x00\x00\x04\x00\x00\x00\x04\x00\x00\x00\x04\x00\x00\x00\x04\x00\x00\x00\x04\x00\x00\x00\x05\x00\x00\x00\x05\x00\x00\x00\x05\x00\x00\x00\x05\x00\x00\x00\x05\x00\x00\x00\x06\x00\x00\x00\x06\x00\x00\x00\x06\x00\x00\x00\x06\x00\x00\x00\x08\x00\x00\x00\x02\x00\x00\x00\x05\x00\x00\x00self\x00\x01\x00\x00\x00\x14\x00\x00\x00\x07\x00\x00\x00target\x00\x01\x00\x00\x00\x14\x00\x00\x00\x00\x00\x00\x00 (12 @ 63c)
+				}
+                z : 1(58 @ 882)
+                u4 : 0.10000000149011612 (6d @ 884)
+			}
+		}
+
+        component sub-sub-block { (1a @ 889)
+
+            component type : GroundPolygon (0a @ 88c)
+            number : 100(10 @ 89b)
+
+            ground polygon sub-sub-sub-block { (372 @ 89e)
+
+
+                 sub-sub-sub-sub-block { (12 @ 8a1)
+
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 8a3)
+
+                        x : 25.786911010742188 (0d @ 8a5)
+                        y : 38.710350036621094 (15 @ 8aa)
+					}
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 8af)
+
+                        x : -25.786911010742188 (0d @ 8b1)
+                        y : 37.740196228027344 (15 @ 8b6)
+					}
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 8bb)
+
+                        x : -16.473190307617188 (0d @ 8bd)
+                        y : -38.710350036621094 (15 @ 8c2)
+					}
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 8c7)
+
+                        x : 16.7816162109375 (0d @ 8c9)
+                        y : -15.8463134765625 (15 @ 8ce)
+					}
+                    u0 : 0(10 @ 8d3)
+                    u1 : 1(18 @ 8d5)
+				}
+                u1 : 1(18 @ 8d7)
+                u2 : -30.0 (25 @ 8d9)
+                u3 : 30.0 (2d @ 8de)
+                u4 : \n\xc8\x01local self, target = ...;\r\n\r\nif target:identifier() == "hero" then\r\n\tif not PhysicsObject.IsEnabled(self) then\r\n\t\tPhysicsObject.SetEnabled(self, true);\r\n\t\tSoundLibrary.PlayEffect("chirp1");\r\n\tend\r\nend\x12\xc3\x04\x1bLuaQ\x00\x01\x04\x04\x04\x08\x00\xc9\x00\x00\x00local self, target = ...;\r\n\r\nif target:identifier() == "hero" then\r\n\tif not PhysicsObject.IsEnabled(self) then\r\n\t\tPhysicsObject.SetEnabled(self, true);\r\n\t\tSoundLibrary.PlayEffect("chirp1");\r\n\tend\r\nend\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x02\x05\x15\x00\x00\x00%\x00\x80\x01\x8b\x00\xc0\x00\x9c\x80\x00\x01\x17@@\x01\x16\x80\x03\x80\x85\x80\x00\x00\x86\xc0@\x01\xc0\x00\x00\x00\x9c\x80\x00\x01\x9a@\x00\x00\x16\x00\x02\x80\x85\x80\x00\x00\x86\x00A\x01\xc0\x00\x00\x00\x02\x01\x80\x00\x9c@\x80\x01\x85@\x01\x00\x86\x80A\x01\xc1\xc0\x01\x00\x9c@\x00\x01\x1e\x00\x80\x00\x08\x00\x00\x00\x04\x0b\x00\x00\x00identifier\x00\x04\x05\x00\x00\x00hero\x00\x04\x0e\x00\x00\x00PhysicsObject\x00\x04\n\x00\x00\x00IsEnabled\x00\x04\x0b\x00\x00\x00SetEnabled\x00\x04\r\x00\x00\x00SoundLibrary\x00\x04\x0b\x00\x00\x00PlayEffect\x00\x04\x07\x00\x00\x00chirp1\x00\x00\x00\x00\x00\x15\x00\x00\x00\x01\x00\x00\x00\x03\x00\x00\x00\x03\x00\x00\x00\x03\x00\x00\x00\x03\x00\x00\x00\x04\x00\x00\x00\x04\x00\x00\x00\x04\x00\x00\x00\x04\x00\x00\x00\x04\x00\x00\x00\x04\x00\x00\x00\x05\x00\x00\x00\x05\x00\x00\x00\x05\x00\x00\x00\x05\x00\x00\x00\x05\x00\x00\x00\x06\x00\x00\x00\x06\x00\x00\x00\x06\x00\x00\x00\x06\x00\x00\x00\x08\x00\x00\x00\x02\x00\x00\x00\x05\x00\x00\x00self\x00\x01\x00\x00\x00\x14\x00\x00\x00\x07\x00\x00\x00target\x00\x01\x00\x00\x00\x14\x00\x00\x00\x00\x00\x00\x00 (32 @ 8e3)
+                u5 : 0.10000000149011612 (3d @ bf7)
+			}
+		}
+
+        component sub-sub-block { (1a @ bfc)
+
+            component type : GroundMesh (0a @ bff)
+            number : 101(10 @ c0b)
+
+            ground mesh sub-sub-sub-block { (37a @ c0e)
+
+
+                u0 sub-sub-sub-sub-block { (3a @ c11)
+
+                    w : -35.78691101074219 (0d @ c13)
+                    x : -48.710350036621094 (15 @ c18)
+                    y : 71.57382202148438 (1d @ c1d)
+                    z : 97.42070007324219 (25 @ c22)
+				}
+
+                u1 sub-sub-sub-sub-block { (42 @ c27)
+
+                    u0 : 20(08 @ c2a)
+                    u1 : 14(10 @ c2c)
+
+                    u2 sub-sub-sub-sub-sub-block { (1a @ c2e)
+
+                        u0 : 4(08 @ c30)
+                        u1 : 1(10 @ c32)
+                        u2 : 2(18 @ c34)
+                        u3 : 0(20 @ c36)
+					}
+
+                    u3 sub-sub-sub-sub-sub-block { (22 @ c38)
+
+                        u0 : 7(08 @ c3a)
+                        u1 : 3(10 @ c3c)
+                        u2 : 32(18 @ c3e)
+                        u3 : 0(20 @ c40)
+					}
+
+                    u4 sub-sub-sub-sub-sub-block { (2a @ c42)
+
+                        u0 : 7(08 @ c44)
+                        u1 : 3(10 @ c46)
+                        u2 : 32(18 @ c48)
+                        u3 : 12(20 @ c4a)
+					}
+
+                    u5 sub-sub-sub-sub-sub-block { (32 @ c4c)
+
+                        u0 : 7(08 @ c4e)
+                        u1 : 2(10 @ c50)
+                        u2 : 32(18 @ c52)
+                        u3 : 24(20 @ c54)
+					}
+
+                    u6 sub-sub-sub-sub-sub-block { (52 @ c56)
+
+
+                        u0 sub-sub-sub-sub-sub-sub-block { (0a @ c58)
+
+                            w : 1.0 (0d @ c5a)
+                            x : 1.0 (15 @ c5f)
+                            y : 1.0 (1d @ c64)
+                            z : 1.0 (25 @ c69)
+						}
+
+                        u1 sub-sub-sub-sub-sub-sub-block { (12 @ c6e)
+
+                            w : 1.0 (0d @ c70)
+                            x : 1.0 (15 @ c75)
+                            y : 1.0 (1d @ c7a)
+                            z : 1.0 (25 @ c7f)
+						}
+
+                        u2 sub-sub-sub-sub-sub-sub-block { (1a @ c84)
+
+                            w : 1.0 (0d @ c86)
+                            x : 1.0 (15 @ c8b)
+                            y : 1.0 (1d @ c90)
+                            z : 1.0 (25 @ c95)
+						}
+                        u3 : 0.0 (25 @ c9a)
+                        u4 : \n\x06icicle\x10\x01 \x02 (2a @ c9f)
+					}
+
+                    u7 sub-sub-sub-sub-sub-block { (5a @ cad)
+
+                        u : -28.786380767822266 (0d @ caf)
+                        v : 12.683773040771484 (15 @ cb4)
+                        w : -35.0 (1d @ cb9)
+                        x : 57.57276153564453 (25 @ cbe)
+                        y : 26.08300018310547 (2d @ cc3)
+                        z : 70.0 (35 @ cc8)
+					}
+                    u8 : \x82J\xe6A-\x11\x1bB\x00\x00\xf0\xc1~\x12\x9a\xbci\xf4\x7f?\x00\x00\x00\x00\x00\x00\x00?33\xb3>\x82J\xe6A-\x11\x1bB\x00\x00\xf0A~\x12\x9a\xbci\xf4\x7f?\x00\x00\x00\x00\x00\x00\x00?ff&?\x82J\xe6AZ"\xe6A\x00\x00\x0cB\x00\x00\x00\x80\x00\x00\x00\x00\x00\x00\x80?ff\xe6>\xcd\xcc,?\x82J\xe6A\xb4D\\A\xcd\xcc\xf0A~\x12\x9a<i\xf4\x7f\xbf\x00\x00\x00\x80\x00\x00\xc0>+\x87&?\x82J\xe6A\xb4D\\A33\xef\xc1~\x12\x9a<i\xf4\x7f\xbf\x00\x00\x00\x80\x00\x00\xc0>\xbct\xb3>\x82J\xe6AZ"\xe6A\x00\x00\x0c\xc2\x00\x00\x00\x80\x00\x00\x00\x00\x00\x00\x80?ff\xe6>ff\xa6>\x82J\xe6A-\x11\x1bB\x00\x00\xf0\xc1~\x12\x9a\xbci\xf4\x7f?\x00\x00\x00\x00\x00\x00\x00?33\xb3>\x82J\xe6A-\x11\x1bB\x00\x00\xf0A~\x12\x9a\xbci\xf4\x7f?\x00\x00\x00\x00\x00\x00\x00?ff&?\x82J\xe6AZ"\xe6A\x00\x00\x0cB\x00\x00\x00\x80\x00\x00\x00\x00\x00\x00\x80?\x00\x00\x00?\xf9\xb54?\x82J\xe6A\xb4D\\A\xcd\xcc\xf0A~\x12\x9a<i\xf4\x7f\xbf\x00\x00\x00\x80\x00\x00\x00?\xc8\xe8H?\x82J\xe6\xc1/\xbc\x16B\x00\x00\xf0\xc1~\x12\x9a\xbci\xf4\x7f?\x00\x00\x00\x00\xb3\x06B?33\xb3>\x82J\xe6\xc1/\xbc\x16B\x00\x00\xf0A~\x12\x9a\xbci\xf4\x7f?\x00\x00\x00\x00\xb3\x06B?ff&?\x82J\xe6\xc1^x\xddA\x00\x00\x0cB\x00\x00\x00\x80\x00\x00\x00\x00\x00\x00\x80?\xb3\x06B?\xf9\xb54?\x82J\xe6\xc1\xbc\xf0JA\xcd\xcc\xf0A~\x12\x9a<i\xf4\x7f\xbf\x00\x00\x00\x80\xb3\x06B?\xc8\xe8H?\x82J\xe6\xc1/\xbc\x16B\x00\x00\xf0\xc1~\x12\x9a\xbci\xf4\x7f?\x00\x00\x00\x00\xb3\x06B?33\xb3>\x82J\xe6\xc1/\xbc\x16B\x00\x00\xf0A~\x12\x9a\xbci\xf4\x7f?\x00\x00\x00\x00\xb3\x06B?ff&?\x82J\xe6\xc1^x\xddA\x00\x00\x0cB\x00\x00\x00\x80\x00\x00\x00\x00\x00\x00\x80?\x80\xd3N?\xcd\xcc,?\x82J\xe6\xc1\xbc\xf0JA\xcd\xcc\xf0A~\x12\x9a<i\xf4\x7f\xbf\x00\x00\x00\x80\xb3\x06b?+\x87&?\x82J\xe6\xc1\xbc\xf0JA33\xef\xc1~\x12\x9a<i\xf4\x7f\xbf\x00\x00\x00\x80\xb3\x06b?\xbct\xb3>\x82J\xe6\xc1^x\xddA\x00\x00\x0c\xc2\x00\x00\x00\x80\x00\x00\x00\x00\x00\x00\x80?\x80\xd3N?ff\xa6> (192 @ cce)
+                    u9 : \x00\x00\x04\x00\x05\x00\x00\x00\x03\x00\x04\x00\x00\x00\x01\x00\x03\x00\x01\x00\x02\x00\x03\x00\x06\x00\n\x00\x0b\x00\x07\x00\x06\x00\x0b\x00\x07\x00\x0b\x00\x0c\x00\x08\x00\x07\x00\x0c\x00\x08\x00\x0c\x00\r\x00\t\x00\x08\x00\r\x00\x0e\x00\x13\x00\x12\x00\x0e\x00\x12\x00\x11\x00\x0e\x00\x11\x00\x0f\x00\x11\x00\x10\x00\x0f\x00 (19a @ f52)
+				}
+
+                u1 sub-sub-sub-sub-block { (42 @ fa8)
+
+                    u0 : 8(08 @ fab)
+                    u1 : 6(10 @ fad)
+
+                    u2 sub-sub-sub-sub-sub-block { (1a @ faf)
+
+                        u0 : 4(08 @ fb1)
+                        u1 : 1(10 @ fb3)
+                        u2 : 2(18 @ fb5)
+                        u3 : 0(20 @ fb7)
+					}
+
+                    u3 sub-sub-sub-sub-sub-block { (22 @ fb9)
+
+                        u0 : 7(08 @ fbb)
+                        u1 : 3(10 @ fbd)
+                        u2 : 32(18 @ fbf)
+                        u3 : 0(20 @ fc1)
+					}
+
+                    u4 sub-sub-sub-sub-sub-block { (2a @ fc3)
+
+                        u0 : 7(08 @ fc5)
+                        u1 : 3(10 @ fc7)
+                        u2 : 32(18 @ fc9)
+                        u3 : 12(20 @ fcb)
+					}
+
+                    u5 sub-sub-sub-sub-sub-block { (32 @ fcd)
+
+                        u0 : 7(08 @ fcf)
+                        u1 : 2(10 @ fd1)
+                        u2 : 32(18 @ fd3)
+                        u3 : 24(20 @ fd5)
+					}
+
+                    u6 sub-sub-sub-sub-sub-block { (52 @ fd7)
+
+
+                        u0 sub-sub-sub-sub-sub-sub-block { (0a @ fd9)
+
+                            w : 1.0 (0d @ fdb)
+                            x : 1.0 (15 @ fe0)
+                            y : 1.0 (1d @ fe5)
+                            z : 1.0 (25 @ fea)
+						}
+
+                        u1 sub-sub-sub-sub-sub-sub-block { (12 @ fef)
+
+                            w : 1.0 (0d @ ff1)
+                            x : 1.0 (15 @ ff6)
+                            y : 1.0 (1d @ ffb)
+                            z : 1.0 (25 @ 1000)
+						}
+
+                        u2 sub-sub-sub-sub-sub-sub-block { (1a @ 1005)
+
+                            w : 1.0 (0d @ 1007)
+                            x : 1.0 (15 @ 100c)
+                            y : 1.0 (1d @ 1011)
+                            z : 1.0 (25 @ 1016)
+						}
+                        u3 : 0.0 (25 @ 101b)
+                        u4 : \n\x10icecastle_ground\x10\x01 \x02 (2a @ 1020)
+					}
+
+                    u7 sub-sub-sub-sub-sub-block { (5a @ 1038)
+
+                        u : -25.786911010742188 (0d @ 103a)
+                        v : -38.710350036621094 (15 @ 103f)
+                        w : -25.0 (1d @ 1044)
+                        x : 51.573822021484375 (25 @ 1049)
+                        y : 77.42070007324219 (2d @ 104e)
+                        z : 50.0 (35 @ 1053)
+					}
+                    u8 : \x98K\xce\xc1\xf6\xf5\x16B\x00\x00\xc8\xc1\x04\x1f~\xbf\x86\xab\xf7\xbd\x00\x00\x00\x00\x00\x00\x00?\xcd\xcc\xcc>\x98K\xce\xc1\xf6\xf5\x16B\x00\x00\xc8A\x04\x1f~\xbf\x86\xab\xf7\xbd\x00\x00\x00\x00\x00\x00\x00?\x9a\x99\x19?\x18\xc9\x83\xc1f\xd7\x1a\xc2\x00\x00\xc8\xc1-sH\xbf5<\x1f\xbf\x00\x00\x00\x00:\xddN?\xcd\xcc\xcc>\x18\xc9\x83\xc1f\xd7\x1a\xc2\x00\x00\xc8A-sH\xbf5<\x1f\xbf\x00\x00\x00\x00:\xddN?\x9a\x99\x19?\xc0@\x86A\x80\x8a}\xc1\x00\x00\xc8\xc12\xb4`?.O\xf5\xbe\x00\x00\x00\x00p0x?\xcd\xcc\xcc>\xc0@\x86A\x80\x8a}\xc1\x00\x00\xc8A2\xb4`?.O\xf5\xbe\x00\x00\x00\x00p0x?\x9a\x99\x19?\x98K\xceAf\xd7\x1aB\x00\x00\xc8\xc1\x0c\x95|?\xa0\xc4&\xbe\x00\x00\x00\x00\xd5g\x98?\xcd\xcc\xcc>\x98K\xceAf\xd7\x1aB\x00\x00\xc8A\x0c\x95|?\xa0\xc4&\xbe\x00\x00\x00\x00\xd5g\x98?\x9a\x99\x19? (192 @ 1059)
+                    u9 : \x00\x00\x02\x00\x03\x00\x01\x00\x00\x00\x03\x00\x02\x00\x04\x00\x05\x00\x03\x00\x02\x00\x05\x00\x04\x00\x06\x00\x07\x00\x05\x00\x04\x00\x07\x00 (19a @ 115d)
+				}
+
+                u2 sub-sub-sub-sub-block { (4a @ 1183)
+
+                    u0 : 6(08 @ 1186)
+                    u1 : 2(10 @ 1188)
+
+                    u2 sub-sub-sub-sub-sub-block { (22 @ 118a)
+
+                        u0 : 7(08 @ 118c)
+                        u1 : 3(10 @ 118e)
+                        u2 : 32(18 @ 1190)
+                        u3 : 0(20 @ 1192)
+					}
+
+                    u3 sub-sub-sub-sub-sub-block { (2a @ 1194)
+
+                        u0 : 7(08 @ 1196)
+                        u1 : 3(10 @ 1198)
+                        u2 : 32(18 @ 119a)
+                        u3 : 12(20 @ 119c)
+					}
+
+                    u4 sub-sub-sub-sub-sub-block { (32 @ 119e)
+
+                        u0 : 7(08 @ 11a0)
+                        u1 : 2(10 @ 11a2)
+                        u2 : 32(18 @ 11a4)
+                        u3 : 24(20 @ 11a6)
+					}
+
+                    u5 sub-sub-sub-sub-sub-block { (52 @ 11a8)
+
+
+                        u0 sub-sub-sub-sub-sub-sub-block { (0a @ 11aa)
+
+                            w : 1.0 (0d @ 11ac)
+                            x : 1.0 (15 @ 11b1)
+                            y : 1.0 (1d @ 11b6)
+                            z : 1.0 (25 @ 11bb)
+						}
+
+                        u1 sub-sub-sub-sub-sub-sub-block { (12 @ 11c0)
+
+                            w : 1.0 (0d @ 11c2)
+                            x : 1.0 (15 @ 11c7)
+                            y : 1.0 (1d @ 11cc)
+                            z : 1.0 (25 @ 11d1)
+						}
+
+                        u2 sub-sub-sub-sub-sub-sub-block { (1a @ 11d6)
+
+                            w : 1.0 (0d @ 11d8)
+                            x : 1.0 (15 @ 11dd)
+                            y : 1.0 (1d @ 11e2)
+                            z : 1.0 (25 @ 11e7)
+						}
+                        u3 : 0.0 (25 @ 11ec)
+
+                        u4 sub-sub-sub-sub-sub-sub-block { (2a @ 11f1)
+
+                            u0 : icecastle_ground (0a @ 11f3)
+                            u1 : 1(10 @ 1205)
+                            u2 : 2(20 @ 1207)
+						}
+					}
+
+                    u3 sub-sub-sub-sub-sub-block { (5a @ 1209)
+
+                        u : -25.786911010742188 (0d @ 120b)
+                        v : -38.710350036621094 (15 @ 1210)
+                        w : 25.0 (1d @ 1215)
+                        x : 51.573822021484375 (25 @ 121a)
+                        y : 77.42070007324219 (2d @ 121f)
+                        z : 0.0 (35 @ 1224)
+					}
+                    u7 : \x98K\xce\xc1\xf6\xf5\x16B\x00\x00\xc8A\x00\x00\x00\x80\x00\x00\x00\x00\x00\x00\x80?;0\xcb>^\xa5&?\x18\xc9\x83\xc1f\xd7\x1a\xc2\x00\x00\xc8A\x00\x00\x00\x80\x00\x00\x00\x00\x00\x00\x80?NC\xde>\xa1\xb8\xb0>\xc0@\x86A\x80\x8a}\xc1\x00\x00\xc8A\x00\x00\x00\x80\x00\x00\x00\x00\x00\x00\x80?3/\x11?\xf8\x8b\xdf>\x98K\xce\xc1\xf6\xf5\x16B\x00\x00\xc8A\x00\x00\x00\x80\x00\x00\x00\x00\x00\x00\x80?;0\xcb>^\xa5&?\xc0@\x86A\x80\x8a}\xc1\x00\x00\xc8A\x00\x00\x00\x80\x00\x00\x00\x00\x00\x00\x80?3/\x11?\xf8\x8b\xdf>\x98K\xceAf\xd7\x1aB\x00\x00\xc8A\x00\x00\x00\x80\x00\x00\x00\x00\x00\x00\x80?\xe2g\x1a?\xb0\xa3'? (192 @ 122a)
+				}
+
+                u3 sub-sub-sub-sub-block { (52 @ 12ed)
+
+                    w : 1.0 (0d @ 12ef)
+                    x : 1.0 (15 @ 12f4)
+                    y : 1.0 (1d @ 12f9)
+                    z : 1.0 (25 @ 12fe)
+				}
+			}
+		}
+
+        component sub-sub-block { (1a @ 1303)
+
+            component type : GroundMeshGenerator (0a @ 1305)
+            number : 102(10 @ 131a)
+
+            ground mesh generator sub-sub-sub-block { (382 @ 131d)
+
+                ground polygon : 100(08 @ 131f)
+                ground mesh : 101(10 @ 1321)
+                texture mapping 1 : 103(18 @ 1323)
+                texture mapping 2 : 104(20 @ 1325)
+                u4 : 0(28 @ 1327)
+                u5 : 0.0 (35 @ 1329)
+                u6 : 1(38 @ 132e)
+                u7 : 50.0 (45 @ 1330)
+                u8 : 25.0 (4d @ 1335)
+                u9 : 5.0 (55 @ 133a)
+                u10 : 5.0 (5d @ 133f)
+			}
+		}
+
+        component sub-sub-block { (1a @ 1344)
+
+            component type : TextureMapping (0a @ 1346)
+            number : 103(10 @ 1356)
+
+            texture mapping sub-sub-sub-block { (38a @ 1359)
+
+                texture file : icecastle_ground (0a @ 135b)
+                u0 : 250.0 (15 @ 136d)
+
+                u0 sub-sub-sub-sub-block { (1a @ 1372)
+
+                    u1 : 0.0 (0d @ 1374)
+                    u2 : 0.0 (15 @ 1379)
+				}
+			}
+		}
+
+        component sub-sub-block { (1a @ 137e)
+
+            component type : TextureMapping (0a @ 1380)
+            number : 104(10 @ 1390)
+
+            texture mapping sub-sub-sub-block { (38a @ 1393)
+
+                texture file : icicle (0a @ 1395)
+                u0 : 200.0 (15 @ 139d)
+
+                u0 sub-sub-sub-sub-block { (1a @ 13a2)
+
+                    u1 : 0.0 (0d @ 13a4)
+                    u2 : 0.0 (15 @ 13a9)
+				}
+			}
+		}
+
+        component sub-sub-block { (1a @ 13ae)
+
+            component type : PhysicsObject (0a @ 13b0)
+            number : 107(10 @ 13bf)
+
+            physics object sub-sub-sub-block { (4fa @ 13c2)
+
+                u0 : 0(08 @ 13c4)
+                u3 : 1500.0 (25 @ 13c6)
+                u4 : 0.0 (2d @ 13cb)
+                u5 : 700.0 (35 @ 13d0)
+                u6 : 0(38 @ 13d5)
+                u7 : 0.0 (45 @ 13d7)
+			}
+		}
+
+        position sub-sub-block { (22 @ 13dc)
+
+            x position : 0.0 (0d @ 13de)
+            y position : 0.0 (15 @ 13e3)
+		}
+        z position : 0.0 (2d @ 13e8)
+        rotation : 0.0 (35 @ 13ed)
+        scale : 1.0 (3d @ 13f2)
+
+        u0 sub-sub-block { (42 @ 13f7)
+
+            w : -25.786911010742188 (0d @ 13f9)
+            x : -38.710350036621094 (15 @ 13fe)
+            y : 51.573822021484375 (1d @ 1403)
+            z : 77.42070007324219 (25 @ 1408)
+		}
+        hidden : 0(48 @ 140d)
+	}
+    u0 : 1.0 (15 @ 140f)
+}
+
+?item block { (12 @ 1414)
+
+
+    ?sub-item sub-block { (0a @ 1417)
+
+        name : elevator1 (12 @ 141a)
+
+        component sub-sub-block { (1a @ 1425)
+
+            component type : CollisionShape (0a @ 1427)
+            number : 1(10 @ 1437)
+            ? linked component : 103(20 @ 1439)
+
+            collision shape sub-sub-sub-block { (3c2 @ 143c)
+
+
+                u2 sub-sub-sub-sub-block { (1a @ 143e)
+
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 1440)
+
+                        y : -40.72107696533203 (0d @ 1442)
+                        z : -4.286221027374268 (15 @ 1447)
+					}
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 144c)
+
+                        y : 38.4854621887207 (0d @ 144e)
+                        z : -5.4731245040893555 (15 @ 1453)
+					}
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 1458)
+
+                        y : 40.17571258544922 (0d @ 145a)
+                        z : 8.352277755737305 (15 @ 145f)
+					}
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 1464)
+
+                        y : -40.04035568237305 (0d @ 1466)
+                        z : 8.089414596557617 (15 @ 146b)
+					}
+                    u3 : 0(10 @ 1470)
+                    u4 : 1(18 @ 1472)
+				}
+			}
+
+            collision shape 2 sub-sub-sub-block { (3ca @ 1475)
+
+                u0 : 1(10 @ 1477)
+                w : -50.0 (35 @ 1479)
+                x : 50.0 (3d @ 147e)
+                z : 1(58 @ 1483)
+			}
+		}
+
+        component sub-sub-block { (1a @ 1485)
+
+            component type : CollisionShape (0a @ 1487)
+            number : 2(10 @ 1497)
+            ? linked component : 113(20 @ 1499)
+
+            collision shape sub-sub-sub-block { (3c2 @ 149c)
+
+
+                u2 sub-sub-sub-sub-block { (1a @ 149e)
+
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 14a0)
+
+                        y : -49.11248779296875 (0d @ 14a2)
+                        z : 112.0260009765625 (15 @ 14a7)
+					}
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 14ac)
+
+                        y : 48.74488830566406 (0d @ 14ae)
+                        z : 112.56118774414062 (15 @ 14b3)
+					}
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 14b8)
+
+                        y : 48.368446350097656 (0d @ 14ba)
+                        z : 119.72406005859375 (15 @ 14bf)
+					}
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 14c4)
+
+                        y : -49.387451171875 (0d @ 14c6)
+                        z : 119.88470458984375 (15 @ 14cb)
+					}
+                    u3 : 0(10 @ 14d0)
+                    u4 : 1(18 @ 14d2)
+				}
+			}
+
+            collision shape 2 sub-sub-sub-block { (3ca @ 14d5)
+
+                u0 : 1(10 @ 14d7)
+                w : -50.0 (35 @ 14d9)
+                x : 50.0 (3d @ 14de)
+                z : 1(58 @ 14e3)
+			}
+		}
+
+        component sub-sub-block { (1a @ 14e5)
+
+            component type : Model (0a @ 14e7)
+            number : 101(10 @ 14ee)
+
+            3D model sub-sub-sub-block { (32a @ 14f1)
+
+                name : elevator1 (0a @ 14f3)
+                u0 : 1.5707963705062866 (15 @ 14fe)
+                u1 : 0.0 (1d @ 1503)
+                u2 : 0.0 (25 @ 1508)
+
+                u3 sub-sub-sub-sub-block { (2a @ 150d)
+
+                    w : 0.0 (0d @ 150f)
+                    x : 0.0 (15 @ 1514)
+                    y : 0.0 (1d @ 1519)
+                    z : 1.0 (25 @ 151e)
+				}
+
+                u4 sub-sub-sub-sub-block { (32 @ 1523)
+
+                    x : 0.0 (0d @ 1525)
+                    y : 0.0 (15 @ 152a)
+                    z : 0.0 (1d @ 152f)
+				}
+                u5 : 0(38 @ 1534)
+
+                u6 sub-sub-sub-sub-block { (42 @ 1536)
+
+                    w : 1.0 (0d @ 1538)
+                    x : 1.0 (15 @ 153d)
+                    y : 1.0 (1d @ 1542)
+                    z : 1.0 (25 @ 1547)
+				}
+			}
+		}
+
+        component sub-sub-block { (1a @ 154c)
+
+            component type : GroundPolygon (0a @ 154e)
+            number : 103(10 @ 155d)
+
+            ground polygon sub-sub-sub-block { (372 @ 1560)
+
+
+                 sub-sub-sub-sub-block { (12 @ 1562)
+
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 1564)
+
+                        x : -40.72107696533203 (0d @ 1566)
+                        y : -4.286221027374268 (15 @ 156b)
+					}
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 1570)
+
+                        x : 38.4854621887207 (0d @ 1572)
+                        y : -5.4731245040893555 (15 @ 1577)
+					}
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 157c)
+
+                        x : 40.17571258544922 (0d @ 157e)
+                        y : 8.352277755737305 (15 @ 1583)
+					}
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 1588)
+
+                        x : -40.04035568237305 (0d @ 158a)
+                        y : 8.089414596557617 (15 @ 158f)
+					}
+                    u0 : 0(10 @ 1594)
+                    u1 : 1(18 @ 1596)
+				}
+                u1 : 1(18 @ 1598)
+                u2 : -50.0 (25 @ 159a)
+                u3 : 50.0 (2d @ 159f)
+                u4 :  (32 @ 15a4)
+			}
+		}
+
+        component sub-sub-block { (1a @ 15a6)
+
+            component type : ElevatorController (0a @ 15a8)
+            number : 106(10 @ 15bc)
+
+            elevator controller sub-sub-sub-block { (4d2 @ 15bf)
+
+                temp0 : 109(08 @ 15c1)
+                u0 : 2(10 @ 15c3)
+			}
+		}
+
+        component sub-sub-block { (1a @ 15c5)
+
+            component type : UtilityShape (0a @ 15c7)
+            number : 109(10 @ 15d5)
+
+            collision shape sub-sub-sub-block { (3c2 @ 15d8)
+
+
+                u0 sub-sub-sub-sub-block { (0a @ 15da)
+
+                    w : -50.0 (0d @ 15dc)
+                    x : 0.0 (15 @ 15e1)
+                    y : 100.0 (1d @ 15e6)
+                    z : 860.0 (25 @ 15eb)
+				}
+			}
+		}
+
+        component sub-sub-block { (1a @ 15f0)
+
+            component type : GroundPolygon (0a @ 15f2)
+            number : 113(10 @ 1601)
+
+            ground polygon sub-sub-sub-block { (372 @ 1604)
+
+
+                 sub-sub-sub-sub-block { (12 @ 1606)
+
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 1608)
+
+                        x : -49.11248779296875 (0d @ 160a)
+                        y : 112.0260009765625 (15 @ 160f)
+					}
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 1614)
+
+                        x : 48.74488830566406 (0d @ 1616)
+                        y : 112.56118774414062 (15 @ 161b)
+					}
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 1620)
+
+                        x : 48.368446350097656 (0d @ 1622)
+                        y : 119.72406005859375 (15 @ 1627)
+					}
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 162c)
+
+                        x : -49.387451171875 (0d @ 162e)
+                        y : 119.88470458984375 (15 @ 1633)
+					}
+                    u0 : 0(10 @ 1638)
+                    u1 : 1(18 @ 163a)
+				}
+                u1 : 1(18 @ 163c)
+                u2 : -50.0 (25 @ 163e)
+                u3 : 50.0 (2d @ 1643)
+                u4 :  (32 @ 1648)
+			}
+		}
+
+        position sub-sub-block { (22 @ 164a)
+
+            x position : 0.0 (0d @ 164c)
+            y position : 0.0 (15 @ 1651)
+		}
+        z position : 0.0 (2d @ 1656)
+        rotation : 0.0 (35 @ 165b)
+        scale : 1.0 (3d @ 1660)
+
+        u0 sub-sub-block { (42 @ 1665)
+
+            w : -49.387451171875 (0d @ 1667)
+            x : -5.4731245040893555 (15 @ 166c)
+            y : 98.13233947753906 (1d @ 1671)
+            z : 125.35782623291016 (25 @ 1676)
+		}
+        hidden : 0(48 @ 167b)
+	}
+    u0 : 1.0 (15 @ 167d)
+}

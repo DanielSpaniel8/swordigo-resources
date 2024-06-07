@@ -1,0 +1,689 @@
+data = {
+"scl file name" : "trash",
+
+"?itemblock " :  {
+
+
+	"?sub-itemsub-block " :  {
+
+		"name" : "ground",
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "CollisionShape",
+			"number" : 1,
+			"? linked component" : 100,
+
+			"collision shapesub-sub-sub-block " :  {
+
+
+				"u2sub-sub-sub-sub-block " :  {
+
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"y" : -200.0,
+						"z" : -100.0,
+					},
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"y" : 200.0,
+						"z" : -100.0,
+					},
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"y" : 200.0,
+						"z" : 100.0,
+					},
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"y" : -200.0,
+						"z" : 100.0,
+					},
+					"u3" : 0,
+					"u4" : 1,
+				},
+			},
+
+			"collision shape 2sub-sub-sub-block " :  {
+
+				"u0" : 1,
+				"w" : -50.0,
+				"x" : 50.0,
+				"z" : 1,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "GroundPolygon",
+			"number" : 100,
+
+			"ground polygonsub-sub-sub-block " :  {
+
+
+				"sub-sub-sub-sub-block " :  {
+
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"x" : -200.0,
+						"y" : -100.0,
+					},
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"x" : 200.0,
+						"y" : -100.0,
+					},
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"x" : 200.0,
+						"y" : 100.0,
+					},
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"x" : -200.0,
+						"y" : 100.0,
+					},
+					"u0" : 0,
+					"u1" : 1,
+				},
+				"u1" : 1,
+				"u2" : -50.0,
+				"u3" : 50.0,
+				"u4" : "",
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "GroundMesh",
+			"number" : 101,
+
+			"ground meshsub-sub-sub-block " :  {
+
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"w" : 0.0,
+					"x" : 0.0,
+					"y" : 0.0,
+					"z" : 0.0,
+				},
+
+				"u3sub-sub-sub-sub-block " :  {
+
+					"w" : 1.0,
+					"x" : 1.0,
+					"y" : 1.0,
+					"z" : 1.0,
+				},
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "GroundMeshGenerator",
+			"number" : 102,
+
+			"ground mesh generatorsub-sub-sub-block " :  {
+
+				"ground polygon" : 100,
+				"ground mesh" : 101,
+				"texture mapping 1" : 105,
+				"texture mapping 2" : 105,
+				"u4" : 0,
+				"u5" : 0.0,
+				"u6" : 0,
+				"u7" : 100.0,
+				"u8" : 25.0,
+				"u9" : 5.0,
+				"u10" : 5.0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "TextureMapping",
+			"number" : 105,
+
+			"texture mappingsub-sub-sub-block " :  {
+
+				"texture file" : "bluebricks",
+				"u0" : 250.0,
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"u1" : 0.0,
+					"u2" : 0.0,
+				},
+			},
+		},
+
+		"positionsub-sub-block " :  {
+
+			"x position" : 0.0,
+			"y position" : 0.0,
+		},
+		"z position" : 0.0,
+		"rotation" : 0.0,
+		"scale" : 1.0,
+
+		"u0sub-sub-block " :  {
+
+			"w" : -200.0,
+			"x" : -100.0,
+			"y" : 400.0,
+			"z" : 200.0,
+		},
+		"hidden" : 0,
+	},
+	"u0" : 1.0,
+},
+
+"?itemblock " :  {
+
+
+	"?sub-itemsub-block " :  {
+
+		"name" : "hangingplatofm",
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Model",
+			"number" : 101,
+
+			"3D modelsub-sub-sub-block " :  {
+
+				"name" : "platformwood2",
+				"u0" : 0.0,
+				"u1" : 0.0,
+				"u2" : 0.0,
+
+				"u3sub-sub-sub-sub-block " :  {
+
+					"w" : 0.0,
+					"x" : 0.0,
+					"y" : 0.0,
+					"z" : 1.0,
+				},
+
+				"u4sub-sub-sub-sub-block " :  {
+
+					"x" : 0.0,
+					"y" : 0.0,
+					"z" : 0.0,
+				},
+				"u5" : 0,
+
+				"u6sub-sub-sub-sub-block " :  {
+
+					"w" : 1.0,
+					"x" : 1.0,
+					"y" : 1.0,
+					"z" : 1.0,
+				},
+			},
+		},
+
+		"positionsub-sub-block " :  {
+
+			"x position" : 0.0,
+			"y position" : 0.0,
+		},
+		"z position" : 0.0,
+		"rotation" : 0.0,
+		"scale" : 1.0,
+
+		"u0sub-sub-block " :  {
+
+			"w" : 0.0,
+			"x" : 0.0,
+			"y" : 0.0,
+			"z" : 0.0,
+		},
+		"hidden" : 0,
+	},
+	"u0" : 1.0,
+},
+
+"?itemblock " :  {
+
+
+	"?sub-itemsub-block " :  {
+
+		"name" : "laituri",
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "CollisionShape",
+			"number" : 1,
+			"? linked component" : 103,
+
+			"collision shapesub-sub-sub-block " :  {
+
+
+				"u2sub-sub-sub-sub-block " :  {
+
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"y" : -44.53194808959961,
+						"z" : -7.654847621917725,
+					},
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"y" : 45.784114837646484,
+						"z" : -3.8942670822143555,
+					},
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"y" : 47.63790512084961,
+						"z" : -0.4207402169704437,
+					},
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"y" : -38.140811920166016,
+						"z" : -0.9269309639930725,
+					},
+					"u3" : 0,
+					"u4" : 1,
+				},
+			},
+
+			"collision shape 2sub-sub-sub-block " :  {
+
+				"u0" : 1,
+				"w" : -50.0,
+				"x" : 50.0,
+				"z" : 1,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Model",
+			"number" : 101,
+
+			"3D modelsub-sub-sub-block " :  {
+
+				"name" : "laituri_strong",
+				"u0" : 0.0,
+				"u1" : 0.0,
+				"u2" : 0.0,
+
+				"u3sub-sub-sub-sub-block " :  {
+
+					"w" : 0.0,
+					"x" : 0.0,
+					"y" : 0.0,
+					"z" : 1.0,
+				},
+
+				"u4sub-sub-sub-sub-block " :  {
+
+					"x" : 0.0,
+					"y" : 0.0,
+					"z" : 0.0,
+				},
+				"u5" : 0,
+
+				"u6sub-sub-sub-sub-block " :  {
+
+					"w" : 1.0,
+					"x" : 1.0,
+					"y" : 1.0,
+					"z" : 1.0,
+				},
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "GroundPolygon",
+			"number" : 103,
+
+			"ground polygonsub-sub-sub-block " :  {
+
+
+				"sub-sub-sub-sub-block " :  {
+
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"x" : -44.53194808959961,
+						"y" : -7.654847621917725,
+					},
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"x" : 45.784114837646484,
+						"y" : -3.8942670822143555,
+					},
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"x" : 47.63790512084961,
+						"y" : -0.4207402169704437,
+					},
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"x" : -38.140811920166016,
+						"y" : -0.9269309639930725,
+					},
+					"u0" : 0,
+					"u1" : 1,
+				},
+				"u1" : 1,
+				"u2" : -50.0,
+				"u3" : 50.0,
+				"u4" : "",
+			},
+		},
+
+		"positionsub-sub-block " :  {
+
+			"x position" : 0.0,
+			"y position" : 0.0,
+		},
+		"z position" : 0.0,
+		"rotation" : 0.0,
+		"scale" : 1.0,
+
+		"u0sub-sub-block " :  {
+
+			"w" : -44.53194808959961,
+			"x" : -7.654847621917725,
+			"y" : 92.16985321044922,
+			"z" : 7.654847621917725,
+		},
+		"hidden" : 0,
+	},
+	"u0" : 1.0,
+},
+
+"?itemblock " :  {
+
+
+	"?sub-itemsub-block " :  {
+
+		"name" : "tree",
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Model",
+			"number" : 101,
+
+			"3D modelsub-sub-sub-block " :  {
+
+				"name" : "treek",
+				"u0" : 0.0,
+				"u1" : 0.0,
+				"u2" : 0.0,
+
+				"u3sub-sub-sub-sub-block " :  {
+
+					"w" : 0.0,
+					"x" : 0.0,
+					"y" : 0.0,
+					"z" : 1.0,
+				},
+
+				"u4sub-sub-sub-sub-block " :  {
+
+					"x" : 0.0,
+					"y" : 0.0,
+					"z" : 0.0,
+				},
+				"u5" : 0,
+
+				"u6sub-sub-sub-sub-block " :  {
+
+					"w" : 1.0,
+					"x" : 1.0,
+					"y" : 1.0,
+					"z" : 1.0,
+				},
+			},
+		},
+
+		"positionsub-sub-block " :  {
+
+			"x position" : 0.0,
+			"y position" : 0.0,
+		},
+		"z position" : 0.0,
+		"rotation" : 0.0,
+		"scale" : 1.0,
+
+		"u0sub-sub-block " :  {
+
+			"w" : 0.0,
+			"x" : 0.0,
+			"y" : 0.0,
+			"z" : 0.0,
+		},
+		"hidden" : 0,
+	},
+	"u0" : 1.0,
+},
+
+"?itemblock " :  {
+
+
+	"?sub-itemsub-block " :  {
+
+		"name" : "tree2",
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Model",
+			"number" : 101,
+
+			"3D modelsub-sub-sub-block " :  {
+
+				"name" : "treek2",
+				"u0" : 0.0,
+				"u1" : 0.0,
+				"u2" : 0.0,
+
+				"u3sub-sub-sub-sub-block " :  {
+
+					"w" : 0.0,
+					"x" : 0.0,
+					"y" : 0.0,
+					"z" : 1.0,
+				},
+
+				"u4sub-sub-sub-sub-block " :  {
+
+					"x" : 0.0,
+					"y" : 0.0,
+					"z" : 0.0,
+				},
+				"u5" : 0,
+
+				"u6sub-sub-sub-sub-block " :  {
+
+					"w" : 1.0,
+					"x" : 1.0,
+					"y" : 1.0,
+					"z" : 1.0,
+				},
+			},
+		},
+
+		"positionsub-sub-block " :  {
+
+			"x position" : 0.0,
+			"y position" : 0.0,
+		},
+		"z position" : 0.0,
+		"rotation" : 0.0,
+		"scale" : 1.0,
+
+		"u0sub-sub-block " :  {
+
+			"w" : 0.0,
+			"x" : 0.0,
+			"y" : 0.0,
+			"z" : 0.0,
+		},
+		"hidden" : 0,
+	},
+	"u0" : 1.0,
+},
+
+"?itemblock " :  {
+
+
+	"?sub-itemsub-block " :  {
+
+		"name" : "web_trampoline",
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Model",
+			"number" : 101,
+
+			"3D modelsub-sub-sub-block " :  {
+
+				"name" : "web_trampoline",
+				"u0" : 0.0,
+				"u1" : 1.0,
+				"u2" : 0.0,
+
+				"u3sub-sub-sub-sub-block " :  {
+
+					"w" : 1.0,
+					"x" : 1.0,
+					"y" : 1.0,
+					"z" : 1.0,
+				},
+
+				"u4sub-sub-sub-sub-block " :  {
+
+					"x" : 0.0,
+					"y" : 0.0,
+					"z" : 0.0,
+				},
+				"u5" : 0,
+
+				"u6sub-sub-sub-sub-block " :  {
+
+					"w" : 1.0,
+					"x" : 1.0,
+					"y" : 1.0,
+					"z" : 1.0,
+				},
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "CollisionShape",
+			"number" : 103,
+
+			"collision shapesub-sub-sub-block " :  {
+
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"w" : -60.0,
+					"x" : 0.0,
+					"y" : 120.0,
+					"z" : 30.0,
+				},
+			},
+
+			"collision shape 2sub-sub-sub-block " :  {
+
+				"u1" : 1,
+				"w" : -15.0,
+				"x" : 15.0,
+
+				"lua chunksub-sub-sub-sub-block " :  {
+
+					"main chunk" : "chunk >
+
+					=== lua =============
+					local self, target, normal = ...;
+					
+					local animation = 106;
+					
+					if (target:identifier() == \"hero\") and (normal:y() < -0.5) then
+						KeyframeAnimation.SetRunning(self, animation, true);
+						KeyframeAnimation.SetCurrentTime(self, animation, 0);
+						Program.Wait(0.10)
+						target:setVelocity(Vector3.New(target:velocity():x(), 700, 0));
+						Program.Wait(KeyframeAnimation.TimeToCompletion(self,animation));
+					
+					end
+
+					=====================",
+					"secondary chunk" : "\\x1bLuaQ\\x00\\x01\\x04\\x04\\x04\\x08\\x00\\x90\\x01\\x00\\x00local self, target, normal = ...;\\r\\n\\r\\nlocal animation = 106;\\r\\n\\r\\nif (target:identifier() == \"hero\") and (normal:y() < -0.5) then\\r\\n\\tKeyframeAnimation.SetRunning(self, animation, true);\\r\\n\\tKeyframeAnimation.SetCurrentTime(self, animation, 0);\\r\\n\\tProgram.Wait(0.10)\\r\\n\\ttarget:setVelocity(Vector3.New(target:velocity():x(), 700, 0));\\r\\n\\tProgram.Wait(KeyframeAnimation.TimeToCompletion(self,animation));\\r\\n\\r\\nend\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x02\\n.\\x00\\x00\\x00%\\x00\\x00\\x02\\xc1\\x00\\x00\\x00\\x0bA\\xc0\\x00\\x1c\\x81\\x00\\x01\\x17\\x80@\\x02\\x16\\x80\\t\\x80\\x0b\\xc1@\\x01\\x1c\\x81\\x00\\x01\\x18\\x00A\\x02\\x16\\x80\\x08\\x80\\x05A\\x01\\x00\\x06\\x81A\\x02@\\x01\\x00\\x00\\x80\\x01\\x80\\x01\\xc2\\x01\\x80\\x00\\x1cA\\x00\\x02\\x05A\\x01\\x00\\x06\\xc1A\\x02@\\x01\\x00\\x00\\x80\\x01\\x80\\x01\\xc1\\x01\\x02\\x00\\x1cA\\x00\\x02\\x05A\\x02\\x00\\x06\\x81B\\x02A\\xc1\\x02\\x00\\x1cA\\x00\\x01\\x0b\\x01\\xc3\\x00\\x85A\\x03\\x00\\x86\\x81C\\x03\\xcb\\xc1\\xc3\\x00\\xdc\\x81\\x00\\x01\\xcb\\x01\\xc4\\x03\\xdc\\x81\\x00\\x01\\x01B\\x04\\x00A\\x02\\x02\\x00\\x9c\\x01\\x00\\x02\\x1cA\\x00\\x00\\x05A\\x02\\x00\\x06\\x81B\\x02EA\\x01\\x00F\\x81\\xc4\\x02\\x80\\x01\\x00\\x00\\xc0\\x01\\x80\\x01\\\\\\x01\\x80\\x01\\x1cA\\x00\\x00\\x1e\\x00\\x80\\x00\\x13\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x00\\x00\\x80Z@\\x04\\x0b\\x00\\x00\\x00identifier\\x00\\x04\\x05\\x00\\x00\\x00hero\\x00\\x04\\x02\\x00\\x00\\x00y\\x00\\x03\\x00\\x00\\x00\\x00\\x00\\x00\\xe0\\xbf\\x04\\x12\\x00\\x00\\x00KeyframeAnimation\\x00\\x04\\x0b\\x00\\x00\\x00SetRunning\\x00\\x04\\x0f\\x00\\x00\\x00SetCurrentTime\\x00\\x03\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x04\\x08\\x00\\x00\\x00Program\\x00\\x04\\x05\\x00\\x00\\x00Wait\\x00\\x03\\x9a\\x99\\x99\\x99\\x99\\x99\\xb9?\\x04\\x0c\\x00\\x00\\x00setVelocity\\x00\\x04\\x08\\x00\\x00\\x00Vector3\\x00\\x04\\x04\\x00\\x00\\x00New\\x00\\x04\\t\\x00\\x00\\x00velocity\\x00\\x04\\x02\\x00\\x00\\x00x\\x00\\x03\\x00\\x00\\x00\\x00\\x00\\xe0\\x85@\\x04\\x11\\x00\\x00\\x00TimeToCompletion\\x00\\x00\\x00\\x00\\x00.\\x00\\x00\\x00\\x01\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x06\\x00\\x00\\x00\\x06\\x00\\x00\\x00\\x06\\x00\\x00\\x00\\x06\\x00\\x00\\x00\\x06\\x00\\x00\\x00\\x06\\x00\\x00\\x00\\x07\\x00\\x00\\x00\\x07\\x00\\x00\\x00\\x07\\x00\\x00\\x00\\x07\\x00\\x00\\x00\\x07\\x00\\x00\\x00\\x07\\x00\\x00\\x00\\x08\\x00\\x00\\x00\\x08\\x00\\x00\\x00\\x08\\x00\\x00\\x00\\x08\\x00\\x00\\x00\\t\\x00\\x00\\x00\\t\\x00\\x00\\x00\\t\\x00\\x00\\x00\\t\\x00\\x00\\x00\\t\\x00\\x00\\x00\\t\\x00\\x00\\x00\\t\\x00\\x00\\x00\\t\\x00\\x00\\x00\\t\\x00\\x00\\x00\\t\\x00\\x00\\x00\\t\\x00\\x00\\x00\\n\\x00\\x00\\x00\\n\\x00\\x00\\x00\\n\\x00\\x00\\x00\\n\\x00\\x00\\x00\\n\\x00\\x00\\x00\\n\\x00\\x00\\x00\\n\\x00\\x00\\x00\\n\\x00\\x00\\x00\\x0c\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x05\\x00\\x00\\x00self\\x00\\x01\\x00\\x00\\x00-\\x00\\x00\\x00\\x07\\x00\\x00\\x00target\\x00\\x01\\x00\\x00\\x00-\\x00\\x00\\x00\\x07\\x00\\x00\\x00normal\\x00\\x01\\x00\\x00\\x00-\\x00\\x00\\x00\\n\\x00\\x00\\x00animation\\x00\\x02\\x00\\x00\\x00-\\x00\\x00\\x00\\x00\\x00\\x00\\x00",
+				},
+				"z" : 1,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "AnimationController",
+			"number" : 105,
+
+			"animation controllersub-sub-sub-block " :  {
+
+				"model component" : 101,
+				"u1" : 106,
+				"u2" : 1,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "KeyframeAnimation",
+			"number" : 106,
+
+			"keyframe animationsub-sub-sub-block " :  {
+
+				"linked model component number" : 101,
+				"name" : "web_trampoline",
+				"u0" : 0,
+				"u1" : 2.0,
+				"u2" : 0,
+			},
+		},
+
+		"positionsub-sub-block " :  {
+
+			"x position" : 0.0,
+			"y position" : 0.0,
+		},
+		"z position" : 0.0,
+		"rotation" : 0.0,
+		"scale" : 1.0,
+
+		"u0sub-sub-block " :  {
+
+			"w" : -60.0,
+			"x" : 0.0,
+			"y" : 120.0,
+			"z" : 30.0,
+		},
+		"hidden" : 0,
+	},
+	"u0" : 1.0,
+},
+
+}

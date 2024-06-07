@@ -1,0 +1,2049 @@
+scl file name : npc (0a @ 1)
+
+?item block { (12 @ 6)
+
+
+    ?sub-item sub-block { (0a @ 9)
+
+        name : critter_konna_green (12 @ c)
+
+        component sub-sub-block { (1a @ 21)
+
+            component type : Model (0a @ 23)
+            number : 101(10 @ 2a)
+
+            3D model sub-sub-sub-block { (32a @ 2d)
+
+                name : critter_konna_green (0a @ 2f)
+                u0 : 1.5707963705062866 (15 @ 44)
+                u1 : 0.0 (1d @ 49)
+                u2 : 0.0 (25 @ 4e)
+
+                u3 sub-sub-sub-sub-block { (2a @ 53)
+
+                    w : 1.0 (0d @ 55)
+                    x : 1.0 (15 @ 5a)
+                    y : 1.0 (1d @ 5f)
+                    z : 1.0 (25 @ 64)
+				}
+
+                u4 sub-sub-sub-sub-block { (32 @ 69)
+
+                    x : 0.0 (0d @ 6b)
+                    y : 0.0 (15 @ 70)
+                    z : 0.0 (1d @ 75)
+				}
+                u5 : 0(38 @ 7a)
+
+                u6 sub-sub-sub-sub-block { (42 @ 7c)
+
+                    w : 1.0 (0d @ 7e)
+                    x : 1.0 (15 @ 83)
+                    y : 1.0 (1d @ 88)
+                    z : 1.0 (25 @ 8d)
+				}
+			}
+		}
+
+        component sub-sub-block { (1a @ 92)
+
+            component type : AnimationController (0a @ 94)
+            number : 102(10 @ a9)
+
+            animation controller sub-sub-sub-block { (4aa @ ac)
+
+                model component : 101(08 @ ae)
+                u1 : 0(10 @ b0)
+                u2 : 0(18 @ b2)
+			}
+		}
+
+        component sub-sub-block { (1a @ b4)
+
+            component type : KeyframeAnimation (0a @ b6)
+            number : 103(10 @ c9)
+
+            keyframe animation sub-sub-sub-block { (332 @ cc)
+
+                linked model component number : 101(08 @ ce)
+                name : critter_konna_walk (12 @ d0)
+                u0 : 1(18 @ e4)
+                u1 : 1.5 (25 @ e6)
+                u2 : 1(28 @ eb)
+			}
+		}
+
+        component sub-sub-block { (1a @ ed)
+
+            component type : MonsterEntity (0a @ ef)
+            number : 104(10 @ fe)
+
+            entity sub-sub-sub-block { (4c2 @ 101)
+
+                u0 : 1(08 @ 103)
+                u1 : 1(10 @ 105)
+			}
+
+            ?monster entity sub-sub-sub-block { (4f2 @ 108)
+
+                u0 :  (0a @ 10a)
+
+                lua chunk sub-sub-sub-sub-block { (12 @ 10c)
+
+				}
+                u2 : 0(18 @ 10e)
+                u3 : 1(20 @ 110)
+			}
+		}
+
+        component sub-sub-block { (1a @ 112)
+
+            component type : EntityController (0a @ 114)
+            number : 106(10 @ 126)
+
+            entity controller sub-sub-sub-block { (50a @ 129)
+
+                entity component : 104(08 @ 12b)
+                animation controller component : 102(10 @ 12d)
+                u2 : 103(18 @ 12f)
+                collision shape : 113(20 @ 131)
+                u4 : 35.0 (2d @ 133)
+                u5 : 800.0 (35 @ 138)
+                u6 : 100.0 (3d @ 13d)
+                u7 : 2(40 @ 142)
+			}
+		}
+
+        component sub-sub-block { (1a @ 144)
+
+            component type : CollisionShape (0a @ 146)
+            number : 107(10 @ 156)
+
+            collision shape sub-sub-sub-block { (3c2 @ 159)
+
+
+                u0 sub-sub-sub-sub-block { (0a @ 15b)
+
+                    w : -35.0 (0d @ 15d)
+                    x : -20.0 (15 @ 162)
+                    y : 62.0 (1d @ 167)
+                    z : 60.0 (25 @ 16c)
+				}
+			}
+
+            collision shape 2 sub-sub-sub-block { (3ca @ 172)
+
+                u1 : 1(18 @ 174)
+                w : -250.0 (35 @ 176)
+                x : 250.0 (3d @ 17b)
+                z : 1(58 @ 180)
+			}
+		}
+
+        component sub-sub-block { (1a @ 182)
+
+            component type : UtilityShape (0a @ 184)
+            number : 113(10 @ 192)
+
+            collision shape sub-sub-sub-block { (3c2 @ 195)
+
+
+                u0 sub-sub-sub-sub-block { (0a @ 197)
+
+                    w : -600.0 (0d @ 199)
+                    x : -200.0 (15 @ 19e)
+                    y : 1200.0 (1d @ 1a3)
+                    z : 400.0 (25 @ 1a8)
+				}
+			}
+		}
+
+        position sub-sub-block { (22 @ 1ad)
+
+            x position : 0.0 (0d @ 1af)
+            y position : 0.0 (15 @ 1b4)
+		}
+        z position : 0.0 (2d @ 1b9)
+        rotation : 0.0 (35 @ 1be)
+        scale : 1.0 (3d @ 1c3)
+
+        u0 sub-sub-block { (42 @ 1c8)
+
+            w : -35.0 (0d @ 1ca)
+            x : -20.0 (15 @ 1cf)
+            y : 62.0 (1d @ 1d4)
+            z : 60.0 (25 @ 1d9)
+		}
+        hidden : 0(48 @ 1de)
+	}
+    u0 : 0.3499999940395355 (15 @ 1e0)
+}
+
+?item block { (12 @ 1e5)
+
+
+    ?sub-item sub-block { (0a @ 1e8)
+
+        name : dwarf (12 @ 1eb)
+
+        component sub-sub-block { (1a @ 1f2)
+
+            component type : Model (0a @ 1f4)
+            number : 101(10 @ 1fb)
+
+            3D model sub-sub-sub-block { (32a @ 1fe)
+
+                name : npc_dwarf1 (0a @ 200)
+                u0 : 4.014257431030273 (15 @ 20c)
+                u1 : 0.0 (1d @ 211)
+                u2 : 0.0 (25 @ 216)
+
+                u3 sub-sub-sub-sub-block { (2a @ 21b)
+
+                    w : 0.0 (0d @ 21d)
+                    x : 0.0 (15 @ 222)
+                    y : 0.0 (1d @ 227)
+                    z : 1.0 (25 @ 22c)
+				}
+
+                u4 sub-sub-sub-sub-block { (32 @ 231)
+
+                    x : 0.0 (0d @ 233)
+                    y : 0.0 (15 @ 238)
+                    z : 0.0 (1d @ 23d)
+				}
+                u5 : 0(38 @ 242)
+
+                u6 sub-sub-sub-sub-block { (42 @ 244)
+
+                    w : 1.0 (0d @ 246)
+                    x : 1.0 (15 @ 24b)
+                    y : 1.0 (1d @ 250)
+                    z : 1.0 (25 @ 255)
+				}
+			}
+		}
+
+        component sub-sub-block { (1a @ 25a)
+
+            component type : StaticMonsterController (0a @ 25c)
+            number : 103(10 @ 275)
+
+            monster controller sub-sub-sub-block { (972 @ 278)
+
+                u0 : 100.0 (0d @ 27a)
+                u1 : 106(10 @ 27f)
+                u2 : 104(18 @ 281)
+                u3 : 0(20 @ 283)
+			}
+
+            static monster controller sub-sub-sub-block { (9aa @ 286)
+
+                u0 : 108(08 @ 288)
+			}
+		}
+
+        component sub-sub-block { (1a @ 28a)
+
+            component type : MonsterEntity (0a @ 28c)
+            number : 104(10 @ 29b)
+
+            entity sub-sub-sub-block { (4c2 @ 29e)
+
+                u0 : 18446744073709551615(08 @ 2a0)
+                u1 : 1(10 @ 2ab)
+			}
+
+            ?monster entity sub-sub-sub-block { (4f2 @ 2ae)
+
+                u0 :  (0a @ 2b0)
+
+                lua chunk sub-sub-sub-sub-block { (12 @ 2b2)
+
+				}
+                u2 : 1(18 @ 2b4)
+                u3 : 1(20 @ 2b6)
+			}
+		}
+
+        component sub-sub-block { (1a @ 2b8)
+
+            component type : AnimationController (0a @ 2ba)
+            number : 106(10 @ 2cf)
+
+            animation controller sub-sub-sub-block { (4aa @ 2d2)
+
+                model component : 101(08 @ 2d4)
+                u1 : 0(10 @ 2d6)
+                u2 : 0(18 @ 2d8)
+			}
+		}
+
+        component sub-sub-block { (1a @ 2da)
+
+            component type : KeyframeAnimation (0a @ 2dc)
+            number : 108(10 @ 2ef)
+
+            keyframe animation sub-sub-sub-block { (332 @ 2f2)
+
+                linked model component number : 101(08 @ 2f4)
+                name : npc_dwarf_stand (12 @ 2f6)
+                u0 : 1(18 @ 307)
+                u1 : 1.0 (25 @ 309)
+                u2 : 1(28 @ 30e)
+			}
+		}
+
+        position sub-sub-block { (22 @ 310)
+
+            x position : 0.0 (0d @ 312)
+            y position : 0.0 (15 @ 317)
+		}
+        z position : 0.0 (2d @ 31c)
+        rotation : 0.0 (35 @ 321)
+        scale : 1.0 (3d @ 326)
+
+        u0 sub-sub-block { (42 @ 32b)
+
+            w : 0.0 (0d @ 32d)
+            x : 0.0 (15 @ 332)
+            y : 0.0 (1d @ 337)
+            z : 0.0 (25 @ 33c)
+		}
+        hidden : 0(48 @ 341)
+	}
+    u0 : 1.0 (15 @ 343)
+}
+
+?item block { (12 @ 348)
+
+
+    ?sub-item sub-block { (0a @ 34b)
+
+        name : king (12 @ 34e)
+
+        component sub-sub-block { (1a @ 354)
+
+            component type : Entity (0a @ 356)
+            number : 1(10 @ 35e)
+
+            entity sub-sub-sub-block { (4c2 @ 361)
+
+                u0 : 18446744073709551615(08 @ 363)
+                u1 : 1(10 @ 36e)
+			}
+		}
+
+        component sub-sub-block { (1a @ 370)
+
+            component type : Model (0a @ 372)
+            number : 101(10 @ 379)
+
+            3D model sub-sub-sub-block { (32a @ 37c)
+
+                name : npc_king (0a @ 37e)
+                u0 : 2.356194496154785 (15 @ 388)
+                u1 : 0.0 (1d @ 38d)
+                u2 : 0.0 (25 @ 392)
+
+                u3 sub-sub-sub-sub-block { (2a @ 397)
+
+                    w : 0.0 (0d @ 399)
+                    x : 0.0 (15 @ 39e)
+                    y : 0.0 (1d @ 3a3)
+                    z : 1.0 (25 @ 3a8)
+				}
+
+                u4 sub-sub-sub-sub-block { (32 @ 3ad)
+
+                    x : 0.0 (0d @ 3af)
+                    y : 0.0 (15 @ 3b4)
+                    z : 0.0 (1d @ 3b9)
+				}
+                u5 : 0(38 @ 3be)
+
+                u6 sub-sub-sub-sub-block { (42 @ 3c0)
+
+                    w : 1.0 (0d @ 3c2)
+                    x : 1.0 (15 @ 3c7)
+                    y : 1.0 (1d @ 3cc)
+                    z : 1.0 (25 @ 3d1)
+				}
+			}
+		}
+
+        component sub-sub-block { (1a @ 3d6)
+
+            component type : KeyframeAnimation (0a @ 3d8)
+            number : 103(10 @ 3eb)
+
+            keyframe animation sub-sub-sub-block { (332 @ 3ee)
+
+                linked model component number : 101(08 @ 3f0)
+                name : npc_oldman_stand (12 @ 3f2)
+                u0 : 1(18 @ 404)
+                u1 : 0.6000000238418579 (25 @ 406)
+                u2 : 1(28 @ 40b)
+			}
+		}
+
+        component sub-sub-block { (1a @ 40d)
+
+            component type : AnimationController (0a @ 40f)
+            number : 109(10 @ 424)
+
+            animation controller sub-sub-sub-block { (4aa @ 427)
+
+                model component : 101(08 @ 429)
+                u1 : 103(10 @ 42b)
+                u2 : 1(18 @ 42d)
+			}
+		}
+
+        component sub-sub-block { (1a @ 42f)
+
+            component type : CollisionShape (0a @ 431)
+            number : 111(10 @ 441)
+
+            collision shape sub-sub-sub-block { (3c2 @ 444)
+
+
+                u0 sub-sub-sub-sub-block { (0a @ 446)
+
+                    w : -32.70899963378906 (0d @ 448)
+                    x : -34.29396057128906 (15 @ 44d)
+                    y : 64.53463745117188 (1d @ 452)
+                    z : 62.28142547607422 (25 @ 457)
+				}
+			}
+
+            collision shape 2 sub-sub-sub-block { (3ca @ 45d)
+
+                u1 : 1(18 @ 45f)
+                u2 : 1(20 @ 461)
+                w : -15.0 (35 @ 463)
+                x : 15.0 (3d @ 468)
+                z : 1(58 @ 46d)
+			}
+		}
+
+        component sub-sub-block { (1a @ 46f)
+
+            component type : Health (0a @ 471)
+            number : 114(10 @ 479)
+
+            health sub-sub-sub-block { (3da @ 47c)
+
+                u0 : 1(08 @ 47e)
+                u1 : 0(10 @ 480)
+
+                u2 sub-sub-sub-sub-block { (1a @ 482)
+
+                    x : 0.0 (0d @ 484)
+                    y : 50.0 (15 @ 489)
+				}
+			}
+		}
+
+        position sub-sub-block { (22 @ 48e)
+
+            x position : 0.0 (0d @ 490)
+            y position : 0.0 (15 @ 495)
+		}
+        z position : 0.0 (2d @ 49a)
+        rotation : 0.0 (35 @ 49f)
+        scale : 1.0 (3d @ 4a4)
+
+        u0 sub-sub-block { (42 @ 4a9)
+
+            w : -32.70899963378906 (0d @ 4ab)
+            x : -34.29396057128906 (15 @ 4b0)
+            y : 64.53463745117188 (1d @ 4b5)
+            z : 62.28142547607422 (25 @ 4ba)
+		}
+        hidden : 0(48 @ 4bf)
+	}
+    u0 : 1.0 (15 @ 4c1)
+}
+
+?item block { (12 @ 4c6)
+
+
+    ?sub-item sub-block { (0a @ 4c9)
+
+        name : npc_healer (12 @ 4cc)
+
+        component sub-sub-block { (1a @ 4d8)
+
+            component type : Model (0a @ 4da)
+            number : 101(10 @ 4e1)
+
+            3D model sub-sub-sub-block { (32a @ 4e4)
+
+                name : npc_healer (0a @ 4e6)
+                u0 : 1.5707963705062866 (15 @ 4f2)
+                u1 : 0.5 (1d @ 4f7)
+                u2 : 0.0 (25 @ 4fc)
+
+                u3 sub-sub-sub-sub-block { (2a @ 501)
+
+                    w : 0.0 (0d @ 503)
+                    x : 0.0 (15 @ 508)
+                    y : 0.0 (1d @ 50d)
+                    z : 1.0 (25 @ 512)
+				}
+
+                u4 sub-sub-sub-sub-block { (32 @ 517)
+
+                    x : 0.0 (0d @ 519)
+                    y : 0.0 (15 @ 51e)
+                    z : 0.0 (1d @ 523)
+				}
+                u5 : 0(38 @ 528)
+
+                u6 sub-sub-sub-sub-block { (42 @ 52a)
+
+                    w : 1.0 (0d @ 52c)
+                    x : 1.0 (15 @ 531)
+                    y : 1.0 (1d @ 536)
+                    z : 1.0 (25 @ 53b)
+				}
+			}
+		}
+
+        component sub-sub-block { (1a @ 540)
+
+            component type : KeyframeAnimation (0a @ 542)
+            number : 105(10 @ 555)
+
+            keyframe animation sub-sub-sub-block { (332 @ 558)
+
+                linked model component number : 101(08 @ 55a)
+                name : npc_female_stand (12 @ 55c)
+                u0 : 1(18 @ 56e)
+                u1 : 0.30000001192092896 (25 @ 570)
+                u2 : 1(28 @ 575)
+			}
+		}
+
+        component sub-sub-block { (1a @ 577)
+
+            component type : AnimationController (0a @ 579)
+            number : 106(10 @ 58e)
+
+            animation controller sub-sub-sub-block { (4aa @ 591)
+
+                model component : 101(08 @ 593)
+                u1 : 0(10 @ 595)
+                u2 : 0(18 @ 597)
+			}
+		}
+
+        component sub-sub-block { (1a @ 599)
+
+            component type : KeyframeAnimation (0a @ 59b)
+            number : 108(10 @ 5ae)
+
+            keyframe animation sub-sub-sub-block { (332 @ 5b1)
+
+                linked model component number : 101(08 @ 5b3)
+                name : npc_walk_slow (12 @ 5b5)
+                u0 : 1(18 @ 5c4)
+                u1 : 1.600000023841858 (25 @ 5c6)
+                u2 : 1(28 @ 5cb)
+			}
+		}
+
+        component sub-sub-block { (1a @ 5cd)
+
+            component type : CollisionShape (0a @ 5cf)
+            number : 109(10 @ 5df)
+
+            collision shape sub-sub-sub-block { (3c2 @ 5e2)
+
+
+                u0 sub-sub-sub-sub-block { (0a @ 5e4)
+
+                    w : -10.0 (0d @ 5e6)
+                    x : -40.0 (15 @ 5eb)
+                    y : 20.0 (1d @ 5f0)
+                    z : 67.98746490478516 (25 @ 5f5)
+				}
+			}
+
+            collision shape 2 sub-sub-sub-block { (3ca @ 5fb)
+
+                u1 : 1(18 @ 5fd)
+                w : -15.0 (35 @ 5ff)
+                x : 15.0 (3d @ 604)
+                z : 1(58 @ 609)
+			}
+		}
+
+        component sub-sub-block { (1a @ 60b)
+
+            component type : Entity (0a @ 60d)
+            number : 111(10 @ 615)
+
+            entity sub-sub-sub-block { (4c2 @ 618)
+
+                u0 : 18446744073709551615(08 @ 61a)
+                u1 : 1(10 @ 625)
+			}
+		}
+
+        component sub-sub-block { (1a @ 627)
+
+            component type : EntityController (0a @ 629)
+            number : 112(10 @ 63b)
+
+            entity controller sub-sub-sub-block { (50a @ 63e)
+
+                entity component : 111(08 @ 640)
+                animation controller component : 106(10 @ 642)
+                u2 : 105(18 @ 644)
+                collision shape : 109(20 @ 646)
+                u4 : 0.0 (2d @ 648)
+                u5 : 800.0 (35 @ 64d)
+                u6 : 0.0 (3d @ 652)
+                u7 : 1(40 @ 657)
+			}
+		}
+
+        component sub-sub-block { (1a @ 659)
+
+            component type : EntityAction (0a @ 65c)
+            number : 115(10 @ 66a)
+
+            entity action sub-sub-sub-block { (512 @ 66d)
+
+
+                lua chunk sub-sub-sub-sub-block { (0a @ 670)
+
+                    main chunk : chunk >
+
+                    === lua =============
+                    local self = ...;
+                    
+                    local castAnimation = 116;
+                    
+                    AnimationController.BlendToAnimation(self, castAnimation);
+                    
+                    Skill.BeginCasting(self, "", Vector3.New(EntityController.FacingDirection(self), 0, 0));
+                    
+                    Program.Wait(1000.0);
+                    
+                    
+
+                    =====================
+                    secondary chunk : \x1bLuaQ\x00\x01\x04\x04\x04\x08\x00\xe7\x00\x00\x00local self = ...;\r\n\r\nlocal castAnimation = 116;\r\n\r\nAnimationController.BlendToAnimation(self, castAnimation);\r\n\r\nSkill.BeginCasting(self, "", Vector3.New(EntityController.FacingDirection(self), 0, 0));\r\n\r\nProgram.Wait(1000.0);\r\n\r\n\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x02\t\x1a\x00\x00\x00%\x00\x00\x01A\x00\x00\x00\x85@\x00\x00\x86\x80@\x01\xc0\x00\x00\x00\x00\x01\x80\x00\x9c@\x80\x01\x85\xc0\x00\x00\x86\x00A\x01\xc0\x00\x00\x00\x01A\x01\x00E\x81\x01\x00F\xc1\xc1\x02\x85\x01\x02\x00\x86AB\x03\xc0\x01\x00\x00\x9c\x81\x00\x01\xc1\x81\x02\x00\x01\x82\x02\x00\\\x01\x00\x02\x9c@\x00\x00\x85\xc0\x02\x00\x86\x00C\x01\xc1@\x03\x00\x9c@\x00\x01\x1e\x00\x80\x00\x0e\x00\x00\x00\x03\x00\x00\x00\x00\x00\x00]@\x04\x14\x00\x00\x00AnimationController\x00\x04\x11\x00\x00\x00BlendToAnimation\x00\x04\x06\x00\x00\x00Skill\x00\x04\r\x00\x00\x00BeginCasting\x00\x04\x01\x00\x00\x00\x00\x04\x08\x00\x00\x00Vector3\x00\x04\x04\x00\x00\x00New\x00\x04\x11\x00\x00\x00EntityController\x00\x04\x10\x00\x00\x00FacingDirection\x00\x03\x00\x00\x00\x00\x00\x00\x00\x00\x04\x08\x00\x00\x00Program\x00\x04\x05\x00\x00\x00Wait\x00\x03\x00\x00\x00\x00\x00@\x8f@\x00\x00\x00\x00\x1a\x00\x00\x00\x01\x00\x00\x00\x03\x00\x00\x00\x05\x00\x00\x00\x05\x00\x00\x00\x05\x00\x00\x00\x05\x00\x00\x00\x05\x00\x00\x00\x07\x00\x00\x00\x07\x00\x00\x00\x07\x00\x00\x00\x07\x00\x00\x00\x07\x00\x00\x00\x07\x00\x00\x00\x07\x00\x00\x00\x07\x00\x00\x00\x07\x00\x00\x00\x07\x00\x00\x00\x07\x00\x00\x00\x07\x00\x00\x00\x07\x00\x00\x00\x07\x00\x00\x00\t\x00\x00\x00\t\x00\x00\x00\t\x00\x00\x00\t\x00\x00\x00\t\x00\x00\x00\x02\x00\x00\x00\x05\x00\x00\x00self\x00\x01\x00\x00\x00\x19\x00\x00\x00\x0e\x00\x00\x00castAnimation\x00\x02\x00\x00\x00\x19\x00\x00\x00\x00\x00\x00\x00 (12 @ 75c)
+				}
+			}
+		}
+
+        component sub-sub-block { (1a @ a3a)
+
+            component type : KeyframeAnimation (0a @ a3c)
+            number : 116(10 @ a4f)
+
+            keyframe animation sub-sub-sub-block { (332 @ a52)
+
+                linked model component number : 101(08 @ a54)
+                name : hiro_cast (12 @ a56)
+                u0 : 1(18 @ a61)
+                u1 : 1.0 (25 @ a63)
+                u2 : 1(28 @ a68)
+			}
+		}
+
+        component sub-sub-block { (1a @ a6a)
+
+            component type : Skill (0a @ a6c)
+            number : 117(10 @ a73)
+
+            skill sub-sub-sub-block { (1142 @ a76)
+
+                u0 : 0(08 @ a78)
+
+                u1 sub-sub-sub-sub-block { (12 @ a7a)
+
+                    x : 30.0 (0d @ a7c)
+                    y : 0.0 (15 @ a81)
+				}
+                cast animation : npc_healer_cast (1a @ a86)
+			}
+		}
+
+        position sub-sub-block { (22 @ a97)
+
+            x position : 0.0 (0d @ a99)
+            y position : 0.0 (15 @ a9e)
+		}
+        z position : 0.0 (2d @ aa3)
+        rotation : 0.0 (35 @ aa8)
+        scale : 1.0 (3d @ aad)
+
+        u0 sub-sub-block { (42 @ ab2)
+
+            w : -10.0 (0d @ ab4)
+            x : -40.0 (15 @ ab9)
+            y : 20.0 (1d @ abe)
+            z : 67.98746490478516 (25 @ ac3)
+		}
+        hidden : 0(48 @ ac8)
+	}
+    u0 : 1.0 (15 @ aca)
+}
+
+?item block { (12 @ acf)
+
+
+    ?sub-item sub-block { (0a @ ad2)
+
+        name : npc_healer_cast (12 @ ad5)
+
+        component sub-sub-block { (1a @ ae6)
+
+            component type : SimpleGlow (0a @ ae8)
+            number : 1(10 @ af4)
+
+            simple glow sub-sub-sub-block { (7f2 @ af7)
+
+
+                u0 sub-sub-sub-sub-block { (0a @ af9)
+
+                    w : 0.2777783274650574 (0d @ afb)
+                    x : 1.0 (15 @ b00)
+                    y : 0.16666662693023682 (1d @ b05)
+                    z : 0.5 (25 @ b0a)
+				}
+                u1 : 20.0 (15 @ b0f)
+                u2 : 20(18 @ b14)
+                u3 : 15.0 (25 @ b16)
+                u4 : 0.15000000596046448 (2d @ b1b)
+                u5 : 0.800000011920929 (35 @ b20)
+
+                u6 sub-sub-sub-sub-block { (3a @ b25)
+
+                    y : 0.0 (0d @ b27)
+                    z : 0.0 (15 @ b2c)
+				}
+			}
+		}
+
+        component sub-sub-block { (1a @ b31)
+
+            component type : ParticleEmitter (0a @ b33)
+            number : 102(10 @ b44)
+
+            particle emitter sub-sub-sub-block { (7d2 @ b47)
+
+                particle : 103(10 @ b49)
+                particle : 104(10 @ b4b)
+                particle : 105(10 @ b4d)
+                u1 : 0(18 @ b4f)
+                u2 : 30(20 @ b51)
+                u3 : 0(28 @ b53)
+                u4 : 0(30 @ b55)
+                u6 : 0(40 @ b57)
+			}
+		}
+
+        component sub-sub-block { (1a @ b59)
+
+            component type : Particle (0a @ b5b)
+            number : 103(10 @ b65)
+
+            particle sub-sub-sub-block { (7da @ b68)
+
+                name : particle_fure_1 (0a @ b6a)
+                u0 : 40.0 (15 @ b7b)
+			}
+		}
+
+        component sub-sub-block { (1a @ b80)
+
+            component type : Particle (0a @ b82)
+            number : 104(10 @ b8c)
+
+            particle sub-sub-sub-block { (7da @ b8f)
+
+                name : particle_fure_2 (0a @ b91)
+                u0 : 40.0 (15 @ ba2)
+			}
+		}
+
+        component sub-sub-block { (1a @ ba7)
+
+            component type : Particle (0a @ ba9)
+            number : 105(10 @ bb3)
+
+            particle sub-sub-sub-block { (7da @ bb6)
+
+                name : particle_fure_3 (0a @ bb8)
+                u0 : 40.0 (15 @ bc9)
+			}
+		}
+
+        component sub-sub-block { (1a @ bce)
+
+            component type : MagicSpellCast (0a @ bd0)
+            number : 109(10 @ be0)
+
+            magic spell cast sub-sub-sub-block { (114a @ be3)
+
+                particle emitter : 102(08 @ be5)
+                u0 : 0(10 @ be7)
+			}
+		}
+
+        position sub-sub-block { (22 @ be9)
+
+            x position : 0.0 (0d @ beb)
+            y position : 0.0 (15 @ bf0)
+		}
+        z position : 0.0 (2d @ bf5)
+        rotation : 0.0 (35 @ bfa)
+        scale : 1.0 (3d @ bff)
+
+        u0 sub-sub-block { (42 @ c04)
+
+            w : -20.0 (0d @ c06)
+            x : -20.0 (15 @ c0b)
+            y : 40.0 (1d @ c10)
+            z : 40.0 (25 @ c15)
+		}
+        hidden : 0(48 @ c1a)
+	}
+    u0 : 1.0 (15 @ c1c)
+}
+
+?item block { (12 @ c21)
+
+
+    ?sub-item sub-block { (0a @ c24)
+
+        name : npc_male1_standing (12 @ c27)
+
+        component sub-sub-block { (1a @ c3b)
+
+            component type : Model (0a @ c3d)
+            number : 101(10 @ c44)
+
+            3D model sub-sub-sub-block { (32a @ c47)
+
+                name : npc_male1 (0a @ c49)
+                u0 : 1.5707963705062866 (15 @ c54)
+                u1 : 0.0 (1d @ c59)
+                u2 : 0.0 (25 @ c5e)
+
+                u3 sub-sub-sub-sub-block { (2a @ c63)
+
+                    w : 0.0 (0d @ c65)
+                    x : 0.0 (15 @ c6a)
+                    y : 0.0 (1d @ c6f)
+                    z : 1.0 (25 @ c74)
+				}
+
+                u4 sub-sub-sub-sub-block { (32 @ c79)
+
+                    x : 0.0 (0d @ c7b)
+                    y : 0.0 (15 @ c80)
+                    z : 0.0 (1d @ c85)
+				}
+                u5 : 0(38 @ c8a)
+
+                u6 sub-sub-sub-sub-block { (42 @ c8c)
+
+                    w : 1.0 (0d @ c8e)
+                    x : 1.0 (15 @ c93)
+                    y : 1.0 (1d @ c98)
+                    z : 1.0 (25 @ c9d)
+				}
+			}
+		}
+
+        component sub-sub-block { (1a @ ca2)
+
+            component type : StaticMonsterController (0a @ ca4)
+            number : 103(10 @ cbd)
+
+            monster controller sub-sub-sub-block { (972 @ cc0)
+
+                u0 : 100.0 (0d @ cc2)
+                u1 : 106(10 @ cc7)
+                u2 : 104(18 @ cc9)
+                u3 : 0(20 @ ccb)
+			}
+
+            static monster controller sub-sub-sub-block { (9aa @ cce)
+
+                u0 : 105(08 @ cd0)
+			}
+		}
+
+        component sub-sub-block { (1a @ cd2)
+
+            component type : MonsterEntity (0a @ cd4)
+            number : 104(10 @ ce3)
+
+            entity sub-sub-sub-block { (4c2 @ ce6)
+
+                u0 : 18446744073709551615(08 @ ce8)
+                u1 : 1(10 @ cf3)
+			}
+
+            ?monster entity sub-sub-sub-block { (4f2 @ cf6)
+
+                u0 :  (0a @ cf8)
+
+                lua chunk sub-sub-sub-sub-block { (12 @ cfa)
+
+				}
+                u2 : 1(18 @ cfc)
+                u3 : 1(20 @ cfe)
+			}
+		}
+
+        component sub-sub-block { (1a @ d00)
+
+            component type : KeyframeAnimation (0a @ d02)
+            number : 105(10 @ d15)
+
+            keyframe animation sub-sub-sub-block { (332 @ d18)
+
+                linked model component number : 101(08 @ d1a)
+                name : npc_stand (12 @ d1c)
+                u0 : 1(18 @ d27)
+                u1 : 1.0 (25 @ d29)
+                u2 : 1(28 @ d2e)
+			}
+		}
+
+        component sub-sub-block { (1a @ d30)
+
+            component type : AnimationController (0a @ d32)
+            number : 106(10 @ d47)
+
+            animation controller sub-sub-sub-block { (4aa @ d4a)
+
+                model component : 101(08 @ d4c)
+                u1 : 0(10 @ d4e)
+                u2 : 0(18 @ d50)
+			}
+		}
+
+        position sub-sub-block { (22 @ d52)
+
+            x position : 0.0 (0d @ d54)
+            y position : 0.0 (15 @ d59)
+		}
+        z position : 0.0 (2d @ d5e)
+        rotation : 0.0 (35 @ d63)
+        scale : 1.0 (3d @ d68)
+
+        u0 sub-sub-block { (42 @ d6d)
+
+            w : 0.0 (0d @ d6f)
+            x : 0.0 (15 @ d74)
+            y : 0.0 (1d @ d79)
+            z : 0.0 (25 @ d7e)
+		}
+        hidden : 0(48 @ d83)
+	}
+    u0 : 1.0 (15 @ d85)
+}
+
+?item block { (12 @ d8a)
+
+
+    ?sub-item sub-block { (0a @ d8d)
+
+        name : npc_oldman (12 @ d90)
+
+        component sub-sub-block { (1a @ d9c)
+
+            component type : Entity (0a @ d9e)
+            number : 1(10 @ da6)
+
+            entity sub-sub-sub-block { (4c2 @ da9)
+
+                u0 : 18446744073709551615(08 @ dab)
+                u1 : 1(10 @ db6)
+			}
+		}
+
+        component sub-sub-block { (1a @ db8)
+
+            component type : EntityAction (0a @ dbb)
+            number : 2(10 @ dc9)
+
+            entity action sub-sub-sub-block { (512 @ dcc)
+
+
+                lua chunk sub-sub-sub-sub-block { (0a @ dcf)
+
+                    main chunk : chunk >
+
+                    === lua =============
+                    local self = ...;
+                    
+                    if self["texts"] ~= nil then
+                    	local text = self["texts"][Math.RandomInt(1,#self["texts"])];
+                    
+                    	local bubble = ShowTextBubble(self:identifier().."_bubble", self:position() + Vector3.New(0, 20, 0), text);
+                    	
+                    	local time = 0;
+                    	local interval = 0.01;
+                    	while time < 2 do
+                    		bubble:setPosition(self:position() + Vector3.New(0, 40, 0));
+                    		Program.Wait(interval);
+                    		time = time + interval;
+                    	end
+                    	
+                    	HideTextBubble(bubble:identifier());
+                    
+                    	Program.Wait(0.4);
+                    end
+
+                    =====================
+                    secondary chunk : \x1bLuaQ\x00\x01\x04\x04\x04\x08\x00\xe6\x01\x00\x00local self = ...;\r\n\r\nif self["texts"] ~= nil then\r\n\tlocal text = self["texts"][Math.RandomInt(1,#self["texts"])];\r\n\r\n\tlocal bubble = ShowTextBubble(self:identifier().."_bubble", self:position() + Vector3.New(0, 20, 0), text);\r\n\t\r\n\tlocal time = 0;\r\n\tlocal interval = 0.01;\r\n\twhile time < 2 do\r\n\t\tbubble:setPosition(self:position() + Vector3.New(0, 40, 0));\r\n\t\tProgram.Wait(interval);\r\n\t\ttime = time + interval;\r\n\tend\r\n\t\r\n\tHideTextBubble(bubble:identifier());\r\n\r\n\tProgram.Wait(0.4);\r\nend\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x02\x0c:\x00\x00\x00%\x00\x00\x01F\x00@\x00W@\xc0\x00\x16\x00\r\x80F\x00@\x00\x85\x80\x00\x00\x86\xc0@\x01\xc1\x00\x01\x00\x06\x01@\x00\x14\x01\x00\x02\x9c\x80\x80\x01F\x80\x80\x00\x85@\x01\x00\xcb\x80A\x00\xdc\x80\x00\x01\x01\xc1\x01\x00\xd5\x00\x81\x01\x0b\x01B\x00\x1c\x81\x00\x01EA\x02\x00F\x81\xc2\x02\x81\xc1\x02\x00\xc1\x01\x03\x00\x01\xc2\x02\x00\\\x81\x00\x02\x0cA\x01\x02@\x01\x80\x00\x9c\x80\x00\x02\xc1\xc0\x02\x00\x01A\x03\x00\x18\x80\xc3\x01\x16\x00\x04\x80K\xc1C\x01\xcb\x01B\x00\xdc\x81\x00\x01\x05B\x02\x00\x06\x82B\x04A\xc2\x02\x00\x81\x02\x04\x00\xc1\xc2\x02\x00\x1c\x82\x00\x02\xcc\x01\x82\x03\\A\x80\x01EA\x04\x00F\x81\xc4\x02\x80\x01\x00\x02\\A\x00\x01\xcc\x00\x81\x01\x16\x00\xfb\x7fE\xc1\x04\x00\x8b\x81A\x01\x9c\x01\x00\x01\\A\x00\x00EA\x04\x00F\x81\xc4\x02\x81\x01\x05\x00\\A\x00\x01\x1e\x00\x80\x00\x15\x00\x00\x00\x04\x06\x00\x00\x00texts\x00\x00\x04\x05\x00\x00\x00Math\x00\x04\n\x00\x00\x00RandomInt\x00\x03\x00\x00\x00\x00\x00\x00\xf0?\x04\x0f\x00\x00\x00ShowTextBubble\x00\x04\x0b\x00\x00\x00identifier\x00\x04\x08\x00\x00\x00_bubble\x00\x04\t\x00\x00\x00position\x00\x04\x08\x00\x00\x00Vector3\x00\x04\x04\x00\x00\x00New\x00\x03\x00\x00\x00\x00\x00\x00\x00\x00\x03\x00\x00\x00\x00\x00\x004@\x03{\x14\xaeG\xe1z\x84?\x03\x00\x00\x00\x00\x00\x00\x00@\x04\x0c\x00\x00\x00setPosition\x00\x03\x00\x00\x00\x00\x00\x00D@\x04\x08\x00\x00\x00Program\x00\x04\x05\x00\x00\x00Wait\x00\x04\x0f\x00\x00\x00HideTextBubble\x00\x03\x9a\x99\x99\x99\x99\x99\xd9?\x00\x00\x00\x00:\x00\x00\x00\x01\x00\x00\x00\x03\x00\x00\x00\x03\x00\x00\x00\x03\x00\x00\x00\x04\x00\x00\x00\x04\x00\x00\x00\x04\x00\x00\x00\x04\x00\x00\x00\x04\x00\x00\x00\x04\x00\x00\x00\x04\x00\x00\x00\x04\x00\x00\x00\x06\x00\x00\x00\x06\x00\x00\x00\x06\x00\x00\x00\x06\x00\x00\x00\x06\x00\x00\x00\x06\x00\x00\x00\x06\x00\x00\x00\x06\x00\x00\x00\x06\x00\x00\x00\x06\x00\x00\x00\x06\x00\x00\x00\x06\x00\x00\x00\x06\x00\x00\x00\x06\x00\x00\x00\x06\x00\x00\x00\x06\x00\x00\x00\x08\x00\x00\x00\t\x00\x00\x00\n\x00\x00\x00\n\x00\x00\x00\x0b\x00\x00\x00\x0b\x00\x00\x00\x0b\x00\x00\x00\x0b\x00\x00\x00\x0b\x00\x00\x00\x0b\x00\x00\x00\x0b\x00\x00\x00\x0b\x00\x00\x00\x0b\x00\x00\x00\x0b\x00\x00\x00\x0b\x00\x00\x00\x0c\x00\x00\x00\x0c\x00\x00\x00\x0c\x00\x00\x00\x0c\x00\x00\x00\r\x00\x00\x00\r\x00\x00\x00\x10\x00\x00\x00\x10\x00\x00\x00\x10\x00\x00\x00\x10\x00\x00\x00\x12\x00\x00\x00\x12\x00\x00\x00\x12\x00\x00\x00\x12\x00\x00\x00\x13\x00\x00\x00\x05\x00\x00\x00\x05\x00\x00\x00self\x00\x01\x00\x00\x009\x00\x00\x00\x05\x00\x00\x00text\x00\x0c\x00\x00\x009\x00\x00\x00\x07\x00\x00\x00bubble\x00\x1c\x00\x00\x009\x00\x00\x00\x05\x00\x00\x00time\x00\x1d\x00\x00\x009\x00\x00\x00\t\x00\x00\x00interval\x00\x1e\x00\x00\x009\x00\x00\x00\x00\x00\x00\x00 (12 @ fba)
+				}
+			}
+		}
+
+        component sub-sub-block { (1a @ 14f7)
+
+            component type : EntityController (0a @ 14f9)
+            number : 3(10 @ 150b)
+
+            entity controller sub-sub-sub-block { (50a @ 150e)
+
+                entity component : 1(08 @ 1510)
+                animation controller component : 109(10 @ 1512)
+                u2 : 103(18 @ 1514)
+                collision shape : 0(20 @ 1516)
+                u4 : 0.0 (2d @ 1518)
+                u5 : 800.0 (35 @ 151d)
+                u6 : 0.0 (3d @ 1522)
+                u7 : 1(40 @ 1527)
+			}
+		}
+
+        component sub-sub-block { (1a @ 1529)
+
+            component type : Program (0a @ 152c)
+            number : 4(10 @ 1535)
+
+            program sub-sub-sub-block { (4ea @ 1538)
+
+                u0 : 1(08 @ 153b)
+
+                lua chunk sub-sub-sub-sub-block { (12 @ 153d)
+
+                    main chunk : chunk >
+
+                    === lua =============
+                    local self = ...;
+                    
+                    self["texts"] = {
+                    	"It\'s so dark in here.", 
+                    	"Be careful.", 
+                    	"I hope you will be alright.", 
+                    	"There is no Error in this game.",
+                    	"It\'s so dark in here.", 
+                    	"Be careful.", 
+                    	"I hope you will be alright." 
+                    };
+
+                    =====================
+                    secondary chunk : \x1bLuaQ\x00\x01\x04\x04\x04\x08\x00\xef\x00\x00\x00local self = ...;\r\n\r\nself["texts"] = {\r\n\t"It\'s so dark in here.", \r\n\t"Be careful.", \r\n\t"I hope you will be alright.", \r\n\t"There is no Error in this game.",\r\n\t"It\'s so dark in here.", \r\n\t"Be careful.", \r\n\t"I hope you will be alright." \r\n};\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x02\t\x0c\x00\x00\x00%\x00\x00\x01J\x00\x80\x03\x81@\x00\x00\xc1\x80\x00\x00\x01\xc1\x00\x00A\x01\x01\x00\x81A\x00\x00\xc1\x81\x00\x00\x01\xc2\x00\x00b@\x80\x03\t@\x00\x80\x1e\x00\x80\x00\x05\x00\x00\x00\x04\x06\x00\x00\x00texts\x00\x04\x16\x00\x00\x00It\'s so dark in here.\x00\x04\x0c\x00\x00\x00Be careful.\x00\x04\x1c\x00\x00\x00I hope you will be alright.\x00\x04 \x00\x00\x00There is no Error in this game.\x00\x00\x00\x00\x00\x0c\x00\x00\x00\x01\x00\x00\x00\x03\x00\x00\x00\x04\x00\x00\x00\x05\x00\x00\x00\x06\x00\x00\x00\x07\x00\x00\x00\x08\x00\x00\x00\t\x00\x00\x00\x0b\x00\x00\x00\x0b\x00\x00\x00\x0b\x00\x00\x00\x0b\x00\x00\x00\x01\x00\x00\x00\x05\x00\x00\x00self\x00\x01\x00\x00\x00\x0b\x00\x00\x00\x00\x00\x00\x00 (12 @ 1631)
+				}
+                u1 : 1(18 @ 1845)
+                u2 : 10(20 @ 1847)
+			}
+		}
+
+        component sub-sub-block { (1a @ 1849)
+
+            component type : Model (0a @ 184b)
+            number : 101(10 @ 1852)
+
+            3D model sub-sub-sub-block { (32a @ 1855)
+
+                name : npc_oldman1 (0a @ 1857)
+                u0 : 2.356194496154785 (15 @ 1864)
+                u1 : 0.0 (1d @ 1869)
+                u2 : 0.0 (25 @ 186e)
+
+                u3 sub-sub-sub-sub-block { (2a @ 1873)
+
+                    w : 0.0 (0d @ 1875)
+                    x : 0.0 (15 @ 187a)
+                    y : 0.0 (1d @ 187f)
+                    z : 1.0 (25 @ 1884)
+				}
+
+                u4 sub-sub-sub-sub-block { (32 @ 1889)
+
+                    x : 0.0 (0d @ 188b)
+                    y : 0.0 (15 @ 1890)
+                    z : 0.0 (1d @ 1895)
+				}
+                u5 : 0(38 @ 189a)
+
+                u6 sub-sub-sub-sub-block { (42 @ 189c)
+
+                    w : 1.0 (0d @ 189e)
+                    x : 1.0 (15 @ 18a3)
+                    y : 1.0 (1d @ 18a8)
+                    z : 1.0 (25 @ 18ad)
+				}
+			}
+		}
+
+        component sub-sub-block { (1a @ 18b2)
+
+            component type : KeyframeAnimation (0a @ 18b4)
+            number : 103(10 @ 18c7)
+
+            keyframe animation sub-sub-sub-block { (332 @ 18ca)
+
+                linked model component number : 101(08 @ 18cc)
+                name : npc_oldman_stand (12 @ 18ce)
+                u0 : 1(18 @ 18e0)
+                u1 : 0.6000000238418579 (25 @ 18e2)
+                u2 : 1(28 @ 18e7)
+			}
+		}
+
+        component sub-sub-block { (1a @ 18e9)
+
+            component type : AnimationController (0a @ 18eb)
+            number : 109(10 @ 1900)
+
+            animation controller sub-sub-sub-block { (4aa @ 1903)
+
+                model component : 101(08 @ 1905)
+                u1 : 103(10 @ 1907)
+                u2 : 1(18 @ 1909)
+			}
+		}
+
+        component sub-sub-block { (1a @ 190b)
+
+            component type : CollisionShape (0a @ 190e)
+            number : 111(10 @ 191e)
+
+            collision shape sub-sub-sub-block { (3c2 @ 1921)
+
+
+                u0 sub-sub-sub-sub-block { (0a @ 1923)
+
+                    w : -32.70899963378906 (0d @ 1925)
+                    x : -34.29396057128906 (15 @ 192a)
+                    y : 64.53463745117188 (1d @ 192f)
+                    z : 62.28142547607422 (25 @ 1934)
+				}
+			}
+
+            collision shape 2 sub-sub-sub-block { (3ca @ 193a)
+
+                u1 : 1(18 @ 193d)
+                w : -15.0 (35 @ 193f)
+                x : 100.0 (3d @ 1944)
+
+                lua chunk sub-sub-sub-sub-block { (4a @ 1949)
+
+                    main chunk : chunk >
+
+                    === lua =============
+                    local self, target = ...;
+                    
+                    if target:identifier() == "hero" and EntityController.IsIdle(self) then
+                    	EntityController.PerformAction(self, 2);
+                    end
+
+                    =====================
+                    secondary chunk : \x1bLuaQ\x00\x01\x04\x04\x04\x08\x00\x95\x00\x00\x00local self, target = ...;\r\n\r\nif target:identifier() == "hero" and EntityController.IsIdle(self) then\r\n\tEntityController.PerformAction(self, 2);\r\nend\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x02\x05\x11\x00\x00\x00%\x00\x80\x01\x8b\x00\xc0\x00\x9c\x80\x00\x01\x17@@\x01\x16\x80\x02\x80\x85\x80\x00\x00\x86\xc0@\x01\xc0\x00\x00\x00\x9c\x80\x00\x01\x9a\x00\x00\x00\x16\x00\x01\x80\x85\x80\x00\x00\x86\x00A\x01\xc0\x00\x00\x00\x01A\x01\x00\x9c@\x80\x01\x1e\x00\x80\x00\x06\x00\x00\x00\x04\x0b\x00\x00\x00identifier\x00\x04\x05\x00\x00\x00hero\x00\x04\x11\x00\x00\x00EntityController\x00\x04\x07\x00\x00\x00IsIdle\x00\x04\x0e\x00\x00\x00PerformAction\x00\x03\x00\x00\x00\x00\x00\x00\x00@\x00\x00\x00\x00\x11\x00\x00\x00\x01\x00\x00\x00\x03\x00\x00\x00\x03\x00\x00\x00\x03\x00\x00\x00\x03\x00\x00\x00\x03\x00\x00\x00\x03\x00\x00\x00\x03\x00\x00\x00\x03\x00\x00\x00\x03\x00\x00\x00\x03\x00\x00\x00\x04\x00\x00\x00\x04\x00\x00\x00\x04\x00\x00\x00\x04\x00\x00\x00\x04\x00\x00\x00\x05\x00\x00\x00\x02\x00\x00\x00\x05\x00\x00\x00self\x00\x01\x00\x00\x00\x10\x00\x00\x00\x07\x00\x00\x00target\x00\x01\x00\x00\x00\x10\x00\x00\x00\x00\x00\x00\x00 (12 @ 19e3)
+				}
+                z : 1(58 @ 1bb3)
+			}
+		}
+
+        component sub-sub-block { (1a @ 1bb5)
+
+            component type : Health (0a @ 1bb7)
+            number : 114(10 @ 1bbf)
+
+            health sub-sub-sub-block { (3da @ 1bc2)
+
+                u0 : 1(08 @ 1bc4)
+                u1 : 0(10 @ 1bc6)
+
+                u2 sub-sub-sub-sub-block { (1a @ 1bc8)
+
+                    x : 0.0 (0d @ 1bca)
+                    y : 50.0 (15 @ 1bcf)
+				}
+			}
+		}
+
+        position sub-sub-block { (22 @ 1bd4)
+
+            x position : 0.0 (0d @ 1bd6)
+            y position : 0.0 (15 @ 1bdb)
+		}
+        z position : 0.0 (2d @ 1be0)
+        rotation : 0.0 (35 @ 1be5)
+        scale : 1.0 (3d @ 1bea)
+
+        u0 sub-sub-block { (42 @ 1bef)
+
+            w : -32.70899963378906 (0d @ 1bf1)
+            x : -34.29396057128906 (15 @ 1bf6)
+            y : 64.53463745117188 (1d @ 1bfb)
+            z : 62.28142547607422 (25 @ 1c00)
+		}
+        hidden : 0(48 @ 1c05)
+	}
+    u0 : 1.0 (15 @ 1c07)
+}
+
+?item block { (12 @ 1c0c)
+
+
+    ?sub-item sub-block { (0a @ 1c0f)
+
+        name : npc_shopkeeper (12 @ 1c12)
+
+        component sub-sub-block { (1a @ 1c22)
+
+            component type : Model (0a @ 1c24)
+            number : 101(10 @ 1c2b)
+
+            3D model sub-sub-sub-block { (32a @ 1c2e)
+
+                name : npc_shopkeeper (0a @ 1c30)
+                u0 : 2.356194496154785 (15 @ 1c40)
+                u1 : 0.0 (1d @ 1c45)
+                u2 : 0.0 (25 @ 1c4a)
+
+                u3 sub-sub-sub-sub-block { (2a @ 1c4f)
+
+                    w : 0.0 (0d @ 1c51)
+                    x : 0.0 (15 @ 1c56)
+                    y : 0.0 (1d @ 1c5b)
+                    z : 1.0 (25 @ 1c60)
+				}
+
+                u4 sub-sub-sub-sub-block { (32 @ 1c65)
+
+                    x : 0.0 (0d @ 1c67)
+                    y : 0.0 (15 @ 1c6c)
+                    z : 0.0 (1d @ 1c71)
+				}
+                u5 : 0(38 @ 1c76)
+
+                u6 sub-sub-sub-sub-block { (42 @ 1c78)
+
+                    w : 1.0 (0d @ 1c7a)
+                    x : 1.0 (15 @ 1c7f)
+                    y : 1.0 (1d @ 1c84)
+                    z : 1.0 (25 @ 1c89)
+				}
+			}
+		}
+
+        component sub-sub-block { (1a @ 1c8e)
+
+            component type : StaticMonsterController (0a @ 1c90)
+            number : 103(10 @ 1ca9)
+
+            monster controller sub-sub-sub-block { (972 @ 1cac)
+
+                u0 : 100.0 (0d @ 1cae)
+                u1 : 106(10 @ 1cb3)
+                u2 : 104(18 @ 1cb5)
+                u3 : 0(20 @ 1cb7)
+			}
+
+            static monster controller sub-sub-sub-block { (9aa @ 1cba)
+
+                u0 : 105(08 @ 1cbc)
+			}
+		}
+
+        component sub-sub-block { (1a @ 1cbe)
+
+            component type : MonsterEntity (0a @ 1cc0)
+            number : 104(10 @ 1ccf)
+
+            entity sub-sub-sub-block { (4c2 @ 1cd2)
+
+                u0 : 18446744073709551615(08 @ 1cd4)
+                u1 : 1(10 @ 1cdf)
+			}
+
+            ?monster entity sub-sub-sub-block { (4f2 @ 1ce2)
+
+                u0 :  (0a @ 1ce4)
+
+                lua chunk sub-sub-sub-sub-block { (12 @ 1ce6)
+
+				}
+                u2 : 1(18 @ 1ce8)
+                u3 : 1(20 @ 1cea)
+			}
+		}
+
+        component sub-sub-block { (1a @ 1cec)
+
+            component type : KeyframeAnimation (0a @ 1cee)
+            number : 105(10 @ 1d01)
+
+            keyframe animation sub-sub-sub-block { (332 @ 1d04)
+
+                linked model component number : 101(08 @ 1d06)
+                name : npc_stand (12 @ 1d08)
+                u0 : 1(18 @ 1d13)
+                u1 : 0.5 (25 @ 1d15)
+                u2 : 1(28 @ 1d1a)
+			}
+		}
+
+        component sub-sub-block { (1a @ 1d1c)
+
+            component type : AnimationController (0a @ 1d1e)
+            number : 106(10 @ 1d33)
+
+            animation controller sub-sub-sub-block { (4aa @ 1d36)
+
+                model component : 101(08 @ 1d38)
+                u1 : 0(10 @ 1d3a)
+                u2 : 0(18 @ 1d3c)
+			}
+		}
+
+        component sub-sub-block { (1a @ 1d3e)
+
+            component type : CollisionShape (0a @ 1d41)
+            number : 108(10 @ 1d51)
+
+            collision shape sub-sub-sub-block { (3c2 @ 1d54)
+
+
+                u0 sub-sub-sub-sub-block { (0a @ 1d56)
+
+                    w : -60.0 (0d @ 1d58)
+                    x : -10.0 (15 @ 1d5d)
+                    y : 120.0 (1d @ 1d62)
+                    z : 20.0 (25 @ 1d67)
+				}
+			}
+
+            collision shape 2 sub-sub-sub-block { (3ca @ 1d6d)
+
+                w : -50.0 (35 @ 1d70)
+                x : 50.0 (3d @ 1d75)
+
+                lua chunk sub-sub-sub-sub-block { (4a @ 1d7a)
+
+                    main chunk : chunk >
+
+                    === lua =============
+                    local self, target = ...;
+                    
+                    if target:identifier() == "hero" then
+                    	local text;
+                    
+                    	if Entity.GetFacingDirection(target) == 1 then
+                    		text = "Hello, I sell everything.";
+                    	else
+                    		text = "Come back later to see if there is anything new!";
+                    	end
+                    
+                    	ShowTextBubble(self:identifier() .. "_bubble", self:position() + Vector3.New(13, 27, 0), text);
+                    end
+
+                    =====================
+                    secondary chunk : \x1bLuaQ\x00\x01\x04\x04\x04\x08\x00_\x01\x00\x00local self, target = ...;\r\n\r\nif target:identifier() == "hero" then\r\n\tlocal text;\r\n\r\n\tif Entity.GetFacingDirection(target) == 1 then\r\n\t\ttext = "Hello, I sell everything.";\r\n\telse\r\n\t\ttext = "Come back later to see if there is anything new!";\r\n\tend\r\n\r\n\tShowTextBubble(self:identifier() .. "_bubble", self:position() + Vector3.New(13, 27, 0), text);\r\nend\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x02\n \x00\x00\x00%\x00\x80\x01\x8b\x00\xc0\x00\x9c\x80\x00\x01\x17@@\x01\x16@\x06\x80\x83\x00\x00\x01\xc5\x80\x00\x00\xc6\xc0\xc0\x01\x00\x01\x80\x00\xdc\x80\x00\x01\x17\x00\xc1\x01\x16@\x00\x80\x81@\x01\x00\x16\x00\x00\x80\x81\x80\x01\x00\xc5\xc0\x01\x00\x0b\x01@\x00\x1c\x81\x00\x01A\x01\x02\x00\x15A\x01\x02KAB\x00\\\x81\x00\x01\x85\x81\x02\x00\x86\xc1B\x03\xc1\x01\x03\x00\x01B\x03\x00A\x82\x03\x00\x9c\x81\x00\x02L\x81\x81\x02\x80\x01\x00\x01\xdc@\x00\x02\x1e\x00\x80\x00\x0f\x00\x00\x00\x04\x0b\x00\x00\x00identifier\x00\x04\x05\x00\x00\x00hero\x00\x04\x07\x00\x00\x00Entity\x00\x04\x13\x00\x00\x00GetFacingDirection\x00\x03\x00\x00\x00\x00\x00\x00\xf0?\x04\x1a\x00\x00\x00Hello, I sell everything.\x00\x041\x00\x00\x00Come back later to see if there is anything new!\x00\x04\x0f\x00\x00\x00ShowTextBubble\x00\x04\x08\x00\x00\x00_bubble\x00\x04\t\x00\x00\x00position\x00\x04\x08\x00\x00\x00Vector3\x00\x04\x04\x00\x00\x00New\x00\x03\x00\x00\x00\x00\x00\x00*@\x03\x00\x00\x00\x00\x00\x00;@\x03\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00 \x00\x00\x00\x01\x00\x00\x00\x03\x00\x00\x00\x03\x00\x00\x00\x03\x00\x00\x00\x03\x00\x00\x00\x04\x00\x00\x00\x06\x00\x00\x00\x06\x00\x00\x00\x06\x00\x00\x00\x06\x00\x00\x00\x06\x00\x00\x00\x06\x00\x00\x00\x07\x00\x00\x00\x07\x00\x00\x00\t\x00\x00\x00\x0c\x00\x00\x00\x0c\x00\x00\x00\x0c\x00\x00\x00\x0c\x00\x00\x00\x0c\x00\x00\x00\x0c\x00\x00\x00\x0c\x00\x00\x00\x0c\x00\x00\x00\x0c\x00\x00\x00\x0c\x00\x00\x00\x0c\x00\x00\x00\x0c\x00\x00\x00\x0c\x00\x00\x00\x0c\x00\x00\x00\x0c\x00\x00\x00\x0c\x00\x00\x00\r\x00\x00\x00\x03\x00\x00\x00\x05\x00\x00\x00self\x00\x01\x00\x00\x00\x1f\x00\x00\x00\x07\x00\x00\x00target\x00\x01\x00\x00\x00\x1f\x00\x00\x00\x05\x00\x00\x00text\x00\x06\x00\x00\x00\x1f\x00\x00\x00\x00\x00\x00\x00 (12 @ 1ede)
+				}
+
+                lua chunk sub-sub-sub-sub-block { (52 @ 22a5)
+
+                    main chunk : chunk >
+
+                    === lua =============
+                    local self, target = ...;
+                    
+                    if target:identifier() == "hero" then
+                    	HideTextBubble(self:identifier() .. "_bubble");
+                    end
+
+                    =====================
+                    secondary chunk : \x1bLuaQ\x00\x01\x04\x04\x04\x08\x00z\x00\x00\x00local self, target = ...;\r\n\r\nif target:identifier() == "hero" then\r\n\tHideTextBubble(self:identifier() .. "_bubble");\r\nend\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x02\x05\x0c\x00\x00\x00%\x00\x80\x01\x8b\x00\xc0\x00\x9c\x80\x00\x01\x17@@\x01\x16@\x01\x80\x85\x80\x00\x00\xcb\x00@\x00\xdc\x80\x00\x01\x01\xc1\x00\x00\xd5\x00\x81\x01\x9c@\x00\x01\x1e\x00\x80\x00\x04\x00\x00\x00\x04\x0b\x00\x00\x00identifier\x00\x04\x05\x00\x00\x00hero\x00\x04\x0f\x00\x00\x00HideTextBubble\x00\x04\x08\x00\x00\x00_bubble\x00\x00\x00\x00\x00\x0c\x00\x00\x00\x01\x00\x00\x00\x03\x00\x00\x00\x03\x00\x00\x00\x03\x00\x00\x00\x03\x00\x00\x00\x04\x00\x00\x00\x04\x00\x00\x00\x04\x00\x00\x00\x04\x00\x00\x00\x04\x00\x00\x00\x04\x00\x00\x00\x05\x00\x00\x00\x02\x00\x00\x00\x05\x00\x00\x00self\x00\x01\x00\x00\x00\x0b\x00\x00\x00\x07\x00\x00\x00target\x00\x01\x00\x00\x00\x0b\x00\x00\x00\x00\x00\x00\x00 (12 @ 2323)
+				}
+                z : 1(58 @ 2493)
+			}
+		}
+
+        position sub-sub-block { (22 @ 2495)
+
+            x position : 0.0 (0d @ 2497)
+            y position : 0.0 (15 @ 249c)
+		}
+        z position : 0.0 (2d @ 24a1)
+        rotation : 0.0 (35 @ 24a6)
+        scale : 1.0 (3d @ 24ab)
+
+        u0 sub-sub-block { (42 @ 24b0)
+
+            w : -60.0 (0d @ 24b2)
+            x : -10.0 (15 @ 24b7)
+            y : 120.0 (1d @ 24bc)
+            z : 20.0 (25 @ 24c1)
+		}
+        hidden : 0(48 @ 24c6)
+	}
+    u0 : 1.0 (15 @ 24c8)
+}
+
+?item block { (12 @ 24cd)
+
+
+    ?sub-item sub-block { (0a @ 24d0)
+
+        name : shop_item (12 @ 24d3)
+
+        component sub-sub-block { (1a @ 24de)
+
+            component type : Program (0a @ 24e1)
+            number : 1(10 @ 24ea)
+
+            program sub-sub-sub-block { (4ea @ 24ed)
+
+                u0 : 1(08 @ 24f0)
+
+                lua chunk sub-sub-sub-sub-block { (12 @ 24f2)
+
+                    main chunk : chunk >
+
+                    === lua =============
+                    local self = ...;
+                    
+                    self["itemName"] = "healingpotion";
+                    self["itemPrice"] = 50;
+                    
+                    CreateShopItem(self);
+
+                    =====================
+                    secondary chunk : \x1bLuaQ\x00\x01\x04\x04\x04\x08\x00k\x00\x00\x00local self = ...;\r\n\r\nself["itemName"] = "healingpotion";\r\nself["itemPrice"] = 50;\r\n\r\nCreateShopItem(self);\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x02\x03\x07\x00\x00\x00%\x00\x00\x01\t@@\x80\t\xc0@\x81E\x00\x01\x00\x80\x00\x00\x00\\@\x00\x01\x1e\x00\x80\x00\x05\x00\x00\x00\x04\t\x00\x00\x00itemName\x00\x04\x0e\x00\x00\x00healingpotion\x00\x04\n\x00\x00\x00itemPrice\x00\x03\x00\x00\x00\x00\x00\x00I@\x04\x0f\x00\x00\x00CreateShopItem\x00\x00\x00\x00\x00\x07\x00\x00\x00\x01\x00\x00\x00\x03\x00\x00\x00\x04\x00\x00\x00\x06\x00\x00\x00\x06\x00\x00\x00\x06\x00\x00\x00\x06\x00\x00\x00\x01\x00\x00\x00\x05\x00\x00\x00self\x00\x01\x00\x00\x00\x06\x00\x00\x00\x00\x00\x00\x00 (12 @ 2561)
+				}
+                u1 : 1(18 @ 2699)
+                u2 : 10(20 @ 269b)
+			}
+		}
+
+        component sub-sub-block { (1a @ 269d)
+
+            component type : TransformController (0a @ 269f)
+            number : 2(10 @ 26b4)
+            name : for_reg (1a @ 26b6)
+		}
+
+        component sub-sub-block { (1a @ 26bf)
+
+            component type : ModelTransformController (0a @ 26c1)
+            number : 3(10 @ 26db)
+            name : for_reg (1a @ 26dd)
+
+            model transform controller sub-sub-sub-block { (342 @ 26e7)
+
+                u0 : 0(08 @ 26e9)
+			}
+		}
+
+        component sub-sub-block { (1a @ 26eb)
+
+            component type : Program (0a @ 26ee)
+            number : 5(10 @ 26f7)
+            name : buy (1a @ 26f9)
+
+            program sub-sub-sub-block { (4ea @ 26ff)
+
+                u0 : 1(08 @ 2702)
+
+                lua chunk sub-sub-sub-sub-block { (12 @ 2704)
+
+                    main chunk : chunk >
+
+                    === lua =============
+                    local self = ...;
+                    
+                    --if IsShopItemInfoVisible(self) then
+                    	HideShopItemInfo(self);
+                    --end
+                    
+                    local itemName = self["itemName"]
+                    local itemPrice = self["itemPrice"]
+                    
+                    local buyFailed = false;
+                    local failMessage;
+                    
+                    if Game.IsItemUnique(itemName) and Character.HasItem(itemName) then
+                    
+                    	buyFailed = true;
+                    	failMessage = "You can only carry one " .. Game.TitleForItem(itemName) .. ".";
+                    
+                    elseif Character.NumCoins() < itemPrice then
+                    
+                    	buyFailed = true;
+                    	failMessage = "You don\'t have enough Soul Shards to buy this item.";
+                    
+                    end
+                    
+                    
+                    if not buyFailed then
+                    
+                    	--Game.ShowItemBuyPopup(itemName, itemPrice, self);
+                    
+                    	local hero = Scene.Find("hero");
+                    	local direction = Entity.GetFacingDirection(hero);
+                    
+                    	local itemObject = Scene.CreateObject("item_" .. itemName, self:identifier() .. "_" .. itemName);
+                    	itemObject:setPosition(Vector3.New(self:position():x(), self:position():y() + 40, hero:depth()));
+                    	itemObject:setVelocity(Vector3.New(100 * direction, 330, 0));
+                    	
+                    	if self["itemIdentifier"] then
+                    		CollectableItem.SetItemIdentifier(itemObject, self["itemIdentifier"]);
+                    	end
+                    
+                    
+                    	if not boughtItemPrices then boughtItemPrices = {}; end --global variable
+                    	boughtItemPrices[itemObject:identifier()] = itemPrice;
+                    
+                    
+                    	DestroyShopItem(self);
+                    	self:destroy();
+                    	Character.SetNumCoins(Character.NumCoins() - itemPrice);
+                    
+                    else
+                    	CollisionShape.SetEnabled(self, 107, false);
+                    
+                    	Game.ShowNotification(failMessage);
+                    	Program.Wait(4.0);
+                    
+                    	CollisionShape.SetEnabled(self, 107, true);
+                    end
+                    
+
+                    =====================
+                    secondary chunk : \x1bLuaQ\x00\x01\x04\x04\x04\x08\x00\xe1\x05\x00\x00local self = ...;\r\n\r\n--if IsShopItemInfoVisible(self) then\r\n\tHideShopItemInfo(self);\r\n--end\r\n\r\nlocal itemName = self["itemName"]\r\nlocal itemPrice = self["itemPrice"]\r\n\r\nlocal buyFailed = false;\r\nlocal failMessage;\r\n\r\nif Game.IsItemUnique(itemName) and Character.HasItem(itemName) then\r\n\r\n\tbuyFailed = true;\r\n\tfailMessage = "You can only carry one " .. Game.TitleForItem(itemName) .. ".";\r\n\r\nelseif Character.NumCoins() < itemPrice then\r\n\r\n\tbuyFailed = true;\r\n\tfailMessage = "You don\'t have enough Soul Shards to buy this item.";\r\n\r\nend\r\n\r\n\r\nif not buyFailed then\r\n\r\n\t--Game.ShowItemBuyPopup(itemName, itemPrice, self);\r\n\r\n\tlocal hero = Scene.Find("hero");\r\n\tlocal direction = Entity.GetFacingDirection(hero);\r\n\r\n\tlocal itemObject = Scene.CreateObject("item_" .. itemName, self:identifier() .. "_" .. itemName);\r\n\titemObject:setPosition(Vector3.New(self:position():x(), self:position():y() + 40, hero:depth()));\r\n\titemObject:setVelocity(Vector3.New(100 * direction, 330, 0));\r\n\t\r\n\tif self["itemIdentifier"] then\r\n\t\tCollectableItem.SetItemIdentifier(itemObject, self["itemIdentifier"]);\r\n\tend\r\n\r\n\r\n\tif not boughtItemPrices then boughtItemPrices = {}; end --global variable\r\n\tboughtItemPrices[itemObject:identifier()] = itemPrice;\r\n\r\n\r\n\tDestroyShopItem(self);\r\n\tself:destroy();\r\n\tCharacter.SetNumCoins(Character.NumCoins() - itemPrice);\r\n\r\nelse\r\n\tCollisionShape.SetEnabled(self, 107, false);\r\n\r\n\tGame.ShowNotification(failMessage);\r\n\tProgram.Wait(4.0);\r\n\r\n\tCollisionShape.SetEnabled(self, 107, true);\r\nend\r\n\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x02\x0f\x84\x00\x00\x00%\x00\x00\x01E\x00\x00\x00\x80\x00\x00\x00\\@\x00\x01F@@\x00\x86\x80@\x00\xc2\x00\x00\x00\x03\x01\x00\x02E\xc1\x00\x00F\x01\xc1\x02\x80\x01\x80\x00\\\x81\x00\x01Z\x01\x00\x00\x16\x80\x03\x80EA\x01\x00F\x81\xc1\x02\x80\x01\x80\x00\\\x81\x00\x01Z\x01\x00\x00\x16\x00\x02\x80\xc2\x00\x80\x00A\xc1\x01\x00\x85\xc1\x00\x00\x86\x01B\x03\xc0\x01\x80\x00\x9c\x81\x00\x01\xc1A\x02\x00\x15\xc1\x81\x02\x16\x80\x01\x80EA\x01\x00F\x81\xc2\x02\\\x81\x80\x00\x18\x80\x80\x02\x16@\x00\x80\xc2\x00\x80\x00\x01\xc1\x02\x00\xda@\x00\x00\x16\x00\x12\x80E\x01\x03\x00FA\xc3\x02\x81\x81\x03\x00\\\x81\x00\x01\x85\xc1\x03\x00\x86\x01D\x03\xc0\x01\x80\x02\x9c\x81\x00\x01\xc5\x01\x03\x00\xc6A\xc4\x03\x01\x82\x04\x00@\x02\x80\x00\x15B\x02\x04K\xc2D\x00\\\x82\x00\x01\x81\x02\x05\x00\xc0\x02\x80\x00U\xc2\x82\x04\xdc\x81\x80\x01\x0bB\xc5\x03\x85\x82\x05\x00\x86\xc2E\x05\xcb\x02F\x00\xdc\x82\x00\x01\xcbB\xc6\x05\xdc\x82\x00\x01\x0b\x03F\x00\x1c\x83\x00\x01\x0b\x83F\x06\x1c\x83\x00\x01\x0c\xc3F\x06K\x03\xc7\x02\\\x03\x00\x01\x9c\x02\x00\x00\x1cB\x00\x00\x0bB\xc7\x03\x85\x82\x05\x00\x86\xc2E\x05\xce\x82\x01\x8f\x01\xc3\x07\x00A\x03\x08\x00\x9c\x02\x00\x02\x1cB\x00\x00\x06BH\x00\x1a\x02\x00\x00\x16\x00\x01\x80\x05\x82\x08\x00\x06\xc2H\x04@\x02\x80\x03\x86BH\x00\x1cB\x80\x01\x05\x02\t\x00\x1aB\x00\x00\x16@\x00\x80\n\x02\x00\x00\x07\x02\t\x00\x05\x02\t\x00K\xc2\xc4\x03\\\x82\x00\x01\t\x82\x80\x04\x05B\t\x00@\x02\x00\x00\x1cB\x00\x01\x0b\x82I\x00\x1cB\x00\x01\x05B\x01\x00\x06\xc2I\x04EB\x01\x00F\x82\xc2\x04\\\x82\x80\x00M\x82\x80\x04\x1cB\x00\x01\x16\xc0\x04\x80E\x01\n\x00FA\xca\x02\x80\x01\x00\x00\xc1\x81\n\x00\x02\x02\x00\x00\\A\x00\x02E\xc1\x00\x00F\xc1\xca\x02\x80\x01\x00\x02\\A\x00\x01E\x01\x0b\x00FA\xcb\x02\x81\x81\x0b\x00\\A\x00\x01E\x01\n\x00FA\xca\x02\x80\x01\x00\x00\xc1\x81\n\x00\x02\x02\x80\x00\\A\x00\x02\x1e\x00\x80\x00/\x00\x00\x00\x04\x11\x00\x00\x00HideShopItemInfo\x00\x04\t\x00\x00\x00itemName\x00\x04\n\x00\x00\x00itemPrice\x00\x04\x05\x00\x00\x00Game\x00\x04\r\x00\x00\x00IsItemUnique\x00\x04\n\x00\x00\x00Character\x00\x04\x08\x00\x00\x00HasItem\x00\x04\x18\x00\x00\x00You can only carry one \x00\x04\r\x00\x00\x00TitleForItem\x00\x04\x02\x00\x00\x00.\x00\x04\t\x00\x00\x00NumCoins\x00\x044\x00\x00\x00You don\'t have enough Soul Shards to buy this item.\x00\x04\x06\x00\x00\x00Scene\x00\x04\x05\x00\x00\x00Find\x00\x04\x05\x00\x00\x00hero\x00\x04\x07\x00\x00\x00Entity\x00\x04\x13\x00\x00\x00GetFacingDirection\x00\x04\r\x00\x00\x00CreateObject\x00\x04\x06\x00\x00\x00item_\x00\x04\x0b\x00\x00\x00identifier\x00\x04\x02\x00\x00\x00_\x00\x04\x0c\x00\x00\x00setPosition\x00\x04\x08\x00\x00\x00Vector3\x00\x04\x04\x00\x00\x00New\x00\x04\t\x00\x00\x00position\x00\x04\x02\x00\x00\x00x\x00\x04\x02\x00\x00\x00y\x00\x03\x00\x00\x00\x00\x00\x00D@\x04\x06\x00\x00\x00depth\x00\x04\x0c\x00\x00\x00setVelocity\x00\x03\x00\x00\x00\x00\x00\x00Y@\x03\x00\x00\x00\x00\x00\xa0t@\x03\x00\x00\x00\x00\x00\x00\x00\x00\x04\x0f\x00\x00\x00itemIdentifier\x00\x04\x10\x00\x00\x00CollectableItem\x00\x04\x12\x00\x00\x00SetItemIdentifier\x00\x04\x11\x00\x00\x00boughtItemPrices\x00\x04\x10\x00\x00\x00DestroyShopItem\x00\x04\x08\x00\x00\x00destroy\x00\x04\x0c\x00\x00\x00SetNumCoins\x00\x04\x0f\x00\x00\x00CollisionShape\x00\x04\x0b\x00\x00\x00SetEnabled\x00\x03\x00\x00\x00\x00\x00\xc0Z@\x04\x11\x00\x00\x00ShowNotification\x00\x04\x08\x00\x00\x00Program\x00\x04\x05\x00\x00\x00Wait\x00\x03\x00\x00\x00\x00\x00\x00\x10@\x00\x00\x00\x00\x84\x00\x00\x00\x01\x00\x00\x00\x04\x00\x00\x00\x04\x00\x00\x00\x04\x00\x00\x00\x07\x00\x00\x00\x08\x00\x00\x00\n\x00\x00\x00\x0b\x00\x00\x00\r\x00\x00\x00\r\x00\x00\x00\r\x00\x00\x00\r\x00\x00\x00\r\x00\x00\x00\r\x00\x00\x00\r\x00\x00\x00\r\x00\x00\x00\r\x00\x00\x00\r\x00\x00\x00\r\x00\x00\x00\r\x00\x00\x00\x0f\x00\x00\x00\x10\x00\x00\x00\x10\x00\x00\x00\x10\x00\x00\x00\x10\x00\x00\x00\x10\x00\x00\x00\x10\x00\x00\x00\x10\x00\x00\x00\x10\x00\x00\x00\x12\x00\x00\x00\x12\x00\x00\x00\x12\x00\x00\x00\x12\x00\x00\x00\x12\x00\x00\x00\x14\x00\x00\x00\x15\x00\x00\x00\x1a\x00\x00\x00\x1a\x00\x00\x00\x1e\x00\x00\x00\x1e\x00\x00\x00\x1e\x00\x00\x00\x1e\x00\x00\x00\x1f\x00\x00\x00\x1f\x00\x00\x00\x1f\x00\x00\x00\x1f\x00\x00\x00!\x00\x00\x00!\x00\x00\x00!\x00\x00\x00!\x00\x00\x00!\x00\x00\x00!\x00\x00\x00!\x00\x00\x00!\x00\x00\x00!\x00\x00\x00!\x00\x00\x00!\x00\x00\x00"\x00\x00\x00"\x00\x00\x00"\x00\x00\x00"\x00\x00\x00"\x00\x00\x00"\x00\x00\x00"\x00\x00\x00"\x00\x00\x00"\x00\x00\x00"\x00\x00\x00"\x00\x00\x00"\x00\x00\x00"\x00\x00\x00"\x00\x00\x00"\x00\x00\x00"\x00\x00\x00#\x00\x00\x00#\x00\x00\x00#\x00\x00\x00#\x00\x00\x00#\x00\x00\x00#\x00\x00\x00#\x00\x00\x00#\x00\x00\x00%\x00\x00\x00%\x00\x00\x00%\x00\x00\x00&\x00\x00\x00&\x00\x00\x00&\x00\x00\x00&\x00\x00\x00&\x00\x00\x00*\x00\x00\x00*\x00\x00\x00*\x00\x00\x00*\x00\x00\x00*\x00\x00\x00+\x00\x00\x00+\x00\x00\x00+\x00\x00\x00+\x00\x00\x00.\x00\x00\x00.\x00\x00\x00.\x00\x00\x00/\x00\x00\x00/\x00\x00\x000\x00\x00\x000\x00\x00\x000\x00\x00\x000\x00\x00\x000\x00\x00\x000\x00\x00\x000\x00\x00\x000\x00\x00\x003\x00\x00\x003\x00\x00\x003\x00\x00\x003\x00\x00\x003\x00\x00\x003\x00\x00\x005\x00\x00\x005\x00\x00\x005\x00\x00\x005\x00\x00\x006\x00\x00\x006\x00\x00\x006\x00\x00\x006\x00\x00\x008\x00\x00\x008\x00\x00\x008\x00\x00\x008\x00\x00\x008\x00\x00\x008\x00\x00\x009\x00\x00\x00\x08\x00\x00\x00\x05\x00\x00\x00self\x00\x01\x00\x00\x00\x83\x00\x00\x00\t\x00\x00\x00itemName\x00\x05\x00\x00\x00\x83\x00\x00\x00\n\x00\x00\x00itemPrice\x00\x06\x00\x00\x00\x83\x00\x00\x00\n\x00\x00\x00buyFailed\x00\x07\x00\x00\x00\x83\x00\x00\x00\x0c\x00\x00\x00failMessage\x00\x08\x00\x00\x00\x83\x00\x00\x00\x05\x00\x00\x00hero\x00*\x00\x00\x00n\x00\x00\x00\n\x00\x00\x00direction\x00.\x00\x00\x00n\x00\x00\x00\x0b\x00\x00\x00itemObject\x009\x00\x00\x00n\x00\x00\x00\x00\x00\x00\x00 (12 @ 2cea)
+				}
+                u1 : 1(18 @ 3a98)
+                u2 : 2(20 @ 3a9a)
+			}
+		}
+
+        component sub-sub-block { (1a @ 3a9c)
+
+            component type : CollisionShape (0a @ 3a9f)
+            number : 107(10 @ 3aaf)
+
+            collision shape sub-sub-sub-block { (3c2 @ 3ab2)
+
+
+                u0 sub-sub-sub-sub-block { (0a @ 3ab4)
+
+                    w : -40.0 (0d @ 3ab6)
+                    x : -80.0 (15 @ 3abb)
+                    y : 80.0 (1d @ 3ac0)
+                    z : 93.73445129394531 (25 @ 3ac5)
+				}
+			}
+
+            collision shape 2 sub-sub-sub-block { (3ca @ 3acb)
+
+                w : -200.0 (35 @ 3ace)
+                x : 200.0 (3d @ 3ad3)
+                y : 4(40 @ 3ad8)
+
+                lua chunk sub-sub-sub-sub-block { (4a @ 3ada)
+
+                    main chunk : chunk >
+
+                    === lua =============
+                    local self, target = ...;
+                    
+                    if target:identifier() == "hero" then
+                    	ShowShopItemInfo(self);
+                    end
+
+                    =====================
+                    secondary chunk : \x1bLuaQ\x00\x01\x04\x04\x04\x08\x00b\x00\x00\x00local self, target = ...;\r\n\r\nif target:identifier() == "hero" then\r\n\tShowShopItemInfo(self);\r\nend\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x02\x04\t\x00\x00\x00%\x00\x80\x01\x8b\x00\xc0\x00\x9c\x80\x00\x01\x17@@\x01\x16\x80\x00\x80\x85\x80\x00\x00\xc0\x00\x00\x00\x9c@\x00\x01\x1e\x00\x80\x00\x03\x00\x00\x00\x04\x0b\x00\x00\x00identifier\x00\x04\x05\x00\x00\x00hero\x00\x04\x11\x00\x00\x00ShowShopItemInfo\x00\x00\x00\x00\x00\t\x00\x00\x00\x01\x00\x00\x00\x03\x00\x00\x00\x03\x00\x00\x00\x03\x00\x00\x00\x03\x00\x00\x00\x04\x00\x00\x00\x04\x00\x00\x00\x04\x00\x00\x00\x05\x00\x00\x00\x02\x00\x00\x00\x05\x00\x00\x00self\x00\x01\x00\x00\x00\x08\x00\x00\x00\x07\x00\x00\x00target\x00\x01\x00\x00\x00\x08\x00\x00\x00\x00\x00\x00\x00 (12 @ 3b40)
+				}
+
+                lua chunk sub-sub-sub-sub-block { (52 @ 3c75)
+
+                    main chunk : chunk >
+
+                    === lua =============
+                    local self, target = ...;
+                    
+                    if target:identifier() == "hero" then
+                    	HideShopItemInfo(self);
+                    end
+
+                    =====================
+                    secondary chunk : \x1bLuaQ\x00\x01\x04\x04\x04\x08\x00b\x00\x00\x00local self, target = ...;\r\n\r\nif target:identifier() == "hero" then\r\n\tHideShopItemInfo(self);\r\nend\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x02\x04\t\x00\x00\x00%\x00\x80\x01\x8b\x00\xc0\x00\x9c\x80\x00\x01\x17@@\x01\x16\x80\x00\x80\x85\x80\x00\x00\xc0\x00\x00\x00\x9c@\x00\x01\x1e\x00\x80\x00\x03\x00\x00\x00\x04\x0b\x00\x00\x00identifier\x00\x04\x05\x00\x00\x00hero\x00\x04\x11\x00\x00\x00HideShopItemInfo\x00\x00\x00\x00\x00\t\x00\x00\x00\x01\x00\x00\x00\x03\x00\x00\x00\x03\x00\x00\x00\x03\x00\x00\x00\x03\x00\x00\x00\x04\x00\x00\x00\x04\x00\x00\x00\x04\x00\x00\x00\x05\x00\x00\x00\x02\x00\x00\x00\x05\x00\x00\x00self\x00\x01\x00\x00\x00\x08\x00\x00\x00\x07\x00\x00\x00target\x00\x01\x00\x00\x00\x08\x00\x00\x00\x00\x00\x00\x00 (12 @ 3cdb)
+				}
+                z : 1(58 @ 3e10)
+			}
+		}
+
+        position sub-sub-block { (22 @ 3e12)
+
+            x position : 0.0 (0d @ 3e14)
+            y position : 0.0 (15 @ 3e19)
+		}
+        z position : 0.0 (2d @ 3e1e)
+        rotation : 0.0 (35 @ 3e23)
+        scale : 1.0 (3d @ 3e28)
+
+        u0 sub-sub-block { (42 @ 3e2d)
+
+            w : -40.0 (0d @ 3e2f)
+            x : -80.0 (15 @ 3e34)
+            y : 80.0 (1d @ 3e39)
+            z : 93.73445129394531 (25 @ 3e3e)
+		}
+        hidden : 0(48 @ 3e43)
+	}
+    u0 : 1.0 (15 @ 3e45)
+}
+
+?item block { (12 @ 3e4a)
+
+
+    ?sub-item sub-block { (0a @ 3e4d)
+
+        name : shop_torch (12 @ 3e50)
+
+        component sub-sub-block { (1a @ 3e5c)
+
+            component type : Model (0a @ 3e5e)
+            number : 1(10 @ 3e65)
+
+            3D model sub-sub-sub-block { (32a @ 3e68)
+
+                name : grove_torch (0a @ 3e6a)
+                u0 : 0.0 (15 @ 3e77)
+                u1 : 0.5 (1d @ 3e7c)
+                u2 : 0.0 (25 @ 3e81)
+
+                u3 sub-sub-sub-sub-block { (2a @ 3e86)
+
+                    w : 0.0 (0d @ 3e88)
+                    x : 0.0 (15 @ 3e8d)
+                    y : 0.0 (1d @ 3e92)
+                    z : 1.0 (25 @ 3e97)
+				}
+
+                u4 sub-sub-sub-sub-block { (32 @ 3e9c)
+
+                    x : 0.0 (0d @ 3e9e)
+                    y : 0.0 (15 @ 3ea3)
+                    z : 0.0 (1d @ 3ea8)
+				}
+                u5 : 0(38 @ 3ead)
+
+                u6 sub-sub-sub-sub-block { (42 @ 3eaf)
+
+                    w : 1.0 (0d @ 3eb1)
+                    x : 1.0 (15 @ 3eb6)
+                    y : 1.0 (1d @ 3ebb)
+                    z : 1.0 (25 @ 3ec0)
+				}
+			}
+		}
+
+        component sub-sub-block { (1a @ 3ec5)
+
+            component type : SimpleGlow (0a @ 3ec7)
+            number : 2(10 @ 3ed3)
+
+            simple glow sub-sub-sub-block { (7f2 @ 3ed6)
+
+
+                u0 sub-sub-sub-sub-block { (0a @ 3ed8)
+
+                    w : 1.0 (0d @ 3eda)
+                    x : 0.6711111664772034 (15 @ 3edf)
+                    y : 0.17777776718139648 (1d @ 3ee4)
+                    z : 0.0 (25 @ 3ee9)
+				}
+                u1 : 11.0 (15 @ 3eee)
+                u2 : 10(18 @ 3ef3)
+                u3 : 0.0 (25 @ 3ef5)
+                u4 : 0.05000000074505806 (2d @ 3efa)
+                u5 : 2.0 (35 @ 3eff)
+
+                u6 sub-sub-sub-sub-block { (3a @ 3f04)
+
+                    y : 0.0 (0d @ 3f06)
+                    z : 6.0 (15 @ 3f0b)
+				}
+			}
+		}
+
+        component sub-sub-block { (1a @ 3f10)
+
+            component type : SimpleGlow (0a @ 3f12)
+            number : 3(10 @ 3f1e)
+
+            simple glow sub-sub-sub-block { (7f2 @ 3f21)
+
+
+                u0 sub-sub-sub-sub-block { (0a @ 3f23)
+
+                    w : 0.22962965071201324 (0d @ 3f25)
+                    x : 0.13728395104408264 (15 @ 3f2a)
+                    y : 0.10370369255542755 (1d @ 3f2f)
+                    z : 0.0 (25 @ 3f34)
+				}
+                u1 : 30.0 (15 @ 3f39)
+                u2 : 10(18 @ 3f3e)
+                u3 : 15.0 (25 @ 3f40)
+                u4 : 0.15000000596046448 (2d @ 3f45)
+                u5 : 1.0 (35 @ 3f4a)
+
+                u6 sub-sub-sub-sub-block { (3a @ 3f4f)
+
+                    y : 0.0 (0d @ 3f51)
+                    z : 13.0 (15 @ 3f56)
+				}
+			}
+		}
+
+        component sub-sub-block { (1a @ 3f5b)
+
+            component type : Light (0a @ 3f5d)
+            number : 103(10 @ 3f64)
+
+            light sub-sub-sub-block { (412 @ 3f67)
+
+                u0 : 3(08 @ 3f69)
+                u1 : 2.0 (15 @ 3f6b)
+
+                u2 sub-sub-sub-sub-block { (1a @ 3f70)
+
+                    w : 0.8696296215057373 (0d @ 3f72)
+                    x : 0.48720991611480713 (15 @ 3f77)
+                    y : 0.15259265899658203 (1d @ 3f7c)
+                    z : 1.0 (25 @ 3f81)
+				}
+                u3 : 0.0 (25 @ 3f86)
+                u4 : 0.00019999999494757503 (2d @ 3f8b)
+
+                u5 sub-sub-sub-sub-block { (32 @ 3f90)
+
+                    x : 0.0 (0d @ 3f92)
+                    y : 0.0 (15 @ 3f97)
+                    z : 0.0 (1d @ 3f9c)
+				}
+                u6 : 250.0 (3d @ 3fa1)
+			}
+		}
+
+        component sub-sub-block { (1a @ 3fa6)
+
+            component type : FireEmitter (0a @ 3fa8)
+            number : 105(10 @ 3fb5)
+
+            fire emitter sub-sub-sub-block { (7ea @ 3fb8)
+
+                temp0 : 108(08 @ 3fba)
+                temp1 : 103(18 @ 3fbc)
+
+                u0 sub-sub-sub-sub-block { (2a @ 3fbe)
+
+                    w : 0.9444444179534912 (0d @ 3fc0)
+                    x : 0.2518514096736908 (15 @ 3fc5)
+                    y : 0.0 (1d @ 3fca)
+                    z : 0.0 (25 @ 3fcf)
+				}
+                u1 : 0.10000000149011612 (35 @ 3fd4)
+                u2 : 0.8999999761581421 (3d @ 3fd9)
+
+                u3 sub-sub-sub-sub-block { (42 @ 3fde)
+
+                    x : 2.0 (0d @ 3fe0)
+                    y : 0.0 (15 @ 3fe5)
+                    z : 0.0 (1d @ 3fea)
+				}
+
+                u4 sub-sub-sub-sub-block { (4a @ 3fef)
+
+                    x : 0.0 (0d @ 3ff1)
+                    y : 0.0 (15 @ 3ff6)
+                    z : 0.0 (1d @ 3ffb)
+				}
+			}
+		}
+
+        component sub-sub-block { (1a @ 4000)
+
+            component type : ParticleEmitter (0a @ 4002)
+            number : 108(10 @ 4013)
+
+            particle emitter sub-sub-sub-block { (7d2 @ 4016)
+
+                particle : 109(10 @ 4018)
+                particle : 111(10 @ 401a)
+                particle : 112(10 @ 401c)
+                u1 : 0(18 @ 401e)
+                u2 : 30(20 @ 4020)
+                u3 : 0(28 @ 4022)
+                u4 : 0(30 @ 4024)
+                u6 : 0(40 @ 4026)
+			}
+		}
+
+        component sub-sub-block { (1a @ 4028)
+
+            component type : Particle (0a @ 402a)
+            number : 109(10 @ 4034)
+
+            particle sub-sub-sub-block { (7da @ 4037)
+
+                name : particle_fure_1 (0a @ 4039)
+                u0 : 20.0 (15 @ 404a)
+			}
+		}
+
+        component sub-sub-block { (1a @ 404f)
+
+            component type : Particle (0a @ 4051)
+            number : 111(10 @ 405b)
+
+            particle sub-sub-sub-block { (7da @ 405e)
+
+                name : particle_fure_2 (0a @ 4060)
+                u0 : 22.0 (15 @ 4071)
+			}
+		}
+
+        component sub-sub-block { (1a @ 4076)
+
+            component type : Particle (0a @ 4078)
+            number : 112(10 @ 4082)
+
+            particle sub-sub-sub-block { (7da @ 4085)
+
+                name : particle_fure_3 (0a @ 4087)
+                u0 : 20.0 (15 @ 4098)
+			}
+		}
+
+        position sub-sub-block { (22 @ 409d)
+
+            x position : 0.0 (0d @ 409f)
+            y position : 0.0 (15 @ 40a4)
+		}
+        z position : 0.0 (2d @ 40a9)
+        rotation : 0.0 (35 @ 40ae)
+        scale : 1.0 (3d @ 40b3)
+
+        u0 sub-sub-block { (42 @ 40b8)
+
+            w : -50.0 (0d @ 40ba)
+            x : -50.0 (15 @ 40bf)
+            y : 100.0 (1d @ 40c4)
+            z : 100.0 (25 @ 40c9)
+		}
+        hidden : 0(48 @ 40ce)
+	}
+    u0 : 1.0 (15 @ 40d0)
+}
+
+?item block { (12 @ 40d5)
+
+
+    ?sub-item sub-block { (0a @ 40d8)
+
+        name : walkingmonsteroldman (12 @ 40db)
+
+        component sub-sub-block { (1a @ 40f1)
+
+            component type : Model (0a @ 40f3)
+            number : 101(10 @ 40fa)
+
+            3D model sub-sub-sub-block { (32a @ 40fd)
+
+                name : npc_oldman1 (0a @ 40ff)
+                u0 : 1.5707963705062866 (15 @ 410c)
+                u1 : 0.0 (1d @ 4111)
+                u2 : 0.0 (25 @ 4116)
+
+                u3 sub-sub-sub-sub-block { (2a @ 411b)
+
+                    w : 0.0 (0d @ 411d)
+                    x : 0.0 (15 @ 4122)
+                    y : 0.0 (1d @ 4127)
+                    z : 1.0 (25 @ 412c)
+				}
+
+                u4 sub-sub-sub-sub-block { (32 @ 4131)
+
+                    x : 0.0 (0d @ 4133)
+                    y : 0.0 (15 @ 4138)
+                    z : 0.0 (1d @ 413d)
+				}
+                u5 : 0(38 @ 4142)
+
+                u6 sub-sub-sub-sub-block { (42 @ 4144)
+
+                    w : 1.0 (0d @ 4146)
+                    x : 1.0 (15 @ 414b)
+                    y : 1.0 (1d @ 4150)
+                    z : 1.0 (25 @ 4155)
+				}
+			}
+		}
+
+        component sub-sub-block { (1a @ 415a)
+
+            component type : KeyframeAnimation (0a @ 415c)
+            number : 103(10 @ 416f)
+
+            keyframe animation sub-sub-sub-block { (332 @ 4172)
+
+                linked model component number : 101(08 @ 4174)
+                name : npc_oldman_walk (12 @ 4176)
+                u0 : 1(18 @ 4187)
+                u1 : 0.6000000238418579 (25 @ 4189)
+                u2 : 1(28 @ 418e)
+			}
+		}
+
+        component sub-sub-block { (1a @ 4190)
+
+            component type : WalkingMonsterController (0a @ 4192)
+            number : 105(10 @ 41ac)
+
+            monster controller sub-sub-sub-block { (972 @ 41af)
+
+                u0 : 17.0 (0d @ 41b1)
+                u1 : 109(10 @ 41b6)
+                u2 : 107(18 @ 41b8)
+                u3 : 0(20 @ 41ba)
+			}
+
+            walking monster controller sub-sub-sub-block { (97a @ 41bd)
+
+                walk animation : 103(08 @ 41bf)
+			}
+		}
+
+        component sub-sub-block { (1a @ 41c1)
+
+            component type : MonsterEntity (0a @ 41c3)
+            number : 107(10 @ 41d2)
+
+            entity sub-sub-sub-block { (4c2 @ 41d5)
+
+                u0 : 18446744073709551615(08 @ 41d7)
+                u1 : 1(10 @ 41e2)
+			}
+
+            ?monster entity sub-sub-sub-block { (4f2 @ 41e5)
+
+                u0 :  (0a @ 41e7)
+
+                lua chunk sub-sub-sub-sub-block { (12 @ 41e9)
+
+				}
+                u2 : 1(18 @ 41eb)
+                u3 : 1(20 @ 41ed)
+			}
+		}
+
+        component sub-sub-block { (1a @ 41ef)
+
+            component type : AnimationController (0a @ 41f1)
+            number : 109(10 @ 4206)
+
+            animation controller sub-sub-sub-block { (4aa @ 4209)
+
+                model component : 101(08 @ 420b)
+                u1 : 0(10 @ 420d)
+                u2 : 0(18 @ 420f)
+			}
+		}
+
+        component sub-sub-block { (1a @ 4211)
+
+            component type : CollisionShape (0a @ 4213)
+            number : 111(10 @ 4223)
+
+            collision shape sub-sub-sub-block { (3c2 @ 4226)
+
+
+                u0 sub-sub-sub-sub-block { (0a @ 4228)
+
+                    w : -32.70899963378906 (0d @ 422a)
+                    x : -34.29396057128906 (15 @ 422f)
+                    y : 64.53463745117188 (1d @ 4234)
+                    z : 62.28142547607422 (25 @ 4239)
+				}
+			}
+
+            collision shape 2 sub-sub-sub-block { (3ca @ 423f)
+
+                u1 : 1(18 @ 4241)
+                u2 : 1(20 @ 4243)
+                w : -15.0 (35 @ 4245)
+                x : 15.0 (3d @ 424a)
+                z : 1(58 @ 424f)
+			}
+		}
+
+        component sub-sub-block { (1a @ 4251)
+
+            component type : Health (0a @ 4253)
+            number : 114(10 @ 425b)
+
+            health sub-sub-sub-block { (3da @ 425e)
+
+                u0 : 1(08 @ 4260)
+                u1 : 0(10 @ 4262)
+
+                u2 sub-sub-sub-sub-block { (1a @ 4264)
+
+                    x : 0.0 (0d @ 4266)
+                    y : 50.0 (15 @ 426b)
+				}
+			}
+		}
+
+        position sub-sub-block { (22 @ 4270)
+
+            x position : 0.0 (0d @ 4272)
+            y position : 0.0 (15 @ 4277)
+		}
+        z position : 0.0 (2d @ 427c)
+        rotation : 0.0 (35 @ 4281)
+        scale : 1.0 (3d @ 4286)
+
+        u0 sub-sub-block { (42 @ 428b)
+
+            w : -32.70899963378906 (0d @ 428d)
+            x : -34.29396057128906 (15 @ 4292)
+            y : 64.53463745117188 (1d @ 4297)
+            z : 62.28142547607422 (25 @ 429c)
+		}
+        hidden : 0(48 @ 42a1)
+	}
+    u0 : 1.0 (15 @ 42a3)
+}

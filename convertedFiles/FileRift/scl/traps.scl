@@ -1,0 +1,2701 @@
+scl file name : traps (0a @ 1)
+
+?item block { (12 @ 8)
+
+
+    ?sub-item sub-block { (0a @ b)
+
+        name : door_bars (12 @ e)
+
+        component sub-sub-block { (1a @ 19)
+
+            component type : Model (0a @ 1b)
+            number : 1(10 @ 22)
+
+            3D model sub-sub-sub-block { (32a @ 25)
+
+                name : fencetrap1 (0a @ 27)
+                u0 : 1.5707963705062866 (15 @ 33)
+                u1 : 0.0 (1d @ 38)
+                u2 : 0.0 (25 @ 3d)
+
+                u3 sub-sub-sub-sub-block { (2a @ 42)
+
+                    w : 0.0 (0d @ 44)
+                    x : 0.0 (15 @ 49)
+                    y : 0.0 (1d @ 4e)
+                    z : 1.0 (25 @ 53)
+				}
+
+                u4 sub-sub-sub-sub-block { (32 @ 58)
+
+                    x : 0.0 (0d @ 5a)
+                    y : 0.0 (15 @ 5f)
+                    z : 0.0 (1d @ 64)
+				}
+                u5 : 0(38 @ 69)
+
+                u6 sub-sub-sub-sub-block { (42 @ 6b)
+
+                    w : 1.0 (0d @ 6d)
+                    x : 1.0 (15 @ 72)
+                    y : 1.0 (1d @ 77)
+                    z : 1.0 (25 @ 7c)
+				}
+			}
+		}
+
+        component sub-sub-block { (1a @ 81)
+
+            component type : CollisionShape (0a @ 83)
+            number : 2(10 @ 93)
+
+            collision shape sub-sub-sub-block { (3c2 @ 96)
+
+
+                u0 sub-sub-sub-sub-block { (0a @ 98)
+
+                    w : -15.0 (0d @ 9a)
+                    x : 0.0 (15 @ 9f)
+                    y : 23.0 (1d @ a4)
+                    z : 220.0 (25 @ a9)
+				}
+			}
+
+            collision shape 2 sub-sub-sub-block { (3ca @ af)
+
+                u0 : 1(10 @ b1)
+                w : -15.0 (35 @ b3)
+                x : 15.0 (3d @ b8)
+                z : 1(58 @ bd)
+			}
+		}
+
+        component sub-sub-block { (1a @ bf)
+
+            component type : SoundEffect (0a @ c1)
+            number : 3(10 @ ce)
+
+            sound effect sub-sub-sub-block { (462 @ d1)
+
+                sound : door_close (0a @ d3)
+                u0 : 0.0 (15 @ df)
+                u1 : 1.0 (1d @ e4)
+			}
+		}
+
+        component sub-sub-block { (1a @ e9)
+
+            component type : KeyframeAnimation (0a @ eb)
+            number : 101(10 @ fe)
+
+            keyframe animation sub-sub-sub-block { (332 @ 101)
+
+                linked model component number : 1(08 @ 103)
+                name : fencetrap1 (12 @ 105)
+                u0 : 0(18 @ 111)
+                u1 : 0.20000000298023224 (25 @ 113)
+                u2 : 1(28 @ 118)
+			}
+		}
+
+        component sub-sub-block { (1a @ 11a)
+
+            component type : AnimationController (0a @ 11c)
+            number : 105(10 @ 131)
+
+            animation controller sub-sub-sub-block { (4aa @ 134)
+
+                model component : 1(08 @ 136)
+                u1 : 0(10 @ 138)
+                u2 : 0(18 @ 13a)
+			}
+		}
+
+        component sub-sub-block { (1a @ 13c)
+
+            component type : DoorController (0a @ 13e)
+            number : 107(10 @ 14e)
+
+            door controller sub-sub-sub-block { (4e2 @ 151)
+
+                u0 : 105(08 @ 153)
+                u1 : 101(10 @ 155)
+                u2 : 1(20 @ 157)
+                u3 : 3(28 @ 159)
+                u4 : 0(30 @ 15b)
+			}
+		}
+
+        position sub-sub-block { (22 @ 15d)
+
+            x position : 0.0 (0d @ 15f)
+            y position : 0.0 (15 @ 164)
+		}
+        z position : 0.0 (2d @ 169)
+        rotation : 0.0 (35 @ 16e)
+        scale : 1.0 (3d @ 173)
+
+        u0 sub-sub-block { (42 @ 178)
+
+            w : -15.0 (0d @ 17a)
+            x : 0.0 (15 @ 17f)
+            y : 23.0 (1d @ 184)
+            z : 220.0 (25 @ 189)
+		}
+        hidden : 0(48 @ 18e)
+	}
+    u0 : 1.0 (15 @ 190)
+}
+
+?item block { (12 @ 195)
+
+
+    ?sub-item sub-block { (0a @ 198)
+
+        name : fireball (12 @ 19b)
+
+        component sub-sub-block { (1a @ 1a5)
+
+            component type : SimpleGlow (0a @ 1a7)
+            number : 1(10 @ 1b3)
+
+            simple glow sub-sub-sub-block { (7f2 @ 1b6)
+
+
+                u0 sub-sub-sub-sub-block { (0a @ 1b8)
+
+                    w : 0.8333333134651184 (0d @ 1ba)
+                    x : 0.29147660732269287 (15 @ 1bf)
+                    y : 0.0 (1d @ 1c4)
+                    z : 0.0 (25 @ 1c9)
+				}
+                u1 : 25.0 (15 @ 1ce)
+                u2 : 20(18 @ 1d3)
+                u3 : 15.0 (25 @ 1d5)
+                u4 : 0.15000000596046448 (2d @ 1da)
+                u5 : 0.800000011920929 (35 @ 1df)
+
+                u6 sub-sub-sub-sub-block { (3a @ 1e4)
+
+                    y : 0.0 (0d @ 1e6)
+                    z : 0.0 (15 @ 1eb)
+				}
+			}
+		}
+
+        component sub-sub-block { (1a @ 1f0)
+
+            component type : CollisionShape (0a @ 1f2)
+            number : 2(10 @ 202)
+
+            collision shape sub-sub-sub-block { (3c2 @ 205)
+
+
+                u0 sub-sub-sub-sub-block { (0a @ 207)
+
+                    w : -10.0 (0d @ 209)
+                    x : -10.0 (15 @ 20e)
+                    y : 20.0 (1d @ 213)
+                    z : 20.0 (25 @ 218)
+				}
+			}
+
+            collision shape 2 sub-sub-sub-block { (3ca @ 21e)
+
+                u1 : 1(18 @ 220)
+                u3 : 1(28 @ 222)
+                w : -15.0 (35 @ 224)
+                x : 15.0 (3d @ 229)
+                z : 1(58 @ 22e)
+			}
+		}
+
+        component sub-sub-block { (1a @ 230)
+
+            component type : SoundEffect (0a @ 232)
+            number : 3(10 @ 23f)
+
+            sound effect sub-sub-sub-block { (462 @ 242)
+
+                sound : woosh1 (0a @ 244)
+                u0 : 0.0 (15 @ 24c)
+                u1 : 1.0 (1d @ 251)
+			}
+		}
+
+        component sub-sub-block { (1a @ 256)
+
+            component type : Damage (0a @ 258)
+            number : 4(10 @ 260)
+
+            damage sub-sub-sub-block { (3d2 @ 263)
+
+                u0 : 2(08 @ 265)
+                u1 : 0(10 @ 267)
+                u2 : 0(18 @ 269)
+                u5 : 0.0 (35 @ 26b)
+                u6 : 1.0 (3d @ 270)
+                u7 : 0(40 @ 275)
+                u8 : 1(48 @ 277)
+			}
+		}
+
+        component sub-sub-block { (1a @ 279)
+
+            component type : Light (0a @ 27b)
+            number : 6(10 @ 282)
+
+            light sub-sub-sub-block { (412 @ 285)
+
+                u0 : 3(08 @ 287)
+                u1 : 2.0 (15 @ 289)
+
+                u2 sub-sub-sub-sub-block { (1a @ 28e)
+
+                    w : 1.0 (0d @ 290)
+                    x : 0.610582172870636 (15 @ 295)
+                    y : 0.28888893127441406 (1d @ 29a)
+                    z : 1.0 (25 @ 29f)
+				}
+                u3 : 0.0 (25 @ 2a4)
+                u4 : 0.00019999999494757503 (2d @ 2a9)
+
+                u5 sub-sub-sub-sub-block { (32 @ 2ae)
+
+                    x : 0.0 (0d @ 2b0)
+                    y : 0.0 (15 @ 2b5)
+                    z : 0.0 (1d @ 2ba)
+				}
+                u6 : 250.0 (3d @ 2bf)
+			}
+		}
+
+        component sub-sub-block { (1a @ 2c4)
+
+            component type : EntityInfo (0a @ 2c6)
+            number : 7(10 @ 2d2)
+
+            entity info sub-sub-sub-block { (522 @ 2d5)
+
+                name : bolt (0a @ 2d7)
+			}
+		}
+
+        component sub-sub-block { (1a @ 2dd)
+
+            component type : ParticleEmitter (0a @ 2df)
+            number : 102(10 @ 2f0)
+
+            particle emitter sub-sub-sub-block { (7d2 @ 2f3)
+
+                particle : 103(10 @ 2f5)
+                particle : 104(10 @ 2f7)
+                particle : 105(10 @ 2f9)
+                u1 : 0(18 @ 2fb)
+                u2 : 30(20 @ 2fd)
+                u3 : 0(28 @ 2ff)
+                u4 : 0(30 @ 301)
+                u6 : 0(40 @ 303)
+			}
+		}
+
+        component sub-sub-block { (1a @ 305)
+
+            component type : Particle (0a @ 307)
+            number : 103(10 @ 311)
+
+            particle sub-sub-sub-block { (7da @ 314)
+
+                name : particle_fure_1 (0a @ 316)
+                u0 : 40.0 (15 @ 327)
+			}
+		}
+
+        component sub-sub-block { (1a @ 32c)
+
+            component type : Particle (0a @ 32e)
+            number : 104(10 @ 338)
+
+            particle sub-sub-sub-block { (7da @ 33b)
+
+                name : particle_fure_2 (0a @ 33d)
+                u0 : 40.0 (15 @ 34e)
+			}
+		}
+
+        component sub-sub-block { (1a @ 353)
+
+            component type : Particle (0a @ 355)
+            number : 105(10 @ 35f)
+
+            particle sub-sub-sub-block { (7da @ 362)
+
+                name : particle_fure_3 (0a @ 364)
+                u0 : 40.0 (15 @ 375)
+			}
+		}
+
+        component sub-sub-block { (1a @ 37a)
+
+            component type : MagicBolt (0a @ 37c)
+            number : 106(10 @ 387)
+
+            magic bolt sub-sub-sub-block { (1132 @ 38a)
+
+                u0 : 102(08 @ 38c)
+                u1 : 3(10 @ 38e)
+                u2 : 0(18 @ 390)
+
+                u3 sub-sub-sub-sub-block { (22 @ 392)
+
+                    w : 1.0 (0d @ 394)
+                    x : 0.5160372257232666 (15 @ 399)
+                    y : 0.009555578231811523 (1d @ 39e)
+                    z : 0.0 (25 @ 3a3)
+				}
+                u3 : 0.0 (2d @ 3a8)
+			}
+
+            temp0 sub-sub-sub-block { (1172 @ 3ae)
+
+			}
+		}
+
+        position sub-sub-block { (22 @ 3b0)
+
+            x position : 0.0 (0d @ 3b2)
+            y position : 0.0 (15 @ 3b7)
+		}
+        z position : 0.0 (2d @ 3bc)
+        rotation : 0.0 (35 @ 3c1)
+        scale : 1.0 (3d @ 3c6)
+
+        u0 sub-sub-block { (42 @ 3cb)
+
+            w : -50.0 (0d @ 3cd)
+            x : -50.0 (15 @ 3d2)
+            y : 100.0 (1d @ 3d7)
+            z : 100.0 (25 @ 3dc)
+		}
+        hidden : 0(48 @ 3e1)
+	}
+    u0 : 1.5 (15 @ 3e3)
+}
+
+?item block { (12 @ 3e8)
+
+
+    ?sub-item sub-block { (0a @ 3eb)
+
+        name : fireball_ballistic (12 @ 3ee)
+
+        component sub-sub-block { (1a @ 402)
+
+            component type : SimpleGlow (0a @ 404)
+            number : 1(10 @ 410)
+
+            simple glow sub-sub-sub-block { (7f2 @ 413)
+
+
+                u0 sub-sub-sub-sub-block { (0a @ 415)
+
+                    w : 0.8333333134651184 (0d @ 417)
+                    x : 0.29147660732269287 (15 @ 41c)
+                    y : 0.0 (1d @ 421)
+                    z : 0.0 (25 @ 426)
+				}
+                u1 : 25.0 (15 @ 42b)
+                u2 : 20(18 @ 430)
+                u3 : 15.0 (25 @ 432)
+                u4 : 0.15000000596046448 (2d @ 437)
+                u5 : 0.800000011920929 (35 @ 43c)
+
+                u6 sub-sub-sub-sub-block { (3a @ 441)
+
+                    y : 0.0 (0d @ 443)
+                    z : 0.0 (15 @ 448)
+				}
+			}
+		}
+
+        component sub-sub-block { (1a @ 44d)
+
+            component type : CollisionShape (0a @ 44f)
+            number : 2(10 @ 45f)
+
+            collision shape sub-sub-sub-block { (3c2 @ 462)
+
+
+                u0 sub-sub-sub-sub-block { (0a @ 464)
+
+                    w : -10.0 (0d @ 466)
+                    x : -10.0 (15 @ 46b)
+                    y : 20.0 (1d @ 470)
+                    z : 20.0 (25 @ 475)
+				}
+			}
+
+            collision shape 2 sub-sub-sub-block { (3ca @ 47b)
+
+                u1 : 1(18 @ 47d)
+                u3 : 1(28 @ 47f)
+                w : -15.0 (35 @ 481)
+                x : 15.0 (3d @ 486)
+                z : 1(58 @ 48b)
+			}
+		}
+
+        component sub-sub-block { (1a @ 48d)
+
+            component type : SoundEffect (0a @ 48f)
+            number : 3(10 @ 49c)
+
+            sound effect sub-sub-sub-block { (462 @ 49f)
+
+                sound : woosh1 (0a @ 4a1)
+                u0 : 0.0 (15 @ 4a9)
+                u1 : 1.0 (1d @ 4ae)
+			}
+		}
+
+        component sub-sub-block { (1a @ 4b3)
+
+            component type : Damage (0a @ 4b5)
+            number : 4(10 @ 4bd)
+
+            damage sub-sub-sub-block { (3d2 @ 4c0)
+
+                u0 : 2(08 @ 4c2)
+                u1 : 0(10 @ 4c4)
+                u2 : 0(18 @ 4c6)
+                u5 : 0.0 (35 @ 4c8)
+                u6 : 1.0 (3d @ 4cd)
+                u7 : 0(40 @ 4d2)
+                u8 : 1(48 @ 4d4)
+			}
+		}
+
+        component sub-sub-block { (1a @ 4d6)
+
+            component type : Light (0a @ 4d8)
+            number : 6(10 @ 4df)
+
+            light sub-sub-sub-block { (412 @ 4e2)
+
+                u0 : 3(08 @ 4e4)
+                u1 : 2.0 (15 @ 4e6)
+
+                u2 sub-sub-sub-sub-block { (1a @ 4eb)
+
+                    w : 1.0 (0d @ 4ed)
+                    x : 0.610582172870636 (15 @ 4f2)
+                    y : 0.28888893127441406 (1d @ 4f7)
+                    z : 1.0 (25 @ 4fc)
+				}
+                u3 : 0.0 (25 @ 501)
+                u4 : 0.00019999999494757503 (2d @ 506)
+
+                u5 sub-sub-sub-sub-block { (32 @ 50b)
+
+                    x : 0.0 (0d @ 50d)
+                    y : 0.0 (15 @ 512)
+                    z : 0.0 (1d @ 517)
+				}
+                u6 : 250.0 (3d @ 51c)
+			}
+		}
+
+        component sub-sub-block { (1a @ 521)
+
+            component type : EntityInfo (0a @ 523)
+            number : 7(10 @ 52f)
+
+            entity info sub-sub-sub-block { (522 @ 532)
+
+                name : bolt (0a @ 534)
+			}
+		}
+
+        component sub-sub-block { (1a @ 53a)
+
+            component type : PhysicsObject (0a @ 53c)
+            number : 8(10 @ 54b)
+
+            physics object sub-sub-sub-block { (4fa @ 54e)
+
+                u0 : 1(08 @ 550)
+                u2 : 0.6000000238418579 (1d @ 552)
+                u3 : 1500.0 (25 @ 557)
+                u4 : 0.0 (2d @ 55c)
+                u5 : 700.0 (35 @ 561)
+                u6 : 0(38 @ 566)
+                u7 : 0.0 (45 @ 568)
+			}
+		}
+
+        component sub-sub-block { (1a @ 56d)
+
+            component type : ParticleEmitter (0a @ 56f)
+            number : 102(10 @ 580)
+
+            particle emitter sub-sub-sub-block { (7d2 @ 583)
+
+                particle : 103(10 @ 585)
+                particle : 104(10 @ 587)
+                particle : 105(10 @ 589)
+                u1 : 0(18 @ 58b)
+                u2 : 30(20 @ 58d)
+                u3 : 0(28 @ 58f)
+                u4 : 0(30 @ 591)
+                u6 : 0(40 @ 593)
+			}
+		}
+
+        component sub-sub-block { (1a @ 595)
+
+            component type : Particle (0a @ 597)
+            number : 103(10 @ 5a1)
+
+            particle sub-sub-sub-block { (7da @ 5a4)
+
+                name : particle_fure_1 (0a @ 5a6)
+                u0 : 40.0 (15 @ 5b7)
+			}
+		}
+
+        component sub-sub-block { (1a @ 5bc)
+
+            component type : Particle (0a @ 5be)
+            number : 104(10 @ 5c8)
+
+            particle sub-sub-sub-block { (7da @ 5cb)
+
+                name : particle_fure_2 (0a @ 5cd)
+                u0 : 40.0 (15 @ 5de)
+			}
+		}
+
+        component sub-sub-block { (1a @ 5e3)
+
+            component type : Particle (0a @ 5e5)
+            number : 105(10 @ 5ef)
+
+            particle sub-sub-sub-block { (7da @ 5f2)
+
+                name : particle_fure_3 (0a @ 5f4)
+                u0 : 40.0 (15 @ 605)
+			}
+		}
+
+        component sub-sub-block { (1a @ 60a)
+
+            component type : MagicBolt (0a @ 60c)
+            number : 106(10 @ 617)
+
+            magic bolt sub-sub-sub-block { (1132 @ 61a)
+
+                u0 : 102(08 @ 61c)
+                u1 : 3(10 @ 61e)
+                u2 : 0(18 @ 620)
+
+                u3 sub-sub-sub-sub-block { (22 @ 622)
+
+                    w : 1.0 (0d @ 624)
+                    x : 0.5160372257232666 (15 @ 629)
+                    y : 0.009555578231811523 (1d @ 62e)
+                    z : 0.0 (25 @ 633)
+				}
+                u3 : 0.0 (2d @ 638)
+			}
+
+            temp0 sub-sub-sub-block { (1172 @ 63e)
+
+			}
+		}
+
+        position sub-sub-block { (22 @ 640)
+
+            x position : 0.0 (0d @ 642)
+            y position : 0.0 (15 @ 647)
+		}
+        z position : 0.0 (2d @ 64c)
+        rotation : 0.0 (35 @ 651)
+        scale : 1.0 (3d @ 656)
+
+        u0 sub-sub-block { (42 @ 65b)
+
+            w : -50.0 (0d @ 65d)
+            x : -50.0 (15 @ 662)
+            y : 100.0 (1d @ 667)
+            z : 100.0 (25 @ 66c)
+		}
+        hidden : 0(48 @ 671)
+	}
+    u0 : 1.5 (15 @ 673)
+}
+
+?item block { (12 @ 678)
+
+
+    ?sub-item sub-block { (0a @ 67b)
+
+        name : fireball_ballistic_purple (12 @ 67e)
+
+        component sub-sub-block { (1a @ 699)
+
+            component type : SimpleGlow (0a @ 69b)
+            number : 1(10 @ 6a7)
+
+            simple glow sub-sub-sub-block { (7f2 @ 6aa)
+
+
+                u0 sub-sub-sub-sub-block { (0a @ 6ac)
+
+                    w : 0.5555555820465088 (0d @ 6ae)
+                    x : 0.29147660732269287 (15 @ 6b3)
+                    y : 0.5111111402511597 (1d @ 6b8)
+                    z : 0.0 (25 @ 6bd)
+				}
+                u1 : 25.0 (15 @ 6c2)
+                u2 : 20(18 @ 6c7)
+                u3 : 15.0 (25 @ 6c9)
+                u4 : 0.15000000596046448 (2d @ 6ce)
+                u5 : 0.800000011920929 (35 @ 6d3)
+
+                u6 sub-sub-sub-sub-block { (3a @ 6d8)
+
+                    y : 0.0 (0d @ 6da)
+                    z : 0.0 (15 @ 6df)
+				}
+			}
+		}
+
+        component sub-sub-block { (1a @ 6e4)
+
+            component type : CollisionShape (0a @ 6e6)
+            number : 2(10 @ 6f6)
+
+            collision shape sub-sub-sub-block { (3c2 @ 6f9)
+
+
+                u0 sub-sub-sub-sub-block { (0a @ 6fb)
+
+                    w : -10.0 (0d @ 6fd)
+                    x : -10.0 (15 @ 702)
+                    y : 20.0 (1d @ 707)
+                    z : 20.0 (25 @ 70c)
+				}
+			}
+
+            collision shape 2 sub-sub-sub-block { (3ca @ 712)
+
+                u1 : 1(18 @ 714)
+                u3 : 1(28 @ 716)
+                w : -15.0 (35 @ 718)
+                x : 15.0 (3d @ 71d)
+                z : 1(58 @ 722)
+			}
+		}
+
+        component sub-sub-block { (1a @ 724)
+
+            component type : SoundEffect (0a @ 726)
+            number : 3(10 @ 733)
+
+            sound effect sub-sub-sub-block { (462 @ 736)
+
+                sound : woosh1 (0a @ 738)
+                u0 : 0.0 (15 @ 740)
+                u1 : 1.0 (1d @ 745)
+			}
+		}
+
+        component sub-sub-block { (1a @ 74a)
+
+            component type : Damage (0a @ 74c)
+            number : 4(10 @ 754)
+
+            damage sub-sub-sub-block { (3d2 @ 757)
+
+                u0 : 2(08 @ 759)
+                u1 : 0(10 @ 75b)
+                u2 : 0(18 @ 75d)
+                u5 : 0.0 (35 @ 75f)
+                u6 : 1.0 (3d @ 764)
+                u7 : 0(40 @ 769)
+                u8 : 1(48 @ 76b)
+			}
+		}
+
+        component sub-sub-block { (1a @ 76d)
+
+            component type : Light (0a @ 76f)
+            number : 6(10 @ 776)
+
+            light sub-sub-sub-block { (412 @ 779)
+
+                u0 : 3(08 @ 77b)
+                u1 : 2.0 (15 @ 77d)
+
+                u2 sub-sub-sub-sub-block { (1a @ 782)
+
+                    w : 0.6666666865348816 (0d @ 784)
+                    x : 0.11058218032121658 (15 @ 789)
+                    y : 1.0 (1d @ 78e)
+                    z : 1.0 (25 @ 793)
+				}
+                u3 : 0.0 (25 @ 798)
+                u4 : 0.00019999999494757503 (2d @ 79d)
+
+                u5 sub-sub-sub-sub-block { (32 @ 7a2)
+
+                    x : 0.0 (0d @ 7a4)
+                    y : 0.0 (15 @ 7a9)
+                    z : 0.0 (1d @ 7ae)
+				}
+                u6 : 250.0 (3d @ 7b3)
+			}
+		}
+
+        component sub-sub-block { (1a @ 7b8)
+
+            component type : EntityInfo (0a @ 7ba)
+            number : 7(10 @ 7c6)
+
+            entity info sub-sub-sub-block { (522 @ 7c9)
+
+                name : bolt (0a @ 7cb)
+			}
+		}
+
+        component sub-sub-block { (1a @ 7d1)
+
+            component type : PhysicsObject (0a @ 7d3)
+            number : 8(10 @ 7e2)
+
+            physics object sub-sub-sub-block { (4fa @ 7e5)
+
+                u0 : 1(08 @ 7e7)
+                u2 : 0.6000000238418579 (1d @ 7e9)
+                u3 : 1500.0 (25 @ 7ee)
+                u4 : 0.0 (2d @ 7f3)
+                u5 : 700.0 (35 @ 7f8)
+                u6 : 0(38 @ 7fd)
+                u7 : 0.0 (45 @ 7ff)
+			}
+		}
+
+        component sub-sub-block { (1a @ 804)
+
+            component type : ParticleEmitter (0a @ 806)
+            number : 102(10 @ 817)
+
+            particle emitter sub-sub-sub-block { (7d2 @ 81a)
+
+                particle : 103(10 @ 81c)
+                particle : 104(10 @ 81e)
+                particle : 105(10 @ 820)
+                u1 : 0(18 @ 822)
+                u2 : 30(20 @ 824)
+                u3 : 0(28 @ 826)
+                u4 : 0(30 @ 828)
+                u6 : 0(40 @ 82a)
+			}
+		}
+
+        component sub-sub-block { (1a @ 82c)
+
+            component type : Particle (0a @ 82e)
+            number : 103(10 @ 838)
+
+            particle sub-sub-sub-block { (7da @ 83b)
+
+                name : particle_fure_1 (0a @ 83d)
+                u0 : 40.0 (15 @ 84e)
+			}
+		}
+
+        component sub-sub-block { (1a @ 853)
+
+            component type : Particle (0a @ 855)
+            number : 104(10 @ 85f)
+
+            particle sub-sub-sub-block { (7da @ 862)
+
+                name : particle_fure_2 (0a @ 864)
+                u0 : 40.0 (15 @ 875)
+			}
+		}
+
+        component sub-sub-block { (1a @ 87a)
+
+            component type : Particle (0a @ 87c)
+            number : 105(10 @ 886)
+
+            particle sub-sub-sub-block { (7da @ 889)
+
+                name : particle_fure_3 (0a @ 88b)
+                u0 : 40.0 (15 @ 89c)
+			}
+		}
+
+        component sub-sub-block { (1a @ 8a1)
+
+            component type : MagicBolt (0a @ 8a3)
+            number : 106(10 @ 8ae)
+
+            magic bolt sub-sub-sub-block { (1132 @ 8b1)
+
+                u0 : 102(08 @ 8b3)
+                u1 : 3(10 @ 8b5)
+                u2 : 0(18 @ 8b7)
+
+                u3 sub-sub-sub-sub-block { (22 @ 8b9)
+
+                    w : 1.0 (0d @ 8bb)
+                    x : 0.5160372257232666 (15 @ 8c0)
+                    y : 0.009555578231811523 (1d @ 8c5)
+                    z : 0.0 (25 @ 8ca)
+				}
+                u3 : 0.0 (2d @ 8cf)
+			}
+
+            temp0 sub-sub-sub-block { (1172 @ 8d5)
+
+			}
+		}
+
+        position sub-sub-block { (22 @ 8d7)
+
+            x position : 0.0 (0d @ 8d9)
+            y position : 0.0 (15 @ 8de)
+		}
+        z position : 0.0 (2d @ 8e3)
+        rotation : 0.0 (35 @ 8e8)
+        scale : 1.0 (3d @ 8ed)
+
+        u0 sub-sub-block { (42 @ 8f2)
+
+            w : -50.0 (0d @ 8f4)
+            x : -50.0 (15 @ 8f9)
+            y : 100.0 (1d @ 8fe)
+            z : 100.0 (25 @ 903)
+		}
+        hidden : 0(48 @ 908)
+	}
+    u0 : 1.5 (15 @ 90a)
+}
+
+?item block { (12 @ 90f)
+
+
+    ?sub-item sub-block { (0a @ 912)
+
+        name : fireball_launcher (12 @ 915)
+
+        component sub-sub-block { (1a @ 928)
+
+            component type : Program (0a @ 92b)
+            number : 103(10 @ 934)
+
+            program sub-sub-sub-block { (4ea @ 937)
+
+                u0 : 1(08 @ 93a)
+
+                lua chunk sub-sub-sub-sub-block { (12 @ 93c)
+
+                    main chunk : chunk >
+
+                    === lua =============
+                    local self = ...;
+                    
+                    while true do
+                    Program.Wait(2.0);
+                    local fireball = Scene.CreateObject("fireball", "f", self);
+                    fireball:setVelocity(Vector3.FromAngle(self:rotation()) * 300);
+                    SoundLibrary.PlayEffect("woosh1");
+                    end
+                    
+
+                    =====================
+                    secondary chunk : \x1bLuaQ\x00\x01\x04\x04\x04\x08\x00\xe0\x00\x00\x00local self = ...;\r\n\r\nwhile true do\r\nProgram.Wait(2.0);\r\nlocal fireball = Scene.CreateObject("fireball", "f", self);\r\nfireball:setVelocity(Vector3.FromAngle(self:rotation()) * 300);\r\nSoundLibrary.PlayEffect("woosh1");\r\nend\r\n\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x02\x07\x19\x00\x00\x00%\x00\x00\x01E\x00\x00\x00F@\xc0\x00\x81\x80\x00\x00\\@\x00\x01E\xc0\x00\x00F\x00\xc1\x00\x81@\x01\x00\xc1\x80\x01\x00\x00\x01\x00\x00\\\x80\x00\x02\x8b\xc0\xc1\x00\x05\x01\x02\x00\x06AB\x02K\x81B\x00\\\x01\x00\x01\x1c\x81\x00\x00\x0e\xc1B\x02\x9c@\x80\x01\x85\x00\x03\x00\x86@C\x01\xc1\x80\x03\x00\x9c@\x00\x01\x16\x00\xfa\x7f\x1e\x00\x80\x00\x0f\x00\x00\x00\x04\x08\x00\x00\x00Program\x00\x04\x05\x00\x00\x00Wait\x00\x03\x00\x00\x00\x00\x00\x00\x00@\x04\x06\x00\x00\x00Scene\x00\x04\r\x00\x00\x00CreateObject\x00\x04\t\x00\x00\x00fireball\x00\x04\x02\x00\x00\x00f\x00\x04\x0c\x00\x00\x00setVelocity\x00\x04\x08\x00\x00\x00Vector3\x00\x04\n\x00\x00\x00FromAngle\x00\x04\t\x00\x00\x00rotation\x00\x03\x00\x00\x00\x00\x00\xc0r@\x04\r\x00\x00\x00SoundLibrary\x00\x04\x0b\x00\x00\x00PlayEffect\x00\x04\x07\x00\x00\x00woosh1\x00\x00\x00\x00\x00\x19\x00\x00\x00\x01\x00\x00\x00\x04\x00\x00\x00\x04\x00\x00\x00\x04\x00\x00\x00\x04\x00\x00\x00\x05\x00\x00\x00\x05\x00\x00\x00\x05\x00\x00\x00\x05\x00\x00\x00\x05\x00\x00\x00\x05\x00\x00\x00\x06\x00\x00\x00\x06\x00\x00\x00\x06\x00\x00\x00\x06\x00\x00\x00\x06\x00\x00\x00\x06\x00\x00\x00\x06\x00\x00\x00\x06\x00\x00\x00\x07\x00\x00\x00\x07\x00\x00\x00\x07\x00\x00\x00\x07\x00\x00\x00\x07\x00\x00\x00\x08\x00\x00\x00\x02\x00\x00\x00\x05\x00\x00\x00self\x00\x01\x00\x00\x00\x18\x00\x00\x00\t\x00\x00\x00fireball\x00\x0b\x00\x00\x00\x17\x00\x00\x00\x00\x00\x00\x00 (12 @ a21)
+				}
+                u1 : 1(18 @ cea)
+                u2 : 1(20 @ cec)
+			}
+		}
+
+        position sub-sub-block { (22 @ cee)
+
+            x position : 0.0 (0d @ cf0)
+            y position : 0.0 (15 @ cf5)
+		}
+        z position : 0.0 (2d @ cfa)
+        rotation : 0.0 (35 @ cff)
+        scale : 1.0 (3d @ d04)
+
+        u0 sub-sub-block { (42 @ d09)
+
+            w : -10.0 (0d @ d0b)
+            x : -10.0 (15 @ d10)
+            y : 20.0 (1d @ d15)
+            z : 20.0 (25 @ d1a)
+		}
+        hidden : 0(48 @ d1f)
+	}
+    u0 : 1.0 (15 @ d21)
+}
+
+?item block { (12 @ d26)
+
+
+    ?sub-item sub-block { (0a @ d29)
+
+        name : fireball_launcher_aimed (12 @ d2c)
+
+        component sub-sub-block { (1a @ d45)
+
+            component type : Program (0a @ d48)
+            number : 103(10 @ d51)
+
+            program sub-sub-sub-block { (4ea @ d54)
+
+                u0 : 1(08 @ d57)
+
+                lua chunk sub-sub-sub-sub-block { (12 @ d59)
+
+                    main chunk : chunk >
+
+                    === lua =============
+                    local self = ...;
+                    
+                    local target = Scene.Find("hero");
+                    
+                    while true do
+                    Program.Wait(2.0);
+                    
+                    local direction = (target:position() - self:position()):normalized();
+                    
+                    local referenceDirection = Vector3.FromAngle(self:rotation())
+                    
+                    
+                    if direction:dot(referenceDirection) > 0.3 then
+                    	local fireball = Scene.CreateObject("fireball", "f", self);
+                    
+                    	fireball:setVelocity(direction * 300);
+                    	SoundLibrary.PlayEffect("woosh1");
+                    end
+                    end
+                    
+
+                    =====================
+                    secondary chunk : \x1bLuaQ\x00\x01\x04\x04\x04\x08\x00\xb6\x01\x00\x00local self = ...;\r\n\r\nlocal target = Scene.Find("hero");\r\n\r\nwhile true do\r\nProgram.Wait(2.0);\r\n\r\nlocal direction = (target:position() - self:position()):normalized();\r\n\r\nlocal referenceDirection = Vector3.FromAngle(self:rotation())\r\n\r\n\r\nif direction:dot(referenceDirection) > 0.3 then\r\n\tlocal fireball = Scene.CreateObject("fireball", "f", self);\r\n\r\n\tfireball:setVelocity(direction * 300);\r\n\tSoundLibrary.PlayEffect("woosh1");\r\nend\r\nend\r\n\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x02\x08)\x00\x00\x00%\x00\x00\x01E\x00\x00\x00F@\xc0\x00\x81\x80\x00\x00\\\x80\x00\x01\x85\xc0\x00\x00\x86\x00A\x01\xc1@\x01\x00\x9c@\x00\x01\x8b\x80\xc1\x00\x9c\x80\x00\x01\xcb\x80A\x00\xdc\x80\x00\x01\x8d\xc0\x00\x01\x8b\xc0A\x01\x9c\x80\x00\x01\xc5\x00\x02\x00\xc6@\xc2\x01\x0b\x81B\x00\x1c\x01\x00\x01\xdc\x80\x00\x00\x0b\xc1B\x01\x80\x01\x80\x01\x1c\x81\x80\x01\x18\x00\x01\x86\x16\x80\xfa\x7f\x05\x01\x00\x00\x06AC\x02A\x81\x03\x00\x81\xc1\x03\x00\xc0\x01\x00\x00\x1c\x81\x00\x02K\x01D\x02\xceAD\x01\\A\x80\x01E\x81\x04\x00F\xc1\xc4\x02\x81\x01\x05\x00\\A\x00\x01\x16\x00\xf7\x7f\x1e\x00\x80\x00\x15\x00\x00\x00\x04\x06\x00\x00\x00Scene\x00\x04\x05\x00\x00\x00Find\x00\x04\x05\x00\x00\x00hero\x00\x04\x08\x00\x00\x00Program\x00\x04\x05\x00\x00\x00Wait\x00\x03\x00\x00\x00\x00\x00\x00\x00@\x04\t\x00\x00\x00position\x00\x04\x0b\x00\x00\x00normalized\x00\x04\x08\x00\x00\x00Vector3\x00\x04\n\x00\x00\x00FromAngle\x00\x04\t\x00\x00\x00rotation\x00\x04\x04\x00\x00\x00dot\x00\x03333333\xd3?\x04\r\x00\x00\x00CreateObject\x00\x04\t\x00\x00\x00fireball\x00\x04\x02\x00\x00\x00f\x00\x04\x0c\x00\x00\x00setVelocity\x00\x03\x00\x00\x00\x00\x00\xc0r@\x04\r\x00\x00\x00SoundLibrary\x00\x04\x0b\x00\x00\x00PlayEffect\x00\x04\x07\x00\x00\x00woosh1\x00\x00\x00\x00\x00)\x00\x00\x00\x01\x00\x00\x00\x03\x00\x00\x00\x03\x00\x00\x00\x03\x00\x00\x00\x03\x00\x00\x00\x06\x00\x00\x00\x06\x00\x00\x00\x06\x00\x00\x00\x06\x00\x00\x00\x08\x00\x00\x00\x08\x00\x00\x00\x08\x00\x00\x00\x08\x00\x00\x00\x08\x00\x00\x00\x08\x00\x00\x00\x08\x00\x00\x00\n\x00\x00\x00\n\x00\x00\x00\n\x00\x00\x00\n\x00\x00\x00\n\x00\x00\x00\r\x00\x00\x00\r\x00\x00\x00\r\x00\x00\x00\r\x00\x00\x00\r\x00\x00\x00\x0e\x00\x00\x00\x0e\x00\x00\x00\x0e\x00\x00\x00\x0e\x00\x00\x00\x0e\x00\x00\x00\x0e\x00\x00\x00\x10\x00\x00\x00\x10\x00\x00\x00\x10\x00\x00\x00\x11\x00\x00\x00\x11\x00\x00\x00\x11\x00\x00\x00\x11\x00\x00\x00\x12\x00\x00\x00\x13\x00\x00\x00\x05\x00\x00\x00\x05\x00\x00\x00self\x00\x01\x00\x00\x00(\x00\x00\x00\x07\x00\x00\x00target\x00\x05\x00\x00\x00(\x00\x00\x00\n\x00\x00\x00direction\x00\x10\x00\x00\x00\'\x00\x00\x00\x13\x00\x00\x00referenceDirection\x00\x15\x00\x00\x00\'\x00\x00\x00\t\x00\x00\x00fireball\x00 \x00\x00\x00\'\x00\x00\x00\x00\x00\x00\x00 (12 @ f14)
+				}
+                u1 : 1(18 @ 13bf)
+                u2 : 1(20 @ 13c1)
+			}
+		}
+
+        position sub-sub-block { (22 @ 13c3)
+
+            x position : 0.0 (0d @ 13c5)
+            y position : 0.0 (15 @ 13ca)
+		}
+        z position : 0.0 (2d @ 13cf)
+        rotation : 0.0 (35 @ 13d4)
+        scale : 1.0 (3d @ 13d9)
+
+        u0 sub-sub-block { (42 @ 13de)
+
+            w : -10.0 (0d @ 13e0)
+            x : -10.0 (15 @ 13e5)
+            y : 20.0 (1d @ 13ea)
+            z : 20.0 (25 @ 13ef)
+		}
+        hidden : 0(48 @ 13f4)
+	}
+    u0 : 1.0 (15 @ 13f6)
+}
+
+?item block { (12 @ 13fb)
+
+
+    ?sub-item sub-block { (0a @ 13fe)
+
+        name : fireball_launcher_ballistic (12 @ 1401)
+
+        component sub-sub-block { (1a @ 141e)
+
+            component type : Program (0a @ 1421)
+            number : 103(10 @ 142a)
+
+            program sub-sub-sub-block { (4ea @ 142d)
+
+                u0 : 1(08 @ 1430)
+
+                lua chunk sub-sub-sub-sub-block { (12 @ 1432)
+
+                    main chunk : chunk >
+
+                    === lua =============
+                    local self = ...;
+                    
+                    while true do
+                    Program.Wait(2.0);
+                    local fireball = Scene.CreateObject("fireball_ballistic", "f", self);
+                    fireball:setVelocity(Vector3.FromAngle(self:rotation()) * 600);
+                    end
+                    
+
+                    =====================
+                    secondary chunk : \x1bLuaQ\x00\x01\x04\x04\x04\x08\x00\xc6\x00\x00\x00local self = ...;\r\n\r\nwhile true do\r\nProgram.Wait(2.0);\r\nlocal fireball = Scene.CreateObject("fireball_ballistic", "f", self);\r\nfireball:setVelocity(Vector3.FromAngle(self:rotation()) * 600);\r\nend\r\n\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x02\x07\x15\x00\x00\x00%\x00\x00\x01E\x00\x00\x00F@\xc0\x00\x81\x80\x00\x00\\@\x00\x01E\xc0\x00\x00F\x00\xc1\x00\x81@\x01\x00\xc1\x80\x01\x00\x00\x01\x00\x00\\\x80\x00\x02\x8b\xc0\xc1\x00\x05\x01\x02\x00\x06AB\x02K\x81B\x00\\\x01\x00\x01\x1c\x81\x00\x00\x0e\xc1B\x02\x9c@\x80\x01\x16\x00\xfb\x7f\x1e\x00\x80\x00\x0c\x00\x00\x00\x04\x08\x00\x00\x00Program\x00\x04\x05\x00\x00\x00Wait\x00\x03\x00\x00\x00\x00\x00\x00\x00@\x04\x06\x00\x00\x00Scene\x00\x04\r\x00\x00\x00CreateObject\x00\x04\x13\x00\x00\x00fireball_ballistic\x00\x04\x02\x00\x00\x00f\x00\x04\x0c\x00\x00\x00setVelocity\x00\x04\x08\x00\x00\x00Vector3\x00\x04\n\x00\x00\x00FromAngle\x00\x04\t\x00\x00\x00rotation\x00\x03\x00\x00\x00\x00\x00\xc0\x82@\x00\x00\x00\x00\x15\x00\x00\x00\x01\x00\x00\x00\x04\x00\x00\x00\x04\x00\x00\x00\x04\x00\x00\x00\x04\x00\x00\x00\x05\x00\x00\x00\x05\x00\x00\x00\x05\x00\x00\x00\x05\x00\x00\x00\x05\x00\x00\x00\x05\x00\x00\x00\x06\x00\x00\x00\x06\x00\x00\x00\x06\x00\x00\x00\x06\x00\x00\x00\x06\x00\x00\x00\x06\x00\x00\x00\x06\x00\x00\x00\x06\x00\x00\x00\x06\x00\x00\x00\x07\x00\x00\x00\x02\x00\x00\x00\x05\x00\x00\x00self\x00\x01\x00\x00\x00\x14\x00\x00\x00\t\x00\x00\x00fireball\x00\x0b\x00\x00\x00\x13\x00\x00\x00\x00\x00\x00\x00 (12 @ 14fd)
+				}
+                u1 : 1(18 @ 1768)
+                u2 : 1(20 @ 176a)
+			}
+		}
+
+        position sub-sub-block { (22 @ 176c)
+
+            x position : 0.0 (0d @ 176e)
+            y position : 0.0 (15 @ 1773)
+		}
+        z position : 0.0 (2d @ 1778)
+        rotation : 0.0 (35 @ 177d)
+        scale : 1.0 (3d @ 1782)
+
+        u0 sub-sub-block { (42 @ 1787)
+
+            w : -10.0 (0d @ 1789)
+            x : -10.0 (15 @ 178e)
+            y : 20.0 (1d @ 1793)
+            z : 20.0 (25 @ 1798)
+		}
+        hidden : 0(48 @ 179d)
+	}
+    u0 : 1.0 (15 @ 179f)
+}
+
+?item block { (12 @ 17a4)
+
+
+    ?sub-item sub-block { (0a @ 17a7)
+
+        name : grabbable (12 @ 17aa)
+
+        component sub-sub-block { (1a @ 17b5)
+
+            component type : Model (0a @ 17b7)
+            number : 101(10 @ 17be)
+
+            3D model sub-sub-sub-block { (32a @ 17c1)
+
+                name : grabbable (0a @ 17c3)
+                u0 : 0.0 (15 @ 17ce)
+                u1 : 1.0 (1d @ 17d3)
+                u2 : 0.0 (25 @ 17d8)
+
+                u3 sub-sub-sub-sub-block { (2a @ 17dd)
+
+                    w : 1.0 (0d @ 17df)
+                    x : 1.0 (15 @ 17e4)
+                    y : 1.0 (1d @ 17e9)
+                    z : 1.0 (25 @ 17ee)
+				}
+
+                u4 sub-sub-sub-sub-block { (32 @ 17f3)
+
+                    x : 0.0 (0d @ 17f5)
+                    y : 0.0 (15 @ 17fa)
+                    z : 0.0 (1d @ 17ff)
+				}
+                u5 : 0(38 @ 1804)
+
+                u6 sub-sub-sub-sub-block { (42 @ 1806)
+
+                    w : 1.0 (0d @ 1808)
+                    x : 1.0 (15 @ 180d)
+                    y : 1.0 (1d @ 1812)
+                    z : 1.0 (25 @ 1817)
+				}
+			}
+		}
+
+        component sub-sub-block { (1a @ 181c)
+
+            component type : AnimationController (0a @ 181e)
+            number : 102(10 @ 1833)
+
+            animation controller sub-sub-sub-block { (4aa @ 1836)
+
+                model component : 101(08 @ 1838)
+                u1 : 103(10 @ 183a)
+                u2 : 1(18 @ 183c)
+			}
+		}
+
+        component sub-sub-block { (1a @ 183e)
+
+            component type : KeyframeAnimation (0a @ 1840)
+            number : 103(10 @ 1853)
+
+            keyframe animation sub-sub-sub-block { (332 @ 1856)
+
+                linked model component number : 101(08 @ 1858)
+                name : grabbable_pulse (12 @ 185a)
+                u0 : 1(18 @ 186b)
+                u1 : 0.699999988079071 (25 @ 186d)
+                u2 : 1(28 @ 1872)
+			}
+		}
+
+        component sub-sub-block { (1a @ 1874)
+
+            component type : CollisionShape (0a @ 1876)
+            number : 104(10 @ 1886)
+
+            collision shape sub-sub-sub-block { (3c2 @ 1889)
+
+
+                u1 sub-sub-sub-sub-block { (12 @ 188b)
+
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 188d)
+
+                        y : 0.0 (0d @ 188f)
+                        z : 0.0 (15 @ 1894)
+					}
+                    u1 : 55.0 (15 @ 1899)
+				}
+			}
+
+            collision shape 2 sub-sub-sub-block { (3ca @ 189f)
+
+                w : -15.0 (35 @ 18a1)
+                x : 15.0 (3d @ 18a6)
+                y : 6(40 @ 18ab)
+                z : 1(58 @ 18ad)
+			}
+		}
+
+        position sub-sub-block { (22 @ 18af)
+
+            x position : 0.0 (0d @ 18b1)
+            y position : 0.0 (15 @ 18b6)
+		}
+        z position : 0.0 (2d @ 18bb)
+        rotation : 0.0 (35 @ 18c0)
+        scale : 1.0 (3d @ 18c5)
+
+        u0 sub-sub-block { (42 @ 18ca)
+
+            w : -55.0 (0d @ 18cc)
+            x : -55.0 (15 @ 18d1)
+            y : 110.0 (1d @ 18d6)
+            z : 110.0 (25 @ 18db)
+		}
+        hidden : 0(48 @ 18e0)
+	}
+    u0 : 1.0 (15 @ 18e2)
+}
+
+?item block { (12 @ 18e7)
+
+
+    ?sub-item sub-block { (0a @ 18ea)
+
+        name : pressureplate (12 @ 18ed)
+
+        component sub-sub-block { (1a @ 18fc)
+
+            component type : CollisionShape (0a @ 18fe)
+            number : 1(10 @ 190e)
+            ? linked component : 105(20 @ 1910)
+
+            collision shape sub-sub-sub-block { (3c2 @ 1913)
+
+
+                u2 sub-sub-sub-sub-block { (1a @ 1915)
+
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 1917)
+
+                        y : -29.4775390625 (0d @ 1919)
+                        z : 3.12396240234375 (15 @ 191e)
+					}
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 1923)
+
+                        y : 30.583251953125 (0d @ 1925)
+                        z : 3.68853759765625 (15 @ 192a)
+					}
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 192f)
+
+                        y : 30.964599609375 (0d @ 1931)
+                        z : 8.4600830078125 (15 @ 1936)
+					}
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 193b)
+
+                        y : -29.47314453125 (0d @ 193d)
+                        z : 8.01177978515625 (15 @ 1942)
+					}
+                    u3 : 0(10 @ 1947)
+                    u4 : 1(18 @ 1949)
+				}
+			}
+
+            collision shape 2 sub-sub-sub-block { (3ca @ 194c)
+
+                u0 : 1(10 @ 194e)
+                w : -50.0 (35 @ 1950)
+                x : 50.0 (3d @ 1955)
+                z : 1(58 @ 195a)
+			}
+		}
+
+        component sub-sub-block { (1a @ 195c)
+
+            component type : Model (0a @ 195e)
+            number : 101(10 @ 1965)
+
+            3D model sub-sub-sub-block { (32a @ 1968)
+
+                name : pressureplate (0a @ 196a)
+                u0 : 0.0 (15 @ 1979)
+                u1 : 0.5 (1d @ 197e)
+                u2 : 0.0 (25 @ 1983)
+
+                u3 sub-sub-sub-sub-block { (2a @ 1988)
+
+                    w : 1.0 (0d @ 198a)
+                    x : 1.0 (15 @ 198f)
+                    y : 1.0 (1d @ 1994)
+                    z : 1.0 (25 @ 1999)
+				}
+
+                u4 sub-sub-sub-sub-block { (32 @ 199e)
+
+                    x : 0.0 (0d @ 19a0)
+                    y : 0.0 (15 @ 19a5)
+                    z : 0.0 (1d @ 19aa)
+				}
+                u5 : 0(38 @ 19af)
+
+                u6 sub-sub-sub-sub-block { (42 @ 19b1)
+
+                    w : 1.0 (0d @ 19b3)
+                    x : 1.0 (15 @ 19b8)
+                    y : 1.0 (1d @ 19bd)
+                    z : 1.0 (25 @ 19c2)
+				}
+			}
+		}
+
+        component sub-sub-block { (1a @ 19c7)
+
+            component type : PressureTrigger (0a @ 19ca)
+            number : 103(10 @ 19db)
+
+            pressure trigger sub-sub-sub-block { (4da @ 19de)
+
+                u0 : 5.0 (0d @ 19e1)
+
+                lua chunk sub-sub-sub-sub-block { (12 @ 19e6)
+
+                    main chunk : chunk >
+
+                    === lua =============
+                    Program.Wait(0.2);
+                    SoundLibrary.PlayEffect("unlock");
+
+                    =====================
+                    secondary chunk : \x1bLuaQ\x00\x01\x04\x04\x04\x08\x007\x00\x00\x00Program.Wait(0.2);\r\nSoundLibrary.PlayEffect("unlock");\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x02\x02\t\x00\x00\x00\x05\x00\x00\x00\x06@@\x00A\x80\x00\x00\x1c@\x00\x01\x05\xc0\x00\x00\x06\x00A\x00A@\x01\x00\x1c@\x00\x01\x1e\x00\x80\x00\x06\x00\x00\x00\x04\x08\x00\x00\x00Program\x00\x04\x05\x00\x00\x00Wait\x00\x03\x9a\x99\x99\x99\x99\x99\xc9?\x04\r\x00\x00\x00SoundLibrary\x00\x04\x0b\x00\x00\x00PlayEffect\x00\x04\x07\x00\x00\x00unlock\x00\x00\x00\x00\x00\t\x00\x00\x00\x01\x00\x00\x00\x01\x00\x00\x00\x01\x00\x00\x00\x01\x00\x00\x00\x02\x00\x00\x00\x02\x00\x00\x00\x02\x00\x00\x00\x02\x00\x00\x00\x02\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00 (12 @ 1a21)
+				}
+                u0 :  (1a @ 1b25)
+                u1 : 1(20 @ 1b27)
+			}
+		}
+
+        component sub-sub-block { (1a @ 1b29)
+
+            component type : GroundPolygon (0a @ 1b2b)
+            number : 105(10 @ 1b3a)
+
+            ground polygon sub-sub-sub-block { (372 @ 1b3d)
+
+
+                 sub-sub-sub-sub-block { (12 @ 1b3f)
+
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 1b41)
+
+                        x : -29.4775390625 (0d @ 1b43)
+                        y : 3.12396240234375 (15 @ 1b48)
+					}
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 1b4d)
+
+                        x : 30.583251953125 (0d @ 1b4f)
+                        y : 3.68853759765625 (15 @ 1b54)
+					}
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 1b59)
+
+                        x : 30.964599609375 (0d @ 1b5b)
+                        y : 8.4600830078125 (15 @ 1b60)
+					}
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 1b65)
+
+                        x : -29.47314453125 (0d @ 1b67)
+                        y : 8.01177978515625 (15 @ 1b6c)
+					}
+                    u0 : 0(10 @ 1b71)
+                    u1 : 1(18 @ 1b73)
+				}
+                u1 : 1(18 @ 1b75)
+                u2 : -50.0 (25 @ 1b77)
+                u3 : 50.0 (2d @ 1b7c)
+                u4 :  (32 @ 1b81)
+			}
+		}
+
+        position sub-sub-block { (22 @ 1b83)
+
+            x position : 0.0 (0d @ 1b85)
+            y position : 0.0 (15 @ 1b8a)
+		}
+        z position : 0.0 (2d @ 1b8f)
+        rotation : 0.0 (35 @ 1b94)
+        scale : 1.0 (3d @ 1b99)
+
+        u0 sub-sub-block { (42 @ 1b9e)
+
+            w : -29.4775390625 (0d @ 1ba0)
+            x : 0.0 (15 @ 1ba5)
+            y : 60.442138671875 (1d @ 1baa)
+            z : 8.4600830078125 (25 @ 1baf)
+		}
+        hidden : 0(48 @ 1bb4)
+	}
+    u0 : 1.0 (15 @ 1bb6)
+}
+
+?item block { (12 @ 1bbb)
+
+
+    ?sub-item sub-block { (0a @ 1bbe)
+
+        name : pressureplate_frame (12 @ 1bc1)
+
+        component sub-sub-block { (1a @ 1bd6)
+
+            component type : Model (0a @ 1bd8)
+            number : 101(10 @ 1bdf)
+
+            3D model sub-sub-sub-block { (32a @ 1be2)
+
+                name : pressureplate_frame (0a @ 1be4)
+                u0 : 0.0 (15 @ 1bf9)
+                u1 : 0.5 (1d @ 1bfe)
+                u2 : 0.0 (25 @ 1c03)
+
+                u3 sub-sub-sub-sub-block { (2a @ 1c08)
+
+                    w : 1.0 (0d @ 1c0a)
+                    x : 1.0 (15 @ 1c0f)
+                    y : 1.0 (1d @ 1c14)
+                    z : 1.0 (25 @ 1c19)
+				}
+
+                u4 sub-sub-sub-sub-block { (32 @ 1c1e)
+
+                    x : 0.0 (0d @ 1c20)
+                    y : 0.0 (15 @ 1c25)
+                    z : 0.0 (1d @ 1c2a)
+				}
+                u5 : 0(38 @ 1c2f)
+
+                u6 sub-sub-sub-sub-block { (42 @ 1c31)
+
+                    w : 1.0 (0d @ 1c33)
+                    x : 1.0 (15 @ 1c38)
+                    y : 1.0 (1d @ 1c3d)
+                    z : 1.0 (25 @ 1c42)
+				}
+			}
+		}
+
+        position sub-sub-block { (22 @ 1c47)
+
+            x position : 0.0 (0d @ 1c49)
+            y position : 0.0 (15 @ 1c4e)
+		}
+        z position : 0.0 (2d @ 1c53)
+        rotation : 0.0 (35 @ 1c58)
+        scale : 1.0 (3d @ 1c5d)
+
+        u0 sub-sub-block { (42 @ 1c62)
+
+            w : 0.0 (0d @ 1c64)
+            x : 0.0 (15 @ 1c69)
+            y : 0.0 (1d @ 1c6e)
+            z : 0.0 (25 @ 1c73)
+		}
+        hidden : 0(48 @ 1c78)
+	}
+    u0 : 1.0 (15 @ 1c7a)
+}
+
+?item block { (12 @ 1c7f)
+
+
+    ?sub-item sub-block { (0a @ 1c82)
+
+        name : spikes (12 @ 1c85)
+
+        component sub-sub-block { (1a @ 1c8d)
+
+            component type : Model (0a @ 1c8f)
+            number : 1(10 @ 1c96)
+
+            3D model sub-sub-sub-block { (32a @ 1c99)
+
+                name : spikes (0a @ 1c9b)
+                u0 : 1.5707963705062866 (15 @ 1ca3)
+                u1 : 0.0 (1d @ 1ca8)
+                u2 : 0.0 (25 @ 1cad)
+
+                u3 sub-sub-sub-sub-block { (2a @ 1cb2)
+
+                    w : 0.0 (0d @ 1cb4)
+                    x : 0.0 (15 @ 1cb9)
+                    y : 0.0 (1d @ 1cbe)
+                    z : 1.0 (25 @ 1cc3)
+				}
+
+                u4 sub-sub-sub-sub-block { (32 @ 1cc8)
+
+                    x : 0.0 (0d @ 1cca)
+                    y : 0.0 (15 @ 1ccf)
+                    z : 0.0 (1d @ 1cd4)
+				}
+                u5 : 0(38 @ 1cd9)
+
+                u6 sub-sub-sub-sub-block { (42 @ 1cdb)
+
+                    w : 1.0 (0d @ 1cdd)
+                    x : 1.0 (15 @ 1ce2)
+                    y : 1.0 (1d @ 1ce7)
+                    z : 1.0 (25 @ 1cec)
+				}
+			}
+		}
+
+        component sub-sub-block { (1a @ 1cf1)
+
+            component type : SoundEffect (0a @ 1cf3)
+            number : 2(10 @ 1d00)
+
+            sound effect sub-sub-sub-block { (462 @ 1d03)
+
+                sound : spikes1 (0a @ 1d05)
+                u0 : 0.0 (15 @ 1d0e)
+                u1 : 1.0 (1d @ 1d13)
+			}
+		}
+
+        component sub-sub-block { (1a @ 1d18)
+
+            component type : CollisionShape (0a @ 1d1a)
+            number : 101(10 @ 1d2a)
+
+            collision shape sub-sub-sub-block { (3c2 @ 1d2d)
+
+
+                u0 sub-sub-sub-sub-block { (0a @ 1d2f)
+
+                    w : -67.26329803466797 (0d @ 1d31)
+                    x : 2.0 (15 @ 1d36)
+                    y : 130.2633056640625 (1d @ 1d3b)
+                    z : 2.0 (25 @ 1d40)
+				}
+			}
+
+            collision shape 2 sub-sub-sub-block { (3ca @ 1d46)
+
+                u1 : 1(18 @ 1d48)
+                w : -15.0 (35 @ 1d4a)
+                x : 15.0 (3d @ 1d4f)
+                z : 1(58 @ 1d54)
+			}
+		}
+
+        component sub-sub-block { (1a @ 1d56)
+
+            component type : SnappingMonsterController (0a @ 1d58)
+            number : 104(10 @ 1d73)
+
+            monster controller sub-sub-sub-block { (972 @ 1d76)
+
+                u0 : 100.0 (0d @ 1d78)
+                u1 : 110(10 @ 1d7d)
+                u2 : 107(18 @ 1d7f)
+                u3 : 0(20 @ 1d81)
+			}
+
+            temp1 sub-sub-sub-block { (98a @ 1d84)
+
+                u0 : 113(08 @ 1d86)
+                u2 : 116(10 @ 1d88)
+                u3 : 122(18 @ 1d8a)
+                u4 : 125(20 @ 1d8c)
+                u5 : 2(28 @ 1d8e)
+			}
+		}
+
+        component sub-sub-block { (1a @ 1d90)
+
+            component type : MonsterEntity (0a @ 1d92)
+            number : 107(10 @ 1da1)
+
+            entity sub-sub-sub-block { (4c2 @ 1da4)
+
+                u0 : 1(08 @ 1da6)
+                u1 : 0(10 @ 1da8)
+			}
+
+            ?monster entity sub-sub-sub-block { (4f2 @ 1dab)
+
+                u0 :  (0a @ 1dad)
+
+                lua chunk sub-sub-sub-sub-block { (12 @ 1daf)
+
+				}
+                u2 : 1(18 @ 1db1)
+                u3 : 1(20 @ 1db3)
+			}
+		}
+
+        component sub-sub-block { (1a @ 1db5)
+
+            component type : AnimationController (0a @ 1db7)
+            number : 110(10 @ 1dcc)
+
+            animation controller sub-sub-sub-block { (4aa @ 1dcf)
+
+                model component : 1(08 @ 1dd1)
+                u1 : 0(10 @ 1dd3)
+                u2 : 0(18 @ 1dd5)
+			}
+		}
+
+        component sub-sub-block { (1a @ 1dd7)
+
+            component type : KeyframeAnimation (0a @ 1dd9)
+            number : 113(10 @ 1dec)
+            name : down (1a @ 1dee)
+
+            keyframe animation sub-sub-sub-block { (332 @ 1df5)
+
+                linked model component number : 1(08 @ 1df7)
+                name : spikes_down (12 @ 1df9)
+                u0 : 0(18 @ 1e06)
+                u1 : 1.0 (25 @ 1e08)
+                u2 : 1(28 @ 1e0d)
+			}
+		}
+
+        component sub-sub-block { (1a @ 1e0f)
+
+            component type : KeyframeAnimation (0a @ 1e11)
+            number : 116(10 @ 1e24)
+            name : up (1a @ 1e26)
+
+            keyframe animation sub-sub-sub-block { (332 @ 1e2b)
+
+                linked model component number : 1(08 @ 1e2d)
+                name : spikes_up (12 @ 1e2f)
+                u0 : 0(18 @ 1e3a)
+                u1 : 0.009999999776482582 (25 @ 1e3c)
+                u2 : 1(28 @ 1e41)
+			}
+		}
+
+        component sub-sub-block { (1a @ 1e43)
+
+            component type : Damage (0a @ 1e45)
+            number : 119(10 @ 1e4d)
+
+            damage sub-sub-sub-block { (3d2 @ 1e50)
+
+                u0 : 1(08 @ 1e52)
+                u1 : 0(10 @ 1e54)
+                u2 : 0(18 @ 1e56)
+                u5 : 1.0 (35 @ 1e58)
+                u6 : 0.0 (3d @ 1e5d)
+                u7 : 0(40 @ 1e62)
+                u8 : 1(48 @ 1e64)
+			}
+		}
+
+        component sub-sub-block { (1a @ 1e66)
+
+            component type : BlendAnimation (0a @ 1e68)
+            number : 122(10 @ 1e78)
+
+            blend animation sub-sub-sub-block { (33a @ 1e7b)
+
+                animation 1 : 113(08 @ 1e7d)
+                animation 2 : 116(10 @ 1e7f)
+                u0 : 0.10000000149011612 (1d @ 1e81)
+                u1 : 1.0 (25 @ 1e86)
+			}
+		}
+
+        component sub-sub-block { (1a @ 1e8b)
+
+            component type : UtilityShape (0a @ 1e8d)
+            number : 125(10 @ 1e9b)
+
+            collision shape sub-sub-sub-block { (3c2 @ 1e9e)
+
+
+                u0 sub-sub-sub-sub-block { (0a @ 1ea0)
+
+                    w : -50.0 (0d @ 1ea2)
+                    x : 0.0 (15 @ 1ea7)
+                    y : 100.0 (1d @ 1eac)
+                    z : 40.0 (25 @ 1eb1)
+				}
+			}
+		}
+
+        component sub-sub-block { (1a @ 1eb6)
+
+            component type : BoneControlledCollisionShape (0a @ 1eb8)
+            number : 129(10 @ 1ed6)
+
+            collision shape sub-sub-sub-block { (3c2 @ 1eda)
+
+
+                u1 sub-sub-sub-sub-block { (12 @ 1edc)
+
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 1ede)
+
+                        y : 40.0 (0d @ 1ee0)
+                        z : 0.0 (15 @ 1ee5)
+					}
+                    u1 : 40.0 (15 @ 1eea)
+				}
+			}
+
+            collision shape 2 sub-sub-sub-block { (3ca @ 1ef0)
+
+                u3 : 1(28 @ 1ef2)
+                w : -50.0 (35 @ 1ef4)
+                x : 50.0 (3d @ 1ef9)
+                z : 1(58 @ 1efe)
+			}
+
+            bone controlled collision shape sub-sub-sub-block { (3e2 @ 1f01)
+
+                u0 : 1(08 @ 1f03)
+                bone name : BoneSpikes2 (12 @ 1f05)
+			}
+		}
+
+        position sub-sub-block { (22 @ 1f12)
+
+            x position : 0.0 (0d @ 1f14)
+            y position : 0.0 (15 @ 1f19)
+		}
+        z position : 0.0 (2d @ 1f1e)
+        rotation : 0.0 (35 @ 1f23)
+        scale : 1.0 (3d @ 1f28)
+
+        u0 sub-sub-block { (42 @ 1f2d)
+
+            w : -67.26329803466797 (0d @ 1f2f)
+            x : 0.0 (15 @ 1f34)
+            y : 130.2633056640625 (1d @ 1f39)
+            z : 4.0 (25 @ 1f3e)
+		}
+        hidden : 0(48 @ 1f43)
+	}
+    u0 : 1.0 (15 @ 1f45)
+}
+
+?item block { (12 @ 1f4a)
+
+
+    ?sub-item sub-block { (0a @ 1f4d)
+
+        name : spikes_continuous (12 @ 1f50)
+
+        component sub-sub-block { (1a @ 1f63)
+
+            component type : Model (0a @ 1f65)
+            number : 1(10 @ 1f6c)
+
+            3D model sub-sub-sub-block { (32a @ 1f6f)
+
+                name : spikes (0a @ 1f71)
+                u0 : 1.5707963705062866 (15 @ 1f79)
+                u1 : 0.0 (1d @ 1f7e)
+                u2 : 0.0 (25 @ 1f83)
+
+                u3 sub-sub-sub-sub-block { (2a @ 1f88)
+
+                    w : 0.0 (0d @ 1f8a)
+                    x : 0.0 (15 @ 1f8f)
+                    y : 0.0 (1d @ 1f94)
+                    z : 1.0 (25 @ 1f99)
+				}
+
+                u4 sub-sub-sub-sub-block { (32 @ 1f9e)
+
+                    x : 0.0 (0d @ 1fa0)
+                    y : 0.0 (15 @ 1fa5)
+                    z : 0.0 (1d @ 1faa)
+				}
+                u5 : 0(38 @ 1faf)
+
+                u6 sub-sub-sub-sub-block { (42 @ 1fb1)
+
+                    w : 1.0 (0d @ 1fb3)
+                    x : 1.0 (15 @ 1fb8)
+                    y : 1.0 (1d @ 1fbd)
+                    z : 1.0 (25 @ 1fc2)
+				}
+			}
+		}
+
+        component sub-sub-block { (1a @ 1fc7)
+
+            component type : SoundEffect (0a @ 1fc9)
+            number : 2(10 @ 1fd6)
+
+            sound effect sub-sub-sub-block { (462 @ 1fd9)
+
+                sound : spikes1 (0a @ 1fdb)
+                u0 : 0.0 (15 @ 1fe4)
+                u1 : 1.0 (1d @ 1fe9)
+			}
+		}
+
+        component sub-sub-block { (1a @ 1fee)
+
+            component type : CollisionShape (0a @ 1ff0)
+            number : 101(10 @ 2000)
+
+            collision shape sub-sub-sub-block { (3c2 @ 2003)
+
+
+                u0 sub-sub-sub-sub-block { (0a @ 2005)
+
+                    w : -67.26329803466797 (0d @ 2007)
+                    x : 2.0 (15 @ 200c)
+                    y : 130.2633056640625 (1d @ 2011)
+                    z : 2.0 (25 @ 2016)
+				}
+			}
+
+            collision shape 2 sub-sub-sub-block { (3ca @ 201c)
+
+                u1 : 1(18 @ 201e)
+                w : -15.0 (35 @ 2020)
+                x : 15.0 (3d @ 2025)
+                z : 1(58 @ 202a)
+			}
+		}
+
+        component sub-sub-block { (1a @ 202c)
+
+            component type : SnappingMonsterController (0a @ 202e)
+            number : 104(10 @ 2049)
+
+            monster controller sub-sub-sub-block { (972 @ 204c)
+
+                u0 : 100.0 (0d @ 204e)
+                u1 : 110(10 @ 2053)
+                u2 : 107(18 @ 2055)
+                u3 : 0(20 @ 2057)
+			}
+
+            temp1 sub-sub-sub-block { (98a @ 205a)
+
+                u0 : 113(08 @ 205c)
+                u2 : 116(10 @ 205e)
+                u3 : 122(18 @ 2060)
+                u4 : 125(20 @ 2062)
+                u5 : 2(28 @ 2064)
+			}
+		}
+
+        component sub-sub-block { (1a @ 2066)
+
+            component type : MonsterEntity (0a @ 2068)
+            number : 107(10 @ 2077)
+
+            entity sub-sub-sub-block { (4c2 @ 207a)
+
+                u0 : 1(08 @ 207c)
+                u1 : 0(10 @ 207e)
+			}
+
+            ?monster entity sub-sub-sub-block { (4f2 @ 2081)
+
+                u0 :  (0a @ 2083)
+
+                lua chunk sub-sub-sub-sub-block { (12 @ 2085)
+
+				}
+                u2 : 1(18 @ 2087)
+                u3 : 1(20 @ 2089)
+			}
+		}
+
+        component sub-sub-block { (1a @ 208b)
+
+            component type : AnimationController (0a @ 208d)
+            number : 110(10 @ 20a2)
+
+            animation controller sub-sub-sub-block { (4aa @ 20a5)
+
+                model component : 1(08 @ 20a7)
+                u1 : 0(10 @ 20a9)
+                u2 : 0(18 @ 20ab)
+			}
+		}
+
+        component sub-sub-block { (1a @ 20ad)
+
+            component type : KeyframeAnimation (0a @ 20af)
+            number : 113(10 @ 20c2)
+            name : down (1a @ 20c4)
+
+            keyframe animation sub-sub-sub-block { (332 @ 20cb)
+
+                linked model component number : 1(08 @ 20cd)
+                name : spikes_down (12 @ 20cf)
+                u0 : 1(18 @ 20dc)
+                u1 : 1.0 (25 @ 20de)
+                u2 : 1(28 @ 20e3)
+			}
+		}
+
+        component sub-sub-block { (1a @ 20e5)
+
+            component type : KeyframeAnimation (0a @ 20e7)
+            number : 116(10 @ 20fa)
+            name : up (1a @ 20fc)
+
+            keyframe animation sub-sub-sub-block { (332 @ 2101)
+
+                linked model component number : 1(08 @ 2103)
+                name : spikes_up (12 @ 2105)
+                u0 : 1(18 @ 2110)
+                u1 : 0.10000000149011612 (25 @ 2112)
+                u2 : 1(28 @ 2117)
+			}
+		}
+
+        component sub-sub-block { (1a @ 2119)
+
+            component type : Damage (0a @ 211b)
+            number : 119(10 @ 2123)
+
+            damage sub-sub-sub-block { (3d2 @ 2126)
+
+                u0 : 1(08 @ 2128)
+                u1 : 0(10 @ 212a)
+                u2 : 0(18 @ 212c)
+                u5 : 1.0 (35 @ 212e)
+                u6 : 0.0 (3d @ 2133)
+                u7 : 0(40 @ 2138)
+                u8 : 1(48 @ 213a)
+			}
+		}
+
+        component sub-sub-block { (1a @ 213c)
+
+            component type : BlendAnimation (0a @ 213e)
+            number : 122(10 @ 214e)
+
+            blend animation sub-sub-sub-block { (33a @ 2151)
+
+                animation 1 : 113(08 @ 2153)
+                animation 2 : 116(10 @ 2155)
+                u0 : 0.10000000149011612 (1d @ 2157)
+                u1 : 0.4000000059604645 (25 @ 215c)
+			}
+		}
+
+        component sub-sub-block { (1a @ 2161)
+
+            component type : UtilityShape (0a @ 2163)
+            number : 125(10 @ 2171)
+
+            collision shape sub-sub-sub-block { (3c2 @ 2174)
+
+
+                u0 sub-sub-sub-sub-block { (0a @ 2176)
+
+                    w : -600.0 (0d @ 2178)
+                    x : 0.0 (15 @ 217d)
+                    y : 1200.0 (1d @ 2182)
+                    z : 300.0 (25 @ 2187)
+				}
+			}
+		}
+
+        component sub-sub-block { (1a @ 218c)
+
+            component type : BoneControlledCollisionShape (0a @ 218e)
+            number : 129(10 @ 21ac)
+
+            collision shape sub-sub-sub-block { (3c2 @ 21b0)
+
+
+                u1 sub-sub-sub-sub-block { (12 @ 21b2)
+
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 21b4)
+
+                        y : 40.0 (0d @ 21b6)
+                        z : 0.0 (15 @ 21bb)
+					}
+                    u1 : 40.0 (15 @ 21c0)
+				}
+			}
+
+            collision shape 2 sub-sub-sub-block { (3ca @ 21c6)
+
+                u3 : 1(28 @ 21c8)
+                w : -50.0 (35 @ 21ca)
+                x : 50.0 (3d @ 21cf)
+                z : 1(58 @ 21d4)
+			}
+
+            bone controlled collision shape sub-sub-sub-block { (3e2 @ 21d7)
+
+                u0 : 1(08 @ 21d9)
+                bone name : BoneSpikes2 (12 @ 21db)
+			}
+		}
+
+        position sub-sub-block { (22 @ 21e8)
+
+            x position : 0.0 (0d @ 21ea)
+            y position : 0.0 (15 @ 21ef)
+		}
+        z position : 0.0 (2d @ 21f4)
+        rotation : 0.0 (35 @ 21f9)
+        scale : 1.0 (3d @ 21fe)
+
+        u0 sub-sub-block { (42 @ 2203)
+
+            w : -67.26329803466797 (0d @ 2205)
+            x : 0.0 (15 @ 220a)
+            y : 130.2633056640625 (1d @ 220f)
+            z : 4.0 (25 @ 2214)
+		}
+        hidden : 0(48 @ 2219)
+	}
+    u0 : 1.0 (15 @ 221b)
+}
+
+?item block { (12 @ 2220)
+
+
+    ?sub-item sub-block { (0a @ 2223)
+
+        name : spikes_manual (12 @ 2226)
+
+        component sub-sub-block { (1a @ 2235)
+
+            component type : Model (0a @ 2237)
+            number : 1(10 @ 223e)
+
+            3D model sub-sub-sub-block { (32a @ 2241)
+
+                name : spikes (0a @ 2243)
+                u0 : 1.5707963705062866 (15 @ 224b)
+                u1 : 0.30000001192092896 (1d @ 2250)
+                u2 : 0.0 (25 @ 2255)
+
+                u3 sub-sub-sub-sub-block { (2a @ 225a)
+
+                    w : 0.0 (0d @ 225c)
+                    x : 0.0 (15 @ 2261)
+                    y : 0.0 (1d @ 2266)
+                    z : 1.0 (25 @ 226b)
+				}
+
+                u4 sub-sub-sub-sub-block { (32 @ 2270)
+
+                    x : 0.0 (0d @ 2272)
+                    y : 0.0 (15 @ 2277)
+                    z : 0.0 (1d @ 227c)
+				}
+                u5 : 0(38 @ 2281)
+
+                u6 sub-sub-sub-sub-block { (42 @ 2283)
+
+                    w : 1.0 (0d @ 2285)
+                    x : 1.0 (15 @ 228a)
+                    y : 1.0 (1d @ 228f)
+                    z : 1.0 (25 @ 2294)
+				}
+			}
+		}
+
+        component sub-sub-block { (1a @ 2299)
+
+            component type : SoundEffect (0a @ 229b)
+            number : 2(10 @ 22a8)
+
+            sound effect sub-sub-sub-block { (462 @ 22ab)
+
+                sound : spikes1 (0a @ 22ad)
+                u0 : 0.0 (15 @ 22b6)
+                u1 : 1.0 (1d @ 22bb)
+			}
+		}
+
+        component sub-sub-block { (1a @ 22c0)
+
+            component type : CollisionShape (0a @ 22c2)
+            number : 101(10 @ 22d2)
+
+            collision shape sub-sub-sub-block { (3c2 @ 22d5)
+
+
+                u0 sub-sub-sub-sub-block { (0a @ 22d7)
+
+                    w : -67.26329803466797 (0d @ 22d9)
+                    x : 2.0 (15 @ 22de)
+                    y : 130.2633056640625 (1d @ 22e3)
+                    z : 2.0 (25 @ 22e8)
+				}
+			}
+
+            collision shape 2 sub-sub-sub-block { (3ca @ 22ee)
+
+                u1 : 1(18 @ 22f0)
+                w : -15.0 (35 @ 22f2)
+                x : 15.0 (3d @ 22f7)
+                z : 1(58 @ 22fc)
+			}
+		}
+
+        component sub-sub-block { (1a @ 22fe)
+
+            component type : SnappingMonsterController (0a @ 2300)
+            number : 104(10 @ 231b)
+
+            monster controller sub-sub-sub-block { (972 @ 231e)
+
+                u0 : 100.0 (0d @ 2320)
+                u1 : 110(10 @ 2325)
+                u2 : 107(18 @ 2327)
+                u3 : 0(20 @ 2329)
+			}
+
+            temp1 sub-sub-sub-block { (98a @ 232c)
+
+                u0 : 113(08 @ 232e)
+                u2 : 116(10 @ 2330)
+                u3 : 122(18 @ 2332)
+                u4 : 101(20 @ 2334)
+                u5 : 2(28 @ 2336)
+			}
+		}
+
+        component sub-sub-block { (1a @ 2338)
+
+            component type : MonsterEntity (0a @ 233a)
+            number : 107(10 @ 2349)
+
+            entity sub-sub-sub-block { (4c2 @ 234c)
+
+                u0 : 1(08 @ 234e)
+                u1 : 0(10 @ 2350)
+			}
+
+            ?monster entity sub-sub-sub-block { (4f2 @ 2353)
+
+                u0 :  (0a @ 2355)
+
+                lua chunk sub-sub-sub-sub-block { (12 @ 2357)
+
+				}
+                u2 : 1(18 @ 2359)
+                u3 : 1(20 @ 235b)
+			}
+		}
+
+        component sub-sub-block { (1a @ 235d)
+
+            component type : AnimationController (0a @ 235f)
+            number : 110(10 @ 2374)
+
+            animation controller sub-sub-sub-block { (4aa @ 2377)
+
+                model component : 1(08 @ 2379)
+                u1 : 0(10 @ 237b)
+                u2 : 0(18 @ 237d)
+			}
+		}
+
+        component sub-sub-block { (1a @ 237f)
+
+            component type : KeyframeAnimation (0a @ 2381)
+            number : 113(10 @ 2394)
+            name : down (1a @ 2396)
+
+            keyframe animation sub-sub-sub-block { (332 @ 239d)
+
+                linked model component number : 1(08 @ 239f)
+                name : spikes_down (12 @ 23a1)
+                u0 : 0(18 @ 23ae)
+                u1 : 1.0 (25 @ 23b0)
+                u2 : 1(28 @ 23b5)
+			}
+		}
+
+        component sub-sub-block { (1a @ 23b7)
+
+            component type : KeyframeAnimation (0a @ 23b9)
+            number : 116(10 @ 23cc)
+            name : up (1a @ 23ce)
+
+            keyframe animation sub-sub-sub-block { (332 @ 23d3)
+
+                linked model component number : 1(08 @ 23d5)
+                name : spikes_up (12 @ 23d7)
+                u0 : 0(18 @ 23e2)
+                u1 : 0.10000000149011612 (25 @ 23e4)
+                u2 : 1(28 @ 23e9)
+			}
+		}
+
+        component sub-sub-block { (1a @ 23eb)
+
+            component type : Damage (0a @ 23ed)
+            number : 119(10 @ 23f5)
+
+            damage sub-sub-sub-block { (3d2 @ 23f8)
+
+                u0 : 1(08 @ 23fa)
+                u1 : 0(10 @ 23fc)
+                u2 : 0(18 @ 23fe)
+                u5 : 1.0 (35 @ 2400)
+                u6 : 0.0 (3d @ 2405)
+                u7 : 0(40 @ 240a)
+                u8 : 1(48 @ 240c)
+			}
+		}
+
+        component sub-sub-block { (1a @ 240e)
+
+            component type : BlendAnimation (0a @ 2410)
+            number : 122(10 @ 2420)
+
+            blend animation sub-sub-sub-block { (33a @ 2423)
+
+                animation 1 : 113(08 @ 2425)
+                animation 2 : 116(10 @ 2427)
+                u0 : 0.10000000149011612 (1d @ 2429)
+                u1 : 0.4000000059604645 (25 @ 242e)
+			}
+		}
+
+        component sub-sub-block { (1a @ 2433)
+
+            component type : BoneControlledCollisionShape (0a @ 2435)
+            number : 129(10 @ 2453)
+
+            collision shape sub-sub-sub-block { (3c2 @ 2457)
+
+
+                u1 sub-sub-sub-sub-block { (12 @ 2459)
+
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 245b)
+
+                        y : 40.0 (0d @ 245d)
+                        z : 0.0 (15 @ 2462)
+					}
+                    u1 : 40.0 (15 @ 2467)
+				}
+			}
+
+            collision shape 2 sub-sub-sub-block { (3ca @ 246d)
+
+                u3 : 1(28 @ 246f)
+                w : -50.0 (35 @ 2471)
+                x : 50.0 (3d @ 2476)
+                z : 1(58 @ 247b)
+			}
+
+            bone controlled collision shape sub-sub-sub-block { (3e2 @ 247e)
+
+                u0 : 1(08 @ 2480)
+                bone name : BoneSpikes2 (12 @ 2482)
+			}
+		}
+
+        position sub-sub-block { (22 @ 248f)
+
+            x position : 0.0 (0d @ 2491)
+            y position : 0.0 (15 @ 2496)
+		}
+        z position : 0.0 (2d @ 249b)
+        rotation : 0.0 (35 @ 24a0)
+        scale : 1.0 (3d @ 24a5)
+
+        u0 sub-sub-block { (42 @ 24aa)
+
+            w : -67.26329803466797 (0d @ 24ac)
+            x : 0.0 (15 @ 24b1)
+            y : 130.2633056640625 (1d @ 24b6)
+            z : 4.0 (25 @ 24bb)
+		}
+        hidden : 0(48 @ 24c0)
+	}
+    u0 : 1.0 (15 @ 24c2)
+}
+
+?item block { (12 @ 24c7)
+
+
+    ?sub-item sub-block { (0a @ 24ca)
+
+        name : spikes_up (12 @ 24cd)
+
+        component sub-sub-block { (1a @ 24d8)
+
+            component type : Model (0a @ 24da)
+            number : 1(10 @ 24e1)
+
+            3D model sub-sub-sub-block { (32a @ 24e4)
+
+                name : spikes (0a @ 24e6)
+                u0 : 1.5707963705062866 (15 @ 24ee)
+                u1 : 0.30000001192092896 (1d @ 24f3)
+                u2 : 0.0 (25 @ 24f8)
+
+                u3 sub-sub-sub-sub-block { (2a @ 24fd)
+
+                    w : 0.0 (0d @ 24ff)
+                    x : 0.0 (15 @ 2504)
+                    y : 0.0 (1d @ 2509)
+                    z : 1.0 (25 @ 250e)
+				}
+
+                u4 sub-sub-sub-sub-block { (32 @ 2513)
+
+                    x : 0.0 (0d @ 2515)
+                    y : 0.0 (15 @ 251a)
+                    z : 0.0 (1d @ 251f)
+				}
+                u5 : 0(38 @ 2524)
+
+                u6 sub-sub-sub-sub-block { (42 @ 2526)
+
+                    w : 1.0 (0d @ 2528)
+                    x : 1.0 (15 @ 252d)
+                    y : 1.0 (1d @ 2532)
+                    z : 1.0 (25 @ 2537)
+				}
+			}
+		}
+
+        component sub-sub-block { (1a @ 253c)
+
+            component type : CollisionShape (0a @ 253e)
+            number : 101(10 @ 254e)
+
+            collision shape sub-sub-sub-block { (3c2 @ 2551)
+
+
+                u0 sub-sub-sub-sub-block { (0a @ 2553)
+
+                    w : -70.0 (0d @ 2555)
+                    x : 30.0 (15 @ 255a)
+                    y : 140.0 (1d @ 255f)
+                    z : 60.0 (25 @ 2564)
+				}
+			}
+
+            collision shape 2 sub-sub-sub-block { (3ca @ 256a)
+
+                u3 : 1(28 @ 256c)
+                w : -15.0 (35 @ 256e)
+                x : 15.0 (3d @ 2573)
+                z : 1(58 @ 2578)
+			}
+		}
+
+        component sub-sub-block { (1a @ 257a)
+
+            component type : MonsterEntity (0a @ 257c)
+            number : 107(10 @ 258b)
+
+            entity sub-sub-sub-block { (4c2 @ 258e)
+
+                u0 : 1(08 @ 2590)
+                u1 : 0(10 @ 2592)
+			}
+
+            ?monster entity sub-sub-sub-block { (4f2 @ 2595)
+
+                u0 :  (0a @ 2597)
+
+                lua chunk sub-sub-sub-sub-block { (12 @ 2599)
+
+				}
+                u2 : 1(18 @ 259b)
+                u3 : 1(20 @ 259d)
+			}
+		}
+
+        component sub-sub-block { (1a @ 259f)
+
+            component type : AnimationController (0a @ 25a1)
+            number : 110(10 @ 25b6)
+
+            animation controller sub-sub-sub-block { (4aa @ 25b9)
+
+                model component : 1(08 @ 25bb)
+                u1 : 116(10 @ 25bd)
+                u2 : 1(18 @ 25bf)
+			}
+		}
+
+        component sub-sub-block { (1a @ 25c1)
+
+            component type : KeyframeAnimation (0a @ 25c3)
+            number : 113(10 @ 25d6)
+            name : down (1a @ 25d8)
+
+            keyframe animation sub-sub-sub-block { (332 @ 25df)
+
+                linked model component number : 1(08 @ 25e1)
+                name : spikes_down (12 @ 25e3)
+                u0 : 0(18 @ 25f0)
+                u1 : 1.0 (25 @ 25f2)
+                u2 : 1(28 @ 25f7)
+			}
+		}
+
+        component sub-sub-block { (1a @ 25f9)
+
+            component type : KeyframeAnimation (0a @ 25fb)
+            number : 116(10 @ 260e)
+            name : up (1a @ 2610)
+
+            keyframe animation sub-sub-sub-block { (332 @ 2615)
+
+                linked model component number : 1(08 @ 2617)
+                name : spikes_up (12 @ 2619)
+                u0 : 0(18 @ 2624)
+                u1 : 0.10000000149011612 (25 @ 2626)
+                u2 : 1(28 @ 262b)
+			}
+		}
+
+        component sub-sub-block { (1a @ 262d)
+
+            component type : Damage (0a @ 262f)
+            number : 119(10 @ 2637)
+
+            damage sub-sub-sub-block { (3d2 @ 263a)
+
+                u0 : 1(08 @ 263c)
+                u1 : 0(10 @ 263e)
+                u2 : 0(18 @ 2640)
+                u5 : 1.0 (35 @ 2642)
+                u6 : 0.0 (3d @ 2647)
+                u7 : 1(40 @ 264c)
+                u8 : 1(48 @ 264e)
+			}
+		}
+
+        position sub-sub-block { (22 @ 2650)
+
+            x position : 0.0 (0d @ 2652)
+            y position : 0.0 (15 @ 2657)
+		}
+        z position : 0.0 (2d @ 265c)
+        rotation : 0.0 (35 @ 2661)
+        scale : 1.0 (3d @ 2666)
+
+        u0 sub-sub-block { (42 @ 266b)
+
+            w : -70.0 (0d @ 266d)
+            x : 0.0 (15 @ 2672)
+            y : 140.0 (1d @ 2677)
+            z : 90.0 (25 @ 267c)
+		}
+        hidden : 0(48 @ 2681)
+	}
+    u0 : 1.0 (15 @ 2683)
+}
+
+?item block { (12 @ 2688)
+
+
+    ?sub-item sub-block { (0a @ 268b)
+
+        name : swingingaxe (12 @ 268e)
+
+        component sub-sub-block { (1a @ 269b)
+
+            component type : Model (0a @ 269d)
+            number : 1(10 @ 26a4)
+
+            3D model sub-sub-sub-block { (32a @ 26a7)
+
+                name : swingingaxe (0a @ 26a9)
+                u0 : 0.7853981852531433 (15 @ 26b6)
+                u1 : 0.0 (1d @ 26bb)
+                u2 : 0.0 (25 @ 26c0)
+
+                u3 sub-sub-sub-sub-block { (2a @ 26c5)
+
+                    w : 0.0 (0d @ 26c7)
+                    x : 0.0 (15 @ 26cc)
+                    y : 0.0 (1d @ 26d1)
+                    z : 1.0 (25 @ 26d6)
+				}
+
+                u4 sub-sub-sub-sub-block { (32 @ 26db)
+
+                    x : 0.0 (0d @ 26dd)
+                    y : 0.0 (15 @ 26e2)
+                    z : 0.0 (1d @ 26e7)
+				}
+                u5 : 0(38 @ 26ec)
+
+                u6 sub-sub-sub-sub-block { (42 @ 26ee)
+
+                    w : 1.0 (0d @ 26f0)
+                    x : 1.0 (15 @ 26f5)
+                    y : 1.0 (1d @ 26fa)
+                    z : 1.0 (25 @ 26ff)
+				}
+			}
+		}
+
+        component sub-sub-block { (1a @ 2704)
+
+            component type : Damage (0a @ 2706)
+            number : 2(10 @ 270e)
+
+            damage sub-sub-sub-block { (3d2 @ 2711)
+
+                u0 : 2(08 @ 2713)
+                u1 : 0(10 @ 2715)
+                u2 : 0(18 @ 2717)
+                u5 : 1.0 (35 @ 2719)
+                u6 : 0.0 (3d @ 271e)
+                u7 : 0(40 @ 2723)
+                u8 : 1(48 @ 2725)
+			}
+		}
+
+        component sub-sub-block { (1a @ 2727)
+
+            component type : StaticMonsterController (0a @ 2729)
+            number : 3(10 @ 2742)
+
+            monster controller sub-sub-sub-block { (972 @ 2745)
+
+                u0 : 0.0 (0d @ 2747)
+                u1 : 110(10 @ 274c)
+                u2 : 103(18 @ 274e)
+                u3 : 0(20 @ 2750)
+			}
+
+            static monster controller sub-sub-sub-block { (9aa @ 2753)
+
+                u0 : 101(08 @ 2755)
+                u1 : 4(10 @ 2757)
+                u1 : 5(10 @ 2759)
+			}
+		}
+
+        component sub-sub-block { (1a @ 275b)
+
+            component type : SoundEffect (0a @ 275d)
+            number : 4(10 @ 276a)
+
+            sound effect sub-sub-sub-block { (462 @ 276d)
+
+                sound : axeswoosh1 (0a @ 276f)
+                u0 : 0.3499999940395355 (15 @ 277b)
+                u1 : 1.0 (1d @ 2780)
+			}
+		}
+
+        component sub-sub-block { (1a @ 2785)
+
+            component type : SoundEffect (0a @ 2787)
+            number : 5(10 @ 2794)
+
+            sound effect sub-sub-sub-block { (462 @ 2797)
+
+                sound : axeswoosh1 (0a @ 2799)
+                u0 : 1.600000023841858 (15 @ 27a5)
+                u1 : 1.0 (1d @ 27aa)
+			}
+		}
+
+        component sub-sub-block { (1a @ 27af)
+
+            component type : BoneControlledCollisionShape (0a @ 27b1)
+            number : 6(10 @ 27cf)
+
+            collision shape sub-sub-sub-block { (3c2 @ 27d2)
+
+
+                u1 sub-sub-sub-sub-block { (12 @ 27d4)
+
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 27d6)
+
+                        y : 435.0 (0d @ 27d8)
+                        z : 0.0 (15 @ 27dd)
+					}
+                    u1 : 30.0 (15 @ 27e2)
+				}
+			}
+
+            collision shape 2 sub-sub-sub-block { (3ca @ 27e8)
+
+                u3 : 1(28 @ 27ea)
+                w : -100.0 (35 @ 27ec)
+                x : 100.0 (3d @ 27f1)
+                z : 1(58 @ 27f6)
+			}
+
+            bone controlled collision shape sub-sub-sub-block { (3e2 @ 27f9)
+
+                u0 : 1(08 @ 27fb)
+                bone name : Bone01 (12 @ 27fd)
+			}
+		}
+
+        component sub-sub-block { (1a @ 2805)
+
+            component type : BoneControlledCollisionShape (0a @ 2807)
+            number : 9(10 @ 2825)
+
+            collision shape sub-sub-sub-block { (3c2 @ 2828)
+
+
+                u1 sub-sub-sub-sub-block { (12 @ 282a)
+
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 282c)
+
+                        y : 380.0 (0d @ 282e)
+                        z : 0.0 (15 @ 2833)
+					}
+                    u1 : 30.0 (15 @ 2838)
+				}
+			}
+
+            collision shape 2 sub-sub-sub-block { (3ca @ 283e)
+
+                u3 : 1(28 @ 2840)
+                w : -100.0 (35 @ 2842)
+                x : 100.0 (3d @ 2847)
+                z : 1(58 @ 284c)
+			}
+
+            bone controlled collision shape sub-sub-sub-block { (3e2 @ 284f)
+
+                u0 : 1(08 @ 2851)
+                bone name : Bone01 (12 @ 2853)
+			}
+		}
+
+        component sub-sub-block { (1a @ 285b)
+
+            component type : KeyframeAnimation (0a @ 285d)
+            number : 101(10 @ 2870)
+
+            keyframe animation sub-sub-sub-block { (332 @ 2873)
+
+                linked model component number : 1(08 @ 2875)
+                name : swingingaxe_swing (12 @ 2877)
+                u0 : 1(18 @ 288a)
+                u1 : 0.4000000059604645 (25 @ 288c)
+                u2 : 1(28 @ 2891)
+			}
+		}
+
+        component sub-sub-block { (1a @ 2893)
+
+            component type : MonsterEntity (0a @ 2895)
+            number : 103(10 @ 28a4)
+
+            entity sub-sub-sub-block { (4c2 @ 28a7)
+
+                u0 : 1(08 @ 28a9)
+                u1 : 1(10 @ 28ab)
+			}
+
+            ?monster entity sub-sub-sub-block { (4f2 @ 28ae)
+
+                u0 :  (0a @ 28b0)
+
+                lua chunk sub-sub-sub-sub-block { (12 @ 28b2)
+
+				}
+                u2 : 1(18 @ 28b4)
+                u3 : 1(20 @ 28b6)
+			}
+		}
+
+        component sub-sub-block { (1a @ 28b8)
+
+            component type : AnimationController (0a @ 28ba)
+            number : 110(10 @ 28cf)
+
+            animation controller sub-sub-sub-block { (4aa @ 28d2)
+
+                model component : 1(08 @ 28d4)
+                u1 : 0(10 @ 28d6)
+                u2 : 0(18 @ 28d8)
+			}
+		}
+
+        position sub-sub-block { (22 @ 28da)
+
+            x position : 0.0 (0d @ 28dc)
+            y position : 0.0 (15 @ 28e1)
+		}
+        z position : 0.0 (2d @ 28e6)
+        rotation : 0.0 (35 @ 28eb)
+        scale : 1.0 (3d @ 28f0)
+
+        u0 sub-sub-block { (42 @ 28f5)
+
+            w : -24.258808135986328 (0d @ 28f7)
+            x : -6.815802097320557 (15 @ 28fc)
+            y : 46.25490951538086 (1d @ 2901)
+            z : 538.15380859375 (25 @ 2906)
+		}
+        hidden : 0(48 @ 290b)
+	}
+    u0 : 1.0 (15 @ 290d)
+}

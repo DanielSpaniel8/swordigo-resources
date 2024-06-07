@@ -1,0 +1,3028 @@
+data = {
+"scl file name" : "game_common",
+
+"?itemblock " :  {
+
+
+	"?sub-itemsub-block " :  {
+
+		"name" : "collect_health",
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "ParticleEmitter",
+			"number" : 2,
+
+			"particle emittersub-sub-sub-block " :  {
+
+				"particle" : 123,
+				"particle" : 3,
+				"particle" : 4,
+				"u1" : 0,
+				"u2" : 30,
+				"u3" : 120,
+				"u4" : 0,
+
+				"u5sub-sub-sub-sub-block " :  {
+
+					"u0" : 1,
+
+					"u1sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 0.4000000059604645,
+						"x" : 0.0,
+						"y" : 1.4305115314527939e-07,
+						"z" : 0.0,
+					},
+					"u2" : 0.0,
+					"u2" : 0.3499999940395355,
+					"u2" : 30.0,
+					"u2" : 80.0,
+					"u3" : 0.0,
+					"u4" : 0.0,
+					"u5" : 0.0,
+
+					"u6sub-sub-sub-sub-sub-block " :  {
+
+						"u0" : 0.0,
+						"u1" : 0.0,
+						"u2" : 0.0,
+					},
+				},
+				"u6" : 1,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Particle",
+			"number" : 3,
+
+			"particlesub-sub-sub-block " :  {
+
+				"name" : "particle_fure_2",
+				"u0" : 40.0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Particle",
+			"number" : 4,
+
+			"particlesub-sub-sub-block " :  {
+
+				"name" : "particle_fure_3",
+				"u0" : 40.0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Program",
+			"number" : 5,
+
+			"programsub-sub-sub-block " :  {
+
+				"u0" : 1,
+
+				"lua chunksub-sub-sub-sub-block " :  {
+
+					"main chunk" : "chunk >
+
+					=== lua =============
+					local self = ...;
+					local hero = Scene.Find(\"hero\");
+					while true do
+						self:setPosition(hero:position() + hero:velocity() * 0.05 + Vector3.New(0, -5, 0));
+						Program.Wait(0.01);
+					end
+
+					=====================",
+					"secondary chunk" : "\\x1bLuaQ\\x00\\x01\\x04\\x04\\x04\\x08\\x00\\xb4\\x00\\x00\\x00local self = ...;\\r\\nlocal hero = Scene.Find(\"hero\");\\r\\nwhile true do\\r\\n\\tself:setPosition(hero:position() + hero:velocity() * 0.05 + Vector3.New(0, -5, 0));\\r\\n\\tProgram.Wait(0.01);\\r\\nend\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x02\\t\\x1a\\x00\\x00\\x00%\\x00\\x00\\x01E\\x00\\x00\\x00F@\\xc0\\x00\\x81\\x80\\x00\\x00\\\\\\x80\\x00\\x01\\x8b\\xc0@\\x00\\x0b\\x01\\xc1\\x00\\x1c\\x81\\x00\\x01KA\\xc1\\x00\\\\\\x81\\x00\\x01N\\x81\\xc1\\x02\\x0cA\\x01\\x02E\\xc1\\x01\\x00F\\x01\\xc2\\x02\\x81A\\x02\\x00\\xc1\\x81\\x02\\x00\\x01B\\x02\\x00\\\\\\x81\\x00\\x02\\x0cA\\x01\\x02\\x9c@\\x80\\x01\\x85\\xc0\\x02\\x00\\x86\\x00C\\x01\\xc1@\\x03\\x00\\x9c@\\x00\\x01\\x16\\xc0\\xfa\\x7f\\x1e\\x00\\x80\\x00\\x0e\\x00\\x00\\x00\\x04\\x06\\x00\\x00\\x00Scene\\x00\\x04\\x05\\x00\\x00\\x00Find\\x00\\x04\\x05\\x00\\x00\\x00hero\\x00\\x04\\x0c\\x00\\x00\\x00setPosition\\x00\\x04\\t\\x00\\x00\\x00position\\x00\\x04\\t\\x00\\x00\\x00velocity\\x00\\x03\\x9a\\x99\\x99\\x99\\x99\\x99\\xa9?\\x04\\x08\\x00\\x00\\x00Vector3\\x00\\x04\\x04\\x00\\x00\\x00New\\x00\\x03\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x00\\x00\\x00\\x14\\xc0\\x04\\x08\\x00\\x00\\x00Program\\x00\\x04\\x05\\x00\\x00\\x00Wait\\x00\\x03{\\x14\\xaeG\\xe1z\\x84?\\x00\\x00\\x00\\x00\\x1a\\x00\\x00\\x00\\x01\\x00\\x00\\x00\\x02\\x00\\x00\\x00\\x02\\x00\\x00\\x00\\x02\\x00\\x00\\x00\\x02\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x06\\x00\\x00\\x00\\x02\\x00\\x00\\x00\\x05\\x00\\x00\\x00self\\x00\\x01\\x00\\x00\\x00\\x19\\x00\\x00\\x00\\x05\\x00\\x00\\x00hero\\x00\\x05\\x00\\x00\\x00\\x19\\x00\\x00\\x00\\x00\\x00\\x00\\x00",
+				},
+				"u1" : 1,
+				"u2" : 1,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "ParticleEmitter",
+			"number" : 6,
+
+			"particle emittersub-sub-sub-block " :  {
+
+				"particle" : 7,
+				"u1" : 0,
+				"u2" : 30,
+				"u3" : 0,
+				"u4" : 0,
+
+				"u5sub-sub-sub-sub-block " :  {
+
+					"u0" : 1,
+
+					"u1sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 0.14444446563720703,
+						"x" : 0.14444446563720703,
+						"y" : 0.14444446563720703,
+						"z" : 0.0,
+					},
+					"u2" : 20.0,
+					"u2" : 0.3499999940395355,
+					"u2" : 8.0,
+					"u2" : 100.0,
+					"u3" : 0.0,
+					"u4" : 0.0,
+					"u5" : 0.0,
+
+					"u6sub-sub-sub-sub-sub-block " :  {
+
+						"u0" : 0.0,
+						"u1" : 0.0,
+						"u2" : 0.0,
+					},
+				},
+				"u6" : 1,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Particle",
+			"number" : 7,
+
+			"particlesub-sub-sub-block " :  {
+
+				"name" : "particle_fure_2",
+				"u0" : 40.0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "ParticleEmitter",
+			"number" : 120,
+
+			"particle emittersub-sub-sub-block " :  {
+
+				"particle" : 123,
+				"particle" : 3,
+				"particle" : 4,
+				"u1" : 0,
+				"u2" : 100,
+				"u3" : 0,
+				"u4" : 1,
+
+				"u5sub-sub-sub-sub-block " :  {
+
+					"u0" : 2,
+
+					"u1sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 0.7061728239059448,
+						"x" : 0.18271607160568237,
+						"y" : 0.1827162653207779,
+						"z" : 0.0,
+					},
+					"u2" : 35.0,
+					"u2" : 0.3499999940395355,
+					"u2" : 5.0,
+					"u2" : 30.0,
+					"u3" : 0.0,
+					"u4" : 0.0,
+					"u5" : 0.0,
+
+					"u6sub-sub-sub-sub-sub-block " :  {
+
+						"u0" : 0.0,
+						"u1" : 0.0,
+						"u2" : 0.0,
+					},
+				},
+				"u6" : 1,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Particle",
+			"number" : 123,
+
+			"particlesub-sub-sub-block " :  {
+
+				"name" : "particle_fure_1",
+				"u0" : 30.0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "TransformController",
+			"number" : 125,
+		},
+
+		"positionsub-sub-block " :  {
+
+			"x position" : 0.0,
+			"y position" : 0.0,
+		},
+		"z position" : 0.0,
+		"rotation" : 0.0,
+		"scale" : 1.0,
+
+		"u0sub-sub-block " :  {
+
+			"w" : -10.0,
+			"x" : -10.0,
+			"y" : 20.0,
+			"z" : 20.0,
+		},
+		"hidden" : 0,
+	},
+	"u0" : 1.0,
+},
+
+"?itemblock " :  {
+
+
+	"?sub-itemsub-block " :  {
+
+		"name" : "collect_mana",
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "ParticleEmitter",
+			"number" : 2,
+
+			"particle emittersub-sub-sub-block " :  {
+
+				"particle" : 123,
+				"particle" : 3,
+				"particle" : 4,
+				"u1" : 0,
+				"u2" : 30,
+				"u3" : 120,
+				"u4" : 0,
+
+				"u5sub-sub-sub-sub-block " :  {
+
+					"u0" : 1,
+
+					"u1sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 0.0,
+						"x" : 0.1195068359375,
+						"y" : 0.9777777791023254,
+						"z" : 0.0,
+					},
+					"u2" : 0.0,
+					"u2" : 0.3499999940395355,
+					"u2" : 30.0,
+					"u2" : 80.0,
+					"u3" : 0.0,
+					"u4" : 0.0,
+					"u5" : 0.0,
+
+					"u6sub-sub-sub-sub-sub-block " :  {
+
+						"u0" : 0.0,
+						"u1" : 0.0,
+						"u2" : 0.0,
+					},
+				},
+				"u6" : 1,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Particle",
+			"number" : 3,
+
+			"particlesub-sub-sub-block " :  {
+
+				"name" : "particle_fure_2",
+				"u0" : 40.0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Particle",
+			"number" : 4,
+
+			"particlesub-sub-sub-block " :  {
+
+				"name" : "particle_fure_3",
+				"u0" : 40.0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Program",
+			"number" : 5,
+
+			"programsub-sub-sub-block " :  {
+
+				"u0" : 1,
+
+				"lua chunksub-sub-sub-sub-block " :  {
+
+					"main chunk" : "chunk >
+
+					=== lua =============
+					local self = ...;
+					local hero = Scene.Find(\"hero\");
+					while true do
+						self:setPosition(hero:position() + hero:velocity() * 0.05 + Vector3.New(0, -5, 0));
+						Program.Wait(0.01);
+					end
+
+					=====================",
+					"secondary chunk" : "\\x1bLuaQ\\x00\\x01\\x04\\x04\\x04\\x08\\x00\\xb4\\x00\\x00\\x00local self = ...;\\r\\nlocal hero = Scene.Find(\"hero\");\\r\\nwhile true do\\r\\n\\tself:setPosition(hero:position() + hero:velocity() * 0.05 + Vector3.New(0, -5, 0));\\r\\n\\tProgram.Wait(0.01);\\r\\nend\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x02\\t\\x1a\\x00\\x00\\x00%\\x00\\x00\\x01E\\x00\\x00\\x00F@\\xc0\\x00\\x81\\x80\\x00\\x00\\\\\\x80\\x00\\x01\\x8b\\xc0@\\x00\\x0b\\x01\\xc1\\x00\\x1c\\x81\\x00\\x01KA\\xc1\\x00\\\\\\x81\\x00\\x01N\\x81\\xc1\\x02\\x0cA\\x01\\x02E\\xc1\\x01\\x00F\\x01\\xc2\\x02\\x81A\\x02\\x00\\xc1\\x81\\x02\\x00\\x01B\\x02\\x00\\\\\\x81\\x00\\x02\\x0cA\\x01\\x02\\x9c@\\x80\\x01\\x85\\xc0\\x02\\x00\\x86\\x00C\\x01\\xc1@\\x03\\x00\\x9c@\\x00\\x01\\x16\\xc0\\xfa\\x7f\\x1e\\x00\\x80\\x00\\x0e\\x00\\x00\\x00\\x04\\x06\\x00\\x00\\x00Scene\\x00\\x04\\x05\\x00\\x00\\x00Find\\x00\\x04\\x05\\x00\\x00\\x00hero\\x00\\x04\\x0c\\x00\\x00\\x00setPosition\\x00\\x04\\t\\x00\\x00\\x00position\\x00\\x04\\t\\x00\\x00\\x00velocity\\x00\\x03\\x9a\\x99\\x99\\x99\\x99\\x99\\xa9?\\x04\\x08\\x00\\x00\\x00Vector3\\x00\\x04\\x04\\x00\\x00\\x00New\\x00\\x03\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x00\\x00\\x00\\x14\\xc0\\x04\\x08\\x00\\x00\\x00Program\\x00\\x04\\x05\\x00\\x00\\x00Wait\\x00\\x03{\\x14\\xaeG\\xe1z\\x84?\\x00\\x00\\x00\\x00\\x1a\\x00\\x00\\x00\\x01\\x00\\x00\\x00\\x02\\x00\\x00\\x00\\x02\\x00\\x00\\x00\\x02\\x00\\x00\\x00\\x02\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x06\\x00\\x00\\x00\\x02\\x00\\x00\\x00\\x05\\x00\\x00\\x00self\\x00\\x01\\x00\\x00\\x00\\x19\\x00\\x00\\x00\\x05\\x00\\x00\\x00hero\\x00\\x05\\x00\\x00\\x00\\x19\\x00\\x00\\x00\\x00\\x00\\x00\\x00",
+				},
+				"u1" : 1,
+				"u2" : 1,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "ParticleEmitter",
+			"number" : 6,
+
+			"particle emittersub-sub-sub-block " :  {
+
+				"particle" : 7,
+				"u1" : 0,
+				"u2" : 30,
+				"u3" : 0,
+				"u4" : 0,
+
+				"u5sub-sub-sub-sub-block " :  {
+
+					"u0" : 1,
+
+					"u1sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 0.2666666805744171,
+						"x" : 0.2666666805744171,
+						"y" : 0.2666666805744171,
+						"z" : 0.0,
+					},
+					"u2" : 20.0,
+					"u2" : 0.3499999940395355,
+					"u2" : 8.0,
+					"u2" : 100.0,
+					"u3" : 0.0,
+					"u4" : 0.0,
+					"u5" : 0.0,
+
+					"u6sub-sub-sub-sub-sub-block " :  {
+
+						"u0" : 0.0,
+						"u1" : 0.0,
+						"u2" : 0.0,
+					},
+				},
+				"u6" : 1,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Particle",
+			"number" : 7,
+
+			"particlesub-sub-sub-block " :  {
+
+				"name" : "particle_fure_2",
+				"u0" : 40.0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "ParticleEmitter",
+			"number" : 120,
+
+			"particle emittersub-sub-sub-block " :  {
+
+				"particle" : 123,
+				"particle" : 3,
+				"particle" : 4,
+				"u1" : 0,
+				"u2" : 100,
+				"u3" : 0,
+				"u4" : 1,
+
+				"u5sub-sub-sub-sub-block " :  {
+
+					"u0" : 2,
+
+					"u1sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 0.19185185432434082,
+						"x" : 0.265135794878006,
+						"y" : 0.7414814829826355,
+						"z" : 0.0,
+					},
+					"u2" : 35.0,
+					"u2" : 0.3499999940395355,
+					"u2" : 5.0,
+					"u2" : 30.0,
+					"u3" : 0.0,
+					"u4" : 0.0,
+					"u5" : 0.0,
+
+					"u6sub-sub-sub-sub-sub-block " :  {
+
+						"u0" : 0.0,
+						"u1" : 0.0,
+						"u2" : 0.0,
+					},
+				},
+				"u6" : 1,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Particle",
+			"number" : 123,
+
+			"particlesub-sub-sub-block " :  {
+
+				"name" : "particle_fure_1",
+				"u0" : 30.0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "TransformController",
+			"number" : 125,
+		},
+
+		"positionsub-sub-block " :  {
+
+			"x position" : 0.0,
+			"y position" : 0.0,
+		},
+		"z position" : 0.0,
+		"rotation" : 0.0,
+		"scale" : 1.0,
+
+		"u0sub-sub-block " :  {
+
+			"w" : -10.0,
+			"x" : -10.0,
+			"y" : 20.0,
+			"z" : 20.0,
+		},
+		"hidden" : 0,
+	},
+	"u0" : 1.0,
+},
+
+"?itemblock " :  {
+
+
+	"?sub-itemsub-block " :  {
+
+		"name" : "effect_shatter",
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Particle",
+			"number" : 1,
+
+			"particlesub-sub-sub-block " :  {
+
+				"name" : "particle_break1",
+				"u0" : 20.0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "ShatterComponent",
+			"number" : 101,
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "ParticleEmitter",
+			"number" : 102,
+
+			"particle emittersub-sub-sub-block " :  {
+
+				"particle" : 1,
+				"particle" : 104,
+				"u1" : 0,
+				"u2" : 30,
+				"u3" : 0,
+				"u4" : 0,
+				"u6" : 0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Particle",
+			"number" : 104,
+
+			"particlesub-sub-sub-block " :  {
+
+				"name" : "particle_break2",
+				"u0" : 12.0,
+			},
+		},
+
+		"positionsub-sub-block " :  {
+
+			"x position" : 0.0,
+			"y position" : 0.0,
+		},
+		"z position" : 0.0,
+		"rotation" : 0.0,
+		"scale" : 1.0,
+
+		"u0sub-sub-block " :  {
+
+			"w" : -10.0,
+			"x" : -10.0,
+			"y" : 20.0,
+			"z" : 20.0,
+		},
+		"hidden" : 0,
+	},
+	"u0" : 1.0,
+},
+
+"?itemblock " :  {
+
+
+	"?sub-itemsub-block " :  {
+
+		"name" : "iapstoremodel",
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "ModelTransformController",
+			"number" : 3,
+
+			"model transform controllersub-sub-sub-block " :  {
+
+				"u0" : 101,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Model",
+			"number" : 101,
+
+			"3D modelsub-sub-sub-block " :  {
+
+				"name" : "iapCoin",
+				"u0" : 1.5707963705062866,
+				"u1" : 0.20000000298023224,
+				"u2" : 0.0,
+
+				"u3sub-sub-sub-sub-block " :  {
+
+					"w" : 0.0,
+					"x" : 0.0,
+					"y" : 0.0,
+					"z" : 1.0,
+				},
+
+				"u4sub-sub-sub-sub-block " :  {
+
+					"x" : 0.0,
+					"y" : 0.0,
+					"z" : 0.0,
+				},
+				"u5" : 0,
+
+				"u6sub-sub-sub-sub-block " :  {
+
+					"w" : 1.0,
+					"x" : 1.0,
+					"y" : 1.0,
+					"z" : 1.0,
+				},
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "SimpleGlow",
+			"number" : 102,
+
+			"simple glowsub-sub-sub-block " :  {
+
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"w" : 0.21111111342906952,
+					"x" : 0.21111111342906952,
+					"y" : 0.21111111342906952,
+					"z" : 0.18888893723487854,
+				},
+				"u1" : 30.0,
+				"u2" : 15,
+				"u3" : 15.0,
+				"u4" : 0.15000000596046448,
+				"u5" : 0.800000011920929,
+
+				"u6sub-sub-sub-sub-block " :  {
+
+					"y" : 0.0,
+					"z" : 0.0,
+				},
+			},
+		},
+
+		"positionsub-sub-block " :  {
+
+			"x position" : 0.0,
+			"y position" : 0.0,
+		},
+		"z position" : 0.0,
+		"rotation" : 0.0,
+		"scale" : 1.0,
+
+		"u0sub-sub-block " :  {
+
+			"w" : -20.0,
+			"x" : -20.0,
+			"y" : 40.0,
+			"z" : 40.0,
+		},
+		"hidden" : 0,
+	},
+	"u0" : 1.2000000476837158,
+},
+
+"?itemblock " :  {
+
+
+	"?sub-itemsub-block " :  {
+
+		"name" : "iapstoretrigger",
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Portal",
+			"number" : 101,
+
+			"portalsub-sub-sub-block " :  {
+
+				"target level" : "iapstore",
+				"spawnpoint" : "",
+				"touchable" : 1,
+				"collision shape component" : 102,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "CollisionShape",
+			"number" : 102,
+
+			"collision shapesub-sub-sub-block " :  {
+
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"w" : -41.5,
+					"x" : -43.0,
+					"y" : 83.0,
+					"z" : 133.0,
+				},
+			},
+
+			"collision shape 2sub-sub-sub-block " :  {
+
+				"w" : -15.0,
+				"x" : 150.0,
+				"y" : 2,
+
+				"lua chunksub-sub-sub-sub-block " :  {
+
+					"main chunk" : "chunk >
+
+					=== lua =============
+					local coinObject = Scene.Find(\"iapstoremodel\");
+					TransformController.ScaleTo(coinObject, 1.2, 0.2);
+
+					=====================",
+					"secondary chunk" : "\\x1bLuaQ\\x00\\x01\\x04\\x04\\x04\\x08\\x00d\\x00\\x00\\x00local coinObject = Scene.Find(\"iapstoremodel\");\\r\\nTransformController.ScaleTo(coinObject, 1.2, 0.2);\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x02\\x05\\x0b\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x06@@\\x00A\\x80\\x00\\x00\\x1c\\x80\\x00\\x01E\\xc0\\x00\\x00F\\x00\\xc1\\x00\\x80\\x00\\x00\\x00\\xc1@\\x01\\x00\\x01\\x81\\x01\\x00\\\\@\\x00\\x02\\x1e\\x00\\x80\\x00\\x07\\x00\\x00\\x00\\x04\\x06\\x00\\x00\\x00Scene\\x00\\x04\\x05\\x00\\x00\\x00Find\\x00\\x04\\x0e\\x00\\x00\\x00iapstoremodel\\x00\\x04\\x14\\x00\\x00\\x00TransformController\\x00\\x04\\x08\\x00\\x00\\x00ScaleTo\\x00\\x03333333\\xf3?\\x03\\x9a\\x99\\x99\\x99\\x99\\x99\\xc9?\\x00\\x00\\x00\\x00\\x0b\\x00\\x00\\x00\\x01\\x00\\x00\\x00\\x01\\x00\\x00\\x00\\x01\\x00\\x00\\x00\\x01\\x00\\x00\\x00\\x02\\x00\\x00\\x00\\x02\\x00\\x00\\x00\\x02\\x00\\x00\\x00\\x02\\x00\\x00\\x00\\x02\\x00\\x00\\x00\\x02\\x00\\x00\\x00\\x02\\x00\\x00\\x00\\x01\\x00\\x00\\x00\\x0b\\x00\\x00\\x00coinObject\\x00\\x04\\x00\\x00\\x00\\n\\x00\\x00\\x00\\x00\\x00\\x00\\x00",
+				},
+
+				"lua chunksub-sub-sub-sub-block " :  {
+
+					"main chunk" : "chunk >
+
+					=== lua =============
+					local coinObject = Scene.Find(\"iapstoremodel\");
+					TransformController.ScaleTo(coinObject, 1.0, 0.2);
+
+					=====================",
+					"secondary chunk" : "\\x1bLuaQ\\x00\\x01\\x04\\x04\\x04\\x08\\x00d\\x00\\x00\\x00local coinObject = Scene.Find(\"iapstoremodel\");\\r\\nTransformController.ScaleTo(coinObject, 1.0, 0.2);\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x02\\x05\\x0b\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x06@@\\x00A\\x80\\x00\\x00\\x1c\\x80\\x00\\x01E\\xc0\\x00\\x00F\\x00\\xc1\\x00\\x80\\x00\\x00\\x00\\xc1@\\x01\\x00\\x01\\x81\\x01\\x00\\\\@\\x00\\x02\\x1e\\x00\\x80\\x00\\x07\\x00\\x00\\x00\\x04\\x06\\x00\\x00\\x00Scene\\x00\\x04\\x05\\x00\\x00\\x00Find\\x00\\x04\\x0e\\x00\\x00\\x00iapstoremodel\\x00\\x04\\x14\\x00\\x00\\x00TransformController\\x00\\x04\\x08\\x00\\x00\\x00ScaleTo\\x00\\x03\\x00\\x00\\x00\\x00\\x00\\x00\\xf0?\\x03\\x9a\\x99\\x99\\x99\\x99\\x99\\xc9?\\x00\\x00\\x00\\x00\\x0b\\x00\\x00\\x00\\x01\\x00\\x00\\x00\\x01\\x00\\x00\\x00\\x01\\x00\\x00\\x00\\x01\\x00\\x00\\x00\\x02\\x00\\x00\\x00\\x02\\x00\\x00\\x00\\x02\\x00\\x00\\x00\\x02\\x00\\x00\\x00\\x02\\x00\\x00\\x00\\x02\\x00\\x00\\x00\\x02\\x00\\x00\\x00\\x01\\x00\\x00\\x00\\x0b\\x00\\x00\\x00coinObject\\x00\\x04\\x00\\x00\\x00\\n\\x00\\x00\\x00\\x00\\x00\\x00\\x00",
+				},
+				"z" : 1,
+			},
+		},
+
+		"positionsub-sub-block " :  {
+
+			"x position" : 0.0,
+			"y position" : 0.0,
+		},
+		"z position" : 0.0,
+		"rotation" : 0.0,
+		"scale" : 1.0,
+
+		"u0sub-sub-block " :  {
+
+			"w" : -41.5,
+			"x" : -43.0,
+			"y" : 83.0,
+			"z" : 133.0,
+		},
+		"hidden" : 0,
+	},
+	"u0" : 1.0,
+},
+
+"?itemblock " :  {
+
+
+	"?sub-itemsub-block " :  {
+
+		"name" : "particle_blast",
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Particle",
+			"number" : 1,
+
+			"particlesub-sub-sub-block " :  {
+
+				"name" : "particle_fure_1",
+				"u0" : 40.0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Particle",
+			"number" : 2,
+
+			"particlesub-sub-sub-block " :  {
+
+				"name" : "particle_fure_2",
+				"u0" : 40.0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "ParticleEmitter",
+			"number" : 3,
+
+			"particle emittersub-sub-sub-block " :  {
+
+				"particle" : 1,
+				"particle" : 2,
+				"particle" : 102,
+				"u1" : 0,
+				"u2" : 30,
+				"u3" : 101,
+				"u4" : 1,
+
+				"u5sub-sub-sub-sub-block " :  {
+
+					"u0" : 2,
+
+					"u1sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 1.0,
+						"x" : 1.0,
+						"y" : 1.0,
+						"z" : 0.0,
+					},
+					"u3" : 0.0,
+					"u4" : 0.0,
+					"u5" : 0.0,
+
+					"u6sub-sub-sub-sub-sub-block " :  {
+
+						"u0" : 0.0,
+						"u1" : 0.0,
+						"u2" : 0.0,
+					},
+				},
+				"u6" : 0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "ParticleEmitter",
+			"number" : 101,
+
+			"particle emittersub-sub-sub-block " :  {
+
+				"particle" : 102,
+				"particle" : 1,
+				"particle" : 2,
+				"u1" : 0,
+				"u2" : 30,
+				"u3" : 0,
+				"u4" : 1,
+
+				"u5sub-sub-sub-sub-block " :  {
+
+					"u0" : 1,
+
+					"u1sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 1.0,
+						"x" : 1.0,
+						"y" : 1.0,
+						"z" : 0.0,
+					},
+					"u3" : 0.0,
+					"u4" : 0.0,
+					"u5" : 0.0,
+
+					"u6sub-sub-sub-sub-sub-block " :  {
+
+						"u0" : 0.0,
+						"u1" : 0.0,
+						"u2" : 0.0,
+					},
+				},
+				"u6" : 0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Particle",
+			"number" : 102,
+
+			"particlesub-sub-sub-block " :  {
+
+				"name" : "particle_fure_3",
+				"u0" : 40.0,
+			},
+		},
+
+		"positionsub-sub-block " :  {
+
+			"x position" : 0.0,
+			"y position" : 0.0,
+		},
+		"z position" : 0.0,
+		"rotation" : 0.0,
+		"scale" : 1.0,
+
+		"u0sub-sub-block " :  {
+
+			"w" : -10.0,
+			"x" : -10.0,
+			"y" : 20.0,
+			"z" : 20.0,
+		},
+		"hidden" : 0,
+	},
+	"u0" : 1.0,
+},
+
+"?itemblock " :  {
+
+
+	"?sub-itemsub-block " :  {
+
+		"name" : "portal",
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "SpawnPoint",
+			"number" : 1,
+
+			"spawnpointsub-sub-sub-block " :  {
+
+				"u0" : 1,
+				"u1" : "\\r\\x00\\x00\\x00\\x00\\x15\\x00\\x00\\xf0A\\x1d\\x00\\x00\\x00\\x00",
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Program",
+			"number" : 2,
+
+			"programsub-sub-sub-block " :  {
+
+				"u0" : 1,
+
+				"lua chunksub-sub-sub-sub-block " :  {
+
+					"main chunk" : "chunk >
+
+					=== lua =============
+					local self = ...;
+					
+					if not Character.HasSceneFlag(\"has_portal\") then
+						Character.AddSceneFlag(\"has_portal\");
+					end
+					
+					self.leftTorch = Scene.CreateObject(\"portal_torch_left\", \"portal_torch_left\");
+					self.rightTorch = Scene.CreateObject(\"portal_torch_right\", \"portal_torch_right\");
+					
+					self.leftTorch:setPosition(self:position() + Vector3.New(-75, 40, -70));
+					self.rightTorch:setPosition(self:position() + Vector3.New(72, 40, -70));
+					
+					if Character.HasSceneFlag(\"portal_found\") then
+						Program.Execute(self, 3); -- create fires
+					end
+
+					=====================",
+					"secondary chunk" : "\\x1bLuaQ\\x00\\x01\\x04\\x04\\x04\\x08\\x00\\x11\\x02\\x00\\x00local self = ...;\\r\\n\\r\\nif not Character.HasSceneFlag(\"has_portal\") then\\r\\n\\tCharacter.AddSceneFlag(\"has_portal\");\\r\\nend\\r\\n\\r\\nself.leftTorch = Scene.CreateObject(\"portal_torch_left\", \"portal_torch_left\");\\r\\nself.rightTorch = Scene.CreateObject(\"portal_torch_right\", \"portal_torch_right\");\\r\\n\\r\\nself.leftTorch:setPosition(self:position() + Vector3.New(-75, 40, -70));\\r\\nself.rightTorch:setPosition(self:position() + Vector3.New(72, 40, -70));\\r\\n\\r\\nif Character.HasSceneFlag(\"portal_found\") then\\r\\n\\tProgram.Execute(self, 3); -- create fires\\r\\nend\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x02\\x08;\\x00\\x00\\x00%\\x00\\x00\\x01E\\x00\\x00\\x00F@\\xc0\\x00\\x81\\x80\\x00\\x00\\\\\\x80\\x00\\x01Z@\\x00\\x00\\x16\\xc0\\x00\\x80E\\x00\\x00\\x00F\\xc0\\xc0\\x00\\x81\\x80\\x00\\x00\\\\@\\x00\\x01E@\\x01\\x00F\\x80\\xc1\\x00\\x81\\xc0\\x01\\x00\\xc1\\xc0\\x01\\x00\\\\\\x80\\x80\\x01\\t@\\x00\\x82E@\\x01\\x00F\\x80\\xc1\\x00\\x81@\\x02\\x00\\xc1@\\x02\\x00\\\\\\x80\\x80\\x01\\t@\\x00\\x84F\\x00A\\x00K\\x80\\xc2\\x00\\xcb\\xc0B\\x00\\xdc\\x80\\x00\\x01\\x05\\x01\\x03\\x00\\x06AC\\x02A\\x81\\x03\\x00\\x81\\xc1\\x03\\x00\\xc1\\x01\\x04\\x00\\x1c\\x81\\x00\\x02\\xcc\\x00\\x81\\x01\\\\@\\x80\\x01F\\x00B\\x00K\\x80\\xc2\\x00\\xcb\\xc0B\\x00\\xdc\\x80\\x00\\x01\\x05\\x01\\x03\\x00\\x06AC\\x02AA\\x04\\x00\\x81\\xc1\\x03\\x00\\xc1\\x01\\x04\\x00\\x1c\\x81\\x00\\x02\\xcc\\x00\\x81\\x01\\\\@\\x80\\x01E\\x00\\x00\\x00F@\\xc0\\x00\\x81\\x80\\x04\\x00\\\\\\x80\\x00\\x01Z\\x00\\x00\\x00\\x16\\x00\\x01\\x80E\\xc0\\x04\\x00F\\x00\\xc5\\x00\\x80\\x00\\x00\\x00\\xc1@\\x05\\x00\\\\@\\x80\\x01\\x1e\\x00\\x80\\x00\\x16\\x00\\x00\\x00\\x04\\n\\x00\\x00\\x00Character\\x00\\x04\\r\\x00\\x00\\x00HasSceneFlag\\x00\\x04\\x0b\\x00\\x00\\x00has_portal\\x00\\x04\\r\\x00\\x00\\x00AddSceneFlag\\x00\\x04\\n\\x00\\x00\\x00leftTorch\\x00\\x04\\x06\\x00\\x00\\x00Scene\\x00\\x04\\r\\x00\\x00\\x00CreateObject\\x00\\x04\\x12\\x00\\x00\\x00portal_torch_left\\x00\\x04\\x0b\\x00\\x00\\x00rightTorch\\x00\\x04\\x13\\x00\\x00\\x00portal_torch_right\\x00\\x04\\x0c\\x00\\x00\\x00setPosition\\x00\\x04\\t\\x00\\x00\\x00position\\x00\\x04\\x08\\x00\\x00\\x00Vector3\\x00\\x04\\x04\\x00\\x00\\x00New\\x00\\x03\\x00\\x00\\x00\\x00\\x00\\xc0R\\xc0\\x03\\x00\\x00\\x00\\x00\\x00\\x00D@\\x03\\x00\\x00\\x00\\x00\\x00\\x80Q\\xc0\\x03\\x00\\x00\\x00\\x00\\x00\\x00R@\\x04\\r\\x00\\x00\\x00portal_found\\x00\\x04\\x08\\x00\\x00\\x00Program\\x00\\x04\\x08\\x00\\x00\\x00Execute\\x00\\x03\\x00\\x00\\x00\\x00\\x00\\x00\\x08@\\x00\\x00\\x00\\x00;\\x00\\x00\\x00\\x01\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x07\\x00\\x00\\x00\\x07\\x00\\x00\\x00\\x07\\x00\\x00\\x00\\x07\\x00\\x00\\x00\\x07\\x00\\x00\\x00\\x07\\x00\\x00\\x00\\x08\\x00\\x00\\x00\\x08\\x00\\x00\\x00\\x08\\x00\\x00\\x00\\x08\\x00\\x00\\x00\\x08\\x00\\x00\\x00\\x08\\x00\\x00\\x00\\n\\x00\\x00\\x00\\n\\x00\\x00\\x00\\n\\x00\\x00\\x00\\n\\x00\\x00\\x00\\n\\x00\\x00\\x00\\n\\x00\\x00\\x00\\n\\x00\\x00\\x00\\n\\x00\\x00\\x00\\n\\x00\\x00\\x00\\n\\x00\\x00\\x00\\n\\x00\\x00\\x00\\n\\x00\\x00\\x00\\x0b\\x00\\x00\\x00\\x0b\\x00\\x00\\x00\\x0b\\x00\\x00\\x00\\x0b\\x00\\x00\\x00\\x0b\\x00\\x00\\x00\\x0b\\x00\\x00\\x00\\x0b\\x00\\x00\\x00\\x0b\\x00\\x00\\x00\\x0b\\x00\\x00\\x00\\x0b\\x00\\x00\\x00\\x0b\\x00\\x00\\x00\\x0b\\x00\\x00\\x00\\r\\x00\\x00\\x00\\r\\x00\\x00\\x00\\r\\x00\\x00\\x00\\r\\x00\\x00\\x00\\r\\x00\\x00\\x00\\r\\x00\\x00\\x00\\x0e\\x00\\x00\\x00\\x0e\\x00\\x00\\x00\\x0e\\x00\\x00\\x00\\x0e\\x00\\x00\\x00\\x0e\\x00\\x00\\x00\\x0f\\x00\\x00\\x00\\x01\\x00\\x00\\x00\\x05\\x00\\x00\\x00self\\x00\\x01\\x00\\x00\\x00:\\x00\\x00\\x00\\x00\\x00\\x00\\x00",
+				},
+				"u1" : 1,
+				"u2" : 10,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Program",
+			"number" : 3,
+			"name" : "createFires",
+
+			"programsub-sub-sub-block " :  {
+
+				"u0" : 1,
+
+				"lua chunksub-sub-sub-sub-block " :  {
+
+					"main chunk" : "chunk >
+
+					=== lua =============
+					local self = ...;
+					
+					self.firesCreated = true;
+					
+					local leftFire = Scene.CreateObject(\"portal_torch_fire\", \"portal_fire_left\");
+					local rightFire = Scene.CreateObject(\"portal_torch_fire\", \"portal_fire_right\");
+					
+					leftFire:setPosition(self.leftTorch:position());
+					rightFire:setPosition(self.rightTorch:position());
+					
+					TransformController.ScaleTo(leftFire, 0.01, 0);
+					TransformController.ScaleTo(leftFire, 1, 0.15);
+					
+					TransformController.ScaleTo(rightFire, 0.01, 0);
+					TransformController.ScaleTo(rightFire, 1, 0.15);
+					
+
+					=====================",
+					"secondary chunk" : "\\x1bLuaQ\\x00\\x01\\x04\\x04\\x04\\x08\\x00\\x05\\x02\\x00\\x00local self = ...;\\r\\n\\r\\nself.firesCreated = true;\\r\\n\\r\\nlocal leftFire = Scene.CreateObject(\"portal_torch_fire\", \"portal_fire_left\");\\r\\nlocal rightFire = Scene.CreateObject(\"portal_torch_fire\", \"portal_fire_right\");\\r\\n\\r\\nleftFire:setPosition(self.leftTorch:position());\\r\\nrightFire:setPosition(self.rightTorch:position());\\r\\n\\r\\nTransformController.ScaleTo(leftFire, 0.01, 0);\\r\\nTransformController.ScaleTo(leftFire, 1, 0.15);\\r\\n\\r\\nTransformController.ScaleTo(rightFire, 0.01, 0);\\r\\nTransformController.ScaleTo(rightFire, 1, 0.15);\\r\\n\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x02\\x07/\\x00\\x00\\x00%\\x00\\x00\\x01\\t@@\\x80E\\x80\\x00\\x00F\\xc0\\xc0\\x00\\x81\\x00\\x01\\x00\\xc1@\\x01\\x00\\\\\\x80\\x80\\x01\\x85\\x80\\x00\\x00\\x86\\xc0@\\x01\\xc1\\x00\\x01\\x00\\x01\\x81\\x01\\x00\\x9c\\x80\\x80\\x01\\xcb\\xc0\\xc1\\x00F\\x01B\\x00KA\\xc2\\x02\\\\\\x01\\x00\\x01\\xdc@\\x00\\x00\\xcb\\xc0A\\x01F\\x81B\\x00KA\\xc2\\x02\\\\\\x01\\x00\\x01\\xdc@\\x00\\x00\\xc5\\xc0\\x02\\x00\\xc6\\x00\\xc3\\x01\\x00\\x01\\x80\\x00AA\\x03\\x00\\x81\\x81\\x03\\x00\\xdc@\\x00\\x02\\xc5\\xc0\\x02\\x00\\xc6\\x00\\xc3\\x01\\x00\\x01\\x80\\x00A\\xc1\\x03\\x00\\x81\\x01\\x04\\x00\\xdc@\\x00\\x02\\xc5\\xc0\\x02\\x00\\xc6\\x00\\xc3\\x01\\x00\\x01\\x00\\x01AA\\x03\\x00\\x81\\x81\\x03\\x00\\xdc@\\x00\\x02\\xc5\\xc0\\x02\\x00\\xc6\\x00\\xc3\\x01\\x00\\x01\\x00\\x01A\\xc1\\x03\\x00\\x81\\x01\\x04\\x00\\xdc@\\x00\\x02\\x1e\\x00\\x80\\x00\\x11\\x00\\x00\\x00\\x04\\r\\x00\\x00\\x00firesCreated\\x00\\x01\\x01\\x04\\x06\\x00\\x00\\x00Scene\\x00\\x04\\r\\x00\\x00\\x00CreateObject\\x00\\x04\\x12\\x00\\x00\\x00portal_torch_fire\\x00\\x04\\x11\\x00\\x00\\x00portal_fire_left\\x00\\x04\\x12\\x00\\x00\\x00portal_fire_right\\x00\\x04\\x0c\\x00\\x00\\x00setPosition\\x00\\x04\\n\\x00\\x00\\x00leftTorch\\x00\\x04\\t\\x00\\x00\\x00position\\x00\\x04\\x0b\\x00\\x00\\x00rightTorch\\x00\\x04\\x14\\x00\\x00\\x00TransformController\\x00\\x04\\x08\\x00\\x00\\x00ScaleTo\\x00\\x03{\\x14\\xaeG\\xe1z\\x84?\\x03\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x00\\x00\\x00\\xf0?\\x03333333\\xc3?\\x00\\x00\\x00\\x00/\\x00\\x00\\x00\\x01\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x06\\x00\\x00\\x00\\x06\\x00\\x00\\x00\\x06\\x00\\x00\\x00\\x06\\x00\\x00\\x00\\x06\\x00\\x00\\x00\\x08\\x00\\x00\\x00\\x08\\x00\\x00\\x00\\x08\\x00\\x00\\x00\\x08\\x00\\x00\\x00\\x08\\x00\\x00\\x00\\t\\x00\\x00\\x00\\t\\x00\\x00\\x00\\t\\x00\\x00\\x00\\t\\x00\\x00\\x00\\t\\x00\\x00\\x00\\x0b\\x00\\x00\\x00\\x0b\\x00\\x00\\x00\\x0b\\x00\\x00\\x00\\x0b\\x00\\x00\\x00\\x0b\\x00\\x00\\x00\\x0b\\x00\\x00\\x00\\x0c\\x00\\x00\\x00\\x0c\\x00\\x00\\x00\\x0c\\x00\\x00\\x00\\x0c\\x00\\x00\\x00\\x0c\\x00\\x00\\x00\\x0c\\x00\\x00\\x00\\x0e\\x00\\x00\\x00\\x0e\\x00\\x00\\x00\\x0e\\x00\\x00\\x00\\x0e\\x00\\x00\\x00\\x0e\\x00\\x00\\x00\\x0e\\x00\\x00\\x00\\x0f\\x00\\x00\\x00\\x0f\\x00\\x00\\x00\\x0f\\x00\\x00\\x00\\x0f\\x00\\x00\\x00\\x0f\\x00\\x00\\x00\\x0f\\x00\\x00\\x00\\x0f\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x05\\x00\\x00\\x00self\\x00\\x01\\x00\\x00\\x00.\\x00\\x00\\x00\\t\\x00\\x00\\x00leftFire\\x00\\x07\\x00\\x00\\x00.\\x00\\x00\\x00\\n\\x00\\x00\\x00rightFire\\x00\\x0c\\x00\\x00\\x00.\\x00\\x00\\x00\\x00\\x00\\x00\\x00",
+				},
+				"u1" : 1,
+				"u2" : 0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "CollisionShape",
+			"number" : 4,
+			"? linked component" : 102,
+
+			"collision shapesub-sub-sub-block " :  {
+
+
+				"u2sub-sub-sub-sub-block " :  {
+
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"y" : -94.46080017089844,
+						"z" : 1.84075927734375,
+					},
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"y" : 101.94805908203125,
+						"z" : 2.36572265625,
+					},
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"y" : 63.26611328125,
+						"z" : 10.772216796875,
+					},
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"y" : -57.924285888671875,
+						"z" : 11.21063232421875,
+					},
+					"u3" : 0,
+					"u4" : 1,
+				},
+			},
+
+			"collision shape 2sub-sub-sub-block " :  {
+
+				"u0" : 1,
+				"w" : -50.0,
+				"x" : 50.0,
+				"z" : 1,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Model",
+			"number" : 101,
+
+			"3D modelsub-sub-sub-block " :  {
+
+				"name" : "portal",
+				"u0" : 0.0,
+				"u1" : 0.0,
+				"u2" : 0.0,
+
+				"u3sub-sub-sub-sub-block " :  {
+
+					"w" : 1.0,
+					"x" : 1.0,
+					"y" : 1.0,
+					"z" : 1.0,
+				},
+
+				"u4sub-sub-sub-sub-block " :  {
+
+					"x" : 4.0,
+					"y" : 0.0,
+					"z" : 10.0,
+				},
+				"u5" : 0,
+
+				"u6sub-sub-sub-sub-block " :  {
+
+					"w" : 1.0,
+					"x" : 1.0,
+					"y" : 1.0,
+					"z" : 1.0,
+				},
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "GroundPolygon",
+			"number" : 102,
+
+			"ground polygonsub-sub-sub-block " :  {
+
+
+				"sub-sub-sub-sub-block " :  {
+
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"x" : -94.46080017089844,
+						"y" : 1.84075927734375,
+					},
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"x" : 101.94805908203125,
+						"y" : 2.36572265625,
+					},
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"x" : 63.26611328125,
+						"y" : 10.772216796875,
+					},
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"x" : -57.924285888671875,
+						"y" : 11.21063232421875,
+					},
+					"u0" : 0,
+					"u1" : 1,
+				},
+				"u1" : 1,
+				"u2" : -50.0,
+				"u3" : 50.0,
+				"u4" : "",
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Portal",
+			"number" : 105,
+
+			"portalsub-sub-sub-block " :  {
+
+				"target level" : "",
+				"spawnpoint" : "",
+				"touchable" : 1,
+				"collision shape component" : 106,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "CollisionShape",
+			"number" : 106,
+
+			"collision shapesub-sub-sub-block " :  {
+
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"w" : -50.0,
+					"x" : 20.0,
+					"y" : 100.0,
+					"z" : 110.0,
+				},
+			},
+
+			"collision shape 2sub-sub-sub-block " :  {
+
+				"w" : -70.0,
+				"x" : 50.0,
+
+				"lua chunksub-sub-sub-sub-block " :  {
+
+					"main chunk" : "chunk >
+
+					=== lua =============
+					local self, target = ...;
+					
+					if target:identifier() == \"hero\" then
+					
+						Portal.Activate(self);
+					
+						local effect = Scene.CreateObject(\"portal_effect\", \"portal_effect_\" .. self:identifier(), self);
+						effect:setPosition(self:position() + Vector3.New(0, 68, -95));
+						TransformController.ScaleTo(effect, 0.001, 0);
+						self.effect = effect;
+					
+						Program.Wait(0.01);
+					
+						if not Character.HasSceneFlag(\"portal_found\") then
+							Character.AddSceneFlag(\"portal_found\")
+							Program.Execute(self, 3); -- create fires
+							Program.Wait(0.2);
+						end
+					
+						TransformController.ScaleTo(effect, 1, 0.2);
+					end
+					
+
+					=====================",
+					"secondary chunk" : "\\x1bLuaQ\\x00\\x01\\x04\\x04\\x04\\x08\\x00G\\x02\\x00\\x00local self, target = ...;\\r\\n\\r\\nif target:identifier() == \"hero\" then\\r\\n\\r\\n\\tPortal.Activate(self);\\r\\n\\r\\n\\tlocal effect = Scene.CreateObject(\"portal_effect\", \"portal_effect_\" .. self:identifier(), self);\\r\\n\\teffect:setPosition(self:position() + Vector3.New(0, 68, -95));\\r\\n\\tTransformController.ScaleTo(effect, 0.001, 0);\\r\\n\\tself.effect = effect;\\r\\n\\r\\n\\tProgram.Wait(0.01);\\r\\n\\r\\n\\tif not Character.HasSceneFlag(\"portal_found\") then\\r\\n\\t\\tCharacter.AddSceneFlag(\"portal_found\")\\r\\n\\t\\tProgram.Execute(self, 3); -- create fires\\r\\n\\t\\tProgram.Wait(0.2);\\r\\n\\tend\\r\\n\\r\\n\\tTransformController.ScaleTo(effect, 1, 0.2);\\r\\nend\\r\\n\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x02\\nB\\x00\\x00\\x00%\\x00\\x80\\x01\\x8b\\x00\\xc0\\x00\\x9c\\x80\\x00\\x01\\x17@@\\x01\\x16\\xc0\\x0e\\x80\\x85\\x80\\x00\\x00\\x86\\xc0@\\x01\\xc0\\x00\\x00\\x00\\x9c@\\x00\\x01\\x85\\x00\\x01\\x00\\x86@A\\x01\\xc1\\x80\\x01\\x00\\x01\\xc1\\x01\\x00K\\x01@\\x00\\\\\\x81\\x00\\x01\\x15A\\x01\\x02@\\x01\\x00\\x00\\x9c\\x80\\x00\\x02\\xcb\\x00B\\x01KAB\\x00\\\\\\x81\\x00\\x01\\x85\\x81\\x02\\x00\\x86\\xc1B\\x03\\xc1\\x01\\x03\\x00\\x01B\\x03\\x00A\\x82\\x03\\x00\\x9c\\x81\\x00\\x02L\\x81\\x81\\x02\\xdc@\\x80\\x01\\xc5\\xc0\\x03\\x00\\xc6\\x00\\xc4\\x01\\x00\\x01\\x00\\x01AA\\x04\\x00\\x81\\x01\\x03\\x00\\xdc@\\x00\\x02\\t\\x80\\x00\\x89\\xc5\\xc0\\x04\\x00\\xc6\\x00\\xc5\\x01\\x01A\\x05\\x00\\xdc@\\x00\\x01\\xc5\\x80\\x05\\x00\\xc6\\xc0\\xc5\\x01\\x01\\x01\\x06\\x00\\xdc\\x80\\x00\\x01\\xda@\\x00\\x00\\x16\\x00\\x03\\x80\\xc5\\x80\\x05\\x00\\xc6@\\xc6\\x01\\x01\\x01\\x06\\x00\\xdc@\\x00\\x01\\xc5\\xc0\\x04\\x00\\xc6\\x80\\xc6\\x01\\x00\\x01\\x00\\x00A\\xc1\\x06\\x00\\xdc@\\x80\\x01\\xc5\\xc0\\x04\\x00\\xc6\\x00\\xc5\\x01\\x01\\x01\\x07\\x00\\xdc@\\x00\\x01\\xc5\\xc0\\x03\\x00\\xc6\\x00\\xc4\\x01\\x00\\x01\\x00\\x01AA\\x07\\x00\\x81\\x01\\x07\\x00\\xdc@\\x00\\x02\\x1e\\x00\\x80\\x00\\x1e\\x00\\x00\\x00\\x04\\x0b\\x00\\x00\\x00identifier\\x00\\x04\\x05\\x00\\x00\\x00hero\\x00\\x04\\x07\\x00\\x00\\x00Portal\\x00\\x04\\t\\x00\\x00\\x00Activate\\x00\\x04\\x06\\x00\\x00\\x00Scene\\x00\\x04\\r\\x00\\x00\\x00CreateObject\\x00\\x04\\x0e\\x00\\x00\\x00portal_effect\\x00\\x04\\x0f\\x00\\x00\\x00portal_effect_\\x00\\x04\\x0c\\x00\\x00\\x00setPosition\\x00\\x04\\t\\x00\\x00\\x00position\\x00\\x04\\x08\\x00\\x00\\x00Vector3\\x00\\x04\\x04\\x00\\x00\\x00New\\x00\\x03\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x00\\x00\\x00Q@\\x03\\x00\\x00\\x00\\x00\\x00\\xc0W\\xc0\\x04\\x14\\x00\\x00\\x00TransformController\\x00\\x04\\x08\\x00\\x00\\x00ScaleTo\\x00\\x03\\xfc\\xa9\\xf1\\xd2MbP?\\x04\\x07\\x00\\x00\\x00effect\\x00\\x04\\x08\\x00\\x00\\x00Program\\x00\\x04\\x05\\x00\\x00\\x00Wait\\x00\\x03{\\x14\\xaeG\\xe1z\\x84?\\x04\\n\\x00\\x00\\x00Character\\x00\\x04\\r\\x00\\x00\\x00HasSceneFlag\\x00\\x04\\r\\x00\\x00\\x00portal_found\\x00\\x04\\r\\x00\\x00\\x00AddSceneFlag\\x00\\x04\\x08\\x00\\x00\\x00Execute\\x00\\x03\\x00\\x00\\x00\\x00\\x00\\x00\\x08@\\x03\\x9a\\x99\\x99\\x99\\x99\\x99\\xc9?\\x03\\x00\\x00\\x00\\x00\\x00\\x00\\xf0?\\x00\\x00\\x00\\x00B\\x00\\x00\\x00\\x01\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x07\\x00\\x00\\x00\\x07\\x00\\x00\\x00\\x07\\x00\\x00\\x00\\x07\\x00\\x00\\x00\\x07\\x00\\x00\\x00\\x07\\x00\\x00\\x00\\x07\\x00\\x00\\x00\\x07\\x00\\x00\\x00\\x07\\x00\\x00\\x00\\x08\\x00\\x00\\x00\\x08\\x00\\x00\\x00\\x08\\x00\\x00\\x00\\x08\\x00\\x00\\x00\\x08\\x00\\x00\\x00\\x08\\x00\\x00\\x00\\x08\\x00\\x00\\x00\\x08\\x00\\x00\\x00\\x08\\x00\\x00\\x00\\x08\\x00\\x00\\x00\\x08\\x00\\x00\\x00\\t\\x00\\x00\\x00\\t\\x00\\x00\\x00\\t\\x00\\x00\\x00\\t\\x00\\x00\\x00\\t\\x00\\x00\\x00\\t\\x00\\x00\\x00\\n\\x00\\x00\\x00\\x0c\\x00\\x00\\x00\\x0c\\x00\\x00\\x00\\x0c\\x00\\x00\\x00\\x0c\\x00\\x00\\x00\\x0e\\x00\\x00\\x00\\x0e\\x00\\x00\\x00\\x0e\\x00\\x00\\x00\\x0e\\x00\\x00\\x00\\x0e\\x00\\x00\\x00\\x0e\\x00\\x00\\x00\\x0f\\x00\\x00\\x00\\x0f\\x00\\x00\\x00\\x0f\\x00\\x00\\x00\\x0f\\x00\\x00\\x00\\x10\\x00\\x00\\x00\\x10\\x00\\x00\\x00\\x10\\x00\\x00\\x00\\x10\\x00\\x00\\x00\\x10\\x00\\x00\\x00\\x11\\x00\\x00\\x00\\x11\\x00\\x00\\x00\\x11\\x00\\x00\\x00\\x11\\x00\\x00\\x00\\x14\\x00\\x00\\x00\\x14\\x00\\x00\\x00\\x14\\x00\\x00\\x00\\x14\\x00\\x00\\x00\\x14\\x00\\x00\\x00\\x14\\x00\\x00\\x00\\x15\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x05\\x00\\x00\\x00self\\x00\\x01\\x00\\x00\\x00A\\x00\\x00\\x00\\x07\\x00\\x00\\x00target\\x00\\x01\\x00\\x00\\x00A\\x00\\x00\\x00\\x07\\x00\\x00\\x00effect\\x00\\x12\\x00\\x00\\x00A\\x00\\x00\\x00\\x00\\x00\\x00\\x00",
+				},
+
+				"lua chunksub-sub-sub-sub-block " :  {
+
+					"main chunk" : "chunk >
+
+					=== lua =============
+					local self, target = ...;
+					
+					if target:identifier() == \"hero\" then
+						Portal.Deactivate(self);
+					
+						local effect = self.effect;
+					
+						if effect ~= nil then
+							TransformController.ScaleTo(effect, 0.01, 0.3);
+							Program.Wait(0.25);
+							Scene.CreateObject(\"portal_blast\", \"b\", effect);
+							effect:destroy();
+						end
+					end
+					
+
+					=====================",
+					"secondary chunk" : "\\x1bLuaQ\\x00\\x01\\x04\\x04\\x04\\x08\\x008\\x01\\x00\\x00local self, target = ...;\\r\\n\\r\\nif target:identifier() == \"hero\" then\\r\\n\\tPortal.Deactivate(self);\\r\\n\\r\\n\\tlocal effect = self.effect;\\r\\n\\r\\n\\tif effect ~= nil then\\r\\n\\t\\tTransformController.ScaleTo(effect, 0.01, 0.3);\\r\\n\\t\\tProgram.Wait(0.25);\\r\\n\\t\\tScene.CreateObject(\"portal_blast\", \"b\", effect);\\r\\n\\t\\teffect:destroy();\\r\\n\\tend\\r\\nend\\r\\n\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x02\\x07\\x1f\\x00\\x00\\x00%\\x00\\x80\\x01\\x8b\\x00\\xc0\\x00\\x9c\\x80\\x00\\x01\\x17@@\\x01\\x16\\x00\\x06\\x80\\x85\\x80\\x00\\x00\\x86\\xc0@\\x01\\xc0\\x00\\x00\\x00\\x9c@\\x00\\x01\\x86\\x00A\\x00W@A\\x01\\x16@\\x04\\x80\\xc5\\x80\\x01\\x00\\xc6\\xc0\\xc1\\x01\\x00\\x01\\x00\\x01A\\x01\\x02\\x00\\x81A\\x02\\x00\\xdc@\\x00\\x02\\xc5\\x80\\x02\\x00\\xc6\\xc0\\xc2\\x01\\x01\\x01\\x03\\x00\\xdc@\\x00\\x01\\xc5@\\x03\\x00\\xc6\\x80\\xc3\\x01\\x01\\xc1\\x03\\x00A\\x01\\x04\\x00\\x80\\x01\\x00\\x01\\xdc@\\x00\\x02\\xcb@D\\x01\\xdc@\\x00\\x01\\x1e\\x00\\x80\\x00\\x12\\x00\\x00\\x00\\x04\\x0b\\x00\\x00\\x00identifier\\x00\\x04\\x05\\x00\\x00\\x00hero\\x00\\x04\\x07\\x00\\x00\\x00Portal\\x00\\x04\\x0b\\x00\\x00\\x00Deactivate\\x00\\x04\\x07\\x00\\x00\\x00effect\\x00\\x00\\x04\\x14\\x00\\x00\\x00TransformController\\x00\\x04\\x08\\x00\\x00\\x00ScaleTo\\x00\\x03{\\x14\\xaeG\\xe1z\\x84?\\x03333333\\xd3?\\x04\\x08\\x00\\x00\\x00Program\\x00\\x04\\x05\\x00\\x00\\x00Wait\\x00\\x03\\x00\\x00\\x00\\x00\\x00\\x00\\xd0?\\x04\\x06\\x00\\x00\\x00Scene\\x00\\x04\\r\\x00\\x00\\x00CreateObject\\x00\\x04\\r\\x00\\x00\\x00portal_blast\\x00\\x04\\x02\\x00\\x00\\x00b\\x00\\x04\\x08\\x00\\x00\\x00destroy\\x00\\x00\\x00\\x00\\x00\\x1f\\x00\\x00\\x00\\x01\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x06\\x00\\x00\\x00\\x08\\x00\\x00\\x00\\x08\\x00\\x00\\x00\\t\\x00\\x00\\x00\\t\\x00\\x00\\x00\\t\\x00\\x00\\x00\\t\\x00\\x00\\x00\\t\\x00\\x00\\x00\\t\\x00\\x00\\x00\\n\\x00\\x00\\x00\\n\\x00\\x00\\x00\\n\\x00\\x00\\x00\\n\\x00\\x00\\x00\\x0b\\x00\\x00\\x00\\x0b\\x00\\x00\\x00\\x0b\\x00\\x00\\x00\\x0b\\x00\\x00\\x00\\x0b\\x00\\x00\\x00\\x0b\\x00\\x00\\x00\\x0c\\x00\\x00\\x00\\x0c\\x00\\x00\\x00\\x0e\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x05\\x00\\x00\\x00self\\x00\\x01\\x00\\x00\\x00\\x1e\\x00\\x00\\x00\\x07\\x00\\x00\\x00target\\x00\\x01\\x00\\x00\\x00\\x1e\\x00\\x00\\x00\\x07\\x00\\x00\\x00effect\\x00\\n\\x00\\x00\\x00\\x1e\\x00\\x00\\x00\\x00\\x00\\x00\\x00",
+				},
+				"z" : 1,
+			},
+		},
+
+		"positionsub-sub-block " :  {
+
+			"x position" : 0.0,
+			"y position" : 0.0,
+		},
+		"z position" : 0.0,
+		"rotation" : 0.0,
+		"scale" : 1.0,
+
+		"u0sub-sub-block " :  {
+
+			"w" : -94.46080017089844,
+			"x" : 0.0,
+			"y" : 196.4088592529297,
+			"z" : 130.0,
+		},
+		"hidden" : 0,
+	},
+	"u0" : 1.0,
+},
+
+"?itemblock " :  {
+
+
+	"?sub-itemsub-block " :  {
+
+		"name" : "portal_blast",
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "ParticleEmitter",
+			"number" : 101,
+
+			"particle emittersub-sub-sub-block " :  {
+
+				"particle" : 103,
+				"particle" : 104,
+				"particle" : 105,
+				"u1" : 0,
+				"u2" : 30,
+				"u3" : 0,
+				"u4" : 0,
+
+				"u5sub-sub-sub-sub-block " :  {
+
+					"u0" : 2,
+
+					"u1sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 0.4333333373069763,
+						"x" : 0.5133333206176758,
+						"y" : 0.5666666626930237,
+						"z" : 0.0,
+					},
+					"u2" : 50.0,
+					"u2" : 0.30000001192092896,
+					"u2" : 6.0,
+					"u2" : 30.0,
+					"u3" : 0.0,
+					"u4" : 0.0,
+					"u5" : 0.0,
+
+					"u6sub-sub-sub-sub-sub-block " :  {
+
+						"u0" : 0.0,
+						"u1" : 0.0,
+						"u2" : 0.0,
+					},
+				},
+				"u6" : 0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Particle",
+			"number" : 103,
+
+			"particlesub-sub-sub-block " :  {
+
+				"name" : "particle_fure_1",
+				"u0" : 40.0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Particle",
+			"number" : 104,
+
+			"particlesub-sub-sub-block " :  {
+
+				"name" : "particle_fure_2",
+				"u0" : 40.0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Particle",
+			"number" : 105,
+
+			"particlesub-sub-sub-block " :  {
+
+				"name" : "particle_fure_3",
+				"u0" : 40.0,
+			},
+		},
+
+		"positionsub-sub-block " :  {
+
+			"x position" : 0.0,
+			"y position" : 0.0,
+		},
+		"z position" : 0.0,
+		"rotation" : 0.0,
+		"scale" : 1.0,
+
+		"u0sub-sub-block " :  {
+
+			"w" : -10.0,
+			"x" : -10.0,
+			"y" : 20.0,
+			"z" : 20.0,
+		},
+		"hidden" : 0,
+	},
+	"u0" : 1.0,
+},
+
+"?itemblock " :  {
+
+
+	"?sub-itemsub-block " :  {
+
+		"name" : "portal_effect",
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "PortalEffect",
+			"number" : 1,
+
+			"portal effectsub-sub-sub-block " :  {
+
+				"u0" : 100,
+				"u1" : 103,
+
+				"u2sub-sub-sub-sub-block " :  {
+
+					"w" : 0.8807407021522522,
+					"x" : 0.9471110701560974,
+					"y" : 0.9637036919593811,
+					"z" : 0.800000011920929,
+				},
+
+				"u3sub-sub-sub-sub-block " :  {
+
+					"x" : 0.05000000074505806,
+					"y" : 0.08000000566244125,
+					"z" : 0.0,
+				},
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "ParticleEmitter",
+			"number" : 2,
+
+			"particle emittersub-sub-sub-block " :  {
+
+				"particle" : 3,
+				"u1" : 0,
+				"u2" : 100,
+				"u3" : 0,
+				"u4" : 0,
+
+				"u5sub-sub-sub-sub-block " :  {
+
+					"u0" : 5,
+
+					"u1sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 0.12222222238779068,
+						"x" : 0.12222222238779068,
+						"y" : 0.12222222238779068,
+						"z" : 0.0,
+					},
+					"u2" : 0.0,
+					"u2" : 360.0,
+					"u2" : 20.0,
+					"u2" : 0.0,
+					"u2" : 0.0,
+					"u2" : 50.0,
+					"u2" : 0.20000000298023224,
+					"u2" : 0.0,
+					"u2" : 0.10000000149011612,
+					"u2" : 0.0,
+					"u2" : 1.0,
+					"u2" : 0.019999999552965164,
+					"u2" : 1.0,
+					"u2" : 0.20000000298023224,
+					"u2" : 0.0,
+					"u3" : 0.0,
+					"u4" : 0.0,
+					"u5" : 0.10000000149011612,
+
+					"u6sub-sub-sub-sub-sub-block " :  {
+
+						"u0" : 0.0,
+						"u1" : 0.0,
+						"u2" : 0.0,
+					},
+				},
+				"u6" : 0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Particle",
+			"number" : 3,
+
+			"particlesub-sub-sub-block " :  {
+
+				"name" : "particle",
+				"u0" : 40.0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Light",
+			"number" : 4,
+
+			"lightsub-sub-sub-block " :  {
+
+				"u0" : 3,
+				"u1" : 2.0,
+
+				"u2sub-sub-sub-sub-block " :  {
+
+					"w" : 1.0,
+					"x" : 1.0,
+					"y" : 1.0,
+					"z" : 1.0,
+				},
+				"u3" : 0.0,
+				"u4" : 0.00019999999494757503,
+
+				"u5sub-sub-sub-sub-block " :  {
+
+					"x" : 0.0,
+					"y" : 0.0,
+					"z" : 0.0,
+				},
+				"u6" : 300.0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "TransformController",
+			"number" : 5,
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "GroundPolygon",
+			"number" : 100,
+
+			"ground polygonsub-sub-sub-block " :  {
+
+
+				"sub-sub-sub-sub-block " :  {
+
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"x" : -48.494873046875,
+						"y" : -72.06495666503906,
+					},
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"x" : -3.850830078125,
+						"y" : -81.76434326171875,
+					},
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"x" : 48.669921875,
+						"y" : -72.10324096679688,
+					},
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"x" : 59.131103515625,
+						"y" : -23.802703857421875,
+					},
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"x" : 61.85546875,
+						"y" : 37.782379150390625,
+					},
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"x" : 48.486572265625,
+						"y" : 62.678375244140625,
+					},
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"x" : 28.592514038085938,
+						"y" : 81.78480529785156,
+					},
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"x" : -0.296142578125,
+						"y" : 85.93389892578125,
+					},
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"x" : -29.1845703125,
+						"y" : 81.77779388427734,
+					},
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"x" : -50.22900390625,
+						"y" : 61.087677001953125,
+					},
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"x" : -60.73974609375,
+						"y" : 33.52960205078125,
+					},
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"x" : -59.926025390625,
+						"y" : -24.602325439453125,
+					},
+					"u0" : 0,
+					"u1" : 1,
+				},
+				"u1" : 0,
+				"u2" : -1.0,
+				"u3" : 1.0,
+				"u4" : "",
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "TextureMapping",
+			"number" : 103,
+
+			"texture mappingsub-sub-sub-block " :  {
+
+				"texture file" : "portal_effect",
+				"u0" : 1.0,
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"u1" : 0.0,
+					"u2" : 0.0,
+				},
+			},
+		},
+
+		"positionsub-sub-block " :  {
+
+			"x position" : 0.0,
+			"y position" : 0.0,
+		},
+		"z position" : 0.0,
+		"rotation" : 0.0,
+		"scale" : 1.0,
+
+		"u0sub-sub-block " :  {
+
+			"w" : -100.0,
+			"x" : -100.0,
+			"y" : 200.0,
+			"z" : 200.0,
+		},
+		"hidden" : 0,
+	},
+	"u0" : 1.0,
+},
+
+"?itemblock " :  {
+
+
+	"?sub-itemsub-block " :  {
+
+		"name" : "portal_torch_fire",
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "SimpleGlow",
+			"number" : 1,
+
+			"simple glowsub-sub-sub-block " :  {
+
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"w" : 0.6383950710296631,
+					"x" : 0.6804032921791077,
+					"y" : 0.7171604633331299,
+					"z" : 0.0,
+				},
+				"u1" : 10.0,
+				"u2" : 10,
+				"u3" : 0.0,
+				"u4" : 0.05000000074505806,
+				"u5" : 1.5,
+
+				"u6sub-sub-sub-sub-block " :  {
+
+					"y" : 0.0,
+					"z" : 4.0,
+				},
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "SimpleGlow",
+			"number" : 2,
+
+			"simple glowsub-sub-sub-block " :  {
+
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"w" : 0.21037039160728455,
+					"x" : 0.27041977643966675,
+					"y" : 0.3229629695415497,
+					"z" : 0.0,
+				},
+				"u1" : 30.0,
+				"u2" : 15,
+				"u3" : 0.0,
+				"u4" : 0.07999999821186066,
+				"u5" : 1.5,
+
+				"u6sub-sub-sub-sub-block " :  {
+
+					"y" : 0.0,
+					"z" : 15.0,
+				},
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "TransformController",
+			"number" : 3,
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Light",
+			"number" : 103,
+
+			"lightsub-sub-sub-block " :  {
+
+				"u0" : 3,
+				"u1" : 2.0,
+
+				"u2sub-sub-sub-sub-block " :  {
+
+					"w" : 0.25777769088745117,
+					"x" : 0.6376676559448242,
+					"y" : 1.0,
+					"z" : 0.0,
+				},
+				"u3" : 0.0,
+				"u4" : 0.00019999999494757503,
+
+				"u5sub-sub-sub-sub-block " :  {
+
+					"x" : 0.0,
+					"y" : 0.0,
+					"z" : 0.0,
+				},
+				"u6" : 250.0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "ParticleEmitter",
+			"number" : 108,
+
+			"particle emittersub-sub-sub-block " :  {
+
+				"particle" : 109,
+				"particle" : 111,
+				"particle" : 112,
+				"u1" : 0,
+				"u2" : 30,
+				"u3" : 0,
+				"u4" : 0,
+
+				"u5sub-sub-sub-sub-block " :  {
+
+					"u0" : 5,
+
+					"u1sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 0.38296306133270264,
+						"x" : 0.5433580279350281,
+						"y" : 0.6837036609649658,
+						"z" : 0.24444444477558136,
+					},
+					"u2" : 90.0,
+					"u2" : 0.0,
+					"u2" : 0.0,
+					"u2" : 2.0,
+					"u2" : 0.0,
+					"u2" : 50.0,
+					"u2" : 0.0,
+					"u2" : 0.0,
+					"u2" : 0.8500000238418579,
+					"u2" : 0.5,
+					"u2" : 0.0,
+					"u2" : 0.07000000029802322,
+					"u2" : 1.0,
+					"u2" : 0.0,
+					"u2" : 0.0,
+					"u3" : 0.10000000149011612,
+					"u4" : 0.10000000149011612,
+					"u5" : 0.10000000149011612,
+
+					"u6sub-sub-sub-sub-sub-block " :  {
+
+						"u0" : 0.0,
+						"u1" : 0.0,
+						"u2" : 0.0,
+					},
+				},
+				"u6" : 0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Particle",
+			"number" : 109,
+
+			"particlesub-sub-sub-block " :  {
+
+				"name" : "particle_fure_1",
+				"u0" : 26.0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Particle",
+			"number" : 111,
+
+			"particlesub-sub-sub-block " :  {
+
+				"name" : "particle_fure_2",
+				"u0" : 26.0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Particle",
+			"number" : 112,
+
+			"particlesub-sub-sub-block " :  {
+
+				"name" : "particle_fure_3",
+				"u0" : 26.0,
+			},
+		},
+
+		"positionsub-sub-block " :  {
+
+			"x position" : 0.0,
+			"y position" : 0.0,
+		},
+		"z position" : 0.0,
+		"rotation" : 0.0,
+		"scale" : 1.0,
+
+		"u0sub-sub-block " :  {
+
+			"w" : -50.0,
+			"x" : -50.0,
+			"y" : 100.0,
+			"z" : 100.0,
+		},
+		"hidden" : 0,
+	},
+	"u0" : 0.699999988079071,
+},
+
+"?itemblock " :  {
+
+
+	"?sub-itemsub-block " :  {
+
+		"name" : "portal_torch_left",
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Model",
+			"number" : 1,
+
+			"3D modelsub-sub-sub-block " :  {
+
+				"name" : "grove_torch",
+				"u0" : -1.919862151145935,
+				"u1" : 0.5,
+				"u2" : 0.0,
+
+				"u3sub-sub-sub-sub-block " :  {
+
+					"w" : 0.0,
+					"x" : 0.0,
+					"y" : 0.0,
+					"z" : 1.0,
+				},
+
+				"u4sub-sub-sub-sub-block " :  {
+
+					"x" : 0.0,
+					"y" : 0.0,
+					"z" : 0.0,
+				},
+				"u5" : 0,
+
+				"u6sub-sub-sub-sub-block " :  {
+
+					"w" : 1.0,
+					"x" : 1.0,
+					"y" : 1.0,
+					"z" : 1.0,
+				},
+			},
+		},
+
+		"positionsub-sub-block " :  {
+
+			"x position" : 0.0,
+			"y position" : 0.0,
+		},
+		"z position" : 0.0,
+		"rotation" : 0.0,
+		"scale" : 1.0,
+
+		"u0sub-sub-block " :  {
+
+			"w" : 0.0,
+			"x" : 0.0,
+			"y" : 0.0,
+			"z" : 0.0,
+		},
+		"hidden" : 0,
+	},
+	"u0" : 0.699999988079071,
+},
+
+"?itemblock " :  {
+
+
+	"?sub-itemsub-block " :  {
+
+		"name" : "portal_torch_right",
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Model",
+			"number" : 1,
+
+			"3D modelsub-sub-sub-block " :  {
+
+				"name" : "grove_torch",
+				"u0" : -1.2217304706573486,
+				"u1" : 0.5,
+				"u2" : 0.0,
+
+				"u3sub-sub-sub-sub-block " :  {
+
+					"w" : 0.0,
+					"x" : 0.0,
+					"y" : 0.0,
+					"z" : 1.0,
+				},
+
+				"u4sub-sub-sub-sub-block " :  {
+
+					"x" : 0.0,
+					"y" : 0.0,
+					"z" : 0.0,
+				},
+				"u5" : 0,
+
+				"u6sub-sub-sub-sub-block " :  {
+
+					"w" : 1.0,
+					"x" : 1.0,
+					"y" : 1.0,
+					"z" : 1.0,
+				},
+			},
+		},
+
+		"positionsub-sub-block " :  {
+
+			"x position" : 0.0,
+			"y position" : 0.0,
+		},
+		"z position" : 0.0,
+		"rotation" : 0.0,
+		"scale" : 1.0,
+
+		"u0sub-sub-block " :  {
+
+			"w" : 0.0,
+			"x" : 0.0,
+			"y" : 0.0,
+			"z" : 0.0,
+		},
+		"hidden" : 0,
+	},
+	"u0" : 0.699999988079071,
+},
+
+"?itemblock " :  {
+
+
+	"?sub-itemsub-block " :  {
+
+		"name" : "signpost",
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Model",
+			"number" : 101,
+
+			"3D modelsub-sub-sub-block " :  {
+
+				"name" : "signpost",
+				"u0" : 0.0,
+				"u1" : 0.4000000059604645,
+				"u2" : 0.0,
+
+				"u3sub-sub-sub-sub-block " :  {
+
+					"w" : 1.0,
+					"x" : 1.0,
+					"y" : 1.0,
+					"z" : 1.0,
+				},
+
+				"u4sub-sub-sub-sub-block " :  {
+
+					"x" : 0.0,
+					"y" : 0.0,
+					"z" : 0.0,
+				},
+				"u5" : 0,
+
+				"u6sub-sub-sub-sub-block " :  {
+
+					"w" : 1.0,
+					"x" : 1.0,
+					"y" : 1.0,
+					"z" : 1.0,
+				},
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "EntityController",
+			"number" : 103,
+
+			"entity controllersub-sub-sub-block " :  {
+
+				"entity component" : 107,
+				"animation controller component" : 104,
+				"u2" : 110,
+				"collision shape" : 0,
+				"u4" : 0.0,
+				"u5" : 16000.0,
+				"u6" : 0.0,
+				"u7" : 1,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "AnimationController",
+			"number" : 104,
+
+			"animation controllersub-sub-sub-block " :  {
+
+				"model component" : 101,
+				"u1" : 0,
+				"u2" : 0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "KeyframeAnimation",
+			"number" : 105,
+
+			"keyframe animationsub-sub-sub-block " :  {
+
+				"linked model component number" : 101,
+				"name" : "signpost_wobble",
+				"u0" : 1,
+				"u1" : 1.0,
+				"u2" : 1,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "MonsterEntity",
+			"number" : 107,
+
+			"entitysub-sub-sub-block " :  {
+
+				"u0" : 1,
+				"u1" : 0,
+			},
+
+			"?monster entitysub-sub-sub-block " :  {
+
+				"u0" : "",
+
+				"lua chunksub-sub-sub-sub-block " :  {
+
+				},
+				"u2" : 1,
+				"u3" : 1,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "KeyframeAnimation",
+			"number" : 110,
+
+			"keyframe animationsub-sub-sub-block " :  {
+
+				"linked model component number" : 101,
+				"name" : "signpost_normal",
+				"u0" : 1,
+				"u1" : 0.30000001192092896,
+				"u2" : 1,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Program",
+			"number" : 111,
+
+			"programsub-sub-sub-block " :  {
+
+				"u0" : 1,
+
+				"lua chunksub-sub-sub-sub-block " :  {
+
+					"main chunk" : "chunk >
+
+					=== lua =============
+					local self = ...;
+					
+					self[\"texts\"] ={\"Hi! I\'m sign.\"}
+
+					=====================",
+					"secondary chunk" : "\\x1bLuaQ\\x00\\x01\\x04\\x04\\x04\\x08\\x006\\x00\\x00\\x00local self = ...;\\r\\n\\r\\nself[\"texts\"] ={\"Hi! I\\\'m sign.\"}\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x02\\x03\\x06\\x00\\x00\\x00%\\x00\\x00\\x01J\\x00\\x80\\x00\\x81@\\x00\\x00b@\\x80\\x00\\t@\\x00\\x80\\x1e\\x00\\x80\\x00\\x02\\x00\\x00\\x00\\x04\\x06\\x00\\x00\\x00texts\\x00\\x04\\x0e\\x00\\x00\\x00Hi! I\\\'m sign.\\x00\\x00\\x00\\x00\\x00\\x06\\x00\\x00\\x00\\x01\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x01\\x00\\x00\\x00\\x05\\x00\\x00\\x00self\\x00\\x01\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x00\\x00\\x00\\x00",
+				},
+				"u1" : 1,
+				"u2" : 10,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "EntityAction",
+			"number" : 112,
+
+			"entity actionsub-sub-sub-block " :  {
+
+
+				"lua chunksub-sub-sub-sub-block " :  {
+
+					"main chunk" : "chunk >
+
+					=== lua =============
+					local self = ...;
+					
+					local wobbleAnimation = 105;
+					local normalAnimation = 110;
+					
+					KeyframeAnimation.SetCurrentTime(self, wobbleAnimation, 0.4);
+					AnimationController.BlendToAnimation(self, wobbleAnimation);
+					
+					Program.Wait(0.25);
+					
+					local text = self[\"texts\"][Math.RandomInt(1,#self[\"texts\"])];
+					
+					local bubble = ShowTextBubble(self:identifier()..\"_bubble\", self:position() + Vector3.New(20, 100, 0), text);
+					
+					Program.Wait(0.25);
+					
+					KeyframeAnimation.SetCurrentTime(self, normalAnimation, 0.4);
+					AnimationController.BlendToAnimation(self, normalAnimation);
+					
+					-- Program.Wait(3.0);
+					-- Moved to collision end
+					-- HideTextBubble(bubble:identifier());
+					
+
+					=====================",
+					"secondary chunk" : "\\x1bLuaQ\\x00\\x01\\x04\\x04\\x04\\x08\\x00\\x8d\\x02\\x00\\x00local self = ...;\\r\\n\\r\\nlocal wobbleAnimation = 105;\\r\\nlocal normalAnimation = 110;\\r\\n\\r\\nKeyframeAnimation.SetCurrentTime(self, wobbleAnimation, 0.4);\\r\\nAnimationController.BlendToAnimation(self, wobbleAnimation);\\r\\n\\r\\nProgram.Wait(0.25);\\r\\n\\r\\nlocal text = self[\"texts\"][Math.RandomInt(1,#self[\"texts\"])];\\r\\n\\r\\nlocal bubble = ShowTextBubble(self:identifier()..\"_bubble\", self:position() + Vector3.New(20, 100, 0), text);\\r\\n\\r\\nProgram.Wait(0.25);\\r\\n\\r\\nKeyframeAnimation.SetCurrentTime(self, normalAnimation, 0.4);\\r\\nAnimationController.BlendToAnimation(self, normalAnimation);\\r\\n\\r\\n-- Program.Wait(3.0);\\r\\n-- Moved to collision end\\r\\n-- HideTextBubble(bubble:identifier());\\r\\n\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x02\\x0b:\\x00\\x00\\x00%\\x00\\x00\\x01A\\x00\\x00\\x00\\x81@\\x00\\x00\\xc5\\x80\\x00\\x00\\xc6\\xc0\\xc0\\x01\\x00\\x01\\x00\\x00@\\x01\\x80\\x00\\x81\\x01\\x01\\x00\\xdc@\\x00\\x02\\xc5@\\x01\\x00\\xc6\\x80\\xc1\\x01\\x00\\x01\\x00\\x00@\\x01\\x80\\x00\\xdc@\\x80\\x01\\xc5\\xc0\\x01\\x00\\xc6\\x00\\xc2\\x01\\x01A\\x02\\x00\\xdc@\\x00\\x01\\xc6\\x80B\\x00\\x05\\xc1\\x02\\x00\\x06\\x01C\\x02AA\\x03\\x00\\x86\\x81B\\x00\\x94\\x01\\x00\\x03\\x1c\\x81\\x80\\x01\\xc6\\x00\\x81\\x01\\x05\\x81\\x03\\x00K\\xc1C\\x00\\\\\\x81\\x00\\x01\\x81\\x01\\x04\\x00U\\x81\\x81\\x02\\x8bAD\\x00\\x9c\\x81\\x00\\x01\\xc5\\x81\\x04\\x00\\xc6\\xc1\\xc4\\x03\\x01\\x02\\x05\\x00AB\\x05\\x00\\x81\\x82\\x05\\x00\\xdc\\x81\\x00\\x02\\x8c\\xc1\\x01\\x03\\xc0\\x01\\x80\\x01\\x1c\\x81\\x00\\x02E\\xc1\\x01\\x00F\\x01\\xc2\\x02\\x81A\\x02\\x00\\\\A\\x00\\x01E\\x81\\x00\\x00F\\xc1\\xc0\\x02\\x80\\x01\\x00\\x00\\xc0\\x01\\x00\\x01\\x01\\x02\\x01\\x00\\\\A\\x00\\x02EA\\x01\\x00F\\x81\\xc1\\x02\\x80\\x01\\x00\\x00\\xc0\\x01\\x00\\x01\\\\A\\x80\\x01\\x1e\\x00\\x80\\x00\\x17\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x00\\x00@Z@\\x03\\x00\\x00\\x00\\x00\\x00\\x80[@\\x04\\x12\\x00\\x00\\x00KeyframeAnimation\\x00\\x04\\x0f\\x00\\x00\\x00SetCurrentTime\\x00\\x03\\x9a\\x99\\x99\\x99\\x99\\x99\\xd9?\\x04\\x14\\x00\\x00\\x00AnimationController\\x00\\x04\\x11\\x00\\x00\\x00BlendToAnimation\\x00\\x04\\x08\\x00\\x00\\x00Program\\x00\\x04\\x05\\x00\\x00\\x00Wait\\x00\\x03\\x00\\x00\\x00\\x00\\x00\\x00\\xd0?\\x04\\x06\\x00\\x00\\x00texts\\x00\\x04\\x05\\x00\\x00\\x00Math\\x00\\x04\\n\\x00\\x00\\x00RandomInt\\x00\\x03\\x00\\x00\\x00\\x00\\x00\\x00\\xf0?\\x04\\x0f\\x00\\x00\\x00ShowTextBubble\\x00\\x04\\x0b\\x00\\x00\\x00identifier\\x00\\x04\\x08\\x00\\x00\\x00_bubble\\x00\\x04\\t\\x00\\x00\\x00position\\x00\\x04\\x08\\x00\\x00\\x00Vector3\\x00\\x04\\x04\\x00\\x00\\x00New\\x00\\x03\\x00\\x00\\x00\\x00\\x00\\x004@\\x03\\x00\\x00\\x00\\x00\\x00\\x00Y@\\x03\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00:\\x00\\x00\\x00\\x01\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x06\\x00\\x00\\x00\\x06\\x00\\x00\\x00\\x06\\x00\\x00\\x00\\x06\\x00\\x00\\x00\\x06\\x00\\x00\\x00\\x06\\x00\\x00\\x00\\x07\\x00\\x00\\x00\\x07\\x00\\x00\\x00\\x07\\x00\\x00\\x00\\x07\\x00\\x00\\x00\\x07\\x00\\x00\\x00\\t\\x00\\x00\\x00\\t\\x00\\x00\\x00\\t\\x00\\x00\\x00\\t\\x00\\x00\\x00\\x0b\\x00\\x00\\x00\\x0b\\x00\\x00\\x00\\x0b\\x00\\x00\\x00\\x0b\\x00\\x00\\x00\\x0b\\x00\\x00\\x00\\x0b\\x00\\x00\\x00\\x0b\\x00\\x00\\x00\\x0b\\x00\\x00\\x00\\r\\x00\\x00\\x00\\r\\x00\\x00\\x00\\r\\x00\\x00\\x00\\r\\x00\\x00\\x00\\r\\x00\\x00\\x00\\r\\x00\\x00\\x00\\r\\x00\\x00\\x00\\r\\x00\\x00\\x00\\r\\x00\\x00\\x00\\r\\x00\\x00\\x00\\r\\x00\\x00\\x00\\r\\x00\\x00\\x00\\r\\x00\\x00\\x00\\r\\x00\\x00\\x00\\r\\x00\\x00\\x00\\r\\x00\\x00\\x00\\x0f\\x00\\x00\\x00\\x0f\\x00\\x00\\x00\\x0f\\x00\\x00\\x00\\x0f\\x00\\x00\\x00\\x11\\x00\\x00\\x00\\x11\\x00\\x00\\x00\\x11\\x00\\x00\\x00\\x11\\x00\\x00\\x00\\x11\\x00\\x00\\x00\\x11\\x00\\x00\\x00\\x12\\x00\\x00\\x00\\x12\\x00\\x00\\x00\\x12\\x00\\x00\\x00\\x12\\x00\\x00\\x00\\x12\\x00\\x00\\x00\\x12\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x05\\x00\\x00\\x00self\\x00\\x01\\x00\\x00\\x009\\x00\\x00\\x00\\x10\\x00\\x00\\x00wobbleAnimation\\x00\\x02\\x00\\x00\\x009\\x00\\x00\\x00\\x10\\x00\\x00\\x00normalAnimation\\x00\\x03\\x00\\x00\\x009\\x00\\x00\\x00\\x05\\x00\\x00\\x00text\\x00\\x1a\\x00\\x00\\x009\\x00\\x00\\x00\\x07\\x00\\x00\\x00bubble\\x00*\\x00\\x00\\x009\\x00\\x00\\x00\\x00\\x00\\x00\\x00",
+				},
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "CollisionShape",
+			"number" : 113,
+
+			"collision shapesub-sub-sub-block " :  {
+
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"w" : -100.0,
+					"x" : 0.0,
+					"y" : 200.0,
+					"z" : 150.0,
+				},
+			},
+
+			"collision shape 2sub-sub-sub-block " :  {
+
+				"w" : -150.0,
+				"x" : 150.0,
+
+				"lua chunksub-sub-sub-sub-block " :  {
+
+					"main chunk" : "chunk >
+
+					=== lua =============
+					local self, target = ...;
+					
+					if target:identifier() == \"hero\" and EntityController.IsIdle(self) then
+					
+						EntityController.PerformAction(self, 112);
+					
+					end
+					
+
+					=====================",
+					"secondary chunk" : "\\x1bLuaQ\\x00\\x01\\x04\\x04\\x04\\x08\\x00\\x9d\\x00\\x00\\x00local self, target = ...;\\r\\n\\r\\nif target:identifier() == \"hero\" and EntityController.IsIdle(self) then\\r\\n\\r\\n\\tEntityController.PerformAction(self, 112);\\r\\n\\r\\nend\\r\\n\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x02\\x05\\x11\\x00\\x00\\x00%\\x00\\x80\\x01\\x8b\\x00\\xc0\\x00\\x9c\\x80\\x00\\x01\\x17@@\\x01\\x16\\x80\\x02\\x80\\x85\\x80\\x00\\x00\\x86\\xc0@\\x01\\xc0\\x00\\x00\\x00\\x9c\\x80\\x00\\x01\\x9a\\x00\\x00\\x00\\x16\\x00\\x01\\x80\\x85\\x80\\x00\\x00\\x86\\x00A\\x01\\xc0\\x00\\x00\\x00\\x01A\\x01\\x00\\x9c@\\x80\\x01\\x1e\\x00\\x80\\x00\\x06\\x00\\x00\\x00\\x04\\x0b\\x00\\x00\\x00identifier\\x00\\x04\\x05\\x00\\x00\\x00hero\\x00\\x04\\x11\\x00\\x00\\x00EntityController\\x00\\x04\\x07\\x00\\x00\\x00IsIdle\\x00\\x04\\x0e\\x00\\x00\\x00PerformAction\\x00\\x03\\x00\\x00\\x00\\x00\\x00\\x00\\\\@\\x00\\x00\\x00\\x00\\x11\\x00\\x00\\x00\\x01\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x07\\x00\\x00\\x00\\x02\\x00\\x00\\x00\\x05\\x00\\x00\\x00self\\x00\\x01\\x00\\x00\\x00\\x10\\x00\\x00\\x00\\x07\\x00\\x00\\x00target\\x00\\x01\\x00\\x00\\x00\\x10\\x00\\x00\\x00\\x00\\x00\\x00\\x00",
+				},
+
+				"lua chunksub-sub-sub-sub-block " :  {
+
+					"main chunk" : "chunk >
+
+					=== lua =============
+					local self, target = ...;
+					
+					if target:identifier() == \"hero\" then
+						HideTextBubble(self:identifier()..\"_bubble\");
+					end
+
+					=====================",
+					"secondary chunk" : "\\x1bLuaQ\\x00\\x01\\x04\\x04\\x04\\x08\\x00x\\x00\\x00\\x00local self, target = ...;\\r\\n\\r\\nif target:identifier() == \"hero\" then\\r\\n\\tHideTextBubble(self:identifier()..\"_bubble\");\\r\\nend\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x02\\x05\\x0c\\x00\\x00\\x00%\\x00\\x80\\x01\\x8b\\x00\\xc0\\x00\\x9c\\x80\\x00\\x01\\x17@@\\x01\\x16@\\x01\\x80\\x85\\x80\\x00\\x00\\xcb\\x00@\\x00\\xdc\\x80\\x00\\x01\\x01\\xc1\\x00\\x00\\xd5\\x00\\x81\\x01\\x9c@\\x00\\x01\\x1e\\x00\\x80\\x00\\x04\\x00\\x00\\x00\\x04\\x0b\\x00\\x00\\x00identifier\\x00\\x04\\x05\\x00\\x00\\x00hero\\x00\\x04\\x0f\\x00\\x00\\x00HideTextBubble\\x00\\x04\\x08\\x00\\x00\\x00_bubble\\x00\\x00\\x00\\x00\\x00\\x0c\\x00\\x00\\x00\\x01\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x02\\x00\\x00\\x00\\x05\\x00\\x00\\x00self\\x00\\x01\\x00\\x00\\x00\\x0b\\x00\\x00\\x00\\x07\\x00\\x00\\x00target\\x00\\x01\\x00\\x00\\x00\\x0b\\x00\\x00\\x00\\x00\\x00\\x00\\x00",
+				},
+				"z" : 1,
+			},
+		},
+
+		"positionsub-sub-block " :  {
+
+			"x position" : 0.0,
+			"y position" : 0.0,
+		},
+		"z position" : 0.0,
+		"rotation" : 0.0,
+		"scale" : 1.0,
+
+		"u0sub-sub-block " :  {
+
+			"w" : -100.0,
+			"x" : 0.0,
+			"y" : 200.0,
+			"z" : 150.0,
+		},
+		"hidden" : 0,
+	},
+	"u0" : 1.0,
+},
+
+"?itemblock " :  {
+
+
+	"?sub-itemsub-block " :  {
+
+		"name" : "signpost_blank",
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Model",
+			"number" : 101,
+
+			"3D modelsub-sub-sub-block " :  {
+
+				"name" : "signpost_blank",
+				"u0" : 0.0,
+				"u1" : 0.4000000059604645,
+				"u2" : 0.0,
+
+				"u3sub-sub-sub-sub-block " :  {
+
+					"w" : 1.0,
+					"x" : 1.0,
+					"y" : 1.0,
+					"z" : 1.0,
+				},
+
+				"u4sub-sub-sub-sub-block " :  {
+
+					"x" : 0.0,
+					"y" : 0.0,
+					"z" : 0.0,
+				},
+				"u5" : 0,
+
+				"u6sub-sub-sub-sub-block " :  {
+
+					"w" : 1.0,
+					"x" : 1.0,
+					"y" : 1.0,
+					"z" : 1.0,
+				},
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "EntityController",
+			"number" : 103,
+
+			"entity controllersub-sub-sub-block " :  {
+
+				"entity component" : 107,
+				"animation controller component" : 104,
+				"u2" : 110,
+				"collision shape" : 0,
+				"u4" : 0.0,
+				"u5" : 16000.0,
+				"u6" : 0.0,
+				"u7" : 1,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "AnimationController",
+			"number" : 104,
+
+			"animation controllersub-sub-sub-block " :  {
+
+				"model component" : 101,
+				"u1" : 0,
+				"u2" : 0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "KeyframeAnimation",
+			"number" : 105,
+
+			"keyframe animationsub-sub-sub-block " :  {
+
+				"linked model component number" : 101,
+				"name" : "signpost_wobble",
+				"u0" : 1,
+				"u1" : 1.0,
+				"u2" : 1,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "MonsterEntity",
+			"number" : 107,
+
+			"entitysub-sub-sub-block " :  {
+
+				"u0" : 1,
+				"u1" : 0,
+			},
+
+			"?monster entitysub-sub-sub-block " :  {
+
+				"u0" : "",
+
+				"lua chunksub-sub-sub-sub-block " :  {
+
+				},
+				"u2" : 1,
+				"u3" : 1,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "KeyframeAnimation",
+			"number" : 110,
+
+			"keyframe animationsub-sub-sub-block " :  {
+
+				"linked model component number" : 101,
+				"name" : "signpost_normal",
+				"u0" : 1,
+				"u1" : 0.30000001192092896,
+				"u2" : 1,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Program",
+			"number" : 111,
+
+			"programsub-sub-sub-block " :  {
+
+				"u0" : 1,
+
+				"lua chunksub-sub-sub-sub-block " :  {
+
+					"main chunk" : "chunk >
+
+					=== lua =============
+					local self = ...;
+					
+					self[\"texts\"] ={\"Elder\'s house\"}
+
+					=====================",
+					"secondary chunk" : "\\x1bLuaQ\\x00\\x01\\x04\\x04\\x04\\x08\\x006\\x00\\x00\\x00local self = ...;\\r\\n\\r\\nself[\"texts\"] ={\"Elder\\\'s house\"}\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x02\\x03\\x06\\x00\\x00\\x00%\\x00\\x00\\x01J\\x00\\x80\\x00\\x81@\\x00\\x00b@\\x80\\x00\\t@\\x00\\x80\\x1e\\x00\\x80\\x00\\x02\\x00\\x00\\x00\\x04\\x06\\x00\\x00\\x00texts\\x00\\x04\\x0e\\x00\\x00\\x00Elder\\\'s house\\x00\\x00\\x00\\x00\\x00\\x06\\x00\\x00\\x00\\x01\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x01\\x00\\x00\\x00\\x05\\x00\\x00\\x00self\\x00\\x01\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x00\\x00\\x00\\x00",
+				},
+				"u1" : 1,
+				"u2" : 10,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "EntityAction",
+			"number" : 112,
+
+			"entity actionsub-sub-sub-block " :  {
+
+
+				"lua chunksub-sub-sub-sub-block " :  {
+
+					"main chunk" : "chunk >
+
+					=== lua =============
+					local self = ...;
+					
+					local wobbleAnimation = 105;
+					local normalAnimation = 110;
+					
+					KeyframeAnimation.SetCurrentTime(self, wobbleAnimation, 0.4);
+					AnimationController.BlendToAnimation(self, wobbleAnimation);
+					
+					Program.Wait(0.25);
+					
+					local text = self[\"texts\"][Math.RandomInt(1,#self[\"texts\"])];
+					
+					local bubble = ShowTextBubble(self:identifier()..\"_bubble\", self:position() + Vector3.New(20, 70, 0), text);
+					
+					Program.Wait(0.25);
+					
+					KeyframeAnimation.SetCurrentTime(self, normalAnimation, 0.4);
+					AnimationController.BlendToAnimation(self, normalAnimation);
+					
+					-- Program.Wait(3.0);
+					-- Moved to collision end
+					-- HideTextBubble(bubble:identifier());
+					
+
+					=====================",
+					"secondary chunk" : "\\x1bLuaQ\\x00\\x01\\x04\\x04\\x04\\x08\\x00\\x8c\\x02\\x00\\x00local self = ...;\\r\\n\\r\\nlocal wobbleAnimation = 105;\\r\\nlocal normalAnimation = 110;\\r\\n\\r\\nKeyframeAnimation.SetCurrentTime(self, wobbleAnimation, 0.4);\\r\\nAnimationController.BlendToAnimation(self, wobbleAnimation);\\r\\n\\r\\nProgram.Wait(0.25);\\r\\n\\r\\nlocal text = self[\"texts\"][Math.RandomInt(1,#self[\"texts\"])];\\r\\n\\r\\nlocal bubble = ShowTextBubble(self:identifier()..\"_bubble\", self:position() + Vector3.New(20, 70, 0), text);\\r\\n\\r\\nProgram.Wait(0.25);\\r\\n\\r\\nKeyframeAnimation.SetCurrentTime(self, normalAnimation, 0.4);\\r\\nAnimationController.BlendToAnimation(self, normalAnimation);\\r\\n\\r\\n-- Program.Wait(3.0);\\r\\n-- Moved to collision end\\r\\n-- HideTextBubble(bubble:identifier());\\r\\n\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x02\\x0b:\\x00\\x00\\x00%\\x00\\x00\\x01A\\x00\\x00\\x00\\x81@\\x00\\x00\\xc5\\x80\\x00\\x00\\xc6\\xc0\\xc0\\x01\\x00\\x01\\x00\\x00@\\x01\\x80\\x00\\x81\\x01\\x01\\x00\\xdc@\\x00\\x02\\xc5@\\x01\\x00\\xc6\\x80\\xc1\\x01\\x00\\x01\\x00\\x00@\\x01\\x80\\x00\\xdc@\\x80\\x01\\xc5\\xc0\\x01\\x00\\xc6\\x00\\xc2\\x01\\x01A\\x02\\x00\\xdc@\\x00\\x01\\xc6\\x80B\\x00\\x05\\xc1\\x02\\x00\\x06\\x01C\\x02AA\\x03\\x00\\x86\\x81B\\x00\\x94\\x01\\x00\\x03\\x1c\\x81\\x80\\x01\\xc6\\x00\\x81\\x01\\x05\\x81\\x03\\x00K\\xc1C\\x00\\\\\\x81\\x00\\x01\\x81\\x01\\x04\\x00U\\x81\\x81\\x02\\x8bAD\\x00\\x9c\\x81\\x00\\x01\\xc5\\x81\\x04\\x00\\xc6\\xc1\\xc4\\x03\\x01\\x02\\x05\\x00AB\\x05\\x00\\x81\\x82\\x05\\x00\\xdc\\x81\\x00\\x02\\x8c\\xc1\\x01\\x03\\xc0\\x01\\x80\\x01\\x1c\\x81\\x00\\x02E\\xc1\\x01\\x00F\\x01\\xc2\\x02\\x81A\\x02\\x00\\\\A\\x00\\x01E\\x81\\x00\\x00F\\xc1\\xc0\\x02\\x80\\x01\\x00\\x00\\xc0\\x01\\x00\\x01\\x01\\x02\\x01\\x00\\\\A\\x00\\x02EA\\x01\\x00F\\x81\\xc1\\x02\\x80\\x01\\x00\\x00\\xc0\\x01\\x00\\x01\\\\A\\x80\\x01\\x1e\\x00\\x80\\x00\\x17\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x00\\x00@Z@\\x03\\x00\\x00\\x00\\x00\\x00\\x80[@\\x04\\x12\\x00\\x00\\x00KeyframeAnimation\\x00\\x04\\x0f\\x00\\x00\\x00SetCurrentTime\\x00\\x03\\x9a\\x99\\x99\\x99\\x99\\x99\\xd9?\\x04\\x14\\x00\\x00\\x00AnimationController\\x00\\x04\\x11\\x00\\x00\\x00BlendToAnimation\\x00\\x04\\x08\\x00\\x00\\x00Program\\x00\\x04\\x05\\x00\\x00\\x00Wait\\x00\\x03\\x00\\x00\\x00\\x00\\x00\\x00\\xd0?\\x04\\x06\\x00\\x00\\x00texts\\x00\\x04\\x05\\x00\\x00\\x00Math\\x00\\x04\\n\\x00\\x00\\x00RandomInt\\x00\\x03\\x00\\x00\\x00\\x00\\x00\\x00\\xf0?\\x04\\x0f\\x00\\x00\\x00ShowTextBubble\\x00\\x04\\x0b\\x00\\x00\\x00identifier\\x00\\x04\\x08\\x00\\x00\\x00_bubble\\x00\\x04\\t\\x00\\x00\\x00position\\x00\\x04\\x08\\x00\\x00\\x00Vector3\\x00\\x04\\x04\\x00\\x00\\x00New\\x00\\x03\\x00\\x00\\x00\\x00\\x00\\x004@\\x03\\x00\\x00\\x00\\x00\\x00\\x80Q@\\x03\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00:\\x00\\x00\\x00\\x01\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x06\\x00\\x00\\x00\\x06\\x00\\x00\\x00\\x06\\x00\\x00\\x00\\x06\\x00\\x00\\x00\\x06\\x00\\x00\\x00\\x06\\x00\\x00\\x00\\x07\\x00\\x00\\x00\\x07\\x00\\x00\\x00\\x07\\x00\\x00\\x00\\x07\\x00\\x00\\x00\\x07\\x00\\x00\\x00\\t\\x00\\x00\\x00\\t\\x00\\x00\\x00\\t\\x00\\x00\\x00\\t\\x00\\x00\\x00\\x0b\\x00\\x00\\x00\\x0b\\x00\\x00\\x00\\x0b\\x00\\x00\\x00\\x0b\\x00\\x00\\x00\\x0b\\x00\\x00\\x00\\x0b\\x00\\x00\\x00\\x0b\\x00\\x00\\x00\\x0b\\x00\\x00\\x00\\r\\x00\\x00\\x00\\r\\x00\\x00\\x00\\r\\x00\\x00\\x00\\r\\x00\\x00\\x00\\r\\x00\\x00\\x00\\r\\x00\\x00\\x00\\r\\x00\\x00\\x00\\r\\x00\\x00\\x00\\r\\x00\\x00\\x00\\r\\x00\\x00\\x00\\r\\x00\\x00\\x00\\r\\x00\\x00\\x00\\r\\x00\\x00\\x00\\r\\x00\\x00\\x00\\r\\x00\\x00\\x00\\r\\x00\\x00\\x00\\x0f\\x00\\x00\\x00\\x0f\\x00\\x00\\x00\\x0f\\x00\\x00\\x00\\x0f\\x00\\x00\\x00\\x11\\x00\\x00\\x00\\x11\\x00\\x00\\x00\\x11\\x00\\x00\\x00\\x11\\x00\\x00\\x00\\x11\\x00\\x00\\x00\\x11\\x00\\x00\\x00\\x12\\x00\\x00\\x00\\x12\\x00\\x00\\x00\\x12\\x00\\x00\\x00\\x12\\x00\\x00\\x00\\x12\\x00\\x00\\x00\\x12\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x05\\x00\\x00\\x00self\\x00\\x01\\x00\\x00\\x009\\x00\\x00\\x00\\x10\\x00\\x00\\x00wobbleAnimation\\x00\\x02\\x00\\x00\\x009\\x00\\x00\\x00\\x10\\x00\\x00\\x00normalAnimation\\x00\\x03\\x00\\x00\\x009\\x00\\x00\\x00\\x05\\x00\\x00\\x00text\\x00\\x1a\\x00\\x00\\x009\\x00\\x00\\x00\\x07\\x00\\x00\\x00bubble\\x00*\\x00\\x00\\x009\\x00\\x00\\x00\\x00\\x00\\x00\\x00",
+				},
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "CollisionShape",
+			"number" : 113,
+
+			"collision shapesub-sub-sub-block " :  {
+
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"w" : -150.0,
+					"x" : 0.0,
+					"y" : 300.0,
+					"z" : 150.0,
+				},
+			},
+
+			"collision shape 2sub-sub-sub-block " :  {
+
+				"w" : -150.0,
+				"x" : 150.0,
+
+				"lua chunksub-sub-sub-sub-block " :  {
+
+					"main chunk" : "chunk >
+
+					=== lua =============
+					local self, target = ...;
+					
+					if target:identifier() == \"hero\" and EntityController.IsIdle(self) then
+					
+						EntityController.PerformAction(self, 112);
+					
+					end
+					
+
+					=====================",
+					"secondary chunk" : "\\x1bLuaQ\\x00\\x01\\x04\\x04\\x04\\x08\\x00\\x9d\\x00\\x00\\x00local self, target = ...;\\r\\n\\r\\nif target:identifier() == \"hero\" and EntityController.IsIdle(self) then\\r\\n\\r\\n\\tEntityController.PerformAction(self, 112);\\r\\n\\r\\nend\\r\\n\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x02\\x05\\x11\\x00\\x00\\x00%\\x00\\x80\\x01\\x8b\\x00\\xc0\\x00\\x9c\\x80\\x00\\x01\\x17@@\\x01\\x16\\x80\\x02\\x80\\x85\\x80\\x00\\x00\\x86\\xc0@\\x01\\xc0\\x00\\x00\\x00\\x9c\\x80\\x00\\x01\\x9a\\x00\\x00\\x00\\x16\\x00\\x01\\x80\\x85\\x80\\x00\\x00\\x86\\x00A\\x01\\xc0\\x00\\x00\\x00\\x01A\\x01\\x00\\x9c@\\x80\\x01\\x1e\\x00\\x80\\x00\\x06\\x00\\x00\\x00\\x04\\x0b\\x00\\x00\\x00identifier\\x00\\x04\\x05\\x00\\x00\\x00hero\\x00\\x04\\x11\\x00\\x00\\x00EntityController\\x00\\x04\\x07\\x00\\x00\\x00IsIdle\\x00\\x04\\x0e\\x00\\x00\\x00PerformAction\\x00\\x03\\x00\\x00\\x00\\x00\\x00\\x00\\\\@\\x00\\x00\\x00\\x00\\x11\\x00\\x00\\x00\\x01\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x07\\x00\\x00\\x00\\x02\\x00\\x00\\x00\\x05\\x00\\x00\\x00self\\x00\\x01\\x00\\x00\\x00\\x10\\x00\\x00\\x00\\x07\\x00\\x00\\x00target\\x00\\x01\\x00\\x00\\x00\\x10\\x00\\x00\\x00\\x00\\x00\\x00\\x00",
+				},
+
+				"lua chunksub-sub-sub-sub-block " :  {
+
+					"main chunk" : "chunk >
+
+					=== lua =============
+					local self, target = ...;
+					
+					while not EntityController.IsIdle(self) do
+						Program.Wait(0.05);
+					end
+					
+					if target:identifier() == \"hero\" then
+						HideTextBubble(self:identifier()..\"_bubble\");
+					end
+
+					=====================",
+					"secondary chunk" : "\\x1bLuaQ\\x00\\x01\\x04\\x04\\x04\\x08\\x00\\xc1\\x00\\x00\\x00local self, target = ...;\\r\\n\\r\\nwhile not EntityController.IsIdle(self) do\\r\\n\\tProgram.Wait(0.05);\\r\\nend\\r\\n\\r\\nif target:identifier() == \"hero\" then\\r\\n\\tHideTextBubble(self:identifier()..\"_bubble\");\\r\\nend\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x02\\x05\\x17\\x00\\x00\\x00%\\x00\\x80\\x01\\x85\\x00\\x00\\x00\\x86@@\\x01\\xc0\\x00\\x00\\x00\\x9c\\x80\\x00\\x01\\x9a@\\x00\\x00\\x16\\x00\\x01\\x80\\x85\\x80\\x00\\x00\\x86\\xc0@\\x01\\xc1\\x00\\x01\\x00\\x9c@\\x00\\x01\\x16\\x00\\xfd\\x7f\\x8b@\\xc1\\x00\\x9c\\x80\\x00\\x01\\x17\\x80A\\x01\\x16@\\x01\\x80\\x85\\xc0\\x01\\x00\\xcb@A\\x00\\xdc\\x80\\x00\\x01\\x01\\x01\\x02\\x00\\xd5\\x00\\x81\\x01\\x9c@\\x00\\x01\\x1e\\x00\\x80\\x00\\t\\x00\\x00\\x00\\x04\\x11\\x00\\x00\\x00EntityController\\x00\\x04\\x07\\x00\\x00\\x00IsIdle\\x00\\x04\\x08\\x00\\x00\\x00Program\\x00\\x04\\x05\\x00\\x00\\x00Wait\\x00\\x03\\x9a\\x99\\x99\\x99\\x99\\x99\\xa9?\\x04\\x0b\\x00\\x00\\x00identifier\\x00\\x04\\x05\\x00\\x00\\x00hero\\x00\\x04\\x0f\\x00\\x00\\x00HideTextBubble\\x00\\x04\\x08\\x00\\x00\\x00_bubble\\x00\\x00\\x00\\x00\\x00\\x17\\x00\\x00\\x00\\x01\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x07\\x00\\x00\\x00\\x07\\x00\\x00\\x00\\x07\\x00\\x00\\x00\\x07\\x00\\x00\\x00\\x08\\x00\\x00\\x00\\x08\\x00\\x00\\x00\\x08\\x00\\x00\\x00\\x08\\x00\\x00\\x00\\x08\\x00\\x00\\x00\\x08\\x00\\x00\\x00\\t\\x00\\x00\\x00\\x02\\x00\\x00\\x00\\x05\\x00\\x00\\x00self\\x00\\x01\\x00\\x00\\x00\\x16\\x00\\x00\\x00\\x07\\x00\\x00\\x00target\\x00\\x01\\x00\\x00\\x00\\x16\\x00\\x00\\x00\\x00\\x00\\x00\\x00",
+				},
+				"z" : 1,
+			},
+		},
+
+		"positionsub-sub-block " :  {
+
+			"x position" : 0.0,
+			"y position" : 0.0,
+		},
+		"z position" : 0.0,
+		"rotation" : 0.0,
+		"scale" : 1.0,
+
+		"u0sub-sub-block " :  {
+
+			"w" : -150.0,
+			"x" : 0.0,
+			"y" : 300.0,
+			"z" : 150.0,
+		},
+		"hidden" : 0,
+	},
+	"u0" : 0.699999988079071,
+},
+
+"?itemblock " :  {
+
+
+	"?sub-itemsub-block " :  {
+
+		"name" : "snowfall",
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "ParticleEmitter",
+			"number" : 101,
+
+			"particle emittersub-sub-sub-block " :  {
+
+				"particle" : 102,
+				"u1" : 0,
+				"u2" : 100,
+				"u3" : 0,
+				"u4" : 0,
+
+				"u5sub-sub-sub-sub-block " :  {
+
+					"u0" : 5,
+
+					"u1sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 1.0,
+						"x" : 1.0,
+						"y" : 1.0,
+						"z" : 0.7333333492279053,
+					},
+					"u2" : 270.0,
+					"u2" : 0.0,
+					"u2" : 0.0,
+					"u2" : 1500.0,
+					"u2" : 100.0,
+					"u2" : 120.0,
+					"u2" : 0.0,
+					"u2" : 0.0,
+					"u2" : 0.800000011920929,
+					"u2" : 0.0,
+					"u2" : 1.0,
+					"u2" : 0.05000000074505806,
+					"u2" : 5.0,
+					"u2" : 0.0,
+					"u2" : 0.30000001192092896,
+					"u3" : 0.0,
+					"u4" : 0.0,
+					"u5" : 0.0,
+
+					"u6sub-sub-sub-sub-sub-block " :  {
+
+						"u0" : 0.0,
+						"u1" : 0.0,
+						"u2" : 0.0,
+					},
+				},
+				"u6" : 0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Particle",
+			"number" : 102,
+
+			"particlesub-sub-sub-block " :  {
+
+				"name" : "particle_fure_1",
+				"u0" : 10.0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Program",
+			"number" : 103,
+
+			"programsub-sub-sub-block " :  {
+
+				"u0" : 1,
+
+				"lua chunksub-sub-sub-sub-block " :  {
+
+					"main chunk" : "chunk >
+
+					=== lua =============
+					local self = ...;
+					
+					self:setAlwaysActive(true);
+					
+					Program.Wait(0.01);
+					
+					local hero = Scene.Find(\"hero\");
+					
+					while true do
+						self:setPosition(hero:position() + Vector3.New(0, 110, 100));
+						Program.Wait(0.01);
+					end
+
+					=====================",
+					"secondary chunk" : "\\x1bLuaQ\\x00\\x01\\x04\\x04\\x04\\x08\\x00\\xd8\\x00\\x00\\x00local self = ...;\\r\\n\\r\\nself:setAlwaysActive(true);\\r\\n\\r\\nProgram.Wait(0.01);\\r\\n\\r\\nlocal hero = Scene.Find(\"hero\");\\r\\n\\r\\nwhile true do\\r\\n\\tself:setPosition(hero:position() + Vector3.New(0, 110, 100));\\r\\n\\tProgram.Wait(0.01);\\r\\nend\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x02\\t\\x1d\\x00\\x00\\x00%\\x00\\x00\\x01K\\x00@\\x00\\xc2\\x00\\x80\\x00\\\\@\\x80\\x01E@\\x00\\x00F\\x80\\xc0\\x00\\x81\\xc0\\x00\\x00\\\\@\\x00\\x01E\\x00\\x01\\x00F@\\xc1\\x00\\x81\\x80\\x01\\x00\\\\\\x80\\x00\\x01\\x8b\\xc0A\\x00\\x0b\\x01\\xc2\\x00\\x1c\\x81\\x00\\x01EA\\x02\\x00F\\x81\\xc2\\x02\\x81\\xc1\\x02\\x00\\xc1\\x01\\x03\\x00\\x01B\\x03\\x00\\\\\\x81\\x00\\x02\\x0cA\\x01\\x02\\x9c@\\x80\\x01\\x85@\\x00\\x00\\x86\\x80@\\x01\\xc1\\xc0\\x00\\x00\\x9c@\\x00\\x01\\x16\\xc0\\xfb\\x7f\\x1e\\x00\\x80\\x00\\x0e\\x00\\x00\\x00\\x04\\x10\\x00\\x00\\x00setAlwaysActive\\x00\\x04\\x08\\x00\\x00\\x00Program\\x00\\x04\\x05\\x00\\x00\\x00Wait\\x00\\x03{\\x14\\xaeG\\xe1z\\x84?\\x04\\x06\\x00\\x00\\x00Scene\\x00\\x04\\x05\\x00\\x00\\x00Find\\x00\\x04\\x05\\x00\\x00\\x00hero\\x00\\x04\\x0c\\x00\\x00\\x00setPosition\\x00\\x04\\t\\x00\\x00\\x00position\\x00\\x04\\x08\\x00\\x00\\x00Vector3\\x00\\x04\\x04\\x00\\x00\\x00New\\x00\\x03\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x00\\x00\\x80[@\\x03\\x00\\x00\\x00\\x00\\x00\\x00Y@\\x00\\x00\\x00\\x00\\x1d\\x00\\x00\\x00\\x01\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x07\\x00\\x00\\x00\\x07\\x00\\x00\\x00\\x07\\x00\\x00\\x00\\x07\\x00\\x00\\x00\\n\\x00\\x00\\x00\\n\\x00\\x00\\x00\\n\\x00\\x00\\x00\\n\\x00\\x00\\x00\\n\\x00\\x00\\x00\\n\\x00\\x00\\x00\\n\\x00\\x00\\x00\\n\\x00\\x00\\x00\\n\\x00\\x00\\x00\\n\\x00\\x00\\x00\\n\\x00\\x00\\x00\\x0b\\x00\\x00\\x00\\x0b\\x00\\x00\\x00\\x0b\\x00\\x00\\x00\\x0b\\x00\\x00\\x00\\x0b\\x00\\x00\\x00\\x0c\\x00\\x00\\x00\\x02\\x00\\x00\\x00\\x05\\x00\\x00\\x00self\\x00\\x01\\x00\\x00\\x00\\x1c\\x00\\x00\\x00\\x05\\x00\\x00\\x00hero\\x00\\x0c\\x00\\x00\\x00\\x1c\\x00\\x00\\x00\\x00\\x00\\x00\\x00",
+				},
+				"u1" : 1,
+				"u2" : 10,
+			},
+		},
+
+		"positionsub-sub-block " :  {
+
+			"x position" : 0.0,
+			"y position" : 0.0,
+		},
+		"z position" : 0.0,
+		"rotation" : 0.0,
+		"scale" : 1.0,
+
+		"u0sub-sub-block " :  {
+
+			"w" : -10.0,
+			"x" : -10.0,
+			"y" : 20.0,
+			"z" : 20.0,
+		},
+		"hidden" : 0,
+	},
+	"u0" : 1.0,
+},
+
+"?itemblock " :  {
+
+
+	"?sub-itemsub-block " :  {
+
+		"name" : "weapon_glow",
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Transform",
+			"number" : 4,
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "WeaponGlow",
+			"number" : 10,
+
+			"weapon glowsub-sub-sub-block " :  {
+
+				"u0" : 12,
+
+				"u1sub-sub-sub-sub-block " :  {
+
+					"w" : 0.8705882430076599,
+					"x" : 0.4588235318660736,
+					"y" : 0.250980406999588,
+					"z" : 0.0,
+				},
+
+				"u2sub-sub-sub-sub-block " :  {
+
+					"w" : 0.04313725605607033,
+					"x" : 0.34117648005485535,
+					"y" : 0.21960784494876862,
+					"z" : 0.0,
+				},
+				"u2" : 8.0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "ParticleEmitter",
+			"number" : 12,
+			"name" : "glow",
+
+			"particle emittersub-sub-sub-block " :  {
+
+				"particle" : 13,
+				"particle" : 14,
+				"particle" : 15,
+				"u1" : 0,
+				"u2" : 70,
+				"u3" : 0,
+				"u4" : 0,
+
+				"u5sub-sub-sub-sub-block " :  {
+
+					"u0" : 5,
+
+					"u1sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 0.4770370423793793,
+						"x" : 0.2558025121688843,
+						"y" : 0.1451852023601532,
+						"z" : 0.0,
+					},
+					"u2" : 0.0,
+					"u2" : 120.0,
+					"u2" : 0.0,
+					"u2" : 42.0,
+					"u2" : 0.0,
+					"u2" : 35.0,
+					"u2" : 0.0,
+					"u2" : 0.0,
+					"u2" : 0.30000001192092896,
+					"u2" : 1.0,
+					"u2" : 0.0,
+					"u2" : 0.00800000037997961,
+					"u2" : 0.4000000059604645,
+					"u2" : 0.0,
+					"u2" : 0.0,
+					"u3" : 0.0,
+					"u4" : 0.0,
+					"u5" : 0.0,
+
+					"u6sub-sub-sub-sub-sub-block " :  {
+
+						"u0" : 27.0,
+						"u1" : 0.0,
+						"u2" : 0.0,
+					},
+				},
+				"u6" : 1,
+
+				"u7sub-sub-sub-sub-block " :  {
+
+					"u0" : 0.0,
+					"u1" : 100.0,
+					"u2" : 0.0,
+				},
+
+				"u3sub-sub-sub-sub-block " :  {
+
+					"x" : -1.5707963705062866,
+					"y" : 0.0,
+					"z" : 0.0,
+				},
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Particle",
+			"number" : 13,
+			"name" : "glow",
+
+			"particlesub-sub-sub-block " :  {
+
+				"name" : "particle_fure_1",
+				"u0" : 40.0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Particle",
+			"number" : 14,
+			"name" : "glow",
+
+			"particlesub-sub-sub-block " :  {
+
+				"name" : "particle_fure_2",
+				"u0" : 40.0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Particle",
+			"number" : 15,
+			"name" : "glow",
+
+			"particlesub-sub-sub-block " :  {
+
+				"name" : "particle_fure_3",
+				"u0" : 40.0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "ObjectLinkController",
+			"number" : 103,
+
+			"object link controllersub-sub-sub-block " :  {
+
+				"u0" : "",
+				"u1" : "",
+
+				"u2sub-sub-sub-sub-block " :  {
+
+					"x" : 0.0,
+					"y" : 0.0,
+					"z" : 0.0,
+				},
+
+				"u3sub-sub-sub-sub-block " :  {
+
+					"x" : 0.0,
+					"y" : 0.0,
+					"z" : 2.0,
+				},
+
+				"u4sub-sub-sub-sub-block " :  {
+
+					"x" : 0.0,
+					"y" : 0.0,
+					"z" : 0.0,
+				},
+			},
+		},
+
+		"positionsub-sub-block " :  {
+
+			"x position" : 0.0,
+			"y position" : 0.0,
+		},
+		"z position" : 0.0,
+		"rotation" : 0.0,
+		"scale" : 1.0,
+
+		"u0sub-sub-block " :  {
+
+			"w" : -10.0,
+			"x" : -10.0,
+			"y" : 20.0,
+			"z" : 20.0,
+		},
+		"hidden" : 0,
+	},
+	"u0" : 1.0,
+},
+
+"?itemblock " :  {
+
+
+	"?sub-itemsub-block " :  {
+
+		"name" : "wsmoke",
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "ObjectLinkController",
+			"number" : 1,
+
+			"object link controllersub-sub-sub-block " :  {
+
+				"u0" : "",
+				"u1" : "",
+
+				"u2sub-sub-sub-sub-block " :  {
+
+					"x" : 0.0,
+					"y" : 0.0,
+					"z" : 0.0,
+				},
+
+				"u3sub-sub-sub-sub-block " :  {
+
+					"x" : 0.0,
+					"y" : 0.0,
+					"z" : 0.0,
+				},
+
+				"u4sub-sub-sub-sub-block " :  {
+
+					"x" : 0.0,
+					"y" : 0.0,
+					"z" : 0.0,
+				},
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Particle",
+			"number" : 2,
+
+			"particlesub-sub-sub-block " :  {
+
+				"name" : "particle_fure_2",
+				"u0" : 40.0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Particle",
+			"number" : 3,
+
+			"particlesub-sub-sub-block " :  {
+
+				"name" : "particle_fure_3",
+				"u0" : 40.0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Particle",
+			"number" : 101,
+
+			"particlesub-sub-sub-block " :  {
+
+				"name" : "particle_fure_1",
+				"u0" : 40.0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "ParticleEmitter",
+			"number" : 102,
+
+			"particle emittersub-sub-sub-block " :  {
+
+				"particle" : 101,
+				"particle" : 2,
+				"particle" : 3,
+				"u1" : 0,
+				"u2" : 10,
+				"u3" : 0,
+				"u4" : 1,
+
+				"u5sub-sub-sub-sub-block " :  {
+
+					"u0" : 5,
+
+					"u1sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 0.3444444537162781,
+						"x" : 0.3444444537162781,
+						"y" : 0.3444444537162781,
+						"z" : 0.0,
+					},
+					"u2" : 165.0,
+					"u2" : 30.0,
+					"u2" : 0.0,
+					"u2" : 0.0,
+					"u2" : 0.0,
+					"u2" : 70.0,
+					"u2" : 0.0,
+					"u2" : 0.30000001192092896,
+					"u2" : 0.6000000238418579,
+					"u2" : 0.5,
+					"u2" : 1.0,
+					"u2" : 0.05000000074505806,
+					"u2" : 0.30000001192092896,
+					"u2" : 0.20000000298023224,
+					"u2" : 0.30000001192092896,
+					"u3" : 0.0,
+					"u4" : 0.0,
+					"u5" : 0.0,
+
+					"u6sub-sub-sub-sub-sub-block " :  {
+
+						"u0" : 0.0,
+						"u1" : 2.0,
+						"u2" : 0.0,
+					},
+				},
+				"u6" : 0,
+			},
+		},
+
+		"positionsub-sub-block " :  {
+
+			"x position" : 0.0,
+			"y position" : 0.0,
+		},
+		"z position" : 0.0,
+		"rotation" : 0.0,
+		"scale" : 1.0,
+
+		"u0sub-sub-block " :  {
+
+			"w" : -10.0,
+			"x" : -10.0,
+			"y" : 20.0,
+			"z" : 20.0,
+		},
+		"hidden" : 0,
+	},
+	"u0" : 1.0,
+},
+"?dependancy" : "collectibles",
+"?dependancy" : "dimensional",
+"?dependancy" : "hiro",
+"?dependancy" : "programs",
+"?dependancy" : "weapons",
+
+}

@@ -1,0 +1,523 @@
+scl file name : lights (0a @ 1)
+
+?item block { (12 @ 9)
+
+
+    ?sub-item sub-block { (0a @ c)
+
+        name : fire_150_13 (12 @ f)
+
+        component sub-sub-block { (1a @ 1c)
+
+            component type : Light (0a @ 1e)
+            number : 101(10 @ 25)
+
+            light sub-sub-sub-block { (412 @ 28)
+
+                u0 : 3(08 @ 2a)
+                u1 : 1.2999999523162842 (15 @ 2c)
+
+                u2 sub-sub-sub-sub-block { (1a @ 31)
+
+                    w : 1.0 (0d @ 33)
+                    x : 0.7333333492279053 (15 @ 38)
+                    y : 0.5777778029441833 (1d @ 3d)
+                    z : 1.0 (25 @ 42)
+				}
+                u3 : 0.0 (25 @ 47)
+                u4 : 0.00019999999494757503 (2d @ 4c)
+
+                u5 sub-sub-sub-sub-block { (32 @ 51)
+
+                    x : 0.0 (0d @ 53)
+                    y : 0.0 (15 @ 58)
+                    z : 0.0 (1d @ 5d)
+				}
+                u6 : 150.0 (3d @ 62)
+			}
+		}
+
+        position sub-sub-block { (22 @ 67)
+
+            x position : 0.0 (0d @ 69)
+            y position : 0.0 (15 @ 6e)
+		}
+        z position : 0.0 (2d @ 73)
+        rotation : 0.0 (35 @ 78)
+        scale : 1.0 (3d @ 7d)
+
+        u0 sub-sub-block { (42 @ 82)
+
+            w : -10.0 (0d @ 84)
+            x : -10.0 (15 @ 89)
+            y : 20.0 (1d @ 8e)
+            z : 20.0 (25 @ 93)
+		}
+        hidden : 0(48 @ 98)
+	}
+    u0 : 1.0 (15 @ 9a)
+}
+
+?item block { (12 @ 9f)
+
+
+    ?sub-item sub-block { (0a @ a2)
+
+        name : fire_250_15 (12 @ a5)
+
+        component sub-sub-block { (1a @ b2)
+
+            component type : Light (0a @ b4)
+            number : 101(10 @ bb)
+
+            light sub-sub-sub-block { (412 @ be)
+
+                u0 : 3(08 @ c0)
+                u1 : 1.5 (15 @ c2)
+
+                u2 sub-sub-sub-sub-block { (1a @ c7)
+
+                    w : 1.0 (0d @ c9)
+                    x : 0.7555555701255798 (15 @ ce)
+                    y : 0.5333333611488342 (1d @ d3)
+                    z : 1.0 (25 @ d8)
+				}
+                u3 : 0.0 (25 @ dd)
+                u4 : 0.00019999999494757503 (2d @ e2)
+
+                u5 sub-sub-sub-sub-block { (32 @ e7)
+
+                    x : 0.0 (0d @ e9)
+                    y : 0.0 (15 @ ee)
+                    z : 0.0 (1d @ f3)
+				}
+                u6 : 250.0 (3d @ f8)
+			}
+		}
+
+        position sub-sub-block { (22 @ fd)
+
+            x position : 0.0 (0d @ ff)
+            y position : 0.0 (15 @ 104)
+		}
+        z position : 0.0 (2d @ 109)
+        rotation : 0.0 (35 @ 10e)
+        scale : 1.0 (3d @ 113)
+
+        u0 sub-sub-block { (42 @ 118)
+
+            w : -50.0 (0d @ 11a)
+            x : -50.0 (15 @ 11f)
+            y : 100.0 (1d @ 124)
+            z : 100.0 (25 @ 129)
+		}
+        hidden : 0(48 @ 12e)
+	}
+    u0 : 1.0 (15 @ 130)
+}
+
+?item block { (12 @ 135)
+
+
+    ?sub-item sub-block { (0a @ 138)
+
+        name : fire_300_15 (12 @ 13b)
+
+        component sub-sub-block { (1a @ 148)
+
+            component type : Light (0a @ 14a)
+            number : 101(10 @ 151)
+
+            light sub-sub-sub-block { (412 @ 154)
+
+                u0 : 3(08 @ 156)
+                u1 : 1.5 (15 @ 158)
+
+                u2 sub-sub-sub-sub-block { (1a @ 15d)
+
+                    w : 1.0 (0d @ 15f)
+                    x : 0.6888889074325562 (15 @ 164)
+                    y : 0.45555558800697327 (1d @ 169)
+                    z : 1.0 (25 @ 16e)
+				}
+                u3 : 0.0 (25 @ 173)
+                u4 : 0.00019999999494757503 (2d @ 178)
+
+                u5 sub-sub-sub-sub-block { (32 @ 17d)
+
+                    x : 0.0 (0d @ 17f)
+                    y : 0.0 (15 @ 184)
+                    z : 0.0 (1d @ 189)
+				}
+                u6 : 300.0 (3d @ 18e)
+			}
+		}
+
+        position sub-sub-block { (22 @ 193)
+
+            x position : 0.0 (0d @ 195)
+            y position : 0.0 (15 @ 19a)
+		}
+        z position : 0.0 (2d @ 19f)
+        rotation : 0.0 (35 @ 1a4)
+        scale : 1.0 (3d @ 1a9)
+
+        u0 sub-sub-block { (42 @ 1ae)
+
+            w : -100.0 (0d @ 1b0)
+            x : -100.0 (15 @ 1b5)
+            y : 200.0 (1d @ 1ba)
+            z : 200.0 (25 @ 1bf)
+		}
+        hidden : 0(48 @ 1c4)
+	}
+    u0 : 1.0 (15 @ 1c6)
+}
+
+?item block { (12 @ 1cb)
+
+
+    ?sub-item sub-block { (0a @ 1ce)
+
+        name : ice_150_13 (12 @ 1d1)
+
+        component sub-sub-block { (1a @ 1dd)
+
+            component type : Light (0a @ 1df)
+            number : 101(10 @ 1e6)
+
+            light sub-sub-sub-block { (412 @ 1e9)
+
+                u0 : 3(08 @ 1eb)
+                u1 : 1.2999999523162842 (15 @ 1ed)
+
+                u2 sub-sub-sub-sub-block { (1a @ 1f2)
+
+                    w : 0.5333333611488342 (0d @ 1f4)
+                    x : 0.7333333492279053 (15 @ 1f9)
+                    y : 1.0 (1d @ 1fe)
+                    z : 1.0 (25 @ 203)
+				}
+                u3 : 0.0 (25 @ 208)
+                u4 : 0.00019999999494757503 (2d @ 20d)
+
+                u5 sub-sub-sub-sub-block { (32 @ 212)
+
+                    x : 0.0 (0d @ 214)
+                    y : 0.0 (15 @ 219)
+                    z : 0.0 (1d @ 21e)
+				}
+                u6 : 150.0 (3d @ 223)
+			}
+		}
+
+        position sub-sub-block { (22 @ 228)
+
+            x position : 0.0 (0d @ 22a)
+            y position : 0.0 (15 @ 22f)
+		}
+        z position : 0.0 (2d @ 234)
+        rotation : 0.0 (35 @ 239)
+        scale : 1.0 (3d @ 23e)
+
+        u0 sub-sub-block { (42 @ 243)
+
+            w : -10.0 (0d @ 245)
+            x : -10.0 (15 @ 24a)
+            y : 20.0 (1d @ 24f)
+            z : 20.0 (25 @ 254)
+		}
+        hidden : 0(48 @ 259)
+	}
+    u0 : 1.0 (15 @ 25b)
+}
+
+?item block { (12 @ 260)
+
+
+    ?sub-item sub-block { (0a @ 263)
+
+        name : ice_250_15 (12 @ 266)
+
+        component sub-sub-block { (1a @ 272)
+
+            component type : Light (0a @ 274)
+            number : 101(10 @ 27b)
+
+            light sub-sub-sub-block { (412 @ 27e)
+
+                u0 : 3(08 @ 280)
+                u1 : 1.5 (15 @ 282)
+
+                u2 sub-sub-sub-sub-block { (1a @ 287)
+
+                    w : 0.5333333611488342 (0d @ 289)
+                    x : 0.7333333492279053 (15 @ 28e)
+                    y : 1.0 (1d @ 293)
+                    z : 1.0 (25 @ 298)
+				}
+                u3 : 0.0 (25 @ 29d)
+                u4 : 0.00019999999494757503 (2d @ 2a2)
+
+                u5 sub-sub-sub-sub-block { (32 @ 2a7)
+
+                    x : 0.0 (0d @ 2a9)
+                    y : 0.0 (15 @ 2ae)
+                    z : 0.0 (1d @ 2b3)
+				}
+                u6 : 250.0 (3d @ 2b8)
+			}
+		}
+
+        position sub-sub-block { (22 @ 2bd)
+
+            x position : 0.0 (0d @ 2bf)
+            y position : 0.0 (15 @ 2c4)
+		}
+        z position : 0.0 (2d @ 2c9)
+        rotation : 0.0 (35 @ 2ce)
+        scale : 1.0 (3d @ 2d3)
+
+        u0 sub-sub-block { (42 @ 2d8)
+
+            w : -50.0 (0d @ 2da)
+            x : -50.0 (15 @ 2df)
+            y : 100.0 (1d @ 2e4)
+            z : 100.0 (25 @ 2e9)
+		}
+        hidden : 0(48 @ 2ee)
+	}
+    u0 : 1.0 (15 @ 2f0)
+}
+
+?item block { (12 @ 2f5)
+
+
+    ?sub-item sub-block { (0a @ 2f8)
+
+        name : ice_300_15 (12 @ 2fb)
+
+        component sub-sub-block { (1a @ 307)
+
+            component type : Light (0a @ 309)
+            number : 101(10 @ 310)
+
+            light sub-sub-sub-block { (412 @ 313)
+
+                u0 : 3(08 @ 315)
+                u1 : 1.5 (15 @ 317)
+
+                u2 sub-sub-sub-sub-block { (1a @ 31c)
+
+                    w : 0.5333333611488342 (0d @ 31e)
+                    x : 0.7333333492279053 (15 @ 323)
+                    y : 1.0 (1d @ 328)
+                    z : 1.0 (25 @ 32d)
+				}
+                u3 : 0.0 (25 @ 332)
+                u4 : 0.00019999999494757503 (2d @ 337)
+
+                u5 sub-sub-sub-sub-block { (32 @ 33c)
+
+                    x : 0.0 (0d @ 33e)
+                    y : 0.0 (15 @ 343)
+                    z : 0.0 (1d @ 348)
+				}
+                u6 : 300.0 (3d @ 34d)
+			}
+		}
+
+        position sub-sub-block { (22 @ 352)
+
+            x position : 0.0 (0d @ 354)
+            y position : 0.0 (15 @ 359)
+		}
+        z position : 0.0 (2d @ 35e)
+        rotation : 0.0 (35 @ 363)
+        scale : 1.0 (3d @ 368)
+
+        u0 sub-sub-block { (42 @ 36d)
+
+            w : -100.0 (0d @ 36f)
+            x : -100.0 (15 @ 374)
+            y : 200.0 (1d @ 379)
+            z : 200.0 (25 @ 37e)
+		}
+        hidden : 0(48 @ 383)
+	}
+    u0 : 1.0 (15 @ 385)
+}
+
+?item block { (12 @ 38a)
+
+
+    ?sub-item sub-block { (0a @ 38d)
+
+        name : point_150_15 (12 @ 390)
+
+        component sub-sub-block { (1a @ 39e)
+
+            component type : Light (0a @ 3a0)
+            number : 101(10 @ 3a7)
+
+            light sub-sub-sub-block { (412 @ 3aa)
+
+                u0 : 3(08 @ 3ac)
+                u1 : 0.5 (15 @ 3ae)
+
+                u2 sub-sub-sub-sub-block { (1a @ 3b3)
+
+                    w : 1.0 (0d @ 3b5)
+                    x : 1.0 (15 @ 3ba)
+                    y : 1.0 (1d @ 3bf)
+                    z : 1.0 (25 @ 3c4)
+				}
+                u3 : 0.0 (25 @ 3c9)
+                u4 : 0.00019999999494757503 (2d @ 3ce)
+
+                u5 sub-sub-sub-sub-block { (32 @ 3d3)
+
+                    x : 0.0 (0d @ 3d5)
+                    y : 0.0 (15 @ 3da)
+                    z : 0.0 (1d @ 3df)
+				}
+                u6 : 200.0 (3d @ 3e4)
+			}
+		}
+
+        position sub-sub-block { (22 @ 3e9)
+
+            x position : 0.0 (0d @ 3eb)
+            y position : 0.0 (15 @ 3f0)
+		}
+        z position : 0.0 (2d @ 3f5)
+        rotation : 0.0 (35 @ 3fa)
+        scale : 1.0 (3d @ 3ff)
+
+        u0 sub-sub-block { (42 @ 404)
+
+            w : -10.0 (0d @ 406)
+            x : -10.0 (15 @ 40b)
+            y : 20.0 (1d @ 410)
+            z : 20.0 (25 @ 415)
+		}
+        hidden : 0(48 @ 41a)
+	}
+    u0 : 1.0 (15 @ 41c)
+}
+
+?item block { (12 @ 421)
+
+
+    ?sub-item sub-block { (0a @ 424)
+
+        name : point_250_15 (12 @ 427)
+
+        component sub-sub-block { (1a @ 435)
+
+            component type : Light (0a @ 437)
+            number : 101(10 @ 43e)
+
+            light sub-sub-sub-block { (412 @ 441)
+
+                u0 : 3(08 @ 443)
+                u1 : 1.5 (15 @ 445)
+
+                u2 sub-sub-sub-sub-block { (1a @ 44a)
+
+                    w : 1.0 (0d @ 44c)
+                    x : 1.0 (15 @ 451)
+                    y : 1.0 (1d @ 456)
+                    z : 1.0 (25 @ 45b)
+				}
+                u3 : 0.0 (25 @ 460)
+                u4 : 0.00019999999494757503 (2d @ 465)
+
+                u5 sub-sub-sub-sub-block { (32 @ 46a)
+
+                    x : 0.0 (0d @ 46c)
+                    y : 0.0 (15 @ 471)
+                    z : 0.0 (1d @ 476)
+				}
+                u6 : 250.0 (3d @ 47b)
+			}
+		}
+
+        position sub-sub-block { (22 @ 480)
+
+            x position : 0.0 (0d @ 482)
+            y position : 0.0 (15 @ 487)
+		}
+        z position : 0.0 (2d @ 48c)
+        rotation : 0.0 (35 @ 491)
+        scale : 1.0 (3d @ 496)
+
+        u0 sub-sub-block { (42 @ 49b)
+
+            w : -50.0 (0d @ 49d)
+            x : -50.0 (15 @ 4a2)
+            y : 100.0 (1d @ 4a7)
+            z : 100.0 (25 @ 4ac)
+		}
+        hidden : 0(48 @ 4b1)
+	}
+    u0 : 1.0 (15 @ 4b3)
+}
+
+?item block { (12 @ 4b8)
+
+
+    ?sub-item sub-block { (0a @ 4bb)
+
+        name : point_300_15 (12 @ 4be)
+
+        component sub-sub-block { (1a @ 4cc)
+
+            component type : Light (0a @ 4ce)
+            number : 101(10 @ 4d5)
+
+            light sub-sub-sub-block { (412 @ 4d8)
+
+                u0 : 3(08 @ 4da)
+                u1 : 1.5 (15 @ 4dc)
+
+                u2 sub-sub-sub-sub-block { (1a @ 4e1)
+
+                    w : 1.0 (0d @ 4e3)
+                    x : 1.0 (15 @ 4e8)
+                    y : 1.0 (1d @ 4ed)
+                    z : 1.0 (25 @ 4f2)
+				}
+                u3 : 0.0 (25 @ 4f7)
+                u4 : 0.00019999999494757503 (2d @ 4fc)
+
+                u5 sub-sub-sub-sub-block { (32 @ 501)
+
+                    x : 0.0 (0d @ 503)
+                    y : 0.0 (15 @ 508)
+                    z : 0.0 (1d @ 50d)
+				}
+                u6 : 300.0 (3d @ 512)
+			}
+		}
+
+        position sub-sub-block { (22 @ 517)
+
+            x position : 0.0 (0d @ 519)
+            y position : 0.0 (15 @ 51e)
+		}
+        z position : 0.0 (2d @ 523)
+        rotation : 0.0 (35 @ 528)
+        scale : 1.0 (3d @ 52d)
+
+        u0 sub-sub-block { (42 @ 532)
+
+            w : -100.0 (0d @ 534)
+            x : -100.0 (15 @ 539)
+            y : 200.0 (1d @ 53e)
+            z : 200.0 (25 @ 543)
+		}
+        hidden : 0(48 @ 548)
+	}
+    u0 : 1.0 (15 @ 54a)
+}

@@ -1,0 +1,445 @@
+data = {
+"scl file name" : "statues",
+
+"?itemblock " :  {
+
+
+	"?sub-itemsub-block " :  {
+
+		"name" : "statue_holder",
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "CollisionShape",
+			"number" : 1,
+			"? linked component" : 100,
+
+			"collision shapesub-sub-sub-block " :  {
+
+
+				"u2sub-sub-sub-sub-block " :  {
+
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"y" : 43.53245162963867,
+						"z" : -587.0897827148438,
+					},
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"y" : 33.3641357421875,
+						"z" : 586.862060546875,
+					},
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"y" : -43.53245544433594,
+						"z" : 587.0897216796875,
+					},
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"y" : -37.33473587036133,
+						"z" : -584.0916137695312,
+					},
+					"u3" : 0,
+					"u4" : 1,
+				},
+			},
+
+			"collision shape 2sub-sub-sub-block " :  {
+
+				"u0" : 1,
+				"w" : -30.0,
+				"x" : 30.0,
+				"z" : 1,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "GroundPolygon",
+			"number" : 100,
+
+			"ground polygonsub-sub-sub-block " :  {
+
+
+				"sub-sub-sub-sub-block " :  {
+
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"x" : 43.53245162963867,
+						"y" : -587.0897827148438,
+					},
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"x" : 33.3641357421875,
+						"y" : 586.862060546875,
+					},
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"x" : -43.53245544433594,
+						"y" : 587.0897216796875,
+					},
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"x" : -37.33473587036133,
+						"y" : -584.0916137695312,
+					},
+					"u0" : 0,
+					"u1" : 1,
+				},
+				"u1" : 1,
+				"u2" : -30.0,
+				"u3" : 30.0,
+				"u4" : "",
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "GroundMesh",
+			"number" : 101,
+
+			"ground meshsub-sub-sub-block " :  {
+
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"w" : -53.53245544433594,
+					"x" : -597.0897827148438,
+					"y" : 107.06491088867188,
+					"z" : 1194.179443359375,
+				},
+
+				"u1sub-sub-sub-sub-block " :  {
+
+					"u0" : 20,
+					"u1" : 14,
+
+					"u2sub-sub-sub-sub-sub-block " :  {
+
+						"u0" : 4,
+						"u1" : 1,
+						"u2" : 2,
+						"u3" : 0,
+					},
+
+					"u3sub-sub-sub-sub-sub-block " :  {
+
+						"u0" : 7,
+						"u1" : 3,
+						"u2" : 32,
+						"u3" : 0,
+					},
+
+					"u4sub-sub-sub-sub-sub-block " :  {
+
+						"u0" : 7,
+						"u1" : 3,
+						"u2" : 32,
+						"u3" : 12,
+					},
+
+					"u5sub-sub-sub-sub-sub-block " :  {
+
+						"u0" : 7,
+						"u1" : 2,
+						"u2" : 32,
+						"u3" : 24,
+					},
+
+					"u6sub-sub-sub-sub-sub-block " :  {
+
+
+						"u0sub-sub-sub-sub-sub-sub-block " :  {
+
+							"w" : 1.0,
+							"x" : 1.0,
+							"y" : 1.0,
+							"z" : 1.0,
+						},
+
+						"u1sub-sub-sub-sub-sub-sub-block " :  {
+
+							"w" : 1.0,
+							"x" : 1.0,
+							"y" : 1.0,
+							"z" : 1.0,
+						},
+
+						"u2sub-sub-sub-sub-sub-sub-block " :  {
+
+							"w" : 1.0,
+							"x" : 1.0,
+							"y" : 1.0,
+							"z" : 1.0,
+						},
+						"u3" : 0.0,
+						"u4" : "\\n\\x0cgraveyard256\\x10\\x00 \\x02",
+					},
+
+					"u7sub-sub-sub-sub-sub-block " :  {
+
+						"u" : -46.532440185546875,
+						"v" : 556.8531494140625,
+						"w" : -35.0,
+						"x" : 82.89656066894531,
+						"y" : 30.2454833984375,
+						"z" : 70.0,
+					},
+					"u8" : "\\xddt\\x11B\\x9a\\xb6\\x12D\\x00\\x00\\xf0\\xc1\\xa6\\x06B;\\xb7\\xff\\x7f?\\x00\\x00\\x00\\x00\\x00\\x00\\x00?\\x00\\x00\\x80>\\xddt\\x11B\\x9a\\xb6\\x12D\\x00\\x00\\xf0A\\xa6\\x06B;\\xb7\\xff\\x7f?\\x00\\x00\\x00\\x00\\x00\\x00\\x00?\\x00\\x00@?\\xddt\\x11B\\x9a\\xb6\\x0fD\\x00\\x00\\x0cB\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xcd\\xcc\\xcc>\\xab\\xaaJ?\\xddt\\x11B\\x9a6\\x0bD\\xcd\\xcc\\xf0A\\xa6\\x06B\\xbb\\xb7\\xff\\x7f\\xbf\\x00\\x00\\x00\\x80\\x00\\x00\\x80>\\x9d6@?\\xddt\\x11B\\x9a6\\x0bD33\\xef\\xc1\\xa6\\x06B\\xbb\\xb7\\xff\\x7f\\xbf\\x00\\x00\\x00\\x80\\x00\\x00\\x80>:m\\x80>\\xddt\\x11B\\x9a\\xb6\\x0fD\\x00\\x00\\x0c\\xc2\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xcd\\xcc\\xcc>UUU>\\xddt\\x11B\\x9a\\xb6\\x12D\\x00\\x00\\xf0\\xc1\\xa6\\x06B;\\xb7\\xff\\x7f?\\x00\\x00\\x00\\x00\\x00\\x00\\x00?\\x00\\x00\\x80>\\xddt\\x11B\\x9a\\xb6\\x12D\\x00\\x00\\xf0A\\xa6\\x06B;\\xb7\\xff\\x7f?\\x00\\x00\\x00\\x00\\x00\\x00\\x00?\\x00\\x00@?\\xddt\\x11B\\x9a\\xb6\\x0fD\\x00\\x00\\x0cB\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\x00\\x00\\x00?\\xbc\\xbb[?\\xddt\\x11B\\x9a6\\x0bD\\xcd\\xcc\\xf0A\\xa6\\x06B\\xbb\\xb7\\xff\\x7f\\xbf\\x00\\x00\\x00\\x80\\x00\\x00\\x00?\\xef\\xc3\\x81?8!:\\xc2P\\xc6\\x12D\\x00\\x00\\xf0\\xc1\\xa6\\x06B;\\xb7\\xff\\x7f?\\x00\\x00\\x00\\x00\\xfd\\x05\\x92?\\x00\\x00\\x80>8!:\\xc2P\\xc6\\x12D\\x00\\x00\\xf0A\\xa6\\x06B;\\xb7\\xff\\x7f?\\x00\\x00\\x00\\x00\\xfd\\x05\\x92?\\x00\\x00@?8!:\\xc2P\\xc6\\x0fD\\x00\\x00\\x0cB\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xfd\\x05\\x92?\\xbc\\xbb[?8!:\\xc2PF\\x0bD\\xcd\\xcc\\xf0A\\xa6\\x06B\\xbb\\xb7\\xff\\x7f\\xbf\\x00\\x00\\x00\\x80\\xfd\\x05\\x92?\\xef\\xc3\\x81?8!:\\xc2P\\xc6\\x12D\\x00\\x00\\xf0\\xc1\\xa6\\x06B;\\xb7\\xff\\x7f?\\x00\\x00\\x00\\x00\\xfd\\x05\\x92?\\x00\\x00\\x80>8!:\\xc2P\\xc6\\x12D\\x00\\x00\\xf0A\\xa6\\x06B;\\xb7\\xff\\x7f?\\x00\\x00\\x00\\x00\\xfd\\x05\\x92?\\x00\\x00@?8!:\\xc2P\\xc6\\x0fD\\x00\\x00\\x0cB\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xca\\xd2\\x9e?\\xab\\xaaJ?8!:\\xc2PF\\x0bD\\xcd\\xcc\\xf0A\\xa6\\x06B\\xbb\\xb7\\xff\\x7f\\xbf\\x00\\x00\\x00\\x80\\xfd\\x05\\xb2?\\x9d6@?8!:\\xc2PF\\x0bD33\\xef\\xc1\\xa6\\x06B\\xbb\\xb7\\xff\\x7f\\xbf\\x00\\x00\\x00\\x80\\xfd\\x05\\xb2?:m\\x80>8!:\\xc2P\\xc6\\x0fD\\x00\\x00\\x0c\\xc2\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xca\\xd2\\x9e?UUU>",
+					"u9" : "\\x00\\x00\\x04\\x00\\x05\\x00\\x00\\x00\\x03\\x00\\x04\\x00\\x00\\x00\\x01\\x00\\x03\\x00\\x01\\x00\\x02\\x00\\x03\\x00\\x06\\x00\\n\\x00\\x0b\\x00\\x07\\x00\\x06\\x00\\x0b\\x00\\x07\\x00\\x0b\\x00\\x0c\\x00\\x08\\x00\\x07\\x00\\x0c\\x00\\x08\\x00\\x0c\\x00\\r\\x00\\t\\x00\\x08\\x00\\r\\x00\\x0e\\x00\\x13\\x00\\x12\\x00\\x0e\\x00\\x12\\x00\\x11\\x00\\x0e\\x00\\x11\\x00\\x0f\\x00\\x11\\x00\\x10\\x00\\x0f\\x00",
+				},
+
+				"u1sub-sub-sub-sub-block " :  {
+
+					"u0" : 8,
+					"u1" : 6,
+
+					"u2sub-sub-sub-sub-sub-block " :  {
+
+						"u0" : 4,
+						"u1" : 1,
+						"u2" : 2,
+						"u3" : 0,
+					},
+
+					"u3sub-sub-sub-sub-sub-block " :  {
+
+						"u0" : 7,
+						"u1" : 3,
+						"u2" : 32,
+						"u3" : 0,
+					},
+
+					"u4sub-sub-sub-sub-sub-block " :  {
+
+						"u0" : 7,
+						"u1" : 3,
+						"u2" : 32,
+						"u3" : 12,
+					},
+
+					"u5sub-sub-sub-sub-sub-block " :  {
+
+						"u0" : 7,
+						"u1" : 2,
+						"u2" : 32,
+						"u3" : 24,
+					},
+
+					"u6sub-sub-sub-sub-sub-block " :  {
+
+
+						"u0sub-sub-sub-sub-sub-sub-block " :  {
+
+							"w" : 1.0,
+							"x" : 1.0,
+							"y" : 1.0,
+							"z" : 1.0,
+						},
+
+						"u1sub-sub-sub-sub-sub-sub-block " :  {
+
+							"w" : 1.0,
+							"x" : 1.0,
+							"y" : 1.0,
+							"z" : 1.0,
+						},
+
+						"u2sub-sub-sub-sub-sub-sub-block " :  {
+
+							"w" : 1.0,
+							"x" : 1.0,
+							"y" : 1.0,
+							"z" : 1.0,
+						},
+						"u3" : 0.0,
+						"u4" : "\\n\\x0cgraveyard256\\x10\\x00 \\x02",
+					},
+
+					"u7sub-sub-sub-sub-sub-block " :  {
+
+						"u" : -43.53245544433594,
+						"v" : -587.0897827148438,
+						"w" : -25.0,
+						"x" : 87.06491088867188,
+						"y" : 1174.1795654296875,
+						"z" : 50.0,
+					},
+					"u8" : "<!.\\xc2\\xbe\\xc5\\x12D\\x00\\x00\\xc8\\xc1\\x15\\xff\\x7f\\xbf\\xa8f\\xad\\xbb\\x00\\x00\\x00\\x00\\x00\\x00\\x00?UU\\x95><!.\\xc2\\xbe\\xc5\\x12D\\x00\\x00\\xc8A\\x15\\xff\\x7f\\xbf\\xa8f\\xad\\xbb\\x00\\x00\\x00\\x00\\x00\\x00\\x00?UU5?\\xc5V\\x15\\xc2\\xdd\\x05\\x12\\xc4\\x00\\x00\\xc8\\xc1\\x94L\\x7f\\xbfLq\\x97\\xbd\\x00\\x00\\x00\\x00\\xe2($AUU\\x95>\\xc5V\\x15\\xc2\\xdd\\x05\\x12\\xc4\\x00\\x00\\xc8A\\x94L\\x7f\\xbfLq\\x97\\xbd\\x00\\x00\\x00\\x00\\xe2($AUU5?;!.B\\xbf\\xc5\\x12\\xc4\\x00\\x00\\xc8\\xc1\\xe0\\x88\\x7f?\\xf7\\xdav\\xbd\\x00\\x00\\x00\\x00\\x0c\\xf3.AUU\\x95>;!.B\\xbf\\xc5\\x12\\xc4\\x00\\x00\\xc8A\\xe0\\x88\\x7f?\\xf7\\xdav\\xbd\\x00\\x00\\x00\\x00\\x0c\\xf3.AUU5?\\xe0t\\x05B,\\xb7\\x12D\\x00\\x00\\xc8\\xc1\\x8b\\xfd\\x7f?\\x12\\xe8\\r<\\x00\\x00\\x00\\x00\\xb9\\xbd\\xa5AUU\\x95>\\xe0t\\x05B,\\xb7\\x12D\\x00\\x00\\xc8A\\x8b\\xfd\\x7f?\\x12\\xe8\\r<\\x00\\x00\\x00\\x00\\xb9\\xbd\\xa5AUU5?",
+					"u9" : "\\x00\\x00\\x02\\x00\\x03\\x00\\x01\\x00\\x00\\x00\\x03\\x00\\x02\\x00\\x04\\x00\\x05\\x00\\x03\\x00\\x02\\x00\\x05\\x00\\x04\\x00\\x06\\x00\\x07\\x00\\x05\\x00\\x04\\x00\\x07\\x00",
+				},
+
+				"u2sub-sub-sub-sub-block " :  {
+
+					"u0" : 6,
+					"u1" : 2,
+
+					"u2sub-sub-sub-sub-sub-block " :  {
+
+						"u0" : 7,
+						"u1" : 3,
+						"u2" : 32,
+						"u3" : 0,
+					},
+
+					"u3sub-sub-sub-sub-sub-block " :  {
+
+						"u0" : 7,
+						"u1" : 3,
+						"u2" : 32,
+						"u3" : 12,
+					},
+
+					"u4sub-sub-sub-sub-sub-block " :  {
+
+						"u0" : 7,
+						"u1" : 2,
+						"u2" : 32,
+						"u3" : 24,
+					},
+
+					"u5sub-sub-sub-sub-sub-block " :  {
+
+
+						"u0sub-sub-sub-sub-sub-sub-block " :  {
+
+							"w" : 1.0,
+							"x" : 1.0,
+							"y" : 1.0,
+							"z" : 1.0,
+						},
+
+						"u1sub-sub-sub-sub-sub-sub-block " :  {
+
+							"w" : 1.0,
+							"x" : 1.0,
+							"y" : 1.0,
+							"z" : 1.0,
+						},
+
+						"u2sub-sub-sub-sub-sub-sub-block " :  {
+
+							"w" : 1.0,
+							"x" : 1.0,
+							"y" : 1.0,
+							"z" : 1.0,
+						},
+						"u3" : 0.0,
+
+						"u4sub-sub-sub-sub-sub-sub-block " :  {
+
+							"u0" : "graveyard256",
+							"u1" : 0,
+							"u2" : 2,
+						},
+					},
+
+					"u3sub-sub-sub-sub-sub-block " :  {
+
+						"u" : -43.53245544433594,
+						"v" : -587.0897827148438,
+						"w" : 25.0,
+						"x" : 87.06491088867188,
+						"y" : 1174.179443359375,
+						"z" : 0.0,
+					},
+					"u7" : "\\xe0t\\x05B,\\xb7\\x12D\\x00\\x00\\xc8A\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?D-G?\\x1e\\x7f\\xac@\\xc5V\\x15\\xc2\\xdd\\x05\\x12\\xc4\\x00\\x00\\xc8A\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\x06iA>\\xfd\\xc1\\x8b\\xc0;!.B\\xbf\\xc5\\x12\\xc4\\x00\\x00\\xc8A\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\x86\\xde\\\\?\\xaa\\x8e\\x8c\\xc0\\xe0t\\x05B,\\xb7\\x12D\\x00\\x00\\xc8A\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?D-G?\\x1e\\x7f\\xac@<!.\\xc2\\xbe\\xc5\\x12D\\x00\\x00\\xc8A\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xe6\\x85\\x0c>\\xa9\\x8e\\xac@\\xc5V\\x15\\xc2\\xdd\\x05\\x12\\xc4\\x00\\x00\\xc8A\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\x06iA>\\xfd\\xc1\\x8b\\xc0",
+				},
+
+				"u3sub-sub-sub-sub-block " :  {
+
+					"w" : 1.0,
+					"x" : 1.0,
+					"y" : 1.0,
+					"z" : 1.0,
+				},
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "GroundMeshGenerator",
+			"number" : 102,
+
+			"ground mesh generatorsub-sub-sub-block " :  {
+
+				"ground polygon" : 100,
+				"ground mesh" : 101,
+				"texture mapping 1" : 107,
+				"texture mapping 2" : 106,
+				"u4" : 1291618994,
+				"u5" : 0.0,
+				"u6" : 1,
+				"u7" : 50.0,
+				"u8" : 30.0,
+				"u9" : 5.0,
+				"u10" : 5.0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "TextureMapping",
+			"number" : 106,
+
+			"texture mappingsub-sub-sub-block " :  {
+
+				"texture file" : "graveyard256",
+				"u0" : 120.0,
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"u1" : 0.0,
+					"u2" : 0.0,
+				},
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "TextureMapping",
+			"number" : 107,
+
+			"texture mappingsub-sub-sub-block " :  {
+
+				"texture file" : "graveyard256",
+				"u0" : 120.0,
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"u1" : 0.0,
+					"u2" : 0.0,
+				},
+			},
+		},
+
+		"positionsub-sub-block " :  {
+
+			"x position" : 0.0,
+			"y position" : 0.0,
+		},
+		"z position" : 0.0,
+		"rotation" : 0.0,
+		"scale" : 1.0,
+
+		"u0sub-sub-block " :  {
+
+			"w" : -43.53245544433594,
+			"x" : -587.0897827148438,
+			"y" : 87.06491088867188,
+			"z" : 1174.179443359375,
+		},
+		"hidden" : 0,
+	},
+	"u0" : 1.0,
+},
+
+}

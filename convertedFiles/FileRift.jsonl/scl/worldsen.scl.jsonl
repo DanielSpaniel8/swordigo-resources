@@ -1,0 +1,3122 @@
+data = {
+"scl file name" : "worldsen",
+
+"?itemblock " :  {
+
+
+	"?sub-itemsub-block " :  {
+
+		"name" : "dropping_ground#2",
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "TransformController",
+			"number" : 1,
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Program",
+			"number" : 2,
+
+			"programsub-sub-sub-block " :  {
+
+				"u0" : 1,
+
+				"lua chunksub-sub-sub-sub-block " :  {
+
+					"main chunk" : "chunk >
+
+					=== lua =============
+					local self = ...;
+					
+					local newBlock = self:clone();
+					newBlock:setPosition(PhysicsObject.OriginalPosition(self));
+					PhysicsObject.SetEnabled(newBlock, false);
+					
+					Program.Wait(3.0);
+					
+					Scene.AddObject(newBlock);
+					TransformController.ScaleTo(newBlock, 0.01, 0);
+					TransformController.ScaleTo(newBlock, 1, 0.2);
+
+					=====================",
+					"secondary chunk" : "\\x1bLuaQ\\x00\\x01\\x04\\x04\\x04\\x08\\x002\\x01\\x00\\x00local self = ...;\\r\\n\\r\\nlocal newBlock = self:clone();\\r\\nnewBlock:setPosition(PhysicsObject.OriginalPosition(self));\\r\\nPhysicsObject.SetEnabled(newBlock, false);\\r\\n\\r\\nProgram.Wait(3.0);\\r\\n\\r\\nScene.AddObject(newBlock);\\r\\nTransformController.ScaleTo(newBlock, 0.01, 0);\\r\\nTransformController.ScaleTo(newBlock, 1, 0.2);\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x02\\x06#\\x00\\x00\\x00%\\x00\\x00\\x01K\\x00@\\x00\\\\\\x80\\x00\\x01\\x8b@\\xc0\\x00\\x05\\x81\\x00\\x00\\x06\\xc1@\\x02@\\x01\\x00\\x00\\x1c\\x01\\x00\\x01\\x9c@\\x00\\x00\\x85\\x80\\x00\\x00\\x86\\x00A\\x01\\xc0\\x00\\x80\\x00\\x02\\x01\\x00\\x00\\x9c@\\x80\\x01\\x85@\\x01\\x00\\x86\\x80A\\x01\\xc1\\xc0\\x01\\x00\\x9c@\\x00\\x01\\x85\\x00\\x02\\x00\\x86@B\\x01\\xc0\\x00\\x80\\x00\\x9c@\\x00\\x01\\x85\\x80\\x02\\x00\\x86\\xc0B\\x01\\xc0\\x00\\x80\\x00\\x01\\x01\\x03\\x00AA\\x03\\x00\\x9c@\\x00\\x02\\x85\\x80\\x02\\x00\\x86\\xc0B\\x01\\xc0\\x00\\x80\\x00\\x01\\x81\\x03\\x00A\\xc1\\x03\\x00\\x9c@\\x00\\x02\\x1e\\x00\\x80\\x00\\x10\\x00\\x00\\x00\\x04\\x06\\x00\\x00\\x00clone\\x00\\x04\\x0c\\x00\\x00\\x00setPosition\\x00\\x04\\x0e\\x00\\x00\\x00PhysicsObject\\x00\\x04\\x11\\x00\\x00\\x00OriginalPosition\\x00\\x04\\x0b\\x00\\x00\\x00SetEnabled\\x00\\x04\\x08\\x00\\x00\\x00Program\\x00\\x04\\x05\\x00\\x00\\x00Wait\\x00\\x03\\x00\\x00\\x00\\x00\\x00\\x00\\x08@\\x04\\x06\\x00\\x00\\x00Scene\\x00\\x04\\n\\x00\\x00\\x00AddObject\\x00\\x04\\x14\\x00\\x00\\x00TransformController\\x00\\x04\\x08\\x00\\x00\\x00ScaleTo\\x00\\x03{\\x14\\xaeG\\xe1z\\x84?\\x03\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x00\\x00\\x00\\xf0?\\x03\\x9a\\x99\\x99\\x99\\x99\\x99\\xc9?\\x00\\x00\\x00\\x00#\\x00\\x00\\x00\\x01\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x07\\x00\\x00\\x00\\x07\\x00\\x00\\x00\\x07\\x00\\x00\\x00\\x07\\x00\\x00\\x00\\t\\x00\\x00\\x00\\t\\x00\\x00\\x00\\t\\x00\\x00\\x00\\t\\x00\\x00\\x00\\n\\x00\\x00\\x00\\n\\x00\\x00\\x00\\n\\x00\\x00\\x00\\n\\x00\\x00\\x00\\n\\x00\\x00\\x00\\n\\x00\\x00\\x00\\x0b\\x00\\x00\\x00\\x0b\\x00\\x00\\x00\\x0b\\x00\\x00\\x00\\x0b\\x00\\x00\\x00\\x0b\\x00\\x00\\x00\\x0b\\x00\\x00\\x00\\x0b\\x00\\x00\\x00\\x02\\x00\\x00\\x00\\x05\\x00\\x00\\x00self\\x00\\x01\\x00\\x00\\x00\"\\x00\\x00\\x00\\t\\x00\\x00\\x00newBlock\\x00\\x03\\x00\\x00\\x00\"\\x00\\x00\\x00\\x00\\x00\\x00\\x00",
+				},
+				"u1" : 1,
+				"u2" : 5,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "CollisionShape",
+			"number" : 3,
+			"? linked component" : 100,
+
+			"collision shapesub-sub-sub-block " :  {
+
+
+				"u2sub-sub-sub-sub-block " :  {
+
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"y" : 25.786911010742188,
+						"z" : 38.710350036621094,
+					},
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"y" : -25.786911010742188,
+						"z" : 37.740196228027344,
+					},
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"y" : -16.473190307617188,
+						"z" : -38.710350036621094,
+					},
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"y" : 16.7816162109375,
+						"z" : -15.8463134765625,
+					},
+					"u3" : 0,
+					"u4" : 1,
+				},
+			},
+
+			"collision shape 2sub-sub-sub-block " :  {
+
+				"u0" : 1,
+				"w" : -30.0,
+				"x" : 30.0,
+
+				"lua chunksub-sub-sub-sub-block " :  {
+
+					"main chunk" : "chunk >
+
+					=== lua =============
+					local self, target, collisionNormal = ...;
+					
+					if target:identifier() == \"hero\" and collisionNormal:y() < -0.7 then
+						
+						if not PhysicsObject.IsEnabled(self) then
+							PhysicsObject.SetEnabled(self, true);
+							SoundLibrary.PlayEffect(\"chirp1\");
+						end
+					end
+
+					=====================",
+					"secondary chunk" : "\\x1bLuaQ\\x00\\x01\\x04\\x04\\x04\\x08\\x00\\xfc\\x00\\x00\\x00local self, target, collisionNormal = ...;\\r\\n\\r\\nif target:identifier() == \"hero\" and collisionNormal:y() < -0.7 then\\r\\n\\t\\r\\n\\tif not PhysicsObject.IsEnabled(self) then\\r\\n\\t\\tPhysicsObject.SetEnabled(self, true);\\r\\n\\t\\tSoundLibrary.PlayEffect(\"chirp1\");\\r\\n\\tend\\r\\nend\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x02\\x06\\x19\\x00\\x00\\x00%\\x00\\x00\\x02\\xcb\\x00\\xc0\\x00\\xdc\\x80\\x00\\x01\\x17@\\xc0\\x01\\x16\\x80\\x04\\x80\\xcb\\x80@\\x01\\xdc\\x80\\x00\\x01\\x18\\xc0\\xc0\\x01\\x16\\x80\\x03\\x80\\xc5\\x00\\x01\\x00\\xc6@\\xc1\\x01\\x00\\x01\\x00\\x00\\xdc\\x80\\x00\\x01\\xda@\\x00\\x00\\x16\\x00\\x02\\x80\\xc5\\x00\\x01\\x00\\xc6\\x80\\xc1\\x01\\x00\\x01\\x00\\x00B\\x01\\x80\\x00\\xdc@\\x80\\x01\\xc5\\xc0\\x01\\x00\\xc6\\x00\\xc2\\x01\\x01A\\x02\\x00\\xdc@\\x00\\x01\\x1e\\x00\\x80\\x00\\n\\x00\\x00\\x00\\x04\\x0b\\x00\\x00\\x00identifier\\x00\\x04\\x05\\x00\\x00\\x00hero\\x00\\x04\\x02\\x00\\x00\\x00y\\x00\\x03ffffff\\xe6\\xbf\\x04\\x0e\\x00\\x00\\x00PhysicsObject\\x00\\x04\\n\\x00\\x00\\x00IsEnabled\\x00\\x04\\x0b\\x00\\x00\\x00SetEnabled\\x00\\x04\\r\\x00\\x00\\x00SoundLibrary\\x00\\x04\\x0b\\x00\\x00\\x00PlayEffect\\x00\\x04\\x07\\x00\\x00\\x00chirp1\\x00\\x00\\x00\\x00\\x00\\x19\\x00\\x00\\x00\\x01\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x06\\x00\\x00\\x00\\x06\\x00\\x00\\x00\\x06\\x00\\x00\\x00\\x06\\x00\\x00\\x00\\x06\\x00\\x00\\x00\\x07\\x00\\x00\\x00\\x07\\x00\\x00\\x00\\x07\\x00\\x00\\x00\\x07\\x00\\x00\\x00\\t\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x05\\x00\\x00\\x00self\\x00\\x01\\x00\\x00\\x00\\x18\\x00\\x00\\x00\\x07\\x00\\x00\\x00target\\x00\\x01\\x00\\x00\\x00\\x18\\x00\\x00\\x00\\x10\\x00\\x00\\x00collisionNormal\\x00\\x01\\x00\\x00\\x00\\x18\\x00\\x00\\x00\\x00\\x00\\x00\\x00",
+				},
+				"z" : 1,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "GroundPolygon",
+			"number" : 100,
+
+			"ground polygonsub-sub-sub-block " :  {
+
+
+				"sub-sub-sub-sub-block " :  {
+
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"x" : 25.786911010742188,
+						"y" : 38.710350036621094,
+					},
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"x" : -25.786911010742188,
+						"y" : 37.740196228027344,
+					},
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"x" : -16.473190307617188,
+						"y" : -38.710350036621094,
+					},
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"x" : 16.7816162109375,
+						"y" : -15.8463134765625,
+					},
+					"u0" : 0,
+					"u1" : 1,
+				},
+				"u1" : 1,
+				"u2" : -30.0,
+				"u3" : 30.0,
+				"u4" : "\\n\\xfb\\x01local self, target, collisionNormal = ...;\\r\\n\\r\\nif target:identifier() == \"hero\" and collisionNormal:y() < -0.7 then\\r\\n\\t\\r\\n\\tif not PhysicsObject.IsEnabled(self) then\\r\\n\\t\\tPhysicsObject.SetEnabled(self, true);\\r\\n\\t\\tSoundLibrary.PlayEffect(\"chirp1\");\\r\\n\\tend\\r\\nend\\x12\\xc2\\x05\\x1bLuaQ\\x00\\x01\\x04\\x04\\x04\\x08\\x00\\xfc\\x00\\x00\\x00local self, target, collisionNormal = ...;\\r\\n\\r\\nif target:identifier() == \"hero\" and collisionNormal:y() < -0.7 then\\r\\n\\t\\r\\n\\tif not PhysicsObject.IsEnabled(self) then\\r\\n\\t\\tPhysicsObject.SetEnabled(self, true);\\r\\n\\t\\tSoundLibrary.PlayEffect(\"chirp1\");\\r\\n\\tend\\r\\nend\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x02\\x06\\x19\\x00\\x00\\x00%\\x00\\x00\\x02\\xcb\\x00\\xc0\\x00\\xdc\\x80\\x00\\x01\\x17@\\xc0\\x01\\x16\\x80\\x04\\x80\\xcb\\x80@\\x01\\xdc\\x80\\x00\\x01\\x18\\xc0\\xc0\\x01\\x16\\x80\\x03\\x80\\xc5\\x00\\x01\\x00\\xc6@\\xc1\\x01\\x00\\x01\\x00\\x00\\xdc\\x80\\x00\\x01\\xda@\\x00\\x00\\x16\\x00\\x02\\x80\\xc5\\x00\\x01\\x00\\xc6\\x80\\xc1\\x01\\x00\\x01\\x00\\x00B\\x01\\x80\\x00\\xdc@\\x80\\x01\\xc5\\xc0\\x01\\x00\\xc6\\x00\\xc2\\x01\\x01A\\x02\\x00\\xdc@\\x00\\x01\\x1e\\x00\\x80\\x00\\n\\x00\\x00\\x00\\x04\\x0b\\x00\\x00\\x00identifier\\x00\\x04\\x05\\x00\\x00\\x00hero\\x00\\x04\\x02\\x00\\x00\\x00y\\x00\\x03ffffff\\xe6\\xbf\\x04\\x0e\\x00\\x00\\x00PhysicsObject\\x00\\x04\\n\\x00\\x00\\x00IsEnabled\\x00\\x04\\x0b\\x00\\x00\\x00SetEnabled\\x00\\x04\\r\\x00\\x00\\x00SoundLibrary\\x00\\x04\\x0b\\x00\\x00\\x00PlayEffect\\x00\\x04\\x07\\x00\\x00\\x00chirp1\\x00\\x00\\x00\\x00\\x00\\x19\\x00\\x00\\x00\\x01\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x06\\x00\\x00\\x00\\x06\\x00\\x00\\x00\\x06\\x00\\x00\\x00\\x06\\x00\\x00\\x00\\x06\\x00\\x00\\x00\\x07\\x00\\x00\\x00\\x07\\x00\\x00\\x00\\x07\\x00\\x00\\x00\\x07\\x00\\x00\\x00\\t\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x05\\x00\\x00\\x00self\\x00\\x01\\x00\\x00\\x00\\x18\\x00\\x00\\x00\\x07\\x00\\x00\\x00target\\x00\\x01\\x00\\x00\\x00\\x18\\x00\\x00\\x00\\x10\\x00\\x00\\x00collisionNormal\\x00\\x01\\x00\\x00\\x00\\x18\\x00\\x00\\x00\\x00\\x00\\x00\\x00",
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "GroundMesh",
+			"number" : 101,
+
+			"ground meshsub-sub-sub-block " :  {
+
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"w" : -35.78691101074219,
+					"x" : -48.710350036621094,
+					"y" : 71.57382202148438,
+					"z" : 97.42070007324219,
+				},
+
+				"u1sub-sub-sub-sub-block " :  {
+
+					"u0" : 20,
+					"u1" : 14,
+
+					"u2sub-sub-sub-sub-sub-block " :  {
+
+						"u0" : 4,
+						"u1" : 1,
+						"u2" : 2,
+						"u3" : 0,
+					},
+
+					"u3sub-sub-sub-sub-sub-block " :  {
+
+						"u0" : 7,
+						"u1" : 3,
+						"u2" : 32,
+						"u3" : 0,
+					},
+
+					"u4sub-sub-sub-sub-sub-block " :  {
+
+						"u0" : 7,
+						"u1" : 3,
+						"u2" : 32,
+						"u3" : 12,
+					},
+
+					"u5sub-sub-sub-sub-sub-block " :  {
+
+						"u0" : 7,
+						"u1" : 2,
+						"u2" : 32,
+						"u3" : 24,
+					},
+
+					"u6sub-sub-sub-sub-sub-block " :  {
+
+
+						"u0sub-sub-sub-sub-sub-sub-block " :  {
+
+							"w" : 1.0,
+							"x" : 1.0,
+							"y" : 1.0,
+							"z" : 1.0,
+						},
+
+						"u1sub-sub-sub-sub-sub-sub-block " :  {
+
+							"w" : 1.0,
+							"x" : 1.0,
+							"y" : 1.0,
+							"z" : 1.0,
+						},
+
+						"u2sub-sub-sub-sub-sub-sub-block " :  {
+
+							"w" : 1.0,
+							"x" : 1.0,
+							"y" : 1.0,
+							"z" : 1.0,
+						},
+						"u3" : 0.0,
+						"u4" : "\\n\\x0bcrypt_tiles\\x10\\x01 \\x02",
+					},
+
+					"u7sub-sub-sub-sub-sub-block " :  {
+
+						"u" : -28.786380767822266,
+						"v" : 12.683773040771484,
+						"w" : -35.0,
+						"x" : 57.57276153564453,
+						"y" : 26.08300018310547,
+						"z" : 70.0,
+					},
+					"u8" : "\\x82J\\xe6A-\\x11\\x1bB\\x00\\x00\\xf0\\xc1~\\x12\\x9a\\xbci\\xf4\\x7f?\\x00\\x00\\x00\\x00\\x00\\x00\\x00?33\\xb3>\\x82J\\xe6A-\\x11\\x1bB\\x00\\x00\\xf0A~\\x12\\x9a\\xbci\\xf4\\x7f?\\x00\\x00\\x00\\x00\\x00\\x00\\x00?ff&?\\x82J\\xe6AZ\"\\xe6A\\x00\\x00\\x0cB\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?ff\\xe6>\\xcd\\xcc,?\\x82J\\xe6A\\xb4D\\\\A\\xcd\\xcc\\xf0A~\\x12\\x9a<i\\xf4\\x7f\\xbf\\x00\\x00\\x00\\x80\\x00\\x00\\xc0>+\\x87&?\\x82J\\xe6A\\xb4D\\\\A33\\xef\\xc1~\\x12\\x9a<i\\xf4\\x7f\\xbf\\x00\\x00\\x00\\x80\\x00\\x00\\xc0>\\xbct\\xb3>\\x82J\\xe6AZ\"\\xe6A\\x00\\x00\\x0c\\xc2\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?ff\\xe6>ff\\xa6>\\x82J\\xe6A-\\x11\\x1bB\\x00\\x00\\xf0\\xc1~\\x12\\x9a\\xbci\\xf4\\x7f?\\x00\\x00\\x00\\x00\\x00\\x00\\x00?33\\xb3>\\x82J\\xe6A-\\x11\\x1bB\\x00\\x00\\xf0A~\\x12\\x9a\\xbci\\xf4\\x7f?\\x00\\x00\\x00\\x00\\x00\\x00\\x00?ff&?\\x82J\\xe6AZ\"\\xe6A\\x00\\x00\\x0cB\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\x00\\x00\\x00?\\xf9\\xb54?\\x82J\\xe6A\\xb4D\\\\A\\xcd\\xcc\\xf0A~\\x12\\x9a<i\\xf4\\x7f\\xbf\\x00\\x00\\x00\\x80\\x00\\x00\\x00?\\xc8\\xe8H?\\x82J\\xe6\\xc1/\\xbc\\x16B\\x00\\x00\\xf0\\xc1~\\x12\\x9a\\xbci\\xf4\\x7f?\\x00\\x00\\x00\\x00\\xb3\\x06B?33\\xb3>\\x82J\\xe6\\xc1/\\xbc\\x16B\\x00\\x00\\xf0A~\\x12\\x9a\\xbci\\xf4\\x7f?\\x00\\x00\\x00\\x00\\xb3\\x06B?ff&?\\x82J\\xe6\\xc1^x\\xddA\\x00\\x00\\x0cB\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xb3\\x06B?\\xf9\\xb54?\\x82J\\xe6\\xc1\\xbc\\xf0JA\\xcd\\xcc\\xf0A~\\x12\\x9a<i\\xf4\\x7f\\xbf\\x00\\x00\\x00\\x80\\xb3\\x06B?\\xc8\\xe8H?\\x82J\\xe6\\xc1/\\xbc\\x16B\\x00\\x00\\xf0\\xc1~\\x12\\x9a\\xbci\\xf4\\x7f?\\x00\\x00\\x00\\x00\\xb3\\x06B?33\\xb3>\\x82J\\xe6\\xc1/\\xbc\\x16B\\x00\\x00\\xf0A~\\x12\\x9a\\xbci\\xf4\\x7f?\\x00\\x00\\x00\\x00\\xb3\\x06B?ff&?\\x82J\\xe6\\xc1^x\\xddA\\x00\\x00\\x0cB\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\x80\\xd3N?\\xcd\\xcc,?\\x82J\\xe6\\xc1\\xbc\\xf0JA\\xcd\\xcc\\xf0A~\\x12\\x9a<i\\xf4\\x7f\\xbf\\x00\\x00\\x00\\x80\\xb3\\x06b?+\\x87&?\\x82J\\xe6\\xc1\\xbc\\xf0JA33\\xef\\xc1~\\x12\\x9a<i\\xf4\\x7f\\xbf\\x00\\x00\\x00\\x80\\xb3\\x06b?\\xbct\\xb3>\\x82J\\xe6\\xc1^x\\xddA\\x00\\x00\\x0c\\xc2\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\x80\\xd3N?ff\\xa6>",
+					"u9" : "\\x00\\x00\\x04\\x00\\x05\\x00\\x00\\x00\\x03\\x00\\x04\\x00\\x00\\x00\\x01\\x00\\x03\\x00\\x01\\x00\\x02\\x00\\x03\\x00\\x06\\x00\\n\\x00\\x0b\\x00\\x07\\x00\\x06\\x00\\x0b\\x00\\x07\\x00\\x0b\\x00\\x0c\\x00\\x08\\x00\\x07\\x00\\x0c\\x00\\x08\\x00\\x0c\\x00\\r\\x00\\t\\x00\\x08\\x00\\r\\x00\\x0e\\x00\\x13\\x00\\x12\\x00\\x0e\\x00\\x12\\x00\\x11\\x00\\x0e\\x00\\x11\\x00\\x0f\\x00\\x11\\x00\\x10\\x00\\x0f\\x00",
+				},
+
+				"u1sub-sub-sub-sub-block " :  {
+
+					"u0" : 8,
+					"u1" : 6,
+
+					"u2sub-sub-sub-sub-sub-block " :  {
+
+						"u0" : 4,
+						"u1" : 1,
+						"u2" : 2,
+						"u3" : 0,
+					},
+
+					"u3sub-sub-sub-sub-sub-block " :  {
+
+						"u0" : 7,
+						"u1" : 3,
+						"u2" : 32,
+						"u3" : 0,
+					},
+
+					"u4sub-sub-sub-sub-sub-block " :  {
+
+						"u0" : 7,
+						"u1" : 3,
+						"u2" : 32,
+						"u3" : 12,
+					},
+
+					"u5sub-sub-sub-sub-sub-block " :  {
+
+						"u0" : 7,
+						"u1" : 2,
+						"u2" : 32,
+						"u3" : 24,
+					},
+
+					"u6sub-sub-sub-sub-sub-block " :  {
+
+
+						"u0sub-sub-sub-sub-sub-sub-block " :  {
+
+							"w" : 1.0,
+							"x" : 1.0,
+							"y" : 1.0,
+							"z" : 1.0,
+						},
+
+						"u1sub-sub-sub-sub-sub-sub-block " :  {
+
+							"w" : 1.0,
+							"x" : 1.0,
+							"y" : 1.0,
+							"z" : 1.0,
+						},
+
+						"u2sub-sub-sub-sub-sub-sub-block " :  {
+
+							"w" : 1.0,
+							"x" : 1.0,
+							"y" : 1.0,
+							"z" : 1.0,
+						},
+						"u3" : 0.0,
+						"u4" : "\\n\\x0bcrypt_tiles\\x10\\x01 \\x02",
+					},
+
+					"u7sub-sub-sub-sub-sub-block " :  {
+
+						"u" : -25.786911010742188,
+						"v" : -38.710350036621094,
+						"w" : -25.0,
+						"x" : 51.573822021484375,
+						"y" : 77.42070007324219,
+						"z" : 50.0,
+					},
+					"u8" : "\\x98K\\xce\\xc1\\xf6\\xf5\\x16B\\x00\\x00\\xc8\\xc1\\x04\\x1f~\\xbf\\x86\\xab\\xf7\\xbd\\x00\\x00\\x00\\x00\\x00\\x00\\x00?\\xcd\\xcc\\xcc>\\x98K\\xce\\xc1\\xf6\\xf5\\x16B\\x00\\x00\\xc8A\\x04\\x1f~\\xbf\\x86\\xab\\xf7\\xbd\\x00\\x00\\x00\\x00\\x00\\x00\\x00?\\x9a\\x99\\x19?\\x18\\xc9\\x83\\xc1f\\xd7\\x1a\\xc2\\x00\\x00\\xc8\\xc1-sH\\xbf5<\\x1f\\xbf\\x00\\x00\\x00\\x00:\\xddN?\\xcd\\xcc\\xcc>\\x18\\xc9\\x83\\xc1f\\xd7\\x1a\\xc2\\x00\\x00\\xc8A-sH\\xbf5<\\x1f\\xbf\\x00\\x00\\x00\\x00:\\xddN?\\x9a\\x99\\x19?\\xc0@\\x86A\\x80\\x8a}\\xc1\\x00\\x00\\xc8\\xc12\\xb4`?.O\\xf5\\xbe\\x00\\x00\\x00\\x00p0x?\\xcd\\xcc\\xcc>\\xc0@\\x86A\\x80\\x8a}\\xc1\\x00\\x00\\xc8A2\\xb4`?.O\\xf5\\xbe\\x00\\x00\\x00\\x00p0x?\\x9a\\x99\\x19?\\x98K\\xceAf\\xd7\\x1aB\\x00\\x00\\xc8\\xc1\\x0c\\x95|?\\xa0\\xc4&\\xbe\\x00\\x00\\x00\\x00\\xd5g\\x98?\\xcd\\xcc\\xcc>\\x98K\\xceAf\\xd7\\x1aB\\x00\\x00\\xc8A\\x0c\\x95|?\\xa0\\xc4&\\xbe\\x00\\x00\\x00\\x00\\xd5g\\x98?\\x9a\\x99\\x19?",
+					"u9" : "\\x00\\x00\\x02\\x00\\x03\\x00\\x01\\x00\\x00\\x00\\x03\\x00\\x02\\x00\\x04\\x00\\x05\\x00\\x03\\x00\\x02\\x00\\x05\\x00\\x04\\x00\\x06\\x00\\x07\\x00\\x05\\x00\\x04\\x00\\x07\\x00",
+				},
+
+				"u2sub-sub-sub-sub-block " :  {
+
+					"u0" : 6,
+					"u1" : 2,
+
+					"u2sub-sub-sub-sub-sub-block " :  {
+
+						"u0" : 7,
+						"u1" : 3,
+						"u2" : 32,
+						"u3" : 0,
+					},
+
+					"u3sub-sub-sub-sub-sub-block " :  {
+
+						"u0" : 7,
+						"u1" : 3,
+						"u2" : 32,
+						"u3" : 12,
+					},
+
+					"u4sub-sub-sub-sub-sub-block " :  {
+
+						"u0" : 7,
+						"u1" : 2,
+						"u2" : 32,
+						"u3" : 24,
+					},
+
+					"u5sub-sub-sub-sub-sub-block " :  {
+
+
+						"u0sub-sub-sub-sub-sub-sub-block " :  {
+
+							"w" : 1.0,
+							"x" : 1.0,
+							"y" : 1.0,
+							"z" : 1.0,
+						},
+
+						"u1sub-sub-sub-sub-sub-sub-block " :  {
+
+							"w" : 1.0,
+							"x" : 1.0,
+							"y" : 1.0,
+							"z" : 1.0,
+						},
+
+						"u2sub-sub-sub-sub-sub-sub-block " :  {
+
+							"w" : 1.0,
+							"x" : 1.0,
+							"y" : 1.0,
+							"z" : 1.0,
+						},
+						"u3" : 0.0,
+
+						"u4sub-sub-sub-sub-sub-sub-block " :  {
+
+							"u0" : "crypt_tiles",
+							"u1" : 1,
+							"u2" : 2,
+						},
+					},
+
+					"u3sub-sub-sub-sub-sub-block " :  {
+
+						"u" : -25.786911010742188,
+						"v" : -38.710350036621094,
+						"w" : 25.0,
+						"x" : 51.573822021484375,
+						"y" : 77.42070007324219,
+						"z" : 0.0,
+					},
+					"u7" : "\\x98K\\xce\\xc1\\xf6\\xf5\\x16B\\x00\\x00\\xc8A\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?;0\\xcb>^\\xa5&?\\x18\\xc9\\x83\\xc1f\\xd7\\x1a\\xc2\\x00\\x00\\xc8A\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?NC\\xde>\\xa1\\xb8\\xb0>\\xc0@\\x86A\\x80\\x8a}\\xc1\\x00\\x00\\xc8A\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?3/\\x11?\\xf8\\x8b\\xdf>\\x98K\\xce\\xc1\\xf6\\xf5\\x16B\\x00\\x00\\xc8A\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?;0\\xcb>^\\xa5&?\\xc0@\\x86A\\x80\\x8a}\\xc1\\x00\\x00\\xc8A\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?3/\\x11?\\xf8\\x8b\\xdf>\\x98K\\xceAf\\xd7\\x1aB\\x00\\x00\\xc8A\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xe2g\\x1a?\\xb0\\xa3\'?",
+				},
+
+				"u3sub-sub-sub-sub-block " :  {
+
+					"w" : 1.0,
+					"x" : 1.0,
+					"y" : 1.0,
+					"z" : 1.0,
+				},
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "GroundMeshGenerator",
+			"number" : 102,
+
+			"ground mesh generatorsub-sub-sub-block " :  {
+
+				"ground polygon" : 100,
+				"ground mesh" : 101,
+				"texture mapping 1" : 103,
+				"texture mapping 2" : 104,
+				"u4" : 0,
+				"u5" : 0.0,
+				"u6" : 1,
+				"u7" : 50.0,
+				"u8" : 25.0,
+				"u9" : 5.0,
+				"u10" : 5.0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "TextureMapping",
+			"number" : 103,
+
+			"texture mappingsub-sub-sub-block " :  {
+
+				"texture file" : "crypt_tiles",
+				"u0" : 250.0,
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"u1" : 0.0,
+					"u2" : 0.0,
+				},
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "TextureMapping",
+			"number" : 104,
+
+			"texture mappingsub-sub-sub-block " :  {
+
+				"texture file" : "crypt_tiles",
+				"u0" : 200.0,
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"u1" : 0.0,
+					"u2" : 0.0,
+				},
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "PhysicsObject",
+			"number" : 107,
+
+			"physics objectsub-sub-sub-block " :  {
+
+				"u0" : 0,
+				"u3" : 1500.0,
+				"u4" : 0.0,
+				"u5" : 700.0,
+				"u6" : 0,
+				"u7" : 0.0,
+			},
+		},
+
+		"positionsub-sub-block " :  {
+
+			"x position" : 0.0,
+			"y position" : 0.0,
+		},
+		"z position" : 0.0,
+		"rotation" : 0.0,
+		"scale" : 1.0,
+
+		"u0sub-sub-block " :  {
+
+			"w" : -25.786911010742188,
+			"x" : -38.710350036621094,
+			"y" : 51.573822021484375,
+			"z" : 77.42070007324219,
+		},
+		"hidden" : 0,
+	},
+	"u0" : 1.0,
+},
+
+"?itemblock " :  {
+
+
+	"?sub-itemsub-block " :  {
+
+		"name" : "keybox",
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "CollisionShape",
+			"number" : 1,
+
+			"collision shapesub-sub-sub-block " :  {
+
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"w" : -32.0,
+					"x" : -32.0,
+					"y" : 64.0,
+					"z" : 64.0,
+				},
+			},
+
+			"collision shape 2sub-sub-sub-block " :  {
+
+				"u0" : 1,
+				"u1" : 1,
+				"u2" : 1,
+				"w" : -15.0,
+				"x" : 15.0,
+				"y" : 7,
+				"z" : 1,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "CollisionShape",
+			"number" : 2,
+
+			"collision shapesub-sub-sub-block " :  {
+
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"w" : -50.0,
+					"x" : -25.0,
+					"y" : 100.0,
+					"z" : 50.0,
+				},
+			},
+
+			"collision shape 2sub-sub-sub-block " :  {
+
+				"w" : -15.0,
+				"x" : 15.0,
+				"y" : 1,
+				"z" : 1,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "PhysicsObject",
+			"number" : 3,
+
+			"physics objectsub-sub-sub-block " :  {
+
+				"u0" : 1,
+				"u3" : 1500.0,
+				"u4" : 0.0,
+				"u5" : 700.0,
+				"u6" : 0,
+				"u7" : 0.0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "BreakableObject",
+			"number" : 4,
+
+			"breakable objectsub-sub-sub-block " :  {
+
+				"u0" : 0,
+				"u1" : 0,
+				"u2" : 0,
+				"u3" : "",
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "TransformController",
+			"number" : 5,
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Program",
+			"number" : 6,
+
+			"programsub-sub-sub-block " :  {
+
+				"u0" : 1,
+
+				"lua chunksub-sub-sub-sub-block " :  {
+
+					"main chunk" : "chunk >
+
+					=== lua =============
+					local self = ...;
+					
+					local newObject = self:clone();
+					newObject:setPosition(PhysicsObject.OriginalPosition(self));
+					
+					Program.Wait(0.5);
+					Scene.SetPaused(true);
+					
+					Camera.FocusAtPoint(newObject:position());
+					
+					while not Camera.IsPointVisible(newObject:position()) do
+						Program.Wait(0.1);
+					end
+					
+					Program.Wait(0.5);
+					
+					Scene.AddObject(newObject);
+					TransformController.ScaleTo(newObject, 0.01, 0);
+					TransformController.ScaleTo(newObject, 1.0, 0.3);
+					
+					Program.Wait(1.0);
+					
+					Camera.ResetFocus();
+					Scene.SetPaused(false);
+					
+
+					=====================",
+					"secondary chunk" : "\\x1bLuaQ\\x00\\x01\\x04\\x04\\x04\\x08\\x00\\x08\\x02\\x00\\x00local self = ...;\\r\\n\\r\\nlocal newObject = self:clone();\\r\\nnewObject:setPosition(PhysicsObject.OriginalPosition(self));\\r\\n\\r\\nProgram.Wait(0.5);\\r\\nScene.SetPaused(true);\\r\\n\\r\\nCamera.FocusAtPoint(newObject:position());\\r\\n\\r\\nwhile not Camera.IsPointVisible(newObject:position()) do\\r\\n\\tProgram.Wait(0.1);\\r\\nend\\r\\n\\r\\nProgram.Wait(0.5);\\r\\n\\r\\nScene.AddObject(newObject);\\r\\nTransformController.ScaleTo(newObject, 0.01, 0);\\r\\nTransformController.ScaleTo(newObject, 1.0, 0.3);\\r\\n\\r\\nProgram.Wait(1.0);\\r\\n\\r\\nCamera.ResetFocus();\\r\\nScene.SetPaused(false);\\r\\n\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x02\\x06B\\x00\\x00\\x00%\\x00\\x00\\x01K\\x00@\\x00\\\\\\x80\\x00\\x01\\x8b@\\xc0\\x00\\x05\\x81\\x00\\x00\\x06\\xc1@\\x02@\\x01\\x00\\x00\\x1c\\x01\\x00\\x01\\x9c@\\x00\\x00\\x85\\x00\\x01\\x00\\x86@A\\x01\\xc1\\x80\\x01\\x00\\x9c@\\x00\\x01\\x85\\xc0\\x01\\x00\\x86\\x00B\\x01\\xc2\\x00\\x80\\x00\\x9c@\\x00\\x01\\x85@\\x02\\x00\\x86\\x80B\\x01\\xcb\\xc0\\xc2\\x00\\xdc\\x00\\x00\\x01\\x9c@\\x00\\x00\\x85@\\x02\\x00\\x86\\x00C\\x01\\xcb\\xc0\\xc2\\x00\\xdc\\x00\\x00\\x01\\x9c\\x80\\x00\\x00\\x9a@\\x00\\x00\\x16\\x00\\x01\\x80\\x85\\x00\\x01\\x00\\x86@A\\x01\\xc1@\\x03\\x00\\x9c@\\x00\\x01\\x16\\xc0\\xfc\\x7f\\x85\\x00\\x01\\x00\\x86@A\\x01\\xc1\\x80\\x01\\x00\\x9c@\\x00\\x01\\x85\\xc0\\x01\\x00\\x86\\x80C\\x01\\xc0\\x00\\x80\\x00\\x9c@\\x00\\x01\\x85\\xc0\\x03\\x00\\x86\\x00D\\x01\\xc0\\x00\\x80\\x00\\x01A\\x04\\x00A\\x81\\x04\\x00\\x9c@\\x00\\x02\\x85\\xc0\\x03\\x00\\x86\\x00D\\x01\\xc0\\x00\\x80\\x00\\x01\\xc1\\x04\\x00A\\x01\\x05\\x00\\x9c@\\x00\\x02\\x85\\x00\\x01\\x00\\x86@A\\x01\\xc1\\xc0\\x04\\x00\\x9c@\\x00\\x01\\x85@\\x02\\x00\\x86@E\\x01\\x9c@\\x80\\x00\\x85\\xc0\\x01\\x00\\x86\\x00B\\x01\\xc2\\x00\\x00\\x00\\x9c@\\x00\\x01\\x1e\\x00\\x80\\x00\\x16\\x00\\x00\\x00\\x04\\x06\\x00\\x00\\x00clone\\x00\\x04\\x0c\\x00\\x00\\x00setPosition\\x00\\x04\\x0e\\x00\\x00\\x00PhysicsObject\\x00\\x04\\x11\\x00\\x00\\x00OriginalPosition\\x00\\x04\\x08\\x00\\x00\\x00Program\\x00\\x04\\x05\\x00\\x00\\x00Wait\\x00\\x03\\x00\\x00\\x00\\x00\\x00\\x00\\xe0?\\x04\\x06\\x00\\x00\\x00Scene\\x00\\x04\\n\\x00\\x00\\x00SetPaused\\x00\\x04\\x07\\x00\\x00\\x00Camera\\x00\\x04\\r\\x00\\x00\\x00FocusAtPoint\\x00\\x04\\t\\x00\\x00\\x00position\\x00\\x04\\x0f\\x00\\x00\\x00IsPointVisible\\x00\\x03\\x9a\\x99\\x99\\x99\\x99\\x99\\xb9?\\x04\\n\\x00\\x00\\x00AddObject\\x00\\x04\\x14\\x00\\x00\\x00TransformController\\x00\\x04\\x08\\x00\\x00\\x00ScaleTo\\x00\\x03{\\x14\\xaeG\\xe1z\\x84?\\x03\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x00\\x00\\x00\\xf0?\\x03333333\\xd3?\\x04\\x0b\\x00\\x00\\x00ResetFocus\\x00\\x00\\x00\\x00\\x00B\\x00\\x00\\x00\\x01\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x06\\x00\\x00\\x00\\x06\\x00\\x00\\x00\\x06\\x00\\x00\\x00\\x06\\x00\\x00\\x00\\x07\\x00\\x00\\x00\\x07\\x00\\x00\\x00\\x07\\x00\\x00\\x00\\x07\\x00\\x00\\x00\\t\\x00\\x00\\x00\\t\\x00\\x00\\x00\\t\\x00\\x00\\x00\\t\\x00\\x00\\x00\\t\\x00\\x00\\x00\\x0b\\x00\\x00\\x00\\x0b\\x00\\x00\\x00\\x0b\\x00\\x00\\x00\\x0b\\x00\\x00\\x00\\x0b\\x00\\x00\\x00\\x0b\\x00\\x00\\x00\\x0b\\x00\\x00\\x00\\x0c\\x00\\x00\\x00\\x0c\\x00\\x00\\x00\\x0c\\x00\\x00\\x00\\x0c\\x00\\x00\\x00\\x0c\\x00\\x00\\x00\\x0f\\x00\\x00\\x00\\x0f\\x00\\x00\\x00\\x0f\\x00\\x00\\x00\\x0f\\x00\\x00\\x00\\x11\\x00\\x00\\x00\\x11\\x00\\x00\\x00\\x11\\x00\\x00\\x00\\x11\\x00\\x00\\x00\\x12\\x00\\x00\\x00\\x12\\x00\\x00\\x00\\x12\\x00\\x00\\x00\\x12\\x00\\x00\\x00\\x12\\x00\\x00\\x00\\x12\\x00\\x00\\x00\\x13\\x00\\x00\\x00\\x13\\x00\\x00\\x00\\x13\\x00\\x00\\x00\\x13\\x00\\x00\\x00\\x13\\x00\\x00\\x00\\x13\\x00\\x00\\x00\\x15\\x00\\x00\\x00\\x15\\x00\\x00\\x00\\x15\\x00\\x00\\x00\\x15\\x00\\x00\\x00\\x17\\x00\\x00\\x00\\x17\\x00\\x00\\x00\\x17\\x00\\x00\\x00\\x18\\x00\\x00\\x00\\x18\\x00\\x00\\x00\\x18\\x00\\x00\\x00\\x18\\x00\\x00\\x00\\x18\\x00\\x00\\x00\\x02\\x00\\x00\\x00\\x05\\x00\\x00\\x00self\\x00\\x01\\x00\\x00\\x00A\\x00\\x00\\x00\\n\\x00\\x00\\x00newObject\\x00\\x03\\x00\\x00\\x00A\\x00\\x00\\x00\\x00\\x00\\x00\\x00",
+				},
+				"u1" : 1,
+				"u2" : 5,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Model",
+			"number" : 101,
+
+			"3D modelsub-sub-sub-block " :  {
+
+				"name" : "box_metallic",
+				"u0" : 0.0,
+				"u1" : 0.0,
+				"u2" : 0.0,
+
+				"u3sub-sub-sub-sub-block " :  {
+
+					"w" : 0.41960784792900085,
+					"x" : 0.2235294133424759,
+					"y" : 0.1764705926179886,
+					"z" : 1.0,
+				},
+
+				"u4sub-sub-sub-sub-block " :  {
+
+					"x" : 0.0,
+					"y" : 0.0,
+					"z" : 0.0,
+				},
+				"u5" : 0,
+
+				"u6sub-sub-sub-sub-block " :  {
+
+					"w" : 1.0,
+					"x" : 1.0,
+					"y" : 1.0,
+					"z" : 1.0,
+				},
+			},
+		},
+
+		"positionsub-sub-block " :  {
+
+			"x position" : 0.0,
+			"y position" : 0.0,
+		},
+		"z position" : 0.0,
+		"rotation" : 0.0,
+		"scale" : 1.0,
+
+		"u0sub-sub-block " :  {
+
+			"w" : -50.0,
+			"x" : -32.0,
+			"y" : 100.0,
+			"z" : 64.0,
+		},
+		"hidden" : 0,
+	},
+	"u0" : 0.699999988079071,
+},
+
+"?itemblock " :  {
+
+
+	"?sub-itemsub-block " :  {
+
+		"name" : "p8_ballistic_launcher",
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "TransformController",
+			"number" : 1,
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Program",
+			"number" : 103,
+
+			"programsub-sub-sub-block " :  {
+
+				"u0" : 1,
+
+				"lua chunksub-sub-sub-sub-block " :  {
+
+					"main chunk" : "chunk >
+
+					=== lua =============
+					local self = ...;
+					
+					Program.Wait(0.5);
+					
+					while true do
+						local target = Scene.Find(\"hero\");
+						local modifier = ((target:position():x() - self:position():x() )/ 600) * 45 + Math.RandomInt(-10,10);
+						Program.Print(modifier);
+						self:setRotation( 90 -  modifier );
+						
+						local fireball = Scene.CreateObject(\"p8_fireball_ballistic\", \"f\", self);
+						fireball:setVelocity(Vector3.FromAngle(self:rotation()) * 450);
+						Program.Wait(1);
+					end
+					
+
+					=====================",
+					"secondary chunk" : "\\x1bLuaQ\\x00\\x01\\x04\\x04\\x04\\x08\\x00\\xb1\\x01\\x00\\x00local self = ...;\\r\\n\\r\\nProgram.Wait(0.5);\\r\\n\\r\\nwhile true do\\r\\n\\tlocal target = Scene.Find(\"hero\");\\r\\n\\tlocal modifier = ((target:position():x() - self:position():x() )/ 600) * 45 + Math.RandomInt(-10,10);\\r\\n\\tProgram.Print(modifier);\\r\\n\\tself:setRotation( 90 -  modifier );\\r\\n\\t\\r\\n\\tlocal fireball = Scene.CreateObject(\"p8_fireball_ballistic\", \"f\", self);\\r\\n\\tfireball:setVelocity(Vector3.FromAngle(self:rotation()) * 450);\\r\\n\\tProgram.Wait(1);\\r\\nend\\r\\n\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x02\\t5\\x00\\x00\\x00%\\x00\\x00\\x01E\\x00\\x00\\x00F@\\xc0\\x00\\x81\\x80\\x00\\x00\\\\@\\x00\\x01E\\xc0\\x00\\x00F\\x00\\xc1\\x00\\x81@\\x01\\x00\\\\\\x80\\x00\\x01\\x8b\\x80\\xc1\\x00\\x9c\\x80\\x00\\x01\\x8b\\xc0A\\x01\\x9c\\x80\\x00\\x01\\xcb\\x80A\\x00\\xdc\\x80\\x00\\x01\\xcb\\xc0\\xc1\\x01\\xdc\\x80\\x00\\x01\\x8d\\xc0\\x00\\x01\\x8f\\x00B\\x01\\x8e@B\\x01\\xc5\\x80\\x02\\x00\\xc6\\xc0\\xc2\\x01\\x01\\x01\\x03\\x00AA\\x03\\x00\\xdc\\x80\\x80\\x01\\x8c\\xc0\\x00\\x01\\xc5\\x00\\x00\\x00\\xc6\\x80\\xc3\\x01\\x00\\x01\\x00\\x01\\xdc@\\x00\\x01\\xcb\\xc0C\\x00M\\x81\\x00\\x88\\xdc@\\x80\\x01\\xc5\\xc0\\x00\\x00\\xc6@\\xc4\\x01\\x01\\x81\\x04\\x00A\\xc1\\x04\\x00\\x80\\x01\\x00\\x00\\xdc\\x80\\x00\\x02\\x0b\\x01\\xc5\\x01\\x85A\\x05\\x00\\x86\\x81E\\x03\\xcb\\xc1E\\x00\\xdc\\x01\\x00\\x01\\x9c\\x81\\x00\\x00\\x8e\\x01F\\x03\\x1cA\\x80\\x01\\x05\\x01\\x00\\x00\\x06A@\\x02AA\\x06\\x00\\x1cA\\x00\\x01\\x16\\x00\\xf4\\x7f\\x1e\\x00\\x80\\x00\\x1a\\x00\\x00\\x00\\x04\\x08\\x00\\x00\\x00Program\\x00\\x04\\x05\\x00\\x00\\x00Wait\\x00\\x03\\x00\\x00\\x00\\x00\\x00\\x00\\xe0?\\x04\\x06\\x00\\x00\\x00Scene\\x00\\x04\\x05\\x00\\x00\\x00Find\\x00\\x04\\x05\\x00\\x00\\x00hero\\x00\\x04\\t\\x00\\x00\\x00position\\x00\\x04\\x02\\x00\\x00\\x00x\\x00\\x03\\x00\\x00\\x00\\x00\\x00\\xc0\\x82@\\x03\\x00\\x00\\x00\\x00\\x00\\x80F@\\x04\\x05\\x00\\x00\\x00Math\\x00\\x04\\n\\x00\\x00\\x00RandomInt\\x00\\x03\\x00\\x00\\x00\\x00\\x00\\x00$\\xc0\\x03\\x00\\x00\\x00\\x00\\x00\\x00$@\\x04\\x06\\x00\\x00\\x00Print\\x00\\x04\\x0c\\x00\\x00\\x00setRotation\\x00\\x03\\x00\\x00\\x00\\x00\\x00\\x80V@\\x04\\r\\x00\\x00\\x00CreateObject\\x00\\x04\\x16\\x00\\x00\\x00p8_fireball_ballistic\\x00\\x04\\x02\\x00\\x00\\x00f\\x00\\x04\\x0c\\x00\\x00\\x00setVelocity\\x00\\x04\\x08\\x00\\x00\\x00Vector3\\x00\\x04\\n\\x00\\x00\\x00FromAngle\\x00\\x04\\t\\x00\\x00\\x00rotation\\x00\\x03\\x00\\x00\\x00\\x00\\x00 |@\\x03\\x00\\x00\\x00\\x00\\x00\\x00\\xf0?\\x00\\x00\\x00\\x005\\x00\\x00\\x00\\x01\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x06\\x00\\x00\\x00\\x06\\x00\\x00\\x00\\x06\\x00\\x00\\x00\\x06\\x00\\x00\\x00\\x07\\x00\\x00\\x00\\x07\\x00\\x00\\x00\\x07\\x00\\x00\\x00\\x07\\x00\\x00\\x00\\x07\\x00\\x00\\x00\\x07\\x00\\x00\\x00\\x07\\x00\\x00\\x00\\x07\\x00\\x00\\x00\\x07\\x00\\x00\\x00\\x07\\x00\\x00\\x00\\x07\\x00\\x00\\x00\\x07\\x00\\x00\\x00\\x07\\x00\\x00\\x00\\x07\\x00\\x00\\x00\\x07\\x00\\x00\\x00\\x07\\x00\\x00\\x00\\x07\\x00\\x00\\x00\\x08\\x00\\x00\\x00\\x08\\x00\\x00\\x00\\x08\\x00\\x00\\x00\\x08\\x00\\x00\\x00\\t\\x00\\x00\\x00\\t\\x00\\x00\\x00\\t\\x00\\x00\\x00\\x0b\\x00\\x00\\x00\\x0b\\x00\\x00\\x00\\x0b\\x00\\x00\\x00\\x0b\\x00\\x00\\x00\\x0b\\x00\\x00\\x00\\x0b\\x00\\x00\\x00\\x0c\\x00\\x00\\x00\\x0c\\x00\\x00\\x00\\x0c\\x00\\x00\\x00\\x0c\\x00\\x00\\x00\\x0c\\x00\\x00\\x00\\x0c\\x00\\x00\\x00\\x0c\\x00\\x00\\x00\\x0c\\x00\\x00\\x00\\r\\x00\\x00\\x00\\r\\x00\\x00\\x00\\r\\x00\\x00\\x00\\r\\x00\\x00\\x00\\r\\x00\\x00\\x00\\x0e\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x05\\x00\\x00\\x00self\\x00\\x01\\x00\\x00\\x004\\x00\\x00\\x00\\x07\\x00\\x00\\x00target\\x00\\t\\x00\\x00\\x003\\x00\\x00\\x00\\t\\x00\\x00\\x00modifier\\x00\\x1a\\x00\\x00\\x003\\x00\\x00\\x00\\t\\x00\\x00\\x00fireball\\x00\\\'\\x00\\x00\\x003\\x00\\x00\\x00\\x00\\x00\\x00\\x00",
+				},
+				"u1" : 1,
+				"u2" : 1,
+			},
+		},
+
+		"positionsub-sub-block " :  {
+
+			"x position" : 0.0,
+			"y position" : 0.0,
+		},
+		"z position" : 0.0,
+		"rotation" : 0.0,
+		"scale" : 1.0,
+
+		"u0sub-sub-block " :  {
+
+			"w" : -10.0,
+			"x" : -10.0,
+			"y" : 20.0,
+			"z" : 20.0,
+		},
+		"hidden" : 0,
+	},
+	"u0" : 1.0,
+},
+
+"?itemblock " :  {
+
+
+	"?sub-itemsub-block " :  {
+
+		"name" : "p8_fireball_ballistic",
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "SimpleGlow",
+			"number" : 1,
+
+			"simple glowsub-sub-sub-block " :  {
+
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"w" : 0.5555555820465088,
+					"x" : 0.29147660732269287,
+					"y" : 0.5111111402511597,
+					"z" : 0.0,
+				},
+				"u1" : 25.0,
+				"u2" : 20,
+				"u3" : 15.0,
+				"u4" : 0.15000000596046448,
+				"u5" : 0.800000011920929,
+
+				"u6sub-sub-sub-sub-block " :  {
+
+					"y" : 0.0,
+					"z" : 0.0,
+				},
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "CollisionShape",
+			"number" : 2,
+
+			"collision shapesub-sub-sub-block " :  {
+
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"w" : -10.0,
+					"x" : -10.0,
+					"y" : 20.0,
+					"z" : 20.0,
+				},
+			},
+
+			"collision shape 2sub-sub-sub-block " :  {
+
+				"u1" : 1,
+				"u3" : 1,
+				"w" : -15.0,
+				"x" : 15.0,
+				"z" : 1,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "SoundEffect",
+			"number" : 3,
+
+			"sound effectsub-sub-sub-block " :  {
+
+				"sound" : "woosh1",
+				"u0" : 0.0,
+				"u1" : 1.0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Damage",
+			"number" : 4,
+
+			"damagesub-sub-sub-block " :  {
+
+				"u0" : 2,
+				"u1" : 0,
+				"u2" : 0,
+				"u5" : 1.0,
+				"u6" : 0.0,
+				"u7" : 0,
+				"u8" : 1,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Light",
+			"number" : 6,
+
+			"lightsub-sub-sub-block " :  {
+
+				"u0" : 3,
+				"u1" : 2.0,
+
+				"u2sub-sub-sub-sub-block " :  {
+
+					"w" : 0.6666666865348816,
+					"x" : 0.11058218032121658,
+					"y" : 1.0,
+					"z" : 1.0,
+				},
+				"u3" : 0.0,
+				"u4" : 0.00019999999494757503,
+
+				"u5sub-sub-sub-sub-block " :  {
+
+					"x" : 0.0,
+					"y" : 0.0,
+					"z" : 0.0,
+				},
+				"u6" : 250.0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "EntityInfo",
+			"number" : 7,
+
+			"entity infosub-sub-sub-block " :  {
+
+				"name" : "bolt",
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "PhysicsObject",
+			"number" : 8,
+
+			"physics objectsub-sub-sub-block " :  {
+
+				"u0" : 1,
+				"u2" : 0.6000000238418579,
+				"u3" : 1500.0,
+				"u4" : 0.0,
+				"u5" : 700.0,
+				"u6" : 0,
+				"u7" : 0.0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "ParticleEmitter",
+			"number" : 102,
+
+			"particle emittersub-sub-sub-block " :  {
+
+				"particle" : 103,
+				"particle" : 104,
+				"particle" : 105,
+				"u1" : 0,
+				"u2" : 30,
+				"u3" : 0,
+				"u4" : 0,
+				"u6" : 0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Particle",
+			"number" : 103,
+
+			"particlesub-sub-sub-block " :  {
+
+				"name" : "particle_fure_1",
+				"u0" : 40.0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Particle",
+			"number" : 104,
+
+			"particlesub-sub-sub-block " :  {
+
+				"name" : "particle_fure_2",
+				"u0" : 40.0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Particle",
+			"number" : 105,
+
+			"particlesub-sub-sub-block " :  {
+
+				"name" : "particle_fure_3",
+				"u0" : 40.0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "MagicBolt",
+			"number" : 106,
+
+			"magic boltsub-sub-sub-block " :  {
+
+				"u0" : 102,
+				"u1" : 3,
+				"u2" : 0,
+
+				"u3sub-sub-sub-sub-block " :  {
+
+					"w" : 1.0,
+					"x" : 0.5160372257232666,
+					"y" : 0.009555578231811523,
+					"z" : 0.0,
+				},
+				"u3" : 0.0,
+			},
+
+			"temp0sub-sub-sub-block " :  {
+
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "ProjectileController",
+			"number" : 108,
+
+			"projectile controllersub-sub-sub-block " :  {
+
+				"u0" : 1,
+				"u1" : 1,
+			},
+		},
+
+		"positionsub-sub-block " :  {
+
+			"x position" : 0.0,
+			"y position" : 0.0,
+		},
+		"z position" : 0.0,
+		"rotation" : 0.0,
+		"scale" : 1.0,
+
+		"u0sub-sub-block " :  {
+
+			"w" : -50.0,
+			"x" : -50.0,
+			"y" : 100.0,
+			"z" : 100.0,
+		},
+		"hidden" : 0,
+	},
+	"u0" : 1.0,
+},
+
+"?itemblock " :  {
+
+
+	"?sub-itemsub-block " :  {
+
+		"name" : "stomping_ground",
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "CollisionShape",
+			"number" : 1,
+			"? linked component" : 100,
+
+			"collision shapesub-sub-sub-block " :  {
+
+
+				"u2sub-sub-sub-sub-block " :  {
+
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"y" : -200.0,
+						"z" : -120.74269104003906,
+					},
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"y" : -175.0,
+						"z" : -103.46418762207031,
+					},
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"y" : -150.0,
+						"z" : -120.74269104003906,
+					},
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"y" : -125.0,
+						"z" : -103.46418762207031,
+					},
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"y" : -100.0,
+						"z" : -120.74269104003906,
+					},
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"y" : -75.0001220703125,
+						"z" : -103.46418762207031,
+					},
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"y" : -50.0,
+						"z" : -120.74269104003906,
+					},
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"y" : -25.0001220703125,
+						"z" : -103.46418762207031,
+					},
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"y" : 0.0,
+						"z" : -120.74269104003906,
+					},
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"y" : 24.9998779296875,
+						"z" : -103.46418762207031,
+					},
+					"u3" : 0,
+					"u4" : 0,
+				},
+			},
+
+			"collision shape 2sub-sub-sub-block " :  {
+
+				"u0" : 1,
+				"w" : -50.0,
+				"x" : 50.0,
+				"z" : 1,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "CollisionShape",
+			"number" : 2,
+			"? linked component" : 100,
+
+			"collision shapesub-sub-sub-block " :  {
+
+
+				"u2sub-sub-sub-sub-block " :  {
+
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"y" : -25.0001220703125,
+						"z" : -103.46418762207031,
+					},
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"y" : 0.0,
+						"z" : -120.74269104003906,
+					},
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"y" : 24.9998779296875,
+						"z" : -103.46418762207031,
+					},
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"y" : 50.0,
+						"z" : -120.74269104003906,
+					},
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"y" : 74.9998779296875,
+						"z" : -103.46418762207031,
+					},
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"y" : 100.0,
+						"z" : -120.74269104003906,
+					},
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"y" : 124.9998779296875,
+						"z" : -103.46418762207031,
+					},
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"y" : 150.0,
+						"z" : -120.74269104003906,
+					},
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"y" : 174.9998779296875,
+						"z" : -103.46418762207031,
+					},
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"y" : 200.0,
+						"z" : -120.74269104003906,
+					},
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"y" : 200.0,
+						"z" : 120.74269104003906,
+					},
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"y" : -200.0,
+						"z" : 120.74269104003906,
+					},
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"y" : -200.0,
+						"z" : -120.74269104003906,
+					},
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"y" : -175.0,
+						"z" : -103.46418762207031,
+					},
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"y" : -150.0,
+						"z" : -120.74269104003906,
+					},
+					"u3" : 0,
+					"u4" : 0,
+				},
+			},
+
+			"collision shape 2sub-sub-sub-block " :  {
+
+				"u0" : 1,
+				"w" : -50.0,
+				"x" : 50.0,
+				"z" : 1,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "GroundPolygon",
+			"number" : 100,
+
+			"ground polygonsub-sub-sub-block " :  {
+
+
+				"sub-sub-sub-sub-block " :  {
+
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"x" : -200.0,
+						"y" : -120.74269104003906,
+					},
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"x" : -175.0,
+						"y" : -103.46418762207031,
+					},
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"x" : -150.0,
+						"y" : -120.74269104003906,
+					},
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"x" : -125.0,
+						"y" : -103.46418762207031,
+					},
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"x" : -100.0,
+						"y" : -120.74269104003906,
+					},
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"x" : -75.0001220703125,
+						"y" : -103.46418762207031,
+					},
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"x" : -50.0,
+						"y" : -120.74269104003906,
+					},
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"x" : -25.0001220703125,
+						"y" : -103.46418762207031,
+					},
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"x" : 0.0,
+						"y" : -120.74269104003906,
+					},
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"x" : 24.9998779296875,
+						"y" : -103.46418762207031,
+					},
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"x" : 50.0,
+						"y" : -120.74269104003906,
+					},
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"x" : 74.9998779296875,
+						"y" : -103.46418762207031,
+					},
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"x" : 100.0,
+						"y" : -120.74269104003906,
+					},
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"x" : 124.9998779296875,
+						"y" : -103.46418762207031,
+					},
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"x" : 150.0,
+						"y" : -120.74269104003906,
+					},
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"x" : 174.9998779296875,
+						"y" : -103.46418762207031,
+					},
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"x" : 200.0,
+						"y" : -120.74269104003906,
+					},
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"x" : 200.0,
+						"y" : 120.74269104003906,
+					},
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"x" : -200.0,
+						"y" : 120.74269104003906,
+					},
+					"u0" : 0,
+					"u1" : 1,
+				},
+				"u1" : 1,
+				"u2" : -50.0,
+				"u3" : 50.0,
+				"u4" : "",
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "GroundMesh",
+			"number" : 101,
+
+			"ground meshsub-sub-sub-block " :  {
+
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"w" : -210.0,
+					"x" : -130.74269104003906,
+					"y" : 420.0,
+					"z" : 261.4853820800781,
+				},
+
+				"u1sub-sub-sub-sub-block " :  {
+
+					"u0" : 22,
+					"u1" : 20,
+
+					"u2sub-sub-sub-sub-sub-block " :  {
+
+						"u0" : 4,
+						"u1" : 1,
+						"u2" : 2,
+						"u3" : 0,
+					},
+
+					"u3sub-sub-sub-sub-sub-block " :  {
+
+						"u0" : 7,
+						"u1" : 3,
+						"u2" : 32,
+						"u3" : 0,
+					},
+
+					"u4sub-sub-sub-sub-sub-block " :  {
+
+						"u0" : 7,
+						"u1" : 3,
+						"u2" : 32,
+						"u3" : 12,
+					},
+
+					"u5sub-sub-sub-sub-sub-block " :  {
+
+						"u0" : 7,
+						"u1" : 2,
+						"u2" : 32,
+						"u3" : 24,
+					},
+
+					"u6sub-sub-sub-sub-sub-block " :  {
+
+
+						"u0sub-sub-sub-sub-sub-sub-block " :  {
+
+							"w" : 1.0,
+							"x" : 1.0,
+							"y" : 1.0,
+							"z" : 1.0,
+						},
+
+						"u1sub-sub-sub-sub-sub-sub-block " :  {
+
+							"w" : 1.0,
+							"x" : 1.0,
+							"y" : 1.0,
+							"z" : 1.0,
+						},
+
+						"u2sub-sub-sub-sub-sub-sub-block " :  {
+
+							"w" : 1.0,
+							"x" : 1.0,
+							"y" : 1.0,
+							"z" : 1.0,
+						},
+						"u3" : 0.0,
+						"u4" : "\\n\\x0bcrypt_tiles\\x10\\x01 \\x02",
+					},
+
+					"u7sub-sub-sub-sub-sub-block " :  {
+
+						"u" : -200.0,
+						"v" : -120.74269104003906,
+						"w" : -50.0,
+						"x" : 250.0,
+						"y" : 17.27850341796875,
+						"z" : 100.0,
+					},
+					"u8" : "\\x00\\x00H\\xc3B|\\xf1\\xc2\\x00\\x00HBZl~\\xbf:\\xf4\\xe2\\xbd\\x00\\x00\\x00\\x00\\x00\\x00\\x00?333?\\x00\\x00H\\xc3B|\\xf1\\xc2\\x00\\x00H\\xc2Zl~\\xbf:\\xf4\\xe2\\xbd\\x00\\x00\\x00\\x00\\x00\\x00\\x00?\\x9a\\x99\\x99>\\x00\\x00/\\xc3\\xaa\\xed\\xce\\xc2\\x00\\x00HB\\x00\\x00\\x00\\x00\\x00\\x00\\x80\\xbf\\x00\\x00\\x00\\x00\\x88\\x1e\\x1f?333?\\x00\\x00/\\xc3\\xaa\\xed\\xce\\xc2\\x00\\x00H\\xc2\\x00\\x00\\x00\\x00\\x00\\x00\\x80\\xbf\\x00\\x00\\x00\\x00\\x88\\x1e\\x1f?\\x9a\\x99\\x99>\\x00\\x00\\x16\\xc3B|\\xf1\\xc2\\x00\\x00HB\\x00\\x00\\x00\\x00\\x00\\x00\\x80\\xbf\\x00\\x00\\x00\\x00\\x11=>?333?\\x00\\x00\\x16\\xc3B|\\xf1\\xc2\\x00\\x00H\\xc2\\x00\\x00\\x00\\x00\\x00\\x00\\x80\\xbf\\x00\\x00\\x00\\x00\\x11=>?\\x9a\\x99\\x99>\\x00\\x00\\xfa\\xc2\\xaa\\xed\\xce\\xc2\\x00\\x00HB\\x00\\x00\\x00\\x00\\x00\\x00\\x80\\xbf\\x00\\x00\\x00\\x00\\x9a[]?333?\\x00\\x00\\xfa\\xc2\\xaa\\xed\\xce\\xc2\\x00\\x00H\\xc2\\x00\\x00\\x00\\x00\\x00\\x00\\x80\\xbf\\x00\\x00\\x00\\x00\\x9a[]?\\x9a\\x99\\x99>\\x00\\x00\\xc8\\xc2B|\\xf1\\xc2\\x00\\x00HB\\x00\\x00\\x00\\x00\\xff\\xff\\x7f\\xbf\\x00\\x00\\x00\\x00\"z|?333?\\x00\\x00\\xc8\\xc2B|\\xf1\\xc2\\x00\\x00H\\xc2\\x00\\x00\\x00\\x00\\xff\\xff\\x7f\\xbf\\x00\\x00\\x00\\x00\"z|?\\x9a\\x99\\x99>\\x10\\x00\\x96\\xc2\\xaa\\xed\\xce\\xc2\\x00\\x00HB\\x00\\x00\\x00\\x00\\x00\\x00\\x80\\xbf\\x00\\x00\\x00\\x00R\\xcc\\x8d?333?\\x10\\x00\\x96\\xc2\\xaa\\xed\\xce\\xc2\\x00\\x00H\\xc2\\x00\\x00\\x00\\x00\\x00\\x00\\x80\\xbf\\x00\\x00\\x00\\x00R\\xcc\\x8d?\\x9a\\x99\\x99>\\x00\\x00H\\xc2B|\\xf1\\xc2\\x00\\x00HB\\x00\\x00\\x00\\x00\\x00\\x00\\x80\\xbf\\x00\\x00\\x00\\x00\\x9a[\\x9d?333?\\x00\\x00H\\xc2B|\\xf1\\xc2\\x00\\x00H\\xc2\\x00\\x00\\x00\\x00\\x00\\x00\\x80\\xbf\\x00\\x00\\x00\\x00\\x9a[\\x9d?\\x9a\\x99\\x99>@\\x00\\xc8\\xc1\\xaa\\xed\\xce\\xc2\\x00\\x00HB\\x00\\x00\\x00\\x00\\x00\\x00\\x80\\xbf\\x00\\x00\\x00\\x00\\xdb\\xea\\xac?333?@\\x00\\xc8\\xc1\\xaa\\xed\\xce\\xc2\\x00\\x00H\\xc2\\x00\\x00\\x00\\x00\\x00\\x00\\x80\\xbf\\x00\\x00\\x00\\x00\\xdb\\xea\\xac?\\x9a\\x99\\x99>\\x00\\x00\\x00\\x00B|\\xf1\\xc2\\x00\\x00HB\\x00\\x00\\x00\\x00\\x00\\x00\\x80\\xbf\\x00\\x00\\x00\\x00\"z\\xbc?333?\\x00\\x00\\x00\\x00B|\\xf1\\xc2\\x00\\x00H\\xc2\\x00\\x00\\x00\\x00\\x00\\x00\\x80\\xbf\\x00\\x00\\x00\\x00\"z\\xbc?\\x9a\\x99\\x99>\\xc0\\xff\\xc7A\\xaa\\xed\\xce\\xc2\\x00\\x00HB\\x00\\x00\\x00\\x00\\x00\\x00\\x80\\xbf\\x00\\x00\\x00\\x00c\\t\\xcc?333?\\xc0\\xff\\xc7A\\xaa\\xed\\xce\\xc2\\x00\\x00H\\xc2\\x00\\x00\\x00\\x00\\x00\\x00\\x80\\xbf\\x00\\x00\\x00\\x00c\\t\\xcc?\\x9a\\x99\\x99>\\x00\\x00HBB|\\xf1\\xc2\\x00\\x00HB\\x00\\x00\\x00\\x00\\x00\\x00\\x80\\xbf\\x00\\x00\\x00\\x00\\xab\\x98\\xdb?333?\\x00\\x00HBB|\\xf1\\xc2\\x00\\x00H\\xc2\\x00\\x00\\x00\\x00\\x00\\x00\\x80\\xbf\\x00\\x00\\x00\\x00\\xab\\x98\\xdb?\\x9a\\x99\\x99>",
+					"u9" : "\\x00\\x00\\x01\\x00\\x02\\x00\\x01\\x00\\x03\\x00\\x02\\x00\\x02\\x00\\x03\\x00\\x04\\x00\\x03\\x00\\x05\\x00\\x04\\x00\\x04\\x00\\x05\\x00\\x06\\x00\\x05\\x00\\x07\\x00\\x06\\x00\\x06\\x00\\x07\\x00\\x08\\x00\\x07\\x00\\t\\x00\\x08\\x00\\x08\\x00\\t\\x00\\n\\x00\\t\\x00\\x0b\\x00\\n\\x00\\n\\x00\\x0b\\x00\\x0c\\x00\\x0b\\x00\\r\\x00\\x0c\\x00\\x0c\\x00\\r\\x00\\x0e\\x00\\r\\x00\\x0f\\x00\\x0e\\x00\\x0e\\x00\\x0f\\x00\\x10\\x00\\x0f\\x00\\x11\\x00\\x10\\x00\\x10\\x00\\x11\\x00\\x12\\x00\\x11\\x00\\x13\\x00\\x12\\x00\\x12\\x00\\x13\\x00\\x14\\x00\\x13\\x00\\x15\\x00\\x14\\x00",
+				},
+
+				"u1sub-sub-sub-sub-block " :  {
+
+					"u0" : 20,
+					"u1" : 18,
+
+					"u2sub-sub-sub-sub-sub-block " :  {
+
+						"u0" : 4,
+						"u1" : 1,
+						"u2" : 2,
+						"u3" : 0,
+					},
+
+					"u3sub-sub-sub-sub-sub-block " :  {
+
+						"u0" : 7,
+						"u1" : 3,
+						"u2" : 32,
+						"u3" : 0,
+					},
+
+					"u4sub-sub-sub-sub-sub-block " :  {
+
+						"u0" : 7,
+						"u1" : 3,
+						"u2" : 32,
+						"u3" : 12,
+					},
+
+					"u5sub-sub-sub-sub-sub-block " :  {
+
+						"u0" : 7,
+						"u1" : 2,
+						"u2" : 32,
+						"u3" : 24,
+					},
+
+					"u6sub-sub-sub-sub-sub-block " :  {
+
+
+						"u0sub-sub-sub-sub-sub-sub-block " :  {
+
+							"w" : 1.0,
+							"x" : 1.0,
+							"y" : 1.0,
+							"z" : 1.0,
+						},
+
+						"u1sub-sub-sub-sub-sub-sub-block " :  {
+
+							"w" : 1.0,
+							"x" : 1.0,
+							"y" : 1.0,
+							"z" : 1.0,
+						},
+
+						"u2sub-sub-sub-sub-sub-sub-block " :  {
+
+							"w" : 1.0,
+							"x" : 1.0,
+							"y" : 1.0,
+							"z" : 1.0,
+						},
+						"u3" : 0.0,
+						"u4" : "\\n\\x0bcrypt_tiles\\x10\\x01 \\x02",
+					},
+
+					"u7sub-sub-sub-sub-sub-block " :  {
+
+						"u" : -200.0,
+						"v" : -120.74269104003906,
+						"w" : -50.0,
+						"x" : 400.0,
+						"y" : 241.48538208007812,
+						"z" : 100.0,
+					},
+					"u8" : "\\x00\\x00H\\xc3B|\\xf1\\xc2\\x00\\x00HBZl~\\xbf:\\xf4\\xe2\\xbd\\x00\\x00\\x00\\x00\\x00\\x00\\x00?333?\\x00\\x00H\\xc3B|\\xf1\\xc2\\x00\\x00H\\xc2Zl~\\xbf:\\xf4\\xe2\\xbd\\x00\\x00\\x00\\x00\\x00\\x00\\x00?\\x9a\\x99\\x99>\\x00\\x00HBB|\\xf1\\xc2\\x00\\x00HB\\x00\\x00\\x00\\x00\\x00\\x00\\x80\\xbf\\x00\\x00\\x00\\x00\\xab\\x98\\xdb?333?\\x00\\x00HBB|\\xf1\\xc2\\x00\\x00H\\xc2\\x00\\x00\\x00\\x00\\x00\\x00\\x80\\xbf\\x00\\x00\\x00\\x00\\xab\\x98\\xdb?\\x9a\\x99\\x99>\\xf0\\xff\\x95B\\xaa\\xed\\xce\\xc2\\x00\\x00HB\\x00\\x00\\x00\\x00\\x00\\x00\\x80\\xbf\\x00\\x00\\x00\\x00\\xec\\\'\\xeb?333?\\xf0\\xff\\x95B\\xaa\\xed\\xce\\xc2\\x00\\x00H\\xc2\\x00\\x00\\x00\\x00\\x00\\x00\\x80\\xbf\\x00\\x00\\x00\\x00\\xec\\\'\\xeb?\\x9a\\x99\\x99>\\x00\\x00\\xc8BB|\\xf1\\xc2\\x00\\x00HB\\x00\\x00\\x00\\x00\\x00\\x00\\x80\\xbf\\x00\\x00\\x00\\x003\\xb7\\xfa?333?\\x00\\x00\\xc8BB|\\xf1\\xc2\\x00\\x00H\\xc2\\x00\\x00\\x00\\x00\\x00\\x00\\x80\\xbf\\x00\\x00\\x00\\x003\\xb7\\xfa?\\x9a\\x99\\x99>\\xf0\\xff\\xf9B\\xaa\\xed\\xce\\xc2\\x00\\x00HB\\x00\\x00\\x00\\x00\\x00\\x00\\x80\\xbf\\x00\\x00\\x00\\x00:#\\x05@333?\\xf0\\xff\\xf9B\\xaa\\xed\\xce\\xc2\\x00\\x00H\\xc2\\x00\\x00\\x00\\x00\\x00\\x00\\x80\\xbf\\x00\\x00\\x00\\x00:#\\x05@\\x9a\\x99\\x99>\\x00\\x00\\x16CB|\\xf1\\xc2\\x00\\x00HB\\x00\\x00\\x00\\x00\\x00\\x00\\x80\\xbf\\x00\\x00\\x00\\x00\\xde\\xea\\x0c@333?\\x00\\x00\\x16CB|\\xf1\\xc2\\x00\\x00H\\xc2\\x00\\x00\\x00\\x00\\x00\\x00\\x80\\xbf\\x00\\x00\\x00\\x00\\xde\\xea\\x0c@\\x9a\\x99\\x99>\\xf8\\xff.C\\xaa\\xed\\xce\\xc2\\x00\\x00HB\\x00\\x00\\x00\\x00\\x00\\x00\\x80\\xbf\\x00\\x00\\x00\\x00~\\xb2\\x14@333?\\xf8\\xff.C\\xaa\\xed\\xce\\xc2\\x00\\x00H\\xc2\\x00\\x00\\x00\\x00\\x00\\x00\\x80\\xbf\\x00\\x00\\x00\\x00~\\xb2\\x14@\\x9a\\x99\\x99>\\x00\\x00HCB|\\xf1\\xc2\\x00\\x00HBXl~?\\x81\\xf4\\xe2\\xbd\\x00\\x00\\x00\\x00\"z\\x1c@333?\\x00\\x00HCB|\\xf1\\xc2\\x00\\x00H\\xc2Xl~?\\x81\\xf4\\xe2\\xbd\\x00\\x00\\x00\\x00\"z\\x1c@\\x9a\\x99\\x99>\\x00\\x00HCB|\\xf1B\\x00\\x00HB\\x10O\\x04?\\x89([?\\x00\\x00\\x00\\x00\\x1fLZ@333?\\x00\\x00HCB|\\xf1B\\x00\\x00H\\xc2\\x10O\\x04?\\x89([?\\x00\\x00\\x00\\x00\\x1fLZ@\\x9a\\x99\\x99>\\x00\\x00H\\xc3B|\\xf1B\\x00\\x00HB\\x10O\\x04\\xbf\\x89([?\\x00\\x00\\x00\\x00CY\\xa0@333?\\x00\\x00H\\xc3B|\\xf1B\\x00\\x00H\\xc2\\x10O\\x04\\xbf\\x89([?\\x00\\x00\\x00\\x00CY\\xa0@\\x9a\\x99\\x99>",
+					"u9" : "\\x02\\x00\\x03\\x00\\x04\\x00\\x03\\x00\\x05\\x00\\x04\\x00\\x04\\x00\\x05\\x00\\x06\\x00\\x05\\x00\\x07\\x00\\x06\\x00\\x06\\x00\\x07\\x00\\x08\\x00\\x07\\x00\\t\\x00\\x08\\x00\\x08\\x00\\t\\x00\\n\\x00\\t\\x00\\x0b\\x00\\n\\x00\\n\\x00\\x0b\\x00\\x0c\\x00\\x0b\\x00\\r\\x00\\x0c\\x00\\x0c\\x00\\r\\x00\\x0e\\x00\\r\\x00\\x0f\\x00\\x0e\\x00\\x0e\\x00\\x0f\\x00\\x10\\x00\\x0f\\x00\\x11\\x00\\x10\\x00\\x10\\x00\\x11\\x00\\x12\\x00\\x11\\x00\\x13\\x00\\x12\\x00\\x12\\x00\\x13\\x00\\x00\\x00\\x13\\x00\\x01\\x00\\x00\\x00",
+				},
+
+				"u2sub-sub-sub-sub-block " :  {
+
+					"u0" : 51,
+					"u1" : 17,
+
+					"u2sub-sub-sub-sub-sub-block " :  {
+
+						"u0" : 7,
+						"u1" : 3,
+						"u2" : 32,
+						"u3" : 0,
+					},
+
+					"u3sub-sub-sub-sub-sub-block " :  {
+
+						"u0" : 7,
+						"u1" : 3,
+						"u2" : 32,
+						"u3" : 12,
+					},
+
+					"u4sub-sub-sub-sub-sub-block " :  {
+
+						"u0" : 7,
+						"u1" : 2,
+						"u2" : 32,
+						"u3" : 24,
+					},
+
+					"u5sub-sub-sub-sub-sub-block " :  {
+
+
+						"u0sub-sub-sub-sub-sub-sub-block " :  {
+
+							"w" : 1.0,
+							"x" : 1.0,
+							"y" : 1.0,
+							"z" : 1.0,
+						},
+
+						"u1sub-sub-sub-sub-sub-sub-block " :  {
+
+							"w" : 1.0,
+							"x" : 1.0,
+							"y" : 1.0,
+							"z" : 1.0,
+						},
+
+						"u2sub-sub-sub-sub-sub-sub-block " :  {
+
+							"w" : 1.0,
+							"x" : 1.0,
+							"y" : 1.0,
+							"z" : 1.0,
+						},
+						"u3" : 0.0,
+
+						"u4sub-sub-sub-sub-sub-sub-block " :  {
+
+							"u0" : "crypt_tiles",
+							"u1" : 1,
+							"u2" : 2,
+						},
+					},
+
+					"u3sub-sub-sub-sub-sub-block " :  {
+
+						"u" : -200.0,
+						"v" : -120.74269104003906,
+						"w" : 50.0,
+						"x" : 400.0,
+						"y" : 241.48538208007812,
+						"z" : 0.0,
+					},
+					"u7" : "\\x00\\x00HCB|\\xf1B\\x00\\x00HB\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?ff\\xa6?\\xf9\\xa3{?\\xf8\\xff.C\\xaa\\xed\\xce\\xc2\\x00\\x00HB\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\x96\\x99\\x99?\\xdfk\\xb0=\\x00\\x00HCB|\\xf1\\xc2\\x00\\x00HB\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?ff\\xa6?\\xe5\\x80\\x8b<\\x00\\x00H\\xc3B|\\xf1B\\x00\\x00HB\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\x9a\\x99\\x99\\xbe\\xf9\\xa3{?\\x00\\x00H\\xc3B|\\xf1\\xc2\\x00\\x00HB\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\x9a\\x99\\x99\\xbe\\xe5\\x80\\x8b<\\x00\\x00/\\xc3\\xaa\\xed\\xce\\xc2\\x00\\x00HB\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xcd\\xccL\\xbe\\xdfk\\xb0=\\x00\\x00H\\xc3B|\\xf1B\\x00\\x00HB\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\x9a\\x99\\x99\\xbe\\xf9\\xa3{?\\x00\\x00/\\xc3\\xaa\\xed\\xce\\xc2\\x00\\x00HB\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xcd\\xccL\\xbe\\xdfk\\xb0=\\x00\\x00\\x16\\xc3B|\\xf1\\xc2\\x00\\x00HB\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xcd\\xcc\\xcc\\xbd\\xe5\\x80\\x8b<\\x00\\x00H\\xc3B|\\xf1B\\x00\\x00HB\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\xff\\xff\\x7f?\\x9a\\x99\\x99\\xbe\\xf9\\xa3{?\\x00\\x00\\x16\\xc3B|\\xf1\\xc2\\x00\\x00HB\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\xff\\xff\\x7f?\\xcd\\xcc\\xcc\\xbd\\xe5\\x80\\x8b<\\x00\\x00\\xfa\\xc2\\xaa\\xed\\xce\\xc2\\x00\\x00HB\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\xff\\xff\\x7f?\\x00\\x00\\x00\\x00\\xdfk\\xb0=\\x00\\x00H\\xc3B|\\xf1B\\x00\\x00HB\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\x9a\\x99\\x99\\xbe\\xf9\\xa3{?\\x00\\x00\\xfa\\xc2\\xaa\\xed\\xce\\xc2\\x00\\x00HB\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\x00\\x00\\x00\\x00\\xdfk\\xb0=\\x00\\x00\\xc8\\xc2B|\\xf1\\xc2\\x00\\x00HB\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xcd\\xcc\\xcc=\\xe5\\x80\\x8b<\\x00\\x00H\\xc3B|\\xf1B\\x00\\x00HB\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\x9a\\x99\\x99\\xbe\\xf9\\xa3{?\\x00\\x00\\xc8\\xc2B|\\xf1\\xc2\\x00\\x00HB\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xcd\\xcc\\xcc=\\xe5\\x80\\x8b<\\x10\\x00\\x96\\xc2\\xaa\\xed\\xce\\xc2\\x00\\x00HB\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xac\\xccL>\\xdfk\\xb0=\\x00\\x00H\\xc3B|\\xf1B\\x00\\x00HB\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\x9a\\x99\\x99\\xbe\\xf9\\xa3{?\\x10\\x00\\x96\\xc2\\xaa\\xed\\xce\\xc2\\x00\\x00HB\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xac\\xccL>\\xdfk\\xb0=\\x00\\x00H\\xc2B|\\xf1\\xc2\\x00\\x00HB\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\x9a\\x99\\x99>\\xe5\\x80\\x8b<\\x00\\x00H\\xc3B|\\xf1B\\x00\\x00HB\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\x9a\\x99\\x99\\xbe\\xf9\\xa3{?\\x00\\x00H\\xc2B|\\xf1\\xc2\\x00\\x00HB\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\x9a\\x99\\x99>\\xe5\\x80\\x8b<@\\x00\\xc8\\xc1\\xaa\\xed\\xce\\xc2\\x00\\x00HB\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xbc\\xcc\\xcc>\\xdfk\\xb0=\\x00\\x00H\\xc3B|\\xf1B\\x00\\x00HB\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\x9a\\x99\\x99\\xbe\\xf9\\xa3{?@\\x00\\xc8\\xc1\\xaa\\xed\\xce\\xc2\\x00\\x00HB\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xbc\\xcc\\xcc>\\xdfk\\xb0=\\x00\\x00\\x00\\x00B|\\xf1\\xc2\\x00\\x00HB\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\x00\\x00\\x00?\\xe5\\x80\\x8b<\\x00\\x00H\\xc3B|\\xf1B\\x00\\x00HB\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\x9a\\x99\\x99\\xbe\\xf9\\xa3{?\\x00\\x00\\x00\\x00B|\\xf1\\xc2\\x00\\x00HB\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\x00\\x00\\x00?\\xe5\\x80\\x8b<\\xc0\\xff\\xc7A\\xaa\\xed\\xce\\xc2\\x00\\x00HB\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\x91\\x99\\x19?\\xdfk\\xb0=\\x00\\x00H\\xc3B|\\xf1B\\x00\\x00HB\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\x9a\\x99\\x99\\xbe\\xf9\\xa3{?\\xc0\\xff\\xc7A\\xaa\\xed\\xce\\xc2\\x00\\x00HB\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\x91\\x99\\x19?\\xdfk\\xb0=\\x00\\x00HBB|\\xf1\\xc2\\x00\\x00HB\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?333?\\xe5\\x80\\x8b<\\x00\\x00H\\xc3B|\\xf1B\\x00\\x00HB\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\x9a\\x99\\x99\\xbe\\xf9\\xa3{?\\x00\\x00HBB|\\xf1\\xc2\\x00\\x00HB\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?333?\\xe5\\x80\\x8b<\\xf0\\xff\\x95B\\xaa\\xed\\xce\\xc2\\x00\\x00HB\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xc5\\xccL?\\xdfk\\xb0=\\x00\\x00H\\xc3B|\\xf1B\\x00\\x00HB\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\x9a\\x99\\x99\\xbe\\xf9\\xa3{?\\xf0\\xff\\x95B\\xaa\\xed\\xce\\xc2\\x00\\x00HB\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xc5\\xccL?\\xdfk\\xb0=\\x00\\x00\\xc8BB|\\xf1\\xc2\\x00\\x00HB\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?fff?\\xe5\\x80\\x8b<\\x00\\x00H\\xc3B|\\xf1B\\x00\\x00HB\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\x9a\\x99\\x99\\xbe\\xf9\\xa3{?\\x00\\x00\\xc8BB|\\xf1\\xc2\\x00\\x00HB\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?fff?\\xe5\\x80\\x8b<\\xf0\\xff\\xf9B\\xaa\\xed\\xce\\xc2\\x00\\x00HB\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xf8\\xff\\x7f?\\xdfk\\xb0=\\xf0\\xff\\xf9B\\xaa\\xed\\xce\\xc2\\x00\\x00HB\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xf8\\xff\\x7f?\\xdfk\\xb0=\\x00\\x00\\x16CB|\\xf1\\xc2\\x00\\x00HB\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xcd\\xcc\\x8c?\\xe5\\x80\\x8b<\\xf8\\xff.C\\xaa\\xed\\xce\\xc2\\x00\\x00HB\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\x96\\x99\\x99?\\xdfk\\xb0=\\x00\\x00H\\xc3B|\\xf1B\\x00\\x00HB\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\xff\\xff\\x7f?\\x9a\\x99\\x99\\xbe\\xf9\\xa3{?\\xf0\\xff\\xf9B\\xaa\\xed\\xce\\xc2\\x00\\x00HB\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\xff\\xff\\x7f?\\xf8\\xff\\x7f?\\xdfk\\xb0=\\xf8\\xff.C\\xaa\\xed\\xce\\xc2\\x00\\x00HB\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\xff\\xff\\x7f?\\x96\\x99\\x99?\\xdfk\\xb0=\\x00\\x00H\\xc3B|\\xf1B\\x00\\x00HB\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\xff\\xff\\x7f?\\x9a\\x99\\x99\\xbe\\xf9\\xa3{?\\xf8\\xff.C\\xaa\\xed\\xce\\xc2\\x00\\x00HB\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\xff\\xff\\x7f?\\x96\\x99\\x99?\\xdfk\\xb0=\\x00\\x00HCB|\\xf1B\\x00\\x00HB\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\xff\\xff\\x7f?ff\\xa6?\\xf9\\xa3{?",
+				},
+
+				"u3sub-sub-sub-sub-block " :  {
+
+					"w" : 1.0,
+					"x" : 1.0,
+					"y" : 1.0,
+					"z" : 1.0,
+				},
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "GroundMeshGenerator",
+			"number" : 102,
+
+			"ground mesh generatorsub-sub-sub-block " :  {
+
+				"ground polygon" : 100,
+				"ground mesh" : 101,
+				"texture mapping 1" : 103,
+				"texture mapping 2" : 104,
+				"u4" : 0,
+				"u5" : 0.0,
+				"u6" : 0,
+				"u7" : 100.0,
+				"u8" : 25.0,
+				"u9" : 5.0,
+				"u10" : 5.0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "TextureMapping",
+			"number" : 103,
+
+			"texture mappingsub-sub-sub-block " :  {
+
+				"texture file" : "crypt_tiles",
+				"u0" : 250.0,
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"u1" : 0.0,
+					"u2" : 0.0,
+				},
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "TextureMapping",
+			"number" : 104,
+
+			"texture mappingsub-sub-sub-block " :  {
+
+				"texture file" : "crypt_tiles",
+				"u0" : 250.0,
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"u1" : 0.0,
+					"u2" : 0.0,
+				},
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "TransformController",
+			"number" : 107,
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Program",
+			"number" : 108,
+
+			"programsub-sub-sub-block " :  {
+
+				"u0" : 1,
+
+				"lua chunksub-sub-sub-sub-block " :  {
+
+					"main chunk" : "chunk >
+
+					=== lua =============
+					local self = ...;
+					
+					while true do
+						TransformController.TranslateBy(self, Vector3.New(0,150,0), 2);
+						Program.Wait(2.7);
+						TransformController.TranslateBy(self, Vector3.New(0, -150, 0), 0.1);
+						Program.Wait(0.03);
+					
+						CollisionShape.SetEnabled(Scene.Find(\"shape\"..self:identifier()), 101, true);
+					
+						for i = 1, 6 do
+							Camera.Rumble();
+							Program.Wait(0.07);
+						end
+						CollisionShape.SetEnabled(Scene.Find(\"shape\"..self:identifier()), 101, false);
+					end
+
+					=====================",
+					"secondary chunk" : "\\x1bLuaQ\\x00\\x01\\x04\\x04\\x04\\x08\\x00\\xc4\\x01\\x00\\x00local self = ...;\\r\\n\\r\\nwhile true do\\r\\n\\tTransformController.TranslateBy(self, Vector3.New(0,150,0), 2);\\r\\n\\tProgram.Wait(2.7);\\r\\n\\tTransformController.TranslateBy(self, Vector3.New(0, -150, 0), 0.1);\\r\\n\\tProgram.Wait(0.03);\\r\\n\\r\\n\\tCollisionShape.SetEnabled(Scene.Find(\"shape\"..self:identifier()), 101, true);\\r\\n\\r\\n\\tfor i = 1, 6 do\\r\\n\\t\\tCamera.Rumble();\\r\\n\\t\\tProgram.Wait(0.07);\\r\\n\\tend\\r\\n\\tCollisionShape.SetEnabled(Scene.Find(\"shape\"..self:identifier()), 101, false);\\r\\nend\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x02\\x07E\\x00\\x00\\x00%\\x00\\x00\\x01E\\x00\\x00\\x00F@\\xc0\\x00\\x80\\x00\\x00\\x00\\xc5\\x80\\x00\\x00\\xc6\\xc0\\xc0\\x01\\x01\\x01\\x01\\x00AA\\x01\\x00\\x81\\x01\\x01\\x00\\xdc\\x80\\x00\\x02\\x01\\x81\\x01\\x00\\\\@\\x00\\x02E\\xc0\\x01\\x00F\\x00\\xc2\\x00\\x81@\\x02\\x00\\\\@\\x00\\x01E\\x00\\x00\\x00F@\\xc0\\x00\\x80\\x00\\x00\\x00\\xc5\\x80\\x00\\x00\\xc6\\xc0\\xc0\\x01\\x01\\x01\\x01\\x00A\\x81\\x02\\x00\\x81\\x01\\x01\\x00\\xdc\\x80\\x00\\x02\\x01\\xc1\\x02\\x00\\\\@\\x00\\x02E\\xc0\\x01\\x00F\\x00\\xc2\\x00\\x81\\x00\\x03\\x00\\\\@\\x00\\x01E@\\x03\\x00F\\x80\\xc3\\x00\\x85\\xc0\\x03\\x00\\x86\\x00D\\x01\\xc1@\\x04\\x00\\x0b\\x81D\\x00\\x1c\\x81\\x00\\x01\\xd5\\x00\\x81\\x01\\x9c\\x80\\x00\\x01\\xc1\\xc0\\x04\\x00\\x02\\x01\\x80\\x00\\\\@\\x00\\x02A\\x00\\x05\\x00\\x81@\\x05\\x00\\xc1\\x00\\x05\\x00`\\x80\\x01\\x80E\\x81\\x05\\x00F\\xc1\\xc5\\x02\\\\A\\x80\\x00E\\xc1\\x01\\x00F\\x01\\xc2\\x02\\x81\\x01\\x06\\x00\\\\A\\x00\\x01_\\xc0\\xfd\\x7fE@\\x03\\x00F\\x80\\xc3\\x00\\x85\\xc0\\x03\\x00\\x86\\x00D\\x01\\xc1@\\x04\\x00\\x0b\\x81D\\x00\\x1c\\x81\\x00\\x01\\xd5\\x00\\x81\\x01\\x9c\\x80\\x00\\x01\\xc1\\xc0\\x04\\x00\\x02\\x01\\x00\\x00\\\\@\\x00\\x02\\x16\\x00\\xef\\x7f\\x1e\\x00\\x80\\x00\\x19\\x00\\x00\\x00\\x04\\x14\\x00\\x00\\x00TransformController\\x00\\x04\\x0c\\x00\\x00\\x00TranslateBy\\x00\\x04\\x08\\x00\\x00\\x00Vector3\\x00\\x04\\x04\\x00\\x00\\x00New\\x00\\x03\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x00\\x00\\xc0b@\\x03\\x00\\x00\\x00\\x00\\x00\\x00\\x00@\\x04\\x08\\x00\\x00\\x00Program\\x00\\x04\\x05\\x00\\x00\\x00Wait\\x00\\x03\\x9a\\x99\\x99\\x99\\x99\\x99\\x05@\\x03\\x00\\x00\\x00\\x00\\x00\\xc0b\\xc0\\x03\\x9a\\x99\\x99\\x99\\x99\\x99\\xb9?\\x03\\xb8\\x1e\\x85\\xebQ\\xb8\\x9e?\\x04\\x0f\\x00\\x00\\x00CollisionShape\\x00\\x04\\x0b\\x00\\x00\\x00SetEnabled\\x00\\x04\\x06\\x00\\x00\\x00Scene\\x00\\x04\\x05\\x00\\x00\\x00Find\\x00\\x04\\x06\\x00\\x00\\x00shape\\x00\\x04\\x0b\\x00\\x00\\x00identifier\\x00\\x03\\x00\\x00\\x00\\x00\\x00@Y@\\x03\\x00\\x00\\x00\\x00\\x00\\x00\\xf0?\\x03\\x00\\x00\\x00\\x00\\x00\\x00\\x18@\\x04\\x07\\x00\\x00\\x00Camera\\x00\\x04\\x07\\x00\\x00\\x00Rumble\\x00\\x03\\xecQ\\xb8\\x1e\\x85\\xeb\\xb1?\\x00\\x00\\x00\\x00E\\x00\\x00\\x00\\x01\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x06\\x00\\x00\\x00\\x06\\x00\\x00\\x00\\x06\\x00\\x00\\x00\\x06\\x00\\x00\\x00\\x06\\x00\\x00\\x00\\x06\\x00\\x00\\x00\\x06\\x00\\x00\\x00\\x06\\x00\\x00\\x00\\x06\\x00\\x00\\x00\\x06\\x00\\x00\\x00\\x06\\x00\\x00\\x00\\x07\\x00\\x00\\x00\\x07\\x00\\x00\\x00\\x07\\x00\\x00\\x00\\x07\\x00\\x00\\x00\\t\\x00\\x00\\x00\\t\\x00\\x00\\x00\\t\\x00\\x00\\x00\\t\\x00\\x00\\x00\\t\\x00\\x00\\x00\\t\\x00\\x00\\x00\\t\\x00\\x00\\x00\\t\\x00\\x00\\x00\\t\\x00\\x00\\x00\\t\\x00\\x00\\x00\\t\\x00\\x00\\x00\\t\\x00\\x00\\x00\\x0b\\x00\\x00\\x00\\x0b\\x00\\x00\\x00\\x0b\\x00\\x00\\x00\\x0b\\x00\\x00\\x00\\x0c\\x00\\x00\\x00\\x0c\\x00\\x00\\x00\\x0c\\x00\\x00\\x00\\r\\x00\\x00\\x00\\r\\x00\\x00\\x00\\r\\x00\\x00\\x00\\r\\x00\\x00\\x00\\x0b\\x00\\x00\\x00\\x0f\\x00\\x00\\x00\\x0f\\x00\\x00\\x00\\x0f\\x00\\x00\\x00\\x0f\\x00\\x00\\x00\\x0f\\x00\\x00\\x00\\x0f\\x00\\x00\\x00\\x0f\\x00\\x00\\x00\\x0f\\x00\\x00\\x00\\x0f\\x00\\x00\\x00\\x0f\\x00\\x00\\x00\\x0f\\x00\\x00\\x00\\x0f\\x00\\x00\\x00\\x0f\\x00\\x00\\x00\\x10\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x05\\x00\\x00\\x00self\\x00\\x01\\x00\\x00\\x00D\\x00\\x00\\x00\\x0c\\x00\\x00\\x00(for index)\\x00.\\x00\\x00\\x007\\x00\\x00\\x00\\x0c\\x00\\x00\\x00(for limit)\\x00.\\x00\\x00\\x007\\x00\\x00\\x00\\x0b\\x00\\x00\\x00(for step)\\x00.\\x00\\x00\\x007\\x00\\x00\\x00\\x02\\x00\\x00\\x00i\\x00/\\x00\\x00\\x006\\x00\\x00\\x00\\x00\\x00\\x00\\x00",
+				},
+				"u1" : 1,
+				"u2" : 1,
+			},
+		},
+
+		"positionsub-sub-block " :  {
+
+			"x position" : 0.0,
+			"y position" : 0.0,
+		},
+		"z position" : 0.0,
+		"rotation" : 0.0,
+		"scale" : 1.0,
+
+		"u0sub-sub-block " :  {
+
+			"w" : -200.0,
+			"x" : -120.74269104003906,
+			"y" : 400.0,
+			"z" : 241.48538208007812,
+		},
+		"hidden" : 0,
+	},
+	"u0" : 1.0,
+},
+
+"?itemblock " :  {
+
+
+	"?sub-itemsub-block " :  {
+
+		"name" : "stomping_ground_damage",
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "CollisionShape",
+			"number" : 101,
+
+			"collision shapesub-sub-sub-block " :  {
+
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"w" : -180.0,
+					"x" : -300.0,
+					"y" : 360.0,
+					"z" : 310.0,
+				},
+			},
+
+			"collision shape 2sub-sub-sub-block " :  {
+
+				"u3" : 1,
+				"w" : -15.0,
+				"x" : 15.0,
+
+				"lua chunksub-sub-sub-sub-block " :  {
+
+					"main chunk" : "chunk >
+
+					=== lua =============
+					local self, target = ...;
+					
+					if target:identifier() == \"hero\" then
+						Game.IncCounter(\"pancaketime\");
+					end
+
+					=====================",
+					"secondary chunk" : "\\x1bLuaQ\\x00\\x01\\x04\\x04\\x04\\x08\\x00j\\x00\\x00\\x00local self, target = ...;\\r\\n\\r\\nif target:identifier() == \"hero\" then\\r\\n\\tGame.IncCounter(\"pancaketime\");\\r\\nend\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x02\\x04\\n\\x00\\x00\\x00%\\x00\\x80\\x01\\x8b\\x00\\xc0\\x00\\x9c\\x80\\x00\\x01\\x17@@\\x01\\x16\\xc0\\x00\\x80\\x85\\x80\\x00\\x00\\x86\\xc0@\\x01\\xc1\\x00\\x01\\x00\\x9c@\\x00\\x01\\x1e\\x00\\x80\\x00\\x05\\x00\\x00\\x00\\x04\\x0b\\x00\\x00\\x00identifier\\x00\\x04\\x05\\x00\\x00\\x00hero\\x00\\x04\\x05\\x00\\x00\\x00Game\\x00\\x04\\x0b\\x00\\x00\\x00IncCounter\\x00\\x04\\x0c\\x00\\x00\\x00pancaketime\\x00\\x00\\x00\\x00\\x00\\n\\x00\\x00\\x00\\x01\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x02\\x00\\x00\\x00\\x05\\x00\\x00\\x00self\\x00\\x01\\x00\\x00\\x00\\t\\x00\\x00\\x00\\x07\\x00\\x00\\x00target\\x00\\x01\\x00\\x00\\x00\\t\\x00\\x00\\x00\\x00\\x00\\x00\\x00",
+				},
+
+				"lua chunksub-sub-sub-sub-block " :  {
+
+					"main chunk" : "chunk >
+
+					=== lua =============
+					local self, target = ...;
+					
+					if target:identifier() == \"hero\" then
+						Camera.ResetFocus();
+					end
+
+					=====================",
+					"secondary chunk" : "\\x1bLuaQ\\x00\\x01\\x04\\x04\\x04\\x08\\x00_\\x00\\x00\\x00local self, target = ...;\\r\\n\\r\\nif target:identifier() == \"hero\" then\\r\\n\\tCamera.ResetFocus();\\r\\nend\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x02\\x04\\t\\x00\\x00\\x00%\\x00\\x80\\x01\\x8b\\x00\\xc0\\x00\\x9c\\x80\\x00\\x01\\x17@@\\x01\\x16\\x80\\x00\\x80\\x85\\x80\\x00\\x00\\x86\\xc0@\\x01\\x9c@\\x80\\x00\\x1e\\x00\\x80\\x00\\x04\\x00\\x00\\x00\\x04\\x0b\\x00\\x00\\x00identifier\\x00\\x04\\x05\\x00\\x00\\x00hero\\x00\\x04\\x07\\x00\\x00\\x00Camera\\x00\\x04\\x0b\\x00\\x00\\x00ResetFocus\\x00\\x00\\x00\\x00\\x00\\t\\x00\\x00\\x00\\x01\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x02\\x00\\x00\\x00\\x05\\x00\\x00\\x00self\\x00\\x01\\x00\\x00\\x00\\x08\\x00\\x00\\x00\\x07\\x00\\x00\\x00target\\x00\\x01\\x00\\x00\\x00\\x08\\x00\\x00\\x00\\x00\\x00\\x00\\x00",
+				},
+				"z" : 0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Damage",
+			"number" : 104,
+
+			"damagesub-sub-sub-block " :  {
+
+				"u0" : 10000,
+				"u1" : 0,
+				"u2" : 0,
+				"u5" : 1.0,
+				"u6" : 0.0,
+				"u7" : 0,
+				"u8" : 1,
+			},
+		},
+
+		"positionsub-sub-block " :  {
+
+			"x position" : 0.0,
+			"y position" : 0.0,
+		},
+		"z position" : 0.0,
+		"rotation" : 0.0,
+		"scale" : 1.0,
+
+		"u0sub-sub-block " :  {
+
+			"w" : -180.0,
+			"x" : -300.0,
+			"y" : 360.0,
+			"z" : 310.0,
+		},
+		"hidden" : 0,
+	},
+	"u0" : 1.0,
+},
+
+"?itemblock " :  {
+
+
+	"?sub-itemsub-block " :  {
+
+		"name" : "worldsend_pillair",
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "CollisionShape",
+			"number" : 1,
+			"? linked component" : 100,
+
+			"collision shapesub-sub-sub-block " :  {
+
+
+				"u2sub-sub-sub-sub-block " :  {
+
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"y" : 17.51783561706543,
+						"z" : -148.19517517089844,
+					},
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"y" : 25.983566284179688,
+						"z" : -145.31411743164062,
+					},
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"y" : 24.562576293945312,
+						"z" : -128.06434631347656,
+					},
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"y" : 17.264877319335938,
+						"z" : -116.72261047363281,
+					},
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"y" : 17.1805419921875,
+						"z" : 110.63455200195312,
+					},
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"y" : 17.09625244140625,
+						"z" : 114.34796142578125,
+					},
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"y" : 26.54510498046875,
+						"z" : 128.59844970703125,
+					},
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"y" : 27.97955322265625,
+						"z" : 143.8151092529297,
+					},
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"y" : 16.84326171875,
+						"z" : 148.12525939941406,
+					},
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"y" : -0.464111328125,
+						"z" : 148.3441925048828,
+					},
+					"u3" : 0,
+					"u4" : 0,
+				},
+			},
+
+			"collision shape 2sub-sub-sub-block " :  {
+
+				"u0" : 1,
+				"w" : -22.5,
+				"x" : 22.5,
+				"z" : 1,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "CollisionShape",
+			"number" : 2,
+			"? linked component" : 100,
+
+			"collision shapesub-sub-sub-block " :  {
+
+
+				"u2sub-sub-sub-sub-block " :  {
+
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"y" : 27.97955322265625,
+						"z" : 143.8151092529297,
+					},
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"y" : 16.84326171875,
+						"z" : 148.12525939941406,
+					},
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"y" : -0.464111328125,
+						"z" : 148.3441925048828,
+					},
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"y" : -17.771484375,
+						"z" : 148.56312561035156,
+					},
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"y" : -27.97955322265625,
+						"z" : 145.1044158935547,
+					},
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"y" : -26.516357421875,
+						"z" : 127.734619140625,
+					},
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"y" : -17.3699951171875,
+						"z" : 114.483642578125,
+					},
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"y" : -17.236167907714844,
+						"z" : 110.66949462890625,
+					},
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"y" : -17.102340698242188,
+						"z" : -116.78839111328125,
+					},
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"y" : -25.8382568359375,
+						"z" : -128.84518432617188,
+					},
+					"u3" : 0,
+					"u4" : 0,
+				},
+			},
+
+			"collision shape 2sub-sub-sub-block " :  {
+
+				"u0" : 1,
+				"w" : -22.5,
+				"x" : 22.5,
+				"z" : 1,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "CollisionShape",
+			"number" : 3,
+			"? linked component" : 100,
+
+			"collision shapesub-sub-sub-block " :  {
+
+
+				"u2sub-sub-sub-sub-block " :  {
+
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"y" : -17.236167907714844,
+						"z" : 110.66949462890625,
+					},
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"y" : -17.102340698242188,
+						"z" : -116.78839111328125,
+					},
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"y" : -25.8382568359375,
+						"z" : -128.84518432617188,
+					},
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"y" : -26.506622314453125,
+						"z" : -146.44595336914062,
+					},
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"y" : -16.700868606567383,
+						"z" : -148.56314086914062,
+					},
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"y" : 0.40848350524902344,
+						"z" : -148.379150390625,
+					},
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"y" : 17.51783561706543,
+						"z" : -148.19517517089844,
+					},
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"y" : 25.983566284179688,
+						"z" : -145.31411743164062,
+					},
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"y" : 24.562576293945312,
+						"z" : -128.06434631347656,
+					},
+					"u3" : 0,
+					"u4" : 0,
+				},
+			},
+
+			"collision shape 2sub-sub-sub-block " :  {
+
+				"u0" : 1,
+				"w" : -22.5,
+				"x" : 22.5,
+				"z" : 1,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "GroundPolygon",
+			"number" : 100,
+
+			"ground polygonsub-sub-sub-block " :  {
+
+
+				"sub-sub-sub-sub-block " :  {
+
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"x" : 17.51783561706543,
+						"y" : -148.19517517089844,
+					},
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"x" : 25.983566284179688,
+						"y" : -145.31411743164062,
+					},
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"x" : 24.562576293945312,
+						"y" : -128.06434631347656,
+					},
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"x" : 17.264877319335938,
+						"y" : -116.72261047363281,
+					},
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"x" : 17.1805419921875,
+						"y" : 110.63455200195312,
+					},
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"x" : 17.09625244140625,
+						"y" : 114.34796142578125,
+					},
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"x" : 26.54510498046875,
+						"y" : 128.59844970703125,
+					},
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"x" : 27.97955322265625,
+						"y" : 143.8151092529297,
+					},
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"x" : 16.84326171875,
+						"y" : 148.12525939941406,
+					},
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"x" : -0.464111328125,
+						"y" : 148.3441925048828,
+					},
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"x" : -17.771484375,
+						"y" : 148.56312561035156,
+					},
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"x" : -27.97955322265625,
+						"y" : 145.1044158935547,
+					},
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"x" : -26.516357421875,
+						"y" : 127.734619140625,
+					},
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"x" : -17.3699951171875,
+						"y" : 114.483642578125,
+					},
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"x" : -17.236167907714844,
+						"y" : 110.66949462890625,
+					},
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"x" : -17.102340698242188,
+						"y" : -116.78839111328125,
+					},
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"x" : -25.8382568359375,
+						"y" : -128.84518432617188,
+					},
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"x" : -26.506622314453125,
+						"y" : -146.44595336914062,
+					},
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"x" : -16.700868606567383,
+						"y" : -148.56314086914062,
+					},
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"x" : 0.40848350524902344,
+						"y" : -148.379150390625,
+					},
+					"u0" : 0,
+					"u1" : 1,
+				},
+				"u1" : 1,
+				"u2" : -22.5,
+				"u3" : 22.5,
+				"u4" : "",
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "GroundMesh",
+			"number" : 101,
+
+			"ground meshsub-sub-sub-block " :  {
+
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"w" : -37.97955322265625,
+					"x" : -158.56314086914062,
+					"y" : 75.9591064453125,
+					"z" : 317.12628173828125,
+				},
+
+				"u1sub-sub-sub-sub-block " :  {
+
+					"u0" : 21,
+					"u1" : 20,
+
+					"u2sub-sub-sub-sub-sub-block " :  {
+
+						"u0" : 4,
+						"u1" : 1,
+						"u2" : 2,
+						"u3" : 0,
+					},
+
+					"u3sub-sub-sub-sub-sub-block " :  {
+
+						"u0" : 7,
+						"u1" : 3,
+						"u2" : 32,
+						"u3" : 0,
+					},
+
+					"u4sub-sub-sub-sub-sub-block " :  {
+
+						"u0" : 7,
+						"u1" : 3,
+						"u2" : 32,
+						"u3" : 12,
+					},
+
+					"u5sub-sub-sub-sub-sub-block " :  {
+
+						"u0" : 7,
+						"u1" : 2,
+						"u2" : 32,
+						"u3" : 24,
+					},
+
+					"u6sub-sub-sub-sub-sub-block " :  {
+
+
+						"u0sub-sub-sub-sub-sub-sub-block " :  {
+
+							"w" : 1.0,
+							"x" : 1.0,
+							"y" : 1.0,
+							"z" : 1.0,
+						},
+
+						"u1sub-sub-sub-sub-sub-sub-block " :  {
+
+							"w" : 1.0,
+							"x" : 1.0,
+							"y" : 1.0,
+							"z" : 1.0,
+						},
+
+						"u2sub-sub-sub-sub-sub-sub-block " :  {
+
+							"w" : 1.0,
+							"x" : 1.0,
+							"y" : 1.0,
+							"z" : 1.0,
+						},
+						"u3" : 0.0,
+						"u4" : "\\n\\x0bcrypt_tiles\\x10\\x01 \\x02",
+					},
+
+					"u7sub-sub-sub-sub-sub-block " :  {
+
+						"u" : -17.771484375,
+						"v" : 117.73226928710938,
+						"w" : -27.5,
+						"x" : 48.548797607421875,
+						"y" : 30.830856323242188,
+						"z" : 55.0,
+					},
+					"u8" : "\\xf07\\xf6Av\\xbb\\x0eC\\x00\\x00\\xb4\\xc1\\xcd\\xcd\\xb8>\\x06\\xben?\\x00\\x00\\x00\\x00\\x00\\x00\\x00?\\x85\\xeb\\xd1>\\xf07\\xf6Av\\xbb\\x0eC\\x00\\x00\\xb4A\\xcd\\xcd\\xb8>\\x06\\xben?\\x00\\x00\\x00\\x00\\x00\\x00\\x00?=\\n\\x17?\\xf07\\xf6Av\\xbb\\x04C\\x00\\x00\\xdcA\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\x1f\\x85\\xeb>\\xf6(\\x1c?\\xf07\\xf6A\\xecv\\xebB\\xcd\\xcc\\xb4A\\xcd\\xcd\\xb8\\xbe\\x06\\xben\\xbf\\x00\\x00\\x00\\x80\\xcd\\xcc\\xcc>t$\\x17?\\xf07\\xf6A\\xecv\\xebB33\\xb3\\xc1\\xcd\\xcd\\xb8\\xbe\\x06\\xben\\xbf\\x00\\x00\\x00\\x80\\xcd\\xcc\\xcc>\\xf3\\x1f\\xd2>\\xf07\\xf6Av\\xbb\\x04C\\x00\\x00\\xdc\\xc1\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\x1f\\x85\\xeb>\\x14\\xae\\xc7>\\xf07\\xf6Av\\xbb\\x0eC\\x00\\x00\\xb4\\xc1\\xcd\\xcd\\xb8>\\x06\\xben?\\x00\\x00\\x00\\x00\\x00\\x00\\x00?\\x85\\xeb\\xd1>\\xf07\\xf6Av\\xbb\\x0eC\\x00\\x00\\xb4A\\xcd\\xcd\\xb8>\\x06\\xben?\\x00\\x00\\x00\\x00\\x00\\x00\\x00?=\\n\\x17?\\xf07\\xf6Av\\xbb\\x04C\\x00\\x00\\xdcA\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\x00\\x00\\x00?\\x19}\"?\\xf07\\xf6A\\xecv\\xebB\\xcd\\xcc\\xb4A\\xcd\\xcd\\xb8\\xbe\\x06\\xben\\xbf\\x00\\x00\\x00\\x80\\x00\\x00\\x00?\\xbe\\xa52?\\x00\\xbf\\x86A\\x11 \\x14C\\x00\\x00\\xb4\\xc1\\xdf\\x05!>\\xaa\\xd0|?\\x00\\x00\\x00\\x00V:\\x0c?\\x85\\xeb\\xd1>\\x00\\xbf\\x86A\\x11 \\x14C\\x00\\x00\\xb4A\\xdf\\x05!>\\xaa\\xd0|?\\x00\\x00\\x00\\x00V:\\x0c?=\\n\\x17?\\x00\\xbf\\x86A\\x11 \\nC\\x00\\x00\\xdcA\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?V:\\x0c?\\x19}\"?\\x00\\xbf\\x86A\"@\\xf6B\\xcd\\xcc\\xb4A\\xdf\\x05!\\xbe\\xaa\\xd0|\\xbf\\x00\\x00\\x00\\x80V:\\x0c?\\xbe\\xa52?\\x00\\xa0\\xed\\xbe\\x1dX\\x14C\\x00\\x00\\xb4\\xc1s<O<\\xc1\\xfa\\x7f?\\x00\\x00\\x00\\x00\\xb9\\xf3\\x1d?\\x85\\xeb\\xd1>\\x00\\xa0\\xed\\xbe\\x1dX\\x14C\\x00\\x00\\xb4As<O<\\xc1\\xfa\\x7f?\\x00\\x00\\x00\\x00\\xb9\\xf3\\x1d?=\\n\\x17?\\x00\\xa0\\xed\\xbe\\x1dX\\nC\\x00\\x00\\xdcA\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xb9\\xf3\\x1d?\\x19}\"?\\x00\\xa0\\xed\\xbe:\\xb0\\xf6B\\xcd\\xcc\\xb4As<O\\xbc\\xc1\\xfa\\x7f\\xbf\\x00\\x00\\x00\\x80\\xb9\\xf3\\x1d?\\xbe\\xa52?\\x00,\\x8e\\xc1)\\x90\\x14C\\x00\\x00\\xb4\\xc19|\\xef\\xbdc>~?\\x00\\x00\\x00\\x00\\x1c\\xad/?\\x85\\xeb\\xd1>\\x00,\\x8e\\xc1)\\x90\\x14C\\x00\\x00\\xb4A9|\\xef\\xbdc>~?\\x00\\x00\\x00\\x00\\x1c\\xad/?=\\n\\x17?\\x00,\\x8e\\xc1)\\x90\\nC\\x00\\x00\\xdcA\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\x1c\\xad/?\\x19}\"?",
+					"u9" : "\\x00\\x00\\x04\\x00\\x05\\x00\\x00\\x00\\x03\\x00\\x04\\x00\\x00\\x00\\x01\\x00\\x03\\x00\\x01\\x00\\x02\\x00\\x03\\x00\\x06\\x00\\n\\x00\\x0b\\x00\\x07\\x00\\x06\\x00\\x0b\\x00\\x07\\x00\\x0b\\x00\\x0c\\x00\\x08\\x00\\x07\\x00\\x0c\\x00\\x08\\x00\\x0c\\x00\\r\\x00\\t\\x00\\x08\\x00\\r\\x00\\n\\x00\\x0e\\x00\\x0f\\x00\\x0b\\x00\\n\\x00\\x0f\\x00\\x0b\\x00\\x0f\\x00\\x10\\x00\\x0c\\x00\\x0b\\x00\\x10\\x00\\x0c\\x00\\x10\\x00\\x11\\x00\\r\\x00\\x0c\\x00\\x11\\x00\\x0e\\x00\\x12\\x00\\x13\\x00\\x0f\\x00\\x0e\\x00\\x13\\x00\\x0f\\x00\\x13\\x00\\x14\\x00\\x10\\x00\\x0f\\x00\\x14\\x00",
+				},
+
+				"u1sub-sub-sub-sub-block " :  {
+
+					"u0" : 16,
+					"u1" : 12,
+
+					"u2sub-sub-sub-sub-sub-block " :  {
+
+						"u0" : 4,
+						"u1" : 1,
+						"u2" : 2,
+						"u3" : 0,
+					},
+
+					"u3sub-sub-sub-sub-sub-block " :  {
+
+						"u0" : 7,
+						"u1" : 3,
+						"u2" : 32,
+						"u3" : 0,
+					},
+
+					"u4sub-sub-sub-sub-sub-block " :  {
+
+						"u0" : 7,
+						"u1" : 3,
+						"u2" : 32,
+						"u3" : 12,
+					},
+
+					"u5sub-sub-sub-sub-sub-block " :  {
+
+						"u0" : 7,
+						"u1" : 2,
+						"u2" : 32,
+						"u3" : 24,
+					},
+
+					"u6sub-sub-sub-sub-sub-block " :  {
+
+
+						"u0sub-sub-sub-sub-sub-sub-block " :  {
+
+							"w" : 1.0,
+							"x" : 1.0,
+							"y" : 1.0,
+							"z" : 1.0,
+						},
+
+						"u1sub-sub-sub-sub-sub-sub-block " :  {
+
+							"w" : 1.0,
+							"x" : 1.0,
+							"y" : 1.0,
+							"z" : 1.0,
+						},
+
+						"u2sub-sub-sub-sub-sub-sub-block " :  {
+
+							"w" : 1.0,
+							"x" : 1.0,
+							"y" : 1.0,
+							"z" : 1.0,
+						},
+						"u3" : 0.0,
+						"u4" : "\\n\\x0bcrypt_tiles\\x10\\x01 \\x02",
+					},
+
+					"u7sub-sub-sub-sub-sub-block " :  {
+
+						"u" : -30.820890426635742,
+						"v" : 119.14170837402344,
+						"w" : -27.5,
+						"x" : 30.356779098510742,
+						"y" : 29.421417236328125,
+						"z" : 55.0,
+					},
+					"u8" : "\\x00\\xa0\\xed\\xbe\\x1dX\\nC\\x00\\x00\\xdcA\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xb9\\xf3\\x1d?\\x19}\"?\\x00\\xa0\\xed\\xbe:\\xb0\\xf6B\\xcd\\xcc\\xb4As<O\\xbc\\xc1\\xfa\\x7f\\xbf\\x00\\x00\\x00\\x80\\xb9\\xf3\\x1d?\\xbe\\xa52?\\x00,\\x8e\\xc1)\\x90\\x14C\\x00\\x00\\xb4\\xc19|\\xef\\xbdc>~?\\x00\\x00\\x00\\x00\\x1c\\xad/?\\x85\\xeb\\xd1>\\x00,\\x8e\\xc1)\\x90\\x14C\\x00\\x00\\xb4A9|\\xef\\xbdc>~?\\x00\\x00\\x00\\x00\\x1c\\xad/?=\\n\\x17?\\x00,\\x8e\\xc1)\\x90\\nC\\x00\\x00\\xdcA\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\x1c\\xad/?\\x19}\"?\\x00,\\x8e\\xc1R \\xf7B\\xcd\\xcc\\xb4A9|\\xef=c>~\\xbf\\x00\\x00\\x00\\x80\\x1c\\xad/?\\xbe\\xa52?/\\x91\\xf6\\xc1G$\\x10C\\x00\\x00\\xb4\\xc1<M\\xa4\\xbe\\xf7ur?\\x00\\x00\\x00\\x00\\x86\\xb6:?\\x85\\xeb\\xd1>/\\x91\\xf6\\xc1G$\\x10C\\x00\\x00\\xb4A<M\\xa4\\xbe\\xf7ur?\\x00\\x00\\x00\\x00\\x86\\xb6:?=\\n\\x17?/\\x91\\xf6\\xc1G$\\x06C\\x00\\x00\\xdcA\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\x86\\xb6:?\\x19}\"?/\\x91\\xf6\\xc1\\x8eH\\xeeB\\xcd\\xcc\\xb4A<M\\xa4>\\xf7ur\\xbf\\x00\\x00\\x00\\x80\\x86\\xb6:?\\xbe\\xa52?/\\x91\\xf6\\xc1G$\\x10C\\x00\\x00\\xb4\\xc1<M\\xa4\\xbe\\xf7ur?\\x00\\x00\\x00\\x00\\x86\\xb6:?\\x85\\xeb\\xd1>/\\x91\\xf6\\xc1G$\\x10C\\x00\\x00\\xb4A<M\\xa4\\xbe\\xf7ur?\\x00\\x00\\x00\\x00\\x86\\xb6:?=\\n\\x17?/\\x91\\xf6\\xc1G$\\x06C\\x00\\x00\\xdcA\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xf7\\xf3D?\\xf6(\\x1c?/\\x91\\xf6\\xc1\\x8eH\\xeeB\\xcd\\xcc\\xb4A<M\\xa4>\\xf7ur\\xbf\\x00\\x00\\x00\\x80 PT?t$\\x17?/\\x91\\xf6\\xc1\\x8eH\\xeeB33\\xb3\\xc1<M\\xa4>\\xf7ur\\xbf\\x00\\x00\\x00\\x80 PT?\\xf3\\x1f\\xd2>/\\x91\\xf6\\xc1G$\\x06C\\x00\\x00\\xdc\\xc1\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xf7\\xf3D?\\x14\\xae\\xc7>",
+					"u9" : "\\x00\\x00\\x04\\x00\\x05\\x00\\x01\\x00\\x00\\x00\\x05\\x00\\x02\\x00\\x06\\x00\\x07\\x00\\x03\\x00\\x02\\x00\\x07\\x00\\x03\\x00\\x07\\x00\\x08\\x00\\x04\\x00\\x03\\x00\\x08\\x00\\x04\\x00\\x08\\x00\\t\\x00\\x05\\x00\\x04\\x00\\t\\x00\\n\\x00\\x0f\\x00\\x0e\\x00\\n\\x00\\x0e\\x00\\r\\x00\\n\\x00\\r\\x00\\x0b\\x00\\r\\x00\\x0c\\x00\\x0b\\x00",
+				},
+
+				"u1sub-sub-sub-sub-block " :  {
+
+					"u0" : 22,
+					"u1" : 20,
+
+					"u2sub-sub-sub-sub-sub-block " :  {
+
+						"u0" : 4,
+						"u1" : 1,
+						"u2" : 2,
+						"u3" : 0,
+					},
+
+					"u3sub-sub-sub-sub-sub-block " :  {
+
+						"u0" : 7,
+						"u1" : 3,
+						"u2" : 32,
+						"u3" : 0,
+					},
+
+					"u4sub-sub-sub-sub-sub-block " :  {
+
+						"u0" : 7,
+						"u1" : 3,
+						"u2" : 32,
+						"u3" : 12,
+					},
+
+					"u5sub-sub-sub-sub-sub-block " :  {
+
+						"u0" : 7,
+						"u1" : 2,
+						"u2" : 32,
+						"u3" : 24,
+					},
+
+					"u6sub-sub-sub-sub-sub-block " :  {
+
+
+						"u0sub-sub-sub-sub-sub-sub-block " :  {
+
+							"w" : 1.0,
+							"x" : 1.0,
+							"y" : 1.0,
+							"z" : 1.0,
+						},
+
+						"u1sub-sub-sub-sub-sub-sub-block " :  {
+
+							"w" : 1.0,
+							"x" : 1.0,
+							"y" : 1.0,
+							"z" : 1.0,
+						},
+
+						"u2sub-sub-sub-sub-sub-sub-block " :  {
+
+							"w" : 1.0,
+							"x" : 1.0,
+							"y" : 1.0,
+							"z" : 1.0,
+						},
+						"u3" : 0.0,
+						"u4" : "\\n\\x0bcrypt_tiles\\x10\\x01 \\x02",
+					},
+
+					"u7sub-sub-sub-sub-sub-block " :  {
+
+						"u" : -27.97955322265625,
+						"v" : -148.56314086914062,
+						"w" : -17.5,
+						"x" : 53.96311950683594,
+						"y" : 293.6675720214844,
+						"z" : 35.0,
+					},
+					"u8" : " \\xd6\\xdf\\xc1\\xbb\\x1a\\x11C\\x00\\x00\\x8c\\xc1\\xb5\\x18\\x7f\\xbf\\x12\\xe9\\xab\\xbd\\x00\\x00\\x00\\x00\\x00\\x00\\x00?\\xf6(\\xdc> \\xd6\\xdf\\xc1\\xbb\\x1a\\x11C\\x00\\x00\\x8cA\\xb5\\x18\\x7f\\xbf\\x12\\xe9\\xab\\xbd\\x00\\x00\\x00\\x00\\x00\\x00\\x00?\\x85\\xeb\\x11?\\x80!\\xd4\\xc1 x\\xffB\\x00\\x00\\x8c\\xc1Q\\xe4q\\xbf^\\x9f\\xa7\\xbe\\x00\\x00\\x00\\x00\\x84\\xd9\\x11?\\xf6(\\xdc>\\x80!\\xd4\\xc1 x\\xffB\\x00\\x00\\x8cAQ\\xe4q\\xbf^\\x9f\\xa7\\xbe\\x00\\x00\\x00\\x00\\x84\\xd9\\x11?\\x85\\xeb\\x11?\\xc0\\xf5\\x8a\\xc1\\xa0\\xf7\\xe4B\\x00\\x00\\x8c\\xc1\\x85\\xe5`\\xbf#\\x9a\\xf4\\xbe\\x00\\x00\\x00\\x00PV\"?\\xf6(\\xdc>\\xc0\\xf5\\x8a\\xc1\\xa0\\xf7\\xe4B\\x00\\x00\\x8cA\\x85\\xe5`\\xbf#\\x9a\\xf4\\xbe\\x00\\x00\\x00\\x00PV\"?\\x85\\xeb\\x11?\\xac\\xe3\\x89\\xc1\\xc8V\\xddB\\x00\\x00\\x8c\\xc1\\xf5\\xff\\x7f\\xbf\\xff\\xb0\\x97\\xba\\x00\\x00\\x00\\x00\\xc9>&?\\xf6(\\xdc>\\xac\\xe3\\x89\\xc1\\xc8V\\xddB\\x00\\x00\\x8cA\\xf5\\xff\\x7f\\xbf\\xff\\xb0\\x97\\xba\\x00\\x00\\x00\\x00\\xc9>&?\\x85\\xeb\\x11?\\x98\\xd1\\x88\\xc1\\xa8\\x93\\xe9\\xc2\\x00\\x00\\x8c\\xc1\\xc6\\xd5\\x7f\\xbf\\xfd\\x02\\x13=\\x00\\x00\\x00\\x00\\xc3\\x94\\xc7?\\xf6(\\xdc>\\x98\\xd1\\x88\\xc1\\xa8\\x93\\xe9\\xc2\\x00\\x00\\x8cA\\xc6\\xd5\\x7f\\xbf\\xfd\\x02\\x13=\\x00\\x00\\x00\\x00\\xc3\\x94\\xc7?\\x85\\xeb\\x11?\\xc0\\xb4\\xce\\xc1^\\xd8\\x00\\xc3\\x00\\x00\\x8c\\xc1\\x85\\x06t\\xbf@\\xc2\\x9a>\\x00\\x00\\x00\\x00K4\\xcf?\\xf6(\\xdc>\\xc0\\xb4\\xce\\xc1^\\xd8\\x00\\xc3\\x00\\x00\\x8cA\\x85\\x06t\\xbf@\\xc2\\x9a>\\x00\\x00\\x00\\x00K4\\xcf?\\x85\\xeb\\x11?\\x90\\r\\xd4\\xc1*r\\x12\\xc3\\x00\\x00\\x8c\\xc1\\xbdEh\\xbf\\xaaE\\xd7\\xbe\\x00\\x00\\x00\\x00\\xed8\\xd8?\\xf6(\\xdc>\\x90\\r\\xd4\\xc1*r\\x12\\xc3\\x00\\x00\\x8cA\\xbdEh\\xbf\\xaaE\\xd7\\xbe\\x00\\x00\\x00\\x00\\xed8\\xd8?\\x85\\xeb\\x11?a\\x9b\\x85\\xc1*\\x90\\x14\\xc3\\x00\\x00\\x8c\\xc1\\x9a\\xb8\\x92\\xbd\\x99W\\x7f\\xbf\\x00\\x00\\x00\\x00\\xcd[\\xdd?\\xf6(\\xdc>a\\x9b\\x85\\xc1*\\x90\\x14\\xc3\\x00\\x00\\x8cA\\x9a\\xb8\\x92\\xbd\\x99W\\x7f\\xbf\\x00\\x00\\x00\\x00\\xcd[\\xdd?\\x85\\xeb\\x11?\\xc0$\\xd1>\\x10a\\x14\\xc3\\x00\\x00\\x8c\\xc16,0<6\\xfc\\x7f\\xbf\\x00\\x00\\x00\\x00}\\x1e\\xe6?\\xf6(\\xdc>\\xc0$\\xd1>\\x10a\\x14\\xc3\\x00\\x00\\x8cA6,0<6\\xfc\\x7f\\xbf\\x00\\x00\\x00\\x00}\\x1e\\xe6?\\x85\\xeb\\x11?\\x87$\\x8cA\\xf71\\x14\\xc3\\x00\\x00\\x8c\\xc1\\x9c\\xb2\\xf3=_.~\\xbf\\x00\\x00\\x00\\x00-\\xe1\\xee?\\xf6(\\xdc>\\x87$\\x8cA\\xf71\\x14\\xc3\\x00\\x00\\x8cA\\x9c\\xb2\\xf3=_.~\\xbf\\x00\\x00\\x00\\x00-\\xe1\\xee?\\x85\\xeb\\x11?X\\xde\\xcfAjP\\x11\\xc3\\x00\\x00\\x8c\\xc1\\xb5\\xa1q?\\xf2\\x1d\\xa9\\xbe\\x00\\x00\\x00\\x00Ku\\xf3?\\xf6(\\xdc>X\\xde\\xcfAjP\\x11\\xc3\\x00\\x00\\x8cA\\xb5\\xa1q?\\xf2\\x1d\\xa9\\xbe\\x00\\x00\\x00\\x00Ku\\xf3?\\x85\\xeb\\x11?",
+					"u9" : "\\x00\\x00\\x02\\x00\\x03\\x00\\x01\\x00\\x00\\x00\\x03\\x00\\x02\\x00\\x04\\x00\\x05\\x00\\x03\\x00\\x02\\x00\\x05\\x00\\x04\\x00\\x06\\x00\\x07\\x00\\x05\\x00\\x04\\x00\\x07\\x00\\x06\\x00\\x08\\x00\\t\\x00\\x07\\x00\\x06\\x00\\t\\x00\\x08\\x00\\n\\x00\\x0b\\x00\\t\\x00\\x08\\x00\\x0b\\x00\\n\\x00\\x0c\\x00\\r\\x00\\x0b\\x00\\n\\x00\\r\\x00\\x0c\\x00\\x0e\\x00\\x0f\\x00\\r\\x00\\x0c\\x00\\x0f\\x00\\x0e\\x00\\x10\\x00\\x11\\x00\\x0f\\x00\\x0e\\x00\\x11\\x00\\x10\\x00\\x12\\x00\\x13\\x00\\x11\\x00\\x10\\x00\\x13\\x00\\x12\\x00\\x14\\x00\\x15\\x00\\x13\\x00\\x12\\x00\\x15\\x00",
+				},
+
+				"u1sub-sub-sub-sub-block " :  {
+
+					"u0" : 14,
+					"u1" : 12,
+
+					"u2sub-sub-sub-sub-sub-block " :  {
+
+						"u0" : 4,
+						"u1" : 1,
+						"u2" : 2,
+						"u3" : 0,
+					},
+
+					"u3sub-sub-sub-sub-sub-block " :  {
+
+						"u0" : 7,
+						"u1" : 3,
+						"u2" : 32,
+						"u3" : 0,
+					},
+
+					"u4sub-sub-sub-sub-sub-block " :  {
+
+						"u0" : 7,
+						"u1" : 3,
+						"u2" : 32,
+						"u3" : 12,
+					},
+
+					"u5sub-sub-sub-sub-sub-block " :  {
+
+						"u0" : 7,
+						"u1" : 2,
+						"u2" : 32,
+						"u3" : 24,
+					},
+
+					"u6sub-sub-sub-sub-sub-block " :  {
+
+
+						"u0sub-sub-sub-sub-sub-sub-block " :  {
+
+							"w" : 1.0,
+							"x" : 1.0,
+							"y" : 1.0,
+							"z" : 1.0,
+						},
+
+						"u1sub-sub-sub-sub-sub-sub-block " :  {
+
+							"w" : 1.0,
+							"x" : 1.0,
+							"y" : 1.0,
+							"z" : 1.0,
+						},
+
+						"u2sub-sub-sub-sub-sub-sub-block " :  {
+
+							"w" : 1.0,
+							"x" : 1.0,
+							"y" : 1.0,
+							"z" : 1.0,
+						},
+						"u3" : 0.0,
+						"u4" : "\\n\\x0bcrypt_tiles\\x10\\x01 \\x02",
+					},
+
+					"u7sub-sub-sub-sub-sub-block " :  {
+
+						"u" : 17.09625244140625,
+						"v" : -145.31411743164062,
+						"w" : -17.5,
+						"x" : 10.88330078125,
+						"y" : 289.12921142578125,
+						"z" : 35.0,
+					},
+					"u8" : "X\\xde\\xcfAjP\\x11\\xc3\\x00\\x00\\x8c\\xc1\\xb5\\xa1q?\\xf2\\x1d\\xa9\\xbe\\x00\\x00\\x00\\x00Ku\\xf3?\\xf6(\\xdc>X\\xde\\xcfAjP\\x11\\xc3\\x00\\x00\\x8cA\\xb5\\xa1q?\\xf2\\x1d\\xa9\\xbe\\x00\\x00\\x00\\x00Ku\\xf3?\\x85\\xeb\\x11?(\\x80\\xc4Ay\\x10\\x00\\xc3\\x00\\x00\\x8c\\xc1;\\xdet?\\x0eW\\x95>\\x00\\x00\\x00\\x00\\xe9Q\\xfc?\\xf6(\\xdc>(\\x80\\xc4Ay\\x10\\x00\\xc3\\x00\\x00\\x8cA;\\xdet?\\x0eW\\x95>\\x00\\x00\\x00\\x00\\xe9Q\\xfc?\\x85\\xeb\\x11?x\\x1e\\x8aA\\xfaq\\xe9\\xc2\\x00\\x00\\x8c\\xc1\\xae\\xe0\\x7f?\\xcf9\\xfd<\\x00\\x00\\x00\\x00\\xd2\\x9c\\x01@\\xf6(\\xdc>x\\x1e\\x8aA\\xfaq\\xe9\\xc2\\x00\\x00\\x8cA\\xae\\xe0\\x7f?\\xcf9\\xfd<\\x00\\x00\\x00\\x00\\xd2\\x9c\\x01@\\x85\\xeb\\x11?\\xc0q\\x89A\\xe4D\\xddB\\x00\\x00\\x8c\\xc1\\xfb\\xff\\x7f?\\x02M?:\\x00\\x00\\x00\\x00\\xe7\\xd0;@\\xf6(\\xdc>\\xc0q\\x89A\\xe4D\\xddB\\x00\\x00\\x8cA\\xfb\\xff\\x7f?\\x02M?:\\x00\\x00\\x00\\x00\\xe7\\xd0;@\\x85\\xeb\\x11? \\xc5\\x88A(\\xb2\\xe4B\\x00\\x00\\x8c\\xc1\\xb6\\x01c?>\\xad\\xec\\xbe\\x00\\x00\\x00\\x00T\\xc4<@\\xf6(\\xdc> \\xc5\\x88A(\\xb2\\xe4B\\x00\\x00\\x8cA\\xb6\\x01c?>\\xad\\xec\\xbe\\x00\\x00\\x00\\x00T\\xc4<@\\x85\\xeb\\x11?`\\\\\\xd4A4\\x99\\x00C\\x00\\x00\\x8c\\xc1\\xf9$p?jc\\xb1\\xbe\\x00\\x00\\x00\\x00\\xe4$A@\\xf6(\\xdc>`\\\\\\xd4A4\\x99\\x00C\\x00\\x00\\x8cA\\xf9$p?jc\\xb1\\xbe\\x00\\x00\\x00\\x00\\xe4$A@\\x85\\xeb\\x11? \\xd6\\xdfA\\xab\\xd0\\x0fC\\x00\\x00\\x8c\\xc1\\xbc\\xde~?\\x935\\xc0\\xbd\\x00\\x00\\x00\\x00\\x8d\\x0eE@\\xf6(\\xdc> \\xd6\\xdfA\\xab\\xd0\\x0fC\\x00\\x00\\x8cA\\xbc\\xde~?\\x935\\xc0\\xbd\\x00\\x00\\x00\\x00\\x8d\\x0eE@\\x85\\xeb\\x11?",
+					"u9" : "\\x00\\x00\\x02\\x00\\x03\\x00\\x01\\x00\\x00\\x00\\x03\\x00\\x02\\x00\\x04\\x00\\x05\\x00\\x03\\x00\\x02\\x00\\x05\\x00\\x04\\x00\\x06\\x00\\x07\\x00\\x05\\x00\\x04\\x00\\x07\\x00\\x06\\x00\\x08\\x00\\t\\x00\\x07\\x00\\x06\\x00\\t\\x00\\x08\\x00\\n\\x00\\x0b\\x00\\t\\x00\\x08\\x00\\x0b\\x00\\n\\x00\\x0c\\x00\\r\\x00\\x0b\\x00\\n\\x00\\r\\x00",
+				},
+
+				"u2sub-sub-sub-sub-block " :  {
+
+					"u0" : 54,
+					"u1" : 18,
+
+					"u2sub-sub-sub-sub-sub-block " :  {
+
+						"u0" : 7,
+						"u1" : 3,
+						"u2" : 32,
+						"u3" : 0,
+					},
+
+					"u3sub-sub-sub-sub-sub-block " :  {
+
+						"u0" : 7,
+						"u1" : 3,
+						"u2" : 32,
+						"u3" : 12,
+					},
+
+					"u4sub-sub-sub-sub-sub-block " :  {
+
+						"u0" : 7,
+						"u1" : 2,
+						"u2" : 32,
+						"u3" : 24,
+					},
+
+					"u5sub-sub-sub-sub-sub-block " :  {
+
+
+						"u0sub-sub-sub-sub-sub-sub-block " :  {
+
+							"w" : 1.0,
+							"x" : 1.0,
+							"y" : 1.0,
+							"z" : 1.0,
+						},
+
+						"u1sub-sub-sub-sub-sub-sub-block " :  {
+
+							"w" : 1.0,
+							"x" : 1.0,
+							"y" : 1.0,
+							"z" : 1.0,
+						},
+
+						"u2sub-sub-sub-sub-sub-sub-block " :  {
+
+							"w" : 1.0,
+							"x" : 1.0,
+							"y" : 1.0,
+							"z" : 1.0,
+						},
+						"u3" : 0.0,
+
+						"u4sub-sub-sub-sub-sub-sub-block " :  {
+
+							"u0" : "crypt_tiles",
+							"u1" : 1,
+							"u2" : 2,
+						},
+					},
+
+					"u3sub-sub-sub-sub-sub-block " :  {
+
+						"u" : -27.97955322265625,
+						"v" : -148.56314086914062,
+						"w" : 17.5,
+						"x" : 55.9591064453125,
+						"y" : 297.12628173828125,
+						"z" : 0.0,
+					},
+					"u7" : "\\x80!\\xd4\\xc1 x\\xffB\\x00\\x00\\x8cA\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80\\x00\\x00\\x80?\\xcb\\xb1\\xc9>of\\x81?\\x00,\\x8e\\xc1)\\x90\\x14C\\x00\\x00\\x8cA\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80\\x00\\x00\\x80?\\xa0\\x9a\\xdb>w\\x10\\x8c? \\xd6\\xdf\\xc1\\xbb\\x1a\\x11C\\x00\\x00\\x8cA\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80\\x00\\x00\\x80?\\xa8\\xb2\\xc6> K\\x8a?\\xc0\\xf5\\x8a\\xc1\\xa0\\xf7\\xe4B\\x00\\x00\\x8cA\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\x1fm\\xdc>3;u?\\x00,\\x8e\\xc1)\\x90\\x14C\\x00\\x00\\x8cA\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xa0\\x9a\\xdb>w\\x10\\x8c?\\x80!\\xd4\\xc1 x\\xffB\\x00\\x00\\x8cA\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xcb\\xb1\\xc9>of\\x81?\\x00,\\x8e\\xc1)\\x90\\x14C\\x00\\x00\\x8cA\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xa0\\x9a\\xdb>w\\x10\\x8c?\\xc0\\xf5\\x8a\\xc1\\xa0\\xf7\\xe4B\\x00\\x00\\x8cA\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\x1fm\\xdc>3;u?\\xac\\xe3\\x89\\xc1\\xc8V\\xddB\\x00\\x00\\x8cA\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?I\\xb3\\xdc>XSq?\\xac\\xe3\\x89\\xc1\\xc8V\\xddB\\x00\\x00\\x8cA\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?I\\xb3\\xdc>XSq?\\x98\\xd1\\x88\\xc1\\xa8\\x93\\xe9\\xc2\\x00\\x00\\x8cA\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?s\\xf9\\xdc>\\xfc\\x89\\x06=a\\x9b\\x85\\xc1*\\x90\\x14\\xc3\\x00\\x00\\x8cA\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xef\\xcb\\xdd>}\\x07\\xc1\\xbd\\xac\\xe3\\x89\\xc1\\xc8V\\xddB\\x00\\x00\\x8cA\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?I\\xb3\\xdc>XSq?a\\x9b\\x85\\xc1*\\x90\\x14\\xc3\\x00\\x00\\x8cA\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xef\\xcb\\xdd>}\\x07\\xc1\\xbd\\x00\\xa0\\xed\\xbe\\x1dX\\x14C\\x00\\x00\\x8cA\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xac\\x0c\\xff>\\xc5\\xf3\\x8b?\\x00,\\x8e\\xc1)\\x90\\x14C\\x00\\x00\\x8cA\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xa0\\x9a\\xdb>w\\x10\\x8c?\\xac\\xe3\\x89\\xc1\\xc8V\\xddB\\x00\\x00\\x8cA\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?I\\xb3\\xdc>XSq?\\x00\\xa0\\xed\\xbe\\x1dX\\x14C\\x00\\x00\\x8cA\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xac\\x0c\\xff>\\xc5\\xf3\\x8b?a\\x9b\\x85\\xc1*\\x90\\x14\\xc3\\x00\\x00\\x8cA\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\xff\\xff\\x7f?\\xef\\xcb\\xdd>}\\x07\\xc1\\xbd\\x98\\xd1\\x88\\xc1\\xa8\\x93\\xe9\\xc2\\x00\\x00\\x8cA\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\xff\\xff\\x7f?s\\xf9\\xdc>\\xfc\\x89\\x06=\\xc0\\xb4\\xce\\xc1^\\xd8\\x00\\xc3\\x00\\x00\\x8cA\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\xff\\xff\\x7f?P\\x15\\xcb>}\\xff{\\xbca\\x9b\\x85\\xc1*\\x90\\x14\\xc3\\x00\\x00\\x8cA\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xef\\xcb\\xdd>}\\x07\\xc1\\xbd\\xc0\\xb4\\xce\\xc1^\\xd8\\x00\\xc3\\x00\\x00\\x8cA\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?P\\x15\\xcb>}\\xff{\\xbc\\x90\\r\\xd4\\xc1*r\\x12\\xc3\\x00\\x00\\x8cA\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xe5\\xb6\\xc9>m\\xaf\\xaf\\xbd\\xc0$\\xd1>\\x10a\\x14\\xc3\\x00\\x00\\x8cA\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\x15k\\x00?\\xa2\\x85\\xbf\\xbd\\x00\\xa0\\xed\\xbe\\x1dX\\x14C\\x00\\x00\\x8cA\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xac\\x0c\\xff>\\xc5\\xf3\\x8b?a\\x9b\\x85\\xc1*\\x90\\x14\\xc3\\x00\\x00\\x8cA\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xef\\xcb\\xdd>}\\x07\\xc1\\xbd\\xc0$\\xd1>\\x10a\\x14\\xc3\\x00\\x00\\x8cA\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80\\x00\\x00\\x80?\\x15k\\x00?\\xa2\\x85\\xbf\\xbd\\x00\\xbf\\x86A\\x11 \\x14C\\x00\\x00\\x8cA\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80\\x00\\x00\\x80?\\\\?\\x11?\\x13\\xd7\\x8b?\\x00\\xa0\\xed\\xbe\\x1dX\\x14C\\x00\\x00\\x8cA\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80\\x00\\x00\\x80?\\xac\\x0c\\xff>\\xc5\\xf3\\x8b?x\\x1e\\x8aA\\xfaq\\xe9\\xc2\\x00\\x00\\x8cA\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\xff\\xff\\x7f?\\xe2\\xad\\x11?\\xe3\\x9d\\x07=\\xc0q\\x89A\\xe4D\\xddB\\x00\\x00\\x8cA\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\xff\\xff\\x7f?\\xc7\\x97\\x11?/Jq? \\xc5\\x88A(\\xb2\\xe4B\\x00\\x00\\x8cA\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\xff\\xff\\x7f?\\xae\\x81\\x11?\\xa2\\x17u?x\\x1e\\x8aA\\xfaq\\xe9\\xc2\\x00\\x00\\x8cA\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xe2\\xad\\x11?\\xe3\\x9d\\x07= \\xc5\\x88A(\\xb2\\xe4B\\x00\\x00\\x8cA\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xae\\x81\\x11?\\xa2\\x17u?\\x00\\xbf\\x86A\\x11 \\x14C\\x00\\x00\\x8cA\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\\\?\\x11?\\x13\\xd7\\x8b?x\\x1e\\x8aA\\xfaq\\xe9\\xc2\\x00\\x00\\x8cA\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xe2\\xad\\x11?\\xe3\\x9d\\x07=\\x00\\xbf\\x86A\\x11 \\x14C\\x00\\x00\\x8cA\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\\\?\\x11?\\x13\\xd7\\x8b?\\xc0$\\xd1>\\x10a\\x14\\xc3\\x00\\x00\\x8cA\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\x15k\\x00?\\xa2\\x85\\xbf\\xbd\\x87$\\x8cA\\xf71\\x14\\xc3\\x00\\x00\\x8cA\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?2\\xf0\\x11?\\xcf\\x03\\xbe\\xbdx\\x1e\\x8aA\\xfaq\\xe9\\xc2\\x00\\x00\\x8cA\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xe2\\xad\\x11?\\xe3\\x9d\\x07=\\xc0$\\xd1>\\x10a\\x14\\xc3\\x00\\x00\\x8cA\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\x15k\\x00?\\xa2\\x85\\xbf\\xbd\\x00\\xbf\\x86A\\x11 \\x14C\\x00\\x00\\x8cA\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\\\?\\x11?\\x13\\xd7\\x8b? \\xc5\\x88A(\\xb2\\xe4B\\x00\\x00\\x8cA\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xae\\x81\\x11?\\xa2\\x17u?`\\\\\\xd4A4\\x99\\x00C\\x00\\x00\\x8cA\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xa4.\\x1b?\\xa8\\xd7\\x81?\\x00\\xbf\\x86A\\x11 \\x14C\\x00\\x00\\x8cA\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\\\?\\x11?\\x13\\xd7\\x8b?`\\\\\\xd4A4\\x99\\x00C\\x00\\x00\\x8cA\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xa4.\\x1b?\\xa8\\xd7\\x81? \\xd6\\xdfA\\xab\\xd0\\x0fC\\x00\\x00\\x8cA\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xac\\xa6\\x1c?\"\\xa2\\x89?\\x87$\\x8cA\\xf71\\x14\\xc3\\x00\\x00\\x8cA\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80\\xff\\xff\\x7f?2\\xf0\\x11?\\xcf\\x03\\xbe\\xbd(\\x80\\xc4Ay\\x10\\x00\\xc3\\x00\\x00\\x8cA\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80\\xff\\xff\\x7f?\\xef&\\x19?3\\xd3H\\xbcx\\x1e\\x8aA\\xfaq\\xe9\\xc2\\x00\\x00\\x8cA\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80\\xff\\xff\\x7f?\\xe2\\xad\\x11?\\xe3\\x9d\\x07=\\x87$\\x8cA\\xf71\\x14\\xc3\\x00\\x00\\x8cA\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80\\x00\\x00\\x80?2\\xf0\\x11?\\xcf\\x03\\xbe\\xbdX\\xde\\xcfAjP\\x11\\xc3\\x00\\x00\\x8cA\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80\\x00\\x00\\x80?p\\x9b\\x1a?\\xcbi\\xa6\\xbd(\\x80\\xc4Ay\\x10\\x00\\xc3\\x00\\x00\\x8cA\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80\\x00\\x00\\x80?\\xef&\\x19?3\\xd3H\\xbc",
+				},
+
+				"u3sub-sub-sub-sub-block " :  {
+
+					"w" : 1.0,
+					"x" : 1.0,
+					"y" : 1.0,
+					"z" : 1.0,
+				},
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "GroundMeshGenerator",
+			"number" : 102,
+
+			"ground mesh generatorsub-sub-sub-block " :  {
+
+				"ground polygon" : 100,
+				"ground mesh" : 101,
+				"texture mapping 1" : 103,
+				"texture mapping 2" : 104,
+				"u4" : 0,
+				"u5" : 0.0,
+				"u6" : 1,
+				"u7" : 35.0,
+				"u8" : 25.0,
+				"u9" : 5.0,
+				"u10" : 5.0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "TextureMapping",
+			"number" : 103,
+
+			"texture mappingsub-sub-sub-block " :  {
+
+				"texture file" : "crypt_tiles",
+				"u0" : 250.0,
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"u1" : 0.0,
+					"u2" : 0.0,
+				},
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "TextureMapping",
+			"number" : 104,
+
+			"texture mappingsub-sub-sub-block " :  {
+
+				"texture file" : "crypt_tiles",
+				"u0" : 250.0,
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"u1" : 0.0,
+					"u2" : 0.0,
+				},
+			},
+		},
+
+		"positionsub-sub-block " :  {
+
+			"x position" : 0.0,
+			"y position" : 0.0,
+		},
+		"z position" : 0.0,
+		"rotation" : 0.0,
+		"scale" : 1.0,
+
+		"u0sub-sub-block " :  {
+
+			"w" : -27.97955322265625,
+			"x" : -148.56314086914062,
+			"y" : 55.9591064453125,
+			"z" : 297.12628173828125,
+		},
+		"hidden" : 0,
+	},
+	"u0" : 1.0,
+},
+
+"?itemblock " :  {
+
+
+	"?sub-itemsub-block " :  {
+
+		"name" : "worldsend_torch",
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Model",
+			"number" : 1,
+
+			"3D modelsub-sub-sub-block " :  {
+
+				"name" : "grove_torch",
+				"u0" : 0.0,
+				"u1" : 0.0,
+				"u2" : 0.0,
+
+				"u3sub-sub-sub-sub-block " :  {
+
+					"w" : 0.0,
+					"x" : 0.0,
+					"y" : 0.0,
+					"z" : 1.0,
+				},
+
+				"u4sub-sub-sub-sub-block " :  {
+
+					"x" : 0.0,
+					"y" : 0.0,
+					"z" : 0.0,
+				},
+				"u5" : 0,
+
+				"u6sub-sub-sub-sub-block " :  {
+
+					"w" : 1.0,
+					"x" : 1.0,
+					"y" : 1.0,
+					"z" : 1.0,
+				},
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "SimpleGlow",
+			"number" : 2,
+
+			"simple glowsub-sub-sub-block " :  {
+
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"w" : 0.32950618863105774,
+					"x" : 0.17951443791389465,
+					"y" : 0.048271626234054565,
+					"z" : 0.0,
+				},
+				"u1" : 30.0,
+				"u2" : 15,
+				"u3" : 5.0,
+				"u4" : 0.11999999731779099,
+				"u5" : 1.5,
+
+				"u6sub-sub-sub-sub-block " :  {
+
+					"y" : 0.0,
+					"z" : 22.0,
+				},
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "SimpleGlow",
+			"number" : 3,
+
+			"simple glowsub-sub-sub-block " :  {
+
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"w" : 0.7777777910232544,
+					"x" : 0.4666667878627777,
+					"y" : 0.0,
+					"z" : 0.0,
+				},
+				"u1" : 8.0,
+				"u2" : 10,
+				"u3" : 0.0,
+				"u4" : 0.05000000074505806,
+				"u5" : 1.0,
+
+				"u6sub-sub-sub-sub-block " :  {
+
+					"y" : 0.0,
+					"z" : 9.0,
+				},
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "ParticleEmitter",
+			"number" : 4,
+
+			"particle emittersub-sub-sub-block " :  {
+
+				"particle" : 5,
+				"particle" : 6,
+				"particle" : 7,
+				"u1" : 0,
+				"u2" : 30,
+				"u3" : 0,
+				"u4" : 0,
+
+				"u5sub-sub-sub-sub-block " :  {
+
+					"u0" : 5,
+
+					"u1sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 0.12222222238779068,
+						"x" : 0.12222222238779068,
+						"y" : 0.12222222238779068,
+						"z" : 0.12222222238779068,
+					},
+					"u2" : 90.0,
+					"u2" : 0.0,
+					"u2" : 5.0,
+					"u2" : 0.0,
+					"u2" : 0.0,
+					"u2" : 40.0,
+					"u2" : 0.0,
+					"u2" : 0.0,
+					"u2" : 1.5,
+					"u2" : 0.5,
+					"u2" : 1.0,
+					"u2" : 0.20000000298023224,
+					"u2" : 1.5,
+					"u2" : 0.0,
+					"u2" : 0.5,
+					"u3" : 0.0,
+					"u4" : 0.0,
+					"u5" : 0.0,
+
+					"u6sub-sub-sub-sub-sub-block " :  {
+
+						"u0" : 0.0,
+						"u1" : 14.0,
+						"u2" : 0.0,
+					},
+				},
+				"u6" : 0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Particle",
+			"number" : 5,
+
+			"particlesub-sub-sub-block " :  {
+
+				"name" : "particle_fure_1",
+				"u0" : 20.0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Particle",
+			"number" : 6,
+
+			"particlesub-sub-sub-block " :  {
+
+				"name" : "particle_fure_2",
+				"u0" : 22.0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Particle",
+			"number" : 7,
+
+			"particlesub-sub-sub-block " :  {
+
+				"name" : "particle_fure_3",
+				"u0" : 20.0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Light",
+			"number" : 103,
+
+			"lightsub-sub-sub-block " :  {
+
+				"u0" : 3,
+				"u1" : 2.0,
+
+				"u2sub-sub-sub-sub-block " :  {
+
+					"w" : 1.0,
+					"x" : 0.47999998927116394,
+					"y" : 0.0,
+					"z" : 1.0,
+				},
+				"u3" : 0.0,
+				"u4" : 0.00019999999494757503,
+
+				"u5sub-sub-sub-sub-block " :  {
+
+					"x" : 0.0,
+					"y" : 30.0,
+					"z" : 0.0,
+				},
+				"u6" : 250.0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "FireEmitter",
+			"number" : 105,
+
+			"fire emittersub-sub-sub-block " :  {
+
+				"temp0" : 108,
+				"temp1" : 103,
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"w" : 1.0,
+					"x" : 0.47999998927116394,
+					"y" : 0.0,
+					"z" : 0.0,
+				},
+				"u1" : 0.10000000149011612,
+				"u2" : 0.699999988079071,
+
+				"u3sub-sub-sub-sub-block " :  {
+
+					"x" : 2.0,
+					"y" : 0.0,
+					"z" : 0.0,
+				},
+
+				"u4sub-sub-sub-sub-block " :  {
+
+					"x" : 0.0,
+					"y" : 5.0,
+					"z" : 0.0,
+				},
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "ParticleEmitter",
+			"number" : 108,
+
+			"particle emittersub-sub-sub-block " :  {
+
+				"particle" : 109,
+				"particle" : 111,
+				"particle" : 112,
+				"u1" : 0,
+				"u2" : 30,
+				"u3" : 0,
+				"u4" : 0,
+				"u6" : 0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Particle",
+			"number" : 109,
+
+			"particlesub-sub-sub-block " :  {
+
+				"name" : "particle_fure_1",
+				"u0" : 22.0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Particle",
+			"number" : 111,
+
+			"particlesub-sub-sub-block " :  {
+
+				"name" : "particle_fure_2",
+				"u0" : 25.0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Particle",
+			"number" : 112,
+
+			"particlesub-sub-sub-block " :  {
+
+				"name" : "particle_fure_3",
+				"u0" : 20.0,
+			},
+		},
+
+		"positionsub-sub-block " :  {
+
+			"x position" : 0.0,
+			"y position" : 0.0,
+		},
+		"z position" : 0.0,
+		"rotation" : 0.0,
+		"scale" : 1.0,
+
+		"u0sub-sub-block " :  {
+
+			"w" : -50.0,
+			"x" : -50.0,
+			"y" : 100.0,
+			"z" : 100.0,
+		},
+		"hidden" : 0,
+	},
+	"u0" : 1.0,
+},
+
+}

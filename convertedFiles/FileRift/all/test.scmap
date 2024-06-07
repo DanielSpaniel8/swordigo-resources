@@ -1,0 +1,1621 @@
+
+zone block { (12 @ 1)
+
+    name : town (0a @ 4)
+    title : Cairnwood Village (12 @ a)
+
+    scene sub-block { (1a @ 1d)
+
+        name : town_part1 (12 @ 1f)
+
+        connected scene sub-sub-block { (1a @ 2b)
+
+            name : town_shop (0a @ 2d)
+		}
+
+        connected scene sub-sub-block { (1a @ 38)
+
+            name : town_healerhouse (0a @ 3a)
+		}
+
+        connected scene sub-sub-block { (1a @ 4c)
+
+            name : town_elderhouse (0a @ 4e)
+		}
+
+        connected scene sub-sub-block { (1a @ 5f)
+
+            name : town_secrethouse (0a @ 61)
+		}
+
+        connected scene sub-sub-block { (1a @ 73)
+
+            name : plains_part1 (0a @ 75)
+            direction : 1(10 @ 83)
+		}
+
+        connected scene sub-sub-block { (1a @ 85)
+
+            name : town_woods1 (0a @ 87)
+            direction : 3(10 @ 94)
+		}
+        feature : 1(20 @ 96)
+        unknown3 a : 1(40 @ 98)
+        ? treasures : 0(48 @ 9a)
+	}
+
+    scene sub-block { (1a @ 9c)
+
+        name : town_shop (12 @ 9e)
+        unknown1 : 1(28 @ a9)
+        music : house (3a @ ab)
+        ? treasures : 0(48 @ b2)
+        title : Cairnwood Shop (52 @ b4)
+	}
+
+    scene sub-block { (1a @ c4)
+
+        name : town_healerhouse (12 @ c6)
+        unknown1 : 1(28 @ d8)
+        ? treasures : 0(48 @ da)
+        title : Healer's House (52 @ dc)
+	}
+
+    scene sub-block { (1a @ ec)
+
+        name : town_elderhouse (12 @ ee)
+        unknown1 : 1(28 @ ff)
+        music : house (3a @ 101)
+        ? treasures : 0(48 @ 108)
+        title : Elder's House (52 @ 10a)
+	}
+
+    scene sub-block { (1a @ 119)
+
+        name : town_secrethouse (12 @ 11b)
+        unknown1 : 1(28 @ 12d)
+        music : house (3a @ 12f)
+        ? treasures : 1(48 @ 136)
+        title : Dusty Hut (52 @ 138)
+	}
+    sequence : 1(20 @ 143)
+    default music : outdoors_light (2a @ 145)
+}
+
+zone block { (12 @ 155)
+
+    name : woods (0a @ 157)
+    title : Cairnwood Forest (12 @ 15e)
+
+    scene sub-block { (1a @ 170)
+
+        name : town_woods1 (12 @ 172)
+
+        connected scene sub-sub-block { (1a @ 17f)
+
+            name : town_woods_end (0a @ 181)
+            direction : 5(10 @ 191)
+		}
+        ? treasures : 1(48 @ 193)
+	}
+
+    scene sub-block { (1a @ 195)
+
+        name : town_woods_end (12 @ 197)
+        ? treasures : 0(48 @ 1a7)
+	}
+    sequence : 1(20 @ 1a9)
+    default music : forest (2a @ 1ab)
+}
+
+zone block { (12 @ 1b3)
+
+    name : plains (0a @ 1b6)
+    title : The Plains (12 @ 1be)
+
+    scene sub-block { (1a @ 1ca)
+
+        name : plains_part1 (12 @ 1cc)
+
+        connected scene sub-sub-block { (1a @ 1da)
+
+            name : plains_part2 (0a @ 1dc)
+            direction : 1(10 @ 1ea)
+		}
+
+        connected scene sub-sub-block { (1a @ 1ec)
+
+            name : plains_caveFirst (0a @ 1ee)
+		}
+        ? treasures : 2(48 @ 200)
+	}
+
+    scene sub-block { (1a @ 202)
+
+        name : plains_caveFirst (12 @ 204)
+        unknown1 : 1(28 @ 216)
+        music : cave (3a @ 218)
+        ? treasures : 1(48 @ 21e)
+        title : Murky Small Cave (52 @ 220)
+	}
+
+    scene sub-block { (1a @ 232)
+
+        name : plains_part2 (12 @ 234)
+
+        connected scene sub-sub-block { (1a @ 242)
+
+            name : plains_part3 (0a @ 244)
+            direction : 3(10 @ 252)
+		}
+
+        connected scene sub-sub-block { (1a @ 254)
+
+            name : plains_house1 (0a @ 256)
+		}
+
+        connected scene sub-sub-block { (1a @ 265)
+
+            name : plains_tower1 (0a @ 267)
+		}
+        feature : 2(20 @ 276)
+        unknown2 : 2(30 @ 278)
+        unknown3 a : 1(40 @ 27a)
+        ? treasures : 2(48 @ 27c)
+	}
+
+    scene sub-block { (1a @ 27e)
+
+        name : plains_house1 (12 @ 280)
+        unknown1 : 1(28 @ 28f)
+        ? treasures : 0(48 @ 291)
+        title : Ferryman's House (52 @ 293)
+	}
+
+    scene sub-block { (1a @ 2a5)
+
+        name : plains_tower1 (12 @ 2a7)
+        unknown1 : 1(28 @ 2b6)
+        unknown2 : 3(30 @ 2b8)
+        music : cave (3a @ 2ba)
+        ? treasures : 0(48 @ 2c0)
+        title : Abandoned Guard Tower (52 @ 2c2)
+	}
+
+    scene sub-block { (1a @ 2d9)
+
+        name : plains_part3 (12 @ 2db)
+
+        connected scene sub-sub-block { (1a @ 2e9)
+
+            name : plains_part4 (0a @ 2eb)
+            direction : 1(10 @ 2f9)
+		}
+
+        connected scene sub-sub-block { (1a @ 2fb)
+
+            name : plains_cave0 (0a @ 2fd)
+		}
+        unknown2 : 3(30 @ 30b)
+        unknown3 a : 1(40 @ 30d)
+        ? treasures : 1(48 @ 30f)
+	}
+
+    scene sub-block { (1a @ 311)
+
+        name : plains_cave0 (12 @ 313)
+        unknown1 : 1(28 @ 321)
+        unknown2 : 4(30 @ 323)
+        music : cave (3a @ 325)
+        ? treasures : 1(48 @ 32b)
+        title : Marblemist Cave (52 @ 32d)
+	}
+
+    scene sub-block { (1a @ 33e)
+
+        name : plains_part4 (12 @ 340)
+
+        connected scene sub-sub-block { (1a @ 34e)
+
+            name : plains_woodkeep_entrance (0a @ 350)
+            direction : 3(10 @ 36a)
+		}
+
+        connected scene sub-sub-block { (1a @ 36c)
+
+            name : forest_cave0 (0a @ 36e)
+		}
+        feature : 2(20 @ 37c)
+        unknown2 : 4(30 @ 37e)
+        unknown3 a : 1(40 @ 380)
+        ? treasures : 1(48 @ 382)
+	}
+
+    scene sub-block { (1a @ 384)
+
+        name : plains_woodkeep_entrance (12 @ 386)
+
+        connected scene sub-sub-block { (1a @ 3a0)
+
+            name : plains_woodkeep (0a @ 3a2)
+            direction : 1(10 @ 3b3)
+		}
+        feature : 2(20 @ 3b5)
+        unknown2 : 4(30 @ 3b7)
+        unknown3 a : 1(40 @ 3b9)
+        ? treasures : 0(48 @ 3bb)
+	}
+    sequence : 2(20 @ 3bd)
+    default music : outdoors_light (2a @ 3bf)
+}
+
+zone block { (12 @ 3cf)
+
+    name : woodkeep (0a @ 3d2)
+    title : Forgotten Keep (12 @ 3dc)
+
+    scene sub-block { (1a @ 3ec)
+
+        name : plains_woodkeep (12 @ 3ee)
+
+        connected scene sub-sub-block { (1a @ 3ff)
+
+            name : plains_woodkeep2 (0a @ 401)
+            direction : 1(10 @ 413)
+		}
+        ? treasures : 3(48 @ 415)
+	}
+
+    scene sub-block { (1a @ 417)
+
+        name : plains_woodkeep2 (12 @ 419)
+
+        connected scene sub-sub-block { (1a @ 42b)
+
+            name : plains_woodkeep3 (0a @ 42d)
+            direction : 1(10 @ 43f)
+		}
+
+        connected scene sub-sub-block { (1a @ 441)
+
+            name : plains_woodkeep_cellar (0a @ 443)
+		}
+        unknown3 a : 1(40 @ 45b)
+        ? treasures : 1(48 @ 45d)
+	}
+
+    scene sub-block { (1a @ 45f)
+
+        name : plains_woodkeep_cellar (12 @ 461)
+        unknown1 : 1(28 @ 479)
+        ? treasures : 0(48 @ 47b)
+        title : Forgotten Keep Cellar (52 @ 47d)
+	}
+
+    scene sub-block { (1a @ 494)
+
+        name : plains_woodkeep3 (12 @ 496)
+        feature : 3(20 @ 4a8)
+        unknown2 : 6(30 @ 4aa)
+        unknown3 a : 1(40 @ 4ac)
+        ? treasures : 2(48 @ 4ae)
+        title : Chamber of The Mageblade (52 @ 4b0)
+	}
+    sequence : 5(20 @ 4ca)
+    default music : dungeon1 (2a @ 4cc)
+}
+
+zone block { (12 @ 4d6)
+
+    name : grove (0a @ 4d9)
+    title : Evernight Forest (12 @ 4e0)
+
+    scene sub-block { (1a @ 4f2)
+
+        name : forest_cave0 (12 @ 4f4)
+
+        connected scene sub-sub-block { (1a @ 502)
+
+            name : forest_cave1 (0a @ 504)
+		}
+
+        connected scene sub-sub-block { (1a @ 512)
+
+            name : forest_part1 (0a @ 514)
+            direction : 1(10 @ 522)
+		}
+        unknown1 : 1(28 @ 524)
+        ? treasures : 0(48 @ 526)
+        title : Cairnwood Valley Caves (52 @ 528)
+	}
+
+    scene sub-block { (1a @ 540)
+
+        name : forest_cave1 (12 @ 542)
+        unknown1 : 1(28 @ 550)
+        ? treasures : 1(48 @ 552)
+        title : Sinister Cave (52 @ 554)
+	}
+
+    scene sub-block { (1a @ 563)
+
+        name : forest_part1 (12 @ 565)
+
+        connected scene sub-sub-block { (1a @ 573)
+
+            name : forest_cave2 (0a @ 575)
+		}
+        feature : 2(20 @ 583)
+        unknown3 a : 1(40 @ 585)
+        ? treasures : 2(48 @ 587)
+	}
+
+    scene sub-block { (1a @ 589)
+
+        name : forest_cave2 (12 @ 58b)
+
+        connected scene sub-sub-block { (1a @ 599)
+
+            name : forest_part2 (0a @ 59b)
+            direction : 7(10 @ 5a9)
+		}
+        unknown1 : 1(28 @ 5ab)
+        ? treasures : 0(48 @ 5ad)
+        title : Evernight Caves (52 @ 5af)
+	}
+
+    scene sub-block { (1a @ 5c0)
+
+        name : forest_part2 (12 @ 5c2)
+
+        connected scene sub-sub-block { (1a @ 5d0)
+
+            name : forest_cave3 (0a @ 5d2)
+		}
+        ? treasures : 1(48 @ 5e0)
+	}
+
+    scene sub-block { (1a @ 5e2)
+
+        name : forest_cave3 (12 @ 5e4)
+
+        connected scene sub-sub-block { (1a @ 5f2)
+
+            name : grove_part1 (0a @ 5f4)
+            direction : 1(10 @ 601)
+		}
+        unknown1 : 1(28 @ 603)
+        ? treasures : 0(48 @ 605)
+        title : Evernight Caves (52 @ 607)
+	}
+
+    scene sub-block { (1a @ 618)
+
+        name : grove_part1 (12 @ 61a)
+
+        connected scene sub-sub-block { (1a @ 627)
+
+            name : forest_cave4 (0a @ 629)
+		}
+        feature : 2(20 @ 637)
+        unknown3 a : 1(40 @ 639)
+        ? treasures : 2(48 @ 63b)
+	}
+
+    scene sub-block { (1a @ 63d)
+
+        name : forest_cave4 (12 @ 63f)
+
+        connected scene sub-sub-block { (1a @ 64d)
+
+            name : grove_part2 (0a @ 64f)
+            direction : 1(10 @ 65c)
+		}
+        unknown1 : 1(28 @ 65e)
+        ? treasures : 0(48 @ 660)
+        title : Evernight Caves (52 @ 662)
+	}
+
+    scene sub-block { (1a @ 673)
+
+        name : grove_part2 (12 @ 675)
+
+        connected scene sub-sub-block { (1a @ 682)
+
+            name : forest_cave5 (0a @ 684)
+		}
+
+        connected scene sub-sub-block { (1a @ 692)
+
+            name : grove_graveyard (0a @ 694)
+            direction : 3(10 @ 6a5)
+		}
+
+        connected scene sub-sub-block { (1a @ 6a7)
+
+            name : lowergrove_part1 (0a @ 6a9)
+            direction : 7(10 @ 6bb)
+		}
+        feature : 2(20 @ 6bd)
+        unknown3 a : 1(40 @ 6bf)
+        ? treasures : 0(48 @ 6c1)
+        title : Wellcliff Campsite (52 @ 6c3)
+	}
+
+    scene sub-block { (1a @ 6d7)
+
+        name : forest_cave5 (12 @ 6d9)
+
+        connected scene sub-sub-block { (1a @ 6e7)
+
+            name : grass_part1 (0a @ 6e9)
+            direction : 1(10 @ 6f6)
+		}
+        unknown1 : 1(28 @ 6f8)
+        ? treasures : 1(48 @ 6fa)
+        title : Evernight Caves (52 @ 6fc)
+	}
+
+    scene sub-block { (1a @ 70d)
+
+        name : grove_graveyard (12 @ 70f)
+
+        connected scene sub-sub-block { (1a @ 720)
+
+            name : grove_crypt1 (0a @ 722)
+		}
+        unknown2 : 8(30 @ 730)
+        ? treasures : 0(48 @ 732)
+        title : Wellcliff Graveyard (52 @ 734)
+	}
+
+    scene sub-block { (1a @ 749)
+
+        name : grove_crypt1 (12 @ 74b)
+        unknown1 : 1(28 @ 759)
+        unknown2 : 8(30 @ 75b)
+        music : dungeon1 (3a @ 75d)
+        ? treasures : 2(48 @ 767)
+        title : Corrupted Crypt (52 @ 769)
+	}
+    sequence : 7(20 @ 77a)
+    default music : forest (2a @ 77c)
+}
+
+zone block { (12 @ 784)
+
+    name : grass (0a @ 787)
+    title : Outskirts of Florennum (12 @ 78e)
+
+    scene sub-block { (1a @ 7a6)
+
+        name : grass_part1 (12 @ 7a8)
+
+        connected scene sub-sub-block { (1a @ 7b5)
+
+            name : grass_part2 (0a @ 7b7)
+            direction : 1(10 @ 7c4)
+		}
+        feature : 2(20 @ 7c6)
+        unknown3 a : 1(40 @ 7c8)
+        ? treasures : 2(48 @ 7ca)
+        title : King's Road (52 @ 7cc)
+	}
+
+    scene sub-block { (1a @ 7d9)
+
+        name : grass_part2 (12 @ 7db)
+
+        connected scene sub-sub-block { (1a @ 7e8)
+
+            name : grass_house (0a @ 7ea)
+		}
+
+        connected scene sub-sub-block { (1a @ 7f7)
+
+            name : florennum_wall1 (0a @ 7f9)
+		}
+        unknown3 a : 1(40 @ 80a)
+        ? treasures : 0(48 @ 80c)
+	}
+
+    scene sub-block { (1a @ 80e)
+
+        name : grass_house (12 @ 810)
+
+        connected scene sub-sub-block { (1a @ 81d)
+
+            name : florennum_cave1 (0a @ 81f)
+		}
+        unknown1 : 1(28 @ 830)
+        ? treasures : 0(48 @ 832)
+        title : ... (52 @ 834)
+        unknown5 : 1(58 @ 839)
+	}
+
+    scene sub-block { (1a @ 83b)
+
+        name : grass_part3 (12 @ 83d)
+
+        connected scene sub-sub-block { (1a @ 84a)
+
+            name : wasteland_part1 (0a @ 84c)
+            direction : 1(10 @ 85d)
+		}
+        unknown2 : 11(30 @ 85f)
+        ? treasures : 1(48 @ 861)
+	}
+    sequence : 8(20 @ 863)
+    default music : outdoors_light (2a @ 865)
+}
+
+zone block { (12 @ 875)
+
+    name : florennum (0a @ 878)
+    title : City of Florennum (12 @ 883)
+
+    scene sub-block { (1a @ 896)
+
+        name : florennum_wall1 (12 @ 898)
+        unknown1 : 1(28 @ 8a9)
+        ? treasures : 1(48 @ 8ab)
+        title : Walls of Florennum (52 @ 8ad)
+	}
+
+    scene sub-block { (1a @ 8c1)
+
+        name : florennum_cave1 (12 @ 8c3)
+
+        connected scene sub-sub-block { (1a @ 8d4)
+
+            name : florennum_part1 (0a @ 8d6)
+            direction : 1(10 @ 8e7)
+		}
+        unknown1 : 1(28 @ 8e9)
+        music : forest (3a @ 8eb)
+        ? treasures : 1(48 @ 8f3)
+        title : City Sewers (52 @ 8f5)
+	}
+
+    scene sub-block { (1a @ 902)
+
+        name : florennum_part1 (12 @ 904)
+
+        connected scene sub-sub-block { (1a @ 915)
+
+            name : florennum_tower1 (0a @ 917)
+		}
+
+        connected scene sub-sub-block { (1a @ 929)
+
+            name : grass_part3 (0a @ 92b)
+            direction : 1(10 @ 938)
+		}
+
+        connected scene sub-sub-block { (1a @ 93a)
+
+            name : florennum_shop (0a @ 93c)
+		}
+
+        connected scene sub-sub-block { (1a @ 94c)
+
+            name : florennum_healerhouse (0a @ 94e)
+		}
+        feature : 1(20 @ 965)
+        unknown3 a : 1(40 @ 967)
+        ? treasures : 1(48 @ 969)
+	}
+
+    scene sub-block { (1a @ 96b)
+
+        name : florennum_shop (12 @ 96d)
+        unknown1 : 1(28 @ 97d)
+        music : house (3a @ 97f)
+        ? treasures : 0(48 @ 986)
+        title : Marketplace of Florennum (52 @ 988)
+	}
+
+    scene sub-block { (1a @ 9a2)
+
+        name : florennum_healerhouse (12 @ 9a4)
+        unknown1 : 1(28 @ 9bb)
+        music : house (3a @ 9bd)
+        ? treasures : 0(48 @ 9c4)
+        title : Healer of Florennum (52 @ 9c6)
+	}
+
+    scene sub-block { (1a @ 9db)
+
+        name : florennum_tower1 (12 @ 9dd)
+
+        connected scene sub-sub-block { (1a @ 9ef)
+
+            name : florennum_towertop (0a @ 9f1)
+		}
+        unknown1 : 1(28 @ a05)
+        ? treasures : 0(48 @ a07)
+        title : Eastern Guard Tower (52 @ a09)
+	}
+
+    scene sub-block { (1a @ a1e)
+
+        name : florennum_towertop (12 @ a20)
+
+        connected scene sub-sub-block { (1a @ a34)
+
+            name : florennum_tower2 (0a @ a36)
+		}
+        unknown1 : 1(28 @ a48)
+        ? treasures : 1(48 @ a4a)
+	}
+
+    scene sub-block { (1a @ a4c)
+
+        name : florennum_tower2 (12 @ a4e)
+
+        connected scene sub-sub-block { (1a @ a60)
+
+            name : florennum_jail_part1 (0a @ a62)
+            direction : 3(10 @ a78)
+		}
+        unknown1 : 1(28 @ a7a)
+        unknown2 : 10(30 @ a7c)
+        music : dungeon1 (3a @ a7e)
+        ? treasures : 0(48 @ a88)
+        title : Western Guard Tower (52 @ a8a)
+	}
+    sequence : 9(20 @ a9f)
+    default music : outdoors_light (2a @ aa1)
+}
+
+zone block { (12 @ ab1)
+
+    name : florennum_jail (0a @ ab4)
+    title : Dungeon of Florennum (12 @ ac4)
+
+    scene sub-block { (1a @ ada)
+
+        name : florennum_jail_part1 (12 @ adc)
+
+        connected scene sub-sub-block { (1a @ af2)
+
+            name : florennum_jail_part2 (0a @ af4)
+            direction : 3(10 @ b0a)
+		}
+        unknown2 : 10(30 @ b0c)
+        unknown3 a : 1(40 @ b0e)
+        ? treasures : 0(48 @ b10)
+	}
+
+    scene sub-block { (1a @ b12)
+
+        name : florennum_jail_part2 (12 @ b14)
+
+        connected scene sub-sub-block { (1a @ b2a)
+
+            name : florennum_jail_boss (0a @ b2c)
+            direction : 1(10 @ b41)
+		}
+        ? treasures : 0(48 @ b43)
+	}
+
+    scene sub-block { (1a @ b45)
+
+        name : florennum_jail_boss (12 @ b47)
+        feature : 3(20 @ b5c)
+        unknown3 a : 1(40 @ b5e)
+        ? treasures : 0(48 @ b60)
+        title : Overseer's Lair (52 @ b62)
+	}
+    sequence : 11(20 @ b73)
+    default music : dungeon1 (2a @ b75)
+}
+
+zone block { (12 @ b7f)
+
+    name : wasteland (0a @ b82)
+    title : Wastelands (12 @ b8d)
+
+    scene sub-block { (1a @ b99)
+
+        name : wasteland_part1 (12 @ b9b)
+
+        connected scene sub-sub-block { (1a @ bac)
+
+            name : wasteland_cave1 (0a @ bae)
+		}
+
+        connected scene sub-sub-block { (1a @ bbf)
+
+            name : wasteland_part2 (0a @ bc1)
+            direction : 3(10 @ bd2)
+		}
+        ? treasures : 1(48 @ bd4)
+	}
+
+    scene sub-block { (1a @ bd6)
+
+        name : wasteland_cave1 (12 @ bd8)
+
+        connected scene sub-sub-block { (1a @ be9)
+
+            name : wasteland_house1 (0a @ beb)
+            unknown1 : 1(18 @ bfd)
+		}
+        unknown1 : 1(28 @ bff)
+        music : cave (3a @ c01)
+        ? treasures : 1(48 @ c07)
+        title : Huge Cavern (52 @ c09)
+	}
+
+    scene sub-block { (1a @ c16)
+
+        name : wasteland_house1 (12 @ c18)
+
+        connected scene sub-sub-block { (1a @ c2a)
+
+            name : wasteland_part1 (0a @ c2c)
+            unknown1 : 1(18 @ c3d)
+		}
+        unknown1 : 1(28 @ c3f)
+        music : cave (3a @ c41)
+        ? treasures : 1(48 @ c47)
+        title : Thieves' Hideout (52 @ c49)
+	}
+
+    scene sub-block { (1a @ c5b)
+
+        name : wasteland_part2 (12 @ c5d)
+
+        connected scene sub-sub-block { (1a @ c6e)
+
+            name : wasteland_town (0a @ c70)
+            direction : 1(10 @ c80)
+		}
+        unknown3 a : 1(40 @ c82)
+        ? treasures : 2(48 @ c84)
+	}
+
+    scene sub-block { (1a @ c86)
+
+        name : wasteland_town (12 @ c89)
+
+        connected scene sub-sub-block { (1a @ c99)
+
+            name : wasteland_town_shop (0a @ c9b)
+		}
+
+        connected scene sub-sub-block { (1a @ cb0)
+
+            name : wasteland_town_healerhouse (0a @ cb2)
+		}
+
+        connected scene sub-sub-block { (1a @ cce)
+
+            name : wasteland_town_secrethouse (0a @ cd0)
+		}
+
+        connected scene sub-sub-block { (1a @ cec)
+
+            name : wasteland_part3 (0a @ cee)
+            direction : 1(10 @ cff)
+		}
+        feature : 1(20 @ d01)
+        unknown3 a : 1(40 @ d03)
+        ? treasures : 0(48 @ d05)
+        title : Greyhedge Village (52 @ d07)
+	}
+
+    scene sub-block { (1a @ d1a)
+
+        name : wasteland_town_shop (12 @ d1c)
+        unknown1 : 1(28 @ d31)
+        music : house (3a @ d33)
+        ? treasures : 0(48 @ d3a)
+        title : Shopkeeper's House (52 @ d3c)
+	}
+
+    scene sub-block { (1a @ d50)
+
+        name : wasteland_town_healerhouse (12 @ d52)
+        unknown1 : 1(28 @ d6e)
+        music : house (3a @ d70)
+        ? treasures : 0(48 @ d77)
+        title : Healer's House (52 @ d79)
+	}
+
+    scene sub-block { (1a @ d89)
+
+        name : wasteland_town_secrethouse (12 @ d8b)
+        unknown1 : 1(28 @ da7)
+        ? treasures : 1(48 @ da9)
+        title : A Mysterious House (52 @ dab)
+	}
+
+    scene sub-block { (1a @ dbf)
+
+        name : wasteland_part3 (12 @ dc1)
+
+        connected scene sub-sub-block { (1a @ dd2)
+
+            name : wasteland_part4 (0a @ dd4)
+            direction : 7(10 @ de5)
+		}
+
+        connected scene sub-sub-block { (1a @ de7)
+
+            name : wasteland_cave (0a @ de9)
+            direction : 3(10 @ df9)
+		}
+        ? treasures : 2(48 @ dfb)
+        title : Greyhedge Crossing (52 @ dfd)
+	}
+
+    scene sub-block { (1a @ e11)
+
+        name : wasteland_part4 (12 @ e13)
+
+        connected scene sub-sub-block { (1a @ e24)
+
+            name : thecave_part1 (0a @ e26)
+            direction : 1(10 @ e35)
+		}
+        unknown2 : 13(30 @ e37)
+        ? treasures : 0(48 @ e39)
+	}
+
+    scene sub-block { (1a @ e3b)
+
+        name : wasteland_cave (12 @ e3d)
+
+        connected scene sub-sub-block { (1a @ e4d)
+
+            name : wasteland_cave_snowy (0a @ e4f)
+            direction : 1(10 @ e65)
+		}
+        unknown2 : 15(30 @ e67)
+        music : cave (3a @ e69)
+        ? treasures : 1(48 @ e6f)
+        title : Greyhedge Caves (52 @ e71)
+	}
+
+    scene sub-block { (1a @ e82)
+
+        name : wasteland_cave_snowy (12 @ e84)
+
+        connected scene sub-sub-block { (1a @ e9a)
+
+            name : snowy_part1 (0a @ e9c)
+            direction : 1(10 @ ea9)
+		}
+        unknown2 : 15(30 @ eab)
+        music : cave (3a @ ead)
+        unknown3 a : 1(40 @ eb3)
+        ? treasures : 0(48 @ eb5)
+        title : Icy Cave (52 @ eb7)
+	}
+    sequence : 12(20 @ ec1)
+    default music : outdoors_light (2a @ ec3)
+}
+
+zone block { (12 @ ed3)
+
+    name : thecave (0a @ ed6)
+    title : Great Caves (12 @ edf)
+
+    scene sub-block { (1a @ eec)
+
+        name : thecave_part1 (12 @ eee)
+
+        connected scene sub-sub-block { (1a @ efd)
+
+            name : thecave_part2 (0a @ eff)
+		}
+        unknown3 a : 1(40 @ f0e)
+        ? treasures : 1(48 @ f10)
+	}
+
+    scene sub-block { (1a @ f12)
+
+        name : thecave_part2 (12 @ f14)
+
+        connected scene sub-sub-block { (1a @ f23)
+
+            name : thecave_part11 (0a @ f25)
+		}
+
+        connected scene sub-sub-block { (1a @ f35)
+
+            name : thecave_part21 (0a @ f37)
+            direction : 7(10 @ f47)
+		}
+        unknown1 : 1(28 @ f49)
+        ? treasures : 0(48 @ f4b)
+	}
+
+    scene sub-block { (1a @ f4d)
+
+        name : thecave_part11 (12 @ f4f)
+
+        connected scene sub-sub-block { (1a @ f5f)
+
+            name : thecave_part12 (0a @ f61)
+		}
+        unknown1 : 1(28 @ f71)
+        ? treasures : 0(48 @ f73)
+	}
+
+    scene sub-block { (1a @ f75)
+
+        name : thecave_part12 (12 @ f77)
+
+        connected scene sub-sub-block { (1a @ f87)
+
+            name : thecave_part121 (0a @ f89)
+		}
+
+        connected scene sub-sub-block { (1a @ f9a)
+
+            name : thecave_part13 (0a @ f9c)
+            direction : 1(10 @ fac)
+		}
+
+        connected scene sub-sub-block { (1a @ fae)
+
+            name : thecave_part21 (0a @ fb0)
+            unknown1 : 1(18 @ fc0)
+            unknown2 : 1(20 @ fc2)
+		}
+        unknown1 : 1(28 @ fc4)
+        ? treasures : 0(48 @ fc6)
+	}
+
+    scene sub-block { (1a @ fc8)
+
+        name : thecave_part121 (12 @ fca)
+        unknown1 : 1(28 @ fdb)
+        ? treasures : 1(48 @ fdd)
+	}
+
+    scene sub-block { (1a @ fdf)
+
+        name : thecave_part21 (12 @ fe1)
+
+        connected scene sub-sub-block { (1a @ ff1)
+
+            name : thecave_part22 (0a @ ff3)
+		}
+        unknown2 : 14(30 @ 1003)
+        ? treasures : 0(48 @ 1005)
+	}
+
+    scene sub-block { (1a @ 1007)
+
+        name : thecave_part22 (12 @ 1009)
+
+        connected scene sub-sub-block { (1a @ 1019)
+
+            name : thecave_part23 (0a @ 101b)
+		}
+        unknown1 : 1(28 @ 102b)
+        unknown2 : 14(30 @ 102d)
+        ? treasures : 0(48 @ 102f)
+	}
+
+    scene sub-block { (1a @ 1031)
+
+        name : thecave_part23 (12 @ 1033)
+
+        connected scene sub-sub-block { (1a @ 1043)
+
+            name : thecave_part24 (0a @ 1045)
+            direction : 1(10 @ 1055)
+		}
+        unknown1 : 1(28 @ 1057)
+        unknown2 : 14(30 @ 1059)
+        ? treasures : 0(48 @ 105b)
+	}
+
+    scene sub-block { (1a @ 105d)
+
+        name : thecave_part24 (12 @ 105f)
+
+        connected scene sub-sub-block { (1a @ 106f)
+
+            name : fire_part1 (0a @ 1071)
+            direction : 1(10 @ 107d)
+		}
+        unknown2 : 14(30 @ 107f)
+        unknown3 a : 1(40 @ 1081)
+        ? treasures : 0(48 @ 1083)
+	}
+
+    scene sub-block { (1a @ 1085)
+
+        name : thecave_part13 (12 @ 1087)
+
+        connected scene sub-sub-block { (1a @ 1097)
+
+            name : thecave_part131 (0a @ 1099)
+		}
+
+        connected scene sub-sub-block { (1a @ 10aa)
+
+            name : thecave_part14 (0a @ 10ac)
+		}
+        ? treasures : 0(48 @ 10bc)
+	}
+
+    scene sub-block { (1a @ 10be)
+
+        name : thecave_part131 (12 @ 10c0)
+
+        connected scene sub-sub-block { (1a @ 10d1)
+
+            name : thecave_part132 (0a @ 10d3)
+		}
+
+        connected scene sub-sub-block { (1a @ 10e4)
+
+            name : thecave_part141 (0a @ 10e6)
+		}
+        unknown1 : 1(28 @ 10f7)
+        ? treasures : 1(48 @ 10f9)
+	}
+
+    scene sub-block { (1a @ 10fb)
+
+        name : thecave_part132 (12 @ 10fd)
+
+        connected scene sub-sub-block { (1a @ 110e)
+
+            name : thecave_part142 (0a @ 1110)
+		}
+        unknown1 : 1(28 @ 1121)
+        ? treasures : 1(48 @ 1123)
+	}
+
+    scene sub-block { (1a @ 1125)
+
+        name : thecave_part14 (12 @ 1127)
+
+        connected scene sub-sub-block { (1a @ 1137)
+
+            name : thecave_part141 (0a @ 1139)
+            unknown1 : 1(18 @ 114a)
+		}
+
+        connected scene sub-sub-block { (1a @ 114c)
+
+            name : thecave_part15 (0a @ 114e)
+            direction : 3(10 @ 115e)
+		}
+        unknown1 : 1(28 @ 1160)
+        ? treasures : 0(48 @ 1162)
+	}
+
+    scene sub-block { (1a @ 1164)
+
+        name : thecave_part141 (12 @ 1166)
+
+        connected scene sub-sub-block { (1a @ 1177)
+
+            name : thecave_part142 (0a @ 1179)
+            unknown1 : 1(18 @ 118a)
+		}
+
+        connected scene sub-sub-block { (1a @ 118c)
+
+            name : thecave_part1411 (0a @ 118e)
+            direction : 1(10 @ 11a0)
+		}
+        unknown1 : 1(28 @ 11a2)
+        unknown2 : 14(30 @ 11a4)
+        ? treasures : 0(48 @ 11a6)
+	}
+
+    scene sub-block { (1a @ 11a8)
+
+        name : thecave_part142 (12 @ 11aa)
+
+        connected scene sub-sub-block { (1a @ 11bb)
+
+            name : thecave_part1421 (0a @ 11bd)
+		}
+
+        connected scene sub-sub-block { (1a @ 11cf)
+
+            name : thecave_part14 (0a @ 11d1)
+            unknown1 : 1(18 @ 11e1)
+		}
+        unknown1 : 1(28 @ 11e3)
+        unknown2 : 14(30 @ 11e5)
+        ? treasures : 0(48 @ 11e7)
+	}
+
+    scene sub-block { (1a @ 11e9)
+
+        name : thecave_part1421 (12 @ 11eb)
+
+        connected scene sub-sub-block { (1a @ 11fd)
+
+            name : thecave_part23 (0a @ 11ff)
+            unknown2 : 1(20 @ 120f)
+		}
+        unknown1 : 1(28 @ 1211)
+        unknown2 : 14(30 @ 1213)
+        ? treasures : 1(48 @ 1215)
+	}
+
+    scene sub-block { (1a @ 1217)
+
+        name : thecave_part15 (12 @ 1219)
+        unknown2 : 18(30 @ 1229)
+        unknown3 a : 1(40 @ 122b)
+        ? treasures : 0(48 @ 122d)
+        title : Chambers of Power (52 @ 122f)
+	}
+
+    scene sub-block { (1a @ 1242)
+
+        name : thecave_part1411 (12 @ 1244)
+
+        connected scene sub-sub-block { (1a @ 1256)
+
+            name : thecave_crypt1 (0a @ 1258)
+		}
+        unknown2 : 14(30 @ 1268)
+        unknown3 a : 1(40 @ 126a)
+        ? treasures : 0(48 @ 126c)
+	}
+
+    scene sub-block { (1a @ 126e)
+
+        name : thecave_crypt1 (12 @ 1270)
+
+        connected scene sub-sub-block { (1a @ 1280)
+
+            name : thecave_crypt2 (0a @ 1282)
+            direction : 1(10 @ 1292)
+		}
+        unknown1 : 1(28 @ 1294)
+        unknown2 : 14(30 @ 1296)
+        ? treasures : 1(48 @ 1298)
+        title : Purplemoor Crypt (52 @ 129a)
+	}
+
+    scene sub-block { (1a @ 12ac)
+
+        name : thecave_crypt2 (12 @ 12ae)
+
+        connected scene sub-sub-block { (1a @ 12be)
+
+            name : beyond_graveyard (0a @ 12c0)
+		}
+        unknown2 : 15(30 @ 12d2)
+        unknown3 a : 1(40 @ 12d4)
+        ? treasures : 1(48 @ 12d6)
+        title : Purplemoor Crypt (52 @ 12d8)
+	}
+
+    scene sub-block { (1a @ 12ea)
+
+        name : beyond_graveyard (12 @ 12ec)
+        unknown1 : 1(28 @ 12fe)
+        unknown2 : 15(30 @ 1300)
+        ? treasures : 0(48 @ 1302)
+        title : Purplemoor Graveyard (52 @ 1304)
+	}
+    sequence : 13(20 @ 131a)
+    default music : cave (2a @ 131c)
+}
+
+zone block { (12 @ 1322)
+
+    name : fire (0a @ 1325)
+    title : Fiery Depths (12 @ 132b)
+
+    scene sub-block { (1a @ 1339)
+
+        name : fire_part1 (12 @ 133b)
+
+        connected scene sub-sub-block { (1a @ 1347)
+
+            name : fire_part2 (0a @ 1349)
+            direction : 1(10 @ 1355)
+		}
+        ? treasures : 1(48 @ 1357)
+	}
+
+    scene sub-block { (1a @ 1359)
+
+        name : fire_part2 (12 @ 135b)
+
+        connected scene sub-sub-block { (1a @ 1367)
+
+            name : fire_part3 (0a @ 1369)
+            direction : 1(10 @ 1375)
+		}
+        ? treasures : 0(48 @ 1377)
+	}
+
+    scene sub-block { (1a @ 1379)
+
+        name : fire_part3 (12 @ 137b)
+
+        connected scene sub-sub-block { (1a @ 1387)
+
+            name : fire_part31 (0a @ 1389)
+		}
+
+        connected scene sub-sub-block { (1a @ 1396)
+
+            name : fire_part4 (0a @ 1398)
+            direction : 1(10 @ 13a4)
+		}
+        unknown3 a : 1(40 @ 13a6)
+        ? treasures : 1(48 @ 13a8)
+	}
+
+    scene sub-block { (1a @ 13aa)
+
+        name : fire_part31 (12 @ 13ac)
+
+        connected scene sub-sub-block { (1a @ 13b9)
+
+            name : fire_part4 (0a @ 13bb)
+            direction : 1(10 @ 13c7)
+            unknown1 : 1(18 @ 13c9)
+		}
+        unknown1 : 1(28 @ 13cb)
+        ? treasures : 0(48 @ 13cd)
+	}
+
+    scene sub-block { (1a @ 13cf)
+
+        name : fire_part4 (12 @ 13d1)
+
+        connected scene sub-sub-block { (1a @ 13dd)
+
+            name : fire_part5 (0a @ 13df)
+		}
+        ? treasures : 1(48 @ 13eb)
+	}
+
+    scene sub-block { (1a @ 13ed)
+
+        name : fire_part5 (12 @ 13ef)
+
+        connected scene sub-sub-block { (1a @ 13fb)
+
+            name : fire_partBoss (0a @ 13fd)
+            direction : 1(10 @ 140c)
+		}
+        unknown3 a : 1(40 @ 140e)
+        ? treasures : 0(48 @ 1410)
+        title : Chambers of The Flame (52 @ 1412)
+	}
+
+    scene sub-block { (1a @ 1429)
+
+        name : fire_partBoss (12 @ 142b)
+        feature : 3(20 @ 143a)
+        ? treasures : 0(48 @ 143c)
+        title : Chambers of The Flame (52 @ 143e)
+	}
+    sequence : 15(20 @ 1455)
+    default music : dungeon1 (2a @ 1457)
+}
+
+zone block { (12 @ 1461)
+
+    name : snowy (0a @ 1464)
+    title : Snowy Slopes (12 @ 146b)
+
+    scene sub-block { (1a @ 1479)
+
+        name : snowy_part1 (12 @ 147b)
+
+        connected scene sub-sub-block { (1a @ 1488)
+
+            name : snowy_part2 (0a @ 148a)
+            direction : 1(10 @ 1497)
+		}
+
+        connected scene sub-sub-block { (1a @ 1499)
+
+            name : snowy_cave1 (0a @ 149b)
+		}
+
+        connected scene sub-sub-block { (1a @ 14a8)
+
+            name : snowy_cave2 (0a @ 14aa)
+		}
+        unknown3 a : 1(40 @ 14b7)
+        ? treasures : 0(48 @ 14b9)
+	}
+
+    scene sub-block { (1a @ 14bb)
+
+        name : snowy_cave1 (12 @ 14bd)
+        unknown1 : 1(28 @ 14ca)
+        ? treasures : 1(48 @ 14cc)
+        title : Infested Cave (52 @ 14ce)
+	}
+
+    scene sub-block { (1a @ 14dd)
+
+        name : snowy_cave2 (12 @ 14df)
+        unknown1 : 1(28 @ 14ec)
+        ? treasures : 1(48 @ 14ee)
+        title : Infested Gold Mine (52 @ 14f0)
+	}
+
+    scene sub-block { (1a @ 1504)
+
+        name : snowy_part2 (12 @ 1506)
+
+        connected scene sub-sub-block { (1a @ 1513)
+
+            name : snowy_part3 (0a @ 1515)
+            direction : 1(10 @ 1522)
+		}
+        ? treasures : 2(48 @ 1524)
+	}
+
+    scene sub-block { (1a @ 1526)
+
+        name : snowy_part3 (12 @ 1528)
+
+        connected scene sub-sub-block { (1a @ 1535)
+
+            name : snowy_part4 (0a @ 1537)
+            direction : 1(10 @ 1544)
+		}
+        ? treasures : 0(48 @ 1546)
+	}
+
+    scene sub-block { (1a @ 1548)
+
+        name : snowy_part4 (12 @ 154a)
+
+        connected scene sub-sub-block { (1a @ 1557)
+
+            name : icecastle_part1 (0a @ 1559)
+            direction : 1(10 @ 156a)
+		}
+        unknown3 a : 1(40 @ 156c)
+        ? treasures : 0(48 @ 156e)
+        title : Snowy Summit (52 @ 1570)
+	}
+    sequence : 16(20 @ 157e)
+    default music : outdoors_light (2a @ 1580)
+}
+
+zone block { (12 @ 1590)
+
+    name : icecastle (0a @ 1593)
+    title : Frozen Temple (12 @ 159e)
+
+    scene sub-block { (1a @ 15ad)
+
+        name : icecastle_part1 (12 @ 15af)
+
+        connected scene sub-sub-block { (1a @ 15c0)
+
+            name : icecastle_part11 (0a @ 15c2)
+		}
+
+        connected scene sub-sub-block { (1a @ 15d4)
+
+            name : icecastle_part2 (0a @ 15d6)
+            direction : 1(10 @ 15e7)
+		}
+        ? treasures : 0(48 @ 15e9)
+	}
+
+    scene sub-block { (1a @ 15eb)
+
+        name : icecastle_part11 (12 @ 15ed)
+        unknown1 : 1(28 @ 15ff)
+        ? treasures : 1(48 @ 1601)
+	}
+
+    scene sub-block { (1a @ 1603)
+
+        name : icecastle_part2 (12 @ 1605)
+
+        connected scene sub-sub-block { (1a @ 1616)
+
+            name : icecastle_part3 (0a @ 1618)
+		}
+        unknown1 : 1(28 @ 1629)
+        ? treasures : 1(48 @ 162b)
+	}
+
+    scene sub-block { (1a @ 162d)
+
+        name : icecastle_part3 (12 @ 162f)
+
+        connected scene sub-sub-block { (1a @ 1640)
+
+            name : icecastle_part4 (0a @ 1642)
+            direction : 1(10 @ 1653)
+		}
+        unknown3 a : 1(40 @ 1655)
+        ? treasures : 0(48 @ 1657)
+	}
+
+    scene sub-block { (1a @ 1659)
+
+        name : icecastle_part4 (12 @ 165b)
+
+        connected scene sub-sub-block { (1a @ 166c)
+
+            name : icecastle_part5 (0a @ 166e)
+            direction : 7(10 @ 167f)
+		}
+
+        connected scene sub-sub-block { (1a @ 1681)
+
+            name : icecastle_partBoss (0a @ 1683)
+            direction : 1(10 @ 1697)
+		}
+        unknown2 : 18(30 @ 1699)
+        unknown3 a : 1(40 @ 169b)
+        ? treasures : 0(48 @ 169d)
+	}
+
+    scene sub-block { (1a @ 169f)
+
+        name : icecastle_part5 (12 @ 16a1)
+        unknown2 : 18(30 @ 16b2)
+        ? treasures : 0(48 @ 16b4)
+        title : Hall of Trials (52 @ 16b6)
+	}
+
+    scene sub-block { (1a @ 16c6)
+
+        name : icecastle_partBoss (12 @ 16c8)
+        feature : 3(20 @ 16dc)
+        unknown2 : 18(30 @ 16de)
+        unknown3 a : 1(40 @ 16e0)
+        ? treasures : 0(48 @ 16e2)
+        title : Hall of The Dwarven Kings (52 @ 16e4)
+	}
+    sequence : 17(20 @ 16ff)
+    default music : dungeon1 (2a @ 1701)
+}
+
+zone block { (12 @ 170b)
+
+    name : lowergrove (0a @ 170e)
+    title : World's End Keep (12 @ 171a)
+
+    scene sub-block { (1a @ 172c)
+
+        name : lowergrove_part1 (12 @ 172e)
+
+        connected scene sub-sub-block { (1a @ 1740)
+
+            name : worldsend_part1 (0a @ 1742)
+            direction : 1(10 @ 1753)
+		}
+        unknown2 : 18(30 @ 1755)
+        music : forest (3a @ 1757)
+        ? treasures : 0(48 @ 175f)
+        title : Corrupted Grove (52 @ 1761)
+	}
+
+    scene sub-block { (1a @ 1772)
+
+        name : worldsend_part1 (12 @ 1774)
+
+        connected scene sub-sub-block { (1a @ 1785)
+
+            name : worldsend_part2 (0a @ 1787)
+            direction : 1(10 @ 1798)
+		}
+        unknown2 : 19(30 @ 179a)
+        unknown3 a : 1(40 @ 179c)
+        ? treasures : 1(48 @ 179e)
+	}
+
+    scene sub-block { (1a @ 17a0)
+
+        name : worldsend_part2 (12 @ 17a2)
+
+        connected scene sub-sub-block { (1a @ 17b3)
+
+            name : worldsend_part3 (0a @ 17b5)
+		}
+        unknown1 : 1(28 @ 17c6)
+        unknown2 : 19(30 @ 17c8)
+        ? treasures : 0(48 @ 17ca)
+	}
+
+    scene sub-block { (1a @ 17cc)
+
+        name : worldsend_part3 (12 @ 17ce)
+
+        connected scene sub-sub-block { (1a @ 17df)
+
+            name : worldsend_part4 (0a @ 17e1)
+		}
+        unknown1 : 1(28 @ 17f2)
+        unknown2 : 19(30 @ 17f4)
+        ? treasures : 1(48 @ 17f6)
+	}
+
+    scene sub-block { (1a @ 17f8)
+
+        name : worldsend_part4 (12 @ 17fa)
+
+        connected scene sub-sub-block { (1a @ 180b)
+
+            name : worldsend_part5 (0a @ 180d)
+		}
+        unknown1 : 1(28 @ 181e)
+        ? treasures : 0(48 @ 1820)
+	}
+
+    scene sub-block { (1a @ 1822)
+
+        name : worldsend_part5 (12 @ 1824)
+
+        connected scene sub-sub-block { (1a @ 1835)
+
+            name : worldsend_part6 (0a @ 1837)
+		}
+        unknown1 : 1(28 @ 1848)
+        ? treasures : 0(48 @ 184a)
+	}
+
+    scene sub-block { (1a @ 184c)
+
+        name : worldsend_part6 (12 @ 184e)
+
+        connected scene sub-sub-block { (1a @ 185f)
+
+            name : worldsend_part7 (0a @ 1861)
+            direction : 1(10 @ 1872)
+		}
+        unknown1 : 1(28 @ 1874)
+        ? treasures : 0(48 @ 1876)
+	}
+
+    scene sub-block { (1a @ 1878)
+
+        name : worldsend_part7 (12 @ 187a)
+
+        connected scene sub-sub-block { (1a @ 188b)
+
+            name : worldsend_part8 (0a @ 188d)
+		}
+
+        connected scene sub-sub-block { (1a @ 189e)
+
+            name : worldsend_part9 (0a @ 18a0)
+            direction : 1(10 @ 18b1)
+		}
+        unknown3 a : 1(40 @ 18b3)
+        ? treasures : 0(48 @ 18b5)
+	}
+
+    scene sub-block { (1a @ 18b7)
+
+        name : worldsend_part8 (12 @ 18b9)
+        unknown1 : 1(28 @ 18ca)
+        ? treasures : 0(48 @ 18cc)
+	}
+
+    scene sub-block { (1a @ 18ce)
+
+        name : worldsend_part9 (12 @ 18d0)
+        feature : 3(20 @ 18e1)
+        ? treasures : 0(48 @ 18e3)
+        title : Lair of Death (52 @ 18e5)
+	}
+    sequence : 20(20 @ 18f4)
+    default music : dungeon1 (2a @ 18f6)
+}

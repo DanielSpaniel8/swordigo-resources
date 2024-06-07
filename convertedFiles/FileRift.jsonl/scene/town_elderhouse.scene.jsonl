@@ -1,0 +1,4651 @@
+data = {
+
+"objectblock " :  {
+
+	"name" : "Template 1",
+	"identifier" : "Background",
+
+	"componentsub-block " :  {
+
+		"component type" : "Background",
+		"number" : 101,
+
+		"filesub-sub-block " :  {
+
+			"filename" : "grasslandsbackground_day",
+		},
+	},
+
+	"positionsub-block " :  {
+
+		"x position" : -764.890380859375,
+		"y position" : 1126.6429443359375,
+	},
+	"z position" : 1.7203826904296875,
+	"rotation" : 0.0,
+	"scale" : 1.0,
+
+	"u2sub-block " :  {
+
+		"w" : -30.0,
+		"x" : -30.0,
+		"y" : 60.0,
+		"z" : 60.0,
+	},
+	"hidden" : 0,
+},
+
+"objectblock " :  {
+
+	"name" : "Template 1",
+	"identifier" : "DirectionalLight",
+
+	"componentsub-block " :  {
+
+		"component type" : "Light",
+		"number" : 101,
+
+		"lightsub-sub-block " :  {
+
+			"u0" : 2,
+			"u1" : 0.30000001192092896,
+
+			"u2sub-sub-sub-block " :  {
+
+				"w" : 1.0,
+				"x" : 1.0,
+				"y" : 1.0,
+				"z" : 1.0,
+			},
+		},
+	},
+
+	"componentsub-block " :  {
+
+		"component type" : "Light",
+		"number" : 103,
+
+		"lightsub-sub-block " :  {
+
+			"u0" : 1,
+			"u1" : 0.5,
+
+			"u2sub-sub-sub-block " :  {
+
+				"w" : 1.0,
+				"x" : 0.699999988079071,
+				"y" : 0.699999988079071,
+				"z" : 1.0,
+			},
+		},
+	},
+
+	"componentsub-block " :  {
+
+		"component type" : "Light",
+		"number" : 105,
+
+		"lightsub-sub-block " :  {
+
+			"u0" : 4,
+			"u1" : 0.699999988079071,
+
+			"u2sub-sub-sub-block " :  {
+
+				"w" : 0.0,
+				"x" : 0.0,
+				"y" : 0.0,
+				"z" : 1.0,
+			},
+		},
+	},
+
+	"positionsub-block " :  {
+
+		"x position" : 3.298828125,
+		"y position" : 1855.27099609375,
+	},
+	"z position" : 560.502685546875,
+	"rotation" : 0.0,
+	"scale" : 1.0,
+
+	"u2sub-block " :  {
+
+		"w" : -30.0,
+		"x" : -30.0,
+		"y" : 60.0,
+		"z" : 60.0,
+	},
+	"hidden" : 0,
+},
+
+"objectblock " :  {
+
+	"name" : "npc_oldman",
+	"identifier" : "elder",
+
+	"componentsub-block " :  {
+
+		"component type" : "Model",
+		"number" : 101,
+
+		"3D modelsub-sub-block " :  {
+
+			"name" : "npc_elder",
+			"u0" : 2.5307273864746094,
+			"u1" : 0.5,
+			"u2" : 0.0,
+
+			"u3sub-sub-sub-block " :  {
+
+				"w" : 0.0,
+				"x" : 0.0,
+				"y" : 0.0,
+				"z" : 1.0,
+			},
+
+			"u4sub-sub-sub-block " :  {
+
+				"x" : 0.0,
+				"y" : 0.0,
+				"z" : 0.0,
+			},
+			"u5" : 0,
+
+			"u6sub-sub-sub-block " :  {
+
+				"w" : 1.0,
+				"x" : 1.0,
+				"y" : 1.0,
+				"z" : 1.0,
+			},
+		},
+	},
+
+	"positionsub-block " :  {
+
+		"x position" : 919.4562377929688,
+		"y position" : 394.45062255859375,
+	},
+	"z position" : -29.85186767578125,
+	"rotation" : 0.0,
+	"scale" : 1.0,
+
+	"u2sub-block " :  {
+
+		"w" : -32.70899963378906,
+		"x" : -34.29396057128906,
+		"y" : 64.53463745117188,
+		"z" : 62.28142547607422,
+	},
+	"hidden" : 0,
+},
+
+"objectblock " :  {
+
+	"name" : "Template 1",
+	"identifier" : "obj10",
+
+	"componentsub-block " :  {
+
+		"component type" : "Model",
+		"number" : 101,
+
+		"3D modelsub-sub-block " :  {
+
+			"name" : "bookshelf",
+			"u0" : -1.5707963705062866,
+			"u1" : 0.0,
+			"u2" : 0.0,
+
+			"u3sub-sub-sub-block " :  {
+
+				"w" : 0.0,
+				"x" : 0.0,
+				"y" : 0.0,
+				"z" : 1.0,
+			},
+
+			"u4sub-sub-sub-block " :  {
+
+				"x" : 0.0,
+				"y" : 0.0,
+				"z" : 0.0,
+			},
+			"u5" : 0,
+
+			"u6sub-sub-sub-block " :  {
+
+				"w" : 1.0,
+				"x" : 1.0,
+				"y" : 1.0,
+				"z" : 1.0,
+			},
+		},
+	},
+
+	"positionsub-block " :  {
+
+		"x position" : -257.4588317871094,
+		"y position" : 116.44769287109375,
+	},
+	"z position" : -65.89935302734375,
+	"rotation" : 0.0,
+	"scale" : 1.0,
+
+	"u2sub-block " :  {
+
+		"w" : -77.088623046875,
+		"x" : -2.759427070617676,
+		"y" : 152.27548217773438,
+		"z" : 149.21739196777344,
+	},
+	"hidden" : 0,
+},
+
+"objectblock " :  {
+
+	"name" : "Template 1",
+	"identifier" : "obj14",
+
+	"componentsub-block " :  {
+
+		"component type" : "CollisionShape",
+		"number" : 101,
+
+		"collision shapesub-sub-block " :  {
+
+
+			"u0sub-sub-sub-block " :  {
+
+				"w" : -45.0,
+				"x" : -200.0,
+				"y" : 90.0,
+				"z" : 400.0,
+			},
+		},
+
+		"collision shape 2sub-sub-block " :  {
+
+			"w" : -15.0,
+			"x" : 15.0,
+			"y" : 2,
+			"z" : 1,
+		},
+	},
+
+	"componentsub-block " :  {
+
+		"component type" : "Portal",
+		"number" : 104,
+
+		"portalsub-sub-block " :  {
+
+			"target level" : "town_part1",
+			"spawnpoint" : "",
+			"touchable" : 0,
+			"collision shape component" : 101,
+		},
+	},
+
+	"positionsub-block " :  {
+
+		"x position" : -474.36468505859375,
+		"y position" : 208.5292510986328,
+	},
+	"z position" : 0.0,
+	"rotation" : 0.0,
+	"scale" : 1.0,
+
+	"u2sub-block " :  {
+
+		"w" : -45.0,
+		"x" : -200.0,
+		"y" : 90.0,
+		"z" : 400.0,
+	},
+	"hidden" : 0,
+},
+
+"objectblock " :  {
+
+	"identifier" : "obj2",
+
+	"componentsub-block " :  {
+
+		"component type" : "GroundPolygon",
+		"number" : 100,
+
+		"ground polygonsub-sub-block " :  {
+
+
+			"sub-sub-sub-block " :  {
+
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"x" : -1004.267822265625,
+					"y" : -705.8150634765625,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"x" : -19.750732421875,
+					"y" : -660.6311645507812,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"x" : 1004.2677612304688,
+					"y" : -701.3348999023438,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"x" : 962.2265014648438,
+					"y" : 705.8151245117188,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"x" : -112.4068603515625,
+					"y" : 694.1921997070312,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"x" : -882.3074340820312,
+					"y" : 705.5900268554688,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"x" : -885.8663940429688,
+					"y" : 79.48739624023438,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"x" : -886.9718627929688,
+					"y" : -39.81593322753906,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"x" : -800.8873291015625,
+					"y" : -39.463409423828125,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"x" : -800.2457885742188,
+					"y" : 66.07254028320312,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"x" : -110.98757934570312,
+					"y" : 69.8795166015625,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"x" : 118.55242919921875,
+					"y" : 265.1147766113281,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"x" : 118.6822509765625,
+					"y" : 315.4789123535156,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"x" : 517.7012939453125,
+					"y" : 314.0397033691406,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"x" : 515.2566528320312,
+					"y" : 101.25152587890625,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"x" : 140.4652099609375,
+					"y" : 106.7471923828125,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"x" : 139.54339599609375,
+					"y" : -140.26116943359375,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"x" : -115.107421875,
+					"y" : -140.2015380859375,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"x" : -937.118408203125,
+					"y" : -140.11514282226562,
+				},
+				"u0" : 0,
+				"u1" : 1,
+			},
+			"u1" : 1,
+			"u2" : -80.0,
+			"u3" : 80.0,
+			"u4" : "",
+		},
+	},
+
+	"componentsub-block " :  {
+
+		"component type" : "GroundMesh",
+		"number" : 101,
+
+		"ground meshsub-sub-block " :  {
+
+
+			"u0sub-sub-sub-block " :  {
+
+				"w" : -1014.267822265625,
+				"x" : -715.8150634765625,
+				"y" : 2028.53564453125,
+				"z" : 1431.630126953125,
+			},
+
+			"u1sub-sub-sub-block " :  {
+
+				"u0" : 24,
+				"u1" : 20,
+
+				"u2sub-sub-sub-sub-block " :  {
+
+					"u0" : 4,
+					"u1" : 1,
+					"u2" : 2,
+					"u3" : 0,
+				},
+
+				"u3sub-sub-sub-sub-block " :  {
+
+					"u0" : 7,
+					"u1" : 3,
+					"u2" : 32,
+					"u3" : 0,
+				},
+
+				"u4sub-sub-sub-sub-block " :  {
+
+					"u0" : 7,
+					"u1" : 3,
+					"u2" : 32,
+					"u3" : 12,
+				},
+
+				"u5sub-sub-sub-sub-block " :  {
+
+					"u0" : 7,
+					"u1" : 2,
+					"u2" : 32,
+					"u3" : 24,
+				},
+
+				"u6sub-sub-sub-sub-block " :  {
+
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 1.0,
+						"x" : 1.0,
+						"y" : 1.0,
+						"z" : 1.0,
+					},
+
+					"u1sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 1.0,
+						"x" : 1.0,
+						"y" : 1.0,
+						"z" : 1.0,
+					},
+
+					"u2sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 1.0,
+						"x" : 1.0,
+						"y" : 1.0,
+						"z" : 1.0,
+					},
+					"u3" : 0.0,
+					"u4" : "\\n\\x07ground3\\x10\\x01 \\x01",
+				},
+
+				"u7sub-sub-sub-sub-block " :  {
+
+					"u" : -885.30712890625,
+					"v" : 669.1921997070312,
+					"w" : -85.0,
+					"x" : 1850.533447265625,
+					"y" : 36.6553955078125,
+					"z" : 170.0,
+				},
+				"u8" : "|NqD?v0D\\x00\\x00\\xa0\\xc2\\xbc11\\xbc+\\xfc\\x7f?\\x00\\x00\\x00\\x00\\x00\\x00\\x00?\\n\\xd7\\xa3\\xbc|NqD?v0D\\x00\\x00\\xa0B\\xbc11\\xbc+\\xfc\\x7f?\\x00\\x00\\x00\\x00\\x00\\x00\\x00?R\\xb8\\x1e?|NqD?\\xf6-D\\x00\\x00\\xaaB\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\x1f\\x85\\xeb>\\n\\xd7#?|NqD?6*D33\\xa0B\\xbc11<+\\xfc\\x7f\\xbf\\x00\\x00\\x00\\x80\\xcd\\xcc\\xcc>\\x89\\xd2\\x1e?|NqD?6*D\\xcd\\xcc\\x9f\\xc2\\xbc11<+\\xfc\\x7f\\xbf\\x00\\x00\\x00\\x80\\xcd\\xcc\\xcc>1\\x90\\xa0\\xbc|NqD?\\xf6-D\\x00\\x00\\xaa\\xc2\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\x1f\\x85\\xeb>\\n\\xd7#\\xbd|NqD?v0D\\x00\\x00\\xa0\\xc2\\xbc11\\xbc+\\xfc\\x7f?\\x00\\x00\\x00\\x00\\x00\\x00\\x00?\\n\\xd7\\xa3\\xbc|NqD?v0D\\x00\\x00\\xa0B\\xbc11\\xbc+\\xfc\\x7f?\\x00\\x00\\x00\\x00\\x00\\x00\\x00?R\\xb8\\x1e?|NqD?\\xf6-D\\x00\\x00\\xaaB\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\x00\\x00\\x00?.+*?|NqD?6*D33\\xa0B\\xbc11<+\\xfc\\x7f\\xbf\\x00\\x00\\x00\\x80\\x00\\x00\\x00?\\xd3S:?P\\xd0\\xe0\\xc2M\\x8c-D\\x00\\x00\\xa0\\xc2\\x08\\xed\\xff\\xb8\\x00\\x00\\x80?\\x00\\x00\\x00\\x00\\xa5\\x8f\\x99@\\n\\xd7\\xa3\\xbcP\\xd0\\xe0\\xc2M\\x8c-D\\x00\\x00\\xa0B\\x08\\xed\\xff\\xb8\\x00\\x00\\x80?\\x00\\x00\\x00\\x00\\xa5\\x8f\\x99@R\\xb8\\x1e?P\\xd0\\xe0\\xc2M\\x0c+D\\x00\\x00\\xaaB\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xa5\\x8f\\x99@.+*?P\\xd0\\xe0\\xc2ML\'D33\\xa0B\\x08\\xed\\xff8\\x00\\x00\\x80\\xbf\\x00\\x00\\x00\\x80\\xa5\\x8f\\x99@\\xd3S:?\\xa8S]\\xc4\\x9bh0D\\x00\\x00\\xa0\\xc2\\xdf\\x86r<\\xd3\\xf8\\x7f?\\x00\\x00\\x00\\x00\\x83\\x1e\\xfc@\\n\\xd7\\xa3\\xbc\\xa8S]\\xc4\\x9bh0D\\x00\\x00\\xa0B\\xdf\\x86r<\\xd3\\xf8\\x7f?\\x00\\x00\\x00\\x00\\x83\\x1e\\xfc@R\\xb8\\x1e?\\xa8S]\\xc4\\x9b\\xe8-D\\x00\\x00\\xaaB\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\x83\\x1e\\xfc@.+*?\\xa8S]\\xc4\\x9b(*D33\\xa0B\\xdf\\x86r\\xbc\\xd3\\xf8\\x7f\\xbf\\x00\\x00\\x00\\x80\\x83\\x1e\\xfc@\\xd3S:?\\xa8S]\\xc4\\x9bh0D\\x00\\x00\\xa0\\xc2\\xdf\\x86r<\\xd3\\xf8\\x7f?\\x00\\x00\\x00\\x00\\x83\\x1e\\xfc@\\n\\xd7\\xa3\\xbc\\xa8S]\\xc4\\x9bh0D\\x00\\x00\\xa0B\\xdf\\x86r<\\xd3\\xf8\\x7f?\\x00\\x00\\x00\\x00\\x83\\x1e\\xfc@R\\xb8\\x1e?\\xa8S]\\xc4\\x9b\\xe8-D\\x00\\x00\\xaaB\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?1f\\xfd@\\n\\xd7#?\\xa8S]\\xc4\\x9b(*D33\\xa0B\\xdf\\x86r\\xbc\\xd3\\xf8\\x7f\\xbf\\x00\\x00\\x00\\x80\\xb6Q\\xff@\\x89\\xd2\\x1e?\\xa8S]\\xc4\\x9b(*D\\xcd\\xcc\\x9f\\xc2\\xdf\\x86r\\xbc\\xd3\\xf8\\x7f\\xbf\\x00\\x00\\x00\\x80\\xb6Q\\xff@1\\x90\\xa0\\xbc\\xa8S]\\xc4\\x9b\\xe8-D\\x00\\x00\\xaa\\xc2\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?1f\\xfd@\\n\\xd7#\\xbd",
+				"u9" : "\\x00\\x00\\x04\\x00\\x05\\x00\\x00\\x00\\x03\\x00\\x04\\x00\\x00\\x00\\x01\\x00\\x03\\x00\\x01\\x00\\x02\\x00\\x03\\x00\\x06\\x00\\n\\x00\\x0b\\x00\\x07\\x00\\x06\\x00\\x0b\\x00\\x07\\x00\\x0b\\x00\\x0c\\x00\\x08\\x00\\x07\\x00\\x0c\\x00\\x08\\x00\\x0c\\x00\\r\\x00\\t\\x00\\x08\\x00\\r\\x00\\n\\x00\\x0e\\x00\\x0f\\x00\\x0b\\x00\\n\\x00\\x0f\\x00\\x0b\\x00\\x0f\\x00\\x10\\x00\\x0c\\x00\\x0b\\x00\\x10\\x00\\x0c\\x00\\x10\\x00\\x11\\x00\\r\\x00\\x0c\\x00\\x11\\x00\\x12\\x00\\x17\\x00\\x16\\x00\\x12\\x00\\x16\\x00\\x15\\x00\\x12\\x00\\x15\\x00\\x13\\x00\\x15\\x00\\x14\\x00\\x13\\x00",
+			},
+
+			"u1sub-sub-sub-block " :  {
+
+				"u0" : 30,
+				"u1" : 20,
+
+				"u2sub-sub-sub-sub-block " :  {
+
+					"u0" : 4,
+					"u1" : 1,
+					"u2" : 2,
+					"u3" : 0,
+				},
+
+				"u3sub-sub-sub-sub-block " :  {
+
+					"u0" : 7,
+					"u1" : 3,
+					"u2" : 32,
+					"u3" : 0,
+				},
+
+				"u4sub-sub-sub-sub-block " :  {
+
+					"u0" : 7,
+					"u1" : 3,
+					"u2" : 32,
+					"u3" : 12,
+				},
+
+				"u5sub-sub-sub-sub-block " :  {
+
+					"u0" : 7,
+					"u1" : 2,
+					"u2" : 32,
+					"u3" : 24,
+				},
+
+				"u6sub-sub-sub-sub-block " :  {
+
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 1.0,
+						"x" : 1.0,
+						"y" : 1.0,
+						"z" : 1.0,
+					},
+
+					"u1sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 1.0,
+						"x" : 1.0,
+						"y" : 1.0,
+						"z" : 1.0,
+					},
+
+					"u2sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 1.0,
+						"x" : 1.0,
+						"y" : 1.0,
+						"z" : 1.0,
+					},
+					"u3" : 0.0,
+					"u4" : "\\n\\x07ground3\\x10\\x01 \\x01",
+				},
+
+				"u7sub-sub-sub-sub-block " :  {
+
+					"u" : -115.107421875,
+					"v" : -165.26116943359375,
+					"w" : -85.0,
+					"x" : 630.3640747070312,
+					"y" : 272.0523376464844,
+					"z" : 170.0,
+				},
+				"u8" : "m\\xd0\\x00D\\xc8\\x80\\xcaB\\x00\\x00\\xa0\\xc2\\x967p<\\xf5\\xf8\\x7f?\\x00\\x00\\x00\\x00\\x83\\x1e\\xfc@\\n\\xd7\\xa3\\xbcm\\xd0\\x00D\\xc8\\x80\\xcaB\\x00\\x00\\xa0B\\x967p<\\xf5\\xf8\\x7f?\\x00\\x00\\x00\\x00\\x83\\x1e\\xfc@R\\xb8\\x1e?m\\xd0\\x00D\\xc8\\x80\\xb6B\\x00\\x00\\xaaB\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\xff\\xff\\x7f?\\xd5\\xd6\\xfa@\\n\\xd7#?m\\xd0\\x00D\\xc8\\x80\\x98B33\\xa0B\\x967p\\xbc\\xf5\\xf8\\x7f\\xbf\\x00\\x00\\x00\\x80P\\xeb\\xf8@\\x89\\xd2\\x1e?m\\xd0\\x00D\\xc8\\x80\\x98B\\xcd\\xcc\\x9f\\xc2\\x967p\\xbc\\xf5\\xf8\\x7f\\xbf\\x00\\x00\\x00\\x80P\\xeb\\xf8@1\\x90\\xa0\\xbcm\\xd0\\x00D\\xc8\\x80\\xb6B\\x00\\x00\\xaa\\xc2\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\xff\\xff\\x7f?\\xd5\\xd6\\xfa@\\n\\xd7#\\xbdm\\xd0\\x00D\\xc8\\x80\\xcaB\\x00\\x00\\xa0\\xc2\\x967p<\\xf5\\xf8\\x7f?\\x00\\x00\\x00\\x00\\x83\\x1e\\xfc@\\n\\xd7\\xa3\\xbcm\\xd0\\x00D\\xc8\\x80\\xcaB\\x00\\x00\\xa0B\\x967p<\\xf5\\xf8\\x7f?\\x00\\x00\\x00\\x00\\x83\\x1e\\xfc@R\\xb8\\x1e?m\\xd0\\x00D\\xc8\\x80\\xb6B\\x00\\x00\\xaaB\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\xff\\xff\\x7f?\\x83\\x1e\\xfc@.+*?m\\xd0\\x00D\\xc8\\x80\\x98B33\\xa0B\\x967p\\xbc\\xf5\\xf8\\x7f\\xbf\\x00\\x00\\x00\\x80\\x83\\x1e\\xfc@\\xd3S:?-w\\tC\\x15\\x95\\xd5B\\x00\\x00\\xa0\\xc2\\x967p<\\xf5\\xf8\\x7f?\\x00\\x00\\x00\\x00\\x80\\x0c\\x16A\\n\\xd7\\xa3\\xbc-w\\tC\\x15\\x95\\xd5B\\x00\\x00\\xa0B\\x967p<\\xf5\\xf8\\x7f?\\x00\\x00\\x00\\x00\\x80\\x0c\\x16AR\\xb8\\x1e?-w\\tC\\x15\\x95\\xc1B\\x00\\x00\\xaaB\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\xff\\xff\\x7f?\\x80\\x0c\\x16A.+*?-w\\tC\\x15\\x95\\xa3B33\\xa0B\\x967p\\xbc\\xf5\\xf8\\x7f\\xbf\\x00\\x00\\x00\\x80\\x80\\x0c\\x16A\\xd3S:?-w\\tC\\x15\\x95\\xd5B\\x00\\x00\\xa0\\xc2\\x967p<\\xf5\\xf8\\x7f?\\x00\\x00\\x00\\x00\\x80\\x0c\\x16A\\n\\xd7\\xa3\\xbc-w\\tC\\x15\\x95\\xd5B\\x00\\x00\\xa0B\\x967p<\\xf5\\xf8\\x7f?\\x00\\x00\\x00\\x00\\x80\\x0c\\x16AR\\xb8\\x1e?-w\\tC\\x15\\x95\\xc1B\\x00\\x00\\xaaB\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\xff\\xff\\x7f?W\\xb0\\x16A\\n\\xd7#?-w\\tC\\x15\\x95\\xa3B33\\xa0B\\x967p\\xbc\\xf5\\xf8\\x7f\\xbf\\x00\\x00\\x00\\x80\\x1a\\xa6\\x17A\\x89\\xd2\\x1e?-w\\tC\\x15\\x95\\xa3B\\xcd\\xcc\\x9f\\xc2\\x967p\\xbc\\xf5\\xf8\\x7f\\xbf\\x00\\x00\\x00\\x80\\x1a\\xa6\\x17A1\\x90\\xa0\\xbc-w\\tC\\x15\\x95\\xc1B\\x00\\x00\\xaa\\xc2\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\xff\\xff\\x7f?W\\xb0\\x16A\\n\\xd7#\\xbd\\x1c\\x8b\\x0bC\\xdcB\\x0c\\xc3\\x00\\x00\\xa0\\xc2H\\x8bu9\\x00\\x00\\x80?\\x00\\x00\\x00\\x00\\x80\\x0c\\x16A\\n\\xd7\\xa3\\xbc\\x1c\\x8b\\x0bC\\xdcB\\x0c\\xc3\\x00\\x00\\xa0BH\\x8bu9\\x00\\x00\\x80?\\x00\\x00\\x00\\x00\\x80\\x0c\\x16AR\\xb8\\x1e?\\x1c\\x8b\\x0bC\\xdcB\\x16\\xc3\\x00\\x00\\xaaB\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xa9h\\x15A\\n\\xd7#?\\x1c\\x8b\\x0bC\\xdcB%\\xc333\\xa0BH\\x8bu\\xb9\\x00\\x00\\x80\\xbf\\x00\\x00\\x00\\x80\\xe6r\\x14A\\x89\\xd2\\x1e?\\x1c\\x8b\\x0bC\\xdcB%\\xc3\\xcd\\xcc\\x9f\\xc2H\\x8bu\\xb9\\x00\\x00\\x80\\xbf\\x00\\x00\\x00\\x80\\xe6r\\x14A1\\x90\\xa0\\xbc\\x1c\\x8b\\x0bC\\xdcB\\x16\\xc3\\x00\\x00\\xaa\\xc2\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xa9h\\x15A\\n\\xd7#\\xbd\\x1c\\x8b\\x0bC\\xdcB\\x0c\\xc3\\x00\\x00\\xa0\\xc2H\\x8bu9\\x00\\x00\\x80?\\x00\\x00\\x00\\x00\\x80\\x0c\\x16A\\n\\xd7\\xa3\\xbc\\x1c\\x8b\\x0bC\\xdcB\\x0c\\xc3\\x00\\x00\\xa0BH\\x8bu9\\x00\\x00\\x80?\\x00\\x00\\x00\\x00\\x80\\x0c\\x16AR\\xb8\\x1e?\\x007\\xe6\\xc2\\x983\\x0c\\xc3\\x00\\x00\\xa0\\xc2\\xa47\\x0e9\\x00\\x00\\x80?\\x00\\x00\\x00\\x00\\xb3X&A\\n\\xd7\\xa3\\xbc\\x007\\xe6\\xc2\\x983\\x0c\\xc3\\x00\\x00\\xa0B\\xa47\\x0e9\\x00\\x00\\x80?\\x00\\x00\\x00\\x00\\xb3X&AR\\xb8\\x1e?",
+				"u9" : "\\x00\\x00\\x04\\x00\\x05\\x00\\x00\\x00\\x03\\x00\\x04\\x00\\x00\\x00\\x01\\x00\\x03\\x00\\x01\\x00\\x02\\x00\\x03\\x00\\x06\\x00\\n\\x00\\x0b\\x00\\x07\\x00\\x06\\x00\\x0b\\x00\\x07\\x00\\x0b\\x00\\x0c\\x00\\x08\\x00\\x07\\x00\\x0c\\x00\\x08\\x00\\x0c\\x00\\r\\x00\\t\\x00\\x08\\x00\\r\\x00\\x0e\\x00\\x13\\x00\\x12\\x00\\x0e\\x00\\x12\\x00\\x11\\x00\\x0e\\x00\\x11\\x00\\x0f\\x00\\x11\\x00\\x10\\x00\\x0f\\x00\\x14\\x00\\x18\\x00\\x19\\x00\\x14\\x00\\x17\\x00\\x18\\x00\\x14\\x00\\x15\\x00\\x17\\x00\\x15\\x00\\x16\\x00\\x17\\x00\\x1a\\x00\\x1c\\x00\\x1d\\x00\\x1b\\x00\\x1a\\x00\\x1d\\x00",
+			},
+
+			"u1sub-sub-sub-block " :  {
+
+				"u0" : 17,
+				"u1" : 14,
+
+				"u2sub-sub-sub-sub-block " :  {
+
+					"u0" : 4,
+					"u1" : 1,
+					"u2" : 2,
+					"u3" : 0,
+				},
+
+				"u3sub-sub-sub-sub-block " :  {
+
+					"u0" : 7,
+					"u1" : 3,
+					"u2" : 32,
+					"u3" : 0,
+				},
+
+				"u4sub-sub-sub-sub-block " :  {
+
+					"u0" : 7,
+					"u1" : 3,
+					"u2" : 32,
+					"u3" : 12,
+				},
+
+				"u5sub-sub-sub-sub-block " :  {
+
+					"u0" : 7,
+					"u1" : 2,
+					"u2" : 32,
+					"u3" : 24,
+				},
+
+				"u6sub-sub-sub-sub-block " :  {
+
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 1.0,
+						"x" : 1.0,
+						"y" : 1.0,
+						"z" : 1.0,
+					},
+
+					"u1sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 1.0,
+						"x" : 1.0,
+						"y" : 1.0,
+						"z" : 1.0,
+					},
+
+					"u2sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 1.0,
+						"x" : 1.0,
+						"y" : 1.0,
+						"z" : 1.0,
+					},
+					"u3" : 0.0,
+					"u4" : "\\n\\x07ground3\\x10\\x01 \\x01",
+				},
+
+				"u7sub-sub-sub-sub-block " :  {
+
+					"u" : -940.118408203125,
+					"v" : -165.26116943359375,
+					"w" : -85.0,
+					"x" : 1079.661865234375,
+					"y" : 25.146347045898438,
+					"z" : 170.0,
+				},
+				"u8" : "\\x1c\\x8b\\x0bC\\xdcB\\x0c\\xc3\\x00\\x00\\xa0BH\\x8bu9\\x00\\x00\\x80?\\x00\\x00\\x00\\x00\\x80\\x0c\\x16AR\\xb8\\x1e?\\x1c\\x8b\\x0bC\\xdcB\\x16\\xc3\\x00\\x00\\xaaB\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\x80\\x0c\\x16A.+*?\\x1c\\x8b\\x0bC\\xdcB%\\xc333\\xa0BH\\x8bu\\xb9\\x00\\x00\\x80\\xbf\\x00\\x00\\x00\\x80\\x80\\x0c\\x16A\\xd3S:?\\x007\\xe6\\xc2\\x983\\x0c\\xc3\\x00\\x00\\xa0\\xc2\\xa47\\x0e9\\x00\\x00\\x80?\\x00\\x00\\x00\\x00\\xb3X&A\\n\\xd7\\xa3\\xbc\\x007\\xe6\\xc2\\x983\\x0c\\xc3\\x00\\x00\\xa0B\\xa47\\x0e9\\x00\\x00\\x80?\\x00\\x00\\x00\\x00\\xb3X&AR\\xb8\\x1e?\\x007\\xe6\\xc2\\x983\\x16\\xc3\\x00\\x00\\xaaB\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xb3X&A.+*?\\x007\\xe6\\xc2\\x983%\\xc333\\xa0B\\xa47\\x0e\\xb9\\x00\\x00\\x80\\xbf\\x00\\x00\\x00\\x80\\xb3X&A\\xd3S:?\\x94\\x07k\\xc4e\\x1d\\x0c\\xc3\\x00\\x00\\xa0\\xc2aj\\xdc8\\xff\\xff\\x7f?\\x00\\x00\\x00\\x00\\x87\\xf4ZA\\n\\xd7\\xa3\\xbc\\x94\\x07k\\xc4e\\x1d\\x0c\\xc3\\x00\\x00\\xa0Baj\\xdc8\\xff\\xff\\x7f?\\x00\\x00\\x00\\x00\\x87\\xf4ZAR\\xb8\\x1e?\\x94\\x07k\\xc4e\\x1d\\x16\\xc3\\x00\\x00\\xaaB\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\xff\\xff\\x7f?\\x87\\xf4ZA.+*?\\x94\\x07k\\xc4e\\x1d%\\xc333\\xa0Baj\\xdc\\xb8\\xff\\xff\\x7f\\xbf\\x00\\x00\\x00\\x80\\x87\\xf4ZA\\xd3S:?\\x94\\x07k\\xc4e\\x1d\\x0c\\xc3\\x00\\x00\\xa0\\xc2aj\\xdc8\\xff\\xff\\x7f?\\x00\\x00\\x00\\x00\\x87\\xf4ZA\\n\\xd7\\xa3\\xbc\\x94\\x07k\\xc4e\\x1d\\x0c\\xc3\\x00\\x00\\xa0Baj\\xdc8\\xff\\xff\\x7f?\\x00\\x00\\x00\\x00\\x87\\xf4ZAR\\xb8\\x1e?\\x94\\x07k\\xc4e\\x1d\\x16\\xc3\\x00\\x00\\xaaB\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\xff\\xff\\x7f?^\\x98[A\\n\\xd7#?\\x94\\x07k\\xc4e\\x1d%\\xc333\\xa0Baj\\xdc\\xb8\\xff\\xff\\x7f\\xbf\\x00\\x00\\x00\\x80!\\x8e\\\\A\\x89\\xd2\\x1e?\\x94\\x07k\\xc4e\\x1d%\\xc3\\xcd\\xcc\\x9f\\xc2aj\\xdc\\xb8\\xff\\xff\\x7f\\xbf\\x00\\x00\\x00\\x80!\\x8e\\\\A1\\x90\\xa0\\xbc\\x94\\x07k\\xc4e\\x1d\\x16\\xc3\\x00\\x00\\xaa\\xc2\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\xff\\xff\\x7f?^\\x98[A\\n\\xd7#\\xbd",
+				"u9" : "\\x00\\x00\\x04\\x00\\x05\\x00\\x01\\x00\\x00\\x00\\x05\\x00\\x01\\x00\\x05\\x00\\x06\\x00\\x02\\x00\\x01\\x00\\x06\\x00\\x03\\x00\\x07\\x00\\x08\\x00\\x04\\x00\\x03\\x00\\x08\\x00\\x04\\x00\\x08\\x00\\t\\x00\\x05\\x00\\x04\\x00\\t\\x00\\x05\\x00\\t\\x00\\n\\x00\\x06\\x00\\x05\\x00\\n\\x00\\x0b\\x00\\x10\\x00\\x0f\\x00\\x0b\\x00\\x0f\\x00\\x0e\\x00\\x0b\\x00\\x0e\\x00\\x0c\\x00\\x0e\\x00\\r\\x00\\x0c\\x00",
+			},
+
+			"u1sub-sub-sub-block " :  {
+
+				"u0" : 24,
+				"u1" : 20,
+
+				"u2sub-sub-sub-sub-block " :  {
+
+					"u0" : 4,
+					"u1" : 1,
+					"u2" : 2,
+					"u3" : 0,
+				},
+
+				"u3sub-sub-sub-sub-block " :  {
+
+					"u0" : 7,
+					"u1" : 3,
+					"u2" : 32,
+					"u3" : 0,
+				},
+
+				"u4sub-sub-sub-sub-block " :  {
+
+					"u0" : 7,
+					"u1" : 3,
+					"u2" : 32,
+					"u3" : 12,
+				},
+
+				"u5sub-sub-sub-sub-block " :  {
+
+					"u0" : 7,
+					"u1" : 2,
+					"u2" : 32,
+					"u3" : 24,
+				},
+
+				"u6sub-sub-sub-sub-block " :  {
+
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 1.0,
+						"x" : 1.0,
+						"y" : 1.0,
+						"z" : 1.0,
+					},
+
+					"u1sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 1.0,
+						"x" : 1.0,
+						"y" : 1.0,
+						"z" : 1.0,
+					},
+
+					"u2sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 1.0,
+						"x" : 1.0,
+						"y" : 1.0,
+						"z" : 1.0,
+					},
+					"u3" : 0.0,
+					"u4" : "\\n\\nhousetiles\\x10\\x01 \\x02",
+				},
+
+				"u7sub-sub-sub-sub-block " :  {
+
+					"u" : -886.9718627929688,
+					"v" : -140.26116943359375,
+					"w" : -75.0,
+					"x" : 1404.673095703125,
+					"y" : 845.8512573242188,
+					"z" : 150.0,
+				},
+				"u8" : "\\xad\\x93\\\\\\xc4\\xc3e0D\\x00\\x00\\x96\\xc2\\xf0\\xfe\\x7f\\xbf\\xa7B\\xba;\\x00\\x00\\x00\\x00\\x00\\x00\\x00?\\xcd\\xccL>\\xad\\x93\\\\\\xc4\\xc3e0D\\x00\\x00\\x96B\\xf0\\xfe\\x7f\\xbf\\xa7B\\xba;\\x00\\x00\\x00\\x00\\x00\\x00\\x00?\\xcd\\xccL?sw]\\xc4\\x8c\\xf9\\x9eB\\x00\\x00\\x96\\xc2\\xb8\\xfe\\x7f\\xbfB\\x0b\\xcd;\\x00\\x00\\x00\\x00\\xeeH@@\\xcd\\xccL>sw]\\xc4\\x8c\\xf9\\x9eB\\x00\\x00\\x96B\\xb8\\xfe\\x7f\\xbfB\\x0b\\xcd;\\x00\\x00\\x00\\x00\\xeeH@@\\xcd\\xccL?3\\xbe]\\xc4\\x84C\\x1f\\xc2\\x00\\x00\\x96\\xc2\\xd3MP\\xbf>\\xd0\\x14\\xbf\\x00\\x00\\x00\\x00\\xee\\xd3^@\\xcd\\xccL>3\\xbe]\\xc4\\x84C\\x1f\\xc2\\x00\\x00\\x96B\\xd3MP\\xbf>\\xd0\\x14\\xbf\\x00\\x00\\x00\\x00\\xee\\xd3^@\\xcd\\xccL?\\xca8H\\xc4\\x88\\xda\\x1d\\xc2\\x00\\x00\\x96\\xc2\\xee\\x0cF?\\xb25\"\\xbf\\x00\\x00\\x00\\x00\\x9d\\xddt@\\xcd\\xccL>\\xca8H\\xc4\\x88\\xda\\x1d\\xc2\\x00\\x00\\x96B\\xee\\x0cF?\\xb25\"\\xbf\\x00\\x00\\x00\\x00\\x9d\\xddt@\\xcd\\xccL?\\xbb\\x0fH\\xc4$%\\x84B\\x00\\x00\\x96\\xc2HK >\\x13\\xd8|\\xbf\\x00\\x00\\x00\\x00\\x12\\xf1\\x87@\\xcd\\xccL>\\xbb\\x0fH\\xc4$%\\x84B\\x00\\x00\\x96BHK >\\x13\\xd8|\\xbf\\x00\\x00\\x00\\x00\\x12\\xf1\\x87@\\xcd\\xccL?\\xa4\\xf9\\xdd\\xc2P\\xc2\\x8bB\\x00\\x00\\x96\\xc2\\xb1\\xcdX>K2z\\xbf\\x00\\x00\\x00\\x00\\x07+\\xe0@\\xcd\\xccL>\\xa4\\xf9\\xdd\\xc2P\\xc2\\x8bB\\x00\\x00\\x96B\\xb1\\xcdX>K2z\\xbf\\x00\\x00\\x00\\x00\\x07+\\xe0@\\xcd\\xccL?\\xd8\\x1a\\xedB\\xb1\\x8e\\x84C\\x00\\x00\\x96\\xc2G\\xfb:?\\x9b\\xda.\\xbf\\x00\\x00\\x00\\x00\\xa8^\\x03A\\xcd\\xccL>\\xd8\\x1a\\xedB\\xb1\\x8e\\x84C\\x00\\x00\\x96BG\\xfb:?\\x9b\\xda.\\xbf\\x00\\x00\\x00\\x00\\xa8^\\x03A\\xcd\\xccL?P]\\xedBM\\xbd\\x9dC\\x00\\x00\\x96\\xc2=*\\xf9=*\\x19~\\xbf\\x00\\x00\\x00\\x00\\xd3\\x97\\x06A\\xcd\\xccL>P]\\xedBM\\xbd\\x9dC\\x00\\x00\\x96B=*\\xf9=*\\x19~\\xbf\\x00\\x00\\x00\\x00\\xd3\\x97\\x06A\\xcd\\xccL?\\xe2l\\x01D\\x15\\x05\\x9dC\\x00\\x00\\x96\\xc2\\x1bX\\xf3\\xbe\\xca<a\\xbf\\x00\\x00\\x00\\x00e! A\\xcd\\xccL>\\xe2l\\x01D\\x15\\x05\\x9dC\\x00\\x00\\x96B\\x1bX\\xf3\\xbe\\xca<a\\xbf\\x00\\x00\\x00\\x00e! A\\xcd\\xccL?m\\xd0\\x00D\\xc8\\x80\\xcaB\\x00\\x00\\x96\\xc2\\xad\\xfb\\x7f\\xbf\\x8e7<<\\x00\\x00\\x00\\x00\\xf3\\xbf-A\\xcd\\xccL>m\\xd0\\x00D\\xc8\\x80\\xcaB\\x00\\x00\\x96B\\xad\\xfb\\x7f\\xbf\\x8e7<<\\x00\\x00\\x00\\x00\\xf3\\xbf-A\\xcd\\xccL?\\x18w\\x0cC\\x90~\\xd5B\\x00\\x00\\x96\\xc2\\x8b\\xff\\x7f\\xbf\\xb1\\x92t;\\x00\\x00\\x00\\x00\\xf3\\xbf-A\\xcd\\xccL>\\x18w\\x0cC\\x90~\\xd5B\\x00\\x00\\x96B\\x8b\\xff\\x7f\\xbf\\xb1\\x92t;\\x00\\x00\\x00\\x00\\xf3\\xbf-A\\xcd\\xccL?\\x1c\\x8b\\x0bC\\xdcB\\x0c\\xc3\\x00\\x00\\x96\\xc2\\x8b\\xff\\x7f\\xbf\\xb1\\x92t;\\x00\\x00\\x00\\x00\\xf6\\x8e=A\\xcd\\xccL>\\x1c\\x8b\\x0bC\\xdcB\\x0c\\xc3\\x00\\x00\\x96B\\x8b\\xff\\x7f\\xbf\\xb1\\x92t;\\x00\\x00\\x00\\x00\\xf6\\x8e=A\\xcd\\xccL?",
+				"u9" : "\\x00\\x00\\x02\\x00\\x03\\x00\\x01\\x00\\x00\\x00\\x03\\x00\\x02\\x00\\x04\\x00\\x05\\x00\\x03\\x00\\x02\\x00\\x05\\x00\\x04\\x00\\x06\\x00\\x07\\x00\\x05\\x00\\x04\\x00\\x07\\x00\\x06\\x00\\x08\\x00\\t\\x00\\x07\\x00\\x06\\x00\\t\\x00\\x08\\x00\\n\\x00\\x0b\\x00\\t\\x00\\x08\\x00\\x0b\\x00\\n\\x00\\x0c\\x00\\r\\x00\\x0b\\x00\\n\\x00\\r\\x00\\x0c\\x00\\x0e\\x00\\x0f\\x00\\r\\x00\\x0c\\x00\\x0f\\x00\\x0e\\x00\\x10\\x00\\x11\\x00\\x0f\\x00\\x0e\\x00\\x11\\x00\\x10\\x00\\x12\\x00\\x13\\x00\\x11\\x00\\x10\\x00\\x13\\x00\\x14\\x00\\x16\\x00\\x17\\x00\\x15\\x00\\x14\\x00\\x17\\x00",
+			},
+
+			"u1sub-sub-sub-block " :  {
+
+				"u0" : 10,
+				"u1" : 8,
+
+				"u2sub-sub-sub-sub-block " :  {
+
+					"u0" : 4,
+					"u1" : 1,
+					"u2" : 2,
+					"u3" : 0,
+				},
+
+				"u3sub-sub-sub-sub-block " :  {
+
+					"u0" : 7,
+					"u1" : 3,
+					"u2" : 32,
+					"u3" : 0,
+				},
+
+				"u4sub-sub-sub-sub-block " :  {
+
+					"u0" : 7,
+					"u1" : 3,
+					"u2" : 32,
+					"u3" : 12,
+				},
+
+				"u5sub-sub-sub-sub-block " :  {
+
+					"u0" : 7,
+					"u1" : 2,
+					"u2" : 32,
+					"u3" : 24,
+				},
+
+				"u6sub-sub-sub-sub-block " :  {
+
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 1.0,
+						"x" : 1.0,
+						"y" : 1.0,
+						"z" : 1.0,
+					},
+
+					"u1sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 1.0,
+						"x" : 1.0,
+						"y" : 1.0,
+						"z" : 1.0,
+					},
+
+					"u2sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 1.0,
+						"x" : 1.0,
+						"y" : 1.0,
+						"z" : 1.0,
+					},
+					"u3" : 0.0,
+					"u4" : "\\n\\nhousetiles\\x10\\x01 \\x02",
+				},
+
+				"u7sub-sub-sub-sub-block " :  {
+
+					"u" : -1004.267822265625,
+					"v" : -705.8150634765625,
+					"w" : -75.0,
+					"x" : 2008.53564453125,
+					"y" : 1411.630126953125,
+					"z" : 150.0,
+				},
+				"u8" : "\\x94Gj\\xc4z\\x1d\\x0c\\xc3\\x00\\x00\\x96\\xc2\\x1f7~\\xbf\\xe5g\\xf1=\\x00\\x00\\x00\\x00\\xf6\\x8e=A\\xcd\\xccL>\\x94Gj\\xc4z\\x1d\\x0c\\xc3\\x00\\x00\\x96B\\x1f7~\\xbf\\xe5g\\xf1=\\x00\\x00\\x00\\x00\\xf6\\x8e=A\\xcd\\xccL?$\\x11{\\xc4*t0\\xc4\\x00\\x00\\x96\\xc2\\x91\\xab\\xfc\\xbe\\xcb\\xa7^\\xbf\\x00\\x00\\x00\\x00u\\x04bA\\xcd\\xccL>$\\x11{\\xc4*t0\\xc4\\x00\\x00\\x96B\\x91\\xab\\xfc\\xbe\\xcb\\xa7^\\xbf\\x00\\x00\\x00\\x00u\\x04bA\\xcd\\xccL?\\x80\\x01\\x9e\\xc1e(%\\xc4\\x00\\x00\\x96\\xc2\\x88.\\x12;\\xd7\\xff\\x7f\\xbf\\x00\\x00\\x00\\x00\\xe1\\x8b\\x90A\\xcd\\xccL>\\x80\\x01\\x9e\\xc1e(%\\xc4\\x00\\x00\\x96B\\x88.\\x12;\\xd7\\xff\\x7f\\xbf\\x00\\x00\\x00\\x00\\xe1\\x8b\\x90A\\xcd\\xccL?#\\x11{DoU/\\xc4\\x00\\x00\\x96\\xc2\\x1e\\xe3O?*e\\x15\\xbf\\x00\\x00\\x00\\x00DW\\xb1A\\xcd\\xccL>#\\x11{DoU/\\xc4\\x00\\x00\\x96B\\x1e\\xe3O?*e\\x15\\xbf\\x00\\x00\\x00\\x00DW\\xb1A\\xcd\\xccL?\\x7f\\x8epD+t0D\\x00\\x00\\x96\\xc2\\xc4\\xe2\\x7f?l\\xa4\\xf4<\\x00\\x00\\x00\\x00\\xc8c\\xdeA\\xcd\\xccL>\\x7f\\x8epD+t0D\\x00\\x00\\x96B\\xc4\\xe2\\x7f?l\\xa4\\xf4<\\x00\\x00\\x00\\x00\\xc8c\\xdeA\\xcd\\xccL?",
+				"u9" : "\\x00\\x00\\x02\\x00\\x03\\x00\\x01\\x00\\x00\\x00\\x03\\x00\\x02\\x00\\x04\\x00\\x05\\x00\\x03\\x00\\x02\\x00\\x05\\x00\\x04\\x00\\x06\\x00\\x07\\x00\\x05\\x00\\x04\\x00\\x07\\x00\\x06\\x00\\x08\\x00\\t\\x00\\x07\\x00\\x06\\x00\\t\\x00",
+			},
+
+			"u2sub-sub-sub-block " :  {
+
+				"u0" : 51,
+				"u1" : 17,
+
+				"u2sub-sub-sub-sub-block " :  {
+
+					"u0" : 7,
+					"u1" : 3,
+					"u2" : 32,
+					"u3" : 0,
+				},
+
+				"u3sub-sub-sub-sub-block " :  {
+
+					"u0" : 7,
+					"u1" : 3,
+					"u2" : 32,
+					"u3" : 12,
+				},
+
+				"u4sub-sub-sub-sub-block " :  {
+
+					"u0" : 7,
+					"u1" : 2,
+					"u2" : 32,
+					"u3" : 24,
+				},
+
+				"u5sub-sub-sub-sub-block " :  {
+
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 1.0,
+						"x" : 1.0,
+						"y" : 1.0,
+						"z" : 1.0,
+					},
+
+					"u1sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 1.0,
+						"x" : 1.0,
+						"y" : 1.0,
+						"z" : 1.0,
+					},
+
+					"u2sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 1.0,
+						"x" : 1.0,
+						"y" : 1.0,
+						"z" : 1.0,
+					},
+					"u3" : 0.0,
+
+					"u4sub-sub-sub-sub-sub-block " :  {
+
+						"u0" : "housetiles",
+						"u1" : 1,
+						"u2" : 2,
+					},
+				},
+
+				"u3sub-sub-sub-sub-block " :  {
+
+					"u" : -1004.267822265625,
+					"v" : -705.8150634765625,
+					"w" : 75.0,
+					"x" : 2008.53564453125,
+					"y" : 1411.630126953125,
+					"z" : 0.0,
+				},
+				"u7" : "\\xca8H\\xc4\\x88\\xda\\x1d\\xc2\\x00\\x00\\x96B\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\xff\\xff\\x7f?\\xf4\\x06-\\xc0\\xcf-\\xaf>\\xad\\x93\\\\\\xc4\\xc3e0D\\x00\\x00\\x96B\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\xff\\xff\\x7f?\\xe6\\xdeA\\xc0\\x8c\\xa1T@sw]\\xc4\\x8c\\xf9\\x9eB\\x00\\x00\\x96B\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\xff\\xff\\x7f?$\\xc8B\\xc0%eQ?\\xca8H\\xc4\\x88\\xda\\x1d\\xc2\\x00\\x00\\x96B\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xf4\\x06-\\xc0\\xcf-\\xaf>sw]\\xc4\\x8c\\xf9\\x9eB\\x00\\x00\\x96B\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?$\\xc8B\\xc0%eQ?3\\xbe]\\xc4\\x84C\\x1f\\xc2\\x00\\x00\\x96B\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\x97\\x10C\\xc0\\xfct\\xae>\\xad\\x93\\\\\\xc4\\xc3e0D\\x00\\x00\\x96B\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xe6\\xdeA\\xc0\\x8c\\xa1T@\\xca8H\\xc4\\x88\\xda\\x1d\\xc2\\x00\\x00\\x96B\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xf4\\x06-\\xc0\\xcf-\\xaf>\\xbb\\x0fH\\xc4$%\\x84B\\x00\\x00\\x96B\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xe8\\xdc,\\xc0\\x85\\xa8C?\\xad\\x93\\\\\\xc4\\xc3e0D\\x00\\x00\\x96B\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xe6\\xdeA\\xc0\\x8c\\xa1T@\\xbb\\x0fH\\xc4$%\\x84B\\x00\\x00\\x96B\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xe8\\xdc,\\xc0\\x85\\xa8C?P\\xd0\\xe0\\xc2M\\x8c-D\\x00\\x00\\x96B\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?uSN=\\x94\\xb6Q@\\xa4\\xf9\\xdd\\xc2P\\xc2\\x8bB\\x00\\x00\\x96B\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?Z\\x94e=\\x7f\\x8eG?P\\xd0\\xe0\\xc2M\\x8c-D\\x00\\x00\\x96B\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?uSN=\\x94\\xb6Q@\\xbb\\x0fH\\xc4$%\\x84B\\x00\\x00\\x96B\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xe8\\xdc,\\xc0\\x85\\xa8C?P\\xd0\\xe0\\xc2M\\x8c-D\\x00\\x00\\x96B\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?uSN=\\x94\\xb6Q@\\xa4\\xf9\\xdd\\xc2P\\xc2\\x8bB\\x00\\x00\\x96B\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?Z\\x94e=\\x7f\\x8eG?\\xd8\\x1a\\xedB\\xb1\\x8e\\x84C\\x00\\x00\\x96B\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xcfey? \\xbd\\xc7?P\\xd0\\xe0\\xc2M\\x8c-D\\x00\\x00\\x96B\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\xff\\xff\\x7f?uSN=\\x94\\xb6Q@\\xd8\\x1a\\xedB\\xb1\\x8e\\x84C\\x00\\x00\\x96B\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\xff\\xff\\x7f?\\xcfey? \\xbd\\xc7?P]\\xedBM\\xbd\\x9dC\\x00\\x00\\x96B\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\xff\\xff\\x7f?\\xd7\\x87y?t\\x86\\xe1?P\\xd0\\xe0\\xc2M\\x8c-D\\x00\\x00\\x96B\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?uSN=\\x94\\xb6Q@P]\\xedBM\\xbd\\x9dC\\x00\\x00\\x96B\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xd7\\x87y?t\\x86\\xe1?\\xe2l\\x01D\\x15\\x05\\x9dC\\x00\\x00\\x96B\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\x12\\x88$@\\xd0\\xc9\\xe0?P\\xd0\\xe0\\xc2M\\x8c-D\\x00\\x00\\x96B\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?uSN=\\x94\\xb6Q@\\xe2l\\x01D\\x15\\x05\\x9dC\\x00\\x00\\x96B\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\x12\\x88$@\\xd0\\xc9\\xe0?\\x7f\\x8epD+t0D\\x00\\x00\\x96B\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?=*\\x8b@M\\xb0T@#\\x11{DoU/\\xc4\\x00\\x00\\x96B\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xd9\\x8b\\x90@\\xaf\\x8a\\x13\\xc0\\x7f\\x8epD+t0D\\x00\\x00\\x96B\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?=*\\x8b@M\\xb0T@\\xe2l\\x01D\\x15\\x05\\x9dC\\x00\\x00\\x96B\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\x12\\x88$@\\xd0\\xc9\\xe0?#\\x11{DoU/\\xc4\\x00\\x00\\x96B\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xd9\\x8b\\x90@\\xaf\\x8a\\x13\\xc0\\xe2l\\x01D\\x15\\x05\\x9dC\\x00\\x00\\x96B\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\x12\\x88$@\\xd0\\xc9\\xe0?m\\xd0\\x00D\\xc8\\x80\\xcaB\\x00\\x00\\x96B\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xdc\\xe7#@{\\xaeg?#\\x11{DoU/\\xc4\\x00\\x00\\x96B\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\xff\\xff\\x7f?\\xd9\\x8b\\x90@\\xaf\\x8a\\x13\\xc0m\\xd0\\x00D\\xc8\\x80\\xcaB\\x00\\x00\\x96B\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\xff\\xff\\x7f?\\xdc\\xe7#@{\\xaeg?\\x18w\\x0cC\\x90~\\xd5B\\x00\\x00\\x96B\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\xff\\xff\\x7f?\\x0e\\xeb\\x87?#Om?#\\x11{DoU/\\xc4\\x00\\x00\\x96B\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xd9\\x8b\\x90@\\xaf\\x8a\\x13\\xc0\\x18w\\x0cC\\x90~\\xd5B\\x00\\x00\\x96B\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\x0e\\xeb\\x87?#Om?\\x1c\\x8b\\x0bC\\xdcB\\x0c\\xc3\\x00\\x00\\x96B\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?;r\\x87?\\xfc\\tz\\xbd#\\x11{DoU/\\xc4\\x00\\x00\\x96B\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xd9\\x8b\\x90@\\xaf\\x8a\\x13\\xc0\\x1c\\x8b\\x0bC\\xdcB\\x0c\\xc3\\x00\\x00\\x96B\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?;r\\x87?\\xfc\\tz\\xbd\\x80\\x01\\x9e\\xc1e(%\\xc4\\x00\\x00\\x96B\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xee\\x8c\\xd7> \\x1f\\t\\xc0\\x007\\xe6\\xc2\\x983\\x0c\\xc3\\x00\\x00\\x96B\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?{\\x14\"=\\xdf\\x0fy\\xbd\\x80\\x01\\x9e\\xc1e(%\\xc4\\x00\\x00\\x96B\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xee\\x8c\\xd7> \\x1f\\t\\xc0\\x1c\\x8b\\x0bC\\xdcB\\x0c\\xc3\\x00\\x00\\x96B\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?;r\\x87?\\xfc\\tz\\xbd\\x80\\x01\\x9e\\xc1e(%\\xc4\\x00\\x00\\x96B\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xee\\x8c\\xd7> \\x1f\\t\\xc0\\x007\\xe6\\xc2\\x983\\x0c\\xc3\\x00\\x00\\x96B\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?{\\x14\"=\\xdf\\x0fy\\xbd\\x94Gj\\xc4z\\x1d\\x0c\\xc3\\x00\\x00\\x96B\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xfe\\xe6O\\xc0\\x81\\xa5w\\xbd\\x80\\x01\\x9e\\xc1e(%\\xc4\\x00\\x00\\x96B\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xee\\x8c\\xd7> \\x1f\\t\\xc0\\x94Gj\\xc4z\\x1d\\x0c\\xc3\\x00\\x00\\x96B\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xfe\\xe6O\\xc0\\x81\\xa5w\\xbd$\\x11{\\xc4*t0\\xc4\\x00\\x00\\x96B\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xb2\\x17a\\xc0L\\xb0\\x14\\xc0",
+			},
+
+			"u3sub-sub-sub-block " :  {
+
+				"w" : 1.0,
+				"x" : 1.0,
+				"y" : 1.0,
+				"z" : 1.0,
+			},
+		},
+	},
+
+	"componentsub-block " :  {
+
+		"component type" : "GroundMeshGenerator",
+		"number" : 102,
+
+		"ground mesh generatorsub-sub-block " :  {
+
+			"ground polygon" : 100,
+			"ground mesh" : 101,
+			"texture mapping 1" : 103,
+			"texture mapping 2" : 104,
+			"u4" : 0,
+			"u5" : 0.0,
+			"u6" : 1,
+			"u7" : 150.0,
+			"u8" : 25.0,
+			"u9" : 5.0,
+			"u10" : 5.0,
+		},
+	},
+
+	"componentsub-block " :  {
+
+		"component type" : "TextureMapping",
+		"number" : 103,
+
+		"texture mappingsub-sub-block " :  {
+
+			"texture file" : "housetiles",
+			"u0" : 250.0,
+
+			"u0sub-sub-sub-block " :  {
+
+				"u1" : 0.0,
+				"u2" : 0.0,
+			},
+		},
+	},
+
+	"componentsub-block " :  {
+
+		"component type" : "TextureMapping",
+		"number" : 104,
+
+		"texture mappingsub-sub-block " :  {
+
+			"texture file" : "ground3",
+			"u0" : 250.0,
+
+			"u0sub-sub-sub-block " :  {
+
+				"u1" : 0.0,
+				"u2" : 50.0,
+			},
+		},
+	},
+
+	"componentsub-block " :  {
+
+		"component type" : "CollisionShape",
+		"number" : 105,
+		"? linked component" : 100,
+
+		"collision shapesub-sub-block " :  {
+
+
+			"u2sub-sub-sub-block " :  {
+
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"y" : -1004.267822265625,
+					"z" : -705.8150634765625,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"y" : -19.750732421875,
+					"z" : -660.6311645507812,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"y" : 1004.2677612304688,
+					"z" : -701.3348999023438,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"y" : 962.2265014648438,
+					"z" : 705.8151245117188,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"y" : -112.4068603515625,
+					"z" : 694.1921997070312,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"y" : -882.3074340820312,
+					"z" : 705.5900268554688,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"y" : -885.8663940429688,
+					"z" : 79.48739624023438,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"y" : -886.9718627929688,
+					"z" : -39.81593322753906,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"y" : -800.8873291015625,
+					"z" : -39.463409423828125,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"y" : -800.2457885742188,
+					"z" : 66.07254028320312,
+				},
+				"u3" : 0,
+				"u4" : 0,
+			},
+		},
+
+		"collision shape 2sub-sub-block " :  {
+
+			"u0" : 1,
+			"w" : -80.0,
+			"x" : 80.0,
+			"z" : 1,
+		},
+	},
+
+	"componentsub-block " :  {
+
+		"component type" : "CollisionShape",
+		"number" : 106,
+		"? linked component" : 100,
+
+		"collision shapesub-sub-block " :  {
+
+
+			"u2sub-sub-sub-block " :  {
+
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"y" : -886.9718627929688,
+					"z" : -39.81593322753906,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"y" : -800.8873291015625,
+					"z" : -39.463409423828125,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"y" : -800.2457885742188,
+					"z" : 66.07254028320312,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"y" : -110.98757934570312,
+					"z" : 69.8795166015625,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"y" : 118.55242919921875,
+					"z" : 265.1147766113281,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"y" : 118.6822509765625,
+					"z" : 315.4789123535156,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"y" : 517.7012939453125,
+					"z" : 314.0397033691406,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"y" : 515.2566528320312,
+					"z" : 101.25152587890625,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"y" : 140.4652099609375,
+					"z" : 106.7471923828125,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"y" : 139.54339599609375,
+					"z" : -140.26116943359375,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"y" : -115.107421875,
+					"z" : -140.2015380859375,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"y" : -937.118408203125,
+					"z" : -140.11514282226562,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"y" : -1004.267822265625,
+					"z" : -705.8150634765625,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"y" : -19.750732421875,
+					"z" : -660.6311645507812,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"y" : 1004.2677612304688,
+					"z" : -701.3348999023438,
+				},
+				"u3" : 0,
+				"u4" : 0,
+			},
+		},
+
+		"collision shape 2sub-sub-block " :  {
+
+			"u0" : 1,
+			"w" : -80.0,
+			"x" : 80.0,
+			"z" : 1,
+		},
+	},
+
+	"positionsub-block " :  {
+
+		"x position" : 455.38897705078125,
+		"y position" : 258.4581604003906,
+	},
+	"z position" : 0.0,
+	"rotation" : 0.0,
+	"scale" : 1.0,
+
+	"u2sub-block " :  {
+
+		"w" : -1004.267822265625,
+		"x" : -705.8150634765625,
+		"y" : 2008.53564453125,
+		"z" : 1411.630126953125,
+	},
+	"hidden" : 0,
+},
+
+"objectblock " :  {
+
+	"identifier" : "obj3",
+
+	"componentsub-block " :  {
+
+		"component type" : "Model",
+		"number" : 101,
+
+		"3D modelsub-sub-block " :  {
+
+			"name" : "shop_pedastal",
+			"u0" : 0.0,
+			"u1" : 0.0,
+			"u2" : 0.0,
+
+			"u3sub-sub-sub-block " :  {
+
+				"w" : 1.0,
+				"x" : 1.0,
+				"y" : 1.0,
+				"z" : 1.0,
+			},
+
+			"u4sub-sub-sub-block " :  {
+
+				"x" : 0.0,
+				"y" : 0.0,
+				"z" : 0.0,
+			},
+			"u5" : 0,
+
+			"u6sub-sub-sub-block " :  {
+
+				"w" : 1.0,
+				"x" : 1.0,
+				"y" : 1.0,
+				"z" : 1.0,
+			},
+		},
+	},
+
+	"positionsub-block " :  {
+
+		"x position" : -186.7121124267578,
+		"y position" : 40.557220458984375,
+	},
+	"z position" : 86.19608306884766,
+	"rotation" : 0.0,
+	"scale" : 1.0,
+
+	"u2sub-block " :  {
+
+		"w" : -24.35943603515625,
+		"x" : 3.244429588317871,
+		"y" : 58.53528594970703,
+		"z" : 121.26319122314453,
+	},
+	"hidden" : 0,
+},
+
+"objectblock " :  {
+
+	"identifier" : "obj3#2",
+
+	"componentsub-block " :  {
+
+		"component type" : "Model",
+		"number" : 101,
+
+		"3D modelsub-sub-block " :  {
+
+			"name" : "shop_pedastal",
+			"u0" : 0.0,
+			"u1" : 0.0,
+			"u2" : 0.0,
+
+			"u3sub-sub-sub-block " :  {
+
+				"w" : 1.0,
+				"x" : 1.0,
+				"y" : 1.0,
+				"z" : 1.0,
+			},
+
+			"u4sub-sub-sub-block " :  {
+
+				"x" : 0.0,
+				"y" : 0.0,
+				"z" : 0.0,
+			},
+			"u5" : 0,
+
+			"u6sub-sub-sub-block " :  {
+
+				"w" : 1.0,
+				"x" : 1.0,
+				"y" : 1.0,
+				"z" : 1.0,
+			},
+		},
+	},
+
+	"positionsub-block " :  {
+
+		"x position" : 320.527099609375,
+		"y position" : 36.415687561035156,
+	},
+	"z position" : 86.19608306884766,
+	"rotation" : 0.0,
+	"scale" : 1.0,
+
+	"u2sub-block " :  {
+
+		"w" : -24.35943603515625,
+		"x" : 3.244429588317871,
+		"y" : 58.53528594970703,
+		"z" : 121.26319122314453,
+	},
+	"hidden" : 0,
+},
+
+"objectblock " :  {
+
+	"identifier" : "obj3#4",
+
+	"componentsub-block " :  {
+
+		"component type" : "Model",
+		"number" : 101,
+
+		"3D modelsub-sub-block " :  {
+
+			"name" : "shop_pedastal",
+			"u0" : 0.0,
+			"u1" : 0.0,
+			"u2" : 0.0,
+
+			"u3sub-sub-sub-block " :  {
+
+				"w" : 1.0,
+				"x" : 1.0,
+				"y" : 1.0,
+				"z" : 1.0,
+			},
+
+			"u4sub-sub-sub-block " :  {
+
+				"x" : 0.0,
+				"y" : 0.0,
+				"z" : 0.0,
+			},
+			"u5" : 0,
+
+			"u6sub-sub-sub-block " :  {
+
+				"w" : 1.0,
+				"x" : 1.0,
+				"y" : 1.0,
+				"z" : 1.0,
+			},
+		},
+	},
+
+	"positionsub-block " :  {
+
+		"x position" : 669.9393920898438,
+		"y position" : 283.5680847167969,
+	},
+	"z position" : 86.19608306884766,
+	"rotation" : 0.0,
+	"scale" : 1.0,
+
+	"u2sub-block " :  {
+
+		"w" : -24.35943603515625,
+		"x" : 3.244429588317871,
+		"y" : 58.53528594970703,
+		"z" : 121.26319122314453,
+	},
+	"hidden" : 0,
+},
+
+"objectblock " :  {
+
+	"name" : "Template 1",
+	"identifier" : "obj4",
+
+	"componentsub-block " :  {
+
+		"component type" : "Model",
+		"number" : 101,
+
+		"3D modelsub-sub-block " :  {
+
+			"name" : "carpet1",
+			"u0" : 0.0,
+			"u1" : 0.20000000298023224,
+			"u2" : 0.0,
+
+			"u3sub-sub-sub-block " :  {
+
+				"w" : 0.0,
+				"x" : 0.0,
+				"y" : 0.0,
+				"z" : 1.0,
+			},
+
+			"u4sub-sub-sub-block " :  {
+
+				"x" : 0.0,
+				"y" : 0.0,
+				"z" : 0.0,
+			},
+			"u5" : 0,
+
+			"u6sub-sub-sub-block " :  {
+
+				"w" : 1.0,
+				"x" : 1.0,
+				"y" : 1.0,
+				"z" : 1.0,
+			},
+		},
+	},
+
+	"positionsub-block " :  {
+
+		"x position" : 196.1965789794922,
+		"y position" : 118.04256439208984,
+	},
+	"z position" : 0.0,
+	"rotation" : 0.0,
+	"scale" : 1.0,
+
+	"u2sub-block " :  {
+
+		"w" : -128.824951171875,
+		"x" : 0.0,
+		"y" : 258.7838439941406,
+		"z" : 1.204187035560608,
+	},
+	"hidden" : 0,
+},
+
+"objectblock " :  {
+
+	"name" : "Template 1",
+	"identifier" : "obj4#2",
+
+	"componentsub-block " :  {
+
+		"component type" : "Model",
+		"number" : 101,
+
+		"3D modelsub-sub-block " :  {
+
+			"name" : "carpet1",
+			"u0" : 0.0,
+			"u1" : 0.20000000298023224,
+			"u2" : 0.0,
+
+			"u3sub-sub-sub-block " :  {
+
+				"w" : 0.0,
+				"x" : 0.0,
+				"y" : 0.0,
+				"z" : 1.0,
+			},
+
+			"u4sub-sub-sub-block " :  {
+
+				"x" : 0.0,
+				"y" : 0.0,
+				"z" : 0.0,
+			},
+			"u5" : 0,
+
+			"u6sub-sub-sub-block " :  {
+
+				"w" : 1.0,
+				"x" : 1.0,
+				"y" : 1.0,
+				"z" : 1.0,
+			},
+		},
+	},
+
+	"positionsub-block " :  {
+
+		"x position" : -130.9635772705078,
+		"y position" : 118.07052612304688,
+	},
+	"z position" : 0.0,
+	"rotation" : 0.0,
+	"scale" : 1.0,
+
+	"u2sub-block " :  {
+
+		"w" : -128.824951171875,
+		"x" : 0.0,
+		"y" : 258.7838439941406,
+		"z" : 1.204187035560608,
+	},
+	"hidden" : 0,
+},
+
+"objectblock " :  {
+
+	"name" : "Template 1",
+	"identifier" : "obj4#3",
+
+	"componentsub-block " :  {
+
+		"component type" : "Model",
+		"number" : 101,
+
+		"3D modelsub-sub-block " :  {
+
+			"name" : "carpet1",
+			"u0" : 0.0,
+			"u1" : 0.20000000298023224,
+			"u2" : 0.0,
+
+			"u3sub-sub-sub-block " :  {
+
+				"w" : 0.0,
+				"x" : 0.0,
+				"y" : 0.0,
+				"z" : 1.0,
+			},
+
+			"u4sub-sub-sub-block " :  {
+
+				"x" : 0.0,
+				"y" : 0.0,
+				"z" : 0.0,
+			},
+			"u5" : 0,
+
+			"u6sub-sub-sub-block " :  {
+
+				"w" : 1.0,
+				"x" : 1.0,
+				"y" : 1.0,
+				"z" : 1.0,
+			},
+		},
+	},
+
+	"positionsub-block " :  {
+
+		"x position" : 729.5538330078125,
+		"y position" : 362.29046630859375,
+	},
+	"z position" : 0.0,
+	"rotation" : -0.015501633286476135,
+	"scale" : 1.0,
+
+	"u2sub-block " :  {
+
+		"w" : -128.824951171875,
+		"x" : 0.0,
+		"y" : 258.7838439941406,
+		"z" : 1.204187035560608,
+	},
+	"hidden" : 0,
+},
+
+"objectblock " :  {
+
+	"identifier" : "obj5",
+
+	"componentsub-block " :  {
+
+		"component type" : "GroundPolygon",
+		"number" : 100,
+
+		"ground polygonsub-sub-block " :  {
+
+
+			"sub-sub-sub-block " :  {
+
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"x" : -127.03076934814453,
+					"y" : -122.57291412353516,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"x" : -87.94556427001953,
+					"y" : -124.31664276123047,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"x" : 126.54857635498047,
+					"y" : 98.77555847167969,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"x" : 127.21094512939453,
+					"y" : 124.1680679321289,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"x" : 110.75096893310547,
+					"y" : 124.31664276123047,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"x" : 111.34673309326172,
+					"y" : 108.69922637939453,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"x" : 94.88671112060547,
+					"y" : 108.8478012084961,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"x" : 95.48250579833984,
+					"y" : 93.23038482666016,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"x" : 79.02245330810547,
+					"y" : 93.37895965576172,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"x" : 79.61829376220703,
+					"y" : 77.76154327392578,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"x" : 63.15868377685547,
+					"y" : 77.91011810302734,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"x" : 63.75407028198242,
+					"y" : 62.292701721191406,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"x" : 47.29442596435547,
+					"y" : 62.44127655029297,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"x" : 47.88985061645508,
+					"y" : 46.82386016845703,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"x" : 31.43016815185547,
+					"y" : 46.972434997558594,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"x" : 32.025630950927734,
+					"y" : 31.355018615722656,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"x" : 15.566520690917969,
+					"y" : 31.50359344482422,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"x" : 16.16141128540039,
+					"y" : 15.886177062988281,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"x" : -0.29724884033203125,
+					"y" : 16.034751892089844,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"x" : 0.2971916198730469,
+					"y" : 0.41733551025390625,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"x" : -16.16138458251953,
+					"y" : 0.5659103393554688,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"x" : -15.567028045654297,
+					"y" : -15.051506042480469,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"x" : -32.02564239501953,
+					"y" : -14.902931213378906,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"x" : -31.43124771118164,
+					"y" : -30.520347595214844,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"x" : -47.88990020751953,
+					"y" : -30.37177276611328,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"x" : -47.295467376708984,
+					"y" : -45.98918914794922,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"x" : -63.75403594970703,
+					"y" : -45.840614318847656,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"x" : -63.159690856933594,
+					"y" : -61.458030700683594,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"x" : -79.61829376220703,
+					"y" : -61.30945587158203,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"x" : -79.0239028930664,
+					"y" : -76.92687225341797,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"x" : -95.48255157470703,
+					"y" : -76.7782974243164,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"x" : -94.88813018798828,
+					"y" : -92.39571380615234,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"x" : -111.34668731689453,
+					"y" : -92.24713897705078,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"x" : -110.7523422241211,
+					"y" : -107.86455535888672,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"x" : -127.21094512939453,
+					"y" : -107.71598052978516,
+				},
+				"u0" : 0,
+				"u1" : 1,
+			},
+			"u1" : 0,
+			"u2" : -55.0,
+			"u3" : 55.0,
+			"u4" : "",
+		},
+	},
+
+	"componentsub-block " :  {
+
+		"component type" : "GroundMesh",
+		"number" : 101,
+
+		"ground meshsub-sub-block " :  {
+
+
+			"u0sub-sub-sub-block " :  {
+
+				"w" : -137.2109375,
+				"x" : -134.316650390625,
+				"y" : 274.421875,
+				"z" : 268.63330078125,
+			},
+
+			"u1sub-sub-sub-block " :  {
+
+				"u0" : 30,
+				"u1" : 20,
+
+				"u2sub-sub-sub-sub-block " :  {
+
+					"u0" : 4,
+					"u1" : 1,
+					"u2" : 2,
+					"u3" : 0,
+				},
+
+				"u3sub-sub-sub-sub-block " :  {
+
+					"u0" : 7,
+					"u1" : 3,
+					"u2" : 32,
+					"u3" : 0,
+				},
+
+				"u4sub-sub-sub-sub-block " :  {
+
+					"u0" : 7,
+					"u1" : 3,
+					"u2" : 32,
+					"u3" : 12,
+				},
+
+				"u5sub-sub-sub-sub-block " :  {
+
+					"u0" : 7,
+					"u1" : 2,
+					"u2" : 32,
+					"u3" : 24,
+				},
+
+				"u6sub-sub-sub-sub-block " :  {
+
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 1.0,
+						"x" : 1.0,
+						"y" : 1.0,
+						"z" : 1.0,
+					},
+
+					"u1sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 1.0,
+						"x" : 1.0,
+						"y" : 1.0,
+						"z" : 1.0,
+					},
+
+					"u2sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 1.0,
+						"x" : 1.0,
+						"y" : 1.0,
+						"z" : 1.0,
+					},
+					"u3" : 0.0,
+					"u4" : "\\n\\x0fwoodkeep_ground\\x10\\x01 \\x02",
+				},
+
+				"u7sub-sub-sub-sub-block " :  {
+
+					"u" : 91.88683319091797,
+					"v" : 83.69922637939453,
+					"w" : -60.0,
+					"x" : 38.32398223876953,
+					"y" : 40.644493103027344,
+					"z" : 120.0,
+				},
+				"u8" : "\\xf85\\x02C0H\\xf8B\\x00\\x00\\\\\\xc2\\r\\xe2\\x13<U\\xfd\\x7f?\\x00\\x00\\x00\\x00\\x00\\x00\\x00?)\\\\\\x8f>\\xf85\\x02C0H\\xf8B\\x00\\x00\\\\B\\r\\xe2\\x13<U\\xfd\\x7f?\\x00\\x00\\x00\\x00\\x00\\x00\\x00?\\xecQ8?\\xf85\\x02C0H\\xe4B\\x00\\x00pB\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\xff\\xff\\x7f?\\x1f\\x85\\xeb>\\xa4p=?\\xf85\\x02C0H\\xc6Bff\\\\B\\r\\xe2\\x13\\xbcU\\xfd\\x7f\\xbf\\x00\\x00\\x00\\x80\\xcd\\xcc\\xcc>\"l8?\\xf85\\x02C0H\\xc6B\\x9a\\x99[\\xc2\\r\\xe2\\x13\\xbcU\\xfd\\x7f\\xbf\\x00\\x00\\x00\\x80\\xcd\\xcc\\xcc>\\x97\\x90\\x8f>\\xf85\\x02C0H\\xe4B\\x00\\x00p\\xc2\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\xff\\xff\\x7f?\\x1f\\x85\\xeb>\\xb8\\x1e\\x85>\\xf85\\x02C0H\\xf8B\\x00\\x00\\\\\\xc2\\r\\xe2\\x13<U\\xfd\\x7f?\\x00\\x00\\x00\\x00\\x00\\x00\\x00?)\\\\\\x8f>\\xf85\\x02C0H\\xf8B\\x00\\x00\\\\B\\r\\xe2\\x13<U\\xfd\\x7f?\\x00\\x00\\x00\\x00\\x00\\x00\\x00?\\xecQ8?\\xf85\\x02C0H\\xe4B\\x00\\x00pB\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\xff\\xff\\x7f?\\x00\\x00\\x00?\\xc8\\xc4C?\\xf85\\x02C0H\\xc6Bff\\\\B\\r\\xe2\\x13\\xbcU\\xfd\\x7f\\xbf\\x00\\x00\\x00\\x80\\x00\\x00\\x00?m\\xedS?\\x8f\\x80\\xd7B\\xfc\\xaf\\xf8B\\x00\\x00\\\\\\xc2\\r\\xe2\\x13<U\\xfd\\x7f?\\x00\\x00\\x00\\x00\\x0f\\xdb\\x10?)\\\\\\x8f>\\x8f\\x80\\xd7B\\xfc\\xaf\\xf8B\\x00\\x00\\\\B\\r\\xe2\\x13<U\\xfd\\x7f?\\x00\\x00\\x00\\x00\\x0f\\xdb\\x10?\\xecQ8?\\x8f\\x80\\xd7B\\xfc\\xaf\\xe4B\\x00\\x00pB\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\xff\\xff\\x7f?\\x0f\\xdb\\x10?\\xc8\\xc4C?\\x8f\\x80\\xd7B\\xfc\\xaf\\xc6Bff\\\\B\\r\\xe2\\x13\\xbcU\\xfd\\x7f\\xbf\\x00\\x00\\x00\\x80\\x0f\\xdb\\x10?m\\xedS?\\x8f\\x80\\xd7B\\xfc\\xaf\\xf8B\\x00\\x00\\\\\\xc2\\r\\xe2\\x13<U\\xfd\\x7f?\\x00\\x00\\x00\\x00\\x0f\\xdb\\x10?)\\\\\\x8f>\\x8f\\x80\\xd7B\\xfc\\xaf\\xf8B\\x00\\x00\\\\B\\r\\xe2\\x13<U\\xfd\\x7f?\\x00\\x00\\x00\\x00\\x0f\\xdb\\x10?\\xecQ8?\\x8f\\x80\\xd7B\\xfc\\xaf\\xe4B\\x00\\x00pB\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\xff\\xff\\x7f?\\x80\\x18\\x1b?\\xa4p=?\\x8f\\x80\\xd7B\\xfc\\xaf\\xc6Bff\\\\B\\r\\xe2\\x13\\xbcU\\xfd\\x7f\\xbf\\x00\\x00\\x00\\x80\\xa9t*?\"l8?\\x8f\\x80\\xd7B\\xfc\\xaf\\xc6B\\x9a\\x99[\\xc2\\r\\xe2\\x13\\xbcU\\xfd\\x7f\\xbf\\x00\\x00\\x00\\x80\\xa9t*?\\x97\\x90\\x8f>\\x8f\\x80\\xd7B\\xfc\\xaf\\xe4B\\x00\\x00p\\xc2\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\xff\\xff\\x7f?\\x80\\x18\\x1b?\\xb8\\x1e\\x85>\\x87\\xb1\\xdeB\\x01f\\xd9B\\x00\\x00\\\\\\xc2\\xf2\\xe1\\x13<T\\xfd\\x7f?\\x00\\x00\\x00\\x00\\x0f\\xdb\\x10?)\\\\\\x8f>\\x87\\xb1\\xdeB\\x01f\\xd9B\\x00\\x00\\\\B\\xf2\\xe1\\x13<T\\xfd\\x7f?\\x00\\x00\\x00\\x00\\x0f\\xdb\\x10?\\xecQ8?\\x87\\xb1\\xdeB\\x01f\\xc5B\\x00\\x00pB\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\x9f\\x9d\\x06?\\xa4p=?\\x87\\xb1\\xdeB\\x01f\\xa7Bff\\\\B\\xf2\\xe1\\x13\\xbcT\\xfd\\x7f\\xbf\\x00\\x00\\x00\\x80\\xeb\\x82\\xee>\"l8?\\x87\\xb1\\xdeB\\x01f\\xa7B\\x9a\\x99[\\xc2\\xf2\\xe1\\x13\\xbcT\\xfd\\x7f\\xbf\\x00\\x00\\x00\\x80\\xeb\\x82\\xee>\\x97\\x90\\x8f>\\x87\\xb1\\xdeB\\x01f\\xc5B\\x00\\x00p\\xc2\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\x9f\\x9d\\x06?\\xb8\\x1e\\x85>\\x87\\xb1\\xdeB\\x01f\\xd9B\\x00\\x00\\\\\\xc2\\xf2\\xe1\\x13<T\\xfd\\x7f?\\x00\\x00\\x00\\x00\\x0f\\xdb\\x10?)\\\\\\x8f>\\x87\\xb1\\xdeB\\x01f\\xd9B\\x00\\x00\\\\B\\xf2\\xe1\\x13<T\\xfd\\x7f?\\x00\\x00\\x00\\x00\\x0f\\xdb\\x10?\\xecQ8?\\x0f\\xc6\\xb7B\\xf0\\xbf\\xd9B\\x00\\x00\\\\\\xc2\\xf2\\xe1\\x13<T\\xfd\\x7f?\\x00\\x00\\x00\\x00\"\\xb6!?)\\\\\\x8f>\\x0f\\xc6\\xb7B\\xf0\\xbf\\xd9B\\x00\\x00\\\\B\\xf2\\xe1\\x13<T\\xfd\\x7f?\\x00\\x00\\x00\\x00\"\\xb6!?\\xecQ8?",
+				"u9" : "\\x00\\x00\\x04\\x00\\x05\\x00\\x00\\x00\\x03\\x00\\x04\\x00\\x00\\x00\\x01\\x00\\x03\\x00\\x01\\x00\\x02\\x00\\x03\\x00\\x06\\x00\\n\\x00\\x0b\\x00\\x07\\x00\\x06\\x00\\x0b\\x00\\x07\\x00\\x0b\\x00\\x0c\\x00\\x08\\x00\\x07\\x00\\x0c\\x00\\x08\\x00\\x0c\\x00\\r\\x00\\t\\x00\\x08\\x00\\r\\x00\\x0e\\x00\\x13\\x00\\x12\\x00\\x0e\\x00\\x12\\x00\\x11\\x00\\x0e\\x00\\x11\\x00\\x0f\\x00\\x11\\x00\\x10\\x00\\x0f\\x00\\x14\\x00\\x18\\x00\\x19\\x00\\x14\\x00\\x17\\x00\\x18\\x00\\x14\\x00\\x15\\x00\\x17\\x00\\x15\\x00\\x16\\x00\\x17\\x00\\x1a\\x00\\x1c\\x00\\x1d\\x00\\x1b\\x00\\x1a\\x00\\x1d\\x00",
+			},
+
+			"u1sub-sub-sub-block " :  {
+
+				"u0" : 30,
+				"u1" : 20,
+
+				"u2sub-sub-sub-sub-block " :  {
+
+					"u0" : 4,
+					"u1" : 1,
+					"u2" : 2,
+					"u3" : 0,
+				},
+
+				"u3sub-sub-sub-sub-block " :  {
+
+					"u0" : 7,
+					"u1" : 3,
+					"u2" : 32,
+					"u3" : 0,
+				},
+
+				"u4sub-sub-sub-sub-block " :  {
+
+					"u0" : 7,
+					"u1" : 3,
+					"u2" : 32,
+					"u3" : 12,
+				},
+
+				"u5sub-sub-sub-sub-block " :  {
+
+					"u0" : 7,
+					"u1" : 2,
+					"u2" : 32,
+					"u3" : 24,
+				},
+
+				"u6sub-sub-sub-sub-block " :  {
+
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 1.0,
+						"x" : 1.0,
+						"y" : 1.0,
+						"z" : 1.0,
+					},
+
+					"u1sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 1.0,
+						"x" : 1.0,
+						"y" : 1.0,
+						"z" : 1.0,
+					},
+
+					"u2sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 1.0,
+						"x" : 1.0,
+						"y" : 1.0,
+						"z" : 1.0,
+					},
+					"u3" : 0.0,
+					"u4" : "\\n\\x0fwoodkeep_ground\\x10\\x01 \\x02",
+				},
+
+				"u7sub-sub-sub-sub-block " :  {
+
+					"u" : 76.02257537841797,
+					"v" : 68.23038482666016,
+					"w" : -60.0,
+					"x" : 35.32415771484375,
+					"y" : 40.644493103027344,
+					"z" : 120.0,
+				},
+				"u8" : "\\x87\\xb1\\xdeB\\x01f\\xd9B\\x00\\x00\\\\B\\xf2\\xe1\\x13<T\\xfd\\x7f?\\x00\\x00\\x00\\x00\\x0f\\xdb\\x10?\\xecQ8?\\x87\\xb1\\xdeB\\x01f\\xc5B\\x00\\x00pB\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\x0f\\xdb\\x10?\\xc8\\xc4C?\\x87\\xb1\\xdeB\\x01f\\xa7Bff\\\\B\\xf2\\xe1\\x13\\xbcT\\xfd\\x7f\\xbf\\x00\\x00\\x00\\x80\\x0f\\xdb\\x10?m\\xedS?\\x0f\\xc6\\xb7B\\xf0\\xbf\\xd9B\\x00\\x00\\\\B\\xf2\\xe1\\x13<T\\xfd\\x7f?\\x00\\x00\\x00\\x00\"\\xb6!?\\xecQ8?\\x0f\\xc6\\xb7B\\xf0\\xbf\\xc5B\\x00\\x00pB\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\"\\xb6!?\\xc8\\xc4C?\\x0f\\xc6\\xb7B\\xf0\\xbf\\xa7Bff\\\\B\\xf2\\xe1\\x13\\xbcT\\xfd\\x7f\\xbf\\x00\\x00\\x00\\x80\"\\xb6!?m\\xedS?\\x0f\\xc6\\xb7B\\xf0\\xbf\\xd9B\\x00\\x00\\\\\\xc2\\xf2\\xe1\\x13<T\\xfd\\x7f?\\x00\\x00\\x00\\x00\"\\xb6!?)\\\\\\x8f>\\x0f\\xc6\\xb7B\\xf0\\xbf\\xd9B\\x00\\x00\\\\B\\xf2\\xe1\\x13<T\\xfd\\x7f?\\x00\\x00\\x00\\x00\"\\xb6!?\\xecQ8?\\x0f\\xc6\\xb7B\\xf0\\xbf\\xc5B\\x00\\x00pB\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\x92\\xf3+?\\xa4p=?\\x0f\\xc6\\xb7B\\xf0\\xbf\\xa7Bff\\\\B\\xf2\\xe1\\x13\\xbcT\\xfd\\x7f\\xbf\\x00\\x00\\x00\\x80\\xbbO;?\"l8?\\x0f\\xc6\\xb7B\\xf0\\xbf\\xa7B\\x9a\\x99[\\xc2\\xf2\\xe1\\x13\\xbcT\\xfd\\x7f\\xbf\\x00\\x00\\x00\\x80\\xbbO;?\\x97\\x90\\x8f>\\x0f\\xc6\\xb7B\\xf0\\xbf\\xc5B\\x00\\x00p\\xc2\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\x92\\xf3+?\\xb8\\x1e\\x85>\\x0b\\xf7\\xbeB\\xf5u\\xbaB\\x00\\x00\\\\\\xc2\\xe0\\xe1\\x13<T\\xfd\\x7f?\\x00\\x00\\x00\\x00\"\\xb6!?)\\\\\\x8f>\\x0b\\xf7\\xbeB\\xf5u\\xbaB\\x00\\x00\\\\B\\xe0\\xe1\\x13<T\\xfd\\x7f?\\x00\\x00\\x00\\x00\"\\xb6!?\\xecQ8?\\x0b\\xf7\\xbeB\\xf5u\\xa6B\\x00\\x00pB\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xb1x\\x17?\\xa4p=?\\x0b\\xf7\\xbeB\\xf5u\\x88Bff\\\\B\\xe0\\xe1\\x13\\xbcT\\xfd\\x7f\\xbf\\x00\\x00\\x00\\x80\\x88\\x1c\\x08?\"l8?\\x0b\\xf7\\xbeB\\xf5u\\x88B\\x9a\\x99[\\xc2\\xe0\\xe1\\x13\\xbcT\\xfd\\x7f\\xbf\\x00\\x00\\x00\\x80\\x88\\x1c\\x08?\\x97\\x90\\x8f>\\x0b\\xf7\\xbeB\\xf5u\\xa6B\\x00\\x00p\\xc2\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xb1x\\x17?\\xb8\\x1e\\x85>\\x0b\\xf7\\xbeB\\xf5u\\xbaB\\x00\\x00\\\\\\xc2\\xe0\\xe1\\x13<T\\xfd\\x7f?\\x00\\x00\\x00\\x00\"\\xb6!?)\\\\\\x8f>\\x0b\\xf7\\xbeB\\xf5u\\xbaB\\x00\\x00\\\\B\\xe0\\xe1\\x13<T\\xfd\\x7f?\\x00\\x00\\x00\\x00\"\\xb6!?\\xecQ8?\\x0b\\xf7\\xbeB\\xf5u\\xa6B\\x00\\x00pB\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\"\\xb6!?\\xc8\\xc4C?\\x0b\\xf7\\xbeB\\xf5u\\x88Bff\\\\B\\xe0\\xe1\\x13\\xbcT\\xfd\\x7f\\xbf\\x00\\x00\\x00\\x80\"\\xb6!?m\\xedS?\\x8f\\x0b\\x98B\\xe4\\xcf\\xbaB\\x00\\x00\\\\\\xc2\\xe0\\xe1\\x13<T\\xfd\\x7f?\\x00\\x00\\x00\\x006\\x912?)\\\\\\x8f>\\x8f\\x0b\\x98B\\xe4\\xcf\\xbaB\\x00\\x00\\\\B\\xe0\\xe1\\x13<T\\xfd\\x7f?\\x00\\x00\\x00\\x006\\x912?\\xecQ8?\\x8f\\x0b\\x98B\\xe4\\xcf\\xa6B\\x00\\x00pB\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?6\\x912?\\xc8\\xc4C?\\x8f\\x0b\\x98B\\xe4\\xcf\\x88Bff\\\\B\\xe0\\xe1\\x13\\xbcT\\xfd\\x7f\\xbf\\x00\\x00\\x00\\x806\\x912?m\\xedS?\\x8f\\x0b\\x98B\\xe4\\xcf\\xbaB\\x00\\x00\\\\\\xc2\\xe0\\xe1\\x13<T\\xfd\\x7f?\\x00\\x00\\x00\\x006\\x912?)\\\\\\x8f>\\x8f\\x0b\\x98B\\xe4\\xcf\\x88Bff\\\\B\\xe0\\xe1\\x13\\xbcT\\xfd\\x7f\\xbf\\x00\\x00\\x00\\x80\\xd0*L?\"l8?\\x8f\\x0b\\x98B\\xe4\\xcf\\x88B\\x9a\\x99[\\xc2\\xe0\\xe1\\x13\\xbcT\\xfd\\x7f\\xbf\\x00\\x00\\x00\\x80\\xd0*L?\\x97\\x90\\x8f>\\x8f\\x0b\\x98B\\xe4\\xcf\\xa6B\\x00\\x00p\\xc2\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xa7\\xce<?\\xb8\\x1e\\x85>",
+				"u9" : "\\x00\\x00\\x03\\x00\\x04\\x00\\x01\\x00\\x00\\x00\\x04\\x00\\x01\\x00\\x04\\x00\\x05\\x00\\x02\\x00\\x01\\x00\\x05\\x00\\x06\\x00\\x0b\\x00\\n\\x00\\x06\\x00\\n\\x00\\t\\x00\\x06\\x00\\t\\x00\\x07\\x00\\t\\x00\\x08\\x00\\x07\\x00\\x0c\\x00\\x10\\x00\\x11\\x00\\x0c\\x00\\x0f\\x00\\x10\\x00\\x0c\\x00\\r\\x00\\x0f\\x00\\r\\x00\\x0e\\x00\\x0f\\x00\\x12\\x00\\x16\\x00\\x17\\x00\\x13\\x00\\x12\\x00\\x17\\x00\\x13\\x00\\x17\\x00\\x18\\x00\\x14\\x00\\x13\\x00\\x18\\x00\\x14\\x00\\x18\\x00\\x19\\x00\\x15\\x00\\x14\\x00\\x19\\x00\\x1a\\x00\\x1d\\x00\\x1c\\x00\\x1a\\x00\\x1c\\x00\\x1b\\x00",
+			},
+
+			"u1sub-sub-sub-block " :  {
+
+				"u0" : 30,
+				"u1" : 20,
+
+				"u2sub-sub-sub-sub-block " :  {
+
+					"u0" : 4,
+					"u1" : 1,
+					"u2" : 2,
+					"u3" : 0,
+				},
+
+				"u3sub-sub-sub-sub-block " :  {
+
+					"u0" : 7,
+					"u1" : 3,
+					"u2" : 32,
+					"u3" : 0,
+				},
+
+				"u4sub-sub-sub-sub-block " :  {
+
+					"u0" : 7,
+					"u1" : 3,
+					"u2" : 32,
+					"u3" : 12,
+				},
+
+				"u5sub-sub-sub-sub-block " :  {
+
+					"u0" : 7,
+					"u1" : 2,
+					"u2" : 32,
+					"u3" : 24,
+				},
+
+				"u6sub-sub-sub-sub-block " :  {
+
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 1.0,
+						"x" : 1.0,
+						"y" : 1.0,
+						"z" : 1.0,
+					},
+
+					"u1sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 1.0,
+						"x" : 1.0,
+						"y" : 1.0,
+						"z" : 1.0,
+					},
+
+					"u2sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 1.0,
+						"x" : 1.0,
+						"y" : 1.0,
+						"z" : 1.0,
+					},
+					"u3" : 0.0,
+					"u4" : "\\n\\x0fwoodkeep_ground\\x10\\x01 \\x02",
+				},
+
+				"u7sub-sub-sub-sub-block " :  {
+
+					"u" : 60.15880584716797,
+					"v" : 37.292701721191406,
+					"w" : -60.0,
+					"x" : 19.459487915039062,
+					"y" : 56.11333465576172,
+					"z" : 120.0,
+				},
+				"u8" : "\\x8f\\x0b\\x98B\\xe4\\xcf\\xbaB\\x00\\x00\\\\\\xc2\\xe0\\xe1\\x13<T\\xfd\\x7f?\\x00\\x00\\x00\\x006\\x912?)\\\\\\x8f>\\x8f\\x0b\\x98B\\xe4\\xcf\\xbaB\\x00\\x00\\\\B\\xe0\\xe1\\x13<T\\xfd\\x7f?\\x00\\x00\\x00\\x006\\x912?\\xecQ8?\\x8f\\x0b\\x98B\\xe4\\xcf\\xa6B\\x00\\x00pB\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xa7\\xce<?\\xa4p=?\\x8f\\x0b\\x98B\\xe4\\xcf\\x88Bff\\\\B\\xe0\\xe1\\x13\\xbcT\\xfd\\x7f\\xbf\\x00\\x00\\x00\\x80\\xd0*L?\"l8?\\x91<\\x9fB\\xe9\\x85\\x9bB\\x00\\x00\\\\\\xc2\\xe5\\xe2\\x13<V\\xfd\\x7f?\\x00\\x00\\x00\\x006\\x912?)\\\\\\x8f>\\x91<\\x9fB\\xe9\\x85\\x9bB\\x00\\x00\\\\B\\xe5\\xe2\\x13<V\\xfd\\x7f?\\x00\\x00\\x00\\x006\\x912?\\xecQ8?\\x91<\\x9fB\\xe9\\x85\\x87B\\x00\\x00pB\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xc6S(?\\xa4p=?\\x91<\\x9fB\\xd2\\x0bSBff\\\\B\\xe5\\xe2\\x13\\xbcV\\xfd\\x7f\\xbf\\x00\\x00\\x00\\x80\\x9d\\xf7\\x18?\"l8?\\x91<\\x9fB\\xd2\\x0bSB\\x9a\\x99[\\xc2\\xe5\\xe2\\x13\\xbcV\\xfd\\x7f\\xbf\\x00\\x00\\x00\\x80\\x9d\\xf7\\x18?\\x97\\x90\\x8f>\\x91<\\x9fB\\xe9\\x85\\x87B\\x00\\x00p\\xc2\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xc6S(?\\xb8\\x1e\\x85>\\x91<\\x9fB\\xe9\\x85\\x9bB\\x00\\x00\\\\\\xc2\\xe5\\xe2\\x13<V\\xfd\\x7f?\\x00\\x00\\x00\\x006\\x912?)\\\\\\x8f>\\x91<\\x9fB\\xe9\\x85\\x9bB\\x00\\x00\\\\B\\xe5\\xe2\\x13<V\\xfd\\x7f?\\x00\\x00\\x00\\x006\\x912?\\xecQ8?\\x91<\\x9fB\\xe9\\x85\\x87B\\x00\\x00pB\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?6\\x912?\\xc8\\xc4C?\\x91<\\x9fB\\xd2\\x0bSBff\\\\B\\xe5\\xe2\\x13\\xbcV\\xfd\\x7f\\xbf\\x00\\x00\\x00\\x806\\x912?m\\xedS?\\x9e\\xa2pB\\xd8\\xdf\\x9bB\\x00\\x00\\\\\\xc2\\xe5\\xe2\\x13<V\\xfd\\x7f?\\x00\\x00\\x00\\x00-lC?)\\\\\\x8f>\\x9e\\xa2pB\\xd8\\xdf\\x9bB\\x00\\x00\\\\B\\xe5\\xe2\\x13<V\\xfd\\x7f?\\x00\\x00\\x00\\x00-lC?\\xecQ8?\\x9e\\xa2pB\\xd8\\xdf\\x87B\\x00\\x00pB\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?-lC?\\xc8\\xc4C?\\x9e\\xa2pB\\xb0\\xbfSBff\\\\B\\xe5\\xe2\\x13\\xbcV\\xfd\\x7f\\xbf\\x00\\x00\\x00\\x80-lC?m\\xedS?\\x9e\\xa2pB\\xd8\\xdf\\x9bB\\x00\\x00\\\\\\xc2\\xe5\\xe2\\x13<V\\xfd\\x7f?\\x00\\x00\\x00\\x00-lC?)\\\\\\x8f>\\x9e\\xa2pB\\xd8\\xdf\\x9bB\\x00\\x00\\\\B\\xe5\\xe2\\x13<V\\xfd\\x7f?\\x00\\x00\\x00\\x00-lC?\\xecQ8?\\x9e\\xa2pB\\xd8\\xdf\\x87B\\x00\\x00pB\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\x9e\\xa9M?\\xa4p=?\\x9e\\xa2pB\\xb0\\xbfSBff\\\\B\\xe5\\xe2\\x13\\xbcV\\xfd\\x7f\\xbf\\x00\\x00\\x00\\x80\\xc7\\x05]?\"l8?\\x9e\\xa2pB\\xb0\\xbfSB\\x9a\\x99[\\xc2\\xe5\\xe2\\x13\\xbcV\\xfd\\x7f\\xbf\\x00\\x00\\x00\\x80\\xc7\\x05]?\\x97\\x90\\x8f>\\x9e\\xa2pB\\xd8\\xdf\\x87B\\x00\\x00p\\xc2\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\x9e\\xa9M?\\xb8\\x1e\\x85>+\\x04\\x7fB\\xba+yB\\x00\\x00\\\\\\xc2\\xd1\\xe2\\x13<V\\xfd\\x7f?\\x00\\x00\\x00\\x00-lC?)\\\\\\x8f>+\\x04\\x7fB\\xba+yB\\x00\\x00\\\\B\\xd1\\xe2\\x13<V\\xfd\\x7f?\\x00\\x00\\x00\\x00-lC?\\xecQ8?+\\x04\\x7fB\\xba+QB\\x00\\x00pB\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xbc.9?\\xa4p=?+\\x04\\x7fB\\xba+\\x15Bff\\\\B\\xd1\\xe2\\x13\\xbcV\\xfd\\x7f\\xbf\\x00\\x00\\x00\\x80\\x93\\xd2)?\"l8?+\\x04\\x7fB\\xba+\\x15B\\x9a\\x99[\\xc2\\xd1\\xe2\\x13\\xbcV\\xfd\\x7f\\xbf\\x00\\x00\\x00\\x80\\x93\\xd2)?\\x97\\x90\\x8f>+\\x04\\x7fB\\xba+QB\\x00\\x00p\\xc2\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xbc.9?\\xb8\\x1e\\x85>",
+				"u9" : "\\x00\\x00\\x03\\x00\\x01\\x00\\x03\\x00\\x02\\x00\\x01\\x00\\x04\\x00\\x08\\x00\\t\\x00\\x04\\x00\\x07\\x00\\x08\\x00\\x04\\x00\\x05\\x00\\x07\\x00\\x05\\x00\\x06\\x00\\x07\\x00\\n\\x00\\x0e\\x00\\x0f\\x00\\x0b\\x00\\n\\x00\\x0f\\x00\\x0b\\x00\\x0f\\x00\\x10\\x00\\x0c\\x00\\x0b\\x00\\x10\\x00\\x0c\\x00\\x10\\x00\\x11\\x00\\r\\x00\\x0c\\x00\\x11\\x00\\x12\\x00\\x17\\x00\\x16\\x00\\x12\\x00\\x16\\x00\\x15\\x00\\x12\\x00\\x15\\x00\\x13\\x00\\x15\\x00\\x14\\x00\\x13\\x00\\x18\\x00\\x1c\\x00\\x1d\\x00\\x18\\x00\\x1b\\x00\\x1c\\x00\\x18\\x00\\x19\\x00\\x1b\\x00\\x19\\x00\\x1a\\x00\\x1b\\x00",
+			},
+
+			"u1sub-sub-sub-block " :  {
+
+				"u0" : 28,
+				"u1" : 20,
+
+				"u2sub-sub-sub-sub-block " :  {
+
+					"u0" : 4,
+					"u1" : 1,
+					"u2" : 2,
+					"u3" : 0,
+				},
+
+				"u3sub-sub-sub-sub-block " :  {
+
+					"u0" : 7,
+					"u1" : 3,
+					"u2" : 32,
+					"u3" : 0,
+				},
+
+				"u4sub-sub-sub-sub-block " :  {
+
+					"u0" : 7,
+					"u1" : 3,
+					"u2" : 32,
+					"u3" : 12,
+				},
+
+				"u5sub-sub-sub-sub-block " :  {
+
+					"u0" : 7,
+					"u1" : 2,
+					"u2" : 32,
+					"u3" : 24,
+				},
+
+				"u6sub-sub-sub-sub-block " :  {
+
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 1.0,
+						"x" : 1.0,
+						"y" : 1.0,
+						"z" : 1.0,
+					},
+
+					"u1sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 1.0,
+						"x" : 1.0,
+						"y" : 1.0,
+						"z" : 1.0,
+					},
+
+					"u2sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 1.0,
+						"x" : 1.0,
+						"y" : 1.0,
+						"z" : 1.0,
+					},
+					"u3" : 0.0,
+					"u4" : "\\n\\x0fwoodkeep_ground\\x10\\x01 \\x02",
+				},
+
+				"u7sub-sub-sub-sub-block " :  {
+
+					"u" : 28.43029022216797,
+					"v" : 21.82386016845703,
+					"w" : -60.0,
+					"x" : 35.32378005981445,
+					"y" : 40.64449691772461,
+					"z" : 120.0,
+				},
+				"u8" : "+\\x04\\x7fB\\xba+yB\\x00\\x00\\\\\\xc2\\xd1\\xe2\\x13<V\\xfd\\x7f?\\x00\\x00\\x00\\x00-lC?)\\\\\\x8f>+\\x04\\x7fB\\xba+yB\\x00\\x00\\\\B\\xd1\\xe2\\x13<V\\xfd\\x7f?\\x00\\x00\\x00\\x00-lC?\\xecQ8?+\\x04\\x7fB\\xba+QB\\x00\\x00pB\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?-lC?\\xc8\\xc4C?+\\x04\\x7fB\\xba+\\x15Bff\\\\B\\xd1\\xe2\\x13\\xbcV\\xfd\\x7f\\xbf\\x00\\x00\\x00\\x80-lC?m\\xedS?\\x9e-1B\\x99\\xdfyB\\x00\\x00\\\\\\xc2\\xd1\\xe2\\x13<V\\xfd\\x7f?\\x00\\x00\\x00\\x00&GT?)\\\\\\x8f>\\x9e-1B\\x99\\xdfyB\\x00\\x00\\\\B\\xd1\\xe2\\x13<V\\xfd\\x7f?\\x00\\x00\\x00\\x00&GT?\\xecQ8?\\x9e-1B\\x99\\xdfQB\\x00\\x00pB\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?&GT?\\xc8\\xc4C?\\x9e-1B\\x99\\xdf\\x15Bff\\\\B\\xd1\\xe2\\x13\\xbcV\\xfd\\x7f\\xbf\\x00\\x00\\x00\\x80&GT?m\\xedS?\\x9e-1B\\x99\\xdfyB\\x00\\x00\\\\\\xc2\\xd1\\xe2\\x13<V\\xfd\\x7f?\\x00\\x00\\x00\\x00&GT?)\\\\\\x8f>\\x9e-1B\\x99\\xdfyB\\x00\\x00\\\\B\\xd1\\xe2\\x13<V\\xfd\\x7f?\\x00\\x00\\x00\\x00&GT?\\xecQ8?\\x9e-1B\\x99\\xdfQB\\x00\\x00pB\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\x97\\x84^?\\xa4p=?\\x9e-1B\\x99\\xdf\\x15Bff\\\\B\\xd1\\xe2\\x13\\xbcV\\xfd\\x7f\\xbf\\x00\\x00\\x00\\x80\\xbf\\xe0m?\"l8?\\x9e-1B\\x99\\xdf\\x15B\\x9a\\x99[\\xc2\\xd1\\xe2\\x13\\xbcV\\xfd\\x7f\\xbf\\x00\\x00\\x00\\x80\\xbf\\xe0m?\\x97\\x90\\x8f>\\x9e-1B\\x99\\xdfQB\\x00\\x00p\\xc2\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\x97\\x84^?\\xb8\\x1e\\x85>5\\x8f?B\\xa2K;B\\x00\\x00\\\\\\xc2\\xba\\xe2\\x13<U\\xfd\\x7f?\\x00\\x00\\x00\\x00&GT?)\\\\\\x8f>5\\x8f?B\\xa2K;B\\x00\\x00\\\\B\\xba\\xe2\\x13<U\\xfd\\x7f?\\x00\\x00\\x00\\x00&GT?\\xecQ8?5\\x8f?B\\xa2K\\x13B\\x00\\x00pB\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xb5\\tJ?\\xa4p=?5\\x8f?BD\\x97\\xaeAff\\\\B\\xba\\xe2\\x13\\xbcU\\xfd\\x7f\\xbf\\x00\\x00\\x00\\x80\\x8c\\xad:?\"l8?5\\x8f?BD\\x97\\xaeA\\x9a\\x99[\\xc2\\xba\\xe2\\x13\\xbcU\\xfd\\x7f\\xbf\\x00\\x00\\x00\\x80\\x8c\\xad:?\\x97\\x90\\x8f>5\\x8f?B\\xa2K\\x13B\\x00\\x00p\\xc2\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xb5\\tJ?\\xb8\\x1e\\x85>5\\x8f?B\\xa2K;B\\x00\\x00\\\\\\xc2\\xba\\xe2\\x13<U\\xfd\\x7f?\\x00\\x00\\x00\\x00&GT?)\\\\\\x8f>5\\x8f?B\\xa2K;B\\x00\\x00\\\\B\\xba\\xe2\\x13<U\\xfd\\x7f?\\x00\\x00\\x00\\x00&GT?\\xecQ8?5\\x8f?B\\xa2K\\x13B\\x00\\x00pB\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?&GT?\\xc8\\xc4C?5\\x8f?BD\\x97\\xaeAff\\\\B\\xba\\xe2\\x13\\xbcU\\xfd\\x7f\\xbf\\x00\\x00\\x00\\x80&GT?m\\xedS?<q\\xe3A\\x81\\xff;B\\x00\\x00\\\\\\xc2\\xba\\xe2\\x13<U\\xfd\\x7f?\\x00\\x00\\x00\\x00!\"e?)\\\\\\x8f><q\\xe3A\\x81\\xff;B\\x00\\x00\\\\B\\xba\\xe2\\x13<U\\xfd\\x7f?\\x00\\x00\\x00\\x00!\"e?\\xecQ8?<q\\xe3A\\x81\\xff\\x13B\\x00\\x00pB\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?!\"e?\\xc8\\xc4C?<q\\xe3A\\x02\\xff\\xafAff\\\\B\\xba\\xe2\\x13\\xbcU\\xfd\\x7f\\xbf\\x00\\x00\\x00\\x80!\"e?m\\xedS?",
+				"u9" : "\\x00\\x00\\x04\\x00\\x05\\x00\\x01\\x00\\x00\\x00\\x05\\x00\\x01\\x00\\x05\\x00\\x06\\x00\\x02\\x00\\x01\\x00\\x06\\x00\\x02\\x00\\x06\\x00\\x07\\x00\\x03\\x00\\x02\\x00\\x07\\x00\\x08\\x00\\r\\x00\\x0c\\x00\\x08\\x00\\x0c\\x00\\x0b\\x00\\x08\\x00\\x0b\\x00\\t\\x00\\x0b\\x00\\n\\x00\\t\\x00\\x0e\\x00\\x12\\x00\\x13\\x00\\x0e\\x00\\x11\\x00\\x12\\x00\\x0e\\x00\\x0f\\x00\\x11\\x00\\x0f\\x00\\x10\\x00\\x11\\x00\\x14\\x00\\x18\\x00\\x19\\x00\\x15\\x00\\x14\\x00\\x19\\x00\\x15\\x00\\x19\\x00\\x1a\\x00\\x16\\x00\\x15\\x00\\x1a\\x00\\x16\\x00\\x1a\\x00\\x1b\\x00\\x17\\x00\\x16\\x00\\x1b\\x00",
+			},
+
+			"u1sub-sub-sub-block " :  {
+
+				"u0" : 30,
+				"u1" : 20,
+
+				"u2sub-sub-sub-sub-block " :  {
+
+					"u0" : 4,
+					"u1" : 1,
+					"u2" : 2,
+					"u3" : 0,
+				},
+
+				"u3sub-sub-sub-sub-block " :  {
+
+					"u0" : 7,
+					"u1" : 3,
+					"u2" : 32,
+					"u3" : 0,
+				},
+
+				"u4sub-sub-sub-sub-block " :  {
+
+					"u0" : 7,
+					"u1" : 3,
+					"u2" : 32,
+					"u3" : 12,
+				},
+
+				"u5sub-sub-sub-sub-block " :  {
+
+					"u0" : 7,
+					"u1" : 2,
+					"u2" : 32,
+					"u3" : 24,
+				},
+
+				"u6sub-sub-sub-sub-block " :  {
+
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 1.0,
+						"x" : 1.0,
+						"y" : 1.0,
+						"z" : 1.0,
+					},
+
+					"u1sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 1.0,
+						"x" : 1.0,
+						"y" : 1.0,
+						"z" : 1.0,
+					},
+
+					"u2sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 1.0,
+						"x" : 1.0,
+						"y" : 1.0,
+						"z" : 1.0,
+					},
+					"u3" : 0.0,
+					"u4" : "\\n\\x0fwoodkeep_ground\\x10\\x01 \\x02",
+				},
+
+				"u7sub-sub-sub-sub-block " :  {
+
+					"u" : 12.566642761230469,
+					"v" : -9.113822937011719,
+					"w" : -60.0,
+					"x" : 19.458988189697266,
+					"y" : 56.113338470458984,
+					"z" : 120.0,
+				},
+				"u8" : "<q\\xe3A\\x81\\xff;B\\x00\\x00\\\\\\xc2\\xba\\xe2\\x13<U\\xfd\\x7f?\\x00\\x00\\x00\\x00!\"e?)\\\\\\x8f><q\\xe3A\\x81\\xff;B\\x00\\x00\\\\B\\xba\\xe2\\x13<U\\xfd\\x7f?\\x00\\x00\\x00\\x00!\"e?\\xecQ8?<q\\xe3A\\x81\\xff\\x13B\\x00\\x00pB\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\x92_o?\\xa4p=?<q\\xe3A\\x02\\xff\\xafAff\\\\B\\xba\\xe2\\x13\\xbcU\\xfd\\x7f\\xbf\\x00\\x00\\x00\\x80\\xbb\\xbb~?\"l8?<q\\xe3A\\x02\\xff\\xafA\\x9a\\x99[\\xc2\\xba\\xe2\\x13\\xbcU\\xfd\\x7f\\xbf\\x00\\x00\\x00\\x80\\xbb\\xbb~?\\x97\\x90\\x8f><q\\xe3A\\x81\\xff\\x13B\\x00\\x00p\\xc2\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\x92_o?\\xb8\\x1e\\x85>?\\x1a\\x00B\\x14\\xd7\\xfaA\\x00\\x00\\\\\\xc2\\x0b\\xe4\\x13<U\\xfd\\x7f?\\x00\\x00\\x00\\x00!\"e?)\\\\\\x8f>?\\x1a\\x00B\\x14\\xd7\\xfaA\\x00\\x00\\\\B\\x0b\\xe4\\x13<U\\xfd\\x7f?\\x00\\x00\\x00\\x00!\"e?\\xecQ8??\\x1a\\x00B\\x14\\xd7\\xaaA\\x00\\x00pB\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xb1\\xe4Z?\\xa4p=??\\x1a\\x00BP\\\\\\xcb@ff\\\\B\\x0b\\xe4\\x13\\xbcU\\xfd\\x7f\\xbf\\x00\\x00\\x00\\x80\\x88\\x88K?\"l8??\\x1a\\x00BP\\\\\\xcb@\\x9a\\x99[\\xc2\\x0b\\xe4\\x13\\xbcU\\xfd\\x7f\\xbf\\x00\\x00\\x00\\x80\\x88\\x88K?\\x97\\x90\\x8f>?\\x1a\\x00B\\x14\\xd7\\xaaA\\x00\\x00p\\xc2\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xb1\\xe4Z?\\xb8\\x1e\\x85>?\\x1a\\x00B\\x14\\xd7\\xfaA\\x00\\x00\\\\\\xc2\\x0b\\xe4\\x13<U\\xfd\\x7f?\\x00\\x00\\x00\\x00!\"e?)\\\\\\x8f>?\\x1a\\x00B\\x14\\xd7\\xfaA\\x00\\x00\\\\B\\x0b\\xe4\\x13<U\\xfd\\x7f?\\x00\\x00\\x00\\x00!\"e?\\xecQ8??\\x1a\\x00B\\x14\\xd7\\xaaA\\x00\\x00pB\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?!\"e?\\xc8\\xc4C??\\x1a\\x00BP\\\\\\xcb@ff\\\\B\\x0b\\xe4\\x13\\xbcU\\xfd\\x7f\\xbf\\x00\\x00\\x00\\x80!\"e?m\\xedS?\\xf8\\x10IA\\xd2>\\xfcA\\x00\\x00\\\\\\xc2\\x0b\\xe4\\x13<U\\xfd\\x7f?\\x00\\x00\\x00\\x00\\xf6\\xfcu?)\\\\\\x8f>\\xf8\\x10IA\\xd2>\\xfcA\\x00\\x00\\\\B\\x0b\\xe4\\x13<U\\xfd\\x7f?\\x00\\x00\\x00\\x00\\xf6\\xfcu?\\xecQ8?\\xf8\\x10IA\\xd2>\\xacA\\x00\\x00pB\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xf6\\xfcu?\\xc8\\xc4C?\\xf8\\x10IAH\\xfb\\xd0@ff\\\\B\\x0b\\xe4\\x13\\xbcU\\xfd\\x7f\\xbf\\x00\\x00\\x00\\x80\\xf6\\xfcu?m\\xedS?\\xf8\\x10IA\\xd2>\\xfcA\\x00\\x00\\\\\\xc2\\x0b\\xe4\\x13<U\\xfd\\x7f?\\x00\\x00\\x00\\x00\\xf6\\xfcu?)\\\\\\x8f>\\xf8\\x10IA\\xd2>\\xfcA\\x00\\x00\\\\B\\x0b\\xe4\\x13<U\\xfd\\x7f?\\x00\\x00\\x00\\x00\\xf6\\xfcu?\\xecQ8?\\xf8\\x10IA\\xd2>\\xacA\\x00\\x00pB\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?3\\x1d\\x80?\\xa4p=?\\xf8\\x10IAH\\xfb\\xd0@ff\\\\B\\x0b\\xe4\\x13\\xbcU\\xfd\\x7f\\xbf\\x00\\x00\\x00\\x80H\\xcb\\x87?\"l8?\\xf8\\x10IAH\\xfb\\xd0@\\x9a\\x99[\\xc2\\x0b\\xe4\\x13\\xbcU\\xfd\\x7f\\xbf\\x00\\x00\\x00\\x80H\\xcb\\x87?\\x97\\x90\\x8f>\\xf8\\x10IA\\xd2>\\xacA\\x00\\x00p\\xc2\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?3\\x1d\\x80?\\xb8\\x1e\\x85>\\x92J\\x81A\\xc8-~A\\x00\\x00\\\\\\xc2\\x13\\xe5\\x13<S\\xfd\\x7f?\\x00\\x00\\x00\\x00\\xf6\\xfcu?)\\\\\\x8f>\\x92J\\x81A8\\xd2\\x11\\xc1ff\\\\B\\x13\\xe5\\x13\\xbcS\\xfd\\x7f\\xbf\\x00\\x00\\x00\\x80]c\\\\?\"l8?\\x92J\\x81A8\\xd2\\x11\\xc1\\x9a\\x99[\\xc2\\x13\\xe5\\x13\\xbcS\\xfd\\x7f\\xbf\\x00\\x00\\x00\\x80]c\\\\?\\x97\\x90\\x8f>\\x92J\\x81A\\x90[\\xbc@\\x00\\x00p\\xc2\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\x86\\xbfk?\\xb8\\x1e\\x85>",
+				"u9" : "\\x00\\x00\\x05\\x00\\x04\\x00\\x00\\x00\\x04\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x01\\x00\\x03\\x00\\x02\\x00\\x01\\x00\\x06\\x00\\n\\x00\\x0b\\x00\\x06\\x00\\t\\x00\\n\\x00\\x06\\x00\\x07\\x00\\t\\x00\\x07\\x00\\x08\\x00\\t\\x00\\x0c\\x00\\x10\\x00\\x11\\x00\\r\\x00\\x0c\\x00\\x11\\x00\\r\\x00\\x11\\x00\\x12\\x00\\x0e\\x00\\r\\x00\\x12\\x00\\x0e\\x00\\x12\\x00\\x13\\x00\\x0f\\x00\\x0e\\x00\\x13\\x00\\x14\\x00\\x19\\x00\\x18\\x00\\x14\\x00\\x18\\x00\\x17\\x00\\x14\\x00\\x17\\x00\\x15\\x00\\x17\\x00\\x16\\x00\\x15\\x00\\x1a\\x00\\x1c\\x00\\x1d\\x00\\x1a\\x00\\x1b\\x00\\x1c\\x00",
+			},
+
+			"u1sub-sub-sub-block " :  {
+
+				"u0" : 30,
+				"u1" : 20,
+
+				"u2sub-sub-sub-sub-block " :  {
+
+					"u0" : 4,
+					"u1" : 1,
+					"u2" : 2,
+					"u3" : 0,
+				},
+
+				"u3sub-sub-sub-sub-block " :  {
+
+					"u0" : 7,
+					"u1" : 3,
+					"u2" : 32,
+					"u3" : 0,
+				},
+
+				"u4sub-sub-sub-sub-block " :  {
+
+					"u0" : 7,
+					"u1" : 3,
+					"u2" : 32,
+					"u3" : 12,
+				},
+
+				"u5sub-sub-sub-sub-block " :  {
+
+					"u0" : 7,
+					"u1" : 2,
+					"u2" : 32,
+					"u3" : 24,
+				},
+
+				"u6sub-sub-sub-sub-block " :  {
+
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 1.0,
+						"x" : 1.0,
+						"y" : 1.0,
+						"z" : 1.0,
+					},
+
+					"u1sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 1.0,
+						"x" : 1.0,
+						"y" : 1.0,
+						"z" : 1.0,
+					},
+
+					"u2sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 1.0,
+						"x" : 1.0,
+						"y" : 1.0,
+						"z" : 1.0,
+					},
+					"u3" : 0.0,
+					"u4" : "\\n\\x0fwoodkeep_ground\\x10\\x01 \\x02",
+				},
+
+				"u7sub-sub-sub-sub-block " :  {
+
+					"u" : -19.16126251220703,
+					"v" : -24.582664489746094,
+					"w" : -60.0,
+					"x" : 35.32267379760742,
+					"y" : 40.64449691772461,
+					"z" : 120.0,
+				},
+				"u8" : "\\x92J\\x81A\\xc8-~A\\x00\\x00\\\\\\xc2\\x13\\xe5\\x13<S\\xfd\\x7f?\\x00\\x00\\x00\\x00\\xf6\\xfcu?)\\\\\\x8f>\\x92J\\x81A\\xc8-~A\\x00\\x00\\\\B\\x13\\xe5\\x13<S\\xfd\\x7f?\\x00\\x00\\x00\\x00\\xf6\\xfcu?\\xecQ8?\\x92J\\x81A\\x90[\\xbc@\\x00\\x00pB\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\x86\\xbfk?\\xa4p=?\\x92J\\x81A8\\xd2\\x11\\xc1ff\\\\B\\x13\\xe5\\x13\\xbcS\\xfd\\x7f\\xbf\\x00\\x00\\x00\\x80]c\\\\?\"l8?\\x92J\\x81A\\xc8-~A\\x00\\x00\\\\\\xc2\\x13\\xe5\\x13<S\\xfd\\x7f?\\x00\\x00\\x00\\x00\\xf6\\xfcu?)\\\\\\x8f>\\x92J\\x81A\\xc8-~A\\x00\\x00\\\\B\\x13\\xe5\\x13<S\\xfd\\x7f?\\x00\\x00\\x00\\x00\\xf6\\xfcu?\\xecQ8?\\x92J\\x81A\\x90[\\xbc@\\x00\\x00pB\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xf6\\xfcu?\\xc8\\xc4C?\\x92J\\x81A8\\xd2\\x11\\xc1ff\\\\B\\x13\\xe5\\x13\\xbcS\\xfd\\x7f\\xbf\\x00\\x00\\x00\\x80\\xf6\\xfcu?m\\xedS?\\x1e\\x04S\\xc0\\xa2~\\x80A\\x00\\x00\\\\\\xc2\\x13\\xe5\\x13<S\\xfd\\x7f?\\x00\\x00\\x00\\x00\\xd7k\\x83?)\\\\\\x8f>\\x1e\\x04S\\xc0\\xa2~\\x80A\\x00\\x00\\\\B\\x13\\xe5\\x13<S\\xfd\\x7f?\\x00\\x00\\x00\\x00\\xd7k\\x83?\\xecQ8?\\x1e\\x04S\\xc0\\x88\\xfa\\xc1@\\x00\\x00pB\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xd7k\\x83?\\xc8\\xc4C?\\x1e\\x04S\\xc0\\xbc\\x02\\x0f\\xc1ff\\\\B\\x13\\xe5\\x13\\xbcS\\xfd\\x7f\\xbf\\x00\\x00\\x00\\x80\\xd7k\\x83?m\\xedS?\\x1e\\x04S\\xc0\\xa2~\\x80A\\x00\\x00\\\\\\xc2\\x13\\xe5\\x13<S\\xfd\\x7f?\\x00\\x00\\x00\\x00\\xd7k\\x83?)\\\\\\x8f>\\x1e\\x04S\\xc0\\xa2~\\x80A\\x00\\x00\\\\B\\x13\\xe5\\x13<S\\xfd\\x7f?\\x00\\x00\\x00\\x00\\xd7k\\x83?\\xecQ8?\\x1e\\x04S\\xc0\\x88\\xfa\\xc1@\\x00\\x00pB\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\x8f\\x8a\\x88?\\xa4p=?\\x1e\\x04S\\xc0\\xbc\\x02\\x0f\\xc1ff\\\\B\\x13\\xe5\\x13\\xbcS\\xfd\\x7f\\xbf\\x00\\x00\\x00\\x80\\xa38\\x90?\"l8?\\x1e\\x04S\\xc0\\xbc\\x02\\x0f\\xc1\\x9a\\x99[\\xc2\\x13\\xe5\\x13\\xbcS\\xfd\\x7f\\xbf\\x00\\x00\\x00\\x80\\xa38\\x90?\\x97\\x90\\x8f>\\x1e\\x04S\\xc0\\x88\\xfa\\xc1@\\x00\\x00p\\xc2\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\x8f\\x8a\\x88?\\xb8\\x1e\\x85>\\x80)\\x98>\\x00\\xad\\xd5>\\x00\\x00\\\\\\xc2F\\xe5\\x13<U\\xfd\\x7f?\\x00\\x00\\x00\\x00\\xd7k\\x83?)\\\\\\x8f>\\x80)\\x98>\\x00\\xad\\xd5>\\x00\\x00\\\\BF\\xe5\\x13<U\\xfd\\x7f?\\x00\\x00\\x00\\x00\\xd7k\\x83?\\xecQ8?\\x80)\\x98>\\x98R\\x19\\xc1\\x00\\x00pB\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?<\\x9a|?\\xa4p=?\\x80)\\x98>L\\xa9\\xc4\\xc1ff\\\\BF\\xe5\\x13\\xbcU\\xfd\\x7f\\xbf\\x00\\x00\\x00\\x80\\x13>m?\"l8?\\x80)\\x98>L\\xa9\\xc4\\xc1\\x9a\\x99[\\xc2F\\xe5\\x13\\xbcU\\xfd\\x7f\\xbf\\x00\\x00\\x00\\x80\\x13>m?\\x97\\x90\\x8f>\\x80)\\x98>\\x98R\\x19\\xc1\\x00\\x00p\\xc2\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?<\\x9a|?\\xb8\\x1e\\x85>\\x80)\\x98>\\x00\\xad\\xd5>\\x00\\x00\\\\\\xc2F\\xe5\\x13<U\\xfd\\x7f?\\x00\\x00\\x00\\x00\\xd7k\\x83?)\\\\\\x8f>\\x80)\\x98>\\x00\\xad\\xd5>\\x00\\x00\\\\BF\\xe5\\x13<U\\xfd\\x7f?\\x00\\x00\\x00\\x00\\xd7k\\x83?\\xecQ8?\\x80)\\x98>\\x98R\\x19\\xc1\\x00\\x00pB\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xd7k\\x83?\\xc8\\xc4C?DJ\\x99\\xc1?\\xce\\x17?\\x00\\x00\\\\\\xc2F\\xe5\\x13<U\\xfd\\x7f?\\x00\\x00\\x00\\x00/\\xd9\\x8b?)\\\\\\x8f>DJ\\x99\\xc1?\\xce\\x17?\\x00\\x00\\\\BF\\xe5\\x13<U\\xfd\\x7f?\\x00\\x00\\x00\\x00/\\xd9\\x8b?\\xecQ8?DJ\\x99\\xc1\\x1c\\x83\\x16\\xc1\\x00\\x00pB\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?/\\xd9\\x8b?\\xc8\\xc4C?",
+				"u9" : "\\x00\\x00\\x01\\x00\\x03\\x00\\x01\\x00\\x02\\x00\\x03\\x00\\x04\\x00\\x08\\x00\\t\\x00\\x05\\x00\\x04\\x00\\t\\x00\\x05\\x00\\t\\x00\\n\\x00\\x06\\x00\\x05\\x00\\n\\x00\\x06\\x00\\n\\x00\\x0b\\x00\\x07\\x00\\x06\\x00\\x0b\\x00\\x0c\\x00\\x11\\x00\\x10\\x00\\x0c\\x00\\x10\\x00\\x0f\\x00\\x0c\\x00\\x0f\\x00\\r\\x00\\x0f\\x00\\x0e\\x00\\r\\x00\\x12\\x00\\x16\\x00\\x17\\x00\\x12\\x00\\x15\\x00\\x16\\x00\\x12\\x00\\x13\\x00\\x15\\x00\\x13\\x00\\x14\\x00\\x15\\x00\\x18\\x00\\x1b\\x00\\x1c\\x00\\x19\\x00\\x18\\x00\\x1c\\x00\\x19\\x00\\x1c\\x00\\x1d\\x00\\x1a\\x00\\x19\\x00\\x1d\\x00",
+			},
+
+			"u1sub-sub-sub-block " :  {
+
+				"u0" : 30,
+				"u1" : 20,
+
+				"u2sub-sub-sub-sub-block " :  {
+
+					"u0" : 4,
+					"u1" : 1,
+					"u2" : 2,
+					"u3" : 0,
+				},
+
+				"u3sub-sub-sub-sub-block " :  {
+
+					"u0" : 7,
+					"u1" : 3,
+					"u2" : 32,
+					"u3" : 0,
+				},
+
+				"u4sub-sub-sub-sub-block " :  {
+
+					"u0" : 7,
+					"u1" : 3,
+					"u2" : 32,
+					"u3" : 12,
+				},
+
+				"u5sub-sub-sub-sub-block " :  {
+
+					"u0" : 7,
+					"u1" : 2,
+					"u2" : 32,
+					"u3" : 24,
+				},
+
+				"u6sub-sub-sub-sub-block " :  {
+
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 1.0,
+						"x" : 1.0,
+						"y" : 1.0,
+						"z" : 1.0,
+					},
+
+					"u1sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 1.0,
+						"x" : 1.0,
+						"y" : 1.0,
+						"z" : 1.0,
+					},
+
+					"u2sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 1.0,
+						"x" : 1.0,
+						"y" : 1.0,
+						"z" : 1.0,
+					},
+					"u3" : 0.0,
+					"u4" : "\\n\\x0fwoodkeep_ground\\x10\\x01 \\x02",
+				},
+
+				"u7sub-sub-sub-sub-block " :  {
+
+					"u" : -35.02552032470703,
+					"v" : -40.05150604248047,
+					"w" : -60.0,
+					"x" : 35.32271194458008,
+					"y" : 40.64449691772461,
+					"z" : 120.0,
+				},
+				"u8" : "\\x80)\\x98>\\x98R\\x19\\xc1\\x00\\x00pB\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xd7k\\x83?\\xc8\\xc4C?\\x80)\\x98>L\\xa9\\xc4\\xc1ff\\\\BF\\xe5\\x13\\xbcU\\xfd\\x7f\\xbf\\x00\\x00\\x00\\x80\\xd7k\\x83?m\\xedS?DJ\\x99\\xc1\\x1c\\x83\\x16\\xc1\\x00\\x00pB\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?/\\xd9\\x8b?\\xc8\\xc4C?DJ\\x99\\xc1\\x8eA\\xc3\\xc1ff\\\\BF\\xe5\\x13\\xbcU\\xfd\\x7f\\xbf\\x00\\x00\\x00\\x80/\\xd9\\x8b?m\\xedS?DJ\\x99\\xc1?\\xce\\x17?\\x00\\x00\\\\\\xc2F\\xe5\\x13<U\\xfd\\x7f?\\x00\\x00\\x00\\x00/\\xd9\\x8b?)\\\\\\x8f>DJ\\x99\\xc1?\\xce\\x17?\\x00\\x00\\\\BF\\xe5\\x13<U\\xfd\\x7f?\\x00\\x00\\x00\\x00/\\xd9\\x8b?\\xecQ8?DJ\\x99\\xc1\\x1c\\x83\\x16\\xc1\\x00\\x00pB\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xe7\\xf7\\x90?\\xa4p=?DJ\\x99\\xc1\\x8eA\\xc3\\xc1ff\\\\BF\\xe5\\x13\\xbcU\\xfd\\x7f\\xbf\\x00\\x00\\x00\\x80\\xfc\\xa5\\x98?\"l8?DJ\\x99\\xc1\\x8eA\\xc3\\xc1\\x9a\\x99[\\xc2F\\xe5\\x13\\xbcU\\xfd\\x7f\\xbf\\x00\\x00\\x00\\x80\\xfc\\xa5\\x98?\\x97\\x90\\x8f>DJ\\x99\\xc1\\x1c\\x83\\x16\\xc1\\x00\\x00p\\xc2\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xe7\\xf7\\x90?\\xb8\\x1e\\x85>\\x8c\\x12y\\xc1\\xf8\\xd2p\\xc1\\x00\\x00\\\\\\xc20\\xe5\\x13<V\\xfd\\x7f?\\x00\\x00\\x00\\x00/\\xd9\\x8b?)\\\\\\x8f>\\x8c\\x12y\\xc1\\xf8\\xd2p\\xc1\\x00\\x00\\\\B0\\xe5\\x13<V\\xfd\\x7f?\\x00\\x00\\x00\\x00/\\xd9\\x8b?\\xecQ8?\\x8c\\x12y\\xc1|i\\xc8\\xc1\\x00\\x00pB\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?w\\xba\\x86?\\xa4p=?\\x8c\\x12y\\xc1\\xbe4 \\xc2ff\\\\B0\\xe5\\x13\\xbcV\\xfd\\x7f\\xbf\\x00\\x00\\x00\\x80\\xc5\\x18~?\"l8?\\x8c\\x12y\\xc1\\xbe4 \\xc2\\x9a\\x99[\\xc20\\xe5\\x13\\xbcV\\xfd\\x7f\\xbf\\x00\\x00\\x00\\x80\\xc5\\x18~?\\x97\\x90\\x8f>\\x8c\\x12y\\xc1|i\\xc8\\xc1\\x00\\x00p\\xc2\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?w\\xba\\x86?\\xb8\\x1e\\x85>\\x8c\\x12y\\xc1\\xf8\\xd2p\\xc1\\x00\\x00\\\\\\xc20\\xe5\\x13<V\\xfd\\x7f?\\x00\\x00\\x00\\x00/\\xd9\\x8b?)\\\\\\x8f>\\x8c\\x12y\\xc1\\xf8\\xd2p\\xc1\\x00\\x00\\\\B0\\xe5\\x13<V\\xfd\\x7f?\\x00\\x00\\x00\\x00/\\xd9\\x8b?\\xecQ8?\\x8c\\x12y\\xc1|i\\xc8\\xc1\\x00\\x00pB\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?/\\xd9\\x8b?\\xc8\\xc4C?\\x8c\\x12y\\xc1\\xbe4 \\xc2ff\\\\B0\\xe5\\x13\\xbcV\\xfd\\x7f\\xbf\\x00\\x00\\x00\\x80/\\xd9\\x8b?m\\xedS?\"\\x1a\\x0c\\xc2|\\x03n\\xc1\\x00\\x00\\\\\\xc20\\xe5\\x13<V\\xfd\\x7f?\\x00\\x00\\x00\\x00\\x89F\\x94?)\\\\\\x8f>\"\\x1a\\x0c\\xc2|\\x03n\\xc1\\x00\\x00\\\\B0\\xe5\\x13<V\\xfd\\x7f?\\x00\\x00\\x00\\x00\\x89F\\x94?\\xecQ8?\"\\x1a\\x0c\\xc2\\xbe\\x01\\xc7\\xc1\\x00\\x00pB\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\x89F\\x94?\\xc8\\xc4C?\"\\x1a\\x0c\\xc2\\xdf\\x80\\x1f\\xc2ff\\\\B0\\xe5\\x13\\xbcV\\xfd\\x7f\\xbf\\x00\\x00\\x00\\x80\\x89F\\x94?m\\xedS?\"\\x1a\\x0c\\xc2|\\x03n\\xc1\\x00\\x00\\\\\\xc20\\xe5\\x13<V\\xfd\\x7f?\\x00\\x00\\x00\\x00\\x89F\\x94?)\\\\\\x8f>\"\\x1a\\x0c\\xc2|\\x03n\\xc1\\x00\\x00\\\\B0\\xe5\\x13<V\\xfd\\x7f?\\x00\\x00\\x00\\x00\\x89F\\x94?\\xecQ8?\"\\x1a\\x0c\\xc2\\xbe\\x01\\xc7\\xc1\\x00\\x00pB\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?Be\\x99?\\xa4p=?\"\\x1a\\x0c\\xc2\\xdf\\x80\\x1f\\xc2ff\\\\B0\\xe5\\x13\\xbcV\\xfd\\x7f\\xbf\\x00\\x00\\x00\\x80V\\x13\\xa1?\"l8?\"\\x1a\\x0c\\xc2\\xdf\\x80\\x1f\\xc2\\x9a\\x99[\\xc20\\xe5\\x13\\xbcV\\xfd\\x7f\\xbf\\x00\\x00\\x00\\x80V\\x13\\xa1?\\x97\\x90\\x8f>\"\\x1a\\x0c\\xc2\\xbe\\x01\\xc7\\xc1\\x00\\x00p\\xc2\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?Be\\x99?\\xb8\\x1e\\x85>",
+				"u9" : "\\x00\\x00\\x02\\x00\\x03\\x00\\x01\\x00\\x00\\x00\\x03\\x00\\x04\\x00\\t\\x00\\x08\\x00\\x04\\x00\\x08\\x00\\x07\\x00\\x04\\x00\\x07\\x00\\x05\\x00\\x07\\x00\\x06\\x00\\x05\\x00\\n\\x00\\x0e\\x00\\x0f\\x00\\n\\x00\\r\\x00\\x0e\\x00\\n\\x00\\x0b\\x00\\r\\x00\\x0b\\x00\\x0c\\x00\\r\\x00\\x10\\x00\\x14\\x00\\x15\\x00\\x11\\x00\\x10\\x00\\x15\\x00\\x11\\x00\\x15\\x00\\x16\\x00\\x12\\x00\\x11\\x00\\x16\\x00\\x12\\x00\\x16\\x00\\x17\\x00\\x13\\x00\\x12\\x00\\x17\\x00\\x18\\x00\\x1d\\x00\\x1c\\x00\\x18\\x00\\x1c\\x00\\x1b\\x00\\x18\\x00\\x1b\\x00\\x19\\x00\\x1b\\x00\\x1a\\x00\\x19\\x00",
+			},
+
+			"u1sub-sub-sub-block " :  {
+
+				"u0" : 30,
+				"u1" : 20,
+
+				"u2sub-sub-sub-sub-block " :  {
+
+					"u0" : 4,
+					"u1" : 1,
+					"u2" : 2,
+					"u3" : 0,
+				},
+
+				"u3sub-sub-sub-sub-block " :  {
+
+					"u0" : 7,
+					"u1" : 3,
+					"u2" : 32,
+					"u3" : 0,
+				},
+
+				"u4sub-sub-sub-sub-block " :  {
+
+					"u0" : 7,
+					"u1" : 3,
+					"u2" : 32,
+					"u3" : 12,
+				},
+
+				"u5sub-sub-sub-sub-block " :  {
+
+					"u0" : 7,
+					"u1" : 2,
+					"u2" : 32,
+					"u3" : 24,
+				},
+
+				"u6sub-sub-sub-sub-block " :  {
+
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 1.0,
+						"x" : 1.0,
+						"y" : 1.0,
+						"z" : 1.0,
+					},
+
+					"u1sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 1.0,
+						"x" : 1.0,
+						"y" : 1.0,
+						"z" : 1.0,
+					},
+
+					"u2sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 1.0,
+						"x" : 1.0,
+						"y" : 1.0,
+						"z" : 1.0,
+					},
+					"u3" : 0.0,
+					"u4" : "\\n\\x0fwoodkeep_ground\\x10\\x01 \\x02",
+				},
+
+				"u7sub-sub-sub-sub-block " :  {
+
+					"u" : -66.75391387939453,
+					"v" : -70.98918914794922,
+					"w" : -60.0,
+					"x" : 35.32266616821289,
+					"y" : 40.64449691772461,
+					"z" : 120.0,
+				},
+				"u8" : "2s\\xfb\\xc1\\xac)\\xf4\\xc1\\x00\\x00\\\\\\xc2\\x19\\xe5\\x13<V\\xfd\\x7f?\\x00\\x00\\x00\\x00\\x89F\\x94?)\\\\\\x8f>2s\\xfb\\xc1\\xac)\\xf4\\xc1\\x00\\x00\\\\B\\x19\\xe5\\x13<V\\xfd\\x7f?\\x00\\x00\\x00\\x00\\x89F\\x94?\\xecQ8?2s\\xfb\\xc1\\xd6\\x14\"\\xc2\\x00\\x00pB\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xd1\\\'\\x8f?\\xa4p=?2s\\xfb\\xc1\\xd6\\x14^\\xc2ff\\\\B\\x19\\xe5\\x13\\xbcV\\xfd\\x7f\\xbf\\x00\\x00\\x00\\x80\\xbcy\\x87?\"l8?2s\\xfb\\xc1\\xd6\\x14^\\xc2\\x9a\\x99[\\xc2\\x19\\xe5\\x13\\xbcV\\xfd\\x7f\\xbf\\x00\\x00\\x00\\x80\\xbcy\\x87?\\x97\\x90\\x8f>2s\\xfb\\xc1\\xd6\\x14\"\\xc2\\x00\\x00p\\xc2\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xd1\\\'\\x8f?\\xb8\\x1e\\x85>2s\\xfb\\xc1\\xac)\\xf4\\xc1\\x00\\x00\\\\\\xc2\\x19\\xe5\\x13<V\\xfd\\x7f?\\x00\\x00\\x00\\x00\\x89F\\x94?)\\\\\\x8f>2s\\xfb\\xc1\\xac)\\xf4\\xc1\\x00\\x00\\\\B\\x19\\xe5\\x13<V\\xfd\\x7f?\\x00\\x00\\x00\\x00\\x89F\\x94?\\xecQ8?2s\\xfb\\xc1\\xd6\\x14\"\\xc2\\x00\\x00pB\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\x89F\\x94?\\xc8\\xc4C?2s\\xfb\\xc1\\xd6\\x14^\\xc2ff\\\\B\\x19\\xe5\\x13\\xbcV\\xfd\\x7f\\xbf\\x00\\x00\\x00\\x80\\x89F\\x94?m\\xedS?\"\\x8fK\\xc2\\xee\\xc1\\xf2\\xc1\\x00\\x00\\\\\\xc2\\x19\\xe5\\x13<V\\xfd\\x7f?\\x00\\x00\\x00\\x00\\xe4\\xb3\\x9c?)\\\\\\x8f>\"\\x8fK\\xc2\\xee\\xc1\\xf2\\xc1\\x00\\x00\\\\B\\x19\\xe5\\x13<V\\xfd\\x7f?\\x00\\x00\\x00\\x00\\xe4\\xb3\\x9c?\\xecQ8?\"\\x8fK\\xc2\\xf7`!\\xc2\\x00\\x00pB\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xe4\\xb3\\x9c?\\xc8\\xc4C?\"\\x8fK\\xc2\\xf7`]\\xc2ff\\\\B\\x19\\xe5\\x13\\xbcV\\xfd\\x7f\\xbf\\x00\\x00\\x00\\x80\\xe4\\xb3\\x9c?m\\xedS?\"\\x8fK\\xc2\\xee\\xc1\\xf2\\xc1\\x00\\x00\\\\\\xc2\\x19\\xe5\\x13<V\\xfd\\x7f?\\x00\\x00\\x00\\x00\\xe4\\xb3\\x9c?)\\\\\\x8f>\"\\x8fK\\xc2\\xee\\xc1\\xf2\\xc1\\x00\\x00\\\\B\\x19\\xe5\\x13<V\\xfd\\x7f?\\x00\\x00\\x00\\x00\\xe4\\xb3\\x9c?\\xecQ8?\"\\x8fK\\xc2\\xf7`!\\xc2\\x00\\x00pB\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\x9d\\xd2\\xa1?\\xa4p=?\"\\x8fK\\xc2\\xf7`]\\xc2ff\\\\B\\x19\\xe5\\x13\\xbcV\\xfd\\x7f\\xbf\\x00\\x00\\x00\\x80\\xb1\\x80\\xa9?\"l8?\"\\x8fK\\xc2\\xf7`]\\xc2\\x9a\\x99[\\xc2\\x19\\xe5\\x13\\xbcV\\xfd\\x7f\\xbf\\x00\\x00\\x00\\x80\\xb1\\x80\\xa9?\\x97\\x90\\x8f>\"\\x8fK\\xc2\\xf7`!\\xc2\\x00\\x00p\\xc2\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\x9d\\xd2\\xa1?\\xb8\\x1e\\x85>\\x8f.=\\xc2\\xee\\xf47\\xc2\\x00\\x00\\\\\\xc2I\\xe5\\x13<T\\xfd\\x7f?\\x00\\x00\\x00\\x00\\xe4\\xb3\\x9c?)\\\\\\x8f>\\x8f.=\\xc2\\xee\\xf47\\xc2\\x00\\x00\\\\BI\\xe5\\x13<T\\xfd\\x7f?\\x00\\x00\\x00\\x00\\xe4\\xb3\\x9c?\\xecQ8?\\x8f.=\\xc2\\xee\\xf4_\\xc2\\x00\\x00pB\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?,\\x95\\x97?\\xa4p=?\\x8f.=\\xc2w\\xfa\\x8d\\xc2ff\\\\BI\\xe5\\x13\\xbcT\\xfd\\x7f\\xbf\\x00\\x00\\x00\\x80\\x18\\xe7\\x8f?\"l8?\\x8f.=\\xc2w\\xfa\\x8d\\xc2\\x9a\\x99[\\xc2I\\xe5\\x13\\xbcT\\xfd\\x7f\\xbf\\x00\\x00\\x00\\x80\\x18\\xe7\\x8f?\\x97\\x90\\x8f>\\x8f.=\\xc2\\xee\\xf4_\\xc2\\x00\\x00p\\xc2\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?,\\x95\\x97?\\xb8\\x1e\\x85>\\x8f.=\\xc2\\xee\\xf47\\xc2\\x00\\x00\\\\\\xc2I\\xe5\\x13<T\\xfd\\x7f?\\x00\\x00\\x00\\x00\\xe4\\xb3\\x9c?)\\\\\\x8f>\\x8f.=\\xc2\\xee\\xf47\\xc2\\x00\\x00\\\\BI\\xe5\\x13<T\\xfd\\x7f?\\x00\\x00\\x00\\x00\\xe4\\xb3\\x9c?\\xecQ8?\\x01\\x82\\x85\\xc2\\x0fA7\\xc2\\x00\\x00\\\\\\xc2I\\xe5\\x13<T\\xfd\\x7f?\\x00\\x00\\x00\\x00=!\\xa5?)\\\\\\x8f>\\x01\\x82\\x85\\xc2\\x0fA7\\xc2\\x00\\x00\\\\BI\\xe5\\x13<T\\xfd\\x7f?\\x00\\x00\\x00\\x00=!\\xa5?\\xecQ8?",
+				"u9" : "\\x00\\x00\\x04\\x00\\x05\\x00\\x00\\x00\\x03\\x00\\x04\\x00\\x00\\x00\\x01\\x00\\x03\\x00\\x01\\x00\\x02\\x00\\x03\\x00\\x06\\x00\\n\\x00\\x0b\\x00\\x07\\x00\\x06\\x00\\x0b\\x00\\x07\\x00\\x0b\\x00\\x0c\\x00\\x08\\x00\\x07\\x00\\x0c\\x00\\x08\\x00\\x0c\\x00\\r\\x00\\t\\x00\\x08\\x00\\r\\x00\\x0e\\x00\\x13\\x00\\x12\\x00\\x0e\\x00\\x12\\x00\\x11\\x00\\x0e\\x00\\x11\\x00\\x0f\\x00\\x11\\x00\\x10\\x00\\x0f\\x00\\x14\\x00\\x18\\x00\\x19\\x00\\x14\\x00\\x17\\x00\\x18\\x00\\x14\\x00\\x15\\x00\\x17\\x00\\x15\\x00\\x16\\x00\\x17\\x00\\x1a\\x00\\x1c\\x00\\x1d\\x00\\x1b\\x00\\x1a\\x00\\x1d\\x00",
+			},
+
+			"u1sub-sub-sub-block " :  {
+
+				"u0" : 30,
+				"u1" : 20,
+
+				"u2sub-sub-sub-sub-block " :  {
+
+					"u0" : 4,
+					"u1" : 1,
+					"u2" : 2,
+					"u3" : 0,
+				},
+
+				"u3sub-sub-sub-sub-block " :  {
+
+					"u0" : 7,
+					"u1" : 3,
+					"u2" : 32,
+					"u3" : 0,
+				},
+
+				"u4sub-sub-sub-sub-block " :  {
+
+					"u0" : 7,
+					"u1" : 3,
+					"u2" : 32,
+					"u3" : 12,
+				},
+
+				"u5sub-sub-sub-sub-block " :  {
+
+					"u0" : 7,
+					"u1" : 2,
+					"u2" : 32,
+					"u3" : 24,
+				},
+
+				"u6sub-sub-sub-sub-block " :  {
+
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 1.0,
+						"x" : 1.0,
+						"y" : 1.0,
+						"z" : 1.0,
+					},
+
+					"u1sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 1.0,
+						"x" : 1.0,
+						"y" : 1.0,
+						"z" : 1.0,
+					},
+
+					"u2sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 1.0,
+						"x" : 1.0,
+						"y" : 1.0,
+						"z" : 1.0,
+					},
+					"u3" : 0.0,
+					"u4" : "\\n\\x0fwoodkeep_ground\\x10\\x01 \\x02",
+				},
+
+				"u7sub-sub-sub-sub-block " :  {
+
+					"u" : -82.61817169189453,
+					"v" : -86.4580307006836,
+					"w" : -60.0,
+					"x" : 35.32270431518555,
+					"y" : 40.64449691772461,
+					"z" : 120.0,
+				},
+				"u8" : "\\x8f.=\\xc2\\xee\\xf47\\xc2\\x00\\x00\\\\BI\\xe5\\x13<T\\xfd\\x7f?\\x00\\x00\\x00\\x00\\xe4\\xb3\\x9c?\\xecQ8?\\x8f.=\\xc2\\xee\\xf4_\\xc2\\x00\\x00pB\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xe4\\xb3\\x9c?\\xc8\\xc4C?\\x8f.=\\xc2w\\xfa\\x8d\\xc2ff\\\\BI\\xe5\\x13\\xbcT\\xfd\\x7f\\xbf\\x00\\x00\\x00\\x80\\xe4\\xb3\\x9c?m\\xedS?\\x01\\x82\\x85\\xc2\\x0fA7\\xc2\\x00\\x00\\\\BI\\xe5\\x13<T\\xfd\\x7f?\\x00\\x00\\x00\\x00=!\\xa5?\\xecQ8?\\x01\\x82\\x85\\xc2\\x0fA_\\xc2\\x00\\x00pB\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?=!\\xa5?\\xc8\\xc4C?\\x01\\x82\\x85\\xc2\\x88\\xa0\\x8d\\xc2ff\\\\BI\\xe5\\x13\\xbcT\\xfd\\x7f\\xbf\\x00\\x00\\x00\\x80=!\\xa5?m\\xedS?\\x01\\x82\\x85\\xc2\\x0fA7\\xc2\\x00\\x00\\\\\\xc2I\\xe5\\x13<T\\xfd\\x7f?\\x00\\x00\\x00\\x00=!\\xa5?)\\\\\\x8f>\\x01\\x82\\x85\\xc2\\x0fA7\\xc2\\x00\\x00\\\\BI\\xe5\\x13<T\\xfd\\x7f?\\x00\\x00\\x00\\x00=!\\xa5?\\xecQ8?\\x01\\x82\\x85\\xc2\\x0fA_\\xc2\\x00\\x00pB\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xf5?\\xaa?\\xa4p=?\\x01\\x82\\x85\\xc2\\x88\\xa0\\x8d\\xc2ff\\\\BI\\xe5\\x13\\xbcT\\xfd\\x7f\\xbf\\x00\\x00\\x00\\x80\\n\\xee\\xb1?\"l8?\\x01\\x82\\x85\\xc2\\x88\\xa0\\x8d\\xc2\\x9a\\x99[\\xc2I\\xe5\\x13\\xbcT\\xfd\\x7f\\xbf\\x00\\x00\\x00\\x80\\n\\xee\\xb1?\\x97\\x90\\x8f>\\x01\\x82\\x85\\xc2\\x0fA_\\xc2\\x00\\x00p\\xc2\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xf5?\\xaa?\\xb8\\x1e\\x85>\\x86\\xa3|\\xc2\\x06\\xd5u\\xc2\\x00\\x00\\\\\\xc25\\xe5\\x13<T\\xfd\\x7f?\\x00\\x00\\x00\\x00=!\\xa5?)\\\\\\x8f>\\x86\\xa3|\\xc2\\x06\\xd5u\\xc2\\x00\\x00\\\\B5\\xe5\\x13<T\\xfd\\x7f?\\x00\\x00\\x00\\x00=!\\xa5?\\xecQ8?\\x86\\xa3|\\xc2\\x83\\xea\\x8e\\xc2\\x00\\x00pB\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\x85\\x02\\xa0?\\xa4p=?\\x86\\xa3|\\xc2\\x83\\xea\\xac\\xc2ff\\\\B5\\xe5\\x13\\xbcT\\xfd\\x7f\\xbf\\x00\\x00\\x00\\x80pT\\x98?\"l8?\\x86\\xa3|\\xc2\\x83\\xea\\xac\\xc2\\x9a\\x99[\\xc25\\xe5\\x13\\xbcT\\xfd\\x7f\\xbf\\x00\\x00\\x00\\x80pT\\x98?\\x97\\x90\\x8f>\\x86\\xa3|\\xc2\\x83\\xea\\x8e\\xc2\\x00\\x00p\\xc2\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\x85\\x02\\xa0?\\xb8\\x1e\\x85>\\x86\\xa3|\\xc2\\x06\\xd5u\\xc2\\x00\\x00\\\\\\xc25\\xe5\\x13<T\\xfd\\x7f?\\x00\\x00\\x00\\x00=!\\xa5?)\\\\\\x8f>\\x86\\xa3|\\xc2\\x06\\xd5u\\xc2\\x00\\x00\\\\B5\\xe5\\x13<T\\xfd\\x7f?\\x00\\x00\\x00\\x00=!\\xa5?\\xecQ8?\\x86\\xa3|\\xc2\\x83\\xea\\x8e\\xc2\\x00\\x00pB\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?=!\\xa5?\\xc8\\xc4C?\\x86\\xa3|\\xc2\\x83\\xea\\xac\\xc2ff\\\\B5\\xe5\\x13\\xbcT\\xfd\\x7f\\xbf\\x00\\x00\\x00\\x80=!\\xa5?m\\xedS?\\x81<\\xa5\\xc2\\\'!u\\xc2\\x00\\x00\\\\\\xc25\\xe5\\x13<T\\xfd\\x7f?\\x00\\x00\\x00\\x00\\x97\\x8e\\xad?)\\\\\\x8f>\\x81<\\xa5\\xc2\\\'!u\\xc2\\x00\\x00\\\\B5\\xe5\\x13<T\\xfd\\x7f?\\x00\\x00\\x00\\x00\\x97\\x8e\\xad?\\xecQ8?\\x81<\\xa5\\xc2\\x94\\x90\\x8e\\xc2\\x00\\x00pB\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\x97\\x8e\\xad?\\xc8\\xc4C?\\x81<\\xa5\\xc2\\x94\\x90\\xac\\xc2ff\\\\B5\\xe5\\x13\\xbcT\\xfd\\x7f\\xbf\\x00\\x00\\x00\\x80\\x97\\x8e\\xad?m\\xedS?\\x81<\\xa5\\xc2\\\'!u\\xc2\\x00\\x00\\\\\\xc25\\xe5\\x13<T\\xfd\\x7f?\\x00\\x00\\x00\\x00\\x97\\x8e\\xad?)\\\\\\x8f>\\x81<\\xa5\\xc2\\x94\\x90\\xac\\xc2ff\\\\B5\\xe5\\x13\\xbcT\\xfd\\x7f\\xbf\\x00\\x00\\x00\\x80c[\\xba?\"l8?\\x81<\\xa5\\xc2\\x94\\x90\\xac\\xc2\\x9a\\x99[\\xc25\\xe5\\x13\\xbcT\\xfd\\x7f\\xbf\\x00\\x00\\x00\\x80c[\\xba?\\x97\\x90\\x8f>\\x81<\\xa5\\xc2\\x94\\x90\\x8e\\xc2\\x00\\x00p\\xc2\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?O\\xad\\xb2?\\xb8\\x1e\\x85>",
+				"u9" : "\\x00\\x00\\x03\\x00\\x04\\x00\\x01\\x00\\x00\\x00\\x04\\x00\\x01\\x00\\x04\\x00\\x05\\x00\\x02\\x00\\x01\\x00\\x05\\x00\\x06\\x00\\x0b\\x00\\n\\x00\\x06\\x00\\n\\x00\\t\\x00\\x06\\x00\\t\\x00\\x07\\x00\\t\\x00\\x08\\x00\\x07\\x00\\x0c\\x00\\x10\\x00\\x11\\x00\\x0c\\x00\\x0f\\x00\\x10\\x00\\x0c\\x00\\r\\x00\\x0f\\x00\\r\\x00\\x0e\\x00\\x0f\\x00\\x12\\x00\\x16\\x00\\x17\\x00\\x13\\x00\\x12\\x00\\x17\\x00\\x13\\x00\\x17\\x00\\x18\\x00\\x14\\x00\\x13\\x00\\x18\\x00\\x14\\x00\\x18\\x00\\x19\\x00\\x15\\x00\\x14\\x00\\x19\\x00\\x1a\\x00\\x1d\\x00\\x1c\\x00\\x1a\\x00\\x1c\\x00\\x1b\\x00",
+			},
+
+			"u1sub-sub-sub-block " :  {
+
+				"u0" : 30,
+				"u1" : 20,
+
+				"u2sub-sub-sub-sub-block " :  {
+
+					"u0" : 4,
+					"u1" : 1,
+					"u2" : 2,
+					"u3" : 0,
+				},
+
+				"u3sub-sub-sub-sub-block " :  {
+
+					"u0" : 7,
+					"u1" : 3,
+					"u2" : 32,
+					"u3" : 0,
+				},
+
+				"u4sub-sub-sub-sub-block " :  {
+
+					"u0" : 7,
+					"u1" : 3,
+					"u2" : 32,
+					"u3" : 12,
+				},
+
+				"u5sub-sub-sub-sub-block " :  {
+
+					"u0" : 7,
+					"u1" : 2,
+					"u2" : 32,
+					"u3" : 24,
+				},
+
+				"u6sub-sub-sub-sub-block " :  {
+
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 1.0,
+						"x" : 1.0,
+						"y" : 1.0,
+						"z" : 1.0,
+					},
+
+					"u1sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 1.0,
+						"x" : 1.0,
+						"y" : 1.0,
+						"z" : 1.0,
+					},
+
+					"u2sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 1.0,
+						"x" : 1.0,
+						"y" : 1.0,
+						"z" : 1.0,
+					},
+					"u3" : 0.0,
+					"u4" : "\\n\\x0fwoodkeep_ground\\x10\\x01 \\x02",
+				},
+
+				"u7sub-sub-sub-sub-block " :  {
+
+					"u" : -98.48242950439453,
+					"v" : -117.39571380615234,
+					"w" : -60.0,
+					"x" : 19.458526611328125,
+					"y" : 56.113338470458984,
+					"z" : 120.0,
+				},
+				"u8" : "\\x81<\\xa5\\xc2\\\'!u\\xc2\\x00\\x00\\\\\\xc25\\xe5\\x13<T\\xfd\\x7f?\\x00\\x00\\x00\\x00\\x97\\x8e\\xad?)\\\\\\x8f>\\x81<\\xa5\\xc2\\\'!u\\xc2\\x00\\x00\\\\B5\\xe5\\x13<T\\xfd\\x7f?\\x00\\x00\\x00\\x00\\x97\\x8e\\xad?\\xecQ8?\\x81<\\xa5\\xc2\\x94\\x90\\x8e\\xc2\\x00\\x00pB\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?O\\xad\\xb2?\\xa4p=?\\x81<\\xa5\\xc2\\x94\\x90\\xac\\xc2ff\\\\B5\\xe5\\x13\\xbcT\\xfd\\x7f\\xbf\\x00\\x00\\x00\\x80c[\\xba?\"l8?=\\x0c\\x9e\\xc2\\x8f\\xda\\x99\\xc2\\x00\\x00\\\\\\xc2\\x1b\\xe5\\x13<U\\xfd\\x7f?\\x00\\x00\\x00\\x00\\x97\\x8e\\xad?)\\\\\\x8f>=\\x0c\\x9e\\xc2\\x8f\\xda\\x99\\xc2\\x00\\x00\\\\B\\x1b\\xe5\\x13<U\\xfd\\x7f?\\x00\\x00\\x00\\x00\\x97\\x8e\\xad?\\xecQ8?=\\x0c\\x9e\\xc2\\x8f\\xda\\xad\\xc2\\x00\\x00pB\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xdeo\\xa8?\\xa4p=?=\\x0c\\x9e\\xc2\\x8f\\xda\\xcb\\xc2ff\\\\B\\x1b\\xe5\\x13\\xbcU\\xfd\\x7f\\xbf\\x00\\x00\\x00\\x80\\xca\\xc1\\xa0?\"l8?=\\x0c\\x9e\\xc2\\x8f\\xda\\xcb\\xc2\\x9a\\x99[\\xc2\\x1b\\xe5\\x13\\xbcU\\xfd\\x7f\\xbf\\x00\\x00\\x00\\x80\\xca\\xc1\\xa0?\\x97\\x90\\x8f>=\\x0c\\x9e\\xc2\\x8f\\xda\\xad\\xc2\\x00\\x00p\\xc2\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xdeo\\xa8?\\xb8\\x1e\\x85>=\\x0c\\x9e\\xc2\\x8f\\xda\\x99\\xc2\\x00\\x00\\\\\\xc2\\x1b\\xe5\\x13<U\\xfd\\x7f?\\x00\\x00\\x00\\x00\\x97\\x8e\\xad?)\\\\\\x8f>=\\x0c\\x9e\\xc2\\x8f\\xda\\x99\\xc2\\x00\\x00\\\\B\\x1b\\xe5\\x13<U\\xfd\\x7f?\\x00\\x00\\x00\\x00\\x97\\x8e\\xad?\\xecQ8?=\\x0c\\x9e\\xc2\\x8f\\xda\\xad\\xc2\\x00\\x00pB\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\x97\\x8e\\xad?\\xc8\\xc4C?=\\x0c\\x9e\\xc2\\x8f\\xda\\xcb\\xc2ff\\\\B\\x1b\\xe5\\x13\\xbcU\\xfd\\x7f\\xbf\\x00\\x00\\x00\\x80\\x97\\x8e\\xad?m\\xedS?\\x01\\xf7\\xc4\\xc2\\xa0\\x80\\x99\\xc2\\x00\\x00\\\\\\xc2\\x1b\\xe5\\x13<U\\xfd\\x7f?\\x00\\x00\\x00\\x00\\xf2\\xfb\\xb5?)\\\\\\x8f>\\x01\\xf7\\xc4\\xc2\\xa0\\x80\\x99\\xc2\\x00\\x00\\\\B\\x1b\\xe5\\x13<U\\xfd\\x7f?\\x00\\x00\\x00\\x00\\xf2\\xfb\\xb5?\\xecQ8?\\x01\\xf7\\xc4\\xc2\\xa0\\x80\\xad\\xc2\\x00\\x00pB\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xf2\\xfb\\xb5?\\xc8\\xc4C?\\x01\\xf7\\xc4\\xc2\\xa0\\x80\\xcb\\xc2ff\\\\B\\x1b\\xe5\\x13\\xbcU\\xfd\\x7f\\xbf\\x00\\x00\\x00\\x80\\xf2\\xfb\\xb5?m\\xedS?\\x01\\xf7\\xc4\\xc2\\xa0\\x80\\x99\\xc2\\x00\\x00\\\\\\xc2\\x1b\\xe5\\x13<U\\xfd\\x7f?\\x00\\x00\\x00\\x00\\xf2\\xfb\\xb5?)\\\\\\x8f>\\x01\\xf7\\xc4\\xc2\\xa0\\x80\\x99\\xc2\\x00\\x00\\\\B\\x1b\\xe5\\x13<U\\xfd\\x7f?\\x00\\x00\\x00\\x00\\xf2\\xfb\\xb5?\\xecQ8?\\x01\\xf7\\xc4\\xc2\\xa0\\x80\\xad\\xc2\\x00\\x00pB\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xaa\\x1a\\xbb?\\xa4p=?\\x01\\xf7\\xc4\\xc2\\xa0\\x80\\xcb\\xc2ff\\\\B\\x1b\\xe5\\x13\\xbcU\\xfd\\x7f\\xbf\\x00\\x00\\x00\\x80\\xbe\\xc8\\xc2?\"l8?\\x01\\xf7\\xc4\\xc2\\xa0\\x80\\xcb\\xc2\\x9a\\x99[\\xc2\\x1b\\xe5\\x13\\xbcU\\xfd\\x7f\\xbf\\x00\\x00\\x00\\x80\\xbe\\xc8\\xc2?\\x97\\x90\\x8f>\\x01\\xf7\\xc4\\xc2\\xa0\\x80\\xad\\xc2\\x00\\x00p\\xc2\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xaa\\x1a\\xbb?\\xb8\\x1e\\x85>\\xb9\\xc6\\xbd\\xc2\\x9b\\xca\\xb8\\xc2\\x00\\x00\\\\\\xc2P\\xe5\\x13<S\\xfd\\x7f?\\x00\\x00\\x00\\x00\\xf2\\xfb\\xb5?)\\\\\\x8f>\\xb9\\xc6\\xbd\\xc2\\x9b\\xca\\xb8\\xc2\\x00\\x00\\\\BP\\xe5\\x13<S\\xfd\\x7f?\\x00\\x00\\x00\\x00\\xf2\\xfb\\xb5?\\xecQ8?\\xb9\\xc6\\xbd\\xc2\\x9b\\xca\\xcc\\xc2\\x00\\x00pB\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?9\\xdd\\xb0?\\xa4p=?\\xb9\\xc6\\xbd\\xc2\\x9b\\xca\\xea\\xc2ff\\\\BP\\xe5\\x13\\xbcS\\xfd\\x7f\\xbf\\x00\\x00\\x00\\x80%/\\xa9?\"l8?\\xb9\\xc6\\xbd\\xc2\\x9b\\xca\\xea\\xc2\\x9a\\x99[\\xc2P\\xe5\\x13\\xbcS\\xfd\\x7f\\xbf\\x00\\x00\\x00\\x80%/\\xa9?\\x97\\x90\\x8f>\\xb9\\xc6\\xbd\\xc2\\x9b\\xca\\xcc\\xc2\\x00\\x00p\\xc2\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?9\\xdd\\xb0?\\xb8\\x1e\\x85>",
+				"u9" : "\\x00\\x00\\x03\\x00\\x01\\x00\\x03\\x00\\x02\\x00\\x01\\x00\\x04\\x00\\x08\\x00\\t\\x00\\x04\\x00\\x07\\x00\\x08\\x00\\x04\\x00\\x05\\x00\\x07\\x00\\x05\\x00\\x06\\x00\\x07\\x00\\n\\x00\\x0e\\x00\\x0f\\x00\\x0b\\x00\\n\\x00\\x0f\\x00\\x0b\\x00\\x0f\\x00\\x10\\x00\\x0c\\x00\\x0b\\x00\\x10\\x00\\x0c\\x00\\x10\\x00\\x11\\x00\\r\\x00\\x0c\\x00\\x11\\x00\\x12\\x00\\x17\\x00\\x16\\x00\\x12\\x00\\x16\\x00\\x15\\x00\\x12\\x00\\x15\\x00\\x13\\x00\\x15\\x00\\x14\\x00\\x13\\x00\\x18\\x00\\x1c\\x00\\x1d\\x00\\x18\\x00\\x1b\\x00\\x1c\\x00\\x18\\x00\\x19\\x00\\x1b\\x00\\x19\\x00\\x1a\\x00\\x1b\\x00",
+			},
+
+			"u1sub-sub-sub-block " :  {
+
+				"u0" : 28,
+				"u1" : 20,
+
+				"u2sub-sub-sub-sub-block " :  {
+
+					"u0" : 4,
+					"u1" : 1,
+					"u2" : 2,
+					"u3" : 0,
+				},
+
+				"u3sub-sub-sub-sub-block " :  {
+
+					"u0" : 7,
+					"u1" : 3,
+					"u2" : 32,
+					"u3" : 0,
+				},
+
+				"u4sub-sub-sub-sub-block " :  {
+
+					"u0" : 7,
+					"u1" : 3,
+					"u2" : 32,
+					"u3" : 12,
+				},
+
+				"u5sub-sub-sub-sub-block " :  {
+
+					"u0" : 7,
+					"u1" : 2,
+					"u2" : 32,
+					"u3" : 24,
+				},
+
+				"u6sub-sub-sub-sub-block " :  {
+
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 1.0,
+						"x" : 1.0,
+						"y" : 1.0,
+						"z" : 1.0,
+					},
+
+					"u1sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 1.0,
+						"x" : 1.0,
+						"y" : 1.0,
+						"z" : 1.0,
+					},
+
+					"u2sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 1.0,
+						"x" : 1.0,
+						"y" : 1.0,
+						"z" : 1.0,
+					},
+					"u3" : 0.0,
+					"u4" : "\\n\\x0fwoodkeep_ground\\x10\\x01 \\x02",
+				},
+
+				"u7sub-sub-sub-sub-block " :  {
+
+					"u" : -130.2108154296875,
+					"v" : -132.86456298828125,
+					"w" : -60.0,
+					"x" : 35.32268524169922,
+					"y" : 40.644500732421875,
+					"z" : 120.0,
+				},
+				"u8" : "\\xb9\\xc6\\xbd\\xc2\\x9b\\xca\\xb8\\xc2\\x00\\x00\\\\\\xc2P\\xe5\\x13<S\\xfd\\x7f?\\x00\\x00\\x00\\x00\\xf2\\xfb\\xb5?)\\\\\\x8f>\\xb9\\xc6\\xbd\\xc2\\x9b\\xca\\xb8\\xc2\\x00\\x00\\\\BP\\xe5\\x13<S\\xfd\\x7f?\\x00\\x00\\x00\\x00\\xf2\\xfb\\xb5?\\xecQ8?\\xb9\\xc6\\xbd\\xc2\\x9b\\xca\\xcc\\xc2\\x00\\x00pB\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xf2\\xfb\\xb5?\\xc8\\xc4C?\\xb9\\xc6\\xbd\\xc2\\x9b\\xca\\xea\\xc2ff\\\\BP\\xe5\\x13\\xbcS\\xfd\\x7f\\xbf\\x00\\x00\\x00\\x80\\xf2\\xfb\\xb5?m\\xedS?q\\xb1\\xe4\\xc2\\xacp\\xb8\\xc2\\x00\\x00\\\\\\xc2P\\xe5\\x13<S\\xfd\\x7f?\\x00\\x00\\x00\\x00Ji\\xbe?)\\\\\\x8f>q\\xb1\\xe4\\xc2\\xacp\\xb8\\xc2\\x00\\x00\\\\BP\\xe5\\x13<S\\xfd\\x7f?\\x00\\x00\\x00\\x00Ji\\xbe?\\xecQ8?q\\xb1\\xe4\\xc2\\xacp\\xcc\\xc2\\x00\\x00pB\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?Ji\\xbe?\\xc8\\xc4C?q\\xb1\\xe4\\xc2\\xacp\\xea\\xc2ff\\\\BP\\xe5\\x13\\xbcS\\xfd\\x7f\\xbf\\x00\\x00\\x00\\x80Ji\\xbe?m\\xedS?q\\xb1\\xe4\\xc2\\xacp\\xb8\\xc2\\x00\\x00\\\\\\xc2P\\xe5\\x13<S\\xfd\\x7f?\\x00\\x00\\x00\\x00Ji\\xbe?)\\\\\\x8f>q\\xb1\\xe4\\xc2\\xacp\\xb8\\xc2\\x00\\x00\\\\BP\\xe5\\x13<S\\xfd\\x7f?\\x00\\x00\\x00\\x00Ji\\xbe?\\xecQ8?q\\xb1\\xe4\\xc2\\xacp\\xcc\\xc2\\x00\\x00pB\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\x02\\x88\\xc3?\\xa4p=?q\\xb1\\xe4\\xc2\\xacp\\xea\\xc2ff\\\\BP\\xe5\\x13\\xbcS\\xfd\\x7f\\xbf\\x00\\x00\\x00\\x80\\x176\\xcb?\"l8?q\\xb1\\xe4\\xc2\\xacp\\xea\\xc2\\x9a\\x99[\\xc2P\\xe5\\x13\\xbcS\\xfd\\x7f\\xbf\\x00\\x00\\x00\\x80\\x176\\xcb?\\x97\\x90\\x8f>q\\xb1\\xe4\\xc2\\xacp\\xcc\\xc2\\x00\\x00p\\xc2\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\x02\\x88\\xc3?\\xb8\\x1e\\x85>3\\x81\\xdd\\xc2\\xa7\\xba\\xd7\\xc2\\x00\\x00\\\\\\xc25\\xe5\\x13<T\\xfd\\x7f?\\x00\\x00\\x00\\x00Ji\\xbe?)\\\\\\x8f>3\\x81\\xdd\\xc2\\xa7\\xba\\xd7\\xc2\\x00\\x00\\\\B5\\xe5\\x13<T\\xfd\\x7f?\\x00\\x00\\x00\\x00Ji\\xbe?\\xecQ8?3\\x81\\xdd\\xc2\\xa7\\xba\\xeb\\xc2\\x00\\x00pB\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\x91J\\xb9?\\xa4p=?3\\x81\\xdd\\xc2T\\xdd\\x04\\xc3ff\\\\B5\\xe5\\x13\\xbcT\\xfd\\x7f\\xbf\\x00\\x00\\x00\\x80}\\x9c\\xb1?\"l8?3\\x81\\xdd\\xc2T\\xdd\\x04\\xc3\\x9a\\x99[\\xc25\\xe5\\x13\\xbcT\\xfd\\x7f\\xbf\\x00\\x00\\x00\\x80}\\x9c\\xb1?\\x97\\x90\\x8f>3\\x81\\xdd\\xc2\\xa7\\xba\\xeb\\xc2\\x00\\x00p\\xc2\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\x91J\\xb9?\\xb8\\x1e\\x85>3\\x81\\xdd\\xc2\\xa7\\xba\\xd7\\xc2\\x00\\x00\\\\\\xc25\\xe5\\x13<T\\xfd\\x7f?\\x00\\x00\\x00\\x00Ji\\xbe?)\\\\\\x8f>3\\x81\\xdd\\xc2\\xa7\\xba\\xd7\\xc2\\x00\\x00\\\\B5\\xe5\\x13<T\\xfd\\x7f?\\x00\\x00\\x00\\x00Ji\\xbe?\\xecQ8?3\\x81\\xdd\\xc2\\xa7\\xba\\xeb\\xc2\\x00\\x00pB\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?Ji\\xbe?\\xc8\\xc4C?3\\x81\\xdd\\xc2T\\xdd\\x04\\xc3ff\\\\B5\\xe5\\x13\\xbcT\\xfd\\x7f\\xbf\\x00\\x00\\x00\\x80Ji\\xbe?m\\xedS?\\xf85\\x02\\xc3\\xb8`\\xd7\\xc2\\x00\\x00\\\\\\xc25\\xe5\\x13<T\\xfd\\x7f?\\x00\\x00\\x00\\x00\\xa4\\xd6\\xc6?)\\\\\\x8f>\\xf85\\x02\\xc3\\xb8`\\xd7\\xc2\\x00\\x00\\\\B5\\xe5\\x13<T\\xfd\\x7f?\\x00\\x00\\x00\\x00\\xa4\\xd6\\xc6?\\xecQ8?\\xf85\\x02\\xc3\\xb8`\\xeb\\xc2\\x00\\x00pB\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xa4\\xd6\\xc6?\\xc8\\xc4C?\\xf85\\x02\\xc3\\\\\\xb0\\x04\\xc3ff\\\\B5\\xe5\\x13\\xbcT\\xfd\\x7f\\xbf\\x00\\x00\\x00\\x80\\xa4\\xd6\\xc6?m\\xedS?",
+				"u9" : "\\x00\\x00\\x04\\x00\\x05\\x00\\x01\\x00\\x00\\x00\\x05\\x00\\x01\\x00\\x05\\x00\\x06\\x00\\x02\\x00\\x01\\x00\\x06\\x00\\x02\\x00\\x06\\x00\\x07\\x00\\x03\\x00\\x02\\x00\\x07\\x00\\x08\\x00\\r\\x00\\x0c\\x00\\x08\\x00\\x0c\\x00\\x0b\\x00\\x08\\x00\\x0b\\x00\\t\\x00\\x0b\\x00\\n\\x00\\t\\x00\\x0e\\x00\\x12\\x00\\x13\\x00\\x0e\\x00\\x11\\x00\\x12\\x00\\x0e\\x00\\x0f\\x00\\x11\\x00\\x0f\\x00\\x10\\x00\\x11\\x00\\x14\\x00\\x18\\x00\\x19\\x00\\x15\\x00\\x14\\x00\\x19\\x00\\x15\\x00\\x19\\x00\\x1a\\x00\\x16\\x00\\x15\\x00\\x1a\\x00\\x16\\x00\\x1a\\x00\\x1b\\x00\\x17\\x00\\x16\\x00\\x1b\\x00",
+			},
+
+			"u1sub-sub-sub-block " :  {
+
+				"u0" : 6,
+				"u1" : 4,
+
+				"u2sub-sub-sub-sub-block " :  {
+
+					"u0" : 4,
+					"u1" : 1,
+					"u2" : 2,
+					"u3" : 0,
+				},
+
+				"u3sub-sub-sub-sub-block " :  {
+
+					"u0" : 7,
+					"u1" : 3,
+					"u2" : 32,
+					"u3" : 0,
+				},
+
+				"u4sub-sub-sub-sub-block " :  {
+
+					"u0" : 7,
+					"u1" : 3,
+					"u2" : 32,
+					"u3" : 12,
+				},
+
+				"u5sub-sub-sub-sub-block " :  {
+
+					"u0" : 7,
+					"u1" : 2,
+					"u2" : 32,
+					"u3" : 24,
+				},
+
+				"u6sub-sub-sub-sub-block " :  {
+
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 1.0,
+						"x" : 1.0,
+						"y" : 1.0,
+						"z" : 1.0,
+					},
+
+					"u1sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 1.0,
+						"x" : 1.0,
+						"y" : 1.0,
+						"z" : 1.0,
+					},
+
+					"u2sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 1.0,
+						"x" : 1.0,
+						"y" : 1.0,
+						"z" : 1.0,
+					},
+					"u3" : 0.0,
+					"u4" : "\\n\\x0fwoodkeep_ground\\x10\\x01 \\x02",
+				},
+
+				"u7sub-sub-sub-sub-block " :  {
+
+					"u" : -130.2108154296875,
+					"v" : -132.68890380859375,
+					"w" : -60.0,
+					"x" : 0.0,
+					"y" : 25.0,
+					"z" : 120.0,
+				},
+				"u8" : "\\xf85\\x02\\xc3\\xb8`\\xd7\\xc2\\x00\\x00\\\\\\xc25\\xe5\\x13<T\\xfd\\x7f?\\x00\\x00\\x00\\x00\\xa4\\xd6\\xc6?)\\\\\\x8f>\\xf85\\x02\\xc3\\xb8`\\xd7\\xc2\\x00\\x00\\\\B5\\xe5\\x13<T\\xfd\\x7f?\\x00\\x00\\x00\\x00\\xa4\\xd6\\xc6?\\xecQ8?\\xf85\\x02\\xc3\\xb8`\\xeb\\xc2\\x00\\x00pB\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\\\\\xf5\\xcb?\\xa4p=?\\xf85\\x02\\xc3\\\\\\xb0\\x04\\xc3ff\\\\B5\\xe5\\x13\\xbcT\\xfd\\x7f\\xbf\\x00\\x00\\x00\\x80q\\xa3\\xd3?\"l8?\\xf85\\x02\\xc3\\\\\\xb0\\x04\\xc3\\x9a\\x99[\\xc25\\xe5\\x13\\xbcT\\xfd\\x7f\\xbf\\x00\\x00\\x00\\x80q\\xa3\\xd3?\\x97\\x90\\x8f>\\xf85\\x02\\xc3\\xb8`\\xeb\\xc2\\x00\\x00p\\xc2\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\\\\\xf5\\xcb?\\xb8\\x1e\\x85>",
+				"u9" : "\\x00\\x00\\x05\\x00\\x04\\x00\\x00\\x00\\x04\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x01\\x00\\x03\\x00\\x02\\x00\\x01\\x00",
+			},
+
+			"u1sub-sub-sub-block " :  {
+
+				"u0" : 40,
+				"u1" : 20,
+
+				"u2sub-sub-sub-sub-block " :  {
+
+					"u0" : 4,
+					"u1" : 1,
+					"u2" : 2,
+					"u3" : 0,
+				},
+
+				"u3sub-sub-sub-sub-block " :  {
+
+					"u0" : 7,
+					"u1" : 3,
+					"u2" : 32,
+					"u3" : 0,
+				},
+
+				"u4sub-sub-sub-sub-block " :  {
+
+					"u0" : 7,
+					"u1" : 3,
+					"u2" : 32,
+					"u3" : 12,
+				},
+
+				"u5sub-sub-sub-sub-block " :  {
+
+					"u0" : 7,
+					"u1" : 2,
+					"u2" : 32,
+					"u3" : 24,
+				},
+
+				"u6sub-sub-sub-sub-block " :  {
+
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 1.0,
+						"x" : 1.0,
+						"y" : 1.0,
+						"z" : 1.0,
+					},
+
+					"u1sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 1.0,
+						"x" : 1.0,
+						"y" : 1.0,
+						"z" : 1.0,
+					},
+
+					"u2sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 1.0,
+						"x" : 1.0,
+						"y" : 1.0,
+						"z" : 1.0,
+					},
+					"u3" : 0.0,
+					"u4" : "\\n\\x0cforest_trees\\x10\\x00 \\x02",
+				},
+
+				"u7sub-sub-sub-sub-block " :  {
+
+					"u" : -32.02564239501953,
+					"v" : -30.520347595214844,
+					"w" : -50.0,
+					"x" : 143.37237548828125,
+					"y" : 154.8369903564453,
+					"z" : 100.0,
+				},
+				"u8" : "\\x7f\\x80\\xddB\\x1f\\xa2\\xf8B\\x00\\x00H\\xc2]\\xd0\\x7f\\xbfe#\\x1c\\xbd\\x00\\x00\\x00\\x00\\x00\\x00\\x00?\\x9a\\x99\\x99>\\x7f\\x80\\xddB\\x1f\\xa2\\xf8B\\x00\\x00HB]\\xd0\\x7f\\xbfe#\\x1c\\xbd\\x00\\x00\\x00\\x00\\x00\\x00\\x00?333?\\x87\\xb1\\xdeB\\x01f\\xd9B\\x00\\x00H\\xc2]\\xd0\\x7f\\xbfe#\\x1c\\xbd\\x00\\x00\\x00\\x00\\xfd\\x00\\x10?\\x9a\\x99\\x99>\\x87\\xb1\\xdeB\\x01f\\xd9B\\x00\\x00HB]\\xd0\\x7f\\xbfe#\\x1c\\xbd\\x00\\x00\\x00\\x00\\xfd\\x00\\x10?333?\\xff\\xc5\\xbdB\\x13\\xb2\\xd9B\\x00\\x00H\\xc2]\\xd0\\x7f\\xbfq%\\x1c\\xbd\\x00\\x00\\x00\\x00\\xfd\\x00\\x10?\\x9a\\x99\\x99>\\xff\\xc5\\xbdB\\x13\\xb2\\xd9B\\x00\\x00HB]\\xd0\\x7f\\xbfq%\\x1c\\xbd\\x00\\x00\\x00\\x00\\xfd\\x00\\x10?333?\\x0b\\xf7\\xbeB\\xf5u\\xbaB\\x00\\x00H\\xc2]\\xd0\\x7f\\xbfq%\\x1c\\xbd\\x00\\x00\\x00\\x00\\xfb\\x01 ?\\x9a\\x99\\x99>\\x0b\\xf7\\xbeB\\xf5u\\xbaB\\x00\\x00HB]\\xd0\\x7f\\xbfq%\\x1c\\xbd\\x00\\x00\\x00\\x00\\xfb\\x01 ?333?\\x7f\\x0b\\x9eB\\x07\\xc2\\xbaB\\x00\\x00H\\xc2[\\xd0\\x7f\\xbf\\x82(\\x1c\\xbd\\x00\\x00\\x00\\x00\\xfb\\x01 ?\\x9a\\x99\\x99>\\x7f\\x0b\\x9eB\\x07\\xc2\\xbaB\\x00\\x00HB[\\xd0\\x7f\\xbf\\x82(\\x1c\\xbd\\x00\\x00\\x00\\x00\\xfb\\x01 ?333?\\x91<\\x9fB\\xe9\\x85\\x9bB\\x00\\x00H\\xc2[\\xd0\\x7f\\xbf\\x82(\\x1c\\xbd\\x00\\x00\\x00\\x00\\xf8\\x020?\\x9a\\x99\\x99>\\x91<\\x9fB\\xe9\\x85\\x9bB\\x00\\x00HB[\\xd0\\x7f\\xbf\\x82(\\x1c\\xbd\\x00\\x00\\x00\\x00\\xf8\\x020?333?~\\xa2|B\\xfb\\xd1\\x9bB\\x00\\x00H\\xc2m\\xd0\\x7f\\xbf\\x18\\n\\x1c\\xbd\\x00\\x00\\x00\\x00\\xf8\\x020?\\x9a\\x99\\x99>~\\xa2|B\\xfb\\xd1\\x9bB\\x00\\x00HBm\\xd0\\x7f\\xbf\\x18\\n\\x1c\\xbd\\x00\\x00\\x00\\x00\\xf8\\x020?333?+\\x04\\x7fB\\xba+yB\\x00\\x00H\\xc2m\\xd0\\x7f\\xbf\\x18\\n\\x1c\\xbd\\x00\\x00\\x00\\x00\\xf5\\x03@?\\x9a\\x99\\x99>+\\x04\\x7fB\\xba+yB\\x00\\x00HBm\\xd0\\x7f\\xbf\\x18\\n\\x1c\\xbd\\x00\\x00\\x00\\x00\\xf5\\x03@?333?~-=B\\xde\\xc3yB\\x00\\x00H\\xc2k\\xd0\\x7f\\xbf\\xa6\\x0c\\x1c\\xbd\\x00\\x00\\x00\\x00\\xf5\\x03@?\\x9a\\x99\\x99>~-=B\\xde\\xc3yB\\x00\\x00HBk\\xd0\\x7f\\xbf\\xa6\\x0c\\x1c\\xbd\\x00\\x00\\x00\\x00\\xf5\\x03@?333?5\\x8f?B\\xa2K;B\\x00\\x00H\\xc2k\\xd0\\x7f\\xbf\\xa6\\x0c\\x1c\\xbd\\x00\\x00\\x00\\x00\\xf1\\x04P?\\x9a\\x99\\x99>5\\x8f?B\\xa2K;B\\x00\\x00HBk\\xd0\\x7f\\xbf\\xa6\\x0c\\x1c\\xbd\\x00\\x00\\x00\\x00\\xf1\\x04P?333?\\xfcp\\xfbA\\xc6\\xe3;B\\x00\\x00H\\xc2k\\xd0\\x7f\\xbf5\\x0f\\x1c\\xbd\\x00\\x00\\x00\\x00\\xf1\\x04P?\\x9a\\x99\\x99>\\xfcp\\xfbA\\xc6\\xe3;B\\x00\\x00HBk\\xd0\\x7f\\xbf5\\x0f\\x1c\\xbd\\x00\\x00\\x00\\x00\\xf1\\x04P?333??\\x1a\\x00B\\x14\\xd7\\xfaA\\x00\\x00H\\xc2k\\xd0\\x7f\\xbf5\\x0f\\x1c\\xbd\\x00\\x00\\x00\\x00\\xee\\x05`?\\x9a\\x99\\x99>?\\x1a\\x00B\\x14\\xd7\\xfaA\\x00\\x00HBk\\xd0\\x7f\\xbf5\\x0f\\x1c\\xbd\\x00\\x00\\x00\\x00\\xee\\x05`?333?x\\x10yA\\\\\\x07\\xfcA\\x00\\x00H\\xc2\\x82\\xd0\\x7f\\xbf\\xe0\\xe8\\x1b\\xbd\\x00\\x00\\x00\\x00\\xee\\x05`?\\x9a\\x99\\x99>x\\x10yA\\\\\\x07\\xfcA\\x00\\x00HB\\x82\\xd0\\x7f\\xbf\\xe0\\xe8\\x1b\\xbd\\x00\\x00\\x00\\x00\\xee\\x05`?333?\\x92J\\x81A\\xc8-~A\\x00\\x00H\\xc2\\x82\\xd0\\x7f\\xbf\\xe0\\xe8\\x1b\\xbd\\x00\\x00\\x00\\x00\\xe8\\x06p?\\x9a\\x99\\x99>\\x92J\\x81A\\xc8-~A\\x00\\x00HB\\x82\\xd0\\x7f\\xbf\\xe0\\xe8\\x1b\\xbd\\x00\\x00\\x00\\x00\\xe8\\x06p?333?\\x001\\x98\\xbe,G\\x80A\\x00\\x00H\\xc2\\x94\\xd0\\x7f\\xbf\\xb7\\xca\\x1b\\xbd\\x00\\x00\\x00\\x00\\xe8\\x06p?\\x9a\\x99\\x99>\\x001\\x98\\xbe,G\\x80A\\x00\\x00HB\\x94\\xd0\\x7f\\xbf\\xb7\\xca\\x1b\\xbd\\x00\\x00\\x00\\x00\\xe8\\x06p?333?\\x80)\\x98>\\x00\\xad\\xd5>\\x00\\x00H\\xc2\\x94\\xd0\\x7f\\xbf\\xb7\\xca\\x1b\\xbd\\x00\\x00\\x00\\x00\\xf1\\x03\\x80?\\x9a\\x99\\x99>\\x80)\\x98>\\x00\\xad\\xd5>\\x00\\x00HB\\x94\\xd0\\x7f\\xbf\\xb7\\xca\\x1b\\xbd\\x00\\x00\\x00\\x00\\xf1\\x03\\x80?333?\\x84J\\x81\\xc1\\x80\\xdf\\x10?\\x00\\x00H\\xc2\\x98\\xd0\\x7f\\xbf\\x18\\xc5\\x1b\\xbd\\x00\\x00\\x00\\x00\\xf1\\x03\\x80?\\x9a\\x99\\x99>\\x84J\\x81\\xc1\\x80\\xdf\\x10?\\x00\\x00HB\\x98\\xd0\\x7f\\xbf\\x18\\xc5\\x1b\\xbd\\x00\\x00\\x00\\x00\\xf1\\x03\\x80?333?\\x8c\\x12y\\xc1\\xf8\\xd2p\\xc1\\x00\\x00H\\xc2\\x98\\xd0\\x7f\\xbf\\x18\\xc5\\x1b\\xbd\\x00\\x00\\x00\\x00n\\x04\\x88?\\x9a\\x99\\x99>\\x8c\\x12y\\xc1\\xf8\\xd2p\\xc1\\x00\\x00HB\\x98\\xd0\\x7f\\xbf\\x18\\xc5\\x1b\\xbd\\x00\\x00\\x00\\x00n\\x04\\x88?333?B\\x1a\\x00\\xc2hrn\\xc1\\x00\\x00H\\xc2\\x96\\xd0\\x7f\\xbf\\xa6\\xc7\\x1b\\xbd\\x00\\x00\\x00\\x00n\\x04\\x88?\\x9a\\x99\\x99>B\\x1a\\x00\\xc2hrn\\xc1\\x00\\x00HB\\x96\\xd0\\x7f\\xbf\\xa6\\xc7\\x1b\\xbd\\x00\\x00\\x00\\x00n\\x04\\x88?333?2s\\xfb\\xc1\\xac)\\xf4\\xc1\\x00\\x00H\\xc2\\x96\\xd0\\x7f\\xbf\\xa6\\xc7\\x1b\\xbd\\x00\\x00\\x00\\x00\\xeb\\x04\\x90?\\x9a\\x99\\x99>2s\\xfb\\xc1\\xac)\\xf4\\xc1\\x00\\x00HB\\x96\\xd0\\x7f\\xbf\\xa6\\xc7\\x1b\\xbd\\x00\\x00\\x00\\x00\\xeb\\x04\\x90?333?",
+				"u9" : "\\x00\\x00\\x02\\x00\\x03\\x00\\x01\\x00\\x00\\x00\\x03\\x00\\x04\\x00\\x06\\x00\\x07\\x00\\x05\\x00\\x04\\x00\\x07\\x00\\x08\\x00\\n\\x00\\x0b\\x00\\t\\x00\\x08\\x00\\x0b\\x00\\x0c\\x00\\x0e\\x00\\x0f\\x00\\r\\x00\\x0c\\x00\\x0f\\x00\\x10\\x00\\x12\\x00\\x13\\x00\\x11\\x00\\x10\\x00\\x13\\x00\\x14\\x00\\x16\\x00\\x17\\x00\\x15\\x00\\x14\\x00\\x17\\x00\\x18\\x00\\x1a\\x00\\x1b\\x00\\x19\\x00\\x18\\x00\\x1b\\x00\\x1c\\x00\\x1e\\x00\\x1f\\x00\\x1d\\x00\\x1c\\x00\\x1f\\x00 \\x00\"\\x00#\\x00!\\x00 \\x00#\\x00$\\x00&\\x00\\\'\\x00%\\x00$\\x00\\\'\\x00",
+			},
+
+			"u1sub-sub-sub-block " :  {
+
+				"u0" : 30,
+				"u1" : 18,
+
+				"u2sub-sub-sub-sub-block " :  {
+
+					"u0" : 4,
+					"u1" : 1,
+					"u2" : 2,
+					"u3" : 0,
+				},
+
+				"u3sub-sub-sub-sub-block " :  {
+
+					"u0" : 7,
+					"u1" : 3,
+					"u2" : 32,
+					"u3" : 0,
+				},
+
+				"u4sub-sub-sub-sub-block " :  {
+
+					"u0" : 7,
+					"u1" : 3,
+					"u2" : 32,
+					"u3" : 12,
+				},
+
+				"u5sub-sub-sub-sub-block " :  {
+
+					"u0" : 7,
+					"u1" : 2,
+					"u2" : 32,
+					"u3" : 24,
+				},
+
+				"u6sub-sub-sub-sub-block " :  {
+
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 1.0,
+						"x" : 1.0,
+						"y" : 1.0,
+						"z" : 1.0,
+					},
+
+					"u1sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 1.0,
+						"x" : 1.0,
+						"y" : 1.0,
+						"z" : 1.0,
+					},
+
+					"u2sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 1.0,
+						"x" : 1.0,
+						"y" : 1.0,
+						"z" : 1.0,
+					},
+					"u3" : 0.0,
+					"u4" : "\\n\\x0cforest_trees\\x10\\x00 \\x02",
+				},
+
+				"u7sub-sub-sub-sub-block " :  {
+
+					"u" : -127.21094512939453,
+					"v" : -124.31664276123047,
+					"w" : -50.0,
+					"x" : 254.42189025878906,
+					"y" : 248.48471069335938,
+					"z" : 100.0,
+				},
+				"u8" : "B\\x8f?\\xc2d\\xf9\\xf2\\xc1\\x00\\x00H\\xc2\\x94\\xd0\\x7f\\xbf4\\xca\\x1b\\xbd\\x00\\x00\\x00\\x00\\xeb\\x04\\x90?\\x9a\\x99\\x99>B\\x8f?\\xc2d\\xf9\\xf2\\xc1\\x00\\x00HB\\x94\\xd0\\x7f\\xbf4\\xca\\x1b\\xbd\\x00\\x00\\x00\\x00\\xeb\\x04\\x90?333?\\x8f.=\\xc2\\xee\\xf47\\xc2\\x00\\x00H\\xc2\\x94\\xd0\\x7f\\xbf4\\xca\\x1b\\xbd\\x00\\x00\\x00\\x00h\\x05\\x98?\\x9a\\x99\\x99>\\x8f.=\\xc2\\xee\\xf47\\xc2\\x00\\x00HB\\x94\\xd0\\x7f\\xbf4\\xca\\x1b\\xbd\\x00\\x00\\x00\\x00h\\x05\\x98?333?\"\\x04\\x7f\\xc2\\xca\\\\7\\xc2\\x00\\x00H\\xc2\\x98\\xd0\\x7f\\xbfS\\xc4\\x1b\\xbd\\x00\\x00\\x00\\x00h\\x05\\x98?\\x9a\\x99\\x99>\"\\x04\\x7f\\xc2\\xca\\\\7\\xc2\\x00\\x00HB\\x98\\xd0\\x7f\\xbfS\\xc4\\x1b\\xbd\\x00\\x00\\x00\\x00h\\x05\\x98?333?\\x86\\xa3|\\xc2\\x06\\xd5u\\xc2\\x00\\x00H\\xc2\\x98\\xd0\\x7f\\xbfS\\xc4\\x1b\\xbd\\x00\\x00\\x00\\x00\\xe5\\x05\\xa0?\\x9a\\x99\\x99>\\x86\\xa3|\\xc2\\x06\\xd5u\\xc2\\x00\\x00HB\\x98\\xd0\\x7f\\xbfS\\xc4\\x1b\\xbd\\x00\\x00\\x00\\x00\\xe5\\x05\\xa0?333?\\x91<\\x9f\\xc2\\xe2<u\\xc2\\x00\\x00H\\xc2\\x96\\xd0\\x7f\\xbfd\\xc7\\x1b\\xbd\\x00\\x00\\x00\\x00\\xe5\\x05\\xa0?\\x9a\\x99\\x99>\\x91<\\x9f\\xc2\\xe2<u\\xc2\\x00\\x00HB\\x96\\xd0\\x7f\\xbfd\\xc7\\x1b\\xbd\\x00\\x00\\x00\\x00\\xe5\\x05\\xa0?333?=\\x0c\\x9e\\xc2\\x8f\\xda\\x99\\xc2\\x00\\x00H\\xc2\\x96\\xd0\\x7f\\xbfd\\xc7\\x1b\\xbd\\x00\\x00\\x00\\x00b\\x06\\xa8?\\x9a\\x99\\x99>=\\x0c\\x9e\\xc2\\x8f\\xda\\x99\\xc2\\x00\\x00HB\\x96\\xd0\\x7f\\xbfd\\xc7\\x1b\\xbd\\x00\\x00\\x00\\x00b\\x06\\xa8?333?\\x11\\xf7\\xbe\\xc2}\\x8e\\x99\\xc2\\x00\\x00H\\xc2\\x94\\xd0\\x7f\\xbfo\\xc9\\x1b\\xbd\\x00\\x00\\x00\\x00b\\x06\\xa8?\\x9a\\x99\\x99>\\x11\\xf7\\xbe\\xc2}\\x8e\\x99\\xc2\\x00\\x00HB\\x94\\xd0\\x7f\\xbfo\\xc9\\x1b\\xbd\\x00\\x00\\x00\\x00b\\x06\\xa8?333?\\xb9\\xc6\\xbd\\xc2\\x9b\\xca\\xb8\\xc2\\x00\\x00H\\xc2\\x94\\xd0\\x7f\\xbfo\\xc9\\x1b\\xbd\\x00\\x00\\x00\\x00\\xdf\\x06\\xb0?\\x9a\\x99\\x99>\\xb9\\xc6\\xbd\\xc2\\x9b\\xca\\xb8\\xc2\\x00\\x00HB\\x94\\xd0\\x7f\\xbfo\\xc9\\x1b\\xbd\\x00\\x00\\x00\\x00\\xdf\\x06\\xb0?333?\\x81\\xb1\\xde\\xc2\\x89~\\xb8\\xc2\\x00\\x00H\\xc2\\x98\\xd0\\x7f\\xbfS\\xc4\\x1b\\xbd\\x00\\x00\\x00\\x00\\xdf\\x06\\xb0?\\x9a\\x99\\x99>\\x81\\xb1\\xde\\xc2\\x89~\\xb8\\xc2\\x00\\x00HB\\x98\\xd0\\x7f\\xbfS\\xc4\\x1b\\xbd\\x00\\x00\\x00\\x00\\xdf\\x06\\xb0?333?3\\x81\\xdd\\xc2\\xa7\\xba\\xd7\\xc2\\x00\\x00H\\xc2\\x98\\xd0\\x7f\\xbfS\\xc4\\x1b\\xbd\\x00\\x00\\x00\\x00\\\\\\x07\\xb8?\\x9a\\x99\\x99>3\\x81\\xdd\\xc2\\xa7\\xba\\xd7\\xc2\\x00\\x00HB\\x98\\xd0\\x7f\\xbfS\\xc4\\x1b\\xbd\\x00\\x00\\x00\\x00\\\\\\x07\\xb8?333?\\x01l\\xfe\\xc2\\x95n\\xd7\\xc2\\x00\\x00H\\xc2-\\xfb\\x7f\\xbf4\\xaeF\\xbc\\x00\\x00\\x00\\x00\\\\\\x07\\xb8?\\x9a\\x99\\x99>\\x01l\\xfe\\xc2\\x95n\\xd7\\xc2\\x00\\x00HB-\\xfb\\x7f\\xbf4\\xaeF\\xbc\\x00\\x00\\x00\\x00\\\\\\x07\\xb8?333?\\xc1\\x0f\\xfe\\xc2U%\\xf5\\xc2\\x00\\x00H\\xc2\\x9b`\\xc7\\xbe\\xeb\\xcak\\xbf\\x00\\x00\\x00\\x00\\xd4\\xa2\\xbf?\\x9a\\x99\\x99>\\xc1\\x0f\\xfe\\xc2U%\\xf5\\xc2\\x00\\x00HB\\x9b`\\xc7\\xbe\\xeb\\xcak\\xbf\\x00\\x00\\x00\\x00\\xd4\\xa2\\xbf?333?!\\xe4\\xaf\\xc2\\x1f\\xa2\\xf8\\xc2\\x00\\x00H\\xc2\\xe6X(?N\\xdc@\\xbf\\x00\\x00\\x00\\x00\\xe7\\xaa\\xd3?\\x9a\\x99\\x99>!\\xe4\\xaf\\xc2\\x1f\\xa2\\xf8\\xc2\\x00\\x00HB\\xe6X(?N\\xdc@\\xbf\\x00\\x00\\x00\\x00\\xe7\\xaa\\xd3?333?\\xdf\\x18\\xfdB\\x16\\x8d\\xc5B\\x00\\x00H\\xc2D\\x88A?\\x1b\\x93\\\'\\xbf\\x00\\x00\\x00\\x00\\x88\\x0f9@\\x9a\\x99\\x99>\\xdf\\x18\\xfdB\\x16\\x8d\\xc5B\\x00\\x00HBD\\x88A?\\x1b\\x93\\\'\\xbf\\x00\\x00\\x00\\x00\\x88\\x0f9@333?\\x01l\\xfeB\\rV\\xf8B\\x00\\x00H\\xc2\\xb7\\xe9\\x7f?\\t\\x9e\\xd5\\xbc\\x00\\x00\\x00\\x008\\x90?@\\x9a\\x99\\x99>\\x01l\\xfeB\\rV\\xf8B\\x00\\x00HB\\xb7\\xe9\\x7f?\\t\\x9e\\xd5\\xbc\\x00\\x00\\x00\\x008\\x90?@333?",
+				"u9" : "\\x00\\x00\\x02\\x00\\x03\\x00\\x01\\x00\\x00\\x00\\x03\\x00\\x04\\x00\\x06\\x00\\x07\\x00\\x05\\x00\\x04\\x00\\x07\\x00\\x08\\x00\\n\\x00\\x0b\\x00\\t\\x00\\x08\\x00\\x0b\\x00\\x0c\\x00\\x0e\\x00\\x0f\\x00\\r\\x00\\x0c\\x00\\x0f\\x00\\x10\\x00\\x12\\x00\\x13\\x00\\x11\\x00\\x10\\x00\\x13\\x00\\x14\\x00\\x16\\x00\\x17\\x00\\x15\\x00\\x14\\x00\\x17\\x00\\x16\\x00\\x18\\x00\\x19\\x00\\x17\\x00\\x16\\x00\\x19\\x00\\x18\\x00\\x1a\\x00\\x1b\\x00\\x19\\x00\\x18\\x00\\x1b\\x00\\x1a\\x00\\x1c\\x00\\x1d\\x00\\x1b\\x00\\x1a\\x00\\x1d\\x00",
+			},
+
+			"u2sub-sub-sub-block " :  {
+
+				"u0" : 60,
+				"u1" : 20,
+
+				"u2sub-sub-sub-sub-block " :  {
+
+					"u0" : 7,
+					"u1" : 3,
+					"u2" : 32,
+					"u3" : 0,
+				},
+
+				"u3sub-sub-sub-sub-block " :  {
+
+					"u0" : 7,
+					"u1" : 3,
+					"u2" : 32,
+					"u3" : 12,
+				},
+
+				"u4sub-sub-sub-sub-block " :  {
+
+					"u0" : 7,
+					"u1" : 2,
+					"u2" : 32,
+					"u3" : 24,
+				},
+
+				"u5sub-sub-sub-sub-block " :  {
+
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 1.0,
+						"x" : 1.0,
+						"y" : 1.0,
+						"z" : 1.0,
+					},
+
+					"u1sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 1.0,
+						"x" : 1.0,
+						"y" : 1.0,
+						"z" : 1.0,
+					},
+
+					"u2sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 1.0,
+						"x" : 1.0,
+						"y" : 1.0,
+						"z" : 1.0,
+					},
+					"u3" : 0.0,
+
+					"u4sub-sub-sub-sub-sub-block " :  {
+
+						"u0" : "forest_trees",
+						"u1" : 0,
+						"u2" : 2,
+					},
+				},
+
+				"u3sub-sub-sub-sub-block " :  {
+
+					"u" : -87.94556427001953,
+					"v" : -124.31664276123047,
+					"w" : 50.0,
+					"x" : 214.494140625,
+					"y" : 233.015869140625,
+					"z" : 0.0,
+				},
+				"u7" : "\\x86\\xa3|\\xc2\\x06\\xd5u\\xc2\\x00\\x00HB\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80\\x00\\x00\\x80?DL}>K\"\\x82>\\x8f.=\\xc2\\xee\\xf47\\xc2\\x00\\x00HB\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80\\x00\\x00\\x80?\\x8e#\\x9f>l\\xd0\\xa1>\"\\x04\\x7f\\xc2\\xca\\\\7\\xc2\\x00\\x00HB\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80\\x00\\x00\\x80?\\x0c\\xddz>Q\\x1e\\xa2>\\xdf\\x18\\xfdB\\x16\\x8d\\xc5B\\x00\\x00HB\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xfa\\xca\\x80?l%e?\\x87\\xb1\\xdeB\\x01f\\xd9B\\x00\\x00HB\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xe1\\x04r?\\xdaNo?\\x0b\\xf7\\xbeB\\xf5u\\xbaB\\x00\\x00HB\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?*\\xc6a?\\xc9w_?\\xdf\\x18\\xfdB\\x16\\x8d\\xc5B\\x00\\x00HB\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xfa\\xca\\x80?l%e?\\x0b\\xf7\\xbeB\\xf5u\\xbaB\\x00\\x00HB\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?*\\xc6a?\\xc9w_?\\x91<\\x9fB\\xe9\\x85\\x9bB\\x00\\x00HB\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?u\\x87Q?\\xb9\\xa0O?\\xdf\\x18\\xfdB\\x16\\x8d\\xc5B\\x00\\x00HB\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xfa\\xca\\x80?l%e?\\x91<\\x9fB\\xe9\\x85\\x9bB\\x00\\x00HB\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?u\\x87Q?\\xb9\\xa0O?+\\x04\\x7fB\\xba+yB\\x00\\x00HB\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xbfHA?\\xa8\\xc9??\\xdf\\x18\\xfdB\\x16\\x8d\\xc5B\\x00\\x00HB\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xfa\\xca\\x80?l%e?+\\x04\\x7fB\\xba+yB\\x00\\x00HB\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xbfHA?\\xa8\\xc9??5\\x8f?B\\xa2K;B\\x00\\x00HB\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\t\\n1?\\x98\\xf2/?\\xdf\\x18\\xfdB\\x16\\x8d\\xc5B\\x00\\x00HB\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xfa\\xca\\x80?l%e?5\\x8f?B\\xa2K;B\\x00\\x00HB\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\t\\n1?\\x98\\xf2/??\\x1a\\x00B\\x14\\xd7\\xfaA\\x00\\x00HB\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?T\\xcb ?\\x88\\x1b ?\\xdf\\x18\\xfdB\\x16\\x8d\\xc5B\\x00\\x00HB\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xfa\\xca\\x80?l%e??\\x1a\\x00B\\x14\\xd7\\xfaA\\x00\\x00HB\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?T\\xcb ?\\x88\\x1b ?\\x92J\\x81A\\xc8-~A\\x00\\x00HB\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\x9e\\x8c\\x10?wD\\x10?\\xdf\\x18\\xfdB\\x16\\x8d\\xc5B\\x00\\x00HB\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xfa\\xca\\x80?l%e?\\x92J\\x81A\\xc8-~A\\x00\\x00HB\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\x9e\\x8c\\x10?wD\\x10?\\x80)\\x98>\\x00\\xad\\xd5>\\x00\\x00HB\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xe8M\\x00?gm\\x00?\\xdf\\x18\\xfdB\\x16\\x8d\\xc5B\\x00\\x00HB\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xfa\\xca\\x80?l%e?\\x80)\\x98>\\x00\\xad\\xd5>\\x00\\x00HB\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xe8M\\x00?gm\\x00?\\x8c\\x12y\\xc1\\xf8\\xd2p\\xc1\\x00\\x00HB\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?e\\x1e\\xe0>\\xad,\\xe1>\\xdf\\x18\\xfdB\\x16\\x8d\\xc5B\\x00\\x00HB\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xfa\\xca\\x80?l%e?\\x8c\\x12y\\xc1\\xf8\\xd2p\\xc1\\x00\\x00HB\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?e\\x1e\\xe0>\\xad,\\xe1>2s\\xfb\\xc1\\xac)\\xf4\\xc1\\x00\\x00HB\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xf9\\xa0\\xbf>\\x8c~\\xc1>\\xdf\\x18\\xfdB\\x16\\x8d\\xc5B\\x00\\x00HB\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xfa\\xca\\x80?l%e?2s\\xfb\\xc1\\xac)\\xf4\\xc1\\x00\\x00HB\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xf9\\xa0\\xbf>\\x8c~\\xc1>\\x8f.=\\xc2\\xee\\xf47\\xc2\\x00\\x00HB\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\x8e#\\x9f>l\\xd0\\xa1>\\xdf\\x18\\xfdB\\x16\\x8d\\xc5B\\x00\\x00HB\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\xff\\xff\\x7f?\\xfa\\xca\\x80?l%e?\\x8f.=\\xc2\\xee\\xf47\\xc2\\x00\\x00HB\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\xff\\xff\\x7f?\\x8e#\\x9f>l\\xd0\\xa1>\\x86\\xa3|\\xc2\\x06\\xd5u\\xc2\\x00\\x00HB\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\xff\\xff\\x7f?DL}>K\"\\x82>\\xdf\\x18\\xfdB\\x16\\x8d\\xc5B\\x00\\x00HB\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xfa\\xca\\x80?l%e?\\x86\\xa3|\\xc2\\x06\\xd5u\\xc2\\x00\\x00HB\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?DL}>K\"\\x82>=\\x0c\\x9e\\xc2\\x8f\\xda\\x99\\xc2\\x00\\x00HB\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?oQ<>T\\xe8D>\\xdf\\x18\\xfdB\\x16\\x8d\\xc5B\\x00\\x00HB\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xfa\\xca\\x80?l%e?=\\x0c\\x9e\\xc2\\x8f\\xda\\x99\\xc2\\x00\\x00HB\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?oQ<>T\\xe8D>!\\xe4\\xaf\\xc2\\x1f\\xa2\\xf8\\xc2\\x00\\x00HB\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?d\\xc6\\x17>T#3;2s\\xfb\\xc1\\xac)\\xf4\\xc1\\x00\\x00HB\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xf9\\xa0\\xbf>\\x8c~\\xc1>B\\x8f?\\xc2d\\xf9\\xf2\\xc1\\x00\\x00HB\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xe6\\xeb\\x9d>r\\xcc\\xc1>\\x8f.=\\xc2\\xee\\xf47\\xc2\\x00\\x00HB\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\x8e#\\x9f>l\\xd0\\xa1>\\x8c\\x12y\\xc1\\xf8\\xd2p\\xc1\\x00\\x00HB\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?e\\x1e\\xe0>\\xad,\\xe1>B\\x1a\\x00\\xc2hrn\\xc1\\x00\\x00HB\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?Wi\\xbe>\\x92z\\xe1>2s\\xfb\\xc1\\xac)\\xf4\\xc1\\x00\\x00HB\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xf9\\xa0\\xbf>\\x8c~\\xc1>\\x80)\\x98>\\x00\\xad\\xd5>\\x00\\x00HB\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xe8M\\x00?gm\\x00?\\x84J\\x81\\xc1\\x80\\xdf\\x10?\\x00\\x00HB\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xc8\\xe6\\xde>Z\\x94\\x00?\\x8c\\x12y\\xc1\\xf8\\xd2p\\xc1\\x00\\x00HB\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?e\\x1e\\xe0>\\xad,\\xe1>\\x92J\\x81A\\xc8-~A\\x00\\x00HB\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\x9e\\x8c\\x10?wD\\x10?\\x001\\x98\\xbe,G\\x80A\\x00\\x00HB\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?(d\\xff>jk\\x10?\\x80)\\x98>\\x00\\xad\\xd5>\\x00\\x00HB\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xe8M\\x00?gm\\x00??\\x1a\\x00B\\x14\\xd7\\xfaA\\x00\\x00HB\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?T\\xcb ?\\x88\\x1b ?x\\x10yA\\\\\\x07\\xfcA\\x00\\x00HB\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xac\\xf0\\x0f?zB ?\\x92J\\x81A\\xc8-~A\\x00\\x00HB\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\x9e\\x8c\\x10?wD\\x10?5\\x8f?B\\xa2K;B\\x00\\x00HB\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\t\\n1?\\x98\\xf2/?\\xfcp\\xfbA\\xc6\\xe3;B\\x00\\x00HB\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?;/ ?\\x8b\\x190??\\x1a\\x00B\\x14\\xd7\\xfaA\\x00\\x00HB\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?T\\xcb ?\\x88\\x1b ?",
+			},
+
+			"u2sub-sub-sub-block " :  {
+
+				"u0" : 39,
+				"u1" : 13,
+
+				"u2sub-sub-sub-sub-block " :  {
+
+					"u0" : 7,
+					"u1" : 3,
+					"u2" : 32,
+					"u3" : 0,
+				},
+
+				"u3sub-sub-sub-sub-block " :  {
+
+					"u0" : 7,
+					"u1" : 3,
+					"u2" : 32,
+					"u3" : 12,
+				},
+
+				"u4sub-sub-sub-sub-block " :  {
+
+					"u0" : 7,
+					"u1" : 2,
+					"u2" : 32,
+					"u3" : 24,
+				},
+
+				"u5sub-sub-sub-sub-block " :  {
+
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 1.0,
+						"x" : 1.0,
+						"y" : 1.0,
+						"z" : 1.0,
+					},
+
+					"u1sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 1.0,
+						"x" : 1.0,
+						"y" : 1.0,
+						"z" : 1.0,
+					},
+
+					"u2sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 1.0,
+						"x" : 1.0,
+						"y" : 1.0,
+						"z" : 1.0,
+					},
+					"u3" : 0.0,
+
+					"u4sub-sub-sub-sub-sub-block " :  {
+
+						"u0" : "forest_trees",
+						"u1" : 0,
+						"u2" : 2,
+					},
+				},
+
+				"u3sub-sub-sub-sub-block " :  {
+
+					"u" : -127.21094512939453,
+					"v" : -124.31664276123047,
+					"w" : 50.0,
+					"x" : 254.42189025878906,
+					"y" : 248.63328552246094,
+					"z" : 0.0,
+				},
+				"u7" : "+\\x04\\x7fB\\xba+yB\\x00\\x00HB\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xbfHA?\\xa8\\xc9??~-=B\\xde\\xc3yB\\x00\\x00HB\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xf3m0?\\x9b\\xf0??5\\x8f?B\\xa2K;B\\x00\\x00HB\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\t\\n1?\\x98\\xf2/?\\x91<\\x9fB\\xe9\\x85\\x9bB\\x00\\x00HB\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?u\\x87Q?\\xb9\\xa0O?~\\xa2|B\\xfb\\xd1\\x9bB\\x00\\x00HB\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xac\\xac@?\\xac\\xc7O?+\\x04\\x7fB\\xba+yB\\x00\\x00HB\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xbfHA?\\xa8\\xc9??\\x0b\\xf7\\xbeB\\xf5u\\xbaB\\x00\\x00HB\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?*\\xc6a?\\xc9w_?\\x7f\\x0b\\x9eB\\x07\\xc2\\xbaB\\x00\\x00HB\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?C\\xebP?\\xbc\\x9e_?\\x91<\\x9fB\\xe9\\x85\\x9bB\\x00\\x00HB\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?u\\x87Q?\\xb9\\xa0O?\\x87\\xb1\\xdeB\\x01f\\xd9B\\x00\\x00HB\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xe1\\x04r?\\xdaNo?\\xff\\xc5\\xbdB\\x13\\xb2\\xd9B\\x00\\x00HB\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xfb)a?\\xccuo?\\x0b\\xf7\\xbeB\\xf5u\\xbaB\\x00\\x00HB\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?*\\xc6a?\\xc9w_?\\x7f\\x80\\xddB\\x1f\\xa2\\xf8B\\x00\\x00HB\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\xff\\xff\\x7f?\\xb4hq?\\xddL\\x7f?\\x87\\xb1\\xdeB\\x01f\\xd9B\\x00\\x00HB\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\xff\\xff\\x7f?\\xe1\\x04r?\\xdaNo?\\xdf\\x18\\xfdB\\x16\\x8d\\xc5B\\x00\\x00HB\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\xff\\xff\\x7f?\\xfa\\xca\\x80?l%e?\\x7f\\x80\\xddB\\x1f\\xa2\\xf8B\\x00\\x00HB\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xb4hq?\\xddL\\x7f?\\xdf\\x18\\xfdB\\x16\\x8d\\xc5B\\x00\\x00HB\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xfa\\xca\\x80?l%e?\\x01l\\xfeB\\rV\\xf8B\\x00\\x00HB\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xcb!\\x81?\\xea%\\x7f?\\x86\\xa3|\\xc2\\x06\\xd5u\\xc2\\x00\\x00HB\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?DL}>K\"\\x82>\\x91<\\x9f\\xc2\\xe2<u\\xc2\\x00\\x00HB\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?+\\xe29>0p\\x82>=\\x0c\\x9e\\xc2\\x8f\\xda\\x99\\xc2\\x00\\x00HB\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?oQ<>T\\xe8D>\\x11\\xf7\\xbe\\xc2}\\x8e\\x99\\xc2\\x00\\x00HB\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\x93\\xce\\xf1=\\x1f\\x84E>\\xb9\\xc6\\xbd\\xc2\\x9b\\xca\\xb8\\xc2\\x00\\x00HB\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?+\\xad\\xf6=\\x12\\x8c\\x05>!\\xe4\\xaf\\xc2\\x1f\\xa2\\xf8\\xc2\\x00\\x00HB\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?d\\xc6\\x17>T#3;\\x11\\xf7\\xbe\\xc2}\\x8e\\x99\\xc2\\x00\\x00HB\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\x93\\xce\\xf1=\\x1f\\x84E>!\\xe4\\xaf\\xc2\\x1f\\xa2\\xf8\\xc2\\x00\\x00HB\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?d\\xc6\\x17>T#3;=\\x0c\\x9e\\xc2\\x8f\\xda\\x99\\xc2\\x00\\x00HB\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?oQ<>T\\xe8D>!\\xe4\\xaf\\xc2\\x1f\\xa2\\xf8\\xc2\\x00\\x00HB\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?d\\xc6\\x17>T#3;\\xb9\\xc6\\xbd\\xc2\\x9b\\xca\\xb8\\xc2\\x00\\x00HB\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?+\\xad\\xf6=\\x12\\x8c\\x05>3\\x81\\xdd\\xc2\\xa7\\xba\\xd7\\xc2\\x00\\x00HB\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\x02oi=\\xa2_\\x8c=!\\xe4\\xaf\\xc2\\x1f\\xa2\\xf8\\xc2\\x00\\x00HB\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?d\\xc6\\x17>T#3;3\\x81\\xdd\\xc2\\xa7\\xba\\xd7\\xc2\\x00\\x00HB\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\x02oi=\\xa2_\\x8c=\\xc1\\x0f\\xfe\\xc2U%\\xf5\\xc2\\x00\\x00HB\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xa8\\x16\\x05\\xbc\\xbe\\x0f\\x1f<\\xb9\\xc6\\xbd\\xc2\\x9b\\xca\\xb8\\xc2\\x00\\x00HB\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?+\\xad\\xf6=\\x12\\x8c\\x05>\\x81\\xb1\\xde\\xc2\\x89~\\xb8\\xc2\\x00\\x00HB\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?%\\xb2_=\\xdd\\\'\\x06>3\\x81\\xdd\\xc2\\xa7\\xba\\xd7\\xc2\\x00\\x00HB\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\x02oi=\\xa2_\\x8c=3\\x81\\xdd\\xc2\\xa7\\xba\\xd7\\xc2\\x00\\x00HB\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\xff\\xff\\x7f?\\x02oi=\\xa2_\\x8c=\\x01l\\xfe\\xc2\\x95n\\xd7\\xc2\\x00\\x00HB\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\xff\\xff\\x7f?\\x81\\xe5\\x10\\xbc7\\x97\\x8d=\\xc1\\x0f\\xfe\\xc2U%\\xf5\\xc2\\x00\\x00HB\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\xff\\xff\\x7f?\\xa8\\x16\\x05\\xbc\\xbe\\x0f\\x1f<",
+			},
+
+			"u3sub-sub-sub-block " :  {
+
+				"w" : 1.0,
+				"x" : 1.0,
+				"y" : 1.0,
+				"z" : 1.0,
+			},
+		},
+	},
+
+	"componentsub-block " :  {
+
+		"component type" : "GroundMeshGenerator",
+		"number" : 102,
+
+		"ground mesh generatorsub-sub-block " :  {
+
+			"ground polygon" : 100,
+			"ground mesh" : 101,
+			"texture mapping 1" : 103,
+			"texture mapping 2" : 104,
+			"u4" : 0,
+			"u5" : 0.0,
+			"u6" : 1,
+			"u7" : 100.0,
+			"u8" : 25.0,
+			"u9" : 5.0,
+			"u10" : 5.0,
+		},
+	},
+
+	"componentsub-block " :  {
+
+		"component type" : "TextureMapping",
+		"number" : 103,
+
+		"texture mappingsub-sub-block " :  {
+
+			"texture file" : "forest_trees",
+			"u0" : 250.0,
+
+			"u0sub-sub-sub-block " :  {
+
+				"u1" : 0.0,
+				"u2" : 0.0,
+			},
+		},
+	},
+
+	"componentsub-block " :  {
+
+		"component type" : "TextureMapping",
+		"number" : 104,
+
+		"texture mappingsub-sub-block " :  {
+
+			"texture file" : "woodkeep_ground",
+			"u0" : 250.0,
+
+			"u0sub-sub-sub-block " :  {
+
+				"u1" : 0.0,
+				"u2" : 0.0,
+			},
+		},
+	},
+
+	"componentsub-block " :  {
+
+		"component type" : "GroundPolygon",
+		"number" : 107,
+
+		"ground polygonsub-sub-block " :  {
+
+
+			"sub-sub-sub-block " :  {
+
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"x" : -89.2174072265625,
+					"y" : -122.4053955078125,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"x" : 126.5029296875,
+					"y" : 99.08023071289062,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"x" : 126.858642578125,
+					"y" : 123.81423950195312,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"x" : 114.71295166015625,
+					"y" : 124.14651489257812,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"x" : -138.2841796875,
+					"y" : -122.76943969726562,
+				},
+				"u0" : 0,
+				"u1" : 1,
+			},
+			"u1" : 1,
+			"u2" : -50.0,
+			"u3" : 50.0,
+			"u4" : "",
+		},
+	},
+
+	"componentsub-block " :  {
+
+		"component type" : "CollisionShape",
+		"number" : 108,
+		"? linked component" : 107,
+
+		"collision shapesub-sub-block " :  {
+
+
+			"u2sub-sub-sub-block " :  {
+
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"y" : -89.2174072265625,
+					"z" : -122.4053955078125,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"y" : 126.5029296875,
+					"z" : 99.08023071289062,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"y" : 126.858642578125,
+					"z" : 123.81423950195312,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"y" : 114.71295166015625,
+					"z" : 124.14651489257812,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"y" : -138.2841796875,
+					"z" : -122.76943969726562,
+				},
+				"u3" : 0,
+				"u4" : 1,
+			},
+		},
+
+		"collision shape 2sub-sub-block " :  {
+
+			"u0" : 1,
+			"w" : -50.0,
+			"x" : 50.0,
+			"z" : 1,
+		},
+	},
+
+	"positionsub-block " :  {
+
+		"x position" : 468.687255859375,
+		"y position" : 241.20028686523438,
+	},
+	"z position" : 0.0,
+	"rotation" : 0.0,
+	"scale" : 1.0,
+
+	"u2sub-block " :  {
+
+		"w" : -138.2841796875,
+		"x" : -124.31664276123047,
+		"y" : 265.4951171875,
+		"z" : 248.63328552246094,
+	},
+	"hidden" : 0,
+},
+
+"objectblock " :  {
+
+	"identifier" : "obj6",
+
+	"componentsub-block " :  {
+
+		"component type" : "Model",
+		"number" : 101,
+
+		"3D modelsub-sub-block " :  {
+
+			"name" : "wall",
+			"u0" : 0.0,
+			"u1" : 0.0,
+			"u2" : 0.0,
+
+			"u3sub-sub-sub-block " :  {
+
+				"w" : 0.0,
+				"x" : 0.0,
+				"y" : 0.0,
+				"z" : 1.0,
+			},
+
+			"u4sub-sub-sub-block " :  {
+
+				"x" : 0.0,
+				"y" : 0.0,
+				"z" : 0.0,
+			},
+			"u5" : 0,
+
+			"u6sub-sub-sub-block " :  {
+
+				"w" : 1.0,
+				"x" : 1.0,
+				"y" : 1.0,
+				"z" : 1.0,
+			},
+		},
+	},
+
+	"positionsub-block " :  {
+
+		"x position" : -403.1240539550781,
+		"y position" : 103.89103698730469,
+	},
+	"z position" : -84.58218383789062,
+	"rotation" : 0.0,
+	"scale" : 1.0,
+
+	"u2sub-block " :  {
+
+		"w" : -68.305908203125,
+		"x" : 0.0788421630859375,
+		"y" : 137.93499755859375,
+		"z" : 238.47666931152344,
+	},
+	"hidden" : 0,
+},
+
+"objectblock " :  {
+
+	"identifier" : "obj6#10",
+
+	"componentsub-block " :  {
+
+		"component type" : "Model",
+		"number" : 101,
+
+		"3D modelsub-sub-block " :  {
+
+			"name" : "wall",
+			"u0" : 0.0,
+			"u1" : 0.0,
+			"u2" : 0.0,
+
+			"u3sub-sub-sub-block " :  {
+
+				"w" : 0.0,
+				"x" : 0.0,
+				"y" : 0.0,
+				"z" : 1.0,
+			},
+
+			"u4sub-sub-sub-block " :  {
+
+				"x" : 0.0,
+				"y" : 0.0,
+				"z" : 0.0,
+			},
+			"u5" : 0,
+
+			"u6sub-sub-sub-block " :  {
+
+				"w" : 1.0,
+				"x" : 1.0,
+				"y" : 1.0,
+				"z" : 1.0,
+			},
+		},
+	},
+
+	"positionsub-block " :  {
+
+		"x position" : 554.3656005859375,
+		"y position" : 100.72331237792969,
+	},
+	"z position" : -84.58218383789062,
+	"rotation" : 0.0,
+	"scale" : 1.0,
+
+	"u2sub-block " :  {
+
+		"w" : -68.305908203125,
+		"x" : 0.0788421630859375,
+		"y" : 137.93499755859375,
+		"z" : 238.47666931152344,
+	},
+	"hidden" : 0,
+},
+
+"objectblock " :  {
+
+	"identifier" : "obj6#11",
+
+	"componentsub-block " :  {
+
+		"component type" : "Model",
+		"number" : 101,
+
+		"3D modelsub-sub-block " :  {
+
+			"name" : "wall",
+			"u0" : 0.0,
+			"u1" : 0.0,
+			"u2" : 0.0,
+
+			"u3sub-sub-sub-block " :  {
+
+				"w" : 0.0,
+				"x" : 0.0,
+				"y" : 0.0,
+				"z" : 1.0,
+			},
+
+			"u4sub-sub-sub-block " :  {
+
+				"x" : 0.0,
+				"y" : 0.0,
+				"z" : 0.0,
+			},
+			"u5" : 0,
+
+			"u6sub-sub-sub-block " :  {
+
+				"w" : 1.0,
+				"x" : 1.0,
+				"y" : 1.0,
+				"z" : 1.0,
+			},
+		},
+	},
+
+	"positionsub-block " :  {
+
+		"x position" : 945.2799072265625,
+		"y position" : 338.21173095703125,
+	},
+	"z position" : -84.58218383789062,
+	"rotation" : 0.0,
+	"scale" : 1.0,
+
+	"u2sub-block " :  {
+
+		"w" : -68.305908203125,
+		"x" : 0.0788421630859375,
+		"y" : 137.93499755859375,
+		"z" : 238.47666931152344,
+	},
+	"hidden" : 0,
+},
+
+"objectblock " :  {
+
+	"identifier" : "obj6#2",
+
+	"componentsub-block " :  {
+
+		"component type" : "Model",
+		"number" : 101,
+
+		"3D modelsub-sub-block " :  {
+
+			"name" : "wall",
+			"u0" : 0.0,
+			"u1" : 0.0,
+			"u2" : 0.0,
+
+			"u3sub-sub-sub-block " :  {
+
+				"w" : 0.0,
+				"x" : 0.0,
+				"y" : 0.0,
+				"z" : 1.0,
+			},
+
+			"u4sub-sub-sub-block " :  {
+
+				"x" : 0.0,
+				"y" : 0.0,
+				"z" : 0.0,
+			},
+			"u5" : 0,
+
+			"u6sub-sub-sub-block " :  {
+
+				"w" : 1.0,
+				"x" : 1.0,
+				"y" : 1.0,
+				"z" : 1.0,
+			},
+		},
+	},
+
+	"positionsub-block " :  {
+
+		"x position" : -266.45648193359375,
+		"y position" : 107.77468872070312,
+	},
+	"z position" : -84.58218383789062,
+	"rotation" : 0.0,
+	"scale" : 1.0,
+
+	"u2sub-block " :  {
+
+		"w" : -68.305908203125,
+		"x" : 0.0788421630859375,
+		"y" : 137.93499755859375,
+		"z" : 238.47666931152344,
+	},
+	"hidden" : 0,
+},
+
+"objectblock " :  {
+
+	"identifier" : "obj6#4",
+
+	"componentsub-block " :  {
+
+		"component type" : "Model",
+		"number" : 101,
+
+		"3D modelsub-sub-block " :  {
+
+			"name" : "wall",
+			"u0" : 0.0,
+			"u1" : 0.0,
+			"u2" : 0.0,
+
+			"u3sub-sub-sub-block " :  {
+
+				"w" : 0.0,
+				"x" : 0.0,
+				"y" : 0.0,
+				"z" : 1.0,
+			},
+
+			"u4sub-sub-sub-block " :  {
+
+				"x" : 0.0,
+				"y" : 0.0,
+				"z" : 0.0,
+			},
+			"u5" : 0,
+
+			"u6sub-sub-sub-block " :  {
+
+				"w" : 1.0,
+				"x" : 1.0,
+				"y" : 1.0,
+				"z" : 1.0,
+			},
+		},
+	},
+
+	"positionsub-block " :  {
+
+		"x position" : 7.145214080810547,
+		"y position" : 113.4671401977539,
+	},
+	"z position" : -84.58218383789062,
+	"rotation" : 0.0,
+	"scale" : 1.0,
+
+	"u2sub-block " :  {
+
+		"w" : -68.305908203125,
+		"x" : 0.0788421630859375,
+		"y" : 137.93499755859375,
+		"z" : 238.47666931152344,
+	},
+	"hidden" : 0,
+},
+
+"objectblock " :  {
+
+	"identifier" : "obj6#6",
+
+	"componentsub-block " :  {
+
+		"component type" : "Model",
+		"number" : 101,
+
+		"3D modelsub-sub-block " :  {
+
+			"name" : "wall",
+			"u0" : 0.0,
+			"u1" : 0.0,
+			"u2" : 0.0,
+
+			"u3sub-sub-sub-block " :  {
+
+				"w" : 0.0,
+				"x" : 0.0,
+				"y" : 0.0,
+				"z" : 1.0,
+			},
+
+			"u4sub-sub-sub-block " :  {
+
+				"x" : 0.0,
+				"y" : 0.0,
+				"z" : 0.0,
+			},
+			"u5" : 0,
+
+			"u6sub-sub-sub-block " :  {
+
+				"w" : 1.0,
+				"x" : 1.0,
+				"y" : 1.0,
+				"z" : 1.0,
+			},
+		},
+	},
+
+	"positionsub-block " :  {
+
+		"x position" : 279.1908264160156,
+		"y position" : 109.15779113769531,
+	},
+	"z position" : -84.58218383789062,
+	"rotation" : 0.0,
+	"scale" : 1.0,
+
+	"u2sub-block " :  {
+
+		"w" : -68.305908203125,
+		"x" : 0.0788421630859375,
+		"y" : 137.93499755859375,
+		"z" : 238.47666931152344,
+	},
+	"hidden" : 0,
+},
+
+"objectblock " :  {
+
+	"identifier" : "obj6#7",
+
+	"componentsub-block " :  {
+
+		"component type" : "Model",
+		"number" : 101,
+
+		"3D modelsub-sub-block " :  {
+
+			"name" : "wall",
+			"u0" : 0.0,
+			"u1" : 0.0,
+			"u2" : 0.0,
+
+			"u3sub-sub-sub-block " :  {
+
+				"w" : 0.0,
+				"x" : 0.0,
+				"y" : 0.0,
+				"z" : 1.0,
+			},
+
+			"u4sub-sub-sub-block " :  {
+
+				"x" : 0.0,
+				"y" : 0.0,
+				"z" : 0.0,
+			},
+			"u5" : 0,
+
+			"u6sub-sub-sub-block " :  {
+
+				"w" : 1.0,
+				"x" : 1.0,
+				"y" : 1.0,
+				"z" : 1.0,
+			},
+		},
+	},
+
+	"positionsub-block " :  {
+
+		"x position" : 417.0103759765625,
+		"y position" : 99.86137390136719,
+	},
+	"z position" : -84.58218383789062,
+	"rotation" : 0.0,
+	"scale" : 1.0,
+
+	"u2sub-block " :  {
+
+		"w" : -68.305908203125,
+		"x" : 0.0788421630859375,
+		"y" : 137.93499755859375,
+		"z" : 238.47666931152344,
+	},
+	"hidden" : 0,
+},
+
+"objectblock " :  {
+
+	"identifier" : "obj6#8",
+
+	"componentsub-block " :  {
+
+		"component type" : "Model",
+		"number" : 101,
+
+		"3D modelsub-sub-block " :  {
+
+			"name" : "wall",
+			"u0" : 0.0,
+			"u1" : 0.0,
+			"u2" : 0.0,
+
+			"u3sub-sub-sub-block " :  {
+
+				"w" : 0.0,
+				"x" : 0.0,
+				"y" : 0.0,
+				"z" : 1.0,
+			},
+
+			"u4sub-sub-sub-block " :  {
+
+				"x" : 0.0,
+				"y" : 0.0,
+				"z" : 0.0,
+			},
+			"u5" : 0,
+
+			"u6sub-sub-sub-block " :  {
+
+				"w" : 1.0,
+				"x" : 1.0,
+				"y" : 1.0,
+				"z" : 1.0,
+			},
+		},
+	},
+
+	"positionsub-block " :  {
+
+		"x position" : 534.4716796875,
+		"y position" : 337.53216552734375,
+	},
+	"z position" : -84.58218383789062,
+	"rotation" : 0.0,
+	"scale" : 1.0,
+
+	"u2sub-block " :  {
+
+		"w" : -68.305908203125,
+		"x" : 0.0788421630859375,
+		"y" : 137.93499755859375,
+		"z" : 238.47666931152344,
+	},
+	"hidden" : 0,
+},
+
+"objectblock " :  {
+
+	"identifier" : "obj6#9",
+
+	"componentsub-block " :  {
+
+		"component type" : "Model",
+		"number" : 101,
+
+		"3D modelsub-sub-block " :  {
+
+			"name" : "wall",
+			"u0" : 0.0,
+			"u1" : 0.0,
+			"u2" : 0.0,
+
+			"u3sub-sub-sub-block " :  {
+
+				"w" : 0.0,
+				"x" : 0.0,
+				"y" : 0.0,
+				"z" : 1.0,
+			},
+
+			"u4sub-sub-sub-block " :  {
+
+				"x" : 0.0,
+				"y" : 0.0,
+				"z" : 0.0,
+			},
+			"u5" : 0,
+
+			"u6sub-sub-sub-block " :  {
+
+				"w" : 1.0,
+				"x" : 1.0,
+				"y" : 1.0,
+				"z" : 1.0,
+			},
+		},
+	},
+
+	"positionsub-block " :  {
+
+		"x position" : 397.248046875,
+		"y position" : 337.89959716796875,
+	},
+	"z position" : -84.58218383789062,
+	"rotation" : 0.0,
+	"scale" : 1.0,
+
+	"u2sub-block " :  {
+
+		"w" : -68.305908203125,
+		"x" : 0.0788421630859375,
+		"y" : 137.93499755859375,
+		"z" : 238.47666931152344,
+	},
+	"hidden" : 0,
+},
+
+"objectblock " :  {
+
+	"identifier" : "obj7",
+
+	"componentsub-block " :  {
+
+		"component type" : "Model",
+		"number" : 101,
+
+		"3D modelsub-sub-block " :  {
+
+			"name" : "wall_window",
+			"u0" : 0.0,
+			"u1" : 0.0,
+			"u2" : 0.0,
+
+			"u3sub-sub-sub-block " :  {
+
+				"w" : 0.0,
+				"x" : 0.0,
+				"y" : 0.0,
+				"z" : 1.0,
+			},
+
+			"u4sub-sub-sub-block " :  {
+
+				"x" : 0.0,
+				"y" : 0.0,
+				"z" : 0.0,
+			},
+			"u5" : 0,
+
+			"u6sub-sub-sub-block " :  {
+
+				"w" : 1.0,
+				"x" : 1.0,
+				"y" : 1.0,
+				"z" : 1.0,
+			},
+		},
+	},
+
+	"positionsub-block " :  {
+
+		"x position" : 142.4641571044922,
+		"y position" : 93.3648910522461,
+	},
+	"z position" : -84.58218383789062,
+	"rotation" : 0.0,
+	"scale" : 1.0,
+
+	"u2sub-block " :  {
+
+		"w" : -68.305908203125,
+		"x" : 0.0788421630859375,
+		"y" : 137.93499755859375,
+		"z" : 238.47666931152344,
+	},
+	"hidden" : 0,
+},
+
+"objectblock " :  {
+
+	"identifier" : "obj7#2",
+
+	"componentsub-block " :  {
+
+		"component type" : "Model",
+		"number" : 101,
+
+		"3D modelsub-sub-block " :  {
+
+			"name" : "wall_window",
+			"u0" : 0.0,
+			"u1" : 0.0,
+			"u2" : 0.0,
+
+			"u3sub-sub-sub-block " :  {
+
+				"w" : 0.0,
+				"x" : 0.0,
+				"y" : 0.0,
+				"z" : 1.0,
+			},
+
+			"u4sub-sub-sub-block " :  {
+
+				"x" : 0.0,
+				"y" : 0.0,
+				"z" : 0.0,
+			},
+			"u5" : 0,
+
+			"u6sub-sub-sub-block " :  {
+
+				"w" : 1.0,
+				"x" : 1.0,
+				"y" : 1.0,
+				"z" : 1.0,
+			},
+		},
+	},
+
+	"positionsub-block " :  {
+
+		"x position" : -129.680419921875,
+		"y position" : 94.63627624511719,
+	},
+	"z position" : -84.58218383789062,
+	"rotation" : 0.0,
+	"scale" : 1.0,
+
+	"u2sub-block " :  {
+
+		"w" : -68.305908203125,
+		"x" : 0.0788421630859375,
+		"y" : 137.93499755859375,
+		"z" : 238.47666931152344,
+	},
+	"hidden" : 0,
+},
+
+"objectblock " :  {
+
+	"identifier" : "obj7#3",
+
+	"componentsub-block " :  {
+
+		"component type" : "Model",
+		"number" : 101,
+
+		"3D modelsub-sub-block " :  {
+
+			"name" : "wall_window",
+			"u0" : 0.0,
+			"u1" : 0.0,
+			"u2" : 0.0,
+
+			"u3sub-sub-sub-block " :  {
+
+				"w" : 0.0,
+				"x" : 0.0,
+				"y" : 0.0,
+				"z" : 1.0,
+			},
+
+			"u4sub-sub-sub-block " :  {
+
+				"x" : 0.0,
+				"y" : 0.0,
+				"z" : 0.0,
+			},
+			"u5" : 0,
+
+			"u6sub-sub-sub-block " :  {
+
+				"w" : 1.0,
+				"x" : 1.0,
+				"y" : 1.0,
+				"z" : 1.0,
+			},
+		},
+	},
+
+	"positionsub-block " :  {
+
+		"x position" : 807.8392944335938,
+		"y position" : 348.7899475097656,
+	},
+	"z position" : -84.58218383789062,
+	"rotation" : 0.0,
+	"scale" : 1.0,
+
+	"u2sub-block " :  {
+
+		"w" : -68.305908203125,
+		"x" : 0.0788421630859375,
+		"y" : 137.93499755859375,
+		"z" : 238.47666931152344,
+	},
+	"hidden" : 0,
+},
+
+"objectblock " :  {
+
+	"identifier" : "obj7#4",
+
+	"componentsub-block " :  {
+
+		"component type" : "Model",
+		"number" : 101,
+
+		"3D modelsub-sub-block " :  {
+
+			"name" : "wall_window",
+			"u0" : 0.0,
+			"u1" : 0.0,
+			"u2" : 0.0,
+
+			"u3sub-sub-sub-block " :  {
+
+				"w" : 0.0,
+				"x" : 0.0,
+				"y" : 0.0,
+				"z" : 1.0,
+			},
+
+			"u4sub-sub-sub-block " :  {
+
+				"x" : 0.0,
+				"y" : 0.0,
+				"z" : 0.0,
+			},
+			"u5" : 0,
+
+			"u6sub-sub-sub-block " :  {
+
+				"w" : 1.0,
+				"x" : 1.0,
+				"y" : 1.0,
+				"z" : 1.0,
+			},
+		},
+	},
+
+	"positionsub-block " :  {
+
+		"x position" : 670.33935546875,
+		"y position" : 351.10772705078125,
+	},
+	"z position" : -84.58218383789062,
+	"rotation" : 0.0,
+	"scale" : 1.0,
+
+	"u2sub-block " :  {
+
+		"w" : -68.305908203125,
+		"x" : 0.0788421630859375,
+		"y" : 137.93499755859375,
+		"z" : 238.47666931152344,
+	},
+	"hidden" : 0,
+},
+
+"objectblock " :  {
+
+	"name" : "Template 1",
+	"identifier" : "obj8",
+
+	"componentsub-block " :  {
+
+		"component type" : "Model",
+		"number" : 101,
+
+		"3D modelsub-sub-block " :  {
+
+			"name" : "table1",
+			"u0" : 0.0,
+			"u1" : 0.0,
+			"u2" : 0.0,
+
+			"u3sub-sub-sub-block " :  {
+
+				"w" : 0.0,
+				"x" : 0.0,
+				"y" : 0.0,
+				"z" : 1.0,
+			},
+
+			"u4sub-sub-sub-block " :  {
+
+				"x" : 0.0,
+				"y" : 0.0,
+				"z" : 0.0,
+			},
+			"u5" : 0,
+
+			"u6sub-sub-sub-block " :  {
+
+				"w" : 1.0,
+				"x" : 1.0,
+				"y" : 1.0,
+				"z" : 1.0,
+			},
+		},
+	},
+
+	"positionsub-block " :  {
+
+		"x position" : 741.4564819335938,
+		"y position" : 363.1368408203125,
+	},
+	"z position" : -46.41966247558594,
+	"rotation" : 0.0,
+	"scale" : 1.0,
+
+	"u2sub-block " :  {
+
+		"w" : -53.09626007080078,
+		"x" : -0.4045476019382477,
+		"y" : 106.4539794921875,
+		"z" : 53.033164978027344,
+	},
+	"hidden" : 0,
+},
+
+"objectblock " :  {
+
+	"name" : "Template 1",
+	"identifier" : "obj9",
+
+	"componentsub-block " :  {
+
+		"component type" : "Model",
+		"number" : 101,
+
+		"3D modelsub-sub-block " :  {
+
+			"name" : "chair1",
+			"u0" : 1.5707963705062866,
+			"u1" : 0.0,
+			"u2" : 0.0,
+
+			"u3sub-sub-sub-block " :  {
+
+				"w" : 0.0,
+				"x" : 0.0,
+				"y" : 0.0,
+				"z" : 1.0,
+			},
+
+			"u4sub-sub-sub-block " :  {
+
+				"x" : 0.0,
+				"y" : 0.0,
+				"z" : 0.0,
+			},
+			"u5" : 0,
+
+			"u6sub-sub-sub-block " :  {
+
+				"w" : 1.0,
+				"x" : 1.0,
+				"y" : 1.0,
+				"z" : 1.0,
+			},
+		},
+	},
+
+	"positionsub-block " :  {
+
+		"x position" : 674.0293579101562,
+		"y position" : 364.2098083496094,
+	},
+	"z position" : -44.999267578125,
+	"rotation" : 0.0,
+	"scale" : 1.0,
+
+	"u2sub-block " :  {
+
+		"w" : -23.153675079345703,
+		"x" : -0.7013130187988281,
+		"y" : 31.367515563964844,
+		"z" : 57.68374252319336,
+	},
+	"hidden" : 0,
+},
+
+"objectblock " :  {
+
+	"name" : "Template 1",
+	"identifier" : "obj9#2",
+
+	"componentsub-block " :  {
+
+		"component type" : "Model",
+		"number" : 101,
+
+		"3D modelsub-sub-block " :  {
+
+			"name" : "chair1",
+			"u0" : 4.71238899230957,
+			"u1" : 0.0,
+			"u2" : 0.0,
+
+			"u3sub-sub-sub-block " :  {
+
+				"w" : 0.0,
+				"x" : 0.0,
+				"y" : 0.0,
+				"z" : 1.0,
+			},
+
+			"u4sub-sub-sub-block " :  {
+
+				"x" : 0.0,
+				"y" : 0.0,
+				"z" : 0.0,
+			},
+			"u5" : 0,
+
+			"u6sub-sub-sub-block " :  {
+
+				"w" : 1.0,
+				"x" : 1.0,
+				"y" : 1.0,
+				"z" : 1.0,
+			},
+		},
+	},
+
+	"positionsub-block " :  {
+
+		"x position" : 788.697265625,
+		"y position" : 362.23187255859375,
+	},
+	"z position" : -44.999267578125,
+	"rotation" : 0.0,
+	"scale" : 1.0,
+
+	"u2sub-block " :  {
+
+		"w" : -8.213839530944824,
+		"x" : -0.7013130187988281,
+		"y" : 31.36751365661621,
+		"z" : 57.68374252319336,
+	},
+	"hidden" : 0,
+},
+
+"objectblock " :  {
+
+	"identifier" : "spawn_default",
+
+	"componentsub-block " :  {
+
+		"component type" : "SpawnPoint",
+		"number" : 101,
+
+		"spawnpointsub-sub-block " :  {
+
+			"u0" : 1,
+
+			"u1sub-sub-sub-block " :  {
+
+				"x" : 0.0,
+				"y" : 0.0,
+				"z" : 0.0,
+			},
+		},
+	},
+
+	"positionsub-block " :  {
+
+		"x position" : 428.4132995605469,
+		"y position" : 297.6701354980469,
+	},
+	"z position" : 0.0,
+	"rotation" : 0.0,
+	"scale" : 1.0,
+
+	"u2sub-block " :  {
+
+		"w" : -30.0,
+		"x" : -30.0,
+		"y" : 60.0,
+		"z" : 60.0,
+	},
+	"hidden" : 0,
+},
+
+"objectblock " :  {
+
+	"identifier" : "spawn_from_town_part1",
+
+	"componentsub-block " :  {
+
+		"component type" : "SpawnPoint",
+		"number" : 101,
+
+		"spawnpointsub-sub-block " :  {
+
+			"u0" : 1,
+
+			"u1sub-sub-sub-block " :  {
+
+				"x" : 0.0,
+				"y" : 0.0,
+				"z" : 0.0,
+			},
+		},
+	},
+
+	"positionsub-block " :  {
+
+		"x position" : -356.5095520019531,
+		"y position" : 154.82208251953125,
+	},
+	"z position" : 0.0,
+	"rotation" : 0.0,
+	"scale" : 1.0,
+
+	"u2sub-block " :  {
+
+		"w" : -30.0,
+		"x" : -30.0,
+		"y" : 60.0,
+		"z" : 60.0,
+	},
+	"hidden" : 0,
+},
+
+"objectblock " :  {
+
+	"identifier" : "spawn_quest",
+
+	"componentsub-block " :  {
+
+		"component type" : "SpawnPoint",
+		"number" : 101,
+
+		"spawnpointsub-sub-block " :  {
+
+			"u0" : 1,
+
+			"u1sub-sub-sub-block " :  {
+
+				"x" : 0.0,
+				"y" : 0.0,
+				"z" : 0.0,
+			},
+		},
+	},
+
+	"positionsub-block " :  {
+
+		"x position" : 790.7583618164062,
+		"y position" : 393.2429504394531,
+	},
+	"z position" : 0.0,
+	"rotation" : 0.0,
+	"scale" : 1.0,
+
+	"u2sub-block " :  {
+
+		"w" : -30.0,
+		"x" : -30.0,
+		"y" : 60.0,
+		"z" : 60.0,
+	},
+	"hidden" : 0,
+},
+
+"objectblock " :  {
+
+	"name" : "torch",
+	"identifier" : "torch1",
+
+	"positionsub-block " :  {
+
+		"x position" : -182.2974853515625,
+		"y position" : 172.16441345214844,
+	},
+	"z position" : 86.36177825927734,
+	"rotation" : 0.0,
+	"scale" : 1.0,
+
+	"u2sub-block " :  {
+
+		"w" : -50.0,
+		"x" : -50.0,
+		"y" : 100.0,
+		"z" : 100.0,
+	},
+	"hidden" : 0,
+},
+
+"objectblock " :  {
+
+	"name" : "torch",
+	"identifier" : "torch1#2",
+
+	"positionsub-block " :  {
+
+		"x position" : 325.85015869140625,
+		"y position" : 166.6947021484375,
+	},
+	"z position" : 86.36177825927734,
+	"rotation" : 0.0,
+	"scale" : 1.0,
+
+	"u2sub-block " :  {
+
+		"w" : -50.0,
+		"x" : -50.0,
+		"y" : 100.0,
+		"z" : 100.0,
+	},
+	"hidden" : 0,
+},
+
+"objectblock " :  {
+
+	"name" : "torch",
+	"identifier" : "torch1#3",
+
+	"positionsub-block " :  {
+
+		"x position" : 673.713623046875,
+		"y position" : 414.64276123046875,
+	},
+	"z position" : 86.36177825927734,
+	"rotation" : 0.0,
+	"scale" : 1.0,
+
+	"u2sub-block " :  {
+
+		"w" : -50.0,
+		"x" : -50.0,
+		"y" : 100.0,
+		"z" : 100.0,
+	},
+	"hidden" : 0,
+},
+
+"objectblock " :  {
+
+	"identifier" : "trigger",
+
+	"componentsub-block " :  {
+
+		"component type" : "CollisionShape",
+		"number" : 101,
+
+		"collision shapesub-sub-block " :  {
+
+
+			"u0sub-sub-sub-block " :  {
+
+				"w" : -50.0,
+				"x" : -200.0,
+				"y" : 100.0,
+				"z" : 234.0,
+			},
+		},
+
+		"collision shape 2sub-sub-block " :  {
+
+			"w" : -15.0,
+			"x" : 15.0,
+
+			"lua chunksub-sub-sub-block " :  {
+
+				"main chunk" : "chunk >
+
+				=== lua =============
+				local self, target = ...;
+				
+				if target:identifier() == \"hero\" then
+					Game.SetCinematicMode(true, false);
+				
+					self:setHidden(true);
+				
+					Program.Wait(0.5);
+				
+					local elder = Scene.Find(\"elder\");
+				
+					if Character.IsQuestInProgress(\"quest03_woodkeep\") then
+				
+						ShowTextBubbles(\"elderBubble\", elder:position() + Vector3.New(0, 40, 0), true, {
+							\"Go to the fortress beyond the plains and get the legendary weapon.\"
+						});
+				
+						HideTextBubble(\"elderBubble\");
+				
+					elseif Character.IsQuestInProgress(\"quest04_village_elder2\") then
+				
+						ShowTextBubbles(\"elderBubble\", elder:position() + Vector3.New(0, 40, 0), true, {
+							\"You made it, well done.\",
+							\"Did you get the sword?\"
+						});
+				
+						HideTextBubble(\"elderBubble\");
+				
+						Game.FadeOut();
+						Program.Wait(1.0);
+						Game.FadeIn();
+				
+						ShowQuestBubbles(\"quest05_florennum\", self:identifier(), elder:position() + Vector3.New(0, 40, 0), true, {
+							\"Oh no. We all stand on the edge of doom.\",
+							\"The shards of the Mageblade must be found.\",
+							\"I cannot help you further, but I know of someone who can.\",
+							\"You must go to Florennum and speak to the king. He\'ll know what to do.\",
+							\"Farewell and good luck.\"
+						});
+				
+						HideTextBubble(self:identifier());
+				
+						Character.SetQuestCompleted(\"quest04_village_elder2\");
+						Character.AddQuest(\"quest05_florennum\");
+				
+					elseif Character.IsQuestInProgress(\"quest05_florennum\") then
+				
+						ShowTextBubbles(\"elderBubble\", elder:position() + Vector3.New(0, 40, 0), true, {
+							\"Find the king in Florennum.\"
+						});
+				
+						HideTextBubble(\"elderBubble\");
+					end
+				
+					Game.SetCinematicMode(false, true);
+				end
+				
+
+				=====================",
+				"secondary chunk" : "\\x1bLuaQ\\x00\\x01\\x04\\x04\\x04\\x08\\x006\\x06\\x00\\x00local self, target = ...;\\r\\n\\r\\nif target:identifier() == \"hero\" then\\r\\n\\tGame.SetCinematicMode(true, false);\\r\\n\\r\\n\\tself:setHidden(true);\\r\\n\\r\\n\\tProgram.Wait(0.5);\\r\\n\\r\\n\\tlocal elder = Scene.Find(\"elder\");\\r\\n\\r\\n\\tif Character.IsQuestInProgress(\"quest03_woodkeep\") then\\r\\n\\r\\n\\t\\tShowTextBubbles(\"elderBubble\", elder:position() + Vector3.New(0, 40, 0), true, {\\r\\n\\t\\t\\t\"Go to the fortress beyond the plains and get the legendary weapon.\"\\r\\n\\t\\t});\\r\\n\\r\\n\\t\\tHideTextBubble(\"elderBubble\");\\r\\n\\r\\n\\telseif Character.IsQuestInProgress(\"quest04_village_elder2\") then\\r\\n\\r\\n\\t\\tShowTextBubbles(\"elderBubble\", elder:position() + Vector3.New(0, 40, 0), true, {\\r\\n\\t\\t\\t\"You made it, well done.\",\\r\\n\\t\\t\\t\"Did you get the sword?\"\\r\\n\\t\\t});\\r\\n\\r\\n\\t\\tHideTextBubble(\"elderBubble\");\\r\\n\\r\\n\\t\\tGame.FadeOut();\\r\\n\\t\\tProgram.Wait(1.0);\\r\\n\\t\\tGame.FadeIn();\\r\\n\\r\\n\\t\\tShowQuestBubbles(\"quest05_florennum\", self:identifier(), elder:position() + Vector3.New(0, 40, 0), true, {\\r\\n\\t\\t\\t\"Oh no. We all stand on the edge of doom.\",\\r\\n\\t\\t\\t\"The shards of the Mageblade must be found.\",\\r\\n\\t\\t\\t\"I cannot help you further, but I know of someone who can.\",\\r\\n\\t\\t\\t\"You must go to Florennum and speak to the king. He\\\'ll know what to do.\",\\r\\n\\t\\t\\t\"Farewell and good luck.\"\\r\\n\\t\\t});\\r\\n\\r\\n\\t\\tHideTextBubble(self:identifier());\\r\\n\\r\\n\\t\\tCharacter.SetQuestCompleted(\"quest04_village_elder2\");\\r\\n\\t\\tCharacter.AddQuest(\"quest05_florennum\");\\r\\n\\r\\n\\telseif Character.IsQuestInProgress(\"quest05_florennum\") then\\r\\n\\r\\n\\t\\tShowTextBubbles(\"elderBubble\", elder:position() + Vector3.New(0, 40, 0), true, {\\r\\n\\t\\t\\t\"Find the king in Florennum.\"\\r\\n\\t\\t});\\r\\n\\r\\n\\t\\tHideTextBubble(\"elderBubble\");\\r\\n\\tend\\r\\n\\r\\n\\tGame.SetCinematicMode(false, true);\\r\\nend\\r\\n\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x02\\x0e\\x95\\x00\\x00\\x00%\\x00\\x80\\x01\\x8b\\x00\\xc0\\x00\\x9c\\x80\\x00\\x01\\x17@@\\x01\\x16\\x80#\\x80\\x85\\x80\\x00\\x00\\x86\\xc0@\\x01\\xc2\\x00\\x80\\x00\\x02\\x01\\x00\\x00\\x9c@\\x80\\x01\\x8b\\x00A\\x00\\x02\\x01\\x80\\x00\\x9c@\\x80\\x01\\x85@\\x01\\x00\\x86\\x80A\\x01\\xc1\\xc0\\x01\\x00\\x9c@\\x00\\x01\\x85\\x00\\x02\\x00\\x86@B\\x01\\xc1\\x80\\x02\\x00\\x9c\\x80\\x00\\x01\\xc5\\xc0\\x02\\x00\\xc6\\x00\\xc3\\x01\\x01A\\x03\\x00\\xdc\\x80\\x00\\x01\\xda\\x00\\x00\\x00\\x16\\xc0\\x04\\x80\\xc5\\x80\\x03\\x00\\x01\\xc1\\x03\\x00K\\x01D\\x01\\\\\\x81\\x00\\x01\\x85A\\x04\\x00\\x86\\x81D\\x03\\xc1\\xc1\\x04\\x00\\x01\\x02\\x05\\x00A\\xc2\\x04\\x00\\x9c\\x81\\x00\\x02L\\x81\\x81\\x02\\x82\\x01\\x80\\x00\\xca\\x01\\x80\\x00\\x01B\\x05\\x00\\xe2A\\x80\\x00\\xdc@\\x80\\x02\\xc5\\x80\\x05\\x00\\x01\\xc1\\x03\\x00\\xdc@\\x00\\x01\\x16\\xc0\\x17\\x80\\xc5\\xc0\\x02\\x00\\xc6\\x00\\xc3\\x01\\x01\\xc1\\x05\\x00\\xdc\\x80\\x00\\x01\\xda\\x00\\x00\\x00\\x16\\x00\\x10\\x80\\xc5\\x80\\x03\\x00\\x01\\xc1\\x03\\x00K\\x01D\\x01\\\\\\x81\\x00\\x01\\x85A\\x04\\x00\\x86\\x81D\\x03\\xc1\\xc1\\x04\\x00\\x01\\x02\\x05\\x00A\\xc2\\x04\\x00\\x9c\\x81\\x00\\x02L\\x81\\x81\\x02\\x82\\x01\\x80\\x00\\xca\\x01\\x00\\x01\\x01\\x02\\x06\\x00AB\\x06\\x00\\xe2A\\x00\\x01\\xdc@\\x80\\x02\\xc5\\x80\\x05\\x00\\x01\\xc1\\x03\\x00\\xdc@\\x00\\x01\\xc5\\x80\\x00\\x00\\xc6\\x80\\xc6\\x01\\xdc@\\x80\\x00\\xc5@\\x01\\x00\\xc6\\x80\\xc1\\x01\\x01\\xc1\\x06\\x00\\xdc@\\x00\\x01\\xc5\\x80\\x00\\x00\\xc6\\x00\\xc7\\x01\\xdc@\\x80\\x00\\xc5@\\x07\\x00\\x01\\x81\\x07\\x00K\\x01@\\x00\\\\\\x81\\x00\\x01\\x8b\\x01D\\x01\\x9c\\x81\\x00\\x01\\xc5A\\x04\\x00\\xc6\\x81\\xc4\\x03\\x01\\xc2\\x04\\x00A\\x02\\x05\\x00\\x81\\xc2\\x04\\x00\\xdc\\x81\\x00\\x02\\x8c\\xc1\\x01\\x03\\xc2\\x01\\x80\\x00\\n\\x02\\x80\\x02A\\xc2\\x07\\x00\\x81\\x02\\x08\\x00\\xc1B\\x08\\x00\\x01\\x83\\x08\\x00A\\xc3\\x08\\x00\"B\\x80\\x02\\xdc@\\x00\\x03\\xc5\\x80\\x05\\x00\\x0b\\x01@\\x00\\x1c\\x01\\x00\\x01\\xdc@\\x00\\x00\\xc5\\xc0\\x02\\x00\\xc6\\x00\\xc9\\x01\\x01\\xc1\\x05\\x00\\xdc@\\x00\\x01\\xc5\\xc0\\x02\\x00\\xc6@\\xc9\\x01\\x01\\x81\\x07\\x00\\xdc@\\x00\\x01\\x16\\x00\\x06\\x80\\xc5\\xc0\\x02\\x00\\xc6\\x00\\xc3\\x01\\x01\\x81\\x07\\x00\\xdc\\x80\\x00\\x01\\xda\\x00\\x00\\x00\\x16\\x80\\x04\\x80\\xc5\\x80\\x03\\x00\\x01\\xc1\\x03\\x00K\\x01D\\x01\\\\\\x81\\x00\\x01\\x85A\\x04\\x00\\x86\\x81D\\x03\\xc1\\xc1\\x04\\x00\\x01\\x02\\x05\\x00A\\xc2\\x04\\x00\\x9c\\x81\\x00\\x02L\\x81\\x81\\x02\\x82\\x01\\x80\\x00\\xca\\x01\\x80\\x00\\x01\\x82\\t\\x00\\xe2A\\x80\\x00\\xdc@\\x80\\x02\\xc5\\x80\\x05\\x00\\x01\\xc1\\x03\\x00\\xdc@\\x00\\x01\\xc5\\x80\\x00\\x00\\xc6\\xc0\\xc0\\x01\\x02\\x01\\x00\\x00B\\x01\\x80\\x00\\xdc@\\x80\\x01\\x1e\\x00\\x80\\x00\\\'\\x00\\x00\\x00\\x04\\x0b\\x00\\x00\\x00identifier\\x00\\x04\\x05\\x00\\x00\\x00hero\\x00\\x04\\x05\\x00\\x00\\x00Game\\x00\\x04\\x11\\x00\\x00\\x00SetCinematicMode\\x00\\x04\\n\\x00\\x00\\x00setHidden\\x00\\x04\\x08\\x00\\x00\\x00Program\\x00\\x04\\x05\\x00\\x00\\x00Wait\\x00\\x03\\x00\\x00\\x00\\x00\\x00\\x00\\xe0?\\x04\\x06\\x00\\x00\\x00Scene\\x00\\x04\\x05\\x00\\x00\\x00Find\\x00\\x04\\x06\\x00\\x00\\x00elder\\x00\\x04\\n\\x00\\x00\\x00Character\\x00\\x04\\x12\\x00\\x00\\x00IsQuestInProgress\\x00\\x04\\x11\\x00\\x00\\x00quest03_woodkeep\\x00\\x04\\x10\\x00\\x00\\x00ShowTextBubbles\\x00\\x04\\x0c\\x00\\x00\\x00elderBubble\\x00\\x04\\t\\x00\\x00\\x00position\\x00\\x04\\x08\\x00\\x00\\x00Vector3\\x00\\x04\\x04\\x00\\x00\\x00New\\x00\\x03\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x00\\x00\\x00D@\\x04C\\x00\\x00\\x00Go to the fortress beyond the plains and get the legendary weapon.\\x00\\x04\\x0f\\x00\\x00\\x00HideTextBubble\\x00\\x04\\x17\\x00\\x00\\x00quest04_village_elder2\\x00\\x04\\x18\\x00\\x00\\x00You made it, well done.\\x00\\x04\\x17\\x00\\x00\\x00Did you get the sword?\\x00\\x04\\x08\\x00\\x00\\x00FadeOut\\x00\\x03\\x00\\x00\\x00\\x00\\x00\\x00\\xf0?\\x04\\x07\\x00\\x00\\x00FadeIn\\x00\\x04\\x11\\x00\\x00\\x00ShowQuestBubbles\\x00\\x04\\x12\\x00\\x00\\x00quest05_florennum\\x00\\x04)\\x00\\x00\\x00Oh no. We all stand on the edge of doom.\\x00\\x04+\\x00\\x00\\x00The shards of the Mageblade must be found.\\x00\\x04:\\x00\\x00\\x00I cannot help you further, but I know of someone who can.\\x00\\x04G\\x00\\x00\\x00You must go to Florennum and speak to the king. He\\\'ll know what to do.\\x00\\x04\\x18\\x00\\x00\\x00Farewell and good luck.\\x00\\x04\\x12\\x00\\x00\\x00SetQuestCompleted\\x00\\x04\\t\\x00\\x00\\x00AddQuest\\x00\\x04\\x1c\\x00\\x00\\x00Find the king in Florennum.\\x00\\x00\\x00\\x00\\x00\\x95\\x00\\x00\\x00\\x01\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x06\\x00\\x00\\x00\\x06\\x00\\x00\\x00\\x06\\x00\\x00\\x00\\x08\\x00\\x00\\x00\\x08\\x00\\x00\\x00\\x08\\x00\\x00\\x00\\x08\\x00\\x00\\x00\\n\\x00\\x00\\x00\\n\\x00\\x00\\x00\\n\\x00\\x00\\x00\\n\\x00\\x00\\x00\\x0c\\x00\\x00\\x00\\x0c\\x00\\x00\\x00\\x0c\\x00\\x00\\x00\\x0c\\x00\\x00\\x00\\x0c\\x00\\x00\\x00\\x0c\\x00\\x00\\x00\\x0e\\x00\\x00\\x00\\x0e\\x00\\x00\\x00\\x0e\\x00\\x00\\x00\\x0e\\x00\\x00\\x00\\x0e\\x00\\x00\\x00\\x0e\\x00\\x00\\x00\\x0e\\x00\\x00\\x00\\x0e\\x00\\x00\\x00\\x0e\\x00\\x00\\x00\\x0e\\x00\\x00\\x00\\x0e\\x00\\x00\\x00\\x0e\\x00\\x00\\x00\\x0e\\x00\\x00\\x00\\x10\\x00\\x00\\x00\\x10\\x00\\x00\\x00\\x0e\\x00\\x00\\x00\\x12\\x00\\x00\\x00\\x12\\x00\\x00\\x00\\x12\\x00\\x00\\x00\\x12\\x00\\x00\\x00\\x14\\x00\\x00\\x00\\x14\\x00\\x00\\x00\\x14\\x00\\x00\\x00\\x14\\x00\\x00\\x00\\x14\\x00\\x00\\x00\\x14\\x00\\x00\\x00\\x16\\x00\\x00\\x00\\x16\\x00\\x00\\x00\\x16\\x00\\x00\\x00\\x16\\x00\\x00\\x00\\x16\\x00\\x00\\x00\\x16\\x00\\x00\\x00\\x16\\x00\\x00\\x00\\x16\\x00\\x00\\x00\\x16\\x00\\x00\\x00\\x16\\x00\\x00\\x00\\x16\\x00\\x00\\x00\\x16\\x00\\x00\\x00\\x16\\x00\\x00\\x00\\x17\\x00\\x00\\x00\\x19\\x00\\x00\\x00\\x19\\x00\\x00\\x00\\x16\\x00\\x00\\x00\\x1b\\x00\\x00\\x00\\x1b\\x00\\x00\\x00\\x1b\\x00\\x00\\x00\\x1d\\x00\\x00\\x00\\x1d\\x00\\x00\\x00\\x1d\\x00\\x00\\x00\\x1e\\x00\\x00\\x00\\x1e\\x00\\x00\\x00\\x1e\\x00\\x00\\x00\\x1e\\x00\\x00\\x00\\x1f\\x00\\x00\\x00\\x1f\\x00\\x00\\x00\\x1f\\x00\\x00\\x00!\\x00\\x00\\x00!\\x00\\x00\\x00!\\x00\\x00\\x00!\\x00\\x00\\x00!\\x00\\x00\\x00!\\x00\\x00\\x00!\\x00\\x00\\x00!\\x00\\x00\\x00!\\x00\\x00\\x00!\\x00\\x00\\x00!\\x00\\x00\\x00!\\x00\\x00\\x00!\\x00\\x00\\x00!\\x00\\x00\\x00!\\x00\\x00\\x00\"\\x00\\x00\\x00#\\x00\\x00\\x00$\\x00\\x00\\x00%\\x00\\x00\\x00\\\'\\x00\\x00\\x00\\\'\\x00\\x00\\x00!\\x00\\x00\\x00)\\x00\\x00\\x00)\\x00\\x00\\x00)\\x00\\x00\\x00)\\x00\\x00\\x00+\\x00\\x00\\x00+\\x00\\x00\\x00+\\x00\\x00\\x00+\\x00\\x00\\x00,\\x00\\x00\\x00,\\x00\\x00\\x00,\\x00\\x00\\x00,\\x00\\x00\\x00,\\x00\\x00\\x00.\\x00\\x00\\x00.\\x00\\x00\\x00.\\x00\\x00\\x00.\\x00\\x00\\x00.\\x00\\x00\\x00.\\x00\\x00\\x000\\x00\\x00\\x000\\x00\\x00\\x000\\x00\\x00\\x000\\x00\\x00\\x000\\x00\\x00\\x000\\x00\\x00\\x000\\x00\\x00\\x000\\x00\\x00\\x000\\x00\\x00\\x000\\x00\\x00\\x000\\x00\\x00\\x000\\x00\\x00\\x000\\x00\\x00\\x002\\x00\\x00\\x002\\x00\\x00\\x000\\x00\\x00\\x004\\x00\\x00\\x004\\x00\\x00\\x004\\x00\\x00\\x007\\x00\\x00\\x007\\x00\\x00\\x007\\x00\\x00\\x007\\x00\\x00\\x007\\x00\\x00\\x008\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x05\\x00\\x00\\x00self\\x00\\x01\\x00\\x00\\x00\\x94\\x00\\x00\\x00\\x07\\x00\\x00\\x00target\\x00\\x01\\x00\\x00\\x00\\x94\\x00\\x00\\x00\\x06\\x00\\x00\\x00elder\\x00\\x15\\x00\\x00\\x00\\x94\\x00\\x00\\x00\\x00\\x00\\x00\\x00",
+			},
+			"z" : 1,
+		},
+	},
+
+	"positionsub-block " :  {
+
+		"x position" : 811.7827758789062,
+		"y position" : 538.0692138671875,
+	},
+	"z position" : 0.0,
+	"rotation" : 0.0,
+	"scale" : 1.0,
+
+	"u2sub-block " :  {
+
+		"w" : -50.0,
+		"x" : -200.0,
+		"y" : 100.0,
+		"z" : 234.0,
+	},
+	"hidden" : 0,
+},
+
+"dependenciesblock " :  {
+
+	"name" : "town_elderhouse",
+
+	"u0sub-block " :  {
+
+
+		"u0sub-sub-block " :  {
+
+			"name" : "Template 1",
+
+			"u0sub-sub-sub-block " :  {
+
+				"y" : 0.0,
+				"z" : 0.0,
+			},
+			"u1" : 0.0,
+			"u2" : 0.0,
+			"u3" : 1.0,
+
+			"u1sub-sub-sub-block " :  {
+
+				"w" : -10.0,
+				"x" : -10.0,
+				"y" : 20.0,
+				"z" : 20.0,
+			},
+			"u5" : 0,
+		},
+		"u1" : 1.0,
+	},
+	"scl file" : "caves_stuff",
+	"scl file" : "game_common",
+	"scl file" : "monsters",
+	"scl file" : "npc",
+	"scl file" : "plains_stuff",
+	"scl file" : "rocks",
+	"scl file" : "towers_stuff",
+	"scl file" : "traps_stuffs",
+	"scl file" : "trash",
+	"scl file" : "woodkeep_stuff",
+},
+
+"u0block " :  {
+
+	"w" : -450.0,
+	"x" : -200.0,
+	"y" : 1550.0,
+	"z" : 900.0,
+},
+
+}

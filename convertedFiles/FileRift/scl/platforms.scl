@@ -1,0 +1,2223 @@
+scl file name : platforms (0a @ 1)
+
+?item block { (12 @ c)
+
+
+    ?sub-item sub-block { (0a @ f)
+
+        name : dropping_plat0_d2return (12 @ 12)
+
+        component sub-sub-block { (1a @ 2b)
+
+            component type : PhysicsObject (0a @ 2d)
+            number : 1(10 @ 3c)
+
+            physics object sub-sub-sub-block { (4fa @ 3f)
+
+                u0 : 0(08 @ 41)
+                u3 : 1500.0 (25 @ 43)
+                u4 : 0.0 (2d @ 48)
+                u5 : 700.0 (35 @ 4d)
+                u6 : 0(38 @ 52)
+                u7 : 0.0 (45 @ 54)
+			}
+		}
+
+        component sub-sub-block { (1a @ 59)
+
+            component type : CollisionShape (0a @ 5b)
+            number : 2(10 @ 6b)
+            ? linked component : 113(20 @ 6d)
+
+            collision shape sub-sub-sub-block { (3c2 @ 70)
+
+
+                u2 sub-sub-sub-sub-block { (1a @ 72)
+
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 74)
+
+                        y : -41.137939453125 (0d @ 76)
+                        z : -1.274169921875 (15 @ 7b)
+					}
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 80)
+
+                        y : 40.745849609375 (0d @ 82)
+                        z : -1.11181640625 (15 @ 87)
+					}
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 8c)
+
+                        y : 40.54443359375 (0d @ 8e)
+                        z : 10.74737548828125 (15 @ 93)
+					}
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 98)
+
+                        y : -41.364501953125 (0d @ 9a)
+                        z : 10.53924560546875 (15 @ 9f)
+					}
+                    u3 : 0(10 @ a4)
+                    u4 : 1(18 @ a6)
+				}
+			}
+
+            collision shape 2 sub-sub-sub-block { (3ca @ a9)
+
+                u0 : 1(10 @ ab)
+                w : -50.0 (35 @ ad)
+                x : 50.0 (3d @ b2)
+                z : 1(58 @ b7)
+			}
+		}
+
+        component sub-sub-block { (1a @ b9)
+
+            component type : Model (0a @ bb)
+            number : 101(10 @ c2)
+
+            3D model sub-sub-sub-block { (32a @ c5)
+
+                name : platformwood0 (0a @ c7)
+                u0 : 0.0 (15 @ d6)
+                u1 : 0.30000001192092896 (1d @ db)
+                u2 : 0.0 (25 @ e0)
+
+                u3 sub-sub-sub-sub-block { (2a @ e5)
+
+                    w : 0.0 (0d @ e7)
+                    x : 0.0 (15 @ ec)
+                    y : 0.0 (1d @ f1)
+                    z : 1.0 (25 @ f6)
+				}
+
+                u4 sub-sub-sub-sub-block { (32 @ fb)
+
+                    x : 0.0 (0d @ fd)
+                    y : 0.0 (15 @ 102)
+                    z : 0.0 (1d @ 107)
+				}
+                u5 : 0(38 @ 10c)
+
+                u6 sub-sub-sub-sub-block { (42 @ 10e)
+
+                    w : 1.0 (0d @ 110)
+                    x : 1.0 (15 @ 115)
+                    y : 1.0 (1d @ 11a)
+                    z : 1.0 (25 @ 11f)
+				}
+			}
+		}
+
+        component sub-sub-block { (1a @ 124)
+
+            component type : TransformController (0a @ 126)
+            number : 104(10 @ 13b)
+		}
+
+        component sub-sub-block { (1a @ 13d)
+
+            component type : CollisionShape (0a @ 140)
+            number : 107(10 @ 150)
+
+            collision shape sub-sub-sub-block { (3c2 @ 153)
+
+
+                u0 sub-sub-sub-sub-block { (0a @ 155)
+
+                    w : -40.0 (0d @ 157)
+                    x : 0.0 (15 @ 15c)
+                    y : 80.0 (1d @ 161)
+                    z : 12.0 (25 @ 166)
+				}
+			}
+
+            collision shape 2 sub-sub-sub-block { (3ca @ 16c)
+
+                w : -15.0 (35 @ 16f)
+                x : 15.0 (3d @ 174)
+
+                lua chunk sub-sub-sub-sub-block { (4a @ 179)
+
+                    main chunk : chunk >
+
+                    === lua =============
+                    local self, target, normal = ...;
+                    
+                    local initialPosition = self:position();
+                    
+                    if (target:identifier() == "hero" and CollisionShape.IsEnabled(self, 107) and
+                    	normal:y() < -0.3) then
+                    
+                    	CollisionShape.SetEnabled(self, 107, false);
+                    
+                    	for i=1,1 do
+                    		TransformController.TranslateBy(self, Vector3.New(10,0,0), 0.1);
+                    		Program.Wait(0.1);
+                    		TransformController.TranslateBy(self, Vector3.New(-10,0,0), 0.1);
+                    		Program.Wait(0.1);
+                    	end
+                    
+                    	PhysicsObject.SetEnabled(self, true);
+                    	SoundLibrary.PlayEffect("chirp1");
+                    
+                    end
+
+                    =====================
+                    secondary chunk : \x1bLuaQ\x00\x01\x04\x04\x04\x08\x00\x0c\x02\x00\x00local self, target, normal = ...;\r\n\r\nlocal initialPosition = self:position();\r\n\r\nif (target:identifier() == "hero" and CollisionShape.IsEnabled(self, 107) and\r\n\tnormal:y() < -0.3) then\r\n\r\n\tCollisionShape.SetEnabled(self, 107, false);\r\n\r\n\tfor i=1,1 do\r\n\t\tTransformController.TranslateBy(self, Vector3.New(10,0,0), 0.1);\r\n\t\tProgram.Wait(0.1);\r\n\t\tTransformController.TranslateBy(self, Vector3.New(-10,0,0), 0.1);\r\n\t\tProgram.Wait(0.1);\r\n\tend\r\n\r\n\tPhysicsObject.SetEnabled(self, true);\r\n\tSoundLibrary.PlayEffect("chirp1");\r\n\r\nend\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x02\x0eE\x00\x00\x00%\x00\x00\x02\xcb\x00@\x00\xdc\x80\x00\x01\x0bA\xc0\x00\x1c\x81\x00\x01\x17\x80@\x02\x16\x00\x0f\x80\x05\xc1\x00\x00\x06\x01A\x02@\x01\x00\x00\x81A\x01\x00\x1c\x81\x80\x01\x1a\x01\x00\x00\x16@\r\x80\x0b\x81A\x01\x1c\x81\x00\x01\x18\xc0A\x02\x16@\x0c\x80\x05\xc1\x00\x00\x06\x01B\x02@\x01\x00\x00\x81A\x01\x00\xc2\x01\x00\x00\x1cA\x00\x02\x01A\x02\x00AA\x02\x00\x81A\x02\x00 A\x07\x80\x05\x82\x02\x00\x06\xc2B\x04@\x02\x00\x00\x85\x02\x03\x00\x86BC\x05\xc1\x82\x03\x00\x01\xc3\x03\x00A\xc3\x03\x00\x9c\x82\x00\x02\xc1\x02\x04\x00\x1cB\x00\x02\x05B\x04\x00\x06\x82D\x04A\x02\x04\x00\x1cB\x00\x01\x05\x82\x02\x00\x06\xc2B\x04@\x02\x00\x00\x85\x02\x03\x00\x86BC\x05\xc1\xc2\x04\x00\x01\xc3\x03\x00A\xc3\x03\x00\x9c\x82\x00\x02\xc1\x02\x04\x00\x1cB\x00\x02\x05B\x04\x00\x06\x82D\x04A\x02\x04\x00\x1cB\x00\x01\x1f\x01\xf8\x7f\x05\x01\x05\x00\x06\x01B\x02@\x01\x00\x00\x82\x01\x80\x00\x1cA\x80\x01\x05A\x05\x00\x06\x81E\x02A\xc1\x05\x00\x1cA\x00\x01\x1e\x00\x80\x00\x18\x00\x00\x00\x04\t\x00\x00\x00position\x00\x04\x0b\x00\x00\x00identifier\x00\x04\x05\x00\x00\x00hero\x00\x04\x0f\x00\x00\x00CollisionShape\x00\x04\n\x00\x00\x00IsEnabled\x00\x03\x00\x00\x00\x00\x00\xc0Z@\x04\x02\x00\x00\x00y\x00\x03333333\xd3\xbf\x04\x0b\x00\x00\x00SetEnabled\x00\x03\x00\x00\x00\x00\x00\x00\xf0?\x04\x14\x00\x00\x00TransformController\x00\x04\x0c\x00\x00\x00TranslateBy\x00\x04\x08\x00\x00\x00Vector3\x00\x04\x04\x00\x00\x00New\x00\x03\x00\x00\x00\x00\x00\x00$@\x03\x00\x00\x00\x00\x00\x00\x00\x00\x03\x9a\x99\x99\x99\x99\x99\xb9?\x04\x08\x00\x00\x00Program\x00\x04\x05\x00\x00\x00Wait\x00\x03\x00\x00\x00\x00\x00\x00$\xc0\x04\x0e\x00\x00\x00PhysicsObject\x00\x04\r\x00\x00\x00SoundLibrary\x00\x04\x0b\x00\x00\x00PlayEffect\x00\x04\x07\x00\x00\x00chirp1\x00\x00\x00\x00\x00E\x00\x00\x00\x01\x00\x00\x00\x03\x00\x00\x00\x03\x00\x00\x00\x05\x00\x00\x00\x05\x00\x00\x00\x05\x00\x00\x00\x05\x00\x00\x00\x05\x00\x00\x00\x05\x00\x00\x00\x05\x00\x00\x00\x05\x00\x00\x00\x05\x00\x00\x00\x05\x00\x00\x00\x05\x00\x00\x00\x06\x00\x00\x00\x06\x00\x00\x00\x06\x00\x00\x00\x06\x00\x00\x00\x08\x00\x00\x00\x08\x00\x00\x00\x08\x00\x00\x00\x08\x00\x00\x00\x08\x00\x00\x00\x08\x00\x00\x00\n\x00\x00\x00\n\x00\x00\x00\n\x00\x00\x00\n\x00\x00\x00\x0b\x00\x00\x00\x0b\x00\x00\x00\x0b\x00\x00\x00\x0b\x00\x00\x00\x0b\x00\x00\x00\x0b\x00\x00\x00\x0b\x00\x00\x00\x0b\x00\x00\x00\x0b\x00\x00\x00\x0b\x00\x00\x00\x0b\x00\x00\x00\x0c\x00\x00\x00\x0c\x00\x00\x00\x0c\x00\x00\x00\x0c\x00\x00\x00\r\x00\x00\x00\r\x00\x00\x00\r\x00\x00\x00\r\x00\x00\x00\r\x00\x00\x00\r\x00\x00\x00\r\x00\x00\x00\r\x00\x00\x00\r\x00\x00\x00\r\x00\x00\x00\r\x00\x00\x00\x0e\x00\x00\x00\x0e\x00\x00\x00\x0e\x00\x00\x00\x0e\x00\x00\x00\n\x00\x00\x00\x11\x00\x00\x00\x11\x00\x00\x00\x11\x00\x00\x00\x11\x00\x00\x00\x11\x00\x00\x00\x12\x00\x00\x00\x12\x00\x00\x00\x12\x00\x00\x00\x12\x00\x00\x00\x14\x00\x00\x00\x08\x00\x00\x00\x05\x00\x00\x00self\x00\x01\x00\x00\x00D\x00\x00\x00\x07\x00\x00\x00target\x00\x01\x00\x00\x00D\x00\x00\x00\x07\x00\x00\x00normal\x00\x01\x00\x00\x00D\x00\x00\x00\x10\x00\x00\x00initialPosition\x00\x03\x00\x00\x00D\x00\x00\x00\x0c\x00\x00\x00(for index)\x00\x1b\x00\x00\x00;\x00\x00\x00\x0c\x00\x00\x00(for limit)\x00\x1b\x00\x00\x00;\x00\x00\x00\x0b\x00\x00\x00(for step)\x00\x1b\x00\x00\x00;\x00\x00\x00\x02\x00\x00\x00i\x00\x1c\x00\x00\x00:\x00\x00\x00\x00\x00\x00\x00 (12 @ 38a)
+				}
+                z : 1(58 @ 9d6)
+			}
+		}
+
+        component sub-sub-block { (1a @ 9d8)
+
+            component type : Program (0a @ 9db)
+            number : 110(10 @ 9e4)
+
+            program sub-sub-sub-block { (4ea @ 9e7)
+
+                u0 : 1(08 @ 9ea)
+
+                lua chunk sub-sub-sub-sub-block { (12 @ 9ec)
+
+                    main chunk : chunk >
+
+                    === lua =============
+                    local self = ...;
+                    
+                    local newObject = self:clone();
+                    newObject:setPosition(PhysicsObject.OriginalPosition(self));
+                    
+                    PhysicsObject.SetEnabled(newObject, false);
+                    CollisionShape.SetEnabled(newObject, 107, true);
+                    
+                    Program.Wait(2);
+                    
+                    Scene.AddObject(newObject);
+                    TransformController.ScaleTo(newObject, 0.01, 0);
+                    TransformController.ScaleTo(newObject, 1.0, 0.3);
+                    
+
+                    =====================
+                    secondary chunk : \x1bLuaQ\x00\x01\x04\x04\x04\x08\x00n\x01\x00\x00local self = ...;\r\n\r\nlocal newObject = self:clone();\r\nnewObject:setPosition(PhysicsObject.OriginalPosition(self));\r\n\r\nPhysicsObject.SetEnabled(newObject, false);\r\nCollisionShape.SetEnabled(newObject, 107, true);\r\n\r\nProgram.Wait(2);\r\n\r\nScene.AddObject(newObject);\r\nTransformController.ScaleTo(newObject, 0.01, 0);\r\nTransformController.ScaleTo(newObject, 1.0, 0.3);\r\n\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x02\x06)\x00\x00\x00%\x00\x00\x01K\x00@\x00\\\x80\x00\x01\x8b@\xc0\x00\x05\x81\x00\x00\x06\xc1@\x02@\x01\x00\x00\x1c\x01\x00\x01\x9c@\x00\x00\x85\x80\x00\x00\x86\x00A\x01\xc0\x00\x80\x00\x02\x01\x00\x00\x9c@\x80\x01\x85@\x01\x00\x86\x00A\x01\xc0\x00\x80\x00\x01\x81\x01\x00B\x01\x80\x00\x9c@\x00\x02\x85\xc0\x01\x00\x86\x00B\x01\xc1@\x02\x00\x9c@\x00\x01\x85\x80\x02\x00\x86\xc0B\x01\xc0\x00\x80\x00\x9c@\x00\x01\x85\x00\x03\x00\x86@C\x01\xc0\x00\x80\x00\x01\x81\x03\x00A\xc1\x03\x00\x9c@\x00\x02\x85\x00\x03\x00\x86@C\x01\xc0\x00\x80\x00\x01\x01\x04\x00AA\x04\x00\x9c@\x00\x02\x1e\x00\x80\x00\x12\x00\x00\x00\x04\x06\x00\x00\x00clone\x00\x04\x0c\x00\x00\x00setPosition\x00\x04\x0e\x00\x00\x00PhysicsObject\x00\x04\x11\x00\x00\x00OriginalPosition\x00\x04\x0b\x00\x00\x00SetEnabled\x00\x04\x0f\x00\x00\x00CollisionShape\x00\x03\x00\x00\x00\x00\x00\xc0Z@\x04\x08\x00\x00\x00Program\x00\x04\x05\x00\x00\x00Wait\x00\x03\x00\x00\x00\x00\x00\x00\x00@\x04\x06\x00\x00\x00Scene\x00\x04\n\x00\x00\x00AddObject\x00\x04\x14\x00\x00\x00TransformController\x00\x04\x08\x00\x00\x00ScaleTo\x00\x03{\x14\xaeG\xe1z\x84?\x03\x00\x00\x00\x00\x00\x00\x00\x00\x03\x00\x00\x00\x00\x00\x00\xf0?\x03333333\xd3?\x00\x00\x00\x00)\x00\x00\x00\x01\x00\x00\x00\x03\x00\x00\x00\x03\x00\x00\x00\x04\x00\x00\x00\x04\x00\x00\x00\x04\x00\x00\x00\x04\x00\x00\x00\x04\x00\x00\x00\x04\x00\x00\x00\x06\x00\x00\x00\x06\x00\x00\x00\x06\x00\x00\x00\x06\x00\x00\x00\x06\x00\x00\x00\x07\x00\x00\x00\x07\x00\x00\x00\x07\x00\x00\x00\x07\x00\x00\x00\x07\x00\x00\x00\x07\x00\x00\x00\t\x00\x00\x00\t\x00\x00\x00\t\x00\x00\x00\t\x00\x00\x00\x0b\x00\x00\x00\x0b\x00\x00\x00\x0b\x00\x00\x00\x0b\x00\x00\x00\x0c\x00\x00\x00\x0c\x00\x00\x00\x0c\x00\x00\x00\x0c\x00\x00\x00\x0c\x00\x00\x00\x0c\x00\x00\x00\r\x00\x00\x00\r\x00\x00\x00\r\x00\x00\x00\r\x00\x00\x00\r\x00\x00\x00\r\x00\x00\x00\r\x00\x00\x00\x02\x00\x00\x00\x05\x00\x00\x00self\x00\x01\x00\x00\x00(\x00\x00\x00\n\x00\x00\x00newObject\x00\x03\x00\x00\x00(\x00\x00\x00\x00\x00\x00\x00 (12 @ b5f)
+				}
+                u1 : 1(18 @ f69)
+                u2 : 5(20 @ f6b)
+			}
+		}
+
+        component sub-sub-block { (1a @ f6d)
+
+            component type : GroundPolygon (0a @ f6f)
+            number : 113(10 @ f7e)
+
+            ground polygon sub-sub-sub-block { (372 @ f81)
+
+
+                 sub-sub-sub-sub-block { (12 @ f83)
+
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ f85)
+
+                        x : -41.137939453125 (0d @ f87)
+                        y : -1.274169921875 (15 @ f8c)
+					}
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ f91)
+
+                        x : 40.745849609375 (0d @ f93)
+                        y : -1.11181640625 (15 @ f98)
+					}
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ f9d)
+
+                        x : 40.54443359375 (0d @ f9f)
+                        y : 10.74737548828125 (15 @ fa4)
+					}
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ fa9)
+
+                        x : -41.364501953125 (0d @ fab)
+                        y : 10.53924560546875 (15 @ fb0)
+					}
+                    u0 : 0(10 @ fb5)
+                    u1 : 1(18 @ fb7)
+				}
+                u1 : 1(18 @ fb9)
+                u2 : -50.0 (25 @ fbb)
+                u3 : 50.0 (2d @ fc0)
+                u4 :  (32 @ fc5)
+			}
+		}
+
+        position sub-sub-block { (22 @ fc7)
+
+            x position : 0.0 (0d @ fc9)
+            y position : 0.0 (15 @ fce)
+		}
+        z position : 0.0 (2d @ fd3)
+        rotation : 0.0 (35 @ fd8)
+        scale : 1.0 (3d @ fdd)
+
+        u0 sub-sub-block { (42 @ fe2)
+
+            w : -41.364501953125 (0d @ fe4)
+            x : -1.274169921875 (15 @ fe9)
+            y : 82.1103515625 (1d @ fee)
+            z : 13.274169921875 (25 @ ff3)
+		}
+        hidden : 0(48 @ ff8)
+	}
+    u0 : 1.0 (15 @ ffa)
+}
+
+?item block { (12 @ fff)
+
+
+    ?sub-item sub-block { (0a @ 1002)
+
+        name : dropping_platform0 (12 @ 1005)
+
+        component sub-sub-block { (1a @ 1019)
+
+            component type : PhysicsObject (0a @ 101b)
+            number : 1(10 @ 102a)
+
+            physics object sub-sub-sub-block { (4fa @ 102d)
+
+                u0 : 0(08 @ 102f)
+                u3 : 1500.0 (25 @ 1031)
+                u4 : 0.0 (2d @ 1036)
+                u5 : 700.0 (35 @ 103b)
+                u6 : 0(38 @ 1040)
+                u7 : 0.0 (45 @ 1042)
+			}
+		}
+
+        component sub-sub-block { (1a @ 1047)
+
+            component type : CollisionShape (0a @ 1049)
+            number : 2(10 @ 1059)
+            ? linked component : 102(20 @ 105b)
+
+            collision shape sub-sub-sub-block { (3c2 @ 105e)
+
+
+                u2 sub-sub-sub-sub-block { (1a @ 1060)
+
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 1062)
+
+                        y : -48.84661865234375 (0d @ 1064)
+                        z : -9.417236328125 (15 @ 1069)
+					}
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 106e)
+
+                        y : 54.04461669921875 (0d @ 1070)
+                        z : -10.31640625 (15 @ 1075)
+					}
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 107a)
+
+                        y : 50.0162353515625 (0d @ 107c)
+                        z : 13.7117919921875 (15 @ 1081)
+					}
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 1086)
+
+                        y : 21.0169677734375 (0d @ 1088)
+                        z : 12.03076171875 (15 @ 108d)
+					}
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 1092)
+
+                        y : -47.26104736328125 (0d @ 1094)
+                        z : 13.5928955078125 (15 @ 1099)
+					}
+                    u3 : 0(10 @ 109e)
+                    u4 : 1(18 @ 10a0)
+				}
+			}
+
+            collision shape 2 sub-sub-sub-block { (3ca @ 10a3)
+
+                u0 : 1(10 @ 10a5)
+                w : -50.0 (35 @ 10a7)
+                x : 50.0 (3d @ 10ac)
+                z : 1(58 @ 10b1)
+			}
+		}
+
+        component sub-sub-block { (1a @ 10b3)
+
+            component type : Model (0a @ 10b5)
+            number : 101(10 @ 10bc)
+
+            3D model sub-sub-sub-block { (32a @ 10bf)
+
+                name : platformwood0 (0a @ 10c1)
+                u0 : 0.0 (15 @ 10d0)
+                u1 : 0.30000001192092896 (1d @ 10d5)
+                u2 : 0.0 (25 @ 10da)
+
+                u3 sub-sub-sub-sub-block { (2a @ 10df)
+
+                    w : 0.0 (0d @ 10e1)
+                    x : 0.0 (15 @ 10e6)
+                    y : 0.0 (1d @ 10eb)
+                    z : 1.0 (25 @ 10f0)
+				}
+
+                u4 sub-sub-sub-sub-block { (32 @ 10f5)
+
+                    x : 0.0 (0d @ 10f7)
+                    y : 0.0 (15 @ 10fc)
+                    z : 0.0 (1d @ 1101)
+				}
+                u5 : 0(38 @ 1106)
+
+                u6 sub-sub-sub-sub-block { (42 @ 1108)
+
+                    w : 1.0 (0d @ 110a)
+                    x : 1.0 (15 @ 110f)
+                    y : 1.0 (1d @ 1114)
+                    z : 1.0 (25 @ 1119)
+				}
+			}
+		}
+
+        component sub-sub-block { (1a @ 111e)
+
+            component type : GroundPolygon (0a @ 1120)
+            number : 102(10 @ 112f)
+
+            ground polygon sub-sub-sub-block { (372 @ 1132)
+
+
+                 sub-sub-sub-sub-block { (12 @ 1134)
+
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 1136)
+
+                        x : -48.84661865234375 (0d @ 1138)
+                        y : -9.417236328125 (15 @ 113d)
+					}
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 1142)
+
+                        x : 54.04461669921875 (0d @ 1144)
+                        y : -10.31640625 (15 @ 1149)
+					}
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 114e)
+
+                        x : 50.0162353515625 (0d @ 1150)
+                        y : 13.7117919921875 (15 @ 1155)
+					}
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 115a)
+
+                        x : 21.0169677734375 (0d @ 115c)
+                        y : 12.03076171875 (15 @ 1161)
+					}
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 1166)
+
+                        x : -47.26104736328125 (0d @ 1168)
+                        y : 13.5928955078125 (15 @ 116d)
+					}
+                    u0 : 0(10 @ 1172)
+                    u1 : 1(18 @ 1174)
+				}
+                u1 : 1(18 @ 1176)
+                u2 : -50.0 (25 @ 1178)
+                u3 : 50.0 (2d @ 117d)
+                u4 :  (32 @ 1182)
+			}
+		}
+
+        component sub-sub-block { (1a @ 1184)
+
+            component type : TransformController (0a @ 1186)
+            number : 104(10 @ 119b)
+		}
+
+        component sub-sub-block { (1a @ 119d)
+
+            component type : CollisionShape (0a @ 11a0)
+            number : 107(10 @ 11b0)
+
+            collision shape sub-sub-sub-block { (3c2 @ 11b3)
+
+
+                u0 sub-sub-sub-sub-block { (0a @ 11b5)
+
+                    w : -40.0 (0d @ 11b7)
+                    x : 0.0 (15 @ 11bc)
+                    y : 80.0 (1d @ 11c1)
+                    z : 10.0 (25 @ 11c6)
+				}
+			}
+
+            collision shape 2 sub-sub-sub-block { (3ca @ 11cc)
+
+                w : -15.0 (35 @ 11cf)
+                x : 15.0 (3d @ 11d4)
+
+                lua chunk sub-sub-sub-sub-block { (4a @ 11d9)
+
+                    main chunk : chunk >
+
+                    === lua =============
+                    local self, target, normal = ...;
+                    
+                    local initialPosition = self:position();
+                    
+                    if (target:identifier() == "hero" and CollisionShape.IsEnabled(self, 107) and
+                    	normal:y() < -0.3) then
+                    
+                    	CollisionShape.SetEnabled(self, 107, false);
+                    
+                    	for i=1,1 do
+                    		TransformController.TranslateBy(self, Vector3.New(10,0,0), 0.1);
+                    		Program.Wait(0.1);
+                    		TransformController.TranslateBy(self, Vector3.New(-10,0,0), 0.1);
+                    		Program.Wait(0.1);
+                    	end
+                    
+                    	PhysicsObject.SetEnabled(self, true);
+                    	SoundLibrary.PlayEffect("chirp1");
+                    
+                    	Program.Wait(1.5);
+                    
+                    	PhysicsObject.SetEnabled(self, false);
+                    	self:setPosition(initialPosition);
+                    	self:setVelocity(Vector3.New(0, 0, 0));
+                    
+                    	TransformController.ScaleTo(self, 0.01, 0);
+                    	Program.Wait(0.01);
+                    	TransformController.ScaleTo(self, 1.0, 0.5);
+                    	Program.Wait(0.5);
+                    
+                    	CollisionShape.SetEnabled(self, 107, true);
+                    end
+
+                    =====================
+                    secondary chunk : \x1bLuaQ\x00\x01\x04\x04\x04\x08\x00U\x03\x00\x00local self, target, normal = ...;\r\n\r\nlocal initialPosition = self:position();\r\n\r\nif (target:identifier() == "hero" and CollisionShape.IsEnabled(self, 107) and\r\n\tnormal:y() < -0.3) then\r\n\r\n\tCollisionShape.SetEnabled(self, 107, false);\r\n\r\n\tfor i=1,1 do\r\n\t\tTransformController.TranslateBy(self, Vector3.New(10,0,0), 0.1);\r\n\t\tProgram.Wait(0.1);\r\n\t\tTransformController.TranslateBy(self, Vector3.New(-10,0,0), 0.1);\r\n\t\tProgram.Wait(0.1);\r\n\tend\r\n\r\n\tPhysicsObject.SetEnabled(self, true);\r\n\tSoundLibrary.PlayEffect("chirp1");\r\n\r\n\tProgram.Wait(1.5);\r\n\r\n\tPhysicsObject.SetEnabled(self, false);\r\n\tself:setPosition(initialPosition);\r\n\tself:setVelocity(Vector3.New(0, 0, 0));\r\n\r\n\tTransformController.ScaleTo(self, 0.01, 0);\r\n\tProgram.Wait(0.01);\r\n\tTransformController.ScaleTo(self, 1.0, 0.5);\r\n\tProgram.Wait(0.5);\r\n\r\n\tCollisionShape.SetEnabled(self, 107, true);\r\nend\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x02\x0es\x00\x00\x00%\x00\x00\x02\xcb\x00@\x00\xdc\x80\x00\x01\x0bA\xc0\x00\x1c\x81\x00\x01\x17\x80@\x02\x16\x80\x1a\x80\x05\xc1\x00\x00\x06\x01A\x02@\x01\x00\x00\x81A\x01\x00\x1c\x81\x80\x01\x1a\x01\x00\x00\x16\xc0\x18\x80\x0b\x81A\x01\x1c\x81\x00\x01\x18\xc0A\x02\x16\xc0\x17\x80\x05\xc1\x00\x00\x06\x01B\x02@\x01\x00\x00\x81A\x01\x00\xc2\x01\x00\x00\x1cA\x00\x02\x01A\x02\x00AA\x02\x00\x81A\x02\x00 A\x07\x80\x05\x82\x02\x00\x06\xc2B\x04@\x02\x00\x00\x85\x02\x03\x00\x86BC\x05\xc1\x82\x03\x00\x01\xc3\x03\x00A\xc3\x03\x00\x9c\x82\x00\x02\xc1\x02\x04\x00\x1cB\x00\x02\x05B\x04\x00\x06\x82D\x04A\x02\x04\x00\x1cB\x00\x01\x05\x82\x02\x00\x06\xc2B\x04@\x02\x00\x00\x85\x02\x03\x00\x86BC\x05\xc1\xc2\x04\x00\x01\xc3\x03\x00A\xc3\x03\x00\x9c\x82\x00\x02\xc1\x02\x04\x00\x1cB\x00\x02\x05B\x04\x00\x06\x82D\x04A\x02\x04\x00\x1cB\x00\x01\x1f\x01\xf8\x7f\x05\x01\x05\x00\x06\x01B\x02@\x01\x00\x00\x82\x01\x80\x00\x1cA\x80\x01\x05A\x05\x00\x06\x81E\x02A\xc1\x05\x00\x1cA\x00\x01\x05A\x04\x00\x06\x81D\x02A\x01\x06\x00\x1cA\x00\x01\x05\x01\x05\x00\x06\x01B\x02@\x01\x00\x00\x82\x01\x00\x00\x1cA\x80\x01\x0bAF\x00\x80\x01\x80\x01\x1cA\x80\x01\x0b\x81F\x00\x85\x01\x03\x00\x86AC\x03\xc1\xc1\x03\x00\x01\xc2\x03\x00A\xc2\x03\x00\x9c\x01\x00\x02\x1cA\x00\x00\x05\x81\x02\x00\x06\xc1F\x02@\x01\x00\x00\x81\x01\x07\x00\xc1\xc1\x03\x00\x1cA\x00\x02\x05A\x04\x00\x06\x81D\x02A\x01\x07\x00\x1cA\x00\x01\x05\x81\x02\x00\x06\xc1F\x02@\x01\x00\x00\x81A\x02\x00\xc1A\x07\x00\x1cA\x00\x02\x05A\x04\x00\x06\x81D\x02AA\x07\x00\x1cA\x00\x01\x05\xc1\x00\x00\x06\x01B\x02@\x01\x00\x00\x81A\x01\x00\xc2\x01\x80\x00\x1cA\x00\x02\x1e\x00\x80\x00\x1e\x00\x00\x00\x04\t\x00\x00\x00position\x00\x04\x0b\x00\x00\x00identifier\x00\x04\x05\x00\x00\x00hero\x00\x04\x0f\x00\x00\x00CollisionShape\x00\x04\n\x00\x00\x00IsEnabled\x00\x03\x00\x00\x00\x00\x00\xc0Z@\x04\x02\x00\x00\x00y\x00\x03333333\xd3\xbf\x04\x0b\x00\x00\x00SetEnabled\x00\x03\x00\x00\x00\x00\x00\x00\xf0?\x04\x14\x00\x00\x00TransformController\x00\x04\x0c\x00\x00\x00TranslateBy\x00\x04\x08\x00\x00\x00Vector3\x00\x04\x04\x00\x00\x00New\x00\x03\x00\x00\x00\x00\x00\x00$@\x03\x00\x00\x00\x00\x00\x00\x00\x00\x03\x9a\x99\x99\x99\x99\x99\xb9?\x04\x08\x00\x00\x00Program\x00\x04\x05\x00\x00\x00Wait\x00\x03\x00\x00\x00\x00\x00\x00$\xc0\x04\x0e\x00\x00\x00PhysicsObject\x00\x04\r\x00\x00\x00SoundLibrary\x00\x04\x0b\x00\x00\x00PlayEffect\x00\x04\x07\x00\x00\x00chirp1\x00\x03\x00\x00\x00\x00\x00\x00\xf8?\x04\x0c\x00\x00\x00setPosition\x00\x04\x0c\x00\x00\x00setVelocity\x00\x04\x08\x00\x00\x00ScaleTo\x00\x03{\x14\xaeG\xe1z\x84?\x03\x00\x00\x00\x00\x00\x00\xe0?\x00\x00\x00\x00s\x00\x00\x00\x01\x00\x00\x00\x03\x00\x00\x00\x03\x00\x00\x00\x05\x00\x00\x00\x05\x00\x00\x00\x05\x00\x00\x00\x05\x00\x00\x00\x05\x00\x00\x00\x05\x00\x00\x00\x05\x00\x00\x00\x05\x00\x00\x00\x05\x00\x00\x00\x05\x00\x00\x00\x05\x00\x00\x00\x06\x00\x00\x00\x06\x00\x00\x00\x06\x00\x00\x00\x06\x00\x00\x00\x08\x00\x00\x00\x08\x00\x00\x00\x08\x00\x00\x00\x08\x00\x00\x00\x08\x00\x00\x00\x08\x00\x00\x00\n\x00\x00\x00\n\x00\x00\x00\n\x00\x00\x00\n\x00\x00\x00\x0b\x00\x00\x00\x0b\x00\x00\x00\x0b\x00\x00\x00\x0b\x00\x00\x00\x0b\x00\x00\x00\x0b\x00\x00\x00\x0b\x00\x00\x00\x0b\x00\x00\x00\x0b\x00\x00\x00\x0b\x00\x00\x00\x0b\x00\x00\x00\x0c\x00\x00\x00\x0c\x00\x00\x00\x0c\x00\x00\x00\x0c\x00\x00\x00\r\x00\x00\x00\r\x00\x00\x00\r\x00\x00\x00\r\x00\x00\x00\r\x00\x00\x00\r\x00\x00\x00\r\x00\x00\x00\r\x00\x00\x00\r\x00\x00\x00\r\x00\x00\x00\r\x00\x00\x00\x0e\x00\x00\x00\x0e\x00\x00\x00\x0e\x00\x00\x00\x0e\x00\x00\x00\n\x00\x00\x00\x11\x00\x00\x00\x11\x00\x00\x00\x11\x00\x00\x00\x11\x00\x00\x00\x11\x00\x00\x00\x12\x00\x00\x00\x12\x00\x00\x00\x12\x00\x00\x00\x12\x00\x00\x00\x14\x00\x00\x00\x14\x00\x00\x00\x14\x00\x00\x00\x14\x00\x00\x00\x16\x00\x00\x00\x16\x00\x00\x00\x16\x00\x00\x00\x16\x00\x00\x00\x16\x00\x00\x00\x17\x00\x00\x00\x17\x00\x00\x00\x17\x00\x00\x00\x18\x00\x00\x00\x18\x00\x00\x00\x18\x00\x00\x00\x18\x00\x00\x00\x18\x00\x00\x00\x18\x00\x00\x00\x18\x00\x00\x00\x18\x00\x00\x00\x1a\x00\x00\x00\x1a\x00\x00\x00\x1a\x00\x00\x00\x1a\x00\x00\x00\x1a\x00\x00\x00\x1a\x00\x00\x00\x1b\x00\x00\x00\x1b\x00\x00\x00\x1b\x00\x00\x00\x1b\x00\x00\x00\x1c\x00\x00\x00\x1c\x00\x00\x00\x1c\x00\x00\x00\x1c\x00\x00\x00\x1c\x00\x00\x00\x1c\x00\x00\x00\x1d\x00\x00\x00\x1d\x00\x00\x00\x1d\x00\x00\x00\x1d\x00\x00\x00\x1f\x00\x00\x00\x1f\x00\x00\x00\x1f\x00\x00\x00\x1f\x00\x00\x00\x1f\x00\x00\x00\x1f\x00\x00\x00 \x00\x00\x00\x08\x00\x00\x00\x05\x00\x00\x00self\x00\x01\x00\x00\x00r\x00\x00\x00\x07\x00\x00\x00target\x00\x01\x00\x00\x00r\x00\x00\x00\x07\x00\x00\x00normal\x00\x01\x00\x00\x00r\x00\x00\x00\x10\x00\x00\x00initialPosition\x00\x03\x00\x00\x00r\x00\x00\x00\x0c\x00\x00\x00(for index)\x00\x1b\x00\x00\x00;\x00\x00\x00\x0c\x00\x00\x00(for limit)\x00\x1b\x00\x00\x00;\x00\x00\x00\x0b\x00\x00\x00(for step)\x00\x1b\x00\x00\x00;\x00\x00\x00\x02\x00\x00\x00i\x00\x1c\x00\x00\x00:\x00\x00\x00\x00\x00\x00\x00 (12 @ 1533)
+				}
+                z : 1(58 @ 1e82)
+			}
+		}
+
+        position sub-sub-block { (22 @ 1e84)
+
+            x position : 0.0 (0d @ 1e86)
+            y position : 0.0 (15 @ 1e8b)
+		}
+        z position : 0.0 (2d @ 1e90)
+        rotation : 0.0 (35 @ 1e95)
+        scale : 1.0 (3d @ 1e9a)
+
+        u0 sub-sub-block { (42 @ 1e9f)
+
+            w : -48.84661865234375 (0d @ 1ea1)
+            x : -10.31640625 (15 @ 1ea6)
+            y : 102.8912353515625 (1d @ 1eab)
+            z : 24.0281982421875 (25 @ 1eb0)
+		}
+        hidden : 0(48 @ 1eb5)
+	}
+    u0 : 1.0 (15 @ 1eb7)
+}
+
+?item block { (12 @ 1ebc)
+
+
+    ?sub-item sub-block { (0a @ 1ebf)
+
+        name : platformwood0 (12 @ 1ec2)
+
+        component sub-sub-block { (1a @ 1ed1)
+
+            component type : CollisionShape (0a @ 1ed3)
+            number : 1(10 @ 1ee3)
+            ? linked component : 103(20 @ 1ee5)
+
+            collision shape sub-sub-sub-block { (3c2 @ 1ee8)
+
+
+                u2 sub-sub-sub-sub-block { (1a @ 1eea)
+
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 1eec)
+
+                        y : -41.59521484375 (0d @ 1eee)
+                        z : 0.267578125 (15 @ 1ef3)
+					}
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 1ef8)
+
+                        y : 48.892333984375 (0d @ 1efa)
+                        z : 0.071533203125 (15 @ 1eff)
+					}
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 1f04)
+
+                        y : 48.9415283203125 (0d @ 1f06)
+                        z : 10.55810546875 (15 @ 1f0b)
+					}
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 1f10)
+
+                        y : -41.5526123046875 (0d @ 1f12)
+                        z : 10.70654296875 (15 @ 1f17)
+					}
+                    u3 : 0(10 @ 1f1c)
+                    u4 : 1(18 @ 1f1e)
+				}
+			}
+
+            collision shape 2 sub-sub-sub-block { (3ca @ 1f21)
+
+                u0 : 1(10 @ 1f23)
+                w : -50.0 (35 @ 1f25)
+                x : 50.0 (3d @ 1f2a)
+                z : 1(58 @ 1f2f)
+			}
+		}
+
+        component sub-sub-block { (1a @ 1f31)
+
+            component type : Model (0a @ 1f33)
+            number : 101(10 @ 1f3a)
+
+            3D model sub-sub-sub-block { (32a @ 1f3d)
+
+                name : platformwood0 (0a @ 1f3f)
+                u0 : 0.0 (15 @ 1f4e)
+                u1 : 0.0 (1d @ 1f53)
+                u2 : 0.0 (25 @ 1f58)
+
+                u3 sub-sub-sub-sub-block { (2a @ 1f5d)
+
+                    w : 1.0 (0d @ 1f5f)
+                    x : 1.0 (15 @ 1f64)
+                    y : 1.0 (1d @ 1f69)
+                    z : 1.0 (25 @ 1f6e)
+				}
+
+                u4 sub-sub-sub-sub-block { (32 @ 1f73)
+
+                    x : 0.0 (0d @ 1f75)
+                    y : 0.0 (15 @ 1f7a)
+                    z : 0.0 (1d @ 1f7f)
+				}
+                u5 : 0(38 @ 1f84)
+
+                u6 sub-sub-sub-sub-block { (42 @ 1f86)
+
+                    w : 1.0 (0d @ 1f88)
+                    x : 1.0 (15 @ 1f8d)
+                    y : 1.0 (1d @ 1f92)
+                    z : 1.0 (25 @ 1f97)
+				}
+			}
+		}
+
+        component sub-sub-block { (1a @ 1f9c)
+
+            component type : GroundPolygon (0a @ 1f9e)
+            number : 103(10 @ 1fad)
+
+            ground polygon sub-sub-sub-block { (372 @ 1fb0)
+
+
+                 sub-sub-sub-sub-block { (12 @ 1fb2)
+
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 1fb4)
+
+                        x : -41.59521484375 (0d @ 1fb6)
+                        y : 0.267578125 (15 @ 1fbb)
+					}
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 1fc0)
+
+                        x : 48.892333984375 (0d @ 1fc2)
+                        y : 0.071533203125 (15 @ 1fc7)
+					}
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 1fcc)
+
+                        x : 48.9415283203125 (0d @ 1fce)
+                        y : 10.55810546875 (15 @ 1fd3)
+					}
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 1fd8)
+
+                        x : -41.5526123046875 (0d @ 1fda)
+                        y : 10.70654296875 (15 @ 1fdf)
+					}
+                    u0 : 0(10 @ 1fe4)
+                    u1 : 1(18 @ 1fe6)
+				}
+                u1 : 1(18 @ 1fe8)
+                u2 : -50.0 (25 @ 1fea)
+                u3 : 50.0 (2d @ 1fef)
+                u4 :  (32 @ 1ff4)
+			}
+		}
+
+        position sub-sub-block { (22 @ 1ff6)
+
+            x position : 0.0 (0d @ 1ff8)
+            y position : 0.0 (15 @ 1ffd)
+		}
+        z position : 0.0 (2d @ 2002)
+        rotation : 0.0 (35 @ 2007)
+        scale : 1.0 (3d @ 200c)
+
+        u0 sub-sub-block { (42 @ 2011)
+
+            w : -41.59521484375 (0d @ 2013)
+            x : 0.0 (15 @ 2018)
+            y : 90.5367431640625 (1d @ 201d)
+            z : 10.70654296875 (25 @ 2022)
+		}
+        hidden : 0(48 @ 2027)
+	}
+    u0 : 1.0 (15 @ 2029)
+}
+
+?item block { (12 @ 202e)
+
+
+    ?sub-item sub-block { (0a @ 2031)
+
+        name : platformwood1 (12 @ 2034)
+
+        component sub-sub-block { (1a @ 2043)
+
+            component type : CollisionShape (0a @ 2045)
+            number : 1(10 @ 2055)
+            ? linked component : 103(20 @ 2057)
+
+            collision shape sub-sub-sub-block { (3c2 @ 205a)
+
+
+                u2 sub-sub-sub-sub-block { (1a @ 205c)
+
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 205e)
+
+                        y : -68.1011962890625 (0d @ 2060)
+                        z : -0.3656005859375 (15 @ 2065)
+					}
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 206a)
+
+                        y : 84.3916015625 (0d @ 206c)
+                        z : -0.22869873046875 (15 @ 2071)
+					}
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 2076)
+
+                        y : 84.4407958984375 (0d @ 2078)
+                        z : 10.2578125 (15 @ 207d)
+					}
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 2082)
+
+                        y : -68.05853271484375 (0d @ 2084)
+                        z : 10.0733642578125 (15 @ 2089)
+					}
+                    u3 : 0(10 @ 208e)
+                    u4 : 1(18 @ 2090)
+				}
+			}
+
+            collision shape 2 sub-sub-sub-block { (3ca @ 2093)
+
+                u0 : 1(10 @ 2095)
+                w : -50.0 (35 @ 2097)
+                x : 50.0 (3d @ 209c)
+                z : 1(58 @ 20a1)
+			}
+		}
+
+        component sub-sub-block { (1a @ 20a3)
+
+            component type : Model (0a @ 20a5)
+            number : 101(10 @ 20ac)
+
+            3D model sub-sub-sub-block { (32a @ 20af)
+
+                name : platformwood1 (0a @ 20b1)
+                u0 : 0.0 (15 @ 20c0)
+                u1 : 0.0 (1d @ 20c5)
+                u2 : 0.0 (25 @ 20ca)
+
+                u3 sub-sub-sub-sub-block { (2a @ 20cf)
+
+                    w : 1.0 (0d @ 20d1)
+                    x : 1.0 (15 @ 20d6)
+                    y : 1.0 (1d @ 20db)
+                    z : 1.0 (25 @ 20e0)
+				}
+
+                u4 sub-sub-sub-sub-block { (32 @ 20e5)
+
+                    x : 0.0 (0d @ 20e7)
+                    y : 0.0 (15 @ 20ec)
+                    z : 0.0 (1d @ 20f1)
+				}
+                u5 : 0(38 @ 20f6)
+
+                u6 sub-sub-sub-sub-block { (42 @ 20f8)
+
+                    w : 1.0 (0d @ 20fa)
+                    x : 1.0 (15 @ 20ff)
+                    y : 1.0 (1d @ 2104)
+                    z : 1.0 (25 @ 2109)
+				}
+			}
+		}
+
+        component sub-sub-block { (1a @ 210e)
+
+            component type : GroundPolygon (0a @ 2110)
+            number : 103(10 @ 211f)
+
+            ground polygon sub-sub-sub-block { (372 @ 2122)
+
+
+                 sub-sub-sub-sub-block { (12 @ 2124)
+
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 2126)
+
+                        x : -68.1011962890625 (0d @ 2128)
+                        y : -0.3656005859375 (15 @ 212d)
+					}
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 2132)
+
+                        x : 84.3916015625 (0d @ 2134)
+                        y : -0.22869873046875 (15 @ 2139)
+					}
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 213e)
+
+                        x : 84.4407958984375 (0d @ 2140)
+                        y : 10.2578125 (15 @ 2145)
+					}
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 214a)
+
+                        x : -68.05853271484375 (0d @ 214c)
+                        y : 10.0733642578125 (15 @ 2151)
+					}
+                    u0 : 0(10 @ 2156)
+                    u1 : 1(18 @ 2158)
+				}
+                u1 : 1(18 @ 215a)
+                u2 : -50.0 (25 @ 215c)
+                u3 : 50.0 (2d @ 2161)
+                u4 :  (32 @ 2166)
+			}
+		}
+
+        position sub-sub-block { (22 @ 2168)
+
+            x position : 0.0 (0d @ 216a)
+            y position : 0.0 (15 @ 216f)
+		}
+        z position : 0.0 (2d @ 2174)
+        rotation : 0.0 (35 @ 2179)
+        scale : 1.0 (3d @ 217e)
+
+        u0 sub-sub-block { (42 @ 2183)
+
+            w : -68.1011962890625 (0d @ 2185)
+            x : -0.3656005859375 (15 @ 218a)
+            y : 152.5419921875 (1d @ 218f)
+            z : 10.6234130859375 (25 @ 2194)
+		}
+        hidden : 0(48 @ 2199)
+	}
+    u0 : 1.0 (15 @ 219b)
+}
+
+?item block { (12 @ 21a0)
+
+
+    ?sub-item sub-block { (0a @ 21a3)
+
+        name : swingplatform2 (12 @ 21a6)
+
+        component sub-sub-block { (1a @ 21b6)
+
+            component type : CollisionShape (0a @ 21b8)
+            number : 1(10 @ 21c8)
+            ? linked component : 103(20 @ 21ca)
+
+            collision shape sub-sub-sub-block { (3c2 @ 21cd)
+
+
+                u2 sub-sub-sub-sub-block { (1a @ 21cf)
+
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 21d1)
+
+                        y : -77.83717346191406 (0d @ 21d3)
+                        z : -499.7137145996094 (15 @ 21d8)
+					}
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 21dd)
+
+                        y : 82.49716186523438 (0d @ 21df)
+                        z : -499.4162902832031 (15 @ 21e4)
+					}
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 21e9)
+
+                        y : 83.39263916015625 (0d @ 21eb)
+                        z : -488.2248840332031 (15 @ 21f0)
+					}
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 21f5)
+
+                        y : -79.32577514648438 (0d @ 21f7)
+                        z : -489.0199279785156 (15 @ 21fc)
+					}
+                    u3 : 0(10 @ 2201)
+                    u4 : 1(18 @ 2203)
+				}
+			}
+
+            collision shape 2 sub-sub-sub-block { (3ca @ 2206)
+
+                u0 : 1(10 @ 2208)
+                w : -50.0 (35 @ 220a)
+                x : 50.0 (3d @ 220f)
+                z : 1(58 @ 2214)
+			}
+		}
+
+        component sub-sub-block { (1a @ 2216)
+
+            component type : Model (0a @ 2218)
+            number : 101(10 @ 221f)
+
+            3D model sub-sub-sub-block { (32a @ 2222)
+
+                name : platformwood2 (0a @ 2224)
+                u0 : 0.0 (15 @ 2233)
+                u1 : 0.0 (1d @ 2238)
+                u2 : 0.0 (25 @ 223d)
+
+                u3 sub-sub-sub-sub-block { (2a @ 2242)
+
+                    w : 0.0 (0d @ 2244)
+                    x : 0.0 (15 @ 2249)
+                    y : 0.0 (1d @ 224e)
+                    z : 1.0 (25 @ 2253)
+				}
+
+                u4 sub-sub-sub-sub-block { (32 @ 2258)
+
+                    x : 0.0 (0d @ 225a)
+                    y : 500.0 (15 @ 225f)
+                    z : 0.0 (1d @ 2264)
+				}
+                u5 : 0(38 @ 2269)
+
+                u6 sub-sub-sub-sub-block { (42 @ 226b)
+
+                    w : 1.0 (0d @ 226d)
+                    x : 1.0 (15 @ 2272)
+                    y : 1.0 (1d @ 2277)
+                    z : 1.0 (25 @ 227c)
+				}
+			}
+		}
+
+        component sub-sub-block { (1a @ 2281)
+
+            component type : GroundPolygon (0a @ 2283)
+            number : 103(10 @ 2292)
+
+            ground polygon sub-sub-sub-block { (372 @ 2295)
+
+
+                 sub-sub-sub-sub-block { (12 @ 2297)
+
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 2299)
+
+                        x : -77.83717346191406 (0d @ 229b)
+                        y : -499.7137145996094 (15 @ 22a0)
+					}
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 22a5)
+
+                        x : 82.49716186523438 (0d @ 22a7)
+                        y : -499.4162902832031 (15 @ 22ac)
+					}
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 22b1)
+
+                        x : 83.39263916015625 (0d @ 22b3)
+                        y : -488.2248840332031 (15 @ 22b8)
+					}
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 22bd)
+
+                        x : -79.32577514648438 (0d @ 22bf)
+                        y : -489.0199279785156 (15 @ 22c4)
+					}
+                    u0 : 0(10 @ 22c9)
+                    u1 : 1(18 @ 22cb)
+				}
+                u1 : 1(18 @ 22cd)
+                u2 : -50.0 (25 @ 22cf)
+                u3 : 50.0 (2d @ 22d4)
+                u4 :  (32 @ 22d9)
+			}
+		}
+
+        component sub-sub-block { (1a @ 22db)
+
+            component type : PhysicsPlatform (0a @ 22dd)
+            number : 106(10 @ 22ee)
+
+            physics platform sub-sub-sub-block { (51a @ 22f1)
+
+                w : 1.0 (0d @ 22f3)
+                x : 5.0 (15 @ 22f8)
+                y : 0.15000000596046448 (1d @ 22fd)
+                z : 0.20000000298023224 (25 @ 2302)
+			}
+		}
+
+        position sub-sub-block { (22 @ 2307)
+
+            x position : 0.0 (0d @ 2309)
+            y position : 0.0 (15 @ 230e)
+		}
+        z position : 0.0 (2d @ 2313)
+        rotation : 0.0 (35 @ 2318)
+        scale : 1.0 (3d @ 231d)
+
+        u0 sub-sub-block { (42 @ 2322)
+
+            w : -79.32577514648438 (0d @ 2324)
+            x : -499.7137145996094 (15 @ 2329)
+            y : 162.71841430664062 (1d @ 232e)
+            z : 499.7137145996094 (25 @ 2333)
+		}
+        hidden : 0(48 @ 2338)
+	}
+    u0 : 1.0 (15 @ 233a)
+}
+
+?item block { (12 @ 233f)
+
+
+    ?sub-item sub-block { (0a @ 2342)
+
+        name : swingplatform3 (12 @ 2345)
+
+        component sub-sub-block { (1a @ 2355)
+
+            component type : CollisionShape (0a @ 2357)
+            number : 1(10 @ 2367)
+            ? linked component : 103(20 @ 2369)
+
+            collision shape sub-sub-sub-block { (3c2 @ 236c)
+
+
+                u2 sub-sub-sub-sub-block { (1a @ 236e)
+
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 2370)
+
+                        y : -157.09356689453125 (0d @ 2372)
+                        z : -448.82330322265625 (15 @ 2377)
+					}
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 237c)
+
+                        y : 147.88818359375 (0d @ 237e)
+                        z : -449.33184814453125 (15 @ 2383)
+					}
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 2388)
+
+                        y : 148.78363037109375 (0d @ 238a)
+                        z : -438.14044189453125 (15 @ 238f)
+					}
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 2394)
+
+                        y : -158.58221435546875 (0d @ 2396)
+                        z : -438.12945556640625 (15 @ 239b)
+					}
+                    u3 : 0(10 @ 23a0)
+                    u4 : 1(18 @ 23a2)
+				}
+			}
+
+            collision shape 2 sub-sub-sub-block { (3ca @ 23a5)
+
+                u0 : 1(10 @ 23a7)
+                w : -50.0 (35 @ 23a9)
+                x : 50.0 (3d @ 23ae)
+                z : 1(58 @ 23b3)
+			}
+		}
+
+        component sub-sub-block { (1a @ 23b5)
+
+            component type : Model (0a @ 23b7)
+            number : 101(10 @ 23be)
+
+            3D model sub-sub-sub-block { (32a @ 23c1)
+
+                name : platformwood3 (0a @ 23c3)
+                u0 : 0.0 (15 @ 23d2)
+                u1 : 0.0 (1d @ 23d7)
+                u2 : 0.0 (25 @ 23dc)
+
+                u3 sub-sub-sub-sub-block { (2a @ 23e1)
+
+                    w : 0.0 (0d @ 23e3)
+                    x : 0.0 (15 @ 23e8)
+                    y : 0.0 (1d @ 23ed)
+                    z : 1.0 (25 @ 23f2)
+				}
+
+                u4 sub-sub-sub-sub-block { (32 @ 23f7)
+
+                    x : 0.0 (0d @ 23f9)
+                    y : 450.0 (15 @ 23fe)
+                    z : 0.0 (1d @ 2403)
+				}
+                u5 : 0(38 @ 2408)
+
+                u6 sub-sub-sub-sub-block { (42 @ 240a)
+
+                    w : 1.0 (0d @ 240c)
+                    x : 1.0 (15 @ 2411)
+                    y : 1.0 (1d @ 2416)
+                    z : 1.0 (25 @ 241b)
+				}
+			}
+		}
+
+        component sub-sub-block { (1a @ 2420)
+
+            component type : GroundPolygon (0a @ 2422)
+            number : 103(10 @ 2431)
+
+            ground polygon sub-sub-sub-block { (372 @ 2434)
+
+
+                 sub-sub-sub-sub-block { (12 @ 2436)
+
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 2438)
+
+                        x : -157.09356689453125 (0d @ 243a)
+                        y : -448.82330322265625 (15 @ 243f)
+					}
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 2444)
+
+                        x : 147.88818359375 (0d @ 2446)
+                        y : -449.33184814453125 (15 @ 244b)
+					}
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 2450)
+
+                        x : 148.78363037109375 (0d @ 2452)
+                        y : -438.14044189453125 (15 @ 2457)
+					}
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 245c)
+
+                        x : -158.58221435546875 (0d @ 245e)
+                        y : -438.12945556640625 (15 @ 2463)
+					}
+                    u0 : 0(10 @ 2468)
+                    u1 : 1(18 @ 246a)
+				}
+                u1 : 1(18 @ 246c)
+                u2 : -50.0 (25 @ 246e)
+                u3 : 50.0 (2d @ 2473)
+                u4 :  (32 @ 2478)
+			}
+		}
+
+        component sub-sub-block { (1a @ 247a)
+
+            component type : PhysicsPlatform (0a @ 247c)
+            number : 106(10 @ 248d)
+
+            physics platform sub-sub-sub-block { (51a @ 2490)
+
+                w : 1.0 (0d @ 2492)
+                x : 5.0 (15 @ 2497)
+                y : 0.15000000596046448 (1d @ 249c)
+                z : 0.20000000298023224 (25 @ 24a1)
+			}
+		}
+
+        position sub-sub-block { (22 @ 24a6)
+
+            x position : 0.0 (0d @ 24a8)
+            y position : 0.0 (15 @ 24ad)
+		}
+        z position : 0.0 (2d @ 24b2)
+        rotation : 0.0 (35 @ 24b7)
+        scale : 1.0 (3d @ 24bc)
+
+        u0 sub-sub-block { (42 @ 24c1)
+
+            w : -158.58221435546875 (0d @ 24c3)
+            x : -449.33184814453125 (15 @ 24c8)
+            y : 307.3658447265625 (1d @ 24cd)
+            z : 449.33184814453125 (25 @ 24d2)
+		}
+        hidden : 0(48 @ 24d7)
+	}
+    u0 : 1.0 (15 @ 24d9)
+}
+
+?item block { (12 @ 24de)
+
+
+    ?sub-item sub-block { (0a @ 24e1)
+
+        name : swingplatform6 (12 @ 24e4)
+
+        component sub-sub-block { (1a @ 24f4)
+
+            component type : CollisionShape (0a @ 24f6)
+            number : 1(10 @ 2506)
+            ? linked component : 103(20 @ 2508)
+
+            collision shape sub-sub-sub-block { (3c2 @ 250b)
+
+
+                u2 sub-sub-sub-sub-block { (1a @ 250d)
+
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 250f)
+
+                        y : -175.9937744140625 (0d @ 2511)
+                        z : -290.8612060546875 (15 @ 2516)
+					}
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 251b)
+
+                        y : -111.6893310546875 (0d @ 251d)
+                        z : -291.3697509765625 (15 @ 2522)
+					}
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 2527)
+
+                        y : -110.79388427734375 (0d @ 2529)
+                        z : -280.1783447265625 (15 @ 252e)
+					}
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 2533)
+
+                        y : -177.1024169921875 (0d @ 2535)
+                        z : -280.1673583984375 (15 @ 253a)
+					}
+                    u3 : 0(10 @ 253f)
+                    u4 : 1(18 @ 2541)
+				}
+			}
+
+            collision shape 2 sub-sub-sub-block { (3ca @ 2544)
+
+                u0 : 1(10 @ 2546)
+                w : -50.0 (35 @ 2548)
+                x : 50.0 (3d @ 254d)
+                z : 1(58 @ 2552)
+			}
+		}
+
+        component sub-sub-block { (1a @ 2554)
+
+            component type : CollisionShape (0a @ 2556)
+            number : 2(10 @ 2566)
+            ? linked component : 109(20 @ 2568)
+
+            collision shape sub-sub-sub-block { (3c2 @ 256b)
+
+
+                u2 sub-sub-sub-sub-block { (1a @ 256d)
+
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 256f)
+
+                        y : 97.157958984375 (0d @ 2571)
+                        z : -292.3404541015625 (15 @ 2576)
+					}
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 257b)
+
+                        y : 163.30938720703125 (0d @ 257d)
+                        z : -291.873291015625 (15 @ 2582)
+					}
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 2587)
+
+                        y : 165.78912353515625 (0d @ 2589)
+                        z : -281.4791259765625 (15 @ 258e)
+					}
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 2593)
+
+                        y : 94.49676513671875 (0d @ 2595)
+                        z : -280.9990234375 (15 @ 259a)
+					}
+                    u3 : 0(10 @ 259f)
+                    u4 : 1(18 @ 25a1)
+				}
+			}
+
+            collision shape 2 sub-sub-sub-block { (3ca @ 25a4)
+
+                u0 : 1(10 @ 25a6)
+                w : -50.0 (35 @ 25a8)
+                x : 50.0 (3d @ 25ad)
+                z : 1(58 @ 25b2)
+			}
+		}
+
+        component sub-sub-block { (1a @ 25b4)
+
+            component type : Model (0a @ 25b6)
+            number : 101(10 @ 25bd)
+
+            3D model sub-sub-sub-block { (32a @ 25c0)
+
+                name : platformwood6 (0a @ 25c2)
+                u0 : 0.0 (15 @ 25d1)
+                u1 : 0.0 (1d @ 25d6)
+                u2 : 0.0 (25 @ 25db)
+
+                u3 sub-sub-sub-sub-block { (2a @ 25e0)
+
+                    w : 0.0 (0d @ 25e2)
+                    x : 0.0 (15 @ 25e7)
+                    y : 0.0 (1d @ 25ec)
+                    z : 1.0 (25 @ 25f1)
+				}
+
+                u4 sub-sub-sub-sub-block { (32 @ 25f6)
+
+                    x : 0.0 (0d @ 25f8)
+                    y : 290.0 (15 @ 25fd)
+                    z : 0.0 (1d @ 2602)
+				}
+                u5 : 0(38 @ 2607)
+
+                u6 sub-sub-sub-sub-block { (42 @ 2609)
+
+                    w : 1.0 (0d @ 260b)
+                    x : 1.0 (15 @ 2610)
+                    y : 1.0 (1d @ 2615)
+                    z : 1.0 (25 @ 261a)
+				}
+			}
+		}
+
+        component sub-sub-block { (1a @ 261f)
+
+            component type : GroundPolygon (0a @ 2621)
+            number : 103(10 @ 2630)
+
+            ground polygon sub-sub-sub-block { (372 @ 2633)
+
+
+                 sub-sub-sub-sub-block { (12 @ 2635)
+
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 2637)
+
+                        x : -175.9937744140625 (0d @ 2639)
+                        y : -290.8612060546875 (15 @ 263e)
+					}
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 2643)
+
+                        x : -111.6893310546875 (0d @ 2645)
+                        y : -291.3697509765625 (15 @ 264a)
+					}
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 264f)
+
+                        x : -110.79388427734375 (0d @ 2651)
+                        y : -280.1783447265625 (15 @ 2656)
+					}
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 265b)
+
+                        x : -177.1024169921875 (0d @ 265d)
+                        y : -280.1673583984375 (15 @ 2662)
+					}
+                    u0 : 0(10 @ 2667)
+                    u1 : 1(18 @ 2669)
+				}
+                u1 : 1(18 @ 266b)
+                u2 : -50.0 (25 @ 266d)
+                u3 : 50.0 (2d @ 2672)
+                u4 :  (32 @ 2677)
+			}
+		}
+
+        component sub-sub-block { (1a @ 2679)
+
+            component type : PhysicsPlatform (0a @ 267b)
+            number : 106(10 @ 268c)
+
+            physics platform sub-sub-sub-block { (51a @ 268f)
+
+                w : 1.0 (0d @ 2691)
+                x : 5.0 (15 @ 2696)
+                y : 0.15000000596046448 (1d @ 269b)
+                z : 0.20000000298023224 (25 @ 26a0)
+			}
+		}
+
+        component sub-sub-block { (1a @ 26a5)
+
+            component type : GroundPolygon (0a @ 26a7)
+            number : 109(10 @ 26b6)
+
+            ground polygon sub-sub-sub-block { (372 @ 26b9)
+
+
+                 sub-sub-sub-sub-block { (12 @ 26bb)
+
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 26bd)
+
+                        x : 97.157958984375 (0d @ 26bf)
+                        y : -292.3404541015625 (15 @ 26c4)
+					}
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 26c9)
+
+                        x : 163.30938720703125 (0d @ 26cb)
+                        y : -291.873291015625 (15 @ 26d0)
+					}
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 26d5)
+
+                        x : 165.78912353515625 (0d @ 26d7)
+                        y : -281.4791259765625 (15 @ 26dc)
+					}
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 26e1)
+
+                        x : 94.49676513671875 (0d @ 26e3)
+                        y : -280.9990234375 (15 @ 26e8)
+					}
+                    u0 : 0(10 @ 26ed)
+                    u1 : 1(18 @ 26ef)
+				}
+                u1 : 1(18 @ 26f1)
+                u2 : -50.0 (25 @ 26f3)
+                u3 : 50.0 (2d @ 26f8)
+                u4 :  (32 @ 26fd)
+			}
+		}
+
+        position sub-sub-block { (22 @ 26ff)
+
+            x position : 0.0 (0d @ 2701)
+            y position : 0.0 (15 @ 2706)
+		}
+        z position : 0.0 (2d @ 270b)
+        rotation : 0.0 (35 @ 2710)
+        scale : 1.0 (3d @ 2715)
+
+        u0 sub-sub-block { (42 @ 271a)
+
+            w : -177.1024169921875 (0d @ 271c)
+            x : -292.3404541015625 (15 @ 2721)
+            y : 342.89154052734375 (1d @ 2726)
+            z : 292.3404541015625 (25 @ 272b)
+		}
+        hidden : 0(48 @ 2730)
+	}
+    u0 : 1.0 (15 @ 2732)
+}
+
+?item block { (12 @ 2737)
+
+
+    ?sub-item sub-block { (0a @ 273a)
+
+        name : wheel1 (12 @ 273d)
+
+        component sub-sub-block { (1a @ 2745)
+
+            component type : CollisionShape (0a @ 2748)
+            number : 1(10 @ 2758)
+            ? linked component : 100(20 @ 275a)
+
+            collision shape sub-sub-sub-block { (3c2 @ 275d)
+
+
+                u2 sub-sub-sub-sub-block { (1a @ 275f)
+
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 2761)
+
+                        y : 92.25921630859375 (0d @ 2763)
+                        z : -107.8704833984375 (15 @ 2768)
+					}
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 276d)
+
+                        y : 124.35162353515625 (0d @ 276f)
+                        z : -70.239013671875 (15 @ 2774)
+					}
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 2779)
+
+                        y : 137.72515869140625 (0d @ 277b)
+                        z : -32.31219482421875 (15 @ 2780)
+					}
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 2785)
+
+                        y : 138.2163848876953 (0d @ 2787)
+                        z : -5.46649169921875 (15 @ 278c)
+					}
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 2791)
+
+                        y : 123.78202819824219 (0d @ 2793)
+                        z : -7.52130126953125 (15 @ 2798)
+					}
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 279d)
+
+                        y : 125.0516357421875 (0d @ 279f)
+                        z : -18.2401123046875 (15 @ 27a4)
+					}
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 27a9)
+
+                        y : 110.83203125 (0d @ 27ab)
+                        z : -64.70001220703125 (15 @ 27b0)
+					}
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 27b5)
+
+                        y : 83.3284912109375 (0d @ 27b7)
+                        z : -96.14117431640625 (15 @ 27bc)
+					}
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 27c1)
+
+                        y : 44.96527099609375 (0d @ 27c3)
+                        z : -119.546630859375 (15 @ 27c8)
+					}
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 27cd)
+
+                        y : -0.31829833984375 (0d @ 27cf)
+                        z : -127.3916015625 (15 @ 27d4)
+					}
+                    u3 : 0(10 @ 27d9)
+                    u4 : 0(18 @ 27db)
+				}
+			}
+
+            collision shape 2 sub-sub-sub-block { (3ca @ 27de)
+
+                u0 : 1(10 @ 27e0)
+                w : -60.0 (35 @ 27e2)
+                x : 60.0 (3d @ 27e7)
+                z : 1(58 @ 27ec)
+			}
+		}
+
+        component sub-sub-block { (1a @ 27ee)
+
+            component type : CollisionShape (0a @ 27f1)
+            number : 2(10 @ 2801)
+            ? linked component : 100(20 @ 2803)
+
+            collision shape sub-sub-sub-block { (3c2 @ 2806)
+
+
+                u2 sub-sub-sub-sub-block { (1a @ 2808)
+
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 280a)
+
+                        y : 83.3284912109375 (0d @ 280c)
+                        z : -96.14117431640625 (15 @ 2811)
+					}
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 2816)
+
+                        y : 44.96527099609375 (0d @ 2818)
+                        z : -119.546630859375 (15 @ 281d)
+					}
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 2822)
+
+                        y : -0.31829833984375 (0d @ 2824)
+                        z : -127.3916015625 (15 @ 2829)
+					}
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 282e)
+
+                        y : -43.6575927734375 (0d @ 2830)
+                        z : -118.67205810546875 (15 @ 2835)
+					}
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 283a)
+
+                        y : -81.74908447265625 (0d @ 283c)
+                        z : -98.10040283203125 (15 @ 2841)
+					}
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 2846)
+
+                        y : -108.4365234375 (0d @ 2848)
+                        z : -66.3941650390625 (15 @ 284d)
+					}
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 2852)
+
+                        y : -126.12060546875 (0d @ 2854)
+                        z : -20.740966796875 (15 @ 2859)
+					}
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 285e)
+
+                        y : -124.502197265625 (0d @ 2860)
+                        z : 22.7664794921875 (15 @ 2865)
+					}
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 286a)
+
+                        y : -110.52337646484375 (0d @ 286c)
+                        z : 65.193603515625 (15 @ 2871)
+					}
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 2876)
+
+                        y : -79.366943359375 (0d @ 2878)
+                        z : 98.6712646484375 (15 @ 287d)
+					}
+                    u3 : 0(10 @ 2882)
+                    u4 : 0(18 @ 2884)
+				}
+			}
+
+            collision shape 2 sub-sub-sub-block { (3ca @ 2887)
+
+                u0 : 1(10 @ 2889)
+                w : -60.0 (35 @ 288b)
+                x : 60.0 (3d @ 2890)
+                z : 1(58 @ 2895)
+			}
+		}
+
+        component sub-sub-block { (1a @ 2897)
+
+            component type : CollisionShape (0a @ 289a)
+            number : 3(10 @ 28aa)
+            ? linked component : 100(20 @ 28ac)
+
+            collision shape sub-sub-sub-block { (3c2 @ 28af)
+
+
+                u2 sub-sub-sub-sub-block { (1a @ 28b1)
+
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 28b3)
+
+                        y : -124.502197265625 (0d @ 28b5)
+                        z : 22.7664794921875 (15 @ 28ba)
+					}
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 28bf)
+
+                        y : -110.52337646484375 (0d @ 28c1)
+                        z : 65.193603515625 (15 @ 28c6)
+					}
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 28cb)
+
+                        y : -79.366943359375 (0d @ 28cd)
+                        z : 98.6712646484375 (15 @ 28d2)
+					}
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 28d7)
+
+                        y : -44.6412353515625 (0d @ 28d9)
+                        z : 119.900634765625 (15 @ 28de)
+					}
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 28e3)
+
+                        y : 1.78460693359375 (0d @ 28e5)
+                        z : 128.5687255859375 (15 @ 28ea)
+					}
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 28ef)
+
+                        y : 42.23211669921875 (0d @ 28f1)
+                        z : 121.3223876953125 (15 @ 28f6)
+					}
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 28fb)
+
+                        y : 80.47039794921875 (0d @ 28fd)
+                        z : 98.348388671875 (15 @ 2902)
+					}
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 2907)
+
+                        y : 87.11095428466797 (0d @ 2909)
+                        z : 90.406494140625 (15 @ 290e)
+					}
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 2913)
+
+                        y : 98.82844543457031 (0d @ 2915)
+                        z : 97.7547607421875 (15 @ 291a)
+					}
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 291f)
+
+                        y : 92.07344818115234 (0d @ 2921)
+                        z : 106.9886474609375 (15 @ 2926)
+					}
+                    u3 : 0(10 @ 292b)
+                    u4 : 0(18 @ 292d)
+				}
+			}
+
+            collision shape 2 sub-sub-sub-block { (3ca @ 2930)
+
+                u0 : 1(10 @ 2932)
+                w : -60.0 (35 @ 2934)
+                x : 60.0 (3d @ 2939)
+                z : 1(58 @ 293e)
+			}
+		}
+
+        component sub-sub-block { (1a @ 2940)
+
+            component type : CollisionShape (0a @ 2943)
+            number : 4(10 @ 2953)
+            ? linked component : 100(20 @ 2955)
+
+            collision shape sub-sub-sub-block { (3c2 @ 2958)
+
+
+                u2 sub-sub-sub-sub-block { (1a @ 295a)
+
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 295c)
+
+                        y : 87.11095428466797 (0d @ 295e)
+                        z : 90.406494140625 (15 @ 2963)
+					}
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 2968)
+
+                        y : 98.82844543457031 (0d @ 296a)
+                        z : 97.7547607421875 (15 @ 296f)
+					}
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 2974)
+
+                        y : 92.07344818115234 (0d @ 2976)
+                        z : 106.9886474609375 (15 @ 297b)
+					}
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 2980)
+
+                        y : 48.509033203125 (0d @ 2982)
+                        z : 133.3973388671875 (15 @ 2987)
+					}
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 298c)
+
+                        y : -0.07427978515625 (0d @ 298e)
+                        z : 143.4317626953125 (15 @ 2993)
+					}
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 2998)
+
+                        y : -46.45513916015625 (0d @ 299a)
+                        z : 133.9415283203125 (15 @ 299f)
+					}
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 29a4)
+
+                        y : -90.2099609375 (0d @ 29a6)
+                        z : 111.086669921875 (15 @ 29ab)
+					}
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 29b0)
+
+                        y : -108.2596435546875 (0d @ 29b2)
+                        z : 90.48614501953125 (15 @ 29b7)
+					}
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 29bc)
+
+                        y : -123.38232421875 (0d @ 29be)
+                        z : 70.9820556640625 (15 @ 29c3)
+					}
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 29c8)
+
+                        y : -140.2110595703125 (0d @ 29ca)
+                        z : 24.27294921875 (15 @ 29cf)
+					}
+                    u3 : 0(10 @ 29d4)
+                    u4 : 0(18 @ 29d6)
+				}
+			}
+
+            collision shape 2 sub-sub-sub-block { (3ca @ 29d9)
+
+                u0 : 1(10 @ 29db)
+                w : -60.0 (35 @ 29dd)
+                x : 60.0 (3d @ 29e2)
+                z : 1(58 @ 29e7)
+			}
+		}
+
+        component sub-sub-block { (1a @ 29e9)
+
+            component type : CollisionShape (0a @ 29ec)
+            number : 5(10 @ 29fc)
+            ? linked component : 100(20 @ 29fe)
+
+            collision shape sub-sub-sub-block { (3c2 @ 2a01)
+
+
+                u2 sub-sub-sub-sub-block { (1a @ 2a04)
+
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 2a07)
+
+                        y : -108.2596435546875 (0d @ 2a09)
+                        z : 90.48614501953125 (15 @ 2a0e)
+					}
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 2a13)
+
+                        y : -123.38232421875 (0d @ 2a15)
+                        z : 70.9820556640625 (15 @ 2a1a)
+					}
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 2a1f)
+
+                        y : -140.2110595703125 (0d @ 2a21)
+                        z : 24.27294921875 (15 @ 2a26)
+					}
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 2a2b)
+
+                        y : -138.8836669921875 (0d @ 2a2d)
+                        z : -23.5552978515625 (15 @ 2a32)
+					}
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 2a37)
+
+                        y : -122.5118408203125 (0d @ 2a39)
+                        z : -73.42578125 (15 @ 2a3e)
+					}
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 2a43)
+
+                        y : -89.09832763671875 (0d @ 2a45)
+                        z : -110.5406494140625 (15 @ 2a4a)
+					}
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 2a4f)
+
+                        y : -45.89202880859375 (0d @ 2a51)
+                        z : -133.26495361328125 (15 @ 2a56)
+					}
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 2a5b)
+
+                        y : 1.78936767578125 (0d @ 2a5d)
+                        z : -142.2313232421875 (15 @ 2a62)
+					}
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 2a67)
+
+                        y : 51.538818359375 (0d @ 2a69)
+                        z : -131.6160888671875 (15 @ 2a6e)
+					}
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 2a73)
+
+                        y : 92.25921630859375 (0d @ 2a75)
+                        z : -107.8704833984375 (15 @ 2a7a)
+					}
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 2a7f)
+
+                        y : 124.35162353515625 (0d @ 2a81)
+                        z : -70.239013671875 (15 @ 2a86)
+					}
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 2a8b)
+
+                        y : 137.72515869140625 (0d @ 2a8d)
+                        z : -32.31219482421875 (15 @ 2a92)
+					}
+                    u3 : 0(10 @ 2a97)
+                    u4 : 0(18 @ 2a99)
+				}
+			}
+
+            collision shape 2 sub-sub-sub-block { (3ca @ 2a9c)
+
+                u0 : 1(10 @ 2a9e)
+                w : -60.0 (35 @ 2aa0)
+                x : 60.0 (3d @ 2aa5)
+                z : 1(58 @ 2aaa)
+			}
+		}
+
+        component sub-sub-block { (1a @ 2aac)
+
+            component type : GroundPolygon (0a @ 2aaf)
+            number : 100(10 @ 2abe)
+
+            ground polygon sub-sub-sub-block { (372 @ 2ac1)
+
+
+                 sub-sub-sub-sub-block { (12 @ 2ac4)
+
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 2ac7)
+
+                        x : 92.25921630859375 (0d @ 2ac9)
+                        y : -107.8704833984375 (15 @ 2ace)
+					}
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 2ad3)
+
+                        x : 124.35162353515625 (0d @ 2ad5)
+                        y : -70.239013671875 (15 @ 2ada)
+					}
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 2adf)
+
+                        x : 137.72515869140625 (0d @ 2ae1)
+                        y : -32.31219482421875 (15 @ 2ae6)
+					}
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 2aeb)
+
+                        x : 138.2163848876953 (0d @ 2aed)
+                        y : -5.46649169921875 (15 @ 2af2)
+					}
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 2af7)
+
+                        x : 123.78202819824219 (0d @ 2af9)
+                        y : -7.52130126953125 (15 @ 2afe)
+					}
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 2b03)
+
+                        x : 125.0516357421875 (0d @ 2b05)
+                        y : -18.2401123046875 (15 @ 2b0a)
+					}
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 2b0f)
+
+                        x : 110.83203125 (0d @ 2b11)
+                        y : -64.70001220703125 (15 @ 2b16)
+					}
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 2b1b)
+
+                        x : 83.3284912109375 (0d @ 2b1d)
+                        y : -96.14117431640625 (15 @ 2b22)
+					}
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 2b27)
+
+                        x : 44.96527099609375 (0d @ 2b29)
+                        y : -119.546630859375 (15 @ 2b2e)
+					}
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 2b33)
+
+                        x : -0.31829833984375 (0d @ 2b35)
+                        y : -127.3916015625 (15 @ 2b3a)
+					}
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 2b3f)
+
+                        x : -43.6575927734375 (0d @ 2b41)
+                        y : -118.67205810546875 (15 @ 2b46)
+					}
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 2b4b)
+
+                        x : -81.74908447265625 (0d @ 2b4d)
+                        y : -98.10040283203125 (15 @ 2b52)
+					}
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 2b57)
+
+                        x : -108.4365234375 (0d @ 2b59)
+                        y : -66.3941650390625 (15 @ 2b5e)
+					}
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 2b63)
+
+                        x : -126.12060546875 (0d @ 2b65)
+                        y : -20.740966796875 (15 @ 2b6a)
+					}
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 2b6f)
+
+                        x : -124.502197265625 (0d @ 2b71)
+                        y : 22.7664794921875 (15 @ 2b76)
+					}
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 2b7b)
+
+                        x : -110.52337646484375 (0d @ 2b7d)
+                        y : 65.193603515625 (15 @ 2b82)
+					}
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 2b87)
+
+                        x : -79.366943359375 (0d @ 2b89)
+                        y : 98.6712646484375 (15 @ 2b8e)
+					}
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 2b93)
+
+                        x : -44.6412353515625 (0d @ 2b95)
+                        y : 119.900634765625 (15 @ 2b9a)
+					}
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 2b9f)
+
+                        x : 1.78460693359375 (0d @ 2ba1)
+                        y : 128.5687255859375 (15 @ 2ba6)
+					}
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 2bab)
+
+                        x : 42.23211669921875 (0d @ 2bad)
+                        y : 121.3223876953125 (15 @ 2bb2)
+					}
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 2bb7)
+
+                        x : 80.47039794921875 (0d @ 2bb9)
+                        y : 98.348388671875 (15 @ 2bbe)
+					}
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 2bc3)
+
+                        x : 87.11095428466797 (0d @ 2bc5)
+                        y : 90.406494140625 (15 @ 2bca)
+					}
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 2bcf)
+
+                        x : 98.82844543457031 (0d @ 2bd1)
+                        y : 97.7547607421875 (15 @ 2bd6)
+					}
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 2bdb)
+
+                        x : 92.07344818115234 (0d @ 2bdd)
+                        y : 106.9886474609375 (15 @ 2be2)
+					}
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 2be7)
+
+                        x : 48.509033203125 (0d @ 2be9)
+                        y : 133.3973388671875 (15 @ 2bee)
+					}
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 2bf3)
+
+                        x : -0.07427978515625 (0d @ 2bf5)
+                        y : 143.4317626953125 (15 @ 2bfa)
+					}
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 2bff)
+
+                        x : -46.45513916015625 (0d @ 2c01)
+                        y : 133.9415283203125 (15 @ 2c06)
+					}
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 2c0b)
+
+                        x : -90.2099609375 (0d @ 2c0d)
+                        y : 111.086669921875 (15 @ 2c12)
+					}
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 2c17)
+
+                        x : -108.2596435546875 (0d @ 2c19)
+                        y : 90.48614501953125 (15 @ 2c1e)
+					}
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 2c23)
+
+                        x : -123.38232421875 (0d @ 2c25)
+                        y : 70.9820556640625 (15 @ 2c2a)
+					}
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 2c2f)
+
+                        x : -140.2110595703125 (0d @ 2c31)
+                        y : 24.27294921875 (15 @ 2c36)
+					}
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 2c3b)
+
+                        x : -138.8836669921875 (0d @ 2c3d)
+                        y : -23.5552978515625 (15 @ 2c42)
+					}
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 2c47)
+
+                        x : -122.5118408203125 (0d @ 2c49)
+                        y : -73.42578125 (15 @ 2c4e)
+					}
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 2c53)
+
+                        x : -89.09832763671875 (0d @ 2c55)
+                        y : -110.5406494140625 (15 @ 2c5a)
+					}
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 2c5f)
+
+                        x : -45.89202880859375 (0d @ 2c61)
+                        y : -133.26495361328125 (15 @ 2c66)
+					}
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 2c6b)
+
+                        x : 1.78936767578125 (0d @ 2c6d)
+                        y : -142.2313232421875 (15 @ 2c72)
+					}
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 2c77)
+
+                        x : 51.538818359375 (0d @ 2c79)
+                        y : -131.6160888671875 (15 @ 2c7e)
+					}
+                    u0 : 0(10 @ 2c83)
+                    u1 : 1(18 @ 2c85)
+				}
+                u1 : 1(18 @ 2c87)
+                u2 : -60.0 (25 @ 2c89)
+                u3 : 60.0 (2d @ 2c8e)
+                u4 :  (32 @ 2c93)
+			}
+		}
+
+        component sub-sub-block { (1a @ 2c95)
+
+            component type : PhysicsPlatform (0a @ 2c97)
+            number : 110(10 @ 2ca8)
+
+            physics platform sub-sub-sub-block { (51a @ 2cab)
+
+                w : 1.0 (0d @ 2cad)
+                x : 0.0 (15 @ 2cb2)
+                y : 0.05000000074505806 (1d @ 2cb7)
+                z : 0.0 (25 @ 2cbc)
+			}
+		}
+
+        component sub-sub-block { (1a @ 2cc1)
+
+            component type : Model (0a @ 2cc3)
+            number : 113(10 @ 2cca)
+
+            3D model sub-sub-sub-block { (32a @ 2ccd)
+
+                name : wheel1 (0a @ 2ccf)
+                u0 : 0.0 (15 @ 2cd7)
+                u1 : 0.0 (1d @ 2cdc)
+                u2 : 0.0 (25 @ 2ce1)
+
+                u3 sub-sub-sub-sub-block { (2a @ 2ce6)
+
+                    w : 1.0 (0d @ 2ce8)
+                    x : 1.0 (15 @ 2ced)
+                    y : 1.0 (1d @ 2cf2)
+                    z : 1.0 (25 @ 2cf7)
+				}
+
+                u4 sub-sub-sub-sub-block { (32 @ 2cfc)
+
+                    x : 0.0 (0d @ 2cfe)
+                    y : 0.0 (15 @ 2d03)
+                    z : 0.0 (1d @ 2d08)
+				}
+                u5 : 0(38 @ 2d0d)
+
+                u6 sub-sub-sub-sub-block { (42 @ 2d0f)
+
+                    w : 1.0 (0d @ 2d11)
+                    x : 1.0 (15 @ 2d16)
+                    y : 1.0 (1d @ 2d1b)
+                    z : 1.0 (25 @ 2d20)
+				}
+			}
+		}
+
+        position sub-sub-block { (22 @ 2d25)
+
+            x position : 0.0 (0d @ 2d27)
+            y position : 0.0 (15 @ 2d2c)
+		}
+        z position : 0.0 (2d @ 2d31)
+        rotation : 0.0 (35 @ 2d36)
+        scale : 1.0 (3d @ 2d3b)
+
+        u0 sub-sub-block { (42 @ 2d40)
+
+            w : -140.2110595703125 (0d @ 2d42)
+            x : -142.2313232421875 (15 @ 2d47)
+            y : 278.42742919921875 (1d @ 2d4c)
+            z : 285.6630859375 (25 @ 2d51)
+		}
+        hidden : 0(48 @ 2d56)
+	}
+    u0 : 1.0 (15 @ 2d58)
+}

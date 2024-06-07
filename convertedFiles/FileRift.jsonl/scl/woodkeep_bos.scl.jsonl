@@ -1,0 +1,1388 @@
+data = {
+"scl file name" : "woodkeep_bos",
+
+"?itemblock " :  {
+
+
+	"?sub-itemsub-block " :  {
+
+		"name" : "boss1_ballisticbolt",
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "SimpleGlow",
+			"number" : 1,
+
+			"simple glowsub-sub-sub-block " :  {
+
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"w" : 1.0,
+					"x" : 0.0,
+					"y" : 3.5762786865234375e-07,
+					"z" : 0.5,
+				},
+				"u1" : 30.0,
+				"u2" : 10,
+				"u3" : 15.0,
+				"u4" : 0.15000000596046448,
+				"u5" : 0.800000011920929,
+
+				"u6sub-sub-sub-sub-block " :  {
+
+					"y" : 0.0,
+					"z" : 0.0,
+				},
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "CollisionShape",
+			"number" : 2,
+
+			"collision shapesub-sub-sub-block " :  {
+
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"w" : -5.0,
+					"x" : -5.0,
+					"y" : 10.0,
+					"z" : 10.0,
+				},
+			},
+
+			"collision shape 2sub-sub-sub-block " :  {
+
+				"u1" : 1,
+				"u3" : 1,
+				"w" : -15.0,
+				"x" : 15.0,
+				"z" : 1,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "SoundEffect",
+			"number" : 3,
+
+			"sound effectsub-sub-sub-block " :  {
+
+				"sound" : "woosh1",
+				"u0" : 0.0,
+				"u1" : 1.0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Damage",
+			"number" : 4,
+
+			"damagesub-sub-sub-block " :  {
+
+				"u0" : 1,
+				"u1" : 0,
+				"u2" : 0,
+				"u5" : 0.0,
+				"u6" : 1.0,
+				"u7" : 0,
+				"u8" : 1,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Light",
+			"number" : 6,
+
+			"lightsub-sub-sub-block " :  {
+
+				"u0" : 3,
+				"u1" : 2.0,
+
+				"u2sub-sub-sub-sub-block " :  {
+
+					"w" : 1.0,
+					"x" : 0.35555556416511536,
+					"y" : 0.35555556416511536,
+					"z" : 1.0,
+				},
+				"u3" : 0.0,
+				"u4" : 0.00019999999494757503,
+
+				"u5sub-sub-sub-sub-block " :  {
+
+					"x" : 0.0,
+					"y" : 0.0,
+					"z" : 0.0,
+				},
+				"u6" : 250.0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Program",
+			"number" : 7,
+
+			"programsub-sub-sub-block " :  {
+
+				"u0" : 1,
+
+				"lua chunksub-sub-sub-sub-block " :  {
+
+					"main chunk" : "chunk >
+
+					=== lua =============
+					local self = ...;
+					
+					if Math.RandomInt(1,2) == 1 then
+						local nugget = Scene.CreateObject(\"nugget_mana\", \"mananugget\", self);
+						nugget:setVelocity(Math.RandomInt(-100,100),270,0);
+					end
+
+					=====================",
+					"secondary chunk" : "\\x1bLuaQ\\x00\\x01\\x04\\x04\\x04\\x08\\x00\\xb9\\x00\\x00\\x00local self = ...;\\r\\n\\r\\nif Math.RandomInt(1,2) == 1 then\\r\\n\\tlocal nugget = Scene.CreateObject(\"nugget_mana\", \"mananugget\", self);\\r\\n\\tnugget:setVelocity(Math.RandomInt(-100,100),270,0);\\r\\nend\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x02\\x07\\x18\\x00\\x00\\x00%\\x00\\x00\\x01E\\x00\\x00\\x00F@\\xc0\\x00\\x81\\x80\\x00\\x00\\xc1\\xc0\\x00\\x00\\\\\\x80\\x80\\x01\\x17\\x80\\xc0\\x00\\x16\\x80\\x03\\x80E\\x00\\x01\\x00F@\\xc1\\x00\\x81\\x80\\x01\\x00\\xc1\\xc0\\x01\\x00\\x00\\x01\\x00\\x00\\\\\\x80\\x00\\x02\\x8b\\x00\\xc2\\x00\\x05\\x01\\x00\\x00\\x06A@\\x02AA\\x02\\x00\\x81\\x81\\x02\\x00\\x1c\\x81\\x80\\x01A\\xc1\\x02\\x00\\x81\\x01\\x03\\x00\\x9c@\\x80\\x02\\x1e\\x00\\x80\\x00\\r\\x00\\x00\\x00\\x04\\x05\\x00\\x00\\x00Math\\x00\\x04\\n\\x00\\x00\\x00RandomInt\\x00\\x03\\x00\\x00\\x00\\x00\\x00\\x00\\xf0?\\x03\\x00\\x00\\x00\\x00\\x00\\x00\\x00@\\x04\\x06\\x00\\x00\\x00Scene\\x00\\x04\\r\\x00\\x00\\x00CreateObject\\x00\\x04\\x0c\\x00\\x00\\x00nugget_mana\\x00\\x04\\x0b\\x00\\x00\\x00mananugget\\x00\\x04\\x0c\\x00\\x00\\x00setVelocity\\x00\\x03\\x00\\x00\\x00\\x00\\x00\\x00Y\\xc0\\x03\\x00\\x00\\x00\\x00\\x00\\x00Y@\\x03\\x00\\x00\\x00\\x00\\x00\\xe0p@\\x03\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x18\\x00\\x00\\x00\\x01\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x06\\x00\\x00\\x00\\x02\\x00\\x00\\x00\\x05\\x00\\x00\\x00self\\x00\\x01\\x00\\x00\\x00\\x17\\x00\\x00\\x00\\x07\\x00\\x00\\x00nugget\\x00\\x0e\\x00\\x00\\x00\\x17\\x00\\x00\\x00\\x00\\x00\\x00\\x00",
+				},
+				"u1" : 1,
+				"u2" : 5,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "ParticleEmitter",
+			"number" : 102,
+
+			"particle emittersub-sub-sub-block " :  {
+
+				"particle" : 103,
+				"particle" : 104,
+				"particle" : 105,
+				"u1" : 0,
+				"u2" : 30,
+				"u3" : 0,
+				"u4" : 0,
+				"u6" : 0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Particle",
+			"number" : 103,
+
+			"particlesub-sub-sub-block " :  {
+
+				"name" : "particle_fure_1",
+				"u0" : 40.0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Particle",
+			"number" : 104,
+
+			"particlesub-sub-sub-block " :  {
+
+				"name" : "particle_fure_2",
+				"u0" : 40.0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Particle",
+			"number" : 105,
+
+			"particlesub-sub-sub-block " :  {
+
+				"name" : "particle_fure_3",
+				"u0" : 40.0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "MagicBolt",
+			"number" : 106,
+
+			"magic boltsub-sub-sub-block " :  {
+
+				"u0" : 102,
+				"u1" : 3,
+				"u2" : 0,
+
+				"u3sub-sub-sub-sub-block " :  {
+
+					"w" : 0.4000000059604645,
+					"x" : 0.05399999022483826,
+					"y" : 0.054000113159418106,
+					"z" : 0.0,
+				},
+				"u3" : 0.0,
+			},
+
+			"temp0sub-sub-sub-block " :  {
+
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "ProjectileController",
+			"number" : 107,
+
+			"projectile controllersub-sub-sub-block " :  {
+
+				"u0" : 1,
+				"u1" : 1,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "PhysicsObject",
+			"number" : 110,
+
+			"physics objectsub-sub-sub-block " :  {
+
+				"u0" : 1,
+				"u2" : 0.6000000238418579,
+				"u3" : 1500.0,
+				"u4" : 0.0,
+				"u5" : 700.0,
+				"u6" : 0,
+				"u7" : 0.0,
+			},
+		},
+
+		"positionsub-sub-block " :  {
+
+			"x position" : 0.0,
+			"y position" : 0.0,
+		},
+		"z position" : 0.0,
+		"rotation" : 0.0,
+		"scale" : 1.0,
+
+		"u0sub-sub-block " :  {
+
+			"w" : -50.0,
+			"x" : -50.0,
+			"y" : 100.0,
+			"z" : 100.0,
+		},
+		"hidden" : 0,
+
+		"lua chunksub-sub-block " :  {
+
+			"main chunk" : "chunk >
+
+			=== lua =============
+			local self = ...;
+			
+			self:setAlwaysActive(true);
+
+			=====================",
+			"secondary chunk" : "\\x1bLuaQ\\x00\\x01\\x04\\x04\\x04\\x08\\x001\\x00\\x00\\x00local self = ...;\\r\\n\\r\\nself:setAlwaysActive(true);\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x02\\x04\\x05\\x00\\x00\\x00%\\x00\\x00\\x01K\\x00@\\x00\\xc2\\x00\\x80\\x00\\\\@\\x80\\x01\\x1e\\x00\\x80\\x00\\x01\\x00\\x00\\x00\\x04\\x10\\x00\\x00\\x00setAlwaysActive\\x00\\x00\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x01\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x01\\x00\\x00\\x00\\x05\\x00\\x00\\x00self\\x00\\x01\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x00\\x00\\x00\\x00",
+		},
+	},
+	"u0" : 1.5,
+},
+
+"?itemblock " :  {
+
+
+	"?sub-itemsub-block " :  {
+
+		"name" : "boss1_magicbolt",
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "SimpleGlow",
+			"number" : 1,
+
+			"simple glowsub-sub-sub-block " :  {
+
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"w" : 1.0,
+					"x" : 0.0,
+					"y" : 3.5762786865234375e-07,
+					"z" : 0.5,
+				},
+				"u1" : 30.0,
+				"u2" : 10,
+				"u3" : 15.0,
+				"u4" : 0.15000000596046448,
+				"u5" : 0.800000011920929,
+
+				"u6sub-sub-sub-sub-block " :  {
+
+					"y" : 0.0,
+					"z" : 0.0,
+				},
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "CollisionShape",
+			"number" : 2,
+
+			"collision shapesub-sub-sub-block " :  {
+
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"w" : -5.0,
+					"x" : -5.0,
+					"y" : 10.0,
+					"z" : 10.0,
+				},
+			},
+
+			"collision shape 2sub-sub-sub-block " :  {
+
+				"u1" : 1,
+				"u3" : 1,
+				"w" : -15.0,
+				"x" : 15.0,
+				"z" : 1,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "SoundEffect",
+			"number" : 3,
+
+			"sound effectsub-sub-sub-block " :  {
+
+				"sound" : "woosh1",
+				"u0" : 0.0,
+				"u1" : 1.0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Damage",
+			"number" : 4,
+
+			"damagesub-sub-sub-block " :  {
+
+				"u0" : 1,
+				"u1" : 0,
+				"u2" : 0,
+				"u5" : 0.0,
+				"u6" : 1.0,
+				"u7" : 0,
+				"u8" : 1,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Light",
+			"number" : 6,
+
+			"lightsub-sub-sub-block " :  {
+
+				"u0" : 3,
+				"u1" : 10.0,
+
+				"u2sub-sub-sub-sub-block " :  {
+
+					"w" : 1.0,
+					"x" : 0.35555556416511536,
+					"y" : 0.35555556416511536,
+					"z" : 1.0,
+				},
+				"u3" : 0.0,
+				"u4" : 0.00019999999494757503,
+
+				"u5sub-sub-sub-sub-block " :  {
+
+					"x" : 0.0,
+					"y" : 0.0,
+					"z" : 0.0,
+				},
+				"u6" : 250.0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "ParticleEmitter",
+			"number" : 102,
+
+			"particle emittersub-sub-sub-block " :  {
+
+				"particle" : 103,
+				"particle" : 104,
+				"particle" : 105,
+				"u1" : 0,
+				"u2" : 30,
+				"u3" : 0,
+				"u4" : 0,
+				"u6" : 0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Particle",
+			"number" : 103,
+
+			"particlesub-sub-sub-block " :  {
+
+				"name" : "particle_fure_1",
+				"u0" : 40.0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Particle",
+			"number" : 104,
+
+			"particlesub-sub-sub-block " :  {
+
+				"name" : "particle_fure_2",
+				"u0" : 40.0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Particle",
+			"number" : 105,
+
+			"particlesub-sub-sub-block " :  {
+
+				"name" : "particle_fure_3",
+				"u0" : 40.0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "MagicBolt",
+			"number" : 106,
+
+			"magic boltsub-sub-sub-block " :  {
+
+				"u0" : 102,
+				"u1" : 3,
+				"u2" : 0,
+
+				"u3sub-sub-sub-sub-block " :  {
+
+					"w" : 0.4000000059604645,
+					"x" : 0.05399999022483826,
+					"y" : 0.054000113159418106,
+					"z" : 0.0,
+				},
+				"u3" : 350.0,
+			},
+
+			"temp0sub-sub-sub-block " :  {
+
+			},
+		},
+
+		"positionsub-sub-block " :  {
+
+			"x position" : 0.0,
+			"y position" : 0.0,
+		},
+		"z position" : 0.0,
+		"rotation" : 0.0,
+		"scale" : 1.0,
+
+		"u0sub-sub-block " :  {
+
+			"w" : -30.0,
+			"x" : -30.0,
+			"y" : 60.0,
+			"z" : 60.0,
+		},
+		"hidden" : 0,
+
+		"lua chunksub-sub-block " :  {
+
+			"main chunk" : "chunk >
+
+			=== lua =============
+			local self = ...;
+			
+			self:setAlwaysActive(true);
+
+			=====================",
+			"secondary chunk" : "\\x1bLuaQ\\x00\\x01\\x04\\x04\\x04\\x08\\x001\\x00\\x00\\x00local self = ...;\\r\\n\\r\\nself:setAlwaysActive(true);\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x02\\x04\\x05\\x00\\x00\\x00%\\x00\\x00\\x01K\\x00@\\x00\\xc2\\x00\\x80\\x00\\\\@\\x80\\x01\\x1e\\x00\\x80\\x00\\x01\\x00\\x00\\x00\\x04\\x10\\x00\\x00\\x00setAlwaysActive\\x00\\x00\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x01\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x01\\x00\\x00\\x00\\x05\\x00\\x00\\x00self\\x00\\x01\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x00\\x00\\x00\\x00",
+		},
+	},
+	"u0" : 1.5,
+},
+
+"?itemblock " :  {
+
+
+	"?sub-itemsub-block " :  {
+
+		"name" : "boss1_spellcast",
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "SimpleGlow",
+			"number" : 1,
+
+			"simple glowsub-sub-sub-block " :  {
+
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"w" : 1.0,
+					"x" : 0.16666662693023682,
+					"y" : 0.1666669249534607,
+					"z" : 0.5,
+				},
+				"u1" : 20.0,
+				"u2" : 10,
+				"u3" : 15.0,
+				"u4" : 0.15000000596046448,
+				"u5" : 0.800000011920929,
+
+				"u6sub-sub-sub-sub-block " :  {
+
+					"y" : 0.0,
+					"z" : 0.0,
+				},
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "ParticleEmitter",
+			"number" : 102,
+
+			"particle emittersub-sub-sub-block " :  {
+
+				"particle" : 103,
+				"particle" : 104,
+				"particle" : 105,
+				"u1" : 0,
+				"u2" : 30,
+				"u3" : 0,
+				"u4" : 0,
+				"u6" : 0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Particle",
+			"number" : 103,
+
+			"particlesub-sub-sub-block " :  {
+
+				"name" : "particle_fure_1",
+				"u0" : 40.0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Particle",
+			"number" : 104,
+
+			"particlesub-sub-sub-block " :  {
+
+				"name" : "particle_fure_2",
+				"u0" : 40.0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Particle",
+			"number" : 105,
+
+			"particlesub-sub-sub-block " :  {
+
+				"name" : "particle_fure_3",
+				"u0" : 40.0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "MagicSpellCast",
+			"number" : 109,
+
+			"magic spell castsub-sub-sub-block " :  {
+
+				"particle emitter" : 102,
+				"u0" : 0,
+			},
+		},
+
+		"positionsub-sub-block " :  {
+
+			"x position" : 0.0,
+			"y position" : 0.0,
+		},
+		"z position" : 0.0,
+		"rotation" : 0.0,
+		"scale" : 1.0,
+
+		"u0sub-sub-block " :  {
+
+			"w" : -20.0,
+			"x" : -20.0,
+			"y" : 40.0,
+			"z" : 40.0,
+		},
+		"hidden" : 0,
+	},
+	"u0" : 2.0,
+},
+
+"?itemblock " :  {
+
+
+	"?sub-itemsub-block " :  {
+
+		"name" : "boss_explosion",
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "SoundEffect",
+			"number" : 1,
+
+			"sound effectsub-sub-sub-block " :  {
+
+				"sound" : "explosion",
+				"u0" : 0.0,
+				"u1" : 1.0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "CollisionShape",
+			"number" : 2,
+
+			"collision shapesub-sub-sub-block " :  {
+
+
+				"u1sub-sub-sub-sub-block " :  {
+
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"y" : 0.0,
+						"z" : 0.0,
+					},
+					"u1" : 200.0,
+				},
+			},
+
+			"collision shape 2sub-sub-sub-block " :  {
+
+				"u3" : 1,
+				"w" : -15.0,
+				"x" : 15.0,
+				"z" : 1,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "ParticleEmitter",
+			"number" : 102,
+
+			"particle emittersub-sub-sub-block " :  {
+
+				"particle" : 103,
+				"particle" : 104,
+				"particle" : 105,
+				"u1" : 0,
+				"u2" : 30,
+				"u3" : 0,
+				"u4" : 0,
+				"u6" : 0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Particle",
+			"number" : 103,
+
+			"particlesub-sub-sub-block " :  {
+
+				"name" : "particle_fure_1",
+				"u0" : 40.0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Particle",
+			"number" : 104,
+
+			"particlesub-sub-sub-block " :  {
+
+				"name" : "particle_fure_2",
+				"u0" : 40.0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Particle",
+			"number" : 105,
+
+			"particlesub-sub-sub-block " :  {
+
+				"name" : "particle_fure_3",
+				"u0" : 40.0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "MagicExplosion",
+			"number" : 107,
+
+			"magic explosionsub-sub-sub-block " :  {
+
+				"u0" : 102,
+				"u1" : 0,
+
+				"u2sub-sub-sub-sub-block " :  {
+
+					"w" : 1.0,
+					"x" : 0.8222222328186035,
+					"y" : 0.8222222924232483,
+					"z" : 0.41111111640930176,
+				},
+				"u3" : 200.0,
+				"u4" : 0.30000001192092896,
+			},
+		},
+
+		"positionsub-sub-block " :  {
+
+			"x position" : 0.0,
+			"y position" : 0.0,
+		},
+		"z position" : 0.0,
+		"rotation" : 0.0,
+		"scale" : 1.0,
+
+		"u0sub-sub-block " :  {
+
+			"w" : -200.0,
+			"x" : -200.0,
+			"y" : 400.0,
+			"z" : 400.0,
+		},
+		"hidden" : 0,
+	},
+	"u0" : 1.0,
+},
+
+"?itemblock " :  {
+
+
+	"?sub-itemsub-block " :  {
+
+		"name" : "woodkeep_boss2",
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Model",
+			"number" : 101,
+
+			"3D modelsub-sub-sub-block " :  {
+
+				"name" : "boss1_shadowform",
+				"u0" : 1.5707963705062866,
+				"u1" : 1.0,
+				"u2" : 0.0,
+
+				"u3sub-sub-sub-sub-block " :  {
+
+					"w" : 1.0,
+					"x" : 1.0,
+					"y" : 1.0,
+					"z" : 1.0,
+				},
+
+				"u4sub-sub-sub-sub-block " :  {
+
+					"x" : 0.0,
+					"y" : 0.0,
+					"z" : 0.0,
+				},
+				"u5" : 0,
+
+				"u6sub-sub-sub-sub-block " :  {
+
+					"w" : 1.0,
+					"x" : 1.0,
+					"y" : 1.0,
+					"z" : 1.0,
+				},
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "KeyframeAnimation",
+			"number" : 103,
+
+			"keyframe animationsub-sub-sub-block " :  {
+
+				"linked model component number" : 101,
+				"name" : "boss1_shadowform_move",
+				"u0" : 1,
+				"u1" : 1.0,
+				"u2" : 1,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "KeyframeAnimation",
+			"number" : 104,
+
+			"keyframe animationsub-sub-sub-block " :  {
+
+				"linked model component number" : 101,
+				"name" : "boss1_shadowform_spinstart",
+				"u0" : 0,
+				"u1" : 0.5,
+				"u2" : 1,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "MonsterEntity",
+			"number" : 105,
+
+			"entitysub-sub-sub-block " :  {
+
+				"u0" : 18446744073709551615,
+				"u1" : 1,
+			},
+
+			"?monster entitysub-sub-sub-block " :  {
+
+				"u0" : "\\n\\xce\\x02local self = ...;\\r\\n\\r\\nlocal deadBoss = Scene.Find(\"boss_dead\");\\r\\ndeadBoss:setPosition(self:position());\\r\\ndeadBoss:setHidden(false);\\r\\n\\r\\nlocal hero = Scene.Find(\"hero\");\\r\\n--hero:setPosition(Scene.Find(\"endMarker1\"):position());\\r\\n--hero:setVelocity(Vector3.New(0, 0, 0));\\r\\n--Entity.SetFacingDirection(hero, 1);\\r\\n\\r\\n\\r\\n--Program.Wait(1.0);\\r\\n\\x12\\x9e\\x05\\x1bLuaQ\\x00\\x01\\x04\\x04\\x04\\x08\\x00O\\x01\\x00\\x00local self = ...;\\r\\n\\r\\nlocal deadBoss = Scene.Find(\"boss_dead\");\\r\\ndeadBoss:setPosition(self:position());\\r\\ndeadBoss:setHidden(false);\\r\\n\\r\\nlocal hero = Scene.Find(\"hero\");\\r\\n--hero:setPosition(Scene.Find(\"endMarker1\"):position());\\r\\n--hero:setVelocity(Vector3.New(0, 0, 0));\\r\\n--Entity.SetFacingDirection(hero, 1);\\r\\n\\r\\n\\r\\n--Program.Wait(1.0);\\r\\n\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x02\\x06\\x11\\x00\\x00\\x00%\\x00\\x00\\x01E\\x00\\x00\\x00F@\\xc0\\x00\\x81\\x80\\x00\\x00\\\\\\x80\\x00\\x01\\x8b\\xc0\\xc0\\x00\\x0b\\x01A\\x00\\x1c\\x01\\x00\\x01\\x9c@\\x00\\x00\\x8b@\\xc1\\x00\\x02\\x01\\x00\\x00\\x9c@\\x80\\x01\\x85\\x00\\x00\\x00\\x86@@\\x01\\xc1\\x80\\x01\\x00\\x9c\\x80\\x00\\x01\\x1e\\x00\\x80\\x00\\x07\\x00\\x00\\x00\\x04\\x06\\x00\\x00\\x00Scene\\x00\\x04\\x05\\x00\\x00\\x00Find\\x00\\x04\\n\\x00\\x00\\x00boss_dead\\x00\\x04\\x0c\\x00\\x00\\x00setPosition\\x00\\x04\\t\\x00\\x00\\x00position\\x00\\x04\\n\\x00\\x00\\x00setHidden\\x00\\x04\\x05\\x00\\x00\\x00hero\\x00\\x00\\x00\\x00\\x00\\x11\\x00\\x00\\x00\\x01\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x07\\x00\\x00\\x00\\x07\\x00\\x00\\x00\\x07\\x00\\x00\\x00\\x07\\x00\\x00\\x00\\x07\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x05\\x00\\x00\\x00self\\x00\\x01\\x00\\x00\\x00\\x10\\x00\\x00\\x00\\t\\x00\\x00\\x00deadBoss\\x00\\x05\\x00\\x00\\x00\\x10\\x00\\x00\\x00\\x05\\x00\\x00\\x00hero\\x00\\x10\\x00\\x00\\x00\\x10\\x00\\x00\\x00\\x00\\x00\\x00\\x00",
+
+				"lua chunksub-sub-sub-sub-block " :  {
+
+					"main chunk" : "chunk >
+
+					=== lua =============
+					local self = ...;
+					
+					Properties.SetProperty(self, \"isHurt\", \"true\");
+					
+
+					=====================",
+					"secondary chunk" : "\\x1bLuaQ\\x00\\x01\\x04\\x04\\x04\\x08\\x00G\\x00\\x00\\x00local self = ...;\\r\\n\\r\\nProperties.SetProperty(self, \"isHurt\", \"true\");\\r\\n\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x02\\x05\\x08\\x00\\x00\\x00%\\x00\\x00\\x01E\\x00\\x00\\x00F@\\xc0\\x00\\x80\\x00\\x00\\x00\\xc1\\x80\\x00\\x00\\x01\\xc1\\x00\\x00\\\\@\\x00\\x02\\x1e\\x00\\x80\\x00\\x04\\x00\\x00\\x00\\x04\\x0b\\x00\\x00\\x00Properties\\x00\\x04\\x0c\\x00\\x00\\x00SetProperty\\x00\\x04\\x07\\x00\\x00\\x00isHurt\\x00\\x04\\x05\\x00\\x00\\x00true\\x00\\x00\\x00\\x00\\x00\\x08\\x00\\x00\\x00\\x01\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x01\\x00\\x00\\x00\\x05\\x00\\x00\\x00self\\x00\\x01\\x00\\x00\\x00\\x07\\x00\\x00\\x00\\x00\\x00\\x00\\x00",
+				},
+				"u2" : 1,
+				"u3" : 1,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "EntityController",
+			"number" : 106,
+
+			"entity controllersub-sub-sub-block " :  {
+
+				"entity component" : 105,
+				"animation controller component" : 107,
+				"u2" : 103,
+				"collision shape" : 0,
+				"u4" : 100.0,
+				"u5" : 800.0,
+				"u6" : 1000.0,
+				"u7" : 4,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "AnimationController",
+			"number" : 107,
+
+			"animation controllersub-sub-sub-block " :  {
+
+				"model component" : 101,
+				"u1" : 0,
+				"u2" : 0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Damage",
+			"number" : 108,
+
+			"damagesub-sub-sub-block " :  {
+
+				"u0" : 1,
+				"u1" : 0,
+				"u2" : 0,
+				"u5" : 1.0,
+				"u6" : 0.0,
+				"u7" : 0,
+				"u8" : 1,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Health",
+			"number" : 109,
+
+			"healthsub-sub-sub-block " :  {
+
+				"u0" : 10,
+				"u1" : 0,
+
+				"u2sub-sub-sub-sub-block " :  {
+
+					"x" : 0.0,
+					"y" : 100.0,
+				},
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "EntityAction",
+			"number" : 110,
+			"name" : "whirlwind",
+
+			"entity actionsub-sub-sub-block " :  {
+
+
+				"lua chunksub-sub-sub-sub-block " :  {
+
+					"main chunk" : "chunk >
+
+					=== lua =============
+					local self = ...;
+					
+					local spinStartAnimation = 104;
+					local spinAnimation = 123;
+					local damageShape = 113;
+					
+					EntityController.SetMoveSpeed(self, 0);
+					
+					local originalMovementBehavior = EntityController.MovementBehavior(self);
+					EntityController.SetMovementBehavior(self, \"none\");
+					
+					local direction = DirectionToTargetFromPosition(EntityController.Target(self):position(), self:position());
+					EntityController.SetFacingDirection(self, direction);
+					EntityController.SetMoveDirection(self, direction);
+					
+					KeyframeAnimation.SetCurrentTime(self, spinStartAnimation, 0);
+					AnimationController.BlendToAnimation(self, spinStartAnimation);
+					
+					Program.Wait(KeyframeAnimation.TimeToCompletion(self, spinStartAnimation));
+					Program.Wait(0.6);
+					
+					EntityController.SetMoveSpeed(self, 400);
+					CollisionShape.SetEnabled(self, damageShape, true);
+					
+					AnimationController.BlendToAnimation(self, spinAnimation);
+					
+					-- Wait until entity hits the wall
+					while EntityController.MoveDirection(self) == direction do
+						Program.Wait(0.1);
+					end
+					
+					-- Stop spinning and bounce of the wall
+					CollisionShape.SetEnabled(self, damageShape, false);
+					EntityController.SetMoveSpeed(self, EntityController.DefaultMoveSpeed(self)); -- Restores animation speed
+					EntityController.SetMoveSpeed(self, 0);
+					AnimationController.BlendToAnimation(self, 103);
+					
+					EntityController.SetAcceleration(self, 0);
+					self:setVelocity(Vector3.New(-direction * 150, 300, 0));
+					
+					Program.Wait(0.5);
+					
+					-- Restore default values
+					EntityController.SetAcceleration(self, EntityController.DefaultAcceleration(self));
+					EntityController.SetMoveSpeed(self, EntityController.DefaultMoveSpeed(self));
+					EntityController.SetMovementBehavior(self, originalMovementBehavior);
+					
+					-- Cast bolt next
+					Properties.SetProperty(self, \"isHurt\", \"false\");
+					
+					
+
+					=====================",
+					"secondary chunk" : "\\x1bLuaQ\\x00\\x01\\x04\\x04\\x04\\x08\\x00\\xed\\x06\\x00\\x00local self = ...;\\r\\n\\r\\nlocal spinStartAnimation = 104;\\r\\nlocal spinAnimation = 123;\\r\\nlocal damageShape = 113;\\r\\n\\r\\nEntityController.SetMoveSpeed(self, 0);\\r\\n\\r\\nlocal originalMovementBehavior = EntityController.MovementBehavior(self);\\r\\nEntityController.SetMovementBehavior(self, \"none\");\\r\\n\\r\\nlocal direction = DirectionToTargetFromPosition(EntityController.Target(self):position(), self:position());\\r\\nEntityController.SetFacingDirection(self, direction);\\r\\nEntityController.SetMoveDirection(self, direction);\\r\\n\\r\\nKeyframeAnimation.SetCurrentTime(self, spinStartAnimation, 0);\\r\\nAnimationController.BlendToAnimation(self, spinStartAnimation);\\r\\n\\r\\nProgram.Wait(KeyframeAnimation.TimeToCompletion(self, spinStartAnimation));\\r\\nProgram.Wait(0.6);\\r\\n\\r\\nEntityController.SetMoveSpeed(self, 400);\\r\\nCollisionShape.SetEnabled(self, damageShape, true);\\r\\n\\r\\nAnimationController.BlendToAnimation(self, spinAnimation);\\r\\n\\r\\n-- Wait until entity hits the wall\\r\\nwhile EntityController.MoveDirection(self) == direction do\\r\\n\\tProgram.Wait(0.1);\\r\\nend\\r\\n\\r\\n-- Stop spinning and bounce of the wall\\r\\nCollisionShape.SetEnabled(self, damageShape, false);\\r\\nEntityController.SetMoveSpeed(self, EntityController.DefaultMoveSpeed(self)); -- Restores animation speed\\r\\nEntityController.SetMoveSpeed(self, 0);\\r\\nAnimationController.BlendToAnimation(self, 103);\\r\\n\\r\\nEntityController.SetAcceleration(self, 0);\\r\\nself:setVelocity(Vector3.New(-direction * 150, 300, 0));\\r\\n\\r\\nProgram.Wait(0.5);\\r\\n\\r\\n-- Restore default values\\r\\nEntityController.SetAcceleration(self, EntityController.DefaultAcceleration(self));\\r\\nEntityController.SetMoveSpeed(self, EntityController.DefaultMoveSpeed(self));\\r\\nEntityController.SetMovementBehavior(self, originalMovementBehavior);\\r\\n\\r\\n-- Cast bolt next\\r\\nProperties.SetProperty(self, \"isHurt\", \"false\");\\r\\n\\r\\n\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x02\\x0c\\x9e\\x00\\x00\\x00%\\x00\\x00\\x01A\\x00\\x00\\x00\\x81@\\x00\\x00\\xc1\\x80\\x00\\x00\\x05\\xc1\\x00\\x00\\x06\\x01A\\x02@\\x01\\x00\\x00\\x81A\\x01\\x00\\x1cA\\x80\\x01\\x05\\xc1\\x00\\x00\\x06\\x81A\\x02@\\x01\\x00\\x00\\x1c\\x81\\x00\\x01E\\xc1\\x00\\x00F\\xc1\\xc1\\x02\\x80\\x01\\x00\\x00\\xc1\\x01\\x02\\x00\\\\A\\x80\\x01EA\\x02\\x00\\x85\\xc1\\x00\\x00\\x86\\x81B\\x03\\xc0\\x01\\x00\\x00\\x9c\\x81\\x00\\x01\\x8b\\xc1B\\x03\\x9c\\x81\\x00\\x01\\xcb\\xc1B\\x00\\xdc\\x01\\x00\\x01\\\\\\x81\\x00\\x00\\x85\\xc1\\x00\\x00\\x86\\x01C\\x03\\xc0\\x01\\x00\\x00\\x00\\x02\\x80\\x02\\x9cA\\x80\\x01\\x85\\xc1\\x00\\x00\\x86AC\\x03\\xc0\\x01\\x00\\x00\\x00\\x02\\x80\\x02\\x9cA\\x80\\x01\\x85\\x81\\x03\\x00\\x86\\xc1C\\x03\\xc0\\x01\\x00\\x00\\x00\\x02\\x80\\x00AB\\x01\\x00\\x9cA\\x00\\x02\\x85\\x01\\x04\\x00\\x86AD\\x03\\xc0\\x01\\x00\\x00\\x00\\x02\\x80\\x00\\x9cA\\x80\\x01\\x85\\x81\\x04\\x00\\x86\\xc1D\\x03\\xc5\\x81\\x03\\x00\\xc6\\x01\\xc5\\x03\\x00\\x02\\x00\\x00@\\x02\\x80\\x00\\xdc\\x01\\x80\\x01\\x9cA\\x00\\x00\\x85\\x81\\x04\\x00\\x86\\xc1D\\x03\\xc1A\\x05\\x00\\x9cA\\x00\\x01\\x85\\xc1\\x00\\x00\\x86\\x01A\\x03\\xc0\\x01\\x00\\x00\\x01\\x82\\x05\\x00\\x9cA\\x80\\x01\\x85\\xc1\\x05\\x00\\x86\\x01F\\x03\\xc0\\x01\\x00\\x00\\x00\\x02\\x80\\x01B\\x02\\x80\\x00\\x9cA\\x00\\x02\\x85\\x01\\x04\\x00\\x86AD\\x03\\xc0\\x01\\x00\\x00\\x00\\x02\\x00\\x01\\x9cA\\x80\\x01\\x85\\xc1\\x00\\x00\\x86AF\\x03\\xc0\\x01\\x00\\x00\\x9c\\x81\\x00\\x01\\x17@\\x01\\x03\\x16\\x00\\x01\\x80\\x85\\x81\\x04\\x00\\x86\\xc1D\\x03\\xc1\\x81\\x06\\x00\\x9cA\\x00\\x01\\x16\\x00\\xfd\\x7f\\x85\\xc1\\x05\\x00\\x86\\x01F\\x03\\xc0\\x01\\x00\\x00\\x00\\x02\\x80\\x01B\\x02\\x00\\x00\\x9cA\\x00\\x02\\x85\\xc1\\x00\\x00\\x86\\x01A\\x03\\xc0\\x01\\x00\\x00\\x05\\xc2\\x00\\x00\\x06\\xc2F\\x04@\\x02\\x00\\x00\\x1c\\x02\\x00\\x01\\x9cA\\x00\\x00\\x85\\xc1\\x00\\x00\\x86\\x01A\\x03\\xc0\\x01\\x00\\x00\\x01B\\x01\\x00\\x9cA\\x80\\x01\\x85\\x01\\x04\\x00\\x86AD\\x03\\xc0\\x01\\x00\\x00\\x01\\x02\\x07\\x00\\x9cA\\x80\\x01\\x85\\xc1\\x00\\x00\\x86AG\\x03\\xc0\\x01\\x00\\x00\\x01B\\x01\\x00\\x9cA\\x80\\x01\\x8b\\x81G\\x00\\x05\\xc2\\x07\\x00\\x06\\x02H\\x04R\\x02\\x80\\x02NB\\xc8\\x04\\x81\\x82\\x08\\x00\\xc1B\\x01\\x00\\x1c\\x02\\x00\\x02\\x9cA\\x00\\x00\\x85\\x81\\x04\\x00\\x86\\xc1D\\x03\\xc1\\xc1\\x08\\x00\\x9cA\\x00\\x01\\x85\\xc1\\x00\\x00\\x86AG\\x03\\xc0\\x01\\x00\\x00\\x05\\xc2\\x00\\x00\\x06\\x02I\\x04@\\x02\\x00\\x00\\x1c\\x02\\x00\\x01\\x9cA\\x00\\x00\\x85\\xc1\\x00\\x00\\x86\\x01A\\x03\\xc0\\x01\\x00\\x00\\x05\\xc2\\x00\\x00\\x06\\xc2F\\x04@\\x02\\x00\\x00\\x1c\\x02\\x00\\x01\\x9cA\\x00\\x00\\x85\\xc1\\x00\\x00\\x86\\xc1A\\x03\\xc0\\x01\\x00\\x00\\x00\\x02\\x00\\x02\\x9cA\\x80\\x01\\x85A\\t\\x00\\x86\\x81I\\x03\\xc0\\x01\\x00\\x00\\x01\\xc2\\t\\x00A\\x02\\n\\x00\\x9cA\\x00\\x02\\x1e\\x00\\x80\\x00)\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x00\\x00\\x00Z@\\x03\\x00\\x00\\x00\\x00\\x00\\xc0^@\\x03\\x00\\x00\\x00\\x00\\x00@\\\\@\\x04\\x11\\x00\\x00\\x00EntityController\\x00\\x04\\r\\x00\\x00\\x00SetMoveSpeed\\x00\\x03\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x04\\x11\\x00\\x00\\x00MovementBehavior\\x00\\x04\\x14\\x00\\x00\\x00SetMovementBehavior\\x00\\x04\\x05\\x00\\x00\\x00none\\x00\\x04\\x1e\\x00\\x00\\x00DirectionToTargetFromPosition\\x00\\x04\\x07\\x00\\x00\\x00Target\\x00\\x04\\t\\x00\\x00\\x00position\\x00\\x04\\x13\\x00\\x00\\x00SetFacingDirection\\x00\\x04\\x11\\x00\\x00\\x00SetMoveDirection\\x00\\x04\\x12\\x00\\x00\\x00KeyframeAnimation\\x00\\x04\\x0f\\x00\\x00\\x00SetCurrentTime\\x00\\x04\\x14\\x00\\x00\\x00AnimationController\\x00\\x04\\x11\\x00\\x00\\x00BlendToAnimation\\x00\\x04\\x08\\x00\\x00\\x00Program\\x00\\x04\\x05\\x00\\x00\\x00Wait\\x00\\x04\\x11\\x00\\x00\\x00TimeToCompletion\\x00\\x03333333\\xe3?\\x03\\x00\\x00\\x00\\x00\\x00\\x00y@\\x04\\x0f\\x00\\x00\\x00CollisionShape\\x00\\x04\\x0b\\x00\\x00\\x00SetEnabled\\x00\\x04\\x0e\\x00\\x00\\x00MoveDirection\\x00\\x03\\x9a\\x99\\x99\\x99\\x99\\x99\\xb9?\\x04\\x11\\x00\\x00\\x00DefaultMoveSpeed\\x00\\x03\\x00\\x00\\x00\\x00\\x00\\xc0Y@\\x04\\x10\\x00\\x00\\x00SetAcceleration\\x00\\x04\\x0c\\x00\\x00\\x00setVelocity\\x00\\x04\\x08\\x00\\x00\\x00Vector3\\x00\\x04\\x04\\x00\\x00\\x00New\\x00\\x03\\x00\\x00\\x00\\x00\\x00\\xc0b@\\x03\\x00\\x00\\x00\\x00\\x00\\xc0r@\\x03\\x00\\x00\\x00\\x00\\x00\\x00\\xe0?\\x04\\x14\\x00\\x00\\x00DefaultAcceleration\\x00\\x04\\x0b\\x00\\x00\\x00Properties\\x00\\x04\\x0c\\x00\\x00\\x00SetProperty\\x00\\x04\\x07\\x00\\x00\\x00isHurt\\x00\\x04\\x06\\x00\\x00\\x00false\\x00\\x00\\x00\\x00\\x00\\x9e\\x00\\x00\\x00\\x01\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x07\\x00\\x00\\x00\\x07\\x00\\x00\\x00\\x07\\x00\\x00\\x00\\x07\\x00\\x00\\x00\\x07\\x00\\x00\\x00\\t\\x00\\x00\\x00\\t\\x00\\x00\\x00\\t\\x00\\x00\\x00\\t\\x00\\x00\\x00\\n\\x00\\x00\\x00\\n\\x00\\x00\\x00\\n\\x00\\x00\\x00\\n\\x00\\x00\\x00\\n\\x00\\x00\\x00\\x0c\\x00\\x00\\x00\\x0c\\x00\\x00\\x00\\x0c\\x00\\x00\\x00\\x0c\\x00\\x00\\x00\\x0c\\x00\\x00\\x00\\x0c\\x00\\x00\\x00\\x0c\\x00\\x00\\x00\\x0c\\x00\\x00\\x00\\x0c\\x00\\x00\\x00\\x0c\\x00\\x00\\x00\\r\\x00\\x00\\x00\\r\\x00\\x00\\x00\\r\\x00\\x00\\x00\\r\\x00\\x00\\x00\\r\\x00\\x00\\x00\\x0e\\x00\\x00\\x00\\x0e\\x00\\x00\\x00\\x0e\\x00\\x00\\x00\\x0e\\x00\\x00\\x00\\x0e\\x00\\x00\\x00\\x10\\x00\\x00\\x00\\x10\\x00\\x00\\x00\\x10\\x00\\x00\\x00\\x10\\x00\\x00\\x00\\x10\\x00\\x00\\x00\\x10\\x00\\x00\\x00\\x11\\x00\\x00\\x00\\x11\\x00\\x00\\x00\\x11\\x00\\x00\\x00\\x11\\x00\\x00\\x00\\x11\\x00\\x00\\x00\\x13\\x00\\x00\\x00\\x13\\x00\\x00\\x00\\x13\\x00\\x00\\x00\\x13\\x00\\x00\\x00\\x13\\x00\\x00\\x00\\x13\\x00\\x00\\x00\\x13\\x00\\x00\\x00\\x13\\x00\\x00\\x00\\x14\\x00\\x00\\x00\\x14\\x00\\x00\\x00\\x14\\x00\\x00\\x00\\x14\\x00\\x00\\x00\\x16\\x00\\x00\\x00\\x16\\x00\\x00\\x00\\x16\\x00\\x00\\x00\\x16\\x00\\x00\\x00\\x16\\x00\\x00\\x00\\x17\\x00\\x00\\x00\\x17\\x00\\x00\\x00\\x17\\x00\\x00\\x00\\x17\\x00\\x00\\x00\\x17\\x00\\x00\\x00\\x17\\x00\\x00\\x00\\x19\\x00\\x00\\x00\\x19\\x00\\x00\\x00\\x19\\x00\\x00\\x00\\x19\\x00\\x00\\x00\\x19\\x00\\x00\\x00\\x1c\\x00\\x00\\x00\\x1c\\x00\\x00\\x00\\x1c\\x00\\x00\\x00\\x1c\\x00\\x00\\x00\\x1c\\x00\\x00\\x00\\x1c\\x00\\x00\\x00\\x1d\\x00\\x00\\x00\\x1d\\x00\\x00\\x00\\x1d\\x00\\x00\\x00\\x1d\\x00\\x00\\x00\\x1d\\x00\\x00\\x00!\\x00\\x00\\x00!\\x00\\x00\\x00!\\x00\\x00\\x00!\\x00\\x00\\x00!\\x00\\x00\\x00!\\x00\\x00\\x00\"\\x00\\x00\\x00\"\\x00\\x00\\x00\"\\x00\\x00\\x00\"\\x00\\x00\\x00\"\\x00\\x00\\x00\"\\x00\\x00\\x00\"\\x00\\x00\\x00\"\\x00\\x00\\x00#\\x00\\x00\\x00#\\x00\\x00\\x00#\\x00\\x00\\x00#\\x00\\x00\\x00#\\x00\\x00\\x00$\\x00\\x00\\x00$\\x00\\x00\\x00$\\x00\\x00\\x00$\\x00\\x00\\x00$\\x00\\x00\\x00&\\x00\\x00\\x00&\\x00\\x00\\x00&\\x00\\x00\\x00&\\x00\\x00\\x00&\\x00\\x00\\x00\\\'\\x00\\x00\\x00\\\'\\x00\\x00\\x00\\\'\\x00\\x00\\x00\\\'\\x00\\x00\\x00\\\'\\x00\\x00\\x00\\\'\\x00\\x00\\x00\\\'\\x00\\x00\\x00\\\'\\x00\\x00\\x00\\\'\\x00\\x00\\x00)\\x00\\x00\\x00)\\x00\\x00\\x00)\\x00\\x00\\x00)\\x00\\x00\\x00,\\x00\\x00\\x00,\\x00\\x00\\x00,\\x00\\x00\\x00,\\x00\\x00\\x00,\\x00\\x00\\x00,\\x00\\x00\\x00,\\x00\\x00\\x00,\\x00\\x00\\x00-\\x00\\x00\\x00-\\x00\\x00\\x00-\\x00\\x00\\x00-\\x00\\x00\\x00-\\x00\\x00\\x00-\\x00\\x00\\x00-\\x00\\x00\\x00-\\x00\\x00\\x00.\\x00\\x00\\x00.\\x00\\x00\\x00.\\x00\\x00\\x00.\\x00\\x00\\x00.\\x00\\x00\\x001\\x00\\x00\\x001\\x00\\x00\\x001\\x00\\x00\\x001\\x00\\x00\\x001\\x00\\x00\\x001\\x00\\x00\\x001\\x00\\x00\\x00\\x06\\x00\\x00\\x00\\x05\\x00\\x00\\x00self\\x00\\x01\\x00\\x00\\x00\\x9d\\x00\\x00\\x00\\x13\\x00\\x00\\x00spinStartAnimation\\x00\\x02\\x00\\x00\\x00\\x9d\\x00\\x00\\x00\\x0e\\x00\\x00\\x00spinAnimation\\x00\\x03\\x00\\x00\\x00\\x9d\\x00\\x00\\x00\\x0c\\x00\\x00\\x00damageShape\\x00\\x04\\x00\\x00\\x00\\x9d\\x00\\x00\\x00\\x19\\x00\\x00\\x00originalMovementBehavior\\x00\\r\\x00\\x00\\x00\\x9d\\x00\\x00\\x00\\n\\x00\\x00\\x00direction\\x00\\x1c\\x00\\x00\\x00\\x9d\\x00\\x00\\x00\\x00\\x00\\x00\\x00",
+				},
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "CollisionShape",
+			"number" : 111,
+
+			"collision shapesub-sub-sub-block " :  {
+
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"w" : -30.0,
+					"x" : -5.0,
+					"y" : 60.0,
+					"z" : 55.0,
+				},
+			},
+
+			"collision shape 2sub-sub-sub-block " :  {
+
+				"u1" : 1,
+				"u2" : 1,
+				"u3" : 1,
+				"w" : -15.0,
+				"x" : 15.0,
+				"z" : 1,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "CollisionShape",
+			"number" : 113,
+			"name" : "whirlwind",
+
+			"collision shapesub-sub-sub-block " :  {
+
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"w" : -140.0,
+					"x" : 0.0,
+					"y" : 280.0,
+					"z" : 20.0,
+				},
+			},
+
+			"collision shape 2sub-sub-sub-block " :  {
+
+				"u3" : 1,
+				"w" : -15.0,
+				"x" : 15.0,
+				"z" : 0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Program",
+			"number" : 118,
+
+			"programsub-sub-sub-block " :  {
+
+				"u0" : 1,
+
+				"lua chunksub-sub-sub-sub-block " :  {
+
+					"main chunk" : "chunk >
+
+					=== lua =============
+					local self = ...;
+					
+					local timeToBolt = 0;
+					
+					while true do
+						Program.Wait(0.3);
+					
+						if EntityController.IsIdle(self) then 
+							timeToBolt = timeToBolt - 0.3;
+					
+							if Properties.GetProperty(self, \"isHurt\") == \"true\" then
+								EntityController.PerformAction(self, 110);
+								timeToBolt = 0.0;
+					
+							elseif timeToBolt < 0.0 then
+								EntityController.PerformAction(self, 133);
+								timeToBolt = 1.5;
+							end
+						end
+					end
+
+					=====================",
+					"secondary chunk" : "\\x1bLuaQ\\x00\\x01\\x04\\x04\\x04\\x08\\x00\\x9a\\x01\\x00\\x00local self = ...;\\r\\n\\r\\nlocal timeToBolt = 0;\\r\\n\\r\\nwhile true do\\r\\n\\tProgram.Wait(0.3);\\r\\n\\r\\n\\tif EntityController.IsIdle(self) then \\r\\n\\t\\ttimeToBolt = timeToBolt - 0.3;\\r\\n\\r\\n\\t\\tif Properties.GetProperty(self, \"isHurt\") == \"true\" then\\r\\n\\t\\t\\tEntityController.PerformAction(self, 110);\\r\\n\\t\\t\\ttimeToBolt = 0.0;\\r\\n\\r\\n\\t\\telseif timeToBolt < 0.0 then\\r\\n\\t\\t\\tEntityController.PerformAction(self, 133);\\r\\n\\t\\t\\ttimeToBolt = 1.5;\\r\\n\\t\\tend\\r\\n\\tend\\r\\nend\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x02\\x05%\\x00\\x00\\x00%\\x00\\x00\\x01A\\x00\\x00\\x00\\x85@\\x00\\x00\\x86\\x80@\\x01\\xc1\\xc0\\x00\\x00\\x9c@\\x00\\x01\\x85\\x00\\x01\\x00\\x86@A\\x01\\xc0\\x00\\x00\\x00\\x9c\\x80\\x00\\x01\\x9a\\x00\\x00\\x00\\x16@\\xfd\\x7fM\\xc0\\xc0\\x00\\x85\\x80\\x01\\x00\\x86\\xc0A\\x01\\xc0\\x00\\x00\\x00\\x01\\x01\\x02\\x00\\x9c\\x80\\x80\\x01\\x17@B\\x01\\x16\\x80\\x01\\x80\\x85\\x00\\x01\\x00\\x86\\x80B\\x01\\xc0\\x00\\x00\\x00\\x01\\xc1\\x02\\x00\\x9c@\\x80\\x01A\\x00\\x00\\x00\\x16\\x80\\xf9\\x7f\\x18\\x00\\xc0\\x00\\x16\\x00\\xf9\\x7f\\x85\\x00\\x01\\x00\\x86\\x80B\\x01\\xc0\\x00\\x00\\x00\\x01\\x01\\x03\\x00\\x9c@\\x80\\x01A@\\x03\\x00\\x16@\\xf7\\x7f\\x1e\\x00\\x80\\x00\\x0e\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x04\\x08\\x00\\x00\\x00Program\\x00\\x04\\x05\\x00\\x00\\x00Wait\\x00\\x03333333\\xd3?\\x04\\x11\\x00\\x00\\x00EntityController\\x00\\x04\\x07\\x00\\x00\\x00IsIdle\\x00\\x04\\x0b\\x00\\x00\\x00Properties\\x00\\x04\\x0c\\x00\\x00\\x00GetProperty\\x00\\x04\\x07\\x00\\x00\\x00isHurt\\x00\\x04\\x05\\x00\\x00\\x00true\\x00\\x04\\x0e\\x00\\x00\\x00PerformAction\\x00\\x03\\x00\\x00\\x00\\x00\\x00\\x80[@\\x03\\x00\\x00\\x00\\x00\\x00\\xa0`@\\x03\\x00\\x00\\x00\\x00\\x00\\x00\\xf8?\\x00\\x00\\x00\\x00%\\x00\\x00\\x00\\x01\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x06\\x00\\x00\\x00\\x06\\x00\\x00\\x00\\x06\\x00\\x00\\x00\\x06\\x00\\x00\\x00\\x08\\x00\\x00\\x00\\x08\\x00\\x00\\x00\\x08\\x00\\x00\\x00\\x08\\x00\\x00\\x00\\x08\\x00\\x00\\x00\\x08\\x00\\x00\\x00\\t\\x00\\x00\\x00\\x0b\\x00\\x00\\x00\\x0b\\x00\\x00\\x00\\x0b\\x00\\x00\\x00\\x0b\\x00\\x00\\x00\\x0b\\x00\\x00\\x00\\x0b\\x00\\x00\\x00\\x0b\\x00\\x00\\x00\\x0c\\x00\\x00\\x00\\x0c\\x00\\x00\\x00\\x0c\\x00\\x00\\x00\\x0c\\x00\\x00\\x00\\x0c\\x00\\x00\\x00\\r\\x00\\x00\\x00\\r\\x00\\x00\\x00\\x0f\\x00\\x00\\x00\\x0f\\x00\\x00\\x00\\x10\\x00\\x00\\x00\\x10\\x00\\x00\\x00\\x10\\x00\\x00\\x00\\x10\\x00\\x00\\x00\\x10\\x00\\x00\\x00\\x11\\x00\\x00\\x00\\x13\\x00\\x00\\x00\\x14\\x00\\x00\\x00\\x02\\x00\\x00\\x00\\x05\\x00\\x00\\x00self\\x00\\x01\\x00\\x00\\x00$\\x00\\x00\\x00\\x0b\\x00\\x00\\x00timeToBolt\\x00\\x02\\x00\\x00\\x00$\\x00\\x00\\x00\\x00\\x00\\x00\\x00",
+				},
+				"u1" : 1,
+				"u2" : 1,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Properties",
+			"number" : 119,
+
+			"propertiessub-sub-sub-block " :  {
+
+				"u0" : "",
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "KeyframeAnimation",
+			"number" : 123,
+
+			"keyframe animationsub-sub-sub-block " :  {
+
+				"linked model component number" : 101,
+				"name" : "boss1_shadowform_spin",
+				"u0" : 1,
+				"u1" : 1.5,
+				"u2" : 1,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "KeyframeAnimation",
+			"number" : 124,
+			"name" : "cast",
+
+			"keyframe animationsub-sub-sub-block " :  {
+
+				"linked model component number" : 101,
+				"name" : "boss1_shadowform_shoot",
+				"u0" : 0,
+				"u1" : 1.0,
+				"u2" : 1,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "SimpleGlow",
+			"number" : 128,
+
+			"simple glowsub-sub-sub-block " :  {
+
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"w" : 0.2888889014720917,
+					"x" : 0.1555555760860443,
+					"y" : 0.1555555760860443,
+					"z" : 0.0,
+				},
+				"u1" : 55.0,
+				"u2" : 10,
+				"u3" : 15.0,
+				"u4" : 0.0,
+				"u5" : 0.800000011920929,
+
+				"u6sub-sub-sub-sub-block " :  {
+
+					"y" : 0.0,
+					"z" : 50.0,
+				},
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Skill",
+			"number" : 132,
+
+			"skillsub-sub-sub-block " :  {
+
+				"u0" : 0,
+
+				"u1sub-sub-sub-sub-block " :  {
+
+					"x" : 70.0,
+					"y" : 50.0,
+				},
+				"cast animation" : "boss1_spellcast",
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "EntityAction",
+			"number" : 133,
+			"name" : "castbolt",
+
+			"entity actionsub-sub-sub-block " :  {
+
+
+				"lua chunksub-sub-sub-sub-block " :  {
+
+					"main chunk" : "chunk >
+
+					=== lua =============
+					local self = ...;
+					
+					local invokeAnimation = 134;
+					local castAnimation = 124;
+					
+					EntityController.SetMoveSpeed(self, 0);
+					KeyframeAnimation.SetCurrentTime(self, invokeAnimation, 0.0);
+					AnimationController.BlendToAnimation(self, invokeAnimation);
+					
+					local numBolts = 1;
+					if Health.CurrentPercent(self) < 33 then
+						numBolts = 3;
+					elseif Health.CurrentPercent(self) < 66 then
+						numBolts = 2;
+					end
+					
+					for i = 1,numBolts do
+					
+					Skill.BeginCasting(self, \"boss1_magicbolt\", Vector3.New(EntityController.FacingDirection(self), 0, 0));
+					if i == 1 then Program.Wait(0.5); end
+					
+					KeyframeAnimation.SetCurrentTime(self, castAnimation, 0.0);
+					AnimationController.BlendToAnimation(self, castAnimation);
+					
+					Program.Wait(KeyframeAnimation.TimeToFrame(self, castAnimation, 13));
+					
+					Skill.FinishCasting(self);
+					
+					Program.Wait(KeyframeAnimation.TimeToCompletion(self, castAnimation));
+					
+					end
+					
+					EntityController.SetMoveSpeed(self, EntityController.DefaultMoveSpeed(self));
+					
+					Properties.SetProperty(self, \"isHurt\", \"true\");
+					
+
+					=====================",
+					"secondary chunk" : "\\x1bLuaQ\\x00\\x01\\x04\\x04\\x04\\x08\\x00\\xee\\x03\\x00\\x00local self = ...;\\r\\n\\r\\nlocal invokeAnimation = 134;\\r\\nlocal castAnimation = 124;\\r\\n\\r\\nEntityController.SetMoveSpeed(self, 0);\\r\\nKeyframeAnimation.SetCurrentTime(self, invokeAnimation, 0.0);\\r\\nAnimationController.BlendToAnimation(self, invokeAnimation);\\r\\n\\r\\nlocal numBolts = 1;\\r\\nif Health.CurrentPercent(self) < 33 then\\r\\n\\tnumBolts = 3;\\r\\nelseif Health.CurrentPercent(self) < 66 then\\r\\n\\tnumBolts = 2;\\r\\nend\\r\\n\\r\\nfor i = 1,numBolts do\\r\\n\\r\\nSkill.BeginCasting(self, \"boss1_magicbolt\", Vector3.New(EntityController.FacingDirection(self), 0, 0));\\r\\nif i == 1 then Program.Wait(0.5); end\\r\\n\\r\\nKeyframeAnimation.SetCurrentTime(self, castAnimation, 0.0);\\r\\nAnimationController.BlendToAnimation(self, castAnimation);\\r\\n\\r\\nProgram.Wait(KeyframeAnimation.TimeToFrame(self, castAnimation, 13));\\r\\n\\r\\nSkill.FinishCasting(self);\\r\\n\\r\\nProgram.Wait(KeyframeAnimation.TimeToCompletion(self, castAnimation));\\r\\n\\r\\nend\\r\\n\\r\\nEntityController.SetMoveSpeed(self, EntityController.DefaultMoveSpeed(self));\\r\\n\\r\\nProperties.SetProperty(self, \"isHurt\", \"true\");\\r\\n\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x02\\x0fk\\x00\\x00\\x00%\\x00\\x00\\x01A\\x00\\x00\\x00\\x81@\\x00\\x00\\xc5\\x80\\x00\\x00\\xc6\\xc0\\xc0\\x01\\x00\\x01\\x00\\x00A\\x01\\x01\\x00\\xdc@\\x80\\x01\\xc5@\\x01\\x00\\xc6\\x80\\xc1\\x01\\x00\\x01\\x00\\x00@\\x01\\x80\\x00\\x81\\x01\\x01\\x00\\xdc@\\x00\\x02\\xc5\\xc0\\x01\\x00\\xc6\\x00\\xc2\\x01\\x00\\x01\\x00\\x00@\\x01\\x80\\x00\\xdc@\\x80\\x01\\xc1@\\x02\\x00\\x05\\x81\\x02\\x00\\x06\\xc1B\\x02@\\x01\\x00\\x00\\x1c\\x81\\x00\\x01\\x18\\x00C\\x02\\x16@\\x00\\x80\\xc1@\\x03\\x00\\x16\\x80\\x01\\x80\\x05\\x81\\x02\\x00\\x06\\xc1B\\x02@\\x01\\x00\\x00\\x1c\\x81\\x00\\x01\\x18\\x80C\\x02\\x16\\x00\\x00\\x80\\xc1\\xc0\\x03\\x00\\x01A\\x02\\x00@\\x01\\x80\\x01\\x81A\\x02\\x00 \\xc1\\x0c\\x80\\x05\\x02\\x04\\x00\\x06BD\\x04@\\x02\\x00\\x00\\x81\\x82\\x04\\x00\\xc5\\xc2\\x04\\x00\\xc6\\x02\\xc5\\x05\\x05\\x83\\x00\\x00\\x06CE\\x06@\\x03\\x00\\x00\\x1c\\x83\\x00\\x01A\\x03\\x01\\x00\\x81\\x03\\x01\\x00\\xdc\\x02\\x00\\x02\\x1cB\\x00\\x00\\x17@\\xc2\\x03\\x16\\xc0\\x00\\x80\\x05\\x82\\x05\\x00\\x06\\xc2E\\x04A\\x02\\x06\\x00\\x1cB\\x00\\x01\\x05B\\x01\\x00\\x06\\x82A\\x04@\\x02\\x00\\x00\\x80\\x02\\x00\\x01\\xc1\\x02\\x01\\x00\\x1cB\\x00\\x02\\x05\\xc2\\x01\\x00\\x06\\x02B\\x04@\\x02\\x00\\x00\\x80\\x02\\x00\\x01\\x1cB\\x80\\x01\\x05\\x82\\x05\\x00\\x06\\xc2E\\x04EB\\x01\\x00FB\\xc6\\x04\\x80\\x02\\x00\\x00\\xc0\\x02\\x00\\x01\\x01\\x83\\x06\\x00\\\\\\x02\\x00\\x02\\x1cB\\x00\\x00\\x05\\x02\\x04\\x00\\x06\\xc2F\\x04@\\x02\\x00\\x00\\x1cB\\x00\\x01\\x05\\x82\\x05\\x00\\x06\\xc2E\\x04EB\\x01\\x00F\\x02\\xc7\\x04\\x80\\x02\\x00\\x00\\xc0\\x02\\x00\\x01\\\\\\x02\\x80\\x01\\x1cB\\x00\\x00\\x1f\\x81\\xf2\\x7f\\x05\\x81\\x00\\x00\\x06\\xc1@\\x02@\\x01\\x00\\x00\\x85\\x81\\x00\\x00\\x86AG\\x03\\xc0\\x01\\x00\\x00\\x9c\\x01\\x00\\x01\\x1cA\\x00\\x00\\x05\\x81\\x07\\x00\\x06\\xc1G\\x02@\\x01\\x00\\x00\\x81\\x01\\x08\\x00\\xc1A\\x08\\x00\\x1cA\\x00\\x02\\x1e\\x00\\x80\\x00\"\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x00\\x00\\xc0`@\\x03\\x00\\x00\\x00\\x00\\x00\\x00_@\\x04\\x11\\x00\\x00\\x00EntityController\\x00\\x04\\r\\x00\\x00\\x00SetMoveSpeed\\x00\\x03\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x04\\x12\\x00\\x00\\x00KeyframeAnimation\\x00\\x04\\x0f\\x00\\x00\\x00SetCurrentTime\\x00\\x04\\x14\\x00\\x00\\x00AnimationController\\x00\\x04\\x11\\x00\\x00\\x00BlendToAnimation\\x00\\x03\\x00\\x00\\x00\\x00\\x00\\x00\\xf0?\\x04\\x07\\x00\\x00\\x00Health\\x00\\x04\\x0f\\x00\\x00\\x00CurrentPercent\\x00\\x03\\x00\\x00\\x00\\x00\\x00\\x80@@\\x03\\x00\\x00\\x00\\x00\\x00\\x00\\x08@\\x03\\x00\\x00\\x00\\x00\\x00\\x80P@\\x03\\x00\\x00\\x00\\x00\\x00\\x00\\x00@\\x04\\x06\\x00\\x00\\x00Skill\\x00\\x04\\r\\x00\\x00\\x00BeginCasting\\x00\\x04\\x10\\x00\\x00\\x00boss1_magicbolt\\x00\\x04\\x08\\x00\\x00\\x00Vector3\\x00\\x04\\x04\\x00\\x00\\x00New\\x00\\x04\\x10\\x00\\x00\\x00FacingDirection\\x00\\x04\\x08\\x00\\x00\\x00Program\\x00\\x04\\x05\\x00\\x00\\x00Wait\\x00\\x03\\x00\\x00\\x00\\x00\\x00\\x00\\xe0?\\x04\\x0c\\x00\\x00\\x00TimeToFrame\\x00\\x03\\x00\\x00\\x00\\x00\\x00\\x00*@\\x04\\x0e\\x00\\x00\\x00FinishCasting\\x00\\x04\\x11\\x00\\x00\\x00TimeToCompletion\\x00\\x04\\x11\\x00\\x00\\x00DefaultMoveSpeed\\x00\\x04\\x0b\\x00\\x00\\x00Properties\\x00\\x04\\x0c\\x00\\x00\\x00SetProperty\\x00\\x04\\x07\\x00\\x00\\x00isHurt\\x00\\x04\\x05\\x00\\x00\\x00true\\x00\\x00\\x00\\x00\\x00k\\x00\\x00\\x00\\x01\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x06\\x00\\x00\\x00\\x06\\x00\\x00\\x00\\x06\\x00\\x00\\x00\\x06\\x00\\x00\\x00\\x06\\x00\\x00\\x00\\x07\\x00\\x00\\x00\\x07\\x00\\x00\\x00\\x07\\x00\\x00\\x00\\x07\\x00\\x00\\x00\\x07\\x00\\x00\\x00\\x07\\x00\\x00\\x00\\x08\\x00\\x00\\x00\\x08\\x00\\x00\\x00\\x08\\x00\\x00\\x00\\x08\\x00\\x00\\x00\\x08\\x00\\x00\\x00\\n\\x00\\x00\\x00\\x0b\\x00\\x00\\x00\\x0b\\x00\\x00\\x00\\x0b\\x00\\x00\\x00\\x0b\\x00\\x00\\x00\\x0b\\x00\\x00\\x00\\x0b\\x00\\x00\\x00\\x0c\\x00\\x00\\x00\\x0c\\x00\\x00\\x00\\r\\x00\\x00\\x00\\r\\x00\\x00\\x00\\r\\x00\\x00\\x00\\r\\x00\\x00\\x00\\r\\x00\\x00\\x00\\r\\x00\\x00\\x00\\x0e\\x00\\x00\\x00\\x11\\x00\\x00\\x00\\x11\\x00\\x00\\x00\\x11\\x00\\x00\\x00\\x11\\x00\\x00\\x00\\x13\\x00\\x00\\x00\\x13\\x00\\x00\\x00\\x13\\x00\\x00\\x00\\x13\\x00\\x00\\x00\\x13\\x00\\x00\\x00\\x13\\x00\\x00\\x00\\x13\\x00\\x00\\x00\\x13\\x00\\x00\\x00\\x13\\x00\\x00\\x00\\x13\\x00\\x00\\x00\\x13\\x00\\x00\\x00\\x13\\x00\\x00\\x00\\x13\\x00\\x00\\x00\\x13\\x00\\x00\\x00\\x14\\x00\\x00\\x00\\x14\\x00\\x00\\x00\\x14\\x00\\x00\\x00\\x14\\x00\\x00\\x00\\x14\\x00\\x00\\x00\\x14\\x00\\x00\\x00\\x16\\x00\\x00\\x00\\x16\\x00\\x00\\x00\\x16\\x00\\x00\\x00\\x16\\x00\\x00\\x00\\x16\\x00\\x00\\x00\\x16\\x00\\x00\\x00\\x17\\x00\\x00\\x00\\x17\\x00\\x00\\x00\\x17\\x00\\x00\\x00\\x17\\x00\\x00\\x00\\x17\\x00\\x00\\x00\\x19\\x00\\x00\\x00\\x19\\x00\\x00\\x00\\x19\\x00\\x00\\x00\\x19\\x00\\x00\\x00\\x19\\x00\\x00\\x00\\x19\\x00\\x00\\x00\\x19\\x00\\x00\\x00\\x19\\x00\\x00\\x00\\x19\\x00\\x00\\x00\\x1b\\x00\\x00\\x00\\x1b\\x00\\x00\\x00\\x1b\\x00\\x00\\x00\\x1b\\x00\\x00\\x00\\x1d\\x00\\x00\\x00\\x1d\\x00\\x00\\x00\\x1d\\x00\\x00\\x00\\x1d\\x00\\x00\\x00\\x1d\\x00\\x00\\x00\\x1d\\x00\\x00\\x00\\x1d\\x00\\x00\\x00\\x1d\\x00\\x00\\x00\\x11\\x00\\x00\\x00!\\x00\\x00\\x00!\\x00\\x00\\x00!\\x00\\x00\\x00!\\x00\\x00\\x00!\\x00\\x00\\x00!\\x00\\x00\\x00!\\x00\\x00\\x00!\\x00\\x00\\x00#\\x00\\x00\\x00#\\x00\\x00\\x00#\\x00\\x00\\x00#\\x00\\x00\\x00#\\x00\\x00\\x00#\\x00\\x00\\x00#\\x00\\x00\\x00\\x08\\x00\\x00\\x00\\x05\\x00\\x00\\x00self\\x00\\x01\\x00\\x00\\x00j\\x00\\x00\\x00\\x10\\x00\\x00\\x00invokeAnimation\\x00\\x02\\x00\\x00\\x00j\\x00\\x00\\x00\\x0e\\x00\\x00\\x00castAnimation\\x00\\x03\\x00\\x00\\x00j\\x00\\x00\\x00\\t\\x00\\x00\\x00numBolts\\x00\\x14\\x00\\x00\\x00j\\x00\\x00\\x00\\x0c\\x00\\x00\\x00(for index)\\x00&\\x00\\x00\\x00\\\\\\x00\\x00\\x00\\x0c\\x00\\x00\\x00(for limit)\\x00&\\x00\\x00\\x00\\\\\\x00\\x00\\x00\\x0b\\x00\\x00\\x00(for step)\\x00&\\x00\\x00\\x00\\\\\\x00\\x00\\x00\\x02\\x00\\x00\\x00i\\x00\\\'\\x00\\x00\\x00[\\x00\\x00\\x00\\x00\\x00\\x00\\x00",
+				},
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "KeyframeAnimation",
+			"number" : 134,
+			"name" : "invoke",
+
+			"keyframe animationsub-sub-sub-block " :  {
+
+				"linked model component number" : 101,
+				"name" : "boss1_shadowform_move",
+				"u0" : 1,
+				"u1" : 2.0,
+				"u2" : 1,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "EntityAction",
+			"number" : 138,
+			"name" : "jumpaway",
+
+			"entity actionsub-sub-sub-block " :  {
+
+
+				"lua chunksub-sub-sub-sub-block " :  {
+
+					"main chunk" : "chunk >
+
+					=== lua =============
+					local self = ...;
+					
+					local direction = DirectionToTargetFromPosition(EntityController.Target(self):position(), self:position());
+					
+					EntityController.SetFacingDirection(self, direction);
+					
+					EntityController.SetMoveSpeed(self, 0);
+					EntityController.SetAcceleration(self, 0);
+					self:setVelocity(Vector3.New(-direction * 300, 400, 0));
+					
+					Program.Wait(0.8);
+					
+					-- Restore default acceleration
+					EntityController.SetAcceleration(self, EntityController.DefaultAcceleration(self));
+					
+					-- Cast bolt next
+					Properties.SetProperty(self, \"isHurt\", \"false\");
+					
+					Game.SetCinematicMode(true, true);
+					Camera.FocusAtPoint(self:position());
+					
+					Program.Wait(1.5);
+					
+					ShowTextBubbles(\"bossBubble\", self:position() + Vector3.New(0, 80, 0), false, {
+						\"HA HA HA!\",
+						\"We meet again.\"
+					});
+					
+					Program.Wait(0.5);
+					HideTextBubble(\"bossBubble\");
+					
+					Game.SetCinematicMode(false, true);
+					Camera.ResetFocus();
+					
+					EntityController.SetMoveSpeed(self, EntityController.DefaultMoveSpeed(self));
+
+					=====================",
+					"secondary chunk" : "\\x1bLuaQ\\x00\\x01\\x04\\x04\\x04\\x08\\x00\\xc0\\x03\\x00\\x00local self = ...;\\r\\n\\r\\nlocal direction = DirectionToTargetFromPosition(EntityController.Target(self):position(), self:position());\\r\\n\\r\\nEntityController.SetFacingDirection(self, direction);\\r\\n\\r\\nEntityController.SetMoveSpeed(self, 0);\\r\\nEntityController.SetAcceleration(self, 0);\\r\\nself:setVelocity(Vector3.New(-direction * 300, 400, 0));\\r\\n\\r\\nProgram.Wait(0.8);\\r\\n\\r\\n-- Restore default acceleration\\r\\nEntityController.SetAcceleration(self, EntityController.DefaultAcceleration(self));\\r\\n\\r\\n-- Cast bolt next\\r\\nProperties.SetProperty(self, \"isHurt\", \"false\");\\r\\n\\r\\nGame.SetCinematicMode(true, true);\\r\\nCamera.FocusAtPoint(self:position());\\r\\n\\r\\nProgram.Wait(1.5);\\r\\n\\r\\nShowTextBubbles(\"bossBubble\", self:position() + Vector3.New(0, 80, 0), false, {\\r\\n\\t\"HA HA HA!\",\\r\\n\\t\"We meet again.\"\\r\\n});\\r\\n\\r\\nProgram.Wait(0.5);\\r\\nHideTextBubble(\"bossBubble\");\\r\\n\\r\\nGame.SetCinematicMode(false, true);\\r\\nCamera.ResetFocus();\\r\\n\\r\\nEntityController.SetMoveSpeed(self, EntityController.DefaultMoveSpeed(self));\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x02\\tl\\x00\\x00\\x00%\\x00\\x00\\x01E\\x00\\x00\\x00\\x85@\\x00\\x00\\x86\\x80@\\x01\\xc0\\x00\\x00\\x00\\x9c\\x80\\x00\\x01\\x8b\\xc0@\\x01\\x9c\\x80\\x00\\x01\\xcb\\xc0@\\x00\\xdc\\x00\\x00\\x01\\\\\\x80\\x00\\x00\\x85@\\x00\\x00\\x86\\x00A\\x01\\xc0\\x00\\x00\\x00\\x00\\x01\\x80\\x00\\x9c@\\x80\\x01\\x85@\\x00\\x00\\x86@A\\x01\\xc0\\x00\\x00\\x00\\x01\\x81\\x01\\x00\\x9c@\\x80\\x01\\x85@\\x00\\x00\\x86\\xc0A\\x01\\xc0\\x00\\x00\\x00\\x01\\x81\\x01\\x00\\x9c@\\x80\\x01\\x8b\\x00B\\x00\\x05A\\x02\\x00\\x06\\x81B\\x02R\\x01\\x80\\x00N\\xc1\\xc2\\x02\\x81\\x01\\x03\\x00\\xc1\\x81\\x01\\x00\\x1c\\x01\\x00\\x02\\x9c@\\x00\\x00\\x85@\\x03\\x00\\x86\\x80C\\x01\\xc1\\xc0\\x03\\x00\\x9c@\\x00\\x01\\x85@\\x00\\x00\\x86\\xc0A\\x01\\xc0\\x00\\x00\\x00\\x05A\\x00\\x00\\x06\\x01D\\x02@\\x01\\x00\\x00\\x1c\\x01\\x00\\x01\\x9c@\\x00\\x00\\x85@\\x04\\x00\\x86\\x80D\\x01\\xc0\\x00\\x00\\x00\\x01\\xc1\\x04\\x00A\\x01\\x05\\x00\\x9c@\\x00\\x02\\x85@\\x05\\x00\\x86\\x80E\\x01\\xc2\\x00\\x80\\x00\\x02\\x01\\x80\\x00\\x9c@\\x80\\x01\\x85\\xc0\\x05\\x00\\x86\\x00F\\x01\\xcb\\xc0@\\x00\\xdc\\x00\\x00\\x01\\x9c@\\x00\\x00\\x85@\\x03\\x00\\x86\\x80C\\x01\\xc1@\\x06\\x00\\x9c@\\x00\\x01\\x85\\x80\\x06\\x00\\xc1\\xc0\\x06\\x00\\x0b\\xc1@\\x00\\x1c\\x81\\x00\\x01EA\\x02\\x00F\\x81\\xc2\\x02\\x81\\x81\\x01\\x00\\xc1\\x01\\x07\\x00\\x01\\x82\\x01\\x00\\\\\\x81\\x00\\x02\\x0cA\\x01\\x02B\\x01\\x00\\x00\\x8a\\x01\\x00\\x01\\xc1A\\x07\\x00\\x01\\x82\\x07\\x00\\xa2A\\x00\\x01\\x9c@\\x80\\x02\\x85@\\x03\\x00\\x86\\x80C\\x01\\xc1\\xc0\\x07\\x00\\x9c@\\x00\\x01\\x85\\x00\\x08\\x00\\xc1\\xc0\\x06\\x00\\x9c@\\x00\\x01\\x85@\\x05\\x00\\x86\\x80E\\x01\\xc2\\x00\\x00\\x00\\x02\\x01\\x80\\x00\\x9c@\\x80\\x01\\x85\\xc0\\x05\\x00\\x86@H\\x01\\x9c@\\x80\\x00\\x85@\\x00\\x00\\x86@A\\x01\\xc0\\x00\\x00\\x00\\x05A\\x00\\x00\\x06\\x81H\\x02@\\x01\\x00\\x00\\x1c\\x01\\x00\\x01\\x9c@\\x00\\x00\\x1e\\x00\\x80\\x00#\\x00\\x00\\x00\\x04\\x1e\\x00\\x00\\x00DirectionToTargetFromPosition\\x00\\x04\\x11\\x00\\x00\\x00EntityController\\x00\\x04\\x07\\x00\\x00\\x00Target\\x00\\x04\\t\\x00\\x00\\x00position\\x00\\x04\\x13\\x00\\x00\\x00SetFacingDirection\\x00\\x04\\r\\x00\\x00\\x00SetMoveSpeed\\x00\\x03\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x04\\x10\\x00\\x00\\x00SetAcceleration\\x00\\x04\\x0c\\x00\\x00\\x00setVelocity\\x00\\x04\\x08\\x00\\x00\\x00Vector3\\x00\\x04\\x04\\x00\\x00\\x00New\\x00\\x03\\x00\\x00\\x00\\x00\\x00\\xc0r@\\x03\\x00\\x00\\x00\\x00\\x00\\x00y@\\x04\\x08\\x00\\x00\\x00Program\\x00\\x04\\x05\\x00\\x00\\x00Wait\\x00\\x03\\x9a\\x99\\x99\\x99\\x99\\x99\\xe9?\\x04\\x14\\x00\\x00\\x00DefaultAcceleration\\x00\\x04\\x0b\\x00\\x00\\x00Properties\\x00\\x04\\x0c\\x00\\x00\\x00SetProperty\\x00\\x04\\x07\\x00\\x00\\x00isHurt\\x00\\x04\\x06\\x00\\x00\\x00false\\x00\\x04\\x05\\x00\\x00\\x00Game\\x00\\x04\\x11\\x00\\x00\\x00SetCinematicMode\\x00\\x04\\x07\\x00\\x00\\x00Camera\\x00\\x04\\r\\x00\\x00\\x00FocusAtPoint\\x00\\x03\\x00\\x00\\x00\\x00\\x00\\x00\\xf8?\\x04\\x10\\x00\\x00\\x00ShowTextBubbles\\x00\\x04\\x0b\\x00\\x00\\x00bossBubble\\x00\\x03\\x00\\x00\\x00\\x00\\x00\\x00T@\\x04\\n\\x00\\x00\\x00HA HA HA!\\x00\\x04\\x0f\\x00\\x00\\x00We meet again.\\x00\\x03\\x00\\x00\\x00\\x00\\x00\\x00\\xe0?\\x04\\x0f\\x00\\x00\\x00HideTextBubble\\x00\\x04\\x0b\\x00\\x00\\x00ResetFocus\\x00\\x04\\x11\\x00\\x00\\x00DefaultMoveSpeed\\x00\\x00\\x00\\x00\\x00l\\x00\\x00\\x00\\x01\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x07\\x00\\x00\\x00\\x07\\x00\\x00\\x00\\x07\\x00\\x00\\x00\\x07\\x00\\x00\\x00\\x07\\x00\\x00\\x00\\x08\\x00\\x00\\x00\\x08\\x00\\x00\\x00\\x08\\x00\\x00\\x00\\x08\\x00\\x00\\x00\\x08\\x00\\x00\\x00\\t\\x00\\x00\\x00\\t\\x00\\x00\\x00\\t\\x00\\x00\\x00\\t\\x00\\x00\\x00\\t\\x00\\x00\\x00\\t\\x00\\x00\\x00\\t\\x00\\x00\\x00\\t\\x00\\x00\\x00\\t\\x00\\x00\\x00\\x0b\\x00\\x00\\x00\\x0b\\x00\\x00\\x00\\x0b\\x00\\x00\\x00\\x0b\\x00\\x00\\x00\\x0e\\x00\\x00\\x00\\x0e\\x00\\x00\\x00\\x0e\\x00\\x00\\x00\\x0e\\x00\\x00\\x00\\x0e\\x00\\x00\\x00\\x0e\\x00\\x00\\x00\\x0e\\x00\\x00\\x00\\x0e\\x00\\x00\\x00\\x11\\x00\\x00\\x00\\x11\\x00\\x00\\x00\\x11\\x00\\x00\\x00\\x11\\x00\\x00\\x00\\x11\\x00\\x00\\x00\\x11\\x00\\x00\\x00\\x13\\x00\\x00\\x00\\x13\\x00\\x00\\x00\\x13\\x00\\x00\\x00\\x13\\x00\\x00\\x00\\x13\\x00\\x00\\x00\\x14\\x00\\x00\\x00\\x14\\x00\\x00\\x00\\x14\\x00\\x00\\x00\\x14\\x00\\x00\\x00\\x14\\x00\\x00\\x00\\x16\\x00\\x00\\x00\\x16\\x00\\x00\\x00\\x16\\x00\\x00\\x00\\x16\\x00\\x00\\x00\\x18\\x00\\x00\\x00\\x18\\x00\\x00\\x00\\x18\\x00\\x00\\x00\\x18\\x00\\x00\\x00\\x18\\x00\\x00\\x00\\x18\\x00\\x00\\x00\\x18\\x00\\x00\\x00\\x18\\x00\\x00\\x00\\x18\\x00\\x00\\x00\\x18\\x00\\x00\\x00\\x18\\x00\\x00\\x00\\x18\\x00\\x00\\x00\\x18\\x00\\x00\\x00\\x19\\x00\\x00\\x00\\x1b\\x00\\x00\\x00\\x1b\\x00\\x00\\x00\\x18\\x00\\x00\\x00\\x1d\\x00\\x00\\x00\\x1d\\x00\\x00\\x00\\x1d\\x00\\x00\\x00\\x1d\\x00\\x00\\x00\\x1e\\x00\\x00\\x00\\x1e\\x00\\x00\\x00\\x1e\\x00\\x00\\x00 \\x00\\x00\\x00 \\x00\\x00\\x00 \\x00\\x00\\x00 \\x00\\x00\\x00 \\x00\\x00\\x00!\\x00\\x00\\x00!\\x00\\x00\\x00!\\x00\\x00\\x00#\\x00\\x00\\x00#\\x00\\x00\\x00#\\x00\\x00\\x00#\\x00\\x00\\x00#\\x00\\x00\\x00#\\x00\\x00\\x00#\\x00\\x00\\x00#\\x00\\x00\\x00#\\x00\\x00\\x00\\x02\\x00\\x00\\x00\\x05\\x00\\x00\\x00self\\x00\\x01\\x00\\x00\\x00k\\x00\\x00\\x00\\n\\x00\\x00\\x00direction\\x00\\x0b\\x00\\x00\\x00k\\x00\\x00\\x00\\x00\\x00\\x00\\x00",
+				},
+			},
+		},
+
+		"positionsub-sub-block " :  {
+
+			"x position" : 0.0,
+			"y position" : 0.0,
+		},
+		"z position" : 0.0,
+		"rotation" : 0.0,
+		"scale" : 1.0,
+
+		"u0sub-sub-block " :  {
+
+			"w" : -140.0,
+			"x" : -55.0,
+			"y" : 280.0,
+			"z" : 110.0,
+		},
+		"hidden" : 0,
+	},
+	"u0" : 1.0,
+},
+
+}

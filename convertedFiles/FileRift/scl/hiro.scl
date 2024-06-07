@@ -1,0 +1,1047 @@
+scl file name : hiro (0a @ 1)
+
+?item block { (12 @ 7)
+
+
+    ?sub-item sub-block { (0a @ a)
+
+        name : hiro (12 @ d)
+
+        component sub-sub-block { (1a @ 13)
+
+            component type : CharController (0a @ 15)
+            number : 1(10 @ 25)
+
+            char controller sub-sub-sub-block { (4ba @ 28)
+
+                u0 : 117(08 @ 2a)
+                u1 : 3(10 @ 2c)
+                u2 : 230.0 (1d @ 2e)
+                u3 : 250.0 (25 @ 33)
+                u4 : 0.23000000417232513 (2d @ 38)
+                u5 : 0(30 @ 3d)
+                u6 : 5(38 @ 3f)
+                u7 : 8(40 @ 41)
+                u7 : 15(40 @ 43)
+                u7 : 6(40 @ 45)
+                u8 : 120(48 @ 47)
+                u9 : 127(50 @ 49)
+                u10 : 128(58 @ 4b)
+                u11 : 129(60 @ 4e)
+                u12 : 12(68 @ 51)
+                u13 : 13(70 @ 53)
+                u14 : 18(78 @ 55)
+                u15 : 320.0 (85 @ 58)
+                u16 : 0.10999999940395355 (8d @ 5e)
+                u17 : 0(90 @ 64)
+                u18 : 0(98 @ 67)
+                u19 : 21(a0 @ 6a)
+			}
+		}
+
+        component sub-sub-block { (1a @ 6c)
+
+            component type : CollisionShape (0a @ 6e)
+            number : 2(10 @ 7e)
+
+            collision shape sub-sub-sub-block { (3c2 @ 81)
+
+
+                u0 sub-sub-sub-sub-block { (0a @ 83)
+
+                    w : -8.0 (0d @ 85)
+                    x : -34.0 (15 @ 8a)
+                    y : 16.0 (1d @ 8f)
+                    z : 56.0 (25 @ 94)
+				}
+			}
+
+            collision shape 2 sub-sub-sub-block { (3ca @ 9a)
+
+                u1 : 1(18 @ 9c)
+                u2 : 1(20 @ 9e)
+                w : -15.0 (35 @ a0)
+                x : 15.0 (3d @ a5)
+                z : 1(58 @ aa)
+			}
+		}
+
+        component sub-sub-block { (1a @ ac)
+
+            component type : SwingableWeaponController (0a @ ae)
+            number : 3(10 @ c9)
+
+            swingable weapon controller sub-sub-sub-block { (c8a @ cc)
+
+                parent model : 101(08 @ ce)
+                bone : BoneRightWeapon (12 @ d0)
+			}
+		}
+
+        component sub-sub-block { (1a @ e1)
+
+            component type : KeyframeAnimation (0a @ e3)
+            number : 4(10 @ f6)
+            name : swing1 (1a @ f8)
+
+            keyframe animation sub-sub-sub-block { (332 @ 101)
+
+                linked model component number : 101(08 @ 103)
+                name : hiro_swingair (12 @ 105)
+                u0 : 0(18 @ 114)
+                u1 : 1.2999999523162842 (25 @ 116)
+                u2 : 1(28 @ 11b)
+			}
+		}
+
+        component sub-sub-block { (1a @ 11d)
+
+            component type : HeroEntity (0a @ 120)
+            number : 5(10 @ 12c)
+
+            entity sub-sub-sub-block { (4c2 @ 12f)
+
+                u0 : 1(08 @ 131)
+                u1 : 1(10 @ 133)
+			}
+
+            hero entity sub-sub-sub-block { (52a @ 136)
+
+
+                lua chunk sub-sub-sub-sub-block { (0a @ 139)
+
+                    main chunk : chunk >
+
+                    === lua =============
+                    local self, item = ...;
+                    
+                    if CollectableItem.RequiresPickup(item) then
+                    
+                    	Health.SetImmunityTime(self, 5.5);
+                    
+                    	Game.SetCinematicMode(true, true);
+                    	CharController.SetWeaponsHidden(self, true);
+                    
+                    	self:setVelocity(Vector3.New(0, 0, 0));
+                    
+                    	CollisionShape.DisableAll(item);
+                    	PhysicsObject.SetEnabled(item, false);
+                    
+                    	MusicPlayer.FadeOut(0.5);
+                    	SoundLibrary.PlayEffect("item_get");
+                    
+                    
+                    	CharController.PickupObject(self, item, true);
+                    	Program.Wait(0.6);
+                    
+                    
+                    
+                    	local rotation = -90;
+                    	if Entity.GetFacingDirection(self) == -1 then rotation = 90 end
+                    	ModelTransformController.SetRotationAngle(self, rotation);
+                    
+                    	Program.Wait(1.8);
+                    
+                    	if Character.AddItem(CollectableItem.ItemName(item)) then
+                    		Game.ShowNotification("Got item: " .. Game.TitleForItem(CollectableItem.ItemName(item)));
+                    
+                    		Program.Wait(2.4);
+                    		Game.FadeOut(0.5);
+                    		Program.Wait(0.5);
+                    
+                    		CharController.DropObject(self, false);
+                    		item:destroy();
+                    		ModelTransformController.SetRotationAngle(self, 0);
+                    	else
+                    		ShowTextBubbles(self:identifier() .. "_bubble", self:position() + Vector3.New(13, 45, 0), true, {
+                    			"I already have a better item than this."
+                    		});
+                    
+                    		HideTextBubble(self:identifier() .. "_bubble");
+                    
+                    		ModelTransformController.SetRotationAngle(self, 0);
+                    		CharController.DropObject(self, true);
+                    		Program.Wait(0.5);
+                    	end
+                    
+                    	CharController.SetWeaponsHidden(self, false);
+                    	Game.FadeIn(0.5);
+                    
+                    	Game.SetCinematicMode(false, true);
+                    
+                    	MusicPlayer.PlayMusic(Game.DefaultMusicName());
+                    
+                    else
+                    	Character.AddItem(CollectableItem.ItemName(item));
+                    	item:destroy();
+                    end
+                    
+
+                    =====================
+                    secondary chunk : \x1bLuaQ\x00\x01\x04\x04\x04\x08\x00%\x06\x00\x00local self, item = ...;\r\n\r\nif CollectableItem.RequiresPickup(item) then\r\n\r\n\tHealth.SetImmunityTime(self, 5.5);\r\n\r\n\tGame.SetCinematicMode(true, true);\r\n\tCharController.SetWeaponsHidden(self, true);\r\n\r\n\tself:setVelocity(Vector3.New(0, 0, 0));\r\n\r\n\tCollisionShape.DisableAll(item);\r\n\tPhysicsObject.SetEnabled(item, false);\r\n\r\n\tMusicPlayer.FadeOut(0.5);\r\n\tSoundLibrary.PlayEffect("item_get");\r\n\r\n\r\n\tCharController.PickupObject(self, item, true);\r\n\tProgram.Wait(0.6);\r\n\r\n\r\n\r\n\tlocal rotation = -90;\r\n\tif Entity.GetFacingDirection(self) == -1 then rotation = 90 end\r\n\tModelTransformController.SetRotationAngle(self, rotation);\r\n\r\n\tProgram.Wait(1.8);\r\n\r\n\tif Character.AddItem(CollectableItem.ItemName(item)) then\r\n\t\tGame.ShowNotification("Got item: " .. Game.TitleForItem(CollectableItem.ItemName(item)));\r\n\r\n\t\tProgram.Wait(2.4);\r\n\t\tGame.FadeOut(0.5);\r\n\t\tProgram.Wait(0.5);\r\n\r\n\t\tCharController.DropObject(self, false);\r\n\t\titem:destroy();\r\n\t\tModelTransformController.SetRotationAngle(self, 0);\r\n\telse\r\n\t\tShowTextBubbles(self:identifier() .. "_bubble", self:position() + Vector3.New(13, 45, 0), true, {\r\n\t\t\t"I already have a better item than this."\r\n\t\t});\r\n\r\n\t\tHideTextBubble(self:identifier() .. "_bubble");\r\n\r\n\t\tModelTransformController.SetRotationAngle(self, 0);\r\n\t\tCharController.DropObject(self, true);\r\n\t\tProgram.Wait(0.5);\r\n\tend\r\n\r\n\tCharController.SetWeaponsHidden(self, false);\r\n\tGame.FadeIn(0.5);\r\n\r\n\tGame.SetCinematicMode(false, true);\r\n\r\n\tMusicPlayer.PlayMusic(Game.DefaultMusicName());\r\n\r\nelse\r\n\tCharacter.AddItem(CollectableItem.ItemName(item));\r\n\titem:destroy();\r\nend\r\n\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x02\n\xbe\x00\x00\x00%\x00\x80\x01\x85\x00\x00\x00\x86@@\x01\xc0\x00\x80\x00\x9c\x80\x00\x01\x9a\x00\x00\x00\x16\x00+\x80\x85\x80\x00\x00\x86\xc0@\x01\xc0\x00\x00\x00\x01\x01\x01\x00\x9c@\x80\x01\x85@\x01\x00\x86\x80A\x01\xc2\x00\x80\x00\x02\x01\x80\x00\x9c@\x80\x01\x85\xc0\x01\x00\x86\x00B\x01\xc0\x00\x00\x00\x02\x01\x80\x00\x9c@\x80\x01\x8b@B\x00\x05\x81\x02\x00\x06\xc1B\x02A\x01\x03\x00\x81\x01\x03\x00\xc1\x01\x03\x00\x1c\x01\x00\x02\x9c@\x00\x00\x85@\x03\x00\x86\x80C\x01\xc0\x00\x80\x00\x9c@\x00\x01\x85\xc0\x03\x00\x86\x00D\x01\xc0\x00\x80\x00\x02\x01\x00\x00\x9c@\x80\x01\x85@\x04\x00\x86\x80D\x01\xc1\xc0\x04\x00\x9c@\x00\x01\x85\x00\x05\x00\x86@E\x01\xc1\x80\x05\x00\x9c@\x00\x01\x85\xc0\x01\x00\x86\xc0E\x01\xc0\x00\x00\x00\x00\x01\x80\x00B\x01\x80\x00\x9c@\x00\x02\x85\x00\x06\x00\x86@F\x01\xc1\x80\x06\x00\x9c@\x00\x01\x81\xc0\x06\x00\xc5\x00\x07\x00\xc6@\xc7\x01\x00\x01\x00\x00\xdc\x80\x00\x01\x17\x80\xc7\x01\x16\x00\x00\x80\x81\xc0\x07\x00\xc5\x00\x08\x00\xc6@\xc8\x01\x00\x01\x00\x00@\x01\x00\x01\xdc@\x80\x01\xc5\x00\x06\x00\xc6@\xc6\x01\x01\x81\x08\x00\xdc@\x00\x01\xc5\xc0\x08\x00\xc6\x00\xc9\x01\x05\x01\x00\x00\x06AI\x02@\x01\x80\x00\x1c\x01\x00\x01\xdc\x80\x00\x00\xda\x00\x00\x00\x16\x00\t\x80\xc5@\x01\x00\xc6\x80\xc9\x01\x01\xc1\t\x00EA\x01\x00F\x01\xca\x02\x85\x01\x00\x00\x86AI\x03\xc0\x01\x80\x00\x9c\x01\x00\x01\\\x81\x00\x00\x15A\x01\x02\xdc@\x00\x01\xc5\x00\x06\x00\xc6@\xc6\x01\x01A\n\x00\xdc@\x00\x01\xc5@\x01\x00\xc6\x80\xc4\x01\x01\xc1\x04\x00\xdc@\x00\x01\xc5\x00\x06\x00\xc6@\xc6\x01\x01\xc1\x04\x00\xdc@\x00\x01\xc5\xc0\x01\x00\xc6\x80\xca\x01\x00\x01\x00\x00B\x01\x00\x00\xdc@\x80\x01\xcb\xc0\xca\x00\xdc@\x00\x01\xc5\x00\x08\x00\xc6@\xc8\x01\x00\x01\x00\x00A\x01\x03\x00\xdc@\x80\x01\x16\x80\t\x80\xc5\x00\x0b\x00\x0bAK\x00\x1c\x81\x00\x01A\x81\x0b\x00\x15A\x01\x02K\xc1K\x00\\\x81\x00\x01\x85\x81\x02\x00\x86\xc1B\x03\xc1\x01\x0c\x00\x01B\x0c\x00A\x02\x03\x00\x9c\x81\x00\x02L\x81\x81\x02\x82\x01\x80\x00\xca\x01\x80\x00\x01\x82\x0c\x00\xe2A\x80\x00\xdc@\x80\x02\xc5\xc0\x0c\x00\x0bAK\x00\x1c\x81\x00\x01A\x81\x0b\x00\x15A\x01\x02\xdc@\x00\x01\xc5\x00\x08\x00\xc6@\xc8\x01\x00\x01\x00\x00A\x01\x03\x00\xdc@\x80\x01\xc5\xc0\x01\x00\xc6\x80\xca\x01\x00\x01\x00\x00B\x01\x80\x00\xdc@\x80\x01\xc5\x00\x06\x00\xc6@\xc6\x01\x01\xc1\x04\x00\xdc@\x00\x01\xc5\xc0\x01\x00\xc6\x00\xc2\x01\x00\x01\x00\x00B\x01\x00\x00\xdc@\x80\x01\xc5@\x01\x00\xc6\x00\xcd\x01\x01\xc1\x04\x00\xdc@\x00\x01\xc5@\x01\x00\xc6\x80\xc1\x01\x02\x01\x00\x00B\x01\x80\x00\xdc@\x80\x01\xc5@\x04\x00\xc6@\xcd\x01\x05A\x01\x00\x06\x81M\x02\x1c\x01\x80\x00\xdc@\x00\x00\x16\x00\x02\x80\x85\xc0\x08\x00\x86\x00I\x01\xc5\x00\x00\x00\xc6@\xc9\x01\x00\x01\x80\x00\xdc\x00\x00\x01\x9c@\x00\x00\x8b\xc0\xca\x00\x9c@\x00\x01\x1e\x00\x80\x007\x00\x00\x00\x04\x10\x00\x00\x00CollectableItem\x00\x04\x0f\x00\x00\x00RequiresPickup\x00\x04\x07\x00\x00\x00Health\x00\x04\x10\x00\x00\x00SetImmunityTime\x00\x03\x00\x00\x00\x00\x00\x00\x16@\x04\x05\x00\x00\x00Game\x00\x04\x11\x00\x00\x00SetCinematicMode\x00\x04\x0f\x00\x00\x00CharController\x00\x04\x11\x00\x00\x00SetWeaponsHidden\x00\x04\x0c\x00\x00\x00setVelocity\x00\x04\x08\x00\x00\x00Vector3\x00\x04\x04\x00\x00\x00New\x00\x03\x00\x00\x00\x00\x00\x00\x00\x00\x04\x0f\x00\x00\x00CollisionShape\x00\x04\x0b\x00\x00\x00DisableAll\x00\x04\x0e\x00\x00\x00PhysicsObject\x00\x04\x0b\x00\x00\x00SetEnabled\x00\x04\x0c\x00\x00\x00MusicPlayer\x00\x04\x08\x00\x00\x00FadeOut\x00\x03\x00\x00\x00\x00\x00\x00\xe0?\x04\r\x00\x00\x00SoundLibrary\x00\x04\x0b\x00\x00\x00PlayEffect\x00\x04\t\x00\x00\x00item_get\x00\x04\r\x00\x00\x00PickupObject\x00\x04\x08\x00\x00\x00Program\x00\x04\x05\x00\x00\x00Wait\x00\x03333333\xe3?\x03\x00\x00\x00\x00\x00\x80V\xc0\x04\x07\x00\x00\x00Entity\x00\x04\x13\x00\x00\x00GetFacingDirection\x00\x03\x00\x00\x00\x00\x00\x00\xf0\xbf\x03\x00\x00\x00\x00\x00\x80V@\x04\x19\x00\x00\x00ModelTransformController\x00\x04\x11\x00\x00\x00SetRotationAngle\x00\x03\xcd\xcc\xcc\xcc\xcc\xcc\xfc?\x04\n\x00\x00\x00Character\x00\x04\x08\x00\x00\x00AddItem\x00\x04\t\x00\x00\x00ItemName\x00\x04\x11\x00\x00\x00ShowNotification\x00\x04\x0b\x00\x00\x00Got item: \x00\x04\r\x00\x00\x00TitleForItem\x00\x03333333\x03@\x04\x0b\x00\x00\x00DropObject\x00\x04\x08\x00\x00\x00destroy\x00\x04\x10\x00\x00\x00ShowTextBubbles\x00\x04\x0b\x00\x00\x00identifier\x00\x04\x08\x00\x00\x00_bubble\x00\x04\t\x00\x00\x00position\x00\x03\x00\x00\x00\x00\x00\x00*@\x03\x00\x00\x00\x00\x00\x80F@\x04(\x00\x00\x00I already have a better item than this.\x00\x04\x0f\x00\x00\x00HideTextBubble\x00\x04\x07\x00\x00\x00FadeIn\x00\x04\n\x00\x00\x00PlayMusic\x00\x04\x11\x00\x00\x00DefaultMusicName\x00\x00\x00\x00\x00\xbe\x00\x00\x00\x01\x00\x00\x00\x03\x00\x00\x00\x03\x00\x00\x00\x03\x00\x00\x00\x03\x00\x00\x00\x03\x00\x00\x00\x03\x00\x00\x00\x05\x00\x00\x00\x05\x00\x00\x00\x05\x00\x00\x00\x05\x00\x00\x00\x05\x00\x00\x00\x07\x00\x00\x00\x07\x00\x00\x00\x07\x00\x00\x00\x07\x00\x00\x00\x07\x00\x00\x00\x08\x00\x00\x00\x08\x00\x00\x00\x08\x00\x00\x00\x08\x00\x00\x00\x08\x00\x00\x00\n\x00\x00\x00\n\x00\x00\x00\n\x00\x00\x00\n\x00\x00\x00\n\x00\x00\x00\n\x00\x00\x00\n\x00\x00\x00\n\x00\x00\x00\x0c\x00\x00\x00\x0c\x00\x00\x00\x0c\x00\x00\x00\x0c\x00\x00\x00\r\x00\x00\x00\r\x00\x00\x00\r\x00\x00\x00\r\x00\x00\x00\r\x00\x00\x00\x0f\x00\x00\x00\x0f\x00\x00\x00\x0f\x00\x00\x00\x0f\x00\x00\x00\x10\x00\x00\x00\x10\x00\x00\x00\x10\x00\x00\x00\x10\x00\x00\x00\x13\x00\x00\x00\x13\x00\x00\x00\x13\x00\x00\x00\x13\x00\x00\x00\x13\x00\x00\x00\x13\x00\x00\x00\x14\x00\x00\x00\x14\x00\x00\x00\x14\x00\x00\x00\x14\x00\x00\x00\x18\x00\x00\x00\x19\x00\x00\x00\x19\x00\x00\x00\x19\x00\x00\x00\x19\x00\x00\x00\x19\x00\x00\x00\x19\x00\x00\x00\x19\x00\x00\x00\x1a\x00\x00\x00\x1a\x00\x00\x00\x1a\x00\x00\x00\x1a\x00\x00\x00\x1a\x00\x00\x00\x1c\x00\x00\x00\x1c\x00\x00\x00\x1c\x00\x00\x00\x1c\x00\x00\x00\x1e\x00\x00\x00\x1e\x00\x00\x00\x1e\x00\x00\x00\x1e\x00\x00\x00\x1e\x00\x00\x00\x1e\x00\x00\x00\x1e\x00\x00\x00\x1e\x00\x00\x00\x1e\x00\x00\x00\x1f\x00\x00\x00\x1f\x00\x00\x00\x1f\x00\x00\x00\x1f\x00\x00\x00\x1f\x00\x00\x00\x1f\x00\x00\x00\x1f\x00\x00\x00\x1f\x00\x00\x00\x1f\x00\x00\x00\x1f\x00\x00\x00\x1f\x00\x00\x00\x1f\x00\x00\x00!\x00\x00\x00!\x00\x00\x00!\x00\x00\x00!\x00\x00\x00"\x00\x00\x00"\x00\x00\x00"\x00\x00\x00"\x00\x00\x00#\x00\x00\x00#\x00\x00\x00#\x00\x00\x00#\x00\x00\x00%\x00\x00\x00%\x00\x00\x00%\x00\x00\x00%\x00\x00\x00%\x00\x00\x00&\x00\x00\x00&\x00\x00\x00\'\x00\x00\x00\'\x00\x00\x00\'\x00\x00\x00\'\x00\x00\x00\'\x00\x00\x00\'\x00\x00\x00)\x00\x00\x00)\x00\x00\x00)\x00\x00\x00)\x00\x00\x00)\x00\x00\x00)\x00\x00\x00)\x00\x00\x00)\x00\x00\x00)\x00\x00\x00)\x00\x00\x00)\x00\x00\x00)\x00\x00\x00)\x00\x00\x00)\x00\x00\x00)\x00\x00\x00)\x00\x00\x00+\x00\x00\x00+\x00\x00\x00)\x00\x00\x00-\x00\x00\x00-\x00\x00\x00-\x00\x00\x00-\x00\x00\x00-\x00\x00\x00-\x00\x00\x00/\x00\x00\x00/\x00\x00\x00/\x00\x00\x00/\x00\x00\x00/\x00\x00\x000\x00\x00\x000\x00\x00\x000\x00\x00\x000\x00\x00\x000\x00\x00\x001\x00\x00\x001\x00\x00\x001\x00\x00\x001\x00\x00\x004\x00\x00\x004\x00\x00\x004\x00\x00\x004\x00\x00\x004\x00\x00\x005\x00\x00\x005\x00\x00\x005\x00\x00\x005\x00\x00\x007\x00\x00\x007\x00\x00\x007\x00\x00\x007\x00\x00\x007\x00\x00\x009\x00\x00\x009\x00\x00\x009\x00\x00\x009\x00\x00\x009\x00\x00\x009\x00\x00\x009\x00\x00\x00<\x00\x00\x00<\x00\x00\x00<\x00\x00\x00<\x00\x00\x00<\x00\x00\x00<\x00\x00\x00<\x00\x00\x00=\x00\x00\x00=\x00\x00\x00>\x00\x00\x00\x03\x00\x00\x00\x05\x00\x00\x00self\x00\x01\x00\x00\x00\xbd\x00\x00\x00\x05\x00\x00\x00item\x00\x01\x00\x00\x00\xbd\x00\x00\x00\t\x00\x00\x00rotation\x00:\x00\x00\x00\xb3\x00\x00\x00\x00\x00\x00\x00 (12 @ 763)
+				}
+			}
+		}
+
+        component sub-sub-block { (1a @ 174b)
+
+            component type : Swing (0a @ 174d)
+            number : 6(10 @ 1754)
+
+            swing sub-sub-sub-block { (c92 @ 1757)
+
+                u0 : 4(08 @ 1759)
+                u1 : 1(10 @ 175b)
+                u2 : 1(18 @ 175d)
+                u3 : 4.0 (35 @ 175f)
+                u4 : 8.0 (3d @ 1764)
+			}
+		}
+
+        component sub-sub-block { (1a @ 1769)
+
+            component type : KeyframeAnimation (0a @ 176b)
+            number : 7(10 @ 177e)
+            name : swing2 (1a @ 1780)
+
+            keyframe animation sub-sub-sub-block { (332 @ 1789)
+
+                linked model component number : 101(08 @ 178b)
+                name : hiro_swing2 (12 @ 178d)
+                u0 : 0(18 @ 179a)
+                u1 : 1.2999999523162842 (25 @ 179c)
+                u2 : 1(28 @ 17a1)
+			}
+		}
+
+        component sub-sub-block { (1a @ 17a3)
+
+            component type : Swing (0a @ 17a5)
+            number : 8(10 @ 17ac)
+
+            swing sub-sub-sub-block { (c92 @ 17af)
+
+                u0 : 7(08 @ 17b1)
+                u1 : 1(10 @ 17b3)
+                u2 : 1(18 @ 17b5)
+                u3 : 4.0 (35 @ 17b7)
+                u4 : 8.0 (3d @ 17bc)
+			}
+		}
+
+        component sub-sub-block { (1a @ 17c1)
+
+            component type : KeyframeAnimation (0a @ 17c3)
+            number : 9(10 @ 17d6)
+            name : cast (1a @ 17d8)
+
+            keyframe animation sub-sub-sub-block { (332 @ 17df)
+
+                linked model component number : 101(08 @ 17e1)
+                name : hiro_cast (12 @ 17e3)
+                u0 : 1(18 @ 17ee)
+                u1 : 0.699999988079071 (25 @ 17f0)
+                u2 : 1(28 @ 17f5)
+			}
+		}
+
+        component sub-sub-block { (1a @ 17f7)
+
+            component type : KeyframeAnimation (0a @ 17f9)
+            number : 10(10 @ 180c)
+            name : castfinish (1a @ 180e)
+
+            keyframe animation sub-sub-sub-block { (332 @ 181b)
+
+                linked model component number : 101(08 @ 181d)
+                name : hiro_castfinish (12 @ 181f)
+                u0 : 0(18 @ 1830)
+                u1 : 1.0 (25 @ 1832)
+                u2 : 1(28 @ 1837)
+			}
+		}
+
+        component sub-sub-block { (1a @ 1839)
+
+            component type : Skill (0a @ 183b)
+            number : 11(10 @ 1842)
+
+            skill sub-sub-sub-block { (1142 @ 1845)
+
+                u0 : 10(08 @ 1847)
+
+                u1 sub-sub-sub-sub-block { (12 @ 1849)
+
+                    x : 20.0 (0d @ 184b)
+                    y : 0.0 (15 @ 1850)
+				}
+                cast animation : magic_spell_cast (1a @ 1855)
+			}
+		}
+
+        component sub-sub-block { (1a @ 1867)
+
+            component type : KeyframeAnimation (0a @ 1869)
+            number : 12(10 @ 187c)
+            name : hurt (1a @ 187e)
+
+            keyframe animation sub-sub-sub-block { (332 @ 1885)
+
+                linked model component number : 101(08 @ 1887)
+                name : hiro_hurt (12 @ 1889)
+                u0 : 0(18 @ 1894)
+                u1 : 1.0 (25 @ 1896)
+                u2 : 1(28 @ 189b)
+			}
+		}
+
+        component sub-sub-block { (1a @ 189d)
+
+            component type : KeyframeAnimation (0a @ 189f)
+            number : 13(10 @ 18b2)
+            name : die (1a @ 18b4)
+
+            keyframe animation sub-sub-sub-block { (332 @ 18ba)
+
+                linked model component number : 101(08 @ 18bc)
+                name : hiro_die (12 @ 18be)
+                u0 : 0(18 @ 18c8)
+                u1 : 1.0 (25 @ 18ca)
+                u2 : 1(28 @ 18cf)
+			}
+		}
+
+        component sub-sub-block { (1a @ 18d1)
+
+            component type : KeyframeAnimation (0a @ 18d3)
+            number : 14(10 @ 18e6)
+            name : swing3 (1a @ 18e8)
+
+            keyframe animation sub-sub-sub-block { (332 @ 18f1)
+
+                linked model component number : 101(08 @ 18f3)
+                name : hiro_swing5 (12 @ 18f5)
+                u0 : 0(18 @ 1902)
+                u1 : 1.399999976158142 (25 @ 1904)
+                u2 : 1(28 @ 1909)
+			}
+		}
+
+        component sub-sub-block { (1a @ 190b)
+
+            component type : Swing (0a @ 190d)
+            number : 15(10 @ 1914)
+
+            swing sub-sub-sub-block { (c92 @ 1917)
+
+                u0 : 14(08 @ 1919)
+                u1 : 1(10 @ 191b)
+                u2 : 1(18 @ 191d)
+                u3 : 3.799999952316284 (35 @ 191f)
+                u4 : 9.0 (3d @ 1924)
+			}
+		}
+
+        component sub-sub-block { (1a @ 1929)
+
+            component type : KeyframeAnimation (0a @ 192b)
+            number : 16(10 @ 193e)
+            name : spinjump (1a @ 1940)
+
+            keyframe animation sub-sub-sub-block { (332 @ 194b)
+
+                linked model component number : 101(08 @ 194d)
+                name : hiro_spinjump (12 @ 194f)
+                u0 : 0(18 @ 195e)
+                u1 : 0.699999988079071 (25 @ 1960)
+                u2 : 1(28 @ 1965)
+			}
+		}
+
+        component sub-sub-block { (1a @ 1967)
+
+            component type : Light (0a @ 1969)
+            number : 17(10 @ 1970)
+
+            light sub-sub-sub-block { (412 @ 1973)
+
+                u0 : 3(08 @ 1975)
+                u1 : 0.75 (15 @ 1977)
+
+                u2 sub-sub-sub-sub-block { (1a @ 197c)
+
+                    w : 1.0 (0d @ 197e)
+                    x : 1.0 (15 @ 1983)
+                    y : 1.0 (1d @ 1988)
+                    z : 1.0 (25 @ 198d)
+				}
+                u3 : 0.0 (25 @ 1992)
+                u4 : 0.00019999999494757503 (2d @ 1997)
+
+                u5 sub-sub-sub-sub-block { (32 @ 199c)
+
+                    x : 0.0 (0d @ 199e)
+                    y : 0.0 (15 @ 19a3)
+                    z : 0.0 (1d @ 19a8)
+				}
+                u6 : 150.0 (3d @ 19ad)
+			}
+		}
+
+        component sub-sub-block { (1a @ 19b2)
+
+            component type : KeyframeAnimation (0a @ 19b4)
+            number : 18(10 @ 19c7)
+            name : push (1a @ 19c9)
+
+            keyframe animation sub-sub-sub-block { (332 @ 19d0)
+
+                linked model component number : 101(08 @ 19d2)
+                name : hiro_push (12 @ 19d4)
+                u0 : 1(18 @ 19df)
+                u1 : 1.5 (25 @ 19e1)
+                u2 : 1(28 @ 19e6)
+			}
+		}
+
+        component sub-sub-block { (1a @ 19e8)
+
+            component type : ModelTransformController (0a @ 19ea)
+            number : 19(10 @ 1a04)
+
+            model transform controller sub-sub-sub-block { (342 @ 1a07)
+
+                u0 : 101(08 @ 1a09)
+			}
+		}
+
+        component sub-sub-block { (1a @ 1a0b)
+
+            component type : SoundEffect (0a @ 1a0d)
+            number : 20(10 @ 1a1a)
+
+            sound effect sub-sub-sub-block { (462 @ 1a1d)
+
+                sound : jump (0a @ 1a1f)
+                u0 : 0.0 (15 @ 1a25)
+                u1 : 1.0 (1d @ 1a2a)
+			}
+		}
+
+        component sub-sub-block { (1a @ 1a2f)
+
+            component type : SoundEffect (0a @ 1a31)
+            number : 21(10 @ 1a3e)
+
+            sound effect sub-sub-sub-block { (462 @ 1a41)
+
+                sound : jump_land (0a @ 1a43)
+                u0 : 0.0 (15 @ 1a4e)
+                u1 : 1.0 (1d @ 1a53)
+			}
+		}
+
+        component sub-sub-block { (1a @ 1a58)
+
+            component type : Model (0a @ 1a5a)
+            number : 101(10 @ 1a61)
+
+            3D model sub-sub-sub-block { (32a @ 1a64)
+
+                name : hiro (0a @ 1a66)
+                u0 : 1.5707963705062866 (15 @ 1a6c)
+                u1 : 0.4000000059604645 (1d @ 1a71)
+                u2 : 0.0 (25 @ 1a76)
+
+                u3 sub-sub-sub-sub-block { (2a @ 1a7b)
+
+                    w : 0.0 (0d @ 1a7d)
+                    x : 0.0 (15 @ 1a82)
+                    y : 0.0 (1d @ 1a87)
+                    z : 1.0 (25 @ 1a8c)
+				}
+
+                u4 sub-sub-sub-sub-block { (32 @ 1a91)
+
+                    x : 0.0 (0d @ 1a93)
+                    y : 0.0 (15 @ 1a98)
+                    z : 0.0 (1d @ 1a9d)
+				}
+                u5 : 0(38 @ 1aa2)
+
+                u6 sub-sub-sub-sub-block { (42 @ 1aa4)
+
+                    w : 1.0 (0d @ 1aa6)
+                    x : 1.0 (15 @ 1aab)
+                    y : 1.0 (1d @ 1ab0)
+                    z : 1.0 (25 @ 1ab5)
+				}
+			}
+		}
+
+        component sub-sub-block { (1a @ 1aba)
+
+            component type : KeyframeAnimation (0a @ 1abc)
+            number : 103(10 @ 1acf)
+            name : stand (1a @ 1ad1)
+
+            keyframe animation sub-sub-sub-block { (332 @ 1ad9)
+
+                linked model component number : 101(08 @ 1adb)
+                name : hiro_stand (12 @ 1add)
+                u0 : 1(18 @ 1ae9)
+                u1 : 0.5 (25 @ 1aeb)
+                u2 : 1(28 @ 1af0)
+			}
+		}
+
+        component sub-sub-block { (1a @ 1af2)
+
+            component type : KeyframeAnimation (0a @ 1af4)
+            number : 105(10 @ 1b07)
+            name : run (1a @ 1b09)
+
+            keyframe animation sub-sub-sub-block { (332 @ 1b0f)
+
+                linked model component number : 101(08 @ 1b11)
+                name : hiro_run (12 @ 1b13)
+                u0 : 1(18 @ 1b1d)
+                u1 : 0.699999988079071 (25 @ 1b1f)
+                u2 : 1(28 @ 1b24)
+			}
+		}
+
+        component sub-sub-block { (1a @ 1b26)
+
+            component type : KeyframeAnimation (0a @ 1b28)
+            number : 109(10 @ 1b3b)
+            name : jump (1a @ 1b3d)
+
+            keyframe animation sub-sub-sub-block { (332 @ 1b44)
+
+                linked model component number : 101(08 @ 1b46)
+                name : hiro_jump (12 @ 1b48)
+                u0 : 0(18 @ 1b53)
+                u1 : 0.30000001192092896 (25 @ 1b55)
+                u2 : 1(28 @ 1b5a)
+			}
+		}
+
+        component sub-sub-block { (1a @ 1b5c)
+
+            component type : KeyframeAnimation (0a @ 1b5e)
+            number : 111(10 @ 1b71)
+            name : fall (1a @ 1b73)
+
+            keyframe animation sub-sub-sub-block { (332 @ 1b7a)
+
+                linked model component number : 101(08 @ 1b7c)
+                name : hiro_jumpland (12 @ 1b7e)
+                u0 : 1(18 @ 1b8d)
+                u1 : 1.0 (25 @ 1b8f)
+                u2 : 1(28 @ 1b94)
+			}
+		}
+
+        component sub-sub-block { (1a @ 1b96)
+
+            component type : CharAnimController (0a @ 1b98)
+            number : 117(10 @ 1bac)
+
+            animation controller sub-sub-sub-block { (4aa @ 1baf)
+
+                model component : 101(08 @ 1bb1)
+                u1 : 0(10 @ 1bb3)
+                u2 : 0(18 @ 1bb5)
+			}
+
+            char anim controller sub-sub-sub-block { (4b2 @ 1bb8)
+
+                u0 : 103(20 @ 1bba)
+                u1 : 105(28 @ 1bbc)
+                u2 : 109(30 @ 1bbe)
+                u3 : 111(38 @ 1bc0)
+                u4 : 9(40 @ 1bc2)
+                u5 : 16(48 @ 1bc4)
+			}
+		}
+
+        component sub-sub-block { (1a @ 1bc6)
+
+            component type : CharAnimController (0a @ 1bc8)
+            number : 120(10 @ 1bdc)
+            name : lift (1a @ 1bde)
+
+            animation controller sub-sub-sub-block { (4aa @ 1be5)
+
+                model component : 101(08 @ 1be7)
+                u1 : 0(10 @ 1be9)
+                u2 : 0(18 @ 1beb)
+			}
+
+            char anim controller sub-sub-sub-block { (4b2 @ 1bee)
+
+                u0 : 121(20 @ 1bf0)
+                u1 : 122(28 @ 1bf2)
+                u2 : 123(30 @ 1bf4)
+                u3 : 124(38 @ 1bf6)
+                u4 : 0(40 @ 1bf8)
+                u5 : 0(48 @ 1bfa)
+			}
+		}
+
+        component sub-sub-block { (1a @ 1bfc)
+
+            component type : KeyframeAnimation (0a @ 1bfe)
+            number : 121(10 @ 1c11)
+            name : liftStand (1a @ 1c13)
+
+            keyframe animation sub-sub-sub-block { (332 @ 1c1f)
+
+                linked model component number : 101(08 @ 1c21)
+                name : hiro_lift_stand (12 @ 1c23)
+                u0 : 1(18 @ 1c34)
+                u1 : 0.5 (25 @ 1c36)
+                u2 : 1(28 @ 1c3b)
+			}
+		}
+
+        component sub-sub-block { (1a @ 1c3d)
+
+            component type : KeyframeAnimation (0a @ 1c3f)
+            number : 122(10 @ 1c52)
+            name : liftWalk (1a @ 1c54)
+
+            keyframe animation sub-sub-sub-block { (332 @ 1c5f)
+
+                linked model component number : 101(08 @ 1c61)
+                name : hiro_lift_walk (12 @ 1c63)
+                u0 : 1(18 @ 1c73)
+                u1 : 0.699999988079071 (25 @ 1c75)
+                u2 : 1(28 @ 1c7a)
+			}
+		}
+
+        component sub-sub-block { (1a @ 1c7c)
+
+            component type : KeyframeAnimation (0a @ 1c7e)
+            number : 123(10 @ 1c91)
+            name : liftJump (1a @ 1c93)
+
+            keyframe animation sub-sub-sub-block { (332 @ 1c9e)
+
+                linked model component number : 101(08 @ 1ca0)
+                name : hiro_lift_jump (12 @ 1ca2)
+                u0 : 0(18 @ 1cb2)
+                u1 : 0.30000001192092896 (25 @ 1cb4)
+                u2 : 1(28 @ 1cb9)
+			}
+		}
+
+        component sub-sub-block { (1a @ 1cbb)
+
+            component type : KeyframeAnimation (0a @ 1cbd)
+            number : 124(10 @ 1cd0)
+            name : liftFall (1a @ 1cd2)
+
+            keyframe animation sub-sub-sub-block { (332 @ 1cdd)
+
+                linked model component number : 101(08 @ 1cdf)
+                name : hiro_lift_fall (12 @ 1ce1)
+                u0 : 0(18 @ 1cf1)
+                u1 : 1.0 (25 @ 1cf3)
+                u2 : 1(28 @ 1cf8)
+			}
+		}
+
+        component sub-sub-block { (1a @ 1cfa)
+
+            component type : KeyframeAnimation (0a @ 1cfc)
+            number : 127(10 @ 1d0f)
+            name : lift (1a @ 1d11)
+
+            keyframe animation sub-sub-sub-block { (332 @ 1d18)
+
+                linked model component number : 101(08 @ 1d1a)
+                name : hiro_lift (12 @ 1d1c)
+                u0 : 0(18 @ 1d27)
+                u1 : 1.0 (25 @ 1d29)
+                u2 : 1(28 @ 1d2e)
+			}
+		}
+
+        component sub-sub-block { (1a @ 1d30)
+
+            component type : KeyframeAnimation (0a @ 1d32)
+            number : 128(10 @ 1d45)
+            name : drop (1a @ 1d48)
+
+            keyframe animation sub-sub-sub-block { (332 @ 1d4f)
+
+                linked model component number : 101(08 @ 1d51)
+                name : hiro_lift_drop (12 @ 1d53)
+                u0 : 0(18 @ 1d63)
+                u1 : 1.0 (25 @ 1d65)
+                u2 : 1(28 @ 1d6a)
+			}
+		}
+
+        component sub-sub-block { (1a @ 1d6c)
+
+            component type : KeyframeAnimation (0a @ 1d6e)
+            number : 129(10 @ 1d81)
+            name : throw (1a @ 1d84)
+
+            keyframe animation sub-sub-sub-block { (332 @ 1d8c)
+
+                linked model component number : 101(08 @ 1d8e)
+                name : hiro_lift_throw (12 @ 1d90)
+                u0 : 0(18 @ 1da1)
+                u1 : 1.0 (25 @ 1da3)
+                u2 : 1(28 @ 1da8)
+			}
+		}
+
+        position sub-sub-block { (22 @ 1daa)
+
+            x position : 0.0 (0d @ 1dac)
+            y position : 0.0 (15 @ 1db1)
+		}
+        z position : 0.0 (2d @ 1db6)
+        rotation : 0.0 (35 @ 1dbb)
+        scale : 1.0 (3d @ 1dc0)
+
+        u0 sub-sub-block { (42 @ 1dc5)
+
+            w : -8.0 (0d @ 1dc7)
+            x : -34.0 (15 @ 1dcc)
+            y : 16.0 (1d @ 1dd1)
+            z : 56.0 (25 @ 1dd6)
+		}
+        hidden : 0(48 @ 1ddb)
+	}
+    u0 : 1.0 (15 @ 1ddd)
+}
+
+?item block { (12 @ 1de2)
+
+
+    ?sub-item sub-block { (0a @ 1de5)
+
+        name : hiro_magicplated (12 @ 1de8)
+
+        component sub-sub-block { (1a @ 1dfa)
+
+            component type : Model (0a @ 1dfc)
+            number : 101(10 @ 1e03)
+
+            3D model sub-sub-sub-block { (32a @ 1e06)
+
+                name : hiro_magicplated (0a @ 1e08)
+                u0 : 0.0 (15 @ 1e1a)
+                u1 : 0.0 (1d @ 1e1f)
+                u2 : 0.0 (25 @ 1e24)
+
+                u3 sub-sub-sub-sub-block { (2a @ 1e29)
+
+                    w : 1.0 (0d @ 1e2b)
+                    x : 1.0 (15 @ 1e30)
+                    y : 1.0 (1d @ 1e35)
+                    z : 1.0 (25 @ 1e3a)
+				}
+
+                u4 sub-sub-sub-sub-block { (32 @ 1e3f)
+
+                    x : 0.0 (0d @ 1e41)
+                    y : 0.0 (15 @ 1e46)
+                    z : 0.0 (1d @ 1e4b)
+				}
+                u5 : 0(38 @ 1e50)
+
+                u6 sub-sub-sub-sub-block { (42 @ 1e52)
+
+                    w : 1.0 (0d @ 1e54)
+                    x : 1.0 (15 @ 1e59)
+                    y : 1.0 (1d @ 1e5e)
+                    z : 1.0 (25 @ 1e63)
+				}
+			}
+		}
+
+        position sub-sub-block { (22 @ 1e68)
+
+            x position : 0.0 (0d @ 1e6a)
+            y position : 0.0 (15 @ 1e6f)
+		}
+        z position : 0.0 (2d @ 1e74)
+        rotation : 0.0 (35 @ 1e79)
+        scale : 1.0 (3d @ 1e7e)
+
+        u0 sub-sub-block { (42 @ 1e83)
+
+            w : 0.0 (0d @ 1e85)
+            x : 0.0 (15 @ 1e8a)
+            y : 0.0 (1d @ 1e8f)
+            z : 0.0 (25 @ 1e94)
+		}
+        hidden : 0(48 @ 1e99)
+	}
+    u0 : 1.0 (15 @ 1e9b)
+}
+
+?item block { (12 @ 1ea0)
+
+
+    ?sub-item sub-block { (0a @ 1ea3)
+
+        name : hiro_plated (12 @ 1ea6)
+
+        component sub-sub-block { (1a @ 1eb3)
+
+            component type : Model (0a @ 1eb5)
+            number : 101(10 @ 1ebc)
+
+            3D model sub-sub-sub-block { (32a @ 1ebf)
+
+                name : hiro_plated (0a @ 1ec1)
+                u0 : 0.0 (15 @ 1ece)
+                u1 : 0.0 (1d @ 1ed3)
+                u2 : 0.0 (25 @ 1ed8)
+
+                u3 sub-sub-sub-sub-block { (2a @ 1edd)
+
+                    w : 1.0 (0d @ 1edf)
+                    x : 1.0 (15 @ 1ee4)
+                    y : 1.0 (1d @ 1ee9)
+                    z : 1.0 (25 @ 1eee)
+				}
+
+                u4 sub-sub-sub-sub-block { (32 @ 1ef3)
+
+                    x : 0.0 (0d @ 1ef5)
+                    y : 0.0 (15 @ 1efa)
+                    z : 0.0 (1d @ 1eff)
+				}
+                u5 : 0(38 @ 1f04)
+
+                u6 sub-sub-sub-sub-block { (42 @ 1f06)
+
+                    w : 1.0 (0d @ 1f08)
+                    x : 1.0 (15 @ 1f0d)
+                    y : 1.0 (1d @ 1f12)
+                    z : 1.0 (25 @ 1f17)
+				}
+			}
+		}
+
+        position sub-sub-block { (22 @ 1f1c)
+
+            x position : 0.0 (0d @ 1f1e)
+            y position : 0.0 (15 @ 1f23)
+		}
+        z position : 0.0 (2d @ 1f28)
+        rotation : 0.0 (35 @ 1f2d)
+        scale : 1.0 (3d @ 1f32)
+
+        u0 sub-sub-block { (42 @ 1f37)
+
+            w : 0.0 (0d @ 1f39)
+            x : 0.0 (15 @ 1f3e)
+            y : 0.0 (1d @ 1f43)
+            z : 0.0 (25 @ 1f48)
+		}
+        hidden : 0(48 @ 1f4d)
+	}
+    u0 : 1.0 (15 @ 1f4f)
+}
+
+?item block { (12 @ 1f54)
+
+
+    ?sub-item sub-block { (0a @ 1f57)
+
+        name : hiro_xp_whoosh (12 @ 1f5a)
+
+        component sub-sub-block { (1a @ 1f6a)
+
+            component type : Light (0a @ 1f6c)
+            number : 1(10 @ 1f73)
+
+            light sub-sub-sub-block { (412 @ 1f76)
+
+                u0 : 3(08 @ 1f78)
+                u1 : 2.0 (15 @ 1f7a)
+
+                u2 sub-sub-sub-sub-block { (1a @ 1f7f)
+
+                    w : 1.0 (0d @ 1f81)
+                    x : 1.0 (15 @ 1f86)
+                    y : 1.0 (1d @ 1f8b)
+                    z : 1.0 (25 @ 1f90)
+				}
+                u3 : 0.0 (25 @ 1f95)
+                u4 : 0.00019999999494757503 (2d @ 1f9a)
+
+                u5 sub-sub-sub-sub-block { (32 @ 1f9f)
+
+                    x : 0.0 (0d @ 1fa1)
+                    y : 0.0 (15 @ 1fa6)
+                    z : 0.0 (1d @ 1fab)
+				}
+                u6 : 150.0 (3d @ 1fb0)
+			}
+		}
+
+        component sub-sub-block { (1a @ 1fb5)
+
+            component type : ParticleEmitter (0a @ 1fb7)
+            number : 2(10 @ 1fc8)
+
+            particle emitter sub-sub-sub-block { (7d2 @ 1fcb)
+
+                particle : 123(10 @ 1fcd)
+                particle : 3(10 @ 1fcf)
+                particle : 4(10 @ 1fd1)
+                u1 : 0(18 @ 1fd3)
+                u2 : 30(20 @ 1fd5)
+                u3 : 120(28 @ 1fd7)
+                u4 : 0(30 @ 1fd9)
+
+                u5 sub-sub-sub-sub-block { (3a @ 1fdb)
+
+                    u0 : 1(08 @ 1fdd)
+
+                    u1 sub-sub-sub-sub-sub-block { (12 @ 1fdf)
+
+                        w : 1.0 (0d @ 1fe1)
+                        x : 0.8111110925674438 (15 @ 1fe6)
+                        y : 0.0 (1d @ 1feb)
+                        z : 0.0 (25 @ 1ff0)
+					}
+                    u2 : 25.0 (1d @ 1ff5)
+                    u2 : 0.6000000238418579 (1d @ 1ffa)
+                    u2 : 20.0 (1d @ 1fff)
+                    u2 : 60.0 (1d @ 2004)
+                    u3 : 0.0 (25 @ 2009)
+                    u4 : 0.0 (2d @ 200e)
+                    u5 : 0.0 (35 @ 2013)
+
+                    u6 sub-sub-sub-sub-sub-block { (3a @ 2018)
+
+                        u0 : 0.0 (0d @ 201a)
+                        u1 : 0.0 (15 @ 201f)
+                        u2 : 0.0 (1d @ 2024)
+					}
+				}
+                u6 : 1(40 @ 2029)
+			}
+		}
+
+        component sub-sub-block { (1a @ 202b)
+
+            component type : Particle (0a @ 202d)
+            number : 3(10 @ 2037)
+
+            particle sub-sub-sub-block { (7da @ 203a)
+
+                name : particle_fure_2 (0a @ 203c)
+                u0 : 40.0 (15 @ 204d)
+			}
+		}
+
+        component sub-sub-block { (1a @ 2052)
+
+            component type : Particle (0a @ 2054)
+            number : 4(10 @ 205e)
+
+            particle sub-sub-sub-block { (7da @ 2061)
+
+                name : particle_fure_3 (0a @ 2063)
+                u0 : 40.0 (15 @ 2074)
+			}
+		}
+
+        component sub-sub-block { (1a @ 2079)
+
+            component type : ParticleEmitter (0a @ 207b)
+            number : 120(10 @ 208c)
+
+            particle emitter sub-sub-sub-block { (7d2 @ 208f)
+
+                particle : 123(10 @ 2091)
+                particle : 3(10 @ 2093)
+                particle : 4(10 @ 2095)
+                u1 : 0(18 @ 2097)
+                u2 : 100(20 @ 2099)
+                u3 : 0(28 @ 209b)
+                u4 : 1(30 @ 209d)
+
+                u5 sub-sub-sub-sub-block { (3a @ 209f)
+
+                    u0 : 2(08 @ 20a1)
+
+                    u1 sub-sub-sub-sub-sub-block { (12 @ 20a3)
+
+                        w : 1.0 (0d @ 20a5)
+                        x : 1.0 (15 @ 20aa)
+                        y : 1.0 (1d @ 20af)
+                        z : 0.0 (25 @ 20b4)
+					}
+                    u2 : 20.0 (1d @ 20b9)
+                    u2 : 0.6000000238418579 (1d @ 20be)
+                    u2 : 10.0 (1d @ 20c3)
+                    u2 : 30.0 (1d @ 20c8)
+                    u3 : 0.0 (25 @ 20cd)
+                    u4 : 0.0 (2d @ 20d2)
+                    u5 : 0.0 (35 @ 20d7)
+
+                    u6 sub-sub-sub-sub-sub-block { (3a @ 20dc)
+
+                        u0 : 0.0 (0d @ 20de)
+                        u1 : 0.0 (15 @ 20e3)
+                        u2 : 0.0 (1d @ 20e8)
+					}
+				}
+                u6 : 1(40 @ 20ed)
+			}
+		}
+
+        component sub-sub-block { (1a @ 20ef)
+
+            component type : Particle (0a @ 20f1)
+            number : 123(10 @ 20fb)
+
+            particle sub-sub-sub-block { (7da @ 20fe)
+
+                name : particle_fure_1 (0a @ 2100)
+                u0 : 30.0 (15 @ 2111)
+			}
+		}
+
+        component sub-sub-block { (1a @ 2116)
+
+            component type : TransformController (0a @ 2118)
+            number : 125(10 @ 212d)
+		}
+
+        position sub-sub-block { (22 @ 212f)
+
+            x position : 0.0 (0d @ 2131)
+            y position : 0.0 (15 @ 2136)
+		}
+        z position : 0.0 (2d @ 213b)
+        rotation : 0.0 (35 @ 2140)
+        scale : 1.0 (3d @ 2145)
+
+        u0 sub-sub-block { (42 @ 214a)
+
+            w : -10.0 (0d @ 214c)
+            x : -10.0 (15 @ 2151)
+            y : 20.0 (1d @ 2156)
+            z : 20.0 (25 @ 215b)
+		}
+        hidden : 0(48 @ 2160)
+	}
+    u0 : 1.0 (15 @ 2162)
+}
+?dependancy : magic (1a @ 2167)

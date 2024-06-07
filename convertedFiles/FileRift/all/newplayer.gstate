@@ -1,0 +1,7 @@
+
+inventory block { (0a @ 1)
+
+}
+spawn level : town_herohouse (1a @ 3)
+spawnpoint : spawn_default (22 @ 13)
+u1 : map (4a @ 22)

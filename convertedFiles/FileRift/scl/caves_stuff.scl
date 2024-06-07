@@ -1,0 +1,67 @@
+scl file name : caves_stuff (0a @ 1)
+
+?item block { (12 @ e)
+
+
+    ?sub-item sub-block { (0a @ 11)
+
+        name : board (12 @ 14)
+
+        component sub-sub-block { (1a @ 1b)
+
+            component type : Model (0a @ 1d)
+            number : 101(10 @ 24)
+
+            3D model sub-sub-sub-block { (32a @ 27)
+
+                name : board (0a @ 29)
+                u0 : 0.0 (15 @ 30)
+                u1 : 0.0 (1d @ 35)
+                u2 : 0.0 (25 @ 3a)
+
+                u3 sub-sub-sub-sub-block { (2a @ 3f)
+
+                    w : 0.0 (0d @ 41)
+                    x : 0.0 (15 @ 46)
+                    y : 0.0 (1d @ 4b)
+                    z : 1.0 (25 @ 50)
+				}
+
+                u4 sub-sub-sub-sub-block { (32 @ 55)
+
+                    x : 0.0 (0d @ 57)
+                    y : 0.0 (15 @ 5c)
+                    z : 0.0 (1d @ 61)
+				}
+                u5 : 0(38 @ 66)
+
+                u6 sub-sub-sub-sub-block { (42 @ 68)
+
+                    w : 1.0 (0d @ 6a)
+                    x : 1.0 (15 @ 6f)
+                    y : 1.0 (1d @ 74)
+                    z : 1.0 (25 @ 79)
+				}
+			}
+		}
+
+        position sub-sub-block { (22 @ 7e)
+
+            x position : 0.0 (0d @ 80)
+            y position : 0.0 (15 @ 85)
+		}
+        z position : 0.0 (2d @ 8a)
+        rotation : 0.0 (35 @ 8f)
+        scale : 1.0 (3d @ 94)
+
+        u0 sub-sub-block { (42 @ 99)
+
+            w : 0.0 (0d @ 9b)
+            x : 0.0 (15 @ a0)
+            y : 0.0 (1d @ a5)
+            z : 0.0 (25 @ aa)
+		}
+        hidden : 0(48 @ af)
+	}
+    u0 : 1.0 (15 @ b1)
+}

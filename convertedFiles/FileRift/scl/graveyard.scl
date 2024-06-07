@@ -1,0 +1,2313 @@
+scl file name : graveyard (0a @ 1)
+
+?item block { (12 @ c)
+
+
+    ?sub-item sub-block { (0a @ f)
+
+        name : breakable_crack (12 @ 12)
+
+        component sub-sub-block { (1a @ 23)
+
+            component type : Model (0a @ 25)
+            number : 101(10 @ 2c)
+
+            3D model sub-sub-sub-block { (32a @ 2f)
+
+                name : crack (0a @ 31)
+                u0 : 0.0 (15 @ 38)
+                u1 : 0.0 (1d @ 3d)
+                u2 : 0.0 (25 @ 42)
+
+                u3 sub-sub-sub-sub-block { (2a @ 47)
+
+                    w : 1.0 (0d @ 49)
+                    x : 1.0 (15 @ 4e)
+                    y : 1.0 (1d @ 53)
+                    z : 1.0 (25 @ 58)
+				}
+
+                u4 sub-sub-sub-sub-block { (32 @ 5d)
+
+                    x : 0.0 (0d @ 5f)
+                    y : 0.0 (15 @ 64)
+                    z : 0.0 (1d @ 69)
+				}
+                u5 : 0(38 @ 6e)
+
+                u6 sub-sub-sub-sub-block { (42 @ 70)
+
+                    w : 1.0 (0d @ 72)
+                    x : 1.0 (15 @ 77)
+                    y : 1.0 (1d @ 7c)
+                    z : 1.0 (25 @ 81)
+				}
+			}
+		}
+
+        component sub-sub-block { (1a @ 86)
+
+            component type : CollisionShape (0a @ 88)
+            number : 103(10 @ 98)
+
+            collision shape sub-sub-sub-block { (3c2 @ 9b)
+
+
+                u0 sub-sub-sub-sub-block { (0a @ 9d)
+
+                    w : -89.97469329833984 (0d @ 9f)
+                    x : -2.6872830390930176 (15 @ a4)
+                    y : 150.30165100097656 (1d @ a9)
+                    z : 28.65419578552246 (25 @ ae)
+				}
+			}
+
+            collision shape 2 sub-sub-sub-block { (3ca @ b4)
+
+                u2 : 1(20 @ b6)
+                w : -15.0 (35 @ b8)
+                x : 15.0 (3d @ bd)
+                z : 1(58 @ c2)
+			}
+		}
+
+        component sub-sub-block { (1a @ c4)
+
+            component type : BreakableObject (0a @ c7)
+            number : 105(10 @ d8)
+
+            breakable object sub-sub-sub-block { (502 @ db)
+
+                u0 : 0(08 @ de)
+                u1 : 1(10 @ e0)
+                u2 : 2(18 @ e2)
+                u3 : \n_local self = ...;\r\n\r\nCharacter.AddSceneFlag("ff_destroyed");\r\nScene.Find("ff"):setHidden(true);\x12\xec\x02\x1bLuaQ\x00\x01\x04\x04\x04\x08\x00`\x00\x00\x00local self = ...;\r\n\r\nCharacter.AddSceneFlag("ff_destroyed");\r\nScene.Find("ff"):setHidden(true);\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x02\x04\r\x00\x00\x00%\x00\x00\x01E\x00\x00\x00F@\xc0\x00\x81\x80\x00\x00\\@\x00\x01E\xc0\x00\x00F\x00\xc1\x00\x81@\x01\x00\\\x80\x00\x01K\x80\xc1\x00\xc2\x00\x80\x00\\@\x80\x01\x1e\x00\x80\x00\x07\x00\x00\x00\x04\n\x00\x00\x00Character\x00\x04\r\x00\x00\x00AddSceneFlag\x00\x04\r\x00\x00\x00ff_destroyed\x00\x04\x06\x00\x00\x00Scene\x00\x04\x05\x00\x00\x00Find\x00\x04\x03\x00\x00\x00ff\x00\x04\n\x00\x00\x00setHidden\x00\x00\x00\x00\x00\r\x00\x00\x00\x01\x00\x00\x00\x03\x00\x00\x00\x03\x00\x00\x00\x03\x00\x00\x00\x03\x00\x00\x00\x04\x00\x00\x00\x04\x00\x00\x00\x04\x00\x00\x00\x04\x00\x00\x00\x04\x00\x00\x00\x04\x00\x00\x00\x04\x00\x00\x00\x04\x00\x00\x00\x01\x00\x00\x00\x05\x00\x00\x00self\x00\x01\x00\x00\x00\x0c\x00\x00\x00\x00\x00\x00\x00 (22 @ e4)
+			}
+		}
+
+        position sub-sub-block { (22 @ 2b7)
+
+            x position : 0.0 (0d @ 2b9)
+            y position : 0.0 (15 @ 2be)
+		}
+        z position : 0.0 (2d @ 2c3)
+        rotation : 0.0 (35 @ 2c8)
+        scale : 1.0 (3d @ 2cd)
+
+        u0 sub-sub-block { (42 @ 2d2)
+
+            w : -89.97469329833984 (0d @ 2d4)
+            x : -2.6872830390930176 (15 @ 2d9)
+            y : 150.30165100097656 (1d @ 2de)
+            z : 28.65419578552246 (25 @ 2e3)
+		}
+        hidden : 0(48 @ 2e8)
+
+        lua chunk sub-sub-block { (52 @ 2ea)
+
+            main chunk : chunk >
+
+            === lua =============
+            local self = ...;
+            
+            
+            if Character.HasSceneFlag("ff_destroyed") then
+            	Scene.Find("ff"):setHidden(true);
+            	self:setHidden(true);
+            end
+
+            =====================
+            secondary chunk : \x1bLuaQ\x00\x01\x04\x04\x04\x08\x00\x87\x00\x00\x00local self = ...;\r\n\r\n\r\nif Character.HasSceneFlag("ff_destroyed") then\r\n\tScene.Find("ff"):setHidden(true);\r\n\tself:setHidden(true);\r\nend\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x02\x04\x12\x00\x00\x00%\x00\x00\x01E\x00\x00\x00F@\xc0\x00\x81\x80\x00\x00\\\x80\x00\x01Z\x00\x00\x00\x16@\x02\x80E\xc0\x00\x00F\x00\xc1\x00\x81@\x01\x00\\\x80\x00\x01K\x80\xc1\x00\xc2\x00\x80\x00\\@\x80\x01K\x80A\x00\xc2\x00\x80\x00\\@\x80\x01\x1e\x00\x80\x00\x07\x00\x00\x00\x04\n\x00\x00\x00Character\x00\x04\r\x00\x00\x00HasSceneFlag\x00\x04\r\x00\x00\x00ff_destroyed\x00\x04\x06\x00\x00\x00Scene\x00\x04\x05\x00\x00\x00Find\x00\x04\x03\x00\x00\x00ff\x00\x04\n\x00\x00\x00setHidden\x00\x00\x00\x00\x00\x12\x00\x00\x00\x01\x00\x00\x00\x04\x00\x00\x00\x04\x00\x00\x00\x04\x00\x00\x00\x04\x00\x00\x00\x04\x00\x00\x00\x04\x00\x00\x00\x05\x00\x00\x00\x05\x00\x00\x00\x05\x00\x00\x00\x05\x00\x00\x00\x05\x00\x00\x00\x05\x00\x00\x00\x05\x00\x00\x00\x06\x00\x00\x00\x06\x00\x00\x00\x06\x00\x00\x00\x07\x00\x00\x00\x01\x00\x00\x00\x05\x00\x00\x00self\x00\x01\x00\x00\x00\x11\x00\x00\x00\x00\x00\x00\x00 (12 @ 376)
+		}
+	}
+    u0 : 0.800000011920929 (15 @ 534)
+}
+
+?item block { (12 @ 539)
+
+
+    ?sub-item sub-block { (0a @ 53c)
+
+        name : breakable_crypt_wall (12 @ 53f)
+
+        component sub-sub-block { (1a @ 555)
+
+            component type : CollisionShape (0a @ 558)
+            number : 1(10 @ 568)
+            ? linked component : 100(20 @ 56a)
+
+            collision shape sub-sub-sub-block { (3c2 @ 56d)
+
+
+                u2 sub-sub-sub-sub-block { (1a @ 56f)
+
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 571)
+
+                        y : 64.3599853515625 (0d @ 573)
+                        z : 66.70964813232422 (15 @ 578)
+					}
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 57d)
+
+                        y : -70.62124633789062 (0d @ 57f)
+                        z : 68.0859603881836 (15 @ 584)
+					}
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 589)
+
+                        y : -70.62118530273438 (0d @ 58b)
+                        z : 9.186668395996094 (15 @ 590)
+					}
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 595)
+
+                        y : -70.6212158203125 (0d @ 597)
+                        z : -23.452735900878906 (15 @ 59c)
+					}
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 5a1)
+
+                        y : -69.70488739013672 (0d @ 5a3)
+                        z : -68.08595275878906 (15 @ 5a8)
+					}
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 5ad)
+
+                        y : 70.62125396728516 (0d @ 5af)
+                        z : -63.4796142578125 (15 @ 5b4)
+					}
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 5b9)
+
+                        y : 70.30139923095703 (0d @ 5bb)
+                        z : -52.485923767089844 (15 @ 5c0)
+					}
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 5c5)
+
+                        y : 70.09842681884766 (0d @ 5c7)
+                        z : -44.551979064941406 (15 @ 5cc)
+					}
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 5d1)
+
+                        y : 70.15445709228516 (0d @ 5d3)
+                        z : -35.984130859375 (15 @ 5d8)
+					}
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 5dd)
+
+                        y : 69.69246673583984 (0d @ 5df)
+                        z : -28.68408966064453 (15 @ 5e4)
+					}
+                    u3 : 0(10 @ 5e9)
+                    u4 : 0(18 @ 5eb)
+				}
+			}
+
+            collision shape 2 sub-sub-sub-block { (3ca @ 5ee)
+
+                u0 : 1(10 @ 5f0)
+                w : -60.0 (35 @ 5f2)
+                x : 60.0 (3d @ 5f7)
+                z : 1(58 @ 5fc)
+			}
+		}
+
+        component sub-sub-block { (1a @ 5fe)
+
+            component type : CollisionShape (0a @ 601)
+            number : 2(10 @ 611)
+            ? linked component : 100(20 @ 613)
+
+            collision shape sub-sub-sub-block { (3c2 @ 616)
+
+
+                u2 sub-sub-sub-sub-block { (1a @ 618)
+
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 61a)
+
+                        y : 70.09842681884766 (0d @ 61c)
+                        z : -44.551979064941406 (15 @ 621)
+					}
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 626)
+
+                        y : 70.15445709228516 (0d @ 628)
+                        z : -35.984130859375 (15 @ 62d)
+					}
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 632)
+
+                        y : 69.69246673583984 (0d @ 634)
+                        z : -28.68408966064453 (15 @ 639)
+					}
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 63e)
+
+                        y : 68.68741607666016 (0d @ 640)
+                        z : -20.40582275390625 (15 @ 645)
+					}
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 64a)
+
+                        y : 68.66922760009766 (0d @ 64c)
+                        z : -12.8271484375 (15 @ 651)
+					}
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 656)
+
+                        y : 69.52408599853516 (0d @ 658)
+                        z : -5.05474853515625 (15 @ 65d)
+					}
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 662)
+
+                        y : 68.88054656982422 (0d @ 664)
+                        z : 3.0516891479492188 (15 @ 669)
+					}
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 66e)
+
+                        y : 68.44461822509766 (0d @ 670)
+                        z : 10.97589111328125 (15 @ 675)
+					}
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 67a)
+
+                        y : 68.4745864868164 (0d @ 67c)
+                        z : 18.919578552246094 (15 @ 681)
+					}
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 686)
+
+                        y : 67.80887603759766 (0d @ 688)
+                        z : 26.84185791015625 (15 @ 68d)
+					}
+                    u3 : 0(10 @ 692)
+                    u4 : 0(18 @ 694)
+				}
+			}
+
+            collision shape 2 sub-sub-sub-block { (3ca @ 697)
+
+                u0 : 1(10 @ 699)
+                w : -60.0 (35 @ 69b)
+                x : 60.0 (3d @ 6a0)
+                z : 1(58 @ 6a5)
+			}
+		}
+
+        component sub-sub-block { (1a @ 6a7)
+
+            component type : CollisionShape (0a @ 6aa)
+            number : 3(10 @ 6ba)
+            ? linked component : 100(20 @ 6bc)
+
+            collision shape sub-sub-sub-block { (3c2 @ 6bf)
+
+
+                u2 sub-sub-sub-sub-block { (1a @ 6c2)
+
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 6c5)
+
+                        y : 68.44461822509766 (0d @ 6c7)
+                        z : 10.97589111328125 (15 @ 6cc)
+					}
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 6d1)
+
+                        y : 68.4745864868164 (0d @ 6d3)
+                        z : 18.919578552246094 (15 @ 6d8)
+					}
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 6dd)
+
+                        y : 67.80887603759766 (0d @ 6df)
+                        z : 26.84185791015625 (15 @ 6e4)
+					}
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 6e9)
+
+                        y : 68.0686264038086 (0d @ 6eb)
+                        z : 34.78746795654297 (15 @ 6f0)
+					}
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 6f5)
+
+                        y : 67.86564636230469 (0d @ 6f7)
+                        z : 42.721412658691406 (15 @ 6fc)
+					}
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 701)
+
+                        y : 66.73465728759766 (0d @ 703)
+                        z : 50.65478515625 (15 @ 708)
+					}
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 70d)
+
+                        y : 67.4596939086914 (0d @ 70f)
+                        z : 58.58930206298828 (15 @ 714)
+					}
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 719)
+
+                        y : 67.2567138671875 (0d @ 71b)
+                        z : 66.52324676513672 (15 @ 720)
+					}
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 725)
+
+                        y : 64.3599853515625 (0d @ 727)
+                        z : 66.70964813232422 (15 @ 72c)
+					}
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 731)
+
+                        y : -70.62124633789062 (0d @ 733)
+                        z : 68.0859603881836 (15 @ 738)
+					}
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 73d)
+
+                        y : -70.62118530273438 (0d @ 73f)
+                        z : 9.186668395996094 (15 @ 744)
+					}
+                    u3 : 0(10 @ 749)
+                    u4 : 0(18 @ 74b)
+				}
+			}
+
+            collision shape 2 sub-sub-sub-block { (3ca @ 74e)
+
+                u0 : 1(10 @ 750)
+                w : -60.0 (35 @ 752)
+                x : 60.0 (3d @ 757)
+                z : 1(58 @ 75c)
+			}
+		}
+
+        component sub-sub-block { (1a @ 75e)
+
+            component type : GroundPolygon (0a @ 761)
+            number : 100(10 @ 770)
+
+            ground polygon sub-sub-sub-block { (372 @ 773)
+
+
+                 sub-sub-sub-sub-block { (12 @ 776)
+
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 779)
+
+                        x : 64.3599853515625 (0d @ 77b)
+                        y : 66.70964813232422 (15 @ 780)
+					}
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 785)
+
+                        x : -70.62124633789062 (0d @ 787)
+                        y : 68.0859603881836 (15 @ 78c)
+					}
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 791)
+
+                        x : -70.62118530273438 (0d @ 793)
+                        y : 9.186668395996094 (15 @ 798)
+					}
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 79d)
+
+                        x : -70.6212158203125 (0d @ 79f)
+                        y : -23.452735900878906 (15 @ 7a4)
+					}
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 7a9)
+
+                        x : -69.70488739013672 (0d @ 7ab)
+                        y : -68.08595275878906 (15 @ 7b0)
+					}
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 7b5)
+
+                        x : 70.62125396728516 (0d @ 7b7)
+                        y : -63.4796142578125 (15 @ 7bc)
+					}
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 7c1)
+
+                        x : 70.30139923095703 (0d @ 7c3)
+                        y : -52.485923767089844 (15 @ 7c8)
+					}
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 7cd)
+
+                        x : 70.09842681884766 (0d @ 7cf)
+                        y : -44.551979064941406 (15 @ 7d4)
+					}
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 7d9)
+
+                        x : 70.15445709228516 (0d @ 7db)
+                        y : -35.984130859375 (15 @ 7e0)
+					}
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 7e5)
+
+                        x : 69.69246673583984 (0d @ 7e7)
+                        y : -28.68408966064453 (15 @ 7ec)
+					}
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 7f1)
+
+                        x : 68.68741607666016 (0d @ 7f3)
+                        y : -20.40582275390625 (15 @ 7f8)
+					}
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 7fd)
+
+                        x : 68.66922760009766 (0d @ 7ff)
+                        y : -12.8271484375 (15 @ 804)
+					}
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 809)
+
+                        x : 69.52408599853516 (0d @ 80b)
+                        y : -5.05474853515625 (15 @ 810)
+					}
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 815)
+
+                        x : 68.88054656982422 (0d @ 817)
+                        y : 3.0516891479492188 (15 @ 81c)
+					}
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 821)
+
+                        x : 68.44461822509766 (0d @ 823)
+                        y : 10.97589111328125 (15 @ 828)
+					}
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 82d)
+
+                        x : 68.4745864868164 (0d @ 82f)
+                        y : 18.919578552246094 (15 @ 834)
+					}
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 839)
+
+                        x : 67.80887603759766 (0d @ 83b)
+                        y : 26.84185791015625 (15 @ 840)
+					}
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 845)
+
+                        x : 68.0686264038086 (0d @ 847)
+                        y : 34.78746795654297 (15 @ 84c)
+					}
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 851)
+
+                        x : 67.86564636230469 (0d @ 853)
+                        y : 42.721412658691406 (15 @ 858)
+					}
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 85d)
+
+                        x : 66.73465728759766 (0d @ 85f)
+                        y : 50.65478515625 (15 @ 864)
+					}
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 869)
+
+                        x : 67.4596939086914 (0d @ 86b)
+                        y : 58.58930206298828 (15 @ 870)
+					}
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 875)
+
+                        x : 67.2567138671875 (0d @ 877)
+                        y : 66.52324676513672 (15 @ 87c)
+					}
+                    u0 : 0(10 @ 881)
+                    u1 : 1(18 @ 883)
+				}
+                u1 : 1(18 @ 885)
+                u2 : -60.0 (25 @ 887)
+                u3 : 60.0 (2d @ 88c)
+                u4 :  (32 @ 891)
+			}
+		}
+
+        component sub-sub-block { (1a @ 893)
+
+            component type : GroundMesh (0a @ 896)
+            number : 101(10 @ 8a2)
+
+            ground mesh sub-sub-sub-block { (37a @ 8a5)
+
+
+                u0 sub-sub-sub-sub-block { (3a @ 8a8)
+
+                    w : -80.62124633789062 (0d @ 8aa)
+                    x : -78.08595275878906 (15 @ 8af)
+                    y : 161.24249267578125 (1d @ 8b4)
+                    z : 156.17190551757812 (25 @ 8b9)
+				}
+
+                u1 sub-sub-sub-sub-block { (42 @ 8be)
+
+                    u0 : 22(08 @ 8c1)
+                    u1 : 20(10 @ 8c3)
+
+                    u2 sub-sub-sub-sub-sub-block { (1a @ 8c5)
+
+                        u0 : 4(08 @ 8c7)
+                        u1 : 1(10 @ 8c9)
+                        u2 : 2(18 @ 8cb)
+                        u3 : 0(20 @ 8cd)
+					}
+
+                    u3 sub-sub-sub-sub-sub-block { (22 @ 8cf)
+
+                        u0 : 7(08 @ 8d1)
+                        u1 : 3(10 @ 8d3)
+                        u2 : 32(18 @ 8d5)
+                        u3 : 0(20 @ 8d7)
+					}
+
+                    u4 sub-sub-sub-sub-sub-block { (2a @ 8d9)
+
+                        u0 : 7(08 @ 8db)
+                        u1 : 3(10 @ 8dd)
+                        u2 : 32(18 @ 8df)
+                        u3 : 12(20 @ 8e1)
+					}
+
+                    u5 sub-sub-sub-sub-sub-block { (32 @ 8e3)
+
+                        u0 : 7(08 @ 8e5)
+                        u1 : 2(10 @ 8e7)
+                        u2 : 32(18 @ 8e9)
+                        u3 : 24(20 @ 8eb)
+					}
+
+                    u6 sub-sub-sub-sub-sub-block { (52 @ 8ed)
+
+
+                        u0 sub-sub-sub-sub-sub-sub-block { (0a @ 8ef)
+
+                            w : 1.0 (0d @ 8f1)
+                            x : 1.0 (15 @ 8f6)
+                            y : 1.0 (1d @ 8fb)
+                            z : 1.0 (25 @ 900)
+						}
+
+                        u1 sub-sub-sub-sub-sub-sub-block { (12 @ 905)
+
+                            w : 1.0 (0d @ 907)
+                            x : 1.0 (15 @ 90c)
+                            y : 1.0 (1d @ 911)
+                            z : 1.0 (25 @ 916)
+						}
+
+                        u2 sub-sub-sub-sub-sub-sub-block { (1a @ 91b)
+
+                            w : 1.0 (0d @ 91d)
+                            x : 1.0 (15 @ 922)
+                            y : 1.0 (1d @ 927)
+                            z : 1.0 (25 @ 92c)
+						}
+                        u3 : 0.0 (25 @ 931)
+                        u4 : \n\x0bcrypt_tiles\x10\x01 \x02 (2a @ 936)
+					}
+
+                    u7 sub-sub-sub-sub-sub-block { (5a @ 949)
+
+                        u : -70.62124633789062 (0d @ 94b)
+                        v : -68.08595275878906 (15 @ 950)
+                        w : -60.0 (1d @ 955)
+                        x : 141.24249267578125 (25 @ 95a)
+                        y : 136.17190551757812 (2d @ 95f)
+                        z : 120.0 (35 @ 964)
+					}
+                    u8 : P\xb8\x80BWk\x85B\x00\x00pBV\xaf9<\xcb\xfb\x7f?\x00\x00\x00\x00\x00\x00\x00?\xa4p=?P\xb8\x80BWk\x85B\x00\x00p\xc2V\xaf9<\xcb\xfb\x7f?\x00\x00\x00\x00\x00\x00\x00?\xb8\x1e\x85>\x14>\x8d\xc2\x03,\x88B\x00\x00pB\x95\xb9\xc8\xbe\xb3\x81k?\x00\x00\x00\x00.\x1d\x85?\xa4p=?\x14>\x8d\xc2\x03,\x88B\x00\x00p\xc2\x95\xb9\xc8\xbe\xb3\x81k?\x00\x00\x00\x00.\x1d\x85?\xb8\x1e\x85>\x0c>\x8d\xc2\x98\xfc\x12A\x00\x00pB\x00\x00\x80\xbf\x03\xfc\xb2\xb4\x00\x00\x00\x00:E\xa3?\xa4p=?\x0c>\x8d\xc2\x98\xfc\x12A\x00\x00p\xc2\x00\x00\x80\xbf\x03\xfc\xb2\xb4\x00\x00\x00\x00:E\xa3?\xb8\x1e\x85>\x10>\x8d\xc24\x9f\xbb\xc1\x00\x00pBe\xfb\x7f\xbf\x84DB\xbc\x00\x00\x00\x00W\xfb\xb3?\xa4p=?\x10>\x8d\xc24\x9f\xbb\xc1\x00\x00p\xc2e\xfb\x7f\xbf\x84DB\xbc\x00\x00\x00\x00W\xfb\xb3?\xb8\x1e\x85>\xe7h\x8b\xc2\x02,\x88\xc2\x00\x00pBS\x99\x8b\xbe\xfbLv\xbf\x00\x00\x00\x00\xbc\xd6\xca?\xa4p=?\xe7h\x8b\xc2\x02,\x88\xc2\x00\x00p\xc2S\x99\x8b\xbe\xfbLv\xbf\x00\x00\x00\x00\xbc\xd6\xca?\xb8\x1e\x85>\x15>\x8dB \xeb}\xc2\x00\x00pB\xda\xca\xe2=\xedl~\xbf\x00\x00\x00\x00\xbc\\\t@\xa4p=?\x15>\x8dB \xeb}\xc2\x00\x00p\xc2\xda\xca\xe2=\xedl~\xbf\x00\x00\x00\x00\xbc\\\t@\xb8\x1e\x85>Q\x9a\x8cB\x96\xf1Q\xc2\x00\x00pB\x03\xe7\x7f?U2\xe2<\x00\x00\x00\x00\x86-\x0c@\xa4p=?Q\x9a\x8cB\x96\xf1Q\xc2\x00\x00p\xc2\x03\xe7\x7f?U2\xe2<\x00\x00\x00\x00\x86-\x0c@\xb8\x1e\x85>e2\x8cB:52\xc2\x00\x00pBg\xfd\x7f?0\xe3\x11<\x00\x00\x00\x00\xa75\x0e@\xa4p=?e2\x8cB:52\xc2\x00\x00p\xc2g\xfd\x7f?0\xe3\x11<\x00\x00\x00\x00\xa75\x0e@\xb8\x1e\x85>\x15O\x8cB\xc0\xef\x0f\xc2\x00\x00pB\x90\xea\x7f?u\x83\xd1<\x00\x00\x00\x00+g\x10@\xa4p=?\x15O\x8cB\xc0\xef\x0f\xc2\x00\x00p\xc2\x90\xea\x7f?u\x83\xd1<\x00\x00\x00\x00+g\x10@\xb8\x1e\x85>\x8bb\x8bB\x04y\xe5\xc1\x00\x00pBQ\xdf~?\xc8\x03\xc0=\x00\x00\x00\x00\x8aF\x12@\xa4p=?\x8bb\x8bB\x04y\xe5\xc1\x00\x00p\xc2Q\xdf~?\xc8\x03\xc0=\x00\x00\x00\x00\x8aF\x12@\xb8\x1e\x85>\xf5_\x89B ?\xa3\xc1\x00\x00pB\xfbw\x7f?\xc7\xe1\x83=\x00\x00\x00\x00\x0ci\x14@\xa4p=?\xf5_\x89B ?\xa3\xc1\x00\x00p\xc2\xfbw\x7f?\xc7\xe1\x83=\x00\x00\x00\x00\x0ci\x14@\xb8\x1e\x85> (192 @ 96a)
+                    u9 : \x00\x00\x01\x00\x02\x00\x01\x00\x03\x00\x02\x00\x02\x00\x03\x00\x04\x00\x03\x00\x05\x00\x04\x00\x04\x00\x05\x00\x06\x00\x05\x00\x07\x00\x06\x00\x06\x00\x07\x00\x08\x00\x07\x00\t\x00\x08\x00\x08\x00\t\x00\n\x00\t\x00\x0b\x00\n\x00\n\x00\x0b\x00\x0c\x00\x0b\x00\r\x00\x0c\x00\x0c\x00\r\x00\x0e\x00\r\x00\x0f\x00\x0e\x00\x0e\x00\x0f\x00\x10\x00\x0f\x00\x11\x00\x10\x00\x10\x00\x11\x00\x12\x00\x11\x00\x13\x00\x12\x00\x12\x00\x13\x00\x14\x00\x13\x00\x15\x00\x14\x00 (19a @ c2e)
+				}
+
+                u1 sub-sub-sub-sub-block { (42 @ ca8)
+
+                    u0 : 22(08 @ cab)
+                    u1 : 20(10 @ cad)
+
+                    u2 sub-sub-sub-sub-sub-block { (1a @ caf)
+
+                        u0 : 4(08 @ cb1)
+                        u1 : 1(10 @ cb3)
+                        u2 : 2(18 @ cb5)
+                        u3 : 0(20 @ cb7)
+					}
+
+                    u3 sub-sub-sub-sub-sub-block { (22 @ cb9)
+
+                        u0 : 7(08 @ cbb)
+                        u1 : 3(10 @ cbd)
+                        u2 : 32(18 @ cbf)
+                        u3 : 0(20 @ cc1)
+					}
+
+                    u4 sub-sub-sub-sub-sub-block { (2a @ cc3)
+
+                        u0 : 7(08 @ cc5)
+                        u1 : 3(10 @ cc7)
+                        u2 : 32(18 @ cc9)
+                        u3 : 12(20 @ ccb)
+					}
+
+                    u5 sub-sub-sub-sub-sub-block { (32 @ ccd)
+
+                        u0 : 7(08 @ ccf)
+                        u1 : 2(10 @ cd1)
+                        u2 : 32(18 @ cd3)
+                        u3 : 24(20 @ cd5)
+					}
+
+                    u6 sub-sub-sub-sub-sub-block { (52 @ cd7)
+
+
+                        u0 sub-sub-sub-sub-sub-sub-block { (0a @ cd9)
+
+                            w : 1.0 (0d @ cdb)
+                            x : 1.0 (15 @ ce0)
+                            y : 1.0 (1d @ ce5)
+                            z : 1.0 (25 @ cea)
+						}
+
+                        u1 sub-sub-sub-sub-sub-sub-block { (12 @ cef)
+
+                            w : 1.0 (0d @ cf1)
+                            x : 1.0 (15 @ cf6)
+                            y : 1.0 (1d @ cfb)
+                            z : 1.0 (25 @ d00)
+						}
+
+                        u2 sub-sub-sub-sub-sub-sub-block { (1a @ d05)
+
+                            w : 1.0 (0d @ d07)
+                            x : 1.0 (15 @ d0c)
+                            y : 1.0 (1d @ d11)
+                            z : 1.0 (25 @ d16)
+						}
+                        u3 : 0.0 (25 @ d1b)
+                        u4 : \n\x0bcrypt_tiles\x10\x01 \x02 (2a @ d20)
+					}
+
+                    u7 sub-sub-sub-sub-sub-block { (5a @ d33)
+
+                        u : 66.73465728759766 (0d @ d35)
+                        v : -20.40582275390625 (15 @ d3a)
+                        w : -60.0 (1d @ d3f)
+                        x : 2.7894287109375 (25 @ d44)
+                        y : 78.99512481689453 (2d @ d49)
+                        z : 120.0 (35 @ d4e)
+					}
+                    u8 : \xf5_\x89B ?\xa3\xc1\x00\x00pB\xfbw\x7f?\xc7\xe1\x83=\x00\x00\x00\x00\x0ci\x14@\xa4p=?\xf5_\x89B ?\xa3\xc1\x00\x00p\xc2\xfbw\x7f?\xc7\xe1\x83=\x00\x00\x00\x00\x0ci\x14@\xb8\x1e\x85>\xa5V\x89B\x00<M\xc1\x00\x00pB\xe1\x9e\x7f?/\xe9^\xbd\x00\x00\x00\x00\xbaY\x16@\xa4p=?\xa5V\x89B\x00<M\xc1\x00\x00p\xc2\xe1\x9e\x7f?/\xe9^\xbd\x00\x00\x00\x00\xbaY\x16@\xb8\x1e\x85>U\x0c\x8bB\x80\xc0\xa1\xc0\x00\x00pB2\xfa\x7f?\xc0\x05Z\xbc\x00\x00\x00\x00,Z\x18@\xa4p=?U\x0c\x8bB\x80\xc0\xa1\xc0\x00\x00p\xc22\xfa\x7f?\xc0\x05Z\xbc\x00\x00\x00\x00,Z\x18@\xb8\x1e\x85>\xd7\xc2\x89B\xe0NC@\x00\x00pB\xeak\x7f?\x9e\x98\x89=\x00\x00\x00\x00\x1bo\x1a@\xa4p=?\xd7\xc2\x89B\xe0NC@\x00\x00p\xc2\xeak\x7f?\x9e\x98\x89=\x00\x00\x00\x00\x1bo\x1a@\xb8\x1e\x85>\xa5\xe3\x88B@\x9d/A\x00\x00pB\x90\xea\x7f?u\x83\xd1<\x00\x00\x00\x006w\x1c@\xa4p=?\xa5\xe3\x88B@\x9d/A\x00\x00p\xc2\x90\xea\x7f?u\x83\xd1<\x00\x00\x00\x006w\x1c@\xb8\x1e\x85>\xfd\xf2\x88BL[\x97A\x00\x00pBt\xcb\x7f?I\xfe#=\x00\x00\x00\x00\xd0\x7f\x1e@\xa4p=?\xfd\xf2\x88BL[\x97A\x00\x00p\xc2t\xcb\x7f?I\xfe#=\x00\x00\x00\x00\xd0\x7f\x1e@\xb8\x1e\x85>%\x9e\x87B \xbc\xd6A\x00\x00pB\x90\xea\x7f?u\x83\xd1<\x00\x00\x00\x00\xd6\x88 @\xa4p=?%\x9e\x87B \xbc\xd6A\x00\x00p\xc2\x90\xea\x7f?u\x83\xd1<\x00\x00\x00\x00\xd6\x88 @\xb8\x1e\x85>##\x88B^&\x0bB\x00\x00pB\x95\xff\x7f?"Kj\xbb\x00\x00\x00\x00\xd7\x91"@\xa4p=?##\x88B^&\x0bB\x00\x00p\xc2\x95\xff\x7f?"Kj\xbb\x00\x00\x00\x00\xd7\x91"@\xb8\x1e\x85>6\xbb\x87B\xba\xe2*B\x00\x00pB\xa0\x19\x7f?\x13\x92\xab=\x00\x00\x00\x00\xf8\x99$@\xa4p=?6\xbb\x87B\xba\xe2*B\x00\x00p\xc2\xa0\x19\x7f?\x13\x92\xab=\x00\x00\x00\x00\xf8\x99$@\xb8\x1e\x85>%x\x85B\x80\x9eJB\x00\x00pB\x90\xea\x7f?s\x82\xd1<\x00\x00\x00\x00&\xa7&@\xa4p=?%x\x85B\x80\x9eJB\x00\x00p\xc2\x90\xea\x7f?s\x82\xd1<\x00\x00\x00\x00&\xa7&@\xb8\x1e\x85>]\xeb\x86Br[jB\x00\x00pB\x90\xdc\x7f?t\xae\x06\xbd\x00\x00\x00\x00P\xb1(@\xa4p=?]\xeb\x86Br[jB\x00\x00p\xc2\x90\xdc\x7f?t\xae\x06\xbd\x00\x00\x00\x00P\xb1(@\xb8\x1e\x85> (192 @ d54)
+                    u9 : \x00\x00\x01\x00\x02\x00\x01\x00\x03\x00\x02\x00\x02\x00\x03\x00\x04\x00\x03\x00\x05\x00\x04\x00\x04\x00\x05\x00\x06\x00\x05\x00\x07\x00\x06\x00\x06\x00\x07\x00\x08\x00\x07\x00\t\x00\x08\x00\x08\x00\t\x00\n\x00\t\x00\x0b\x00\n\x00\n\x00\x0b\x00\x0c\x00\x0b\x00\r\x00\x0c\x00\x0c\x00\r\x00\x0e\x00\r\x00\x0f\x00\x0e\x00\x0e\x00\x0f\x00\x10\x00\x0f\x00\x11\x00\x10\x00\x10\x00\x11\x00\x12\x00\x11\x00\x13\x00\x12\x00\x12\x00\x13\x00\x14\x00\x13\x00\x15\x00\x14\x00 (19a @ 1018)
+				}
+
+                u1 sub-sub-sub-sub-block { (42 @ 1092)
+
+                    u0 : 6(08 @ 1095)
+                    u1 : 4(10 @ 1097)
+
+                    u2 sub-sub-sub-sub-sub-block { (1a @ 1099)
+
+                        u0 : 4(08 @ 109b)
+                        u1 : 1(10 @ 109d)
+                        u2 : 2(18 @ 109f)
+                        u3 : 0(20 @ 10a1)
+					}
+
+                    u3 sub-sub-sub-sub-sub-block { (22 @ 10a3)
+
+                        u0 : 7(08 @ 10a5)
+                        u1 : 3(10 @ 10a7)
+                        u2 : 32(18 @ 10a9)
+                        u3 : 0(20 @ 10ab)
+					}
+
+                    u4 sub-sub-sub-sub-sub-block { (2a @ 10ad)
+
+                        u0 : 7(08 @ 10af)
+                        u1 : 3(10 @ 10b1)
+                        u2 : 32(18 @ 10b3)
+                        u3 : 12(20 @ 10b5)
+					}
+
+                    u5 sub-sub-sub-sub-sub-block { (32 @ 10b7)
+
+                        u0 : 7(08 @ 10b9)
+                        u1 : 2(10 @ 10bb)
+                        u2 : 32(18 @ 10bd)
+                        u3 : 24(20 @ 10bf)
+					}
+
+                    u6 sub-sub-sub-sub-sub-block { (52 @ 10c1)
+
+
+                        u0 sub-sub-sub-sub-sub-sub-block { (0a @ 10c3)
+
+                            w : 1.0 (0d @ 10c5)
+                            x : 1.0 (15 @ 10ca)
+                            y : 1.0 (1d @ 10cf)
+                            z : 1.0 (25 @ 10d4)
+						}
+
+                        u1 sub-sub-sub-sub-sub-sub-block { (12 @ 10d9)
+
+                            w : 1.0 (0d @ 10db)
+                            x : 1.0 (15 @ 10e0)
+                            y : 1.0 (1d @ 10e5)
+                            z : 1.0 (25 @ 10ea)
+						}
+
+                        u2 sub-sub-sub-sub-sub-sub-block { (1a @ 10ef)
+
+                            w : 1.0 (0d @ 10f1)
+                            x : 1.0 (15 @ 10f6)
+                            y : 1.0 (1d @ 10fb)
+                            z : 1.0 (25 @ 1100)
+						}
+                        u3 : 0.0 (25 @ 1105)
+                        u4 : \n\x0bcrypt_tiles\x10\x01 \x02 (2a @ 110a)
+					}
+
+                    u7 sub-sub-sub-sub-sub-block { (5a @ 111d)
+
+                        u : 64.3599853515625 (0d @ 111f)
+                        v : 58.58930206298828 (15 @ 1124)
+                        w : -60.0 (1d @ 1129)
+                        x : 3.0997085571289062 (25 @ 112e)
+                        y : 8.120346069335938 (2d @ 1133)
+                        z : 120.0 (35 @ 1138)
+					}
+                    u8 : P\xb8\x80BWk\x85B\x00\x00pBV\xaf9<\xcb\xfb\x7f?\x00\x00\x00\x00\x00\x00\x00?\xa4p=?P\xb8\x80BWk\x85B\x00\x00p\xc2V\xaf9<\xcb\xfb\x7f?\x00\x00\x00\x00\x00\x00\x00?\xb8\x1e\x85>]\xeb\x86Br[jB\x00\x00pB\x90\xdc\x7f?t\xae\x06\xbd\x00\x00\x00\x00P\xb1(@\xa4p=?]\xeb\x86Br[jB\x00\x00p\xc2\x90\xdc\x7f?t\xae\x06\xbd\x00\x00\x00\x00P\xb1(@\xb8\x1e\x85>p\x83\x86B\xe7\x0b\x85B\x00\x00pB\xea*o?:\x97\xb6>\x00\x00\x00\x00q\xb9*@\xa4p=?p\x83\x86B\xe7\x0b\x85B\x00\x00p\xc2\xea*o?:\x97\xb6>\x00\x00\x00\x00q\xb9*@\xb8\x1e\x85> (192 @ 113e)
+                    u9 : \x02\x00\x03\x00\x04\x00\x03\x00\x05\x00\x04\x00\x04\x00\x05\x00\x00\x00\x05\x00\x01\x00\x00\x00 (19a @ 1202)
+				}
+
+                u2 sub-sub-sub-sub-block { (4a @ 121c)
+
+                    u0 : 60(08 @ 121f)
+                    u1 : 20(10 @ 1221)
+
+                    u2 sub-sub-sub-sub-sub-block { (22 @ 1223)
+
+                        u0 : 7(08 @ 1225)
+                        u1 : 3(10 @ 1227)
+                        u2 : 32(18 @ 1229)
+                        u3 : 0(20 @ 122b)
+					}
+
+                    u3 sub-sub-sub-sub-sub-block { (2a @ 122d)
+
+                        u0 : 7(08 @ 122f)
+                        u1 : 3(10 @ 1231)
+                        u2 : 32(18 @ 1233)
+                        u3 : 12(20 @ 1235)
+					}
+
+                    u4 sub-sub-sub-sub-sub-block { (32 @ 1237)
+
+                        u0 : 7(08 @ 1239)
+                        u1 : 2(10 @ 123b)
+                        u2 : 32(18 @ 123d)
+                        u3 : 24(20 @ 123f)
+					}
+
+                    u5 sub-sub-sub-sub-sub-block { (52 @ 1241)
+
+
+                        u0 sub-sub-sub-sub-sub-sub-block { (0a @ 1243)
+
+                            w : 1.0 (0d @ 1245)
+                            x : 1.0 (15 @ 124a)
+                            y : 1.0 (1d @ 124f)
+                            z : 1.0 (25 @ 1254)
+						}
+
+                        u1 sub-sub-sub-sub-sub-sub-block { (12 @ 1259)
+
+                            w : 1.0 (0d @ 125b)
+                            x : 1.0 (15 @ 1260)
+                            y : 1.0 (1d @ 1265)
+                            z : 1.0 (25 @ 126a)
+						}
+
+                        u2 sub-sub-sub-sub-sub-sub-block { (1a @ 126f)
+
+                            w : 1.0 (0d @ 1271)
+                            x : 1.0 (15 @ 1276)
+                            y : 1.0 (1d @ 127b)
+                            z : 1.0 (25 @ 1280)
+						}
+                        u3 : 0.0 (25 @ 1285)
+
+                        u4 sub-sub-sub-sub-sub-sub-block { (2a @ 128a)
+
+                            u0 : crypt_tiles (0a @ 128c)
+                            u1 : 1(10 @ 1299)
+                            u2 : 2(20 @ 129b)
+						}
+					}
+
+                    u3 sub-sub-sub-sub-sub-block { (5a @ 129d)
+
+                        u : -70.62124633789062 (0d @ 129f)
+                        v : -68.08595275878906 (15 @ 12a4)
+                        w : 60.0 (1d @ 12a9)
+                        x : 141.24249267578125 (25 @ 12ae)
+                        y : 136.17190551757812 (2d @ 12b3)
+                        z : 0.0 (35 @ 12b8)
+					}
+                    u7 : \xe7h\x8b\xc2\x02,\x88\xc2\x00\x00pB\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x80?!}b>\xb4\x1ei>\x0c>\x8d\xc2\x98\xfc\x12A\x00\x00pB\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x80?R\xbc^>;h\t?\x10>\x8d\xc24\x9f\xbb\xc1\x00\x00pB\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x80?J\xbc^>\x03\xf8\xcf>\x14>\x8d\xc2\x03,\x88B\x00\x00pB\x00\x00\x00\x00\x00\x00\x00\x00\xff\xff\x7f?B\xbc^>S\xb8E?\x0c>\x8d\xc2\x98\xfc\x12A\x00\x00pB\x00\x00\x00\x00\x00\x00\x00\x00\xff\xff\x7f?R\xbc^>;h\t?\xe7h\x8b\xc2\x02,\x88\xc2\x00\x00pB\x00\x00\x00\x00\x00\x00\x00\x00\xff\xff\x7f?!}b>\xb4\x1ei>\x14>\x8d\xc2\x03,\x88B\x00\x00pB\x00\x00\x00\x80\x00\x00\x00\x00\x00\x00\x80?B\xbc^>S\xb8E?\xe7h\x8b\xc2\x02,\x88\xc2\x00\x00pB\x00\x00\x00\x80\x00\x00\x00\x00\x00\x00\x80?!}b>\xb4\x1ei>P\xb8\x80BWk\x85B\x00\x00pB\x00\x00\x00\x80\x00\x00\x00\x00\x00\x00\x80?\x96\xe7A?\x89OD?Q\x9a\x8cB\x96\xf1Q\xc2\x00\x00pB\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x80?\x17\xfdG?C\x82\x94>e2\x8cB:52\xc2\x00\x00pB\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x80?\xe2\xc7G?\xef\xc1\xa4>\x8bb\x8bB\x04y\xe5\xc1\x00\x00pB\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x80?v]G?GA\xc5>Q\x9a\x8cB\x96\xf1Q\xc2\x00\x00pB\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x80?\x17\xfdG?C\x82\x94>\x8bb\x8bB\x04y\xe5\xc1\x00\x00pB\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x80?v]G?GA\xc5>\xf5_\x89B ?\xa3\xc1\x00\x00pB\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x80?\xfeUF?y5\xd6>\x15>\x8dB \xeb}\xc2\x00\x00pB\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x80?\xf0PH?\xcd\xfc{>Q\x9a\x8cB\x96\xf1Q\xc2\x00\x00pB\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x80?\x17\xfdG?C\x82\x94>\xf5_\x89B ?\xa3\xc1\x00\x00pB\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x80?\xfeUF?y5\xd6>\xf5_\x89B ?\xa3\xc1\x00\x00pB\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x80?\xfeUF?y5\xd6>\xa5V\x89B\x00<M\xc1\x00\x00pB\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x80?:QF?\xe1\xba\xe5>\xa5\xe3\x88B@\x9d/A\x00\x00pB\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x80?Y\x16F?D=\x0b?\xf5_\x89B ?\xa3\xc1\x00\x00pB\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x80?\xfeUF?y5\xd6>\xa5\xe3\x88B@\x9d/A\x00\x00pB\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x80?Y\x16F?D=\x0b?%\x9e\x87B \xbc\xd6A\x00\x00pB\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x80?\xb1oE?o|\x1b?\xf5_\x89B ?\xa3\xc1\x00\x00pB\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x80?\xfeUF?y5\xd6>%\x9e\x87B \xbc\xd6A\x00\x00pB\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x80?\xb1oE?o|\x1b?%x\x85B\x80\x9eJB\x00\x00pB\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x80?\x17VD?\xd9\xde3?\xf5_\x89B ?\xa3\xc1\x00\x00pB\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x80?\xfeUF?y5\xd6>%x\x85B\x80\x9eJB\x00\x00pB\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x80?\x17VD?\xd9\xde3?P\xb8\x80BWk\x85B\x00\x00pB\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x80?\x96\xe7A?\x89OD?\x15>\x8dB \xeb}\xc2\x00\x00pB\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x80?\xf0PH?\xcd\xfc{>\xf5_\x89B ?\xa3\xc1\x00\x00pB\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x80?\xfeUF?y5\xd6>P\xb8\x80BWk\x85B\x00\x00pB\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x80?\x96\xe7A?\x89OD?\x15>\x8dB \xeb}\xc2\x00\x00pB\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x80?\xf0PH?\xcd\xfc{>P\xb8\x80BWk\x85B\x00\x00pB\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x80?\x96\xe7A?\x89OD?\xe7h\x8b\xc2\x02,\x88\xc2\x00\x00pB\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x80?!}b>\xb4\x1ei>%x\x85B\x80\x9eJB\x00\x00pB\x00\x00\x00\x00\x00\x00\x00\x80\x00\x00\x80?\x17VD?\xd9\xde3?p\x83\x86B\xe7\x0b\x85B\x00\x00pB\x00\x00\x00\x00\x00\x00\x00\x80\x00\x00\x80?\xf2\xdeD?\xac\x1eD?P\xb8\x80BWk\x85B\x00\x00pB\x00\x00\x00\x00\x00\x00\x00\x80\x00\x00\x80?\x96\xe7A?\x89OD?%\x9e\x87B \xbc\xd6A\x00\x00pB\x00\x00\x00\x00\x00\x00\x00\x80\x00\x00\x80?\xb1oE?o|\x1b?6\xbb\x87B\xba\xe2*B\x00\x00pB\x00\x00\x00\x00\x00\x00\x00\x80\x00\x00\x80?\x92~E?)\xbf+?%x\x85B\x80\x9eJB\x00\x00pB\x00\x00\x00\x00\x00\x00\x00\x80\x00\x00\x80?\x17VD?\xd9\xde3?\xa5\xe3\x88B@\x9d/A\x00\x00pB\x00\x00\x00\x00\x00\x00\x00\x80\x00\x00\x80?Y\x16F?D=\x0b?\xfd\xf2\x88BL[\x97A\x00\x00pB\x00\x00\x00\x00\x00\x00\x00\x80\x00\x00\x80?4\x1eF?\xa7_\x13?%\x9e\x87B \xbc\xd6A\x00\x00pB\x00\x00\x00\x00\x00\x00\x00\x80\x00\x00\x80?\xb1oE?o|\x1b?\xa5V\x89B\x00<M\xc1\x00\x00pB\x00\x00\x00\x00\x00\x00\x00\x80\x00\x00\x80?:QF?\xe1\xba\xe5>\xd7\xc2\x89B\xe0NC@\x00\x00pB\x00\x00\x00\x00\x00\x00\x00\x80\x00\x00\x80?\x9f\x88F?\xfb\x1f\x03?\xa5\xe3\x88B@\x9d/A\x00\x00pB\x00\x00\x00\x00\x00\x00\x00\x80\x00\x00\x80?Y\x16F?D=\x0b?e2\x8cB:52\xc2\x00\x00pB\x00\x00\x00\x00\x00\x00\x00\x80\x00\x00\x80?\xe2\xc7G?\xef\xc1\xa4>\x15O\x8cB\xc0\xef\x0f\xc2\x00\x00pB\x00\x00\x00\x00\x00\x00\x00\x80\x00\x00\x80?\x92\xd6G?\xf4M\xb6>\x8bb\x8bB\x04y\xe5\xc1\x00\x00pB\x00\x00\x00\x00\x00\x00\x00\x80\x00\x00\x80?v]G?GA\xc5>\xa5V\x89B\x00<M\xc1\x00\x00pB\x00\x00\x00\x00\x00\x00\x00\x80\x00\x00\x80?:QF?\xe1\xba\xe5>U\x0c\x8bB\x80\xc0\xa1\xc0\x00\x00pB\x00\x00\x00\x00\x00\x00\x00\x80\x00\x00\x80?R1G?\xdb\xa5\xf5>\xd7\xc2\x89B\xe0NC@\x00\x00pB\x00\x00\x00\x00\x00\x00\x00\x80\x00\x00\x80?\x9f\x88F?\xfb\x1f\x03?%\x9e\x87B \xbc\xd6A\x00\x00pB\x00\x00\x00\x00\x00\x00\x00\x80\x00\x00\x80?\xb1oE?o|\x1b?##\x88B^&\x0bB\x00\x00pB\x00\x00\x00\x00\x00\x00\x00\x80\x00\x00\x80?\xc8\xb3E?S\x9f#?6\xbb\x87B\xba\xe2*B\x00\x00pB\x00\x00\x00\x00\x00\x00\x00\x80\x00\x00\x80?\x92~E?)\xbf+?%x\x85B\x80\x9eJB\x00\x00pB\x00\x00\x00\x00\x00\x00\x00\x80\xff\xff\x7f?\x17VD?\xd9\xde3?]\xeb\x86Br[jB\x00\x00pB\x00\x00\x00\x00\x00\x00\x00\x80\xff\xff\x7f?'\x14E?\xd6\xfe;?p\x83\x86B\xe7\x0b\x85B\x00\x00pB\x00\x00\x00\x00\x00\x00\x00\x80\xff\xff\x7f?\xf2\xdeD?\xac\x1eD? (192 @ 12be)
+				}
+
+                u3 sub-sub-sub-sub-block { (52 @ 1a41)
+
+                    w : 1.0 (0d @ 1a43)
+                    x : 0.8999999761581421 (15 @ 1a48)
+                    y : 0.855555534362793 (1d @ 1a4d)
+                    z : 1.0 (25 @ 1a52)
+				}
+			}
+		}
+
+        component sub-sub-block { (1a @ 1a57)
+
+            component type : GroundMeshGenerator (0a @ 1a59)
+            number : 102(10 @ 1a6e)
+
+            ground mesh generator sub-sub-sub-block { (382 @ 1a71)
+
+                ground polygon : 100(08 @ 1a73)
+                ground mesh : 101(10 @ 1a75)
+                texture mapping 1 : 103(18 @ 1a77)
+                texture mapping 2 : 104(20 @ 1a79)
+                u4 : 0(28 @ 1a7b)
+                u5 : 0.0 (35 @ 1a7d)
+                u6 : 0(38 @ 1a82)
+                u7 : 120.0 (45 @ 1a84)
+                u8 : 25.0 (4d @ 1a89)
+                u9 : 5.0 (55 @ 1a8e)
+                u10 : 5.0 (5d @ 1a93)
+			}
+		}
+
+        component sub-sub-block { (1a @ 1a98)
+
+            component type : TextureMapping (0a @ 1a9a)
+            number : 103(10 @ 1aaa)
+
+            texture mapping sub-sub-sub-block { (38a @ 1aad)
+
+                texture file : crypt_tiles (0a @ 1aaf)
+                u0 : 250.0 (15 @ 1abc)
+
+                u0 sub-sub-sub-sub-block { (1a @ 1ac1)
+
+                    u1 : 0.0 (0d @ 1ac3)
+                    u2 : 0.0 (15 @ 1ac8)
+				}
+			}
+		}
+
+        component sub-sub-block { (1a @ 1acd)
+
+            component type : TextureMapping (0a @ 1acf)
+            number : 104(10 @ 1adf)
+
+            texture mapping sub-sub-sub-block { (38a @ 1ae2)
+
+                texture file : crypt_tiles (0a @ 1ae4)
+                u0 : 250.0 (15 @ 1af1)
+
+                u0 sub-sub-sub-sub-block { (1a @ 1af6)
+
+                    u1 : 0.0 (0d @ 1af8)
+                    u2 : 0.0 (15 @ 1afd)
+				}
+			}
+		}
+
+        position sub-sub-block { (22 @ 1b02)
+
+            x position : 0.0 (0d @ 1b04)
+            y position : 0.0 (15 @ 1b09)
+		}
+        z position : 0.0 (2d @ 1b0e)
+        rotation : 0.0 (35 @ 1b13)
+        scale : 1.0 (3d @ 1b18)
+
+        u0 sub-sub-block { (42 @ 1b1d)
+
+            w : -70.62124633789062 (0d @ 1b1f)
+            x : -68.08595275878906 (15 @ 1b24)
+            y : 141.24249267578125 (1d @ 1b29)
+            z : 136.17190551757812 (25 @ 1b2e)
+		}
+        hidden : 0(48 @ 1b33)
+	}
+    u0 : 1.0 (15 @ 1b35)
+}
+
+?item block { (12 @ 1b3a)
+
+
+    ?sub-item sub-block { (0a @ 1b3d)
+
+        name : crypt (12 @ 1b40)
+
+        component sub-sub-block { (1a @ 1b47)
+
+            component type : Model (0a @ 1b49)
+            number : 101(10 @ 1b50)
+
+            3D model sub-sub-sub-block { (32a @ 1b53)
+
+                name : crypt (0a @ 1b55)
+                u0 : 0.0 (15 @ 1b5c)
+                u1 : 0.0 (1d @ 1b61)
+                u2 : 0.0 (25 @ 1b66)
+
+                u3 sub-sub-sub-sub-block { (2a @ 1b6b)
+
+                    w : 0.0 (0d @ 1b6d)
+                    x : 0.0 (15 @ 1b72)
+                    y : 0.0 (1d @ 1b77)
+                    z : 1.0 (25 @ 1b7c)
+				}
+
+                u4 sub-sub-sub-sub-block { (32 @ 1b81)
+
+                    x : 0.0 (0d @ 1b83)
+                    y : 0.0 (15 @ 1b88)
+                    z : 0.0 (1d @ 1b8d)
+				}
+                u5 : 0(38 @ 1b92)
+
+                u6 sub-sub-sub-sub-block { (42 @ 1b94)
+
+                    w : 1.0 (0d @ 1b96)
+                    x : 1.0 (15 @ 1b9b)
+                    y : 1.0 (1d @ 1ba0)
+                    z : 1.0 (25 @ 1ba5)
+				}
+			}
+		}
+
+        position sub-sub-block { (22 @ 1baa)
+
+            x position : 0.0 (0d @ 1bac)
+            y position : 0.0 (15 @ 1bb1)
+		}
+        z position : 0.0 (2d @ 1bb6)
+        rotation : 0.0 (35 @ 1bbb)
+        scale : 1.0 (3d @ 1bc0)
+
+        u0 sub-sub-block { (42 @ 1bc5)
+
+            w : 0.0 (0d @ 1bc7)
+            x : 0.0 (15 @ 1bcc)
+            y : 0.0 (1d @ 1bd1)
+            z : 0.0 (25 @ 1bd6)
+		}
+        hidden : 0(48 @ 1bdb)
+	}
+    u0 : 1.0 (15 @ 1bdd)
+}
+
+?item block { (12 @ 1be2)
+
+
+    ?sub-item sub-block { (0a @ 1be5)
+
+        name : deadtree1 (12 @ 1be8)
+
+        component sub-sub-block { (1a @ 1bf3)
+
+            component type : Model (0a @ 1bf5)
+            number : 101(10 @ 1bfc)
+
+            3D model sub-sub-sub-block { (32a @ 1bff)
+
+                name : deadtree1 (0a @ 1c01)
+                u0 : 0.0 (15 @ 1c0c)
+                u1 : 0.0 (1d @ 1c11)
+                u2 : 0.0 (25 @ 1c16)
+
+                u3 sub-sub-sub-sub-block { (2a @ 1c1b)
+
+                    w : 0.0 (0d @ 1c1d)
+                    x : 0.0 (15 @ 1c22)
+                    y : 0.0 (1d @ 1c27)
+                    z : 1.0 (25 @ 1c2c)
+				}
+
+                u4 sub-sub-sub-sub-block { (32 @ 1c31)
+
+                    x : 0.0 (0d @ 1c33)
+                    y : 0.0 (15 @ 1c38)
+                    z : 0.0 (1d @ 1c3d)
+				}
+                u5 : 0(38 @ 1c42)
+
+                u6 sub-sub-sub-sub-block { (42 @ 1c44)
+
+                    w : 1.0 (0d @ 1c46)
+                    x : 1.0 (15 @ 1c4b)
+                    y : 1.0 (1d @ 1c50)
+                    z : 1.0 (25 @ 1c55)
+				}
+			}
+		}
+
+        position sub-sub-block { (22 @ 1c5a)
+
+            x position : 0.0 (0d @ 1c5c)
+            y position : 0.0 (15 @ 1c61)
+		}
+        z position : 0.0 (2d @ 1c66)
+        rotation : 0.0 (35 @ 1c6b)
+        scale : 1.0 (3d @ 1c70)
+
+        u0 sub-sub-block { (42 @ 1c75)
+
+            w : 0.0 (0d @ 1c77)
+            x : 0.0 (15 @ 1c7c)
+            y : 0.0 (1d @ 1c81)
+            z : 0.0 (25 @ 1c86)
+		}
+        hidden : 0(48 @ 1c8b)
+	}
+    u0 : 1.0 (15 @ 1c8d)
+}
+
+?item block { (12 @ 1c92)
+
+
+    ?sub-item sub-block { (0a @ 1c95)
+
+        name : deadtree2 (12 @ 1c98)
+
+        component sub-sub-block { (1a @ 1ca3)
+
+            component type : Model (0a @ 1ca5)
+            number : 101(10 @ 1cac)
+
+            3D model sub-sub-sub-block { (32a @ 1caf)
+
+                name : deadtree2 (0a @ 1cb1)
+                u0 : 0.0 (15 @ 1cbc)
+                u1 : 0.0 (1d @ 1cc1)
+                u2 : 0.0 (25 @ 1cc6)
+
+                u3 sub-sub-sub-sub-block { (2a @ 1ccb)
+
+                    w : 0.0 (0d @ 1ccd)
+                    x : 0.0 (15 @ 1cd2)
+                    y : 0.0 (1d @ 1cd7)
+                    z : 1.0 (25 @ 1cdc)
+				}
+
+                u4 sub-sub-sub-sub-block { (32 @ 1ce1)
+
+                    x : 0.0 (0d @ 1ce3)
+                    y : 0.0 (15 @ 1ce8)
+                    z : 0.0 (1d @ 1ced)
+				}
+                u5 : 0(38 @ 1cf2)
+
+                u6 sub-sub-sub-sub-block { (42 @ 1cf4)
+
+                    w : 1.0 (0d @ 1cf6)
+                    x : 1.0 (15 @ 1cfb)
+                    y : 1.0 (1d @ 1d00)
+                    z : 1.0 (25 @ 1d05)
+				}
+			}
+		}
+
+        position sub-sub-block { (22 @ 1d0a)
+
+            x position : 0.0 (0d @ 1d0c)
+            y position : 0.0 (15 @ 1d11)
+		}
+        z position : 0.0 (2d @ 1d16)
+        rotation : 0.0 (35 @ 1d1b)
+        scale : 1.0 (3d @ 1d20)
+
+        u0 sub-sub-block { (42 @ 1d25)
+
+            w : 0.0 (0d @ 1d27)
+            x : 0.0 (15 @ 1d2c)
+            y : 0.0 (1d @ 1d31)
+            z : 0.0 (25 @ 1d36)
+		}
+        hidden : 0(48 @ 1d3b)
+	}
+    u0 : 1.0 (15 @ 1d3d)
+}
+
+?item block { (12 @ 1d42)
+
+
+    ?sub-item sub-block { (0a @ 1d45)
+
+        name : gravetorch (12 @ 1d48)
+
+        component sub-sub-block { (1a @ 1d54)
+
+            component type : Model (0a @ 1d56)
+            number : 1(10 @ 1d5d)
+
+            3D model sub-sub-sub-block { (32a @ 1d60)
+
+                name : torch (0a @ 1d62)
+                u0 : 0.0 (15 @ 1d69)
+                u1 : 0.0 (1d @ 1d6e)
+                u2 : 0.0 (25 @ 1d73)
+
+                u3 sub-sub-sub-sub-block { (2a @ 1d78)
+
+                    w : 0.0 (0d @ 1d7a)
+                    x : 0.0 (15 @ 1d7f)
+                    y : 0.0 (1d @ 1d84)
+                    z : 1.0 (25 @ 1d89)
+				}
+
+                u4 sub-sub-sub-sub-block { (32 @ 1d8e)
+
+                    x : 0.0 (0d @ 1d90)
+                    y : 0.0 (15 @ 1d95)
+                    z : 0.0 (1d @ 1d9a)
+				}
+                u5 : 0(38 @ 1d9f)
+
+                u6 sub-sub-sub-sub-block { (42 @ 1da1)
+
+                    w : 1.0 (0d @ 1da3)
+                    x : 1.0 (15 @ 1da8)
+                    y : 1.0 (1d @ 1dad)
+                    z : 1.0 (25 @ 1db2)
+				}
+			}
+		}
+
+        component sub-sub-block { (1a @ 1db7)
+
+            component type : SimpleGlow (0a @ 1db9)
+            number : 2(10 @ 1dc5)
+
+            simple glow sub-sub-sub-block { (7f2 @ 1dc8)
+
+
+                u0 sub-sub-sub-sub-block { (0a @ 1dca)
+
+                    w : 0.23333333432674408 (0d @ 1dcc)
+                    x : 0.35555556416511536 (15 @ 1dd1)
+                    y : 0.20000000298023224 (1d @ 1dd6)
+                    z : 0.5 (25 @ 1ddb)
+				}
+                u1 : 27.0 (15 @ 1de0)
+                u2 : 10(18 @ 1de5)
+                u3 : 15.0 (25 @ 1de7)
+                u4 : 0.07000000029802322 (2d @ 1dec)
+                u5 : 0.800000011920929 (35 @ 1df1)
+
+                u6 sub-sub-sub-sub-block { (3a @ 1df6)
+
+                    y : -1.0 (0d @ 1df8)
+                    z : 15.0 (15 @ 1dfd)
+				}
+			}
+		}
+
+        component sub-sub-block { (1a @ 1e02)
+
+            component type : Light (0a @ 1e04)
+            number : 103(10 @ 1e0b)
+
+            light sub-sub-sub-block { (412 @ 1e0e)
+
+                u0 : 3(08 @ 1e10)
+                u1 : 2.0 (15 @ 1e12)
+
+                u2 sub-sub-sub-sub-block { (1a @ 1e17)
+
+                    w : 0.6222222447395325 (0d @ 1e19)
+                    x : 0.9355555176734924 (15 @ 1e1e)
+                    y : 0.0 (1d @ 1e23)
+                    z : 1.0 (25 @ 1e28)
+				}
+                u3 : 0.0 (25 @ 1e2d)
+                u4 : 0.00019999999494757503 (2d @ 1e32)
+
+                u5 sub-sub-sub-sub-block { (32 @ 1e37)
+
+                    x : 0.0 (0d @ 1e39)
+                    y : 0.0 (15 @ 1e3e)
+                    z : 0.0 (1d @ 1e43)
+				}
+                u6 : 250.0 (3d @ 1e48)
+			}
+		}
+
+        component sub-sub-block { (1a @ 1e4d)
+
+            component type : FireEmitter (0a @ 1e4f)
+            number : 105(10 @ 1e5c)
+
+            fire emitter sub-sub-sub-block { (7ea @ 1e5f)
+
+                temp0 : 108(08 @ 1e61)
+                temp1 : 103(18 @ 1e63)
+
+                u0 sub-sub-sub-sub-block { (2a @ 1e65)
+
+                    w : 0.3888888955116272 (0d @ 1e67)
+                    x : 0.7888888716697693 (15 @ 1e6c)
+                    y : 0.0 (1d @ 1e71)
+                    z : 0.0 (25 @ 1e76)
+				}
+                u1 : 0.10000000149011612 (35 @ 1e7b)
+                u2 : 0.8999999761581421 (3d @ 1e80)
+
+                u3 sub-sub-sub-sub-block { (42 @ 1e85)
+
+                    x : 2.0 (0d @ 1e87)
+                    y : 0.0 (15 @ 1e8c)
+                    z : 0.0 (1d @ 1e91)
+				}
+
+                u4 sub-sub-sub-sub-block { (4a @ 1e96)
+
+                    x : 0.0 (0d @ 1e98)
+                    y : 15.0 (15 @ 1e9d)
+                    z : 0.0 (1d @ 1ea2)
+				}
+			}
+		}
+
+        component sub-sub-block { (1a @ 1ea7)
+
+            component type : ParticleEmitter (0a @ 1ea9)
+            number : 108(10 @ 1eba)
+
+            particle emitter sub-sub-sub-block { (7d2 @ 1ebd)
+
+                particle : 109(10 @ 1ebf)
+                particle : 111(10 @ 1ec1)
+                particle : 112(10 @ 1ec3)
+                u1 : 0(18 @ 1ec5)
+                u2 : 30(20 @ 1ec7)
+                u3 : 0(28 @ 1ec9)
+                u4 : 0(30 @ 1ecb)
+                u6 : 0(40 @ 1ecd)
+			}
+		}
+
+        component sub-sub-block { (1a @ 1ecf)
+
+            component type : Particle (0a @ 1ed1)
+            number : 109(10 @ 1edb)
+
+            particle sub-sub-sub-block { (7da @ 1ede)
+
+                name : particle_fure_1 (0a @ 1ee0)
+                u0 : 20.0 (15 @ 1ef1)
+			}
+		}
+
+        component sub-sub-block { (1a @ 1ef6)
+
+            component type : Particle (0a @ 1ef8)
+            number : 111(10 @ 1f02)
+
+            particle sub-sub-sub-block { (7da @ 1f05)
+
+                name : particle_fure_2 (0a @ 1f07)
+                u0 : 22.0 (15 @ 1f18)
+			}
+		}
+
+        component sub-sub-block { (1a @ 1f1d)
+
+            component type : Particle (0a @ 1f1f)
+            number : 112(10 @ 1f29)
+
+            particle sub-sub-sub-block { (7da @ 1f2c)
+
+                name : particle_fure_3 (0a @ 1f2e)
+                u0 : 20.0 (15 @ 1f3f)
+			}
+		}
+
+        position sub-sub-block { (22 @ 1f44)
+
+            x position : 0.0 (0d @ 1f46)
+            y position : 0.0 (15 @ 1f4b)
+		}
+        z position : 0.0 (2d @ 1f50)
+        rotation : 0.0 (35 @ 1f55)
+        scale : 1.0 (3d @ 1f5a)
+
+        u0 sub-sub-block { (42 @ 1f5f)
+
+            w : -20.0 (0d @ 1f61)
+            x : -20.0 (15 @ 1f66)
+            y : 40.0 (1d @ 1f6b)
+            z : 40.0 (25 @ 1f70)
+		}
+        hidden : 0(48 @ 1f75)
+	}
+    u0 : 1.0 (15 @ 1f77)
+}
+
+?item block { (12 @ 1f7c)
+
+
+    ?sub-item sub-block { (0a @ 1f7f)
+
+        name : iron fence (12 @ 1f82)
+
+        component sub-sub-block { (1a @ 1f8e)
+
+            component type : Model (0a @ 1f90)
+            number : 101(10 @ 1f97)
+
+            3D model sub-sub-sub-block { (32a @ 1f9a)
+
+                name : ironfence (0a @ 1f9c)
+                u0 : 0.0 (15 @ 1fa7)
+                u1 : 0.0 (1d @ 1fac)
+                u2 : 0.0 (25 @ 1fb1)
+
+                u3 sub-sub-sub-sub-block { (2a @ 1fb6)
+
+                    w : 0.0 (0d @ 1fb8)
+                    x : 0.0 (15 @ 1fbd)
+                    y : 0.0 (1d @ 1fc2)
+                    z : 1.0 (25 @ 1fc7)
+				}
+
+                u4 sub-sub-sub-sub-block { (32 @ 1fcc)
+
+                    x : 0.0 (0d @ 1fce)
+                    y : 0.0 (15 @ 1fd3)
+                    z : 0.0 (1d @ 1fd8)
+				}
+                u5 : 0(38 @ 1fdd)
+
+                u6 sub-sub-sub-sub-block { (42 @ 1fdf)
+
+                    w : 1.0 (0d @ 1fe1)
+                    x : 1.0 (15 @ 1fe6)
+                    y : 1.0 (1d @ 1feb)
+                    z : 1.0 (25 @ 1ff0)
+				}
+			}
+		}
+
+        position sub-sub-block { (22 @ 1ff5)
+
+            x position : 0.0 (0d @ 1ff7)
+            y position : 0.0 (15 @ 1ffc)
+		}
+        z position : 0.0 (2d @ 2001)
+        rotation : 0.0 (35 @ 2006)
+        scale : 1.0 (3d @ 200b)
+
+        u0 sub-sub-block { (42 @ 2010)
+
+            w : 0.0 (0d @ 2012)
+            x : 0.0 (15 @ 2017)
+            y : 0.0 (1d @ 201c)
+            z : 0.0 (25 @ 2021)
+		}
+        hidden : 0(48 @ 2026)
+	}
+    u0 : 1.0 (15 @ 2028)
+}
+
+?item block { (12 @ 202d)
+
+
+    ?sub-item sub-block { (0a @ 2030)
+
+        name : pillair (12 @ 2033)
+
+        component sub-sub-block { (1a @ 203c)
+
+            component type : CollisionShape (0a @ 203f)
+            number : 1(10 @ 204f)
+            ? linked component : 100(20 @ 2051)
+
+            collision shape sub-sub-sub-block { (3c2 @ 2054)
+
+
+                u2 sub-sub-sub-sub-block { (1a @ 2056)
+
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 2058)
+
+                        y : -21.291236877441406 (0d @ 205a)
+                        z : -135.81214904785156 (15 @ 205f)
+					}
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 2064)
+
+                        y : -0.9902420043945312 (0d @ 2066)
+                        z : -135.81214904785156 (15 @ 206b)
+					}
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 2070)
+
+                        y : 19.310752868652344 (0d @ 2072)
+                        z : -135.81214904785156 (15 @ 2077)
+					}
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 207c)
+
+                        y : 25.63330078125 (0d @ 207e)
+                        z : -122.29298400878906 (15 @ 2083)
+					}
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 2088)
+
+                        y : 11.70306396484375 (0d @ 208a)
+                        z : -86.60684204101562 (15 @ 208f)
+					}
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 2094)
+
+                        y : 11.703056335449219 (0d @ 2096)
+                        z : 26.781639099121094 (15 @ 209b)
+					}
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 20a0)
+
+                        y : 11.70306396484375 (0d @ 20a2)
+                        z : 45.25896453857422 (15 @ 20a7)
+					}
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 20ac)
+
+                        y : 11.70306396484375 (0d @ 20ae)
+                        z : 59.3536376953125 (15 @ 20b3)
+					}
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 20b8)
+
+                        y : 12.7298583984375 (0d @ 20ba)
+                        z : 92.69207000732422 (15 @ 20bf)
+					}
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 20c4)
+
+                        y : 25.63330078125 (0d @ 20c6)
+                        z : 120.52831268310547 (15 @ 20cb)
+					}
+                    u3 : 0(10 @ 20d0)
+                    u4 : 0(18 @ 20d2)
+				}
+			}
+
+            collision shape 2 sub-sub-sub-block { (3ca @ 20d5)
+
+                u0 : 1(10 @ 20d7)
+                w : -17.5 (35 @ 20d9)
+                x : 17.5 (3d @ 20de)
+                z : 1(58 @ 20e3)
+			}
+		}
+
+        component sub-sub-block { (1a @ 20e5)
+
+            component type : CollisionShape (0a @ 20e8)
+            number : 2(10 @ 20f8)
+            ? linked component : 100(20 @ 20fa)
+
+            collision shape sub-sub-sub-block { (3c2 @ 20fd)
+
+
+                u2 sub-sub-sub-sub-block { (1a @ 20ff)
+
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 2101)
+
+                        y : 11.70306396484375 (0d @ 2103)
+                        z : 59.3536376953125 (15 @ 2108)
+					}
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 210d)
+
+                        y : 12.7298583984375 (0d @ 210f)
+                        z : 92.69207000732422 (15 @ 2114)
+					}
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 2119)
+
+                        y : 25.63330078125 (0d @ 211b)
+                        z : 120.52831268310547 (15 @ 2120)
+					}
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 2125)
+
+                        y : 19.31072998046875 (0d @ 2127)
+                        z : 135.81216430664062 (15 @ 212c)
+					}
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 2131)
+
+                        y : -0.990234375 (0d @ 2133)
+                        z : 135.81216430664062 (15 @ 2138)
+					}
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 213d)
+
+                        y : -21.291259765625 (0d @ 213f)
+                        z : 135.81216430664062 (15 @ 2144)
+					}
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 2149)
+
+                        y : -25.63330078125 (0d @ 214b)
+                        z : 120.52831268310547 (15 @ 2150)
+					}
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 2155)
+
+                        y : -13.7462158203125 (0d @ 2157)
+                        z : 92.69207000732422 (15 @ 215c)
+					}
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 2161)
+
+                        y : -14.77301025390625 (0d @ 2163)
+                        z : 59.3536376953125 (15 @ 2168)
+					}
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 216d)
+
+                        y : -14.77301025390625 (0d @ 216f)
+                        z : 45.25896453857422 (15 @ 2174)
+					}
+                    u3 : 0(10 @ 2179)
+                    u4 : 0(18 @ 217b)
+				}
+			}
+
+            collision shape 2 sub-sub-sub-block { (3ca @ 217e)
+
+                u0 : 1(10 @ 2180)
+                w : -17.5 (35 @ 2182)
+                x : 17.5 (3d @ 2187)
+                z : 1(58 @ 218c)
+			}
+		}
+
+        component sub-sub-block { (1a @ 218e)
+
+            component type : CollisionShape (0a @ 2191)
+            number : 3(10 @ 21a1)
+            ? linked component : 100(20 @ 21a3)
+
+            collision shape sub-sub-sub-block { (3c2 @ 21a6)
+
+
+                u2 sub-sub-sub-sub-block { (1a @ 21a8)
+
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 21aa)
+
+                        y : -13.7462158203125 (0d @ 21ac)
+                        z : 92.69207000732422 (15 @ 21b1)
+					}
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 21b6)
+
+                        y : -14.77301025390625 (0d @ 21b8)
+                        z : 59.3536376953125 (15 @ 21bd)
+					}
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 21c2)
+
+                        y : -14.77301025390625 (0d @ 21c4)
+                        z : 45.25896453857422 (15 @ 21c9)
+					}
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 21ce)
+
+                        y : -14.773017883300781 (0d @ 21d0)
+                        z : 26.781639099121094 (15 @ 21d5)
+					}
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 21da)
+
+                        y : -14.77301025390625 (0d @ 21dc)
+                        z : -86.60684204101562 (15 @ 21e1)
+					}
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 21e6)
+
+                        y : -25.63330078125 (0d @ 21e8)
+                        z : -122.29298400878906 (15 @ 21ed)
+					}
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 21f2)
+
+                        y : -21.291236877441406 (0d @ 21f4)
+                        z : -135.81214904785156 (15 @ 21f9)
+					}
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 21fe)
+
+                        y : -0.9902420043945312 (0d @ 2200)
+                        z : -135.81214904785156 (15 @ 2205)
+					}
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 220a)
+
+                        y : 19.310752868652344 (0d @ 220c)
+                        z : -135.81214904785156 (15 @ 2211)
+					}
+                    u3 : 0(10 @ 2216)
+                    u4 : 0(18 @ 2218)
+				}
+			}
+
+            collision shape 2 sub-sub-sub-block { (3ca @ 221b)
+
+                u0 : 1(10 @ 221d)
+                w : -17.5 (35 @ 221f)
+                x : 17.5 (3d @ 2224)
+                z : 1(58 @ 2229)
+			}
+		}
+
+        component sub-sub-block { (1a @ 222b)
+
+            component type : GroundPolygon (0a @ 222e)
+            number : 100(10 @ 223d)
+
+            ground polygon sub-sub-sub-block { (372 @ 2240)
+
+
+                 sub-sub-sub-sub-block { (12 @ 2243)
+
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 2246)
+
+                        x : -21.291236877441406 (0d @ 2248)
+                        y : -135.81214904785156 (15 @ 224d)
+					}
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 2252)
+
+                        x : -0.9902420043945312 (0d @ 2254)
+                        y : -135.81214904785156 (15 @ 2259)
+					}
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 225e)
+
+                        x : 19.310752868652344 (0d @ 2260)
+                        y : -135.81214904785156 (15 @ 2265)
+					}
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 226a)
+
+                        x : 25.63330078125 (0d @ 226c)
+                        y : -122.29298400878906 (15 @ 2271)
+					}
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 2276)
+
+                        x : 11.70306396484375 (0d @ 2278)
+                        y : -86.60684204101562 (15 @ 227d)
+					}
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 2282)
+
+                        x : 11.703056335449219 (0d @ 2284)
+                        y : 26.781639099121094 (15 @ 2289)
+					}
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 228e)
+
+                        x : 11.70306396484375 (0d @ 2290)
+                        y : 45.25896453857422 (15 @ 2295)
+					}
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 229a)
+
+                        x : 11.70306396484375 (0d @ 229c)
+                        y : 59.3536376953125 (15 @ 22a1)
+					}
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 22a6)
+
+                        x : 12.7298583984375 (0d @ 22a8)
+                        y : 92.69207000732422 (15 @ 22ad)
+					}
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 22b2)
+
+                        x : 25.63330078125 (0d @ 22b4)
+                        y : 120.52831268310547 (15 @ 22b9)
+					}
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 22be)
+
+                        x : 19.31072998046875 (0d @ 22c0)
+                        y : 135.81216430664062 (15 @ 22c5)
+					}
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 22ca)
+
+                        x : -0.990234375 (0d @ 22cc)
+                        y : 135.81216430664062 (15 @ 22d1)
+					}
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 22d6)
+
+                        x : -21.291259765625 (0d @ 22d8)
+                        y : 135.81216430664062 (15 @ 22dd)
+					}
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 22e2)
+
+                        x : -25.63330078125 (0d @ 22e4)
+                        y : 120.52831268310547 (15 @ 22e9)
+					}
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 22ee)
+
+                        x : -13.7462158203125 (0d @ 22f0)
+                        y : 92.69207000732422 (15 @ 22f5)
+					}
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 22fa)
+
+                        x : -14.77301025390625 (0d @ 22fc)
+                        y : 59.3536376953125 (15 @ 2301)
+					}
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 2306)
+
+                        x : -14.77301025390625 (0d @ 2308)
+                        y : 45.25896453857422 (15 @ 230d)
+					}
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 2312)
+
+                        x : -14.773017883300781 (0d @ 2314)
+                        y : 26.781639099121094 (15 @ 2319)
+					}
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 231e)
+
+                        x : -14.77301025390625 (0d @ 2320)
+                        y : -86.60684204101562 (15 @ 2325)
+					}
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 232a)
+
+                        x : -25.63330078125 (0d @ 232c)
+                        y : -122.29298400878906 (15 @ 2331)
+					}
+                    u0 : 0(10 @ 2336)
+                    u1 : 1(18 @ 2338)
+				}
+                u1 : 1(18 @ 233a)
+                u2 : -17.5 (25 @ 233c)
+                u3 : 17.5 (2d @ 2341)
+                u4 :  (32 @ 2346)
+			}
+		}
+
+        component sub-sub-block { (1a @ 2348)
+
+            component type : GroundMesh (0a @ 234b)
+            number : 101(10 @ 2357)
+
+            ground mesh sub-sub-sub-block { (37a @ 235a)
+
+
+                u0 sub-sub-sub-sub-block { (3a @ 235d)
+
+                    w : -35.63330078125 (0d @ 235f)
+                    x : -145.81214904785156 (15 @ 2364)
+                    y : 71.2666015625 (1d @ 2369)
+                    z : 291.62432861328125 (25 @ 236e)
+				}
+
+                u1 sub-sub-sub-sub-block { (42 @ 2373)
+
+                    u0 : 22(08 @ 2376)
+                    u1 : 20(10 @ 2378)
+
+                    u2 sub-sub-sub-sub-sub-block { (1a @ 237a)
+
+                        u0 : 4(08 @ 237c)
+                        u1 : 1(10 @ 237e)
+                        u2 : 2(18 @ 2380)
+                        u3 : 0(20 @ 2382)
+					}
+
+                    u3 sub-sub-sub-sub-sub-block { (22 @ 2384)
+
+                        u0 : 7(08 @ 2386)
+                        u1 : 3(10 @ 2388)
+                        u2 : 32(18 @ 238a)
+                        u3 : 0(20 @ 238c)
+					}
+
+                    u4 sub-sub-sub-sub-sub-block { (2a @ 238e)
+
+                        u0 : 7(08 @ 2390)
+                        u1 : 3(10 @ 2392)
+                        u2 : 32(18 @ 2394)
+                        u3 : 12(20 @ 2396)
+					}
+
+                    u5 sub-sub-sub-sub-sub-block { (32 @ 2398)
+
+                        u0 : 7(08 @ 239a)
+                        u1 : 2(10 @ 239c)
+                        u2 : 32(18 @ 239e)
+                        u3 : 24(20 @ 23a0)
+					}
+
+                    u6 sub-sub-sub-sub-sub-block { (52 @ 23a2)
+
+
+                        u0 sub-sub-sub-sub-sub-sub-block { (0a @ 23a4)
+
+                            w : 1.0 (0d @ 23a6)
+                            x : 1.0 (15 @ 23ab)
+                            y : 1.0 (1d @ 23b0)
+                            z : 1.0 (25 @ 23b5)
+						}
+
+                        u1 sub-sub-sub-sub-sub-sub-block { (12 @ 23ba)
+
+                            w : 1.0 (0d @ 23bc)
+                            x : 1.0 (15 @ 23c1)
+                            y : 1.0 (1d @ 23c6)
+                            z : 1.0 (25 @ 23cb)
+						}
+
+                        u2 sub-sub-sub-sub-sub-sub-block { (1a @ 23d0)
+
+                            w : 1.0 (0d @ 23d2)
+                            x : 1.0 (15 @ 23d7)
+                            y : 1.0 (1d @ 23dc)
+                            z : 1.0 (25 @ 23e1)
+						}
+                        u3 : 0.0 (25 @ 23e6)
+                        u4 : \n\x0bcrypt_tiles\x10\x01 \x02 (2a @ 23eb)
+					}
+
+                    u7 sub-sub-sub-sub-sub-block { (5a @ 23fe)
+
+                        u : -21.291236877441406 (0d @ 2400)
+                        v : -135.81214904785156 (15 @ 2405)
+                        w : -17.5 (1d @ 240a)
+                        x : 46.924537658691406 (25 @ 240f)
+                        y : 271.62432861328125 (2d @ 2414)
+                        z : 35.0 (35 @ 2419)
+					}
+                    u8 : tT\xaa\xc1\xe9\xcf\x07\xc3\x00\x00\x8cAqB\xf6\xbe\xa3q`\xbf\x00\x00\x00\x00\x00\x00\x00?\x85\xeb\x11?tT\xaa\xc1\xe9\xcf\x07\xc3\x00\x00\x8c\xc1qB\xf6\xbe\xa3q`\xbf\x00\x00\x00\x00\x00\x00\x00?\xf6(\xdc>\x80\x80}\xbf\xe9\xcf\x07\xc3\x00\x00\x8cA\x00\x00\x00\x00\xff\xff\x7f\xbf\x00\x00\x00\x00\xc9\xc9\x14?\x85\xeb\x11?\x80\x80}\xbf\xe9\xcf\x07\xc3\x00\x00\x8c\xc1\x00\x00\x00\x00\xff\xff\x7f\xbf\x00\x00\x00\x00\xc9\xc9\x14?\xf6(\xdc>l|\x9aA\xe9\xcf\x07\xc3\x00\x00\x8cA[\xd0\xe7>\xf8Ad\xbf\x00\x00\x00\x00\x91\x93)?\x85\xeb\x11?l|\x9aA\xe9\xcf\x07\xc3\x00\x00\x8c\xc1[\xd0\xe7>\xf8Ad\xbf\x00\x00\x00\x00\x91\x93)?\xf6(\xdc>\x00\x11\xcdA\x02\x96\xf4\xc2\x00\x00\x8cAx\xfe|?yv\x1c>\x00\x00\x00\x00\xf3\xdb8?\x85\xeb\x11?\x00\x11\xcdA\x02\x96\xf4\xc2\x00\x00\x8c\xc1x\xfe|?yv\x1c>\x00\x00\x00\x00\xf3\xdb8?\xf6(\xdc>\xc0?;A\xb46\xad\xc2\x00\x00\x8cA\xbb\xe3~?x\x8b\xbe=\x00\x00\x00\x00U\x16`?\x85\xeb\x11?\xc0?;A\xb46\xad\xc2\x00\x00\x8c\xc1\xbb\xe3~?x\x8b\xbe=\x00\x00\x00\x00U\x16`?\xf6(\xdc>\xb8?;A\xcc@\xd6A\x00\x00\x8cA\x00\x00\x80?\x00\x00\x00\x00\x00\x00\x00\x008\x19\xaa?\x85\xeb\x11?\xb8?;A\xcc@\xd6A\x00\x00\x8c\xc1\x00\x00\x80?\x00\x00\x00\x00\x00\x00\x00\x008\x19\xaa?\xf6(\xdc>\xc0?;A.\t5B\x00\x00\x8cA\x00\x00\x80?\x1e\x81{\xb4\x00\x00\x00\x00\x14\x8f\xb3?\x85\xeb\x11?\xc0?;A.\t5B\x00\x00\x8c\xc1\x00\x00\x80?\x1e\x81{\xb4\x00\x00\x00\x00\x14\x8f\xb3?\xf6(\xdc>\xc0?;A jmB\x00\x00\x8cA\xa6\xf0\x7f?\xdbJ\xb1\xbc\x00\x00\x00\x00\x7f\xc6\xba?\x85\xeb\x11?\xc0?;A jmB\x00\x00\x8c\xc1\xa6\xf0\x7f?\xdbJ\xb1\xbc\x00\x00\x00\x00\x7f\xc6\xba?\xf6(\xdc>\x80\xadKAWb\xb9B\x00\x00\x8cA:\x9cy?\x84[c\xbe\x00\x00\x00\x00N\xda\xcb?\x85\xeb\x11?\x80\xadKAWb\xb9B\x00\x00\x8c\xc1:\x9cy?\x84[c\xbe\x00\x00\x00\x00N\xda\xcb?\xf6(\xdc>\x00\x11\xcdA\x7f\x0e\xf1B\x00\x00\x8cA\xd9\x11}?\xc2}\x1a\xbe\x00\x00\x00\x00\xcb\x8f\xdb?\x85\xeb\x11?\x00\x11\xcdA\x7f\x0e\xf1B\x00\x00\x8c\xc1\xd9\x11}?\xc2}\x1a\xbe\x00\x00\x00\x00\xcb\x8f\xdb?\xf6(\xdc>`|\x9aA\xea\xcf\x07C\x00\x00\x8cAf\xe8\xfe>T\x04^?\x00\x00\x00\x00\xb8\x07\xe4?\x85\xeb\x11?`|\x9aA\xea\xcf\x07C\x00\x00\x8c\xc1f\xe8\xfe>T\x04^?\x00\x00\x00\x00\xb8\x07\xe4?\xf6(\xdc> (192 @ 241f)
+                    u9 : \x00\x00\x01\x00\x02\x00\x01\x00\x03\x00\x02\x00\x02\x00\x03\x00\x04\x00\x03\x00\x05\x00\x04\x00\x04\x00\x05\x00\x06\x00\x05\x00\x07\x00\x06\x00\x06\x00\x07\x00\x08\x00\x07\x00\t\x00\x08\x00\x08\x00\t\x00\n\x00\t\x00\x0b\x00\n\x00\n\x00\x0b\x00\x0c\x00\x0b\x00\r\x00\x0c\x00\x0c\x00\r\x00\x0e\x00\r\x00\x0f\x00\x0e\x00\x0e\x00\x0f\x00\x10\x00\x0f\x00\x11\x00\x10\x00\x10\x00\x11\x00\x12\x00\x11\x00\x13\x00\x12\x00\x12\x00\x13\x00\x14\x00\x13\x00\x15\x00\x14\x00 (19a @ 26e3)
+				}
+
+                u1 sub-sub-sub-sub-block { (42 @ 275d)
+
+                    u0 : 22(08 @ 2760)
+                    u1 : 20(10 @ 2762)
+
+                    u2 sub-sub-sub-sub-sub-block { (1a @ 2764)
+
+                        u0 : 4(08 @ 2766)
+                        u1 : 1(10 @ 2768)
+                        u2 : 2(18 @ 276a)
+                        u3 : 0(20 @ 276c)
+					}
+
+                    u3 sub-sub-sub-sub-sub-block { (22 @ 276e)
+
+                        u0 : 7(08 @ 2770)
+                        u1 : 3(10 @ 2772)
+                        u2 : 32(18 @ 2774)
+                        u3 : 0(20 @ 2776)
+					}
+
+                    u4 sub-sub-sub-sub-sub-block { (2a @ 2778)
+
+                        u0 : 7(08 @ 277a)
+                        u1 : 3(10 @ 277c)
+                        u2 : 32(18 @ 277e)
+                        u3 : 12(20 @ 2780)
+					}
+
+                    u5 sub-sub-sub-sub-sub-block { (32 @ 2782)
+
+                        u0 : 7(08 @ 2784)
+                        u1 : 2(10 @ 2786)
+                        u2 : 32(18 @ 2788)
+                        u3 : 24(20 @ 278a)
+					}
+
+                    u6 sub-sub-sub-sub-sub-block { (52 @ 278c)
+
+
+                        u0 sub-sub-sub-sub-sub-sub-block { (0a @ 278e)
+
+                            w : 1.0 (0d @ 2790)
+                            x : 1.0 (15 @ 2795)
+                            y : 1.0 (1d @ 279a)
+                            z : 1.0 (25 @ 279f)
+						}
+
+                        u1 sub-sub-sub-sub-sub-sub-block { (12 @ 27a4)
+
+                            w : 1.0 (0d @ 27a6)
+                            x : 1.0 (15 @ 27ab)
+                            y : 1.0 (1d @ 27b0)
+                            z : 1.0 (25 @ 27b5)
+						}
+
+                        u2 sub-sub-sub-sub-sub-sub-block { (1a @ 27ba)
+
+                            w : 1.0 (0d @ 27bc)
+                            x : 1.0 (15 @ 27c1)
+                            y : 1.0 (1d @ 27c6)
+                            z : 1.0 (25 @ 27cb)
+						}
+                        u3 : 0.0 (25 @ 27d0)
+                        u4 : \n\x0bcrypt_tiles\x10\x01 \x02 (2a @ 27d5)
+					}
+
+                    u7 sub-sub-sub-sub-sub-block { (5a @ 27e8)
+
+                        u : -25.63330078125 (0d @ 27ea)
+                        v : -135.81214904785156 (15 @ 27ef)
+                        w : -17.5 (1d @ 27f4)
+                        x : 44.94403076171875 (25 @ 27f9)
+                        y : 271.62432861328125 (2d @ 27fe)
+                        z : 35.0 (35 @ 2803)
+					}
+                    u8 : tT\xaa\xc1\xe9\xcf\x07\xc3\x00\x00\x8cAqB\xf6\xbe\xa3q`\xbf\x00\x00\x00\x00\x00\x00\x00?\x85\xeb\x11?tT\xaa\xc1\xe9\xcf\x07\xc3\x00\x00\x8c\xc1qB\xf6\xbe\xa3q`\xbf\x00\x00\x00\x00\x00\x00\x00?\xf6(\xdc>`|\x9aA\xea\xcf\x07C\x00\x00\x8cAf\xe8\xfe>T\x04^?\x00\x00\x00\x00\xb8\x07\xe4?\x85\xeb\x11?`|\x9aA\xea\xcf\x07C\x00\x00\x8c\xc1f\xe8\xfe>T\x04^?\x00\x00\x00\x00\xb8\x07\xe4?\xf6(\xdc>\x00\x80}\xbf\xea\xcf\x07C\x00\x00\x8cA\x00\x00\x00\x00\xff\xff\x7f?\x00\x00\x00\x00\x9cl\xee?\x85\xeb\x11?\x00\x80}\xbf\xea\xcf\x07C\x00\x00\x8c\xc1\x00\x00\x00\x00\xff\xff\x7f?\x00\x00\x00\x00\x9cl\xee?\xf6(\xdc>\x80T\xaa\xc1\xea\xcf\x07C\x00\x00\x8cA\xed\xed\x06\xbf\x03\x8eY?\x00\x00\x00\x00\x81\xd1\xf8?\x85\xeb\x11?\x80T\xaa\xc1\xea\xcf\x07C\x00\x00\x8c\xc1\xed\xed\x06\xbf\x03\x8eY?\x00\x00\x00\x00\x81\xd1\xf8?\xf6(\xdc>\x00\x11\xcd\xc1\x7f\x0e\xf1B\x00\x00\x8cA5+|\xbf\xd2~0\xbe\x00\x00\x00\x00\x08z\x00@\x85\xeb\x11?\x00\x11\xcd\xc1\x7f\x0e\xf1B\x00\x00\x8c\xc15+|\xbf\xd2~0\xbe\x00\x00\x00\x00\x08z\x00@\xf6(\xdc>\x80\xf0[\xc1Wb\xb9B\x00\x00\x8cA\r\x0f|\xbf\xbd\xfd2\xbe\x00\x00\x00\x00\xaf9\x08@\x85\xeb\x11?\x80\xf0[\xc1Wb\xb9B\x00\x00\x8c\xc1\r\x0f|\xbf\xbd\xfd2\xbe\x00\x00\x00\x00\xaf9\x08@\xf6(\xdc>@^l\xc1 jmB\x00\x00\x8cA\xa6\xf0\x7f\xbf\xdbJ\xb1<\x00\x00\x00\x00\x97\xc3\x10@\x85\xeb\x11?@^l\xc1 jmB\x00\x00\x8c\xc1\xa6\xf0\x7f\xbf\xdbJ\xb1<\x00\x00\x00\x00\x97\xc3\x10@\xf6(\xdc>@^l\xc1.\t5B\x00\x00\x8cA\x00\x00\x80\xbf\x1e\x81{4\x00\x00\x00\x00L_\x14@\x85\xeb\x11?@^l\xc1.\t5B\x00\x00\x8c\xc1\x00\x00\x80\xbf\x1e\x81{4\x00\x00\x00\x00L_\x14@\xf6(\xdc>H^l\xc1\xcc@\xd6A\x00\x00\x8cA\x00\x00\x80\xbf\x00\x00\x00\x00\x00\x00\x00\x00:\x1a\x19@\x85\xeb\x11?H^l\xc1\xcc@\xd6A\x00\x00\x8c\xc1\x00\x00\x80\xbf\x00\x00\x00\x00\x00\x00\x00\x00:\x1a\x19@\xf6(\xdc>@^l\xc1\xb46\xad\xc2\x00\x00\x8cA\xc8R\x7f\xbf\x1f\xce\x94=\x00\x00\x00\x00A!6@\x85\xeb\x11?@^l\xc1\xb46\xad\xc2\x00\x00\x8c\xc1\xc8R\x7f\xbf\x1f\xce\x94=\x00\x00\x00\x00A!6@\xf6(\xdc>\x00\x11\xcd\xc1\x02\x96\xf4\xc2\x00\x00\x8cAp\xc8}\xbfyy\x06>\x00\x00\x00\x00\xe2\xad?@\x85\xeb\x11?\x00\x11\xcd\xc1\x02\x96\xf4\xc2\x00\x00\x8c\xc1p\xc8}\xbfyy\x06>\x00\x00\x00\x00\xe2\xad?@\xf6(\xdc> (192 @ 2809)
+                    u9 : \x02\x00\x03\x00\x04\x00\x03\x00\x05\x00\x04\x00\x04\x00\x05\x00\x06\x00\x05\x00\x07\x00\x06\x00\x06\x00\x07\x00\x08\x00\x07\x00\t\x00\x08\x00\x08\x00\t\x00\n\x00\t\x00\x0b\x00\n\x00\n\x00\x0b\x00\x0c\x00\x0b\x00\r\x00\x0c\x00\x0c\x00\r\x00\x0e\x00\r\x00\x0f\x00\x0e\x00\x0e\x00\x0f\x00\x10\x00\x0f\x00\x11\x00\x10\x00\x10\x00\x11\x00\x12\x00\x11\x00\x13\x00\x12\x00\x12\x00\x13\x00\x14\x00\x13\x00\x15\x00\x14\x00\x14\x00\x15\x00\x00\x00\x15\x00\x01\x00\x00\x00 (19a @ 2acd)
+				}
+
+                u2 sub-sub-sub-sub-block { (4a @ 2b47)
+
+                    u0 : 54(08 @ 2b4a)
+                    u1 : 18(10 @ 2b4c)
+
+                    u2 sub-sub-sub-sub-sub-block { (22 @ 2b4e)
+
+                        u0 : 7(08 @ 2b50)
+                        u1 : 3(10 @ 2b52)
+                        u2 : 32(18 @ 2b54)
+                        u3 : 0(20 @ 2b56)
+					}
+
+                    u3 sub-sub-sub-sub-sub-block { (2a @ 2b58)
+
+                        u0 : 7(08 @ 2b5a)
+                        u1 : 3(10 @ 2b5c)
+                        u2 : 32(18 @ 2b5e)
+                        u3 : 12(20 @ 2b60)
+					}
+
+                    u4 sub-sub-sub-sub-sub-block { (32 @ 2b62)
+
+                        u0 : 7(08 @ 2b64)
+                        u1 : 2(10 @ 2b66)
+                        u2 : 32(18 @ 2b68)
+                        u3 : 24(20 @ 2b6a)
+					}
+
+                    u5 sub-sub-sub-sub-sub-block { (52 @ 2b6c)
+
+
+                        u0 sub-sub-sub-sub-sub-sub-block { (0a @ 2b6e)
+
+                            w : 1.0 (0d @ 2b70)
+                            x : 1.0 (15 @ 2b75)
+                            y : 1.0 (1d @ 2b7a)
+                            z : 1.0 (25 @ 2b7f)
+						}
+
+                        u1 sub-sub-sub-sub-sub-sub-block { (12 @ 2b84)
+
+                            w : 1.0 (0d @ 2b86)
+                            x : 1.0 (15 @ 2b8b)
+                            y : 1.0 (1d @ 2b90)
+                            z : 1.0 (25 @ 2b95)
+						}
+
+                        u2 sub-sub-sub-sub-sub-sub-block { (1a @ 2b9a)
+
+                            w : 1.0 (0d @ 2b9c)
+                            x : 1.0 (15 @ 2ba1)
+                            y : 1.0 (1d @ 2ba6)
+                            z : 1.0 (25 @ 2bab)
+						}
+                        u3 : 0.0 (25 @ 2bb0)
+
+                        u4 sub-sub-sub-sub-sub-sub-block { (2a @ 2bb5)
+
+                            u0 : crypt_tiles (0a @ 2bb7)
+                            u1 : 1(10 @ 2bc4)
+                            u2 : 2(20 @ 2bc6)
+						}
+					}
+
+                    u3 sub-sub-sub-sub-sub-block { (5a @ 2bc8)
+
+                        u : -25.63330078125 (0d @ 2bca)
+                        v : -135.81214904785156 (15 @ 2bcf)
+                        w : 17.5 (1d @ 2bd4)
+                        x : 51.2666015625 (25 @ 2bd9)
+                        y : 271.62432861328125 (2d @ 2bde)
+                        z : 0.0 (35 @ 2be3)
+					}
+                    u7 : @^l\xc1.\t5B\x00\x00\x8cA\x00\x00\x00\x80\x00\x00\x00\x00\x00\x00\x80?\xb0\xbe\xe1>^X.?@^l\xc1\xb46\xad\xc2\x00\x00\x8cA\x00\x00\x00\x80\x00\x00\x00\x00\x00\x00\x80?\xb0\xbe\xe1>%B\x1d>\x80\xf0[\xc1Wb\xb9B\x00\x00\x8cA\x00\x00\x00\x80\x00\x00\x00\x00\x00\x00\x80?\x06\xd9\xe3>\xac\xea^?@^l\xc1 jmB\x00\x00\x8cA\x00\x00\x00\x80\x00\x00\x00\x00\xff\xff\x7f?\xb0\xbe\xe1>3\xc7<?@^l\xc1.\t5B\x00\x00\x8cA\x00\x00\x00\x80\x00\x00\x00\x00\xff\xff\x7f?\xb0\xbe\xe1>^X.?\x80\xf0[\xc1Wb\xb9B\x00\x00\x8cA\x00\x00\x00\x80\x00\x00\x00\x00\xff\xff\x7f?\x06\xd9\xe3>\xac\xea^?@^l\xc1.\t5B\x00\x00\x8cA\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x80?\xb0\xbe\xe1>^X.?H^l\xc1\xcc@\xd6A\x00\x00\x8cA\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x80?\xaf\xbe\xe1>\xa5l\x1b?@^l\xc1\xb46\xad\xc2\x00\x00\x8cA\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x80?\xb0\xbe\xe1>%B\x1d>\x80\x80}\xbf\xe9\xcf\x07\xc3\x00\x00\x8cA\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x80?\xd4\xf8\xfd>q%1\xbd\x80\xf0[\xc1Wb\xb9B\x00\x00\x8cA\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x80?\x06\xd9\xe3>\xac\xea^?@^l\xc1\xb46\xad\xc2\x00\x00\x8cA\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x80?\xb0\xbe\xe1>%B\x1d>\x80\x80}\xbf\xe9\xcf\x07\xc3\x00\x00\x8cA\x00\x00\x00\x00\x00\x00\x00\x00\xff\xff\x7f?\xd4\xf8\xfd>q%1\xbd@^l\xc1\xb46\xad\xc2\x00\x00\x8cA\x00\x00\x00\x00\x00\x00\x00\x00\xff\xff\x7f?\xb0\xbe\xe1>%B\x1d>tT\xaa\xc1\xe9\xcf\x07\xc3\x00\x00\x8cA\x00\x00\x00\x00\x00\x00\x00\x00\xff\xff\x7f?Ce\xd4>q%1\xbd\x80\xf0[\xc1Wb\xb9B\x00\x00\x8cA\x00\x00\x00\x80\x00\x00\x00\x00\x00\x00\x80?\x06\xd9\xe3>\xac\xea^?\x80\x80}\xbf\xe9\xcf\x07\xc3\x00\x00\x8cA\x00\x00\x00\x80\x00\x00\x00\x00\x00\x00\x80?\xd4\xf8\xfd>q%1\xbd\x00\x80}\xbf\xea\xcf\x07C\x00\x00\x8cA\x00\x00\x00\x80\x00\x00\x00\x00\x00\x00\x80?\xd5\xf8\xfd>,\x89\x85?\x80T\xaa\xc1\xea\xcf\x07C\x00\x00\x8cA\x00\x00\x00\x80\x00\x00\x00\x00\x00\x00\x80??e\xd4>,\x89\x85?\x80\xf0[\xc1Wb\xb9B\x00\x00\x8cA\x00\x00\x00\x80\x00\x00\x00\x00\x00\x00\x80?\x06\xd9\xe3>\xac\xea^?\x00\x80}\xbf\xea\xcf\x07C\x00\x00\x8cA\x00\x00\x00\x80\x00\x00\x00\x00\x00\x00\x80?\xd5\xf8\xfd>,\x89\x85?\xc0?;A\xb46\xad\xc2\x00\x00\x8cA\x00\x00\x00\x00\x00\x00\x00\x00\xff\xff\x7f?\xe3\xfb\x0b?%B\x1d>\xb8?;A\xcc@\xd6A\x00\x00\x8cA\x00\x00\x00\x00\x00\x00\x00\x00\xff\xff\x7f?\xe3\xfb\x0b?\xa5l\x1b?\x00\x80}\xbf\xea\xcf\x07C\x00\x00\x8cA\x00\x00\x00\x00\x00\x00\x00\x00\xff\xff\x7f?\xd5\xf8\xfd>,\x89\x85?\xc0?;A\xb46\xad\xc2\x00\x00\x8cA\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x80?\xe3\xfb\x0b?%B\x1d>\x00\x80}\xbf\xea\xcf\x07C\x00\x00\x8cA\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x80?\xd5\xf8\xfd>,\x89\x85?\x80\x80}\xbf\xe9\xcf\x07\xc3\x00\x00\x8cA\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x80?\xd4\xf8\xfd>q%1\xbdl|\x9aA\xe9\xcf\x07\xc3\x00\x00\x8cA\x00\x00\x00\x00\x00\x00\x00\x00\xff\xff\x7f?3\xc6\x13?q%1\xbd\xc0?;A\xb46\xad\xc2\x00\x00\x8cA\x00\x00\x00\x00\x00\x00\x00\x00\xff\xff\x7f?\xe3\xfb\x0b?%B\x1d>\x80\x80}\xbf\xe9\xcf\x07\xc3\x00\x00\x8cA\x00\x00\x00\x00\x00\x00\x00\x00\xff\xff\x7f?\xd4\xf8\xfd>q%1\xbd\x00\x80}\xbf\xea\xcf\x07C\x00\x00\x8cA\x00\x00\x00\x80\x00\x00\x00\x00\x00\x00\x80?\xd5\xf8\xfd>,\x89\x85?\xb8?;A\xcc@\xd6A\x00\x00\x8cA\x00\x00\x00\x80\x00\x00\x00\x00\x00\x00\x80?\xe3\xfb\x0b?\xa5l\x1b?\xc0?;A jmB\x00\x00\x8cA\x00\x00\x00\x80\x00\x00\x00\x00\x00\x00\x80?\xe3\xfb\x0b?3\xc7<?\x00\x80}\xbf\xea\xcf\x07C\x00\x00\x8cA\x00\x00\x00\x80\x00\x00\x00\x00\xff\xff\x7f?\xd5\xf8\xfd>,\x89\x85?\xc0?;A jmB\x00\x00\x8cA\x00\x00\x00\x80\x00\x00\x00\x00\xff\xff\x7f?\xe3\xfb\x0b?3\xc7<?\x80\xadKAWb\xb9B\x00\x00\x8cA\x00\x00\x00\x80\x00\x00\x00\x00\xff\xff\x7f?\x0e\t\r?\xac\xea^?\x00\x80}\xbf\xea\xcf\x07C\x00\x00\x8cA\x00\x00\x00\x80\x00\x00\x00\x00\x00\x00\x80?\xd5\xf8\xfd>,\x89\x85?\x80\xadKAWb\xb9B\x00\x00\x8cA\x00\x00\x00\x80\x00\x00\x00\x00\x00\x00\x80?\x0e\t\r?\xac\xea^?`|\x9aA\xea\xcf\x07C\x00\x00\x8cA\x00\x00\x00\x80\x00\x00\x00\x00\x00\x00\x80?1\xc6\x13?,\x89\x85?l|\x9aA\xe9\xcf\x07\xc3\x00\x00\x8cA\x00\x00\x00\x00\x00\x00\x00\x80\x00\x00\x80?3\xc6\x13?q%1\xbd\x00\x11\xcdA\x02\x96\xf4\xc2\x00\x00\x8cA\x00\x00\x00\x00\x00\x00\x00\x80\x00\x00\x80?\x9e?\x1a?1h1<\xc0?;A\xb46\xad\xc2\x00\x00\x8cA\x00\x00\x00\x00\x00\x00\x00\x80\x00\x00\x80?\xe3\xfb\x0b?%B\x1d>\xb8?;A\xcc@\xd6A\x00\x00\x8cA\x00\x00\x00\x00\x00\x00\x00\x00\xff\xff\x7f?\xe3\xfb\x0b?\xa5l\x1b?\xc0?;A.\t5B\x00\x00\x8cA\x00\x00\x00\x00\x00\x00\x00\x00\xff\xff\x7f?\xe3\xfb\x0b?^X.?\xc0?;A jmB\x00\x00\x8cA\x00\x00\x00\x00\x00\x00\x00\x00\xff\xff\x7f?\xe3\xfb\x0b?3\xc7<?\x80\xadKAWb\xb9B\x00\x00\x8cA\x00\x00\x00\x00\x00\x00\x00\x80\x00\x00\x80?\x0e\t\r?\xac\xea^?\x00\x11\xcdA\x7f\x0e\xf1B\x00\x00\x8cA\x00\x00\x00\x00\x00\x00\x00\x80\x00\x00\x80?\x9e?\x1a?\xc6k{?`|\x9aA\xea\xcf\x07C\x00\x00\x8cA\x00\x00\x00\x00\x00\x00\x00\x80\x00\x00\x80?1\xc6\x13?,\x89\x85?\x80T\xaa\xc1\xea\xcf\x07C\x00\x00\x8cA\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x80??e\xd4>,\x89\x85?\x00\x11\xcd\xc1\x7f\x0e\xf1B\x00\x00\x8cA\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x80?\xc5\x80\xcb>\xc6k{?\x80\xf0[\xc1Wb\xb9B\x00\x00\x8cA\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x80?\x06\xd9\xe3>\xac\xea^?@^l\xc1\xb46\xad\xc2\x00\x00\x8cA\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x80?\xb0\xbe\xe1>%B\x1d>\x00\x11\xcd\xc1\x02\x96\xf4\xc2\x00\x00\x8cA\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x80?\xc5\x80\xcb>1h1<tT\xaa\xc1\xe9\xcf\x07\xc3\x00\x00\x8cA\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x80?Ce\xd4>q%1\xbd (192 @ 2be9)
+				}
+
+                u3 sub-sub-sub-sub-block { (52 @ 32ac)
+
+                    w : 0.5666666626930237 (0d @ 32ae)
+                    x : 0.5777778029441833 (15 @ 32b3)
+                    y : 0.5666666626930237 (1d @ 32b8)
+                    z : 1.0 (25 @ 32bd)
+				}
+			}
+		}
+
+        component sub-sub-block { (1a @ 32c2)
+
+            component type : GroundMeshGenerator (0a @ 32c4)
+            number : 102(10 @ 32d9)
+
+            ground mesh generator sub-sub-sub-block { (382 @ 32dc)
+
+                ground polygon : 100(08 @ 32de)
+                ground mesh : 101(10 @ 32e0)
+                texture mapping 1 : 103(18 @ 32e2)
+                texture mapping 2 : 104(20 @ 32e4)
+                u4 : 0(28 @ 32e6)
+                u5 : 0.0 (35 @ 32e8)
+                u6 : 0(38 @ 32ed)
+                u7 : 35.0 (45 @ 32ef)
+                u8 : 25.0 (4d @ 32f4)
+                u9 : 5.0 (55 @ 32f9)
+                u10 : 5.0 (5d @ 32fe)
+			}
+		}
+
+        component sub-sub-block { (1a @ 3303)
+
+            component type : TextureMapping (0a @ 3305)
+            number : 103(10 @ 3315)
+
+            texture mapping sub-sub-sub-block { (38a @ 3318)
+
+                texture file : crypt_tiles (0a @ 331a)
+                u0 : 250.0 (15 @ 3327)
+
+                u0 sub-sub-sub-sub-block { (1a @ 332c)
+
+                    u1 : 0.0 (0d @ 332e)
+                    u2 : 0.0 (15 @ 3333)
+				}
+			}
+		}
+
+        component sub-sub-block { (1a @ 3338)
+
+            component type : TextureMapping (0a @ 333a)
+            number : 104(10 @ 334a)
+
+            texture mapping sub-sub-sub-block { (38a @ 334d)
+
+                texture file : crypt_tiles (0a @ 334f)
+                u0 : 250.0 (15 @ 335c)
+
+                u0 sub-sub-sub-sub-block { (1a @ 3361)
+
+                    u1 : 0.0 (0d @ 3363)
+                    u2 : 0.0 (15 @ 3368)
+				}
+			}
+		}
+
+        position sub-sub-block { (22 @ 336d)
+
+            x position : 0.0 (0d @ 336f)
+            y position : 0.0 (15 @ 3374)
+		}
+        z position : 0.0 (2d @ 3379)
+        rotation : 0.0 (35 @ 337e)
+        scale : 1.0 (3d @ 3383)
+
+        u0 sub-sub-block { (42 @ 3388)
+
+            w : -25.63330078125 (0d @ 338a)
+            x : -135.81214904785156 (15 @ 338f)
+            y : 51.2666015625 (1d @ 3394)
+            z : 271.62432861328125 (25 @ 3399)
+		}
+        hidden : 0(48 @ 339e)
+	}
+    u0 : 1.0 (15 @ 33a0)
+}
+
+?item block { (12 @ 33a5)
+
+
+    ?sub-item sub-block { (0a @ 33a8)
+
+        name : tombstone (12 @ 33ab)
+
+        component sub-sub-block { (1a @ 33b6)
+
+            component type : Model (0a @ 33b8)
+            number : 101(10 @ 33bf)
+
+            3D model sub-sub-sub-block { (32a @ 33c2)
+
+                name : tombstone1 (0a @ 33c4)
+                u0 : 0.0 (15 @ 33d0)
+                u1 : 0.0 (1d @ 33d5)
+                u2 : 0.0 (25 @ 33da)
+
+                u3 sub-sub-sub-sub-block { (2a @ 33df)
+
+                    w : 0.0 (0d @ 33e1)
+                    x : 0.0 (15 @ 33e6)
+                    y : 0.0 (1d @ 33eb)
+                    z : 1.0 (25 @ 33f0)
+				}
+
+                u4 sub-sub-sub-sub-block { (32 @ 33f5)
+
+                    x : 0.0 (0d @ 33f7)
+                    y : 0.0 (15 @ 33fc)
+                    z : 0.0 (1d @ 3401)
+				}
+                u5 : 0(38 @ 3406)
+
+                u6 sub-sub-sub-sub-block { (42 @ 3408)
+
+                    w : 1.0 (0d @ 340a)
+                    x : 1.0 (15 @ 340f)
+                    y : 1.0 (1d @ 3414)
+                    z : 1.0 (25 @ 3419)
+				}
+			}
+		}
+
+        position sub-sub-block { (22 @ 341e)
+
+            x position : 0.0 (0d @ 3420)
+            y position : 0.0 (15 @ 3425)
+		}
+        z position : 0.0 (2d @ 342a)
+        rotation : 0.0 (35 @ 342f)
+        scale : 1.0 (3d @ 3434)
+
+        u0 sub-sub-block { (42 @ 3439)
+
+            w : 0.0 (0d @ 343b)
+            x : 0.0 (15 @ 3440)
+            y : 0.0 (1d @ 3445)
+            z : 0.0 (25 @ 344a)
+		}
+        hidden : 0(48 @ 344f)
+	}
+    u0 : 1.2999999523162842 (15 @ 3451)
+}
+
+?item block { (12 @ 3456)
+
+
+    ?sub-item sub-block { (0a @ 3459)
+
+        name : tombstone_small (12 @ 345c)
+
+        component sub-sub-block { (1a @ 346d)
+
+            component type : Model (0a @ 346f)
+            number : 101(10 @ 3476)
+
+            3D model sub-sub-sub-block { (32a @ 3479)
+
+                name : tombstone1 (0a @ 347b)
+                u0 : 0.0 (15 @ 3487)
+                u1 : 0.0 (1d @ 348c)
+                u2 : 0.0 (25 @ 3491)
+
+                u3 sub-sub-sub-sub-block { (2a @ 3496)
+
+                    w : 0.0 (0d @ 3498)
+                    x : 0.0 (15 @ 349d)
+                    y : 0.0 (1d @ 34a2)
+                    z : 1.0 (25 @ 34a7)
+				}
+
+                u4 sub-sub-sub-sub-block { (32 @ 34ac)
+
+                    x : 0.0 (0d @ 34ae)
+                    y : 0.0 (15 @ 34b3)
+                    z : 0.0 (1d @ 34b8)
+				}
+                u5 : 0(38 @ 34bd)
+
+                u6 sub-sub-sub-sub-block { (42 @ 34bf)
+
+                    w : 1.0 (0d @ 34c1)
+                    x : 1.0 (15 @ 34c6)
+                    y : 1.0 (1d @ 34cb)
+                    z : 1.0 (25 @ 34d0)
+				}
+			}
+		}
+
+        position sub-sub-block { (22 @ 34d5)
+
+            x position : 0.0 (0d @ 34d7)
+            y position : 0.0 (15 @ 34dc)
+		}
+        z position : 0.0 (2d @ 34e1)
+        rotation : 0.0 (35 @ 34e6)
+        scale : 1.0 (3d @ 34eb)
+
+        u0 sub-sub-block { (42 @ 34f0)
+
+            w : 0.0 (0d @ 34f2)
+            x : 0.0 (15 @ 34f7)
+            y : 0.0 (1d @ 34fc)
+            z : 0.0 (25 @ 3501)
+		}
+        hidden : 0(48 @ 3506)
+	}
+    u0 : 1.0 (15 @ 3508)
+}

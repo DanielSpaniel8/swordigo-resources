@@ -1,0 +1,1392 @@
+scl file name : grovestuff (0a @ 1)
+
+?item block { (12 @ d)
+
+
+    ?sub-item sub-block { (0a @ 10)
+
+        name : grove_gate (12 @ 13)
+
+        component sub-sub-block { (1a @ 1f)
+
+            component type : Model (0a @ 21)
+            number : 101(10 @ 28)
+
+            3D model sub-sub-sub-block { (32a @ 2b)
+
+                name : grove_gate (0a @ 2d)
+                u0 : 1.5707963705062866 (15 @ 39)
+                u1 : 0.0 (1d @ 3e)
+                u2 : 0.0 (25 @ 43)
+
+                u3 sub-sub-sub-sub-block { (2a @ 48)
+
+                    w : 0.0 (0d @ 4a)
+                    x : 0.0 (15 @ 4f)
+                    y : 0.0 (1d @ 54)
+                    z : 1.0 (25 @ 59)
+				}
+
+                u4 sub-sub-sub-sub-block { (32 @ 5e)
+
+                    x : 0.0 (0d @ 60)
+                    y : 0.0 (15 @ 65)
+                    z : 0.0 (1d @ 6a)
+				}
+                u5 : 0(38 @ 6f)
+
+                u6 sub-sub-sub-sub-block { (42 @ 71)
+
+                    w : 1.0 (0d @ 73)
+                    x : 1.0 (15 @ 78)
+                    y : 1.0 (1d @ 7d)
+                    z : 1.0 (25 @ 82)
+				}
+			}
+		}
+
+        position sub-sub-block { (22 @ 87)
+
+            x position : 0.0 (0d @ 89)
+            y position : 0.0 (15 @ 8e)
+		}
+        z position : 0.0 (2d @ 93)
+        rotation : 0.0 (35 @ 98)
+        scale : 1.0 (3d @ 9d)
+
+        u0 sub-sub-block { (42 @ a2)
+
+            w : 0.0 (0d @ a4)
+            x : 0.0 (15 @ a9)
+            y : 0.0 (1d @ ae)
+            z : 0.0 (25 @ b3)
+		}
+        hidden : 0(48 @ b8)
+	}
+    u0 : 1.0 (15 @ ba)
+}
+
+?item block { (12 @ bf)
+
+
+    ?sub-item sub-block { (0a @ c2)
+
+        name : grove_hang1 (12 @ c5)
+
+        component sub-sub-block { (1a @ d2)
+
+            component type : Model (0a @ d4)
+            number : 101(10 @ db)
+
+            3D model sub-sub-sub-block { (32a @ de)
+
+                name : grove_hang1 (0a @ e0)
+                u0 : 0.0 (15 @ ed)
+                u1 : 0.0 (1d @ f2)
+                u2 : 0.0 (25 @ f7)
+
+                u3 sub-sub-sub-sub-block { (2a @ fc)
+
+                    w : 0.0 (0d @ fe)
+                    x : 0.0 (15 @ 103)
+                    y : 0.0 (1d @ 108)
+                    z : 1.0 (25 @ 10d)
+				}
+
+                u4 sub-sub-sub-sub-block { (32 @ 112)
+
+                    x : 0.0 (0d @ 114)
+                    y : 0.0 (15 @ 119)
+                    z : 0.0 (1d @ 11e)
+				}
+                u5 : 0(38 @ 123)
+
+                u6 sub-sub-sub-sub-block { (42 @ 125)
+
+                    w : 1.0 (0d @ 127)
+                    x : 1.0 (15 @ 12c)
+                    y : 1.0 (1d @ 131)
+                    z : 1.0 (25 @ 136)
+				}
+			}
+		}
+
+        position sub-sub-block { (22 @ 13b)
+
+            x position : 0.0 (0d @ 13d)
+            y position : 0.0 (15 @ 142)
+		}
+        z position : 0.0 (2d @ 147)
+        rotation : 0.0 (35 @ 14c)
+        scale : 1.0 (3d @ 151)
+
+        u0 sub-sub-block { (42 @ 156)
+
+            w : 0.0 (0d @ 158)
+            x : 0.0 (15 @ 15d)
+            y : 0.0 (1d @ 162)
+            z : 0.0 (25 @ 167)
+		}
+        hidden : 0(48 @ 16c)
+	}
+    u0 : 1.0 (15 @ 16e)
+}
+
+?item block { (12 @ 173)
+
+
+    ?sub-item sub-block { (0a @ 176)
+
+        name : grove_hang2 (12 @ 179)
+
+        component sub-sub-block { (1a @ 186)
+
+            component type : Model (0a @ 188)
+            number : 101(10 @ 18f)
+
+            3D model sub-sub-sub-block { (32a @ 192)
+
+                name : grove_hang2 (0a @ 194)
+                u0 : 0.0 (15 @ 1a1)
+                u1 : 0.0 (1d @ 1a6)
+                u2 : 0.0 (25 @ 1ab)
+
+                u3 sub-sub-sub-sub-block { (2a @ 1b0)
+
+                    w : 0.0 (0d @ 1b2)
+                    x : 0.0 (15 @ 1b7)
+                    y : 0.0 (1d @ 1bc)
+                    z : 1.0 (25 @ 1c1)
+				}
+
+                u4 sub-sub-sub-sub-block { (32 @ 1c6)
+
+                    x : 0.0 (0d @ 1c8)
+                    y : 0.0 (15 @ 1cd)
+                    z : 0.0 (1d @ 1d2)
+				}
+                u5 : 0(38 @ 1d7)
+
+                u6 sub-sub-sub-sub-block { (42 @ 1d9)
+
+                    w : 1.0 (0d @ 1db)
+                    x : 1.0 (15 @ 1e0)
+                    y : 1.0 (1d @ 1e5)
+                    z : 1.0 (25 @ 1ea)
+				}
+			}
+		}
+
+        position sub-sub-block { (22 @ 1ef)
+
+            x position : 0.0 (0d @ 1f1)
+            y position : 0.0 (15 @ 1f6)
+		}
+        z position : 0.0 (2d @ 1fb)
+        rotation : 0.0 (35 @ 200)
+        scale : 1.0 (3d @ 205)
+
+        u0 sub-sub-block { (42 @ 20a)
+
+            w : 0.0 (0d @ 20c)
+            x : 0.0 (15 @ 211)
+            y : 0.0 (1d @ 216)
+            z : 0.0 (25 @ 21b)
+		}
+        hidden : 0(48 @ 220)
+	}
+    u0 : 1.0 (15 @ 222)
+}
+
+?item block { (12 @ 227)
+
+
+    ?sub-item sub-block { (0a @ 22a)
+
+        name : grove_hang3 (12 @ 22d)
+
+        component sub-sub-block { (1a @ 23a)
+
+            component type : Model (0a @ 23c)
+            number : 101(10 @ 243)
+
+            3D model sub-sub-sub-block { (32a @ 246)
+
+                name : grove_hang3 (0a @ 248)
+                u0 : 0.0 (15 @ 255)
+                u1 : 0.0 (1d @ 25a)
+                u2 : 0.0 (25 @ 25f)
+
+                u3 sub-sub-sub-sub-block { (2a @ 264)
+
+                    w : 0.0 (0d @ 266)
+                    x : 0.0 (15 @ 26b)
+                    y : 0.0 (1d @ 270)
+                    z : 1.0 (25 @ 275)
+				}
+
+                u4 sub-sub-sub-sub-block { (32 @ 27a)
+
+                    x : 0.0 (0d @ 27c)
+                    y : 0.0 (15 @ 281)
+                    z : 0.0 (1d @ 286)
+				}
+                u5 : 0(38 @ 28b)
+
+                u6 sub-sub-sub-sub-block { (42 @ 28d)
+
+                    w : 1.0 (0d @ 28f)
+                    x : 1.0 (15 @ 294)
+                    y : 1.0 (1d @ 299)
+                    z : 1.0 (25 @ 29e)
+				}
+			}
+		}
+
+        position sub-sub-block { (22 @ 2a3)
+
+            x position : 0.0 (0d @ 2a5)
+            y position : 0.0 (15 @ 2aa)
+		}
+        z position : 0.0 (2d @ 2af)
+        rotation : 0.0 (35 @ 2b4)
+        scale : 1.0 (3d @ 2b9)
+
+        u0 sub-sub-block { (42 @ 2be)
+
+            w : 0.0 (0d @ 2c0)
+            x : 0.0 (15 @ 2c5)
+            y : 0.0 (1d @ 2ca)
+            z : 0.0 (25 @ 2cf)
+		}
+        hidden : 0(48 @ 2d4)
+	}
+    u0 : 1.0 (15 @ 2d6)
+}
+
+?item block { (12 @ 2db)
+
+
+    ?sub-item sub-block { (0a @ 2de)
+
+        name : grove_hang4 (12 @ 2e1)
+
+        component sub-sub-block { (1a @ 2ee)
+
+            component type : Model (0a @ 2f0)
+            number : 101(10 @ 2f7)
+
+            3D model sub-sub-sub-block { (32a @ 2fa)
+
+                name : grove_hang4 (0a @ 2fc)
+                u0 : 0.0 (15 @ 309)
+                u1 : 0.0 (1d @ 30e)
+                u2 : 0.0 (25 @ 313)
+
+                u3 sub-sub-sub-sub-block { (2a @ 318)
+
+                    w : 0.0 (0d @ 31a)
+                    x : 0.0 (15 @ 31f)
+                    y : 0.0 (1d @ 324)
+                    z : 1.0 (25 @ 329)
+				}
+
+                u4 sub-sub-sub-sub-block { (32 @ 32e)
+
+                    x : 0.0 (0d @ 330)
+                    y : 0.0 (15 @ 335)
+                    z : 0.0 (1d @ 33a)
+				}
+                u5 : 0(38 @ 33f)
+
+                u6 sub-sub-sub-sub-block { (42 @ 341)
+
+                    w : 1.0 (0d @ 343)
+                    x : 1.0 (15 @ 348)
+                    y : 1.0 (1d @ 34d)
+                    z : 1.0 (25 @ 352)
+				}
+			}
+		}
+
+        position sub-sub-block { (22 @ 357)
+
+            x position : 0.0 (0d @ 359)
+            y position : 0.0 (15 @ 35e)
+		}
+        z position : 0.0 (2d @ 363)
+        rotation : 0.0 (35 @ 368)
+        scale : 1.0 (3d @ 36d)
+
+        u0 sub-sub-block { (42 @ 372)
+
+            w : 0.0 (0d @ 374)
+            x : 0.0 (15 @ 379)
+            y : 0.0 (1d @ 37e)
+            z : 0.0 (25 @ 383)
+		}
+        hidden : 0(48 @ 388)
+	}
+    u0 : 1.0 (15 @ 38a)
+}
+
+?item block { (12 @ 38f)
+
+
+    ?sub-item sub-block { (0a @ 392)
+
+        name : grove_hang5 (12 @ 395)
+
+        component sub-sub-block { (1a @ 3a2)
+
+            component type : Model (0a @ 3a4)
+            number : 101(10 @ 3ab)
+
+            3D model sub-sub-sub-block { (32a @ 3ae)
+
+                name : grove_hang5 (0a @ 3b0)
+                u0 : 0.0 (15 @ 3bd)
+                u1 : 0.0 (1d @ 3c2)
+                u2 : 0.0 (25 @ 3c7)
+
+                u3 sub-sub-sub-sub-block { (2a @ 3cc)
+
+                    w : 0.0 (0d @ 3ce)
+                    x : 0.0 (15 @ 3d3)
+                    y : 0.0 (1d @ 3d8)
+                    z : 1.0 (25 @ 3dd)
+				}
+
+                u4 sub-sub-sub-sub-block { (32 @ 3e2)
+
+                    x : 0.0 (0d @ 3e4)
+                    y : 0.0 (15 @ 3e9)
+                    z : 0.0 (1d @ 3ee)
+				}
+                u5 : 0(38 @ 3f3)
+
+                u6 sub-sub-sub-sub-block { (42 @ 3f5)
+
+                    w : 1.0 (0d @ 3f7)
+                    x : 1.0 (15 @ 3fc)
+                    y : 1.0 (1d @ 401)
+                    z : 1.0 (25 @ 406)
+				}
+			}
+		}
+
+        position sub-sub-block { (22 @ 40b)
+
+            x position : 0.0 (0d @ 40d)
+            y position : 0.0 (15 @ 412)
+		}
+        z position : 0.0 (2d @ 417)
+        rotation : 0.0 (35 @ 41c)
+        scale : 1.0 (3d @ 421)
+
+        u0 sub-sub-block { (42 @ 426)
+
+            w : 0.0 (0d @ 428)
+            x : 0.0 (15 @ 42d)
+            y : 0.0 (1d @ 432)
+            z : 0.0 (25 @ 437)
+		}
+        hidden : 0(48 @ 43c)
+	}
+    u0 : 1.0 (15 @ 43e)
+}
+
+?item block { (12 @ 443)
+
+
+    ?sub-item sub-block { (0a @ 446)
+
+        name : grove_platform1 (12 @ 449)
+
+        component sub-sub-block { (1a @ 45a)
+
+            component type : CollisionShape (0a @ 45c)
+            number : 1(10 @ 46c)
+            ? linked component : 102(20 @ 46e)
+
+            collision shape sub-sub-sub-block { (3c2 @ 471)
+
+
+                u2 sub-sub-sub-sub-block { (1a @ 473)
+
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 475)
+
+                        y : -114.240478515625 (0d @ 477)
+                        z : 19.92254638671875 (15 @ 47c)
+					}
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 481)
+
+                        y : 180.8839569091797 (0d @ 483)
+                        z : 17.58331298828125 (15 @ 488)
+					}
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 48d)
+
+                        y : 180.7890625 (0d @ 48f)
+                        z : 34.1312255859375 (15 @ 494)
+					}
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 499)
+
+                        y : -117.36463928222656 (0d @ 49b)
+                        z : 39.16119384765625 (15 @ 4a0)
+					}
+                    u3 : 0(10 @ 4a5)
+                    u4 : 1(18 @ 4a7)
+				}
+			}
+
+            collision shape 2 sub-sub-sub-block { (3ca @ 4aa)
+
+                u0 : 1(10 @ 4ac)
+                w : -50.0 (35 @ 4ae)
+                x : 50.0 (3d @ 4b3)
+                z : 1(58 @ 4b8)
+			}
+		}
+
+        component sub-sub-block { (1a @ 4ba)
+
+            component type : Model (0a @ 4bc)
+            number : 101(10 @ 4c3)
+
+            3D model sub-sub-sub-block { (32a @ 4c6)
+
+                name : grove_platform1 (0a @ 4c8)
+                u0 : 0.0 (15 @ 4d9)
+                u1 : 0.0 (1d @ 4de)
+                u2 : 0.0 (25 @ 4e3)
+
+                u3 sub-sub-sub-sub-block { (2a @ 4e8)
+
+                    w : 0.0 (0d @ 4ea)
+                    x : 0.0 (15 @ 4ef)
+                    y : 0.0 (1d @ 4f4)
+                    z : 1.0 (25 @ 4f9)
+				}
+
+                u4 sub-sub-sub-sub-block { (32 @ 4fe)
+
+                    x : 0.0 (0d @ 500)
+                    y : 0.0 (15 @ 505)
+                    z : 0.0 (1d @ 50a)
+				}
+                u5 : 0(38 @ 50f)
+
+                u6 sub-sub-sub-sub-block { (42 @ 511)
+
+                    w : 1.0 (0d @ 513)
+                    x : 1.0 (15 @ 518)
+                    y : 1.0 (1d @ 51d)
+                    z : 1.0 (25 @ 522)
+				}
+			}
+		}
+
+        component sub-sub-block { (1a @ 527)
+
+            component type : GroundPolygon (0a @ 529)
+            number : 102(10 @ 538)
+
+            ground polygon sub-sub-sub-block { (372 @ 53b)
+
+
+                 sub-sub-sub-sub-block { (12 @ 53d)
+
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 53f)
+
+                        x : -114.240478515625 (0d @ 541)
+                        y : 19.92254638671875 (15 @ 546)
+					}
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 54b)
+
+                        x : 180.8839569091797 (0d @ 54d)
+                        y : 17.58331298828125 (15 @ 552)
+					}
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 557)
+
+                        x : 180.7890625 (0d @ 559)
+                        y : 34.1312255859375 (15 @ 55e)
+					}
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 563)
+
+                        x : -117.36463928222656 (0d @ 565)
+                        y : 39.16119384765625 (15 @ 56a)
+					}
+                    u0 : 0(10 @ 56f)
+                    u1 : 1(18 @ 571)
+				}
+                u1 : 1(18 @ 573)
+                u2 : -50.0 (25 @ 575)
+                u3 : 50.0 (2d @ 57a)
+                u4 :  (32 @ 57f)
+			}
+		}
+
+        position sub-sub-block { (22 @ 581)
+
+            x position : 0.0 (0d @ 583)
+            y position : 0.0 (15 @ 588)
+		}
+        z position : 0.0 (2d @ 58d)
+        rotation : 0.0 (35 @ 592)
+        scale : 1.0 (3d @ 597)
+
+        u0 sub-sub-block { (42 @ 59c)
+
+            w : -117.36463928222656 (0d @ 59e)
+            x : 0.0 (15 @ 5a3)
+            y : 298.24859619140625 (1d @ 5a8)
+            z : 39.16119384765625 (25 @ 5ad)
+		}
+        hidden : 0(48 @ 5b2)
+	}
+    u0 : 1.0 (15 @ 5b4)
+}
+
+?item block { (12 @ 5b9)
+
+
+    ?sub-item sub-block { (0a @ 5bc)
+
+        name : grove_pole1 (12 @ 5bf)
+
+        component sub-sub-block { (1a @ 5cc)
+
+            component type : Model (0a @ 5ce)
+            number : 101(10 @ 5d5)
+
+            3D model sub-sub-sub-block { (32a @ 5d8)
+
+                name : grove_pole1 (0a @ 5da)
+                u0 : 0.0 (15 @ 5e7)
+                u1 : 0.0 (1d @ 5ec)
+                u2 : 0.0 (25 @ 5f1)
+
+                u3 sub-sub-sub-sub-block { (2a @ 5f6)
+
+                    w : 0.0 (0d @ 5f8)
+                    x : 0.0 (15 @ 5fd)
+                    y : 0.0 (1d @ 602)
+                    z : 1.0 (25 @ 607)
+				}
+
+                u4 sub-sub-sub-sub-block { (32 @ 60c)
+
+                    x : 0.0 (0d @ 60e)
+                    y : 0.0 (15 @ 613)
+                    z : 0.0 (1d @ 618)
+				}
+                u5 : 0(38 @ 61d)
+
+                u6 sub-sub-sub-sub-block { (42 @ 61f)
+
+                    w : 1.0 (0d @ 621)
+                    x : 1.0 (15 @ 626)
+                    y : 1.0 (1d @ 62b)
+                    z : 1.0 (25 @ 630)
+				}
+			}
+		}
+
+        position sub-sub-block { (22 @ 635)
+
+            x position : 0.0 (0d @ 637)
+            y position : 0.0 (15 @ 63c)
+		}
+        z position : 0.0 (2d @ 641)
+        rotation : 0.0 (35 @ 646)
+        scale : 1.0 (3d @ 64b)
+
+        u0 sub-sub-block { (42 @ 650)
+
+            w : 0.0 (0d @ 652)
+            x : 0.0 (15 @ 657)
+            y : 0.0 (1d @ 65c)
+            z : 0.0 (25 @ 661)
+		}
+        hidden : 0(48 @ 666)
+	}
+    u0 : 1.0 (15 @ 668)
+}
+
+?item block { (12 @ 66d)
+
+
+    ?sub-item sub-block { (0a @ 670)
+
+        name : grove_pole2 (12 @ 673)
+
+        component sub-sub-block { (1a @ 680)
+
+            component type : Model (0a @ 682)
+            number : 101(10 @ 689)
+
+            3D model sub-sub-sub-block { (32a @ 68c)
+
+                name : grove_pole2 (0a @ 68e)
+                u0 : 0.0 (15 @ 69b)
+                u1 : 0.0 (1d @ 6a0)
+                u2 : 0.0 (25 @ 6a5)
+
+                u3 sub-sub-sub-sub-block { (2a @ 6aa)
+
+                    w : 0.0 (0d @ 6ac)
+                    x : 0.0 (15 @ 6b1)
+                    y : 0.0 (1d @ 6b6)
+                    z : 1.0 (25 @ 6bb)
+				}
+
+                u4 sub-sub-sub-sub-block { (32 @ 6c0)
+
+                    x : 0.0 (0d @ 6c2)
+                    y : 0.0 (15 @ 6c7)
+                    z : 0.0 (1d @ 6cc)
+				}
+                u5 : 0(38 @ 6d1)
+
+                u6 sub-sub-sub-sub-block { (42 @ 6d3)
+
+                    w : 1.0 (0d @ 6d5)
+                    x : 1.0 (15 @ 6da)
+                    y : 1.0 (1d @ 6df)
+                    z : 1.0 (25 @ 6e4)
+				}
+			}
+		}
+
+        position sub-sub-block { (22 @ 6e9)
+
+            x position : 0.0 (0d @ 6eb)
+            y position : 0.0 (15 @ 6f0)
+		}
+        z position : 0.0 (2d @ 6f5)
+        rotation : 0.0 (35 @ 6fa)
+        scale : 1.0 (3d @ 6ff)
+
+        u0 sub-sub-block { (42 @ 704)
+
+            w : 0.0 (0d @ 706)
+            x : 0.0 (15 @ 70b)
+            y : 0.0 (1d @ 710)
+            z : 0.0 (25 @ 715)
+		}
+        hidden : 0(48 @ 71a)
+	}
+    u0 : 1.0 (15 @ 71c)
+}
+
+?item block { (12 @ 721)
+
+
+    ?sub-item sub-block { (0a @ 724)
+
+        name : grove_torch (12 @ 727)
+
+        component sub-sub-block { (1a @ 734)
+
+            component type : Model (0a @ 736)
+            number : 1(10 @ 73d)
+
+            3D model sub-sub-sub-block { (32a @ 740)
+
+                name : grove_torch (0a @ 742)
+                u0 : -1.5707963705062866 (15 @ 74f)
+                u1 : 0.5 (1d @ 754)
+                u2 : 0.0 (25 @ 759)
+
+                u3 sub-sub-sub-sub-block { (2a @ 75e)
+
+                    w : 0.0 (0d @ 760)
+                    x : 0.0 (15 @ 765)
+                    y : 0.0 (1d @ 76a)
+                    z : 1.0 (25 @ 76f)
+				}
+
+                u4 sub-sub-sub-sub-block { (32 @ 774)
+
+                    x : 0.0 (0d @ 776)
+                    y : 0.0 (15 @ 77b)
+                    z : 0.0 (1d @ 780)
+				}
+                u5 : 0(38 @ 785)
+
+                u6 sub-sub-sub-sub-block { (42 @ 787)
+
+                    w : 1.0 (0d @ 789)
+                    x : 1.0 (15 @ 78e)
+                    y : 1.0 (1d @ 793)
+                    z : 1.0 (25 @ 798)
+				}
+			}
+		}
+
+        component sub-sub-block { (1a @ 79d)
+
+            component type : SimpleGlow (0a @ 79f)
+            number : 2(10 @ 7ab)
+
+            simple glow sub-sub-sub-block { (7f2 @ 7ae)
+
+
+                u0 sub-sub-sub-sub-block { (0a @ 7b0)
+
+                    w : 0.2666666805744171 (0d @ 7b2)
+                    x : 0.1111111119389534 (15 @ 7b7)
+                    y : 0.3888888955116272 (1d @ 7bc)
+                    z : 0.5 (25 @ 7c1)
+				}
+                u1 : 25.0 (15 @ 7c6)
+                u2 : 10(18 @ 7cb)
+                u3 : 15.0 (25 @ 7cd)
+                u4 : 0.07999999821186066 (2d @ 7d2)
+                u5 : 0.800000011920929 (35 @ 7d7)
+
+                u6 sub-sub-sub-sub-block { (3a @ 7dc)
+
+                    y : 0.0 (0d @ 7de)
+                    z : 10.0 (15 @ 7e3)
+				}
+			}
+		}
+
+        component sub-sub-block { (1a @ 7e8)
+
+            component type : Light (0a @ 7ea)
+            number : 103(10 @ 7f1)
+
+            light sub-sub-sub-block { (412 @ 7f4)
+
+                u0 : 3(08 @ 7f6)
+                u1 : 2.0 (15 @ 7f8)
+
+                u2 sub-sub-sub-sub-block { (1a @ 7fd)
+
+                    w : 0.8222222328186035 (0d @ 7ff)
+                    x : 0.7244443893432617 (15 @ 804)
+                    y : 1.0 (1d @ 809)
+                    z : 0.0 (25 @ 80e)
+				}
+                u3 : 0.0 (25 @ 813)
+                u4 : 0.00019999999494757503 (2d @ 818)
+
+                u5 sub-sub-sub-sub-block { (32 @ 81d)
+
+                    x : 0.0 (0d @ 81f)
+                    y : 0.0 (15 @ 824)
+                    z : 0.0 (1d @ 829)
+				}
+                u6 : 250.0 (3d @ 82e)
+			}
+		}
+
+        component sub-sub-block { (1a @ 833)
+
+            component type : FireEmitter (0a @ 835)
+            number : 105(10 @ 842)
+
+            fire emitter sub-sub-sub-block { (7ea @ 845)
+
+                temp0 : 108(08 @ 847)
+                temp1 : 103(18 @ 849)
+
+                u0 sub-sub-sub-sub-block { (2a @ 84b)
+
+                    w : 0.8222222328186035 (0d @ 84d)
+                    x : 0.7244443893432617 (15 @ 852)
+                    y : 1.0 (1d @ 857)
+                    z : 0.0 (25 @ 85c)
+				}
+                u1 : 0.10000000149011612 (35 @ 861)
+                u2 : 0.8999999761581421 (3d @ 866)
+
+                u3 sub-sub-sub-sub-block { (42 @ 86b)
+
+                    x : 2.0 (0d @ 86d)
+                    y : 0.0 (15 @ 872)
+                    z : 0.0 (1d @ 877)
+				}
+
+                u4 sub-sub-sub-sub-block { (4a @ 87c)
+
+                    x : 0.0 (0d @ 87e)
+                    y : 0.0 (15 @ 883)
+                    z : 0.0 (1d @ 888)
+				}
+			}
+		}
+
+        component sub-sub-block { (1a @ 88d)
+
+            component type : ParticleEmitter (0a @ 88f)
+            number : 108(10 @ 8a0)
+
+            particle emitter sub-sub-sub-block { (7d2 @ 8a3)
+
+                particle : 109(10 @ 8a5)
+                particle : 111(10 @ 8a7)
+                particle : 112(10 @ 8a9)
+                u1 : 0(18 @ 8ab)
+                u2 : 30(20 @ 8ad)
+                u3 : 0(28 @ 8af)
+                u4 : 0(30 @ 8b1)
+                u6 : 0(40 @ 8b3)
+			}
+		}
+
+        component sub-sub-block { (1a @ 8b5)
+
+            component type : Particle (0a @ 8b7)
+            number : 109(10 @ 8c1)
+
+            particle sub-sub-sub-block { (7da @ 8c4)
+
+                name : particle_fure_1 (0a @ 8c6)
+                u0 : 20.0 (15 @ 8d7)
+			}
+		}
+
+        component sub-sub-block { (1a @ 8dc)
+
+            component type : Particle (0a @ 8de)
+            number : 111(10 @ 8e8)
+
+            particle sub-sub-sub-block { (7da @ 8eb)
+
+                name : particle_fure_2 (0a @ 8ed)
+                u0 : 22.0 (15 @ 8fe)
+			}
+		}
+
+        component sub-sub-block { (1a @ 903)
+
+            component type : Particle (0a @ 905)
+            number : 112(10 @ 90f)
+
+            particle sub-sub-sub-block { (7da @ 912)
+
+                name : particle_fure_3 (0a @ 914)
+                u0 : 20.0 (15 @ 925)
+			}
+		}
+
+        position sub-sub-block { (22 @ 92a)
+
+            x position : 0.0 (0d @ 92c)
+            y position : 0.0 (15 @ 931)
+		}
+        z position : 0.0 (2d @ 936)
+        rotation : 0.0 (35 @ 93b)
+        scale : 1.0 (3d @ 940)
+
+        u0 sub-sub-block { (42 @ 945)
+
+            w : -20.0 (0d @ 947)
+            x : -20.0 (15 @ 94c)
+            y : 40.0 (1d @ 951)
+            z : 40.0 (25 @ 956)
+		}
+        hidden : 0(48 @ 95b)
+	}
+    u0 : 1.0 (15 @ 95d)
+}
+
+?item block { (12 @ 962)
+
+
+    ?sub-item sub-block { (0a @ 965)
+
+        name : grove_tree1 (12 @ 968)
+
+        component sub-sub-block { (1a @ 975)
+
+            component type : Model (0a @ 977)
+            number : 101(10 @ 97e)
+
+            3D model sub-sub-sub-block { (32a @ 981)
+
+                name : grove_tree1 (0a @ 983)
+                u0 : 0.0 (15 @ 990)
+                u1 : 0.0 (1d @ 995)
+                u2 : 0.0 (25 @ 99a)
+
+                u3 sub-sub-sub-sub-block { (2a @ 99f)
+
+                    w : 0.0 (0d @ 9a1)
+                    x : 0.0 (15 @ 9a6)
+                    y : 0.0 (1d @ 9ab)
+                    z : 1.0 (25 @ 9b0)
+				}
+
+                u4 sub-sub-sub-sub-block { (32 @ 9b5)
+
+                    x : 0.0 (0d @ 9b7)
+                    y : 0.0 (15 @ 9bc)
+                    z : 0.0 (1d @ 9c1)
+				}
+                u5 : 0(38 @ 9c6)
+
+                u6 sub-sub-sub-sub-block { (42 @ 9c8)
+
+                    w : 1.0 (0d @ 9ca)
+                    x : 1.0 (15 @ 9cf)
+                    y : 1.0 (1d @ 9d4)
+                    z : 1.0 (25 @ 9d9)
+				}
+			}
+		}
+
+        position sub-sub-block { (22 @ 9de)
+
+            x position : 0.0 (0d @ 9e0)
+            y position : 0.0 (15 @ 9e5)
+		}
+        z position : 0.0 (2d @ 9ea)
+        rotation : 0.0 (35 @ 9ef)
+        scale : 1.0 (3d @ 9f4)
+
+        u0 sub-sub-block { (42 @ 9f9)
+
+            w : 0.0 (0d @ 9fb)
+            x : 0.0 (15 @ a00)
+            y : 0.0 (1d @ a05)
+            z : 0.0 (25 @ a0a)
+		}
+        hidden : 0(48 @ a0f)
+	}
+    u0 : 1.0 (15 @ a11)
+}
+
+?item block { (12 @ a16)
+
+
+    ?sub-item sub-block { (0a @ a19)
+
+        name : grove_tree2 (12 @ a1c)
+
+        component sub-sub-block { (1a @ a29)
+
+            component type : Model (0a @ a2b)
+            number : 101(10 @ a32)
+
+            3D model sub-sub-sub-block { (32a @ a35)
+
+                name : grove_tree2 (0a @ a37)
+                u0 : 0.0 (15 @ a44)
+                u1 : 0.0 (1d @ a49)
+                u2 : 0.0 (25 @ a4e)
+
+                u3 sub-sub-sub-sub-block { (2a @ a53)
+
+                    w : 0.0 (0d @ a55)
+                    x : 0.0 (15 @ a5a)
+                    y : 0.0 (1d @ a5f)
+                    z : 1.0 (25 @ a64)
+				}
+
+                u4 sub-sub-sub-sub-block { (32 @ a69)
+
+                    x : 0.0 (0d @ a6b)
+                    y : 0.0 (15 @ a70)
+                    z : 0.0 (1d @ a75)
+				}
+                u5 : 0(38 @ a7a)
+
+                u6 sub-sub-sub-sub-block { (42 @ a7c)
+
+                    w : 1.0 (0d @ a7e)
+                    x : 1.0 (15 @ a83)
+                    y : 1.0 (1d @ a88)
+                    z : 1.0 (25 @ a8d)
+				}
+			}
+		}
+
+        position sub-sub-block { (22 @ a92)
+
+            x position : 0.0 (0d @ a94)
+            y position : 0.0 (15 @ a99)
+		}
+        z position : 0.0 (2d @ a9e)
+        rotation : 0.0 (35 @ aa3)
+        scale : 1.0 (3d @ aa8)
+
+        u0 sub-sub-block { (42 @ aad)
+
+            w : 0.0 (0d @ aaf)
+            x : 0.0 (15 @ ab4)
+            y : 0.0 (1d @ ab9)
+            z : 0.0 (25 @ abe)
+		}
+        hidden : 0(48 @ ac3)
+	}
+    u0 : 1.0 (15 @ ac5)
+}
+
+?item block { (12 @ aca)
+
+
+    ?sub-item sub-block { (0a @ acd)
+
+        name : grove_tree3 (12 @ ad0)
+
+        component sub-sub-block { (1a @ add)
+
+            component type : Model (0a @ adf)
+            number : 101(10 @ ae6)
+
+            3D model sub-sub-sub-block { (32a @ ae9)
+
+                name : grove_tree3 (0a @ aeb)
+                u0 : 0.0 (15 @ af8)
+                u1 : 0.0 (1d @ afd)
+                u2 : 0.0 (25 @ b02)
+
+                u3 sub-sub-sub-sub-block { (2a @ b07)
+
+                    w : 0.0 (0d @ b09)
+                    x : 0.0 (15 @ b0e)
+                    y : 0.0 (1d @ b13)
+                    z : 1.0 (25 @ b18)
+				}
+
+                u4 sub-sub-sub-sub-block { (32 @ b1d)
+
+                    x : 0.0 (0d @ b1f)
+                    y : 0.0 (15 @ b24)
+                    z : 0.0 (1d @ b29)
+				}
+                u5 : 0(38 @ b2e)
+
+                u6 sub-sub-sub-sub-block { (42 @ b30)
+
+                    w : 1.0 (0d @ b32)
+                    x : 1.0 (15 @ b37)
+                    y : 1.0 (1d @ b3c)
+                    z : 1.0 (25 @ b41)
+				}
+			}
+		}
+
+        position sub-sub-block { (22 @ b46)
+
+            x position : 0.0 (0d @ b48)
+            y position : 0.0 (15 @ b4d)
+		}
+        z position : 0.0 (2d @ b52)
+        rotation : 0.0 (35 @ b57)
+        scale : 1.0 (3d @ b5c)
+
+        u0 sub-sub-block { (42 @ b61)
+
+            w : 0.0 (0d @ b63)
+            x : 0.0 (15 @ b68)
+            y : 0.0 (1d @ b6d)
+            z : 0.0 (25 @ b72)
+		}
+        hidden : 0(48 @ b77)
+	}
+    u0 : 1.0 (15 @ b79)
+}
+
+?item block { (12 @ b7e)
+
+
+    ?sub-item sub-block { (0a @ b81)
+
+        name : whiteblock (12 @ b84)
+
+        component sub-sub-block { (1a @ b90)
+
+            component type : Model (0a @ b92)
+            number : 101(10 @ b99)
+
+            3D model sub-sub-sub-block { (32a @ b9c)
+
+                name : stoneblock_white (0a @ b9e)
+                u0 : 3.1415927410125732 (15 @ bb0)
+                u1 : 0.5 (1d @ bb5)
+                u2 : 0.0 (25 @ bba)
+
+                u3 sub-sub-sub-sub-block { (2a @ bbf)
+
+                    w : 0.0 (0d @ bc1)
+                    x : 0.0 (15 @ bc6)
+                    y : 0.0 (1d @ bcb)
+                    z : 1.0 (25 @ bd0)
+				}
+
+                u4 sub-sub-sub-sub-block { (32 @ bd5)
+
+                    x : 0.0 (0d @ bd7)
+                    y : 0.0 (15 @ bdc)
+                    z : 0.0 (1d @ be1)
+				}
+                u5 : 0(38 @ be6)
+
+                u6 sub-sub-sub-sub-block { (42 @ be8)
+
+                    w : 1.0 (0d @ bea)
+                    x : 1.0 (15 @ bef)
+                    y : 1.0 (1d @ bf4)
+                    z : 1.0 (25 @ bf9)
+				}
+			}
+		}
+
+        position sub-sub-block { (22 @ bfe)
+
+            x position : 0.0 (0d @ c00)
+            y position : 0.0 (15 @ c05)
+		}
+        z position : 0.0 (2d @ c0a)
+        rotation : 0.0 (35 @ c0f)
+        scale : 1.0 (3d @ c14)
+
+        u0 sub-sub-block { (42 @ c19)
+
+            w : 0.0 (0d @ c1b)
+            x : 0.0 (15 @ c20)
+            y : 0.0 (1d @ c25)
+            z : 0.0 (25 @ c2a)
+		}
+        hidden : 0(48 @ c2f)
+	}
+    u0 : 1.0 (15 @ c31)
+}
+
+?item block { (12 @ c36)
+
+
+    ?sub-item sub-block { (0a @ c39)
+
+        name : whitepillair (12 @ c3c)
+
+        component sub-sub-block { (1a @ c4a)
+
+            component type : Model (0a @ c4c)
+            number : 101(10 @ c53)
+
+            3D model sub-sub-sub-block { (32a @ c56)
+
+                name : stonepillair_white (0a @ c58)
+                u0 : 0.0 (15 @ c6c)
+                u1 : 0.5 (1d @ c71)
+                u2 : 0.0 (25 @ c76)
+
+                u3 sub-sub-sub-sub-block { (2a @ c7b)
+
+                    w : 0.0 (0d @ c7d)
+                    x : 0.0 (15 @ c82)
+                    y : 0.0 (1d @ c87)
+                    z : 1.0 (25 @ c8c)
+				}
+
+                u4 sub-sub-sub-sub-block { (32 @ c91)
+
+                    x : 0.0 (0d @ c93)
+                    y : 0.0 (15 @ c98)
+                    z : 0.0 (1d @ c9d)
+				}
+                u5 : 0(38 @ ca2)
+
+                u6 sub-sub-sub-sub-block { (42 @ ca4)
+
+                    w : 1.0 (0d @ ca6)
+                    x : 1.0 (15 @ cab)
+                    y : 1.0 (1d @ cb0)
+                    z : 1.0 (25 @ cb5)
+				}
+			}
+		}
+
+        position sub-sub-block { (22 @ cba)
+
+            x position : 0.0 (0d @ cbc)
+            y position : 0.0 (15 @ cc1)
+		}
+        z position : 0.0 (2d @ cc6)
+        rotation : 0.0 (35 @ ccb)
+        scale : 1.0 (3d @ cd0)
+
+        u0 sub-sub-block { (42 @ cd5)
+
+            w : 0.0 (0d @ cd7)
+            x : 0.0 (15 @ cdc)
+            y : 0.0 (1d @ ce1)
+            z : 0.0 (25 @ ce6)
+		}
+        hidden : 0(48 @ ceb)
+	}
+    u0 : 1.0 (15 @ ced)
+}
+
+?item block { (12 @ cf2)
+
+
+    ?sub-item sub-block { (0a @ cf5)
+
+        name : whiteplatform (12 @ cf8)
+
+        component sub-sub-block { (1a @ d07)
+
+            component type : CollisionShape (0a @ d09)
+            number : 1(10 @ d19)
+            ? linked component : 103(20 @ d1b)
+
+            collision shape sub-sub-sub-block { (3c2 @ d1e)
+
+
+                u2 sub-sub-sub-sub-block { (1a @ d20)
+
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ d22)
+
+                        y : -65.3602066040039 (0d @ d24)
+                        z : -1.756103515625 (15 @ d29)
+					}
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ d2e)
+
+                        y : 73.50769805908203 (0d @ d30)
+                        z : -1.7630615234375 (15 @ d35)
+					}
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ d3a)
+
+                        y : 37.36806106567383 (0d @ d3c)
+                        z : 7.17156982421875 (15 @ d41)
+					}
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ d46)
+
+                        y : -37.9691162109375 (0d @ d48)
+                        z : 7.093841552734375 (15 @ d4d)
+					}
+                    u3 : 0(10 @ d52)
+                    u4 : 1(18 @ d54)
+				}
+			}
+
+            collision shape 2 sub-sub-sub-block { (3ca @ d57)
+
+                u0 : 1(10 @ d59)
+                w : -50.0 (35 @ d5b)
+                x : 50.0 (3d @ d60)
+                z : 1(58 @ d65)
+			}
+		}
+
+        component sub-sub-block { (1a @ d67)
+
+            component type : Model (0a @ d69)
+            number : 101(10 @ d70)
+
+            3D model sub-sub-sub-block { (32a @ d73)
+
+                name : stoneplatform_white (0a @ d75)
+                u0 : 0.0 (15 @ d8a)
+                u1 : 0.5 (1d @ d8f)
+                u2 : 0.0 (25 @ d94)
+
+                u3 sub-sub-sub-sub-block { (2a @ d99)
+
+                    w : 0.0 (0d @ d9b)
+                    x : 0.0 (15 @ da0)
+                    y : 0.0 (1d @ da5)
+                    z : 1.0 (25 @ daa)
+				}
+
+                u4 sub-sub-sub-sub-block { (32 @ daf)
+
+                    x : 0.0 (0d @ db1)
+                    y : 0.0 (15 @ db6)
+                    z : 0.0 (1d @ dbb)
+				}
+                u5 : 0(38 @ dc0)
+
+                u6 sub-sub-sub-sub-block { (42 @ dc2)
+
+                    w : 1.0 (0d @ dc4)
+                    x : 1.0 (15 @ dc9)
+                    y : 1.0 (1d @ dce)
+                    z : 1.0 (25 @ dd3)
+				}
+			}
+		}
+
+        component sub-sub-block { (1a @ dd8)
+
+            component type : GroundPolygon (0a @ dda)
+            number : 103(10 @ de9)
+
+            ground polygon sub-sub-sub-block { (372 @ dec)
+
+
+                 sub-sub-sub-sub-block { (12 @ dee)
+
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ df0)
+
+                        x : -65.3602066040039 (0d @ df2)
+                        y : -1.756103515625 (15 @ df7)
+					}
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ dfc)
+
+                        x : 73.50769805908203 (0d @ dfe)
+                        y : -1.7630615234375 (15 @ e03)
+					}
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ e08)
+
+                        x : 37.36806106567383 (0d @ e0a)
+                        y : 7.17156982421875 (15 @ e0f)
+					}
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ e14)
+
+                        x : -37.9691162109375 (0d @ e16)
+                        y : 7.093841552734375 (15 @ e1b)
+					}
+                    u0 : 0(10 @ e20)
+                    u1 : 1(18 @ e22)
+				}
+                u1 : 1(18 @ e24)
+                u2 : -50.0 (25 @ e26)
+                u3 : 50.0 (2d @ e2b)
+                u4 :  (32 @ e30)
+			}
+		}
+
+        position sub-sub-block { (22 @ e32)
+
+            x position : 0.0 (0d @ e34)
+            y position : 0.0 (15 @ e39)
+		}
+        z position : 0.0 (2d @ e3e)
+        rotation : 0.0 (35 @ e43)
+        scale : 1.0 (3d @ e48)
+
+        u0 sub-sub-block { (42 @ e4d)
+
+            w : -65.3602066040039 (0d @ e4f)
+            x : -1.7630615234375 (15 @ e54)
+            y : 138.86790466308594 (1d @ e59)
+            z : 8.93463134765625 (25 @ e5e)
+		}
+        hidden : 0(48 @ e63)
+	}
+    u0 : 1.0 (15 @ e65)
+}

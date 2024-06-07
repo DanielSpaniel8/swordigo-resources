@@ -1,0 +1,321 @@
+scl file name : old (0a @ 1)
+
+?item block { (12 @ 6)
+
+
+    ?sub-item sub-block { (0a @ 9)
+
+        name : charging_golem (12 @ c)
+
+        component sub-sub-block { (1a @ 1c)
+
+            component type : Model (0a @ 1e)
+            number : 101(10 @ 25)
+
+            3D model sub-sub-sub-block { (32a @ 28)
+
+                name : golem_small (0a @ 2a)
+                u0 : 1.5707963705062866 (15 @ 37)
+                u1 : 0.0 (1d @ 3c)
+                u2 : 0.0 (25 @ 41)
+
+                u3 sub-sub-sub-sub-block { (2a @ 46)
+
+                    w : 0.0 (0d @ 48)
+                    x : 0.0 (15 @ 4d)
+                    y : 0.0 (1d @ 52)
+                    z : 1.0 (25 @ 57)
+				}
+
+                u4 sub-sub-sub-sub-block { (32 @ 5c)
+
+                    x : 0.0 (0d @ 5e)
+                    y : 0.0 (15 @ 63)
+                    z : 0.0 (1d @ 68)
+				}
+                u5 : 0(38 @ 6d)
+
+                u6 sub-sub-sub-sub-block { (42 @ 6f)
+
+                    w : 1.0 (0d @ 71)
+                    x : 1.0 (15 @ 76)
+                    y : 1.0 (1d @ 7b)
+                    z : 1.0 (25 @ 80)
+				}
+			}
+		}
+
+        component sub-sub-block { (1a @ 85)
+
+            component type : KeyframeAnimation (0a @ 87)
+            number : 103(10 @ 9a)
+
+            keyframe animation sub-sub-sub-block { (332 @ 9d)
+
+                linked model component number : 101(08 @ 9f)
+                name : golem_small_walk (12 @ a1)
+                u0 : 1(18 @ b3)
+                u1 : 0.5 (25 @ b5)
+                u2 : 1(28 @ ba)
+			}
+		}
+
+        component sub-sub-block { (1a @ bc)
+
+            component type : AnimationController (0a @ be)
+            number : 107(10 @ d3)
+
+            animation controller sub-sub-sub-block { (4aa @ d6)
+
+                model component : 101(08 @ d8)
+                u1 : 0(10 @ da)
+                u2 : 0(18 @ dc)
+			}
+		}
+
+        component sub-sub-block { (1a @ de)
+
+            component type : MonsterEntity (0a @ e0)
+            number : 109(10 @ ef)
+
+            entity sub-sub-sub-block { (4c2 @ f2)
+
+                u0 : 18446744073709551615(08 @ f4)
+                u1 : 1(10 @ ff)
+			}
+
+            ?monster entity sub-sub-sub-block { (4f2 @ 102)
+
+                u0 :  (0a @ 104)
+
+                lua chunk sub-sub-sub-sub-block { (12 @ 106)
+
+				}
+                u2 : 1(18 @ 108)
+                u3 : 1(20 @ 10a)
+			}
+		}
+
+        component sub-sub-block { (1a @ 10c)
+
+            component type : UtilityShape (0a @ 10e)
+            number : 111(10 @ 11c)
+
+            collision shape sub-sub-sub-block { (3c2 @ 11f)
+
+
+                u0 sub-sub-sub-sub-block { (0a @ 121)
+
+                    w : -500.0 (0d @ 123)
+                    x : 0.0 (15 @ 128)
+                    y : 1000.0 (1d @ 12d)
+                    z : 150.0 (25 @ 132)
+				}
+			}
+		}
+
+        component sub-sub-block { (1a @ 137)
+
+            component type : Health (0a @ 139)
+            number : 114(10 @ 141)
+
+            health sub-sub-sub-block { (3da @ 144)
+
+                u0 : 6(08 @ 146)
+                u1 : 0(10 @ 148)
+
+                u2 sub-sub-sub-sub-block { (1a @ 14a)
+
+                    x : 0.0 (0d @ 14c)
+                    y : 50.0 (15 @ 151)
+				}
+			}
+		}
+
+        component sub-sub-block { (1a @ 156)
+
+            component type : Damage (0a @ 158)
+            number : 117(10 @ 160)
+
+            damage sub-sub-sub-block { (3d2 @ 163)
+
+                u0 : 2(08 @ 165)
+                u1 : 0(10 @ 167)
+                u2 : 0(18 @ 169)
+                u5 : 1.0 (35 @ 16b)
+                u6 : 0.0 (3d @ 170)
+                u7 : 0(40 @ 175)
+                u8 : 1(48 @ 177)
+			}
+		}
+
+        component sub-sub-block { (1a @ 179)
+
+            component type : CollisionShape (0a @ 17b)
+            number : 120(10 @ 18b)
+
+            collision shape sub-sub-sub-block { (3c2 @ 18e)
+
+
+                u0 sub-sub-sub-sub-block { (0a @ 190)
+
+                    w : -30.0 (0d @ 192)
+                    x : -0.8058220148086548 (15 @ 197)
+                    y : 60.0 (1d @ 19c)
+                    z : 132.24581909179688 (25 @ 1a1)
+				}
+			}
+
+            collision shape 2 sub-sub-sub-block { (3ca @ 1a7)
+
+                u1 : 1(18 @ 1a9)
+                u2 : 1(20 @ 1ab)
+                u3 : 1(28 @ 1ad)
+                w : -15.0 (35 @ 1af)
+                x : 15.0 (3d @ 1b4)
+                z : 1(58 @ 1b9)
+			}
+		}
+
+        component sub-sub-block { (1a @ 1bb)
+
+            component type : ChargingMonsterController (0a @ 1bd)
+            number : 124(10 @ 1d8)
+
+            monster controller sub-sub-sub-block { (972 @ 1db)
+
+                u0 : 100.0 (0d @ 1dd)
+                u1 : 107(10 @ 1e2)
+                u2 : 109(18 @ 1e4)
+                u3 : 111(20 @ 1e6)
+			}
+
+            charging monster controller sub-sub-sub-block { (982 @ 1e9)
+
+                walk animation : 103(08 @ 1eb)
+                charge animation : 132(10 @ 1ed)
+                run animation : 128(18 @ 1f0)
+                u0 : 230.0 (25 @ 1f3)
+                u1 : 300.0 (2d @ 1f8)
+			}
+		}
+
+        component sub-sub-block { (1a @ 1fd)
+
+            component type : KeyframeAnimation (0a @ 1ff)
+            number : 128(10 @ 212)
+
+            keyframe animation sub-sub-sub-block { (332 @ 216)
+
+                linked model component number : 101(08 @ 218)
+                name : golem_small_charge (12 @ 21a)
+                u0 : 1(18 @ 22e)
+                u1 : 1.2000000476837158 (25 @ 230)
+                u2 : 1(28 @ 235)
+			}
+		}
+
+        component sub-sub-block { (1a @ 237)
+
+            component type : KeyframeAnimation (0a @ 239)
+            number : 132(10 @ 24c)
+
+            keyframe animation sub-sub-sub-block { (332 @ 250)
+
+                linked model component number : 101(08 @ 252)
+                name : golem_small_attack1 (12 @ 254)
+                u0 : 1(18 @ 269)
+                u1 : 1.0 (25 @ 26b)
+                u2 : 1(28 @ 270)
+			}
+		}
+
+        component sub-sub-block { (1a @ 272)
+
+            component type : BoneControlledCollisionShape (0a @ 274)
+            number : 136(10 @ 292)
+
+            collision shape sub-sub-sub-block { (3c2 @ 296)
+
+
+                u1 sub-sub-sub-sub-block { (12 @ 298)
+
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 29a)
+
+                        y : 0.0 (0d @ 29c)
+                        z : 0.0 (15 @ 2a1)
+					}
+                    u1 : 30.0 (15 @ 2a6)
+				}
+			}
+
+            collision shape 2 sub-sub-sub-block { (3ca @ 2ac)
+
+                u3 : 1(28 @ 2ae)
+                w : -23.0 (35 @ 2b0)
+                x : 23.0 (3d @ 2b5)
+                z : 1(58 @ 2ba)
+			}
+
+            bone controlled collision shape sub-sub-sub-block { (3e2 @ 2bd)
+
+                u0 : 101(08 @ 2bf)
+                bone name : BoneRightHand3 (12 @ 2c1)
+			}
+		}
+
+        component sub-sub-block { (1a @ 2d1)
+
+            component type : BoneControlledCollisionShape (0a @ 2d3)
+            number : 141(10 @ 2f1)
+
+            collision shape sub-sub-sub-block { (3c2 @ 2f5)
+
+
+                u1 sub-sub-sub-sub-block { (12 @ 2f7)
+
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 2f9)
+
+                        y : 0.0 (0d @ 2fb)
+                        z : 0.0 (15 @ 300)
+					}
+                    u1 : 30.0 (15 @ 305)
+				}
+			}
+
+            collision shape 2 sub-sub-sub-block { (3ca @ 30b)
+
+                w : -23.0 (35 @ 30d)
+                x : 23.0 (3d @ 312)
+                z : 1(58 @ 317)
+			}
+
+            bone controlled collision shape sub-sub-sub-block { (3e2 @ 31a)
+
+                u0 : 101(08 @ 31c)
+                bone name : BoneLeftHand3 (12 @ 31e)
+			}
+		}
+
+        position sub-sub-block { (22 @ 32d)
+
+            x position : 0.0 (0d @ 32f)
+            y position : 0.0 (15 @ 334)
+		}
+        z position : 0.0 (2d @ 339)
+        rotation : 0.0 (35 @ 33e)
+        scale : 1.0 (3d @ 343)
+
+        u0 sub-sub-block { (42 @ 348)
+
+            w : -30.0 (0d @ 34a)
+            x : -0.8058220148086548 (15 @ 34f)
+            y : 60.0 (1d @ 354)
+            z : 132.24581909179688 (25 @ 359)
+		}
+        hidden : 0(48 @ 35e)
+	}
+    u0 : 1.0 (15 @ 360)
+}

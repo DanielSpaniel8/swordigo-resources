@@ -1,0 +1,686 @@
+scl file name : trash (0a @ 1)
+
+?item block { (12 @ 8)
+
+
+    ?sub-item sub-block { (0a @ b)
+
+        name : ground (12 @ e)
+
+        component sub-sub-block { (1a @ 16)
+
+            component type : CollisionShape (0a @ 18)
+            number : 1(10 @ 28)
+            ? linked component : 100(20 @ 2a)
+
+            collision shape sub-sub-sub-block { (3c2 @ 2d)
+
+
+                u2 sub-sub-sub-sub-block { (1a @ 2f)
+
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 31)
+
+                        y : -200.0 (0d @ 33)
+                        z : -100.0 (15 @ 38)
+					}
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 3d)
+
+                        y : 200.0 (0d @ 3f)
+                        z : -100.0 (15 @ 44)
+					}
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 49)
+
+                        y : 200.0 (0d @ 4b)
+                        z : 100.0 (15 @ 50)
+					}
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 55)
+
+                        y : -200.0 (0d @ 57)
+                        z : 100.0 (15 @ 5c)
+					}
+                    u3 : 0(10 @ 61)
+                    u4 : 1(18 @ 63)
+				}
+			}
+
+            collision shape 2 sub-sub-sub-block { (3ca @ 66)
+
+                u0 : 1(10 @ 68)
+                w : -50.0 (35 @ 6a)
+                x : 50.0 (3d @ 6f)
+                z : 1(58 @ 74)
+			}
+		}
+
+        component sub-sub-block { (1a @ 76)
+
+            component type : GroundPolygon (0a @ 78)
+            number : 100(10 @ 87)
+
+            ground polygon sub-sub-sub-block { (372 @ 8a)
+
+
+                 sub-sub-sub-sub-block { (12 @ 8c)
+
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 8e)
+
+                        x : -200.0 (0d @ 90)
+                        y : -100.0 (15 @ 95)
+					}
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 9a)
+
+                        x : 200.0 (0d @ 9c)
+                        y : -100.0 (15 @ a1)
+					}
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ a6)
+
+                        x : 200.0 (0d @ a8)
+                        y : 100.0 (15 @ ad)
+					}
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ b2)
+
+                        x : -200.0 (0d @ b4)
+                        y : 100.0 (15 @ b9)
+					}
+                    u0 : 0(10 @ be)
+                    u1 : 1(18 @ c0)
+				}
+                u1 : 1(18 @ c2)
+                u2 : -50.0 (25 @ c4)
+                u3 : 50.0 (2d @ c9)
+                u4 :  (32 @ ce)
+			}
+		}
+
+        component sub-sub-block { (1a @ d0)
+
+            component type : GroundMesh (0a @ d2)
+            number : 101(10 @ de)
+
+            ground mesh sub-sub-sub-block { (37a @ e1)
+
+
+                u0 sub-sub-sub-sub-block { (3a @ e3)
+
+                    w : 0.0 (0d @ e5)
+                    x : 0.0 (15 @ ea)
+                    y : 0.0 (1d @ ef)
+                    z : 0.0 (25 @ f4)
+				}
+
+                u3 sub-sub-sub-sub-block { (52 @ f9)
+
+                    w : 1.0 (0d @ fb)
+                    x : 1.0 (15 @ 100)
+                    y : 1.0 (1d @ 105)
+                    z : 1.0 (25 @ 10a)
+				}
+			}
+		}
+
+        component sub-sub-block { (1a @ 10f)
+
+            component type : GroundMeshGenerator (0a @ 111)
+            number : 102(10 @ 126)
+
+            ground mesh generator sub-sub-sub-block { (382 @ 129)
+
+                ground polygon : 100(08 @ 12b)
+                ground mesh : 101(10 @ 12d)
+                texture mapping 1 : 105(18 @ 12f)
+                texture mapping 2 : 105(20 @ 131)
+                u4 : 0(28 @ 133)
+                u5 : 0.0 (35 @ 135)
+                u6 : 0(38 @ 13a)
+                u7 : 100.0 (45 @ 13c)
+                u8 : 25.0 (4d @ 141)
+                u9 : 5.0 (55 @ 146)
+                u10 : 5.0 (5d @ 14b)
+			}
+		}
+
+        component sub-sub-block { (1a @ 150)
+
+            component type : TextureMapping (0a @ 152)
+            number : 105(10 @ 162)
+
+            texture mapping sub-sub-sub-block { (38a @ 165)
+
+                texture file : bluebricks (0a @ 167)
+                u0 : 250.0 (15 @ 173)
+
+                u0 sub-sub-sub-sub-block { (1a @ 178)
+
+                    u1 : 0.0 (0d @ 17a)
+                    u2 : 0.0 (15 @ 17f)
+				}
+			}
+		}
+
+        position sub-sub-block { (22 @ 184)
+
+            x position : 0.0 (0d @ 186)
+            y position : 0.0 (15 @ 18b)
+		}
+        z position : 0.0 (2d @ 190)
+        rotation : 0.0 (35 @ 195)
+        scale : 1.0 (3d @ 19a)
+
+        u0 sub-sub-block { (42 @ 19f)
+
+            w : -200.0 (0d @ 1a1)
+            x : -100.0 (15 @ 1a6)
+            y : 400.0 (1d @ 1ab)
+            z : 200.0 (25 @ 1b0)
+		}
+        hidden : 0(48 @ 1b5)
+	}
+    u0 : 1.0 (15 @ 1b7)
+}
+
+?item block { (12 @ 1bc)
+
+
+    ?sub-item sub-block { (0a @ 1bf)
+
+        name : hangingplatofm (12 @ 1c2)
+
+        component sub-sub-block { (1a @ 1d2)
+
+            component type : Model (0a @ 1d4)
+            number : 101(10 @ 1db)
+
+            3D model sub-sub-sub-block { (32a @ 1de)
+
+                name : platformwood2 (0a @ 1e0)
+                u0 : 0.0 (15 @ 1ef)
+                u1 : 0.0 (1d @ 1f4)
+                u2 : 0.0 (25 @ 1f9)
+
+                u3 sub-sub-sub-sub-block { (2a @ 1fe)
+
+                    w : 0.0 (0d @ 200)
+                    x : 0.0 (15 @ 205)
+                    y : 0.0 (1d @ 20a)
+                    z : 1.0 (25 @ 20f)
+				}
+
+                u4 sub-sub-sub-sub-block { (32 @ 214)
+
+                    x : 0.0 (0d @ 216)
+                    y : 0.0 (15 @ 21b)
+                    z : 0.0 (1d @ 220)
+				}
+                u5 : 0(38 @ 225)
+
+                u6 sub-sub-sub-sub-block { (42 @ 227)
+
+                    w : 1.0 (0d @ 229)
+                    x : 1.0 (15 @ 22e)
+                    y : 1.0 (1d @ 233)
+                    z : 1.0 (25 @ 238)
+				}
+			}
+		}
+
+        position sub-sub-block { (22 @ 23d)
+
+            x position : 0.0 (0d @ 23f)
+            y position : 0.0 (15 @ 244)
+		}
+        z position : 0.0 (2d @ 249)
+        rotation : 0.0 (35 @ 24e)
+        scale : 1.0 (3d @ 253)
+
+        u0 sub-sub-block { (42 @ 258)
+
+            w : 0.0 (0d @ 25a)
+            x : 0.0 (15 @ 25f)
+            y : 0.0 (1d @ 264)
+            z : 0.0 (25 @ 269)
+		}
+        hidden : 0(48 @ 26e)
+	}
+    u0 : 1.0 (15 @ 270)
+}
+
+?item block { (12 @ 275)
+
+
+    ?sub-item sub-block { (0a @ 278)
+
+        name : laituri (12 @ 27b)
+
+        component sub-sub-block { (1a @ 284)
+
+            component type : CollisionShape (0a @ 286)
+            number : 1(10 @ 296)
+            ? linked component : 103(20 @ 298)
+
+            collision shape sub-sub-sub-block { (3c2 @ 29b)
+
+
+                u2 sub-sub-sub-sub-block { (1a @ 29d)
+
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 29f)
+
+                        y : -44.53194808959961 (0d @ 2a1)
+                        z : -7.654847621917725 (15 @ 2a6)
+					}
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 2ab)
+
+                        y : 45.784114837646484 (0d @ 2ad)
+                        z : -3.8942670822143555 (15 @ 2b2)
+					}
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 2b7)
+
+                        y : 47.63790512084961 (0d @ 2b9)
+                        z : -0.4207402169704437 (15 @ 2be)
+					}
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 2c3)
+
+                        y : -38.140811920166016 (0d @ 2c5)
+                        z : -0.9269309639930725 (15 @ 2ca)
+					}
+                    u3 : 0(10 @ 2cf)
+                    u4 : 1(18 @ 2d1)
+				}
+			}
+
+            collision shape 2 sub-sub-sub-block { (3ca @ 2d4)
+
+                u0 : 1(10 @ 2d6)
+                w : -50.0 (35 @ 2d8)
+                x : 50.0 (3d @ 2dd)
+                z : 1(58 @ 2e2)
+			}
+		}
+
+        component sub-sub-block { (1a @ 2e4)
+
+            component type : Model (0a @ 2e6)
+            number : 101(10 @ 2ed)
+
+            3D model sub-sub-sub-block { (32a @ 2f0)
+
+                name : laituri_strong (0a @ 2f2)
+                u0 : 0.0 (15 @ 302)
+                u1 : 0.0 (1d @ 307)
+                u2 : 0.0 (25 @ 30c)
+
+                u3 sub-sub-sub-sub-block { (2a @ 311)
+
+                    w : 0.0 (0d @ 313)
+                    x : 0.0 (15 @ 318)
+                    y : 0.0 (1d @ 31d)
+                    z : 1.0 (25 @ 322)
+				}
+
+                u4 sub-sub-sub-sub-block { (32 @ 327)
+
+                    x : 0.0 (0d @ 329)
+                    y : 0.0 (15 @ 32e)
+                    z : 0.0 (1d @ 333)
+				}
+                u5 : 0(38 @ 338)
+
+                u6 sub-sub-sub-sub-block { (42 @ 33a)
+
+                    w : 1.0 (0d @ 33c)
+                    x : 1.0 (15 @ 341)
+                    y : 1.0 (1d @ 346)
+                    z : 1.0 (25 @ 34b)
+				}
+			}
+		}
+
+        component sub-sub-block { (1a @ 350)
+
+            component type : GroundPolygon (0a @ 352)
+            number : 103(10 @ 361)
+
+            ground polygon sub-sub-sub-block { (372 @ 364)
+
+
+                 sub-sub-sub-sub-block { (12 @ 366)
+
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 368)
+
+                        x : -44.53194808959961 (0d @ 36a)
+                        y : -7.654847621917725 (15 @ 36f)
+					}
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 374)
+
+                        x : 45.784114837646484 (0d @ 376)
+                        y : -3.8942670822143555 (15 @ 37b)
+					}
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 380)
+
+                        x : 47.63790512084961 (0d @ 382)
+                        y : -0.4207402169704437 (15 @ 387)
+					}
+
+                    u0 sub-sub-sub-sub-sub-block { (0a @ 38c)
+
+                        x : -38.140811920166016 (0d @ 38e)
+                        y : -0.9269309639930725 (15 @ 393)
+					}
+                    u0 : 0(10 @ 398)
+                    u1 : 1(18 @ 39a)
+				}
+                u1 : 1(18 @ 39c)
+                u2 : -50.0 (25 @ 39e)
+                u3 : 50.0 (2d @ 3a3)
+                u4 :  (32 @ 3a8)
+			}
+		}
+
+        position sub-sub-block { (22 @ 3aa)
+
+            x position : 0.0 (0d @ 3ac)
+            y position : 0.0 (15 @ 3b1)
+		}
+        z position : 0.0 (2d @ 3b6)
+        rotation : 0.0 (35 @ 3bb)
+        scale : 1.0 (3d @ 3c0)
+
+        u0 sub-sub-block { (42 @ 3c5)
+
+            w : -44.53194808959961 (0d @ 3c7)
+            x : -7.654847621917725 (15 @ 3cc)
+            y : 92.16985321044922 (1d @ 3d1)
+            z : 7.654847621917725 (25 @ 3d6)
+		}
+        hidden : 0(48 @ 3db)
+	}
+    u0 : 1.0 (15 @ 3dd)
+}
+
+?item block { (12 @ 3e2)
+
+
+    ?sub-item sub-block { (0a @ 3e5)
+
+        name : tree (12 @ 3e8)
+
+        component sub-sub-block { (1a @ 3ee)
+
+            component type : Model (0a @ 3f0)
+            number : 101(10 @ 3f7)
+
+            3D model sub-sub-sub-block { (32a @ 3fa)
+
+                name : treek (0a @ 3fc)
+                u0 : 0.0 (15 @ 403)
+                u1 : 0.0 (1d @ 408)
+                u2 : 0.0 (25 @ 40d)
+
+                u3 sub-sub-sub-sub-block { (2a @ 412)
+
+                    w : 0.0 (0d @ 414)
+                    x : 0.0 (15 @ 419)
+                    y : 0.0 (1d @ 41e)
+                    z : 1.0 (25 @ 423)
+				}
+
+                u4 sub-sub-sub-sub-block { (32 @ 428)
+
+                    x : 0.0 (0d @ 42a)
+                    y : 0.0 (15 @ 42f)
+                    z : 0.0 (1d @ 434)
+				}
+                u5 : 0(38 @ 439)
+
+                u6 sub-sub-sub-sub-block { (42 @ 43b)
+
+                    w : 1.0 (0d @ 43d)
+                    x : 1.0 (15 @ 442)
+                    y : 1.0 (1d @ 447)
+                    z : 1.0 (25 @ 44c)
+				}
+			}
+		}
+
+        position sub-sub-block { (22 @ 451)
+
+            x position : 0.0 (0d @ 453)
+            y position : 0.0 (15 @ 458)
+		}
+        z position : 0.0 (2d @ 45d)
+        rotation : 0.0 (35 @ 462)
+        scale : 1.0 (3d @ 467)
+
+        u0 sub-sub-block { (42 @ 46c)
+
+            w : 0.0 (0d @ 46e)
+            x : 0.0 (15 @ 473)
+            y : 0.0 (1d @ 478)
+            z : 0.0 (25 @ 47d)
+		}
+        hidden : 0(48 @ 482)
+	}
+    u0 : 1.0 (15 @ 484)
+}
+
+?item block { (12 @ 489)
+
+
+    ?sub-item sub-block { (0a @ 48c)
+
+        name : tree2 (12 @ 48f)
+
+        component sub-sub-block { (1a @ 496)
+
+            component type : Model (0a @ 498)
+            number : 101(10 @ 49f)
+
+            3D model sub-sub-sub-block { (32a @ 4a2)
+
+                name : treek2 (0a @ 4a4)
+                u0 : 0.0 (15 @ 4ac)
+                u1 : 0.0 (1d @ 4b1)
+                u2 : 0.0 (25 @ 4b6)
+
+                u3 sub-sub-sub-sub-block { (2a @ 4bb)
+
+                    w : 0.0 (0d @ 4bd)
+                    x : 0.0 (15 @ 4c2)
+                    y : 0.0 (1d @ 4c7)
+                    z : 1.0 (25 @ 4cc)
+				}
+
+                u4 sub-sub-sub-sub-block { (32 @ 4d1)
+
+                    x : 0.0 (0d @ 4d3)
+                    y : 0.0 (15 @ 4d8)
+                    z : 0.0 (1d @ 4dd)
+				}
+                u5 : 0(38 @ 4e2)
+
+                u6 sub-sub-sub-sub-block { (42 @ 4e4)
+
+                    w : 1.0 (0d @ 4e6)
+                    x : 1.0 (15 @ 4eb)
+                    y : 1.0 (1d @ 4f0)
+                    z : 1.0 (25 @ 4f5)
+				}
+			}
+		}
+
+        position sub-sub-block { (22 @ 4fa)
+
+            x position : 0.0 (0d @ 4fc)
+            y position : 0.0 (15 @ 501)
+		}
+        z position : 0.0 (2d @ 506)
+        rotation : 0.0 (35 @ 50b)
+        scale : 1.0 (3d @ 510)
+
+        u0 sub-sub-block { (42 @ 515)
+
+            w : 0.0 (0d @ 517)
+            x : 0.0 (15 @ 51c)
+            y : 0.0 (1d @ 521)
+            z : 0.0 (25 @ 526)
+		}
+        hidden : 0(48 @ 52b)
+	}
+    u0 : 1.0 (15 @ 52d)
+}
+
+?item block { (12 @ 532)
+
+
+    ?sub-item sub-block { (0a @ 535)
+
+        name : web_trampoline (12 @ 538)
+
+        component sub-sub-block { (1a @ 548)
+
+            component type : Model (0a @ 54a)
+            number : 101(10 @ 551)
+
+            3D model sub-sub-sub-block { (32a @ 554)
+
+                name : web_trampoline (0a @ 556)
+                u0 : 0.0 (15 @ 566)
+                u1 : 1.0 (1d @ 56b)
+                u2 : 0.0 (25 @ 570)
+
+                u3 sub-sub-sub-sub-block { (2a @ 575)
+
+                    w : 1.0 (0d @ 577)
+                    x : 1.0 (15 @ 57c)
+                    y : 1.0 (1d @ 581)
+                    z : 1.0 (25 @ 586)
+				}
+
+                u4 sub-sub-sub-sub-block { (32 @ 58b)
+
+                    x : 0.0 (0d @ 58d)
+                    y : 0.0 (15 @ 592)
+                    z : 0.0 (1d @ 597)
+				}
+                u5 : 0(38 @ 59c)
+
+                u6 sub-sub-sub-sub-block { (42 @ 59e)
+
+                    w : 1.0 (0d @ 5a0)
+                    x : 1.0 (15 @ 5a5)
+                    y : 1.0 (1d @ 5aa)
+                    z : 1.0 (25 @ 5af)
+				}
+			}
+		}
+
+        component sub-sub-block { (1a @ 5b4)
+
+            component type : CollisionShape (0a @ 5b7)
+            number : 103(10 @ 5c7)
+
+            collision shape sub-sub-sub-block { (3c2 @ 5ca)
+
+
+                u0 sub-sub-sub-sub-block { (0a @ 5cc)
+
+                    w : -60.0 (0d @ 5ce)
+                    x : 0.0 (15 @ 5d3)
+                    y : 120.0 (1d @ 5d8)
+                    z : 30.0 (25 @ 5dd)
+				}
+			}
+
+            collision shape 2 sub-sub-sub-block { (3ca @ 5e3)
+
+                u1 : 1(18 @ 5e6)
+                w : -15.0 (35 @ 5e8)
+                x : 15.0 (3d @ 5ed)
+
+                lua chunk sub-sub-sub-sub-block { (4a @ 5f2)
+
+                    main chunk : chunk >
+
+                    === lua =============
+                    local self, target, normal = ...;
+                    
+                    local animation = 106;
+                    
+                    if (target:identifier() == "hero") and (normal:y() < -0.5) then
+                    	KeyframeAnimation.SetRunning(self, animation, true);
+                    	KeyframeAnimation.SetCurrentTime(self, animation, 0);
+                    	Program.Wait(0.10)
+                    	target:setVelocity(Vector3.New(target:velocity():x(), 700, 0));
+                    	Program.Wait(KeyframeAnimation.TimeToCompletion(self,animation));
+                    
+                    end
+
+                    =====================
+                    secondary chunk : \x1bLuaQ\x00\x01\x04\x04\x04\x08\x00\x90\x01\x00\x00local self, target, normal = ...;\r\n\r\nlocal animation = 106;\r\n\r\nif (target:identifier() == "hero") and (normal:y() < -0.5) then\r\n\tKeyframeAnimation.SetRunning(self, animation, true);\r\n\tKeyframeAnimation.SetCurrentTime(self, animation, 0);\r\n\tProgram.Wait(0.10)\r\n\ttarget:setVelocity(Vector3.New(target:velocity():x(), 700, 0));\r\n\tProgram.Wait(KeyframeAnimation.TimeToCompletion(self,animation));\r\n\r\nend\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x02\n.\x00\x00\x00%\x00\x00\x02\xc1\x00\x00\x00\x0bA\xc0\x00\x1c\x81\x00\x01\x17\x80@\x02\x16\x80\t\x80\x0b\xc1@\x01\x1c\x81\x00\x01\x18\x00A\x02\x16\x80\x08\x80\x05A\x01\x00\x06\x81A\x02@\x01\x00\x00\x80\x01\x80\x01\xc2\x01\x80\x00\x1cA\x00\x02\x05A\x01\x00\x06\xc1A\x02@\x01\x00\x00\x80\x01\x80\x01\xc1\x01\x02\x00\x1cA\x00\x02\x05A\x02\x00\x06\x81B\x02A\xc1\x02\x00\x1cA\x00\x01\x0b\x01\xc3\x00\x85A\x03\x00\x86\x81C\x03\xcb\xc1\xc3\x00\xdc\x81\x00\x01\xcb\x01\xc4\x03\xdc\x81\x00\x01\x01B\x04\x00A\x02\x02\x00\x9c\x01\x00\x02\x1cA\x00\x00\x05A\x02\x00\x06\x81B\x02EA\x01\x00F\x81\xc4\x02\x80\x01\x00\x00\xc0\x01\x80\x01\\\x01\x80\x01\x1cA\x00\x00\x1e\x00\x80\x00\x13\x00\x00\x00\x03\x00\x00\x00\x00\x00\x80Z@\x04\x0b\x00\x00\x00identifier\x00\x04\x05\x00\x00\x00hero\x00\x04\x02\x00\x00\x00y\x00\x03\x00\x00\x00\x00\x00\x00\xe0\xbf\x04\x12\x00\x00\x00KeyframeAnimation\x00\x04\x0b\x00\x00\x00SetRunning\x00\x04\x0f\x00\x00\x00SetCurrentTime\x00\x03\x00\x00\x00\x00\x00\x00\x00\x00\x04\x08\x00\x00\x00Program\x00\x04\x05\x00\x00\x00Wait\x00\x03\x9a\x99\x99\x99\x99\x99\xb9?\x04\x0c\x00\x00\x00setVelocity\x00\x04\x08\x00\x00\x00Vector3\x00\x04\x04\x00\x00\x00New\x00\x04\t\x00\x00\x00velocity\x00\x04\x02\x00\x00\x00x\x00\x03\x00\x00\x00\x00\x00\xe0\x85@\x04\x11\x00\x00\x00TimeToCompletion\x00\x00\x00\x00\x00.\x00\x00\x00\x01\x00\x00\x00\x03\x00\x00\x00\x05\x00\x00\x00\x05\x00\x00\x00\x05\x00\x00\x00\x05\x00\x00\x00\x05\x00\x00\x00\x05\x00\x00\x00\x05\x00\x00\x00\x05\x00\x00\x00\x06\x00\x00\x00\x06\x00\x00\x00\x06\x00\x00\x00\x06\x00\x00\x00\x06\x00\x00\x00\x06\x00\x00\x00\x07\x00\x00\x00\x07\x00\x00\x00\x07\x00\x00\x00\x07\x00\x00\x00\x07\x00\x00\x00\x07\x00\x00\x00\x08\x00\x00\x00\x08\x00\x00\x00\x08\x00\x00\x00\x08\x00\x00\x00\t\x00\x00\x00\t\x00\x00\x00\t\x00\x00\x00\t\x00\x00\x00\t\x00\x00\x00\t\x00\x00\x00\t\x00\x00\x00\t\x00\x00\x00\t\x00\x00\x00\t\x00\x00\x00\t\x00\x00\x00\n\x00\x00\x00\n\x00\x00\x00\n\x00\x00\x00\n\x00\x00\x00\n\x00\x00\x00\n\x00\x00\x00\n\x00\x00\x00\n\x00\x00\x00\x0c\x00\x00\x00\x04\x00\x00\x00\x05\x00\x00\x00self\x00\x01\x00\x00\x00-\x00\x00\x00\x07\x00\x00\x00target\x00\x01\x00\x00\x00-\x00\x00\x00\x07\x00\x00\x00normal\x00\x01\x00\x00\x00-\x00\x00\x00\n\x00\x00\x00animation\x00\x02\x00\x00\x00-\x00\x00\x00\x00\x00\x00\x00 (12 @ 787)
+				}
+                z : 1(58 @ bfd)
+			}
+		}
+
+        component sub-sub-block { (1a @ bff)
+
+            component type : AnimationController (0a @ c01)
+            number : 105(10 @ c16)
+
+            animation controller sub-sub-sub-block { (4aa @ c19)
+
+                model component : 101(08 @ c1b)
+                u1 : 106(10 @ c1d)
+                u2 : 1(18 @ c1f)
+			}
+		}
+
+        component sub-sub-block { (1a @ c21)
+
+            component type : KeyframeAnimation (0a @ c23)
+            number : 106(10 @ c36)
+
+            keyframe animation sub-sub-sub-block { (332 @ c39)
+
+                linked model component number : 101(08 @ c3b)
+                name : web_trampoline (12 @ c3d)
+                u0 : 0(18 @ c4d)
+                u1 : 2.0 (25 @ c4f)
+                u2 : 0(28 @ c54)
+			}
+		}
+
+        position sub-sub-block { (22 @ c56)
+
+            x position : 0.0 (0d @ c58)
+            y position : 0.0 (15 @ c5d)
+		}
+        z position : 0.0 (2d @ c62)
+        rotation : 0.0 (35 @ c67)
+        scale : 1.0 (3d @ c6c)
+
+        u0 sub-sub-block { (42 @ c71)
+
+            w : -60.0 (0d @ c73)
+            x : 0.0 (15 @ c78)
+            y : 120.0 (1d @ c7d)
+            z : 30.0 (25 @ c82)
+		}
+        hidden : 0(48 @ c87)
+	}
+    u0 : 1.0 (15 @ c89)
+}

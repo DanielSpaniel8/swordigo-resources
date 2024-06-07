@@ -1,0 +1,345 @@
+data = {
+"scl file name" : "quest_vase",
+
+"?itemblock " :  {
+
+
+	"?sub-itemsub-block " :  {
+
+		"name" : "questvase",
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Properties",
+			"number" : 1,
+
+			"propertiessub-sub-sub-block " :  {
+
+				"u0" : "\\nGlocal self = ...;\\r\\n\\r\\nProperties.SetProperty(self, \"questitem\", \"true\");\\x12\\x87\\x02\\x1bLuaQ\\x00\\x01\\x04\\x04\\x04\\x08\\x00H\\x00\\x00\\x00local self = ...;\\r\\n\\r\\nProperties.SetProperty(self, \"questitem\", \"true\");\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x02\\x05\\x08\\x00\\x00\\x00%\\x00\\x00\\x01E\\x00\\x00\\x00F@\\xc0\\x00\\x80\\x00\\x00\\x00\\xc1\\x80\\x00\\x00\\x01\\xc1\\x00\\x00\\\\@\\x00\\x02\\x1e\\x00\\x80\\x00\\x04\\x00\\x00\\x00\\x04\\x0b\\x00\\x00\\x00Properties\\x00\\x04\\x0c\\x00\\x00\\x00SetProperty\\x00\\x04\\n\\x00\\x00\\x00questitem\\x00\\x04\\x05\\x00\\x00\\x00true\\x00\\x00\\x00\\x00\\x00\\x08\\x00\\x00\\x00\\x01\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x01\\x00\\x00\\x00\\x05\\x00\\x00\\x00self\\x00\\x01\\x00\\x00\\x00\\x07\\x00\\x00\\x00\\x00\\x00\\x00\\x00",
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "ParticleEmitter",
+			"number" : 2,
+
+			"particle emittersub-sub-sub-block " :  {
+
+				"particle" : 3,
+				"particle" : 6,
+				"particle" : 7,
+				"u1" : 0,
+				"u2" : 60,
+				"u3" : 0,
+				"u4" : 0,
+
+				"u5sub-sub-sub-sub-block " :  {
+
+					"u0" : 5,
+
+					"u1sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 0.5185185670852661,
+						"x" : 0.47703707218170166,
+						"y" : 0.4148147702217102,
+						"z" : 0.0,
+					},
+					"u2" : 90.0,
+					"u2" : 10.0,
+					"u2" : 0.0,
+					"u2" : 10.0,
+					"u2" : 0.0,
+					"u2" : 20.0,
+					"u2" : 0.0,
+					"u2" : 0.6000000238418579,
+					"u2" : 0.10000000149011612,
+					"u2" : 0.0,
+					"u2" : 1.0,
+					"u2" : 0.019999999552965164,
+					"u2" : 0.6000000238418579,
+					"u2" : 0.0,
+					"u2" : 0.0,
+					"u3" : 0.0,
+					"u4" : 0.20000000298023224,
+					"u5" : 0.20000000298023224,
+
+					"u6sub-sub-sub-sub-sub-block " :  {
+
+						"u0" : 0.0,
+						"u1" : 27.0,
+						"u2" : 0.0,
+					},
+				},
+				"u6" : 0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Particle",
+			"number" : 3,
+
+			"particlesub-sub-sub-block " :  {
+
+				"name" : "particle_fure_1",
+				"u0" : 40.0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "CollisionShape",
+			"number" : 4,
+
+			"collision shapesub-sub-sub-block " :  {
+
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"w" : -22.0,
+					"x" : 5.0,
+					"y" : 44.0,
+					"z" : 15.0,
+				},
+			},
+
+			"collision shape 2sub-sub-sub-block " :  {
+
+				"w" : -15.0,
+				"x" : 15.0,
+				"y" : 1,
+				"z" : 1,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "TransformController",
+			"number" : 5,
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Particle",
+			"number" : 6,
+
+			"particlesub-sub-sub-block " :  {
+
+				"name" : "particle_fure_2",
+				"u0" : 40.0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Particle",
+			"number" : 7,
+
+			"particlesub-sub-sub-block " :  {
+
+				"name" : "particle_fure_3",
+				"u0" : 40.0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Model",
+			"number" : 101,
+
+			"3D modelsub-sub-sub-block " :  {
+
+				"name" : "pottery1",
+				"u0" : 0.0,
+				"u1" : 1.0,
+				"u2" : 0.0,
+
+				"u3sub-sub-sub-sub-block " :  {
+
+					"w" : 0.0,
+					"x" : 0.0,
+					"y" : 0.0,
+					"z" : 1.0,
+				},
+
+				"u4sub-sub-sub-sub-block " :  {
+
+					"x" : 0.0,
+					"y" : 0.0,
+					"z" : 0.0,
+				},
+				"u5" : 0,
+
+				"u6sub-sub-sub-sub-block " :  {
+
+					"w" : 1.0,
+					"x" : 1.0,
+					"y" : 1.0,
+					"z" : 1.0,
+				},
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "CollisionShape",
+			"number" : 103,
+
+			"collision shapesub-sub-sub-block " :  {
+
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"w" : -15.012619972229004,
+					"x" : 0.0,
+					"y" : 30.122713088989258,
+					"z" : 28.714862823486328,
+				},
+			},
+
+			"collision shape 2sub-sub-sub-block " :  {
+
+				"u0" : 1,
+				"u1" : 1,
+				"w" : -15.0,
+				"x" : 15.0,
+				"y" : 5,
+				"z" : 1,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "UtilityShape",
+			"number" : 106,
+
+			"collision shapesub-sub-sub-block " :  {
+
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"w" : -27.0,
+					"x" : 0.0,
+					"y" : 54.0,
+					"z" : 28.0,
+				},
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "PhysicsObject",
+			"number" : 110,
+
+			"physics objectsub-sub-sub-block " :  {
+
+				"u0" : 1,
+				"u3" : 1500.0,
+				"u4" : 0.0,
+				"u5" : 700.0,
+				"u6" : 0,
+				"u7" : 0.0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "SimpleGlow",
+			"number" : 115,
+
+			"simple glowsub-sub-sub-block " :  {
+
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"w" : 0.6111111044883728,
+					"x" : 0.559259295463562,
+					"y" : 0.45555561780929565,
+					"z" : 0.0,
+				},
+				"u1" : 25.0,
+				"u2" : 20,
+				"u3" : 15.0,
+				"u4" : 0.15000000596046448,
+				"u5" : 0.800000011920929,
+
+				"u6sub-sub-sub-sub-block " :  {
+
+					"y" : 0.0,
+					"z" : 14.0,
+				},
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Program",
+			"number" : 120,
+
+			"programsub-sub-sub-block " :  {
+
+				"u0" : 1,
+
+				"lua chunksub-sub-sub-sub-block " :  {
+
+					"main chunk" : "chunk >
+
+					=== lua =============
+					local self = ...;
+					
+					local newObject = self:clone();
+					newObject:setPosition(PhysicsObject.OriginalPosition(self));
+					
+					Program.Wait(0.5);
+					Scene.SetPaused(true);
+					
+					Camera.FocusAtPoint(newObject:position());
+					
+					while not Camera.IsPointVisible(newObject:position()) do
+						Camera.FocusAtPoint(newObject:position());
+						Program.Wait(0.1);
+					end
+					
+					Program.Wait(0.5);
+					
+					Scene.AddObject(newObject);
+					TransformController.ScaleTo(newObject, 0.01, 0);
+					TransformController.ScaleTo(newObject, 1.0, 0.3);
+					
+					Program.Wait(1.0);
+					
+					Camera.ResetFocus();
+					Scene.SetPaused(false);
+					
+
+					=====================",
+					"secondary chunk" : "\\x1bLuaQ\\x00\\x01\\x04\\x04\\x04\\x08\\x005\\x02\\x00\\x00local self = ...;\\r\\n\\r\\nlocal newObject = self:clone();\\r\\nnewObject:setPosition(PhysicsObject.OriginalPosition(self));\\r\\n\\r\\nProgram.Wait(0.5);\\r\\nScene.SetPaused(true);\\r\\n\\r\\nCamera.FocusAtPoint(newObject:position());\\r\\n\\r\\nwhile not Camera.IsPointVisible(newObject:position()) do\\r\\n\\tCamera.FocusAtPoint(newObject:position());\\r\\n\\tProgram.Wait(0.1);\\r\\nend\\r\\n\\r\\nProgram.Wait(0.5);\\r\\n\\r\\nScene.AddObject(newObject);\\r\\nTransformController.ScaleTo(newObject, 0.01, 0);\\r\\nTransformController.ScaleTo(newObject, 1.0, 0.3);\\r\\n\\r\\nProgram.Wait(1.0);\\r\\n\\r\\nCamera.ResetFocus();\\r\\nScene.SetPaused(false);\\r\\n\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x02\\x06G\\x00\\x00\\x00%\\x00\\x00\\x01K\\x00@\\x00\\\\\\x80\\x00\\x01\\x8b@\\xc0\\x00\\x05\\x81\\x00\\x00\\x06\\xc1@\\x02@\\x01\\x00\\x00\\x1c\\x01\\x00\\x01\\x9c@\\x00\\x00\\x85\\x00\\x01\\x00\\x86@A\\x01\\xc1\\x80\\x01\\x00\\x9c@\\x00\\x01\\x85\\xc0\\x01\\x00\\x86\\x00B\\x01\\xc2\\x00\\x80\\x00\\x9c@\\x00\\x01\\x85@\\x02\\x00\\x86\\x80B\\x01\\xcb\\xc0\\xc2\\x00\\xdc\\x00\\x00\\x01\\x9c@\\x00\\x00\\x85@\\x02\\x00\\x86\\x00C\\x01\\xcb\\xc0\\xc2\\x00\\xdc\\x00\\x00\\x01\\x9c\\x80\\x00\\x00\\x9a@\\x00\\x00\\x16@\\x02\\x80\\x85@\\x02\\x00\\x86\\x80B\\x01\\xcb\\xc0\\xc2\\x00\\xdc\\x00\\x00\\x01\\x9c@\\x00\\x00\\x85\\x00\\x01\\x00\\x86@A\\x01\\xc1@\\x03\\x00\\x9c@\\x00\\x01\\x16\\x80\\xfb\\x7f\\x85\\x00\\x01\\x00\\x86@A\\x01\\xc1\\x80\\x01\\x00\\x9c@\\x00\\x01\\x85\\xc0\\x01\\x00\\x86\\x80C\\x01\\xc0\\x00\\x80\\x00\\x9c@\\x00\\x01\\x85\\xc0\\x03\\x00\\x86\\x00D\\x01\\xc0\\x00\\x80\\x00\\x01A\\x04\\x00A\\x81\\x04\\x00\\x9c@\\x00\\x02\\x85\\xc0\\x03\\x00\\x86\\x00D\\x01\\xc0\\x00\\x80\\x00\\x01\\xc1\\x04\\x00A\\x01\\x05\\x00\\x9c@\\x00\\x02\\x85\\x00\\x01\\x00\\x86@A\\x01\\xc1\\xc0\\x04\\x00\\x9c@\\x00\\x01\\x85@\\x02\\x00\\x86@E\\x01\\x9c@\\x80\\x00\\x85\\xc0\\x01\\x00\\x86\\x00B\\x01\\xc2\\x00\\x00\\x00\\x9c@\\x00\\x01\\x1e\\x00\\x80\\x00\\x16\\x00\\x00\\x00\\x04\\x06\\x00\\x00\\x00clone\\x00\\x04\\x0c\\x00\\x00\\x00setPosition\\x00\\x04\\x0e\\x00\\x00\\x00PhysicsObject\\x00\\x04\\x11\\x00\\x00\\x00OriginalPosition\\x00\\x04\\x08\\x00\\x00\\x00Program\\x00\\x04\\x05\\x00\\x00\\x00Wait\\x00\\x03\\x00\\x00\\x00\\x00\\x00\\x00\\xe0?\\x04\\x06\\x00\\x00\\x00Scene\\x00\\x04\\n\\x00\\x00\\x00SetPaused\\x00\\x04\\x07\\x00\\x00\\x00Camera\\x00\\x04\\r\\x00\\x00\\x00FocusAtPoint\\x00\\x04\\t\\x00\\x00\\x00position\\x00\\x04\\x0f\\x00\\x00\\x00IsPointVisible\\x00\\x03\\x9a\\x99\\x99\\x99\\x99\\x99\\xb9?\\x04\\n\\x00\\x00\\x00AddObject\\x00\\x04\\x14\\x00\\x00\\x00TransformController\\x00\\x04\\x08\\x00\\x00\\x00ScaleTo\\x00\\x03{\\x14\\xaeG\\xe1z\\x84?\\x03\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x00\\x00\\x00\\xf0?\\x03333333\\xd3?\\x04\\x0b\\x00\\x00\\x00ResetFocus\\x00\\x00\\x00\\x00\\x00G\\x00\\x00\\x00\\x01\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x06\\x00\\x00\\x00\\x06\\x00\\x00\\x00\\x06\\x00\\x00\\x00\\x06\\x00\\x00\\x00\\x07\\x00\\x00\\x00\\x07\\x00\\x00\\x00\\x07\\x00\\x00\\x00\\x07\\x00\\x00\\x00\\t\\x00\\x00\\x00\\t\\x00\\x00\\x00\\t\\x00\\x00\\x00\\t\\x00\\x00\\x00\\t\\x00\\x00\\x00\\x0b\\x00\\x00\\x00\\x0b\\x00\\x00\\x00\\x0b\\x00\\x00\\x00\\x0b\\x00\\x00\\x00\\x0b\\x00\\x00\\x00\\x0b\\x00\\x00\\x00\\x0b\\x00\\x00\\x00\\x0c\\x00\\x00\\x00\\x0c\\x00\\x00\\x00\\x0c\\x00\\x00\\x00\\x0c\\x00\\x00\\x00\\x0c\\x00\\x00\\x00\\r\\x00\\x00\\x00\\r\\x00\\x00\\x00\\r\\x00\\x00\\x00\\r\\x00\\x00\\x00\\r\\x00\\x00\\x00\\x10\\x00\\x00\\x00\\x10\\x00\\x00\\x00\\x10\\x00\\x00\\x00\\x10\\x00\\x00\\x00\\x12\\x00\\x00\\x00\\x12\\x00\\x00\\x00\\x12\\x00\\x00\\x00\\x12\\x00\\x00\\x00\\x13\\x00\\x00\\x00\\x13\\x00\\x00\\x00\\x13\\x00\\x00\\x00\\x13\\x00\\x00\\x00\\x13\\x00\\x00\\x00\\x13\\x00\\x00\\x00\\x14\\x00\\x00\\x00\\x14\\x00\\x00\\x00\\x14\\x00\\x00\\x00\\x14\\x00\\x00\\x00\\x14\\x00\\x00\\x00\\x14\\x00\\x00\\x00\\x16\\x00\\x00\\x00\\x16\\x00\\x00\\x00\\x16\\x00\\x00\\x00\\x16\\x00\\x00\\x00\\x18\\x00\\x00\\x00\\x18\\x00\\x00\\x00\\x18\\x00\\x00\\x00\\x19\\x00\\x00\\x00\\x19\\x00\\x00\\x00\\x19\\x00\\x00\\x00\\x19\\x00\\x00\\x00\\x19\\x00\\x00\\x00\\x02\\x00\\x00\\x00\\x05\\x00\\x00\\x00self\\x00\\x01\\x00\\x00\\x00F\\x00\\x00\\x00\\n\\x00\\x00\\x00newObject\\x00\\x03\\x00\\x00\\x00F\\x00\\x00\\x00\\x00\\x00\\x00\\x00",
+				},
+				"u1" : 1,
+				"u2" : 5,
+			},
+		},
+
+		"positionsub-sub-block " :  {
+
+			"x position" : 0.0,
+			"y position" : 0.0,
+		},
+		"z position" : 0.0,
+		"rotation" : 0.0,
+		"scale" : 1.0,
+
+		"u0sub-sub-block " :  {
+
+			"w" : -25.0,
+			"x" : -25.0,
+			"y" : 50.0,
+			"z" : 53.71486282348633,
+		},
+		"hidden" : 0,
+	},
+	"u0" : 2.25,
+},
+
+}

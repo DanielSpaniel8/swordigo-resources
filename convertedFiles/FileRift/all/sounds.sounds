@@ -1,0 +1,149 @@
+
+sound block { (0a @ 1)
+
+    name : rustle (0a @ 3)
+    file : rustle (12 @ b)
+    u0 : 0.5 (1d @ 13)
+}
+
+sound block { (0a @ 18)
+
+    name : heart_get (0a @ 1a)
+    file : heart_get (12 @ 25)
+    u0 : 1.0 (1d @ 30)
+    u1 : 0.0 (25 @ 35)
+}
+
+sound block { (0a @ 3a)
+
+    name : coin_get (0a @ 3c)
+    file : coin_get (12 @ 46)
+    u0 : 0.6000000238418579 (1d @ 50)
+    u1 : 0.0 (25 @ 55)
+}
+
+sound block { (0a @ 5a)
+
+    name : level_get (0a @ 5c)
+    file : level_get (12 @ 67)
+    u0 : 1.0 (1d @ 72)
+}
+
+sound block { (0a @ 77)
+
+    name : item_get (0a @ 79)
+    file : 0item (12 @ 83)
+    u0 : 1.0 (1d @ 8a)
+}
+
+sound block { (0a @ 8f)
+
+    name : hiro_hurt (0a @ 91)
+    file : hiro_hurt (12 @ 9c)
+    u0 : 1.0 (1d @ a7)
+}
+
+sound block { (0a @ ac)
+
+    name : hiro_die (0a @ ae)
+    file : hiro_die (12 @ b8)
+    u0 : 0.6000000238418579 (1d @ c2)
+}
+
+sound block { (0a @ c7)
+
+    name : gameover (0a @ c9)
+    file : gameover (12 @ d3)
+    u0 : 1.0 (1d @ dd)
+}
+
+sound block { (0a @ e2)
+
+    name : insect_move (0a @ e4)
+    file : insect_move (12 @ f1)
+    u0 : 0.5 (1d @ fe)
+}
+
+sound block { (0a @ 103)
+
+    name : insect_die (0a @ 105)
+    file : insect_die (12 @ 111)
+    u0 : 0.5 (1d @ 11d)
+}
+
+sound block { (0a @ 122)
+
+    name : insect_die2 (0a @ 124)
+    file : insect_die2 (12 @ 131)
+    u0 : 0.5 (1d @ 13e)
+}
+
+sound block { (0a @ 143)
+
+    name : click (0a @ 145)
+    file : click_v2 (12 @ 14c)
+    u0 : 0.5 (1d @ 156)
+}
+
+sound block { (0a @ 15b)
+
+    name : hookshot_cast (0a @ 15d)
+    file : hookshot_cast (12 @ 16c)
+    u0 : 0.25 (1d @ 17b)
+}
+
+sound block { (0a @ 180)
+
+    name : hookshot_hit1 (0a @ 182)
+    file : hookshot_hit1 (12 @ 191)
+    u0 : 1.0 (1d @ 1a0)
+}
+
+sound block { (0a @ 1a5)
+
+    name : hookshot_hit2 (0a @ 1a7)
+    file : hookshot_hit2 (12 @ 1b6)
+    u0 : 1.0 (1d @ 1c5)
+}
+
+sound block { (0a @ 1ca)
+
+    name : jump (0a @ 1cc)
+    file : jump (12 @ 1d2)
+    u0 : 0.6000000238418579 (1d @ 1d8)
+}
+
+sound block { (0a @ 1dd)
+
+    name : lowhealth (0a @ 1df)
+    file : lowhealth (12 @ 1ea)
+    u0 : 0.5 (1d @ 1f5)
+}
+
+sound block { (0a @ 1fa)
+
+    name : impact_splurt1 (0a @ 1fc)
+    file : impact_splurt1 (12 @ 20c)
+    u0 : 0.33000001311302185 (1d @ 21c)
+}
+
+sound block { (0a @ 221)
+
+    name : impact_splurt2 (0a @ 223)
+    file : impact_splurt2 (12 @ 233)
+    u0 : 0.33000001311302185 (1d @ 243)
+}
+
+sound block { (0a @ 248)
+
+    name : impact_splurt3 (0a @ 24a)
+    file : impact_splurt3 (12 @ 25a)
+    u0 : 0.33000001311302185 (1d @ 26a)
+}
+
+sound block { (0a @ 26f)
+
+    name : managet (0a @ 271)
+    file : managet (12 @ 27a)
+    u0 : 0.6000000238418579 (1d @ 283)
+}

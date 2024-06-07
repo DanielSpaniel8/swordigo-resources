@@ -1,0 +1,1050 @@
+data = {
+"scl file name" : "hiro",
+
+"?itemblock " :  {
+
+
+	"?sub-itemsub-block " :  {
+
+		"name" : "hiro",
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "CharController",
+			"number" : 1,
+
+			"char controllersub-sub-sub-block " :  {
+
+				"u0" : 117,
+				"u1" : 3,
+				"u2" : 230.0,
+				"u3" : 250.0,
+				"u4" : 0.23000000417232513,
+				"u5" : 0,
+				"u6" : 5,
+				"u7" : 8,
+				"u7" : 15,
+				"u7" : 6,
+				"u8" : 120,
+				"u9" : 127,
+				"u10" : 128,
+				"u11" : 129,
+				"u12" : 12,
+				"u13" : 13,
+				"u14" : 18,
+				"u15" : 320.0,
+				"u16" : 0.10999999940395355,
+				"u17" : 0,
+				"u18" : 0,
+				"u19" : 21,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "CollisionShape",
+			"number" : 2,
+
+			"collision shapesub-sub-sub-block " :  {
+
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"w" : -8.0,
+					"x" : -34.0,
+					"y" : 16.0,
+					"z" : 56.0,
+				},
+			},
+
+			"collision shape 2sub-sub-sub-block " :  {
+
+				"u1" : 1,
+				"u2" : 1,
+				"w" : -15.0,
+				"x" : 15.0,
+				"z" : 1,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "SwingableWeaponController",
+			"number" : 3,
+
+			"swingable weapon controllersub-sub-sub-block " :  {
+
+				"parent model" : 101,
+				"bone" : "BoneRightWeapon",
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "KeyframeAnimation",
+			"number" : 4,
+			"name" : "swing1",
+
+			"keyframe animationsub-sub-sub-block " :  {
+
+				"linked model component number" : 101,
+				"name" : "hiro_swingair",
+				"u0" : 0,
+				"u1" : 1.2999999523162842,
+				"u2" : 1,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "HeroEntity",
+			"number" : 5,
+
+			"entitysub-sub-sub-block " :  {
+
+				"u0" : 1,
+				"u1" : 1,
+			},
+
+			"hero entitysub-sub-sub-block " :  {
+
+
+				"lua chunksub-sub-sub-sub-block " :  {
+
+					"main chunk" : "chunk >
+
+					=== lua =============
+					local self, item = ...;
+					
+					if CollectableItem.RequiresPickup(item) then
+					
+						Health.SetImmunityTime(self, 5.5);
+					
+						Game.SetCinematicMode(true, true);
+						CharController.SetWeaponsHidden(self, true);
+					
+						self:setVelocity(Vector3.New(0, 0, 0));
+					
+						CollisionShape.DisableAll(item);
+						PhysicsObject.SetEnabled(item, false);
+					
+						MusicPlayer.FadeOut(0.5);
+						SoundLibrary.PlayEffect(\"item_get\");
+					
+					
+						CharController.PickupObject(self, item, true);
+						Program.Wait(0.6);
+					
+					
+					
+						local rotation = -90;
+						if Entity.GetFacingDirection(self) == -1 then rotation = 90 end
+						ModelTransformController.SetRotationAngle(self, rotation);
+					
+						Program.Wait(1.8);
+					
+						if Character.AddItem(CollectableItem.ItemName(item)) then
+							Game.ShowNotification(\"Got item: \" .. Game.TitleForItem(CollectableItem.ItemName(item)));
+					
+							Program.Wait(2.4);
+							Game.FadeOut(0.5);
+							Program.Wait(0.5);
+					
+							CharController.DropObject(self, false);
+							item:destroy();
+							ModelTransformController.SetRotationAngle(self, 0);
+						else
+							ShowTextBubbles(self:identifier() .. \"_bubble\", self:position() + Vector3.New(13, 45, 0), true, {
+								\"I already have a better item than this.\"
+							});
+					
+							HideTextBubble(self:identifier() .. \"_bubble\");
+					
+							ModelTransformController.SetRotationAngle(self, 0);
+							CharController.DropObject(self, true);
+							Program.Wait(0.5);
+						end
+					
+						CharController.SetWeaponsHidden(self, false);
+						Game.FadeIn(0.5);
+					
+						Game.SetCinematicMode(false, true);
+					
+						MusicPlayer.PlayMusic(Game.DefaultMusicName());
+					
+					else
+						Character.AddItem(CollectableItem.ItemName(item));
+						item:destroy();
+					end
+					
+
+					=====================",
+					"secondary chunk" : "\\x1bLuaQ\\x00\\x01\\x04\\x04\\x04\\x08\\x00%\\x06\\x00\\x00local self, item = ...;\\r\\n\\r\\nif CollectableItem.RequiresPickup(item) then\\r\\n\\r\\n\\tHealth.SetImmunityTime(self, 5.5);\\r\\n\\r\\n\\tGame.SetCinematicMode(true, true);\\r\\n\\tCharController.SetWeaponsHidden(self, true);\\r\\n\\r\\n\\tself:setVelocity(Vector3.New(0, 0, 0));\\r\\n\\r\\n\\tCollisionShape.DisableAll(item);\\r\\n\\tPhysicsObject.SetEnabled(item, false);\\r\\n\\r\\n\\tMusicPlayer.FadeOut(0.5);\\r\\n\\tSoundLibrary.PlayEffect(\"item_get\");\\r\\n\\r\\n\\r\\n\\tCharController.PickupObject(self, item, true);\\r\\n\\tProgram.Wait(0.6);\\r\\n\\r\\n\\r\\n\\r\\n\\tlocal rotation = -90;\\r\\n\\tif Entity.GetFacingDirection(self) == -1 then rotation = 90 end\\r\\n\\tModelTransformController.SetRotationAngle(self, rotation);\\r\\n\\r\\n\\tProgram.Wait(1.8);\\r\\n\\r\\n\\tif Character.AddItem(CollectableItem.ItemName(item)) then\\r\\n\\t\\tGame.ShowNotification(\"Got item: \" .. Game.TitleForItem(CollectableItem.ItemName(item)));\\r\\n\\r\\n\\t\\tProgram.Wait(2.4);\\r\\n\\t\\tGame.FadeOut(0.5);\\r\\n\\t\\tProgram.Wait(0.5);\\r\\n\\r\\n\\t\\tCharController.DropObject(self, false);\\r\\n\\t\\titem:destroy();\\r\\n\\t\\tModelTransformController.SetRotationAngle(self, 0);\\r\\n\\telse\\r\\n\\t\\tShowTextBubbles(self:identifier() .. \"_bubble\", self:position() + Vector3.New(13, 45, 0), true, {\\r\\n\\t\\t\\t\"I already have a better item than this.\"\\r\\n\\t\\t});\\r\\n\\r\\n\\t\\tHideTextBubble(self:identifier() .. \"_bubble\");\\r\\n\\r\\n\\t\\tModelTransformController.SetRotationAngle(self, 0);\\r\\n\\t\\tCharController.DropObject(self, true);\\r\\n\\t\\tProgram.Wait(0.5);\\r\\n\\tend\\r\\n\\r\\n\\tCharController.SetWeaponsHidden(self, false);\\r\\n\\tGame.FadeIn(0.5);\\r\\n\\r\\n\\tGame.SetCinematicMode(false, true);\\r\\n\\r\\n\\tMusicPlayer.PlayMusic(Game.DefaultMusicName());\\r\\n\\r\\nelse\\r\\n\\tCharacter.AddItem(CollectableItem.ItemName(item));\\r\\n\\titem:destroy();\\r\\nend\\r\\n\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x02\\n\\xbe\\x00\\x00\\x00%\\x00\\x80\\x01\\x85\\x00\\x00\\x00\\x86@@\\x01\\xc0\\x00\\x80\\x00\\x9c\\x80\\x00\\x01\\x9a\\x00\\x00\\x00\\x16\\x00+\\x80\\x85\\x80\\x00\\x00\\x86\\xc0@\\x01\\xc0\\x00\\x00\\x00\\x01\\x01\\x01\\x00\\x9c@\\x80\\x01\\x85@\\x01\\x00\\x86\\x80A\\x01\\xc2\\x00\\x80\\x00\\x02\\x01\\x80\\x00\\x9c@\\x80\\x01\\x85\\xc0\\x01\\x00\\x86\\x00B\\x01\\xc0\\x00\\x00\\x00\\x02\\x01\\x80\\x00\\x9c@\\x80\\x01\\x8b@B\\x00\\x05\\x81\\x02\\x00\\x06\\xc1B\\x02A\\x01\\x03\\x00\\x81\\x01\\x03\\x00\\xc1\\x01\\x03\\x00\\x1c\\x01\\x00\\x02\\x9c@\\x00\\x00\\x85@\\x03\\x00\\x86\\x80C\\x01\\xc0\\x00\\x80\\x00\\x9c@\\x00\\x01\\x85\\xc0\\x03\\x00\\x86\\x00D\\x01\\xc0\\x00\\x80\\x00\\x02\\x01\\x00\\x00\\x9c@\\x80\\x01\\x85@\\x04\\x00\\x86\\x80D\\x01\\xc1\\xc0\\x04\\x00\\x9c@\\x00\\x01\\x85\\x00\\x05\\x00\\x86@E\\x01\\xc1\\x80\\x05\\x00\\x9c@\\x00\\x01\\x85\\xc0\\x01\\x00\\x86\\xc0E\\x01\\xc0\\x00\\x00\\x00\\x00\\x01\\x80\\x00B\\x01\\x80\\x00\\x9c@\\x00\\x02\\x85\\x00\\x06\\x00\\x86@F\\x01\\xc1\\x80\\x06\\x00\\x9c@\\x00\\x01\\x81\\xc0\\x06\\x00\\xc5\\x00\\x07\\x00\\xc6@\\xc7\\x01\\x00\\x01\\x00\\x00\\xdc\\x80\\x00\\x01\\x17\\x80\\xc7\\x01\\x16\\x00\\x00\\x80\\x81\\xc0\\x07\\x00\\xc5\\x00\\x08\\x00\\xc6@\\xc8\\x01\\x00\\x01\\x00\\x00@\\x01\\x00\\x01\\xdc@\\x80\\x01\\xc5\\x00\\x06\\x00\\xc6@\\xc6\\x01\\x01\\x81\\x08\\x00\\xdc@\\x00\\x01\\xc5\\xc0\\x08\\x00\\xc6\\x00\\xc9\\x01\\x05\\x01\\x00\\x00\\x06AI\\x02@\\x01\\x80\\x00\\x1c\\x01\\x00\\x01\\xdc\\x80\\x00\\x00\\xda\\x00\\x00\\x00\\x16\\x00\\t\\x80\\xc5@\\x01\\x00\\xc6\\x80\\xc9\\x01\\x01\\xc1\\t\\x00EA\\x01\\x00F\\x01\\xca\\x02\\x85\\x01\\x00\\x00\\x86AI\\x03\\xc0\\x01\\x80\\x00\\x9c\\x01\\x00\\x01\\\\\\x81\\x00\\x00\\x15A\\x01\\x02\\xdc@\\x00\\x01\\xc5\\x00\\x06\\x00\\xc6@\\xc6\\x01\\x01A\\n\\x00\\xdc@\\x00\\x01\\xc5@\\x01\\x00\\xc6\\x80\\xc4\\x01\\x01\\xc1\\x04\\x00\\xdc@\\x00\\x01\\xc5\\x00\\x06\\x00\\xc6@\\xc6\\x01\\x01\\xc1\\x04\\x00\\xdc@\\x00\\x01\\xc5\\xc0\\x01\\x00\\xc6\\x80\\xca\\x01\\x00\\x01\\x00\\x00B\\x01\\x00\\x00\\xdc@\\x80\\x01\\xcb\\xc0\\xca\\x00\\xdc@\\x00\\x01\\xc5\\x00\\x08\\x00\\xc6@\\xc8\\x01\\x00\\x01\\x00\\x00A\\x01\\x03\\x00\\xdc@\\x80\\x01\\x16\\x80\\t\\x80\\xc5\\x00\\x0b\\x00\\x0bAK\\x00\\x1c\\x81\\x00\\x01A\\x81\\x0b\\x00\\x15A\\x01\\x02K\\xc1K\\x00\\\\\\x81\\x00\\x01\\x85\\x81\\x02\\x00\\x86\\xc1B\\x03\\xc1\\x01\\x0c\\x00\\x01B\\x0c\\x00A\\x02\\x03\\x00\\x9c\\x81\\x00\\x02L\\x81\\x81\\x02\\x82\\x01\\x80\\x00\\xca\\x01\\x80\\x00\\x01\\x82\\x0c\\x00\\xe2A\\x80\\x00\\xdc@\\x80\\x02\\xc5\\xc0\\x0c\\x00\\x0bAK\\x00\\x1c\\x81\\x00\\x01A\\x81\\x0b\\x00\\x15A\\x01\\x02\\xdc@\\x00\\x01\\xc5\\x00\\x08\\x00\\xc6@\\xc8\\x01\\x00\\x01\\x00\\x00A\\x01\\x03\\x00\\xdc@\\x80\\x01\\xc5\\xc0\\x01\\x00\\xc6\\x80\\xca\\x01\\x00\\x01\\x00\\x00B\\x01\\x80\\x00\\xdc@\\x80\\x01\\xc5\\x00\\x06\\x00\\xc6@\\xc6\\x01\\x01\\xc1\\x04\\x00\\xdc@\\x00\\x01\\xc5\\xc0\\x01\\x00\\xc6\\x00\\xc2\\x01\\x00\\x01\\x00\\x00B\\x01\\x00\\x00\\xdc@\\x80\\x01\\xc5@\\x01\\x00\\xc6\\x00\\xcd\\x01\\x01\\xc1\\x04\\x00\\xdc@\\x00\\x01\\xc5@\\x01\\x00\\xc6\\x80\\xc1\\x01\\x02\\x01\\x00\\x00B\\x01\\x80\\x00\\xdc@\\x80\\x01\\xc5@\\x04\\x00\\xc6@\\xcd\\x01\\x05A\\x01\\x00\\x06\\x81M\\x02\\x1c\\x01\\x80\\x00\\xdc@\\x00\\x00\\x16\\x00\\x02\\x80\\x85\\xc0\\x08\\x00\\x86\\x00I\\x01\\xc5\\x00\\x00\\x00\\xc6@\\xc9\\x01\\x00\\x01\\x80\\x00\\xdc\\x00\\x00\\x01\\x9c@\\x00\\x00\\x8b\\xc0\\xca\\x00\\x9c@\\x00\\x01\\x1e\\x00\\x80\\x007\\x00\\x00\\x00\\x04\\x10\\x00\\x00\\x00CollectableItem\\x00\\x04\\x0f\\x00\\x00\\x00RequiresPickup\\x00\\x04\\x07\\x00\\x00\\x00Health\\x00\\x04\\x10\\x00\\x00\\x00SetImmunityTime\\x00\\x03\\x00\\x00\\x00\\x00\\x00\\x00\\x16@\\x04\\x05\\x00\\x00\\x00Game\\x00\\x04\\x11\\x00\\x00\\x00SetCinematicMode\\x00\\x04\\x0f\\x00\\x00\\x00CharController\\x00\\x04\\x11\\x00\\x00\\x00SetWeaponsHidden\\x00\\x04\\x0c\\x00\\x00\\x00setVelocity\\x00\\x04\\x08\\x00\\x00\\x00Vector3\\x00\\x04\\x04\\x00\\x00\\x00New\\x00\\x03\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x04\\x0f\\x00\\x00\\x00CollisionShape\\x00\\x04\\x0b\\x00\\x00\\x00DisableAll\\x00\\x04\\x0e\\x00\\x00\\x00PhysicsObject\\x00\\x04\\x0b\\x00\\x00\\x00SetEnabled\\x00\\x04\\x0c\\x00\\x00\\x00MusicPlayer\\x00\\x04\\x08\\x00\\x00\\x00FadeOut\\x00\\x03\\x00\\x00\\x00\\x00\\x00\\x00\\xe0?\\x04\\r\\x00\\x00\\x00SoundLibrary\\x00\\x04\\x0b\\x00\\x00\\x00PlayEffect\\x00\\x04\\t\\x00\\x00\\x00item_get\\x00\\x04\\r\\x00\\x00\\x00PickupObject\\x00\\x04\\x08\\x00\\x00\\x00Program\\x00\\x04\\x05\\x00\\x00\\x00Wait\\x00\\x03333333\\xe3?\\x03\\x00\\x00\\x00\\x00\\x00\\x80V\\xc0\\x04\\x07\\x00\\x00\\x00Entity\\x00\\x04\\x13\\x00\\x00\\x00GetFacingDirection\\x00\\x03\\x00\\x00\\x00\\x00\\x00\\x00\\xf0\\xbf\\x03\\x00\\x00\\x00\\x00\\x00\\x80V@\\x04\\x19\\x00\\x00\\x00ModelTransformController\\x00\\x04\\x11\\x00\\x00\\x00SetRotationAngle\\x00\\x03\\xcd\\xcc\\xcc\\xcc\\xcc\\xcc\\xfc?\\x04\\n\\x00\\x00\\x00Character\\x00\\x04\\x08\\x00\\x00\\x00AddItem\\x00\\x04\\t\\x00\\x00\\x00ItemName\\x00\\x04\\x11\\x00\\x00\\x00ShowNotification\\x00\\x04\\x0b\\x00\\x00\\x00Got item: \\x00\\x04\\r\\x00\\x00\\x00TitleForItem\\x00\\x03333333\\x03@\\x04\\x0b\\x00\\x00\\x00DropObject\\x00\\x04\\x08\\x00\\x00\\x00destroy\\x00\\x04\\x10\\x00\\x00\\x00ShowTextBubbles\\x00\\x04\\x0b\\x00\\x00\\x00identifier\\x00\\x04\\x08\\x00\\x00\\x00_bubble\\x00\\x04\\t\\x00\\x00\\x00position\\x00\\x03\\x00\\x00\\x00\\x00\\x00\\x00*@\\x03\\x00\\x00\\x00\\x00\\x00\\x80F@\\x04(\\x00\\x00\\x00I already have a better item than this.\\x00\\x04\\x0f\\x00\\x00\\x00HideTextBubble\\x00\\x04\\x07\\x00\\x00\\x00FadeIn\\x00\\x04\\n\\x00\\x00\\x00PlayMusic\\x00\\x04\\x11\\x00\\x00\\x00DefaultMusicName\\x00\\x00\\x00\\x00\\x00\\xbe\\x00\\x00\\x00\\x01\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x07\\x00\\x00\\x00\\x07\\x00\\x00\\x00\\x07\\x00\\x00\\x00\\x07\\x00\\x00\\x00\\x07\\x00\\x00\\x00\\x08\\x00\\x00\\x00\\x08\\x00\\x00\\x00\\x08\\x00\\x00\\x00\\x08\\x00\\x00\\x00\\x08\\x00\\x00\\x00\\n\\x00\\x00\\x00\\n\\x00\\x00\\x00\\n\\x00\\x00\\x00\\n\\x00\\x00\\x00\\n\\x00\\x00\\x00\\n\\x00\\x00\\x00\\n\\x00\\x00\\x00\\n\\x00\\x00\\x00\\x0c\\x00\\x00\\x00\\x0c\\x00\\x00\\x00\\x0c\\x00\\x00\\x00\\x0c\\x00\\x00\\x00\\r\\x00\\x00\\x00\\r\\x00\\x00\\x00\\r\\x00\\x00\\x00\\r\\x00\\x00\\x00\\r\\x00\\x00\\x00\\x0f\\x00\\x00\\x00\\x0f\\x00\\x00\\x00\\x0f\\x00\\x00\\x00\\x0f\\x00\\x00\\x00\\x10\\x00\\x00\\x00\\x10\\x00\\x00\\x00\\x10\\x00\\x00\\x00\\x10\\x00\\x00\\x00\\x13\\x00\\x00\\x00\\x13\\x00\\x00\\x00\\x13\\x00\\x00\\x00\\x13\\x00\\x00\\x00\\x13\\x00\\x00\\x00\\x13\\x00\\x00\\x00\\x14\\x00\\x00\\x00\\x14\\x00\\x00\\x00\\x14\\x00\\x00\\x00\\x14\\x00\\x00\\x00\\x18\\x00\\x00\\x00\\x19\\x00\\x00\\x00\\x19\\x00\\x00\\x00\\x19\\x00\\x00\\x00\\x19\\x00\\x00\\x00\\x19\\x00\\x00\\x00\\x19\\x00\\x00\\x00\\x19\\x00\\x00\\x00\\x1a\\x00\\x00\\x00\\x1a\\x00\\x00\\x00\\x1a\\x00\\x00\\x00\\x1a\\x00\\x00\\x00\\x1a\\x00\\x00\\x00\\x1c\\x00\\x00\\x00\\x1c\\x00\\x00\\x00\\x1c\\x00\\x00\\x00\\x1c\\x00\\x00\\x00\\x1e\\x00\\x00\\x00\\x1e\\x00\\x00\\x00\\x1e\\x00\\x00\\x00\\x1e\\x00\\x00\\x00\\x1e\\x00\\x00\\x00\\x1e\\x00\\x00\\x00\\x1e\\x00\\x00\\x00\\x1e\\x00\\x00\\x00\\x1e\\x00\\x00\\x00\\x1f\\x00\\x00\\x00\\x1f\\x00\\x00\\x00\\x1f\\x00\\x00\\x00\\x1f\\x00\\x00\\x00\\x1f\\x00\\x00\\x00\\x1f\\x00\\x00\\x00\\x1f\\x00\\x00\\x00\\x1f\\x00\\x00\\x00\\x1f\\x00\\x00\\x00\\x1f\\x00\\x00\\x00\\x1f\\x00\\x00\\x00\\x1f\\x00\\x00\\x00!\\x00\\x00\\x00!\\x00\\x00\\x00!\\x00\\x00\\x00!\\x00\\x00\\x00\"\\x00\\x00\\x00\"\\x00\\x00\\x00\"\\x00\\x00\\x00\"\\x00\\x00\\x00#\\x00\\x00\\x00#\\x00\\x00\\x00#\\x00\\x00\\x00#\\x00\\x00\\x00%\\x00\\x00\\x00%\\x00\\x00\\x00%\\x00\\x00\\x00%\\x00\\x00\\x00%\\x00\\x00\\x00&\\x00\\x00\\x00&\\x00\\x00\\x00\\\'\\x00\\x00\\x00\\\'\\x00\\x00\\x00\\\'\\x00\\x00\\x00\\\'\\x00\\x00\\x00\\\'\\x00\\x00\\x00\\\'\\x00\\x00\\x00)\\x00\\x00\\x00)\\x00\\x00\\x00)\\x00\\x00\\x00)\\x00\\x00\\x00)\\x00\\x00\\x00)\\x00\\x00\\x00)\\x00\\x00\\x00)\\x00\\x00\\x00)\\x00\\x00\\x00)\\x00\\x00\\x00)\\x00\\x00\\x00)\\x00\\x00\\x00)\\x00\\x00\\x00)\\x00\\x00\\x00)\\x00\\x00\\x00)\\x00\\x00\\x00+\\x00\\x00\\x00+\\x00\\x00\\x00)\\x00\\x00\\x00-\\x00\\x00\\x00-\\x00\\x00\\x00-\\x00\\x00\\x00-\\x00\\x00\\x00-\\x00\\x00\\x00-\\x00\\x00\\x00/\\x00\\x00\\x00/\\x00\\x00\\x00/\\x00\\x00\\x00/\\x00\\x00\\x00/\\x00\\x00\\x000\\x00\\x00\\x000\\x00\\x00\\x000\\x00\\x00\\x000\\x00\\x00\\x000\\x00\\x00\\x001\\x00\\x00\\x001\\x00\\x00\\x001\\x00\\x00\\x001\\x00\\x00\\x004\\x00\\x00\\x004\\x00\\x00\\x004\\x00\\x00\\x004\\x00\\x00\\x004\\x00\\x00\\x005\\x00\\x00\\x005\\x00\\x00\\x005\\x00\\x00\\x005\\x00\\x00\\x007\\x00\\x00\\x007\\x00\\x00\\x007\\x00\\x00\\x007\\x00\\x00\\x007\\x00\\x00\\x009\\x00\\x00\\x009\\x00\\x00\\x009\\x00\\x00\\x009\\x00\\x00\\x009\\x00\\x00\\x009\\x00\\x00\\x009\\x00\\x00\\x00<\\x00\\x00\\x00<\\x00\\x00\\x00<\\x00\\x00\\x00<\\x00\\x00\\x00<\\x00\\x00\\x00<\\x00\\x00\\x00<\\x00\\x00\\x00=\\x00\\x00\\x00=\\x00\\x00\\x00>\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x05\\x00\\x00\\x00self\\x00\\x01\\x00\\x00\\x00\\xbd\\x00\\x00\\x00\\x05\\x00\\x00\\x00item\\x00\\x01\\x00\\x00\\x00\\xbd\\x00\\x00\\x00\\t\\x00\\x00\\x00rotation\\x00:\\x00\\x00\\x00\\xb3\\x00\\x00\\x00\\x00\\x00\\x00\\x00",
+				},
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Swing",
+			"number" : 6,
+
+			"swingsub-sub-sub-block " :  {
+
+				"u0" : 4,
+				"u1" : 1,
+				"u2" : 1,
+				"u3" : 4.0,
+				"u4" : 8.0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "KeyframeAnimation",
+			"number" : 7,
+			"name" : "swing2",
+
+			"keyframe animationsub-sub-sub-block " :  {
+
+				"linked model component number" : 101,
+				"name" : "hiro_swing2",
+				"u0" : 0,
+				"u1" : 1.2999999523162842,
+				"u2" : 1,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Swing",
+			"number" : 8,
+
+			"swingsub-sub-sub-block " :  {
+
+				"u0" : 7,
+				"u1" : 1,
+				"u2" : 1,
+				"u3" : 4.0,
+				"u4" : 8.0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "KeyframeAnimation",
+			"number" : 9,
+			"name" : "cast",
+
+			"keyframe animationsub-sub-sub-block " :  {
+
+				"linked model component number" : 101,
+				"name" : "hiro_cast",
+				"u0" : 1,
+				"u1" : 0.699999988079071,
+				"u2" : 1,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "KeyframeAnimation",
+			"number" : 10,
+			"name" : "castfinish",
+
+			"keyframe animationsub-sub-sub-block " :  {
+
+				"linked model component number" : 101,
+				"name" : "hiro_castfinish",
+				"u0" : 0,
+				"u1" : 1.0,
+				"u2" : 1,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Skill",
+			"number" : 11,
+
+			"skillsub-sub-sub-block " :  {
+
+				"u0" : 10,
+
+				"u1sub-sub-sub-sub-block " :  {
+
+					"x" : 20.0,
+					"y" : 0.0,
+				},
+				"cast animation" : "magic_spell_cast",
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "KeyframeAnimation",
+			"number" : 12,
+			"name" : "hurt",
+
+			"keyframe animationsub-sub-sub-block " :  {
+
+				"linked model component number" : 101,
+				"name" : "hiro_hurt",
+				"u0" : 0,
+				"u1" : 1.0,
+				"u2" : 1,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "KeyframeAnimation",
+			"number" : 13,
+			"name" : "die",
+
+			"keyframe animationsub-sub-sub-block " :  {
+
+				"linked model component number" : 101,
+				"name" : "hiro_die",
+				"u0" : 0,
+				"u1" : 1.0,
+				"u2" : 1,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "KeyframeAnimation",
+			"number" : 14,
+			"name" : "swing3",
+
+			"keyframe animationsub-sub-sub-block " :  {
+
+				"linked model component number" : 101,
+				"name" : "hiro_swing5",
+				"u0" : 0,
+				"u1" : 1.399999976158142,
+				"u2" : 1,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Swing",
+			"number" : 15,
+
+			"swingsub-sub-sub-block " :  {
+
+				"u0" : 14,
+				"u1" : 1,
+				"u2" : 1,
+				"u3" : 3.799999952316284,
+				"u4" : 9.0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "KeyframeAnimation",
+			"number" : 16,
+			"name" : "spinjump",
+
+			"keyframe animationsub-sub-sub-block " :  {
+
+				"linked model component number" : 101,
+				"name" : "hiro_spinjump",
+				"u0" : 0,
+				"u1" : 0.699999988079071,
+				"u2" : 1,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Light",
+			"number" : 17,
+
+			"lightsub-sub-sub-block " :  {
+
+				"u0" : 3,
+				"u1" : 0.75,
+
+				"u2sub-sub-sub-sub-block " :  {
+
+					"w" : 1.0,
+					"x" : 1.0,
+					"y" : 1.0,
+					"z" : 1.0,
+				},
+				"u3" : 0.0,
+				"u4" : 0.00019999999494757503,
+
+				"u5sub-sub-sub-sub-block " :  {
+
+					"x" : 0.0,
+					"y" : 0.0,
+					"z" : 0.0,
+				},
+				"u6" : 150.0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "KeyframeAnimation",
+			"number" : 18,
+			"name" : "push",
+
+			"keyframe animationsub-sub-sub-block " :  {
+
+				"linked model component number" : 101,
+				"name" : "hiro_push",
+				"u0" : 1,
+				"u1" : 1.5,
+				"u2" : 1,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "ModelTransformController",
+			"number" : 19,
+
+			"model transform controllersub-sub-sub-block " :  {
+
+				"u0" : 101,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "SoundEffect",
+			"number" : 20,
+
+			"sound effectsub-sub-sub-block " :  {
+
+				"sound" : "jump",
+				"u0" : 0.0,
+				"u1" : 1.0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "SoundEffect",
+			"number" : 21,
+
+			"sound effectsub-sub-sub-block " :  {
+
+				"sound" : "jump_land",
+				"u0" : 0.0,
+				"u1" : 1.0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Model",
+			"number" : 101,
+
+			"3D modelsub-sub-sub-block " :  {
+
+				"name" : "hiro",
+				"u0" : 1.5707963705062866,
+				"u1" : 0.4000000059604645,
+				"u2" : 0.0,
+
+				"u3sub-sub-sub-sub-block " :  {
+
+					"w" : 0.0,
+					"x" : 0.0,
+					"y" : 0.0,
+					"z" : 1.0,
+				},
+
+				"u4sub-sub-sub-sub-block " :  {
+
+					"x" : 0.0,
+					"y" : 0.0,
+					"z" : 0.0,
+				},
+				"u5" : 0,
+
+				"u6sub-sub-sub-sub-block " :  {
+
+					"w" : 1.0,
+					"x" : 1.0,
+					"y" : 1.0,
+					"z" : 1.0,
+				},
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "KeyframeAnimation",
+			"number" : 103,
+			"name" : "stand",
+
+			"keyframe animationsub-sub-sub-block " :  {
+
+				"linked model component number" : 101,
+				"name" : "hiro_stand",
+				"u0" : 1,
+				"u1" : 0.5,
+				"u2" : 1,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "KeyframeAnimation",
+			"number" : 105,
+			"name" : "run",
+
+			"keyframe animationsub-sub-sub-block " :  {
+
+				"linked model component number" : 101,
+				"name" : "hiro_run",
+				"u0" : 1,
+				"u1" : 0.699999988079071,
+				"u2" : 1,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "KeyframeAnimation",
+			"number" : 109,
+			"name" : "jump",
+
+			"keyframe animationsub-sub-sub-block " :  {
+
+				"linked model component number" : 101,
+				"name" : "hiro_jump",
+				"u0" : 0,
+				"u1" : 0.30000001192092896,
+				"u2" : 1,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "KeyframeAnimation",
+			"number" : 111,
+			"name" : "fall",
+
+			"keyframe animationsub-sub-sub-block " :  {
+
+				"linked model component number" : 101,
+				"name" : "hiro_jumpland",
+				"u0" : 1,
+				"u1" : 1.0,
+				"u2" : 1,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "CharAnimController",
+			"number" : 117,
+
+			"animation controllersub-sub-sub-block " :  {
+
+				"model component" : 101,
+				"u1" : 0,
+				"u2" : 0,
+			},
+
+			"char anim controllersub-sub-sub-block " :  {
+
+				"u0" : 103,
+				"u1" : 105,
+				"u2" : 109,
+				"u3" : 111,
+				"u4" : 9,
+				"u5" : 16,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "CharAnimController",
+			"number" : 120,
+			"name" : "lift",
+
+			"animation controllersub-sub-sub-block " :  {
+
+				"model component" : 101,
+				"u1" : 0,
+				"u2" : 0,
+			},
+
+			"char anim controllersub-sub-sub-block " :  {
+
+				"u0" : 121,
+				"u1" : 122,
+				"u2" : 123,
+				"u3" : 124,
+				"u4" : 0,
+				"u5" : 0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "KeyframeAnimation",
+			"number" : 121,
+			"name" : "liftStand",
+
+			"keyframe animationsub-sub-sub-block " :  {
+
+				"linked model component number" : 101,
+				"name" : "hiro_lift_stand",
+				"u0" : 1,
+				"u1" : 0.5,
+				"u2" : 1,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "KeyframeAnimation",
+			"number" : 122,
+			"name" : "liftWalk",
+
+			"keyframe animationsub-sub-sub-block " :  {
+
+				"linked model component number" : 101,
+				"name" : "hiro_lift_walk",
+				"u0" : 1,
+				"u1" : 0.699999988079071,
+				"u2" : 1,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "KeyframeAnimation",
+			"number" : 123,
+			"name" : "liftJump",
+
+			"keyframe animationsub-sub-sub-block " :  {
+
+				"linked model component number" : 101,
+				"name" : "hiro_lift_jump",
+				"u0" : 0,
+				"u1" : 0.30000001192092896,
+				"u2" : 1,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "KeyframeAnimation",
+			"number" : 124,
+			"name" : "liftFall",
+
+			"keyframe animationsub-sub-sub-block " :  {
+
+				"linked model component number" : 101,
+				"name" : "hiro_lift_fall",
+				"u0" : 0,
+				"u1" : 1.0,
+				"u2" : 1,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "KeyframeAnimation",
+			"number" : 127,
+			"name" : "lift",
+
+			"keyframe animationsub-sub-sub-block " :  {
+
+				"linked model component number" : 101,
+				"name" : "hiro_lift",
+				"u0" : 0,
+				"u1" : 1.0,
+				"u2" : 1,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "KeyframeAnimation",
+			"number" : 128,
+			"name" : "drop",
+
+			"keyframe animationsub-sub-sub-block " :  {
+
+				"linked model component number" : 101,
+				"name" : "hiro_lift_drop",
+				"u0" : 0,
+				"u1" : 1.0,
+				"u2" : 1,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "KeyframeAnimation",
+			"number" : 129,
+			"name" : "throw",
+
+			"keyframe animationsub-sub-sub-block " :  {
+
+				"linked model component number" : 101,
+				"name" : "hiro_lift_throw",
+				"u0" : 0,
+				"u1" : 1.0,
+				"u2" : 1,
+			},
+		},
+
+		"positionsub-sub-block " :  {
+
+			"x position" : 0.0,
+			"y position" : 0.0,
+		},
+		"z position" : 0.0,
+		"rotation" : 0.0,
+		"scale" : 1.0,
+
+		"u0sub-sub-block " :  {
+
+			"w" : -8.0,
+			"x" : -34.0,
+			"y" : 16.0,
+			"z" : 56.0,
+		},
+		"hidden" : 0,
+	},
+	"u0" : 1.0,
+},
+
+"?itemblock " :  {
+
+
+	"?sub-itemsub-block " :  {
+
+		"name" : "hiro_magicplated",
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Model",
+			"number" : 101,
+
+			"3D modelsub-sub-sub-block " :  {
+
+				"name" : "hiro_magicplated",
+				"u0" : 0.0,
+				"u1" : 0.0,
+				"u2" : 0.0,
+
+				"u3sub-sub-sub-sub-block " :  {
+
+					"w" : 1.0,
+					"x" : 1.0,
+					"y" : 1.0,
+					"z" : 1.0,
+				},
+
+				"u4sub-sub-sub-sub-block " :  {
+
+					"x" : 0.0,
+					"y" : 0.0,
+					"z" : 0.0,
+				},
+				"u5" : 0,
+
+				"u6sub-sub-sub-sub-block " :  {
+
+					"w" : 1.0,
+					"x" : 1.0,
+					"y" : 1.0,
+					"z" : 1.0,
+				},
+			},
+		},
+
+		"positionsub-sub-block " :  {
+
+			"x position" : 0.0,
+			"y position" : 0.0,
+		},
+		"z position" : 0.0,
+		"rotation" : 0.0,
+		"scale" : 1.0,
+
+		"u0sub-sub-block " :  {
+
+			"w" : 0.0,
+			"x" : 0.0,
+			"y" : 0.0,
+			"z" : 0.0,
+		},
+		"hidden" : 0,
+	},
+	"u0" : 1.0,
+},
+
+"?itemblock " :  {
+
+
+	"?sub-itemsub-block " :  {
+
+		"name" : "hiro_plated",
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Model",
+			"number" : 101,
+
+			"3D modelsub-sub-sub-block " :  {
+
+				"name" : "hiro_plated",
+				"u0" : 0.0,
+				"u1" : 0.0,
+				"u2" : 0.0,
+
+				"u3sub-sub-sub-sub-block " :  {
+
+					"w" : 1.0,
+					"x" : 1.0,
+					"y" : 1.0,
+					"z" : 1.0,
+				},
+
+				"u4sub-sub-sub-sub-block " :  {
+
+					"x" : 0.0,
+					"y" : 0.0,
+					"z" : 0.0,
+				},
+				"u5" : 0,
+
+				"u6sub-sub-sub-sub-block " :  {
+
+					"w" : 1.0,
+					"x" : 1.0,
+					"y" : 1.0,
+					"z" : 1.0,
+				},
+			},
+		},
+
+		"positionsub-sub-block " :  {
+
+			"x position" : 0.0,
+			"y position" : 0.0,
+		},
+		"z position" : 0.0,
+		"rotation" : 0.0,
+		"scale" : 1.0,
+
+		"u0sub-sub-block " :  {
+
+			"w" : 0.0,
+			"x" : 0.0,
+			"y" : 0.0,
+			"z" : 0.0,
+		},
+		"hidden" : 0,
+	},
+	"u0" : 1.0,
+},
+
+"?itemblock " :  {
+
+
+	"?sub-itemsub-block " :  {
+
+		"name" : "hiro_xp_whoosh",
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Light",
+			"number" : 1,
+
+			"lightsub-sub-sub-block " :  {
+
+				"u0" : 3,
+				"u1" : 2.0,
+
+				"u2sub-sub-sub-sub-block " :  {
+
+					"w" : 1.0,
+					"x" : 1.0,
+					"y" : 1.0,
+					"z" : 1.0,
+				},
+				"u3" : 0.0,
+				"u4" : 0.00019999999494757503,
+
+				"u5sub-sub-sub-sub-block " :  {
+
+					"x" : 0.0,
+					"y" : 0.0,
+					"z" : 0.0,
+				},
+				"u6" : 150.0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "ParticleEmitter",
+			"number" : 2,
+
+			"particle emittersub-sub-sub-block " :  {
+
+				"particle" : 123,
+				"particle" : 3,
+				"particle" : 4,
+				"u1" : 0,
+				"u2" : 30,
+				"u3" : 120,
+				"u4" : 0,
+
+				"u5sub-sub-sub-sub-block " :  {
+
+					"u0" : 1,
+
+					"u1sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 1.0,
+						"x" : 0.8111110925674438,
+						"y" : 0.0,
+						"z" : 0.0,
+					},
+					"u2" : 25.0,
+					"u2" : 0.6000000238418579,
+					"u2" : 20.0,
+					"u2" : 60.0,
+					"u3" : 0.0,
+					"u4" : 0.0,
+					"u5" : 0.0,
+
+					"u6sub-sub-sub-sub-sub-block " :  {
+
+						"u0" : 0.0,
+						"u1" : 0.0,
+						"u2" : 0.0,
+					},
+				},
+				"u6" : 1,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Particle",
+			"number" : 3,
+
+			"particlesub-sub-sub-block " :  {
+
+				"name" : "particle_fure_2",
+				"u0" : 40.0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Particle",
+			"number" : 4,
+
+			"particlesub-sub-sub-block " :  {
+
+				"name" : "particle_fure_3",
+				"u0" : 40.0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "ParticleEmitter",
+			"number" : 120,
+
+			"particle emittersub-sub-sub-block " :  {
+
+				"particle" : 123,
+				"particle" : 3,
+				"particle" : 4,
+				"u1" : 0,
+				"u2" : 100,
+				"u3" : 0,
+				"u4" : 1,
+
+				"u5sub-sub-sub-sub-block " :  {
+
+					"u0" : 2,
+
+					"u1sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 1.0,
+						"x" : 1.0,
+						"y" : 1.0,
+						"z" : 0.0,
+					},
+					"u2" : 20.0,
+					"u2" : 0.6000000238418579,
+					"u2" : 10.0,
+					"u2" : 30.0,
+					"u3" : 0.0,
+					"u4" : 0.0,
+					"u5" : 0.0,
+
+					"u6sub-sub-sub-sub-sub-block " :  {
+
+						"u0" : 0.0,
+						"u1" : 0.0,
+						"u2" : 0.0,
+					},
+				},
+				"u6" : 1,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Particle",
+			"number" : 123,
+
+			"particlesub-sub-sub-block " :  {
+
+				"name" : "particle_fure_1",
+				"u0" : 30.0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "TransformController",
+			"number" : 125,
+		},
+
+		"positionsub-sub-block " :  {
+
+			"x position" : 0.0,
+			"y position" : 0.0,
+		},
+		"z position" : 0.0,
+		"rotation" : 0.0,
+		"scale" : 1.0,
+
+		"u0sub-sub-block " :  {
+
+			"w" : -10.0,
+			"x" : -10.0,
+			"y" : 20.0,
+			"z" : 20.0,
+		},
+		"hidden" : 0,
+	},
+	"u0" : 1.0,
+},
+"?dependancy" : "magic",
+
+}

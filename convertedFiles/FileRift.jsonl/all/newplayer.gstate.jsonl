@@ -1,0 +1,10 @@
+data = {
+
+"inventoryblock " :  {
+
+},
+"spawn level" : "town_herohouse",
+"spawnpoint" : "spawn_default",
+"u1" : "map",
+
+}

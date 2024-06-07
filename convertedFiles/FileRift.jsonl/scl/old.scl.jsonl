@@ -1,0 +1,324 @@
+data = {
+"scl file name" : "old",
+
+"?itemblock " :  {
+
+
+	"?sub-itemsub-block " :  {
+
+		"name" : "charging_golem",
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Model",
+			"number" : 101,
+
+			"3D modelsub-sub-sub-block " :  {
+
+				"name" : "golem_small",
+				"u0" : 1.5707963705062866,
+				"u1" : 0.0,
+				"u2" : 0.0,
+
+				"u3sub-sub-sub-sub-block " :  {
+
+					"w" : 0.0,
+					"x" : 0.0,
+					"y" : 0.0,
+					"z" : 1.0,
+				},
+
+				"u4sub-sub-sub-sub-block " :  {
+
+					"x" : 0.0,
+					"y" : 0.0,
+					"z" : 0.0,
+				},
+				"u5" : 0,
+
+				"u6sub-sub-sub-sub-block " :  {
+
+					"w" : 1.0,
+					"x" : 1.0,
+					"y" : 1.0,
+					"z" : 1.0,
+				},
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "KeyframeAnimation",
+			"number" : 103,
+
+			"keyframe animationsub-sub-sub-block " :  {
+
+				"linked model component number" : 101,
+				"name" : "golem_small_walk",
+				"u0" : 1,
+				"u1" : 0.5,
+				"u2" : 1,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "AnimationController",
+			"number" : 107,
+
+			"animation controllersub-sub-sub-block " :  {
+
+				"model component" : 101,
+				"u1" : 0,
+				"u2" : 0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "MonsterEntity",
+			"number" : 109,
+
+			"entitysub-sub-sub-block " :  {
+
+				"u0" : 18446744073709551615,
+				"u1" : 1,
+			},
+
+			"?monster entitysub-sub-sub-block " :  {
+
+				"u0" : "",
+
+				"lua chunksub-sub-sub-sub-block " :  {
+
+				},
+				"u2" : 1,
+				"u3" : 1,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "UtilityShape",
+			"number" : 111,
+
+			"collision shapesub-sub-sub-block " :  {
+
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"w" : -500.0,
+					"x" : 0.0,
+					"y" : 1000.0,
+					"z" : 150.0,
+				},
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Health",
+			"number" : 114,
+
+			"healthsub-sub-sub-block " :  {
+
+				"u0" : 6,
+				"u1" : 0,
+
+				"u2sub-sub-sub-sub-block " :  {
+
+					"x" : 0.0,
+					"y" : 50.0,
+				},
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Damage",
+			"number" : 117,
+
+			"damagesub-sub-sub-block " :  {
+
+				"u0" : 2,
+				"u1" : 0,
+				"u2" : 0,
+				"u5" : 1.0,
+				"u6" : 0.0,
+				"u7" : 0,
+				"u8" : 1,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "CollisionShape",
+			"number" : 120,
+
+			"collision shapesub-sub-sub-block " :  {
+
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"w" : -30.0,
+					"x" : -0.8058220148086548,
+					"y" : 60.0,
+					"z" : 132.24581909179688,
+				},
+			},
+
+			"collision shape 2sub-sub-sub-block " :  {
+
+				"u1" : 1,
+				"u2" : 1,
+				"u3" : 1,
+				"w" : -15.0,
+				"x" : 15.0,
+				"z" : 1,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "ChargingMonsterController",
+			"number" : 124,
+
+			"monster controllersub-sub-sub-block " :  {
+
+				"u0" : 100.0,
+				"u1" : 107,
+				"u2" : 109,
+				"u3" : 111,
+			},
+
+			"charging monster controllersub-sub-sub-block " :  {
+
+				"walk animation" : 103,
+				"charge animation" : 132,
+				"run animation" : 128,
+				"u0" : 230.0,
+				"u1" : 300.0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "KeyframeAnimation",
+			"number" : 128,
+
+			"keyframe animationsub-sub-sub-block " :  {
+
+				"linked model component number" : 101,
+				"name" : "golem_small_charge",
+				"u0" : 1,
+				"u1" : 1.2000000476837158,
+				"u2" : 1,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "KeyframeAnimation",
+			"number" : 132,
+
+			"keyframe animationsub-sub-sub-block " :  {
+
+				"linked model component number" : 101,
+				"name" : "golem_small_attack1",
+				"u0" : 1,
+				"u1" : 1.0,
+				"u2" : 1,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "BoneControlledCollisionShape",
+			"number" : 136,
+
+			"collision shapesub-sub-sub-block " :  {
+
+
+				"u1sub-sub-sub-sub-block " :  {
+
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"y" : 0.0,
+						"z" : 0.0,
+					},
+					"u1" : 30.0,
+				},
+			},
+
+			"collision shape 2sub-sub-sub-block " :  {
+
+				"u3" : 1,
+				"w" : -23.0,
+				"x" : 23.0,
+				"z" : 1,
+			},
+
+			"bone controlled collision shapesub-sub-sub-block " :  {
+
+				"u0" : 101,
+				"bone name" : "BoneRightHand3",
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "BoneControlledCollisionShape",
+			"number" : 141,
+
+			"collision shapesub-sub-sub-block " :  {
+
+
+				"u1sub-sub-sub-sub-block " :  {
+
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"y" : 0.0,
+						"z" : 0.0,
+					},
+					"u1" : 30.0,
+				},
+			},
+
+			"collision shape 2sub-sub-sub-block " :  {
+
+				"w" : -23.0,
+				"x" : 23.0,
+				"z" : 1,
+			},
+
+			"bone controlled collision shapesub-sub-sub-block " :  {
+
+				"u0" : 101,
+				"bone name" : "BoneLeftHand3",
+			},
+		},
+
+		"positionsub-sub-block " :  {
+
+			"x position" : 0.0,
+			"y position" : 0.0,
+		},
+		"z position" : 0.0,
+		"rotation" : 0.0,
+		"scale" : 1.0,
+
+		"u0sub-sub-block " :  {
+
+			"w" : -30.0,
+			"x" : -0.8058220148086548,
+			"y" : 60.0,
+			"z" : 132.24581909179688,
+		},
+		"hidden" : 0,
+	},
+	"u0" : 1.0,
+},
+
+}

@@ -1,0 +1,763 @@
+
+collectable item block { (0a @ 1)
+
+    item type : 2(08 @ 3)
+    name : brasssword (12 @ 5)
+    title : Brass Sword (1a @ 11)
+    subTitle : +0 damage (22 @ 1e)
+    info : Good for killing insects. (2a @ 29)
+    can have multiple : 1(30 @ 44)
+    min damage : 3(38 @ 46)
+    max damage : 6(40 @ 48)
+    sequence position : 1(48 @ 4a)
+}
+
+collectable item block { (0a @ 4c)
+
+    item type : 2(08 @ 4e)
+    name : ironsword (12 @ 50)
+    title : Iron Sword (1a @ 5b)
+    subTitle : +1 damage (22 @ 67)
+    info : Basic iron sword. (2a @ 72)
+    can have multiple : 1(30 @ 85)
+    min damage : 5(38 @ 87)
+    max damage : 10(40 @ 89)
+    sequence position : 2(48 @ 8b)
+}
+
+collectable item block { (0a @ 8d)
+
+    item type : 2(08 @ 8f)
+    name : needle (12 @ 91)
+    title : The Needle (1a @ 99)
+    subTitle : +1 damage (22 @ a5)
+    info : Basic iron sword. (2a @ b0)
+    can have multiple : 1(30 @ c3)
+    min damage : 7(38 @ c5)
+    max damage : 13(40 @ c7)
+    sequence position : 3(48 @ c9)
+}
+
+collectable item block { (0a @ cb)
+
+    item type : 2(08 @ cd)
+    name : broadsword (12 @ cf)
+    title : Broad Sword (1a @ db)
+    subTitle : +2 damage (22 @ e8)
+    info : High quality broad sword. (2a @ f3)
+    can have multiple : 1(30 @ 10e)
+    min damage : 10(38 @ 110)
+    max damage : 15(40 @ 112)
+    sequence position : 4(48 @ 114)
+}
+
+collectable item block { (0a @ 116)
+
+    item type : 2(08 @ 118)
+    name : thorn (12 @ 11a)
+    title : The Thorn (1a @ 121)
+    subTitle : +2 damage (22 @ 12c)
+    info : High quality broad sword. (2a @ 137)
+    can have multiple : 1(30 @ 152)
+    min damage : 12(38 @ 154)
+    max damage : 18(40 @ 156)
+    sequence position : 5(48 @ 158)
+}
+
+collectable item block { (0a @ 15a)
+
+    item type : 2(08 @ 15c)
+    name : magicsword (12 @ 15e)
+    title : Magic Sword (1a @ 16a)
+    subTitle : +3 damage (22 @ 177)
+    info : Magic enchanted sword. (2a @ 182)
+    can have multiple : 1(30 @ 19a)
+    min damage : 15(38 @ 19c)
+    max damage : 20(40 @ 19e)
+    sequence position : 6(48 @ 1a0)
+}
+
+collectable item block { (0a @ 1a2)
+
+    item type : 2(08 @ 1a4)
+    name : legendsword (12 @ 1a6)
+    title : The Mageblade (1a @ 1b3)
+    subTitle : +4 damage (22 @ 1c2)
+    info : The legendary Mageblade. (2a @ 1cd)
+    can have multiple : 1(30 @ 1e7)
+    min damage : 20(38 @ 1e9)
+    max damage : 25(40 @ 1eb)
+    sequence position : 7(48 @ 1ed)
+}
+
+collectable item block { (0a @ 1ef)
+
+    item type : 3(08 @ 1f1)
+    name : platearmor (12 @ 1f3)
+    title : Plate Armor (1a @ 1ff)
+    subTitle : 50% damage reduction (22 @ 20c)
+    info : 50% damage reduction. (2a @ 222)
+    can have multiple : 1(30 @ 239)
+    sequence position : 1(48 @ 23b)
+}
+
+collectable item block { (0a @ 23d)
+
+    item type : 3(08 @ 23f)
+    name : magicarmor (12 @ 241)
+    title : Magic Armor (1a @ 24d)
+    subTitle : 75% damage reduction (22 @ 25a)
+    info : 75% damage reduction. (2a @ 270)
+    can have multiple : 1(30 @ 287)
+    sequence position : 2(48 @ 289)
+}
+
+collectable item block { (0a @ 28b)
+
+    item type : 4(08 @ 28d)
+    name : firetrinket (12 @ 28f)
+    title : Trinket of Fire (1a @ 29c)
+    subTitle : - (22 @ 2ad)
+    info : Adds a fire enchantment to your weapon, armor or spells. (2a @ 2b0)
+    can have multiple : 1(30 @ 2ea)
+}
+
+collectable item block { (0a @ 2ec)
+
+    item type : 4(08 @ 2ee)
+    name : icetrinket (12 @ 2f0)
+    title : Trinket of Ice (1a @ 2fc)
+    subTitle : - (22 @ 30c)
+    info : Adds a cold enchantment to your weapon, armor or spells. (2a @ 30f)
+    can have multiple : 1(30 @ 349)
+}
+
+collectable item block { (0a @ 34b)
+
+    item type : 4(08 @ 34d)
+    name : shadowtrinket (12 @ 34f)
+    title : Trinket of Shadow (1a @ 35e)
+    subTitle : - (22 @ 371)
+    info : Adds a shadow enchantment to your weapon, armor or spells. (2a @ 374)
+    can have multiple : 1(30 @ 3b0)
+}
+
+collectable item block { (0a @ 3b2)
+
+    item type : 1(08 @ 3b4)
+    name : healingpotion (12 @ 3b6)
+    title : Healing Potion (1a @ 3c5)
+    info : Restores 5 hearts when used. You can only carry one healing potion at a time. (2a @ 3d5)
+    can have multiple : 1(30 @ 424)
+}
+
+collectable item block { (0a @ 426)
+
+    item type : 1(08 @ 428)
+    name : experiencesack (12 @ 42a)
+    title : Sack of Experience (1a @ 43a)
+    info : Gives a lot of experience. (2a @ 44e)
+}
+
+collectable item block { (0a @ 46a)
+
+    item type : 1(08 @ 46c)
+    name : ankh (12 @ 46e)
+    title : Ankh of Resurrection (1a @ 474)
+    info : - (2a @ 48a)
+}
+
+collectable item block { (0a @ 48d)
+
+    item type : 5(08 @ 48f)
+    name : key_yellow (12 @ 491)
+    title : A Key (1a @ 49d)
+}
+
+collectable item block { (0a @ 4a4)
+
+    item type : 5(08 @ 4a6)
+    name : iselon_shard_1 (12 @ 4a8)
+    title : First shard of the Mageblade (1a @ 4b8)
+    can have multiple : 1(30 @ 4d6)
+}
+
+collectable item block { (0a @ 4d8)
+
+    item type : 5(08 @ 4da)
+    name : iselon_shard_2 (12 @ 4dc)
+    title : Second shard of the Mageblade (1a @ 4ec)
+    can have multiple : 1(30 @ 50b)
+}
+
+collectable item block { (0a @ 50d)
+
+    item type : 5(08 @ 50f)
+    name : iselon_shard_3 (12 @ 511)
+    title : Third shard of the Mageblade (1a @ 521)
+    can have multiple : 1(30 @ 53f)
+}
+
+collectable item block { (0a @ 541)
+
+    item type : 5(08 @ 543)
+    name : iselon_shard_4 (12 @ 545)
+    title : Fourth shard of the Mageblade (1a @ 555)
+    can have multiple : 1(30 @ 574)
+}
+
+skill block { (12 @ 576)
+
+    name : bolt (0a @ 578)
+    title : Magic Bolt (12 @ 57e)
+    subtitle : --- (1a @ 58a)
+    u0 : 10(20 @ 58f)
+    min damage : 5(28 @ 591)
+    max damage : 10(30 @ 593)
+}
+
+skill block { (12 @ 595)
+
+    name : bomb (0a @ 597)
+    title : Magic Bomb (12 @ 59d)
+    subtitle : --- (1a @ 5a9)
+    u0 : 20(20 @ 5ae)
+    min damage : 10(28 @ 5b0)
+    max damage : 20(30 @ 5b2)
+}
+
+skill block { (12 @ 5b4)
+
+    name : hookshot (0a @ 5b6)
+    title : Dragon's Grasp (12 @ 5c0)
+    subtitle : --- (1a @ 5d0)
+    u0 : 25(20 @ 5d5)
+    min damage : 5(28 @ 5d7)
+    max damage : 10(30 @ 5d9)
+}
+
+skill block { (12 @ 5db)
+
+    name : dimension (0a @ 5dd)
+    title : Dimension Rift (12 @ 5e8)
+    subtitle : ??? (1a @ 5f8)
+    u0 : 40(20 @ 5fd)
+    min damage : 0(28 @ 5ff)
+    max damage : 0(30 @ 601)
+}
+
+quest block { (1a @ 603)
+
+    name : vaseQuest (0a @ 605)
+    title : Recover the Vase (12 @ 610)
+    target level : plains_part2 (22 @ 622)
+}
+
+quest block { (1a @ 630)
+
+    name : snowyboulder (0a @ 632)
+    title : Get the Golden Boulder (12 @ 640)
+    target level : snowy_part1 (22 @ 658)
+}
+
+quest block { (1a @ 665)
+
+    name : quest01_find_master (0a @ 667)
+    title : Find Master in the Woods (12 @ 67c)
+    target level : town_woods_end (22 @ 696)
+}
+
+quest block { (1a @ 6a6)
+
+    name : quest02_village_elder (0a @ 6a8)
+    target level : town_part1 (22 @ 6bf)
+}
+
+quest block { (1a @ 6cb)
+
+    name : quest03_woodkeep (0a @ 6cd)
+    title : Find the Legendary Weapon (12 @ 6df)
+    target level : plains_woodkeep3 (22 @ 6fa)
+}
+
+quest block { (1a @ 70c)
+
+    name : quest04_village_elder2 (0a @ 70e)
+    target level : town_part1 (22 @ 726)
+}
+
+quest block { (1a @ 732)
+
+    name : quest05_florennum (0a @ 734)
+    title : Speak to the King for Help (12 @ 747)
+    target level : florennum_jail_part1 (22 @ 763)
+}
+
+quest block { (1a @ 779)
+
+    name : quest06_florennum_shard (0a @ 77b)
+    title : Recover the Second Shard (12 @ 794)
+    target level : florennum_jail_boss (22 @ 7ae)
+}
+
+quest block { (1a @ 7c3)
+
+    name : quest07_go_to_king (0a @ 7c5)
+    target level : florennum_jail_part1 (22 @ 7d9)
+}
+
+quest block { (1a @ 7ef)
+
+    name : quest071_fire (0a @ 7f1)
+    title : The Fiery Depths (12 @ 800)
+    target level : fire_partBoss (22 @ 812)
+}
+
+quest block { (1a @ 821)
+
+    name : quest072_ice (0a @ 823)
+    title : The Snowy Peaks (12 @ 831)
+    target level : icecastle_partBoss (22 @ 842)
+}
+
+quest block { (1a @ 856)
+
+    name : quest09_assemble (0a @ 858)
+    title : The Chambers of Power (12 @ 86a)
+    target level : thecave_part15 (22 @ 881)
+}
+
+quest block { (1a @ 891)
+
+    name : quest10_death (0a @ 893)
+    title : Destroy the Source of Corruption (12 @ 8a2)
+    target level : worldsend_part9 (22 @ 8c4)
+}
+
+entity info block { (22 @ 8d5)
+
+    name : monster (0a @ 8d7)
+    title : Monster (12 @ 8e0)
+}
+
+entity info block { (22 @ 8e9)
+
+    name : boss (0a @ 8eb)
+    title : Boss (12 @ 8f1)
+    u0 : 1(18 @ 8f7)
+    u1 : 0(20 @ 8f9)
+    u2 : 0(28 @ 8fb)
+    u3 : 0(30 @ 8fd)
+}
+
+entity info block { (22 @ 8ff)
+
+    name : boss_corruptor (0a @ 901)
+    title : Corruptor (12 @ 911)
+    u0 : 1(18 @ 91c)
+    u1 : 0(20 @ 91e)
+    u2 : 0(28 @ 920)
+    u3 : 0(30 @ 922)
+    u5 : 1.0 (45 @ 924)
+}
+
+entity info block { (22 @ 929)
+
+    name : boss_fire (0a @ 92b)
+    title : Boss (12 @ 936)
+    u0 : 1(18 @ 93c)
+    u1 : 0(20 @ 93e)
+    u2 : 0(28 @ 940)
+    u4 : 1.0 (3d @ 942)
+}
+
+entity info block { (22 @ 947)
+
+    name : lesser_corruptor (0a @ 949)
+    title : Lesser Corruptor (12 @ 95b)
+    u1 : 0(20 @ 96d)
+}
+
+entity info block { (22 @ 96f)
+
+    name : corruptor (0a @ 971)
+    title : Corruptor (12 @ 97c)
+    u1 : 0(20 @ 987)
+    u5 : 1.0 (45 @ 989)
+}
+
+entity info block { (22 @ 98e)
+
+    name : bolt (0a @ 990)
+    u1 : 0(20 @ 996)
+    u3 : 0(30 @ 998)
+}
+
+entity info block { (22 @ 99a)
+
+    name : skeleton_lord (0a @ 99c)
+    title : Skeleton Lord (12 @ 9ab)
+    u0 : 1(18 @ 9ba)
+}
+
+entity info block { (22 @ 9bc)
+
+    name : Chaos Orb (0a @ 9be)
+    title : Chaos Orb (12 @ 9c9)
+    u0 : 1(18 @ 9d4)
+    u1 : 0(20 @ 9d6)
+    u3 : 0(30 @ 9d8)
+    u5 : 1.0 (45 @ 9da)
+}
+
+entity info block { (22 @ 9df)
+
+    name : Master of Chaos (0a @ 9e1)
+    title : Master of Chaos (12 @ 9f2)
+    u0 : 1(18 @ a03)
+    u1 : 0(20 @ a05)
+    u3 : 0(30 @ a07)
+    u5 : 1.0 (45 @ a09)
+}
+
+entity info block { (22 @ a0e)
+
+    name : Burning Charger (0a @ a10)
+    title : Burning Charger (12 @ a21)
+    u1 : 0(20 @ a32)
+}
+
+compass info block { (2a @ a34)
+
+    u0 : 2(08 @ a36)
+    name : quest01_find_master (12 @ a38)
+    target level : town_woods_end (1a @ a4d)
+    target object : questTrigger1 (22 @ a5d)
+}
+
+compass info block { (2a @ a6c)
+
+    u0 : 2(08 @ a6e)
+    name : quest02_village_elder (12 @ a70)
+    target level : town_healerhouse (1a @ a87)
+    target object : resurrectionTrigger (22 @ a99)
+}
+
+compass info block { (2a @ aae)
+
+    u0 : 1(08 @ ab0)
+    name : vaseQuest (12 @ ab2)
+    target level : plains_house1 (1a @ abd)
+    target object : key (22 @ acc)
+}
+
+compass info block { (2a @ ad1)
+
+    u0 : 2(08 @ ad3)
+    name : vaseQuest (12 @ ad5)
+    target level : plains_tower1 (1a @ ae0)
+    target object : questvase (22 @ aef)
+    u1 : questvase (2a @ afa)
+}
+
+compass info block { (2a @ b05)
+
+    u0 : 4(08 @ b07)
+    name : specialkey (12 @ b09)
+    target level : plains_woodkeep (1a @ b15)
+    target object : item_key_yellow1 (22 @ b26)
+}
+
+compass info block { (2a @ b38)
+
+    u0 : 4(08 @ b3a)
+    name : d1_key2 (12 @ b3c)
+    target level : plains_woodkeep (1a @ b45)
+    target object : obj13 (22 @ b56)
+}
+
+compass info block { (2a @ b5d)
+
+    u0 : 4(08 @ b5f)
+    name : d1_key3 (12 @ b61)
+    target level : plains_woodkeep (1a @ b6a)
+    target object : obj13#2 (22 @ b7b)
+}
+
+compass info block { (2a @ b84)
+
+    u0 : 3(08 @ b86)
+    name : bomb (12 @ b88)
+    target level : plains_woodkeep_cellar (1a @ b8e)
+    target object : trigger (22 @ ba6)
+}
+
+compass info block { (2a @ baf)
+
+    u0 : 4(08 @ bb1)
+    name : d1_key4 (12 @ bb3)
+    target level : plains_woodkeep3 (1a @ bbc)
+    target object : obj16 (22 @ bce)
+}
+
+compass info block { (2a @ bd5)
+
+    u0 : 2(08 @ bd7)
+    name : quest03_woodkeep (12 @ bd9)
+    target level : plains_woodkeep3 (1a @ beb)
+    target object : bossdoor (22 @ bfd)
+}
+
+compass info block { (2a @ c07)
+
+    u0 : 2(08 @ c09)
+    name : quest04_village_elder2 (12 @ c0b)
+    target level : town_elderhouse (1a @ c23)
+    target object : trigger (22 @ c34)
+    u2 : 1(30 @ c3d)
+}
+
+compass info block { (2a @ c3f)
+
+    u0 : 4(08 @ c41)
+    name : d2_key0 (12 @ c43)
+    target level : florennum_wall1 (1a @ c4c)
+    target object : obj9 (22 @ c5d)
+}
+
+compass info block { (2a @ c63)
+
+    u0 : 4(08 @ c65)
+    name : flor_key1 (12 @ c67)
+    target level : florennum_towertop (1a @ c72)
+    target object : obj3 (22 @ c86)
+}
+
+compass info block { (2a @ c8c)
+
+    u0 : 4(08 @ c8e)
+    name : tower2_key1 (12 @ c90)
+    target level : florennum_tower2 (1a @ c9d)
+    target object : item_key_yellow1 (22 @ caf)
+}
+
+compass info block { (2a @ cc1)
+
+    u0 : 2(08 @ cc3)
+    name : quest05_florennum (12 @ cc5)
+    target level : florennum_jail_part1 (1a @ cd8)
+    target object : knight1 (22 @ cee)
+}
+
+compass info block { (2a @ cf7)
+
+    u0 : 4(08 @ cf9)
+    name : f_jail_p2_key (12 @ cfb)
+    target level : florennum_jail_part2 (1a @ d0a)
+    target object : obj19 (22 @ d20)
+}
+
+compass info block { (2a @ d27)
+
+    u0 : 2(08 @ d29)
+    name : quest06_florennum_shard (12 @ d2b)
+    target level : florennum_jail_boss (1a @ d44)
+    target object : focusArea (22 @ d59)
+}
+
+compass info block { (2a @ d64)
+
+    u0 : 2(08 @ d66)
+    name : quest07_go_to_king (12 @ d68)
+    target level : florennum_jail_part1 (1a @ d7c)
+    target object : quest07_script (22 @ d92)
+    u2 : 1(30 @ da2)
+}
+
+compass info block { (2a @ da4)
+
+    u0 : 4(08 @ da6)
+    name : key1 (12 @ da8)
+    target level : fire_part1 (1a @ dae)
+    target object : key1 (22 @ dba)
+}
+
+compass info block { (2a @ dc0)
+
+    u0 : 3(08 @ dc2)
+    name : hookshot (12 @ dc4)
+    target level : fire_part31 (1a @ dce)
+    target object : spellget_script1 (22 @ ddb)
+}
+
+compass info block { (2a @ ded)
+
+    u0 : 4(08 @ def)
+    name : firep5_key (12 @ df1)
+    target level : fire_part5 (1a @ dfd)
+    target object : firep5_key (22 @ e09)
+}
+
+compass info block { (2a @ e15)
+
+    u0 : 2(08 @ e17)
+    name : quest071_fire (12 @ e19)
+    target level : fire_partBoss (1a @ e28)
+    target object : fakeground1 (22 @ e37)
+}
+
+compass info block { (2a @ e44)
+
+    u0 : 1(08 @ e46)
+    name : snowyboulder (12 @ e48)
+    target level : snowy_part1 (1a @ e56)
+    target object : quest (22 @ e63)
+    u2 : 1(30 @ e6a)
+}
+
+compass info block { (2a @ e6c)
+
+    u0 : 2(08 @ e6e)
+    name : snowyboulder (12 @ e70)
+    target level : snowy_cave2 (1a @ e7e)
+    target object : boss (22 @ e8b)
+    u1 : bouldergold (2a @ e91)
+}
+
+compass info block { (2a @ e9e)
+
+    u0 : 4(08 @ ea0)
+    name : snowy1_key1 (12 @ ea2)
+    target level : snowy_part1 (1a @ eaf)
+    target object : snowy1_key1 (22 @ ebc)
+}
+
+compass info block { (2a @ ec9)
+
+    u0 : 4(08 @ ecb)
+    name : icecastle_key1 (12 @ ecd)
+    target level : icecastle_part11 (1a @ edd)
+    target object : obj1 (22 @ eef)
+}
+
+compass info block { (2a @ ef5)
+
+    u0 : 4(08 @ ef7)
+    name : icekey2 (12 @ ef9)
+    target level : icecastle_part2 (1a @ f02)
+    target object : obj7 (22 @ f13)
+}
+
+compass info block { (2a @ f19)
+
+    u0 : 1(08 @ f1b)
+    name : dimension (12 @ f1d)
+    target level : icecastle_part5 (1a @ f28)
+    target object : trigger1 (22 @ f39)
+}
+
+compass info block { (2a @ f43)
+
+    u0 : 2(08 @ f45)
+    name : dimension (12 @ f47)
+    target level : icecastle_part5 (1a @ f52)
+    target object : sign (22 @ f63)
+    u1 : sign (2a @ f69)
+}
+
+compass info block { (2a @ f6f)
+
+    u0 : 4(08 @ f71)
+    name : icecastle_bosskey (12 @ f73)
+    target level : icecastle_part4 (1a @ f86)
+    target object : dragonkin (22 @ f97)
+}
+
+compass info block { (2a @ fa2)
+
+    u0 : 2(08 @ fa4)
+    name : quest072_ice (12 @ fa6)
+    target level : icecastle_partBoss (1a @ fb4)
+    target object : door (22 @ fc8)
+}
+
+compass info block { (2a @ fce)
+
+    u0 : 2(08 @ fd0)
+    name : quest09_assemble (12 @ fd2)
+    target level : thecave_part15 (1a @ fe4)
+    target object : obj7#3 (22 @ ff4)
+    u2 : 1(30 @ ffc)
+}
+
+compass info block { (2a @ ffe)
+
+    u0 : 4(08 @ 1000)
+    name : key11 (12 @ 1002)
+    target level : worldsend_part1 (1a @ 1009)
+    target object : item_key_yellow1 (22 @ 101a)
+}
+
+compass info block { (2a @ 102c)
+
+    u0 : 4(08 @ 102e)
+    name : key12 (12 @ 1030)
+    target level : worldsend_part1 (1a @ 1037)
+    target object : guard (22 @ 1048)
+}
+
+compass info block { (2a @ 104f)
+
+    u0 : 4(08 @ 1051)
+    name : p3_key1 (12 @ 1053)
+    target level : worldsend_part3 (1a @ 105c)
+    target object : worldsend_p3_key1 (22 @ 106d)
+
+    waypoint sub-block { (3a @ 1080)
+
+        target level : worldsend_part1 (0a @ 1082)
+        target object : obj14#6 (12 @ 1093)
+	}
+
+    waypoint sub-block { (3a @ 109c)
+
+        target level : worldsend_part2 (0a @ 109e)
+        target object : obj14#8 (12 @ 10af)
+	}
+}
+
+compass info block { (2a @ 10b8)
+
+    u0 : 4(08 @ 10ba)
+    name : worldsendkey_part5 (12 @ 10bc)
+    target level : worldsend_part5 (1a @ 10d0)
+    target object : item_key_yellow1 (22 @ 10e1)
+
+    waypoint sub-block { (3a @ 10f3)
+
+        target level : worldsend_part1 (0a @ 10f5)
+        target object : obj14#5 (12 @ 1106)
+	}
+
+    waypoint sub-block { (3a @ 110f)
+
+        target level : worldsend_part2 (0a @ 1111)
+        target object : obj14#7 (12 @ 1122)
+	}
+}
+
+compass info block { (2a @ 112b)
+
+    u0 : 4(08 @ 112d)
+    name : we_p8_key (12 @ 112f)
+    target level : worldsend_part8 (1a @ 113a)
+    target object : item_key_yellow1 (22 @ 114b)
+}
+
+compass info block { (2a @ 115d)
+
+    u0 : 2(08 @ 115f)
+    name : quest10_death (12 @ 1161)
+    target level : worldsend_part9 (1a @ 1170)
+    target object : dimArea1 (22 @ 1181)
+}

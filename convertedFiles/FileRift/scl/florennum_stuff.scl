@@ -1,0 +1,851 @@
+scl file name : florennum_stuff (0a @ 1)
+
+?item block { (12 @ 12)
+
+
+    ?sub-item sub-block { (0a @ 15)
+
+        name : florennum_house1 (12 @ 18)
+
+        component sub-sub-block { (1a @ 2a)
+
+            component type : Model (0a @ 2c)
+            number : 101(10 @ 33)
+
+            3D model sub-sub-sub-block { (32a @ 36)
+
+                name : florennum_house (0a @ 38)
+                u0 : 0.0 (15 @ 49)
+                u1 : 0.0 (1d @ 4e)
+                u2 : 0.0 (25 @ 53)
+
+                u3 sub-sub-sub-sub-block { (2a @ 58)
+
+                    w : 1.0 (0d @ 5a)
+                    x : 1.0 (15 @ 5f)
+                    y : 1.0 (1d @ 64)
+                    z : 1.0 (25 @ 69)
+				}
+
+                u4 sub-sub-sub-sub-block { (32 @ 6e)
+
+                    x : 0.0 (0d @ 70)
+                    y : 0.0 (15 @ 75)
+                    z : 0.0 (1d @ 7a)
+				}
+                u5 : 0(38 @ 7f)
+
+                u6 sub-sub-sub-sub-block { (42 @ 81)
+
+                    w : 1.0 (0d @ 83)
+                    x : 1.0 (15 @ 88)
+                    y : 1.0 (1d @ 8d)
+                    z : 1.0 (25 @ 92)
+				}
+			}
+		}
+
+        position sub-sub-block { (22 @ 97)
+
+            x position : 0.0 (0d @ 99)
+            y position : 0.0 (15 @ 9e)
+		}
+        z position : 0.0 (2d @ a3)
+        rotation : 0.0 (35 @ a8)
+        scale : 1.0 (3d @ ad)
+
+        u0 sub-sub-block { (42 @ b2)
+
+            w : 0.0 (0d @ b4)
+            x : 0.0 (15 @ b9)
+            y : 0.0 (1d @ be)
+            z : 0.0 (25 @ c3)
+		}
+        hidden : 0(48 @ c8)
+	}
+    u0 : 1.0 (15 @ ca)
+}
+
+?item block { (12 @ cf)
+
+
+    ?sub-item sub-block { (0a @ d2)
+
+        name : florennum_house2 (12 @ d5)
+
+        component sub-sub-block { (1a @ e7)
+
+            component type : Model (0a @ e9)
+            number : 101(10 @ f0)
+
+            3D model sub-sub-sub-block { (32a @ f3)
+
+                name : florennum_house2 (0a @ f5)
+                u0 : 0.0 (15 @ 107)
+                u1 : 0.0 (1d @ 10c)
+                u2 : 0.0 (25 @ 111)
+
+                u3 sub-sub-sub-sub-block { (2a @ 116)
+
+                    w : 1.0 (0d @ 118)
+                    x : 1.0 (15 @ 11d)
+                    y : 1.0 (1d @ 122)
+                    z : 1.0 (25 @ 127)
+				}
+
+                u4 sub-sub-sub-sub-block { (32 @ 12c)
+
+                    x : 0.0 (0d @ 12e)
+                    y : 0.0 (15 @ 133)
+                    z : 0.0 (1d @ 138)
+				}
+                u5 : 0(38 @ 13d)
+
+                u6 sub-sub-sub-sub-block { (42 @ 13f)
+
+                    w : 1.0 (0d @ 141)
+                    x : 1.0 (15 @ 146)
+                    y : 1.0 (1d @ 14b)
+                    z : 1.0 (25 @ 150)
+				}
+			}
+		}
+
+        position sub-sub-block { (22 @ 155)
+
+            x position : 0.0 (0d @ 157)
+            y position : 0.0 (15 @ 15c)
+		}
+        z position : 0.0 (2d @ 161)
+        rotation : 0.0 (35 @ 166)
+        scale : 1.0 (3d @ 16b)
+
+        u0 sub-sub-block { (42 @ 170)
+
+            w : 0.0 (0d @ 172)
+            x : 0.0 (15 @ 177)
+            y : 0.0 (1d @ 17c)
+            z : 0.0 (25 @ 181)
+		}
+        hidden : 0(48 @ 186)
+	}
+    u0 : 1.0 (15 @ 188)
+}
+
+?item block { (12 @ 18d)
+
+
+    ?sub-item sub-block { (0a @ 190)
+
+        name : florennum_house3 (12 @ 193)
+
+        component sub-sub-block { (1a @ 1a5)
+
+            component type : Model (0a @ 1a7)
+            number : 101(10 @ 1ae)
+
+            3D model sub-sub-sub-block { (32a @ 1b1)
+
+                name : florennum_house3 (0a @ 1b3)
+                u0 : 0.0 (15 @ 1c5)
+                u1 : 0.0 (1d @ 1ca)
+                u2 : 0.0 (25 @ 1cf)
+
+                u3 sub-sub-sub-sub-block { (2a @ 1d4)
+
+                    w : 1.0 (0d @ 1d6)
+                    x : 1.0 (15 @ 1db)
+                    y : 1.0 (1d @ 1e0)
+                    z : 1.0 (25 @ 1e5)
+				}
+
+                u4 sub-sub-sub-sub-block { (32 @ 1ea)
+
+                    x : 0.0 (0d @ 1ec)
+                    y : 0.0 (15 @ 1f1)
+                    z : 0.0 (1d @ 1f6)
+				}
+                u5 : 0(38 @ 1fb)
+
+                u6 sub-sub-sub-sub-block { (42 @ 1fd)
+
+                    w : 1.0 (0d @ 1ff)
+                    x : 1.0 (15 @ 204)
+                    y : 1.0 (1d @ 209)
+                    z : 1.0 (25 @ 20e)
+				}
+			}
+		}
+
+        position sub-sub-block { (22 @ 213)
+
+            x position : 0.0 (0d @ 215)
+            y position : 0.0 (15 @ 21a)
+		}
+        z position : 0.0 (2d @ 21f)
+        rotation : 0.0 (35 @ 224)
+        scale : 1.0 (3d @ 229)
+
+        u0 sub-sub-block { (42 @ 22e)
+
+            w : 0.0 (0d @ 230)
+            x : 0.0 (15 @ 235)
+            y : 0.0 (1d @ 23a)
+            z : 0.0 (25 @ 23f)
+		}
+        hidden : 0(48 @ 244)
+	}
+    u0 : 1.0 (15 @ 246)
+}
+
+?item block { (12 @ 24b)
+
+
+    ?sub-item sub-block { (0a @ 24e)
+
+        name : florennum_housedoor (12 @ 251)
+
+        component sub-sub-block { (1a @ 266)
+
+            component type : Model (0a @ 268)
+            number : 101(10 @ 26f)
+
+            3D model sub-sub-sub-block { (32a @ 272)
+
+                name : house_door (0a @ 274)
+                u0 : 0.0 (15 @ 280)
+                u1 : 0.0 (1d @ 285)
+                u2 : 0.0 (25 @ 28a)
+
+                u3 sub-sub-sub-sub-block { (2a @ 28f)
+
+                    w : 1.0 (0d @ 291)
+                    x : 1.0 (15 @ 296)
+                    y : 1.0 (1d @ 29b)
+                    z : 1.0 (25 @ 2a0)
+				}
+
+                u4 sub-sub-sub-sub-block { (32 @ 2a5)
+
+                    x : 0.0 (0d @ 2a7)
+                    y : 0.0 (15 @ 2ac)
+                    z : 0.0 (1d @ 2b1)
+				}
+                u5 : 0(38 @ 2b6)
+
+                u6 sub-sub-sub-sub-block { (42 @ 2b8)
+
+                    w : 1.0 (0d @ 2ba)
+                    x : 1.0 (15 @ 2bf)
+                    y : 1.0 (1d @ 2c4)
+                    z : 1.0 (25 @ 2c9)
+				}
+			}
+		}
+
+        position sub-sub-block { (22 @ 2ce)
+
+            x position : 0.0 (0d @ 2d0)
+            y position : 0.0 (15 @ 2d5)
+		}
+        z position : 0.0 (2d @ 2da)
+        rotation : 0.0 (35 @ 2df)
+        scale : 1.0 (3d @ 2e4)
+
+        u0 sub-sub-block { (42 @ 2e9)
+
+            w : 0.0 (0d @ 2eb)
+            x : 0.0 (15 @ 2f0)
+            y : 0.0 (1d @ 2f5)
+            z : 0.0 (25 @ 2fa)
+		}
+        hidden : 0(48 @ 2ff)
+	}
+    u0 : 1.0 (15 @ 301)
+}
+
+?item block { (12 @ 306)
+
+
+    ?sub-item sub-block { (0a @ 309)
+
+        name : florennum_housedoor_open (12 @ 30c)
+
+        component sub-sub-block { (1a @ 326)
+
+            component type : Model (0a @ 328)
+            number : 101(10 @ 32f)
+
+            3D model sub-sub-sub-block { (32a @ 332)
+
+                name : house_door_open (0a @ 334)
+                u0 : 0.0 (15 @ 345)
+                u1 : 0.0 (1d @ 34a)
+                u2 : 0.0 (25 @ 34f)
+
+                u3 sub-sub-sub-sub-block { (2a @ 354)
+
+                    w : 1.0 (0d @ 356)
+                    x : 1.0 (15 @ 35b)
+                    y : 1.0 (1d @ 360)
+                    z : 1.0 (25 @ 365)
+				}
+
+                u4 sub-sub-sub-sub-block { (32 @ 36a)
+
+                    x : 0.0 (0d @ 36c)
+                    y : 0.0 (15 @ 371)
+                    z : 0.0 (1d @ 376)
+				}
+                u5 : 0(38 @ 37b)
+
+                u6 sub-sub-sub-sub-block { (42 @ 37d)
+
+                    w : 1.0 (0d @ 37f)
+                    x : 1.0 (15 @ 384)
+                    y : 1.0 (1d @ 389)
+                    z : 1.0 (25 @ 38e)
+				}
+			}
+		}
+
+        position sub-sub-block { (22 @ 393)
+
+            x position : 0.0 (0d @ 395)
+            y position : 0.0 (15 @ 39a)
+		}
+        z position : 0.0 (2d @ 39f)
+        rotation : 0.0 (35 @ 3a4)
+        scale : 1.0 (3d @ 3a9)
+
+        u0 sub-sub-block { (42 @ 3ae)
+
+            w : 0.0 (0d @ 3b0)
+            x : 0.0 (15 @ 3b5)
+            y : 0.0 (1d @ 3ba)
+            z : 0.0 (25 @ 3bf)
+		}
+        hidden : 0(48 @ 3c4)
+	}
+    u0 : 1.0 (15 @ 3c6)
+}
+
+?item block { (12 @ 3cb)
+
+
+    ?sub-item sub-block { (0a @ 3ce)
+
+        name : florennum_lock (12 @ 3d1)
+
+        component sub-sub-block { (1a @ 3e1)
+
+            component type : Model (0a @ 3e3)
+            number : 101(10 @ 3ea)
+
+            3D model sub-sub-sub-block { (32a @ 3ed)
+
+                name : lock_yellow (0a @ 3ef)
+                u0 : 1.5707963705062866 (15 @ 3fc)
+                u1 : 0.5 (1d @ 401)
+                u2 : 0.0 (25 @ 406)
+
+                u3 sub-sub-sub-sub-block { (2a @ 40b)
+
+                    w : 1.0 (0d @ 40d)
+                    x : 1.0 (15 @ 412)
+                    y : 1.0 (1d @ 417)
+                    z : 1.0 (25 @ 41c)
+				}
+
+                u4 sub-sub-sub-sub-block { (32 @ 421)
+
+                    x : 0.0 (0d @ 423)
+                    y : 0.0 (15 @ 428)
+                    z : 0.0 (1d @ 42d)
+				}
+                u5 : 0(38 @ 432)
+
+                u6 sub-sub-sub-sub-block { (42 @ 434)
+
+                    w : 1.0 (0d @ 436)
+                    x : 1.0 (15 @ 43b)
+                    y : 1.0 (1d @ 440)
+                    z : 1.0 (25 @ 445)
+				}
+			}
+		}
+
+        component sub-sub-block { (1a @ 44a)
+
+            component type : CollisionShape (0a @ 44c)
+            number : 103(10 @ 45c)
+
+            collision shape sub-sub-sub-block { (3c2 @ 45f)
+
+
+                u0 sub-sub-sub-sub-block { (0a @ 461)
+
+                    w : -70.0 (0d @ 463)
+                    x : -40.0 (15 @ 468)
+                    y : 140.0 (1d @ 46d)
+                    z : 80.0 (25 @ 472)
+				}
+			}
+
+            collision shape 2 sub-sub-sub-block { (3ca @ 478)
+
+                w : -15.0 (35 @ 47a)
+                x : 15.0 (3d @ 47f)
+                y : 4(40 @ 484)
+                z : 1(58 @ 486)
+			}
+		}
+
+        component sub-sub-block { (1a @ 488)
+
+            component type : Program (0a @ 48b)
+            number : 105(10 @ 494)
+
+            program sub-sub-sub-block { (4ea @ 497)
+
+                u0 : 1(08 @ 49a)
+
+                lua chunk sub-sub-sub-sub-block { (12 @ 49c)
+
+                    main chunk : chunk >
+
+                    === lua =============
+                    local self = ...;
+                    
+                    if Character.HasItem("key_yellow") then
+                    	Character.RemoveItem("key_yellow");
+                    	Character.AddFlag(self:identifier()); -- Remember that the door is open
+                    
+                    	self:setHidden(true);
+                    	Program.Execute(Scene.Find(self:identifier() .. "_door"));
+                    
+                    	SoundLibrary.PlayEffect("unlock");
+                    else
+                    	Game.ShowNotification("Requires " .. Game.TitleForItem("key_yellow"));
+                    end
+
+                    =====================
+                    secondary chunk : \x1bLuaQ\x00\x01\x04\x04\x04\x08\x00\x7f\x01\x00\x00local self = ...;\r\n\r\nif Character.HasItem("key_yellow") then\r\n\tCharacter.RemoveItem("key_yellow");\r\n\tCharacter.AddFlag(self:identifier()); -- Remember that the door is open\r\n\r\n\tself:setHidden(true);\r\n\tProgram.Execute(Scene.Find(self:identifier() .. "_door"));\r\n\r\n\tSoundLibrary.PlayEffect("unlock");\r\nelse\r\n\tGame.ShowNotification("Requires " .. Game.TitleForItem("key_yellow"));\r\nend\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x02\x05,\x00\x00\x00%\x00\x00\x01E\x00\x00\x00F@\xc0\x00\x81\x80\x00\x00\\\x80\x00\x01Z\x00\x00\x00\x16\x80\x06\x80E\x00\x00\x00F\xc0\xc0\x00\x81\x80\x00\x00\\@\x00\x01E\x00\x00\x00F\x00\xc1\x00\x8b@A\x00\x9c\x00\x00\x01\\@\x00\x00K\x80A\x00\xc2\x00\x80\x00\\@\x80\x01E\xc0\x01\x00F\x00\xc2\x00\x85@\x02\x00\x86\x80B\x01\xcb@A\x00\xdc\x80\x00\x01\x01\xc1\x02\x00\xd5\x00\x81\x01\x9c\x00\x00\x01\\@\x00\x00E\x00\x03\x00F@\xc3\x00\x81\x80\x03\x00\\@\x00\x01\x16\x00\x02\x80E\xc0\x03\x00F\x00\xc4\x00\x81@\x04\x00\xc5\xc0\x03\x00\xc6\x80\xc4\x01\x01\x81\x00\x00\xdc\x80\x00\x01\x95\xc0\x00\x01\\@\x00\x01\x1e\x00\x80\x00\x13\x00\x00\x00\x04\n\x00\x00\x00Character\x00\x04\x08\x00\x00\x00HasItem\x00\x04\x0b\x00\x00\x00key_yellow\x00\x04\x0b\x00\x00\x00RemoveItem\x00\x04\x08\x00\x00\x00AddFlag\x00\x04\x0b\x00\x00\x00identifier\x00\x04\n\x00\x00\x00setHidden\x00\x04\x08\x00\x00\x00Program\x00\x04\x08\x00\x00\x00Execute\x00\x04\x06\x00\x00\x00Scene\x00\x04\x05\x00\x00\x00Find\x00\x04\x06\x00\x00\x00_door\x00\x04\r\x00\x00\x00SoundLibrary\x00\x04\x0b\x00\x00\x00PlayEffect\x00\x04\x07\x00\x00\x00unlock\x00\x04\x05\x00\x00\x00Game\x00\x04\x11\x00\x00\x00ShowNotification\x00\x04\n\x00\x00\x00Requires \x00\x04\r\x00\x00\x00TitleForItem\x00\x00\x00\x00\x00,\x00\x00\x00\x01\x00\x00\x00\x03\x00\x00\x00\x03\x00\x00\x00\x03\x00\x00\x00\x03\x00\x00\x00\x03\x00\x00\x00\x03\x00\x00\x00\x04\x00\x00\x00\x04\x00\x00\x00\x04\x00\x00\x00\x04\x00\x00\x00\x05\x00\x00\x00\x05\x00\x00\x00\x05\x00\x00\x00\x05\x00\x00\x00\x05\x00\x00\x00\x07\x00\x00\x00\x07\x00\x00\x00\x07\x00\x00\x00\x08\x00\x00\x00\x08\x00\x00\x00\x08\x00\x00\x00\x08\x00\x00\x00\x08\x00\x00\x00\x08\x00\x00\x00\x08\x00\x00\x00\x08\x00\x00\x00\x08\x00\x00\x00\x08\x00\x00\x00\n\x00\x00\x00\n\x00\x00\x00\n\x00\x00\x00\n\x00\x00\x00\n\x00\x00\x00\x0c\x00\x00\x00\x0c\x00\x00\x00\x0c\x00\x00\x00\x0c\x00\x00\x00\x0c\x00\x00\x00\x0c\x00\x00\x00\x0c\x00\x00\x00\x0c\x00\x00\x00\x0c\x00\x00\x00\r\x00\x00\x00\x01\x00\x00\x00\x05\x00\x00\x00self\x00\x01\x00\x00\x00+\x00\x00\x00\x00\x00\x00\x00 (12 @ 620)
+				}
+                u1 : 1(18 @ a58)
+                u2 : 2(20 @ a5a)
+			}
+		}
+
+        position sub-sub-block { (22 @ a5c)
+
+            x position : 0.0 (0d @ a5e)
+            y position : 0.0 (15 @ a63)
+		}
+        z position : 0.0 (2d @ a68)
+        rotation : 0.0 (35 @ a6d)
+        scale : 1.0 (3d @ a72)
+
+        u0 sub-sub-block { (42 @ a77)
+
+            w : -70.0 (0d @ a79)
+            x : -40.0 (15 @ a7e)
+            y : 140.0 (1d @ a83)
+            z : 80.0 (25 @ a88)
+		}
+        hidden : 0(48 @ a8d)
+
+        lua chunk sub-sub-block { (52 @ a8f)
+
+            main chunk : chunk >
+
+            === lua =============
+            local self = ...;
+            
+            if Character.HasFlag(self:identifier()) then
+            	self:setHidden(true);
+            	Program.Execute(Scene.Find(self:identifier() .. "_door"));
+            end
+
+            =====================
+            secondary chunk : \x1bLuaQ\x00\x01\x04\x04\x04\x08\x00\x9c\x00\x00\x00local self = ...;\r\n\r\nif Character.HasFlag(self:identifier()) then\r\n\tself:setHidden(true);\r\n\tProgram.Execute(Scene.Find(self:identifier() .. "_door"));\r\nend\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x02\x05\x16\x00\x00\x00%\x00\x00\x01E\x00\x00\x00F@\xc0\x00\x8b\x80@\x00\x9c\x00\x00\x01\\\x80\x00\x00Z\x00\x00\x00\x16\x00\x03\x80K\xc0@\x00\xc2\x00\x80\x00\\@\x80\x01E\x00\x01\x00F@\xc1\x00\x85\x80\x01\x00\x86\xc0A\x01\xcb\x80@\x00\xdc\x80\x00\x01\x01\x01\x02\x00\xd5\x00\x81\x01\x9c\x00\x00\x01\\@\x00\x00\x1e\x00\x80\x00\t\x00\x00\x00\x04\n\x00\x00\x00Character\x00\x04\x08\x00\x00\x00HasFlag\x00\x04\x0b\x00\x00\x00identifier\x00\x04\n\x00\x00\x00setHidden\x00\x04\x08\x00\x00\x00Program\x00\x04\x08\x00\x00\x00Execute\x00\x04\x06\x00\x00\x00Scene\x00\x04\x05\x00\x00\x00Find\x00\x04\x06\x00\x00\x00_door\x00\x00\x00\x00\x00\x16\x00\x00\x00\x01\x00\x00\x00\x03\x00\x00\x00\x03\x00\x00\x00\x03\x00\x00\x00\x03\x00\x00\x00\x03\x00\x00\x00\x03\x00\x00\x00\x03\x00\x00\x00\x04\x00\x00\x00\x04\x00\x00\x00\x04\x00\x00\x00\x05\x00\x00\x00\x05\x00\x00\x00\x05\x00\x00\x00\x05\x00\x00\x00\x05\x00\x00\x00\x05\x00\x00\x00\x05\x00\x00\x00\x05\x00\x00\x00\x05\x00\x00\x00\x05\x00\x00\x00\x06\x00\x00\x00\x01\x00\x00\x00\x05\x00\x00\x00self\x00\x01\x00\x00\x00\x15\x00\x00\x00\x00\x00\x00\x00 (12 @ b30)
+		}
+	}
+    u0 : 1.0 (15 @ d39)
+}
+
+?item block { (12 @ d3e)
+
+
+    ?sub-item sub-block { (0a @ d41)
+
+        name : florennum_lockdoor (12 @ d44)
+
+        component sub-sub-block { (1a @ d58)
+
+            component type : SoundEffect (0a @ d5a)
+            number : 1(10 @ d67)
+
+            sound effect sub-sub-sub-block { (462 @ d6a)
+
+                sound : door_close (0a @ d6c)
+                u0 : 0.0 (15 @ d78)
+                u1 : 1.0 (1d @ d7d)
+			}
+		}
+
+        component sub-sub-block { (1a @ d82)
+
+            component type : Model (0a @ d84)
+            number : 101(10 @ d8b)
+
+            3D model sub-sub-sub-block { (32a @ d8e)
+
+                name : castle_lockdoor (0a @ d90)
+                u0 : 4.71238899230957 (15 @ da1)
+                u1 : 0.0 (1d @ da6)
+                u2 : 0.0 (25 @ dab)
+
+                u3 sub-sub-sub-sub-block { (2a @ db0)
+
+                    w : 1.0 (0d @ db2)
+                    x : 1.0 (15 @ db7)
+                    y : 1.0 (1d @ dbc)
+                    z : 1.0 (25 @ dc1)
+				}
+
+                u4 sub-sub-sub-sub-block { (32 @ dc6)
+
+                    x : 0.0 (0d @ dc8)
+                    y : 0.0 (15 @ dcd)
+                    z : 0.0 (1d @ dd2)
+				}
+                u5 : 0(38 @ dd7)
+
+                u6 sub-sub-sub-sub-block { (42 @ dd9)
+
+                    w : 1.0 (0d @ ddb)
+                    x : 1.0 (15 @ de0)
+                    y : 1.0 (1d @ de5)
+                    z : 1.0 (25 @ dea)
+				}
+			}
+		}
+
+        component sub-sub-block { (1a @ def)
+
+            component type : DoorController (0a @ df1)
+            number : 103(10 @ e01)
+
+            door controller sub-sub-sub-block { (4e2 @ e04)
+
+                u0 : 104(08 @ e06)
+                u1 : 105(10 @ e08)
+                u2 : 0(20 @ e0a)
+                u3 : 1(28 @ e0c)
+                u4 : 0(30 @ e0e)
+			}
+		}
+
+        component sub-sub-block { (1a @ e10)
+
+            component type : AnimationController (0a @ e12)
+            number : 104(10 @ e27)
+
+            animation controller sub-sub-sub-block { (4aa @ e2a)
+
+                model component : 101(08 @ e2c)
+                u1 : 0(10 @ e2e)
+                u2 : 0(18 @ e30)
+			}
+		}
+
+        component sub-sub-block { (1a @ e32)
+
+            component type : KeyframeAnimation (0a @ e34)
+            number : 105(10 @ e47)
+
+            keyframe animation sub-sub-sub-block { (332 @ e4a)
+
+                linked model component number : 101(08 @ e4c)
+                name : castle_lockdoor (12 @ e4e)
+                u0 : 0(18 @ e5f)
+                u1 : 0.20000000298023224 (25 @ e61)
+                u2 : 1(28 @ e66)
+			}
+		}
+
+        component sub-sub-block { (1a @ e68)
+
+            component type : CollisionShape (0a @ e6a)
+            number : 106(10 @ e7a)
+
+            collision shape sub-sub-sub-block { (3c2 @ e7d)
+
+
+                u0 sub-sub-sub-sub-block { (0a @ e7f)
+
+                    w : -15.0 (0d @ e81)
+                    x : 0.0 (15 @ e86)
+                    y : 25.0 (1d @ e8b)
+                    z : 246.53073120117188 (25 @ e90)
+				}
+			}
+
+            collision shape 2 sub-sub-sub-block { (3ca @ e96)
+
+                u0 : 1(10 @ e98)
+                w : -15.0 (35 @ e9a)
+                x : 15.0 (3d @ e9f)
+                z : 1(58 @ ea4)
+			}
+		}
+
+        component sub-sub-block { (1a @ ea6)
+
+            component type : Program (0a @ ea9)
+            number : 109(10 @ eb2)
+
+            program sub-sub-sub-block { (4ea @ eb5)
+
+                u0 : 1(08 @ eb8)
+
+                lua chunk sub-sub-sub-sub-block { (12 @ eba)
+
+                    main chunk : chunk >
+
+                    === lua =============
+                    local self = ...;
+                    
+                    DoorController.Open(self);
+
+                    =====================
+                    secondary chunk : \x1bLuaQ\x00\x01\x04\x04\x04\x08\x000\x00\x00\x00local self = ...;\r\n\r\nDoorController.Open(self);\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x02\x03\x06\x00\x00\x00%\x00\x00\x01E\x00\x00\x00F@\xc0\x00\x80\x00\x00\x00\\@\x00\x01\x1e\x00\x80\x00\x02\x00\x00\x00\x04\x0f\x00\x00\x00DoorController\x00\x04\x05\x00\x00\x00Open\x00\x00\x00\x00\x00\x06\x00\x00\x00\x01\x00\x00\x00\x03\x00\x00\x00\x03\x00\x00\x00\x03\x00\x00\x00\x03\x00\x00\x00\x03\x00\x00\x00\x01\x00\x00\x00\x05\x00\x00\x00self\x00\x01\x00\x00\x00\x05\x00\x00\x00\x00\x00\x00\x00 (12 @ eee)
+				}
+                u1 : 1(18 @ fb4)
+                u2 : 0(20 @ fb6)
+			}
+		}
+
+        position sub-sub-block { (22 @ fb8)
+
+            x position : 0.0 (0d @ fba)
+            y position : 0.0 (15 @ fbf)
+		}
+        z position : 0.0 (2d @ fc4)
+        rotation : 0.0 (35 @ fc9)
+        scale : 1.0 (3d @ fce)
+
+        u0 sub-sub-block { (42 @ fd3)
+
+            w : -15.0 (0d @ fd5)
+            x : 0.0 (15 @ fda)
+            y : 25.0 (1d @ fdf)
+            z : 246.53073120117188 (25 @ fe4)
+		}
+        hidden : 0(48 @ fe9)
+	}
+    u0 : 1.0 (15 @ feb)
+}
+
+?item block { (12 @ ff0)
+
+
+    ?sub-item sub-block { (0a @ ff3)
+
+        name : florennum_tower (12 @ ff6)
+
+        component sub-sub-block { (1a @ 1007)
+
+            component type : Model (0a @ 1009)
+            number : 101(10 @ 1010)
+
+            3D model sub-sub-sub-block { (32a @ 1013)
+
+                name : tower_nodoor (0a @ 1015)
+                u0 : 0.0 (15 @ 1023)
+                u1 : 0.5 (1d @ 1028)
+                u2 : 0.0 (25 @ 102d)
+
+                u3 sub-sub-sub-sub-block { (2a @ 1032)
+
+                    w : 1.0 (0d @ 1034)
+                    x : 1.0 (15 @ 1039)
+                    y : 1.0 (1d @ 103e)
+                    z : 1.0 (25 @ 1043)
+				}
+
+                u4 sub-sub-sub-sub-block { (32 @ 1048)
+
+                    x : 0.0 (0d @ 104a)
+                    y : 0.0 (15 @ 104f)
+                    z : 0.0 (1d @ 1054)
+				}
+                u5 : 0(38 @ 1059)
+
+                u6 sub-sub-sub-sub-block { (42 @ 105b)
+
+                    w : 1.0 (0d @ 105d)
+                    x : 1.0 (15 @ 1062)
+                    y : 1.0 (1d @ 1067)
+                    z : 1.0 (25 @ 106c)
+				}
+			}
+		}
+
+        position sub-sub-block { (22 @ 1071)
+
+            x position : 0.0 (0d @ 1073)
+            y position : 0.0 (15 @ 1078)
+		}
+        z position : 0.0 (2d @ 107d)
+        rotation : 0.0 (35 @ 1082)
+        scale : 1.0 (3d @ 1087)
+
+        u0 sub-sub-block { (42 @ 108c)
+
+            w : 0.0 (0d @ 108e)
+            x : 0.0 (15 @ 1093)
+            y : 0.0 (1d @ 1098)
+            z : 0.0 (25 @ 109d)
+		}
+        hidden : 0(48 @ 10a2)
+	}
+    u0 : 2.0 (15 @ 10a4)
+}
+
+?item block { (12 @ 10a9)
+
+
+    ?sub-item sub-block { (0a @ 10ac)
+
+        name : golden_knight (12 @ 10af)
+
+        component sub-sub-block { (1a @ 10be)
+
+            component type : Model (0a @ 10c0)
+            number : 101(10 @ 10c7)
+
+            3D model sub-sub-sub-block { (32a @ 10ca)
+
+                name : knight (0a @ 10cc)
+                u0 : 3.752457857131958 (15 @ 10d4)
+                u1 : 0.0 (1d @ 10d9)
+                u2 : 0.0 (25 @ 10de)
+
+                u3 sub-sub-sub-sub-block { (2a @ 10e3)
+
+                    w : 0.0 (0d @ 10e5)
+                    x : 0.0 (15 @ 10ea)
+                    y : 0.0 (1d @ 10ef)
+                    z : 1.0 (25 @ 10f4)
+				}
+
+                u4 sub-sub-sub-sub-block { (32 @ 10f9)
+
+                    x : 0.0 (0d @ 10fb)
+                    y : 0.0 (15 @ 1100)
+                    z : 0.0 (1d @ 1105)
+				}
+                u5 : 0(38 @ 110a)
+
+                u6 sub-sub-sub-sub-block { (42 @ 110c)
+
+                    w : 1.0 (0d @ 110e)
+                    x : 1.0 (15 @ 1113)
+                    y : 1.0 (1d @ 1118)
+                    z : 1.0 (25 @ 111d)
+				}
+			}
+		}
+
+        component sub-sub-block { (1a @ 1122)
+
+            component type : StaticMonsterController (0a @ 1124)
+            number : 103(10 @ 113d)
+
+            monster controller sub-sub-sub-block { (972 @ 1140)
+
+                u0 : 100.0 (0d @ 1142)
+                u1 : 106(10 @ 1147)
+                u2 : 104(18 @ 1149)
+                u3 : 0(20 @ 114b)
+			}
+
+            static monster controller sub-sub-sub-block { (9aa @ 114e)
+
+                u0 : 105(08 @ 1150)
+			}
+		}
+
+        component sub-sub-block { (1a @ 1152)
+
+            component type : MonsterEntity (0a @ 1154)
+            number : 104(10 @ 1163)
+
+            entity sub-sub-sub-block { (4c2 @ 1166)
+
+                u0 : 18446744073709551615(08 @ 1168)
+                u1 : 0(10 @ 1173)
+			}
+
+            ?monster entity sub-sub-sub-block { (4f2 @ 1176)
+
+                u0 :  (0a @ 1178)
+
+                lua chunk sub-sub-sub-sub-block { (12 @ 117a)
+
+				}
+                u2 : 1(18 @ 117c)
+                u3 : 1(20 @ 117e)
+			}
+		}
+
+        component sub-sub-block { (1a @ 1180)
+
+            component type : KeyframeAnimation (0a @ 1182)
+            number : 105(10 @ 1195)
+
+            keyframe animation sub-sub-sub-block { (332 @ 1198)
+
+                linked model component number : 101(08 @ 119a)
+                name : npc_stand (12 @ 119c)
+                u0 : 1(18 @ 11a7)
+                u1 : 1.0 (25 @ 11a9)
+                u2 : 1(28 @ 11ae)
+			}
+		}
+
+        component sub-sub-block { (1a @ 11b0)
+
+            component type : AnimationController (0a @ 11b2)
+            number : 106(10 @ 11c7)
+
+            animation controller sub-sub-sub-block { (4aa @ 11ca)
+
+                model component : 101(08 @ 11cc)
+                u1 : 0(10 @ 11ce)
+                u2 : 0(18 @ 11d0)
+			}
+		}
+
+        position sub-sub-block { (22 @ 11d2)
+
+            x position : 0.0 (0d @ 11d4)
+            y position : 0.0 (15 @ 11d9)
+		}
+        z position : 0.0 (2d @ 11de)
+        rotation : 0.0 (35 @ 11e3)
+        scale : 1.0 (3d @ 11e8)
+
+        u0 sub-sub-block { (42 @ 11ed)
+
+            w : 0.0 (0d @ 11ef)
+            x : 0.0 (15 @ 11f4)
+            y : 0.0 (1d @ 11f9)
+            z : 0.0 (25 @ 11fe)
+		}
+        hidden : 0(48 @ 1203)
+	}
+    u0 : 1.0 (15 @ 1205)
+}

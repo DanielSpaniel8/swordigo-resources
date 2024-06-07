@@ -1,0 +1,152 @@
+data = {
+
+"soundblock " :  {
+
+	"name" : "rustle",
+	"file" : "rustle",
+	"u0" : 0.5,
+},
+
+"soundblock " :  {
+
+	"name" : "heart_get",
+	"file" : "heart_get",
+	"u0" : 1.0,
+	"u1" : 0.0,
+},
+
+"soundblock " :  {
+
+	"name" : "coin_get",
+	"file" : "coin_get",
+	"u0" : 0.6000000238418579,
+	"u1" : 0.0,
+},
+
+"soundblock " :  {
+
+	"name" : "level_get",
+	"file" : "level_get",
+	"u0" : 1.0,
+},
+
+"soundblock " :  {
+
+	"name" : "item_get",
+	"file" : "0item",
+	"u0" : 1.0,
+},
+
+"soundblock " :  {
+
+	"name" : "hiro_hurt",
+	"file" : "hiro_hurt",
+	"u0" : 1.0,
+},
+
+"soundblock " :  {
+
+	"name" : "hiro_die",
+	"file" : "hiro_die",
+	"u0" : 0.6000000238418579,
+},
+
+"soundblock " :  {
+
+	"name" : "gameover",
+	"file" : "gameover",
+	"u0" : 1.0,
+},
+
+"soundblock " :  {
+
+	"name" : "insect_move",
+	"file" : "insect_move",
+	"u0" : 0.5,
+},
+
+"soundblock " :  {
+
+	"name" : "insect_die",
+	"file" : "insect_die",
+	"u0" : 0.5,
+},
+
+"soundblock " :  {
+
+	"name" : "insect_die2",
+	"file" : "insect_die2",
+	"u0" : 0.5,
+},
+
+"soundblock " :  {
+
+	"name" : "click",
+	"file" : "click_v2",
+	"u0" : 0.5,
+},
+
+"soundblock " :  {
+
+	"name" : "hookshot_cast",
+	"file" : "hookshot_cast",
+	"u0" : 0.25,
+},
+
+"soundblock " :  {
+
+	"name" : "hookshot_hit1",
+	"file" : "hookshot_hit1",
+	"u0" : 1.0,
+},
+
+"soundblock " :  {
+
+	"name" : "hookshot_hit2",
+	"file" : "hookshot_hit2",
+	"u0" : 1.0,
+},
+
+"soundblock " :  {
+
+	"name" : "jump",
+	"file" : "jump",
+	"u0" : 0.6000000238418579,
+},
+
+"soundblock " :  {
+
+	"name" : "lowhealth",
+	"file" : "lowhealth",
+	"u0" : 0.5,
+},
+
+"soundblock " :  {
+
+	"name" : "impact_splurt1",
+	"file" : "impact_splurt1",
+	"u0" : 0.33000001311302185,
+},
+
+"soundblock " :  {
+
+	"name" : "impact_splurt2",
+	"file" : "impact_splurt2",
+	"u0" : 0.33000001311302185,
+},
+
+"soundblock " :  {
+
+	"name" : "impact_splurt3",
+	"file" : "impact_splurt3",
+	"u0" : 0.33000001311302185,
+},
+
+"soundblock " :  {
+
+	"name" : "managet",
+	"file" : "managet",
+	"u0" : 0.6000000238418579,
+},
+
+}

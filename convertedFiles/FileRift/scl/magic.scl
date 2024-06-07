@@ -1,0 +1,5378 @@
+scl file name : magic (0a @ 1)
+
+?item block { (12 @ 8)
+
+
+    ?sub-item sub-block { (0a @ b)
+
+        name : firetrinket_wisp (12 @ e)
+
+        component sub-sub-block { (1a @ 20)
+
+            component type : ParticleEmitter (0a @ 22)
+            number : 120(10 @ 33)
+
+            particle emitter sub-sub-sub-block { (7d2 @ 36)
+
+                particle : 123(10 @ 38)
+                u1 : 0(18 @ 3a)
+                u2 : 100(20 @ 3c)
+                u3 : 0(28 @ 3e)
+                u4 : 0(30 @ 40)
+
+                u5 sub-sub-sub-sub-block { (3a @ 42)
+
+                    u0 : 3(08 @ 44)
+
+                    u1 sub-sub-sub-sub-sub-block { (12 @ 46)
+
+                        w : 0.28888896107673645 (0d @ 48)
+                        x : 0.13481491804122925 (15 @ 4d)
+                        y : 0.0 (1d @ 52)
+                        z : 0.0 (25 @ 57)
+					}
+                    u2 : 0.006000000052154064 (1d @ 5c)
+                    u2 : 0.20000000298023224 (1d @ 61)
+                    u2 : 0.5 (1d @ 66)
+                    u2 : 0.0 (1d @ 6b)
+                    u2 : 0.30000001192092896 (1d @ 70)
+                    u2 : 1.0 (1d @ 75)
+                    u2 : 0.0 (1d @ 7a)
+                    u3 : 0.0 (25 @ 7f)
+                    u4 : 0.0 (2d @ 84)
+                    u5 : 0.0 (35 @ 89)
+
+                    u6 sub-sub-sub-sub-sub-block { (3a @ 8e)
+
+                        u0 : 0.0 (0d @ 90)
+                        u1 : 0.0 (15 @ 95)
+                        u2 : 0.0 (1d @ 9a)
+					}
+				}
+                u6 : 0(40 @ 9f)
+			}
+		}
+
+        component sub-sub-block { (1a @ a1)
+
+            component type : Particle (0a @ a3)
+            number : 123(10 @ ad)
+
+            particle sub-sub-sub-block { (7da @ b0)
+
+                name : particle (0a @ b2)
+                u0 : 15.0 (15 @ bc)
+			}
+		}
+
+        component sub-sub-block { (1a @ c1)
+
+            component type : SimpleGlow (0a @ c3)
+            number : 127(10 @ cf)
+
+            simple glow sub-sub-sub-block { (7f2 @ d2)
+
+
+                u0 sub-sub-sub-sub-block { (0a @ d4)
+
+                    w : 1.0 (0d @ d6)
+                    x : 0.6219885945320129 (15 @ db)
+                    y : 0.28888893127441406 (1d @ e0)
+                    z : 0.20000000298023224 (25 @ e5)
+				}
+                u1 : 6.0 (15 @ ea)
+                u2 : 20(18 @ ef)
+                u3 : 15.0 (25 @ f1)
+                u4 : 0.15000000596046448 (2d @ f6)
+                u5 : 0.800000011920929 (35 @ fb)
+
+                u6 sub-sub-sub-sub-block { (3a @ 100)
+
+                    y : 0.0 (0d @ 102)
+                    z : 0.0 (15 @ 107)
+				}
+			}
+		}
+
+        component sub-sub-block { (1a @ 10c)
+
+            component type : ParticleEmitter (0a @ 10f)
+            number : 129(10 @ 120)
+
+            particle emitter sub-sub-sub-block { (7d2 @ 124)
+
+                particle : 123(10 @ 126)
+                u1 : 0(18 @ 128)
+                u2 : 30(20 @ 12a)
+                u3 : 120(28 @ 12c)
+                u4 : 0(30 @ 12e)
+
+                u5 sub-sub-sub-sub-block { (3a @ 130)
+
+                    u0 : 3(08 @ 132)
+
+                    u1 sub-sub-sub-sub-sub-block { (12 @ 134)
+
+                        w : 0.5000000596046448 (0d @ 136)
+                        x : 0.5000000596046448 (15 @ 13b)
+                        y : 0.5000000596046448 (1d @ 140)
+                        z : 0.0 (25 @ 145)
+					}
+                    u2 : 0.009999999776482582 (1d @ 14a)
+                    u2 : 0.10000000149011612 (1d @ 14f)
+                    u2 : 0.25 (1d @ 154)
+                    u2 : 1.5 (1d @ 159)
+                    u2 : 0.30000001192092896 (1d @ 15e)
+                    u2 : 1.0 (1d @ 163)
+                    u2 : 0.0 (1d @ 168)
+                    u3 : 0.0 (25 @ 16d)
+                    u4 : 0.0 (2d @ 172)
+                    u5 : 0.0 (35 @ 177)
+
+                    u6 sub-sub-sub-sub-sub-block { (3a @ 17c)
+
+                        u0 : 0.0 (0d @ 17e)
+                        u1 : 0.0 (15 @ 183)
+                        u2 : 0.0 (1d @ 188)
+					}
+				}
+                u6 : 0(40 @ 18d)
+			}
+		}
+
+        component sub-sub-block { (1a @ 18f)
+
+            component type : OrbitController (0a @ 191)
+            number : 131(10 @ 1a2)
+
+            orbit controller sub-sub-sub-block { (802 @ 1a6)
+
+
+                u0 sub-sub-sub-sub-block { (0a @ 1a8)
+
+                    x : 0.0 (0d @ 1aa)
+                    y : 1.0 (15 @ 1af)
+                    z : 0.0 (1d @ 1b4)
+				}
+                u1 : 6.2831854820251465 (15 @ 1b9)
+                u2 : 25.0 (1d @ 1be)
+			}
+		}
+
+        position sub-sub-block { (22 @ 1c3)
+
+            x position : 0.0 (0d @ 1c5)
+            y position : 0.0 (15 @ 1ca)
+		}
+        z position : 0.0 (2d @ 1cf)
+        rotation : 0.0 (35 @ 1d4)
+        scale : 1.0 (3d @ 1d9)
+
+        u0 sub-sub-block { (42 @ 1de)
+
+            w : -4.0 (0d @ 1e0)
+            x : -4.0 (15 @ 1e5)
+            y : 8.0 (1d @ 1ea)
+            z : 8.0 (25 @ 1ef)
+		}
+        hidden : 0(48 @ 1f4)
+	}
+    u0 : 1.0 (15 @ 1f6)
+}
+
+?item block { (12 @ 1fb)
+
+
+    ?sub-item sub-block { (0a @ 1fe)
+
+        name : icetrinket_wisp (12 @ 201)
+
+        component sub-sub-block { (1a @ 212)
+
+            component type : ParticleEmitter (0a @ 214)
+            number : 120(10 @ 225)
+
+            particle emitter sub-sub-sub-block { (7d2 @ 228)
+
+                particle : 123(10 @ 22a)
+                u1 : 0(18 @ 22c)
+                u2 : 100(20 @ 22e)
+                u3 : 0(28 @ 230)
+                u4 : 0(30 @ 232)
+
+                u5 sub-sub-sub-sub-block { (3a @ 234)
+
+                    u0 : 3(08 @ 236)
+
+                    u1 sub-sub-sub-sub-sub-block { (12 @ 238)
+
+                        w : 0.0 (0d @ 23a)
+                        x : 0.1688889116048813 (15 @ 23f)
+                        y : 0.4222223162651062 (1d @ 244)
+                        z : 0.0 (25 @ 249)
+					}
+                    u2 : 0.006000000052154064 (1d @ 24e)
+                    u2 : 0.20000000298023224 (1d @ 253)
+                    u2 : 0.5 (1d @ 258)
+                    u2 : 0.0 (1d @ 25d)
+                    u2 : 0.30000001192092896 (1d @ 262)
+                    u2 : 1.0 (1d @ 267)
+                    u2 : 0.0 (1d @ 26c)
+                    u3 : 0.0 (25 @ 271)
+                    u4 : 0.0 (2d @ 276)
+                    u5 : 0.0 (35 @ 27b)
+
+                    u6 sub-sub-sub-sub-sub-block { (3a @ 280)
+
+                        u0 : 0.0 (0d @ 282)
+                        u1 : 0.0 (15 @ 287)
+                        u2 : 0.0 (1d @ 28c)
+					}
+				}
+                u6 : 0(40 @ 291)
+			}
+		}
+
+        component sub-sub-block { (1a @ 293)
+
+            component type : Particle (0a @ 295)
+            number : 123(10 @ 29f)
+
+            particle sub-sub-sub-block { (7da @ 2a2)
+
+                name : particle (0a @ 2a4)
+                u0 : 15.0 (15 @ 2ae)
+			}
+		}
+
+        component sub-sub-block { (1a @ 2b3)
+
+            component type : SimpleGlow (0a @ 2b5)
+            number : 127(10 @ 2c1)
+
+            simple glow sub-sub-sub-block { (7f2 @ 2c4)
+
+
+                u0 sub-sub-sub-sub-block { (0a @ 2c6)
+
+                    w : 0.022222280502319336 (0d @ 2c8)
+                    x : 0.41161781549453735 (15 @ 2cd)
+                    y : 1.0 (1d @ 2d2)
+                    z : 0.20000000298023224 (25 @ 2d7)
+				}
+                u1 : 6.0 (15 @ 2dc)
+                u2 : 20(18 @ 2e1)
+                u3 : 15.0 (25 @ 2e3)
+                u4 : 0.15000000596046448 (2d @ 2e8)
+                u5 : 0.800000011920929 (35 @ 2ed)
+
+                u6 sub-sub-sub-sub-block { (3a @ 2f2)
+
+                    y : 0.0 (0d @ 2f4)
+                    z : 0.0 (15 @ 2f9)
+				}
+			}
+		}
+
+        component sub-sub-block { (1a @ 2fe)
+
+            component type : ParticleEmitter (0a @ 301)
+            number : 129(10 @ 312)
+
+            particle emitter sub-sub-sub-block { (7d2 @ 316)
+
+                particle : 123(10 @ 318)
+                u1 : 0(18 @ 31a)
+                u2 : 30(20 @ 31c)
+                u3 : 120(28 @ 31e)
+                u4 : 0(30 @ 320)
+
+                u5 sub-sub-sub-sub-block { (3a @ 322)
+
+                    u0 : 3(08 @ 324)
+
+                    u1 sub-sub-sub-sub-sub-block { (12 @ 326)
+
+                        w : 0.5000000596046448 (0d @ 328)
+                        x : 0.5000000596046448 (15 @ 32d)
+                        y : 0.5000000596046448 (1d @ 332)
+                        z : 0.0 (25 @ 337)
+					}
+                    u2 : 0.009999999776482582 (1d @ 33c)
+                    u2 : 0.10000000149011612 (1d @ 341)
+                    u2 : 0.25 (1d @ 346)
+                    u2 : 0.0 (1d @ 34b)
+                    u2 : 0.30000001192092896 (1d @ 350)
+                    u2 : 1.0 (1d @ 355)
+                    u2 : 0.0 (1d @ 35a)
+                    u3 : 0.0 (25 @ 35f)
+                    u4 : 0.0 (2d @ 364)
+                    u5 : 0.0 (35 @ 369)
+
+                    u6 sub-sub-sub-sub-sub-block { (3a @ 36e)
+
+                        u0 : 0.0 (0d @ 370)
+                        u1 : 0.0 (15 @ 375)
+                        u2 : 0.0 (1d @ 37a)
+					}
+				}
+                u6 : 0(40 @ 37f)
+			}
+		}
+
+        component sub-sub-block { (1a @ 381)
+
+            component type : OrbitController (0a @ 383)
+            number : 131(10 @ 394)
+
+            orbit controller sub-sub-sub-block { (802 @ 398)
+
+
+                u0 sub-sub-sub-sub-block { (0a @ 39a)
+
+                    x : 0.0 (0d @ 39c)
+                    y : 1.0 (15 @ 3a1)
+                    z : 0.0 (1d @ 3a6)
+				}
+                u1 : 6.2831854820251465 (15 @ 3ab)
+                u2 : 25.0 (1d @ 3b0)
+			}
+		}
+
+        position sub-sub-block { (22 @ 3b5)
+
+            x position : 0.0 (0d @ 3b7)
+            y position : 0.0 (15 @ 3bc)
+		}
+        z position : 0.0 (2d @ 3c1)
+        rotation : 0.0 (35 @ 3c6)
+        scale : 1.0 (3d @ 3cb)
+
+        u0 sub-sub-block { (42 @ 3d0)
+
+            w : -4.0 (0d @ 3d2)
+            x : -4.0 (15 @ 3d7)
+            y : 8.0 (1d @ 3dc)
+            z : 8.0 (25 @ 3e1)
+		}
+        hidden : 0(48 @ 3e6)
+	}
+    u0 : 1.0 (15 @ 3e8)
+}
+
+?item block { (12 @ 3ed)
+
+
+    ?sub-item sub-block { (0a @ 3f0)
+
+        name : magic_bolt (12 @ 3f3)
+
+        component sub-sub-block { (1a @ 3ff)
+
+            component type : SimpleGlow (0a @ 401)
+            number : 1(10 @ 40d)
+
+            simple glow sub-sub-sub-block { (7f2 @ 410)
+
+
+                u0 sub-sub-sub-sub-block { (0a @ 412)
+
+                    w : 0.18888889253139496 (0d @ 414)
+                    x : 0.5 (15 @ 419)
+                    y : 1.0 (1d @ 41e)
+                    z : 0.5 (25 @ 423)
+				}
+                u1 : 30.0 (15 @ 428)
+                u2 : 10(18 @ 42d)
+                u3 : 15.0 (25 @ 42f)
+                u4 : 0.15000000596046448 (2d @ 434)
+                u5 : 0.800000011920929 (35 @ 439)
+
+                u6 sub-sub-sub-sub-block { (3a @ 43e)
+
+                    y : 0.0 (0d @ 440)
+                    z : 0.0 (15 @ 445)
+				}
+			}
+		}
+
+        component sub-sub-block { (1a @ 44a)
+
+            component type : CollisionShape (0a @ 44c)
+            number : 2(10 @ 45c)
+
+            collision shape sub-sub-sub-block { (3c2 @ 45f)
+
+
+                u0 sub-sub-sub-sub-block { (0a @ 461)
+
+                    w : -20.0 (0d @ 463)
+                    x : -20.0 (15 @ 468)
+                    y : 40.0 (1d @ 46d)
+                    z : 40.0 (25 @ 472)
+				}
+			}
+
+            collision shape 2 sub-sub-sub-block { (3ca @ 478)
+
+                u3 : 1(28 @ 47a)
+                w : -15.0 (35 @ 47c)
+                x : 15.0 (3d @ 481)
+                z : 1(58 @ 486)
+			}
+		}
+
+        component sub-sub-block { (1a @ 488)
+
+            component type : SoundEffect (0a @ 48a)
+            number : 3(10 @ 497)
+
+            sound effect sub-sub-sub-block { (462 @ 49a)
+
+                sound : woosh3 (0a @ 49c)
+                u0 : 0.0 (15 @ 4a4)
+                u1 : 1.0 (1d @ 4a9)
+			}
+		}
+
+        component sub-sub-block { (1a @ 4ae)
+
+            component type : Damage (0a @ 4b0)
+            number : 4(10 @ 4b8)
+
+            damage sub-sub-sub-block { (3d2 @ 4bb)
+
+                u0 : 2(08 @ 4bd)
+                u1 : 1(10 @ 4bf)
+                u2 : 0(18 @ 4c1)
+                u5 : 0.0 (35 @ 4c3)
+                u6 : 1.0 (3d @ 4c8)
+                u7 : 0(40 @ 4cd)
+                u8 : 1(48 @ 4cf)
+			}
+		}
+
+        component sub-sub-block { (1a @ 4d1)
+
+            component type : SoundEffect (0a @ 4d3)
+            number : 5(10 @ 4e0)
+
+            sound effect sub-sub-sub-block { (462 @ 4e3)
+
+                sound : testbolt (0a @ 4e5)
+                u0 : 0.0 (15 @ 4ef)
+                u1 : 1.0 (1d @ 4f4)
+			}
+		}
+
+        component sub-sub-block { (1a @ 4f9)
+
+            component type : Light (0a @ 4fb)
+            number : 6(10 @ 502)
+
+            light sub-sub-sub-block { (412 @ 505)
+
+                u0 : 3(08 @ 507)
+                u1 : 2.0 (15 @ 509)
+
+                u2 sub-sub-sub-sub-block { (1a @ 50e)
+
+                    w : 0.6000000238418579 (0d @ 510)
+                    x : 0.6857142448425293 (15 @ 515)
+                    y : 1.0 (1d @ 51a)
+                    z : 1.0 (25 @ 51f)
+				}
+                u3 : 0.0 (25 @ 524)
+                u4 : 0.00019999999494757503 (2d @ 529)
+
+                u5 sub-sub-sub-sub-block { (32 @ 52e)
+
+                    x : 0.0 (0d @ 530)
+                    y : 0.0 (15 @ 535)
+                    z : 0.0 (1d @ 53a)
+				}
+                u6 : 250.0 (3d @ 53f)
+			}
+		}
+
+        component sub-sub-block { (1a @ 544)
+
+            component type : CollisionShape (0a @ 546)
+            number : 7(10 @ 556)
+
+            collision shape sub-sub-sub-block { (3c2 @ 559)
+
+
+                u0 sub-sub-sub-sub-block { (0a @ 55b)
+
+                    w : -10.0 (0d @ 55d)
+                    x : -5.0 (15 @ 562)
+                    y : 20.0 (1d @ 567)
+                    z : 10.0 (25 @ 56c)
+				}
+			}
+
+            collision shape 2 sub-sub-sub-block { (3ca @ 572)
+
+                u1 : 1(18 @ 574)
+                w : -15.0 (35 @ 576)
+                x : 15.0 (3d @ 57b)
+                z : 1(58 @ 580)
+			}
+		}
+
+        component sub-sub-block { (1a @ 582)
+
+            component type : ParticleEmitter (0a @ 584)
+            number : 102(10 @ 595)
+
+            particle emitter sub-sub-sub-block { (7d2 @ 598)
+
+                particle : 103(10 @ 59a)
+                particle : 104(10 @ 59c)
+                particle : 105(10 @ 59e)
+                u1 : 0(18 @ 5a0)
+                u2 : 30(20 @ 5a2)
+                u3 : 0(28 @ 5a4)
+                u4 : 0(30 @ 5a6)
+                u6 : 0(40 @ 5a8)
+			}
+		}
+
+        component sub-sub-block { (1a @ 5aa)
+
+            component type : Particle (0a @ 5ac)
+            number : 103(10 @ 5b6)
+
+            particle sub-sub-sub-block { (7da @ 5b9)
+
+                name : particle_fure_1 (0a @ 5bb)
+                u0 : 40.0 (15 @ 5cc)
+			}
+		}
+
+        component sub-sub-block { (1a @ 5d1)
+
+            component type : Particle (0a @ 5d3)
+            number : 104(10 @ 5dd)
+
+            particle sub-sub-sub-block { (7da @ 5e0)
+
+                name : particle_fure_2 (0a @ 5e2)
+                u0 : 40.0 (15 @ 5f3)
+			}
+		}
+
+        component sub-sub-block { (1a @ 5f8)
+
+            component type : Particle (0a @ 5fa)
+            number : 105(10 @ 604)
+
+            particle sub-sub-sub-block { (7da @ 607)
+
+                name : particle_fure_3 (0a @ 609)
+                u0 : 40.0 (15 @ 61a)
+			}
+		}
+
+        component sub-sub-block { (1a @ 61f)
+
+            component type : MagicBolt (0a @ 621)
+            number : 106(10 @ 62c)
+
+            magic bolt sub-sub-sub-block { (1132 @ 62f)
+
+                u0 : 102(08 @ 631)
+                u1 : 3(10 @ 633)
+                u2 : 5(18 @ 635)
+
+                u3 sub-sub-sub-sub-block { (22 @ 637)
+
+                    w : 0.0 (0d @ 639)
+                    x : 0.19157232344150543 (15 @ 63e)
+                    y : 0.45399999618530273 (1d @ 643)
+                    z : 0.0 (25 @ 648)
+				}
+                u3 : 750.0 (2d @ 64d)
+			}
+
+            temp0 sub-sub-sub-block { (1172 @ 653)
+
+			}
+		}
+
+        position sub-sub-block { (22 @ 655)
+
+            x position : 0.0 (0d @ 657)
+            y position : 0.0 (15 @ 65c)
+		}
+        z position : 0.0 (2d @ 661)
+        rotation : 0.0 (35 @ 666)
+        scale : 1.0 (3d @ 66b)
+
+        u0 sub-sub-block { (42 @ 670)
+
+            w : -50.0 (0d @ 672)
+            x : -50.0 (15 @ 677)
+            y : 100.0 (1d @ 67c)
+            z : 100.0 (25 @ 681)
+		}
+        hidden : 0(48 @ 686)
+	}
+    u0 : 1.0 (15 @ 688)
+}
+
+?item block { (12 @ 68d)
+
+
+    ?sub-item sub-block { (0a @ 690)
+
+        name : magic_bolt_explosion (12 @ 693)
+
+        component sub-sub-block { (1a @ 6a9)
+
+            component type : ParticleEmitter (0a @ 6ab)
+            number : 102(10 @ 6bc)
+
+            particle emitter sub-sub-sub-block { (7d2 @ 6bf)
+
+                particle : 103(10 @ 6c1)
+                particle : 104(10 @ 6c3)
+                particle : 105(10 @ 6c5)
+                u1 : 0(18 @ 6c7)
+                u2 : 30(20 @ 6c9)
+                u3 : 0(28 @ 6cb)
+                u4 : 0(30 @ 6cd)
+                u6 : 0(40 @ 6cf)
+			}
+		}
+
+        component sub-sub-block { (1a @ 6d1)
+
+            component type : Particle (0a @ 6d3)
+            number : 103(10 @ 6dd)
+
+            particle sub-sub-sub-block { (7da @ 6e0)
+
+                name : particle_fure_1 (0a @ 6e2)
+                u0 : 40.0 (15 @ 6f3)
+			}
+		}
+
+        component sub-sub-block { (1a @ 6f8)
+
+            component type : Particle (0a @ 6fa)
+            number : 104(10 @ 704)
+
+            particle sub-sub-sub-block { (7da @ 707)
+
+                name : particle_fure_2 (0a @ 709)
+                u0 : 40.0 (15 @ 71a)
+			}
+		}
+
+        component sub-sub-block { (1a @ 71f)
+
+            component type : Particle (0a @ 721)
+            number : 105(10 @ 72b)
+
+            particle sub-sub-sub-block { (7da @ 72e)
+
+                name : particle_fure_3 (0a @ 730)
+                u0 : 40.0 (15 @ 741)
+			}
+		}
+
+        component sub-sub-block { (1a @ 746)
+
+            component type : MagicExplosion (0a @ 748)
+            number : 107(10 @ 758)
+
+            magic explosion sub-sub-sub-block { (113a @ 75b)
+
+                u0 : 102(08 @ 75d)
+                u1 : 0(10 @ 75f)
+
+                u2 sub-sub-sub-sub-block { (1a @ 761)
+
+                    w : 1.0 (0d @ 763)
+                    x : 1.0 (15 @ 768)
+                    y : 1.0 (1d @ 76d)
+                    z : 1.0 (25 @ 772)
+				}
+                u3 : 100.0 (25 @ 777)
+                u4 : 0.30000001192092896 (2d @ 77c)
+			}
+		}
+
+        position sub-sub-block { (22 @ 781)
+
+            x position : 0.0 (0d @ 783)
+            y position : 0.0 (15 @ 788)
+		}
+        z position : 0.0 (2d @ 78d)
+        rotation : 0.0 (35 @ 792)
+        scale : 1.0 (3d @ 797)
+
+        u0 sub-sub-block { (42 @ 79c)
+
+            w : -10.0 (0d @ 79e)
+            x : -10.0 (15 @ 7a3)
+            y : 20.0 (1d @ 7a8)
+            z : 20.0 (25 @ 7ad)
+		}
+        hidden : 0(48 @ 7b2)
+	}
+    u0 : 1.0 (15 @ 7b4)
+}
+
+?item block { (12 @ 7b9)
+
+
+    ?sub-item sub-block { (0a @ 7bc)
+
+        name : magic_bolt_fire (12 @ 7bf)
+
+        component sub-sub-block { (1a @ 7d0)
+
+            component type : SimpleGlow (0a @ 7d2)
+            number : 1(10 @ 7de)
+
+            simple glow sub-sub-sub-block { (7f2 @ 7e1)
+
+
+                u0 sub-sub-sub-sub-block { (0a @ 7e3)
+
+                    w : 1.0 (0d @ 7e5)
+                    x : 0.4592592716217041 (15 @ 7ea)
+                    y : 0.18888890743255615 (1d @ 7ef)
+                    z : 0.5 (25 @ 7f4)
+				}
+                u1 : 30.0 (15 @ 7f9)
+                u2 : 10(18 @ 7fe)
+                u3 : 15.0 (25 @ 800)
+                u4 : 0.15000000596046448 (2d @ 805)
+                u5 : 0.800000011920929 (35 @ 80a)
+
+                u6 sub-sub-sub-sub-block { (3a @ 80f)
+
+                    y : 0.0 (0d @ 811)
+                    z : 0.0 (15 @ 816)
+				}
+			}
+		}
+
+        component sub-sub-block { (1a @ 81b)
+
+            component type : CollisionShape (0a @ 81d)
+            number : 2(10 @ 82d)
+
+            collision shape sub-sub-sub-block { (3c2 @ 830)
+
+
+                u0 sub-sub-sub-sub-block { (0a @ 832)
+
+                    w : -20.0 (0d @ 834)
+                    x : -20.0 (15 @ 839)
+                    y : 40.0 (1d @ 83e)
+                    z : 40.0 (25 @ 843)
+				}
+			}
+
+            collision shape 2 sub-sub-sub-block { (3ca @ 849)
+
+                u3 : 1(28 @ 84b)
+                w : -15.0 (35 @ 84d)
+                x : 15.0 (3d @ 852)
+                z : 1(58 @ 857)
+			}
+		}
+
+        component sub-sub-block { (1a @ 859)
+
+            component type : SoundEffect (0a @ 85b)
+            number : 3(10 @ 868)
+
+            sound effect sub-sub-sub-block { (462 @ 86b)
+
+                sound : woosh3 (0a @ 86d)
+                u0 : 0.0 (15 @ 875)
+                u1 : 1.0 (1d @ 87a)
+			}
+		}
+
+        component sub-sub-block { (1a @ 87f)
+
+            component type : Damage (0a @ 881)
+            number : 4(10 @ 889)
+
+            damage sub-sub-sub-block { (3d2 @ 88c)
+
+                u0 : 2(08 @ 88e)
+                u1 : 1(10 @ 890)
+                u2 : 0(18 @ 892)
+                u5 : 0.0 (35 @ 894)
+                u6 : 1.0 (3d @ 899)
+                u7 : 0(40 @ 89e)
+                u8 : 1(48 @ 8a0)
+			}
+		}
+
+        component sub-sub-block { (1a @ 8a2)
+
+            component type : SoundEffect (0a @ 8a4)
+            number : 5(10 @ 8b1)
+
+            sound effect sub-sub-sub-block { (462 @ 8b4)
+
+                sound : testbolt (0a @ 8b6)
+                u0 : 0.0 (15 @ 8c0)
+                u1 : 1.0 (1d @ 8c5)
+			}
+		}
+
+        component sub-sub-block { (1a @ 8ca)
+
+            component type : Light (0a @ 8cc)
+            number : 6(10 @ 8d3)
+
+            light sub-sub-sub-block { (412 @ 8d6)
+
+                u0 : 3(08 @ 8d8)
+                u1 : 2.0 (15 @ 8da)
+
+                u2 sub-sub-sub-sub-block { (1a @ 8df)
+
+                    w : 1.0 (0d @ 8e1)
+                    x : 0.7542858123779297 (15 @ 8e6)
+                    y : 0.6000000238418579 (1d @ 8eb)
+                    z : 1.0 (25 @ 8f0)
+				}
+                u3 : 0.0 (25 @ 8f5)
+                u4 : 0.00019999999494757503 (2d @ 8fa)
+
+                u5 sub-sub-sub-sub-block { (32 @ 8ff)
+
+                    x : 0.0 (0d @ 901)
+                    y : 0.0 (15 @ 906)
+                    z : 0.0 (1d @ 90b)
+				}
+                u6 : 250.0 (3d @ 910)
+			}
+		}
+
+        component sub-sub-block { (1a @ 915)
+
+            component type : CollisionShape (0a @ 917)
+            number : 7(10 @ 927)
+
+            collision shape sub-sub-sub-block { (3c2 @ 92a)
+
+
+                u0 sub-sub-sub-sub-block { (0a @ 92c)
+
+                    w : -10.0 (0d @ 92e)
+                    x : -5.0 (15 @ 933)
+                    y : 20.0 (1d @ 938)
+                    z : 10.0 (25 @ 93d)
+				}
+			}
+
+            collision shape 2 sub-sub-sub-block { (3ca @ 943)
+
+                u1 : 1(18 @ 945)
+                w : -15.0 (35 @ 947)
+                x : 15.0 (3d @ 94c)
+                z : 1(58 @ 951)
+			}
+		}
+
+        component sub-sub-block { (1a @ 953)
+
+            component type : ParticleEmitter (0a @ 955)
+            number : 102(10 @ 966)
+
+            particle emitter sub-sub-sub-block { (7d2 @ 969)
+
+                particle : 103(10 @ 96b)
+                particle : 104(10 @ 96d)
+                particle : 105(10 @ 96f)
+                u1 : 0(18 @ 971)
+                u2 : 30(20 @ 973)
+                u3 : 0(28 @ 975)
+                u4 : 0(30 @ 977)
+                u6 : 0(40 @ 979)
+			}
+		}
+
+        component sub-sub-block { (1a @ 97b)
+
+            component type : Particle (0a @ 97d)
+            number : 103(10 @ 987)
+
+            particle sub-sub-sub-block { (7da @ 98a)
+
+                name : particle_fure_1 (0a @ 98c)
+                u0 : 40.0 (15 @ 99d)
+			}
+		}
+
+        component sub-sub-block { (1a @ 9a2)
+
+            component type : Particle (0a @ 9a4)
+            number : 104(10 @ 9ae)
+
+            particle sub-sub-sub-block { (7da @ 9b1)
+
+                name : particle_fure_2 (0a @ 9b3)
+                u0 : 40.0 (15 @ 9c4)
+			}
+		}
+
+        component sub-sub-block { (1a @ 9c9)
+
+            component type : Particle (0a @ 9cb)
+            number : 105(10 @ 9d5)
+
+            particle sub-sub-sub-block { (7da @ 9d8)
+
+                name : particle_fure_3 (0a @ 9da)
+                u0 : 40.0 (15 @ 9eb)
+			}
+		}
+
+        component sub-sub-block { (1a @ 9f0)
+
+            component type : MagicBolt (0a @ 9f2)
+            number : 106(10 @ 9fd)
+
+            magic bolt sub-sub-sub-block { (1132 @ a00)
+
+                u0 : 102(08 @ a02)
+                u1 : 3(10 @ a04)
+                u2 : 5(18 @ a06)
+
+                u3 sub-sub-sub-sub-block { (22 @ a08)
+
+                    w : 0.45399999618530273 (0d @ a0a)
+                    x : 0.17162777483463287 (15 @ a0f)
+                    y : 0.0 (1d @ a14)
+                    z : 0.0 (25 @ a19)
+				}
+                u3 : 750.0 (2d @ a1e)
+			}
+
+            temp0 sub-sub-sub-block { (1172 @ a24)
+
+			}
+		}
+
+        position sub-sub-block { (22 @ a26)
+
+            x position : 0.0 (0d @ a28)
+            y position : 0.0 (15 @ a2d)
+		}
+        z position : 0.0 (2d @ a32)
+        rotation : 0.0 (35 @ a37)
+        scale : 1.0 (3d @ a3c)
+
+        u0 sub-sub-block { (42 @ a41)
+
+            w : -50.0 (0d @ a43)
+            x : -50.0 (15 @ a48)
+            y : 100.0 (1d @ a4d)
+            z : 100.0 (25 @ a52)
+		}
+        hidden : 0(48 @ a57)
+	}
+    u0 : 1.0 (15 @ a59)
+}
+
+?item block { (12 @ a5e)
+
+
+    ?sub-item sub-block { (0a @ a61)
+
+        name : magic_bolt_ice (12 @ a64)
+
+        component sub-sub-block { (1a @ a74)
+
+            component type : SimpleGlow (0a @ a76)
+            number : 1(10 @ a82)
+
+            simple glow sub-sub-sub-block { (7f2 @ a85)
+
+
+                u0 sub-sub-sub-sub-block { (0a @ a87)
+
+                    w : 0.18888890743255615 (0d @ a89)
+                    x : 1.0000001192092896 (15 @ a8e)
+                    y : 0.9999999403953552 (1d @ a93)
+                    z : 0.5 (25 @ a98)
+				}
+                u1 : 30.0 (15 @ a9d)
+                u2 : 10(18 @ aa2)
+                u3 : 15.0 (25 @ aa4)
+                u4 : 0.15000000596046448 (2d @ aa9)
+                u5 : 0.800000011920929 (35 @ aae)
+
+                u6 sub-sub-sub-sub-block { (3a @ ab3)
+
+                    y : 0.0 (0d @ ab5)
+                    z : 0.0 (15 @ aba)
+				}
+			}
+		}
+
+        component sub-sub-block { (1a @ abf)
+
+            component type : CollisionShape (0a @ ac1)
+            number : 2(10 @ ad1)
+
+            collision shape sub-sub-sub-block { (3c2 @ ad4)
+
+
+                u0 sub-sub-sub-sub-block { (0a @ ad6)
+
+                    w : -20.0 (0d @ ad8)
+                    x : -20.0 (15 @ add)
+                    y : 40.0 (1d @ ae2)
+                    z : 40.0 (25 @ ae7)
+				}
+			}
+
+            collision shape 2 sub-sub-sub-block { (3ca @ aed)
+
+                u3 : 1(28 @ aef)
+                w : -15.0 (35 @ af1)
+                x : 15.0 (3d @ af6)
+                z : 1(58 @ afb)
+			}
+		}
+
+        component sub-sub-block { (1a @ afd)
+
+            component type : SoundEffect (0a @ aff)
+            number : 3(10 @ b0c)
+
+            sound effect sub-sub-sub-block { (462 @ b0f)
+
+                sound : woosh3 (0a @ b11)
+                u0 : 0.0 (15 @ b19)
+                u1 : 1.0 (1d @ b1e)
+			}
+		}
+
+        component sub-sub-block { (1a @ b23)
+
+            component type : Damage (0a @ b25)
+            number : 4(10 @ b2d)
+
+            damage sub-sub-sub-block { (3d2 @ b30)
+
+                u0 : 2(08 @ b32)
+                u1 : 1(10 @ b34)
+                u2 : 0(18 @ b36)
+                u5 : 0.0 (35 @ b38)
+                u6 : 1.0 (3d @ b3d)
+                u7 : 0(40 @ b42)
+                u8 : 1(48 @ b44)
+			}
+		}
+
+        component sub-sub-block { (1a @ b46)
+
+            component type : SoundEffect (0a @ b48)
+            number : 5(10 @ b55)
+
+            sound effect sub-sub-sub-block { (462 @ b58)
+
+                sound : testbolt (0a @ b5a)
+                u0 : 0.0 (15 @ b64)
+                u1 : 1.0 (1d @ b69)
+			}
+		}
+
+        component sub-sub-block { (1a @ b6e)
+
+            component type : Light (0a @ b70)
+            number : 6(10 @ b77)
+
+            light sub-sub-sub-block { (412 @ b7a)
+
+                u0 : 3(08 @ b7c)
+                u1 : 2.0 (15 @ b7e)
+
+                u2 sub-sub-sub-sub-block { (1a @ b83)
+
+                    w : 0.6000000238418579 (0d @ b85)
+                    x : 1.0 (15 @ b8a)
+                    y : 0.9942858815193176 (1d @ b8f)
+                    z : 1.0 (25 @ b94)
+				}
+                u3 : 0.0 (25 @ b99)
+                u4 : 0.00019999999494757503 (2d @ b9e)
+
+                u5 sub-sub-sub-sub-block { (32 @ ba3)
+
+                    x : 0.0 (0d @ ba5)
+                    y : 0.0 (15 @ baa)
+                    z : 0.0 (1d @ baf)
+				}
+                u6 : 250.0 (3d @ bb4)
+			}
+		}
+
+        component sub-sub-block { (1a @ bb9)
+
+            component type : CollisionShape (0a @ bbb)
+            number : 7(10 @ bcb)
+
+            collision shape sub-sub-sub-block { (3c2 @ bce)
+
+
+                u0 sub-sub-sub-sub-block { (0a @ bd0)
+
+                    w : -10.0 (0d @ bd2)
+                    x : -5.0 (15 @ bd7)
+                    y : 20.0 (1d @ bdc)
+                    z : 10.0 (25 @ be1)
+				}
+			}
+
+            collision shape 2 sub-sub-sub-block { (3ca @ be7)
+
+                u1 : 1(18 @ be9)
+                w : -15.0 (35 @ beb)
+                x : 15.0 (3d @ bf0)
+                z : 1(58 @ bf5)
+			}
+		}
+
+        component sub-sub-block { (1a @ bf7)
+
+            component type : ParticleEmitter (0a @ bf9)
+            number : 102(10 @ c0a)
+
+            particle emitter sub-sub-sub-block { (7d2 @ c0d)
+
+                particle : 103(10 @ c0f)
+                particle : 104(10 @ c11)
+                particle : 105(10 @ c13)
+                u1 : 0(18 @ c15)
+                u2 : 30(20 @ c17)
+                u3 : 0(28 @ c19)
+                u4 : 0(30 @ c1b)
+                u6 : 0(40 @ c1d)
+			}
+		}
+
+        component sub-sub-block { (1a @ c1f)
+
+            component type : Particle (0a @ c21)
+            number : 103(10 @ c2b)
+
+            particle sub-sub-sub-block { (7da @ c2e)
+
+                name : particle_fure_1 (0a @ c30)
+                u0 : 40.0 (15 @ c41)
+			}
+		}
+
+        component sub-sub-block { (1a @ c46)
+
+            component type : Particle (0a @ c48)
+            number : 104(10 @ c52)
+
+            particle sub-sub-sub-block { (7da @ c55)
+
+                name : particle_fure_2 (0a @ c57)
+                u0 : 40.0 (15 @ c68)
+			}
+		}
+
+        component sub-sub-block { (1a @ c6d)
+
+            component type : Particle (0a @ c6f)
+            number : 105(10 @ c79)
+
+            particle sub-sub-sub-block { (7da @ c7c)
+
+                name : particle_fure_3 (0a @ c7e)
+                u0 : 40.0 (15 @ c8f)
+			}
+		}
+
+        component sub-sub-block { (1a @ c94)
+
+            component type : MagicBolt (0a @ c96)
+            number : 106(10 @ ca1)
+
+            magic bolt sub-sub-sub-block { (1132 @ ca4)
+
+                u0 : 102(08 @ ca6)
+                u1 : 3(10 @ ca8)
+                u2 : 5(18 @ caa)
+
+                u3 sub-sub-sub-sub-block { (22 @ cac)
+
+                    w : 0.0 (0d @ cae)
+                    x : 0.45399999618530273 (15 @ cb3)
+                    y : 0.4440276324748993 (1d @ cb8)
+                    z : 0.0 (25 @ cbd)
+				}
+                u3 : 750.0 (2d @ cc2)
+			}
+
+            temp0 sub-sub-sub-block { (1172 @ cc8)
+
+			}
+		}
+
+        position sub-sub-block { (22 @ cca)
+
+            x position : 0.0 (0d @ ccc)
+            y position : 0.0 (15 @ cd1)
+		}
+        z position : 0.0 (2d @ cd6)
+        rotation : 0.0 (35 @ cdb)
+        scale : 1.0 (3d @ ce0)
+
+        u0 sub-sub-block { (42 @ ce5)
+
+            w : -50.0 (0d @ ce7)
+            x : -50.0 (15 @ cec)
+            y : 100.0 (1d @ cf1)
+            z : 100.0 (25 @ cf6)
+		}
+        hidden : 0(48 @ cfb)
+	}
+    u0 : 1.0 (15 @ cfd)
+}
+
+?item block { (12 @ d02)
+
+
+    ?sub-item sub-block { (0a @ d05)
+
+        name : magic_bolt_shadow (12 @ d08)
+
+        component sub-sub-block { (1a @ d1b)
+
+            component type : SimpleGlow (0a @ d1d)
+            number : 1(10 @ d29)
+
+            simple glow sub-sub-sub-block { (7f2 @ d2c)
+
+
+                u0 sub-sub-sub-sub-block { (0a @ d2e)
+
+                    w : 0.35111096501350403 (0d @ d30)
+                    x : 0.18888890743255615 (15 @ d35)
+                    y : 1.0 (1d @ d3a)
+                    z : 0.5 (25 @ d3f)
+				}
+                u1 : 30.0 (15 @ d44)
+                u2 : 10(18 @ d49)
+                u3 : 15.0 (25 @ d4b)
+                u4 : 0.15000000596046448 (2d @ d50)
+                u5 : 0.800000011920929 (35 @ d55)
+
+                u6 sub-sub-sub-sub-block { (3a @ d5a)
+
+                    y : 0.0 (0d @ d5c)
+                    z : 0.0 (15 @ d61)
+				}
+			}
+		}
+
+        component sub-sub-block { (1a @ d66)
+
+            component type : CollisionShape (0a @ d68)
+            number : 2(10 @ d78)
+
+            collision shape sub-sub-sub-block { (3c2 @ d7b)
+
+
+                u0 sub-sub-sub-sub-block { (0a @ d7d)
+
+                    w : -20.0 (0d @ d7f)
+                    x : -20.0 (15 @ d84)
+                    y : 40.0 (1d @ d89)
+                    z : 40.0 (25 @ d8e)
+				}
+			}
+
+            collision shape 2 sub-sub-sub-block { (3ca @ d94)
+
+                u3 : 1(28 @ d96)
+                w : -15.0 (35 @ d98)
+                x : 15.0 (3d @ d9d)
+                z : 1(58 @ da2)
+			}
+		}
+
+        component sub-sub-block { (1a @ da4)
+
+            component type : SoundEffect (0a @ da6)
+            number : 3(10 @ db3)
+
+            sound effect sub-sub-sub-block { (462 @ db6)
+
+                sound : woosh3 (0a @ db8)
+                u0 : 0.0 (15 @ dc0)
+                u1 : 1.0 (1d @ dc5)
+			}
+		}
+
+        component sub-sub-block { (1a @ dca)
+
+            component type : Damage (0a @ dcc)
+            number : 4(10 @ dd4)
+
+            damage sub-sub-sub-block { (3d2 @ dd7)
+
+                u0 : 2(08 @ dd9)
+                u1 : 1(10 @ ddb)
+                u2 : 0(18 @ ddd)
+                u5 : 1.0 (35 @ ddf)
+                u6 : 0.0 (3d @ de4)
+                u7 : 0(40 @ de9)
+                u8 : 1(48 @ deb)
+			}
+		}
+
+        component sub-sub-block { (1a @ ded)
+
+            component type : SoundEffect (0a @ def)
+            number : 5(10 @ dfc)
+
+            sound effect sub-sub-sub-block { (462 @ dff)
+
+                sound : testbolt (0a @ e01)
+                u0 : 0.0 (15 @ e0b)
+                u1 : 1.0 (1d @ e10)
+			}
+		}
+
+        component sub-sub-block { (1a @ e15)
+
+            component type : Light (0a @ e17)
+            number : 6(10 @ e1e)
+
+            light sub-sub-sub-block { (412 @ e21)
+
+                u0 : 3(08 @ e23)
+                u1 : 2.0 (15 @ e25)
+
+                u2 sub-sub-sub-sub-block { (1a @ e2a)
+
+                    w : 0.674285888671875 (0d @ e2c)
+                    x : 0.6000000238418579 (15 @ e31)
+                    y : 1.0 (1d @ e36)
+                    z : 1.0 (25 @ e3b)
+				}
+                u3 : 0.0 (25 @ e40)
+                u4 : 0.00019999999494757503 (2d @ e45)
+
+                u5 sub-sub-sub-sub-block { (32 @ e4a)
+
+                    x : 0.0 (0d @ e4c)
+                    y : 0.0 (15 @ e51)
+                    z : 0.0 (1d @ e56)
+				}
+                u6 : 250.0 (3d @ e5b)
+			}
+		}
+
+        component sub-sub-block { (1a @ e60)
+
+            component type : CollisionShape (0a @ e62)
+            number : 7(10 @ e72)
+
+            collision shape sub-sub-sub-block { (3c2 @ e75)
+
+
+                u0 sub-sub-sub-sub-block { (0a @ e77)
+
+                    w : -10.0 (0d @ e79)
+                    x : -5.0 (15 @ e7e)
+                    y : 20.0 (1d @ e83)
+                    z : 10.0 (25 @ e88)
+				}
+			}
+
+            collision shape 2 sub-sub-sub-block { (3ca @ e8e)
+
+                u1 : 1(18 @ e90)
+                w : -15.0 (35 @ e92)
+                x : 15.0 (3d @ e97)
+                z : 1(58 @ e9c)
+			}
+		}
+
+        component sub-sub-block { (1a @ e9e)
+
+            component type : ParticleEmitter (0a @ ea0)
+            number : 102(10 @ eb1)
+
+            particle emitter sub-sub-sub-block { (7d2 @ eb4)
+
+                particle : 103(10 @ eb6)
+                particle : 104(10 @ eb8)
+                particle : 105(10 @ eba)
+                u1 : 0(18 @ ebc)
+                u2 : 30(20 @ ebe)
+                u3 : 0(28 @ ec0)
+                u4 : 0(30 @ ec2)
+                u6 : 0(40 @ ec4)
+			}
+		}
+
+        component sub-sub-block { (1a @ ec6)
+
+            component type : Particle (0a @ ec8)
+            number : 103(10 @ ed2)
+
+            particle sub-sub-sub-block { (7da @ ed5)
+
+                name : particle_fure_1 (0a @ ed7)
+                u0 : 40.0 (15 @ ee8)
+			}
+		}
+
+        component sub-sub-block { (1a @ eed)
+
+            component type : Particle (0a @ eef)
+            number : 104(10 @ ef9)
+
+            particle sub-sub-sub-block { (7da @ efc)
+
+                name : particle_fure_2 (0a @ efe)
+                u0 : 40.0 (15 @ f0f)
+			}
+		}
+
+        component sub-sub-block { (1a @ f14)
+
+            component type : Particle (0a @ f16)
+            number : 105(10 @ f20)
+
+            particle sub-sub-sub-block { (7da @ f23)
+
+                name : particle_fure_3 (0a @ f25)
+                u0 : 40.0 (15 @ f36)
+			}
+		}
+
+        component sub-sub-block { (1a @ f3b)
+
+            component type : MagicBolt (0a @ f3d)
+            number : 106(10 @ f48)
+
+            magic bolt sub-sub-sub-block { (1132 @ f4b)
+
+                u0 : 102(08 @ f4d)
+                u1 : 3(10 @ f4f)
+                u2 : 5(18 @ f51)
+
+                u3 sub-sub-sub-sub-block { (22 @ f53)
+
+                    w : 0.08082757145166397 (0d @ f55)
+                    x : 0.0 (15 @ f5a)
+                    y : 0.45399999618530273 (1d @ f5f)
+                    z : 0.0 (25 @ f64)
+				}
+                u3 : 750.0 (2d @ f69)
+			}
+
+            temp0 sub-sub-sub-block { (1172 @ f6f)
+
+			}
+		}
+
+        position sub-sub-block { (22 @ f71)
+
+            x position : 0.0 (0d @ f73)
+            y position : 0.0 (15 @ f78)
+		}
+        z position : 0.0 (2d @ f7d)
+        rotation : 0.0 (35 @ f82)
+        scale : 1.0 (3d @ f87)
+
+        u0 sub-sub-block { (42 @ f8c)
+
+            w : -50.0 (0d @ f8e)
+            x : -50.0 (15 @ f93)
+            y : 100.0 (1d @ f98)
+            z : 100.0 (25 @ f9d)
+		}
+        hidden : 0(48 @ fa2)
+	}
+    u0 : 1.0 (15 @ fa4)
+}
+
+?item block { (12 @ fa9)
+
+
+    ?sub-item sub-block { (0a @ fac)
+
+        name : magic_bomb (12 @ faf)
+
+        component sub-sub-block { (1a @ fbb)
+
+            component type : SimpleGlow (0a @ fbd)
+            number : 1(10 @ fc9)
+
+            simple glow sub-sub-sub-block { (7f2 @ fcc)
+
+
+                u0 sub-sub-sub-sub-block { (0a @ fce)
+
+                    w : 0.18888890743255615 (0d @ fd0)
+                    x : 0.4999999701976776 (15 @ fd5)
+                    y : 1.0 (1d @ fda)
+                    z : 0.5 (25 @ fdf)
+				}
+                u1 : 28.0 (15 @ fe4)
+                u2 : 10(18 @ fe9)
+                u3 : 15.0 (25 @ feb)
+                u4 : 0.15000000596046448 (2d @ ff0)
+                u5 : 0.800000011920929 (35 @ ff5)
+
+                u6 sub-sub-sub-sub-block { (3a @ ffa)
+
+                    y : 0.0 (0d @ ffc)
+                    z : 0.0 (15 @ 1001)
+				}
+			}
+		}
+
+        component sub-sub-block { (1a @ 1006)
+
+            component type : Damage (0a @ 1008)
+            number : 2(10 @ 1010)
+
+            damage sub-sub-sub-block { (3d2 @ 1013)
+
+                u0 : 2(08 @ 1015)
+                u1 : 1(10 @ 1017)
+                u2 : 2(18 @ 1019)
+                u5 : 1.0 (35 @ 101b)
+                u6 : 0.0 (3d @ 1020)
+                u7 : 0(40 @ 1025)
+                u8 : 1(48 @ 1027)
+			}
+		}
+
+        component sub-sub-block { (1a @ 1029)
+
+            component type : Model (0a @ 102b)
+            number : 101(10 @ 1032)
+
+            3D model sub-sub-sub-block { (32a @ 1035)
+
+                name : bomb (0a @ 1037)
+                u0 : 0.0 (15 @ 103d)
+                u1 : 1.0 (1d @ 1042)
+                u2 : 0.0 (25 @ 1047)
+
+                u3 sub-sub-sub-sub-block { (2a @ 104c)
+
+                    w : 0.0 (0d @ 104e)
+                    x : 0.0 (15 @ 1053)
+                    y : 0.0 (1d @ 1058)
+                    z : 1.0 (25 @ 105d)
+				}
+
+                u4 sub-sub-sub-sub-block { (32 @ 1062)
+
+                    x : 0.0 (0d @ 1064)
+                    y : 0.0 (15 @ 1069)
+                    z : 0.0 (1d @ 106e)
+				}
+                u5 : 0(38 @ 1073)
+
+                u6 sub-sub-sub-sub-block { (42 @ 1075)
+
+                    w : 1.0 (0d @ 1077)
+                    x : 1.0 (15 @ 107c)
+                    y : 1.0 (1d @ 1081)
+                    z : 1.0 (25 @ 1086)
+				}
+			}
+		}
+
+        component sub-sub-block { (1a @ 108b)
+
+            component type : CollisionShape (0a @ 108d)
+            number : 102(10 @ 109d)
+
+            collision shape sub-sub-sub-block { (3c2 @ 10a0)
+
+
+                u0 sub-sub-sub-sub-block { (0a @ 10a2)
+
+                    w : -13.0 (0d @ 10a4)
+                    x : -14.0 (15 @ 10a9)
+                    y : 26.0 (1d @ 10ae)
+                    z : 30.0 (25 @ 10b3)
+				}
+			}
+
+            collision shape 2 sub-sub-sub-block { (3ca @ 10b9)
+
+                u1 : 1(18 @ 10bb)
+                w : -15.0 (35 @ 10bd)
+                x : 15.0 (3d @ 10c2)
+                z : 1(58 @ 10c7)
+			}
+		}
+
+        component sub-sub-block { (1a @ 10c9)
+
+            component type : CollisionShape (0a @ 10cb)
+            number : 104(10 @ 10db)
+
+            collision shape sub-sub-sub-block { (3c2 @ 10de)
+
+
+                u0 sub-sub-sub-sub-block { (0a @ 10e0)
+
+                    w : -42.0 (0d @ 10e2)
+                    x : -10.0 (15 @ 10e7)
+                    y : 84.0 (1d @ 10ec)
+                    z : 20.0 (25 @ 10f1)
+				}
+			}
+
+            collision shape 2 sub-sub-sub-block { (3ca @ 10f7)
+
+                w : -15.0 (35 @ 10f9)
+                x : 15.0 (3d @ 10fe)
+                y : 1(40 @ 1103)
+                z : 1(58 @ 1105)
+			}
+		}
+
+        component sub-sub-block { (1a @ 1107)
+
+            component type : PhysicsObject (0a @ 1109)
+            number : 108(10 @ 1118)
+
+            physics object sub-sub-sub-block { (4fa @ 111b)
+
+                u0 : 1(08 @ 111d)
+                u3 : 1500.0 (25 @ 111f)
+                u4 : 0.0 (2d @ 1124)
+                u5 : 700.0 (35 @ 1129)
+                u6 : 0(38 @ 112e)
+                u7 : 0.0 (45 @ 1130)
+			}
+		}
+
+        component sub-sub-block { (1a @ 1135)
+
+            component type : MagicBomb (0a @ 1137)
+            number : 109(10 @ 1142)
+
+            magic bomb sub-sub-sub-block { (1162 @ 1145)
+
+
+                u0 sub-sub-sub-sub-block { (0a @ 1147)
+
+                    w : 0.6000000238418579 (0d @ 1149)
+                    x : 0.7599999904632568 (15 @ 114e)
+                    y : 1.0 (1d @ 1153)
+                    z : 1.0 (25 @ 1158)
+				}
+			}
+
+            temp0 sub-sub-sub-block { (1172 @ 115e)
+
+			}
+		}
+
+        position sub-sub-block { (22 @ 1160)
+
+            x position : 0.0 (0d @ 1162)
+            y position : 0.0 (15 @ 1167)
+		}
+        z position : 0.0 (2d @ 116c)
+        rotation : 0.0 (35 @ 1171)
+        scale : 1.0 (3d @ 1176)
+
+        u0 sub-sub-block { (42 @ 117b)
+
+            w : -42.0 (0d @ 117d)
+            x : -28.0 (15 @ 1182)
+            y : 84.0 (1d @ 1187)
+            z : 56.0 (25 @ 118c)
+		}
+        hidden : 0(48 @ 1191)
+	}
+    u0 : 1.0 (15 @ 1193)
+}
+
+?item block { (12 @ 1198)
+
+
+    ?sub-item sub-block { (0a @ 119b)
+
+        name : magic_bomb_fire (12 @ 119e)
+
+        component sub-sub-block { (1a @ 11af)
+
+            component type : SimpleGlow (0a @ 11b1)
+            number : 1(10 @ 11bd)
+
+            simple glow sub-sub-sub-block { (7f2 @ 11c0)
+
+
+                u0 sub-sub-sub-sub-block { (0a @ 11c2)
+
+                    w : 1.0 (0d @ 11c4)
+                    x : 0.4725927710533142 (15 @ 11c9)
+                    y : 0.18888890743255615 (1d @ 11ce)
+                    z : 0.5 (25 @ 11d3)
+				}
+                u1 : 28.0 (15 @ 11d8)
+                u2 : 10(18 @ 11dd)
+                u3 : 15.0 (25 @ 11df)
+                u4 : 0.15000000596046448 (2d @ 11e4)
+                u5 : 0.800000011920929 (35 @ 11e9)
+
+                u6 sub-sub-sub-sub-block { (3a @ 11ee)
+
+                    y : 0.0 (0d @ 11f0)
+                    z : 0.0 (15 @ 11f5)
+				}
+			}
+		}
+
+        component sub-sub-block { (1a @ 11fa)
+
+            component type : Damage (0a @ 11fc)
+            number : 2(10 @ 1204)
+
+            damage sub-sub-sub-block { (3d2 @ 1207)
+
+                u0 : 2(08 @ 1209)
+                u1 : 1(10 @ 120b)
+                u2 : 2(18 @ 120d)
+                u5 : 1.0 (35 @ 120f)
+                u6 : 0.0 (3d @ 1214)
+                u7 : 0(40 @ 1219)
+                u8 : 1(48 @ 121b)
+			}
+		}
+
+        component sub-sub-block { (1a @ 121d)
+
+            component type : Model (0a @ 121f)
+            number : 101(10 @ 1226)
+
+            3D model sub-sub-sub-block { (32a @ 1229)
+
+                name : bomb (0a @ 122b)
+                u0 : 0.0 (15 @ 1231)
+                u1 : 1.0 (1d @ 1236)
+                u2 : 0.0 (25 @ 123b)
+
+                u3 sub-sub-sub-sub-block { (2a @ 1240)
+
+                    w : 0.0 (0d @ 1242)
+                    x : 0.0 (15 @ 1247)
+                    y : 0.0 (1d @ 124c)
+                    z : 1.0 (25 @ 1251)
+				}
+
+                u4 sub-sub-sub-sub-block { (32 @ 1256)
+
+                    x : 0.0 (0d @ 1258)
+                    y : 0.0 (15 @ 125d)
+                    z : 0.0 (1d @ 1262)
+				}
+                u5 : 0(38 @ 1267)
+
+                u6 sub-sub-sub-sub-block { (42 @ 1269)
+
+                    w : 1.0 (0d @ 126b)
+                    x : 1.0 (15 @ 1270)
+                    y : 1.0 (1d @ 1275)
+                    z : 1.0 (25 @ 127a)
+				}
+			}
+		}
+
+        component sub-sub-block { (1a @ 127f)
+
+            component type : CollisionShape (0a @ 1281)
+            number : 102(10 @ 1291)
+
+            collision shape sub-sub-sub-block { (3c2 @ 1294)
+
+
+                u0 sub-sub-sub-sub-block { (0a @ 1296)
+
+                    w : -13.0 (0d @ 1298)
+                    x : -14.0 (15 @ 129d)
+                    y : 26.0 (1d @ 12a2)
+                    z : 30.0 (25 @ 12a7)
+				}
+			}
+
+            collision shape 2 sub-sub-sub-block { (3ca @ 12ad)
+
+                u1 : 1(18 @ 12af)
+                w : -15.0 (35 @ 12b1)
+                x : 15.0 (3d @ 12b6)
+                z : 1(58 @ 12bb)
+			}
+		}
+
+        component sub-sub-block { (1a @ 12bd)
+
+            component type : CollisionShape (0a @ 12bf)
+            number : 104(10 @ 12cf)
+
+            collision shape sub-sub-sub-block { (3c2 @ 12d2)
+
+
+                u0 sub-sub-sub-sub-block { (0a @ 12d4)
+
+                    w : -42.0 (0d @ 12d6)
+                    x : -10.0 (15 @ 12db)
+                    y : 84.0 (1d @ 12e0)
+                    z : 20.0 (25 @ 12e5)
+				}
+			}
+
+            collision shape 2 sub-sub-sub-block { (3ca @ 12eb)
+
+                w : -15.0 (35 @ 12ed)
+                x : 15.0 (3d @ 12f2)
+                y : 1(40 @ 12f7)
+                z : 1(58 @ 12f9)
+			}
+		}
+
+        component sub-sub-block { (1a @ 12fb)
+
+            component type : PhysicsObject (0a @ 12fd)
+            number : 108(10 @ 130c)
+
+            physics object sub-sub-sub-block { (4fa @ 130f)
+
+                u0 : 1(08 @ 1311)
+                u3 : 1500.0 (25 @ 1313)
+                u4 : 0.0 (2d @ 1318)
+                u5 : 700.0 (35 @ 131d)
+                u6 : 0(38 @ 1322)
+                u7 : 0.0 (45 @ 1324)
+			}
+		}
+
+        component sub-sub-block { (1a @ 1329)
+
+            component type : MagicBomb (0a @ 132b)
+            number : 109(10 @ 1336)
+
+            magic bomb sub-sub-sub-block { (1162 @ 1339)
+
+
+                u0 sub-sub-sub-sub-block { (0a @ 133b)
+
+                    w : 1.0 (0d @ 133d)
+                    x : 0.7333333492279053 (15 @ 1342)
+                    y : 0.6000000238418579 (1d @ 1347)
+                    z : 1.0 (25 @ 134c)
+				}
+			}
+
+            temp0 sub-sub-sub-block { (1172 @ 1352)
+
+			}
+		}
+
+        position sub-sub-block { (22 @ 1354)
+
+            x position : 0.0 (0d @ 1356)
+            y position : 0.0 (15 @ 135b)
+		}
+        z position : 0.0 (2d @ 1360)
+        rotation : 0.0 (35 @ 1365)
+        scale : 1.0 (3d @ 136a)
+
+        u0 sub-sub-block { (42 @ 136f)
+
+            w : -42.0 (0d @ 1371)
+            x : -28.0 (15 @ 1376)
+            y : 84.0 (1d @ 137b)
+            z : 56.0 (25 @ 1380)
+		}
+        hidden : 0(48 @ 1385)
+	}
+    u0 : 1.0 (15 @ 1387)
+}
+
+?item block { (12 @ 138c)
+
+
+    ?sub-item sub-block { (0a @ 138f)
+
+        name : magic_bomb_ice (12 @ 1392)
+
+        component sub-sub-block { (1a @ 13a2)
+
+            component type : SimpleGlow (0a @ 13a4)
+            number : 1(10 @ 13b0)
+
+            simple glow sub-sub-sub-block { (7f2 @ 13b3)
+
+
+                u0 sub-sub-sub-sub-block { (0a @ 13b5)
+
+                    w : 0.18888890743255615 (0d @ 13b7)
+                    x : 0.9866664409637451 (15 @ 13bc)
+                    y : 1.0 (1d @ 13c1)
+                    z : 0.5 (25 @ 13c6)
+				}
+                u1 : 28.0 (15 @ 13cb)
+                u2 : 10(18 @ 13d0)
+                u3 : 15.0 (25 @ 13d2)
+                u4 : 0.15000000596046448 (2d @ 13d7)
+                u5 : 0.800000011920929 (35 @ 13dc)
+
+                u6 sub-sub-sub-sub-block { (3a @ 13e1)
+
+                    y : 0.0 (0d @ 13e3)
+                    z : 0.0 (15 @ 13e8)
+				}
+			}
+		}
+
+        component sub-sub-block { (1a @ 13ed)
+
+            component type : Damage (0a @ 13ef)
+            number : 2(10 @ 13f7)
+
+            damage sub-sub-sub-block { (3d2 @ 13fa)
+
+                u0 : 2(08 @ 13fc)
+                u1 : 1(10 @ 13fe)
+                u2 : 2(18 @ 1400)
+                u5 : 1.0 (35 @ 1402)
+                u6 : 0.0 (3d @ 1407)
+                u7 : 0(40 @ 140c)
+                u8 : 1(48 @ 140e)
+			}
+		}
+
+        component sub-sub-block { (1a @ 1410)
+
+            component type : Model (0a @ 1412)
+            number : 101(10 @ 1419)
+
+            3D model sub-sub-sub-block { (32a @ 141c)
+
+                name : bomb (0a @ 141e)
+                u0 : 0.0 (15 @ 1424)
+                u1 : 1.0 (1d @ 1429)
+                u2 : 0.0 (25 @ 142e)
+
+                u3 sub-sub-sub-sub-block { (2a @ 1433)
+
+                    w : 0.0 (0d @ 1435)
+                    x : 0.0 (15 @ 143a)
+                    y : 0.0 (1d @ 143f)
+                    z : 1.0 (25 @ 1444)
+				}
+
+                u4 sub-sub-sub-sub-block { (32 @ 1449)
+
+                    x : 0.0 (0d @ 144b)
+                    y : 0.0 (15 @ 1450)
+                    z : 0.0 (1d @ 1455)
+				}
+                u5 : 0(38 @ 145a)
+
+                u6 sub-sub-sub-sub-block { (42 @ 145c)
+
+                    w : 1.0 (0d @ 145e)
+                    x : 1.0 (15 @ 1463)
+                    y : 1.0 (1d @ 1468)
+                    z : 1.0 (25 @ 146d)
+				}
+			}
+		}
+
+        component sub-sub-block { (1a @ 1472)
+
+            component type : CollisionShape (0a @ 1474)
+            number : 102(10 @ 1484)
+
+            collision shape sub-sub-sub-block { (3c2 @ 1487)
+
+
+                u0 sub-sub-sub-sub-block { (0a @ 1489)
+
+                    w : -13.0 (0d @ 148b)
+                    x : -14.0 (15 @ 1490)
+                    y : 26.0 (1d @ 1495)
+                    z : 30.0 (25 @ 149a)
+				}
+			}
+
+            collision shape 2 sub-sub-sub-block { (3ca @ 14a0)
+
+                u1 : 1(18 @ 14a2)
+                w : -15.0 (35 @ 14a4)
+                x : 15.0 (3d @ 14a9)
+                z : 1(58 @ 14ae)
+			}
+		}
+
+        component sub-sub-block { (1a @ 14b0)
+
+            component type : CollisionShape (0a @ 14b2)
+            number : 104(10 @ 14c2)
+
+            collision shape sub-sub-sub-block { (3c2 @ 14c5)
+
+
+                u0 sub-sub-sub-sub-block { (0a @ 14c7)
+
+                    w : -42.0 (0d @ 14c9)
+                    x : -10.0 (15 @ 14ce)
+                    y : 84.0 (1d @ 14d3)
+                    z : 20.0 (25 @ 14d8)
+				}
+			}
+
+            collision shape 2 sub-sub-sub-block { (3ca @ 14de)
+
+                w : -15.0 (35 @ 14e0)
+                x : 15.0 (3d @ 14e5)
+                y : 1(40 @ 14ea)
+                z : 1(58 @ 14ec)
+			}
+		}
+
+        component sub-sub-block { (1a @ 14ee)
+
+            component type : PhysicsObject (0a @ 14f0)
+            number : 108(10 @ 14ff)
+
+            physics object sub-sub-sub-block { (4fa @ 1502)
+
+                u0 : 1(08 @ 1504)
+                u3 : 1500.0 (25 @ 1506)
+                u4 : 0.0 (2d @ 150b)
+                u5 : 700.0 (35 @ 1510)
+                u6 : 0(38 @ 1515)
+                u7 : 0.0 (45 @ 1517)
+			}
+		}
+
+        component sub-sub-block { (1a @ 151c)
+
+            component type : MagicBomb (0a @ 151e)
+            number : 109(10 @ 1529)
+
+            magic bomb sub-sub-sub-block { (1162 @ 152c)
+
+
+                u0 sub-sub-sub-sub-block { (0a @ 152e)
+
+                    w : 0.6000001430511475 (0d @ 1530)
+                    x : 1.0 (15 @ 1535)
+                    y : 0.9999998807907104 (1d @ 153a)
+                    z : 1.0 (25 @ 153f)
+				}
+			}
+
+            temp0 sub-sub-sub-block { (1172 @ 1545)
+
+			}
+		}
+
+        position sub-sub-block { (22 @ 1547)
+
+            x position : 0.0 (0d @ 1549)
+            y position : 0.0 (15 @ 154e)
+		}
+        z position : 0.0 (2d @ 1553)
+        rotation : 0.0 (35 @ 1558)
+        scale : 1.0 (3d @ 155d)
+
+        u0 sub-sub-block { (42 @ 1562)
+
+            w : -42.0 (0d @ 1564)
+            x : -28.0 (15 @ 1569)
+            y : 84.0 (1d @ 156e)
+            z : 56.0 (25 @ 1573)
+		}
+        hidden : 0(48 @ 1578)
+	}
+    u0 : 1.0 (15 @ 157a)
+}
+
+?item block { (12 @ 157f)
+
+
+    ?sub-item sub-block { (0a @ 1582)
+
+        name : magic_bomb_shadow (12 @ 1585)
+
+        component sub-sub-block { (1a @ 1598)
+
+            component type : SimpleGlow (0a @ 159a)
+            number : 1(10 @ 15a6)
+
+            simple glow sub-sub-sub-block { (7f2 @ 15a9)
+
+
+                u0 sub-sub-sub-sub-block { (0a @ 15ab)
+
+                    w : 0.3644446134567261 (0d @ 15ad)
+                    x : 0.18888890743255615 (15 @ 15b2)
+                    y : 1.0 (1d @ 15b7)
+                    z : 0.5 (25 @ 15bc)
+				}
+                u1 : 28.0 (15 @ 15c1)
+                u2 : 10(18 @ 15c6)
+                u3 : 15.0 (25 @ 15c8)
+                u4 : 0.15000000596046448 (2d @ 15cd)
+                u5 : 0.800000011920929 (35 @ 15d2)
+
+                u6 sub-sub-sub-sub-block { (3a @ 15d7)
+
+                    y : 0.0 (0d @ 15d9)
+                    z : 0.0 (15 @ 15de)
+				}
+			}
+		}
+
+        component sub-sub-block { (1a @ 15e3)
+
+            component type : Damage (0a @ 15e5)
+            number : 2(10 @ 15ed)
+
+            damage sub-sub-sub-block { (3d2 @ 15f0)
+
+                u0 : 2(08 @ 15f2)
+                u1 : 1(10 @ 15f4)
+                u2 : 2(18 @ 15f6)
+                u5 : 1.0 (35 @ 15f8)
+                u6 : 0.0 (3d @ 15fd)
+                u7 : 0(40 @ 1602)
+                u8 : 1(48 @ 1604)
+			}
+		}
+
+        component sub-sub-block { (1a @ 1606)
+
+            component type : Model (0a @ 1608)
+            number : 101(10 @ 160f)
+
+            3D model sub-sub-sub-block { (32a @ 1612)
+
+                name : bomb (0a @ 1614)
+                u0 : 0.0 (15 @ 161a)
+                u1 : 1.0 (1d @ 161f)
+                u2 : 0.0 (25 @ 1624)
+
+                u3 sub-sub-sub-sub-block { (2a @ 1629)
+
+                    w : 0.0 (0d @ 162b)
+                    x : 0.0 (15 @ 1630)
+                    y : 0.0 (1d @ 1635)
+                    z : 1.0 (25 @ 163a)
+				}
+
+                u4 sub-sub-sub-sub-block { (32 @ 163f)
+
+                    x : 0.0 (0d @ 1641)
+                    y : 0.0 (15 @ 1646)
+                    z : 0.0 (1d @ 164b)
+				}
+                u5 : 0(38 @ 1650)
+
+                u6 sub-sub-sub-sub-block { (42 @ 1652)
+
+                    w : 1.0 (0d @ 1654)
+                    x : 1.0 (15 @ 1659)
+                    y : 1.0 (1d @ 165e)
+                    z : 1.0 (25 @ 1663)
+				}
+			}
+		}
+
+        component sub-sub-block { (1a @ 1668)
+
+            component type : CollisionShape (0a @ 166a)
+            number : 102(10 @ 167a)
+
+            collision shape sub-sub-sub-block { (3c2 @ 167d)
+
+
+                u0 sub-sub-sub-sub-block { (0a @ 167f)
+
+                    w : -13.0 (0d @ 1681)
+                    x : -14.0 (15 @ 1686)
+                    y : 26.0 (1d @ 168b)
+                    z : 30.0 (25 @ 1690)
+				}
+			}
+
+            collision shape 2 sub-sub-sub-block { (3ca @ 1696)
+
+                u1 : 1(18 @ 1698)
+                w : -15.0 (35 @ 169a)
+                x : 15.0 (3d @ 169f)
+                z : 1(58 @ 16a4)
+			}
+		}
+
+        component sub-sub-block { (1a @ 16a6)
+
+            component type : CollisionShape (0a @ 16a8)
+            number : 104(10 @ 16b8)
+
+            collision shape sub-sub-sub-block { (3c2 @ 16bb)
+
+
+                u0 sub-sub-sub-sub-block { (0a @ 16bd)
+
+                    w : -42.0 (0d @ 16bf)
+                    x : -10.0 (15 @ 16c4)
+                    y : 84.0 (1d @ 16c9)
+                    z : 20.0 (25 @ 16ce)
+				}
+			}
+
+            collision shape 2 sub-sub-sub-block { (3ca @ 16d4)
+
+                w : -15.0 (35 @ 16d6)
+                x : 15.0 (3d @ 16db)
+                y : 1(40 @ 16e0)
+                z : 1(58 @ 16e2)
+			}
+		}
+
+        component sub-sub-block { (1a @ 16e4)
+
+            component type : PhysicsObject (0a @ 16e6)
+            number : 108(10 @ 16f5)
+
+            physics object sub-sub-sub-block { (4fa @ 16f8)
+
+                u0 : 1(08 @ 16fa)
+                u3 : 1500.0 (25 @ 16fc)
+                u4 : 0.0 (2d @ 1701)
+                u5 : 700.0 (35 @ 1706)
+                u6 : 0(38 @ 170b)
+                u7 : 0.0 (45 @ 170d)
+			}
+		}
+
+        component sub-sub-block { (1a @ 1712)
+
+            component type : MagicBomb (0a @ 1714)
+            number : 109(10 @ 171f)
+
+            magic bomb sub-sub-sub-block { (1162 @ 1722)
+
+
+                u0 sub-sub-sub-sub-block { (0a @ 1724)
+
+                    w : 0.7511110901832581 (0d @ 1726)
+                    x : 0.6888889074325562 (15 @ 172b)
+                    y : 1.0 (1d @ 1730)
+                    z : 1.0 (25 @ 1735)
+				}
+			}
+
+            temp0 sub-sub-sub-block { (1172 @ 173b)
+
+			}
+		}
+
+        position sub-sub-block { (22 @ 173d)
+
+            x position : 0.0 (0d @ 173f)
+            y position : 0.0 (15 @ 1744)
+		}
+        z position : 0.0 (2d @ 1749)
+        rotation : 0.0 (35 @ 174e)
+        scale : 1.0 (3d @ 1753)
+
+        u0 sub-sub-block { (42 @ 1758)
+
+            w : -42.0 (0d @ 175a)
+            x : -28.0 (15 @ 175f)
+            y : 84.0 (1d @ 1764)
+            z : 56.0 (25 @ 1769)
+		}
+        hidden : 0(48 @ 176e)
+	}
+    u0 : 1.0 (15 @ 1770)
+}
+
+?item block { (12 @ 1775)
+
+
+    ?sub-item sub-block { (0a @ 1778)
+
+        name : magic_dimension (12 @ 177b)
+
+        component sub-sub-block { (1a @ 178c)
+
+            component type : DimensionSpell (0a @ 178f)
+            number : 101(10 @ 179f)
+
+            temp0 sub-sub-sub-block { (1172 @ 17a2)
+
+
+                lua chunk sub-sub-sub-sub-block { (0a @ 17a5)
+
+                    main chunk : chunk >
+
+                    === lua =============
+                    local self = ...;
+                    
+                    if inAnotherDimension then
+                    	SetDimensionModeEnabled(false);
+                    	SoundLibrary.PlayEffect("dimension");
+                    else
+                    	SoundLibrary.PlayEffect("testmorph");
+                    	SetDimensionModeEnabled(true);
+                    	GenerateDimensionMonsters(self:position(), 2);
+                    end
+                    
+
+                    =====================
+                    secondary chunk : \x1bLuaQ\x00\x01\x04\x04\x04\x08\x00\x01\x01\x00\x00local self = ...;\r\n\r\nif inAnotherDimension then\r\n\tSetDimensionModeEnabled(false);\r\n\tSoundLibrary.PlayEffect("dimension");\r\nelse\r\n\tSoundLibrary.PlayEffect("testmorph");\r\n\tSetDimensionModeEnabled(true);\r\n\tGenerateDimensionMonsters(self:position(), 2);\r\nend\r\n\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x02\x04\x19\x00\x00\x00%\x00\x00\x01E\x00\x00\x00Z\x00\x00\x00\x16\xc0\x01\x80E@\x00\x00\x82\x00\x00\x00\\@\x00\x01E\x80\x00\x00F\xc0\xc0\x00\x81\x00\x01\x00\\@\x00\x01\x16\xc0\x02\x80E\x80\x00\x00F\xc0\xc0\x00\x81@\x01\x00\\@\x00\x01E@\x00\x00\x82\x00\x80\x00\\@\x00\x01E\x80\x01\x00\x8b\xc0A\x00\x9c\x80\x00\x01\xc1\x00\x02\x00\\@\x80\x01\x1e\x00\x80\x00\t\x00\x00\x00\x04\x13\x00\x00\x00inAnotherDimension\x00\x04\x18\x00\x00\x00SetDimensionModeEnabled\x00\x04\r\x00\x00\x00SoundLibrary\x00\x04\x0b\x00\x00\x00PlayEffect\x00\x04\n\x00\x00\x00dimension\x00\x04\n\x00\x00\x00testmorph\x00\x04\x1a\x00\x00\x00GenerateDimensionMonsters\x00\x04\t\x00\x00\x00position\x00\x03\x00\x00\x00\x00\x00\x00\x00@\x00\x00\x00\x00\x19\x00\x00\x00\x01\x00\x00\x00\x03\x00\x00\x00\x03\x00\x00\x00\x03\x00\x00\x00\x04\x00\x00\x00\x04\x00\x00\x00\x04\x00\x00\x00\x05\x00\x00\x00\x05\x00\x00\x00\x05\x00\x00\x00\x05\x00\x00\x00\x05\x00\x00\x00\x07\x00\x00\x00\x07\x00\x00\x00\x07\x00\x00\x00\x07\x00\x00\x00\x08\x00\x00\x00\x08\x00\x00\x00\x08\x00\x00\x00\t\x00\x00\x00\t\x00\x00\x00\t\x00\x00\x00\t\x00\x00\x00\t\x00\x00\x00\n\x00\x00\x00\x01\x00\x00\x00\x05\x00\x00\x00self\x00\x01\x00\x00\x00\x18\x00\x00\x00\x00\x00\x00\x00 (12 @ 18ab)
+				}
+			}
+		}
+
+        position sub-sub-block { (22 @ 1b67)
+
+            x position : 0.0 (0d @ 1b69)
+            y position : 0.0 (15 @ 1b6e)
+		}
+        z position : 0.0 (2d @ 1b73)
+        rotation : 0.0 (35 @ 1b78)
+        scale : 1.0 (3d @ 1b7d)
+
+        u0 sub-sub-block { (42 @ 1b82)
+
+            w : -10.0 (0d @ 1b84)
+            x : -10.0 (15 @ 1b89)
+            y : 20.0 (1d @ 1b8e)
+            z : 20.0 (25 @ 1b93)
+		}
+        hidden : 0(48 @ 1b98)
+	}
+    u0 : 1.0 (15 @ 1b9a)
+}
+
+?item block { (12 @ 1b9f)
+
+
+    ?sub-item sub-block { (0a @ 1ba2)
+
+        name : magic_explosion (12 @ 1ba5)
+
+        component sub-sub-block { (1a @ 1bb6)
+
+            component type : SoundEffect (0a @ 1bb8)
+            number : 1(10 @ 1bc5)
+
+            sound effect sub-sub-sub-block { (462 @ 1bc8)
+
+                sound : explosion (0a @ 1bca)
+                u0 : 0.0 (15 @ 1bd5)
+                u1 : 1.0 (1d @ 1bda)
+			}
+		}
+
+        component sub-sub-block { (1a @ 1bdf)
+
+            component type : ParticleEmitter (0a @ 1be1)
+            number : 102(10 @ 1bf2)
+
+            particle emitter sub-sub-sub-block { (7d2 @ 1bf5)
+
+                particle : 103(10 @ 1bf7)
+                particle : 104(10 @ 1bf9)
+                particle : 105(10 @ 1bfb)
+                u1 : 0(18 @ 1bfd)
+                u2 : 30(20 @ 1bff)
+                u3 : 0(28 @ 1c01)
+                u4 : 0(30 @ 1c03)
+                u6 : 0(40 @ 1c05)
+			}
+		}
+
+        component sub-sub-block { (1a @ 1c07)
+
+            component type : Particle (0a @ 1c09)
+            number : 103(10 @ 1c13)
+
+            particle sub-sub-sub-block { (7da @ 1c16)
+
+                name : particle_fure_1 (0a @ 1c18)
+                u0 : 40.0 (15 @ 1c29)
+			}
+		}
+
+        component sub-sub-block { (1a @ 1c2e)
+
+            component type : Particle (0a @ 1c30)
+            number : 104(10 @ 1c3a)
+
+            particle sub-sub-sub-block { (7da @ 1c3d)
+
+                name : particle_fure_2 (0a @ 1c3f)
+                u0 : 40.0 (15 @ 1c50)
+			}
+		}
+
+        component sub-sub-block { (1a @ 1c55)
+
+            component type : Particle (0a @ 1c57)
+            number : 105(10 @ 1c61)
+
+            particle sub-sub-sub-block { (7da @ 1c64)
+
+                name : particle_fure_3 (0a @ 1c66)
+                u0 : 40.0 (15 @ 1c77)
+			}
+		}
+
+        component sub-sub-block { (1a @ 1c7c)
+
+            component type : MagicExplosion (0a @ 1c7e)
+            number : 107(10 @ 1c8e)
+
+            magic explosion sub-sub-sub-block { (113a @ 1c91)
+
+                u0 : 102(08 @ 1c93)
+                u1 : 1(10 @ 1c95)
+
+                u2 sub-sub-sub-sub-block { (1a @ 1c97)
+
+                    w : 1.0 (0d @ 1c99)
+                    x : 1.0 (15 @ 1c9e)
+                    y : 1.0 (1d @ 1ca3)
+                    z : 1.0 (25 @ 1ca8)
+				}
+                u3 : 100.0 (25 @ 1cad)
+                u4 : 0.30000001192092896 (2d @ 1cb2)
+			}
+		}
+
+        position sub-sub-block { (22 @ 1cb7)
+
+            x position : 0.0 (0d @ 1cb9)
+            y position : 0.0 (15 @ 1cbe)
+		}
+        z position : 0.0 (2d @ 1cc3)
+        rotation : 0.0 (35 @ 1cc8)
+        scale : 1.0 (3d @ 1ccd)
+
+        u0 sub-sub-block { (42 @ 1cd2)
+
+            w : -10.0 (0d @ 1cd4)
+            x : -10.0 (15 @ 1cd9)
+            y : 20.0 (1d @ 1cde)
+            z : 20.0 (25 @ 1ce3)
+		}
+        hidden : 0(48 @ 1ce8)
+
+        lua chunk sub-sub-block { (52 @ 1cea)
+
+            main chunk : chunk >
+
+            === lua =============
+            Game.Flash();
+
+            =====================
+            secondary chunk : \x1bLuaQ\x00\x01\x04\x04\x04\x08\x00\x0e\x00\x00\x00Game.Flash();\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x02\x02\x04\x00\x00\x00\x05\x00\x00\x00\x06@@\x00\x1c@\x80\x00\x1e\x00\x80\x00\x02\x00\x00\x00\x04\x05\x00\x00\x00Game\x00\x04\x06\x00\x00\x00Flash\x00\x00\x00\x00\x00\x04\x00\x00\x00\x01\x00\x00\x00\x01\x00\x00\x00\x01\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00 (12 @ 1cfc)
+		}
+	}
+    u0 : 1.0 (15 @ 1d75)
+}
+
+?item block { (12 @ 1d7a)
+
+
+    ?sub-item sub-block { (0a @ 1d7d)
+
+        name : magic_firebreath (12 @ 1d80)
+
+        component sub-sub-block { (1a @ 1d92)
+
+            component type : SoundEffect (0a @ 1d94)
+            number : 3(10 @ 1da1)
+
+            sound effect sub-sub-sub-block { (462 @ 1da4)
+
+                sound : woosh1 (0a @ 1da6)
+                u0 : 0.0 (15 @ 1dae)
+                u1 : 1.0 (1d @ 1db3)
+			}
+		}
+
+        component sub-sub-block { (1a @ 1db8)
+
+            component type : Light (0a @ 1dba)
+            number : 6(10 @ 1dc1)
+
+            light sub-sub-sub-block { (412 @ 1dc4)
+
+                u0 : 3(08 @ 1dc6)
+                u1 : 10.0 (15 @ 1dc8)
+
+                u2 sub-sub-sub-sub-block { (1a @ 1dcd)
+
+                    w : 1.0 (0d @ 1dcf)
+                    x : 0.47999998927116394 (15 @ 1dd4)
+                    y : 0.0 (1d @ 1dd9)
+                    z : 0.0 (25 @ 1dde)
+				}
+                u3 : 0.0 (25 @ 1de3)
+                u4 : 0.00019999999494757503 (2d @ 1de8)
+
+                u5 sub-sub-sub-sub-block { (32 @ 1ded)
+
+                    x : 0.0 (0d @ 1def)
+                    y : 0.0 (15 @ 1df4)
+                    z : 0.0 (1d @ 1df9)
+				}
+                u6 : 250.0 (3d @ 1dfe)
+			}
+		}
+
+        component sub-sub-block { (1a @ 1e03)
+
+            component type : ParticleEmitter (0a @ 1e05)
+            number : 102(10 @ 1e16)
+
+            particle emitter sub-sub-sub-block { (7d2 @ 1e19)
+
+                particle : 103(10 @ 1e1b)
+                particle : 104(10 @ 1e1d)
+                particle : 105(10 @ 1e1f)
+                u1 : 0(18 @ 1e21)
+                u2 : 30(20 @ 1e23)
+                u3 : 0(28 @ 1e25)
+                u4 : 0(30 @ 1e27)
+                u6 : 0(40 @ 1e29)
+			}
+		}
+
+        component sub-sub-block { (1a @ 1e2b)
+
+            component type : Particle (0a @ 1e2d)
+            number : 103(10 @ 1e37)
+
+            particle sub-sub-sub-block { (7da @ 1e3a)
+
+                name : particle_fure_1 (0a @ 1e3c)
+                u0 : 40.0 (15 @ 1e4d)
+			}
+		}
+
+        component sub-sub-block { (1a @ 1e52)
+
+            component type : Particle (0a @ 1e54)
+            number : 104(10 @ 1e5e)
+
+            particle sub-sub-sub-block { (7da @ 1e61)
+
+                name : particle_fure_2 (0a @ 1e63)
+                u0 : 40.0 (15 @ 1e74)
+			}
+		}
+
+        component sub-sub-block { (1a @ 1e79)
+
+            component type : Particle (0a @ 1e7b)
+            number : 105(10 @ 1e85)
+
+            particle sub-sub-sub-block { (7da @ 1e88)
+
+                name : particle_fure_3 (0a @ 1e8a)
+                u0 : 40.0 (15 @ 1e9b)
+			}
+		}
+
+        component sub-sub-block { (1a @ 1ea0)
+
+            component type : FireBreath (0a @ 1ea2)
+            number : 108(10 @ 1eae)
+
+            fire breath sub-sub-sub-block { (1152 @ 1eb1)
+
+                u0 : 102(08 @ 1eb3)
+                u1 : 3(10 @ 1eb5)
+
+                u2 sub-sub-sub-sub-block { (1a @ 1eb7)
+
+                    w : 1.0 (0d @ 1eb9)
+                    x : 0.4666667580604553 (15 @ 1ebe)
+                    y : 1.1920928955078125e-07 (1d @ 1ec3)
+                    z : 0.0 (25 @ 1ec8)
+				}
+			}
+
+            temp0 sub-sub-sub-block { (1172 @ 1ece)
+
+			}
+		}
+
+        position sub-sub-block { (22 @ 1ed0)
+
+            x position : 0.0 (0d @ 1ed2)
+            y position : 0.0 (15 @ 1ed7)
+		}
+        z position : 0.0 (2d @ 1edc)
+        rotation : 0.0 (35 @ 1ee1)
+        scale : 1.0 (3d @ 1ee6)
+
+        u0 sub-sub-block { (42 @ 1eeb)
+
+            w : -10.0 (0d @ 1eed)
+            x : -10.0 (15 @ 1ef2)
+            y : 20.0 (1d @ 1ef7)
+            z : 20.0 (25 @ 1efc)
+		}
+        hidden : 0(48 @ 1f01)
+	}
+    u0 : 1.0 (15 @ 1f03)
+}
+
+?item block { (12 @ 1f08)
+
+
+    ?sub-item sub-block { (0a @ 1f0b)
+
+        name : magic_hookshot (12 @ 1f0e)
+
+        component sub-sub-block { (1a @ 1f1e)
+
+            component type : SimpleGlow (0a @ 1f20)
+            number : 1(10 @ 1f2c)
+
+            simple glow sub-sub-sub-block { (7f2 @ 1f2f)
+
+
+                u0 sub-sub-sub-sub-block { (0a @ 1f31)
+
+                    w : 0.18888889253139496 (0d @ 1f33)
+                    x : 0.5 (15 @ 1f38)
+                    y : 1.0 (1d @ 1f3d)
+                    z : 0.5 (25 @ 1f42)
+				}
+                u1 : 25.0 (15 @ 1f47)
+                u2 : 10(18 @ 1f4c)
+                u3 : 15.0 (25 @ 1f4e)
+                u4 : 0.15000000596046448 (2d @ 1f53)
+                u5 : 0.800000011920929 (35 @ 1f58)
+
+                u6 sub-sub-sub-sub-block { (3a @ 1f5d)
+
+                    y : 0.0 (0d @ 1f5f)
+                    z : 0.0 (15 @ 1f64)
+				}
+			}
+		}
+
+        component sub-sub-block { (1a @ 1f69)
+
+            component type : CollisionShape (0a @ 1f6b)
+            number : 2(10 @ 1f7b)
+
+            collision shape sub-sub-sub-block { (3c2 @ 1f7e)
+
+
+                u0 sub-sub-sub-sub-block { (0a @ 1f80)
+
+                    w : -8.0 (0d @ 1f82)
+                    x : -8.0 (15 @ 1f87)
+                    y : 16.0 (1d @ 1f8c)
+                    z : 16.0 (25 @ 1f91)
+				}
+			}
+
+            collision shape 2 sub-sub-sub-block { (3ca @ 1f97)
+
+                u1 : 1(18 @ 1f99)
+                u3 : 1(28 @ 1f9b)
+                w : -15.0 (35 @ 1f9d)
+                x : 15.0 (3d @ 1fa2)
+                z : 1(58 @ 1fa7)
+			}
+		}
+
+        component sub-sub-block { (1a @ 1fa9)
+
+            component type : CollisionShape (0a @ 1fab)
+            number : 3(10 @ 1fbb)
+
+            collision shape sub-sub-sub-block { (3c2 @ 1fbe)
+
+
+                u0 sub-sub-sub-sub-block { (0a @ 1fc0)
+
+                    w : -400.0 (0d @ 1fc2)
+                    x : -5.0 (15 @ 1fc7)
+                    y : 400.0 (1d @ 1fcc)
+                    z : 10.0 (25 @ 1fd1)
+				}
+			}
+
+            collision shape 2 sub-sub-sub-block { (3ca @ 1fd7)
+
+                w : -15.0 (35 @ 1fd9)
+                x : 15.0 (3d @ 1fde)
+                z : 1(58 @ 1fe3)
+			}
+		}
+
+        component sub-sub-block { (1a @ 1fe5)
+
+            component type : Damage (0a @ 1fe7)
+            number : 4(10 @ 1fef)
+
+            damage sub-sub-sub-block { (3d2 @ 1ff2)
+
+                u0 : 2(08 @ 1ff4)
+                u1 : 1(10 @ 1ff6)
+                u2 : 0(18 @ 1ff8)
+                u5 : 1.0 (35 @ 1ffa)
+                u6 : 0.0 (3d @ 1fff)
+                u7 : 0(40 @ 2004)
+                u8 : 1(48 @ 2006)
+			}
+		}
+
+        component sub-sub-block { (1a @ 2008)
+
+            component type : SoundEffect (0a @ 200a)
+            number : 5(10 @ 2017)
+            name : hit (1a @ 2019)
+
+            sound effect sub-sub-sub-block { (462 @ 201f)
+
+                sound : hookshot_hit1 (0a @ 2021)
+                u0 : 0.0 (15 @ 2030)
+                u1 : 1.0 (1d @ 2035)
+			}
+		}
+
+        component sub-sub-block { (1a @ 203a)
+
+            component type : Light (0a @ 203c)
+            number : 6(10 @ 2043)
+
+            light sub-sub-sub-block { (412 @ 2046)
+
+                u0 : 3(08 @ 2048)
+                u1 : 2.0 (15 @ 204a)
+
+                u2 sub-sub-sub-sub-block { (1a @ 204f)
+
+                    w : 0.6000000238418579 (0d @ 2051)
+                    x : 0.6857142448425293 (15 @ 2056)
+                    y : 1.0 (1d @ 205b)
+                    z : 1.0 (25 @ 2060)
+				}
+                u3 : 0.0 (25 @ 2065)
+                u4 : 0.00019999999494757503 (2d @ 206a)
+
+                u5 sub-sub-sub-sub-block { (32 @ 206f)
+
+                    x : 0.0 (0d @ 2071)
+                    y : 0.0 (15 @ 2076)
+                    z : 0.0 (1d @ 207b)
+				}
+                u6 : 250.0 (3d @ 2080)
+			}
+		}
+
+        component sub-sub-block { (1a @ 2085)
+
+            component type : SoundEffect (0a @ 2087)
+            number : 7(10 @ 2094)
+            name : cast (1a @ 2096)
+
+            sound effect sub-sub-sub-block { (462 @ 209d)
+
+                sound : hookshot_cast (0a @ 209f)
+                u0 : 0.0 (15 @ 20ae)
+                u1 : 1.0 (1d @ 20b3)
+			}
+		}
+
+        component sub-sub-block { (1a @ 20b8)
+
+            component type : SoundEffect (0a @ 20ba)
+            number : 8(10 @ 20c7)
+            name : groundHit (1a @ 20c9)
+
+            sound effect sub-sub-sub-block { (462 @ 20d5)
+
+                sound : hookshot_hit2 (0a @ 20d7)
+                u0 : 0.0 (15 @ 20e6)
+                u1 : 1.0 (1d @ 20eb)
+			}
+		}
+
+        component sub-sub-block { (1a @ 20f0)
+
+            component type : ParticleEmitter (0a @ 20f3)
+            number : 102(10 @ 2104)
+            name : bolt1 (1a @ 2106)
+
+            particle emitter sub-sub-sub-block { (7d2 @ 210e)
+
+                particle : 103(10 @ 2110)
+                particle : 104(10 @ 2112)
+                particle : 105(10 @ 2114)
+                u1 : 0(18 @ 2116)
+                u2 : 200(20 @ 2118)
+                u3 : 0(28 @ 211b)
+                u4 : 0(30 @ 211d)
+
+                u5 sub-sub-sub-sub-block { (3a @ 211f)
+
+                    u0 : 3(08 @ 2121)
+
+                    u1 sub-sub-sub-sub-sub-block { (12 @ 2123)
+
+                        w : 0.0 (0d @ 2125)
+                        x : 0.3305555284023285 (15 @ 212a)
+                        y : 0.7777777910232544 (1d @ 212f)
+                        z : 0.0 (25 @ 2134)
+					}
+                    u2 : 0.014999999664723873 (1d @ 2139)
+                    u2 : 0.15000000596046448 (1d @ 213e)
+                    u2 : 0.8999999761581421 (1d @ 2143)
+                    u2 : 15.0 (1d @ 2148)
+                    u2 : 0.6000000238418579 (1d @ 214d)
+                    u2 : 0.0 (1d @ 2152)
+                    u2 : 1.0 (1d @ 2157)
+                    u3 : 0.0 (25 @ 215c)
+                    u4 : 0.0 (2d @ 2161)
+                    u5 : 0.0 (35 @ 2166)
+
+                    u6 sub-sub-sub-sub-sub-block { (3a @ 216b)
+
+                        u0 : 0.0 (0d @ 216d)
+                        u1 : 0.0 (15 @ 2172)
+                        u2 : 0.0 (1d @ 2177)
+					}
+				}
+                u6 : 1(40 @ 217c)
+			}
+		}
+
+        component sub-sub-block { (1a @ 217e)
+
+            component type : Particle (0a @ 2180)
+            number : 103(10 @ 218a)
+
+            particle sub-sub-sub-block { (7da @ 218d)
+
+                name : particle_fure_1 (0a @ 218f)
+                u0 : 40.0 (15 @ 21a0)
+			}
+		}
+
+        component sub-sub-block { (1a @ 21a5)
+
+            component type : Particle (0a @ 21a7)
+            number : 104(10 @ 21b1)
+
+            particle sub-sub-sub-block { (7da @ 21b4)
+
+                name : particle_fure_2 (0a @ 21b6)
+                u0 : 40.0 (15 @ 21c7)
+			}
+		}
+
+        component sub-sub-block { (1a @ 21cc)
+
+            component type : Particle (0a @ 21ce)
+            number : 105(10 @ 21d8)
+
+            particle sub-sub-sub-block { (7da @ 21db)
+
+                name : particle_fure_3 (0a @ 21dd)
+                u0 : 40.0 (15 @ 21ee)
+			}
+		}
+
+        component sub-sub-block { (1a @ 21f3)
+
+            component type : ParticleEmitter (0a @ 21f6)
+            number : 109(10 @ 2207)
+            name : bolt2 (1a @ 2209)
+
+            particle emitter sub-sub-sub-block { (7d2 @ 2211)
+
+                particle : 103(10 @ 2213)
+                particle : 104(10 @ 2215)
+                particle : 105(10 @ 2217)
+                u1 : 0(18 @ 2219)
+                u2 : 30(20 @ 221b)
+                u3 : 102(28 @ 221d)
+                u4 : 0(30 @ 221f)
+
+                u5 sub-sub-sub-sub-block { (3a @ 2221)
+
+                    u0 : 3(08 @ 2223)
+
+                    u1 sub-sub-sub-sub-sub-block { (12 @ 2225)
+
+                        w : 0.35555556416511536 (0d @ 2227)
+                        x : 0.35555556416511536 (15 @ 222c)
+                        y : 0.35555556416511536 (1d @ 2231)
+                        z : 0.0 (25 @ 2236)
+					}
+                    u2 : 0.014999999664723873 (1d @ 223b)
+                    u2 : 0.0020000000949949026 (1d @ 2240)
+                    u2 : 0.4000000059604645 (1d @ 2245)
+                    u2 : 7.0 (1d @ 224a)
+                    u2 : 1.0 (1d @ 224f)
+                    u2 : 0.0 (1d @ 2254)
+                    u2 : 1.0 (1d @ 2259)
+                    u3 : 0.0 (25 @ 225e)
+                    u4 : 0.0 (2d @ 2263)
+                    u5 : 0.0 (35 @ 2268)
+
+                    u6 sub-sub-sub-sub-sub-block { (3a @ 226d)
+
+                        u0 : 0.0 (0d @ 226f)
+                        u1 : 0.0 (15 @ 2274)
+                        u2 : 0.0 (1d @ 2279)
+					}
+				}
+                u6 : 1(40 @ 227e)
+			}
+		}
+
+        component sub-sub-block { (1a @ 2280)
+
+            component type : MagicHookshot (0a @ 2283)
+            number : 112(10 @ 2292)
+
+            magic hookshot sub-sub-sub-block { (116a @ 2295)
+
+                particle emitter component : 102(08 @ 2297)
+                u0 : 7(10 @ 2299)
+                u1 : 5(18 @ 229b)
+
+                u2 sub-sub-sub-sub-block { (22 @ 229d)
+
+                    w : 0.05400000140070915 (0d @ 229f)
+                    x : 0.20000000298023224 (15 @ 22a4)
+                    y : 0.4000000059604645 (1d @ 22a9)
+                    z : 0.0 (25 @ 22ae)
+				}
+                u3 : 0(28 @ 22b3)
+			}
+
+            temp0 sub-sub-sub-block { (1172 @ 22b6)
+
+
+                lua chunk sub-sub-sub-sub-block { (0a @ 22b9)
+
+                    main chunk : chunk >
+
+                    === lua =============
+                    local self = ...;
+                    
+                    local caster = Spell.CasterObject(self);
+                    
+                    if false and caster ~= nil then
+                    
+                    	while self:isAlive() do 
+                    		local delta = self:position() - Spell.CastPoint(self);
+                    		local distance = delta:length() - 50;
+                    
+                    		ParticleEmitter.SetOriginOffset(self, 7, Vector3.New(-distance, 0, 0));
+                    		ParticleEmitter.SetParameterAtIndex(self, 7, 2, distance);
+                    
+                    		Program.Wait(0.02);
+                    	end
+                    end
+
+                    =====================
+                    secondary chunk : \x1bLuaQ\x00\x01\x04\x04\x04\x08\x00\x90\x01\x00\x00local self = ...;\r\n\r\nlocal caster = Spell.CasterObject(self);\r\n\r\nif false and caster ~= nil then\r\n\r\n\twhile self:isAlive() do \r\n\t\tlocal delta = self:position() - Spell.CastPoint(self);\r\n\t\tlocal distance = delta:length() - 50;\r\n\r\n\t\tParticleEmitter.SetOriginOffset(self, 7, Vector3.New(-distance, 0, 0));\r\n\t\tParticleEmitter.SetParameterAtIndex(self, 7, 2, distance);\r\n\r\n\t\tProgram.Wait(0.02);\r\n\tend\r\nend\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x02\x0b.\x00\x00\x00%\x00\x00\x01E\x00\x00\x00F@\xc0\x00\x80\x00\x00\x00\\\x80\x00\x01\x16\x80\t\x80W\x80\xc0\x00\x16\x00\t\x80\x8b\xc0@\x00\x9c\x80\x00\x01\x9a\x00\x00\x00\x16\x00\x08\x80\x8b\x00A\x00\x9c\x80\x00\x01\xc5\x00\x00\x00\xc6@\xc1\x01\x00\x01\x00\x00\xdc\x80\x00\x01\x8d\xc0\x00\x01\xcb\x80A\x01\xdc\x80\x00\x01\xcd\xc0\xc1\x01\x05\x01\x02\x00\x06AB\x02@\x01\x00\x00\x81\x81\x02\x00\xc5\xc1\x02\x00\xc6\x01\xc3\x03\x12\x02\x80\x01AB\x03\x00\x81B\x03\x00\xdc\x01\x00\x02\x1cA\x00\x00\x05\x01\x02\x00\x06\x81C\x02@\x01\x00\x00\x81\x81\x02\x00\xc1\xc1\x03\x00\x00\x02\x80\x01\x1cA\x80\x02\x05\x01\x04\x00\x06AD\x02A\x81\x04\x00\x1cA\x00\x01\x16\x80\xf6\x7f\x1e\x00\x80\x00\x13\x00\x00\x00\x04\x06\x00\x00\x00Spell\x00\x04\r\x00\x00\x00CasterObject\x00\x00\x04\x08\x00\x00\x00isAlive\x00\x04\t\x00\x00\x00position\x00\x04\n\x00\x00\x00CastPoint\x00\x04\x07\x00\x00\x00length\x00\x03\x00\x00\x00\x00\x00\x00I@\x04\x10\x00\x00\x00ParticleEmitter\x00\x04\x10\x00\x00\x00SetOriginOffset\x00\x03\x00\x00\x00\x00\x00\x00\x1c@\x04\x08\x00\x00\x00Vector3\x00\x04\x04\x00\x00\x00New\x00\x03\x00\x00\x00\x00\x00\x00\x00\x00\x04\x14\x00\x00\x00SetParameterAtIndex\x00\x03\x00\x00\x00\x00\x00\x00\x00@\x04\x08\x00\x00\x00Program\x00\x04\x05\x00\x00\x00Wait\x00\x03{\x14\xaeG\xe1z\x94?\x00\x00\x00\x00.\x00\x00\x00\x01\x00\x00\x00\x03\x00\x00\x00\x03\x00\x00\x00\x03\x00\x00\x00\x03\x00\x00\x00\x05\x00\x00\x00\x05\x00\x00\x00\x05\x00\x00\x00\x07\x00\x00\x00\x07\x00\x00\x00\x07\x00\x00\x00\x07\x00\x00\x00\x08\x00\x00\x00\x08\x00\x00\x00\x08\x00\x00\x00\x08\x00\x00\x00\x08\x00\x00\x00\x08\x00\x00\x00\x08\x00\x00\x00\t\x00\x00\x00\t\x00\x00\x00\t\x00\x00\x00\x0b\x00\x00\x00\x0b\x00\x00\x00\x0b\x00\x00\x00\x0b\x00\x00\x00\x0b\x00\x00\x00\x0b\x00\x00\x00\x0b\x00\x00\x00\x0b\x00\x00\x00\x0b\x00\x00\x00\x0b\x00\x00\x00\x0b\x00\x00\x00\x0c\x00\x00\x00\x0c\x00\x00\x00\x0c\x00\x00\x00\x0c\x00\x00\x00\x0c\x00\x00\x00\x0c\x00\x00\x00\x0c\x00\x00\x00\x0e\x00\x00\x00\x0e\x00\x00\x00\x0e\x00\x00\x00\x0e\x00\x00\x00\x0e\x00\x00\x00\x10\x00\x00\x00\x04\x00\x00\x00\x05\x00\x00\x00self\x00\x01\x00\x00\x00-\x00\x00\x00\x07\x00\x00\x00caster\x00\x05\x00\x00\x00-\x00\x00\x00\x06\x00\x00\x00delta\x00\x13\x00\x00\x00,\x00\x00\x00\t\x00\x00\x00distance\x00\x16\x00\x00\x00,\x00\x00\x00\x00\x00\x00\x00 (12 @ 244e)
+				}
+			}
+		}
+
+        component sub-sub-block { (1a @ 28c1)
+
+            component type : PhysicsObject (0a @ 28c3)
+            number : 113(10 @ 28d2)
+
+            physics object sub-sub-sub-block { (4fa @ 28d5)
+
+                u0 : 1(08 @ 28d7)
+                u2 : 0.0 (1d @ 28d9)
+                u3 : 1500.0 (25 @ 28de)
+                u4 : 0.0 (2d @ 28e3)
+                u5 : 2000.0 (35 @ 28e8)
+                u6 : 0(38 @ 28ed)
+                u7 : 0.0 (45 @ 28ef)
+			}
+		}
+
+        position sub-sub-block { (22 @ 28f4)
+
+            x position : 0.0 (0d @ 28f6)
+            y position : 0.0 (15 @ 28fb)
+		}
+        z position : 0.0 (2d @ 2900)
+        rotation : 0.0 (35 @ 2905)
+        scale : 1.0 (3d @ 290a)
+
+        u0 sub-sub-block { (42 @ 290f)
+
+            w : -400.0 (0d @ 2911)
+            x : -50.0 (15 @ 2916)
+            y : 450.0 (1d @ 291b)
+            z : 100.0 (25 @ 2920)
+		}
+        hidden : 0(48 @ 2925)
+	}
+    u0 : 1.0 (15 @ 2927)
+}
+
+?item block { (12 @ 292c)
+
+
+    ?sub-item sub-block { (0a @ 292f)
+
+        name : magic_hookshot_fire (12 @ 2932)
+
+        component sub-sub-block { (1a @ 2947)
+
+            component type : SimpleGlow (0a @ 2949)
+            number : 1(10 @ 2955)
+
+            simple glow sub-sub-sub-block { (7f2 @ 2958)
+
+
+                u0 sub-sub-sub-sub-block { (0a @ 295a)
+
+                    w : 1.0 (0d @ 295c)
+                    x : 0.4725927710533142 (15 @ 2961)
+                    y : 0.18888890743255615 (1d @ 2966)
+                    z : 0.5 (25 @ 296b)
+				}
+                u1 : 25.0 (15 @ 2970)
+                u2 : 20(18 @ 2975)
+                u3 : 15.0 (25 @ 2977)
+                u4 : 0.15000000596046448 (2d @ 297c)
+                u5 : 0.800000011920929 (35 @ 2981)
+
+                u6 sub-sub-sub-sub-block { (3a @ 2986)
+
+                    y : 0.0 (0d @ 2988)
+                    z : 0.0 (15 @ 298d)
+				}
+			}
+		}
+
+        component sub-sub-block { (1a @ 2992)
+
+            component type : CollisionShape (0a @ 2994)
+            number : 2(10 @ 29a4)
+
+            collision shape sub-sub-sub-block { (3c2 @ 29a7)
+
+
+                u0 sub-sub-sub-sub-block { (0a @ 29a9)
+
+                    w : -8.0 (0d @ 29ab)
+                    x : -8.0 (15 @ 29b0)
+                    y : 16.0 (1d @ 29b5)
+                    z : 16.0 (25 @ 29ba)
+				}
+			}
+
+            collision shape 2 sub-sub-sub-block { (3ca @ 29c0)
+
+                u1 : 1(18 @ 29c2)
+                u3 : 1(28 @ 29c4)
+                w : -15.0 (35 @ 29c6)
+                x : 15.0 (3d @ 29cb)
+                z : 1(58 @ 29d0)
+			}
+		}
+
+        component sub-sub-block { (1a @ 29d2)
+
+            component type : CollisionShape (0a @ 29d4)
+            number : 3(10 @ 29e4)
+
+            collision shape sub-sub-sub-block { (3c2 @ 29e7)
+
+
+                u0 sub-sub-sub-sub-block { (0a @ 29e9)
+
+                    w : -400.0 (0d @ 29eb)
+                    x : -5.0 (15 @ 29f0)
+                    y : 400.0 (1d @ 29f5)
+                    z : 10.0 (25 @ 29fa)
+				}
+			}
+
+            collision shape 2 sub-sub-sub-block { (3ca @ 2a00)
+
+                w : -15.0 (35 @ 2a02)
+                x : 15.0 (3d @ 2a07)
+                z : 1(58 @ 2a0c)
+			}
+		}
+
+        component sub-sub-block { (1a @ 2a0e)
+
+            component type : Damage (0a @ 2a10)
+            number : 4(10 @ 2a18)
+
+            damage sub-sub-sub-block { (3d2 @ 2a1b)
+
+                u0 : 2(08 @ 2a1d)
+                u1 : 1(10 @ 2a1f)
+                u2 : 0(18 @ 2a21)
+                u5 : 1.0 (35 @ 2a23)
+                u6 : 0.0 (3d @ 2a28)
+                u7 : 0(40 @ 2a2d)
+                u8 : 1(48 @ 2a2f)
+			}
+		}
+
+        component sub-sub-block { (1a @ 2a31)
+
+            component type : SoundEffect (0a @ 2a33)
+            number : 5(10 @ 2a40)
+
+            sound effect sub-sub-sub-block { (462 @ 2a43)
+
+                sound : hookshot_hit1 (0a @ 2a45)
+                u0 : 0.0 (15 @ 2a54)
+                u1 : 1.0 (1d @ 2a59)
+			}
+		}
+
+        component sub-sub-block { (1a @ 2a5e)
+
+            component type : Light (0a @ 2a60)
+            number : 6(10 @ 2a67)
+
+            light sub-sub-sub-block { (412 @ 2a6a)
+
+                u0 : 3(08 @ 2a6c)
+                u1 : 2.0 (15 @ 2a6e)
+
+                u2 sub-sub-sub-sub-block { (1a @ 2a73)
+
+                    w : 1.0 (0d @ 2a75)
+                    x : 0.7542858123779297 (15 @ 2a7a)
+                    y : 0.6000000238418579 (1d @ 2a7f)
+                    z : 1.0 (25 @ 2a84)
+				}
+                u3 : 0.0 (25 @ 2a89)
+                u4 : 0.00019999999494757503 (2d @ 2a8e)
+
+                u5 sub-sub-sub-sub-block { (32 @ 2a93)
+
+                    x : 0.0 (0d @ 2a95)
+                    y : 0.0 (15 @ 2a9a)
+                    z : 0.0 (1d @ 2a9f)
+				}
+                u6 : 250.0 (3d @ 2aa4)
+			}
+		}
+
+        component sub-sub-block { (1a @ 2aa9)
+
+            component type : SoundEffect (0a @ 2aab)
+            number : 7(10 @ 2ab8)
+
+            sound effect sub-sub-sub-block { (462 @ 2abb)
+
+                sound : hookshot_cast (0a @ 2abd)
+                u0 : 0.0 (15 @ 2acc)
+                u1 : 1.0 (1d @ 2ad1)
+			}
+		}
+
+        component sub-sub-block { (1a @ 2ad6)
+
+            component type : ParticleEmitter (0a @ 2ad9)
+            number : 102(10 @ 2aea)
+            name : bolt1 (1a @ 2aec)
+
+            particle emitter sub-sub-sub-block { (7d2 @ 2af4)
+
+                particle : 103(10 @ 2af6)
+                particle : 104(10 @ 2af8)
+                particle : 105(10 @ 2afa)
+                u1 : 0(18 @ 2afc)
+                u2 : 200(20 @ 2afe)
+                u3 : 0(28 @ 2b01)
+                u4 : 0(30 @ 2b03)
+
+                u5 sub-sub-sub-sub-block { (3a @ 2b05)
+
+                    u0 : 3(08 @ 2b07)
+
+                    u1 sub-sub-sub-sub-sub-block { (12 @ 2b09)
+
+                        w : 0.3888888955116272 (0d @ 2b0b)
+                        x : 0.3888888955116272 (15 @ 2b10)
+                        y : 0.3888888955116272 (1d @ 2b15)
+                        z : 0.0 (25 @ 2b1a)
+					}
+                    u2 : 0.014999999664723873 (1d @ 2b1f)
+                    u2 : 0.15000000596046448 (1d @ 2b24)
+                    u2 : 0.8999999761581421 (1d @ 2b29)
+                    u2 : 15.0 (1d @ 2b2e)
+                    u2 : 0.6000000238418579 (1d @ 2b33)
+                    u2 : 0.0 (1d @ 2b38)
+                    u2 : 1.0 (1d @ 2b3d)
+                    u3 : 0.0 (25 @ 2b42)
+                    u4 : 0.0 (2d @ 2b47)
+                    u5 : 0.0 (35 @ 2b4c)
+
+                    u6 sub-sub-sub-sub-sub-block { (3a @ 2b51)
+
+                        u0 : 0.0 (0d @ 2b53)
+                        u1 : 0.0 (15 @ 2b58)
+                        u2 : 0.0 (1d @ 2b5d)
+					}
+				}
+                u6 : 1(40 @ 2b62)
+			}
+		}
+
+        component sub-sub-block { (1a @ 2b64)
+
+            component type : Particle (0a @ 2b66)
+            number : 103(10 @ 2b70)
+
+            particle sub-sub-sub-block { (7da @ 2b73)
+
+                name : particle_fure_1 (0a @ 2b75)
+                u0 : 40.0 (15 @ 2b86)
+			}
+		}
+
+        component sub-sub-block { (1a @ 2b8b)
+
+            component type : Particle (0a @ 2b8d)
+            number : 104(10 @ 2b97)
+
+            particle sub-sub-sub-block { (7da @ 2b9a)
+
+                name : particle_fure_2 (0a @ 2b9c)
+                u0 : 40.0 (15 @ 2bad)
+			}
+		}
+
+        component sub-sub-block { (1a @ 2bb2)
+
+            component type : Particle (0a @ 2bb4)
+            number : 105(10 @ 2bbe)
+
+            particle sub-sub-sub-block { (7da @ 2bc1)
+
+                name : particle_fure_3 (0a @ 2bc3)
+                u0 : 40.0 (15 @ 2bd4)
+			}
+		}
+
+        component sub-sub-block { (1a @ 2bd9)
+
+            component type : ParticleEmitter (0a @ 2bdc)
+            number : 109(10 @ 2bed)
+            name : bolt2 (1a @ 2bef)
+
+            particle emitter sub-sub-sub-block { (7d2 @ 2bf7)
+
+                particle : 103(10 @ 2bf9)
+                particle : 104(10 @ 2bfb)
+                particle : 105(10 @ 2bfd)
+                u1 : 0(18 @ 2bff)
+                u2 : 30(20 @ 2c01)
+                u3 : 102(28 @ 2c03)
+                u4 : 0(30 @ 2c05)
+
+                u5 sub-sub-sub-sub-block { (3a @ 2c07)
+
+                    u0 : 3(08 @ 2c09)
+
+                    u1 sub-sub-sub-sub-sub-block { (12 @ 2c0b)
+
+                        w : 0.9777777791023254 (0d @ 2c0d)
+                        x : 0.0 (15 @ 2c12)
+                        y : 3.496805902614142e-07 (1d @ 2c17)
+                        z : 0.0 (25 @ 2c1c)
+					}
+                    u2 : 0.014999999664723873 (1d @ 2c21)
+                    u2 : 0.0020000000949949026 (1d @ 2c26)
+                    u2 : 0.4000000059604645 (1d @ 2c2b)
+                    u2 : 7.0 (1d @ 2c30)
+                    u2 : 1.0 (1d @ 2c35)
+                    u2 : 0.0 (1d @ 2c3a)
+                    u2 : 1.0 (1d @ 2c3f)
+                    u3 : 0.0 (25 @ 2c44)
+                    u4 : 0.0 (2d @ 2c49)
+                    u5 : 0.0 (35 @ 2c4e)
+
+                    u6 sub-sub-sub-sub-sub-block { (3a @ 2c53)
+
+                        u0 : 0.0 (0d @ 2c55)
+                        u1 : 0.0 (15 @ 2c5a)
+                        u2 : 0.0 (1d @ 2c5f)
+					}
+				}
+                u6 : 1(40 @ 2c64)
+			}
+		}
+
+        component sub-sub-block { (1a @ 2c66)
+
+            component type : MagicHookshot (0a @ 2c69)
+            number : 112(10 @ 2c78)
+
+            magic hookshot sub-sub-sub-block { (116a @ 2c7b)
+
+                particle emitter component : 102(08 @ 2c7d)
+                u0 : 7(10 @ 2c7f)
+                u1 : 5(18 @ 2c81)
+
+                u2 sub-sub-sub-sub-block { (22 @ 2c83)
+
+                    w : 0.4000000059604645 (0d @ 2c85)
+                    x : 0.18480001389980316 (15 @ 2c8a)
+                    y : 0.05399999022483826 (1d @ 2c8f)
+                    z : 0.0 (25 @ 2c94)
+				}
+                u3 : 0(28 @ 2c99)
+			}
+
+            temp0 sub-sub-sub-block { (1172 @ 2c9c)
+
+
+                lua chunk sub-sub-sub-sub-block { (0a @ 2c9f)
+
+                    main chunk : chunk >
+
+                    === lua =============
+                    local self = ...;
+                    
+                    local caster = Spell.CasterObject(self);
+                    
+                    if false and caster ~= nil then
+                    
+                    	while self:isAlive() do 
+                    		local delta = self:position() - Spell.CastPoint(self);
+                    		local distance = delta:length() - 50;
+                    
+                    		ParticleEmitter.SetOriginOffset(self, 7, Vector3.New(-distance, 0, 0));
+                    		ParticleEmitter.SetParameterAtIndex(self, 7, 2, distance);
+                    
+                    		Program.Wait(0.02);
+                    	end
+                    end
+
+                    =====================
+                    secondary chunk : \x1bLuaQ\x00\x01\x04\x04\x04\x08\x00\x90\x01\x00\x00local self = ...;\r\n\r\nlocal caster = Spell.CasterObject(self);\r\n\r\nif false and caster ~= nil then\r\n\r\n\twhile self:isAlive() do \r\n\t\tlocal delta = self:position() - Spell.CastPoint(self);\r\n\t\tlocal distance = delta:length() - 50;\r\n\r\n\t\tParticleEmitter.SetOriginOffset(self, 7, Vector3.New(-distance, 0, 0));\r\n\t\tParticleEmitter.SetParameterAtIndex(self, 7, 2, distance);\r\n\r\n\t\tProgram.Wait(0.02);\r\n\tend\r\nend\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x02\x0b.\x00\x00\x00%\x00\x00\x01E\x00\x00\x00F@\xc0\x00\x80\x00\x00\x00\\\x80\x00\x01\x16\x80\t\x80W\x80\xc0\x00\x16\x00\t\x80\x8b\xc0@\x00\x9c\x80\x00\x01\x9a\x00\x00\x00\x16\x00\x08\x80\x8b\x00A\x00\x9c\x80\x00\x01\xc5\x00\x00\x00\xc6@\xc1\x01\x00\x01\x00\x00\xdc\x80\x00\x01\x8d\xc0\x00\x01\xcb\x80A\x01\xdc\x80\x00\x01\xcd\xc0\xc1\x01\x05\x01\x02\x00\x06AB\x02@\x01\x00\x00\x81\x81\x02\x00\xc5\xc1\x02\x00\xc6\x01\xc3\x03\x12\x02\x80\x01AB\x03\x00\x81B\x03\x00\xdc\x01\x00\x02\x1cA\x00\x00\x05\x01\x02\x00\x06\x81C\x02@\x01\x00\x00\x81\x81\x02\x00\xc1\xc1\x03\x00\x00\x02\x80\x01\x1cA\x80\x02\x05\x01\x04\x00\x06AD\x02A\x81\x04\x00\x1cA\x00\x01\x16\x80\xf6\x7f\x1e\x00\x80\x00\x13\x00\x00\x00\x04\x06\x00\x00\x00Spell\x00\x04\r\x00\x00\x00CasterObject\x00\x00\x04\x08\x00\x00\x00isAlive\x00\x04\t\x00\x00\x00position\x00\x04\n\x00\x00\x00CastPoint\x00\x04\x07\x00\x00\x00length\x00\x03\x00\x00\x00\x00\x00\x00I@\x04\x10\x00\x00\x00ParticleEmitter\x00\x04\x10\x00\x00\x00SetOriginOffset\x00\x03\x00\x00\x00\x00\x00\x00\x1c@\x04\x08\x00\x00\x00Vector3\x00\x04\x04\x00\x00\x00New\x00\x03\x00\x00\x00\x00\x00\x00\x00\x00\x04\x14\x00\x00\x00SetParameterAtIndex\x00\x03\x00\x00\x00\x00\x00\x00\x00@\x04\x08\x00\x00\x00Program\x00\x04\x05\x00\x00\x00Wait\x00\x03{\x14\xaeG\xe1z\x94?\x00\x00\x00\x00.\x00\x00\x00\x01\x00\x00\x00\x03\x00\x00\x00\x03\x00\x00\x00\x03\x00\x00\x00\x03\x00\x00\x00\x05\x00\x00\x00\x05\x00\x00\x00\x05\x00\x00\x00\x07\x00\x00\x00\x07\x00\x00\x00\x07\x00\x00\x00\x07\x00\x00\x00\x08\x00\x00\x00\x08\x00\x00\x00\x08\x00\x00\x00\x08\x00\x00\x00\x08\x00\x00\x00\x08\x00\x00\x00\x08\x00\x00\x00\t\x00\x00\x00\t\x00\x00\x00\t\x00\x00\x00\x0b\x00\x00\x00\x0b\x00\x00\x00\x0b\x00\x00\x00\x0b\x00\x00\x00\x0b\x00\x00\x00\x0b\x00\x00\x00\x0b\x00\x00\x00\x0b\x00\x00\x00\x0b\x00\x00\x00\x0b\x00\x00\x00\x0b\x00\x00\x00\x0c\x00\x00\x00\x0c\x00\x00\x00\x0c\x00\x00\x00\x0c\x00\x00\x00\x0c\x00\x00\x00\x0c\x00\x00\x00\x0c\x00\x00\x00\x0e\x00\x00\x00\x0e\x00\x00\x00\x0e\x00\x00\x00\x0e\x00\x00\x00\x0e\x00\x00\x00\x10\x00\x00\x00\x04\x00\x00\x00\x05\x00\x00\x00self\x00\x01\x00\x00\x00-\x00\x00\x00\x07\x00\x00\x00caster\x00\x05\x00\x00\x00-\x00\x00\x00\x06\x00\x00\x00delta\x00\x13\x00\x00\x00,\x00\x00\x00\t\x00\x00\x00distance\x00\x16\x00\x00\x00,\x00\x00\x00\x00\x00\x00\x00 (12 @ 2e34)
+				}
+			}
+		}
+
+        component sub-sub-block { (1a @ 32a7)
+
+            component type : PhysicsObject (0a @ 32a9)
+            number : 113(10 @ 32b8)
+
+            physics object sub-sub-sub-block { (4fa @ 32bb)
+
+                u0 : 1(08 @ 32bd)
+                u2 : 0.0 (1d @ 32bf)
+                u3 : 1500.0 (25 @ 32c4)
+                u4 : 0.0 (2d @ 32c9)
+                u5 : 2000.0 (35 @ 32ce)
+                u6 : 0(38 @ 32d3)
+                u7 : 0.0 (45 @ 32d5)
+			}
+		}
+
+        position sub-sub-block { (22 @ 32da)
+
+            x position : 0.0 (0d @ 32dc)
+            y position : 0.0 (15 @ 32e1)
+		}
+        z position : 0.0 (2d @ 32e6)
+        rotation : 0.0 (35 @ 32eb)
+        scale : 1.0 (3d @ 32f0)
+
+        u0 sub-sub-block { (42 @ 32f5)
+
+            w : -400.0 (0d @ 32f7)
+            x : -50.0 (15 @ 32fc)
+            y : 450.0 (1d @ 3301)
+            z : 100.0 (25 @ 3306)
+		}
+        hidden : 0(48 @ 330b)
+	}
+    u0 : 1.0 (15 @ 330d)
+}
+
+?item block { (12 @ 3312)
+
+
+    ?sub-item sub-block { (0a @ 3315)
+
+        name : magic_hookshot_ice (12 @ 3318)
+
+        component sub-sub-block { (1a @ 332c)
+
+            component type : SimpleGlow (0a @ 332e)
+            number : 1(10 @ 333a)
+
+            simple glow sub-sub-sub-block { (7f2 @ 333d)
+
+
+                u0 sub-sub-sub-sub-block { (0a @ 333f)
+
+                    w : 0.18888890743255615 (0d @ 3341)
+                    x : 0.9866664409637451 (15 @ 3346)
+                    y : 1.0 (1d @ 334b)
+                    z : 0.5 (25 @ 3350)
+				}
+                u1 : 25.0 (15 @ 3355)
+                u2 : 20(18 @ 335a)
+                u3 : 15.0 (25 @ 335c)
+                u4 : 0.15000000596046448 (2d @ 3361)
+                u5 : 0.800000011920929 (35 @ 3366)
+
+                u6 sub-sub-sub-sub-block { (3a @ 336b)
+
+                    y : 0.0 (0d @ 336d)
+                    z : 0.0 (15 @ 3372)
+				}
+			}
+		}
+
+        component sub-sub-block { (1a @ 3377)
+
+            component type : CollisionShape (0a @ 3379)
+            number : 2(10 @ 3389)
+
+            collision shape sub-sub-sub-block { (3c2 @ 338c)
+
+
+                u0 sub-sub-sub-sub-block { (0a @ 338e)
+
+                    w : -8.0 (0d @ 3390)
+                    x : -8.0 (15 @ 3395)
+                    y : 16.0 (1d @ 339a)
+                    z : 16.0 (25 @ 339f)
+				}
+			}
+
+            collision shape 2 sub-sub-sub-block { (3ca @ 33a5)
+
+                u1 : 1(18 @ 33a7)
+                u3 : 1(28 @ 33a9)
+                w : -15.0 (35 @ 33ab)
+                x : 15.0 (3d @ 33b0)
+                z : 1(58 @ 33b5)
+			}
+		}
+
+        component sub-sub-block { (1a @ 33b7)
+
+            component type : CollisionShape (0a @ 33b9)
+            number : 3(10 @ 33c9)
+
+            collision shape sub-sub-sub-block { (3c2 @ 33cc)
+
+
+                u0 sub-sub-sub-sub-block { (0a @ 33ce)
+
+                    w : -400.0 (0d @ 33d0)
+                    x : -5.0 (15 @ 33d5)
+                    y : 400.0 (1d @ 33da)
+                    z : 10.0 (25 @ 33df)
+				}
+			}
+
+            collision shape 2 sub-sub-sub-block { (3ca @ 33e5)
+
+                w : -15.0 (35 @ 33e7)
+                x : 15.0 (3d @ 33ec)
+                z : 1(58 @ 33f1)
+			}
+		}
+
+        component sub-sub-block { (1a @ 33f3)
+
+            component type : Damage (0a @ 33f5)
+            number : 4(10 @ 33fd)
+
+            damage sub-sub-sub-block { (3d2 @ 3400)
+
+                u0 : 2(08 @ 3402)
+                u1 : 1(10 @ 3404)
+                u2 : 0(18 @ 3406)
+                u5 : 1.0 (35 @ 3408)
+                u6 : 0.0 (3d @ 340d)
+                u7 : 0(40 @ 3412)
+                u8 : 1(48 @ 3414)
+			}
+		}
+
+        component sub-sub-block { (1a @ 3416)
+
+            component type : SoundEffect (0a @ 3418)
+            number : 5(10 @ 3425)
+
+            sound effect sub-sub-sub-block { (462 @ 3428)
+
+                sound : hookshot_hit1 (0a @ 342a)
+                u0 : 0.0 (15 @ 3439)
+                u1 : 1.0 (1d @ 343e)
+			}
+		}
+
+        component sub-sub-block { (1a @ 3443)
+
+            component type : Light (0a @ 3445)
+            number : 6(10 @ 344c)
+
+            light sub-sub-sub-block { (412 @ 344f)
+
+                u0 : 3(08 @ 3451)
+                u1 : 2.0 (15 @ 3453)
+
+                u2 sub-sub-sub-sub-block { (1a @ 3458)
+
+                    w : 0.6000000238418579 (0d @ 345a)
+                    x : 0.9790476560592651 (15 @ 345f)
+                    y : 1.0 (1d @ 3464)
+                    z : 1.0 (25 @ 3469)
+				}
+                u3 : 0.0 (25 @ 346e)
+                u4 : 0.00019999999494757503 (2d @ 3473)
+
+                u5 sub-sub-sub-sub-block { (32 @ 3478)
+
+                    x : 0.0 (0d @ 347a)
+                    y : 0.0 (15 @ 347f)
+                    z : 0.0 (1d @ 3484)
+				}
+                u6 : 250.0 (3d @ 3489)
+			}
+		}
+
+        component sub-sub-block { (1a @ 348e)
+
+            component type : SoundEffect (0a @ 3490)
+            number : 7(10 @ 349d)
+
+            sound effect sub-sub-sub-block { (462 @ 34a0)
+
+                sound : hookshot_cast (0a @ 34a2)
+                u0 : 0.0 (15 @ 34b1)
+                u1 : 1.0 (1d @ 34b6)
+			}
+		}
+
+        component sub-sub-block { (1a @ 34bb)
+
+            component type : ParticleEmitter (0a @ 34be)
+            number : 102(10 @ 34cf)
+            name : bolt1 (1a @ 34d1)
+
+            particle emitter sub-sub-sub-block { (7d2 @ 34d9)
+
+                particle : 103(10 @ 34db)
+                particle : 104(10 @ 34dd)
+                particle : 105(10 @ 34df)
+                u1 : 0(18 @ 34e1)
+                u2 : 200(20 @ 34e3)
+                u3 : 0(28 @ 34e6)
+                u4 : 0(30 @ 34e8)
+
+                u5 sub-sub-sub-sub-block { (3a @ 34ea)
+
+                    u0 : 3(08 @ 34ec)
+
+                    u1 sub-sub-sub-sub-sub-block { (12 @ 34ee)
+
+                        w : 0.3888888955116272 (0d @ 34f0)
+                        x : 0.3888888955116272 (15 @ 34f5)
+                        y : 0.3888888955116272 (1d @ 34fa)
+                        z : 0.0 (25 @ 34ff)
+					}
+                    u2 : 0.014999999664723873 (1d @ 3504)
+                    u2 : 0.15000000596046448 (1d @ 3509)
+                    u2 : 0.8999999761581421 (1d @ 350e)
+                    u2 : 15.0 (1d @ 3513)
+                    u2 : 0.6000000238418579 (1d @ 3518)
+                    u2 : 0.0 (1d @ 351d)
+                    u2 : 1.0 (1d @ 3522)
+                    u3 : 0.0 (25 @ 3527)
+                    u4 : 0.0 (2d @ 352c)
+                    u5 : 0.0 (35 @ 3531)
+
+                    u6 sub-sub-sub-sub-sub-block { (3a @ 3536)
+
+                        u0 : 0.0 (0d @ 3538)
+                        u1 : 0.0 (15 @ 353d)
+                        u2 : 0.0 (1d @ 3542)
+					}
+				}
+                u6 : 1(40 @ 3547)
+			}
+		}
+
+        component sub-sub-block { (1a @ 3549)
+
+            component type : Particle (0a @ 354b)
+            number : 103(10 @ 3555)
+
+            particle sub-sub-sub-block { (7da @ 3558)
+
+                name : particle_fure_1 (0a @ 355a)
+                u0 : 40.0 (15 @ 356b)
+			}
+		}
+
+        component sub-sub-block { (1a @ 3570)
+
+            component type : Particle (0a @ 3572)
+            number : 104(10 @ 357c)
+
+            particle sub-sub-sub-block { (7da @ 357f)
+
+                name : particle_fure_2 (0a @ 3581)
+                u0 : 40.0 (15 @ 3592)
+			}
+		}
+
+        component sub-sub-block { (1a @ 3597)
+
+            component type : Particle (0a @ 3599)
+            number : 105(10 @ 35a3)
+
+            particle sub-sub-sub-block { (7da @ 35a6)
+
+                name : particle_fure_3 (0a @ 35a8)
+                u0 : 40.0 (15 @ 35b9)
+			}
+		}
+
+        component sub-sub-block { (1a @ 35be)
+
+            component type : ParticleEmitter (0a @ 35c1)
+            number : 109(10 @ 35d2)
+            name : bolt2 (1a @ 35d4)
+
+            particle emitter sub-sub-sub-block { (7d2 @ 35dc)
+
+                particle : 103(10 @ 35de)
+                particle : 104(10 @ 35e0)
+                particle : 105(10 @ 35e2)
+                u1 : 0(18 @ 35e4)
+                u2 : 30(20 @ 35e6)
+                u3 : 102(28 @ 35e8)
+                u4 : 0(30 @ 35ea)
+
+                u5 sub-sub-sub-sub-block { (3a @ 35ec)
+
+                    u0 : 3(08 @ 35ee)
+
+                    u1 sub-sub-sub-sub-sub-block { (12 @ 35f0)
+
+                        w : 0.0 (0d @ 35f2)
+                        x : 0.9777777791023254 (15 @ 35f7)
+                        y : 0.9777770638465881 (1d @ 35fc)
+                        z : 0.0 (25 @ 3601)
+					}
+                    u2 : 0.014999999664723873 (1d @ 3606)
+                    u2 : 0.0020000000949949026 (1d @ 360b)
+                    u2 : 0.4000000059604645 (1d @ 3610)
+                    u2 : 7.0 (1d @ 3615)
+                    u2 : 1.0 (1d @ 361a)
+                    u2 : 0.0 (1d @ 361f)
+                    u2 : 1.0 (1d @ 3624)
+                    u3 : 0.0 (25 @ 3629)
+                    u4 : 0.0 (2d @ 362e)
+                    u5 : 0.0 (35 @ 3633)
+
+                    u6 sub-sub-sub-sub-sub-block { (3a @ 3638)
+
+                        u0 : 0.0 (0d @ 363a)
+                        u1 : 0.0 (15 @ 363f)
+                        u2 : 0.0 (1d @ 3644)
+					}
+				}
+                u6 : 1(40 @ 3649)
+			}
+		}
+
+        component sub-sub-block { (1a @ 364b)
+
+            component type : MagicHookshot (0a @ 364e)
+            number : 112(10 @ 365d)
+
+            magic hookshot sub-sub-sub-block { (116a @ 3660)
+
+                particle emitter component : 102(08 @ 3662)
+                u0 : 7(10 @ 3664)
+                u1 : 5(18 @ 3666)
+
+                u2 sub-sub-sub-sub-block { (22 @ 3668)
+
+                    w : 0.0066727399826049805 (0d @ 366a)
+                    x : 0.4917716383934021 (15 @ 366f)
+                    y : 0.4867079257965088 (1d @ 3674)
+                    z : 0.0 (25 @ 3679)
+				}
+                u3 : 0(28 @ 367e)
+			}
+
+            temp0 sub-sub-sub-block { (1172 @ 3681)
+
+
+                lua chunk sub-sub-sub-sub-block { (0a @ 3684)
+
+                    main chunk : chunk >
+
+                    === lua =============
+                    local self = ...;
+                    
+                    local caster = Spell.CasterObject(self);
+                    
+                    if false and caster ~= nil then
+                    
+                    	while self:isAlive() do 
+                    		local delta = self:position() - Spell.CastPoint(self);
+                    		local distance = delta:length() - 50;
+                    
+                    		ParticleEmitter.SetOriginOffset(self, 7, Vector3.New(-distance, 0, 0));
+                    		ParticleEmitter.SetParameterAtIndex(self, 7, 2, distance);
+                    
+                    		Program.Wait(0.02);
+                    	end
+                    end
+
+                    =====================
+                    secondary chunk : \x1bLuaQ\x00\x01\x04\x04\x04\x08\x00\x90\x01\x00\x00local self = ...;\r\n\r\nlocal caster = Spell.CasterObject(self);\r\n\r\nif false and caster ~= nil then\r\n\r\n\twhile self:isAlive() do \r\n\t\tlocal delta = self:position() - Spell.CastPoint(self);\r\n\t\tlocal distance = delta:length() - 50;\r\n\r\n\t\tParticleEmitter.SetOriginOffset(self, 7, Vector3.New(-distance, 0, 0));\r\n\t\tParticleEmitter.SetParameterAtIndex(self, 7, 2, distance);\r\n\r\n\t\tProgram.Wait(0.02);\r\n\tend\r\nend\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x02\x0b.\x00\x00\x00%\x00\x00\x01E\x00\x00\x00F@\xc0\x00\x80\x00\x00\x00\\\x80\x00\x01\x16\x80\t\x80W\x80\xc0\x00\x16\x00\t\x80\x8b\xc0@\x00\x9c\x80\x00\x01\x9a\x00\x00\x00\x16\x00\x08\x80\x8b\x00A\x00\x9c\x80\x00\x01\xc5\x00\x00\x00\xc6@\xc1\x01\x00\x01\x00\x00\xdc\x80\x00\x01\x8d\xc0\x00\x01\xcb\x80A\x01\xdc\x80\x00\x01\xcd\xc0\xc1\x01\x05\x01\x02\x00\x06AB\x02@\x01\x00\x00\x81\x81\x02\x00\xc5\xc1\x02\x00\xc6\x01\xc3\x03\x12\x02\x80\x01AB\x03\x00\x81B\x03\x00\xdc\x01\x00\x02\x1cA\x00\x00\x05\x01\x02\x00\x06\x81C\x02@\x01\x00\x00\x81\x81\x02\x00\xc1\xc1\x03\x00\x00\x02\x80\x01\x1cA\x80\x02\x05\x01\x04\x00\x06AD\x02A\x81\x04\x00\x1cA\x00\x01\x16\x80\xf6\x7f\x1e\x00\x80\x00\x13\x00\x00\x00\x04\x06\x00\x00\x00Spell\x00\x04\r\x00\x00\x00CasterObject\x00\x00\x04\x08\x00\x00\x00isAlive\x00\x04\t\x00\x00\x00position\x00\x04\n\x00\x00\x00CastPoint\x00\x04\x07\x00\x00\x00length\x00\x03\x00\x00\x00\x00\x00\x00I@\x04\x10\x00\x00\x00ParticleEmitter\x00\x04\x10\x00\x00\x00SetOriginOffset\x00\x03\x00\x00\x00\x00\x00\x00\x1c@\x04\x08\x00\x00\x00Vector3\x00\x04\x04\x00\x00\x00New\x00\x03\x00\x00\x00\x00\x00\x00\x00\x00\x04\x14\x00\x00\x00SetParameterAtIndex\x00\x03\x00\x00\x00\x00\x00\x00\x00@\x04\x08\x00\x00\x00Program\x00\x04\x05\x00\x00\x00Wait\x00\x03{\x14\xaeG\xe1z\x94?\x00\x00\x00\x00.\x00\x00\x00\x01\x00\x00\x00\x03\x00\x00\x00\x03\x00\x00\x00\x03\x00\x00\x00\x03\x00\x00\x00\x05\x00\x00\x00\x05\x00\x00\x00\x05\x00\x00\x00\x07\x00\x00\x00\x07\x00\x00\x00\x07\x00\x00\x00\x07\x00\x00\x00\x08\x00\x00\x00\x08\x00\x00\x00\x08\x00\x00\x00\x08\x00\x00\x00\x08\x00\x00\x00\x08\x00\x00\x00\x08\x00\x00\x00\t\x00\x00\x00\t\x00\x00\x00\t\x00\x00\x00\x0b\x00\x00\x00\x0b\x00\x00\x00\x0b\x00\x00\x00\x0b\x00\x00\x00\x0b\x00\x00\x00\x0b\x00\x00\x00\x0b\x00\x00\x00\x0b\x00\x00\x00\x0b\x00\x00\x00\x0b\x00\x00\x00\x0b\x00\x00\x00\x0c\x00\x00\x00\x0c\x00\x00\x00\x0c\x00\x00\x00\x0c\x00\x00\x00\x0c\x00\x00\x00\x0c\x00\x00\x00\x0c\x00\x00\x00\x0e\x00\x00\x00\x0e\x00\x00\x00\x0e\x00\x00\x00\x0e\x00\x00\x00\x0e\x00\x00\x00\x10\x00\x00\x00\x04\x00\x00\x00\x05\x00\x00\x00self\x00\x01\x00\x00\x00-\x00\x00\x00\x07\x00\x00\x00caster\x00\x05\x00\x00\x00-\x00\x00\x00\x06\x00\x00\x00delta\x00\x13\x00\x00\x00,\x00\x00\x00\t\x00\x00\x00distance\x00\x16\x00\x00\x00,\x00\x00\x00\x00\x00\x00\x00 (12 @ 3819)
+				}
+			}
+		}
+
+        component sub-sub-block { (1a @ 3c8c)
+
+            component type : PhysicsObject (0a @ 3c8e)
+            number : 113(10 @ 3c9d)
+
+            physics object sub-sub-sub-block { (4fa @ 3ca0)
+
+                u0 : 1(08 @ 3ca2)
+                u2 : 0.0 (1d @ 3ca4)
+                u3 : 1500.0 (25 @ 3ca9)
+                u4 : 0.0 (2d @ 3cae)
+                u5 : 2000.0 (35 @ 3cb3)
+                u6 : 0(38 @ 3cb8)
+                u7 : 0.0 (45 @ 3cba)
+			}
+		}
+
+        position sub-sub-block { (22 @ 3cbf)
+
+            x position : 0.0 (0d @ 3cc1)
+            y position : 0.0 (15 @ 3cc6)
+		}
+        z position : 0.0 (2d @ 3ccb)
+        rotation : 0.0 (35 @ 3cd0)
+        scale : 1.0 (3d @ 3cd5)
+
+        u0 sub-sub-block { (42 @ 3cda)
+
+            w : -400.0 (0d @ 3cdc)
+            x : -50.0 (15 @ 3ce1)
+            y : 450.0 (1d @ 3ce6)
+            z : 100.0 (25 @ 3ceb)
+		}
+        hidden : 0(48 @ 3cf0)
+	}
+    u0 : 1.0 (15 @ 3cf2)
+}
+
+?item block { (12 @ 3cf7)
+
+
+    ?sub-item sub-block { (0a @ 3cfa)
+
+        name : magic_hookshot_old (12 @ 3cfd)
+
+        component sub-sub-block { (1a @ 3d11)
+
+            component type : SimpleGlow (0a @ 3d13)
+            number : 1(10 @ 3d1f)
+
+            simple glow sub-sub-sub-block { (7f2 @ 3d22)
+
+
+                u0 sub-sub-sub-sub-block { (0a @ 3d24)
+
+                    w : 0.18888889253139496 (0d @ 3d26)
+                    x : 0.5 (15 @ 3d2b)
+                    y : 1.0 (1d @ 3d30)
+                    z : 0.5 (25 @ 3d35)
+				}
+                u1 : 20.0 (15 @ 3d3a)
+                u2 : 10(18 @ 3d3f)
+                u3 : 15.0 (25 @ 3d41)
+                u4 : 0.15000000596046448 (2d @ 3d46)
+                u5 : 0.800000011920929 (35 @ 3d4b)
+
+                u6 sub-sub-sub-sub-block { (3a @ 3d50)
+
+                    y : 0.0 (0d @ 3d52)
+                    z : 0.0 (15 @ 3d57)
+				}
+			}
+		}
+
+        component sub-sub-block { (1a @ 3d5c)
+
+            component type : CollisionShape (0a @ 3d5e)
+            number : 2(10 @ 3d6e)
+
+            collision shape sub-sub-sub-block { (3c2 @ 3d71)
+
+
+                u0 sub-sub-sub-sub-block { (0a @ 3d73)
+
+                    w : -8.0 (0d @ 3d75)
+                    x : -8.0 (15 @ 3d7a)
+                    y : 16.0 (1d @ 3d7f)
+                    z : 16.0 (25 @ 3d84)
+				}
+			}
+
+            collision shape 2 sub-sub-sub-block { (3ca @ 3d8a)
+
+                u3 : 1(28 @ 3d8c)
+                w : -15.0 (35 @ 3d8e)
+                x : 15.0 (3d @ 3d93)
+                z : 1(58 @ 3d98)
+			}
+		}
+
+        component sub-sub-block { (1a @ 3d9a)
+
+            component type : CollisionShape (0a @ 3d9c)
+            number : 3(10 @ 3dac)
+
+            collision shape sub-sub-sub-block { (3c2 @ 3daf)
+
+
+                u0 sub-sub-sub-sub-block { (0a @ 3db1)
+
+                    w : -400.0 (0d @ 3db3)
+                    x : -5.0 (15 @ 3db8)
+                    y : 400.0 (1d @ 3dbd)
+                    z : 10.0 (25 @ 3dc2)
+				}
+			}
+
+            collision shape 2 sub-sub-sub-block { (3ca @ 3dc8)
+
+                w : -15.0 (35 @ 3dca)
+                x : 15.0 (3d @ 3dcf)
+                z : 1(58 @ 3dd4)
+			}
+		}
+
+        component sub-sub-block { (1a @ 3dd6)
+
+            component type : Damage (0a @ 3dd8)
+            number : 4(10 @ 3de0)
+
+            damage sub-sub-sub-block { (3d2 @ 3de3)
+
+                u0 : 2(08 @ 3de5)
+                u1 : 1(10 @ 3de7)
+                u2 : 0(18 @ 3de9)
+                u5 : 1.0 (35 @ 3deb)
+                u6 : 0.0 (3d @ 3df0)
+                u7 : 0(40 @ 3df5)
+                u8 : 1(48 @ 3df7)
+			}
+		}
+
+        component sub-sub-block { (1a @ 3df9)
+
+            component type : SoundEffect (0a @ 3dfb)
+            number : 5(10 @ 3e08)
+
+            sound effect sub-sub-sub-block { (462 @ 3e0b)
+
+                sound : sword_impact3 (0a @ 3e0d)
+                u0 : 0.0 (15 @ 3e1c)
+                u1 : 1.0 (1d @ 3e21)
+			}
+		}
+
+        component sub-sub-block { (1a @ 3e26)
+
+            component type : Light (0a @ 3e28)
+            number : 6(10 @ 3e2f)
+
+            light sub-sub-sub-block { (412 @ 3e32)
+
+                u0 : 3(08 @ 3e34)
+                u1 : 10.0 (15 @ 3e36)
+
+                u2 sub-sub-sub-sub-block { (1a @ 3e3b)
+
+                    w : 0.6000000238418579 (0d @ 3e3d)
+                    x : 0.6857142448425293 (15 @ 3e42)
+                    y : 1.0 (1d @ 3e47)
+                    z : 1.0 (25 @ 3e4c)
+				}
+                u3 : 0.0 (25 @ 3e51)
+                u4 : 0.00019999999494757503 (2d @ 3e56)
+
+                u5 sub-sub-sub-sub-block { (32 @ 3e5b)
+
+                    x : 0.0 (0d @ 3e5d)
+                    y : 0.0 (15 @ 3e62)
+                    z : 0.0 (1d @ 3e67)
+				}
+                u6 : 250.0 (3d @ 3e6c)
+			}
+		}
+
+        component sub-sub-block { (1a @ 3e71)
+
+            component type : ParticleEmitter (0a @ 3e74)
+            number : 7(10 @ 3e85)
+            name : trail1 (1a @ 3e87)
+
+            particle emitter sub-sub-sub-block { (7d2 @ 3e90)
+
+                particle : 103(10 @ 3e93)
+                particle : 104(10 @ 3e95)
+                particle : 105(10 @ 3e97)
+                u1 : 0(18 @ 3e99)
+                u2 : 30(20 @ 3e9b)
+                u3 : 102(28 @ 3e9d)
+                u4 : 0(30 @ 3e9f)
+
+                u5 sub-sub-sub-sub-block { (3a @ 3ea1)
+
+                    u0 : 5(08 @ 3ea4)
+
+                    u1 sub-sub-sub-sub-sub-block { (12 @ 3ea6)
+
+                        w : 0.0 (0d @ 3ea8)
+                        x : 0.3466666638851166 (15 @ 3ead)
+                        y : 0.8666667342185974 (1d @ 3eb2)
+                        z : 0.0 (25 @ 3eb7)
+					}
+                    u2 : 0.0 (1d @ 3ebc)
+                    u2 : 2.0 (1d @ 3ec1)
+                    u2 : 200.0 (1d @ 3ec6)
+                    u2 : 0.0 (1d @ 3ecb)
+                    u2 : 0.0 (1d @ 3ed0)
+                    u2 : 400.0 (1d @ 3ed5)
+                    u2 : 0.5 (1d @ 3eda)
+                    u2 : 0.0 (1d @ 3edf)
+                    u2 : 0.30000001192092896 (1d @ 3ee4)
+                    u2 : 1.0 (1d @ 3ee9)
+                    u2 : 1.0 (1d @ 3eee)
+                    u2 : 0.001500000013038516 (1d @ 3ef3)
+                    u2 : 0.15000000596046448 (1d @ 3ef8)
+                    u2 : 0.0 (1d @ 3efd)
+                    u2 : 0.10000000149011612 (1d @ 3f02)
+                    u3 : 0.0 (25 @ 3f07)
+                    u4 : 0.0 (2d @ 3f0c)
+                    u5 : 0.10000000149011612 (35 @ 3f11)
+
+                    u6 sub-sub-sub-sub-sub-block { (3a @ 3f16)
+
+                        u0 : -240.0 (0d @ 3f18)
+                        u1 : 0.0 (15 @ 3f1d)
+                        u2 : 0.0 (1d @ 3f22)
+					}
+				}
+                u6 : 1(40 @ 3f27)
+			}
+		}
+
+        component sub-sub-block { (1a @ 3f29)
+
+            component type : ParticleEmitter (0a @ 3f2c)
+            number : 8(10 @ 3f3d)
+            name : trail2 (1a @ 3f3f)
+
+            particle emitter sub-sub-sub-block { (7d2 @ 3f48)
+
+                particle : 103(10 @ 3f4b)
+                particle : 104(10 @ 3f4d)
+                particle : 105(10 @ 3f4f)
+                u1 : 0(18 @ 3f51)
+                u2 : 30(20 @ 3f53)
+                u3 : 102(28 @ 3f55)
+                u4 : 0(30 @ 3f57)
+
+                u5 sub-sub-sub-sub-block { (3a @ 3f59)
+
+                    u0 : 5(08 @ 3f5c)
+
+                    u1 sub-sub-sub-sub-sub-block { (12 @ 3f5e)
+
+                        w : 0.022222280502319336 (0d @ 3f60)
+                        x : 0.41333335638046265 (15 @ 3f65)
+                        y : 1.0 (1d @ 3f6a)
+                        z : 0.0 (25 @ 3f6f)
+					}
+                    u2 : 0.0 (1d @ 3f74)
+                    u2 : 10.0 (1d @ 3f79)
+                    u2 : 50.0 (1d @ 3f7e)
+                    u2 : 0.0 (1d @ 3f83)
+                    u2 : 0.0 (1d @ 3f88)
+                    u2 : 400.0 (1d @ 3f8d)
+                    u2 : 0.0 (1d @ 3f92)
+                    u2 : 0.0 (1d @ 3f97)
+                    u2 : 0.30000001192092896 (1d @ 3f9c)
+                    u2 : 1.0 (1d @ 3fa1)
+                    u2 : 1.0 (1d @ 3fa6)
+                    u2 : 0.003000000026077032 (1d @ 3fab)
+                    u2 : 0.15000000596046448 (1d @ 3fb0)
+                    u2 : 0.0 (1d @ 3fb5)
+                    u2 : 0.0 (1d @ 3fba)
+                    u3 : 0.0 (25 @ 3fbf)
+                    u4 : 0.0 (2d @ 3fc4)
+                    u5 : 0.0 (35 @ 3fc9)
+
+                    u6 sub-sub-sub-sub-sub-block { (3a @ 3fce)
+
+                        u0 : -80.0 (0d @ 3fd0)
+                        u1 : 0.0 (15 @ 3fd5)
+                        u2 : 0.0 (1d @ 3fda)
+					}
+				}
+                u6 : 1(40 @ 3fdf)
+			}
+		}
+
+        component sub-sub-block { (1a @ 3fe1)
+
+            component type : ParticleEmitter (0a @ 3fe4)
+            number : 102(10 @ 3ff5)
+            name : bolt1 (1a @ 3ff7)
+
+            particle emitter sub-sub-sub-block { (7d2 @ 3fff)
+
+                particle : 103(10 @ 4001)
+                particle : 104(10 @ 4003)
+                particle : 105(10 @ 4005)
+                u1 : 0(18 @ 4007)
+                u2 : 200(20 @ 4009)
+                u3 : 0(28 @ 400c)
+                u4 : 0(30 @ 400e)
+
+                u5 sub-sub-sub-sub-block { (3a @ 4010)
+
+                    u0 : 3(08 @ 4012)
+
+                    u1 sub-sub-sub-sub-sub-block { (12 @ 4014)
+
+                        w : 0.0 (0d @ 4016)
+                        x : 0.18888887763023376 (15 @ 401b)
+                        y : 0.4444444477558136 (1d @ 4020)
+                        z : 0.0 (25 @ 4025)
+					}
+                    u2 : 0.014999999664723873 (1d @ 402a)
+                    u2 : 0.15000000596046448 (1d @ 402f)
+                    u2 : 0.699999988079071 (1d @ 4034)
+                    u2 : 7.0 (1d @ 4039)
+                    u2 : 0.6000000238418579 (1d @ 403e)
+                    u2 : 0.0 (1d @ 4043)
+                    u2 : 1.0 (1d @ 4048)
+                    u3 : 0.0 (25 @ 404d)
+                    u4 : 0.0 (2d @ 4052)
+                    u5 : 0.0 (35 @ 4057)
+
+                    u6 sub-sub-sub-sub-sub-block { (3a @ 405c)
+
+                        u0 : 0.0 (0d @ 405e)
+                        u1 : 0.0 (15 @ 4063)
+                        u2 : 0.0 (1d @ 4068)
+					}
+				}
+                u6 : 1(40 @ 406d)
+			}
+		}
+
+        component sub-sub-block { (1a @ 406f)
+
+            component type : Particle (0a @ 4071)
+            number : 103(10 @ 407b)
+
+            particle sub-sub-sub-block { (7da @ 407e)
+
+                name : particle_fure_1 (0a @ 4080)
+                u0 : 40.0 (15 @ 4091)
+			}
+		}
+
+        component sub-sub-block { (1a @ 4096)
+
+            component type : Particle (0a @ 4098)
+            number : 104(10 @ 40a2)
+
+            particle sub-sub-sub-block { (7da @ 40a5)
+
+                name : particle_fure_2 (0a @ 40a7)
+                u0 : 40.0 (15 @ 40b8)
+			}
+		}
+
+        component sub-sub-block { (1a @ 40bd)
+
+            component type : Particle (0a @ 40bf)
+            number : 105(10 @ 40c9)
+
+            particle sub-sub-sub-block { (7da @ 40cc)
+
+                name : particle_fure_3 (0a @ 40ce)
+                u0 : 40.0 (15 @ 40df)
+			}
+		}
+
+        component sub-sub-block { (1a @ 40e4)
+
+            component type : ParticleEmitter (0a @ 40e7)
+            number : 109(10 @ 40f8)
+            name : bolt2 (1a @ 40fa)
+
+            particle emitter sub-sub-sub-block { (7d2 @ 4102)
+
+                particle : 103(10 @ 4104)
+                particle : 104(10 @ 4106)
+                particle : 105(10 @ 4108)
+                u1 : 0(18 @ 410a)
+                u2 : 30(20 @ 410c)
+                u3 : 102(28 @ 410e)
+                u4 : 0(30 @ 4110)
+
+                u5 sub-sub-sub-sub-block { (3a @ 4112)
+
+                    u0 : 3(08 @ 4114)
+
+                    u1 sub-sub-sub-sub-sub-block { (12 @ 4116)
+
+                        w : 0.35555556416511536 (0d @ 4118)
+                        x : 0.35555556416511536 (15 @ 411d)
+                        y : 0.35555556416511536 (1d @ 4122)
+                        z : 0.0 (25 @ 4127)
+					}
+                    u2 : 0.014999999664723873 (1d @ 412c)
+                    u2 : 0.15000000596046448 (1d @ 4131)
+                    u2 : 0.4000000059604645 (1d @ 4136)
+                    u2 : 7.0 (1d @ 413b)
+                    u2 : 1.0 (1d @ 4140)
+                    u2 : 0.0 (1d @ 4145)
+                    u2 : 1.0 (1d @ 414a)
+                    u3 : 0.0 (25 @ 414f)
+                    u4 : 0.0 (2d @ 4154)
+                    u5 : 0.0 (35 @ 4159)
+
+                    u6 sub-sub-sub-sub-sub-block { (3a @ 415e)
+
+                        u0 : 0.0 (0d @ 4160)
+                        u1 : 0.0 (15 @ 4165)
+                        u2 : 0.0 (1d @ 416a)
+					}
+				}
+                u6 : 1(40 @ 416f)
+			}
+		}
+
+        component sub-sub-block { (1a @ 4171)
+
+            component type : MagicHookshot (0a @ 4174)
+            number : 112(10 @ 4183)
+
+            magic hookshot sub-sub-sub-block { (116a @ 4186)
+
+                particle emitter component : 102(08 @ 4188)
+                u0 : 0(10 @ 418a)
+                u1 : 5(18 @ 418c)
+
+                u2 sub-sub-sub-sub-block { (22 @ 418e)
+
+                    w : 0.05400000140070915 (0d @ 4190)
+                    x : 0.20000000298023224 (15 @ 4195)
+                    y : 0.4000000059604645 (1d @ 419a)
+                    z : 0.0 (25 @ 419f)
+				}
+                u3 : 0(28 @ 41a4)
+			}
+
+            temp0 sub-sub-sub-block { (1172 @ 41a7)
+
+
+                lua chunk sub-sub-sub-sub-block { (0a @ 41aa)
+
+                    main chunk : chunk >
+
+                    === lua =============
+                    local self = ...;
+                    
+                    local caster = Spell.CasterObject(self);
+                    
+                    if caster ~= nil then
+                    
+                    	while self:isAlive() do 
+                    		local delta = self:position() - caster:position();
+                    		local distance = delta:length();
+                    
+                    		local shortDistance = distance;
+                    		if shortDistance > 50 then shortDistance = 50; end
+                    
+                    		ParticleEmitter.SetOriginOffset(self, 7, Vector3.New(-distance, 0, 0));
+                    		ParticleEmitter.SetParameterAtIndex(self, 7, 2, distance - 40);
+                    
+                    		ParticleEmitter.SetOriginOffset(self, 8, Vector3.New(-shortDistance, 0, 0));
+                    		ParticleEmitter.SetParameterAtIndex(self, 8, 2, shortDistance - 30);
+                    
+                    	
+                    
+                    		Program.Wait(0.02);
+                    	end
+                    end
+
+                    =====================
+                    secondary chunk : \x1bLuaQ\x00\x01\x04\x04\x04\x08\x00|\x02\x00\x00local self = ...;\r\n\r\nlocal caster = Spell.CasterObject(self);\r\n\r\nif caster ~= nil then\r\n\r\n\twhile self:isAlive() do \r\n\t\tlocal delta = self:position() - caster:position();\r\n\t\tlocal distance = delta:length();\r\n\r\n\t\tlocal shortDistance = distance;\r\n\t\tif shortDistance > 50 then shortDistance = 50; end\r\n\r\n\t\tParticleEmitter.SetOriginOffset(self, 7, Vector3.New(-distance, 0, 0));\r\n\t\tParticleEmitter.SetParameterAtIndex(self, 7, 2, distance - 40);\r\n\r\n\t\tParticleEmitter.SetOriginOffset(self, 8, Vector3.New(-shortDistance, 0, 0));\r\n\t\tParticleEmitter.SetParameterAtIndex(self, 8, 2, shortDistance - 30);\r\n\r\n\t\r\n\r\n\t\tProgram.Wait(0.02);\r\n\tend\r\nend\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x02\x0c@\x00\x00\x00%\x00\x00\x01E\x00\x00\x00F@\xc0\x00\x80\x00\x00\x00\\\x80\x00\x01W\x80\xc0\x00\x16\xc0\r\x80\x8b\xc0@\x00\x9c\x80\x00\x01\x9a\x00\x00\x00\x16\xc0\x0c\x80\x8b\x00A\x00\x9c\x80\x00\x01\xcb\x00\xc1\x00\xdc\x80\x00\x01\x8d\xc0\x00\x01\xcb@A\x01\xdc\x80\x00\x01\x00\x01\x80\x01\x18\x00\x01\x83\x16\x00\x00\x80\x01\x81\x01\x00E\xc1\x01\x00F\x01\xc2\x02\x80\x01\x00\x00\xc1A\x02\x00\x05\x82\x02\x00\x06\xc2B\x04R\x02\x80\x01\x81\x02\x03\x00\xc1\x02\x03\x00\x1c\x02\x00\x02\\A\x00\x00E\xc1\x01\x00FA\xc3\x02\x80\x01\x00\x00\xc1A\x02\x00\x01\x82\x03\x00M\xc2\xc3\x01\\A\x80\x02E\xc1\x01\x00F\x01\xc2\x02\x80\x01\x00\x00\xc1\x01\x04\x00\x05\x82\x02\x00\x06\xc2B\x04R\x02\x00\x02\x81\x02\x03\x00\xc1\x02\x03\x00\x1c\x02\x00\x02\\A\x00\x00E\xc1\x01\x00FA\xc3\x02\x80\x01\x00\x00\xc1\x01\x04\x00\x01\x82\x03\x00MBD\x02\\A\x80\x02E\x81\x04\x00F\xc1\xc4\x02\x81\x01\x05\x00\\A\x00\x01\x16\xc0\xf1\x7f\x1e\x00\x80\x00\x15\x00\x00\x00\x04\x06\x00\x00\x00Spell\x00\x04\r\x00\x00\x00CasterObject\x00\x00\x04\x08\x00\x00\x00isAlive\x00\x04\t\x00\x00\x00position\x00\x04\x07\x00\x00\x00length\x00\x03\x00\x00\x00\x00\x00\x00I@\x04\x10\x00\x00\x00ParticleEmitter\x00\x04\x10\x00\x00\x00SetOriginOffset\x00\x03\x00\x00\x00\x00\x00\x00\x1c@\x04\x08\x00\x00\x00Vector3\x00\x04\x04\x00\x00\x00New\x00\x03\x00\x00\x00\x00\x00\x00\x00\x00\x04\x14\x00\x00\x00SetParameterAtIndex\x00\x03\x00\x00\x00\x00\x00\x00\x00@\x03\x00\x00\x00\x00\x00\x00D@\x03\x00\x00\x00\x00\x00\x00 @\x03\x00\x00\x00\x00\x00\x00>@\x04\x08\x00\x00\x00Program\x00\x04\x05\x00\x00\x00Wait\x00\x03{\x14\xaeG\xe1z\x94?\x00\x00\x00\x00@\x00\x00\x00\x01\x00\x00\x00\x03\x00\x00\x00\x03\x00\x00\x00\x03\x00\x00\x00\x03\x00\x00\x00\x05\x00\x00\x00\x05\x00\x00\x00\x07\x00\x00\x00\x07\x00\x00\x00\x07\x00\x00\x00\x07\x00\x00\x00\x08\x00\x00\x00\x08\x00\x00\x00\x08\x00\x00\x00\x08\x00\x00\x00\x08\x00\x00\x00\t\x00\x00\x00\t\x00\x00\x00\x0b\x00\x00\x00\x0c\x00\x00\x00\x0c\x00\x00\x00\x0c\x00\x00\x00\x0e\x00\x00\x00\x0e\x00\x00\x00\x0e\x00\x00\x00\x0e\x00\x00\x00\x0e\x00\x00\x00\x0e\x00\x00\x00\x0e\x00\x00\x00\x0e\x00\x00\x00\x0e\x00\x00\x00\x0e\x00\x00\x00\x0e\x00\x00\x00\x0f\x00\x00\x00\x0f\x00\x00\x00\x0f\x00\x00\x00\x0f\x00\x00\x00\x0f\x00\x00\x00\x0f\x00\x00\x00\x0f\x00\x00\x00\x11\x00\x00\x00\x11\x00\x00\x00\x11\x00\x00\x00\x11\x00\x00\x00\x11\x00\x00\x00\x11\x00\x00\x00\x11\x00\x00\x00\x11\x00\x00\x00\x11\x00\x00\x00\x11\x00\x00\x00\x11\x00\x00\x00\x12\x00\x00\x00\x12\x00\x00\x00\x12\x00\x00\x00\x12\x00\x00\x00\x12\x00\x00\x00\x12\x00\x00\x00\x12\x00\x00\x00\x16\x00\x00\x00\x16\x00\x00\x00\x16\x00\x00\x00\x16\x00\x00\x00\x16\x00\x00\x00\x18\x00\x00\x00\x05\x00\x00\x00\x05\x00\x00\x00self\x00\x01\x00\x00\x00?\x00\x00\x00\x07\x00\x00\x00caster\x00\x05\x00\x00\x00?\x00\x00\x00\x06\x00\x00\x00delta\x00\x10\x00\x00\x00>\x00\x00\x00\t\x00\x00\x00distance\x00\x12\x00\x00\x00>\x00\x00\x00\x0e\x00\x00\x00shortDistance\x00\x13\x00\x00\x00>\x00\x00\x00\x00\x00\x00\x00 (12 @ 442b)
+				}
+			}
+		}
+
+        component sub-sub-block { (1a @ 4a40)
+
+            component type : PhysicsObject (0a @ 4a42)
+            number : 113(10 @ 4a51)
+
+            physics object sub-sub-sub-block { (4fa @ 4a54)
+
+                u0 : 1(08 @ 4a56)
+                u2 : 0.0 (1d @ 4a58)
+                u3 : 1500.0 (25 @ 4a5d)
+                u4 : 0.0 (2d @ 4a62)
+                u5 : 2000.0 (35 @ 4a67)
+                u6 : 0(38 @ 4a6c)
+                u7 : 0.0 (45 @ 4a6e)
+			}
+		}
+
+        position sub-sub-block { (22 @ 4a73)
+
+            x position : 0.0 (0d @ 4a75)
+            y position : 0.0 (15 @ 4a7a)
+		}
+        z position : 0.0 (2d @ 4a7f)
+        rotation : 0.0 (35 @ 4a84)
+        scale : 1.0 (3d @ 4a89)
+
+        u0 sub-sub-block { (42 @ 4a8e)
+
+            w : -400.0 (0d @ 4a90)
+            x : -50.0 (15 @ 4a95)
+            y : 450.0 (1d @ 4a9a)
+            z : 100.0 (25 @ 4a9f)
+		}
+        hidden : 0(48 @ 4aa4)
+	}
+    u0 : 1.0 (15 @ 4aa6)
+}
+
+?item block { (12 @ 4aab)
+
+
+    ?sub-item sub-block { (0a @ 4aae)
+
+        name : magic_hookshot_shadow (12 @ 4ab1)
+
+        component sub-sub-block { (1a @ 4ac8)
+
+            component type : SimpleGlow (0a @ 4aca)
+            number : 1(10 @ 4ad6)
+
+            simple glow sub-sub-sub-block { (7f2 @ 4ad9)
+
+
+                u0 sub-sub-sub-sub-block { (0a @ 4adb)
+
+                    w : 0.3644446134567261 (0d @ 4add)
+                    x : 0.18888890743255615 (15 @ 4ae2)
+                    y : 1.0 (1d @ 4ae7)
+                    z : 0.5 (25 @ 4aec)
+				}
+                u1 : 25.0 (15 @ 4af1)
+                u2 : 20(18 @ 4af6)
+                u3 : 15.0 (25 @ 4af8)
+                u4 : 0.15000000596046448 (2d @ 4afd)
+                u5 : 0.800000011920929 (35 @ 4b02)
+
+                u6 sub-sub-sub-sub-block { (3a @ 4b07)
+
+                    y : 0.0 (0d @ 4b09)
+                    z : 0.0 (15 @ 4b0e)
+				}
+			}
+		}
+
+        component sub-sub-block { (1a @ 4b13)
+
+            component type : CollisionShape (0a @ 4b15)
+            number : 2(10 @ 4b25)
+
+            collision shape sub-sub-sub-block { (3c2 @ 4b28)
+
+
+                u0 sub-sub-sub-sub-block { (0a @ 4b2a)
+
+                    w : -8.0 (0d @ 4b2c)
+                    x : -8.0 (15 @ 4b31)
+                    y : 16.0 (1d @ 4b36)
+                    z : 16.0 (25 @ 4b3b)
+				}
+			}
+
+            collision shape 2 sub-sub-sub-block { (3ca @ 4b41)
+
+                u1 : 1(18 @ 4b43)
+                u3 : 1(28 @ 4b45)
+                w : -15.0 (35 @ 4b47)
+                x : 15.0 (3d @ 4b4c)
+                z : 1(58 @ 4b51)
+			}
+		}
+
+        component sub-sub-block { (1a @ 4b53)
+
+            component type : CollisionShape (0a @ 4b55)
+            number : 3(10 @ 4b65)
+
+            collision shape sub-sub-sub-block { (3c2 @ 4b68)
+
+
+                u0 sub-sub-sub-sub-block { (0a @ 4b6a)
+
+                    w : -400.0 (0d @ 4b6c)
+                    x : -5.0 (15 @ 4b71)
+                    y : 400.0 (1d @ 4b76)
+                    z : 10.0 (25 @ 4b7b)
+				}
+			}
+
+            collision shape 2 sub-sub-sub-block { (3ca @ 4b81)
+
+                w : -15.0 (35 @ 4b83)
+                x : 15.0 (3d @ 4b88)
+                z : 1(58 @ 4b8d)
+			}
+		}
+
+        component sub-sub-block { (1a @ 4b8f)
+
+            component type : Damage (0a @ 4b91)
+            number : 4(10 @ 4b99)
+
+            damage sub-sub-sub-block { (3d2 @ 4b9c)
+
+                u0 : 2(08 @ 4b9e)
+                u1 : 1(10 @ 4ba0)
+                u2 : 0(18 @ 4ba2)
+                u5 : 1.0 (35 @ 4ba4)
+                u6 : 0.0 (3d @ 4ba9)
+                u7 : 0(40 @ 4bae)
+                u8 : 1(48 @ 4bb0)
+			}
+		}
+
+        component sub-sub-block { (1a @ 4bb2)
+
+            component type : SoundEffect (0a @ 4bb4)
+            number : 5(10 @ 4bc1)
+
+            sound effect sub-sub-sub-block { (462 @ 4bc4)
+
+                sound : hookshot_hit1 (0a @ 4bc6)
+                u0 : 0.0 (15 @ 4bd5)
+                u1 : 1.0 (1d @ 4bda)
+			}
+		}
+
+        component sub-sub-block { (1a @ 4bdf)
+
+            component type : Light (0a @ 4be1)
+            number : 6(10 @ 4be8)
+
+            light sub-sub-sub-block { (412 @ 4beb)
+
+                u0 : 3(08 @ 4bed)
+                u1 : 2.0 (15 @ 4bef)
+
+                u2 sub-sub-sub-sub-block { (1a @ 4bf4)
+
+                    w : 0.674285888671875 (0d @ 4bf6)
+                    x : 0.6000000238418579 (15 @ 4bfb)
+                    y : 1.0 (1d @ 4c00)
+                    z : 1.0 (25 @ 4c05)
+				}
+                u3 : 0.0 (25 @ 4c0a)
+                u4 : 0.00019999999494757503 (2d @ 4c0f)
+
+                u5 sub-sub-sub-sub-block { (32 @ 4c14)
+
+                    x : 0.0 (0d @ 4c16)
+                    y : 0.0 (15 @ 4c1b)
+                    z : 0.0 (1d @ 4c20)
+				}
+                u6 : 250.0 (3d @ 4c25)
+			}
+		}
+
+        component sub-sub-block { (1a @ 4c2a)
+
+            component type : SoundEffect (0a @ 4c2c)
+            number : 7(10 @ 4c39)
+
+            sound effect sub-sub-sub-block { (462 @ 4c3c)
+
+                sound : hookshot_cast (0a @ 4c3e)
+                u0 : 0.0 (15 @ 4c4d)
+                u1 : 1.0 (1d @ 4c52)
+			}
+		}
+
+        component sub-sub-block { (1a @ 4c57)
+
+            component type : ParticleEmitter (0a @ 4c5a)
+            number : 102(10 @ 4c6b)
+            name : bolt1 (1a @ 4c6d)
+
+            particle emitter sub-sub-sub-block { (7d2 @ 4c75)
+
+                particle : 103(10 @ 4c77)
+                particle : 104(10 @ 4c79)
+                particle : 105(10 @ 4c7b)
+                u1 : 0(18 @ 4c7d)
+                u2 : 200(20 @ 4c7f)
+                u3 : 0(28 @ 4c82)
+                u4 : 0(30 @ 4c84)
+
+                u5 sub-sub-sub-sub-block { (3a @ 4c86)
+
+                    u0 : 3(08 @ 4c88)
+
+                    u1 sub-sub-sub-sub-sub-block { (12 @ 4c8a)
+
+                        w : 0.3888888955116272 (0d @ 4c8c)
+                        x : 0.3888888955116272 (15 @ 4c91)
+                        y : 0.3888888955116272 (1d @ 4c96)
+                        z : 0.0 (25 @ 4c9b)
+					}
+                    u2 : 0.014999999664723873 (1d @ 4ca0)
+                    u2 : 0.15000000596046448 (1d @ 4ca5)
+                    u2 : 0.8999999761581421 (1d @ 4caa)
+                    u2 : 15.0 (1d @ 4caf)
+                    u2 : 0.6000000238418579 (1d @ 4cb4)
+                    u2 : 0.0 (1d @ 4cb9)
+                    u2 : 1.0 (1d @ 4cbe)
+                    u3 : 0.0 (25 @ 4cc3)
+                    u4 : 0.0 (2d @ 4cc8)
+                    u5 : 0.0 (35 @ 4ccd)
+
+                    u6 sub-sub-sub-sub-sub-block { (3a @ 4cd2)
+
+                        u0 : 0.0 (0d @ 4cd4)
+                        u1 : 0.0 (15 @ 4cd9)
+                        u2 : 0.0 (1d @ 4cde)
+					}
+				}
+                u6 : 1(40 @ 4ce3)
+			}
+		}
+
+        component sub-sub-block { (1a @ 4ce5)
+
+            component type : Particle (0a @ 4ce7)
+            number : 103(10 @ 4cf1)
+
+            particle sub-sub-sub-block { (7da @ 4cf4)
+
+                name : particle_fure_1 (0a @ 4cf6)
+                u0 : 40.0 (15 @ 4d07)
+			}
+		}
+
+        component sub-sub-block { (1a @ 4d0c)
+
+            component type : Particle (0a @ 4d0e)
+            number : 104(10 @ 4d18)
+
+            particle sub-sub-sub-block { (7da @ 4d1b)
+
+                name : particle_fure_2 (0a @ 4d1d)
+                u0 : 40.0 (15 @ 4d2e)
+			}
+		}
+
+        component sub-sub-block { (1a @ 4d33)
+
+            component type : Particle (0a @ 4d35)
+            number : 105(10 @ 4d3f)
+
+            particle sub-sub-sub-block { (7da @ 4d42)
+
+                name : particle_fure_3 (0a @ 4d44)
+                u0 : 40.0 (15 @ 4d55)
+			}
+		}
+
+        component sub-sub-block { (1a @ 4d5a)
+
+            component type : ParticleEmitter (0a @ 4d5d)
+            number : 109(10 @ 4d6e)
+            name : bolt2 (1a @ 4d70)
+
+            particle emitter sub-sub-sub-block { (7d2 @ 4d78)
+
+                particle : 103(10 @ 4d7a)
+                particle : 104(10 @ 4d7c)
+                particle : 105(10 @ 4d7e)
+                u1 : 0(18 @ 4d80)
+                u2 : 30(20 @ 4d82)
+                u3 : 102(28 @ 4d84)
+                u4 : 0(30 @ 4d86)
+
+                u5 sub-sub-sub-sub-block { (3a @ 4d88)
+
+                    u0 : 3(08 @ 4d8a)
+
+                    u1 sub-sub-sub-sub-sub-block { (12 @ 4d8c)
+
+                        w : 0.466666579246521 (0d @ 4d8e)
+                        x : 0.3333333730697632 (15 @ 4d93)
+                        y : 1.0 (1d @ 4d98)
+                        z : 0.0 (25 @ 4d9d)
+					}
+                    u2 : 0.014999999664723873 (1d @ 4da2)
+                    u2 : 0.0020000000949949026 (1d @ 4da7)
+                    u2 : 0.4000000059604645 (1d @ 4dac)
+                    u2 : 7.0 (1d @ 4db1)
+                    u2 : 1.0 (1d @ 4db6)
+                    u2 : 0.0 (1d @ 4dbb)
+                    u2 : 1.0 (1d @ 4dc0)
+                    u3 : 0.0 (25 @ 4dc5)
+                    u4 : 0.0 (2d @ 4dca)
+                    u5 : 0.0 (35 @ 4dcf)
+
+                    u6 sub-sub-sub-sub-sub-block { (3a @ 4dd4)
+
+                        u0 : 0.0 (0d @ 4dd6)
+                        u1 : 0.0 (15 @ 4ddb)
+                        u2 : 0.0 (1d @ 4de0)
+					}
+				}
+                u6 : 1(40 @ 4de5)
+			}
+		}
+
+        component sub-sub-block { (1a @ 4de7)
+
+            component type : MagicHookshot (0a @ 4dea)
+            number : 112(10 @ 4df9)
+
+            magic hookshot sub-sub-sub-block { (116a @ 4dfc)
+
+                particle emitter component : 102(08 @ 4dfe)
+                u0 : 7(10 @ 4e00)
+                u1 : 5(18 @ 4e02)
+
+                u2 sub-sub-sub-sub-block { (22 @ 4e04)
+
+                    w : 0.15204128623008728 (0d @ 4e06)
+                    x : 0.0 (15 @ 4e0b)
+                    y : 0.8539999127388 (1d @ 4e10)
+                    z : 0.0 (25 @ 4e15)
+				}
+                u3 : 0(28 @ 4e1a)
+			}
+
+            temp0 sub-sub-sub-block { (1172 @ 4e1d)
+
+
+                lua chunk sub-sub-sub-sub-block { (0a @ 4e20)
+
+                    main chunk : chunk >
+
+                    === lua =============
+                    local self = ...;
+                    
+                    local caster = Spell.CasterObject(self);
+                    
+                    if false and caster ~= nil then
+                    
+                    	while self:isAlive() do 
+                    		local delta = self:position() - Spell.CastPoint(self);
+                    		local distance = delta:length() - 50;
+                    
+                    		ParticleEmitter.SetOriginOffset(self, 7, Vector3.New(-distance, 0, 0));
+                    		ParticleEmitter.SetParameterAtIndex(self, 7, 2, distance);
+                    
+                    		Program.Wait(0.02);
+                    	end
+                    end
+
+                    =====================
+                    secondary chunk : \x1bLuaQ\x00\x01\x04\x04\x04\x08\x00\x90\x01\x00\x00local self = ...;\r\n\r\nlocal caster = Spell.CasterObject(self);\r\n\r\nif false and caster ~= nil then\r\n\r\n\twhile self:isAlive() do \r\n\t\tlocal delta = self:position() - Spell.CastPoint(self);\r\n\t\tlocal distance = delta:length() - 50;\r\n\r\n\t\tParticleEmitter.SetOriginOffset(self, 7, Vector3.New(-distance, 0, 0));\r\n\t\tParticleEmitter.SetParameterAtIndex(self, 7, 2, distance);\r\n\r\n\t\tProgram.Wait(0.02);\r\n\tend\r\nend\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x02\x0b.\x00\x00\x00%\x00\x00\x01E\x00\x00\x00F@\xc0\x00\x80\x00\x00\x00\\\x80\x00\x01\x16\x80\t\x80W\x80\xc0\x00\x16\x00\t\x80\x8b\xc0@\x00\x9c\x80\x00\x01\x9a\x00\x00\x00\x16\x00\x08\x80\x8b\x00A\x00\x9c\x80\x00\x01\xc5\x00\x00\x00\xc6@\xc1\x01\x00\x01\x00\x00\xdc\x80\x00\x01\x8d\xc0\x00\x01\xcb\x80A\x01\xdc\x80\x00\x01\xcd\xc0\xc1\x01\x05\x01\x02\x00\x06AB\x02@\x01\x00\x00\x81\x81\x02\x00\xc5\xc1\x02\x00\xc6\x01\xc3\x03\x12\x02\x80\x01AB\x03\x00\x81B\x03\x00\xdc\x01\x00\x02\x1cA\x00\x00\x05\x01\x02\x00\x06\x81C\x02@\x01\x00\x00\x81\x81\x02\x00\xc1\xc1\x03\x00\x00\x02\x80\x01\x1cA\x80\x02\x05\x01\x04\x00\x06AD\x02A\x81\x04\x00\x1cA\x00\x01\x16\x80\xf6\x7f\x1e\x00\x80\x00\x13\x00\x00\x00\x04\x06\x00\x00\x00Spell\x00\x04\r\x00\x00\x00CasterObject\x00\x00\x04\x08\x00\x00\x00isAlive\x00\x04\t\x00\x00\x00position\x00\x04\n\x00\x00\x00CastPoint\x00\x04\x07\x00\x00\x00length\x00\x03\x00\x00\x00\x00\x00\x00I@\x04\x10\x00\x00\x00ParticleEmitter\x00\x04\x10\x00\x00\x00SetOriginOffset\x00\x03\x00\x00\x00\x00\x00\x00\x1c@\x04\x08\x00\x00\x00Vector3\x00\x04\x04\x00\x00\x00New\x00\x03\x00\x00\x00\x00\x00\x00\x00\x00\x04\x14\x00\x00\x00SetParameterAtIndex\x00\x03\x00\x00\x00\x00\x00\x00\x00@\x04\x08\x00\x00\x00Program\x00\x04\x05\x00\x00\x00Wait\x00\x03{\x14\xaeG\xe1z\x94?\x00\x00\x00\x00.\x00\x00\x00\x01\x00\x00\x00\x03\x00\x00\x00\x03\x00\x00\x00\x03\x00\x00\x00\x03\x00\x00\x00\x05\x00\x00\x00\x05\x00\x00\x00\x05\x00\x00\x00\x07\x00\x00\x00\x07\x00\x00\x00\x07\x00\x00\x00\x07\x00\x00\x00\x08\x00\x00\x00\x08\x00\x00\x00\x08\x00\x00\x00\x08\x00\x00\x00\x08\x00\x00\x00\x08\x00\x00\x00\x08\x00\x00\x00\t\x00\x00\x00\t\x00\x00\x00\t\x00\x00\x00\x0b\x00\x00\x00\x0b\x00\x00\x00\x0b\x00\x00\x00\x0b\x00\x00\x00\x0b\x00\x00\x00\x0b\x00\x00\x00\x0b\x00\x00\x00\x0b\x00\x00\x00\x0b\x00\x00\x00\x0b\x00\x00\x00\x0b\x00\x00\x00\x0c\x00\x00\x00\x0c\x00\x00\x00\x0c\x00\x00\x00\x0c\x00\x00\x00\x0c\x00\x00\x00\x0c\x00\x00\x00\x0c\x00\x00\x00\x0e\x00\x00\x00\x0e\x00\x00\x00\x0e\x00\x00\x00\x0e\x00\x00\x00\x0e\x00\x00\x00\x10\x00\x00\x00\x04\x00\x00\x00\x05\x00\x00\x00self\x00\x01\x00\x00\x00-\x00\x00\x00\x07\x00\x00\x00caster\x00\x05\x00\x00\x00-\x00\x00\x00\x06\x00\x00\x00delta\x00\x13\x00\x00\x00,\x00\x00\x00\t\x00\x00\x00distance\x00\x16\x00\x00\x00,\x00\x00\x00\x00\x00\x00\x00 (12 @ 4fb5)
+				}
+			}
+		}
+
+        component sub-sub-block { (1a @ 5428)
+
+            component type : PhysicsObject (0a @ 542a)
+            number : 113(10 @ 5439)
+
+            physics object sub-sub-sub-block { (4fa @ 543c)
+
+                u0 : 1(08 @ 543e)
+                u2 : 0.0 (1d @ 5440)
+                u3 : 1500.0 (25 @ 5445)
+                u4 : 0.0 (2d @ 544a)
+                u5 : 2000.0 (35 @ 544f)
+                u6 : 0(38 @ 5454)
+                u7 : 0.0 (45 @ 5456)
+			}
+		}
+
+        position sub-sub-block { (22 @ 545b)
+
+            x position : 0.0 (0d @ 545d)
+            y position : 0.0 (15 @ 5462)
+		}
+        z position : 0.0 (2d @ 5467)
+        rotation : 0.0 (35 @ 546c)
+        scale : 1.0 (3d @ 5471)
+
+        u0 sub-sub-block { (42 @ 5476)
+
+            w : -400.0 (0d @ 5478)
+            x : -50.0 (15 @ 547d)
+            y : 450.0 (1d @ 5482)
+            z : 100.0 (25 @ 5487)
+		}
+        hidden : 0(48 @ 548c)
+	}
+    u0 : 1.0 (15 @ 548e)
+}
+
+?item block { (12 @ 5493)
+
+
+    ?sub-item sub-block { (0a @ 5496)
+
+        name : magic_spell_cast (12 @ 5499)
+
+        component sub-sub-block { (1a @ 54ab)
+
+            component type : SimpleGlow (0a @ 54ad)
+            number : 1(10 @ 54b9)
+
+            simple glow sub-sub-sub-block { (7f2 @ 54bc)
+
+
+                u0 sub-sub-sub-sub-block { (0a @ 54be)
+
+                    w : 0.16666662693023682 (0d @ 54c0)
+                    x : 0.4999999701976776 (15 @ 54c5)
+                    y : 1.0 (1d @ 54ca)
+                    z : 0.5 (25 @ 54cf)
+				}
+                u1 : 20.0 (15 @ 54d4)
+                u2 : 10(18 @ 54d9)
+                u3 : 15.0 (25 @ 54db)
+                u4 : 0.15000000596046448 (2d @ 54e0)
+                u5 : 0.800000011920929 (35 @ 54e5)
+
+                u6 sub-sub-sub-sub-block { (3a @ 54ea)
+
+                    y : 0.0 (0d @ 54ec)
+                    z : 0.0 (15 @ 54f1)
+				}
+			}
+		}
+
+        component sub-sub-block { (1a @ 54f6)
+
+            component type : ParticleEmitter (0a @ 54f8)
+            number : 102(10 @ 5509)
+
+            particle emitter sub-sub-sub-block { (7d2 @ 550c)
+
+                particle : 103(10 @ 550e)
+                particle : 104(10 @ 5510)
+                particle : 105(10 @ 5512)
+                u1 : 0(18 @ 5514)
+                u2 : 30(20 @ 5516)
+                u3 : 0(28 @ 5518)
+                u4 : 0(30 @ 551a)
+                u6 : 0(40 @ 551c)
+			}
+		}
+
+        component sub-sub-block { (1a @ 551e)
+
+            component type : Particle (0a @ 5520)
+            number : 103(10 @ 552a)
+
+            particle sub-sub-sub-block { (7da @ 552d)
+
+                name : particle_fure_1 (0a @ 552f)
+                u0 : 40.0 (15 @ 5540)
+			}
+		}
+
+        component sub-sub-block { (1a @ 5545)
+
+            component type : Particle (0a @ 5547)
+            number : 104(10 @ 5551)
+
+            particle sub-sub-sub-block { (7da @ 5554)
+
+                name : particle_fure_2 (0a @ 5556)
+                u0 : 40.0 (15 @ 5567)
+			}
+		}
+
+        component sub-sub-block { (1a @ 556c)
+
+            component type : Particle (0a @ 556e)
+            number : 105(10 @ 5578)
+
+            particle sub-sub-sub-block { (7da @ 557b)
+
+                name : particle_fure_3 (0a @ 557d)
+                u0 : 40.0 (15 @ 558e)
+			}
+		}
+
+        component sub-sub-block { (1a @ 5593)
+
+            component type : MagicSpellCast (0a @ 5595)
+            number : 109(10 @ 55a5)
+
+            magic spell cast sub-sub-sub-block { (114a @ 55a8)
+
+                particle emitter : 102(08 @ 55aa)
+                u0 : 0(10 @ 55ac)
+			}
+		}
+
+        position sub-sub-block { (22 @ 55ae)
+
+            x position : 0.0 (0d @ 55b0)
+            y position : 0.0 (15 @ 55b5)
+		}
+        z position : 0.0 (2d @ 55ba)
+        rotation : 0.0 (35 @ 55bf)
+        scale : 1.0 (3d @ 55c4)
+
+        u0 sub-sub-block { (42 @ 55c9)
+
+            w : -10.0 (0d @ 55cb)
+            x : -10.0 (15 @ 55d0)
+            y : 20.0 (1d @ 55d5)
+            z : 20.0 (25 @ 55da)
+		}
+        hidden : 0(48 @ 55df)
+	}
+    u0 : 1.0 (15 @ 55e1)
+}
+
+?item block { (12 @ 55e6)
+
+
+    ?sub-item sub-block { (0a @ 55e9)
+
+        name : magic_spell_cast_fire (12 @ 55ec)
+
+        component sub-sub-block { (1a @ 5603)
+
+            component type : SimpleGlow (0a @ 5605)
+            number : 1(10 @ 5611)
+
+            simple glow sub-sub-sub-block { (7f2 @ 5614)
+
+
+                u0 sub-sub-sub-sub-block { (0a @ 5616)
+
+                    w : 1.0 (0d @ 5618)
+                    x : 0.4444446265697479 (15 @ 561d)
+                    y : 0.16666662693023682 (1d @ 5622)
+                    z : 0.5 (25 @ 5627)
+				}
+                u1 : 20.0 (15 @ 562c)
+                u2 : 10(18 @ 5631)
+                u3 : 15.0 (25 @ 5633)
+                u4 : 0.15000000596046448 (2d @ 5638)
+                u5 : 0.800000011920929 (35 @ 563d)
+
+                u6 sub-sub-sub-sub-block { (3a @ 5642)
+
+                    y : 0.0 (0d @ 5644)
+                    z : 0.0 (15 @ 5649)
+				}
+			}
+		}
+
+        component sub-sub-block { (1a @ 564e)
+
+            component type : ParticleEmitter (0a @ 5650)
+            number : 102(10 @ 5661)
+
+            particle emitter sub-sub-sub-block { (7d2 @ 5664)
+
+                particle : 103(10 @ 5666)
+                particle : 104(10 @ 5668)
+                particle : 105(10 @ 566a)
+                u1 : 0(18 @ 566c)
+                u2 : 30(20 @ 566e)
+                u3 : 0(28 @ 5670)
+                u4 : 0(30 @ 5672)
+                u6 : 0(40 @ 5674)
+			}
+		}
+
+        component sub-sub-block { (1a @ 5676)
+
+            component type : Particle (0a @ 5678)
+            number : 103(10 @ 5682)
+
+            particle sub-sub-sub-block { (7da @ 5685)
+
+                name : particle_fure_1 (0a @ 5687)
+                u0 : 40.0 (15 @ 5698)
+			}
+		}
+
+        component sub-sub-block { (1a @ 569d)
+
+            component type : Particle (0a @ 569f)
+            number : 104(10 @ 56a9)
+
+            particle sub-sub-sub-block { (7da @ 56ac)
+
+                name : particle_fure_2 (0a @ 56ae)
+                u0 : 40.0 (15 @ 56bf)
+			}
+		}
+
+        component sub-sub-block { (1a @ 56c4)
+
+            component type : Particle (0a @ 56c6)
+            number : 105(10 @ 56d0)
+
+            particle sub-sub-sub-block { (7da @ 56d3)
+
+                name : particle_fure_3 (0a @ 56d5)
+                u0 : 40.0 (15 @ 56e6)
+			}
+		}
+
+        component sub-sub-block { (1a @ 56eb)
+
+            component type : MagicSpellCast (0a @ 56ed)
+            number : 109(10 @ 56fd)
+
+            magic spell cast sub-sub-sub-block { (114a @ 5700)
+
+                particle emitter : 102(08 @ 5702)
+                u0 : 0(10 @ 5704)
+			}
+		}
+
+        position sub-sub-block { (22 @ 5706)
+
+            x position : 0.0 (0d @ 5708)
+            y position : 0.0 (15 @ 570d)
+		}
+        z position : 0.0 (2d @ 5712)
+        rotation : 0.0 (35 @ 5717)
+        scale : 1.0 (3d @ 571c)
+
+        u0 sub-sub-block { (42 @ 5721)
+
+            w : -20.0 (0d @ 5723)
+            x : -20.0 (15 @ 5728)
+            y : 40.0 (1d @ 572d)
+            z : 40.0 (25 @ 5732)
+		}
+        hidden : 0(48 @ 5737)
+	}
+    u0 : 1.0 (15 @ 5739)
+}
+
+?item block { (12 @ 573e)
+
+
+    ?sub-item sub-block { (0a @ 5741)
+
+        name : magic_spell_cast_ice (12 @ 5744)
+
+        component sub-sub-block { (1a @ 575a)
+
+            component type : SimpleGlow (0a @ 575c)
+            number : 1(10 @ 5768)
+
+            simple glow sub-sub-sub-block { (7f2 @ 576b)
+
+
+                u0 sub-sub-sub-sub-block { (0a @ 576d)
+
+                    w : 0.16666662693023682 (0d @ 576f)
+                    x : 1.0 (15 @ 5774)
+                    y : 0.9999995231628418 (1d @ 5779)
+                    z : 0.5 (25 @ 577e)
+				}
+                u1 : 20.0 (15 @ 5783)
+                u2 : 10(18 @ 5788)
+                u3 : 15.0 (25 @ 578a)
+                u4 : 0.15000000596046448 (2d @ 578f)
+                u5 : 0.800000011920929 (35 @ 5794)
+
+                u6 sub-sub-sub-sub-block { (3a @ 5799)
+
+                    y : 0.0 (0d @ 579b)
+                    z : 0.0 (15 @ 57a0)
+				}
+			}
+		}
+
+        component sub-sub-block { (1a @ 57a5)
+
+            component type : ParticleEmitter (0a @ 57a7)
+            number : 102(10 @ 57b8)
+
+            particle emitter sub-sub-sub-block { (7d2 @ 57bb)
+
+                particle : 103(10 @ 57bd)
+                particle : 104(10 @ 57bf)
+                particle : 105(10 @ 57c1)
+                u1 : 0(18 @ 57c3)
+                u2 : 30(20 @ 57c5)
+                u3 : 0(28 @ 57c7)
+                u4 : 0(30 @ 57c9)
+                u6 : 0(40 @ 57cb)
+			}
+		}
+
+        component sub-sub-block { (1a @ 57cd)
+
+            component type : Particle (0a @ 57cf)
+            number : 103(10 @ 57d9)
+
+            particle sub-sub-sub-block { (7da @ 57dc)
+
+                name : particle_fure_1 (0a @ 57de)
+                u0 : 40.0 (15 @ 57ef)
+			}
+		}
+
+        component sub-sub-block { (1a @ 57f4)
+
+            component type : Particle (0a @ 57f6)
+            number : 104(10 @ 5800)
+
+            particle sub-sub-sub-block { (7da @ 5803)
+
+                name : particle_fure_2 (0a @ 5805)
+                u0 : 40.0 (15 @ 5816)
+			}
+		}
+
+        component sub-sub-block { (1a @ 581b)
+
+            component type : Particle (0a @ 581d)
+            number : 105(10 @ 5827)
+
+            particle sub-sub-sub-block { (7da @ 582a)
+
+                name : particle_fure_3 (0a @ 582c)
+                u0 : 40.0 (15 @ 583d)
+			}
+		}
+
+        component sub-sub-block { (1a @ 5842)
+
+            component type : MagicSpellCast (0a @ 5844)
+            number : 109(10 @ 5854)
+
+            magic spell cast sub-sub-sub-block { (114a @ 5857)
+
+                particle emitter : 102(08 @ 5859)
+                u0 : 0(10 @ 585b)
+			}
+		}
+
+        position sub-sub-block { (22 @ 585d)
+
+            x position : 0.0 (0d @ 585f)
+            y position : 0.0 (15 @ 5864)
+		}
+        z position : 0.0 (2d @ 5869)
+        rotation : 0.0 (35 @ 586e)
+        scale : 1.0 (3d @ 5873)
+
+        u0 sub-sub-block { (42 @ 5878)
+
+            w : -20.0 (0d @ 587a)
+            x : -20.0 (15 @ 587f)
+            y : 40.0 (1d @ 5884)
+            z : 40.0 (25 @ 5889)
+		}
+        hidden : 0(48 @ 588e)
+	}
+    u0 : 1.0 (15 @ 5890)
+}
+
+?item block { (12 @ 5895)
+
+
+    ?sub-item sub-block { (0a @ 5898)
+
+        name : magic_spell_cast_shadow (12 @ 589b)
+
+        component sub-sub-block { (1a @ 58b4)
+
+            component type : SimpleGlow (0a @ 58b6)
+            number : 1(10 @ 58c2)
+
+            simple glow sub-sub-sub-block { (7f2 @ 58c5)
+
+
+                u0 sub-sub-sub-sub-block { (0a @ 58c7)
+
+                    w : 0.3333331346511841 (0d @ 58c9)
+                    x : 0.16666662693023682 (15 @ 58ce)
+                    y : 1.0 (1d @ 58d3)
+                    z : 0.5 (25 @ 58d8)
+				}
+                u1 : 20.0 (15 @ 58dd)
+                u2 : 10(18 @ 58e2)
+                u3 : 15.0 (25 @ 58e4)
+                u4 : 0.15000000596046448 (2d @ 58e9)
+                u5 : 0.800000011920929 (35 @ 58ee)
+
+                u6 sub-sub-sub-sub-block { (3a @ 58f3)
+
+                    y : 0.0 (0d @ 58f5)
+                    z : 0.0 (15 @ 58fa)
+				}
+			}
+		}
+
+        component sub-sub-block { (1a @ 58ff)
+
+            component type : ParticleEmitter (0a @ 5901)
+            number : 102(10 @ 5912)
+
+            particle emitter sub-sub-sub-block { (7d2 @ 5915)
+
+                particle : 103(10 @ 5917)
+                particle : 104(10 @ 5919)
+                particle : 105(10 @ 591b)
+                u1 : 0(18 @ 591d)
+                u2 : 30(20 @ 591f)
+                u3 : 0(28 @ 5921)
+                u4 : 0(30 @ 5923)
+                u6 : 0(40 @ 5925)
+			}
+		}
+
+        component sub-sub-block { (1a @ 5927)
+
+            component type : Particle (0a @ 5929)
+            number : 103(10 @ 5933)
+
+            particle sub-sub-sub-block { (7da @ 5936)
+
+                name : particle_fure_1 (0a @ 5938)
+                u0 : 40.0 (15 @ 5949)
+			}
+		}
+
+        component sub-sub-block { (1a @ 594e)
+
+            component type : Particle (0a @ 5950)
+            number : 104(10 @ 595a)
+
+            particle sub-sub-sub-block { (7da @ 595d)
+
+                name : particle_fure_2 (0a @ 595f)
+                u0 : 40.0 (15 @ 5970)
+			}
+		}
+
+        component sub-sub-block { (1a @ 5975)
+
+            component type : Particle (0a @ 5977)
+            number : 105(10 @ 5981)
+
+            particle sub-sub-sub-block { (7da @ 5984)
+
+                name : particle_fure_3 (0a @ 5986)
+                u0 : 40.0 (15 @ 5997)
+			}
+		}
+
+        component sub-sub-block { (1a @ 599c)
+
+            component type : MagicSpellCast (0a @ 599e)
+            number : 109(10 @ 59ae)
+
+            magic spell cast sub-sub-sub-block { (114a @ 59b1)
+
+                particle emitter : 102(08 @ 59b3)
+                u0 : 0(10 @ 59b5)
+			}
+		}
+
+        position sub-sub-block { (22 @ 59b7)
+
+            x position : 0.0 (0d @ 59b9)
+            y position : 0.0 (15 @ 59be)
+		}
+        z position : 0.0 (2d @ 59c3)
+        rotation : 0.0 (35 @ 59c8)
+        scale : 1.0 (3d @ 59cd)
+
+        u0 sub-sub-block { (42 @ 59d2)
+
+            w : -20.0 (0d @ 59d4)
+            x : -20.0 (15 @ 59d9)
+            y : 40.0 (1d @ 59de)
+            z : 40.0 (25 @ 59e3)
+		}
+        hidden : 0(48 @ 59e8)
+	}
+    u0 : 1.0 (15 @ 59ea)
+}
+
+?item block { (12 @ 59ef)
+
+
+    ?sub-item sub-block { (0a @ 59f2)
+
+        name : shadowtrinket_wisp (12 @ 59f5)
+
+        component sub-sub-block { (1a @ 5a09)
+
+            component type : ParticleEmitter (0a @ 5a0b)
+            number : 120(10 @ 5a1c)
+
+            particle emitter sub-sub-sub-block { (7d2 @ 5a1f)
+
+                particle : 123(10 @ 5a21)
+                u1 : 0(18 @ 5a23)
+                u2 : 100(20 @ 5a25)
+                u3 : 0(28 @ 5a27)
+                u4 : 0(30 @ 5a29)
+
+                u5 sub-sub-sub-sub-block { (3a @ 5a2b)
+
+                    u0 : 3(08 @ 5a2d)
+
+                    u1 sub-sub-sub-sub-sub-block { (12 @ 5a2f)
+
+                        w : 0.11999990046024323 (0d @ 5a31)
+                        x : 0.0 (15 @ 5a36)
+                        y : 0.6000000834465027 (1d @ 5a3b)
+                        z : 0.0 (25 @ 5a40)
+					}
+                    u2 : 0.006000000052154064 (1d @ 5a45)
+                    u2 : 0.20000000298023224 (1d @ 5a4a)
+                    u2 : 0.5 (1d @ 5a4f)
+                    u2 : 0.0 (1d @ 5a54)
+                    u2 : 0.30000001192092896 (1d @ 5a59)
+                    u2 : 1.0 (1d @ 5a5e)
+                    u2 : 0.0 (1d @ 5a63)
+                    u3 : 0.0 (25 @ 5a68)
+                    u4 : 0.0 (2d @ 5a6d)
+                    u5 : 0.0 (35 @ 5a72)
+
+                    u6 sub-sub-sub-sub-sub-block { (3a @ 5a77)
+
+                        u0 : 0.0 (0d @ 5a79)
+                        u1 : 0.0 (15 @ 5a7e)
+                        u2 : 0.0 (1d @ 5a83)
+					}
+				}
+                u6 : 0(40 @ 5a88)
+			}
+		}
+
+        component sub-sub-block { (1a @ 5a8a)
+
+            component type : Particle (0a @ 5a8c)
+            number : 123(10 @ 5a96)
+
+            particle sub-sub-sub-block { (7da @ 5a99)
+
+                name : particle (0a @ 5a9b)
+                u0 : 15.0 (15 @ 5aa5)
+			}
+		}
+
+        component sub-sub-block { (1a @ 5aaa)
+
+            component type : SimpleGlow (0a @ 5aac)
+            number : 127(10 @ 5ab8)
+
+            simple glow sub-sub-sub-block { (7f2 @ 5abb)
+
+
+                u0 sub-sub-sub-sub-block { (0a @ 5abd)
+
+                    w : 0.43111100792884827 (0d @ 5abf)
+                    x : 0.28888893127441406 (15 @ 5ac4)
+                    y : 1.0 (1d @ 5ac9)
+                    z : 0.20000000298023224 (25 @ 5ace)
+				}
+                u1 : 6.0 (15 @ 5ad3)
+                u2 : 20(18 @ 5ad8)
+                u3 : 15.0 (25 @ 5ada)
+                u4 : 0.15000000596046448 (2d @ 5adf)
+                u5 : 0.800000011920929 (35 @ 5ae4)
+
+                u6 sub-sub-sub-sub-block { (3a @ 5ae9)
+
+                    y : 0.0 (0d @ 5aeb)
+                    z : 0.0 (15 @ 5af0)
+				}
+			}
+		}
+
+        component sub-sub-block { (1a @ 5af5)
+
+            component type : ParticleEmitter (0a @ 5af8)
+            number : 129(10 @ 5b09)
+
+            particle emitter sub-sub-sub-block { (7d2 @ 5b0d)
+
+                particle : 123(10 @ 5b0f)
+                u1 : 0(18 @ 5b11)
+                u2 : 30(20 @ 5b13)
+                u3 : 120(28 @ 5b15)
+                u4 : 0(30 @ 5b17)
+
+                u5 sub-sub-sub-sub-block { (3a @ 5b19)
+
+                    u0 : 3(08 @ 5b1b)
+
+                    u1 sub-sub-sub-sub-sub-block { (12 @ 5b1d)
+
+                        w : 0.5000000596046448 (0d @ 5b1f)
+                        x : 0.5000000596046448 (15 @ 5b24)
+                        y : 0.5000000596046448 (1d @ 5b29)
+                        z : 0.0 (25 @ 5b2e)
+					}
+                    u2 : 0.009999999776482582 (1d @ 5b33)
+                    u2 : 0.10000000149011612 (1d @ 5b38)
+                    u2 : 0.25 (1d @ 5b3d)
+                    u2 : 0.0 (1d @ 5b42)
+                    u2 : 0.30000001192092896 (1d @ 5b47)
+                    u2 : 1.0 (1d @ 5b4c)
+                    u2 : 0.0 (1d @ 5b51)
+                    u3 : 0.0 (25 @ 5b56)
+                    u4 : 0.0 (2d @ 5b5b)
+                    u5 : 0.0 (35 @ 5b60)
+
+                    u6 sub-sub-sub-sub-sub-block { (3a @ 5b65)
+
+                        u0 : 0.0 (0d @ 5b67)
+                        u1 : 0.0 (15 @ 5b6c)
+                        u2 : 0.0 (1d @ 5b71)
+					}
+				}
+                u6 : 0(40 @ 5b76)
+			}
+		}
+
+        component sub-sub-block { (1a @ 5b78)
+
+            component type : OrbitController (0a @ 5b7a)
+            number : 131(10 @ 5b8b)
+
+            orbit controller sub-sub-sub-block { (802 @ 5b8f)
+
+
+                u0 sub-sub-sub-sub-block { (0a @ 5b91)
+
+                    x : 0.0 (0d @ 5b93)
+                    y : 1.0 (15 @ 5b98)
+                    z : 0.0 (1d @ 5b9d)
+				}
+                u1 : 6.2831854820251465 (15 @ 5ba2)
+                u2 : 25.0 (1d @ 5ba7)
+			}
+		}
+
+        position sub-sub-block { (22 @ 5bac)
+
+            x position : 0.0 (0d @ 5bae)
+            y position : 0.0 (15 @ 5bb3)
+		}
+        z position : 0.0 (2d @ 5bb8)
+        rotation : 0.0 (35 @ 5bbd)
+        scale : 1.0 (3d @ 5bc2)
+
+        u0 sub-sub-block { (42 @ 5bc7)
+
+            w : -4.0 (0d @ 5bc9)
+            x : -4.0 (15 @ 5bce)
+            y : 8.0 (1d @ 5bd3)
+            z : 8.0 (25 @ 5bd8)
+		}
+        hidden : 0(48 @ 5bdd)
+	}
+    u0 : 1.0 (15 @ 5bdf)
+}

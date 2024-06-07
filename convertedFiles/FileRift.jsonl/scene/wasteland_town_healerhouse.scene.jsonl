@@ -1,0 +1,3471 @@
+data = {
+
+"objectblock " :  {
+
+	"name" : "Template 1",
+	"identifier" : "Background",
+
+	"componentsub-block " :  {
+
+		"component type" : "Background",
+		"number" : 101,
+
+		"filesub-sub-block " :  {
+
+			"filename" : "wasteland_bg",
+		},
+	},
+
+	"positionsub-block " :  {
+
+		"x position" : -1202.0294189453125,
+		"y position" : 1126.64306640625,
+	},
+	"z position" : 1.7203826904296875,
+	"rotation" : 0.0,
+	"scale" : 1.0,
+
+	"u2sub-block " :  {
+
+		"w" : -30.0,
+		"x" : -30.0,
+		"y" : 60.0,
+		"z" : 60.0,
+	},
+	"hidden" : 0,
+},
+
+"objectblock " :  {
+
+	"name" : "Template 1",
+	"identifier" : "DirectionalLight",
+
+	"componentsub-block " :  {
+
+		"component type" : "Light",
+		"number" : 101,
+
+		"lightsub-sub-block " :  {
+
+			"u0" : 2,
+			"u1" : 0.30000001192092896,
+
+			"u2sub-sub-sub-block " :  {
+
+				"w" : 1.0,
+				"x" : 1.0,
+				"y" : 1.0,
+				"z" : 1.0,
+			},
+		},
+	},
+
+	"componentsub-block " :  {
+
+		"component type" : "Light",
+		"number" : 103,
+
+		"lightsub-sub-block " :  {
+
+			"u0" : 1,
+			"u1" : 0.5,
+
+			"u2sub-sub-sub-block " :  {
+
+				"w" : 1.0,
+				"x" : 0.699999988079071,
+				"y" : 0.699999988079071,
+				"z" : 1.0,
+			},
+		},
+	},
+
+	"componentsub-block " :  {
+
+		"component type" : "Light",
+		"number" : 105,
+
+		"lightsub-sub-block " :  {
+
+			"u0" : 4,
+			"u1" : 0.699999988079071,
+
+			"u2sub-sub-sub-block " :  {
+
+				"w" : 0.0,
+				"x" : 0.0,
+				"y" : 0.0,
+				"z" : 1.0,
+			},
+		},
+	},
+
+	"positionsub-block " :  {
+
+		"x position" : 3.298828125,
+		"y position" : 1855.27099609375,
+	},
+	"z position" : 560.502685546875,
+	"rotation" : 0.0,
+	"scale" : 1.0,
+
+	"u2sub-block " :  {
+
+		"w" : -30.0,
+		"x" : -30.0,
+		"y" : 60.0,
+		"z" : 60.0,
+	},
+	"hidden" : 0,
+},
+
+"objectblock " :  {
+
+	"name" : "npc_healer",
+	"identifier" : "healer",
+
+	"componentsub-block " :  {
+
+		"component type" : "Model",
+		"number" : 101,
+
+		"3D modelsub-sub-block " :  {
+
+			"name" : "npc_healer",
+			"u0" : 2.356194496154785,
+			"u1" : 0.30000001192092896,
+			"u2" : 0.0,
+
+			"u3sub-sub-sub-block " :  {
+
+				"w" : 0.0,
+				"x" : 0.0,
+				"y" : 0.0,
+				"z" : 1.0,
+			},
+
+			"u4sub-sub-sub-block " :  {
+
+				"x" : 0.0,
+				"y" : 0.0,
+				"z" : 0.0,
+			},
+			"u5" : 0,
+
+			"u6sub-sub-sub-block " :  {
+
+				"w" : 1.0,
+				"x" : 1.0,
+				"y" : 1.0,
+				"z" : 1.0,
+			},
+		},
+	},
+
+	"positionsub-block " :  {
+
+		"x position" : 93.64187622070312,
+		"y position" : 152.44781494140625,
+	},
+	"z position" : -25.72296142578125,
+	"rotation" : 0.0,
+	"scale" : 1.0,
+
+	"u2sub-block " :  {
+
+		"w" : -25.162626266479492,
+		"x" : -40.0,
+		"y" : 49.33160400390625,
+		"z" : 67.98746490478516,
+	},
+	"hidden" : 0,
+},
+
+"objectblock " :  {
+
+	"identifier" : "healingTrigger",
+
+	"componentsub-block " :  {
+
+		"component type" : "CollisionShape",
+		"number" : 101,
+
+		"collision shapesub-sub-block " :  {
+
+
+			"u0sub-sub-sub-block " :  {
+
+				"w" : -82.5,
+				"x" : -200.0,
+				"y" : 165.0,
+				"z" : 234.5,
+			},
+		},
+
+		"collision shape 2sub-sub-block " :  {
+
+			"w" : -15.0,
+			"x" : 15.0,
+
+			"lua chunksub-sub-sub-block " :  {
+
+				"main chunk" : "chunk >
+
+				=== lua =============
+				local self, target = ...;
+				
+				if target:identifier() == \"hero\" and Health.CurrentHealth(target) < Health.MaxHealth(target) then
+				
+					Game.SetCinematicMode(true, false);
+				
+					self:setHidden(true);
+				
+					Program.Wait(0.5);
+				
+					local healer = Scene.Find(\"healer\");
+				
+					ShowTextBubbles(\"healerBubble\", healer:position() + Vector3.New(0, 40, 0), true, {
+						\"You\'re hurt, let me help you.\", 
+					});
+					
+					HideTextBubble(\"healerBubble\");
+				
+					Game.FadeOut();
+					
+					Program.Wait(1.0);
+					Health.SetCurrentHealth(target, Health.MaxHealth(target));
+					Health.SetCurrentMana(target, Health.MaxMana(target));
+					Game.FadeIn();
+						
+					ShowTextBubbles(\"healerBubble\", healer:position() + Vector3.New(0, 40, 0), true, {
+						\"If you ever get hurt again, come visit me.\", 
+					});
+				
+					HideTextBubble(\"healerBubble\");
+				
+					Game.SetCinematicMode(false, true);
+				
+				elseif target:identifier() == \"hero\" then
+					Game.SetCinematicMode(true, false);
+				
+					self:setHidden(true);
+				
+					Program.Wait(0.5);
+				
+					local healer = Scene.Find(\"healer\");
+				
+					ShowTextBubbles(\"healerBubble\", healer:position() + Vector3.New(0, 40, 0), true, {
+						\"If you ever get hurt, come visit me.\", 
+					});
+				
+					Game.FadeOut();
+					
+					Program.Wait(1.0);
+					Health.SetCurrentMana(target, Health.MaxMana(target));
+					Game.FadeIn();
+					HideTextBubble(\"healerBubble\");
+				
+					Game.SetCinematicMode(false, true);
+				end
+
+				=====================",
+				"secondary chunk" : "\\x1bLuaQ\\x00\\x01\\x04\\x04\\x04\\x08\\x003\\x05\\x00\\x00local self, target = ...;\\r\\n\\r\\nif target:identifier() == \"hero\" and Health.CurrentHealth(target) < Health.MaxHealth(target) then\\r\\n\\r\\n\\tGame.SetCinematicMode(true, false);\\r\\n\\r\\n\\tself:setHidden(true);\\r\\n\\r\\n\\tProgram.Wait(0.5);\\r\\n\\r\\n\\tlocal healer = Scene.Find(\"healer\");\\r\\n\\r\\n\\tShowTextBubbles(\"healerBubble\", healer:position() + Vector3.New(0, 40, 0), true, {\\r\\n\\t\\t\"You\\\'re hurt, let me help you.\", \\r\\n\\t});\\r\\n\\t\\r\\n\\tHideTextBubble(\"healerBubble\");\\r\\n\\r\\n\\tGame.FadeOut();\\r\\n\\t\\r\\n\\tProgram.Wait(1.0);\\r\\n\\tHealth.SetCurrentHealth(target, Health.MaxHealth(target));\\r\\n\\tHealth.SetCurrentMana(target, Health.MaxMana(target));\\r\\n\\tGame.FadeIn();\\r\\n\\t\\t\\r\\n\\tShowTextBubbles(\"healerBubble\", healer:position() + Vector3.New(0, 40, 0), true, {\\r\\n\\t\\t\"If you ever get hurt again, come visit me.\", \\r\\n\\t});\\r\\n\\r\\n\\tHideTextBubble(\"healerBubble\");\\r\\n\\r\\n\\tGame.SetCinematicMode(false, true);\\r\\n\\r\\nelseif target:identifier() == \"hero\" then\\r\\n\\tGame.SetCinematicMode(true, false);\\r\\n\\r\\n\\tself:setHidden(true);\\r\\n\\r\\n\\tProgram.Wait(0.5);\\r\\n\\r\\n\\tlocal healer = Scene.Find(\"healer\");\\r\\n\\r\\n\\tShowTextBubbles(\"healerBubble\", healer:position() + Vector3.New(0, 40, 0), true, {\\r\\n\\t\\t\"If you ever get hurt, come visit me.\", \\r\\n\\t});\\r\\n\\r\\n\\tGame.FadeOut();\\r\\n\\t\\r\\n\\tProgram.Wait(1.0);\\r\\n\\tHealth.SetCurrentMana(target, Health.MaxMana(target));\\r\\n\\tGame.FadeIn();\\r\\n\\tHideTextBubble(\"healerBubble\");\\r\\n\\r\\n\\tGame.SetCinematicMode(false, true);\\r\\nend\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x02\\n\\xa4\\x00\\x00\\x00%\\x00\\x80\\x01\\x8b\\x00\\xc0\\x00\\x9c\\x80\\x00\\x01\\x17@@\\x01\\x16\\xc0\\x17\\x80\\x85\\x80\\x00\\x00\\x86\\xc0@\\x01\\xc0\\x00\\x80\\x00\\x9c\\x80\\x00\\x01\\xc5\\x80\\x00\\x00\\xc6\\x00\\xc1\\x01\\x00\\x01\\x80\\x00\\xdc\\x80\\x00\\x01\\x18\\xc0\\x00\\x01\\x16@\\x15\\x80\\x85@\\x01\\x00\\x86\\x80A\\x01\\xc2\\x00\\x80\\x00\\x02\\x01\\x00\\x00\\x9c@\\x80\\x01\\x8b\\xc0A\\x00\\x02\\x01\\x80\\x00\\x9c@\\x80\\x01\\x85\\x00\\x02\\x00\\x86@B\\x01\\xc1\\x80\\x02\\x00\\x9c@\\x00\\x01\\x85\\xc0\\x02\\x00\\x86\\x00C\\x01\\xc1@\\x03\\x00\\x9c\\x80\\x00\\x01\\xc5\\x80\\x03\\x00\\x01\\xc1\\x03\\x00K\\x01D\\x01\\\\\\x81\\x00\\x01\\x85A\\x04\\x00\\x86\\x81D\\x03\\xc1\\xc1\\x04\\x00\\x01\\x02\\x05\\x00A\\xc2\\x04\\x00\\x9c\\x81\\x00\\x02L\\x81\\x81\\x02\\x82\\x01\\x80\\x00\\xca\\x01\\x80\\x00\\x01B\\x05\\x00\\xe2A\\x80\\x00\\xdc@\\x80\\x02\\xc5\\x80\\x05\\x00\\x01\\xc1\\x03\\x00\\xdc@\\x00\\x01\\xc5@\\x01\\x00\\xc6\\xc0\\xc5\\x01\\xdc@\\x80\\x00\\xc5\\x00\\x02\\x00\\xc6@\\xc2\\x01\\x01\\x01\\x06\\x00\\xdc@\\x00\\x01\\xc5\\x80\\x00\\x00\\xc6@\\xc6\\x01\\x00\\x01\\x80\\x00E\\x81\\x00\\x00F\\x01\\xc1\\x02\\x80\\x01\\x80\\x00\\\\\\x01\\x00\\x01\\xdc@\\x00\\x00\\xc5\\x80\\x00\\x00\\xc6\\x80\\xc6\\x01\\x00\\x01\\x80\\x00E\\x81\\x00\\x00F\\xc1\\xc6\\x02\\x80\\x01\\x80\\x00\\\\\\x01\\x00\\x01\\xdc@\\x00\\x00\\xc5@\\x01\\x00\\xc6\\x00\\xc7\\x01\\xdc@\\x80\\x00\\xc5\\x80\\x03\\x00\\x01\\xc1\\x03\\x00K\\x01D\\x01\\\\\\x81\\x00\\x01\\x85A\\x04\\x00\\x86\\x81D\\x03\\xc1\\xc1\\x04\\x00\\x01\\x02\\x05\\x00A\\xc2\\x04\\x00\\x9c\\x81\\x00\\x02L\\x81\\x81\\x02\\x82\\x01\\x80\\x00\\xca\\x01\\x80\\x00\\x01B\\x07\\x00\\xe2A\\x80\\x00\\xdc@\\x80\\x02\\xc5\\x80\\x05\\x00\\x01\\xc1\\x03\\x00\\xdc@\\x00\\x01\\xc5@\\x01\\x00\\xc6\\x80\\xc1\\x01\\x02\\x01\\x00\\x00B\\x01\\x80\\x00\\xdc@\\x80\\x01\\x16@\\x0f\\x80\\x8b\\x00\\xc0\\x00\\x9c\\x80\\x00\\x01\\x17@@\\x01\\x16@\\x0e\\x80\\x85@\\x01\\x00\\x86\\x80A\\x01\\xc2\\x00\\x80\\x00\\x02\\x01\\x00\\x00\\x9c@\\x80\\x01\\x8b\\xc0A\\x00\\x02\\x01\\x80\\x00\\x9c@\\x80\\x01\\x85\\x00\\x02\\x00\\x86@B\\x01\\xc1\\x80\\x02\\x00\\x9c@\\x00\\x01\\x85\\xc0\\x02\\x00\\x86\\x00C\\x01\\xc1@\\x03\\x00\\x9c\\x80\\x00\\x01\\xc5\\x80\\x03\\x00\\x01\\xc1\\x03\\x00K\\x01D\\x01\\\\\\x81\\x00\\x01\\x85A\\x04\\x00\\x86\\x81D\\x03\\xc1\\xc1\\x04\\x00\\x01\\x02\\x05\\x00A\\xc2\\x04\\x00\\x9c\\x81\\x00\\x02L\\x81\\x81\\x02\\x82\\x01\\x80\\x00\\xca\\x01\\x80\\x00\\x01\\x82\\x07\\x00\\xe2A\\x80\\x00\\xdc@\\x80\\x02\\xc5@\\x01\\x00\\xc6\\xc0\\xc5\\x01\\xdc@\\x80\\x00\\xc5\\x00\\x02\\x00\\xc6@\\xc2\\x01\\x01\\x01\\x06\\x00\\xdc@\\x00\\x01\\xc5\\x80\\x00\\x00\\xc6\\x80\\xc6\\x01\\x00\\x01\\x80\\x00E\\x81\\x00\\x00F\\xc1\\xc6\\x02\\x80\\x01\\x80\\x00\\\\\\x01\\x00\\x01\\xdc@\\x00\\x00\\xc5@\\x01\\x00\\xc6\\x00\\xc7\\x01\\xdc@\\x80\\x00\\xc5\\x80\\x05\\x00\\x01\\xc1\\x03\\x00\\xdc@\\x00\\x01\\xc5@\\x01\\x00\\xc6\\x80\\xc1\\x01\\x02\\x01\\x00\\x00B\\x01\\x80\\x00\\xdc@\\x80\\x01\\x1e\\x00\\x80\\x00\\x1f\\x00\\x00\\x00\\x04\\x0b\\x00\\x00\\x00identifier\\x00\\x04\\x05\\x00\\x00\\x00hero\\x00\\x04\\x07\\x00\\x00\\x00Health\\x00\\x04\\x0e\\x00\\x00\\x00CurrentHealth\\x00\\x04\\n\\x00\\x00\\x00MaxHealth\\x00\\x04\\x05\\x00\\x00\\x00Game\\x00\\x04\\x11\\x00\\x00\\x00SetCinematicMode\\x00\\x04\\n\\x00\\x00\\x00setHidden\\x00\\x04\\x08\\x00\\x00\\x00Program\\x00\\x04\\x05\\x00\\x00\\x00Wait\\x00\\x03\\x00\\x00\\x00\\x00\\x00\\x00\\xe0?\\x04\\x06\\x00\\x00\\x00Scene\\x00\\x04\\x05\\x00\\x00\\x00Find\\x00\\x04\\x07\\x00\\x00\\x00healer\\x00\\x04\\x10\\x00\\x00\\x00ShowTextBubbles\\x00\\x04\\r\\x00\\x00\\x00healerBubble\\x00\\x04\\t\\x00\\x00\\x00position\\x00\\x04\\x08\\x00\\x00\\x00Vector3\\x00\\x04\\x04\\x00\\x00\\x00New\\x00\\x03\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x00\\x00\\x00D@\\x04\\x1e\\x00\\x00\\x00You\\\'re hurt, let me help you.\\x00\\x04\\x0f\\x00\\x00\\x00HideTextBubble\\x00\\x04\\x08\\x00\\x00\\x00FadeOut\\x00\\x03\\x00\\x00\\x00\\x00\\x00\\x00\\xf0?\\x04\\x11\\x00\\x00\\x00SetCurrentHealth\\x00\\x04\\x0f\\x00\\x00\\x00SetCurrentMana\\x00\\x04\\x08\\x00\\x00\\x00MaxMana\\x00\\x04\\x07\\x00\\x00\\x00FadeIn\\x00\\x04+\\x00\\x00\\x00If you ever get hurt again, come visit me.\\x00\\x04%\\x00\\x00\\x00If you ever get hurt, come visit me.\\x00\\x00\\x00\\x00\\x00\\xa4\\x00\\x00\\x00\\x01\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x07\\x00\\x00\\x00\\x07\\x00\\x00\\x00\\x07\\x00\\x00\\x00\\t\\x00\\x00\\x00\\t\\x00\\x00\\x00\\t\\x00\\x00\\x00\\t\\x00\\x00\\x00\\x0b\\x00\\x00\\x00\\x0b\\x00\\x00\\x00\\x0b\\x00\\x00\\x00\\x0b\\x00\\x00\\x00\\r\\x00\\x00\\x00\\r\\x00\\x00\\x00\\r\\x00\\x00\\x00\\r\\x00\\x00\\x00\\r\\x00\\x00\\x00\\r\\x00\\x00\\x00\\r\\x00\\x00\\x00\\r\\x00\\x00\\x00\\r\\x00\\x00\\x00\\r\\x00\\x00\\x00\\r\\x00\\x00\\x00\\r\\x00\\x00\\x00\\r\\x00\\x00\\x00\\x0f\\x00\\x00\\x00\\x0f\\x00\\x00\\x00\\r\\x00\\x00\\x00\\x11\\x00\\x00\\x00\\x11\\x00\\x00\\x00\\x11\\x00\\x00\\x00\\x13\\x00\\x00\\x00\\x13\\x00\\x00\\x00\\x13\\x00\\x00\\x00\\x15\\x00\\x00\\x00\\x15\\x00\\x00\\x00\\x15\\x00\\x00\\x00\\x15\\x00\\x00\\x00\\x16\\x00\\x00\\x00\\x16\\x00\\x00\\x00\\x16\\x00\\x00\\x00\\x16\\x00\\x00\\x00\\x16\\x00\\x00\\x00\\x16\\x00\\x00\\x00\\x16\\x00\\x00\\x00\\x16\\x00\\x00\\x00\\x17\\x00\\x00\\x00\\x17\\x00\\x00\\x00\\x17\\x00\\x00\\x00\\x17\\x00\\x00\\x00\\x17\\x00\\x00\\x00\\x17\\x00\\x00\\x00\\x17\\x00\\x00\\x00\\x17\\x00\\x00\\x00\\x18\\x00\\x00\\x00\\x18\\x00\\x00\\x00\\x18\\x00\\x00\\x00\\x1a\\x00\\x00\\x00\\x1a\\x00\\x00\\x00\\x1a\\x00\\x00\\x00\\x1a\\x00\\x00\\x00\\x1a\\x00\\x00\\x00\\x1a\\x00\\x00\\x00\\x1a\\x00\\x00\\x00\\x1a\\x00\\x00\\x00\\x1a\\x00\\x00\\x00\\x1a\\x00\\x00\\x00\\x1a\\x00\\x00\\x00\\x1a\\x00\\x00\\x00\\x1a\\x00\\x00\\x00\\x1c\\x00\\x00\\x00\\x1c\\x00\\x00\\x00\\x1a\\x00\\x00\\x00\\x1e\\x00\\x00\\x00\\x1e\\x00\\x00\\x00\\x1e\\x00\\x00\\x00 \\x00\\x00\\x00 \\x00\\x00\\x00 \\x00\\x00\\x00 \\x00\\x00\\x00 \\x00\\x00\\x00 \\x00\\x00\\x00\"\\x00\\x00\\x00\"\\x00\\x00\\x00\"\\x00\\x00\\x00\"\\x00\\x00\\x00#\\x00\\x00\\x00#\\x00\\x00\\x00#\\x00\\x00\\x00#\\x00\\x00\\x00#\\x00\\x00\\x00%\\x00\\x00\\x00%\\x00\\x00\\x00%\\x00\\x00\\x00\\\'\\x00\\x00\\x00\\\'\\x00\\x00\\x00\\\'\\x00\\x00\\x00\\\'\\x00\\x00\\x00)\\x00\\x00\\x00)\\x00\\x00\\x00)\\x00\\x00\\x00)\\x00\\x00\\x00+\\x00\\x00\\x00+\\x00\\x00\\x00+\\x00\\x00\\x00+\\x00\\x00\\x00+\\x00\\x00\\x00+\\x00\\x00\\x00+\\x00\\x00\\x00+\\x00\\x00\\x00+\\x00\\x00\\x00+\\x00\\x00\\x00+\\x00\\x00\\x00+\\x00\\x00\\x00+\\x00\\x00\\x00-\\x00\\x00\\x00-\\x00\\x00\\x00+\\x00\\x00\\x00/\\x00\\x00\\x00/\\x00\\x00\\x00/\\x00\\x00\\x001\\x00\\x00\\x001\\x00\\x00\\x001\\x00\\x00\\x001\\x00\\x00\\x002\\x00\\x00\\x002\\x00\\x00\\x002\\x00\\x00\\x002\\x00\\x00\\x002\\x00\\x00\\x002\\x00\\x00\\x002\\x00\\x00\\x002\\x00\\x00\\x003\\x00\\x00\\x003\\x00\\x00\\x003\\x00\\x00\\x004\\x00\\x00\\x004\\x00\\x00\\x004\\x00\\x00\\x006\\x00\\x00\\x006\\x00\\x00\\x006\\x00\\x00\\x006\\x00\\x00\\x006\\x00\\x00\\x007\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x05\\x00\\x00\\x00self\\x00\\x01\\x00\\x00\\x00\\xa3\\x00\\x00\\x00\\x07\\x00\\x00\\x00target\\x00\\x01\\x00\\x00\\x00\\xa3\\x00\\x00\\x00\\x07\\x00\\x00\\x00healer\\x00\\x1f\\x00\\x00\\x00d\\x00\\x00\\x00\\x07\\x00\\x00\\x00healer\\x00y\\x00\\x00\\x00\\xa3\\x00\\x00\\x00\\x00\\x00\\x00\\x00",
+			},
+			"z" : 1,
+		},
+	},
+
+	"positionsub-block " :  {
+
+		"x position" : 74.97781372070312,
+		"y position" : 310.8324279785156,
+	},
+	"z position" : 0.0,
+	"rotation" : 0.0,
+	"scale" : 1.0,
+
+	"u2sub-block " :  {
+
+		"w" : -82.5,
+		"x" : -200.0,
+		"y" : 165.0,
+		"z" : 234.5,
+	},
+	"hidden" : 0,
+},
+
+"objectblock " :  {
+
+	"identifier" : "obj1#2",
+
+	"componentsub-block " :  {
+
+		"component type" : "Model",
+		"number" : 101,
+
+		"3D modelsub-sub-block " :  {
+
+			"name" : "bed",
+			"u0" : 0.0,
+			"u1" : 0.0,
+			"u2" : 0.0,
+
+			"u3sub-sub-sub-block " :  {
+
+				"w" : 1.0,
+				"x" : 1.0,
+				"y" : 1.0,
+				"z" : 1.0,
+			},
+
+			"u4sub-sub-sub-block " :  {
+
+				"x" : 0.0,
+				"y" : 0.0,
+				"z" : 0.0,
+			},
+			"u5" : 0,
+
+			"u6sub-sub-sub-block " :  {
+
+				"w" : 1.0,
+				"x" : 1.0,
+				"y" : 1.0,
+				"z" : 1.0,
+			},
+		},
+	},
+
+	"positionsub-block " :  {
+
+		"x position" : -180.83026123046875,
+		"y position" : 110.24530029296875,
+	},
+	"z position" : -156.6748046875,
+	"rotation" : 0.0,
+	"scale" : 1.0,
+
+	"u2sub-block " :  {
+
+		"w" : -53.09627151489258,
+		"x" : -0.4045476019382477,
+		"y" : 106.45399475097656,
+		"z" : 43.15983963012695,
+	},
+	"hidden" : 0,
+},
+
+"objectblock " :  {
+
+	"identifier" : "obj1#3",
+
+	"componentsub-block " :  {
+
+		"component type" : "Model",
+		"number" : 101,
+
+		"3D modelsub-sub-block " :  {
+
+			"name" : "bed",
+			"u0" : 0.0,
+			"u1" : 0.0,
+			"u2" : 0.0,
+
+			"u3sub-sub-sub-block " :  {
+
+				"w" : 1.0,
+				"x" : 1.0,
+				"y" : 1.0,
+				"z" : 1.0,
+			},
+
+			"u4sub-sub-sub-block " :  {
+
+				"x" : 0.0,
+				"y" : 0.0,
+				"z" : 0.0,
+			},
+			"u5" : 0,
+
+			"u6sub-sub-sub-block " :  {
+
+				"w" : 1.0,
+				"x" : 1.0,
+				"y" : 1.0,
+				"z" : 1.0,
+			},
+		},
+	},
+
+	"positionsub-block " :  {
+
+		"x position" : -3.7803802490234375,
+		"y position" : 109.81684875488281,
+	},
+	"z position" : -156.6748046875,
+	"rotation" : 0.0,
+	"scale" : 1.0,
+
+	"u2sub-block " :  {
+
+		"w" : -53.09627151489258,
+		"x" : -0.4045476019382477,
+		"y" : 106.45399475097656,
+		"z" : 43.15983963012695,
+	},
+	"hidden" : 0,
+},
+
+"objectblock " :  {
+
+	"name" : "Template 1",
+	"identifier" : "obj14",
+
+	"componentsub-block " :  {
+
+		"component type" : "CollisionShape",
+		"number" : 101,
+
+		"collision shapesub-sub-block " :  {
+
+
+			"u0sub-sub-sub-block " :  {
+
+				"w" : -45.0,
+				"x" : -200.0,
+				"y" : 90.0,
+				"z" : 400.0,
+			},
+		},
+
+		"collision shape 2sub-sub-block " :  {
+
+			"w" : -15.0,
+			"x" : 15.0,
+			"y" : 2,
+			"z" : 1,
+		},
+	},
+
+	"componentsub-block " :  {
+
+		"component type" : "Portal",
+		"number" : 104,
+
+		"portalsub-sub-block " :  {
+
+			"target level" : "wasteland_town",
+			"spawnpoint" : "",
+			"touchable" : 0,
+			"collision shape component" : 101,
+		},
+	},
+
+	"positionsub-block " :  {
+
+		"x position" : -500.7042236328125,
+		"y position" : 204.0025634765625,
+	},
+	"z position" : 0.0,
+	"rotation" : 0.0,
+	"scale" : 1.0,
+
+	"u2sub-block " :  {
+
+		"w" : -45.0,
+		"x" : -200.0,
+		"y" : 90.0,
+		"z" : 400.0,
+	},
+	"hidden" : 0,
+},
+
+"objectblock " :  {
+
+	"identifier" : "obj2",
+
+	"componentsub-block " :  {
+
+		"component type" : "GroundPolygon",
+		"number" : 100,
+
+		"ground polygonsub-sub-block " :  {
+
+
+			"sub-sub-sub-block " :  {
+
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"x" : -1004.267822265625,
+					"y" : -665.9594116210938,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"x" : -19.750732421875,
+					"y" : -620.7755126953125,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"x" : 1004.2677612304688,
+					"y" : -661.479248046875,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"x" : 962.2265625,
+					"y" : 665.9594116210938,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"x" : -112.4068603515625,
+					"y" : 528.6842651367188,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"x" : -955.6207885742188,
+					"y" : 546.150146484375,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"x" : -885.8663940429688,
+					"y" : 119.34304809570312,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"x" : -886.9718627929688,
+					"y" : 0.0397186279296875,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"x" : -387.05316162109375,
+					"y" : 0.392242431640625,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"x" : -386.41168212890625,
+					"y" : 105.92822265625,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"x" : -110.98757934570312,
+					"y" : 109.73516845703125,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"x" : 130.69927978515625,
+					"y" : 108.19100952148438,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"x" : 139.54339599609375,
+					"y" : -100.405517578125,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"x" : -115.107421875,
+					"y" : -100.34588623046875,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"x" : -937.118408203125,
+					"y" : -100.25949096679688,
+				},
+				"u0" : 0,
+				"u1" : 1,
+			},
+			"u1" : 1,
+			"u2" : -80.0,
+			"u3" : 80.0,
+			"u4" : "",
+		},
+	},
+
+	"componentsub-block " :  {
+
+		"component type" : "GroundMesh",
+		"number" : 101,
+
+		"ground meshsub-sub-block " :  {
+
+
+			"u0sub-sub-sub-block " :  {
+
+				"w" : -1014.267822265625,
+				"x" : -675.9594116210938,
+				"y" : 2028.53564453125,
+				"z" : 1351.9188232421875,
+			},
+
+			"u1sub-sub-sub-block " :  {
+
+				"u0" : 24,
+				"u1" : 20,
+
+				"u2sub-sub-sub-sub-block " :  {
+
+					"u0" : 4,
+					"u1" : 1,
+					"u2" : 2,
+					"u3" : 0,
+				},
+
+				"u3sub-sub-sub-sub-block " :  {
+
+					"u0" : 7,
+					"u1" : 3,
+					"u2" : 32,
+					"u3" : 0,
+				},
+
+				"u4sub-sub-sub-sub-block " :  {
+
+					"u0" : 7,
+					"u1" : 3,
+					"u2" : 32,
+					"u3" : 12,
+				},
+
+				"u5sub-sub-sub-sub-block " :  {
+
+					"u0" : 7,
+					"u1" : 2,
+					"u2" : 32,
+					"u3" : 24,
+				},
+
+				"u6sub-sub-sub-sub-block " :  {
+
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 1.0,
+						"x" : 1.0,
+						"y" : 1.0,
+						"z" : 1.0,
+					},
+
+					"u1sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 1.0,
+						"x" : 1.0,
+						"y" : 1.0,
+						"z" : 1.0,
+					},
+
+					"u2sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 1.0,
+						"x" : 1.0,
+						"y" : 1.0,
+						"z" : 1.0,
+					},
+					"u3" : 0.0,
+					"u4" : "\\n\\x07ground3\\x10\\x01 \\x01",
+				},
+
+				"u7sub-sub-sub-sub-block " :  {
+
+					"u" : -958.6201171875,
+					"v" : 503.68426513671875,
+					"w" : -85.0,
+					"x" : 1923.822509765625,
+					"y" : 162.6552734375,
+					"z" : 170.0,
+				},
+				"u8" : "\\xf4LqD\\xbb\\x95&D\\x00\\x00\\xa0\\xc2\\xb7\\xc0\\x01\\xbe\\xc0\\xef}?\\x00\\x00\\x00\\x00\\x00\\x00\\x00?\\x00\\xd7\\xa3\\xbc\\xf4LqD\\xbb\\x95&D\\x00\\x00\\xa0B\\xb7\\xc0\\x01\\xbe\\xc0\\xef}?\\x00\\x00\\x00\\x00\\x00\\x00\\x00?R\\xb8\\x1e?\\xf4LqD\\xbb\\x15$D\\x00\\x00\\xaaB\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\x1f\\x85\\xeb>\\n\\xd7#?\\xf4LqD\\xbbU D33\\xa0B\\xb7\\xc0\\x01>\\xc0\\xef}\\xbf\\x00\\x00\\x00\\x80\\xcd\\xcc\\xcc>\\x89\\xd2\\x1e?\\xf4LqD\\xbbU D\\xcd\\xcc\\x9f\\xc2\\xb7\\xc0\\x01>\\xc0\\xef}\\xbf\\x00\\x00\\x00\\x80\\xcd\\xcc\\xcc> \\x90\\xa0\\xbc\\xf4LqD\\xbb\\x15$D\\x00\\x00\\xaa\\xc2\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\x1f\\x85\\xeb>\\x10\\xd7#\\xbd\\xf4LqD\\xbb\\x95&D\\x00\\x00\\xa0\\xc2\\xb7\\xc0\\x01\\xbe\\xc0\\xef}?\\x00\\x00\\x00\\x00\\x00\\x00\\x00?\\x00\\xd7\\xa3\\xbc\\xf4LqD\\xbb\\x95&D\\x00\\x00\\xa0B\\xb7\\xc0\\x01\\xbe\\xc0\\xef}?\\x00\\x00\\x00\\x00\\x00\\x00\\x00?R\\xb8\\x1e?\\xf4LqD\\xbb\\x15$D\\x00\\x00\\xaaB\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\x00\\x00\\x00?.+*?\\xf4LqD\\xbbU D33\\xa0B\\xb7\\xc0\\x01>\\xc0\\xef}\\xbf\\x00\\x00\\x00\\x80\\x00\\x00\\x00?\\xd4S:?P\\xd0\\xe0\\xc2\\xcb+\\x04D\\x00\\x00\\xa0\\xc2\\xd3a\\x7f\\xbd~\\x80\\x7f?\\x00\\x00\\x00\\x00\\xbb\\xab\\x9a@\\x00\\xd7\\xa3\\xbcP\\xd0\\xe0\\xc2\\xcb+\\x04D\\x00\\x00\\xa0B\\xd3a\\x7f\\xbd~\\x80\\x7f?\\x00\\x00\\x00\\x00\\xbb\\xab\\x9a@R\\xb8\\x1e?P\\xd0\\xe0\\xc2\\xcb\\xab\\x01D\\x00\\x00\\xaaB\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xbb\\xab\\x9a@.+*?P\\xd0\\xe0\\xc2\\x96\\xd7\\xfbC33\\xa0B\\xd3a\\x7f=~\\x80\\x7f\\xbf\\x00\\x00\\x00\\x80\\xbb\\xab\\x9a@\\xd4S:?\\xb0\\xa7o\\xc4\\x96\\x8d\\x08D\\x00\\x00\\xa0\\xc2\\xf7\\xa5\\xa9<\\xf1\\xf1\\x7f?\\x00\\x00\\x00\\x00\\x0cP\\x03A\\x00\\xd7\\xa3\\xbc\\xb0\\xa7o\\xc4\\x96\\x8d\\x08D\\x00\\x00\\xa0B\\xf7\\xa5\\xa9<\\xf1\\xf1\\x7f?\\x00\\x00\\x00\\x00\\x0cP\\x03AR\\xb8\\x1e?\\xb0\\xa7o\\xc4\\x96\\r\\x06D\\x00\\x00\\xaaB\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\x0cP\\x03A.+*?\\xb0\\xa7o\\xc4\\x96M\\x02D33\\xa0B\\xf7\\xa5\\xa9\\xbc\\xf1\\xf1\\x7f\\xbf\\x00\\x00\\x00\\x80\\x0cP\\x03A\\xd4S:?\\xb0\\xa7o\\xc4\\x96\\x8d\\x08D\\x00\\x00\\xa0\\xc2\\xf7\\xa5\\xa9<\\xf1\\xf1\\x7f?\\x00\\x00\\x00\\x00\\x0cP\\x03A\\x00\\xd7\\xa3\\xbc\\xb0\\xa7o\\xc4\\x96\\x8d\\x08D\\x00\\x00\\xa0B\\xf7\\xa5\\xa9<\\xf1\\xf1\\x7f?\\x00\\x00\\x00\\x00\\x0cP\\x03AR\\xb8\\x1e?\\xb0\\xa7o\\xc4\\x96\\r\\x06D\\x00\\x00\\xaaB\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xe4\\xf3\\x03A\\n\\xd7#?\\xb0\\xa7o\\xc4\\x96M\\x02D33\\xa0B\\xf7\\xa5\\xa9\\xbc\\xf1\\xf1\\x7f\\xbf\\x00\\x00\\x00\\x80\\xa6\\xe9\\x04A\\x89\\xd2\\x1e?\\xb0\\xa7o\\xc4\\x96M\\x02D\\xcd\\xcc\\x9f\\xc2\\xf7\\xa5\\xa9\\xbc\\xf1\\xf1\\x7f\\xbf\\x00\\x00\\x00\\x80\\xa6\\xe9\\x04A \\x90\\xa0\\xbc\\xb0\\xa7o\\xc4\\x96\\r\\x06D\\x00\\x00\\xaa\\xc2\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xe4\\xf3\\x03A\\x10\\xd7#\\xbd",
+				"u9" : "\\x00\\x00\\x04\\x00\\x05\\x00\\x00\\x00\\x03\\x00\\x04\\x00\\x00\\x00\\x01\\x00\\x03\\x00\\x01\\x00\\x02\\x00\\x03\\x00\\x06\\x00\\n\\x00\\x0b\\x00\\x07\\x00\\x06\\x00\\x0b\\x00\\x07\\x00\\x0b\\x00\\x0c\\x00\\x08\\x00\\x07\\x00\\x0c\\x00\\x08\\x00\\x0c\\x00\\r\\x00\\t\\x00\\x08\\x00\\r\\x00\\n\\x00\\x0e\\x00\\x0f\\x00\\x0b\\x00\\n\\x00\\x0f\\x00\\x0b\\x00\\x0f\\x00\\x10\\x00\\x0c\\x00\\x0b\\x00\\x10\\x00\\x0c\\x00\\x10\\x00\\x11\\x00\\r\\x00\\x0c\\x00\\x11\\x00\\x12\\x00\\x17\\x00\\x16\\x00\\x12\\x00\\x16\\x00\\x15\\x00\\x12\\x00\\x15\\x00\\x13\\x00\\x15\\x00\\x14\\x00\\x13\\x00",
+			},
+
+			"u1sub-sub-sub-block " :  {
+
+				"u0" : 24,
+				"u1" : 20,
+
+				"u2sub-sub-sub-sub-block " :  {
+
+					"u0" : 4,
+					"u1" : 1,
+					"u2" : 2,
+					"u3" : 0,
+				},
+
+				"u3sub-sub-sub-sub-block " :  {
+
+					"u0" : 7,
+					"u1" : 3,
+					"u2" : 32,
+					"u3" : 0,
+				},
+
+				"u4sub-sub-sub-sub-block " :  {
+
+					"u0" : 7,
+					"u1" : 3,
+					"u2" : 32,
+					"u3" : 12,
+				},
+
+				"u5sub-sub-sub-sub-block " :  {
+
+					"u0" : 7,
+					"u1" : 2,
+					"u2" : 32,
+					"u3" : 24,
+				},
+
+				"u6sub-sub-sub-sub-block " :  {
+
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 1.0,
+						"x" : 1.0,
+						"y" : 1.0,
+						"z" : 1.0,
+					},
+
+					"u1sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 1.0,
+						"x" : 1.0,
+						"y" : 1.0,
+						"z" : 1.0,
+					},
+
+					"u2sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 1.0,
+						"x" : 1.0,
+						"y" : 1.0,
+						"z" : 1.0,
+					},
+					"u3" : 0.0,
+					"u4" : "\\n\\x07ground3\\x10\\x01 \\x01",
+				},
+
+				"u7sub-sub-sub-sub-block " :  {
+
+					"u" : -940.118408203125,
+					"v" : -125.405517578125,
+					"w" : -85.0,
+					"x" : 1079.661865234375,
+					"y" : 25.146339416503906,
+					"z" : 170.0,
+				},
+				"u8" : "\\x1c\\x8b\\x0bC\\xa0\\xcf\\xc8\\xc2\\x00\\x00\\xa0\\xc2H\\x8bu9\\x00\\x00\\x80?\\x00\\x00\\x00\\x00\\x0cP\\x03A\\x00\\xd7\\xa3\\xbc\\x1c\\x8b\\x0bC\\xa0\\xcf\\xc8\\xc2\\x00\\x00\\xa0BH\\x8bu9\\x00\\x00\\x80?\\x00\\x00\\x00\\x00\\x0cP\\x03AR\\xb8\\x1e?\\x1c\\x8b\\x0bC\\xa0\\xcf\\xdc\\xc2\\x00\\x00\\xaaB\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?5\\xac\\x02A\\n\\xd7#?\\x1c\\x8b\\x0bC\\xa0\\xcf\\xfa\\xc233\\xa0BH\\x8bu\\xb9\\x00\\x00\\x80\\xbf\\x00\\x00\\x00\\x80r\\xb6\\x01A\\x89\\xd2\\x1e?\\x1c\\x8b\\x0bC\\xa0\\xcf\\xfa\\xc2\\xcd\\xcc\\x9f\\xc2H\\x8bu\\xb9\\x00\\x00\\x80\\xbf\\x00\\x00\\x00\\x80r\\xb6\\x01A \\x90\\xa0\\xbc\\x1c\\x8b\\x0bC\\xa0\\xcf\\xdc\\xc2\\x00\\x00\\xaa\\xc2\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?5\\xac\\x02A\\x10\\xd7#\\xbd\\x1c\\x8b\\x0bC\\xa0\\xcf\\xc8\\xc2\\x00\\x00\\xa0\\xc2H\\x8bu9\\x00\\x00\\x80?\\x00\\x00\\x00\\x00\\x0cP\\x03A\\x00\\xd7\\xa3\\xbc\\x1c\\x8b\\x0bC\\xa0\\xcf\\xc8\\xc2\\x00\\x00\\xa0BH\\x8bu9\\x00\\x00\\x80?\\x00\\x00\\x00\\x00\\x0cP\\x03AR\\xb8\\x1e?\\x1c\\x8b\\x0bC\\xa0\\xcf\\xdc\\xc2\\x00\\x00\\xaaB\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\x0cP\\x03A.+*?\\x1c\\x8b\\x0bC\\xa0\\xcf\\xfa\\xc233\\xa0BH\\x8bu\\xb9\\x00\\x00\\x80\\xbf\\x00\\x00\\x00\\x80\\x0cP\\x03A\\xd4S:?\\x007\\xe6\\xc2\\x18\\xb1\\xc8\\xc2\\x00\\x00\\xa0\\xc2\\xa47\\x0e9\\x00\\x00\\x80?\\x00\\x00\\x00\\x00?\\x9c\\x13A\\x00\\xd7\\xa3\\xbc\\x007\\xe6\\xc2\\x18\\xb1\\xc8\\xc2\\x00\\x00\\xa0B\\xa47\\x0e9\\x00\\x00\\x80?\\x00\\x00\\x00\\x00?\\x9c\\x13AR\\xb8\\x1e?\\x007\\xe6\\xc2\\x18\\xb1\\xdc\\xc2\\x00\\x00\\xaaB\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80??\\x9c\\x13A.+*?\\x007\\xe6\\xc2\\x18\\xb1\\xfa\\xc233\\xa0B\\xa47\\x0e\\xb9\\x00\\x00\\x80\\xbf\\x00\\x00\\x00\\x80?\\x9c\\x13A\\xd4S:?\\x94\\x07k\\xc4\\xb3\\x84\\xc8\\xc2\\x00\\x00\\xa0\\xc2aj\\xdc8\\xff\\xff\\x7f?\\x00\\x00\\x00\\x00\\x138HA\\x00\\xd7\\xa3\\xbc\\x94\\x07k\\xc4\\xb3\\x84\\xc8\\xc2\\x00\\x00\\xa0Baj\\xdc8\\xff\\xff\\x7f?\\x00\\x00\\x00\\x00\\x138HAR\\xb8\\x1e?\\x94\\x07k\\xc4\\xb3\\x84\\xdc\\xc2\\x00\\x00\\xaaB\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\xff\\xff\\x7f?\\x138HA.+*?\\x94\\x07k\\xc4\\xb3\\x84\\xfa\\xc233\\xa0Baj\\xdc\\xb8\\xff\\xff\\x7f\\xbf\\x00\\x00\\x00\\x80\\x138HA\\xd4S:?\\x94\\x07k\\xc4\\xb3\\x84\\xc8\\xc2\\x00\\x00\\xa0\\xc2aj\\xdc8\\xff\\xff\\x7f?\\x00\\x00\\x00\\x00\\x138HA\\x00\\xd7\\xa3\\xbc\\x94\\x07k\\xc4\\xb3\\x84\\xc8\\xc2\\x00\\x00\\xa0Baj\\xdc8\\xff\\xff\\x7f?\\x00\\x00\\x00\\x00\\x138HAR\\xb8\\x1e?\\x94\\x07k\\xc4\\xb3\\x84\\xdc\\xc2\\x00\\x00\\xaaB\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\xff\\xff\\x7f?\\xea\\xdbHA\\n\\xd7#?\\x94\\x07k\\xc4\\xb3\\x84\\xfa\\xc233\\xa0Baj\\xdc\\xb8\\xff\\xff\\x7f\\xbf\\x00\\x00\\x00\\x80\\xad\\xd1IA\\x89\\xd2\\x1e?\\x94\\x07k\\xc4\\xb3\\x84\\xfa\\xc2\\xcd\\xcc\\x9f\\xc2aj\\xdc\\xb8\\xff\\xff\\x7f\\xbf\\x00\\x00\\x00\\x80\\xad\\xd1IA \\x90\\xa0\\xbc\\x94\\x07k\\xc4\\xb3\\x84\\xdc\\xc2\\x00\\x00\\xaa\\xc2\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\xff\\xff\\x7f?\\xea\\xdbHA\\x10\\xd7#\\xbd",
+				"u9" : "\\x00\\x00\\x04\\x00\\x05\\x00\\x00\\x00\\x03\\x00\\x04\\x00\\x00\\x00\\x01\\x00\\x03\\x00\\x01\\x00\\x02\\x00\\x03\\x00\\x06\\x00\\n\\x00\\x0b\\x00\\x07\\x00\\x06\\x00\\x0b\\x00\\x07\\x00\\x0b\\x00\\x0c\\x00\\x08\\x00\\x07\\x00\\x0c\\x00\\x08\\x00\\x0c\\x00\\r\\x00\\t\\x00\\x08\\x00\\r\\x00\\n\\x00\\x0e\\x00\\x0f\\x00\\x0b\\x00\\n\\x00\\x0f\\x00\\x0b\\x00\\x0f\\x00\\x10\\x00\\x0c\\x00\\x0b\\x00\\x10\\x00\\x0c\\x00\\x10\\x00\\x11\\x00\\r\\x00\\x0c\\x00\\x11\\x00\\x12\\x00\\x17\\x00\\x16\\x00\\x12\\x00\\x16\\x00\\x15\\x00\\x12\\x00\\x15\\x00\\x13\\x00\\x15\\x00\\x14\\x00\\x13\\x00",
+			},
+
+			"u1sub-sub-sub-block " :  {
+
+				"u0" : 24,
+				"u1" : 20,
+
+				"u2sub-sub-sub-sub-block " :  {
+
+					"u0" : 4,
+					"u1" : 1,
+					"u2" : 2,
+					"u3" : 0,
+				},
+
+				"u3sub-sub-sub-sub-block " :  {
+
+					"u0" : 7,
+					"u1" : 3,
+					"u2" : 32,
+					"u3" : 0,
+				},
+
+				"u4sub-sub-sub-sub-block " :  {
+
+					"u0" : 7,
+					"u1" : 3,
+					"u2" : 32,
+					"u3" : 12,
+				},
+
+				"u5sub-sub-sub-sub-block " :  {
+
+					"u0" : 7,
+					"u1" : 2,
+					"u2" : 32,
+					"u3" : 24,
+				},
+
+				"u6sub-sub-sub-sub-block " :  {
+
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 1.0,
+						"x" : 1.0,
+						"y" : 1.0,
+						"z" : 1.0,
+					},
+
+					"u1sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 1.0,
+						"x" : 1.0,
+						"y" : 1.0,
+						"z" : 1.0,
+					},
+
+					"u2sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 1.0,
+						"x" : 1.0,
+						"y" : 1.0,
+						"z" : 1.0,
+					},
+					"u3" : 0.0,
+					"u4" : "\\n\\x10florennum_ground\\x10\\x01 \\x01",
+				},
+
+				"u7sub-sub-sub-sub-block " :  {
+
+					"u" : -1004.267822265625,
+					"v" : -665.9594116210938,
+					"w" : -75.0,
+					"x" : 2008.53564453125,
+					"y" : 1212.109619140625,
+					"z" : 150.0,
+				},
+				"u8" : "\\xbb\\xe7n\\xc4\\x9c\\x89\\x08D\\x00\\x00\\x96\\xc2\\xe9\\xa5|\\xbf\\t*%\\xbe\\x00\\x00\\x00\\x00\\x00\\x00\\x00?\\xcc\\xccL>\\xbb\\xe7n\\xc4\\x9c\\x89\\x08D\\x00\\x00\\x96B\\xe9\\xa5|\\xbf\\t*%\\xbe\\x00\\x00\\x00\\x00\\x00\\x00\\x00?\\xcd\\xccL?sw]\\xc4\\xa4\\xaf\\xeeB\\x00\\x00\\x96\\xc2C\\x00~\\xbf\\x1co\\xff\\xbd\\x00\\x00\\x00\\x00T\\xb6\\x0e@\\xcc\\xccL>sw]\\xc4\\xa4\\xaf\\xeeB\\x00\\x00\\x96BC\\x00~\\xbf\\x1co\\xff\\xbd\\x00\\x00\\x00\\x00T\\xb6\\x0e@\\xcd\\xccL?3\\xbe]\\xc4\\x00\\xb0\"=\\x00\\x00\\x96\\xc2\\xca\\x87m\\xbey\\x04y\\xbf\\x00\\x00\\x00\\x00TA-@\\xcc\\xccL>3\\xbe]\\xc4\\x00\\xb0\"=\\x00\\x00\\x96B\\xca\\x87m\\xbey\\x04y\\xbf\\x00\\x00\\x00\\x00TA-@\\xcd\\xccL?\\xce\\x86\\xc1\\xc3\\x00\\xd4\\xc8>\\x00\\x00\\x96\\xc2T\\xedS>\\x1auz\\xbf\\x00\\x00\\x00\\x00\\x01\\x9e\\x96@\\xcc\\xccL>\\xce\\x86\\xc1\\xc3\\x00\\xd4\\xc8>\\x00\\x00\\x96BT\\xedS>\\x1auz\\xbf\\x00\\x00\\x00\\x00\\x01\\x9e\\x96@\\xcd\\xccL?\\xb24\\xc1\\xc3@\\xdb\\xd3B\\x00\\x00\\x96\\xc2g\\x8a\\xbc>\\xc0\\x02n\\xbf\\x00\\x00\\x00\\x00F \\xa4@\\xcc\\xccL>\\xb24\\xc1\\xc3@\\xdb\\xd3B\\x00\\x00\\x96Bg\\x8a\\xbc>\\xc0\\x02n\\xbf\\x00\\x00\\x00\\x00F \\xa4@\\xcd\\xccL?\\xa4\\xf9\\xdd\\xc2hx\\xdbB\\x00\\x00\\x96\\xc2\\xbab\\x8f;_\\xff\\x7f\\xbf\\x00\\x00\\x00\\x00;b\\xc7@\\xcc\\xccL>\\xa4\\xf9\\xdd\\xc2hx\\xdbB\\x00\\x00\\x96B\\xbab\\x8f;_\\xff\\x7f\\xbf\\x00\\x00\\x00\\x00;b\\xc7@\\xcd\\xccL?\\x04\\xb3\\x02C\\xcca\\xd8B\\x00\\x00\\x96\\xc2Y\\x84$\\xbf\\\\#D\\xbf\\x00\\x00\\x00\\x00\\xfdQ\\xe6@\\xcc\\xccL>\\x04\\xb3\\x02C\\xcca\\xd8B\\x00\\x00\\x96BY\\x84$\\xbf\\\\#D\\xbf\\x00\\x00\\x00\\x00\\xfdQ\\xe6@\\xcd\\xccL?\\x1c\\x8b\\x0bC\\xa0\\xcf\\xc8\\xc2\\x00\\x00\\x96\\xc2-\\xc5\\x7f\\xbf\\xd3\\x81-\\xbd\\x00\\x00\\x00\\x00\\xb6\\x85\\x00A\\xcc\\xccL>\\x1c\\x8b\\x0bC\\xa0\\xcf\\xc8\\xc2\\x00\\x00\\x96B-\\xc5\\x7f\\xbf\\xd3\\x81-\\xbd\\x00\\x00\\x00\\x00\\xb6\\x85\\x00A\\xcd\\xccL?\\x94Gj\\xc4\\xdc\\x84\\xc8\\xc2\\x00\\x00\\x96\\xc2\\x1f7~\\xbf\\xe5g\\xf1=\\x00\\x00\\x00\\x00\\xb6\\x85\\x00A\\xcc\\xccL>\\x94Gj\\xc4\\xdc\\x84\\xc8\\xc2\\x00\\x00\\x96B\\x1f7~\\xbf\\xe5g\\xf1=\\x00\\x00\\x00\\x00\\xb6\\x85\\x00A\\xcd\\xccL?$\\x11{\\xc4g}&\\xc4\\x00\\x00\\x96\\xc2\\x91\\xab\\xfc\\xbe\\xcb\\xa7^\\xbf\\x00\\x00\\x00\\x005\\xfb$A\\xcc\\xccL>$\\x11{\\xc4g}&\\xc4\\x00\\x00\\x96B\\x91\\xab\\xfc\\xbe\\xcb\\xa7^\\xbf\\x00\\x00\\x00\\x005\\xfb$A\\xcd\\xccL?\\x80\\x01\\x9e\\xc1\\xa21\\x1b\\xc4\\x00\\x00\\x96\\xc2\\x88.\\x12;\\xd7\\xff\\x7f\\xbf\\x00\\x00\\x00\\x00\\x83\\x0edA\\xcc\\xccL>\\x80\\x01\\x9e\\xc1\\xa21\\x1b\\xc4\\x00\\x00\\x96B\\x88.\\x12;\\xd7\\xff\\x7f\\xbf\\x00\\x00\\x00\\x00\\x83\\x0edA\\xcd\\xccL?#\\x11{D\\xac^%\\xc4\\x00\\x00\\x96\\xc2\\x03\\x82K?\\xd3N\\x1b\\xbf\\x00\\x00\\x00\\x00\\xa4\\xd2\\x92A\\xcc\\xccL>#\\x11{D\\xac^%\\xc4\\x00\\x00\\x96B\\x03\\x82K?\\xd3N\\x1b\\xbf\\x00\\x00\\x00\\x00\\xa4\\xd2\\x92A\\xcd\\xccL?",
+				"u9" : "\\x00\\x00\\x02\\x00\\x03\\x00\\x01\\x00\\x00\\x00\\x03\\x00\\x02\\x00\\x04\\x00\\x05\\x00\\x03\\x00\\x02\\x00\\x05\\x00\\x04\\x00\\x06\\x00\\x07\\x00\\x05\\x00\\x04\\x00\\x07\\x00\\x06\\x00\\x08\\x00\\t\\x00\\x07\\x00\\x06\\x00\\t\\x00\\x08\\x00\\n\\x00\\x0b\\x00\\t\\x00\\x08\\x00\\x0b\\x00\\n\\x00\\x0c\\x00\\r\\x00\\x0b\\x00\\n\\x00\\r\\x00\\x0c\\x00\\x0e\\x00\\x0f\\x00\\r\\x00\\x0c\\x00\\x0f\\x00\\x10\\x00\\x12\\x00\\x13\\x00\\x11\\x00\\x10\\x00\\x13\\x00\\x12\\x00\\x14\\x00\\x15\\x00\\x13\\x00\\x12\\x00\\x15\\x00\\x14\\x00\\x16\\x00\\x17\\x00\\x15\\x00\\x14\\x00\\x17\\x00",
+			},
+
+			"u1sub-sub-sub-block " :  {
+
+				"u0" : 4,
+				"u1" : 2,
+
+				"u2sub-sub-sub-sub-block " :  {
+
+					"u0" : 4,
+					"u1" : 1,
+					"u2" : 2,
+					"u3" : 0,
+				},
+
+				"u3sub-sub-sub-sub-block " :  {
+
+					"u0" : 7,
+					"u1" : 3,
+					"u2" : 32,
+					"u3" : 0,
+				},
+
+				"u4sub-sub-sub-sub-block " :  {
+
+					"u0" : 7,
+					"u1" : 3,
+					"u2" : 32,
+					"u3" : 12,
+				},
+
+				"u5sub-sub-sub-sub-block " :  {
+
+					"u0" : 7,
+					"u1" : 2,
+					"u2" : 32,
+					"u3" : 24,
+				},
+
+				"u6sub-sub-sub-sub-block " :  {
+
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 1.0,
+						"x" : 1.0,
+						"y" : 1.0,
+						"z" : 1.0,
+					},
+
+					"u1sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 1.0,
+						"x" : 1.0,
+						"y" : 1.0,
+						"z" : 1.0,
+					},
+
+					"u2sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 1.0,
+						"x" : 1.0,
+						"y" : 1.0,
+						"z" : 1.0,
+					},
+					"u3" : 0.0,
+					"u4" : "\\n\\x10florennum_ground\\x10\\x01 \\x01",
+				},
+
+				"u7sub-sub-sub-sub-block " :  {
+
+					"u" : 962.2265625,
+					"v" : -661.479248046875,
+					"w" : -75.0,
+					"x" : 42.04119873046875,
+					"y" : 1327.438720703125,
+					"z" : 150.0,
+				},
+				"u8" : "#\\x11{D\\xac^%\\xc4\\x00\\x00\\x96\\xc2\\x03\\x82K?\\xd3N\\x1b\\xbf\\x00\\x00\\x00\\x00\\xa4\\xd2\\x92A\\xcc\\xccL>#\\x11{D\\xac^%\\xc4\\x00\\x00\\x96B\\x03\\x82K?\\xd3N\\x1b\\xbf\\x00\\x00\\x00\\x00\\xa4\\xd2\\x92A\\xcd\\xccL?\\x80\\x8epDg}&D\\x00\\x00\\x96\\xc2)\\xdf\\x7f?\\xb8\\xa8\\x01=\\x00\\x00\\x00\\x00yR\\xbdA\\xcc\\xccL>\\x80\\x8epDg}&D\\x00\\x00\\x96B)\\xdf\\x7f?\\xb8\\xa8\\x01=\\x00\\x00\\x00\\x00yR\\xbdA\\xcd\\xccL?",
+				"u9" : "\\x00\\x00\\x02\\x00\\x03\\x00\\x01\\x00\\x00\\x00\\x03\\x00",
+			},
+
+			"u2sub-sub-sub-block " :  {
+
+				"u0" : 39,
+				"u1" : 13,
+
+				"u2sub-sub-sub-sub-block " :  {
+
+					"u0" : 7,
+					"u1" : 3,
+					"u2" : 32,
+					"u3" : 0,
+				},
+
+				"u3sub-sub-sub-sub-block " :  {
+
+					"u0" : 7,
+					"u1" : 3,
+					"u2" : 32,
+					"u3" : 12,
+				},
+
+				"u4sub-sub-sub-sub-block " :  {
+
+					"u0" : 7,
+					"u1" : 2,
+					"u2" : 32,
+					"u3" : 24,
+				},
+
+				"u5sub-sub-sub-sub-block " :  {
+
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 1.0,
+						"x" : 1.0,
+						"y" : 1.0,
+						"z" : 1.0,
+					},
+
+					"u1sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 1.0,
+						"x" : 1.0,
+						"y" : 1.0,
+						"z" : 1.0,
+					},
+
+					"u2sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 1.0,
+						"x" : 1.0,
+						"y" : 1.0,
+						"z" : 1.0,
+					},
+					"u3" : 0.0,
+
+					"u4sub-sub-sub-sub-sub-block " :  {
+
+						"u0" : "florennum_ground",
+						"u1" : 1,
+						"u2" : 1,
+					},
+				},
+
+				"u3sub-sub-sub-sub-block " :  {
+
+					"u" : -1004.267822265625,
+					"v" : -665.9594116210938,
+					"w" : 75.0,
+					"x" : 2008.53564453125,
+					"y" : 1331.9189453125,
+					"z" : 0.0,
+				},
+				"u7" : "\\xbb\\xe7n\\xc4\\x9c\\x89\\x08D\\x00\\x00\\x96B\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\x90\\xa3T\\xc0\\x7f\\xd0+@sw]\\xc4\\xa4\\xaf\\xeeB\\x00\\x00\\x96B\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?$\\xc8B\\xc0\\x105z?\\xce\\x86\\xc1\\xc3\\x00\\xd4\\xc8>\\x00\\x00\\x96B\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xd5+\\x86\\xbf\\xd3f\\x00?\\xbb\\xe7n\\xc4\\x9c\\x89\\x08D\\x00\\x00\\x96B\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\x90\\xa3T\\xc0\\x7f\\xd0+@\\xce\\x86\\xc1\\xc3\\x00\\xd4\\xc8>\\x00\\x00\\x96B\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xd5+\\x86\\xbf\\xd3f\\x00?\\xb24\\xc1\\xc3@\\xdb\\xd3B\\x00\\x00\\x96B\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xc1\\xd7\\x85\\xbfrxl?\\xbb\\xe7n\\xc4\\x9c\\x89\\x08D\\x00\\x00\\x96B\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\x90\\xa3T\\xc0\\x7f\\xd0+@\\xb24\\xc1\\xc3@\\xdb\\xd3B\\x00\\x00\\x96B\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xc1\\xd7\\x85\\xbfrxl?P\\xd0\\xe0\\xc2\\xcb+\\x04D\\x00\\x00\\x96B\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?xSN=\\xdaW\\\'@sw]\\xc4\\xa4\\xaf\\xeeB\\x00\\x00\\x96B\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?$\\xc8B\\xc0\\x105z?3\\xbe]\\xc4\\x00\\xb0\"=\\x00\\x00\\x96B\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\x97\\x10C\\xc0i\\n\\x00?\\xce\\x86\\xc1\\xc3\\x00\\xd4\\xc8>\\x00\\x00\\x96B\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xd5+\\x86\\xbf\\xd3f\\x00?\\xa4\\xf9\\xdd\\xc2hx\\xdbB\\x00\\x00\\x96B\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\xff\\xff\\x7f?X\\x94e=j^p?P\\xd0\\xe0\\xc2\\xcb+\\x04D\\x00\\x00\\x96B\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\xff\\xff\\x7f?xSN=\\xdaW\\\'@\\xb24\\xc1\\xc3@\\xdb\\xd3B\\x00\\x00\\x96B\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\xff\\xff\\x7f?\\xc1\\xd7\\x85\\xbfrxl?P\\xd0\\xe0\\xc2\\xcb+\\x04D\\x00\\x00\\x96B\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?xSN=\\xdaW\\\'@\\xa4\\xf9\\xdd\\xc2hx\\xdbB\\x00\\x00\\x96B\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?X\\x94e=j^p?\\x04\\xb3\\x02C\\xcca\\xd8B\\x00\\x00\\x96B\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\x04\\xeb\\x82?\\xa0\\xc9n?\\x04\\xb3\\x02C\\xcca\\xd8B\\x00\\x00\\x96B\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\x04\\xeb\\x82?\\xa0\\xc9n?\\x1c\\x8b\\x0bC\\xa0\\xcf\\xc8\\xc2\\x00\\x00\\x96B\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?<r\\x87?`z\\xc9=\\x80\\x8epDg}&D\\x00\\x00\\x96B\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?>*\\x8b@Q|J@P\\xd0\\xe0\\xc2\\xcb+\\x04D\\x00\\x00\\x96B\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?xSN=\\xdaW\\\'@\\x04\\xb3\\x02C\\xcca\\xd8B\\x00\\x00\\x96B\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\x04\\xeb\\x82?\\xa0\\xc9n?\\x80\\x8epDg}&D\\x00\\x00\\x96B\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?>*\\x8b@Q|J@#\\x11{D\\xac^%\\xc4\\x00\\x00\\x96B\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xd9\\x8b\\x90@\\xb4V\\t\\xc0\\x80\\x8epDg}&D\\x00\\x00\\x96B\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?>*\\x8b@Q|J@\\x1c\\x8b\\x0bC\\xa0\\xcf\\xc8\\xc2\\x00\\x00\\x96B\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?<r\\x87?`z\\xc9=#\\x11{D\\xac^%\\xc4\\x00\\x00\\x96B\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xd9\\x8b\\x90@\\xb4V\\t\\xc0\\x1c\\x8b\\x0bC\\xa0\\xcf\\xc8\\xc2\\x00\\x00\\x96B\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?<r\\x87?`z\\xc9=\\x80\\x01\\x9e\\xc1\\xa21\\x1b\\xc4\\x00\\x00\\x96B\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xee\\x8c\\xd7>J\\xd6\\xfd\\xbf\\x007\\xe6\\xc2\\x18\\xb1\\xc8\\xc2\\x00\\x00\\x96B\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?x\\x14\"=l\\xf7\\xc9=\\x80\\x01\\x9e\\xc1\\xa21\\x1b\\xc4\\x00\\x00\\x96B\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xee\\x8c\\xd7>J\\xd6\\xfd\\xbf\\x1c\\x8b\\x0bC\\xa0\\xcf\\xc8\\xc2\\x00\\x00\\x96B\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?<r\\x87?`z\\xc9=\\x80\\x01\\x9e\\xc1\\xa21\\x1b\\xc4\\x00\\x00\\x96B\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xee\\x8c\\xd7>J\\xd6\\xfd\\xbf\\x007\\xe6\\xc2\\x18\\xb1\\xc8\\xc2\\x00\\x00\\x96B\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?x\\x14\"=l\\xf7\\xc9=\\x94Gj\\xc4\\xdc\\x84\\xc8\\xc2\\x00\\x00\\x96B\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xfe\\xe6O\\xc0\\x9c\\xac\\xca=\\x80\\x01\\x9e\\xc1\\xa21\\x1b\\xc4\\x00\\x00\\x96B\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xee\\x8c\\xd7>J\\xd6\\xfd\\xbf\\x94Gj\\xc4\\xdc\\x84\\xc8\\xc2\\x00\\x00\\x96B\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xfe\\xe6O\\xc0\\x9c\\xac\\xca=$\\x11{\\xc4g}&\\xc4\\x00\\x00\\x96B\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xb2\\x17a\\xc0Q|\\n\\xc0",
+			},
+
+			"u3sub-sub-sub-block " :  {
+
+				"w" : 1.0,
+				"x" : 1.0,
+				"y" : 1.0,
+				"z" : 1.0,
+			},
+		},
+	},
+
+	"componentsub-block " :  {
+
+		"component type" : "GroundMeshGenerator",
+		"number" : 102,
+
+		"ground mesh generatorsub-sub-block " :  {
+
+			"ground polygon" : 100,
+			"ground mesh" : 101,
+			"texture mapping 1" : 103,
+			"texture mapping 2" : 104,
+			"u4" : 0,
+			"u5" : 0.0,
+			"u6" : 1,
+			"u7" : 150.0,
+			"u8" : 25.0,
+			"u9" : 5.0,
+			"u10" : 5.0,
+		},
+	},
+
+	"componentsub-block " :  {
+
+		"component type" : "TextureMapping",
+		"number" : 103,
+
+		"texture mappingsub-sub-block " :  {
+
+			"texture file" : "florennum_ground",
+			"u0" : 250.0,
+
+			"u0sub-sub-sub-block " :  {
+
+				"u1" : 0.0,
+				"u2" : 0.0,
+			},
+		},
+	},
+
+	"componentsub-block " :  {
+
+		"component type" : "TextureMapping",
+		"number" : 104,
+
+		"texture mappingsub-sub-block " :  {
+
+			"texture file" : "ground3",
+			"u0" : 250.0,
+
+			"u0sub-sub-sub-block " :  {
+
+				"u1" : 0.0,
+				"u2" : 50.0,
+			},
+		},
+	},
+
+	"componentsub-block " :  {
+
+		"component type" : "CollisionShape",
+		"number" : 105,
+		"? linked component" : 100,
+
+		"collision shapesub-sub-block " :  {
+
+
+			"u2sub-sub-sub-block " :  {
+
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"y" : -1004.267822265625,
+					"z" : -665.9594116210938,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"y" : -19.750732421875,
+					"z" : -620.7755126953125,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"y" : 1004.2677612304688,
+					"z" : -661.479248046875,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"y" : 962.2265625,
+					"z" : 665.9594116210938,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"y" : -112.4068603515625,
+					"z" : 528.6842651367188,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"y" : -955.6207885742188,
+					"z" : 546.150146484375,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"y" : -885.8663940429688,
+					"z" : 119.34304809570312,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"y" : -886.9718627929688,
+					"z" : 0.0397186279296875,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"y" : -387.05316162109375,
+					"z" : 0.392242431640625,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"y" : -386.41168212890625,
+					"z" : 105.92822265625,
+				},
+				"u3" : 0,
+				"u4" : 0,
+			},
+		},
+
+		"collision shape 2sub-sub-block " :  {
+
+			"u0" : 1,
+			"w" : -80.0,
+			"x" : 80.0,
+			"z" : 1,
+		},
+	},
+
+	"componentsub-block " :  {
+
+		"component type" : "CollisionShape",
+		"number" : 106,
+		"? linked component" : 100,
+
+		"collision shapesub-sub-block " :  {
+
+
+			"u2sub-sub-sub-block " :  {
+
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"y" : -886.9718627929688,
+					"z" : 0.0397186279296875,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"y" : -387.05316162109375,
+					"z" : 0.392242431640625,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"y" : -386.41168212890625,
+					"z" : 105.92822265625,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"y" : -110.98757934570312,
+					"z" : 109.73516845703125,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"y" : 130.69927978515625,
+					"z" : 108.19100952148438,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"y" : 139.54339599609375,
+					"z" : -100.405517578125,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"y" : -115.107421875,
+					"z" : -100.34588623046875,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"y" : -937.118408203125,
+					"z" : -100.25949096679688,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"y" : -1004.267822265625,
+					"z" : -665.9594116210938,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"y" : -19.750732421875,
+					"z" : -620.7755126953125,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"y" : 1004.2677612304688,
+					"z" : -661.479248046875,
+				},
+				"u3" : 0,
+				"u4" : 0,
+			},
+		},
+
+		"collision shape 2sub-sub-block " :  {
+
+			"u0" : 1,
+			"w" : -80.0,
+			"x" : 80.0,
+			"z" : 1,
+		},
+	},
+
+	"positionsub-block " :  {
+
+		"x position" : 5.3695526123046875,
+		"y position" : 216.437744140625,
+	},
+	"z position" : 0.0,
+	"rotation" : 0.0,
+	"scale" : 1.0,
+
+	"u2sub-block " :  {
+
+		"w" : -1004.267822265625,
+		"x" : -665.9594116210938,
+		"y" : 2008.53564453125,
+		"z" : 1331.9188232421875,
+	},
+	"hidden" : 0,
+},
+
+"objectblock " :  {
+
+	"identifier" : "obj2#2",
+
+	"componentsub-block " :  {
+
+		"component type" : "GroundPolygon",
+		"number" : 100,
+
+		"ground polygonsub-sub-block " :  {
+
+
+			"sub-sub-sub-block " :  {
+
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"x" : -1004.267822265625,
+					"y" : -665.9594116210938,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"x" : -19.750732421875,
+					"y" : -620.7755126953125,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"x" : 1004.2677612304688,
+					"y" : -661.479248046875,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"x" : 962.2265625,
+					"y" : 665.9594116210938,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"x" : -112.4068603515625,
+					"y" : 528.6842651367188,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"x" : -955.6207885742188,
+					"y" : 546.1500854492188,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"x" : -885.8663940429688,
+					"y" : 119.34304809570312,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"x" : -886.9718627929688,
+					"y" : 0.0397186279296875,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"x" : -387.0533142089844,
+					"y" : 0.392242431640625,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"x" : -386.4118347167969,
+					"y" : 105.92819213867188,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"x" : -110.98757934570312,
+					"y" : 109.73516845703125,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"x" : 130.69927978515625,
+					"y" : 108.19100952148438,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"x" : 139.54339599609375,
+					"y" : -100.405517578125,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"x" : -115.107421875,
+					"y" : -100.34588623046875,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"x" : -937.118408203125,
+					"y" : -100.25949096679688,
+				},
+				"u0" : 0,
+				"u1" : 1,
+			},
+			"u1" : 1,
+			"u2" : -80.0,
+			"u3" : 80.0,
+			"u4" : "",
+		},
+	},
+
+	"componentsub-block " :  {
+
+		"component type" : "GroundMesh",
+		"number" : 101,
+
+		"ground meshsub-sub-block " :  {
+
+
+			"u0sub-sub-sub-block " :  {
+
+				"w" : -1014.267822265625,
+				"x" : -675.9594116210938,
+				"y" : 2028.53564453125,
+				"z" : 1351.9188232421875,
+			},
+
+			"u1sub-sub-sub-block " :  {
+
+				"u0" : 24,
+				"u1" : 20,
+
+				"u2sub-sub-sub-sub-block " :  {
+
+					"u0" : 4,
+					"u1" : 1,
+					"u2" : 2,
+					"u3" : 0,
+				},
+
+				"u3sub-sub-sub-sub-block " :  {
+
+					"u0" : 7,
+					"u1" : 3,
+					"u2" : 32,
+					"u3" : 0,
+				},
+
+				"u4sub-sub-sub-sub-block " :  {
+
+					"u0" : 7,
+					"u1" : 3,
+					"u2" : 32,
+					"u3" : 12,
+				},
+
+				"u5sub-sub-sub-sub-block " :  {
+
+					"u0" : 7,
+					"u1" : 2,
+					"u2" : 32,
+					"u3" : 24,
+				},
+
+				"u6sub-sub-sub-sub-block " :  {
+
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 1.0,
+						"x" : 1.0,
+						"y" : 1.0,
+						"z" : 1.0,
+					},
+
+					"u1sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 1.0,
+						"x" : 1.0,
+						"y" : 1.0,
+						"z" : 1.0,
+					},
+
+					"u2sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 1.0,
+						"x" : 1.0,
+						"y" : 1.0,
+						"z" : 1.0,
+					},
+					"u3" : 0.0,
+					"u4" : "\\n\\x07ground3\\x10\\x01 \\x01",
+				},
+
+				"u7sub-sub-sub-sub-block " :  {
+
+					"u" : -958.6201171875,
+					"v" : 503.68426513671875,
+					"w" : -85.0,
+					"x" : 1923.822509765625,
+					"y" : 162.6552734375,
+					"z" : 170.0,
+				},
+				"u8" : "\\xf4LqD\\xbb\\x95&D\\x00\\x00\\xa0\\xc2\\xb7\\xc0\\x01\\xbe\\xc0\\xef}?\\x00\\x00\\x00\\x00\\x00\\x00\\x00?\\x00\\xd7\\xa3\\xbc\\xf4LqD\\xbb\\x95&D\\x00\\x00\\xa0B\\xb7\\xc0\\x01\\xbe\\xc0\\xef}?\\x00\\x00\\x00\\x00\\x00\\x00\\x00?R\\xb8\\x1e?\\xf4LqD\\xbb\\x15$D\\x00\\x00\\xaaB\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\x1f\\x85\\xeb>\\n\\xd7#?\\xf4LqD\\xbbU D33\\xa0B\\xb7\\xc0\\x01>\\xc0\\xef}\\xbf\\x00\\x00\\x00\\x80\\xcd\\xcc\\xcc>\\x89\\xd2\\x1e?\\xf4LqD\\xbbU D\\xcd\\xcc\\x9f\\xc2\\xb7\\xc0\\x01>\\xc0\\xef}\\xbf\\x00\\x00\\x00\\x80\\xcd\\xcc\\xcc> \\x90\\xa0\\xbc\\xf4LqD\\xbb\\x15$D\\x00\\x00\\xaa\\xc2\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\x1f\\x85\\xeb>\\x10\\xd7#\\xbd\\xf4LqD\\xbb\\x95&D\\x00\\x00\\xa0\\xc2\\xb7\\xc0\\x01\\xbe\\xc0\\xef}?\\x00\\x00\\x00\\x00\\x00\\x00\\x00?\\x00\\xd7\\xa3\\xbc\\xf4LqD\\xbb\\x95&D\\x00\\x00\\xa0B\\xb7\\xc0\\x01\\xbe\\xc0\\xef}?\\x00\\x00\\x00\\x00\\x00\\x00\\x00?R\\xb8\\x1e?\\xf4LqD\\xbb\\x15$D\\x00\\x00\\xaaB\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\x00\\x00\\x00?.+*?\\xf4LqD\\xbbU D33\\xa0B\\xb7\\xc0\\x01>\\xc0\\xef}\\xbf\\x00\\x00\\x00\\x80\\x00\\x00\\x00?\\xd4S:?P\\xd0\\xe0\\xc2\\xcb+\\x04D\\x00\\x00\\xa0\\xc2\\xdca\\x7f\\xbd~\\x80\\x7f?\\x00\\x00\\x00\\x00\\xbb\\xab\\x9a@\\x00\\xd7\\xa3\\xbcP\\xd0\\xe0\\xc2\\xcb+\\x04D\\x00\\x00\\xa0B\\xdca\\x7f\\xbd~\\x80\\x7f?\\x00\\x00\\x00\\x00\\xbb\\xab\\x9a@R\\xb8\\x1e?P\\xd0\\xe0\\xc2\\xcb\\xab\\x01D\\x00\\x00\\xaaB\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xbb\\xab\\x9a@.+*?P\\xd0\\xe0\\xc2\\x96\\xd7\\xfbC33\\xa0B\\xdca\\x7f=~\\x80\\x7f\\xbf\\x00\\x00\\x00\\x80\\xbb\\xab\\x9a@\\xd4S:?\\xb0\\xa7o\\xc4\\x95\\x8d\\x08D\\x00\\x00\\xa0\\xc2\\xd0\\xa5\\xa9<\\xf1\\xf1\\x7f?\\x00\\x00\\x00\\x00\\x0cP\\x03A\\x00\\xd7\\xa3\\xbc\\xb0\\xa7o\\xc4\\x95\\x8d\\x08D\\x00\\x00\\xa0B\\xd0\\xa5\\xa9<\\xf1\\xf1\\x7f?\\x00\\x00\\x00\\x00\\x0cP\\x03AR\\xb8\\x1e?\\xb0\\xa7o\\xc4\\x95\\r\\x06D\\x00\\x00\\xaaB\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\x0cP\\x03A.+*?\\xb0\\xa7o\\xc4\\x95M\\x02D33\\xa0B\\xd0\\xa5\\xa9\\xbc\\xf1\\xf1\\x7f\\xbf\\x00\\x00\\x00\\x80\\x0cP\\x03A\\xd4S:?\\xb0\\xa7o\\xc4\\x95\\x8d\\x08D\\x00\\x00\\xa0\\xc2\\xd0\\xa5\\xa9<\\xf1\\xf1\\x7f?\\x00\\x00\\x00\\x00\\x0cP\\x03A\\x00\\xd7\\xa3\\xbc\\xb0\\xa7o\\xc4\\x95\\x8d\\x08D\\x00\\x00\\xa0B\\xd0\\xa5\\xa9<\\xf1\\xf1\\x7f?\\x00\\x00\\x00\\x00\\x0cP\\x03AR\\xb8\\x1e?\\xb0\\xa7o\\xc4\\x95\\r\\x06D\\x00\\x00\\xaaB\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xe4\\xf3\\x03A\\n\\xd7#?\\xb0\\xa7o\\xc4\\x95M\\x02D33\\xa0B\\xd0\\xa5\\xa9\\xbc\\xf1\\xf1\\x7f\\xbf\\x00\\x00\\x00\\x80\\xa6\\xe9\\x04A\\x89\\xd2\\x1e?\\xb0\\xa7o\\xc4\\x95M\\x02D\\xcd\\xcc\\x9f\\xc2\\xd0\\xa5\\xa9\\xbc\\xf1\\xf1\\x7f\\xbf\\x00\\x00\\x00\\x80\\xa6\\xe9\\x04A \\x90\\xa0\\xbc\\xb0\\xa7o\\xc4\\x95\\r\\x06D\\x00\\x00\\xaa\\xc2\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xe4\\xf3\\x03A\\x10\\xd7#\\xbd",
+				"u9" : "\\x00\\x00\\x04\\x00\\x05\\x00\\x00\\x00\\x03\\x00\\x04\\x00\\x00\\x00\\x01\\x00\\x03\\x00\\x01\\x00\\x02\\x00\\x03\\x00\\x06\\x00\\n\\x00\\x0b\\x00\\x07\\x00\\x06\\x00\\x0b\\x00\\x07\\x00\\x0b\\x00\\x0c\\x00\\x08\\x00\\x07\\x00\\x0c\\x00\\x08\\x00\\x0c\\x00\\r\\x00\\t\\x00\\x08\\x00\\r\\x00\\n\\x00\\x0e\\x00\\x0f\\x00\\x0b\\x00\\n\\x00\\x0f\\x00\\x0b\\x00\\x0f\\x00\\x10\\x00\\x0c\\x00\\x0b\\x00\\x10\\x00\\x0c\\x00\\x10\\x00\\x11\\x00\\r\\x00\\x0c\\x00\\x11\\x00\\x12\\x00\\x17\\x00\\x16\\x00\\x12\\x00\\x16\\x00\\x15\\x00\\x12\\x00\\x15\\x00\\x13\\x00\\x15\\x00\\x14\\x00\\x13\\x00",
+			},
+
+			"u1sub-sub-sub-block " :  {
+
+				"u0" : 24,
+				"u1" : 20,
+
+				"u2sub-sub-sub-sub-block " :  {
+
+					"u0" : 4,
+					"u1" : 1,
+					"u2" : 2,
+					"u3" : 0,
+				},
+
+				"u3sub-sub-sub-sub-block " :  {
+
+					"u0" : 7,
+					"u1" : 3,
+					"u2" : 32,
+					"u3" : 0,
+				},
+
+				"u4sub-sub-sub-sub-block " :  {
+
+					"u0" : 7,
+					"u1" : 3,
+					"u2" : 32,
+					"u3" : 12,
+				},
+
+				"u5sub-sub-sub-sub-block " :  {
+
+					"u0" : 7,
+					"u1" : 2,
+					"u2" : 32,
+					"u3" : 24,
+				},
+
+				"u6sub-sub-sub-sub-block " :  {
+
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 1.0,
+						"x" : 1.0,
+						"y" : 1.0,
+						"z" : 1.0,
+					},
+
+					"u1sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 1.0,
+						"x" : 1.0,
+						"y" : 1.0,
+						"z" : 1.0,
+					},
+
+					"u2sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 1.0,
+						"x" : 1.0,
+						"y" : 1.0,
+						"z" : 1.0,
+					},
+					"u3" : 0.0,
+					"u4" : "\\n\\x07ground3\\x10\\x01 \\x01",
+				},
+
+				"u7sub-sub-sub-sub-block " :  {
+
+					"u" : -940.118408203125,
+					"v" : -125.405517578125,
+					"w" : -85.0,
+					"x" : 1079.661865234375,
+					"y" : 25.146339416503906,
+					"z" : 170.0,
+				},
+				"u8" : "\\x1c\\x8b\\x0bC\\xa0\\xcf\\xc8\\xc2\\x00\\x00\\xa0\\xc2H\\x8bu9\\x00\\x00\\x80?\\x00\\x00\\x00\\x00\\x0cP\\x03A\\x00\\xd7\\xa3\\xbc\\x1c\\x8b\\x0bC\\xa0\\xcf\\xc8\\xc2\\x00\\x00\\xa0BH\\x8bu9\\x00\\x00\\x80?\\x00\\x00\\x00\\x00\\x0cP\\x03AR\\xb8\\x1e?\\x1c\\x8b\\x0bC\\xa0\\xcf\\xdc\\xc2\\x00\\x00\\xaaB\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?5\\xac\\x02A\\n\\xd7#?\\x1c\\x8b\\x0bC\\xa0\\xcf\\xfa\\xc233\\xa0BH\\x8bu\\xb9\\x00\\x00\\x80\\xbf\\x00\\x00\\x00\\x80r\\xb6\\x01A\\x89\\xd2\\x1e?\\x1c\\x8b\\x0bC\\xa0\\xcf\\xfa\\xc2\\xcd\\xcc\\x9f\\xc2H\\x8bu\\xb9\\x00\\x00\\x80\\xbf\\x00\\x00\\x00\\x80r\\xb6\\x01A \\x90\\xa0\\xbc\\x1c\\x8b\\x0bC\\xa0\\xcf\\xdc\\xc2\\x00\\x00\\xaa\\xc2\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?5\\xac\\x02A\\x10\\xd7#\\xbd\\x1c\\x8b\\x0bC\\xa0\\xcf\\xc8\\xc2\\x00\\x00\\xa0\\xc2H\\x8bu9\\x00\\x00\\x80?\\x00\\x00\\x00\\x00\\x0cP\\x03A\\x00\\xd7\\xa3\\xbc\\x1c\\x8b\\x0bC\\xa0\\xcf\\xc8\\xc2\\x00\\x00\\xa0BH\\x8bu9\\x00\\x00\\x80?\\x00\\x00\\x00\\x00\\x0cP\\x03AR\\xb8\\x1e?\\x1c\\x8b\\x0bC\\xa0\\xcf\\xdc\\xc2\\x00\\x00\\xaaB\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\x0cP\\x03A.+*?\\x1c\\x8b\\x0bC\\xa0\\xcf\\xfa\\xc233\\xa0BH\\x8bu\\xb9\\x00\\x00\\x80\\xbf\\x00\\x00\\x00\\x80\\x0cP\\x03A\\xd4S:?\\x007\\xe6\\xc2\\x18\\xb1\\xc8\\xc2\\x00\\x00\\xa0\\xc2\\xa47\\x0e9\\x00\\x00\\x80?\\x00\\x00\\x00\\x00?\\x9c\\x13A\\x00\\xd7\\xa3\\xbc\\x007\\xe6\\xc2\\x18\\xb1\\xc8\\xc2\\x00\\x00\\xa0B\\xa47\\x0e9\\x00\\x00\\x80?\\x00\\x00\\x00\\x00?\\x9c\\x13AR\\xb8\\x1e?\\x007\\xe6\\xc2\\x18\\xb1\\xdc\\xc2\\x00\\x00\\xaaB\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80??\\x9c\\x13A.+*?\\x007\\xe6\\xc2\\x18\\xb1\\xfa\\xc233\\xa0B\\xa47\\x0e\\xb9\\x00\\x00\\x80\\xbf\\x00\\x00\\x00\\x80?\\x9c\\x13A\\xd4S:?\\x94\\x07k\\xc4\\xb3\\x84\\xc8\\xc2\\x00\\x00\\xa0\\xc2aj\\xdc8\\xff\\xff\\x7f?\\x00\\x00\\x00\\x00\\x138HA\\x00\\xd7\\xa3\\xbc\\x94\\x07k\\xc4\\xb3\\x84\\xc8\\xc2\\x00\\x00\\xa0Baj\\xdc8\\xff\\xff\\x7f?\\x00\\x00\\x00\\x00\\x138HAR\\xb8\\x1e?\\x94\\x07k\\xc4\\xb3\\x84\\xdc\\xc2\\x00\\x00\\xaaB\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\xff\\xff\\x7f?\\x138HA.+*?\\x94\\x07k\\xc4\\xb3\\x84\\xfa\\xc233\\xa0Baj\\xdc\\xb8\\xff\\xff\\x7f\\xbf\\x00\\x00\\x00\\x80\\x138HA\\xd4S:?\\x94\\x07k\\xc4\\xb3\\x84\\xc8\\xc2\\x00\\x00\\xa0\\xc2aj\\xdc8\\xff\\xff\\x7f?\\x00\\x00\\x00\\x00\\x138HA\\x00\\xd7\\xa3\\xbc\\x94\\x07k\\xc4\\xb3\\x84\\xc8\\xc2\\x00\\x00\\xa0Baj\\xdc8\\xff\\xff\\x7f?\\x00\\x00\\x00\\x00\\x138HAR\\xb8\\x1e?\\x94\\x07k\\xc4\\xb3\\x84\\xdc\\xc2\\x00\\x00\\xaaB\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\xff\\xff\\x7f?\\xea\\xdbHA\\n\\xd7#?\\x94\\x07k\\xc4\\xb3\\x84\\xfa\\xc233\\xa0Baj\\xdc\\xb8\\xff\\xff\\x7f\\xbf\\x00\\x00\\x00\\x80\\xad\\xd1IA\\x89\\xd2\\x1e?\\x94\\x07k\\xc4\\xb3\\x84\\xfa\\xc2\\xcd\\xcc\\x9f\\xc2aj\\xdc\\xb8\\xff\\xff\\x7f\\xbf\\x00\\x00\\x00\\x80\\xad\\xd1IA \\x90\\xa0\\xbc\\x94\\x07k\\xc4\\xb3\\x84\\xdc\\xc2\\x00\\x00\\xaa\\xc2\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\xff\\xff\\x7f?\\xea\\xdbHA\\x10\\xd7#\\xbd",
+				"u9" : "\\x00\\x00\\x04\\x00\\x05\\x00\\x00\\x00\\x03\\x00\\x04\\x00\\x00\\x00\\x01\\x00\\x03\\x00\\x01\\x00\\x02\\x00\\x03\\x00\\x06\\x00\\n\\x00\\x0b\\x00\\x07\\x00\\x06\\x00\\x0b\\x00\\x07\\x00\\x0b\\x00\\x0c\\x00\\x08\\x00\\x07\\x00\\x0c\\x00\\x08\\x00\\x0c\\x00\\r\\x00\\t\\x00\\x08\\x00\\r\\x00\\n\\x00\\x0e\\x00\\x0f\\x00\\x0b\\x00\\n\\x00\\x0f\\x00\\x0b\\x00\\x0f\\x00\\x10\\x00\\x0c\\x00\\x0b\\x00\\x10\\x00\\x0c\\x00\\x10\\x00\\x11\\x00\\r\\x00\\x0c\\x00\\x11\\x00\\x12\\x00\\x17\\x00\\x16\\x00\\x12\\x00\\x16\\x00\\x15\\x00\\x12\\x00\\x15\\x00\\x13\\x00\\x15\\x00\\x14\\x00\\x13\\x00",
+			},
+
+			"u1sub-sub-sub-block " :  {
+
+				"u0" : 24,
+				"u1" : 20,
+
+				"u2sub-sub-sub-sub-block " :  {
+
+					"u0" : 4,
+					"u1" : 1,
+					"u2" : 2,
+					"u3" : 0,
+				},
+
+				"u3sub-sub-sub-sub-block " :  {
+
+					"u0" : 7,
+					"u1" : 3,
+					"u2" : 32,
+					"u3" : 0,
+				},
+
+				"u4sub-sub-sub-sub-block " :  {
+
+					"u0" : 7,
+					"u1" : 3,
+					"u2" : 32,
+					"u3" : 12,
+				},
+
+				"u5sub-sub-sub-sub-block " :  {
+
+					"u0" : 7,
+					"u1" : 2,
+					"u2" : 32,
+					"u3" : 24,
+				},
+
+				"u6sub-sub-sub-sub-block " :  {
+
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 1.0,
+						"x" : 1.0,
+						"y" : 1.0,
+						"z" : 1.0,
+					},
+
+					"u1sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 1.0,
+						"x" : 1.0,
+						"y" : 1.0,
+						"z" : 1.0,
+					},
+
+					"u2sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 1.0,
+						"x" : 1.0,
+						"y" : 1.0,
+						"z" : 1.0,
+					},
+					"u3" : 0.0,
+					"u4" : "\\n\\x10florennum_ground\\x10\\x01 \\x01",
+				},
+
+				"u7sub-sub-sub-sub-block " :  {
+
+					"u" : -1004.267822265625,
+					"v" : -665.9594116210938,
+					"w" : -75.0,
+					"x" : 2008.53564453125,
+					"y" : 1212.1094970703125,
+					"z" : 150.0,
+				},
+				"u8" : "\\xbb\\xe7n\\xc4\\x9b\\x89\\x08D\\x00\\x00\\x96\\xc2\\xe8\\xa5|\\xbf\\n*%\\xbe\\x00\\x00\\x00\\x00\\x00\\x00\\x00?\\xcc\\xccL>\\xbb\\xe7n\\xc4\\x9b\\x89\\x08D\\x00\\x00\\x96B\\xe8\\xa5|\\xbf\\n*%\\xbe\\x00\\x00\\x00\\x00\\x00\\x00\\x00?\\xcd\\xccL?sw]\\xc4\\xa4\\xaf\\xeeB\\x00\\x00\\x96\\xc2C\\x00~\\xbf\\x1eo\\xff\\xbd\\x00\\x00\\x00\\x00T\\xb6\\x0e@\\xcc\\xccL>sw]\\xc4\\xa4\\xaf\\xeeB\\x00\\x00\\x96BC\\x00~\\xbf\\x1eo\\xff\\xbd\\x00\\x00\\x00\\x00T\\xb6\\x0e@\\xcd\\xccL?3\\xbe]\\xc4\\x00\\xb0\"=\\x00\\x00\\x96\\xc2\\xcf\\x87m\\xbez\\x04y\\xbf\\x00\\x00\\x00\\x00SA-@\\xcc\\xccL>3\\xbe]\\xc4\\x00\\xb0\"=\\x00\\x00\\x96B\\xcf\\x87m\\xbez\\x04y\\xbf\\x00\\x00\\x00\\x00SA-@\\xcd\\xccL?\\xd3\\x86\\xc1\\xc3\\x00\\xd4\\xc8>\\x00\\x00\\x96\\xc2U\\xedS>\\x1buz\\xbf\\x00\\x00\\x00\\x00\\xff\\x9d\\x96@\\xcc\\xccL>\\xd3\\x86\\xc1\\xc3\\x00\\xd4\\xc8>\\x00\\x00\\x96BU\\xedS>\\x1buz\\xbf\\x00\\x00\\x00\\x00\\xff\\x9d\\x96@\\xcd\\xccL?\\xb74\\xc1\\xc3<\\xdb\\xd3B\\x00\\x00\\x96\\xc2a\\x8a\\xbc>\\xc1\\x02n\\xbf\\x00\\x00\\x00\\x00C \\xa4@\\xcc\\xccL>\\xb74\\xc1\\xc3<\\xdb\\xd3B\\x00\\x00\\x96Ba\\x8a\\xbc>\\xc1\\x02n\\xbf\\x00\\x00\\x00\\x00C \\xa4@\\xcd\\xccL?\\xa4\\xf9\\xdd\\xc2hx\\xdbB\\x00\\x00\\x96\\xc27c\\x8f;`\\xff\\x7f\\xbf\\x00\\x00\\x00\\x009b\\xc7@\\xcc\\xccL>\\xa4\\xf9\\xdd\\xc2hx\\xdbB\\x00\\x00\\x96B7c\\x8f;`\\xff\\x7f\\xbf\\x00\\x00\\x00\\x009b\\xc7@\\xcd\\xccL?\\x04\\xb3\\x02C\\xcca\\xd8B\\x00\\x00\\x96\\xc2Y\\x84$\\xbf\\\\#D\\xbf\\x00\\x00\\x00\\x00\\xfbQ\\xe6@\\xcc\\xccL>\\x04\\xb3\\x02C\\xcca\\xd8B\\x00\\x00\\x96BY\\x84$\\xbf\\\\#D\\xbf\\x00\\x00\\x00\\x00\\xfbQ\\xe6@\\xcd\\xccL?\\x1c\\x8b\\x0bC\\xa0\\xcf\\xc8\\xc2\\x00\\x00\\x96\\xc2-\\xc5\\x7f\\xbf\\xd3\\x81-\\xbd\\x00\\x00\\x00\\x00\\xb4\\x85\\x00A\\xcc\\xccL>\\x1c\\x8b\\x0bC\\xa0\\xcf\\xc8\\xc2\\x00\\x00\\x96B-\\xc5\\x7f\\xbf\\xd3\\x81-\\xbd\\x00\\x00\\x00\\x00\\xb4\\x85\\x00A\\xcd\\xccL?\\x94Gj\\xc4\\xdc\\x84\\xc8\\xc2\\x00\\x00\\x96\\xc2\\x1f7~\\xbf\\xe5g\\xf1=\\x00\\x00\\x00\\x00\\xb4\\x85\\x00A\\xcc\\xccL>\\x94Gj\\xc4\\xdc\\x84\\xc8\\xc2\\x00\\x00\\x96B\\x1f7~\\xbf\\xe5g\\xf1=\\x00\\x00\\x00\\x00\\xb4\\x85\\x00A\\xcd\\xccL?$\\x11{\\xc4g}&\\xc4\\x00\\x00\\x96\\xc2\\x91\\xab\\xfc\\xbe\\xcb\\xa7^\\xbf\\x00\\x00\\x00\\x003\\xfb$A\\xcc\\xccL>$\\x11{\\xc4g}&\\xc4\\x00\\x00\\x96B\\x91\\xab\\xfc\\xbe\\xcb\\xa7^\\xbf\\x00\\x00\\x00\\x003\\xfb$A\\xcd\\xccL?\\x80\\x01\\x9e\\xc1\\xa21\\x1b\\xc4\\x00\\x00\\x96\\xc2\\x88.\\x12;\\xd7\\xff\\x7f\\xbf\\x00\\x00\\x00\\x00\\x81\\x0edA\\xcc\\xccL>\\x80\\x01\\x9e\\xc1\\xa21\\x1b\\xc4\\x00\\x00\\x96B\\x88.\\x12;\\xd7\\xff\\x7f\\xbf\\x00\\x00\\x00\\x00\\x81\\x0edA\\xcd\\xccL?#\\x11{D\\xac^%\\xc4\\x00\\x00\\x96\\xc2\\x03\\x82K?\\xd3N\\x1b\\xbf\\x00\\x00\\x00\\x00\\xa3\\xd2\\x92A\\xcc\\xccL>#\\x11{D\\xac^%\\xc4\\x00\\x00\\x96B\\x03\\x82K?\\xd3N\\x1b\\xbf\\x00\\x00\\x00\\x00\\xa3\\xd2\\x92A\\xcd\\xccL?",
+				"u9" : "\\x00\\x00\\x02\\x00\\x03\\x00\\x01\\x00\\x00\\x00\\x03\\x00\\x02\\x00\\x04\\x00\\x05\\x00\\x03\\x00\\x02\\x00\\x05\\x00\\x04\\x00\\x06\\x00\\x07\\x00\\x05\\x00\\x04\\x00\\x07\\x00\\x06\\x00\\x08\\x00\\t\\x00\\x07\\x00\\x06\\x00\\t\\x00\\x08\\x00\\n\\x00\\x0b\\x00\\t\\x00\\x08\\x00\\x0b\\x00\\n\\x00\\x0c\\x00\\r\\x00\\x0b\\x00\\n\\x00\\r\\x00\\x0c\\x00\\x0e\\x00\\x0f\\x00\\r\\x00\\x0c\\x00\\x0f\\x00\\x10\\x00\\x12\\x00\\x13\\x00\\x11\\x00\\x10\\x00\\x13\\x00\\x12\\x00\\x14\\x00\\x15\\x00\\x13\\x00\\x12\\x00\\x15\\x00\\x14\\x00\\x16\\x00\\x17\\x00\\x15\\x00\\x14\\x00\\x17\\x00",
+			},
+
+			"u1sub-sub-sub-block " :  {
+
+				"u0" : 4,
+				"u1" : 2,
+
+				"u2sub-sub-sub-sub-block " :  {
+
+					"u0" : 4,
+					"u1" : 1,
+					"u2" : 2,
+					"u3" : 0,
+				},
+
+				"u3sub-sub-sub-sub-block " :  {
+
+					"u0" : 7,
+					"u1" : 3,
+					"u2" : 32,
+					"u3" : 0,
+				},
+
+				"u4sub-sub-sub-sub-block " :  {
+
+					"u0" : 7,
+					"u1" : 3,
+					"u2" : 32,
+					"u3" : 12,
+				},
+
+				"u5sub-sub-sub-sub-block " :  {
+
+					"u0" : 7,
+					"u1" : 2,
+					"u2" : 32,
+					"u3" : 24,
+				},
+
+				"u6sub-sub-sub-sub-block " :  {
+
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 1.0,
+						"x" : 1.0,
+						"y" : 1.0,
+						"z" : 1.0,
+					},
+
+					"u1sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 1.0,
+						"x" : 1.0,
+						"y" : 1.0,
+						"z" : 1.0,
+					},
+
+					"u2sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 1.0,
+						"x" : 1.0,
+						"y" : 1.0,
+						"z" : 1.0,
+					},
+					"u3" : 0.0,
+					"u4" : "\\n\\x10florennum_ground\\x10\\x01 \\x01",
+				},
+
+				"u7sub-sub-sub-sub-block " :  {
+
+					"u" : 962.2265625,
+					"v" : -661.479248046875,
+					"w" : -75.0,
+					"x" : 42.04119873046875,
+					"y" : 1327.438720703125,
+					"z" : 150.0,
+				},
+				"u8" : "#\\x11{D\\xac^%\\xc4\\x00\\x00\\x96\\xc2\\x03\\x82K?\\xd3N\\x1b\\xbf\\x00\\x00\\x00\\x00\\xa3\\xd2\\x92A\\xcc\\xccL>#\\x11{D\\xac^%\\xc4\\x00\\x00\\x96B\\x03\\x82K?\\xd3N\\x1b\\xbf\\x00\\x00\\x00\\x00\\xa3\\xd2\\x92A\\xcd\\xccL?\\x80\\x8epDg}&D\\x00\\x00\\x96\\xc2)\\xdf\\x7f?\\xb8\\xa8\\x01=\\x00\\x00\\x00\\x00wR\\xbdA\\xcc\\xccL>\\x80\\x8epDg}&D\\x00\\x00\\x96B)\\xdf\\x7f?\\xb8\\xa8\\x01=\\x00\\x00\\x00\\x00wR\\xbdA\\xcd\\xccL?",
+				"u9" : "\\x00\\x00\\x02\\x00\\x03\\x00\\x01\\x00\\x00\\x00\\x03\\x00",
+			},
+
+			"u2sub-sub-sub-block " :  {
+
+				"u0" : 39,
+				"u1" : 13,
+
+				"u2sub-sub-sub-sub-block " :  {
+
+					"u0" : 7,
+					"u1" : 3,
+					"u2" : 32,
+					"u3" : 0,
+				},
+
+				"u3sub-sub-sub-sub-block " :  {
+
+					"u0" : 7,
+					"u1" : 3,
+					"u2" : 32,
+					"u3" : 12,
+				},
+
+				"u4sub-sub-sub-sub-block " :  {
+
+					"u0" : 7,
+					"u1" : 2,
+					"u2" : 32,
+					"u3" : 24,
+				},
+
+				"u5sub-sub-sub-sub-block " :  {
+
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 1.0,
+						"x" : 1.0,
+						"y" : 1.0,
+						"z" : 1.0,
+					},
+
+					"u1sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 1.0,
+						"x" : 1.0,
+						"y" : 1.0,
+						"z" : 1.0,
+					},
+
+					"u2sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 1.0,
+						"x" : 1.0,
+						"y" : 1.0,
+						"z" : 1.0,
+					},
+					"u3" : 0.0,
+
+					"u4sub-sub-sub-sub-sub-block " :  {
+
+						"u0" : "florennum_ground",
+						"u1" : 1,
+						"u2" : 1,
+					},
+				},
+
+				"u3sub-sub-sub-sub-block " :  {
+
+					"u" : -1004.267822265625,
+					"v" : -665.9594116210938,
+					"w" : 75.0,
+					"x" : 2008.53564453125,
+					"y" : 1331.9189453125,
+					"z" : 0.0,
+				},
+				"u7" : "\\xbb\\xe7n\\xc4\\x9b\\x89\\x08D\\x00\\x00\\x96B\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\x90\\xa3T\\xc0~\\xd0+@sw]\\xc4\\xa4\\xaf\\xeeB\\x00\\x00\\x96B\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?$\\xc8B\\xc0\\x105z?\\xd3\\x86\\xc1\\xc3\\x00\\xd4\\xc8>\\x00\\x00\\x96B\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xda+\\x86\\xbf\\xd3f\\x00?\\xbb\\xe7n\\xc4\\x9b\\x89\\x08D\\x00\\x00\\x96B\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\xff\\xff\\x7f?\\x90\\xa3T\\xc0~\\xd0+@\\xd3\\x86\\xc1\\xc3\\x00\\xd4\\xc8>\\x00\\x00\\x96B\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\xff\\xff\\x7f?\\xda+\\x86\\xbf\\xd3f\\x00?\\xb74\\xc1\\xc3<\\xdb\\xd3B\\x00\\x00\\x96B\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\xff\\xff\\x7f?\\xc6\\xd7\\x85\\xbfpxl?\\xbb\\xe7n\\xc4\\x9b\\x89\\x08D\\x00\\x00\\x96B\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\x90\\xa3T\\xc0~\\xd0+@\\xb74\\xc1\\xc3<\\xdb\\xd3B\\x00\\x00\\x96B\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xc6\\xd7\\x85\\xbfpxl?P\\xd0\\xe0\\xc2\\xcb+\\x04D\\x00\\x00\\x96B\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?xSN=\\xdaW\\\'@sw]\\xc4\\xa4\\xaf\\xeeB\\x00\\x00\\x96B\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\xff\\xff\\x7f?$\\xc8B\\xc0\\x105z?3\\xbe]\\xc4\\x00\\xb0\"=\\x00\\x00\\x96B\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\xff\\xff\\x7f?\\x97\\x10C\\xc0i\\n\\x00?\\xd3\\x86\\xc1\\xc3\\x00\\xd4\\xc8>\\x00\\x00\\x96B\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\xff\\xff\\x7f?\\xda+\\x86\\xbf\\xd3f\\x00?\\xa4\\xf9\\xdd\\xc2hx\\xdbB\\x00\\x00\\x96B\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?X\\x94e=j^p?P\\xd0\\xe0\\xc2\\xcb+\\x04D\\x00\\x00\\x96B\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?xSN=\\xdaW\\\'@\\xb74\\xc1\\xc3<\\xdb\\xd3B\\x00\\x00\\x96B\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xc6\\xd7\\x85\\xbfpxl?P\\xd0\\xe0\\xc2\\xcb+\\x04D\\x00\\x00\\x96B\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?xSN=\\xdaW\\\'@\\xa4\\xf9\\xdd\\xc2hx\\xdbB\\x00\\x00\\x96B\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?X\\x94e=j^p?\\x04\\xb3\\x02C\\xcca\\xd8B\\x00\\x00\\x96B\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\x04\\xeb\\x82?\\xa0\\xc9n?\\x04\\xb3\\x02C\\xcca\\xd8B\\x00\\x00\\x96B\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\x04\\xeb\\x82?\\xa0\\xc9n?\\x1c\\x8b\\x0bC\\xa0\\xcf\\xc8\\xc2\\x00\\x00\\x96B\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?<r\\x87?`z\\xc9=\\x80\\x8epDg}&D\\x00\\x00\\x96B\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?>*\\x8b@Q|J@P\\xd0\\xe0\\xc2\\xcb+\\x04D\\x00\\x00\\x96B\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?xSN=\\xdaW\\\'@\\x04\\xb3\\x02C\\xcca\\xd8B\\x00\\x00\\x96B\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\x04\\xeb\\x82?\\xa0\\xc9n?\\x80\\x8epDg}&D\\x00\\x00\\x96B\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?>*\\x8b@Q|J@#\\x11{D\\xac^%\\xc4\\x00\\x00\\x96B\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xd9\\x8b\\x90@\\xb4V\\t\\xc0\\x80\\x8epDg}&D\\x00\\x00\\x96B\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?>*\\x8b@Q|J@\\x1c\\x8b\\x0bC\\xa0\\xcf\\xc8\\xc2\\x00\\x00\\x96B\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?<r\\x87?`z\\xc9=#\\x11{D\\xac^%\\xc4\\x00\\x00\\x96B\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xd9\\x8b\\x90@\\xb4V\\t\\xc0\\x1c\\x8b\\x0bC\\xa0\\xcf\\xc8\\xc2\\x00\\x00\\x96B\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?<r\\x87?`z\\xc9=\\x80\\x01\\x9e\\xc1\\xa21\\x1b\\xc4\\x00\\x00\\x96B\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xee\\x8c\\xd7>J\\xd6\\xfd\\xbf\\x007\\xe6\\xc2\\x18\\xb1\\xc8\\xc2\\x00\\x00\\x96B\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?x\\x14\"=l\\xf7\\xc9=\\x80\\x01\\x9e\\xc1\\xa21\\x1b\\xc4\\x00\\x00\\x96B\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xee\\x8c\\xd7>J\\xd6\\xfd\\xbf\\x1c\\x8b\\x0bC\\xa0\\xcf\\xc8\\xc2\\x00\\x00\\x96B\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?<r\\x87?`z\\xc9=\\x80\\x01\\x9e\\xc1\\xa21\\x1b\\xc4\\x00\\x00\\x96B\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xee\\x8c\\xd7>J\\xd6\\xfd\\xbf\\x007\\xe6\\xc2\\x18\\xb1\\xc8\\xc2\\x00\\x00\\x96B\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?x\\x14\"=l\\xf7\\xc9=\\x94Gj\\xc4\\xdc\\x84\\xc8\\xc2\\x00\\x00\\x96B\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xfe\\xe6O\\xc0\\x9c\\xac\\xca=\\x80\\x01\\x9e\\xc1\\xa21\\x1b\\xc4\\x00\\x00\\x96B\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xee\\x8c\\xd7>J\\xd6\\xfd\\xbf\\x94Gj\\xc4\\xdc\\x84\\xc8\\xc2\\x00\\x00\\x96B\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xfe\\xe6O\\xc0\\x9c\\xac\\xca=$\\x11{\\xc4g}&\\xc4\\x00\\x00\\x96B\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xb2\\x17a\\xc0Q|\\n\\xc0",
+			},
+
+			"u3sub-sub-sub-block " :  {
+
+				"w" : 1.0,
+				"x" : 1.0,
+				"y" : 1.0,
+				"z" : 1.0,
+			},
+		},
+	},
+
+	"componentsub-block " :  {
+
+		"component type" : "GroundMeshGenerator",
+		"number" : 102,
+
+		"ground mesh generatorsub-sub-block " :  {
+
+			"ground polygon" : 100,
+			"ground mesh" : 101,
+			"texture mapping 1" : 103,
+			"texture mapping 2" : 104,
+			"u4" : 0,
+			"u5" : 0.0,
+			"u6" : 1,
+			"u7" : 150.0,
+			"u8" : 25.0,
+			"u9" : 5.0,
+			"u10" : 5.0,
+		},
+	},
+
+	"componentsub-block " :  {
+
+		"component type" : "TextureMapping",
+		"number" : 103,
+
+		"texture mappingsub-sub-block " :  {
+
+			"texture file" : "florennum_ground",
+			"u0" : 250.0,
+
+			"u0sub-sub-sub-block " :  {
+
+				"u1" : 0.0,
+				"u2" : 0.0,
+			},
+		},
+	},
+
+	"componentsub-block " :  {
+
+		"component type" : "TextureMapping",
+		"number" : 104,
+
+		"texture mappingsub-sub-block " :  {
+
+			"texture file" : "ground3",
+			"u0" : 250.0,
+
+			"u0sub-sub-sub-block " :  {
+
+				"u1" : 0.0,
+				"u2" : 50.0,
+			},
+		},
+	},
+
+	"componentsub-block " :  {
+
+		"component type" : "CollisionShape",
+		"number" : 105,
+		"? linked component" : 100,
+
+		"collision shapesub-sub-block " :  {
+
+
+			"u2sub-sub-sub-block " :  {
+
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"y" : -1004.267822265625,
+					"z" : -665.9594116210938,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"y" : -19.750732421875,
+					"z" : -620.7755126953125,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"y" : 1004.2677612304688,
+					"z" : -661.479248046875,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"y" : 962.2265625,
+					"z" : 665.9594116210938,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"y" : -112.4068603515625,
+					"z" : 528.6842651367188,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"y" : -955.6207885742188,
+					"z" : 546.1500854492188,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"y" : -885.8663940429688,
+					"z" : 119.34304809570312,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"y" : -886.9718627929688,
+					"z" : 0.0397186279296875,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"y" : -387.0533142089844,
+					"z" : 0.392242431640625,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"y" : -386.4118347167969,
+					"z" : 105.92819213867188,
+				},
+				"u3" : 0,
+				"u4" : 0,
+			},
+		},
+
+		"collision shape 2sub-sub-block " :  {
+
+			"u0" : 1,
+			"w" : -80.0,
+			"x" : 80.0,
+			"z" : 1,
+		},
+	},
+
+	"componentsub-block " :  {
+
+		"component type" : "CollisionShape",
+		"number" : 106,
+		"? linked component" : 100,
+
+		"collision shapesub-sub-block " :  {
+
+
+			"u2sub-sub-sub-block " :  {
+
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"y" : -886.9718627929688,
+					"z" : 0.0397186279296875,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"y" : -387.0533142089844,
+					"z" : 0.392242431640625,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"y" : -386.4118347167969,
+					"z" : 105.92819213867188,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"y" : -110.98757934570312,
+					"z" : 109.73516845703125,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"y" : 130.69927978515625,
+					"z" : 108.19100952148438,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"y" : 139.54339599609375,
+					"z" : -100.405517578125,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"y" : -115.107421875,
+					"z" : -100.34588623046875,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"y" : -937.118408203125,
+					"z" : -100.25949096679688,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"y" : -1004.267822265625,
+					"z" : -665.9594116210938,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"y" : -19.750732421875,
+					"z" : -620.7755126953125,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"y" : 1004.2677612304688,
+					"z" : -661.479248046875,
+				},
+				"u3" : 0,
+				"u4" : 0,
+			},
+		},
+
+		"collision shape 2sub-sub-block " :  {
+
+			"u0" : 1,
+			"w" : -80.0,
+			"x" : 80.0,
+			"z" : 1,
+		},
+	},
+
+	"positionsub-block " :  {
+
+		"x position" : 5.046783447265625,
+		"y position" : 215.25534057617188,
+	},
+	"z position" : -139.9328155517578,
+	"rotation" : 0.0,
+	"scale" : 1.0,
+
+	"u2sub-block " :  {
+
+		"w" : -1004.267822265625,
+		"x" : -665.9594116210938,
+		"y" : 2008.53564453125,
+		"z" : 1331.9188232421875,
+	},
+	"hidden" : 0,
+},
+
+"objectblock " :  {
+
+	"identifier" : "obj3#2",
+
+	"componentsub-block " :  {
+
+		"component type" : "Model",
+		"number" : 101,
+
+		"3D modelsub-sub-block " :  {
+
+			"name" : "shop_pedastal",
+			"u0" : 0.0,
+			"u1" : 0.0,
+			"u2" : 0.0,
+
+			"u3sub-sub-sub-block " :  {
+
+				"w" : 1.0,
+				"x" : 1.0,
+				"y" : 1.0,
+				"z" : 1.0,
+			},
+
+			"u4sub-sub-sub-block " :  {
+
+				"x" : 0.0,
+				"y" : 0.0,
+				"z" : 0.0,
+			},
+			"u5" : 0,
+
+			"u6sub-sub-sub-block " :  {
+
+				"w" : 1.0,
+				"x" : 1.0,
+				"y" : 1.0,
+				"z" : 1.0,
+			},
+		},
+	},
+
+	"positionsub-block " :  {
+
+		"x position" : -317.9268798828125,
+		"y position" : 36.415687561035156,
+	},
+	"z position" : 86.19608306884766,
+	"rotation" : 0.0,
+	"scale" : 1.0,
+
+	"u2sub-block " :  {
+
+		"w" : -24.35943603515625,
+		"x" : 3.244429588317871,
+		"y" : 58.53528594970703,
+		"z" : 121.26319122314453,
+	},
+	"hidden" : 0,
+},
+
+"objectblock " :  {
+
+	"identifier" : "obj3#4",
+
+	"componentsub-block " :  {
+
+		"component type" : "Model",
+		"number" : 101,
+
+		"3D modelsub-sub-block " :  {
+
+			"name" : "shop_pedastal",
+			"u0" : 0.0,
+			"u1" : 0.0,
+			"u2" : 0.0,
+
+			"u3sub-sub-sub-block " :  {
+
+				"w" : 1.0,
+				"x" : 1.0,
+				"y" : 1.0,
+				"z" : 1.0,
+			},
+
+			"u4sub-sub-sub-block " :  {
+
+				"x" : 0.0,
+				"y" : 0.0,
+				"z" : 0.0,
+			},
+			"u5" : 0,
+
+			"u6sub-sub-sub-block " :  {
+
+				"w" : 1.0,
+				"x" : 1.0,
+				"y" : 1.0,
+				"z" : 1.0,
+			},
+		},
+	},
+
+	"positionsub-block " :  {
+
+		"x position" : -42.889007568359375,
+		"y position" : 34.29168701171875,
+	},
+	"z position" : 86.19608306884766,
+	"rotation" : 0.0,
+	"scale" : 1.0,
+
+	"u2sub-block " :  {
+
+		"w" : -24.35943603515625,
+		"x" : 3.244429588317871,
+		"y" : 58.53528594970703,
+		"z" : 121.26319122314453,
+	},
+	"hidden" : 0,
+},
+
+"objectblock " :  {
+
+	"name" : "Template 1",
+	"identifier" : "obj4",
+
+	"componentsub-block " :  {
+
+		"component type" : "Model",
+		"number" : 101,
+
+		"3D modelsub-sub-block " :  {
+
+			"name" : "carpet1",
+			"u0" : 0.0,
+			"u1" : 0.20000000298023224,
+			"u2" : 0.0,
+
+			"u3sub-sub-sub-block " :  {
+
+				"w" : 0.0,
+				"x" : 0.0,
+				"y" : 0.0,
+				"z" : 1.0,
+			},
+
+			"u4sub-sub-sub-block " :  {
+
+				"x" : 0.0,
+				"y" : 0.0,
+				"z" : 0.0,
+			},
+			"u5" : 0,
+
+			"u6sub-sub-sub-block " :  {
+
+				"w" : 1.0,
+				"x" : 1.0,
+				"y" : 1.0,
+				"z" : 1.0,
+			},
+		},
+	},
+
+	"positionsub-block " :  {
+
+		"x position" : -240.9420623779297,
+		"y position" : 118.04257202148438,
+	},
+	"z position" : 0.0,
+	"rotation" : 0.0,
+	"scale" : 1.0,
+
+	"u2sub-block " :  {
+
+		"w" : -128.824951171875,
+		"x" : 0.0,
+		"y" : 258.7838439941406,
+		"z" : 1.204187035560608,
+	},
+	"hidden" : 0,
+},
+
+"objectblock " :  {
+
+	"name" : "Template 1",
+	"identifier" : "obj4#2",
+
+	"componentsub-block " :  {
+
+		"component type" : "Model",
+		"number" : 101,
+
+		"3D modelsub-sub-block " :  {
+
+			"name" : "carpet1",
+			"u0" : 0.0,
+			"u1" : 0.20000000298023224,
+			"u2" : 0.0,
+
+			"u3sub-sub-sub-block " :  {
+
+				"w" : 0.0,
+				"x" : 0.0,
+				"y" : 0.0,
+				"z" : 1.0,
+			},
+
+			"u4sub-sub-sub-block " :  {
+
+				"x" : 0.0,
+				"y" : 0.0,
+				"z" : 0.0,
+			},
+			"u5" : 0,
+
+			"u6sub-sub-sub-block " :  {
+
+				"w" : 1.0,
+				"x" : 1.0,
+				"y" : 1.0,
+				"z" : 1.0,
+			},
+		},
+	},
+
+	"positionsub-block " :  {
+
+		"x position" : -568.1021728515625,
+		"y position" : 118.07052612304688,
+	},
+	"z position" : 0.0,
+	"rotation" : 0.0,
+	"scale" : 1.0,
+
+	"u2sub-block " :  {
+
+		"w" : -128.824951171875,
+		"x" : 0.0,
+		"y" : 258.7838439941406,
+		"z" : 1.204187035560608,
+	},
+	"hidden" : 0,
+},
+
+"objectblock " :  {
+
+	"name" : "Template 1",
+	"identifier" : "obj4#3",
+
+	"componentsub-block " :  {
+
+		"component type" : "Model",
+		"number" : 101,
+
+		"3D modelsub-sub-block " :  {
+
+			"name" : "carpet1",
+			"u0" : 0.0,
+			"u1" : 0.20000000298023224,
+			"u2" : 0.0,
+
+			"u3sub-sub-sub-block " :  {
+
+				"w" : 0.0,
+				"x" : 0.0,
+				"y" : 0.0,
+				"z" : 1.0,
+			},
+
+			"u4sub-sub-sub-block " :  {
+
+				"x" : 0.0,
+				"y" : 0.0,
+				"z" : 0.0,
+			},
+			"u5" : 0,
+
+			"u6sub-sub-sub-block " :  {
+
+				"w" : 1.0,
+				"x" : 1.0,
+				"y" : 1.0,
+				"z" : 1.0,
+			},
+		},
+	},
+
+	"positionsub-block " :  {
+
+		"x position" : 292.4151916503906,
+		"y position" : 362.2904357910156,
+	},
+	"z position" : 0.0,
+	"rotation" : -0.015501633286476135,
+	"scale" : 1.0,
+
+	"u2sub-block " :  {
+
+		"w" : -128.824951171875,
+		"x" : 0.0,
+		"y" : 258.7838439941406,
+		"z" : 1.204187035560608,
+	},
+	"hidden" : 0,
+},
+
+"objectblock " :  {
+
+	"identifier" : "obj6",
+
+	"componentsub-block " :  {
+
+		"component type" : "Model",
+		"number" : 101,
+
+		"3D modelsub-sub-block " :  {
+
+			"name" : "wall",
+			"u0" : 0.0,
+			"u1" : 0.0,
+			"u2" : 0.0,
+
+			"u3sub-sub-sub-block " :  {
+
+				"w" : 0.0,
+				"x" : 0.0,
+				"y" : 0.0,
+				"z" : 1.0,
+			},
+
+			"u4sub-sub-sub-block " :  {
+
+				"x" : 0.0,
+				"y" : 0.0,
+				"z" : 0.0,
+			},
+			"u5" : 0,
+
+			"u6sub-sub-sub-block " :  {
+
+				"w" : 1.0,
+				"x" : 1.0,
+				"y" : 1.0,
+				"z" : 1.0,
+			},
+		},
+	},
+
+	"positionsub-block " :  {
+
+		"x position" : -438.260498046875,
+		"y position" : 103.89103698730469,
+	},
+	"z position" : -84.58218383789062,
+	"rotation" : 0.0,
+	"scale" : 1.0,
+
+	"u2sub-block " :  {
+
+		"w" : -68.305908203125,
+		"x" : 0.0788421630859375,
+		"y" : 137.93499755859375,
+		"z" : 238.47666931152344,
+	},
+	"hidden" : 0,
+},
+
+"objectblock " :  {
+
+	"identifier" : "obj6#11",
+
+	"componentsub-block " :  {
+
+		"component type" : "Model",
+		"number" : 101,
+
+		"3D modelsub-sub-block " :  {
+
+			"name" : "wall",
+			"u0" : 0.0,
+			"u1" : 0.0,
+			"u2" : 0.0,
+
+			"u3sub-sub-sub-block " :  {
+
+				"w" : 0.0,
+				"x" : 0.0,
+				"y" : 0.0,
+				"z" : 1.0,
+			},
+
+			"u4sub-sub-sub-block " :  {
+
+				"x" : 0.0,
+				"y" : 0.0,
+				"z" : 0.0,
+			},
+			"u5" : 0,
+
+			"u6sub-sub-sub-block " :  {
+
+				"w" : 1.0,
+				"x" : 1.0,
+				"y" : 1.0,
+				"z" : 1.0,
+			},
+		},
+	},
+
+	"positionsub-block " :  {
+
+		"x position" : 508.1412048339844,
+		"y position" : 338.2117004394531,
+	},
+	"z position" : -84.58218383789062,
+	"rotation" : 0.0,
+	"scale" : 1.0,
+
+	"u2sub-block " :  {
+
+		"w" : -68.305908203125,
+		"x" : 0.0788421630859375,
+		"y" : 137.93499755859375,
+		"z" : 238.47666931152344,
+	},
+	"hidden" : 0,
+},
+
+"objectblock " :  {
+
+	"identifier" : "obj6#5",
+
+	"componentsub-block " :  {
+
+		"component type" : "Model",
+		"number" : 101,
+
+		"3D modelsub-sub-block " :  {
+
+			"name" : "wall",
+			"u0" : 0.0,
+			"u1" : 0.0,
+			"u2" : 0.0,
+
+			"u3sub-sub-sub-block " :  {
+
+				"w" : 0.0,
+				"x" : 0.0,
+				"y" : 0.0,
+				"z" : 1.0,
+			},
+
+			"u4sub-sub-sub-block " :  {
+
+				"x" : 0.0,
+				"y" : 0.0,
+				"z" : 0.0,
+			},
+			"u5" : 0,
+
+			"u6sub-sub-sub-block " :  {
+
+				"w" : 1.0,
+				"x" : 1.0,
+				"y" : 1.0,
+				"z" : 1.0,
+			},
+		},
+	},
+
+	"positionsub-block " :  {
+
+		"x position" : -48.949127197265625,
+		"y position" : 104.2158203125,
+	},
+	"z position" : -215.00001525878906,
+	"rotation" : 0.0,
+	"scale" : 1.0,
+
+	"u2sub-block " :  {
+
+		"w" : -68.305908203125,
+		"x" : 0.0788421630859375,
+		"y" : 137.93499755859375,
+		"z" : 238.47666931152344,
+	},
+	"hidden" : 0,
+},
+
+"objectblock " :  {
+
+	"identifier" : "obj6#6",
+
+	"componentsub-block " :  {
+
+		"component type" : "Model",
+		"number" : 101,
+
+		"3D modelsub-sub-block " :  {
+
+			"name" : "wall",
+			"u0" : 1.5707963705062866,
+			"u1" : 0.0,
+			"u2" : 0.0,
+
+			"u3sub-sub-sub-block " :  {
+
+				"w" : 0.0,
+				"x" : 0.0,
+				"y" : 0.0,
+				"z" : 1.0,
+			},
+
+			"u4sub-sub-sub-block " :  {
+
+				"x" : 0.0,
+				"y" : 0.0,
+				"z" : 0.0,
+			},
+			"u5" : 0,
+
+			"u6sub-sub-sub-block " :  {
+
+				"w" : 1.0,
+				"x" : 1.0,
+				"y" : 1.0,
+				"z" : 1.0,
+			},
+		},
+	},
+
+	"positionsub-block " :  {
+
+		"x position" : -244.40330505371094,
+		"y position" : 100.24774169921875,
+	},
+	"z position" : -156.6427764892578,
+	"rotation" : 0.0,
+	"scale" : 1.0,
+
+	"u2sub-block " :  {
+
+		"w" : -6.283003330230713,
+		"x" : 0.0788421630859375,
+		"y" : 11.530210494995117,
+		"z" : 238.47666931152344,
+	},
+	"hidden" : 0,
+},
+
+"objectblock " :  {
+
+	"identifier" : "obj6#8",
+
+	"componentsub-block " :  {
+
+		"component type" : "Model",
+		"number" : 101,
+
+		"3D modelsub-sub-block " :  {
+
+			"name" : "wall",
+			"u0" : 0.0,
+			"u1" : 0.0,
+			"u2" : 0.0,
+
+			"u3sub-sub-sub-block " :  {
+
+				"w" : 0.0,
+				"x" : 0.0,
+				"y" : 0.0,
+				"z" : 1.0,
+			},
+
+			"u4sub-sub-sub-block " :  {
+
+				"x" : 0.0,
+				"y" : 0.0,
+				"z" : 0.0,
+			},
+			"u5" : 0,
+
+			"u6sub-sub-sub-block " :  {
+
+				"w" : 1.0,
+				"x" : 1.0,
+				"y" : 1.0,
+				"z" : 1.0,
+			},
+		},
+	},
+
+	"positionsub-block " :  {
+
+		"x position" : 97.33303833007812,
+		"y position" : 337.5321350097656,
+	},
+	"z position" : -84.58218383789062,
+	"rotation" : 0.0,
+	"scale" : 1.0,
+
+	"u2sub-block " :  {
+
+		"w" : -68.305908203125,
+		"x" : 0.0788421630859375,
+		"y" : 137.93499755859375,
+		"z" : 238.47666931152344,
+	},
+	"hidden" : 0,
+},
+
+"objectblock " :  {
+
+	"identifier" : "obj6#9",
+
+	"componentsub-block " :  {
+
+		"component type" : "Model",
+		"number" : 101,
+
+		"3D modelsub-sub-block " :  {
+
+			"name" : "wall",
+			"u0" : 0.0,
+			"u1" : 0.0,
+			"u2" : 0.0,
+
+			"u3sub-sub-sub-block " :  {
+
+				"w" : 0.0,
+				"x" : 0.0,
+				"y" : 0.0,
+				"z" : 1.0,
+			},
+
+			"u4sub-sub-sub-block " :  {
+
+				"x" : 0.0,
+				"y" : 0.0,
+				"z" : 0.0,
+			},
+			"u5" : 0,
+
+			"u6sub-sub-sub-block " :  {
+
+				"w" : 1.0,
+				"x" : 1.0,
+				"y" : 1.0,
+				"z" : 1.0,
+			},
+		},
+	},
+
+	"positionsub-block " :  {
+
+		"x position" : -39.890594482421875,
+		"y position" : 337.8995666503906,
+	},
+	"z position" : -84.58218383789062,
+	"rotation" : 0.0,
+	"scale" : 1.0,
+
+	"u2sub-block " :  {
+
+		"w" : -68.305908203125,
+		"x" : 0.0788421630859375,
+		"y" : 137.93499755859375,
+		"z" : 238.47666931152344,
+	},
+	"hidden" : 0,
+},
+
+"objectblock " :  {
+
+	"identifier" : "obj7",
+
+	"componentsub-block " :  {
+
+		"component type" : "Model",
+		"number" : 101,
+
+		"3D modelsub-sub-block " :  {
+
+			"name" : "wall_window",
+			"u0" : 0.0,
+			"u1" : 0.0,
+			"u2" : 0.0,
+
+			"u3sub-sub-sub-block " :  {
+
+				"w" : 0.0,
+				"x" : 0.0,
+				"y" : 0.0,
+				"z" : 1.0,
+			},
+
+			"u4sub-sub-sub-block " :  {
+
+				"x" : 0.0,
+				"y" : 0.0,
+				"z" : 0.0,
+			},
+			"u5" : 0,
+
+			"u6sub-sub-sub-block " :  {
+
+				"w" : 1.0,
+				"x" : 1.0,
+				"y" : 1.0,
+				"z" : 1.0,
+			},
+		},
+	},
+
+	"positionsub-block " :  {
+
+		"x position" : -305.0213623046875,
+		"y position" : 93.36489868164062,
+	},
+	"z position" : -84.58218383789062,
+	"rotation" : 0.0,
+	"scale" : 1.0,
+
+	"u2sub-block " :  {
+
+		"w" : -68.305908203125,
+		"x" : 0.0788421630859375,
+		"y" : 137.93499755859375,
+		"z" : 238.47666931152344,
+	},
+	"hidden" : 0,
+},
+
+"objectblock " :  {
+
+	"identifier" : "obj7#3",
+
+	"componentsub-block " :  {
+
+		"component type" : "Model",
+		"number" : 101,
+
+		"3D modelsub-sub-block " :  {
+
+			"name" : "wall_window",
+			"u0" : 0.0,
+			"u1" : 0.0,
+			"u2" : 0.0,
+
+			"u3sub-sub-sub-block " :  {
+
+				"w" : 0.0,
+				"x" : 0.0,
+				"y" : 0.0,
+				"z" : 1.0,
+			},
+
+			"u4sub-sub-sub-block " :  {
+
+				"x" : 0.0,
+				"y" : 0.0,
+				"z" : 0.0,
+			},
+			"u5" : 0,
+
+			"u6sub-sub-sub-block " :  {
+
+				"w" : 1.0,
+				"x" : 1.0,
+				"y" : 1.0,
+				"z" : 1.0,
+			},
+		},
+	},
+
+	"positionsub-block " :  {
+
+		"x position" : 370.70068359375,
+		"y position" : 348.7899475097656,
+	},
+	"z position" : -84.58218383789062,
+	"rotation" : 0.0,
+	"scale" : 1.0,
+
+	"u2sub-block " :  {
+
+		"w" : -68.305908203125,
+		"x" : 0.0788421630859375,
+		"y" : 137.93499755859375,
+		"z" : 238.47666931152344,
+	},
+	"hidden" : 0,
+},
+
+"objectblock " :  {
+
+	"identifier" : "obj7#4",
+
+	"componentsub-block " :  {
+
+		"component type" : "Model",
+		"number" : 101,
+
+		"3D modelsub-sub-block " :  {
+
+			"name" : "wall_window",
+			"u0" : 0.0,
+			"u1" : 0.0,
+			"u2" : 0.0,
+
+			"u3sub-sub-sub-block " :  {
+
+				"w" : 0.0,
+				"x" : 0.0,
+				"y" : 0.0,
+				"z" : 1.0,
+			},
+
+			"u4sub-sub-sub-block " :  {
+
+				"x" : 0.0,
+				"y" : 0.0,
+				"z" : 0.0,
+			},
+			"u5" : 0,
+
+			"u6sub-sub-sub-block " :  {
+
+				"w" : 1.0,
+				"x" : 1.0,
+				"y" : 1.0,
+				"z" : 1.0,
+			},
+		},
+	},
+
+	"positionsub-block " :  {
+
+		"x position" : 233.20071411132812,
+		"y position" : 351.1076965332031,
+	},
+	"z position" : -84.58218383789062,
+	"rotation" : 0.0,
+	"scale" : 1.0,
+
+	"u2sub-block " :  {
+
+		"w" : -68.305908203125,
+		"x" : 0.0788421630859375,
+		"y" : 137.93499755859375,
+		"z" : 238.47666931152344,
+	},
+	"hidden" : 0,
+},
+
+"objectblock " :  {
+
+	"identifier" : "obj7#5",
+
+	"componentsub-block " :  {
+
+		"component type" : "Model",
+		"number" : 101,
+
+		"3D modelsub-sub-block " :  {
+
+			"name" : "wall_window",
+			"u0" : 0.0,
+			"u1" : 0.0,
+			"u2" : 0.0,
+
+			"u3sub-sub-sub-block " :  {
+
+				"w" : 0.0,
+				"x" : 0.0,
+				"y" : 0.0,
+				"z" : 1.0,
+			},
+
+			"u4sub-sub-sub-block " :  {
+
+				"x" : 0.0,
+				"y" : 0.0,
+				"z" : 0.0,
+			},
+			"u5" : 0,
+
+			"u6sub-sub-sub-block " :  {
+
+				"w" : 1.0,
+				"x" : 1.0,
+				"y" : 1.0,
+				"z" : 1.0,
+			},
+		},
+	},
+
+	"positionsub-block " :  {
+
+		"x position" : -180.387939453125,
+		"y position" : 95.31646728515625,
+	},
+	"z position" : -215.94345092773438,
+	"rotation" : 0.0,
+	"scale" : 1.0,
+
+	"u2sub-block " :  {
+
+		"w" : -68.305908203125,
+		"x" : 0.0788421630859375,
+		"y" : 137.93499755859375,
+		"z" : 238.47666931152344,
+	},
+	"hidden" : 0,
+},
+
+"objectblock " :  {
+
+	"identifier" : "obj7#6",
+
+	"componentsub-block " :  {
+
+		"component type" : "Model",
+		"number" : 101,
+
+		"3D modelsub-sub-block " :  {
+
+			"name" : "wall_window",
+			"u0" : 0.0,
+			"u1" : 0.0,
+			"u2" : 0.0,
+
+			"u3sub-sub-sub-block " :  {
+
+				"w" : 0.0,
+				"x" : 0.0,
+				"y" : 0.0,
+				"z" : 1.0,
+			},
+
+			"u4sub-sub-sub-block " :  {
+
+				"x" : 0.0,
+				"y" : 0.0,
+				"z" : 0.0,
+			},
+			"u5" : 0,
+
+			"u6sub-sub-sub-block " :  {
+
+				"w" : 1.0,
+				"x" : 1.0,
+				"y" : 1.0,
+				"z" : 1.0,
+			},
+		},
+	},
+
+	"positionsub-block " :  {
+
+		"x position" : 81.87881469726562,
+		"y position" : 95.31646728515625,
+	},
+	"z position" : -215.94345092773438,
+	"rotation" : 0.0,
+	"scale" : 1.0,
+
+	"u2sub-block " :  {
+
+		"w" : -68.305908203125,
+		"x" : 0.0788421630859375,
+		"y" : 137.93499755859375,
+		"z" : 238.47666931152344,
+	},
+	"hidden" : 0,
+},
+
+"objectblock " :  {
+
+	"name" : "Template 1",
+	"identifier" : "obj8",
+
+	"componentsub-block " :  {
+
+		"component type" : "Model",
+		"number" : 101,
+
+		"3D modelsub-sub-block " :  {
+
+			"name" : "table1",
+			"u0" : 0.0,
+			"u1" : 0.0,
+			"u2" : 0.0,
+
+			"u3sub-sub-sub-block " :  {
+
+				"w" : 0.0,
+				"x" : 0.0,
+				"y" : 0.0,
+				"z" : 1.0,
+			},
+
+			"u4sub-sub-sub-block " :  {
+
+				"x" : 0.0,
+				"y" : 0.0,
+				"z" : 0.0,
+			},
+			"u5" : 0,
+
+			"u6sub-sub-sub-block " :  {
+
+				"w" : 1.0,
+				"x" : 1.0,
+				"y" : 1.0,
+				"z" : 1.0,
+			},
+		},
+	},
+
+	"positionsub-block " :  {
+
+		"x position" : 304.31787109375,
+		"y position" : 363.1368103027344,
+	},
+	"z position" : -46.41966247558594,
+	"rotation" : 0.0,
+	"scale" : 1.0,
+
+	"u2sub-block " :  {
+
+		"w" : -53.09626007080078,
+		"x" : -0.4045476019382477,
+		"y" : 106.4539794921875,
+		"z" : 53.033164978027344,
+	},
+	"hidden" : 0,
+},
+
+"objectblock " :  {
+
+	"name" : "Template 1",
+	"identifier" : "obj9",
+
+	"componentsub-block " :  {
+
+		"component type" : "Model",
+		"number" : 101,
+
+		"3D modelsub-sub-block " :  {
+
+			"name" : "chair1",
+			"u0" : 1.5707963705062866,
+			"u1" : 0.0,
+			"u2" : 0.0,
+
+			"u3sub-sub-sub-block " :  {
+
+				"w" : 0.0,
+				"x" : 0.0,
+				"y" : 0.0,
+				"z" : 1.0,
+			},
+
+			"u4sub-sub-sub-block " :  {
+
+				"x" : 0.0,
+				"y" : 0.0,
+				"z" : 0.0,
+			},
+			"u5" : 0,
+
+			"u6sub-sub-sub-block " :  {
+
+				"w" : 1.0,
+				"x" : 1.0,
+				"y" : 1.0,
+				"z" : 1.0,
+			},
+		},
+	},
+
+	"positionsub-block " :  {
+
+		"x position" : 236.89071655273438,
+		"y position" : 364.2098083496094,
+	},
+	"z position" : -44.999267578125,
+	"rotation" : 0.0,
+	"scale" : 1.0,
+
+	"u2sub-block " :  {
+
+		"w" : -23.153675079345703,
+		"x" : -0.7013130187988281,
+		"y" : 31.367515563964844,
+		"z" : 57.68374252319336,
+	},
+	"hidden" : 0,
+},
+
+"objectblock " :  {
+
+	"name" : "Template 1",
+	"identifier" : "obj9#2",
+
+	"componentsub-block " :  {
+
+		"component type" : "Model",
+		"number" : 101,
+
+		"3D modelsub-sub-block " :  {
+
+			"name" : "chair1",
+			"u0" : 4.71238899230957,
+			"u1" : 0.0,
+			"u2" : 0.0,
+
+			"u3sub-sub-sub-block " :  {
+
+				"w" : 0.0,
+				"x" : 0.0,
+				"y" : 0.0,
+				"z" : 1.0,
+			},
+
+			"u4sub-sub-sub-block " :  {
+
+				"x" : 0.0,
+				"y" : 0.0,
+				"z" : 0.0,
+			},
+			"u5" : 0,
+
+			"u6sub-sub-sub-block " :  {
+
+				"w" : 1.0,
+				"x" : 1.0,
+				"y" : 1.0,
+				"z" : 1.0,
+			},
+		},
+	},
+
+	"positionsub-block " :  {
+
+		"x position" : 351.55859375,
+		"y position" : 362.2318420410156,
+	},
+	"z position" : -44.999267578125,
+	"rotation" : 0.0,
+	"scale" : 1.0,
+
+	"u2sub-block " :  {
+
+		"w" : -8.213839530944824,
+		"x" : -0.7013130187988281,
+		"y" : 31.36751365661621,
+		"z" : 57.68374252319336,
+	},
+	"hidden" : 0,
+},
+
+"objectblock " :  {
+
+	"identifier" : "spawn_default",
+
+	"componentsub-block " :  {
+
+		"component type" : "SpawnPoint",
+		"number" : 101,
+
+		"spawnpointsub-sub-block " :  {
+
+			"u0" : 1,
+
+			"u1sub-sub-sub-block " :  {
+
+				"x" : 0.0,
+				"y" : 0.0,
+				"z" : 0.0,
+			},
+		},
+	},
+
+	"positionsub-block " :  {
+
+		"x position" : -86.63723754882812,
+		"y position" : 159.67068481445312,
+	},
+	"z position" : 0.0,
+	"rotation" : 0.0,
+	"scale" : 1.0,
+
+	"u2sub-block " :  {
+
+		"w" : -30.0,
+		"x" : -30.0,
+		"y" : 60.0,
+		"z" : 60.0,
+	},
+	"hidden" : 0,
+},
+
+"objectblock " :  {
+
+	"identifier" : "spawn_from_resurrection",
+
+	"componentsub-block " :  {
+
+		"component type" : "SpawnPoint",
+		"number" : 101,
+
+		"spawnpointsub-sub-block " :  {
+
+			"u0" : 1,
+
+			"u1sub-sub-sub-block " :  {
+
+				"x" : 0.0,
+				"y" : 0.0,
+				"z" : 0.0,
+			},
+		},
+	},
+
+	"positionsub-block " :  {
+
+		"x position" : 38.640472412109375,
+		"y position" : 137.51698303222656,
+	},
+	"z position" : 0.0,
+	"rotation" : 0.0,
+	"scale" : 1.0,
+
+	"u2sub-block " :  {
+
+		"w" : -30.0,
+		"x" : -30.0,
+		"y" : 60.0,
+		"z" : 60.0,
+	},
+	"hidden" : 0,
+},
+
+"objectblock " :  {
+
+	"identifier" : "spawn_from_wasteland_town",
+
+	"componentsub-block " :  {
+
+		"component type" : "SpawnPoint",
+		"number" : 101,
+
+		"spawnpointsub-sub-block " :  {
+
+			"u0" : 1,
+
+			"u1sub-sub-sub-block " :  {
+
+				"x" : 0.0,
+				"y" : 0.0,
+				"z" : 0.0,
+			},
+		},
+	},
+
+	"positionsub-block " :  {
+
+		"x position" : -405.2760009765625,
+		"y position" : 154.1256866455078,
+	},
+	"z position" : 0.0,
+	"rotation" : 0.0,
+	"scale" : 1.0,
+
+	"u2sub-block " :  {
+
+		"w" : -30.0,
+		"x" : -30.0,
+		"y" : 60.0,
+		"z" : 60.0,
+	},
+	"hidden" : 0,
+},
+
+"objectblock " :  {
+
+	"identifier" : "text",
+
+	"positionsub-block " :  {
+
+		"x position" : 43.785003662109375,
+		"y position" : 221.64779663085938,
+	},
+	"z position" : 0.0,
+	"rotation" : 0.0,
+	"scale" : 1.0,
+
+	"u2sub-block " :  {
+
+		"w" : -30.0,
+		"x" : -30.0,
+		"y" : 60.0,
+		"z" : 60.0,
+	},
+	"hidden" : 1,
+},
+
+"objectblock " :  {
+
+	"name" : "torch",
+	"identifier" : "torch1",
+
+	"positionsub-block " :  {
+
+		"x position" : -36.98057556152344,
+		"y position" : 167.22605895996094,
+	},
+	"z position" : 86.36177825927734,
+	"rotation" : 0.0,
+	"scale" : 1.0,
+
+	"u2sub-block " :  {
+
+		"w" : -50.0,
+		"x" : -50.0,
+		"y" : 100.0,
+		"z" : 100.0,
+	},
+	"hidden" : 0,
+},
+
+"objectblock " :  {
+
+	"name" : "torch",
+	"identifier" : "torch1#2",
+
+	"positionsub-block " :  {
+
+		"x position" : -311.4945983886719,
+		"y position" : 168.9560546875,
+	},
+	"z position" : 86.36177825927734,
+	"rotation" : 0.0,
+	"scale" : 1.0,
+
+	"u2sub-block " :  {
+
+		"w" : -50.0,
+		"x" : -50.0,
+		"y" : 100.0,
+		"z" : 100.0,
+	},
+	"hidden" : 0,
+},
+
+"dependenciesblock " :  {
+
+	"name" : "wasteland_town_healerhouse",
+
+	"u0sub-block " :  {
+
+
+		"u0sub-sub-block " :  {
+
+			"name" : "Template 1",
+
+			"u0sub-sub-sub-block " :  {
+
+				"y" : 0.0,
+				"z" : 0.0,
+			},
+			"u1" : 0.0,
+			"u2" : 0.0,
+			"u3" : 1.0,
+
+			"u1sub-sub-sub-block " :  {
+
+				"w" : -10.0,
+				"x" : -10.0,
+				"y" : 20.0,
+				"z" : 20.0,
+			},
+			"u5" : 0,
+		},
+		"u1" : 1.0,
+	},
+	"scl file" : "caves_stuff",
+	"scl file" : "game_common",
+	"scl file" : "monsters",
+	"scl file" : "npc",
+	"scl file" : "plains_stuff",
+	"scl file" : "rocks",
+	"scl file" : "towers_stuff",
+	"scl file" : "traps_stuffs",
+	"scl file" : "trash",
+	"scl file" : "woodkeep_stuff",
+},
+
+"u0block " :  {
+
+	"w" : -450.0,
+	"x" : -200.0,
+	"y" : 1550.0,
+	"z" : 900.0,
+},
+
+}

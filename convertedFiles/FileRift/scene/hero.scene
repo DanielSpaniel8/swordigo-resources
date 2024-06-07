@@ -1,0 +1,355 @@
+
+object block { (0a @ 1)
+
+    identifier : DirectionalLight (12 @ 4)
+
+    component sub-block { (1a @ 16)
+
+        component type : Light (0a @ 18)
+        number : 101(10 @ 1f)
+
+        light sub-sub-block { (412 @ 22)
+
+            u0 : 2(08 @ 24)
+            u1 : 0.6000000238418579 (15 @ 26)
+
+            u2 sub-sub-sub-block { (1a @ 2b)
+
+                w : 1.0 (0d @ 2d)
+                x : 1.0 (15 @ 32)
+                y : 1.0 (1d @ 37)
+                z : 1.0 (25 @ 3c)
+			}
+		}
+	}
+
+    component sub-block { (1a @ 41)
+
+        component type : Light (0a @ 43)
+        number : 103(10 @ 4a)
+
+        light sub-sub-block { (412 @ 4d)
+
+            u0 : 1(08 @ 4f)
+            u1 : 0.10000000149011612 (15 @ 51)
+
+            u2 sub-sub-sub-block { (1a @ 56)
+
+                w : 1.0 (0d @ 58)
+                x : 1.0 (15 @ 5d)
+                y : 1.0 (1d @ 62)
+                z : 1.0 (25 @ 67)
+			}
+		}
+	}
+
+    position sub-block { (22 @ 6c)
+
+        x position : -16.77115249633789 (0d @ 6e)
+        y position : 45.38957214355469 (15 @ 73)
+	}
+    z position : 642.3430786132812 (2d @ 78)
+    rotation : 0.0 (35 @ 7d)
+    scale : 1.0 (3d @ 82)
+
+    u2 sub-block { (42 @ 87)
+
+        w : -30.0 (0d @ 89)
+        x : -30.0 (15 @ 8e)
+        y : 60.0 (1d @ 93)
+        z : 60.0 (25 @ 98)
+	}
+    hidden : 0(48 @ 9d)
+}
+
+object block { (0a @ 9f)
+
+    name : hiro (0a @ a2)
+    identifier : hero (12 @ a8)
+
+    component sub-block { (1a @ ae)
+
+        component type : HeroEntity (0a @ b1)
+        number : 5(10 @ bd)
+
+        entity sub-sub-block { (4c2 @ c0)
+
+            u0 : 1(08 @ c2)
+            u1 : 0(10 @ c4)
+		}
+
+        hero entity sub-sub-block { (52a @ c7)
+
+
+            lua chunk sub-sub-sub-block { (0a @ ca)
+
+                main chunk : chunk >
+
+                === lua =============
+                local self, item = ...;
+                
+                if CollectableItem.RequiresPickup(item) then
+                
+                	Game.SetCinematicMode(true, true);
+                	CharController.SetWeaponsHidden(self, true);
+                
+                	self:setVelocity(Vector3.New(0, 0, 0));
+                
+                	CollisionShape.DisableAll(item);
+                	PhysicsObject.SetEnabled(item, false);
+                
+                	MusicPlayer.FadeOut(0.5);
+                	SoundLibrary.PlayEffect("item_get");
+                
+                
+                	CharController.PickupObject(self, item, true);
+                	Program.Wait(0.6);
+                
+                
+                
+                	--Game.Flash();
+                
+                	local rotation = -90;
+                	if Entity.GetFacingDirection(self) == -1 then rotation = 90 end
+                	ModelTransformController.SetRotationAngle(self, rotation);
+                
+                	--local animation = 127;
+                	--KeyframeAnimation.SetCurrentTime(self, animation, KeyframeAnimation.Duration(self, animation));
+                	--AnimationController.BlendToAnimation(self, animation, 0);
+                
+                	--item:setPosition(self:position() + Vector3.New(0, 40, 0));
+                
+                	Program.Wait(1.8);
+                
+                	Game.ShowNotification("Got item: " .. Game.TitleForItem(CollectableItem.ItemName(item)));
+                
+                	Program.Wait(2.4);
+                
+                	Game.FadeOut(0.5);
+                	Program.Wait(0.5);
+                
+                	Character.AddItem(CollectableItem.ItemName(item));
+                
+                	CharController.DropObject(self, false);
+                	item:destroy();
+                	ModelTransformController.SetRotationAngle(self, 0);
+                
+                	CharController.SetWeaponsHidden(self, false);
+                
+                	Game.FadeIn(0.5);
+                
+                
+                	Game.SetCinematicMode(false, true);
+                
+                	MusicPlayer.PlayMusic(Game.DefaultMusicName());
+                
+                else
+                	Character.AddItem(CollectableItem.ItemName(item));
+                	item:destroy();
+                end
+                
+
+                =====================
+                secondary chunk : \x1bLuaQ\x00\x01\x04\x04\x04\x08\x00\xb7\x05\x00\x00local self, item = ...;\r\n\r\nif CollectableItem.RequiresPickup(item) then\r\n\r\n\tGame.SetCinematicMode(true, true);\r\n\tCharController.SetWeaponsHidden(self, true);\r\n\r\n\tself:setVelocity(Vector3.New(0, 0, 0));\r\n\r\n\tCollisionShape.DisableAll(item);\r\n\tPhysicsObject.SetEnabled(item, false);\r\n\r\n\tMusicPlayer.FadeOut(0.5);\r\n\tSoundLibrary.PlayEffect("item_get");\r\n\r\n\r\n\tCharController.PickupObject(self, item, true);\r\n\tProgram.Wait(0.6);\r\n\r\n\r\n\r\n\t--Game.Flash();\r\n\r\n\tlocal rotation = -90;\r\n\tif Entity.GetFacingDirection(self) == -1 then rotation = 90 end\r\n\tModelTransformController.SetRotationAngle(self, rotation);\r\n\r\n\t--local animation = 127;\r\n\t--KeyframeAnimation.SetCurrentTime(self, animation, KeyframeAnimation.Duration(self, animation));\r\n\t--AnimationController.BlendToAnimation(self, animation, 0);\r\n\r\n\t--item:setPosition(self:position() + Vector3.New(0, 40, 0));\r\n\r\n\tProgram.Wait(1.8);\r\n\r\n\tGame.ShowNotification("Got item: " .. Game.TitleForItem(CollectableItem.ItemName(item)));\r\n\r\n\tProgram.Wait(2.4);\r\n\r\n\tGame.FadeOut(0.5);\r\n\tProgram.Wait(0.5);\r\n\r\n\tCharacter.AddItem(CollectableItem.ItemName(item));\r\n\r\n\tCharController.DropObject(self, false);\r\n\titem:destroy();\r\n\tModelTransformController.SetRotationAngle(self, 0);\r\n\r\n\tCharController.SetWeaponsHidden(self, false);\r\n\r\n\tGame.FadeIn(0.5);\r\n\r\n\r\n\tGame.SetCinematicMode(false, true);\r\n\r\n\tMusicPlayer.PlayMusic(Game.DefaultMusicName());\r\n\r\nelse\r\n\tCharacter.AddItem(CollectableItem.ItemName(item));\r\n\titem:destroy();\r\nend\r\n\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x02\x08\x8f\x00\x00\x00%\x00\x80\x01\x85\x00\x00\x00\x86@@\x01\xc0\x00\x80\x00\x9c\x80\x00\x01\x9a\x00\x00\x00\x16@\x1f\x80\x85\x80\x00\x00\x86\xc0@\x01\xc2\x00\x80\x00\x02\x01\x80\x00\x9c@\x80\x01\x85\x00\x01\x00\x86@A\x01\xc0\x00\x00\x00\x02\x01\x80\x00\x9c@\x80\x01\x8b\x80A\x00\x05\xc1\x01\x00\x06\x01B\x02AA\x02\x00\x81A\x02\x00\xc1A\x02\x00\x1c\x01\x00\x02\x9c@\x00\x00\x85\x80\x02\x00\x86\xc0B\x01\xc0\x00\x80\x00\x9c@\x00\x01\x85\x00\x03\x00\x86@C\x01\xc0\x00\x80\x00\x02\x01\x00\x00\x9c@\x80\x01\x85\x80\x03\x00\x86\xc0C\x01\xc1\x00\x04\x00\x9c@\x00\x01\x85@\x04\x00\x86\x80D\x01\xc1\xc0\x04\x00\x9c@\x00\x01\x85\x00\x01\x00\x86\x00E\x01\xc0\x00\x00\x00\x00\x01\x80\x00B\x01\x80\x00\x9c@\x00\x02\x85@\x05\x00\x86\x80E\x01\xc1\xc0\x05\x00\x9c@\x00\x01\x81\x00\x06\x00\xc5@\x06\x00\xc6\x80\xc6\x01\x00\x01\x00\x00\xdc\x80\x00\x01\x17\xc0\xc6\x01\x16\x00\x00\x80\x81\x00\x07\x00\xc5@\x07\x00\xc6\x80\xc7\x01\x00\x01\x00\x00@\x01\x00\x01\xdc@\x80\x01\xc5@\x05\x00\xc6\x80\xc5\x01\x01\xc1\x07\x00\xdc@\x00\x01\xc5\x80\x00\x00\xc6\x00\xc8\x01\x01A\x08\x00E\x81\x00\x00F\x81\xc8\x02\x85\x01\x00\x00\x86\xc1H\x03\xc0\x01\x80\x00\x9c\x01\x00\x01\\\x81\x00\x00\x15A\x01\x02\xdc@\x00\x01\xc5@\x05\x00\xc6\x80\xc5\x01\x01\x01\t\x00\xdc@\x00\x01\xc5\x80\x00\x00\xc6\xc0\xc3\x01\x01\x01\x04\x00\xdc@\x00\x01\xc5@\x05\x00\xc6\x80\xc5\x01\x01\x01\x04\x00\xdc@\x00\x01\xc5@\t\x00\xc6\x80\xc9\x01\x05\x01\x00\x00\x06\xc1H\x02@\x01\x80\x00\x1c\x01\x00\x01\xdc@\x00\x00\xc5\x00\x01\x00\xc6\xc0\xc9\x01\x00\x01\x00\x00B\x01\x00\x00\xdc@\x80\x01\xcb\x00\xca\x00\xdc@\x00\x01\xc5@\x07\x00\xc6\x80\xc7\x01\x00\x01\x00\x00AA\x02\x00\xdc@\x80\x01\xc5\x00\x01\x00\xc6@\xc1\x01\x00\x01\x00\x00B\x01\x00\x00\xdc@\x80\x01\xc5\x80\x00\x00\xc6@\xca\x01\x01\x01\x04\x00\xdc@\x00\x01\xc5\x80\x00\x00\xc6\xc0\xc0\x01\x02\x01\x00\x00B\x01\x80\x00\xdc@\x80\x01\xc5\x80\x03\x00\xc6\x80\xca\x01\x05\x81\x00\x00\x06\xc1J\x02\x1c\x01\x80\x00\xdc@\x00\x00\x16\x00\x02\x80\x85@\t\x00\x86\x80I\x01\xc5\x00\x00\x00\xc6\xc0\xc8\x01\x00\x01\x80\x00\xdc\x00\x00\x01\x9c@\x00\x00\x8b\x00\xca\x00\x9c@\x00\x01\x1e\x00\x80\x00,\x00\x00\x00\x04\x10\x00\x00\x00CollectableItem\x00\x04\x0f\x00\x00\x00RequiresPickup\x00\x04\x05\x00\x00\x00Game\x00\x04\x11\x00\x00\x00SetCinematicMode\x00\x04\x0f\x00\x00\x00CharController\x00\x04\x11\x00\x00\x00SetWeaponsHidden\x00\x04\x0c\x00\x00\x00setVelocity\x00\x04\x08\x00\x00\x00Vector3\x00\x04\x04\x00\x00\x00New\x00\x03\x00\x00\x00\x00\x00\x00\x00\x00\x04\x0f\x00\x00\x00CollisionShape\x00\x04\x0b\x00\x00\x00DisableAll\x00\x04\x0e\x00\x00\x00PhysicsObject\x00\x04\x0b\x00\x00\x00SetEnabled\x00\x04\x0c\x00\x00\x00MusicPlayer\x00\x04\x08\x00\x00\x00FadeOut\x00\x03\x00\x00\x00\x00\x00\x00\xe0?\x04\r\x00\x00\x00SoundLibrary\x00\x04\x0b\x00\x00\x00PlayEffect\x00\x04\t\x00\x00\x00item_get\x00\x04\r\x00\x00\x00PickupObject\x00\x04\x08\x00\x00\x00Program\x00\x04\x05\x00\x00\x00Wait\x00\x03333333\xe3?\x03\x00\x00\x00\x00\x00\x80V\xc0\x04\x07\x00\x00\x00Entity\x00\x04\x13\x00\x00\x00GetFacingDirection\x00\x03\x00\x00\x00\x00\x00\x00\xf0\xbf\x03\x00\x00\x00\x00\x00\x80V@\x04\x19\x00\x00\x00ModelTransformController\x00\x04\x11\x00\x00\x00SetRotationAngle\x00\x03\xcd\xcc\xcc\xcc\xcc\xcc\xfc?\x04\x11\x00\x00\x00ShowNotification\x00\x04\x0b\x00\x00\x00Got item: \x00\x04\r\x00\x00\x00TitleForItem\x00\x04\t\x00\x00\x00ItemName\x00\x03333333\x03@\x04\n\x00\x00\x00Character\x00\x04\x08\x00\x00\x00AddItem\x00\x04\x0b\x00\x00\x00DropObject\x00\x04\x08\x00\x00\x00destroy\x00\x04\x07\x00\x00\x00FadeIn\x00\x04\n\x00\x00\x00PlayMusic\x00\x04\x11\x00\x00\x00DefaultMusicName\x00\x00\x00\x00\x00\x8f\x00\x00\x00\x01\x00\x00\x00\x03\x00\x00\x00\x03\x00\x00\x00\x03\x00\x00\x00\x03\x00\x00\x00\x03\x00\x00\x00\x03\x00\x00\x00\x05\x00\x00\x00\x05\x00\x00\x00\x05\x00\x00\x00\x05\x00\x00\x00\x05\x00\x00\x00\x06\x00\x00\x00\x06\x00\x00\x00\x06\x00\x00\x00\x06\x00\x00\x00\x06\x00\x00\x00\x08\x00\x00\x00\x08\x00\x00\x00\x08\x00\x00\x00\x08\x00\x00\x00\x08\x00\x00\x00\x08\x00\x00\x00\x08\x00\x00\x00\x08\x00\x00\x00\n\x00\x00\x00\n\x00\x00\x00\n\x00\x00\x00\n\x00\x00\x00\x0b\x00\x00\x00\x0b\x00\x00\x00\x0b\x00\x00\x00\x0b\x00\x00\x00\x0b\x00\x00\x00\r\x00\x00\x00\r\x00\x00\x00\r\x00\x00\x00\r\x00\x00\x00\x0e\x00\x00\x00\x0e\x00\x00\x00\x0e\x00\x00\x00\x0e\x00\x00\x00\x11\x00\x00\x00\x11\x00\x00\x00\x11\x00\x00\x00\x11\x00\x00\x00\x11\x00\x00\x00\x11\x00\x00\x00\x12\x00\x00\x00\x12\x00\x00\x00\x12\x00\x00\x00\x12\x00\x00\x00\x18\x00\x00\x00\x19\x00\x00\x00\x19\x00\x00\x00\x19\x00\x00\x00\x19\x00\x00\x00\x19\x00\x00\x00\x19\x00\x00\x00\x19\x00\x00\x00\x1a\x00\x00\x00\x1a\x00\x00\x00\x1a\x00\x00\x00\x1a\x00\x00\x00\x1a\x00\x00\x00"\x00\x00\x00"\x00\x00\x00"\x00\x00\x00"\x00\x00\x00$\x00\x00\x00$\x00\x00\x00$\x00\x00\x00$\x00\x00\x00$\x00\x00\x00$\x00\x00\x00$\x00\x00\x00$\x00\x00\x00$\x00\x00\x00$\x00\x00\x00$\x00\x00\x00$\x00\x00\x00&\x00\x00\x00&\x00\x00\x00&\x00\x00\x00&\x00\x00\x00(\x00\x00\x00(\x00\x00\x00(\x00\x00\x00(\x00\x00\x00)\x00\x00\x00)\x00\x00\x00)\x00\x00\x00)\x00\x00\x00+\x00\x00\x00+\x00\x00\x00+\x00\x00\x00+\x00\x00\x00+\x00\x00\x00+\x00\x00\x00+\x00\x00\x00-\x00\x00\x00-\x00\x00\x00-\x00\x00\x00-\x00\x00\x00-\x00\x00\x00.\x00\x00\x00.\x00\x00\x00/\x00\x00\x00/\x00\x00\x00/\x00\x00\x00/\x00\x00\x00/\x00\x00\x001\x00\x00\x001\x00\x00\x001\x00\x00\x001\x00\x00\x001\x00\x00\x003\x00\x00\x003\x00\x00\x003\x00\x00\x003\x00\x00\x006\x00\x00\x006\x00\x00\x006\x00\x00\x006\x00\x00\x006\x00\x00\x008\x00\x00\x008\x00\x00\x008\x00\x00\x008\x00\x00\x008\x00\x00\x008\x00\x00\x008\x00\x00\x00;\x00\x00\x00;\x00\x00\x00;\x00\x00\x00;\x00\x00\x00;\x00\x00\x00;\x00\x00\x00;\x00\x00\x00<\x00\x00\x00<\x00\x00\x00=\x00\x00\x00\x03\x00\x00\x00\x05\x00\x00\x00self\x00\x01\x00\x00\x00\x8e\x00\x00\x00\x05\x00\x00\x00item\x00\x01\x00\x00\x00\x8e\x00\x00\x00\t\x00\x00\x00rotation\x005\x00\x00\x00\x84\x00\x00\x00\x00\x00\x00\x00 (12 @ 686)
+			}
+		}
+	}
+
+    component sub-block { (1a @ 13cb)
+
+        component type : Model (0a @ 13cd)
+        number : 101(10 @ 13d4)
+
+        3D model sub-sub-block { (32a @ 13d7)
+
+            name : hiro (0a @ 13d9)
+            u0 : 0.6108652353286743 (15 @ 13df)
+            u1 : 0.5 (1d @ 13e4)
+            u2 : 0.0 (25 @ 13e9)
+
+            u3 sub-sub-sub-block { (2a @ 13ee)
+
+                w : 0.0 (0d @ 13f0)
+                x : 0.0 (15 @ 13f5)
+                y : 0.0 (1d @ 13fa)
+                z : 1.0 (25 @ 13ff)
+			}
+
+            u4 sub-sub-sub-block { (32 @ 1404)
+
+                x : 0.0 (0d @ 1406)
+                y : 0.0 (15 @ 140b)
+                z : 0.0 (1d @ 1410)
+			}
+            u5 : 0(38 @ 1415)
+
+            u6 sub-sub-sub-block { (42 @ 1417)
+
+                w : 1.0 (0d @ 1419)
+                x : 1.0 (15 @ 141e)
+                y : 1.0 (1d @ 1423)
+                z : 1.0 (25 @ 1428)
+			}
+		}
+	}
+
+    position sub-block { (22 @ 142d)
+
+        x position : -23.788572311401367 (0d @ 142f)
+        y position : -11.855987548828125 (15 @ 1434)
+	}
+    z position : 0.0 (2d @ 1439)
+    rotation : 0.0 (35 @ 143e)
+    scale : 1.0 (3d @ 1443)
+
+    u2 sub-block { (42 @ 1448)
+
+        w : -27.095155715942383 (0d @ 144a)
+        x : -35.14237976074219 (15 @ 144f)
+        y : 55.88050842285156 (1d @ 1454)
+        z : 71.85199737548828 (25 @ 1459)
+	}
+    hidden : 0(48 @ 145e)
+}
+
+object block { (0a @ 1460)
+
+    identifier : obj3 (12 @ 1463)
+
+    component sub-block { (1a @ 1469)
+
+        component type : UtilityShape (0a @ 146b)
+        number : 101(10 @ 1479)
+
+        collision shape sub-sub-block { (3c2 @ 147c)
+
+
+            u0 sub-sub-sub-block { (0a @ 147e)
+
+                w : -35.0 (0d @ 1480)
+                x : -35.0 (15 @ 1485)
+                y : 70.0 (1d @ 148a)
+                z : 70.0 (25 @ 148f)
+			}
+		}
+	}
+
+    component sub-block { (1a @ 1494)
+
+        component type : Program (0a @ 1497)
+        number : 103(10 @ 14a0)
+
+        program sub-sub-block { (4ea @ 14a3)
+
+            u0 : 1(08 @ 14a6)
+
+            lua chunk sub-sub-sub-block { (12 @ 14a8)
+
+                main chunk : chunk >
+
+                === lua =============
+                local self = ...;
+                
+                Camera.FocusAtShape(self);
+                Camera.JumpToFocus();
+                Camera.FollowShape(self);
+                
+
+                =====================
+                secondary chunk : \x1bLuaQ\x00\x01\x04\x04\x04\x08\x00d\x00\x00\x00local self = ...;\r\n\r\nCamera.FocusAtShape(self);\r\nCamera.JumpToFocus();\r\nCamera.FollowShape(self);\r\n\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x02\x03\r\x00\x00\x00%\x00\x00\x01E\x00\x00\x00F@\xc0\x00\x80\x00\x00\x00\\@\x00\x01E\x00\x00\x00F\x80\xc0\x00\\@\x80\x00E\x00\x00\x00F\xc0\xc0\x00\x80\x00\x00\x00\\@\x00\x01\x1e\x00\x80\x00\x04\x00\x00\x00\x04\x07\x00\x00\x00Camera\x00\x04\r\x00\x00\x00FocusAtShape\x00\x04\x0c\x00\x00\x00JumpToFocus\x00\x04\x0c\x00\x00\x00FollowShape\x00\x00\x00\x00\x00\r\x00\x00\x00\x01\x00\x00\x00\x03\x00\x00\x00\x03\x00\x00\x00\x03\x00\x00\x00\x03\x00\x00\x00\x04\x00\x00\x00\x04\x00\x00\x00\x04\x00\x00\x00\x05\x00\x00\x00\x05\x00\x00\x00\x05\x00\x00\x00\x05\x00\x00\x00\x05\x00\x00\x00\x01\x00\x00\x00\x05\x00\x00\x00self\x00\x01\x00\x00\x00\x0c\x00\x00\x00\x00\x00\x00\x00 (12 @ 1510)
+			}
+            u1 : 1(18 @ 1664)
+            u2 : 1(20 @ 1666)
+		}
+	}
+
+    component sub-block { (1a @ 1668)
+
+        component type : PhysicsObject (0a @ 166a)
+        number : 106(10 @ 1679)
+
+        physics object sub-sub-block { (4fa @ 167c)
+
+            u0 : 1(08 @ 167e)
+            u1 : 0.0 (1d @ 1680)
+            u2 : 1500.0 (25 @ 1685)
+            u3 : 0.0 (2d @ 168a)
+            u4 : 700.0 (35 @ 168f)
+            u5 : 0(38 @ 1694)
+            u6 : 0.0 (45 @ 1696)
+		}
+	}
+
+    position sub-block { (22 @ 169b)
+
+        x position : -23.207122802734375 (0d @ 169d)
+        y position : -15.712238311767578 (15 @ 16a2)
+	}
+    z position : 0.0 (2d @ 16a7)
+    rotation : 0.0 (35 @ 16ac)
+    scale : 1.0 (3d @ 16b1)
+
+    u2 sub-block { (42 @ 16b6)
+
+        w : -30.0 (0d @ 16b8)
+        x : -30.0 (15 @ 16bd)
+        y : 60.0 (1d @ 16c2)
+        z : 60.0 (25 @ 16c7)
+	}
+    hidden : 0(48 @ 16cc)
+}
+
+object block { (0a @ 16ce)
+
+    identifier : spawn_default (12 @ 16d0)
+
+    component sub-block { (1a @ 16df)
+
+        component type : SpawnPoint (0a @ 16e1)
+        number : 101(10 @ 16ed)
+
+        spawnpoint sub-sub-block { (faa @ 16f0)
+
+            u0 : 1(08 @ 16f2)
+
+            u1 sub-sub-sub-block { (12 @ 16f4)
+
+                x : 0.0 (0d @ 16f6)
+                y : 0.0 (15 @ 16fb)
+                z : 0.0 (1d @ 1700)
+			}
+		}
+	}
+
+    position sub-block { (22 @ 1705)
+
+        x position : 469.58966064453125 (0d @ 1707)
+        y position : -44.90233612060547 (15 @ 170c)
+	}
+    z position : 0.0 (2d @ 1711)
+    rotation : 0.0 (35 @ 1716)
+    scale : 1.0 (3d @ 171b)
+
+    u2 sub-block { (42 @ 1720)
+
+        w : -30.0 (0d @ 1722)
+        x : -30.0 (15 @ 1727)
+        y : 60.0 (1d @ 172c)
+        z : 60.0 (25 @ 1731)
+	}
+    hidden : 0(48 @ 1736)
+}
+
+dependencies block { (12 @ 1738)
+
+    name : hero (0a @ 173a)
+    scl file : game_common (1a @ 1740)
+}
+
+u0 block { (1a @ 174d)
+
+    w : -3500.0 (0d @ 174f)
+    x : -500.0 (15 @ 1754)
+    y : 5500.0 (1d @ 1759)
+    z : 2000.0 (25 @ 175e)
+}

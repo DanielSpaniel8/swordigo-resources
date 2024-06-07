@@ -1,0 +1,803 @@
+data = {
+"scl file name" : "traps_stuffs",
+
+"?itemblock " :  {
+
+
+	"?sub-itemsub-block " :  {
+
+		"name" : "dropping_ground",
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "TransformController",
+			"number" : 1,
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Program",
+			"number" : 2,
+
+			"programsub-sub-sub-block " :  {
+
+				"u0" : 1,
+
+				"lua chunksub-sub-sub-sub-block " :  {
+
+					"main chunk" : "chunk >
+
+					=== lua =============
+					local self = ...;
+					
+					local newBlock = self:clone();
+					newBlock:setPosition(PhysicsObject.OriginalPosition(self));
+					PhysicsObject.SetEnabled(newBlock, false);
+					
+					Program.Wait(3.0);
+					
+					Scene.AddObject(newBlock);
+					TransformController.ScaleTo(newBlock, 0.01, 0);
+					TransformController.ScaleTo(newBlock, 1, 0.2);
+
+					=====================",
+					"secondary chunk" : "\\x1bLuaQ\\x00\\x01\\x04\\x04\\x04\\x08\\x002\\x01\\x00\\x00local self = ...;\\r\\n\\r\\nlocal newBlock = self:clone();\\r\\nnewBlock:setPosition(PhysicsObject.OriginalPosition(self));\\r\\nPhysicsObject.SetEnabled(newBlock, false);\\r\\n\\r\\nProgram.Wait(3.0);\\r\\n\\r\\nScene.AddObject(newBlock);\\r\\nTransformController.ScaleTo(newBlock, 0.01, 0);\\r\\nTransformController.ScaleTo(newBlock, 1, 0.2);\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x02\\x06#\\x00\\x00\\x00%\\x00\\x00\\x01K\\x00@\\x00\\\\\\x80\\x00\\x01\\x8b@\\xc0\\x00\\x05\\x81\\x00\\x00\\x06\\xc1@\\x02@\\x01\\x00\\x00\\x1c\\x01\\x00\\x01\\x9c@\\x00\\x00\\x85\\x80\\x00\\x00\\x86\\x00A\\x01\\xc0\\x00\\x80\\x00\\x02\\x01\\x00\\x00\\x9c@\\x80\\x01\\x85@\\x01\\x00\\x86\\x80A\\x01\\xc1\\xc0\\x01\\x00\\x9c@\\x00\\x01\\x85\\x00\\x02\\x00\\x86@B\\x01\\xc0\\x00\\x80\\x00\\x9c@\\x00\\x01\\x85\\x80\\x02\\x00\\x86\\xc0B\\x01\\xc0\\x00\\x80\\x00\\x01\\x01\\x03\\x00AA\\x03\\x00\\x9c@\\x00\\x02\\x85\\x80\\x02\\x00\\x86\\xc0B\\x01\\xc0\\x00\\x80\\x00\\x01\\x81\\x03\\x00A\\xc1\\x03\\x00\\x9c@\\x00\\x02\\x1e\\x00\\x80\\x00\\x10\\x00\\x00\\x00\\x04\\x06\\x00\\x00\\x00clone\\x00\\x04\\x0c\\x00\\x00\\x00setPosition\\x00\\x04\\x0e\\x00\\x00\\x00PhysicsObject\\x00\\x04\\x11\\x00\\x00\\x00OriginalPosition\\x00\\x04\\x0b\\x00\\x00\\x00SetEnabled\\x00\\x04\\x08\\x00\\x00\\x00Program\\x00\\x04\\x05\\x00\\x00\\x00Wait\\x00\\x03\\x00\\x00\\x00\\x00\\x00\\x00\\x08@\\x04\\x06\\x00\\x00\\x00Scene\\x00\\x04\\n\\x00\\x00\\x00AddObject\\x00\\x04\\x14\\x00\\x00\\x00TransformController\\x00\\x04\\x08\\x00\\x00\\x00ScaleTo\\x00\\x03{\\x14\\xaeG\\xe1z\\x84?\\x03\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x00\\x00\\x00\\xf0?\\x03\\x9a\\x99\\x99\\x99\\x99\\x99\\xc9?\\x00\\x00\\x00\\x00#\\x00\\x00\\x00\\x01\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x07\\x00\\x00\\x00\\x07\\x00\\x00\\x00\\x07\\x00\\x00\\x00\\x07\\x00\\x00\\x00\\t\\x00\\x00\\x00\\t\\x00\\x00\\x00\\t\\x00\\x00\\x00\\t\\x00\\x00\\x00\\n\\x00\\x00\\x00\\n\\x00\\x00\\x00\\n\\x00\\x00\\x00\\n\\x00\\x00\\x00\\n\\x00\\x00\\x00\\n\\x00\\x00\\x00\\x0b\\x00\\x00\\x00\\x0b\\x00\\x00\\x00\\x0b\\x00\\x00\\x00\\x0b\\x00\\x00\\x00\\x0b\\x00\\x00\\x00\\x0b\\x00\\x00\\x00\\x0b\\x00\\x00\\x00\\x02\\x00\\x00\\x00\\x05\\x00\\x00\\x00self\\x00\\x01\\x00\\x00\\x00\"\\x00\\x00\\x00\\t\\x00\\x00\\x00newBlock\\x00\\x03\\x00\\x00\\x00\"\\x00\\x00\\x00\\x00\\x00\\x00\\x00",
+				},
+				"u1" : 1,
+				"u2" : 5,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "CollisionShape",
+			"number" : 3,
+			"? linked component" : 100,
+
+			"collision shapesub-sub-sub-block " :  {
+
+
+				"u2sub-sub-sub-sub-block " :  {
+
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"y" : 25.786911010742188,
+						"z" : 38.710350036621094,
+					},
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"y" : -25.786911010742188,
+						"z" : 37.740196228027344,
+					},
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"y" : -16.473190307617188,
+						"z" : -38.710350036621094,
+					},
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"y" : 16.7816162109375,
+						"z" : -15.8463134765625,
+					},
+					"u3" : 0,
+					"u4" : 1,
+				},
+			},
+
+			"collision shape 2sub-sub-sub-block " :  {
+
+				"u0" : 1,
+				"w" : -30.0,
+				"x" : 30.0,
+
+				"lua chunksub-sub-sub-sub-block " :  {
+
+					"main chunk" : "chunk >
+
+					=== lua =============
+					local self, target = ...;
+					
+					if target:identifier() == \"hero\" then
+						if not PhysicsObject.IsEnabled(self) then
+							PhysicsObject.SetEnabled(self, true);
+							SoundLibrary.PlayEffect(\"chirp1\");
+						end
+					end
+
+					=====================",
+					"secondary chunk" : "\\x1bLuaQ\\x00\\x01\\x04\\x04\\x04\\x08\\x00\\xc9\\x00\\x00\\x00local self, target = ...;\\r\\n\\r\\nif target:identifier() == \"hero\" then\\r\\n\\tif not PhysicsObject.IsEnabled(self) then\\r\\n\\t\\tPhysicsObject.SetEnabled(self, true);\\r\\n\\t\\tSoundLibrary.PlayEffect(\"chirp1\");\\r\\n\\tend\\r\\nend\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x02\\x05\\x15\\x00\\x00\\x00%\\x00\\x80\\x01\\x8b\\x00\\xc0\\x00\\x9c\\x80\\x00\\x01\\x17@@\\x01\\x16\\x80\\x03\\x80\\x85\\x80\\x00\\x00\\x86\\xc0@\\x01\\xc0\\x00\\x00\\x00\\x9c\\x80\\x00\\x01\\x9a@\\x00\\x00\\x16\\x00\\x02\\x80\\x85\\x80\\x00\\x00\\x86\\x00A\\x01\\xc0\\x00\\x00\\x00\\x02\\x01\\x80\\x00\\x9c@\\x80\\x01\\x85@\\x01\\x00\\x86\\x80A\\x01\\xc1\\xc0\\x01\\x00\\x9c@\\x00\\x01\\x1e\\x00\\x80\\x00\\x08\\x00\\x00\\x00\\x04\\x0b\\x00\\x00\\x00identifier\\x00\\x04\\x05\\x00\\x00\\x00hero\\x00\\x04\\x0e\\x00\\x00\\x00PhysicsObject\\x00\\x04\\n\\x00\\x00\\x00IsEnabled\\x00\\x04\\x0b\\x00\\x00\\x00SetEnabled\\x00\\x04\\r\\x00\\x00\\x00SoundLibrary\\x00\\x04\\x0b\\x00\\x00\\x00PlayEffect\\x00\\x04\\x07\\x00\\x00\\x00chirp1\\x00\\x00\\x00\\x00\\x00\\x15\\x00\\x00\\x00\\x01\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x06\\x00\\x00\\x00\\x06\\x00\\x00\\x00\\x06\\x00\\x00\\x00\\x06\\x00\\x00\\x00\\x08\\x00\\x00\\x00\\x02\\x00\\x00\\x00\\x05\\x00\\x00\\x00self\\x00\\x01\\x00\\x00\\x00\\x14\\x00\\x00\\x00\\x07\\x00\\x00\\x00target\\x00\\x01\\x00\\x00\\x00\\x14\\x00\\x00\\x00\\x00\\x00\\x00\\x00",
+				},
+				"z" : 1,
+				"u4" : 0.10000000149011612,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "GroundPolygon",
+			"number" : 100,
+
+			"ground polygonsub-sub-sub-block " :  {
+
+
+				"sub-sub-sub-sub-block " :  {
+
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"x" : 25.786911010742188,
+						"y" : 38.710350036621094,
+					},
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"x" : -25.786911010742188,
+						"y" : 37.740196228027344,
+					},
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"x" : -16.473190307617188,
+						"y" : -38.710350036621094,
+					},
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"x" : 16.7816162109375,
+						"y" : -15.8463134765625,
+					},
+					"u0" : 0,
+					"u1" : 1,
+				},
+				"u1" : 1,
+				"u2" : -30.0,
+				"u3" : 30.0,
+				"u4" : "\\n\\xc8\\x01local self, target = ...;\\r\\n\\r\\nif target:identifier() == \"hero\" then\\r\\n\\tif not PhysicsObject.IsEnabled(self) then\\r\\n\\t\\tPhysicsObject.SetEnabled(self, true);\\r\\n\\t\\tSoundLibrary.PlayEffect(\"chirp1\");\\r\\n\\tend\\r\\nend\\x12\\xc3\\x04\\x1bLuaQ\\x00\\x01\\x04\\x04\\x04\\x08\\x00\\xc9\\x00\\x00\\x00local self, target = ...;\\r\\n\\r\\nif target:identifier() == \"hero\" then\\r\\n\\tif not PhysicsObject.IsEnabled(self) then\\r\\n\\t\\tPhysicsObject.SetEnabled(self, true);\\r\\n\\t\\tSoundLibrary.PlayEffect(\"chirp1\");\\r\\n\\tend\\r\\nend\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x02\\x05\\x15\\x00\\x00\\x00%\\x00\\x80\\x01\\x8b\\x00\\xc0\\x00\\x9c\\x80\\x00\\x01\\x17@@\\x01\\x16\\x80\\x03\\x80\\x85\\x80\\x00\\x00\\x86\\xc0@\\x01\\xc0\\x00\\x00\\x00\\x9c\\x80\\x00\\x01\\x9a@\\x00\\x00\\x16\\x00\\x02\\x80\\x85\\x80\\x00\\x00\\x86\\x00A\\x01\\xc0\\x00\\x00\\x00\\x02\\x01\\x80\\x00\\x9c@\\x80\\x01\\x85@\\x01\\x00\\x86\\x80A\\x01\\xc1\\xc0\\x01\\x00\\x9c@\\x00\\x01\\x1e\\x00\\x80\\x00\\x08\\x00\\x00\\x00\\x04\\x0b\\x00\\x00\\x00identifier\\x00\\x04\\x05\\x00\\x00\\x00hero\\x00\\x04\\x0e\\x00\\x00\\x00PhysicsObject\\x00\\x04\\n\\x00\\x00\\x00IsEnabled\\x00\\x04\\x0b\\x00\\x00\\x00SetEnabled\\x00\\x04\\r\\x00\\x00\\x00SoundLibrary\\x00\\x04\\x0b\\x00\\x00\\x00PlayEffect\\x00\\x04\\x07\\x00\\x00\\x00chirp1\\x00\\x00\\x00\\x00\\x00\\x15\\x00\\x00\\x00\\x01\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x06\\x00\\x00\\x00\\x06\\x00\\x00\\x00\\x06\\x00\\x00\\x00\\x06\\x00\\x00\\x00\\x08\\x00\\x00\\x00\\x02\\x00\\x00\\x00\\x05\\x00\\x00\\x00self\\x00\\x01\\x00\\x00\\x00\\x14\\x00\\x00\\x00\\x07\\x00\\x00\\x00target\\x00\\x01\\x00\\x00\\x00\\x14\\x00\\x00\\x00\\x00\\x00\\x00\\x00",
+				"u5" : 0.10000000149011612,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "GroundMesh",
+			"number" : 101,
+
+			"ground meshsub-sub-sub-block " :  {
+
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"w" : -35.78691101074219,
+					"x" : -48.710350036621094,
+					"y" : 71.57382202148438,
+					"z" : 97.42070007324219,
+				},
+
+				"u1sub-sub-sub-sub-block " :  {
+
+					"u0" : 20,
+					"u1" : 14,
+
+					"u2sub-sub-sub-sub-sub-block " :  {
+
+						"u0" : 4,
+						"u1" : 1,
+						"u2" : 2,
+						"u3" : 0,
+					},
+
+					"u3sub-sub-sub-sub-sub-block " :  {
+
+						"u0" : 7,
+						"u1" : 3,
+						"u2" : 32,
+						"u3" : 0,
+					},
+
+					"u4sub-sub-sub-sub-sub-block " :  {
+
+						"u0" : 7,
+						"u1" : 3,
+						"u2" : 32,
+						"u3" : 12,
+					},
+
+					"u5sub-sub-sub-sub-sub-block " :  {
+
+						"u0" : 7,
+						"u1" : 2,
+						"u2" : 32,
+						"u3" : 24,
+					},
+
+					"u6sub-sub-sub-sub-sub-block " :  {
+
+
+						"u0sub-sub-sub-sub-sub-sub-block " :  {
+
+							"w" : 1.0,
+							"x" : 1.0,
+							"y" : 1.0,
+							"z" : 1.0,
+						},
+
+						"u1sub-sub-sub-sub-sub-sub-block " :  {
+
+							"w" : 1.0,
+							"x" : 1.0,
+							"y" : 1.0,
+							"z" : 1.0,
+						},
+
+						"u2sub-sub-sub-sub-sub-sub-block " :  {
+
+							"w" : 1.0,
+							"x" : 1.0,
+							"y" : 1.0,
+							"z" : 1.0,
+						},
+						"u3" : 0.0,
+						"u4" : "\\n\\x06icicle\\x10\\x01 \\x02",
+					},
+
+					"u7sub-sub-sub-sub-sub-block " :  {
+
+						"u" : -28.786380767822266,
+						"v" : 12.683773040771484,
+						"w" : -35.0,
+						"x" : 57.57276153564453,
+						"y" : 26.08300018310547,
+						"z" : 70.0,
+					},
+					"u8" : "\\x82J\\xe6A-\\x11\\x1bB\\x00\\x00\\xf0\\xc1~\\x12\\x9a\\xbci\\xf4\\x7f?\\x00\\x00\\x00\\x00\\x00\\x00\\x00?33\\xb3>\\x82J\\xe6A-\\x11\\x1bB\\x00\\x00\\xf0A~\\x12\\x9a\\xbci\\xf4\\x7f?\\x00\\x00\\x00\\x00\\x00\\x00\\x00?ff&?\\x82J\\xe6AZ\"\\xe6A\\x00\\x00\\x0cB\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?ff\\xe6>\\xcd\\xcc,?\\x82J\\xe6A\\xb4D\\\\A\\xcd\\xcc\\xf0A~\\x12\\x9a<i\\xf4\\x7f\\xbf\\x00\\x00\\x00\\x80\\x00\\x00\\xc0>+\\x87&?\\x82J\\xe6A\\xb4D\\\\A33\\xef\\xc1~\\x12\\x9a<i\\xf4\\x7f\\xbf\\x00\\x00\\x00\\x80\\x00\\x00\\xc0>\\xbct\\xb3>\\x82J\\xe6AZ\"\\xe6A\\x00\\x00\\x0c\\xc2\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?ff\\xe6>ff\\xa6>\\x82J\\xe6A-\\x11\\x1bB\\x00\\x00\\xf0\\xc1~\\x12\\x9a\\xbci\\xf4\\x7f?\\x00\\x00\\x00\\x00\\x00\\x00\\x00?33\\xb3>\\x82J\\xe6A-\\x11\\x1bB\\x00\\x00\\xf0A~\\x12\\x9a\\xbci\\xf4\\x7f?\\x00\\x00\\x00\\x00\\x00\\x00\\x00?ff&?\\x82J\\xe6AZ\"\\xe6A\\x00\\x00\\x0cB\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\x00\\x00\\x00?\\xf9\\xb54?\\x82J\\xe6A\\xb4D\\\\A\\xcd\\xcc\\xf0A~\\x12\\x9a<i\\xf4\\x7f\\xbf\\x00\\x00\\x00\\x80\\x00\\x00\\x00?\\xc8\\xe8H?\\x82J\\xe6\\xc1/\\xbc\\x16B\\x00\\x00\\xf0\\xc1~\\x12\\x9a\\xbci\\xf4\\x7f?\\x00\\x00\\x00\\x00\\xb3\\x06B?33\\xb3>\\x82J\\xe6\\xc1/\\xbc\\x16B\\x00\\x00\\xf0A~\\x12\\x9a\\xbci\\xf4\\x7f?\\x00\\x00\\x00\\x00\\xb3\\x06B?ff&?\\x82J\\xe6\\xc1^x\\xddA\\x00\\x00\\x0cB\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xb3\\x06B?\\xf9\\xb54?\\x82J\\xe6\\xc1\\xbc\\xf0JA\\xcd\\xcc\\xf0A~\\x12\\x9a<i\\xf4\\x7f\\xbf\\x00\\x00\\x00\\x80\\xb3\\x06B?\\xc8\\xe8H?\\x82J\\xe6\\xc1/\\xbc\\x16B\\x00\\x00\\xf0\\xc1~\\x12\\x9a\\xbci\\xf4\\x7f?\\x00\\x00\\x00\\x00\\xb3\\x06B?33\\xb3>\\x82J\\xe6\\xc1/\\xbc\\x16B\\x00\\x00\\xf0A~\\x12\\x9a\\xbci\\xf4\\x7f?\\x00\\x00\\x00\\x00\\xb3\\x06B?ff&?\\x82J\\xe6\\xc1^x\\xddA\\x00\\x00\\x0cB\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\x80\\xd3N?\\xcd\\xcc,?\\x82J\\xe6\\xc1\\xbc\\xf0JA\\xcd\\xcc\\xf0A~\\x12\\x9a<i\\xf4\\x7f\\xbf\\x00\\x00\\x00\\x80\\xb3\\x06b?+\\x87&?\\x82J\\xe6\\xc1\\xbc\\xf0JA33\\xef\\xc1~\\x12\\x9a<i\\xf4\\x7f\\xbf\\x00\\x00\\x00\\x80\\xb3\\x06b?\\xbct\\xb3>\\x82J\\xe6\\xc1^x\\xddA\\x00\\x00\\x0c\\xc2\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\x80\\xd3N?ff\\xa6>",
+					"u9" : "\\x00\\x00\\x04\\x00\\x05\\x00\\x00\\x00\\x03\\x00\\x04\\x00\\x00\\x00\\x01\\x00\\x03\\x00\\x01\\x00\\x02\\x00\\x03\\x00\\x06\\x00\\n\\x00\\x0b\\x00\\x07\\x00\\x06\\x00\\x0b\\x00\\x07\\x00\\x0b\\x00\\x0c\\x00\\x08\\x00\\x07\\x00\\x0c\\x00\\x08\\x00\\x0c\\x00\\r\\x00\\t\\x00\\x08\\x00\\r\\x00\\x0e\\x00\\x13\\x00\\x12\\x00\\x0e\\x00\\x12\\x00\\x11\\x00\\x0e\\x00\\x11\\x00\\x0f\\x00\\x11\\x00\\x10\\x00\\x0f\\x00",
+				},
+
+				"u1sub-sub-sub-sub-block " :  {
+
+					"u0" : 8,
+					"u1" : 6,
+
+					"u2sub-sub-sub-sub-sub-block " :  {
+
+						"u0" : 4,
+						"u1" : 1,
+						"u2" : 2,
+						"u3" : 0,
+					},
+
+					"u3sub-sub-sub-sub-sub-block " :  {
+
+						"u0" : 7,
+						"u1" : 3,
+						"u2" : 32,
+						"u3" : 0,
+					},
+
+					"u4sub-sub-sub-sub-sub-block " :  {
+
+						"u0" : 7,
+						"u1" : 3,
+						"u2" : 32,
+						"u3" : 12,
+					},
+
+					"u5sub-sub-sub-sub-sub-block " :  {
+
+						"u0" : 7,
+						"u1" : 2,
+						"u2" : 32,
+						"u3" : 24,
+					},
+
+					"u6sub-sub-sub-sub-sub-block " :  {
+
+
+						"u0sub-sub-sub-sub-sub-sub-block " :  {
+
+							"w" : 1.0,
+							"x" : 1.0,
+							"y" : 1.0,
+							"z" : 1.0,
+						},
+
+						"u1sub-sub-sub-sub-sub-sub-block " :  {
+
+							"w" : 1.0,
+							"x" : 1.0,
+							"y" : 1.0,
+							"z" : 1.0,
+						},
+
+						"u2sub-sub-sub-sub-sub-sub-block " :  {
+
+							"w" : 1.0,
+							"x" : 1.0,
+							"y" : 1.0,
+							"z" : 1.0,
+						},
+						"u3" : 0.0,
+						"u4" : "\\n\\x10icecastle_ground\\x10\\x01 \\x02",
+					},
+
+					"u7sub-sub-sub-sub-sub-block " :  {
+
+						"u" : -25.786911010742188,
+						"v" : -38.710350036621094,
+						"w" : -25.0,
+						"x" : 51.573822021484375,
+						"y" : 77.42070007324219,
+						"z" : 50.0,
+					},
+					"u8" : "\\x98K\\xce\\xc1\\xf6\\xf5\\x16B\\x00\\x00\\xc8\\xc1\\x04\\x1f~\\xbf\\x86\\xab\\xf7\\xbd\\x00\\x00\\x00\\x00\\x00\\x00\\x00?\\xcd\\xcc\\xcc>\\x98K\\xce\\xc1\\xf6\\xf5\\x16B\\x00\\x00\\xc8A\\x04\\x1f~\\xbf\\x86\\xab\\xf7\\xbd\\x00\\x00\\x00\\x00\\x00\\x00\\x00?\\x9a\\x99\\x19?\\x18\\xc9\\x83\\xc1f\\xd7\\x1a\\xc2\\x00\\x00\\xc8\\xc1-sH\\xbf5<\\x1f\\xbf\\x00\\x00\\x00\\x00:\\xddN?\\xcd\\xcc\\xcc>\\x18\\xc9\\x83\\xc1f\\xd7\\x1a\\xc2\\x00\\x00\\xc8A-sH\\xbf5<\\x1f\\xbf\\x00\\x00\\x00\\x00:\\xddN?\\x9a\\x99\\x19?\\xc0@\\x86A\\x80\\x8a}\\xc1\\x00\\x00\\xc8\\xc12\\xb4`?.O\\xf5\\xbe\\x00\\x00\\x00\\x00p0x?\\xcd\\xcc\\xcc>\\xc0@\\x86A\\x80\\x8a}\\xc1\\x00\\x00\\xc8A2\\xb4`?.O\\xf5\\xbe\\x00\\x00\\x00\\x00p0x?\\x9a\\x99\\x19?\\x98K\\xceAf\\xd7\\x1aB\\x00\\x00\\xc8\\xc1\\x0c\\x95|?\\xa0\\xc4&\\xbe\\x00\\x00\\x00\\x00\\xd5g\\x98?\\xcd\\xcc\\xcc>\\x98K\\xceAf\\xd7\\x1aB\\x00\\x00\\xc8A\\x0c\\x95|?\\xa0\\xc4&\\xbe\\x00\\x00\\x00\\x00\\xd5g\\x98?\\x9a\\x99\\x19?",
+					"u9" : "\\x00\\x00\\x02\\x00\\x03\\x00\\x01\\x00\\x00\\x00\\x03\\x00\\x02\\x00\\x04\\x00\\x05\\x00\\x03\\x00\\x02\\x00\\x05\\x00\\x04\\x00\\x06\\x00\\x07\\x00\\x05\\x00\\x04\\x00\\x07\\x00",
+				},
+
+				"u2sub-sub-sub-sub-block " :  {
+
+					"u0" : 6,
+					"u1" : 2,
+
+					"u2sub-sub-sub-sub-sub-block " :  {
+
+						"u0" : 7,
+						"u1" : 3,
+						"u2" : 32,
+						"u3" : 0,
+					},
+
+					"u3sub-sub-sub-sub-sub-block " :  {
+
+						"u0" : 7,
+						"u1" : 3,
+						"u2" : 32,
+						"u3" : 12,
+					},
+
+					"u4sub-sub-sub-sub-sub-block " :  {
+
+						"u0" : 7,
+						"u1" : 2,
+						"u2" : 32,
+						"u3" : 24,
+					},
+
+					"u5sub-sub-sub-sub-sub-block " :  {
+
+
+						"u0sub-sub-sub-sub-sub-sub-block " :  {
+
+							"w" : 1.0,
+							"x" : 1.0,
+							"y" : 1.0,
+							"z" : 1.0,
+						},
+
+						"u1sub-sub-sub-sub-sub-sub-block " :  {
+
+							"w" : 1.0,
+							"x" : 1.0,
+							"y" : 1.0,
+							"z" : 1.0,
+						},
+
+						"u2sub-sub-sub-sub-sub-sub-block " :  {
+
+							"w" : 1.0,
+							"x" : 1.0,
+							"y" : 1.0,
+							"z" : 1.0,
+						},
+						"u3" : 0.0,
+
+						"u4sub-sub-sub-sub-sub-sub-block " :  {
+
+							"u0" : "icecastle_ground",
+							"u1" : 1,
+							"u2" : 2,
+						},
+					},
+
+					"u3sub-sub-sub-sub-sub-block " :  {
+
+						"u" : -25.786911010742188,
+						"v" : -38.710350036621094,
+						"w" : 25.0,
+						"x" : 51.573822021484375,
+						"y" : 77.42070007324219,
+						"z" : 0.0,
+					},
+					"u7" : "\\x98K\\xce\\xc1\\xf6\\xf5\\x16B\\x00\\x00\\xc8A\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?;0\\xcb>^\\xa5&?\\x18\\xc9\\x83\\xc1f\\xd7\\x1a\\xc2\\x00\\x00\\xc8A\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?NC\\xde>\\xa1\\xb8\\xb0>\\xc0@\\x86A\\x80\\x8a}\\xc1\\x00\\x00\\xc8A\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?3/\\x11?\\xf8\\x8b\\xdf>\\x98K\\xce\\xc1\\xf6\\xf5\\x16B\\x00\\x00\\xc8A\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?;0\\xcb>^\\xa5&?\\xc0@\\x86A\\x80\\x8a}\\xc1\\x00\\x00\\xc8A\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?3/\\x11?\\xf8\\x8b\\xdf>\\x98K\\xceAf\\xd7\\x1aB\\x00\\x00\\xc8A\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xe2g\\x1a?\\xb0\\xa3\'?",
+				},
+
+				"u3sub-sub-sub-sub-block " :  {
+
+					"w" : 1.0,
+					"x" : 1.0,
+					"y" : 1.0,
+					"z" : 1.0,
+				},
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "GroundMeshGenerator",
+			"number" : 102,
+
+			"ground mesh generatorsub-sub-sub-block " :  {
+
+				"ground polygon" : 100,
+				"ground mesh" : 101,
+				"texture mapping 1" : 103,
+				"texture mapping 2" : 104,
+				"u4" : 0,
+				"u5" : 0.0,
+				"u6" : 1,
+				"u7" : 50.0,
+				"u8" : 25.0,
+				"u9" : 5.0,
+				"u10" : 5.0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "TextureMapping",
+			"number" : 103,
+
+			"texture mappingsub-sub-sub-block " :  {
+
+				"texture file" : "icecastle_ground",
+				"u0" : 250.0,
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"u1" : 0.0,
+					"u2" : 0.0,
+				},
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "TextureMapping",
+			"number" : 104,
+
+			"texture mappingsub-sub-sub-block " :  {
+
+				"texture file" : "icicle",
+				"u0" : 200.0,
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"u1" : 0.0,
+					"u2" : 0.0,
+				},
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "PhysicsObject",
+			"number" : 107,
+
+			"physics objectsub-sub-sub-block " :  {
+
+				"u0" : 0,
+				"u3" : 1500.0,
+				"u4" : 0.0,
+				"u5" : 700.0,
+				"u6" : 0,
+				"u7" : 0.0,
+			},
+		},
+
+		"positionsub-sub-block " :  {
+
+			"x position" : 0.0,
+			"y position" : 0.0,
+		},
+		"z position" : 0.0,
+		"rotation" : 0.0,
+		"scale" : 1.0,
+
+		"u0sub-sub-block " :  {
+
+			"w" : -25.786911010742188,
+			"x" : -38.710350036621094,
+			"y" : 51.573822021484375,
+			"z" : 77.42070007324219,
+		},
+		"hidden" : 0,
+	},
+	"u0" : 1.0,
+},
+
+"?itemblock " :  {
+
+
+	"?sub-itemsub-block " :  {
+
+		"name" : "elevator1",
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "CollisionShape",
+			"number" : 1,
+			"? linked component" : 103,
+
+			"collision shapesub-sub-sub-block " :  {
+
+
+				"u2sub-sub-sub-sub-block " :  {
+
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"y" : -40.72107696533203,
+						"z" : -4.286221027374268,
+					},
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"y" : 38.4854621887207,
+						"z" : -5.4731245040893555,
+					},
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"y" : 40.17571258544922,
+						"z" : 8.352277755737305,
+					},
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"y" : -40.04035568237305,
+						"z" : 8.089414596557617,
+					},
+					"u3" : 0,
+					"u4" : 1,
+				},
+			},
+
+			"collision shape 2sub-sub-sub-block " :  {
+
+				"u0" : 1,
+				"w" : -50.0,
+				"x" : 50.0,
+				"z" : 1,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "CollisionShape",
+			"number" : 2,
+			"? linked component" : 113,
+
+			"collision shapesub-sub-sub-block " :  {
+
+
+				"u2sub-sub-sub-sub-block " :  {
+
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"y" : -49.11248779296875,
+						"z" : 112.0260009765625,
+					},
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"y" : 48.74488830566406,
+						"z" : 112.56118774414062,
+					},
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"y" : 48.368446350097656,
+						"z" : 119.72406005859375,
+					},
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"y" : -49.387451171875,
+						"z" : 119.88470458984375,
+					},
+					"u3" : 0,
+					"u4" : 1,
+				},
+			},
+
+			"collision shape 2sub-sub-sub-block " :  {
+
+				"u0" : 1,
+				"w" : -50.0,
+				"x" : 50.0,
+				"z" : 1,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Model",
+			"number" : 101,
+
+			"3D modelsub-sub-sub-block " :  {
+
+				"name" : "elevator1",
+				"u0" : 1.5707963705062866,
+				"u1" : 0.0,
+				"u2" : 0.0,
+
+				"u3sub-sub-sub-sub-block " :  {
+
+					"w" : 0.0,
+					"x" : 0.0,
+					"y" : 0.0,
+					"z" : 1.0,
+				},
+
+				"u4sub-sub-sub-sub-block " :  {
+
+					"x" : 0.0,
+					"y" : 0.0,
+					"z" : 0.0,
+				},
+				"u5" : 0,
+
+				"u6sub-sub-sub-sub-block " :  {
+
+					"w" : 1.0,
+					"x" : 1.0,
+					"y" : 1.0,
+					"z" : 1.0,
+				},
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "GroundPolygon",
+			"number" : 103,
+
+			"ground polygonsub-sub-sub-block " :  {
+
+
+				"sub-sub-sub-sub-block " :  {
+
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"x" : -40.72107696533203,
+						"y" : -4.286221027374268,
+					},
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"x" : 38.4854621887207,
+						"y" : -5.4731245040893555,
+					},
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"x" : 40.17571258544922,
+						"y" : 8.352277755737305,
+					},
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"x" : -40.04035568237305,
+						"y" : 8.089414596557617,
+					},
+					"u0" : 0,
+					"u1" : 1,
+				},
+				"u1" : 1,
+				"u2" : -50.0,
+				"u3" : 50.0,
+				"u4" : "",
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "ElevatorController",
+			"number" : 106,
+
+			"elevator controllersub-sub-sub-block " :  {
+
+				"temp0" : 109,
+				"u0" : 2,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "UtilityShape",
+			"number" : 109,
+
+			"collision shapesub-sub-sub-block " :  {
+
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"w" : -50.0,
+					"x" : 0.0,
+					"y" : 100.0,
+					"z" : 860.0,
+				},
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "GroundPolygon",
+			"number" : 113,
+
+			"ground polygonsub-sub-sub-block " :  {
+
+
+				"sub-sub-sub-sub-block " :  {
+
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"x" : -49.11248779296875,
+						"y" : 112.0260009765625,
+					},
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"x" : 48.74488830566406,
+						"y" : 112.56118774414062,
+					},
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"x" : 48.368446350097656,
+						"y" : 119.72406005859375,
+					},
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"x" : -49.387451171875,
+						"y" : 119.88470458984375,
+					},
+					"u0" : 0,
+					"u1" : 1,
+				},
+				"u1" : 1,
+				"u2" : -50.0,
+				"u3" : 50.0,
+				"u4" : "",
+			},
+		},
+
+		"positionsub-sub-block " :  {
+
+			"x position" : 0.0,
+			"y position" : 0.0,
+		},
+		"z position" : 0.0,
+		"rotation" : 0.0,
+		"scale" : 1.0,
+
+		"u0sub-sub-block " :  {
+
+			"w" : -49.387451171875,
+			"x" : -5.4731245040893555,
+			"y" : 98.13233947753906,
+			"z" : 125.35782623291016,
+		},
+		"hidden" : 0,
+	},
+	"u0" : 1.0,
+},
+
+}

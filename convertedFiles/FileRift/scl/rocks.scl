@@ -1,0 +1,265 @@
+scl file name : rocks (0a @ 1)
+
+?item block { (12 @ 8)
+
+
+    ?sub-item sub-block { (0a @ b)
+
+        name : hugerock1 (12 @ e)
+
+        component sub-sub-block { (1a @ 19)
+
+            component type : Model (0a @ 1b)
+            number : 101(10 @ 22)
+
+            3D model sub-sub-sub-block { (32a @ 25)
+
+                name : hugerock1 (0a @ 27)
+                u0 : 0.0 (15 @ 32)
+                u1 : 0.0 (1d @ 37)
+                u2 : 0.0 (25 @ 3c)
+
+                u3 sub-sub-sub-sub-block { (2a @ 41)
+
+                    w : 0.0 (0d @ 43)
+                    x : 0.0 (15 @ 48)
+                    y : 0.0 (1d @ 4d)
+                    z : 1.0 (25 @ 52)
+				}
+
+                u4 sub-sub-sub-sub-block { (32 @ 57)
+
+                    x : 0.0 (0d @ 59)
+                    y : 0.0 (15 @ 5e)
+                    z : 0.0 (1d @ 63)
+				}
+                u5 : 0(38 @ 68)
+
+                u6 sub-sub-sub-sub-block { (42 @ 6a)
+
+                    w : 1.0 (0d @ 6c)
+                    x : 1.0 (15 @ 71)
+                    y : 1.0 (1d @ 76)
+                    z : 1.0 (25 @ 7b)
+				}
+			}
+		}
+
+        position sub-sub-block { (22 @ 80)
+
+            x position : 0.0 (0d @ 82)
+            y position : 0.0 (15 @ 87)
+		}
+        z position : 0.0 (2d @ 8c)
+        rotation : 0.0 (35 @ 91)
+        scale : 1.0 (3d @ 96)
+
+        u0 sub-sub-block { (42 @ 9b)
+
+            w : 0.0 (0d @ 9d)
+            x : 0.0 (15 @ a2)
+            y : 0.0 (1d @ a7)
+            z : 0.0 (25 @ ac)
+		}
+        hidden : 0(48 @ b1)
+	}
+    u0 : 1.0 (15 @ b3)
+}
+
+?item block { (12 @ b8)
+
+
+    ?sub-item sub-block { (0a @ bb)
+
+        name : rock1 (12 @ be)
+
+        component sub-sub-block { (1a @ c5)
+
+            component type : Model (0a @ c7)
+            number : 101(10 @ ce)
+
+            3D model sub-sub-sub-block { (32a @ d1)
+
+                name : rock1 (0a @ d3)
+                u0 : 0.0 (15 @ da)
+                u1 : 0.0 (1d @ df)
+                u2 : 0.0 (25 @ e4)
+
+                u3 sub-sub-sub-sub-block { (2a @ e9)
+
+                    w : 0.0 (0d @ eb)
+                    x : 0.0 (15 @ f0)
+                    y : 0.0 (1d @ f5)
+                    z : 1.0 (25 @ fa)
+				}
+
+                u4 sub-sub-sub-sub-block { (32 @ ff)
+
+                    x : 0.0 (0d @ 101)
+                    y : 0.0 (15 @ 106)
+                    z : 0.0 (1d @ 10b)
+				}
+                u5 : 0(38 @ 110)
+
+                u6 sub-sub-sub-sub-block { (42 @ 112)
+
+                    w : 1.0 (0d @ 114)
+                    x : 1.0 (15 @ 119)
+                    y : 1.0 (1d @ 11e)
+                    z : 1.0 (25 @ 123)
+				}
+			}
+		}
+
+        position sub-sub-block { (22 @ 128)
+
+            x position : 0.0 (0d @ 12a)
+            y position : 0.0 (15 @ 12f)
+		}
+        z position : 0.0 (2d @ 134)
+        rotation : 0.0 (35 @ 139)
+        scale : 1.0 (3d @ 13e)
+
+        u0 sub-sub-block { (42 @ 143)
+
+            w : 0.0 (0d @ 145)
+            x : 0.0 (15 @ 14a)
+            y : 0.0 (1d @ 14f)
+            z : 0.0 (25 @ 154)
+		}
+        hidden : 0(48 @ 159)
+	}
+    u0 : 1.0 (15 @ 15b)
+}
+
+?item block { (12 @ 160)
+
+
+    ?sub-item sub-block { (0a @ 163)
+
+        name : rock2 (12 @ 166)
+
+        component sub-sub-block { (1a @ 16d)
+
+            component type : Model (0a @ 16f)
+            number : 103(10 @ 176)
+
+            3D model sub-sub-sub-block { (32a @ 179)
+
+                name : rock2 (0a @ 17b)
+                u0 : 0.0 (15 @ 182)
+                u1 : 0.0 (1d @ 187)
+                u2 : 0.0 (25 @ 18c)
+
+                u3 sub-sub-sub-sub-block { (2a @ 191)
+
+                    w : 0.0 (0d @ 193)
+                    x : 0.0 (15 @ 198)
+                    y : 0.0 (1d @ 19d)
+                    z : 1.0 (25 @ 1a2)
+				}
+
+                u4 sub-sub-sub-sub-block { (32 @ 1a7)
+
+                    x : 0.0 (0d @ 1a9)
+                    y : 0.0 (15 @ 1ae)
+                    z : 0.0 (1d @ 1b3)
+				}
+                u5 : 0(38 @ 1b8)
+
+                u6 sub-sub-sub-sub-block { (42 @ 1ba)
+
+                    w : 1.0 (0d @ 1bc)
+                    x : 1.0 (15 @ 1c1)
+                    y : 1.0 (1d @ 1c6)
+                    z : 1.0 (25 @ 1cb)
+				}
+			}
+		}
+
+        position sub-sub-block { (22 @ 1d0)
+
+            x position : 0.0 (0d @ 1d2)
+            y position : 0.0 (15 @ 1d7)
+		}
+        z position : 0.0 (2d @ 1dc)
+        rotation : 0.0 (35 @ 1e1)
+        scale : 1.0 (3d @ 1e6)
+
+        u0 sub-sub-block { (42 @ 1eb)
+
+            w : 0.0 (0d @ 1ed)
+            x : 0.0 (15 @ 1f2)
+            y : 0.0 (1d @ 1f7)
+            z : 0.0 (25 @ 1fc)
+		}
+        hidden : 0(48 @ 201)
+	}
+    u0 : 1.0 (15 @ 203)
+}
+
+?item block { (12 @ 208)
+
+
+    ?sub-item sub-block { (0a @ 20b)
+
+        name : smallrock1 (12 @ 20e)
+
+        component sub-sub-block { (1a @ 21a)
+
+            component type : Model (0a @ 21c)
+            number : 103(10 @ 223)
+
+            3D model sub-sub-sub-block { (32a @ 226)
+
+                name : smallrock1 (0a @ 228)
+                u0 : 0.0 (15 @ 234)
+                u1 : 0.0 (1d @ 239)
+                u2 : 0.0 (25 @ 23e)
+
+                u3 sub-sub-sub-sub-block { (2a @ 243)
+
+                    w : 0.0 (0d @ 245)
+                    x : 0.0 (15 @ 24a)
+                    y : 0.0 (1d @ 24f)
+                    z : 1.0 (25 @ 254)
+				}
+
+                u4 sub-sub-sub-sub-block { (32 @ 259)
+
+                    x : 0.0 (0d @ 25b)
+                    y : 0.0 (15 @ 260)
+                    z : 0.0 (1d @ 265)
+				}
+                u5 : 0(38 @ 26a)
+
+                u6 sub-sub-sub-sub-block { (42 @ 26c)
+
+                    w : 1.0 (0d @ 26e)
+                    x : 1.0 (15 @ 273)
+                    y : 1.0 (1d @ 278)
+                    z : 1.0 (25 @ 27d)
+				}
+			}
+		}
+
+        position sub-sub-block { (22 @ 282)
+
+            x position : 0.0 (0d @ 284)
+            y position : 0.0 (15 @ 289)
+		}
+        z position : 0.0 (2d @ 28e)
+        rotation : 0.0 (35 @ 293)
+        scale : 1.0 (3d @ 298)
+
+        u0 sub-sub-block { (42 @ 29d)
+
+            w : 0.0 (0d @ 29f)
+            x : 0.0 (15 @ 2a4)
+            y : 0.0 (1d @ 2a9)
+            z : 0.0 (25 @ 2ae)
+		}
+        hidden : 0(48 @ 2b3)
+	}
+    u0 : 1.0 (15 @ 2b5)
+}

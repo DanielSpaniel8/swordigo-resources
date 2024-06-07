@@ -1,0 +1,766 @@
+data = {
+
+"collectable itemblock " :  {
+
+	"item type" : 2,
+	"name" : "brasssword",
+	"title" : "Brass Sword",
+	"subTitle" : "+0 damage",
+	"info" : "Good for killing insects.",
+	"can have multiple" : 1,
+	"min damage" : 3,
+	"max damage" : 6,
+	"sequence position" : 1,
+},
+
+"collectable itemblock " :  {
+
+	"item type" : 2,
+	"name" : "ironsword",
+	"title" : "Iron Sword",
+	"subTitle" : "+1 damage",
+	"info" : "Basic iron sword.",
+	"can have multiple" : 1,
+	"min damage" : 5,
+	"max damage" : 10,
+	"sequence position" : 2,
+},
+
+"collectable itemblock " :  {
+
+	"item type" : 2,
+	"name" : "needle",
+	"title" : "The Needle",
+	"subTitle" : "+1 damage",
+	"info" : "Basic iron sword.",
+	"can have multiple" : 1,
+	"min damage" : 7,
+	"max damage" : 13,
+	"sequence position" : 3,
+},
+
+"collectable itemblock " :  {
+
+	"item type" : 2,
+	"name" : "broadsword",
+	"title" : "Broad Sword",
+	"subTitle" : "+2 damage",
+	"info" : "High quality broad sword.",
+	"can have multiple" : 1,
+	"min damage" : 10,
+	"max damage" : 15,
+	"sequence position" : 4,
+},
+
+"collectable itemblock " :  {
+
+	"item type" : 2,
+	"name" : "thorn",
+	"title" : "The Thorn",
+	"subTitle" : "+2 damage",
+	"info" : "High quality broad sword.",
+	"can have multiple" : 1,
+	"min damage" : 12,
+	"max damage" : 18,
+	"sequence position" : 5,
+},
+
+"collectable itemblock " :  {
+
+	"item type" : 2,
+	"name" : "magicsword",
+	"title" : "Magic Sword",
+	"subTitle" : "+3 damage",
+	"info" : "Magic enchanted sword.",
+	"can have multiple" : 1,
+	"min damage" : 15,
+	"max damage" : 20,
+	"sequence position" : 6,
+},
+
+"collectable itemblock " :  {
+
+	"item type" : 2,
+	"name" : "legendsword",
+	"title" : "The Mageblade",
+	"subTitle" : "+4 damage",
+	"info" : "The legendary Mageblade.",
+	"can have multiple" : 1,
+	"min damage" : 20,
+	"max damage" : 25,
+	"sequence position" : 7,
+},
+
+"collectable itemblock " :  {
+
+	"item type" : 3,
+	"name" : "platearmor",
+	"title" : "Plate Armor",
+	"subTitle" : "50% damage reduction",
+	"info" : "50% damage reduction.",
+	"can have multiple" : 1,
+	"sequence position" : 1,
+},
+
+"collectable itemblock " :  {
+
+	"item type" : 3,
+	"name" : "magicarmor",
+	"title" : "Magic Armor",
+	"subTitle" : "75% damage reduction",
+	"info" : "75% damage reduction.",
+	"can have multiple" : 1,
+	"sequence position" : 2,
+},
+
+"collectable itemblock " :  {
+
+	"item type" : 4,
+	"name" : "firetrinket",
+	"title" : "Trinket of Fire",
+	"subTitle" : "-",
+	"info" : "Adds a fire enchantment to your weapon, armor or spells.",
+	"can have multiple" : 1,
+},
+
+"collectable itemblock " :  {
+
+	"item type" : 4,
+	"name" : "icetrinket",
+	"title" : "Trinket of Ice",
+	"subTitle" : "-",
+	"info" : "Adds a cold enchantment to your weapon, armor or spells.",
+	"can have multiple" : 1,
+},
+
+"collectable itemblock " :  {
+
+	"item type" : 4,
+	"name" : "shadowtrinket",
+	"title" : "Trinket of Shadow",
+	"subTitle" : "-",
+	"info" : "Adds a shadow enchantment to your weapon, armor or spells.",
+	"can have multiple" : 1,
+},
+
+"collectable itemblock " :  {
+
+	"item type" : 1,
+	"name" : "healingpotion",
+	"title" : "Healing Potion",
+	"info" : "Restores 5 hearts when used. You can only carry one healing potion at a time.",
+	"can have multiple" : 1,
+},
+
+"collectable itemblock " :  {
+
+	"item type" : 1,
+	"name" : "experiencesack",
+	"title" : "Sack of Experience",
+	"info" : "Gives a lot of experience.",
+},
+
+"collectable itemblock " :  {
+
+	"item type" : 1,
+	"name" : "ankh",
+	"title" : "Ankh of Resurrection",
+	"info" : "-",
+},
+
+"collectable itemblock " :  {
+
+	"item type" : 5,
+	"name" : "key_yellow",
+	"title" : "A Key",
+},
+
+"collectable itemblock " :  {
+
+	"item type" : 5,
+	"name" : "iselon_shard_1",
+	"title" : "First shard of the Mageblade",
+	"can have multiple" : 1,
+},
+
+"collectable itemblock " :  {
+
+	"item type" : 5,
+	"name" : "iselon_shard_2",
+	"title" : "Second shard of the Mageblade",
+	"can have multiple" : 1,
+},
+
+"collectable itemblock " :  {
+
+	"item type" : 5,
+	"name" : "iselon_shard_3",
+	"title" : "Third shard of the Mageblade",
+	"can have multiple" : 1,
+},
+
+"collectable itemblock " :  {
+
+	"item type" : 5,
+	"name" : "iselon_shard_4",
+	"title" : "Fourth shard of the Mageblade",
+	"can have multiple" : 1,
+},
+
+"skillblock " :  {
+
+	"name" : "bolt",
+	"title" : "Magic Bolt",
+	"subtitle" : "---",
+	"u0" : 10,
+	"min damage" : 5,
+	"max damage" : 10,
+},
+
+"skillblock " :  {
+
+	"name" : "bomb",
+	"title" : "Magic Bomb",
+	"subtitle" : "---",
+	"u0" : 20,
+	"min damage" : 10,
+	"max damage" : 20,
+},
+
+"skillblock " :  {
+
+	"name" : "hookshot",
+	"title" : "Dragon\'s Grasp",
+	"subtitle" : "---",
+	"u0" : 25,
+	"min damage" : 5,
+	"max damage" : 10,
+},
+
+"skillblock " :  {
+
+	"name" : "dimension",
+	"title" : "Dimension Rift",
+	"subtitle" : "???",
+	"u0" : 40,
+	"min damage" : 0,
+	"max damage" : 0,
+},
+
+"questblock " :  {
+
+	"name" : "vaseQuest",
+	"title" : "Recover the Vase",
+	"target level" : "plains_part2",
+},
+
+"questblock " :  {
+
+	"name" : "snowyboulder",
+	"title" : "Get the Golden Boulder",
+	"target level" : "snowy_part1",
+},
+
+"questblock " :  {
+
+	"name" : "quest01_find_master",
+	"title" : "Find Master in the Woods",
+	"target level" : "town_woods_end",
+},
+
+"questblock " :  {
+
+	"name" : "quest02_village_elder",
+	"target level" : "town_part1",
+},
+
+"questblock " :  {
+
+	"name" : "quest03_woodkeep",
+	"title" : "Find the Legendary Weapon",
+	"target level" : "plains_woodkeep3",
+},
+
+"questblock " :  {
+
+	"name" : "quest04_village_elder2",
+	"target level" : "town_part1",
+},
+
+"questblock " :  {
+
+	"name" : "quest05_florennum",
+	"title" : "Speak to the King for Help",
+	"target level" : "florennum_jail_part1",
+},
+
+"questblock " :  {
+
+	"name" : "quest06_florennum_shard",
+	"title" : "Recover the Second Shard",
+	"target level" : "florennum_jail_boss",
+},
+
+"questblock " :  {
+
+	"name" : "quest07_go_to_king",
+	"target level" : "florennum_jail_part1",
+},
+
+"questblock " :  {
+
+	"name" : "quest071_fire",
+	"title" : "The Fiery Depths",
+	"target level" : "fire_partBoss",
+},
+
+"questblock " :  {
+
+	"name" : "quest072_ice",
+	"title" : "The Snowy Peaks",
+	"target level" : "icecastle_partBoss",
+},
+
+"questblock " :  {
+
+	"name" : "quest09_assemble",
+	"title" : "The Chambers of Power",
+	"target level" : "thecave_part15",
+},
+
+"questblock " :  {
+
+	"name" : "quest10_death",
+	"title" : "Destroy the Source of Corruption",
+	"target level" : "worldsend_part9",
+},
+
+"entity infoblock " :  {
+
+	"name" : "monster",
+	"title" : "Monster",
+},
+
+"entity infoblock " :  {
+
+	"name" : "boss",
+	"title" : "Boss",
+	"u0" : 1,
+	"u1" : 0,
+	"u2" : 0,
+	"u3" : 0,
+},
+
+"entity infoblock " :  {
+
+	"name" : "boss_corruptor",
+	"title" : "Corruptor",
+	"u0" : 1,
+	"u1" : 0,
+	"u2" : 0,
+	"u3" : 0,
+	"u5" : 1.0,
+},
+
+"entity infoblock " :  {
+
+	"name" : "boss_fire",
+	"title" : "Boss",
+	"u0" : 1,
+	"u1" : 0,
+	"u2" : 0,
+	"u4" : 1.0,
+},
+
+"entity infoblock " :  {
+
+	"name" : "lesser_corruptor",
+	"title" : "Lesser Corruptor",
+	"u1" : 0,
+},
+
+"entity infoblock " :  {
+
+	"name" : "corruptor",
+	"title" : "Corruptor",
+	"u1" : 0,
+	"u5" : 1.0,
+},
+
+"entity infoblock " :  {
+
+	"name" : "bolt",
+	"u1" : 0,
+	"u3" : 0,
+},
+
+"entity infoblock " :  {
+
+	"name" : "skeleton_lord",
+	"title" : "Skeleton Lord",
+	"u0" : 1,
+},
+
+"entity infoblock " :  {
+
+	"name" : "Chaos Orb",
+	"title" : "Chaos Orb",
+	"u0" : 1,
+	"u1" : 0,
+	"u3" : 0,
+	"u5" : 1.0,
+},
+
+"entity infoblock " :  {
+
+	"name" : "Master of Chaos",
+	"title" : "Master of Chaos",
+	"u0" : 1,
+	"u1" : 0,
+	"u3" : 0,
+	"u5" : 1.0,
+},
+
+"entity infoblock " :  {
+
+	"name" : "Burning Charger",
+	"title" : "Burning Charger",
+	"u1" : 0,
+},
+
+"compass infoblock " :  {
+
+	"u0" : 2,
+	"name" : "quest01_find_master",
+	"target level" : "town_woods_end",
+	"target object" : "questTrigger1",
+},
+
+"compass infoblock " :  {
+
+	"u0" : 2,
+	"name" : "quest02_village_elder",
+	"target level" : "town_healerhouse",
+	"target object" : "resurrectionTrigger",
+},
+
+"compass infoblock " :  {
+
+	"u0" : 1,
+	"name" : "vaseQuest",
+	"target level" : "plains_house1",
+	"target object" : "key",
+},
+
+"compass infoblock " :  {
+
+	"u0" : 2,
+	"name" : "vaseQuest",
+	"target level" : "plains_tower1",
+	"target object" : "questvase",
+	"u1" : "questvase",
+},
+
+"compass infoblock " :  {
+
+	"u0" : 4,
+	"name" : "specialkey",
+	"target level" : "plains_woodkeep",
+	"target object" : "item_key_yellow1",
+},
+
+"compass infoblock " :  {
+
+	"u0" : 4,
+	"name" : "d1_key2",
+	"target level" : "plains_woodkeep",
+	"target object" : "obj13",
+},
+
+"compass infoblock " :  {
+
+	"u0" : 4,
+	"name" : "d1_key3",
+	"target level" : "plains_woodkeep",
+	"target object" : "obj13#2",
+},
+
+"compass infoblock " :  {
+
+	"u0" : 3,
+	"name" : "bomb",
+	"target level" : "plains_woodkeep_cellar",
+	"target object" : "trigger",
+},
+
+"compass infoblock " :  {
+
+	"u0" : 4,
+	"name" : "d1_key4",
+	"target level" : "plains_woodkeep3",
+	"target object" : "obj16",
+},
+
+"compass infoblock " :  {
+
+	"u0" : 2,
+	"name" : "quest03_woodkeep",
+	"target level" : "plains_woodkeep3",
+	"target object" : "bossdoor",
+},
+
+"compass infoblock " :  {
+
+	"u0" : 2,
+	"name" : "quest04_village_elder2",
+	"target level" : "town_elderhouse",
+	"target object" : "trigger",
+	"u2" : 1,
+},
+
+"compass infoblock " :  {
+
+	"u0" : 4,
+	"name" : "d2_key0",
+	"target level" : "florennum_wall1",
+	"target object" : "obj9",
+},
+
+"compass infoblock " :  {
+
+	"u0" : 4,
+	"name" : "flor_key1",
+	"target level" : "florennum_towertop",
+	"target object" : "obj3",
+},
+
+"compass infoblock " :  {
+
+	"u0" : 4,
+	"name" : "tower2_key1",
+	"target level" : "florennum_tower2",
+	"target object" : "item_key_yellow1",
+},
+
+"compass infoblock " :  {
+
+	"u0" : 2,
+	"name" : "quest05_florennum",
+	"target level" : "florennum_jail_part1",
+	"target object" : "knight1",
+},
+
+"compass infoblock " :  {
+
+	"u0" : 4,
+	"name" : "f_jail_p2_key",
+	"target level" : "florennum_jail_part2",
+	"target object" : "obj19",
+},
+
+"compass infoblock " :  {
+
+	"u0" : 2,
+	"name" : "quest06_florennum_shard",
+	"target level" : "florennum_jail_boss",
+	"target object" : "focusArea",
+},
+
+"compass infoblock " :  {
+
+	"u0" : 2,
+	"name" : "quest07_go_to_king",
+	"target level" : "florennum_jail_part1",
+	"target object" : "quest07_script",
+	"u2" : 1,
+},
+
+"compass infoblock " :  {
+
+	"u0" : 4,
+	"name" : "key1",
+	"target level" : "fire_part1",
+	"target object" : "key1",
+},
+
+"compass infoblock " :  {
+
+	"u0" : 3,
+	"name" : "hookshot",
+	"target level" : "fire_part31",
+	"target object" : "spellget_script1",
+},
+
+"compass infoblock " :  {
+
+	"u0" : 4,
+	"name" : "firep5_key",
+	"target level" : "fire_part5",
+	"target object" : "firep5_key",
+},
+
+"compass infoblock " :  {
+
+	"u0" : 2,
+	"name" : "quest071_fire",
+	"target level" : "fire_partBoss",
+	"target object" : "fakeground1",
+},
+
+"compass infoblock " :  {
+
+	"u0" : 1,
+	"name" : "snowyboulder",
+	"target level" : "snowy_part1",
+	"target object" : "quest",
+	"u2" : 1,
+},
+
+"compass infoblock " :  {
+
+	"u0" : 2,
+	"name" : "snowyboulder",
+	"target level" : "snowy_cave2",
+	"target object" : "boss",
+	"u1" : "bouldergold",
+},
+
+"compass infoblock " :  {
+
+	"u0" : 4,
+	"name" : "snowy1_key1",
+	"target level" : "snowy_part1",
+	"target object" : "snowy1_key1",
+},
+
+"compass infoblock " :  {
+
+	"u0" : 4,
+	"name" : "icecastle_key1",
+	"target level" : "icecastle_part11",
+	"target object" : "obj1",
+},
+
+"compass infoblock " :  {
+
+	"u0" : 4,
+	"name" : "icekey2",
+	"target level" : "icecastle_part2",
+	"target object" : "obj7",
+},
+
+"compass infoblock " :  {
+
+	"u0" : 1,
+	"name" : "dimension",
+	"target level" : "icecastle_part5",
+	"target object" : "trigger1",
+},
+
+"compass infoblock " :  {
+
+	"u0" : 2,
+	"name" : "dimension",
+	"target level" : "icecastle_part5",
+	"target object" : "sign",
+	"u1" : "sign",
+},
+
+"compass infoblock " :  {
+
+	"u0" : 4,
+	"name" : "icecastle_bosskey",
+	"target level" : "icecastle_part4",
+	"target object" : "dragonkin",
+},
+
+"compass infoblock " :  {
+
+	"u0" : 2,
+	"name" : "quest072_ice",
+	"target level" : "icecastle_partBoss",
+	"target object" : "door",
+},
+
+"compass infoblock " :  {
+
+	"u0" : 2,
+	"name" : "quest09_assemble",
+	"target level" : "thecave_part15",
+	"target object" : "obj7#3",
+	"u2" : 1,
+},
+
+"compass infoblock " :  {
+
+	"u0" : 4,
+	"name" : "key11",
+	"target level" : "worldsend_part1",
+	"target object" : "item_key_yellow1",
+},
+
+"compass infoblock " :  {
+
+	"u0" : 4,
+	"name" : "key12",
+	"target level" : "worldsend_part1",
+	"target object" : "guard",
+},
+
+"compass infoblock " :  {
+
+	"u0" : 4,
+	"name" : "p3_key1",
+	"target level" : "worldsend_part3",
+	"target object" : "worldsend_p3_key1",
+
+	"waypointsub-block " :  {
+
+		"target level" : "worldsend_part1",
+		"target object" : "obj14#6",
+	},
+
+	"waypointsub-block " :  {
+
+		"target level" : "worldsend_part2",
+		"target object" : "obj14#8",
+	},
+},
+
+"compass infoblock " :  {
+
+	"u0" : 4,
+	"name" : "worldsendkey_part5",
+	"target level" : "worldsend_part5",
+	"target object" : "item_key_yellow1",
+
+	"waypointsub-block " :  {
+
+		"target level" : "worldsend_part1",
+		"target object" : "obj14#5",
+	},
+
+	"waypointsub-block " :  {
+
+		"target level" : "worldsend_part2",
+		"target object" : "obj14#7",
+	},
+},
+
+"compass infoblock " :  {
+
+	"u0" : 4,
+	"name" : "we_p8_key",
+	"target level" : "worldsend_part8",
+	"target object" : "item_key_yellow1",
+},
+
+"compass infoblock " :  {
+
+	"u0" : 2,
+	"name" : "quest10_death",
+	"target level" : "worldsend_part9",
+	"target object" : "dimArea1",
+},
+
+}

@@ -1,0 +1,5005 @@
+data = {
+"scl file name" : "snowy_stuff",
+
+"?itemblock " :  {
+
+
+	"?sub-itemsub-block " :  {
+
+		"name" : "ballofsnow",
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "CollisionShape",
+			"number" : 1,
+
+			"collision shapesub-sub-sub-block " :  {
+
+
+				"u1sub-sub-sub-sub-block " :  {
+
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"y" : 0.0,
+						"z" : 0.0,
+					},
+					"u1" : 67.0,
+				},
+			},
+
+			"collision shape 2sub-sub-sub-block " :  {
+
+				"u1" : 1,
+				"u3" : 1,
+				"w" : -15.0,
+				"x" : 15.0,
+
+				"lua chunksub-sub-sub-sub-block " :  {
+
+					"main chunk" : "chunk >
+
+					=== lua =============
+					local self, target, collisionNormal, groundCollision = ...;
+					
+					if groundCollision then
+						Camera.Rumble();
+					end
+					
+
+					=====================",
+					"secondary chunk" : "\\x1bLuaQ\\x00\\x01\\x04\\x04\\x04\\x08\\x00q\\x00\\x00\\x00local self, target, collisionNormal, groundCollision = ...;\\r\\n\\r\\nif groundCollision then\\r\\n\\tCamera.Rumble();\\r\\nend\\r\\n\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x02\\x05\\x07\\x00\\x00\\x00%\\x00\\x80\\x02\\xda\\x00\\x00\\x00\\x16\\x80\\x00\\x80\\x05\\x01\\x00\\x00\\x06A@\\x02\\x1cA\\x80\\x00\\x1e\\x00\\x80\\x00\\x02\\x00\\x00\\x00\\x04\\x07\\x00\\x00\\x00Camera\\x00\\x04\\x07\\x00\\x00\\x00Rumble\\x00\\x00\\x00\\x00\\x00\\x07\\x00\\x00\\x00\\x01\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x05\\x00\\x00\\x00self\\x00\\x01\\x00\\x00\\x00\\x06\\x00\\x00\\x00\\x07\\x00\\x00\\x00target\\x00\\x01\\x00\\x00\\x00\\x06\\x00\\x00\\x00\\x10\\x00\\x00\\x00collisionNormal\\x00\\x01\\x00\\x00\\x00\\x06\\x00\\x00\\x00\\x10\\x00\\x00\\x00groundCollision\\x00\\x01\\x00\\x00\\x00\\x06\\x00\\x00\\x00\\x00\\x00\\x00\\x00",
+				},
+				"z" : 1,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "TransformController",
+			"number" : 2,
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "PhysicsObject",
+			"number" : 3,
+
+			"physics objectsub-sub-sub-block " :  {
+
+				"u0" : 1,
+				"u3" : 0.0,
+				"u4" : 0.0,
+				"u5" : 325.0,
+				"u6" : 1,
+				"u7" : 0.30000001192092896,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "BreakableObject",
+			"number" : 4,
+
+			"breakable objectsub-sub-sub-block " :  {
+
+				"u0" : 0,
+				"u1" : 3,
+				"u2" : 0,
+				"u3" : "",
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Light",
+			"number" : 5,
+
+			"lightsub-sub-sub-block " :  {
+
+				"u0" : 3,
+				"u1" : 1.5,
+
+				"u2sub-sub-sub-sub-block " :  {
+
+					"w" : 0.5444444417953491,
+					"x" : 0.7555555701255798,
+					"y" : 1.0,
+					"z" : 1.0,
+				},
+				"u3" : 0.0,
+				"u4" : 0.00019999999494757503,
+
+				"u5sub-sub-sub-sub-block " :  {
+
+					"x" : 0.0,
+					"y" : 0.0,
+					"z" : 0.0,
+				},
+				"u6" : 200.0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "ParticleEmitter",
+			"number" : 6,
+
+			"particle emittersub-sub-sub-block " :  {
+
+				"particle" : 7,
+				"particle" : 8,
+				"particle" : 9,
+				"u1" : 0,
+				"u2" : 60,
+				"u3" : 0,
+				"u4" : 0,
+				"u6" : 0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Particle",
+			"number" : 7,
+
+			"particlesub-sub-sub-block " :  {
+
+				"name" : "particle_fure_1",
+				"u0" : 20.0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Particle",
+			"number" : 8,
+
+			"particlesub-sub-sub-block " :  {
+
+				"name" : "particle_fure_2",
+				"u0" : 23.0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Particle",
+			"number" : 9,
+
+			"particlesub-sub-sub-block " :  {
+
+				"name" : "particle_fure_3",
+				"u0" : 17.0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "FireEmitter",
+			"number" : 10,
+
+			"fire emittersub-sub-sub-block " :  {
+
+				"temp0" : 6,
+				"temp1" : 5,
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"w" : 0.7444444298744202,
+					"x" : 0.7355555295944214,
+					"y" : 0.7222222089767456,
+					"z" : 0.0,
+				},
+				"u1" : 0.019999999552965164,
+				"u2" : 0.30000001192092896,
+
+				"u3sub-sub-sub-sub-block " :  {
+
+					"x" : 35.0,
+					"y" : 35.0,
+					"z" : 35.0,
+				},
+
+				"u4sub-sub-sub-sub-block " :  {
+
+					"x" : 0.0,
+					"y" : 0.0,
+					"z" : 0.0,
+				},
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "SimpleGlow",
+			"number" : 11,
+
+			"simple glowsub-sub-sub-block " :  {
+
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"w" : 0.6222222447395325,
+					"x" : 0.7222222089767456,
+					"y" : 0.8888888955116272,
+					"z" : 0.5,
+				},
+				"u1" : 90.0,
+				"u2" : 10,
+				"u3" : 15.0,
+				"u4" : 0.0,
+				"u5" : 0.800000011920929,
+
+				"u6sub-sub-sub-sub-block " :  {
+
+					"y" : 0.0,
+					"z" : 0.0,
+				},
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Damage",
+			"number" : 12,
+
+			"damagesub-sub-sub-block " :  {
+
+				"u0" : 1,
+				"u1" : 0,
+				"u2" : 0,
+				"u5" : 1.0,
+				"u6" : 0.0,
+				"u7" : 0,
+				"u8" : 1,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Model",
+			"number" : 101,
+
+			"3D modelsub-sub-sub-block " :  {
+
+				"name" : "ballofsnow",
+				"u0" : 0.0,
+				"u1" : 1.0,
+				"u2" : 0.0,
+
+				"u3sub-sub-sub-sub-block " :  {
+
+					"w" : 0.7843137383460999,
+					"x" : 0.8117647171020508,
+					"y" : 0.9098039269447327,
+					"z" : 1.0,
+				},
+
+				"u4sub-sub-sub-sub-block " :  {
+
+					"x" : 0.0,
+					"y" : 0.0,
+					"z" : 0.0,
+				},
+				"u5" : 0,
+
+				"u6sub-sub-sub-sub-block " :  {
+
+					"w" : 1.0,
+					"x" : 1.0,
+					"y" : 1.0,
+					"z" : 1.0,
+				},
+			},
+		},
+
+		"positionsub-sub-block " :  {
+
+			"x position" : 0.0,
+			"y position" : 0.0,
+		},
+		"z position" : 0.0,
+		"rotation" : 0.0,
+		"scale" : 1.0,
+
+		"u0sub-sub-block " :  {
+
+			"w" : -90.0,
+			"x" : -90.0,
+			"y" : 180.0,
+			"z" : 180.0,
+		},
+		"hidden" : 0,
+
+		"lua chunksub-sub-block " :  {
+
+			"main chunk" : "chunk >
+
+			=== lua =============
+			self:setAlwaysActive(true);
+
+			=====================",
+			"secondary chunk" : "\\x1bLuaQ\\x00\\x01\\x04\\x04\\x04\\x08\\x00\\x1c\\x00\\x00\\x00self:setAlwaysActive(true);\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x02\\x03\\x05\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x0b@@\\x00\\x82\\x00\\x80\\x00\\x1c@\\x80\\x01\\x1e\\x00\\x80\\x00\\x02\\x00\\x00\\x00\\x04\\x05\\x00\\x00\\x00self\\x00\\x04\\x10\\x00\\x00\\x00setAlwaysActive\\x00\\x00\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x01\\x00\\x00\\x00\\x01\\x00\\x00\\x00\\x01\\x00\\x00\\x00\\x01\\x00\\x00\\x00\\x01\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00",
+		},
+	},
+	"u0" : 1.0,
+},
+
+"?itemblock " :  {
+
+
+	"?sub-itemsub-block " :  {
+
+		"name" : "ballofsnow_10s",
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "CollisionShape",
+			"number" : 1,
+
+			"collision shapesub-sub-sub-block " :  {
+
+
+				"u1sub-sub-sub-sub-block " :  {
+
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"y" : 0.0,
+						"z" : 0.0,
+					},
+					"u1" : 67.0,
+				},
+			},
+
+			"collision shape 2sub-sub-sub-block " :  {
+
+				"u1" : 1,
+				"u3" : 1,
+				"w" : -15.0,
+				"x" : 15.0,
+
+				"lua chunksub-sub-sub-sub-block " :  {
+
+					"main chunk" : "chunk >
+
+					=== lua =============
+					local self, target, collisionNormal, groundCollision = ...;
+					
+					if groundCollision then
+						Camera.Rumble();
+					end
+					
+
+					=====================",
+					"secondary chunk" : "\\x1bLuaQ\\x00\\x01\\x04\\x04\\x04\\x08\\x00q\\x00\\x00\\x00local self, target, collisionNormal, groundCollision = ...;\\r\\n\\r\\nif groundCollision then\\r\\n\\tCamera.Rumble();\\r\\nend\\r\\n\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x02\\x05\\x07\\x00\\x00\\x00%\\x00\\x80\\x02\\xda\\x00\\x00\\x00\\x16\\x80\\x00\\x80\\x05\\x01\\x00\\x00\\x06A@\\x02\\x1cA\\x80\\x00\\x1e\\x00\\x80\\x00\\x02\\x00\\x00\\x00\\x04\\x07\\x00\\x00\\x00Camera\\x00\\x04\\x07\\x00\\x00\\x00Rumble\\x00\\x00\\x00\\x00\\x00\\x07\\x00\\x00\\x00\\x01\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x05\\x00\\x00\\x00self\\x00\\x01\\x00\\x00\\x00\\x06\\x00\\x00\\x00\\x07\\x00\\x00\\x00target\\x00\\x01\\x00\\x00\\x00\\x06\\x00\\x00\\x00\\x10\\x00\\x00\\x00collisionNormal\\x00\\x01\\x00\\x00\\x00\\x06\\x00\\x00\\x00\\x10\\x00\\x00\\x00groundCollision\\x00\\x01\\x00\\x00\\x00\\x06\\x00\\x00\\x00\\x00\\x00\\x00\\x00",
+				},
+				"z" : 1,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "TransformController",
+			"number" : 2,
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "PhysicsObject",
+			"number" : 3,
+
+			"physics objectsub-sub-sub-block " :  {
+
+				"u0" : 1,
+				"u3" : 0.0,
+				"u4" : 0.0,
+				"u5" : 325.0,
+				"u6" : 1,
+				"u7" : 0.30000001192092896,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "BreakableObject",
+			"number" : 4,
+
+			"breakable objectsub-sub-sub-block " :  {
+
+				"u0" : 0,
+				"u1" : 3,
+				"u2" : 0,
+				"u3" : "",
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Light",
+			"number" : 5,
+
+			"lightsub-sub-sub-block " :  {
+
+				"u0" : 3,
+				"u1" : 1.5,
+
+				"u2sub-sub-sub-sub-block " :  {
+
+					"w" : 0.5444444417953491,
+					"x" : 0.7555555701255798,
+					"y" : 1.0,
+					"z" : 1.0,
+				},
+				"u3" : 0.0,
+				"u4" : 0.00019999999494757503,
+
+				"u5sub-sub-sub-sub-block " :  {
+
+					"x" : 0.0,
+					"y" : 0.0,
+					"z" : 0.0,
+				},
+				"u6" : 200.0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "ParticleEmitter",
+			"number" : 6,
+
+			"particle emittersub-sub-sub-block " :  {
+
+				"particle" : 7,
+				"particle" : 8,
+				"particle" : 9,
+				"u1" : 0,
+				"u2" : 60,
+				"u3" : 0,
+				"u4" : 0,
+				"u6" : 0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Particle",
+			"number" : 7,
+
+			"particlesub-sub-sub-block " :  {
+
+				"name" : "particle_fure_1",
+				"u0" : 20.0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Particle",
+			"number" : 8,
+
+			"particlesub-sub-sub-block " :  {
+
+				"name" : "particle_fure_2",
+				"u0" : 23.0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Particle",
+			"number" : 9,
+
+			"particlesub-sub-sub-block " :  {
+
+				"name" : "particle_fure_3",
+				"u0" : 17.0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "FireEmitter",
+			"number" : 10,
+
+			"fire emittersub-sub-sub-block " :  {
+
+				"temp0" : 6,
+				"temp1" : 5,
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"w" : 0.7444444298744202,
+					"x" : 0.7355555295944214,
+					"y" : 0.7222222089767456,
+					"z" : 0.0,
+				},
+				"u1" : 0.019999999552965164,
+				"u2" : 0.30000001192092896,
+
+				"u3sub-sub-sub-sub-block " :  {
+
+					"x" : 35.0,
+					"y" : 35.0,
+					"z" : 35.0,
+				},
+
+				"u4sub-sub-sub-sub-block " :  {
+
+					"x" : 0.0,
+					"y" : 0.0,
+					"z" : 0.0,
+				},
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "SimpleGlow",
+			"number" : 11,
+
+			"simple glowsub-sub-sub-block " :  {
+
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"w" : 0.6222222447395325,
+					"x" : 0.7222222089767456,
+					"y" : 0.8888888955116272,
+					"z" : 0.5,
+				},
+				"u1" : 90.0,
+				"u2" : 10,
+				"u3" : 15.0,
+				"u4" : 0.0,
+				"u5" : 0.800000011920929,
+
+				"u6sub-sub-sub-sub-block " :  {
+
+					"y" : 0.0,
+					"z" : 0.0,
+				},
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Damage",
+			"number" : 12,
+
+			"damagesub-sub-sub-block " :  {
+
+				"u0" : 1,
+				"u1" : 0,
+				"u2" : 0,
+				"u5" : 1.0,
+				"u6" : 0.0,
+				"u7" : 0,
+				"u8" : 1,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Model",
+			"number" : 101,
+
+			"3D modelsub-sub-sub-block " :  {
+
+				"name" : "ballofsnow",
+				"u0" : 0.0,
+				"u1" : 1.0,
+				"u2" : 0.0,
+
+				"u3sub-sub-sub-sub-block " :  {
+
+					"w" : 0.7843137383460999,
+					"x" : 0.8117647171020508,
+					"y" : 0.9098039269447327,
+					"z" : 1.0,
+				},
+
+				"u4sub-sub-sub-sub-block " :  {
+
+					"x" : 0.0,
+					"y" : 0.0,
+					"z" : 0.0,
+				},
+				"u5" : 0,
+
+				"u6sub-sub-sub-sub-block " :  {
+
+					"w" : 1.0,
+					"x" : 1.0,
+					"y" : 1.0,
+					"z" : 1.0,
+				},
+			},
+		},
+
+		"positionsub-sub-block " :  {
+
+			"x position" : 0.0,
+			"y position" : 0.0,
+		},
+		"z position" : 0.0,
+		"rotation" : 0.0,
+		"scale" : 1.0,
+
+		"u0sub-sub-block " :  {
+
+			"w" : -90.0,
+			"x" : -90.0,
+			"y" : 180.0,
+			"z" : 180.0,
+		},
+		"hidden" : 0,
+
+		"lua chunksub-sub-block " :  {
+
+			"main chunk" : "chunk >
+
+			=== lua =============
+			local self = ...;
+			self:setAlwaysActive(true);
+			Program.Wait(10);
+			self:destroy();
+			Scene.CreateObject(\"blast\", \"bbb\", self);
+			Scene.CreateObject(\"snowyblast\", \"bb\", self);
+
+			=====================",
+			"secondary chunk" : "\\x1bLuaQ\\x00\\x01\\x04\\x04\\x04\\x08\\x00\\xad\\x00\\x00\\x00local self = ...;\\r\\nself:setAlwaysActive(true);\\r\\nProgram.Wait(10);\\r\\nself:destroy();\\r\\nScene.CreateObject(\"blast\", \"bbb\", self);\\r\\nScene.CreateObject(\"snowyblast\", \"bb\", self);\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x02\\x05\\x17\\x00\\x00\\x00%\\x00\\x00\\x01K\\x00@\\x00\\xc2\\x00\\x80\\x00\\\\@\\x80\\x01E@\\x00\\x00F\\x80\\xc0\\x00\\x81\\xc0\\x00\\x00\\\\@\\x00\\x01K\\x00A\\x00\\\\@\\x00\\x01E@\\x01\\x00F\\x80\\xc1\\x00\\x81\\xc0\\x01\\x00\\xc1\\x00\\x02\\x00\\x00\\x01\\x00\\x00\\\\@\\x00\\x02E@\\x01\\x00F\\x80\\xc1\\x00\\x81@\\x02\\x00\\xc1\\x80\\x02\\x00\\x00\\x01\\x00\\x00\\\\@\\x00\\x02\\x1e\\x00\\x80\\x00\\x0b\\x00\\x00\\x00\\x04\\x10\\x00\\x00\\x00setAlwaysActive\\x00\\x04\\x08\\x00\\x00\\x00Program\\x00\\x04\\x05\\x00\\x00\\x00Wait\\x00\\x03\\x00\\x00\\x00\\x00\\x00\\x00$@\\x04\\x08\\x00\\x00\\x00destroy\\x00\\x04\\x06\\x00\\x00\\x00Scene\\x00\\x04\\r\\x00\\x00\\x00CreateObject\\x00\\x04\\x06\\x00\\x00\\x00blast\\x00\\x04\\x04\\x00\\x00\\x00bbb\\x00\\x04\\x0b\\x00\\x00\\x00snowyblast\\x00\\x04\\x03\\x00\\x00\\x00bb\\x00\\x00\\x00\\x00\\x00\\x17\\x00\\x00\\x00\\x01\\x00\\x00\\x00\\x02\\x00\\x00\\x00\\x02\\x00\\x00\\x00\\x02\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x06\\x00\\x00\\x00\\x06\\x00\\x00\\x00\\x06\\x00\\x00\\x00\\x06\\x00\\x00\\x00\\x06\\x00\\x00\\x00\\x06\\x00\\x00\\x00\\x06\\x00\\x00\\x00\\x01\\x00\\x00\\x00\\x05\\x00\\x00\\x00self\\x00\\x01\\x00\\x00\\x00\\x16\\x00\\x00\\x00\\x00\\x00\\x00\\x00",
+		},
+	},
+	"u0" : 1.0,
+},
+
+"?itemblock " :  {
+
+
+	"?sub-itemsub-block " :  {
+
+		"name" : "ballofsnow_20s_1000_07",
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "CollisionShape",
+			"number" : 1,
+
+			"collision shapesub-sub-sub-block " :  {
+
+
+				"u1sub-sub-sub-sub-block " :  {
+
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"y" : 0.0,
+						"z" : 0.0,
+					},
+					"u1" : 67.0,
+				},
+			},
+
+			"collision shape 2sub-sub-sub-block " :  {
+
+				"u1" : 1,
+				"u3" : 1,
+				"w" : -15.0,
+				"x" : 15.0,
+
+				"lua chunksub-sub-sub-sub-block " :  {
+
+					"main chunk" : "chunk >
+
+					=== lua =============
+					local self, target, collisionNormal, groundCollision = ...;
+					
+					if groundCollision then
+						Camera.Rumble();
+					end
+					
+
+					=====================",
+					"secondary chunk" : "\\x1bLuaQ\\x00\\x01\\x04\\x04\\x04\\x08\\x00q\\x00\\x00\\x00local self, target, collisionNormal, groundCollision = ...;\\r\\n\\r\\nif groundCollision then\\r\\n\\tCamera.Rumble();\\r\\nend\\r\\n\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x02\\x05\\x07\\x00\\x00\\x00%\\x00\\x80\\x02\\xda\\x00\\x00\\x00\\x16\\x80\\x00\\x80\\x05\\x01\\x00\\x00\\x06A@\\x02\\x1cA\\x80\\x00\\x1e\\x00\\x80\\x00\\x02\\x00\\x00\\x00\\x04\\x07\\x00\\x00\\x00Camera\\x00\\x04\\x07\\x00\\x00\\x00Rumble\\x00\\x00\\x00\\x00\\x00\\x07\\x00\\x00\\x00\\x01\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x05\\x00\\x00\\x00self\\x00\\x01\\x00\\x00\\x00\\x06\\x00\\x00\\x00\\x07\\x00\\x00\\x00target\\x00\\x01\\x00\\x00\\x00\\x06\\x00\\x00\\x00\\x10\\x00\\x00\\x00collisionNormal\\x00\\x01\\x00\\x00\\x00\\x06\\x00\\x00\\x00\\x10\\x00\\x00\\x00groundCollision\\x00\\x01\\x00\\x00\\x00\\x06\\x00\\x00\\x00\\x00\\x00\\x00\\x00",
+				},
+				"z" : 1,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "TransformController",
+			"number" : 2,
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "PhysicsObject",
+			"number" : 3,
+
+			"physics objectsub-sub-sub-block " :  {
+
+				"u0" : 1,
+				"u3" : 0.0,
+				"u4" : 0.0,
+				"u5" : 500.0,
+				"u6" : 1,
+				"u7" : 0.30000001192092896,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "BreakableObject",
+			"number" : 4,
+
+			"breakable objectsub-sub-sub-block " :  {
+
+				"u0" : 0,
+				"u1" : 3,
+				"u2" : 0,
+				"u3" : "",
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Light",
+			"number" : 5,
+
+			"lightsub-sub-sub-block " :  {
+
+				"u0" : 3,
+				"u1" : 1.5,
+
+				"u2sub-sub-sub-sub-block " :  {
+
+					"w" : 0.5444444417953491,
+					"x" : 0.7555555701255798,
+					"y" : 1.0,
+					"z" : 1.0,
+				},
+				"u3" : 0.0,
+				"u4" : 0.00019999999494757503,
+
+				"u5sub-sub-sub-sub-block " :  {
+
+					"x" : 0.0,
+					"y" : 0.0,
+					"z" : 0.0,
+				},
+				"u6" : 200.0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "ParticleEmitter",
+			"number" : 6,
+
+			"particle emittersub-sub-sub-block " :  {
+
+				"particle" : 7,
+				"particle" : 8,
+				"particle" : 9,
+				"u1" : 0,
+				"u2" : 60,
+				"u3" : 0,
+				"u4" : 0,
+				"u6" : 0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Particle",
+			"number" : 7,
+
+			"particlesub-sub-sub-block " :  {
+
+				"name" : "particle_fure_1",
+				"u0" : 20.0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Particle",
+			"number" : 8,
+
+			"particlesub-sub-sub-block " :  {
+
+				"name" : "particle_fure_2",
+				"u0" : 23.0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Particle",
+			"number" : 9,
+
+			"particlesub-sub-sub-block " :  {
+
+				"name" : "particle_fure_3",
+				"u0" : 17.0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "FireEmitter",
+			"number" : 10,
+
+			"fire emittersub-sub-sub-block " :  {
+
+				"temp0" : 6,
+				"temp1" : 5,
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"w" : 0.7444444298744202,
+					"x" : 0.7355555295944214,
+					"y" : 0.7222222089767456,
+					"z" : 0.0,
+				},
+				"u1" : 0.019999999552965164,
+				"u2" : 0.30000001192092896,
+
+				"u3sub-sub-sub-sub-block " :  {
+
+					"x" : 35.0,
+					"y" : 35.0,
+					"z" : 35.0,
+				},
+
+				"u4sub-sub-sub-sub-block " :  {
+
+					"x" : 0.0,
+					"y" : 0.0,
+					"z" : 0.0,
+				},
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "SimpleGlow",
+			"number" : 11,
+
+			"simple glowsub-sub-sub-block " :  {
+
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"w" : 0.6222222447395325,
+					"x" : 0.7222222089767456,
+					"y" : 0.8888888955116272,
+					"z" : 0.5,
+				},
+				"u1" : 90.0,
+				"u2" : 10,
+				"u3" : 15.0,
+				"u4" : 0.0,
+				"u5" : 0.800000011920929,
+
+				"u6sub-sub-sub-sub-block " :  {
+
+					"y" : 0.0,
+					"z" : 0.0,
+				},
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Damage",
+			"number" : 12,
+
+			"damagesub-sub-sub-block " :  {
+
+				"u0" : 1,
+				"u1" : 0,
+				"u2" : 0,
+				"u5" : 1.0,
+				"u6" : 0.0,
+				"u7" : 0,
+				"u8" : 1,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Model",
+			"number" : 101,
+
+			"3D modelsub-sub-sub-block " :  {
+
+				"name" : "ballofsnow",
+				"u0" : 0.0,
+				"u1" : 1.0,
+				"u2" : 0.0,
+
+				"u3sub-sub-sub-sub-block " :  {
+
+					"w" : 0.7843137383460999,
+					"x" : 0.8117647171020508,
+					"y" : 0.9098039269447327,
+					"z" : 1.0,
+				},
+
+				"u4sub-sub-sub-sub-block " :  {
+
+					"x" : 0.0,
+					"y" : 0.0,
+					"z" : 0.0,
+				},
+				"u5" : 0,
+
+				"u6sub-sub-sub-sub-block " :  {
+
+					"w" : 1.0,
+					"x" : 1.0,
+					"y" : 1.0,
+					"z" : 1.0,
+				},
+			},
+		},
+
+		"positionsub-sub-block " :  {
+
+			"x position" : 0.0,
+			"y position" : 0.0,
+		},
+		"z position" : 0.0,
+		"rotation" : 0.0,
+		"scale" : 1.0,
+
+		"u0sub-sub-block " :  {
+
+			"w" : -90.0,
+			"x" : -90.0,
+			"y" : 180.0,
+			"z" : 180.0,
+		},
+		"hidden" : 0,
+
+		"lua chunksub-sub-block " :  {
+
+			"main chunk" : "chunk >
+
+			=== lua =============
+			local self = ...;
+			
+			self:setAlwaysActive(true);
+			
+			TransformController.ScaleTo(self, 0.7, 0);
+			
+			Program.Wait(20);
+			
+			self:destroy();
+			Scene.CreateObject(\"blast\", \"bbb\", self);
+			Scene.CreateObject(\"snowyblast\", \"bb\", self);
+			
+
+			=====================",
+			"secondary chunk" : "\\x1bLuaQ\\x00\\x01\\x04\\x04\\x04\\x08\\x00\\xe3\\x00\\x00\\x00local self = ...;\\r\\n\\r\\nself:setAlwaysActive(true);\\r\\n\\r\\nTransformController.ScaleTo(self, 0.7, 0);\\r\\n\\r\\nProgram.Wait(20);\\r\\n\\r\\nself:destroy();\\r\\nScene.CreateObject(\"blast\", \"bbb\", self);\\r\\nScene.CreateObject(\"snowyblast\", \"bb\", self);\\r\\n\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x02\\x05\\x1d\\x00\\x00\\x00%\\x00\\x00\\x01K\\x00@\\x00\\xc2\\x00\\x80\\x00\\\\@\\x80\\x01E@\\x00\\x00F\\x80\\xc0\\x00\\x80\\x00\\x00\\x00\\xc1\\xc0\\x00\\x00\\x01\\x01\\x01\\x00\\\\@\\x00\\x02E@\\x01\\x00F\\x80\\xc1\\x00\\x81\\xc0\\x01\\x00\\\\@\\x00\\x01K\\x00B\\x00\\\\@\\x00\\x01E@\\x02\\x00F\\x80\\xc2\\x00\\x81\\xc0\\x02\\x00\\xc1\\x00\\x03\\x00\\x00\\x01\\x00\\x00\\\\@\\x00\\x02E@\\x02\\x00F\\x80\\xc2\\x00\\x81@\\x03\\x00\\xc1\\x80\\x03\\x00\\x00\\x01\\x00\\x00\\\\@\\x00\\x02\\x1e\\x00\\x80\\x00\\x0f\\x00\\x00\\x00\\x04\\x10\\x00\\x00\\x00setAlwaysActive\\x00\\x04\\x14\\x00\\x00\\x00TransformController\\x00\\x04\\x08\\x00\\x00\\x00ScaleTo\\x00\\x03ffffff\\xe6?\\x03\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x04\\x08\\x00\\x00\\x00Program\\x00\\x04\\x05\\x00\\x00\\x00Wait\\x00\\x03\\x00\\x00\\x00\\x00\\x00\\x004@\\x04\\x08\\x00\\x00\\x00destroy\\x00\\x04\\x06\\x00\\x00\\x00Scene\\x00\\x04\\r\\x00\\x00\\x00CreateObject\\x00\\x04\\x06\\x00\\x00\\x00blast\\x00\\x04\\x04\\x00\\x00\\x00bbb\\x00\\x04\\x0b\\x00\\x00\\x00snowyblast\\x00\\x04\\x03\\x00\\x00\\x00bb\\x00\\x00\\x00\\x00\\x00\\x1d\\x00\\x00\\x00\\x01\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x07\\x00\\x00\\x00\\x07\\x00\\x00\\x00\\x07\\x00\\x00\\x00\\x07\\x00\\x00\\x00\\t\\x00\\x00\\x00\\t\\x00\\x00\\x00\\n\\x00\\x00\\x00\\n\\x00\\x00\\x00\\n\\x00\\x00\\x00\\n\\x00\\x00\\x00\\n\\x00\\x00\\x00\\n\\x00\\x00\\x00\\x0b\\x00\\x00\\x00\\x0b\\x00\\x00\\x00\\x0b\\x00\\x00\\x00\\x0b\\x00\\x00\\x00\\x0b\\x00\\x00\\x00\\x0b\\x00\\x00\\x00\\x0b\\x00\\x00\\x00\\x01\\x00\\x00\\x00\\x05\\x00\\x00\\x00self\\x00\\x01\\x00\\x00\\x00\\x1c\\x00\\x00\\x00\\x00\\x00\\x00\\x00",
+		},
+	},
+	"u0" : 1.0,
+},
+
+"?itemblock " :  {
+
+
+	"?sub-itemsub-block " :  {
+
+		"name" : "ballofsnow_20s_1500",
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "CollisionShape",
+			"number" : 1,
+
+			"collision shapesub-sub-sub-block " :  {
+
+
+				"u1sub-sub-sub-sub-block " :  {
+
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"y" : 0.0,
+						"z" : 0.0,
+					},
+					"u1" : 67.0,
+				},
+			},
+
+			"collision shape 2sub-sub-sub-block " :  {
+
+				"u1" : 1,
+				"u3" : 1,
+				"w" : -15.0,
+				"x" : 15.0,
+
+				"lua chunksub-sub-sub-sub-block " :  {
+
+					"main chunk" : "chunk >
+
+					=== lua =============
+					local self, target, collisionNormal, groundCollision = ...;
+					
+					if groundCollision then
+						Camera.Rumble();
+					end
+					
+
+					=====================",
+					"secondary chunk" : "\\x1bLuaQ\\x00\\x01\\x04\\x04\\x04\\x08\\x00q\\x00\\x00\\x00local self, target, collisionNormal, groundCollision = ...;\\r\\n\\r\\nif groundCollision then\\r\\n\\tCamera.Rumble();\\r\\nend\\r\\n\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x02\\x05\\x07\\x00\\x00\\x00%\\x00\\x80\\x02\\xda\\x00\\x00\\x00\\x16\\x80\\x00\\x80\\x05\\x01\\x00\\x00\\x06A@\\x02\\x1cA\\x80\\x00\\x1e\\x00\\x80\\x00\\x02\\x00\\x00\\x00\\x04\\x07\\x00\\x00\\x00Camera\\x00\\x04\\x07\\x00\\x00\\x00Rumble\\x00\\x00\\x00\\x00\\x00\\x07\\x00\\x00\\x00\\x01\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x05\\x00\\x00\\x00self\\x00\\x01\\x00\\x00\\x00\\x06\\x00\\x00\\x00\\x07\\x00\\x00\\x00target\\x00\\x01\\x00\\x00\\x00\\x06\\x00\\x00\\x00\\x10\\x00\\x00\\x00collisionNormal\\x00\\x01\\x00\\x00\\x00\\x06\\x00\\x00\\x00\\x10\\x00\\x00\\x00groundCollision\\x00\\x01\\x00\\x00\\x00\\x06\\x00\\x00\\x00\\x00\\x00\\x00\\x00",
+				},
+				"z" : 1,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "TransformController",
+			"number" : 2,
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "PhysicsObject",
+			"number" : 3,
+
+			"physics objectsub-sub-sub-block " :  {
+
+				"u0" : 1,
+				"u3" : 0.0,
+				"u4" : 0.0,
+				"u5" : 1500.0,
+				"u6" : 1,
+				"u7" : 0.30000001192092896,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "BreakableObject",
+			"number" : 4,
+
+			"breakable objectsub-sub-sub-block " :  {
+
+				"u0" : 0,
+				"u1" : 3,
+				"u2" : 0,
+				"u3" : "",
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Light",
+			"number" : 5,
+
+			"lightsub-sub-sub-block " :  {
+
+				"u0" : 3,
+				"u1" : 1.5,
+
+				"u2sub-sub-sub-sub-block " :  {
+
+					"w" : 0.5444444417953491,
+					"x" : 0.7555555701255798,
+					"y" : 1.0,
+					"z" : 1.0,
+				},
+				"u3" : 0.0,
+				"u4" : 0.00019999999494757503,
+
+				"u5sub-sub-sub-sub-block " :  {
+
+					"x" : 0.0,
+					"y" : 0.0,
+					"z" : 0.0,
+				},
+				"u6" : 200.0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "ParticleEmitter",
+			"number" : 6,
+
+			"particle emittersub-sub-sub-block " :  {
+
+				"particle" : 7,
+				"particle" : 8,
+				"particle" : 9,
+				"u1" : 0,
+				"u2" : 60,
+				"u3" : 0,
+				"u4" : 0,
+				"u6" : 0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Particle",
+			"number" : 7,
+
+			"particlesub-sub-sub-block " :  {
+
+				"name" : "particle_fure_1",
+				"u0" : 20.0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Particle",
+			"number" : 8,
+
+			"particlesub-sub-sub-block " :  {
+
+				"name" : "particle_fure_2",
+				"u0" : 23.0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Particle",
+			"number" : 9,
+
+			"particlesub-sub-sub-block " :  {
+
+				"name" : "particle_fure_3",
+				"u0" : 17.0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "FireEmitter",
+			"number" : 10,
+
+			"fire emittersub-sub-sub-block " :  {
+
+				"temp0" : 6,
+				"temp1" : 5,
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"w" : 0.7444444298744202,
+					"x" : 0.7355555295944214,
+					"y" : 0.7222222089767456,
+					"z" : 0.0,
+				},
+				"u1" : 0.019999999552965164,
+				"u2" : 0.30000001192092896,
+
+				"u3sub-sub-sub-sub-block " :  {
+
+					"x" : 35.0,
+					"y" : 35.0,
+					"z" : 35.0,
+				},
+
+				"u4sub-sub-sub-sub-block " :  {
+
+					"x" : 0.0,
+					"y" : 0.0,
+					"z" : 0.0,
+				},
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "SimpleGlow",
+			"number" : 11,
+
+			"simple glowsub-sub-sub-block " :  {
+
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"w" : 0.6222222447395325,
+					"x" : 0.7222222089767456,
+					"y" : 0.8888888955116272,
+					"z" : 0.5,
+				},
+				"u1" : 90.0,
+				"u2" : 10,
+				"u3" : 15.0,
+				"u4" : 0.0,
+				"u5" : 0.800000011920929,
+
+				"u6sub-sub-sub-sub-block " :  {
+
+					"y" : 0.0,
+					"z" : 0.0,
+				},
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Damage",
+			"number" : 12,
+
+			"damagesub-sub-sub-block " :  {
+
+				"u0" : 1,
+				"u1" : 0,
+				"u2" : 0,
+				"u5" : 1.0,
+				"u6" : 0.0,
+				"u7" : 0,
+				"u8" : 1,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Model",
+			"number" : 101,
+
+			"3D modelsub-sub-sub-block " :  {
+
+				"name" : "ballofsnow",
+				"u0" : 0.0,
+				"u1" : 1.0,
+				"u2" : 0.0,
+
+				"u3sub-sub-sub-sub-block " :  {
+
+					"w" : 0.7843137383460999,
+					"x" : 0.8117647171020508,
+					"y" : 0.9098039269447327,
+					"z" : 1.0,
+				},
+
+				"u4sub-sub-sub-sub-block " :  {
+
+					"x" : 0.0,
+					"y" : 0.0,
+					"z" : 0.0,
+				},
+				"u5" : 0,
+
+				"u6sub-sub-sub-sub-block " :  {
+
+					"w" : 1.0,
+					"x" : 1.0,
+					"y" : 1.0,
+					"z" : 1.0,
+				},
+			},
+		},
+
+		"positionsub-sub-block " :  {
+
+			"x position" : 0.0,
+			"y position" : 0.0,
+		},
+		"z position" : 0.0,
+		"rotation" : 0.0,
+		"scale" : 1.0,
+
+		"u0sub-sub-block " :  {
+
+			"w" : -90.0,
+			"x" : -90.0,
+			"y" : 180.0,
+			"z" : 180.0,
+		},
+		"hidden" : 0,
+
+		"lua chunksub-sub-block " :  {
+
+			"main chunk" : "chunk >
+
+			=== lua =============
+			local self = ...;
+			self:setAlwaysActive(true);
+			Program.Wait(20);
+			self:destroy();
+			Scene.CreateObject(\"blast\", \"bbb\", self);
+			Scene.CreateObject(\"snowyblast\", \"bb\", self);
+
+			=====================",
+			"secondary chunk" : "\\x1bLuaQ\\x00\\x01\\x04\\x04\\x04\\x08\\x00\\xad\\x00\\x00\\x00local self = ...;\\r\\nself:setAlwaysActive(true);\\r\\nProgram.Wait(20);\\r\\nself:destroy();\\r\\nScene.CreateObject(\"blast\", \"bbb\", self);\\r\\nScene.CreateObject(\"snowyblast\", \"bb\", self);\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x02\\x05\\x17\\x00\\x00\\x00%\\x00\\x00\\x01K\\x00@\\x00\\xc2\\x00\\x80\\x00\\\\@\\x80\\x01E@\\x00\\x00F\\x80\\xc0\\x00\\x81\\xc0\\x00\\x00\\\\@\\x00\\x01K\\x00A\\x00\\\\@\\x00\\x01E@\\x01\\x00F\\x80\\xc1\\x00\\x81\\xc0\\x01\\x00\\xc1\\x00\\x02\\x00\\x00\\x01\\x00\\x00\\\\@\\x00\\x02E@\\x01\\x00F\\x80\\xc1\\x00\\x81@\\x02\\x00\\xc1\\x80\\x02\\x00\\x00\\x01\\x00\\x00\\\\@\\x00\\x02\\x1e\\x00\\x80\\x00\\x0b\\x00\\x00\\x00\\x04\\x10\\x00\\x00\\x00setAlwaysActive\\x00\\x04\\x08\\x00\\x00\\x00Program\\x00\\x04\\x05\\x00\\x00\\x00Wait\\x00\\x03\\x00\\x00\\x00\\x00\\x00\\x004@\\x04\\x08\\x00\\x00\\x00destroy\\x00\\x04\\x06\\x00\\x00\\x00Scene\\x00\\x04\\r\\x00\\x00\\x00CreateObject\\x00\\x04\\x06\\x00\\x00\\x00blast\\x00\\x04\\x04\\x00\\x00\\x00bbb\\x00\\x04\\x0b\\x00\\x00\\x00snowyblast\\x00\\x04\\x03\\x00\\x00\\x00bb\\x00\\x00\\x00\\x00\\x00\\x17\\x00\\x00\\x00\\x01\\x00\\x00\\x00\\x02\\x00\\x00\\x00\\x02\\x00\\x00\\x00\\x02\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x06\\x00\\x00\\x00\\x06\\x00\\x00\\x00\\x06\\x00\\x00\\x00\\x06\\x00\\x00\\x00\\x06\\x00\\x00\\x00\\x06\\x00\\x00\\x00\\x06\\x00\\x00\\x00\\x01\\x00\\x00\\x00\\x05\\x00\\x00\\x00self\\x00\\x01\\x00\\x00\\x00\\x16\\x00\\x00\\x00\\x00\\x00\\x00\\x00",
+		},
+	},
+	"u0" : 1.0,
+},
+
+"?itemblock " :  {
+
+
+	"?sub-itemsub-block " :  {
+
+		"name" : "ballofsnow_5s",
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "CollisionShape",
+			"number" : 1,
+
+			"collision shapesub-sub-sub-block " :  {
+
+
+				"u1sub-sub-sub-sub-block " :  {
+
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"y" : 0.0,
+						"z" : 0.0,
+					},
+					"u1" : 67.0,
+				},
+			},
+
+			"collision shape 2sub-sub-sub-block " :  {
+
+				"u1" : 1,
+				"u3" : 1,
+				"w" : -15.0,
+				"x" : 15.0,
+
+				"lua chunksub-sub-sub-sub-block " :  {
+
+					"main chunk" : "chunk >
+
+					=== lua =============
+					local self, target, collisionNormal, groundCollision = ...;
+					
+					if groundCollision then
+						Camera.Rumble();
+					end
+					
+
+					=====================",
+					"secondary chunk" : "\\x1bLuaQ\\x00\\x01\\x04\\x04\\x04\\x08\\x00q\\x00\\x00\\x00local self, target, collisionNormal, groundCollision = ...;\\r\\n\\r\\nif groundCollision then\\r\\n\\tCamera.Rumble();\\r\\nend\\r\\n\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x02\\x05\\x07\\x00\\x00\\x00%\\x00\\x80\\x02\\xda\\x00\\x00\\x00\\x16\\x80\\x00\\x80\\x05\\x01\\x00\\x00\\x06A@\\x02\\x1cA\\x80\\x00\\x1e\\x00\\x80\\x00\\x02\\x00\\x00\\x00\\x04\\x07\\x00\\x00\\x00Camera\\x00\\x04\\x07\\x00\\x00\\x00Rumble\\x00\\x00\\x00\\x00\\x00\\x07\\x00\\x00\\x00\\x01\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x05\\x00\\x00\\x00self\\x00\\x01\\x00\\x00\\x00\\x06\\x00\\x00\\x00\\x07\\x00\\x00\\x00target\\x00\\x01\\x00\\x00\\x00\\x06\\x00\\x00\\x00\\x10\\x00\\x00\\x00collisionNormal\\x00\\x01\\x00\\x00\\x00\\x06\\x00\\x00\\x00\\x10\\x00\\x00\\x00groundCollision\\x00\\x01\\x00\\x00\\x00\\x06\\x00\\x00\\x00\\x00\\x00\\x00\\x00",
+				},
+				"z" : 1,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "TransformController",
+			"number" : 2,
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "PhysicsObject",
+			"number" : 3,
+
+			"physics objectsub-sub-sub-block " :  {
+
+				"u0" : 1,
+				"u3" : 0.0,
+				"u4" : 0.0,
+				"u5" : 325.0,
+				"u6" : 1,
+				"u7" : 0.30000001192092896,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "BreakableObject",
+			"number" : 4,
+
+			"breakable objectsub-sub-sub-block " :  {
+
+				"u0" : 0,
+				"u1" : 3,
+				"u2" : 0,
+				"u3" : "",
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Light",
+			"number" : 5,
+
+			"lightsub-sub-sub-block " :  {
+
+				"u0" : 3,
+				"u1" : 1.5,
+
+				"u2sub-sub-sub-sub-block " :  {
+
+					"w" : 0.5444444417953491,
+					"x" : 0.7555555701255798,
+					"y" : 1.0,
+					"z" : 1.0,
+				},
+				"u3" : 0.0,
+				"u4" : 0.00019999999494757503,
+
+				"u5sub-sub-sub-sub-block " :  {
+
+					"x" : 0.0,
+					"y" : 0.0,
+					"z" : 0.0,
+				},
+				"u6" : 200.0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "ParticleEmitter",
+			"number" : 6,
+
+			"particle emittersub-sub-sub-block " :  {
+
+				"particle" : 7,
+				"particle" : 8,
+				"particle" : 9,
+				"u1" : 0,
+				"u2" : 60,
+				"u3" : 0,
+				"u4" : 0,
+				"u6" : 0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Particle",
+			"number" : 7,
+
+			"particlesub-sub-sub-block " :  {
+
+				"name" : "particle_fure_1",
+				"u0" : 20.0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Particle",
+			"number" : 8,
+
+			"particlesub-sub-sub-block " :  {
+
+				"name" : "particle_fure_2",
+				"u0" : 23.0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Particle",
+			"number" : 9,
+
+			"particlesub-sub-sub-block " :  {
+
+				"name" : "particle_fure_3",
+				"u0" : 17.0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "FireEmitter",
+			"number" : 10,
+
+			"fire emittersub-sub-sub-block " :  {
+
+				"temp0" : 6,
+				"temp1" : 5,
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"w" : 0.7444444298744202,
+					"x" : 0.7355555295944214,
+					"y" : 0.7222222089767456,
+					"z" : 0.0,
+				},
+				"u1" : 0.019999999552965164,
+				"u2" : 0.30000001192092896,
+
+				"u3sub-sub-sub-sub-block " :  {
+
+					"x" : 35.0,
+					"y" : 35.0,
+					"z" : 35.0,
+				},
+
+				"u4sub-sub-sub-sub-block " :  {
+
+					"x" : 0.0,
+					"y" : 0.0,
+					"z" : 0.0,
+				},
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "SimpleGlow",
+			"number" : 11,
+
+			"simple glowsub-sub-sub-block " :  {
+
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"w" : 0.6222222447395325,
+					"x" : 0.7222222089767456,
+					"y" : 0.8888888955116272,
+					"z" : 0.5,
+				},
+				"u1" : 90.0,
+				"u2" : 10,
+				"u3" : 15.0,
+				"u4" : 0.0,
+				"u5" : 0.800000011920929,
+
+				"u6sub-sub-sub-sub-block " :  {
+
+					"y" : 0.0,
+					"z" : 0.0,
+				},
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Damage",
+			"number" : 12,
+
+			"damagesub-sub-sub-block " :  {
+
+				"u0" : 1,
+				"u1" : 0,
+				"u2" : 0,
+				"u5" : 1.0,
+				"u6" : 0.0,
+				"u7" : 0,
+				"u8" : 1,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Model",
+			"number" : 101,
+
+			"3D modelsub-sub-sub-block " :  {
+
+				"name" : "ballofsnow",
+				"u0" : 0.0,
+				"u1" : 1.0,
+				"u2" : 0.0,
+
+				"u3sub-sub-sub-sub-block " :  {
+
+					"w" : 0.7843137383460999,
+					"x" : 0.8117647171020508,
+					"y" : 0.9098039269447327,
+					"z" : 1.0,
+				},
+
+				"u4sub-sub-sub-sub-block " :  {
+
+					"x" : 0.0,
+					"y" : 0.0,
+					"z" : 0.0,
+				},
+				"u5" : 0,
+
+				"u6sub-sub-sub-sub-block " :  {
+
+					"w" : 1.0,
+					"x" : 1.0,
+					"y" : 1.0,
+					"z" : 1.0,
+				},
+			},
+		},
+
+		"positionsub-sub-block " :  {
+
+			"x position" : 0.0,
+			"y position" : 0.0,
+		},
+		"z position" : 0.0,
+		"rotation" : 0.0,
+		"scale" : 1.0,
+
+		"u0sub-sub-block " :  {
+
+			"w" : -90.0,
+			"x" : -90.0,
+			"y" : 180.0,
+			"z" : 180.0,
+		},
+		"hidden" : 0,
+
+		"lua chunksub-sub-block " :  {
+
+			"main chunk" : "chunk >
+
+			=== lua =============
+			local self = ...;
+			self:setAlwaysActive(true);
+			Program.Wait(5);
+			self:destroy();
+			Scene.CreateObject(\"blast\", \"bbb\", self);
+			Scene.CreateObject(\"snowyblast\", \"bb\", self);
+
+			=====================",
+			"secondary chunk" : "\\x1bLuaQ\\x00\\x01\\x04\\x04\\x04\\x08\\x00\\xac\\x00\\x00\\x00local self = ...;\\r\\nself:setAlwaysActive(true);\\r\\nProgram.Wait(5);\\r\\nself:destroy();\\r\\nScene.CreateObject(\"blast\", \"bbb\", self);\\r\\nScene.CreateObject(\"snowyblast\", \"bb\", self);\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x02\\x05\\x17\\x00\\x00\\x00%\\x00\\x00\\x01K\\x00@\\x00\\xc2\\x00\\x80\\x00\\\\@\\x80\\x01E@\\x00\\x00F\\x80\\xc0\\x00\\x81\\xc0\\x00\\x00\\\\@\\x00\\x01K\\x00A\\x00\\\\@\\x00\\x01E@\\x01\\x00F\\x80\\xc1\\x00\\x81\\xc0\\x01\\x00\\xc1\\x00\\x02\\x00\\x00\\x01\\x00\\x00\\\\@\\x00\\x02E@\\x01\\x00F\\x80\\xc1\\x00\\x81@\\x02\\x00\\xc1\\x80\\x02\\x00\\x00\\x01\\x00\\x00\\\\@\\x00\\x02\\x1e\\x00\\x80\\x00\\x0b\\x00\\x00\\x00\\x04\\x10\\x00\\x00\\x00setAlwaysActive\\x00\\x04\\x08\\x00\\x00\\x00Program\\x00\\x04\\x05\\x00\\x00\\x00Wait\\x00\\x03\\x00\\x00\\x00\\x00\\x00\\x00\\x14@\\x04\\x08\\x00\\x00\\x00destroy\\x00\\x04\\x06\\x00\\x00\\x00Scene\\x00\\x04\\r\\x00\\x00\\x00CreateObject\\x00\\x04\\x06\\x00\\x00\\x00blast\\x00\\x04\\x04\\x00\\x00\\x00bbb\\x00\\x04\\x0b\\x00\\x00\\x00snowyblast\\x00\\x04\\x03\\x00\\x00\\x00bb\\x00\\x00\\x00\\x00\\x00\\x17\\x00\\x00\\x00\\x01\\x00\\x00\\x00\\x02\\x00\\x00\\x00\\x02\\x00\\x00\\x00\\x02\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x06\\x00\\x00\\x00\\x06\\x00\\x00\\x00\\x06\\x00\\x00\\x00\\x06\\x00\\x00\\x00\\x06\\x00\\x00\\x00\\x06\\x00\\x00\\x00\\x06\\x00\\x00\\x00\\x01\\x00\\x00\\x00\\x05\\x00\\x00\\x00self\\x00\\x01\\x00\\x00\\x00\\x16\\x00\\x00\\x00\\x00\\x00\\x00\\x00",
+		},
+	},
+	"u0" : 1.0,
+},
+
+"?itemblock " :  {
+
+
+	"?sub-itemsub-block " :  {
+
+		"name" : "dropping_iceblock",
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "PhysicsObject",
+			"number" : 1,
+
+			"physics objectsub-sub-sub-block " :  {
+
+				"u0" : 0,
+				"u3" : 1500.0,
+				"u4" : 0.0,
+				"u5" : 700.0,
+				"u6" : 0,
+				"u7" : 0.0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "CollisionShape",
+			"number" : 2,
+
+			"collision shapesub-sub-sub-block " :  {
+
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"w" : -50.0,
+					"x" : -14.0,
+					"y" : 100.0,
+					"z" : 28.0,
+				},
+			},
+
+			"collision shape 2sub-sub-sub-block " :  {
+
+				"u0" : 1,
+				"w" : -15.0,
+				"x" : 15.0,
+				"z" : 1,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Program",
+			"number" : 3,
+
+			"programsub-sub-sub-block " :  {
+
+				"u0" : 1,
+
+				"lua chunksub-sub-sub-sub-block " :  {
+
+					"main chunk" : "chunk >
+
+					=== lua =============
+					local self = ...;
+					
+					local newblock = Scene.CreateObject(\"dropping_iceblock\", \"blockie\", nil, false);
+					TransformController.ScaleTo(newblock, 0.01, 0);	
+					
+					newblock:setPosition(PhysicsObject.OriginalPosition(self));
+					Scene.AddObject(newblock);
+					TransformController.ScaleTo(newblock, 1.0, 0.5);
+					Program.Wait(0.5);
+
+					=====================",
+					"secondary chunk" : "\\x1bLuaQ\\x00\\x01\\x04\\x04\\x04\\x08\\x009\\x01\\x00\\x00local self = ...;\\r\\n\\r\\nlocal newblock = Scene.CreateObject(\"dropping_iceblock\", \"blockie\", nil, false);\\r\\nTransformController.ScaleTo(newblock, 0.01, 0);\\t\\r\\n\\r\\nnewblock:setPosition(PhysicsObject.OriginalPosition(self));\\r\\nScene.AddObject(newblock);\\r\\nTransformController.ScaleTo(newblock, 1.0, 0.5);\\r\\nProgram.Wait(0.5);\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x02\\x06#\\x00\\x00\\x00%\\x00\\x00\\x01E\\x00\\x00\\x00F@\\xc0\\x00\\x81\\x80\\x00\\x00\\xc1\\xc0\\x00\\x00\\x03\\x01\\x00\\x02B\\x01\\x00\\x00\\\\\\x80\\x80\\x02\\x85\\x00\\x01\\x00\\x86@A\\x01\\xc0\\x00\\x80\\x00\\x01\\x81\\x01\\x00A\\xc1\\x01\\x00\\x9c@\\x00\\x02\\x8b\\x00\\xc2\\x00\\x05A\\x02\\x00\\x06\\x81B\\x02@\\x01\\x00\\x00\\x1c\\x01\\x00\\x01\\x9c@\\x00\\x00\\x85\\x00\\x00\\x00\\x86\\xc0B\\x01\\xc0\\x00\\x80\\x00\\x9c@\\x00\\x01\\x85\\x00\\x01\\x00\\x86@A\\x01\\xc0\\x00\\x80\\x00\\x01\\x01\\x03\\x00AA\\x03\\x00\\x9c@\\x00\\x02\\x85\\x80\\x03\\x00\\x86\\xc0C\\x01\\xc1@\\x03\\x00\\x9c@\\x00\\x01\\x1e\\x00\\x80\\x00\\x10\\x00\\x00\\x00\\x04\\x06\\x00\\x00\\x00Scene\\x00\\x04\\r\\x00\\x00\\x00CreateObject\\x00\\x04\\x12\\x00\\x00\\x00dropping_iceblock\\x00\\x04\\x08\\x00\\x00\\x00blockie\\x00\\x04\\x14\\x00\\x00\\x00TransformController\\x00\\x04\\x08\\x00\\x00\\x00ScaleTo\\x00\\x03{\\x14\\xaeG\\xe1z\\x84?\\x03\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x04\\x0c\\x00\\x00\\x00setPosition\\x00\\x04\\x0e\\x00\\x00\\x00PhysicsObject\\x00\\x04\\x11\\x00\\x00\\x00OriginalPosition\\x00\\x04\\n\\x00\\x00\\x00AddObject\\x00\\x03\\x00\\x00\\x00\\x00\\x00\\x00\\xf0?\\x03\\x00\\x00\\x00\\x00\\x00\\x00\\xe0?\\x04\\x08\\x00\\x00\\x00Program\\x00\\x04\\x05\\x00\\x00\\x00Wait\\x00\\x00\\x00\\x00\\x00#\\x00\\x00\\x00\\x01\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x06\\x00\\x00\\x00\\x06\\x00\\x00\\x00\\x06\\x00\\x00\\x00\\x06\\x00\\x00\\x00\\x06\\x00\\x00\\x00\\x06\\x00\\x00\\x00\\x07\\x00\\x00\\x00\\x07\\x00\\x00\\x00\\x07\\x00\\x00\\x00\\x07\\x00\\x00\\x00\\x08\\x00\\x00\\x00\\x08\\x00\\x00\\x00\\x08\\x00\\x00\\x00\\x08\\x00\\x00\\x00\\x08\\x00\\x00\\x00\\x08\\x00\\x00\\x00\\t\\x00\\x00\\x00\\t\\x00\\x00\\x00\\t\\x00\\x00\\x00\\t\\x00\\x00\\x00\\t\\x00\\x00\\x00\\x02\\x00\\x00\\x00\\x05\\x00\\x00\\x00self\\x00\\x01\\x00\\x00\\x00\"\\x00\\x00\\x00\\t\\x00\\x00\\x00newblock\\x00\\x08\\x00\\x00\\x00\"\\x00\\x00\\x00\\x00\\x00\\x00\\x00",
+				},
+				"u1" : 1,
+				"u2" : 5,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Properties",
+			"number" : 4,
+
+			"propertiessub-sub-sub-block " :  {
+
+				"u0" : "",
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Model",
+			"number" : 101,
+
+			"3D modelsub-sub-sub-block " :  {
+
+				"name" : "iceplatform",
+				"u0" : 0.0,
+				"u1" : 1.0,
+				"u2" : 0.0,
+
+				"u3sub-sub-sub-sub-block " :  {
+
+					"w" : 0.0,
+					"x" : 0.0,
+					"y" : 0.0,
+					"z" : 1.0,
+				},
+
+				"u4sub-sub-sub-sub-block " :  {
+
+					"x" : 0.0,
+					"y" : 0.0,
+					"z" : 0.0,
+				},
+				"u5" : 0,
+
+				"u6sub-sub-sub-sub-block " :  {
+
+					"w" : 1.0,
+					"x" : 1.0,
+					"y" : 1.0,
+					"z" : 1.0,
+				},
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "TransformController",
+			"number" : 104,
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "CollisionShape",
+			"number" : 107,
+
+			"collision shapesub-sub-sub-block " :  {
+
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"w" : -40.0,
+					"x" : 0.0,
+					"y" : 80.0,
+					"z" : 18.0,
+				},
+			},
+
+			"collision shape 2sub-sub-sub-block " :  {
+
+				"w" : -15.0,
+				"x" : 15.0,
+
+				"lua chunksub-sub-sub-sub-block " :  {
+
+					"main chunk" : "chunk >
+
+					=== lua =============
+					local self, target, normal = ...;
+					
+					if (target:identifier() == \"hero\" and CollisionShape.IsEnabled(self, 107) and
+						normal:y() < -0.3) then
+					
+						self:setAlwaysActive(true);
+					
+						CollisionShape.SetEnabled(self, 107, false);
+					
+						for i=1,3 do
+							TransformController.TranslateBy(self, Vector3.New(10,0,0), 0.1);
+							Program.Wait(0.1);
+							TransformController.TranslateBy(self, Vector3.New(-10,0,0), 0.1);
+							Program.Wait(0.1);
+						end
+					
+						PhysicsObject.SetEnabled(self, true);
+						SoundLibrary.PlayEffect(\"chirp1\");
+					
+						CollisionShape.SetEnabled(self, 2, false);
+					
+						Program.Wait(2.0);
+						
+						self:destroy();
+					end
+
+					=====================",
+					"secondary chunk" : "\\x1bLuaQ\\x00\\x01\\x04\\x04\\x04\\x08\\x00Y\\x02\\x00\\x00local self, target, normal = ...;\\r\\n\\r\\nif (target:identifier() == \"hero\" and CollisionShape.IsEnabled(self, 107) and\\r\\n\\tnormal:y() < -0.3) then\\r\\n\\r\\n\\tself:setAlwaysActive(true);\\r\\n\\r\\n\\tCollisionShape.SetEnabled(self, 107, false);\\r\\n\\r\\n\\tfor i=1,3 do\\r\\n\\t\\tTransformController.TranslateBy(self, Vector3.New(10,0,0), 0.1);\\r\\n\\t\\tProgram.Wait(0.1);\\r\\n\\t\\tTransformController.TranslateBy(self, Vector3.New(-10,0,0), 0.1);\\r\\n\\t\\tProgram.Wait(0.1);\\r\\n\\tend\\r\\n\\r\\n\\tPhysicsObject.SetEnabled(self, true);\\r\\n\\tSoundLibrary.PlayEffect(\"chirp1\");\\r\\n\\r\\n\\tCollisionShape.SetEnabled(self, 2, false);\\r\\n\\r\\n\\tProgram.Wait(2.0);\\r\\n\\t\\r\\n\\tself:destroy();\\r\\nend\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x02\\rR\\x00\\x00\\x00%\\x00\\x00\\x02\\xcb\\x00\\xc0\\x00\\xdc\\x80\\x00\\x01\\x17@\\xc0\\x01\\x16\\xc0\\x12\\x80\\xc5\\x80\\x00\\x00\\xc6\\xc0\\xc0\\x01\\x00\\x01\\x00\\x00A\\x01\\x01\\x00\\xdc\\x80\\x80\\x01\\xda\\x00\\x00\\x00\\x16\\x00\\x11\\x80\\xcb@A\\x01\\xdc\\x80\\x00\\x01\\x18\\x80\\xc1\\x01\\x16\\x00\\x10\\x80\\xcb\\xc0A\\x00B\\x01\\x80\\x00\\xdc@\\x80\\x01\\xc5\\x80\\x00\\x00\\xc6\\x00\\xc2\\x01\\x00\\x01\\x00\\x00A\\x01\\x01\\x00\\x82\\x01\\x00\\x00\\xdc@\\x00\\x02\\xc1@\\x02\\x00\\x01\\x81\\x02\\x00AA\\x02\\x00\\xe0@\\x07\\x80\\xc5\\xc1\\x02\\x00\\xc6\\x01\\xc3\\x03\\x00\\x02\\x00\\x00EB\\x03\\x00F\\x82\\xc3\\x04\\x81\\xc2\\x03\\x00\\xc1\\x02\\x04\\x00\\x01\\x03\\x04\\x00\\\\\\x82\\x00\\x02\\x81B\\x04\\x00\\xdcA\\x00\\x02\\xc5\\x81\\x04\\x00\\xc6\\xc1\\xc4\\x03\\x01B\\x04\\x00\\xdcA\\x00\\x01\\xc5\\xc1\\x02\\x00\\xc6\\x01\\xc3\\x03\\x00\\x02\\x00\\x00EB\\x03\\x00F\\x82\\xc3\\x04\\x81\\x02\\x05\\x00\\xc1\\x02\\x04\\x00\\x01\\x03\\x04\\x00\\\\\\x82\\x00\\x02\\x81B\\x04\\x00\\xdcA\\x00\\x02\\xc5\\x81\\x04\\x00\\xc6\\xc1\\xc4\\x03\\x01B\\x04\\x00\\xdcA\\x00\\x01\\xdf\\x00\\xf8\\x7f\\xc5@\\x05\\x00\\xc6\\x00\\xc2\\x01\\x00\\x01\\x00\\x00B\\x01\\x80\\x00\\xdc@\\x80\\x01\\xc5\\x80\\x05\\x00\\xc6\\xc0\\xc5\\x01\\x01\\x01\\x06\\x00\\xdc@\\x00\\x01\\xc5\\x80\\x00\\x00\\xc6\\x00\\xc2\\x01\\x00\\x01\\x00\\x00AA\\x06\\x00\\x82\\x01\\x00\\x00\\xdc@\\x00\\x02\\xc5\\x80\\x04\\x00\\xc6\\xc0\\xc4\\x01\\x01A\\x06\\x00\\xdc@\\x00\\x01\\xcb\\x80F\\x00\\xdc@\\x00\\x01\\x1e\\x00\\x80\\x00\\x1b\\x00\\x00\\x00\\x04\\x0b\\x00\\x00\\x00identifier\\x00\\x04\\x05\\x00\\x00\\x00hero\\x00\\x04\\x0f\\x00\\x00\\x00CollisionShape\\x00\\x04\\n\\x00\\x00\\x00IsEnabled\\x00\\x03\\x00\\x00\\x00\\x00\\x00\\xc0Z@\\x04\\x02\\x00\\x00\\x00y\\x00\\x03333333\\xd3\\xbf\\x04\\x10\\x00\\x00\\x00setAlwaysActive\\x00\\x04\\x0b\\x00\\x00\\x00SetEnabled\\x00\\x03\\x00\\x00\\x00\\x00\\x00\\x00\\xf0?\\x03\\x00\\x00\\x00\\x00\\x00\\x00\\x08@\\x04\\x14\\x00\\x00\\x00TransformController\\x00\\x04\\x0c\\x00\\x00\\x00TranslateBy\\x00\\x04\\x08\\x00\\x00\\x00Vector3\\x00\\x04\\x04\\x00\\x00\\x00New\\x00\\x03\\x00\\x00\\x00\\x00\\x00\\x00$@\\x03\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x03\\x9a\\x99\\x99\\x99\\x99\\x99\\xb9?\\x04\\x08\\x00\\x00\\x00Program\\x00\\x04\\x05\\x00\\x00\\x00Wait\\x00\\x03\\x00\\x00\\x00\\x00\\x00\\x00$\\xc0\\x04\\x0e\\x00\\x00\\x00PhysicsObject\\x00\\x04\\r\\x00\\x00\\x00SoundLibrary\\x00\\x04\\x0b\\x00\\x00\\x00PlayEffect\\x00\\x04\\x07\\x00\\x00\\x00chirp1\\x00\\x03\\x00\\x00\\x00\\x00\\x00\\x00\\x00@\\x04\\x08\\x00\\x00\\x00destroy\\x00\\x00\\x00\\x00\\x00R\\x00\\x00\\x00\\x01\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x06\\x00\\x00\\x00\\x06\\x00\\x00\\x00\\x06\\x00\\x00\\x00\\x08\\x00\\x00\\x00\\x08\\x00\\x00\\x00\\x08\\x00\\x00\\x00\\x08\\x00\\x00\\x00\\x08\\x00\\x00\\x00\\x08\\x00\\x00\\x00\\n\\x00\\x00\\x00\\n\\x00\\x00\\x00\\n\\x00\\x00\\x00\\n\\x00\\x00\\x00\\x0b\\x00\\x00\\x00\\x0b\\x00\\x00\\x00\\x0b\\x00\\x00\\x00\\x0b\\x00\\x00\\x00\\x0b\\x00\\x00\\x00\\x0b\\x00\\x00\\x00\\x0b\\x00\\x00\\x00\\x0b\\x00\\x00\\x00\\x0b\\x00\\x00\\x00\\x0b\\x00\\x00\\x00\\x0b\\x00\\x00\\x00\\x0c\\x00\\x00\\x00\\x0c\\x00\\x00\\x00\\x0c\\x00\\x00\\x00\\x0c\\x00\\x00\\x00\\r\\x00\\x00\\x00\\r\\x00\\x00\\x00\\r\\x00\\x00\\x00\\r\\x00\\x00\\x00\\r\\x00\\x00\\x00\\r\\x00\\x00\\x00\\r\\x00\\x00\\x00\\r\\x00\\x00\\x00\\r\\x00\\x00\\x00\\r\\x00\\x00\\x00\\r\\x00\\x00\\x00\\x0e\\x00\\x00\\x00\\x0e\\x00\\x00\\x00\\x0e\\x00\\x00\\x00\\x0e\\x00\\x00\\x00\\n\\x00\\x00\\x00\\x11\\x00\\x00\\x00\\x11\\x00\\x00\\x00\\x11\\x00\\x00\\x00\\x11\\x00\\x00\\x00\\x11\\x00\\x00\\x00\\x12\\x00\\x00\\x00\\x12\\x00\\x00\\x00\\x12\\x00\\x00\\x00\\x12\\x00\\x00\\x00\\x14\\x00\\x00\\x00\\x14\\x00\\x00\\x00\\x14\\x00\\x00\\x00\\x14\\x00\\x00\\x00\\x14\\x00\\x00\\x00\\x14\\x00\\x00\\x00\\x16\\x00\\x00\\x00\\x16\\x00\\x00\\x00\\x16\\x00\\x00\\x00\\x16\\x00\\x00\\x00\\x18\\x00\\x00\\x00\\x18\\x00\\x00\\x00\\x19\\x00\\x00\\x00\\x07\\x00\\x00\\x00\\x05\\x00\\x00\\x00self\\x00\\x01\\x00\\x00\\x00Q\\x00\\x00\\x00\\x07\\x00\\x00\\x00target\\x00\\x01\\x00\\x00\\x00Q\\x00\\x00\\x00\\x07\\x00\\x00\\x00normal\\x00\\x01\\x00\\x00\\x00Q\\x00\\x00\\x00\\x0c\\x00\\x00\\x00(for index)\\x00\\x1c\\x00\\x00\\x00<\\x00\\x00\\x00\\x0c\\x00\\x00\\x00(for limit)\\x00\\x1c\\x00\\x00\\x00<\\x00\\x00\\x00\\x0b\\x00\\x00\\x00(for step)\\x00\\x1c\\x00\\x00\\x00<\\x00\\x00\\x00\\x02\\x00\\x00\\x00i\\x00\\x1d\\x00\\x00\\x00;\\x00\\x00\\x00\\x00\\x00\\x00\\x00",
+				},
+				"z" : 1,
+			},
+		},
+
+		"positionsub-sub-block " :  {
+
+			"x position" : 0.0,
+			"y position" : 0.0,
+		},
+		"z position" : 0.0,
+		"rotation" : 0.0,
+		"scale" : 1.0,
+
+		"u0sub-sub-block " :  {
+
+			"w" : -50.0,
+			"x" : -14.0,
+			"y" : 100.0,
+			"z" : 32.0,
+		},
+		"hidden" : 0,
+	},
+	"u0" : 1.0,
+},
+
+"?itemblock " :  {
+
+
+	"?sub-itemsub-block " :  {
+
+		"name" : "dropping_icicle",
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "PhysicsObject",
+			"number" : 1,
+
+			"physics objectsub-sub-sub-block " :  {
+
+				"u0" : 0,
+				"u2" : 2.0,
+				"u3" : 1500.0,
+				"u4" : 0.0,
+				"u5" : 700.0,
+				"u6" : 0,
+				"u7" : 0.0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "CollisionShape",
+			"number" : 2,
+
+			"collision shapesub-sub-sub-block " :  {
+
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"w" : -7.0,
+					"x" : 0.0,
+					"y" : 14.0,
+					"z" : 20.0,
+				},
+			},
+
+			"collision shape 2sub-sub-sub-block " :  {
+
+				"u1" : 1,
+				"w" : -15.0,
+				"x" : 15.0,
+
+				"lua chunksub-sub-sub-sub-block " :  {
+
+					"main chunk" : "chunk >
+
+					=== lua =============
+					local self, target, normal, groundCollision = ...;
+					
+					if (PhysicsObject.IsEnabled(self) and groundCollision and normal:y() > 0.1) then
+						CollisionShape.SetEnabled(self, 103, true);
+					end
+
+					=====================",
+					"secondary chunk" : "\\x1bLuaQ\\x00\\x01\\x04\\x04\\x04\\x08\\x00\\xba\\x00\\x00\\x00local self, target, normal, groundCollision = ...;\\r\\n\\r\\nif (PhysicsObject.IsEnabled(self) and groundCollision and normal:y() > 0.1) then\\r\\n\\tCollisionShape.SetEnabled(self, 103, true);\\r\\nend\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x02\\x08\\x14\\x00\\x00\\x00%\\x00\\x80\\x02\\x05\\x01\\x00\\x00\\x06A@\\x02@\\x01\\x00\\x00\\x1c\\x81\\x00\\x01\\x1a\\x01\\x00\\x00\\x16\\xc0\\x02\\x80\\xda\\x00\\x00\\x00\\x16@\\x02\\x80\\x0b\\x81@\\x01\\x1c\\x81\\x00\\x01\\x18\\x00\\x81\\x81\\x16@\\x01\\x80\\x05\\x01\\x01\\x00\\x06AA\\x02@\\x01\\x00\\x00\\x81\\x81\\x01\\x00\\xc2\\x01\\x80\\x00\\x1cA\\x00\\x02\\x1e\\x00\\x80\\x00\\x07\\x00\\x00\\x00\\x04\\x0e\\x00\\x00\\x00PhysicsObject\\x00\\x04\\n\\x00\\x00\\x00IsEnabled\\x00\\x04\\x02\\x00\\x00\\x00y\\x00\\x03\\x9a\\x99\\x99\\x99\\x99\\x99\\xb9?\\x04\\x0f\\x00\\x00\\x00CollisionShape\\x00\\x04\\x0b\\x00\\x00\\x00SetEnabled\\x00\\x03\\x00\\x00\\x00\\x00\\x00\\xc0Y@\\x00\\x00\\x00\\x00\\x14\\x00\\x00\\x00\\x01\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x05\\x00\\x00\\x00self\\x00\\x01\\x00\\x00\\x00\\x13\\x00\\x00\\x00\\x07\\x00\\x00\\x00target\\x00\\x01\\x00\\x00\\x00\\x13\\x00\\x00\\x00\\x07\\x00\\x00\\x00normal\\x00\\x01\\x00\\x00\\x00\\x13\\x00\\x00\\x00\\x10\\x00\\x00\\x00groundCollision\\x00\\x01\\x00\\x00\\x00\\x13\\x00\\x00\\x00\\x00\\x00\\x00\\x00",
+				},
+				"z" : 1,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Model",
+			"number" : 101,
+
+			"3D modelsub-sub-sub-block " :  {
+
+				"name" : "icicle",
+				"u0" : 0.0,
+				"u1" : 1.0,
+				"u2" : 0.0,
+
+				"u3sub-sub-sub-sub-block " :  {
+
+					"w" : 0.0,
+					"x" : 0.0,
+					"y" : 0.0,
+					"z" : 1.0,
+				},
+
+				"u4sub-sub-sub-sub-block " :  {
+
+					"x" : 0.0,
+					"y" : 0.0,
+					"z" : 0.0,
+				},
+				"u5" : 0,
+
+				"u6sub-sub-sub-sub-block " :  {
+
+					"w" : 1.0,
+					"x" : 1.0,
+					"y" : 1.0,
+					"z" : 1.0,
+				},
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "CollisionShape",
+			"number" : 103,
+
+			"collision shapesub-sub-sub-block " :  {
+
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"w" : -14.0,
+					"x" : 0.0,
+					"y" : 28.0,
+					"z" : 53.40729522705078,
+				},
+			},
+
+			"collision shape 2sub-sub-sub-block " :  {
+
+				"u0" : 1,
+				"u1" : 1,
+				"w" : -30.0,
+				"x" : 30.0,
+
+				"lua chunksub-sub-sub-sub-block " :  {
+
+					"main chunk" : "chunk >
+
+					=== lua =============
+					local self, target, normal, groundCollision = ...;
+					
+					if (PhysicsObject.IsEnabled(self) and groundCollision and normal:y() > 0.1) then
+						
+						CollisionShape.SetEnabled(self, 105, false);
+						PhysicsObject.SetEnabled(self, false);
+						SoundLibrary.PlayEffect(\"spikes1\");
+					
+						Program.Wait(1);
+						self:destroy();
+						blast1 = Scene.CreateObject(\"blast\", \"bbb\", self);
+						blast1:setPosition(blast1:position()+Vector3.New(0,20,0));
+						blast2 = Scene.CreateObject(\"snowyblast_small\", \"bb\", self);	
+						blast2:setPosition(blast2:position()+Vector3.New(0,20,0));
+						
+					end
+
+					=====================",
+					"secondary chunk" : "\\x1bLuaQ\\x00\\x01\\x04\\x04\\x04\\x08\\x00&\\x02\\x00\\x00local self, target, normal, groundCollision = ...;\\r\\n\\r\\nif (PhysicsObject.IsEnabled(self) and groundCollision and normal:y() > 0.1) then\\r\\n\\t\\r\\n\\tCollisionShape.SetEnabled(self, 105, false);\\r\\n\\tPhysicsObject.SetEnabled(self, false);\\r\\n\\tSoundLibrary.PlayEffect(\"spikes1\");\\r\\n\\r\\n\\tProgram.Wait(1);\\r\\n\\tself:destroy();\\r\\n\\tblast1 = Scene.CreateObject(\"blast\", \"bbb\", self);\\r\\n\\tblast1:setPosition(blast1:position()+Vector3.New(0,20,0));\\r\\n\\tblast2 = Scene.CreateObject(\"snowyblast_small\", \"bb\", self);\\t\\r\\n\\tblast2:setPosition(blast2:position()+Vector3.New(0,20,0));\\r\\n\\t\\r\\nend\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x02\\x0bK\\x00\\x00\\x00%\\x00\\x80\\x02\\x05\\x01\\x00\\x00\\x06A@\\x02@\\x01\\x00\\x00\\x1c\\x81\\x00\\x01\\x1a\\x01\\x00\\x00\\x16\\x80\\x10\\x80\\xda\\x00\\x00\\x00\\x16\\x00\\x10\\x80\\x0b\\x81@\\x01\\x1c\\x81\\x00\\x01\\x18\\x00\\x81\\x81\\x16\\x00\\x0f\\x80\\x05\\x01\\x01\\x00\\x06AA\\x02@\\x01\\x00\\x00\\x81\\x81\\x01\\x00\\xc2\\x01\\x00\\x00\\x1cA\\x00\\x02\\x05\\x01\\x00\\x00\\x06AA\\x02@\\x01\\x00\\x00\\x82\\x01\\x00\\x00\\x1cA\\x80\\x01\\x05\\xc1\\x01\\x00\\x06\\x01B\\x02AA\\x02\\x00\\x1cA\\x00\\x01\\x05\\x81\\x02\\x00\\x06\\xc1B\\x02A\\x01\\x03\\x00\\x1cA\\x00\\x01\\x0bAC\\x00\\x1cA\\x00\\x01\\x05\\xc1\\x03\\x00\\x06\\x01D\\x02AA\\x04\\x00\\x81\\x81\\x04\\x00\\xc0\\x01\\x00\\x00\\x1c\\x81\\x00\\x02\\x07\\x81\\x03\\x00\\x05\\x81\\x03\\x00\\x0b\\xc1D\\x02\\x85\\x81\\x03\\x00\\x8b\\x01E\\x03\\x9c\\x81\\x00\\x01\\xc5A\\x05\\x00\\xc6\\x81\\xc5\\x03\\x01\\xc2\\x05\\x00A\\x02\\x06\\x00\\x81\\xc2\\x05\\x00\\xdc\\x81\\x00\\x02\\x8c\\xc1\\x01\\x03\\x1cA\\x80\\x01\\x05\\xc1\\x03\\x00\\x06\\x01D\\x02A\\x81\\x06\\x00\\x81\\xc1\\x06\\x00\\xc0\\x01\\x00\\x00\\x1c\\x81\\x00\\x02\\x07A\\x06\\x00\\x05A\\x06\\x00\\x0b\\xc1D\\x02\\x85A\\x06\\x00\\x8b\\x01E\\x03\\x9c\\x81\\x00\\x01\\xc5A\\x05\\x00\\xc6\\x81\\xc5\\x03\\x01\\xc2\\x05\\x00A\\x02\\x06\\x00\\x81\\xc2\\x05\\x00\\xdc\\x81\\x00\\x02\\x8c\\xc1\\x01\\x03\\x1cA\\x80\\x01\\x1e\\x00\\x80\\x00\\x1c\\x00\\x00\\x00\\x04\\x0e\\x00\\x00\\x00PhysicsObject\\x00\\x04\\n\\x00\\x00\\x00IsEnabled\\x00\\x04\\x02\\x00\\x00\\x00y\\x00\\x03\\x9a\\x99\\x99\\x99\\x99\\x99\\xb9?\\x04\\x0f\\x00\\x00\\x00CollisionShape\\x00\\x04\\x0b\\x00\\x00\\x00SetEnabled\\x00\\x03\\x00\\x00\\x00\\x00\\x00@Z@\\x04\\r\\x00\\x00\\x00SoundLibrary\\x00\\x04\\x0b\\x00\\x00\\x00PlayEffect\\x00\\x04\\x08\\x00\\x00\\x00spikes1\\x00\\x04\\x08\\x00\\x00\\x00Program\\x00\\x04\\x05\\x00\\x00\\x00Wait\\x00\\x03\\x00\\x00\\x00\\x00\\x00\\x00\\xf0?\\x04\\x08\\x00\\x00\\x00destroy\\x00\\x04\\x07\\x00\\x00\\x00blast1\\x00\\x04\\x06\\x00\\x00\\x00Scene\\x00\\x04\\r\\x00\\x00\\x00CreateObject\\x00\\x04\\x06\\x00\\x00\\x00blast\\x00\\x04\\x04\\x00\\x00\\x00bbb\\x00\\x04\\x0c\\x00\\x00\\x00setPosition\\x00\\x04\\t\\x00\\x00\\x00position\\x00\\x04\\x08\\x00\\x00\\x00Vector3\\x00\\x04\\x04\\x00\\x00\\x00New\\x00\\x03\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x00\\x00\\x004@\\x04\\x07\\x00\\x00\\x00blast2\\x00\\x04\\x11\\x00\\x00\\x00snowyblast_small\\x00\\x04\\x03\\x00\\x00\\x00bb\\x00\\x00\\x00\\x00\\x00K\\x00\\x00\\x00\\x01\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x06\\x00\\x00\\x00\\x06\\x00\\x00\\x00\\x06\\x00\\x00\\x00\\x06\\x00\\x00\\x00\\x06\\x00\\x00\\x00\\x07\\x00\\x00\\x00\\x07\\x00\\x00\\x00\\x07\\x00\\x00\\x00\\x07\\x00\\x00\\x00\\t\\x00\\x00\\x00\\t\\x00\\x00\\x00\\t\\x00\\x00\\x00\\t\\x00\\x00\\x00\\n\\x00\\x00\\x00\\n\\x00\\x00\\x00\\x0b\\x00\\x00\\x00\\x0b\\x00\\x00\\x00\\x0b\\x00\\x00\\x00\\x0b\\x00\\x00\\x00\\x0b\\x00\\x00\\x00\\x0b\\x00\\x00\\x00\\x0b\\x00\\x00\\x00\\x0c\\x00\\x00\\x00\\x0c\\x00\\x00\\x00\\x0c\\x00\\x00\\x00\\x0c\\x00\\x00\\x00\\x0c\\x00\\x00\\x00\\x0c\\x00\\x00\\x00\\x0c\\x00\\x00\\x00\\x0c\\x00\\x00\\x00\\x0c\\x00\\x00\\x00\\x0c\\x00\\x00\\x00\\x0c\\x00\\x00\\x00\\x0c\\x00\\x00\\x00\\x0c\\x00\\x00\\x00\\r\\x00\\x00\\x00\\r\\x00\\x00\\x00\\r\\x00\\x00\\x00\\r\\x00\\x00\\x00\\r\\x00\\x00\\x00\\r\\x00\\x00\\x00\\r\\x00\\x00\\x00\\x0e\\x00\\x00\\x00\\x0e\\x00\\x00\\x00\\x0e\\x00\\x00\\x00\\x0e\\x00\\x00\\x00\\x0e\\x00\\x00\\x00\\x0e\\x00\\x00\\x00\\x0e\\x00\\x00\\x00\\x0e\\x00\\x00\\x00\\x0e\\x00\\x00\\x00\\x0e\\x00\\x00\\x00\\x0e\\x00\\x00\\x00\\x0e\\x00\\x00\\x00\\x0e\\x00\\x00\\x00\\x10\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x05\\x00\\x00\\x00self\\x00\\x01\\x00\\x00\\x00J\\x00\\x00\\x00\\x07\\x00\\x00\\x00target\\x00\\x01\\x00\\x00\\x00J\\x00\\x00\\x00\\x07\\x00\\x00\\x00normal\\x00\\x01\\x00\\x00\\x00J\\x00\\x00\\x00\\x10\\x00\\x00\\x00groundCollision\\x00\\x01\\x00\\x00\\x00J\\x00\\x00\\x00\\x00\\x00\\x00\\x00",
+				},
+				"z" : 0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "CollisionShape",
+			"number" : 105,
+
+			"collision shapesub-sub-sub-block " :  {
+
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"w" : -4.0,
+					"x" : -50.0,
+					"y" : 8.0,
+					"z" : 50.0,
+				},
+			},
+
+			"collision shape 2sub-sub-sub-block " :  {
+
+				"u3" : 1,
+				"w" : -30.0,
+				"x" : 30.0,
+				"z" : 1,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Damage",
+			"number" : 107,
+
+			"damagesub-sub-sub-block " :  {
+
+				"u0" : 4,
+				"u1" : 0,
+				"u2" : 0,
+				"u5" : 1.0,
+				"u6" : 0.0,
+				"u7" : 0,
+				"u8" : 1,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "CollisionShape",
+			"number" : 108,
+
+			"collision shapesub-sub-sub-block " :  {
+
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"w" : -20.0,
+					"x" : -250.0,
+					"y" : 40.0,
+					"z" : 200.0,
+				},
+			},
+
+			"collision shape 2sub-sub-sub-block " :  {
+
+				"w" : -30.0,
+				"x" : 30.0,
+
+				"lua chunksub-sub-sub-sub-block " :  {
+
+					"main chunk" : "chunk >
+
+					=== lua =============
+					local self, target = ...;
+					
+					if (target:identifier() == \"hero\" and CollisionShape.IsEnabled(self, 108)) then
+						
+						--disable trigger
+						CollisionShape.SetEnabled(self, 108, false);
+					
+						PhysicsObject.SetEnabled(self, true);
+						SoundLibrary.PlayEffect(\"chirp1\");	
+					end
+
+					=====================",
+					"secondary chunk" : "\\x1bLuaQ\\x00\\x01\\x04\\x04\\x04\\x08\\x00\\x08\\x01\\x00\\x00local self, target = ...;\\r\\n\\r\\nif (target:identifier() == \"hero\" and CollisionShape.IsEnabled(self, 108)) then\\r\\n\\t\\r\\n\\t--disable trigger\\r\\n\\tCollisionShape.SetEnabled(self, 108, false);\\r\\n\\r\\n\\tPhysicsObject.SetEnabled(self, true);\\r\\n\\tSoundLibrary.PlayEffect(\"chirp1\");\\t\\r\\nend\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x02\\x06\\x1c\\x00\\x00\\x00%\\x00\\x80\\x01\\x8b\\x00\\xc0\\x00\\x9c\\x80\\x00\\x01\\x17@@\\x01\\x16@\\x05\\x80\\x85\\x80\\x00\\x00\\x86\\xc0@\\x01\\xc0\\x00\\x00\\x00\\x01\\x01\\x01\\x00\\x9c\\x80\\x80\\x01\\x9a\\x00\\x00\\x00\\x16\\x80\\x03\\x80\\x85\\x80\\x00\\x00\\x86@A\\x01\\xc0\\x00\\x00\\x00\\x01\\x01\\x01\\x00B\\x01\\x00\\x00\\x9c@\\x00\\x02\\x85\\x80\\x01\\x00\\x86@A\\x01\\xc0\\x00\\x00\\x00\\x02\\x01\\x80\\x00\\x9c@\\x80\\x01\\x85\\xc0\\x01\\x00\\x86\\x00B\\x01\\xc1@\\x02\\x00\\x9c@\\x00\\x01\\x1e\\x00\\x80\\x00\\n\\x00\\x00\\x00\\x04\\x0b\\x00\\x00\\x00identifier\\x00\\x04\\x05\\x00\\x00\\x00hero\\x00\\x04\\x0f\\x00\\x00\\x00CollisionShape\\x00\\x04\\n\\x00\\x00\\x00IsEnabled\\x00\\x03\\x00\\x00\\x00\\x00\\x00\\x00[@\\x04\\x0b\\x00\\x00\\x00SetEnabled\\x00\\x04\\x0e\\x00\\x00\\x00PhysicsObject\\x00\\x04\\r\\x00\\x00\\x00SoundLibrary\\x00\\x04\\x0b\\x00\\x00\\x00PlayEffect\\x00\\x04\\x07\\x00\\x00\\x00chirp1\\x00\\x00\\x00\\x00\\x00\\x1c\\x00\\x00\\x00\\x01\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x06\\x00\\x00\\x00\\x06\\x00\\x00\\x00\\x06\\x00\\x00\\x00\\x06\\x00\\x00\\x00\\x06\\x00\\x00\\x00\\x06\\x00\\x00\\x00\\x08\\x00\\x00\\x00\\x08\\x00\\x00\\x00\\x08\\x00\\x00\\x00\\x08\\x00\\x00\\x00\\x08\\x00\\x00\\x00\\t\\x00\\x00\\x00\\t\\x00\\x00\\x00\\t\\x00\\x00\\x00\\t\\x00\\x00\\x00\\n\\x00\\x00\\x00\\x02\\x00\\x00\\x00\\x05\\x00\\x00\\x00self\\x00\\x01\\x00\\x00\\x00\\x1b\\x00\\x00\\x00\\x07\\x00\\x00\\x00target\\x00\\x01\\x00\\x00\\x00\\x1b\\x00\\x00\\x00\\x00\\x00\\x00\\x00",
+				},
+				"z" : 1,
+			},
+		},
+
+		"positionsub-sub-block " :  {
+
+			"x position" : 0.0,
+			"y position" : 0.0,
+		},
+		"z position" : 0.0,
+		"rotation" : 0.0,
+		"scale" : 1.0,
+
+		"u0sub-sub-block " :  {
+
+			"w" : -20.0,
+			"x" : -250.0,
+			"y" : 40.0,
+			"z" : 303.40728759765625,
+		},
+		"hidden" : 0,
+	},
+	"u0" : 1.0,
+},
+
+"?itemblock " :  {
+
+
+	"?sub-itemsub-block " :  {
+
+		"name" : "flying_platform",
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "DimensionObject",
+			"number" : 1,
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "CollisionShape",
+			"number" : 2,
+			"? linked component" : 100,
+
+			"collision shapesub-sub-sub-block " :  {
+
+
+				"u2sub-sub-sub-sub-block " :  {
+
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"y" : 60.04533767700195,
+						"z" : 28.72869873046875,
+					},
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"y" : -60.04533767700195,
+						"z" : 25.834793090820312,
+					},
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"y" : -42.330810546875,
+						"z" : -28.72869873046875,
+					},
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"y" : 33.861083984375,
+						"z" : -26.689208984375,
+					},
+					"u3" : 0,
+					"u4" : 1,
+				},
+			},
+
+			"collision shape 2sub-sub-sub-block " :  {
+
+				"u0" : 1,
+				"w" : -40.0,
+				"x" : 40.0,
+				"z" : 1,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "GroundPolygon",
+			"number" : 100,
+
+			"ground polygonsub-sub-sub-block " :  {
+
+
+				"sub-sub-sub-sub-block " :  {
+
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"x" : 60.04533767700195,
+						"y" : 28.72869873046875,
+					},
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"x" : -60.04533767700195,
+						"y" : 25.834793090820312,
+					},
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"x" : -42.330810546875,
+						"y" : -28.72869873046875,
+					},
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"x" : 33.861083984375,
+						"y" : -26.689208984375,
+					},
+					"u0" : 0,
+					"u1" : 1,
+				},
+				"u1" : 1,
+				"u2" : -40.0,
+				"u3" : 40.0,
+				"u4" : "",
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "GroundMesh",
+			"number" : 101,
+
+			"ground meshsub-sub-sub-block " :  {
+
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"w" : -70.04533386230469,
+					"x" : -38.72869873046875,
+					"y" : 140.09066772460938,
+					"z" : 77.4573974609375,
+				},
+
+				"u1sub-sub-sub-sub-block " :  {
+
+					"u0" : 20,
+					"u1" : 14,
+
+					"u2sub-sub-sub-sub-sub-block " :  {
+
+						"u0" : 4,
+						"u1" : 1,
+						"u2" : 2,
+						"u3" : 0,
+					},
+
+					"u3sub-sub-sub-sub-sub-block " :  {
+
+						"u0" : 7,
+						"u1" : 3,
+						"u2" : 32,
+						"u3" : 0,
+					},
+
+					"u4sub-sub-sub-sub-sub-block " :  {
+
+						"u0" : 7,
+						"u1" : 3,
+						"u2" : 32,
+						"u3" : 12,
+					},
+
+					"u5sub-sub-sub-sub-sub-block " :  {
+
+						"u0" : 7,
+						"u1" : 2,
+						"u2" : 32,
+						"u3" : 24,
+					},
+
+					"u6sub-sub-sub-sub-sub-block " :  {
+
+
+						"u0sub-sub-sub-sub-sub-sub-block " :  {
+
+							"w" : 1.0,
+							"x" : 1.0,
+							"y" : 1.0,
+							"z" : 1.0,
+						},
+
+						"u1sub-sub-sub-sub-sub-sub-block " :  {
+
+							"w" : 1.0,
+							"x" : 1.0,
+							"y" : 1.0,
+							"z" : 1.0,
+						},
+
+						"u2sub-sub-sub-sub-sub-sub-block " :  {
+
+							"w" : 1.0,
+							"x" : 1.0,
+							"y" : 1.0,
+							"z" : 1.0,
+						},
+						"u3" : 0.0,
+						"u4" : "\\n\\x0ficecastle_floor\\x10\\x01 \\x02",
+					},
+
+					"u7sub-sub-sub-sub-sub-block " :  {
+
+						"u" : -63.04446792602539,
+						"v" : -7.237478256225586,
+						"w" : -45.0,
+						"x" : 126.08893585205078,
+						"y" : 36.038448333740234,
+						"z" : 90.0,
+					},
+					"u8" : "\\x89-|Bch\\xe6A\\x00\\x00 \\xc2\\xd1Y\\xc5\\xbc\\xfc\\xec\\x7f?\\x00\\x00\\x00\\x00\\x00\\x00\\x00?\\x9a\\x99\\x99>\\x89-|Bch\\xe6A\\x00\\x00 B\\xd1Y\\xc5\\xbc\\xfc\\xec\\x7f?\\x00\\x00\\x00\\x00\\x00\\x00\\x00?333?\\x89-|B\\x93\\x9dyA\\x00\\x004B\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\xff\\xff\\x7f?@5\\xde>\\x9a\\x999?\\x89-|Bt^\\x86\\xc0ff B\\xd1Y\\xc5<\\xfc\\xec\\x7f\\xbf\\x00\\x00\\x00\\x80\\x1f\\x85\\xab>\\xf8S3?\\x89-|Bt^\\x86\\xc0\\x9a\\x99\\x1f\\xc2\\xd1Y\\xc5<\\xfc\\xec\\x7f\\xbf\\x00\\x00\\x00\\x80\\x1f\\x85\\xab>#\\xdb\\x99>\\x89-|B\\x93\\x9dyA\\x00\\x004\\xc2\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\xff\\xff\\x7f?@5\\xde>\\xcd\\xcc\\x8c>\\x89-|Bch\\xe6A\\x00\\x00 \\xc2\\xd1Y\\xc5\\xbc\\xfc\\xec\\x7f?\\x00\\x00\\x00\\x00\\x00\\x00\\x00?\\x9a\\x99\\x99>\\x89-|Bch\\xe6A\\x00\\x00 B\\xd1Y\\xc5\\xbc\\xfc\\xec\\x7f?\\x00\\x00\\x00\\x00\\x00\\x00\\x00?333?\\x89-|B\\x93\\x9dyA\\x00\\x004B\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\xff\\xff\\x7f?\\x00\\x00\\x00?|DE?\\x89-|Bt^\\x86\\xc0ff B\\xd1Y\\xc5<\\xfc\\xec\\x7f\\xbf\\x00\\x00\\x00\\x80\\x00\\x00\\x00?E`_?\\x89-|\\xc2\\xa5\\x19\\xceA\\x00\\x00 \\xc2\\xd1Y\\xc5\\xbc\\xfc\\xec\\x7f?\\x00\\x00\\x00\\x00^\\xe1\\x8c?\\x9a\\x99\\x99>\\x89-|\\xc2\\xa5\\x19\\xceA\\x00\\x00 B\\xd1Y\\xc5\\xbc\\xfc\\xec\\x7f?\\x00\\x00\\x00\\x00^\\xe1\\x8c?333?\\x89-|\\xc2\\x17\\x00IA\\x00\\x004B\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\xff\\xff\\x7f?^\\xe1\\x8c?|DE?\\x89-|\\xc2l\\x99\\xe7\\xc0ff B\\xd1Y\\xc5<\\xfc\\xec\\x7f\\xbf\\x00\\x00\\x00\\x80^\\xe1\\x8c?E`_?\\x89-|\\xc2\\xa5\\x19\\xceA\\x00\\x00 \\xc2\\xd1Y\\xc5\\xbc\\xfc\\xec\\x7f?\\x00\\x00\\x00\\x00^\\xe1\\x8c?\\x9a\\x99\\x99>\\x89-|\\xc2\\xa5\\x19\\xceA\\x00\\x00 B\\xd1Y\\xc5\\xbc\\xfc\\xec\\x7f?\\x00\\x00\\x00\\x00^\\xe1\\x8c?333?\\x89-|\\xc2\\x17\\x00IA\\x00\\x004B\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\xff\\xff\\x7f?\\x0eT\\x95?\\x9a\\x999?\\x89-|\\xc2l\\x99\\xe7\\xc0ff B\\xd1Y\\xc5<\\xfc\\xec\\x7f\\xbf\\x00\\x00\\x00\\x80\\x16\\x00\\xa2?\\xf8S3?\\x89-|\\xc2l\\x99\\xe7\\xc0\\x9a\\x99\\x1f\\xc2\\xd1Y\\xc5<\\xfc\\xec\\x7f\\xbf\\x00\\x00\\x00\\x80\\x16\\x00\\xa2?#\\xdb\\x99>\\x89-|\\xc2\\x17\\x00IA\\x00\\x004\\xc2\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\xff\\xff\\x7f?\\x0eT\\x95?\\xcd\\xcc\\x8c>",
+					"u9" : "\\x00\\x00\\x04\\x00\\x05\\x00\\x00\\x00\\x03\\x00\\x04\\x00\\x00\\x00\\x01\\x00\\x03\\x00\\x01\\x00\\x02\\x00\\x03\\x00\\x06\\x00\\n\\x00\\x0b\\x00\\x07\\x00\\x06\\x00\\x0b\\x00\\x07\\x00\\x0b\\x00\\x0c\\x00\\x08\\x00\\x07\\x00\\x0c\\x00\\x08\\x00\\x0c\\x00\\r\\x00\\t\\x00\\x08\\x00\\r\\x00\\x0e\\x00\\x13\\x00\\x12\\x00\\x0e\\x00\\x12\\x00\\x11\\x00\\x0e\\x00\\x11\\x00\\x0f\\x00\\x11\\x00\\x10\\x00\\x0f\\x00",
+				},
+
+				"u1sub-sub-sub-sub-block " :  {
+
+					"u0" : 8,
+					"u1" : 6,
+
+					"u2sub-sub-sub-sub-sub-block " :  {
+
+						"u0" : 4,
+						"u1" : 1,
+						"u2" : 2,
+						"u3" : 0,
+					},
+
+					"u3sub-sub-sub-sub-sub-block " :  {
+
+						"u0" : 7,
+						"u1" : 3,
+						"u2" : 32,
+						"u3" : 0,
+					},
+
+					"u4sub-sub-sub-sub-sub-block " :  {
+
+						"u0" : 7,
+						"u1" : 3,
+						"u2" : 32,
+						"u3" : 12,
+					},
+
+					"u5sub-sub-sub-sub-sub-block " :  {
+
+						"u0" : 7,
+						"u1" : 2,
+						"u2" : 32,
+						"u3" : 24,
+					},
+
+					"u6sub-sub-sub-sub-sub-block " :  {
+
+
+						"u0sub-sub-sub-sub-sub-sub-block " :  {
+
+							"w" : 1.0,
+							"x" : 1.0,
+							"y" : 1.0,
+							"z" : 1.0,
+						},
+
+						"u1sub-sub-sub-sub-sub-sub-block " :  {
+
+							"w" : 1.0,
+							"x" : 1.0,
+							"y" : 1.0,
+							"z" : 1.0,
+						},
+
+						"u2sub-sub-sub-sub-sub-sub-block " :  {
+
+							"w" : 1.0,
+							"x" : 1.0,
+							"y" : 1.0,
+							"z" : 1.0,
+						},
+						"u3" : 0.0,
+						"u4" : "\\n\\x10icecastle_ground\\x10\\x01 \\x02",
+					},
+
+					"u7sub-sub-sub-sub-sub-block " :  {
+
+						"u" : -60.04533767700195,
+						"v" : -28.72869873046875,
+						"w" : -35.0,
+						"x" : 120.0906753540039,
+						"y" : 57.4573974609375,
+						"z" : 70.0,
+					},
+					"u8" : "m.p\\xc2\\xa8\\xad\\xceA\\x00\\x00\\x0c\\xc27}s\\xbf\\x13\\x1a\\x9e\\xbe\\x00\\x00\\x00\\x00\\x00\\x00\\x00?\\xecQ\\xb8>m.p\\xc2\\xa8\\xad\\xceA\\x00\\x00\\x0cB7}s\\xbf\\x13\\x1a\\x9e\\xbe\\x00\\x00\\x00\\x00\\x00\\x00\\x00?\\n\\xd7#?\\xc0R)\\xc2`\\xd4\\xe5\\xc1\\x00\\x00\\x0c\\xc2=\\xef\\xf9\\xbe\\x0em_\\xbf\\x00\\x00\\x00\\x00n\\xbe:?\\xecQ\\xb8>\\xc0R)\\xc2`\\xd4\\xe5\\xc1\\x00\\x00\\x0cB=\\xef\\xf9\\xbe\\x0em_\\xbf\\x00\\x00\\x00\\x00n\\xbe:?\\n\\xd7#?\\xc0q\\x07B\\x80\\x83\\xd5\\xc1\\x00\\x00\\x0c\\xc2\\xee\\x95\\xfa>]>_\\xbf\\x00\\x00\\x00\\x00je\\x84?\\xecQ\\xb8>\\xc0q\\x07B\\x80\\x83\\xd5\\xc1\\x00\\x00\\x0cB\\xee\\x95\\xfa>]>_\\xbf\\x00\\x00\\x00\\x00je\\x84?\\n\\xd7#?m.pB`\\xd4\\xe5A\\x00\\x00\\x0c\\xc2\\xc6vg??\\xba\\xda\\xbe\\x00\\x00\\x00\\x00#\\xc7\\xa3?\\xecQ\\xb8>m.pB`\\xd4\\xe5A\\x00\\x00\\x0cB\\xc6vg??\\xba\\xda\\xbe\\x00\\x00\\x00\\x00#\\xc7\\xa3?\\n\\xd7#?",
+					"u9" : "\\x00\\x00\\x02\\x00\\x03\\x00\\x01\\x00\\x00\\x00\\x03\\x00\\x02\\x00\\x04\\x00\\x05\\x00\\x03\\x00\\x02\\x00\\x05\\x00\\x04\\x00\\x06\\x00\\x07\\x00\\x05\\x00\\x04\\x00\\x07\\x00",
+				},
+
+				"u2sub-sub-sub-sub-block " :  {
+
+					"u0" : 6,
+					"u1" : 2,
+
+					"u2sub-sub-sub-sub-sub-block " :  {
+
+						"u0" : 7,
+						"u1" : 3,
+						"u2" : 32,
+						"u3" : 0,
+					},
+
+					"u3sub-sub-sub-sub-sub-block " :  {
+
+						"u0" : 7,
+						"u1" : 3,
+						"u2" : 32,
+						"u3" : 12,
+					},
+
+					"u4sub-sub-sub-sub-sub-block " :  {
+
+						"u0" : 7,
+						"u1" : 2,
+						"u2" : 32,
+						"u3" : 24,
+					},
+
+					"u5sub-sub-sub-sub-sub-block " :  {
+
+
+						"u0sub-sub-sub-sub-sub-sub-block " :  {
+
+							"w" : 1.0,
+							"x" : 1.0,
+							"y" : 1.0,
+							"z" : 1.0,
+						},
+
+						"u1sub-sub-sub-sub-sub-sub-block " :  {
+
+							"w" : 1.0,
+							"x" : 1.0,
+							"y" : 1.0,
+							"z" : 1.0,
+						},
+
+						"u2sub-sub-sub-sub-sub-sub-block " :  {
+
+							"w" : 1.0,
+							"x" : 1.0,
+							"y" : 1.0,
+							"z" : 1.0,
+						},
+						"u3" : 0.0,
+
+						"u4sub-sub-sub-sub-sub-sub-block " :  {
+
+							"u0" : "icecastle_ground",
+							"u1" : 1,
+							"u2" : 2,
+						},
+					},
+
+					"u3sub-sub-sub-sub-sub-block " :  {
+
+						"u" : -60.04533767700195,
+						"v" : -28.72869873046875,
+						"w" : 35.0,
+						"x" : 120.0906753540039,
+						"y" : 57.4573974609375,
+						"z" : 0.0,
+					},
+					"u7" : "m.p\\xc2\\xa8\\xad\\xceA\\x00\\x00\\x0cB\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xf3\\x06\\x85>pt\\x1a?\\xc0R)\\xc2`\\xd4\\xe5\\xc1\\x00\\x00\\x0cB\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?wN\\xa9>\\xe3)\\xc5>\\xc0q\\x07B\\x80\\x83\\xd5\\xc1\\x00\\x00\\x0cB\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?{\\xac\"?+W\\xc9>m.p\\xc2\\xa8\\xad\\xceA\\x00\\x00\\x0cB\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xf3\\x06\\x85>pt\\x1a?\\xc0q\\x07B\\x80\\x83\\xd5\\xc1\\x00\\x00\\x0cB\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?{\\xac\"?+W\\xc9>m.pB`\\xd4\\xe5A\\x00\\x00\\x0cB\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\x86|=?\\x0ek\\x1d?",
+				},
+
+				"u3sub-sub-sub-sub-block " :  {
+
+					"w" : 1.0,
+					"x" : 1.0,
+					"y" : 1.0,
+					"z" : 1.0,
+				},
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "GroundMeshGenerator",
+			"number" : 102,
+
+			"ground mesh generatorsub-sub-sub-block " :  {
+
+				"ground polygon" : 100,
+				"ground mesh" : 101,
+				"texture mapping 1" : 103,
+				"texture mapping 2" : 104,
+				"u4" : 0,
+				"u5" : 0.0,
+				"u6" : 1,
+				"u7" : 70.0,
+				"u8" : 33.0,
+				"u9" : 5.0,
+				"u10" : 5.0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "TextureMapping",
+			"number" : 103,
+
+			"texture mappingsub-sub-sub-block " :  {
+
+				"texture file" : "icecastle_ground",
+				"u0" : 250.0,
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"u1" : 0.0,
+					"u2" : 0.0,
+				},
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "TextureMapping",
+			"number" : 104,
+
+			"texture mappingsub-sub-sub-block " :  {
+
+				"texture file" : "icecastle_floor",
+				"u0" : 200.0,
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"u1" : 0.0,
+					"u2" : 0.0,
+				},
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Program",
+			"number" : 107,
+
+			"programsub-sub-sub-block " :  {
+
+				"u0" : 1,
+
+				"lua chunksub-sub-sub-sub-block " :  {
+
+					"main chunk" : "chunk >
+
+					=== lua =============
+					local self = ...;
+					
+					local targetPosition;
+					local timeToSwitch = 3;
+					local interval = 0.2
+					
+					while true do
+					
+						Program.Wait(interval);
+						if timeToSwitch > 2 then
+							targetPosition = Scene.Find(self:identifier()..Math.RandomInt(1,3)):position();
+							timeToSwitch = 0;
+						else 
+							timeToSwitch = timeToSwitch + interval;
+						end
+					
+						local delta = targetPosition - self:position();
+					
+						PhysicsObject.SetGravityDirection(self, delta:normalized());
+						PhysicsObject.SetGravityMagnitude(self, 0.4);
+						PhysicsObject.SetDecelerationForce(self, 2);
+						
+					
+					end
+
+					=====================",
+					"secondary chunk" : "\\x1bLuaQ\\x00\\x01\\x04\\x04\\x04\\x08\\x00!\\x02\\x00\\x00local self = ...;\\r\\n\\r\\nlocal targetPosition;\\r\\nlocal timeToSwitch = 3;\\r\\nlocal interval = 0.2\\r\\n\\r\\nwhile true do\\r\\n\\r\\n\\tProgram.Wait(interval);\\r\\n\\tif timeToSwitch > 2 then\\r\\n\\t\\ttargetPosition = Scene.Find(self:identifier()..Math.RandomInt(1,3)):position();\\r\\n\\t\\ttimeToSwitch = 0;\\r\\n\\telse \\r\\n\\t\\ttimeToSwitch = timeToSwitch + interval;\\r\\n\\tend\\r\\n\\r\\n\\tlocal delta = targetPosition - self:position();\\r\\n\\r\\n\\tPhysicsObject.SetGravityDirection(self, delta:normalized());\\r\\n\\tPhysicsObject.SetGravityMagnitude(self, 0.4);\\r\\n\\tPhysicsObject.SetDecelerationForce(self, 2);\\r\\n\\t\\r\\n\\r\\nend\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x02\\t0\\x00\\x00\\x00%\\x00\\x00\\x01C\\x00\\x80\\x00\\x81\\x00\\x00\\x00\\xc1@\\x00\\x00\\x05\\x81\\x00\\x00\\x06\\xc1@\\x02@\\x01\\x80\\x01\\x1cA\\x00\\x01\\x18\\x80\\x00\\x82\\x16\\xc0\\x03\\x80\\x05A\\x01\\x00\\x06\\x81A\\x02K\\xc1A\\x00\\\\\\x81\\x00\\x01\\x85\\x01\\x02\\x00\\x86AB\\x03\\xc1\\x81\\x02\\x00\\x01\\x02\\x00\\x00\\x9c\\x81\\x80\\x01U\\x81\\x81\\x02\\x1c\\x81\\x00\\x01\\x0b\\xc1B\\x02\\x1c\\x81\\x00\\x01@\\x00\\x00\\x02\\x81\\x00\\x03\\x00\\x16\\x00\\x00\\x80\\x8c\\xc0\\x00\\x01\\x0b\\xc1B\\x00\\x1c\\x81\\x00\\x01\\r\\x01\\x81\\x00EA\\x03\\x00F\\x81\\xc3\\x02\\x80\\x01\\x00\\x00\\xcb\\xc1C\\x02\\xdc\\x01\\x00\\x01\\\\A\\x00\\x00EA\\x03\\x00F\\x01\\xc4\\x02\\x80\\x01\\x00\\x00\\xc1A\\x04\\x00\\\\A\\x80\\x01EA\\x03\\x00F\\x81\\xc4\\x02\\x80\\x01\\x00\\x00\\xc1\\x01\\x01\\x00\\\\A\\x80\\x01\\x16\\x00\\xf5\\x7f\\x1e\\x00\\x80\\x00\\x13\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x00\\x00\\x00\\x08@\\x03\\x9a\\x99\\x99\\x99\\x99\\x99\\xc9?\\x04\\x08\\x00\\x00\\x00Program\\x00\\x04\\x05\\x00\\x00\\x00Wait\\x00\\x03\\x00\\x00\\x00\\x00\\x00\\x00\\x00@\\x04\\x06\\x00\\x00\\x00Scene\\x00\\x04\\x05\\x00\\x00\\x00Find\\x00\\x04\\x0b\\x00\\x00\\x00identifier\\x00\\x04\\x05\\x00\\x00\\x00Math\\x00\\x04\\n\\x00\\x00\\x00RandomInt\\x00\\x03\\x00\\x00\\x00\\x00\\x00\\x00\\xf0?\\x04\\t\\x00\\x00\\x00position\\x00\\x03\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x04\\x0e\\x00\\x00\\x00PhysicsObject\\x00\\x04\\x14\\x00\\x00\\x00SetGravityDirection\\x00\\x04\\x0b\\x00\\x00\\x00normalized\\x00\\x04\\x14\\x00\\x00\\x00SetGravityMagnitude\\x00\\x03\\x9a\\x99\\x99\\x99\\x99\\x99\\xd9?\\x04\\x15\\x00\\x00\\x00SetDecelerationForce\\x00\\x00\\x00\\x00\\x000\\x00\\x00\\x00\\x01\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\t\\x00\\x00\\x00\\t\\x00\\x00\\x00\\t\\x00\\x00\\x00\\t\\x00\\x00\\x00\\n\\x00\\x00\\x00\\n\\x00\\x00\\x00\\x0b\\x00\\x00\\x00\\x0b\\x00\\x00\\x00\\x0b\\x00\\x00\\x00\\x0b\\x00\\x00\\x00\\x0b\\x00\\x00\\x00\\x0b\\x00\\x00\\x00\\x0b\\x00\\x00\\x00\\x0b\\x00\\x00\\x00\\x0b\\x00\\x00\\x00\\x0b\\x00\\x00\\x00\\x0b\\x00\\x00\\x00\\x0b\\x00\\x00\\x00\\x0b\\x00\\x00\\x00\\x0b\\x00\\x00\\x00\\x0c\\x00\\x00\\x00\\x0c\\x00\\x00\\x00\\x0e\\x00\\x00\\x00\\x11\\x00\\x00\\x00\\x11\\x00\\x00\\x00\\x11\\x00\\x00\\x00\\x13\\x00\\x00\\x00\\x13\\x00\\x00\\x00\\x13\\x00\\x00\\x00\\x13\\x00\\x00\\x00\\x13\\x00\\x00\\x00\\x13\\x00\\x00\\x00\\x14\\x00\\x00\\x00\\x14\\x00\\x00\\x00\\x14\\x00\\x00\\x00\\x14\\x00\\x00\\x00\\x14\\x00\\x00\\x00\\x15\\x00\\x00\\x00\\x15\\x00\\x00\\x00\\x15\\x00\\x00\\x00\\x15\\x00\\x00\\x00\\x15\\x00\\x00\\x00\\x15\\x00\\x00\\x00\\x18\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x05\\x00\\x00\\x00self\\x00\\x01\\x00\\x00\\x00/\\x00\\x00\\x00\\x0f\\x00\\x00\\x00targetPosition\\x00\\x02\\x00\\x00\\x00/\\x00\\x00\\x00\\r\\x00\\x00\\x00timeToSwitch\\x00\\x03\\x00\\x00\\x00/\\x00\\x00\\x00\\t\\x00\\x00\\x00interval\\x00\\x04\\x00\\x00\\x00/\\x00\\x00\\x00\\x06\\x00\\x00\\x00delta\\x00\\x1e\\x00\\x00\\x00.\\x00\\x00\\x00\\x00\\x00\\x00\\x00",
+				},
+				"u1" : 1,
+				"u2" : 1,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Properties",
+			"number" : 108,
+
+			"propertiessub-sub-sub-block " :  {
+
+				"u0" : "",
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "PhysicsObject",
+			"number" : 112,
+
+			"physics objectsub-sub-sub-block " :  {
+
+				"u0" : 1,
+				"u3" : 1500.0,
+				"u4" : 0.0,
+				"u5" : 700.0,
+				"u6" : 0,
+				"u7" : 0.0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "ParticleEmitter",
+			"number" : 116,
+
+			"particle emittersub-sub-sub-block " :  {
+
+				"particle" : 117,
+				"particle" : 118,
+				"particle" : 119,
+				"u1" : 0,
+				"u2" : 50,
+				"u3" : 0,
+				"u4" : 0,
+
+				"u5sub-sub-sub-sub-block " :  {
+
+					"u0" : 5,
+
+					"u1sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 1.0,
+						"x" : 0.7777778506278992,
+						"y" : 0.6111111640930176,
+						"z" : 0.47777777910232544,
+					},
+					"u2" : 270.0,
+					"u2" : 45.0,
+					"u2" : 0.0,
+					"u2" : 50.0,
+					"u2" : 0.0,
+					"u2" : 700.0,
+					"u2" : 0.0,
+					"u2" : 0.0,
+					"u2" : 1.0,
+					"u2" : 1.0,
+					"u2" : 1.0,
+					"u2" : 0.004999999888241291,
+					"u2" : 0.30000001192092896,
+					"u2" : 0.0,
+					"u2" : 0.0,
+					"u3" : 0.0,
+					"u4" : 0.0,
+					"u5" : 0.0,
+
+					"u6sub-sub-sub-sub-sub-block " :  {
+
+						"u0" : 0.0,
+						"u1" : 0.0,
+						"u2" : 0.0,
+					},
+				},
+				"u6" : 0,
+
+				"u7sub-sub-sub-sub-block " :  {
+
+					"u0" : 0.0,
+					"u1" : 4000.0,
+					"u2" : 0.0,
+				},
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Particle",
+			"number" : 117,
+
+			"particlesub-sub-sub-block " :  {
+
+				"name" : "particle_fure_1",
+				"u0" : 20.0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Particle",
+			"number" : 118,
+
+			"particlesub-sub-sub-block " :  {
+
+				"name" : "particle_fure_2",
+				"u0" : 15.0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Particle",
+			"number" : 119,
+
+			"particlesub-sub-sub-block " :  {
+
+				"name" : "particle_fure_3",
+				"u0" : 25.0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "SimpleGlow",
+			"number" : 123,
+
+			"simple glowsub-sub-sub-block " :  {
+
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"w" : 0.8333333134651184,
+					"x" : 0.800000011920929,
+					"y" : 0.7777777910232544,
+					"z" : 0.5,
+				},
+				"u1" : 60.0,
+				"u2" : 10,
+				"u3" : 15.0,
+				"u4" : 0.15000000596046448,
+				"u5" : 0.800000011920929,
+
+				"u6sub-sub-sub-sub-block " :  {
+
+					"y" : 0.0,
+					"z" : -20.0,
+				},
+			},
+		},
+
+		"positionsub-sub-block " :  {
+
+			"x position" : 0.0,
+			"y position" : 0.0,
+		},
+		"z position" : 0.0,
+		"rotation" : 0.0,
+		"scale" : 1.0,
+
+		"u0sub-sub-block " :  {
+
+			"w" : -60.04533767700195,
+			"x" : -60.0,
+			"y" : 120.0906753540039,
+			"z" : 120.0,
+		},
+		"hidden" : 0,
+	},
+	"u0" : 1.0,
+},
+
+"?itemblock " :  {
+
+
+	"?sub-itemsub-block " :  {
+
+		"name" : "icicles",
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Model",
+			"number" : 101,
+
+			"3D modelsub-sub-sub-block " :  {
+
+				"name" : "icicles2",
+				"u0" : 0.0,
+				"u1" : 0.0,
+				"u2" : -0.10471975803375244,
+
+				"u3sub-sub-sub-sub-block " :  {
+
+					"w" : 1.0,
+					"x" : 1.0,
+					"y" : 1.0,
+					"z" : 1.0,
+				},
+
+				"u4sub-sub-sub-sub-block " :  {
+
+					"x" : 0.0,
+					"y" : 0.0,
+					"z" : 0.0,
+				},
+				"u5" : 0,
+
+				"u6sub-sub-sub-sub-block " :  {
+
+					"w" : 1.0,
+					"x" : 1.0,
+					"y" : 1.0,
+					"z" : 1.0,
+				},
+			},
+		},
+
+		"positionsub-sub-block " :  {
+
+			"x position" : 0.0,
+			"y position" : 0.0,
+		},
+		"z position" : 0.0,
+		"rotation" : 0.0,
+		"scale" : 1.0,
+
+		"u0sub-sub-block " :  {
+
+			"w" : 0.0,
+			"x" : 0.0,
+			"y" : 0.0,
+			"z" : 0.0,
+		},
+		"hidden" : 0,
+	},
+	"u0" : 1.0,
+},
+
+"?itemblock " :  {
+
+
+	"?sub-itemsub-block " :  {
+
+		"name" : "icicles1",
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Model",
+			"number" : 101,
+
+			"3D modelsub-sub-sub-block " :  {
+
+				"name" : "icicles1",
+				"u0" : 0.0,
+				"u1" : 0.30000001192092896,
+				"u2" : -0.10471975803375244,
+
+				"u3sub-sub-sub-sub-block " :  {
+
+					"w" : 1.0,
+					"x" : 1.0,
+					"y" : 1.0,
+					"z" : 1.0,
+				},
+
+				"u4sub-sub-sub-sub-block " :  {
+
+					"x" : 0.0,
+					"y" : 0.0,
+					"z" : 0.0,
+				},
+				"u5" : 0,
+
+				"u6sub-sub-sub-sub-block " :  {
+
+					"w" : 1.0,
+					"x" : 1.0,
+					"y" : 1.0,
+					"z" : 1.0,
+				},
+			},
+		},
+
+		"positionsub-sub-block " :  {
+
+			"x position" : 0.0,
+			"y position" : 0.0,
+		},
+		"z position" : 0.0,
+		"rotation" : 0.0,
+		"scale" : 1.0,
+
+		"u0sub-sub-block " :  {
+
+			"w" : 0.0,
+			"x" : 0.0,
+			"y" : 0.0,
+			"z" : 0.0,
+		},
+		"hidden" : 0,
+	},
+	"u0" : 1.0,
+},
+
+"?itemblock " :  {
+
+
+	"?sub-itemsub-block " :  {
+
+		"name" : "pushingblock",
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "CollisionShape",
+			"number" : 1,
+			"? linked component" : 100,
+
+			"collision shapesub-sub-sub-block " :  {
+
+
+				"u2sub-sub-sub-sub-block " :  {
+
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"y" : 118.75103759765625,
+						"z" : 84.28853607177734,
+					},
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"y" : 89.45355987548828,
+						"z" : 84.38972473144531,
+					},
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"y" : 60.15608596801758,
+						"z" : 84.49090576171875,
+					},
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"y" : 30.858610153198242,
+						"z" : 84.59208679199219,
+					},
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"y" : 1.5611343383789062,
+						"z" : 84.69326782226562,
+					},
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"y" : -27.73634147644043,
+						"z" : 84.79444885253906,
+					},
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"y" : -57.033817291259766,
+						"z" : 84.89563751220703,
+					},
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"y" : -86.33129119873047,
+						"z" : 84.996826171875,
+					},
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"y" : -115.62876892089844,
+						"z" : 85.09800720214844,
+					},
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"y" : -115.6458969116211,
+						"z" : 74.6578140258789,
+					},
+					"u3" : 0,
+					"u4" : 0,
+				},
+			},
+
+			"collision shape 2sub-sub-sub-block " :  {
+
+				"u0" : 1,
+				"w" : -50.0,
+				"x" : 50.0,
+				"z" : 1,
+				"u4" : 0.10000000149011612,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "CollisionShape",
+			"number" : 2,
+			"? linked component" : 100,
+
+			"collision shapesub-sub-sub-block " :  {
+
+
+				"u2sub-sub-sub-sub-block " :  {
+
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"y" : -86.33129119873047,
+						"z" : 84.996826171875,
+					},
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"y" : -115.62876892089844,
+						"z" : 85.09800720214844,
+					},
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"y" : -115.6458969116211,
+						"z" : 74.6578140258789,
+					},
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"y" : -113.64139556884766,
+						"z" : 64.50469970703125,
+					},
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"y" : -116.43582916259766,
+						"z" : 53.51533508300781,
+					},
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"y" : -114.68743896484375,
+						"z" : 43.0943603515625,
+					},
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"y" : -114.7037353515625,
+						"z" : 32.39741516113281,
+					},
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"y" : -118.75103759765625,
+						"z" : 19.679183959960938,
+					},
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"y" : -113.47549438476562,
+						"z" : 10.752426147460938,
+					},
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"y" : -116.00431823730469,
+						"z" : -7.97857666015625,
+					},
+					"u3" : 0,
+					"u4" : 0,
+				},
+			},
+
+			"collision shape 2sub-sub-sub-block " :  {
+
+				"u0" : 1,
+				"w" : -50.0,
+				"x" : 50.0,
+				"z" : 1,
+				"u4" : 0.10000000149011612,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "CollisionShape",
+			"number" : 3,
+			"? linked component" : 100,
+
+			"collision shapesub-sub-sub-block " :  {
+
+
+				"u2sub-sub-sub-sub-block " :  {
+
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"y" : -118.75103759765625,
+						"z" : 19.679183959960938,
+					},
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"y" : -113.47549438476562,
+						"z" : 10.752426147460938,
+					},
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"y" : -116.00431823730469,
+						"z" : -7.97857666015625,
+					},
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"y" : -115.77980041503906,
+						"z" : -11.37750244140625,
+					},
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"y" : -115.80005645751953,
+						"z" : -19.303937911987305,
+					},
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"y" : -113.54844665527344,
+						"z" : -32.03961181640625,
+					},
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"y" : -115.83432006835938,
+						"z" : -40.184326171875,
+					},
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"y" : -116.85617065429688,
+						"z" : -50.60272216796875,
+					},
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"y" : -116.87110900878906,
+						"z" : -62.2926025390625,
+					},
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"y" : -114.8790283203125,
+						"z" : -71.78396606445312,
+					},
+					"u3" : 0,
+					"u4" : 0,
+				},
+			},
+
+			"collision shape 2sub-sub-sub-block " :  {
+
+				"u0" : 1,
+				"w" : -50.0,
+				"x" : 50.0,
+				"z" : 1,
+				"u4" : 0.10000000149011612,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "CollisionShape",
+			"number" : 4,
+			"? linked component" : 100,
+
+			"collision shapesub-sub-sub-block " :  {
+
+
+				"u2sub-sub-sub-sub-block " :  {
+
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"y" : -116.85617065429688,
+						"z" : -50.60272216796875,
+					},
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"y" : -116.87110900878906,
+						"z" : -62.2926025390625,
+					},
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"y" : -114.8790283203125,
+						"z" : -71.78396606445312,
+					},
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"y" : -115.90283966064453,
+						"z" : -81.94510650634766,
+					},
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"y" : -86.84756469726562,
+						"z" : -82.33921813964844,
+					},
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"y" : -57.79228210449219,
+						"z" : -82.73333740234375,
+					},
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"y" : -28.737001419067383,
+						"z" : -83.12744903564453,
+					},
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"y" : 0.3182792663574219,
+						"z" : -83.52156066894531,
+					},
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"y" : 29.373559951782227,
+						"z" : -83.91567993164062,
+					},
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"y" : 58.42884063720703,
+						"z" : -84.3097915649414,
+					},
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"y" : 87.48411560058594,
+						"z" : -84.70390319824219,
+					},
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"y" : 116.53939819335938,
+						"z" : -85.0980224609375,
+					},
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"y" : 118.75103759765625,
+						"z" : 84.28853607177734,
+					},
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"y" : 89.45355987548828,
+						"z" : 84.38972473144531,
+					},
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"y" : 60.15608596801758,
+						"z" : 84.49090576171875,
+					},
+					"u3" : 0,
+					"u4" : 0,
+				},
+			},
+
+			"collision shape 2sub-sub-sub-block " :  {
+
+				"u0" : 1,
+				"w" : -50.0,
+				"x" : 50.0,
+				"z" : 1,
+				"u4" : 0.10000000149011612,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "GroundPolygon",
+			"number" : 100,
+
+			"ground polygonsub-sub-sub-block " :  {
+
+
+				"sub-sub-sub-sub-block " :  {
+
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"x" : 118.75103759765625,
+						"y" : 84.28853607177734,
+					},
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"x" : 89.45355987548828,
+						"y" : 84.38972473144531,
+					},
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"x" : 60.15608596801758,
+						"y" : 84.49090576171875,
+					},
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"x" : 30.858610153198242,
+						"y" : 84.59208679199219,
+					},
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"x" : 1.5611343383789062,
+						"y" : 84.69326782226562,
+					},
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"x" : -27.73634147644043,
+						"y" : 84.79444885253906,
+					},
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"x" : -57.033817291259766,
+						"y" : 84.89563751220703,
+					},
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"x" : -86.33129119873047,
+						"y" : 84.996826171875,
+					},
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"x" : -115.62876892089844,
+						"y" : 85.09800720214844,
+					},
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"x" : -115.6458969116211,
+						"y" : 74.6578140258789,
+					},
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"x" : -113.64139556884766,
+						"y" : 64.50469970703125,
+					},
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"x" : -116.43582916259766,
+						"y" : 53.51533508300781,
+					},
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"x" : -114.68743896484375,
+						"y" : 43.0943603515625,
+					},
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"x" : -114.7037353515625,
+						"y" : 32.39741516113281,
+					},
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"x" : -118.75103759765625,
+						"y" : 19.679183959960938,
+					},
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"x" : -113.47549438476562,
+						"y" : 10.752426147460938,
+					},
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"x" : -116.00431823730469,
+						"y" : -7.97857666015625,
+					},
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"x" : -115.77980041503906,
+						"y" : -11.37750244140625,
+					},
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"x" : -115.80005645751953,
+						"y" : -19.303937911987305,
+					},
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"x" : -113.54844665527344,
+						"y" : -32.03961181640625,
+					},
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"x" : -115.83432006835938,
+						"y" : -40.184326171875,
+					},
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"x" : -116.85617065429688,
+						"y" : -50.60272216796875,
+					},
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"x" : -116.87110900878906,
+						"y" : -62.2926025390625,
+					},
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"x" : -114.8790283203125,
+						"y" : -71.78396606445312,
+					},
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"x" : -115.90283966064453,
+						"y" : -81.94510650634766,
+					},
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"x" : -86.84756469726562,
+						"y" : -82.33921813964844,
+					},
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"x" : -57.79228210449219,
+						"y" : -82.73333740234375,
+					},
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"x" : -28.737001419067383,
+						"y" : -83.12744903564453,
+					},
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"x" : 0.3182792663574219,
+						"y" : -83.52156066894531,
+					},
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"x" : 29.373559951782227,
+						"y" : -83.91567993164062,
+					},
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"x" : 58.42884063720703,
+						"y" : -84.3097915649414,
+					},
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"x" : 87.48411560058594,
+						"y" : -84.70390319824219,
+					},
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"x" : 116.53939819335938,
+						"y" : -85.0980224609375,
+					},
+					"u0" : 0,
+					"u1" : 1,
+				},
+				"u1" : 1,
+				"u2" : -50.0,
+				"u3" : 50.0,
+				"u4" : "",
+				"u5" : 0.10000000149011612,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "GroundMesh",
+			"number" : 101,
+
+			"ground meshsub-sub-sub-block " :  {
+
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"w" : -128.75103759765625,
+					"x" : -95.0980224609375,
+					"y" : 257.5020446777344,
+					"z" : 190.19602966308594,
+				},
+
+				"u1sub-sub-sub-sub-block " :  {
+
+					"u0" : 22,
+					"u1" : 20,
+
+					"u2sub-sub-sub-sub-sub-block " :  {
+
+						"u0" : 4,
+						"u1" : 1,
+						"u2" : 2,
+						"u3" : 0,
+					},
+
+					"u3sub-sub-sub-sub-sub-block " :  {
+
+						"u0" : 7,
+						"u1" : 3,
+						"u2" : 32,
+						"u3" : 0,
+					},
+
+					"u4sub-sub-sub-sub-sub-block " :  {
+
+						"u0" : 7,
+						"u1" : 3,
+						"u2" : 32,
+						"u3" : 12,
+					},
+
+					"u5sub-sub-sub-sub-sub-block " :  {
+
+						"u0" : 7,
+						"u1" : 2,
+						"u2" : 32,
+						"u3" : 24,
+					},
+
+					"u6sub-sub-sub-sub-sub-block " :  {
+
+
+						"u0sub-sub-sub-sub-sub-sub-block " :  {
+
+							"w" : 1.0,
+							"x" : 1.0,
+							"y" : 1.0,
+							"z" : 1.0,
+						},
+
+						"u1sub-sub-sub-sub-sub-sub-block " :  {
+
+							"w" : 1.0,
+							"x" : 1.0,
+							"y" : 1.0,
+							"z" : 1.0,
+						},
+
+						"u2sub-sub-sub-sub-sub-sub-block " :  {
+
+							"w" : 1.0,
+							"x" : 1.0,
+							"y" : 1.0,
+							"z" : 1.0,
+						},
+						"u3" : 0.0,
+						"u4" : "\\n\\x06icicle\\x10\\x01 \\x02",
+					},
+
+					"u7sub-sub-sub-sub-sub-block " :  {
+
+						"u" : -115.6458969116211,
+						"v" : 64.50469970703125,
+						"w" : -61.025184631347656,
+						"x" : 234.39694213867188,
+						"y" : 20.593307495117188,
+						"z" : 127.71442413330078,
+					},
+					"u8" : "\\x88\\x80\\xedB\\xbb\\x93\\xa8B\\xe5`\\x85B\\xd4\\xca|?N\\x98!>\\x00\\x00\\x00\\x00\\x00\\x00\\x00?\\xbc\\\\U?\\x88\\x80\\xedB\\xbb\\x93\\xa8B\\xc3\\x0e\\x00\\xc2\\xd4\\xca|?N\\x98!>\\x00\\x00\\x00\\x00\\x00\\x00\\x00?\\x08\\x0b\\xae>9\\xe8\\xb2B\\x8a\\xc7\\xa8B\\xbbt\\x19B6Wb;\\x9b\\xff\\x7f?\\x00\\x00\\x00\\x00A\\x80%?\\x1d\\x1b1?9\\xe8\\xb2B\\x8a\\xc7\\xa8B\\xe1\\x14@\\xc26Wb;\\x9b\\xff\\x7f?\\x00\\x00\\x00\\x00A\\x80%?\\\\\\x11\\x85>\\xd5\\x9fpBX\\xfb\\xa8B\\xe2&\\x02B\\x08Ub;\\x9c\\xff\\x7f?\\x00\\x00\\x00\\x00\\x82\\x00K?\\x0b\\xa6)?\\xd5\\x9fpBX\\xfb\\xa8B*\\xca\\x1d\\xc2\\x08Ub;\\x9c\\xff\\x7f?\\x00\\x00\\x00\\x00\\x82\\x00K?\\xbc\\x03\\x9b>o\\xde\\xf6A&/\\xa9B\\x8f\\x86^B\\x07Ub;\\x9b\\xff\\x7f?\\x00\\x00\\x00\\x00\\xc3\\x80p?L5G?o\\xde\\xf6A&/\\xa9B\\x16\\x9dF\\xc2\\x07Ub;\\x9b\\xff\\x7f?\\x00\\x00\\x00\\x00\\xc3\\x80p?%\\xe3\\x80>@\\xd3\\xc7?\\xf4b\\xa9B\\x7f\\xfd\\x1cB\\x07Ub;\\x9b\\xff\\x7f?\\x00\\x00\\x00\\x00\\x82\\x00\\x8b?\\xa4<2?@\\xd3\\xc7?\\xf4b\\xa9B(%5\\xc2\\x07Ub;\\x9b\\xff\\x7f?\\x00\\x00\\x00\\x00\\x82\\x00\\x8b?.\\x11\\x8c>\\x07\\xe4\\xdd\\xc1\\xc2\\x96\\xa9BuO\\x10B6Wb;\\x9b\\xff\\x7f?\\x00\\x00\\x00\\x00\\xa3\\xc0\\x9d?\\xe8-.?\\x07\\xe4\\xdd\\xc1\\xc2\\x96\\xa9Bd-h\\xc26Wb;\\x9b\\xff\\x7f?\\x00\\x00\\x00\\x00\\xa3\\xc0\\x9d?$\\xd0V>\\xa1\"d\\xc2\\x91\\xca\\xa9B\\xf1\\xde/BgYb;\\x9c\\xff\\x7f?\\x00\\x00\\x00\\x00\\xc3\\x80\\xb0?WG8?\\xa1\"d\\xc2\\x91\\xca\\xa9B\\xce\\x8c\\x0c\\xc2gYb;\\x9c\\xff\\x7f?\\x00\\x00\\x00\\x00\\xc3\\x80\\xb0?I\\x0c\\xa6>\\x9f\\xa9\\xac\\xc2`\\xfe\\xa9B\\xd8\\xca&B6Wb;\\x9b\\xff\\x7f?\\x00\\x00\\x00\\x00\\xe4@\\xc3?\\xa1_5?\\x9f\\xa9\\xac\\xc2`\\xfe\\xa9B\\x00H]\\xc26Wb;\\x9b\\xff\\x7f?\\x00\\x00\\x00\\x00\\xe4@\\xc3?\\x8f\\xc2d>\\xeeA\\xe7\\xc2.2\\xaaB\\xc9\\xee^B\\xf4K\\xaa\\xbe\\xa8lq?\\x00\\x00\\x00\\x00\\x04\\x01\\xd6?\\xa7VG?\\xeeA\\xe7\\xc2.2\\xaaB*\\x071\\xc2\\xf4K\\xaa\\xbe\\xa8lq?\\x00\\x00\\x00\\x00\\x04\\x01\\xd6?\\xbc\\xb3\\x8e>\\xb3J\\xe7\\xc2\\xcdP\\x95BH\\xff(B\\xf0\\xd0~\\xbf\\xd9\\xba\\xc4\\xbd\\x00\\x00\\x00\\x00\\x8a\\xaf\\xdc?@\\x146?\\xb3J\\xe7\\xc2\\xcdP\\x95B\\xca\\x19t\\xc2\\xf0\\xd0~\\xbf\\xd9\\xba\\xc4\\xbd\\x00\\x00\\x00\\x00\\x8a\\xaf\\xdc?\\x12\\x8dG>eH\\xe3\\xc2h\\x02\\x81B\\xceA9BN\\xd2\\x7f\\xbf\\xed\\xed\\x18=\\x00\\x00\\x00\\x00#O\\xe3?BH;?eH\\xe3\\xc2h\\x02\\x81B\\xeb(L\\xc2N\\xd2\\x7f\\xbf\\xed\\xed\\x18=\\x00\\x00\\x00\\x00#O\\xe3?\\xe8\\xacz>",
+					"u9" : "\\x00\\x00\\x01\\x00\\x02\\x00\\x01\\x00\\x03\\x00\\x02\\x00\\x02\\x00\\x03\\x00\\x04\\x00\\x03\\x00\\x05\\x00\\x04\\x00\\x04\\x00\\x05\\x00\\x06\\x00\\x05\\x00\\x07\\x00\\x06\\x00\\x06\\x00\\x07\\x00\\x08\\x00\\x07\\x00\\t\\x00\\x08\\x00\\x08\\x00\\t\\x00\\n\\x00\\t\\x00\\x0b\\x00\\n\\x00\\n\\x00\\x0b\\x00\\x0c\\x00\\x0b\\x00\\r\\x00\\x0c\\x00\\x0c\\x00\\r\\x00\\x0e\\x00\\r\\x00\\x0f\\x00\\x0e\\x00\\x0e\\x00\\x0f\\x00\\x10\\x00\\x0f\\x00\\x11\\x00\\x10\\x00\\x10\\x00\\x11\\x00\\x12\\x00\\x11\\x00\\x13\\x00\\x12\\x00\\x12\\x00\\x13\\x00\\x14\\x00\\x13\\x00\\x15\\x00\\x14\\x00",
+				},
+
+				"u1sub-sub-sub-sub-block " :  {
+
+					"u0" : 22,
+					"u1" : 20,
+
+					"u2sub-sub-sub-sub-sub-block " :  {
+
+						"u0" : 4,
+						"u1" : 1,
+						"u2" : 2,
+						"u3" : 0,
+					},
+
+					"u3sub-sub-sub-sub-sub-block " :  {
+
+						"u0" : 7,
+						"u1" : 3,
+						"u2" : 32,
+						"u3" : 0,
+					},
+
+					"u4sub-sub-sub-sub-sub-block " :  {
+
+						"u0" : 7,
+						"u1" : 3,
+						"u2" : 32,
+						"u3" : 12,
+					},
+
+					"u5sub-sub-sub-sub-sub-block " :  {
+
+						"u0" : 7,
+						"u1" : 2,
+						"u2" : 32,
+						"u3" : 24,
+					},
+
+					"u6sub-sub-sub-sub-sub-block " :  {
+
+
+						"u0sub-sub-sub-sub-sub-sub-block " :  {
+
+							"w" : 1.0,
+							"x" : 1.0,
+							"y" : 1.0,
+							"z" : 1.0,
+						},
+
+						"u1sub-sub-sub-sub-sub-sub-block " :  {
+
+							"w" : 1.0,
+							"x" : 1.0,
+							"y" : 1.0,
+							"z" : 1.0,
+						},
+
+						"u2sub-sub-sub-sub-sub-sub-block " :  {
+
+							"w" : 1.0,
+							"x" : 1.0,
+							"y" : 1.0,
+							"z" : 1.0,
+						},
+						"u3" : 0.0,
+						"u4" : "\\n\\x06icicle\\x10\\x01 \\x02",
+					},
+
+					"u7sub-sub-sub-sub-sub-block " :  {
+
+						"u" : -118.75103759765625,
+						"v" : -40.184326171875,
+						"w" : -62.093284606933594,
+						"x" : 5.275543212890625,
+						"y" : 104.68902587890625,
+						"z" : 123.7431640625,
+					},
+					"u8" : "eH\\xe3\\xc2h\\x02\\x81B\\xceA9BN\\xd2\\x7f\\xbf\\xed\\xed\\x18=\\x00\\x00\\x00\\x00#O\\xe3?BH;?eH\\xe3\\xc2h\\x02\\x81B\\xeb(L\\xc2N\\xd2\\x7f\\xbf\\xed\\xed\\x18=\\x00\\x00\\x00\\x00#O\\xe3?\\xe8\\xacz>%\\xdf\\xe8\\xc2\\xb4\\x0fVB\\t\\xa9\"B\\xed\\xb1\\x7f\\xbf,\\xe1G=\\x00\\x00\\x00\\x00\\xee\\x90\\xea?\"\\r4?%\\xdf\\xe8\\xc2\\xb4\\x0fVB\\xba\\xfc?\\xc2\\xed\\xb1\\x7f\\xbf,\\xe1G=\\x00\\x00\\x00\\x00\\xee\\x90\\xea?\\xd1 \\x85>\\xf8_\\xe5\\xc2\\xa0`,B\\xd7i\\x0fB\\xaa$\\x7f\\xbf;j\\xa7\\xbd\\x00\\x00\\x00\\x00*T\\xf1?n\\xe4-?\\xf8_\\xe5\\xc2\\xa0`,B\\xb88o\\xc2\\xaa$\\x7f\\xbf;j\\xa7\\xbd\\x00\\x00\\x00\\x00*T\\xf1?\\xe1\\xcbM>Ph\\xe5\\xc2\\xf4\\x96\\x01B\\xf4\\x88\\\'B\\xd6:|\\xbf\\xea\\x17/>\\x00\\x00\\x00\\x00\\xc1,\\xf8?w\\x9c5?Ph\\xe5\\xc2\\xf4\\x96\\x01B\\x7f\\xef\\xff\\xc1\\xd6:|\\xbf\\xea\\x17/>\\x00\\x00\\x00\\x00\\xc1,\\xf8?\\xc3\\x19\\xae>\\x88\\x80\\xed\\xc2\\xf8n\\x9dA\\xd0\\xd4`B\\xbe\\x96\\x7f\\xbf\\xb0\\rh\\xbd\\x00\\x00\\x00\\x00\\xbd[\\x00@.\\xf2G?\\x88\\x80\\xed\\xc2\\xf8n\\x9dA~\\xd8\\t\\xc2\\xbe\\x96\\x7f\\xbf\\xb0\\rh\\xbd\\x00\\x00\\x00\\x00\\xbd[\\x00@]\\xc7\\xa7>t\\xf3\\xe2\\xc2\\xf0\\t,A\\x9dx>B1\\xbf~\\xbf\\xadd\\xca\\xbd\\x00\\x00\\x00\\x00-\\xad\\x03@e\\xf3<?t\\xf3\\xe2\\xc2\\xf0\\t,A\\x7fU*\\xc21\\xbf~\\xbf\\xadd\\xca\\xbd\\x00\\x00\\x00\\x00-\\xad\\x03@|\\xfc\\x92>6\\x02\\xe8\\xc2\\x80P\\xff\\xc0\\xa2\\xe6pB\\x96\\x9f~\\xbf\\x91\\x1a\\xd4=\\x00\\x00\\x00\\x00\\x8a\\xb9\\t@\\x9a\\x16M?6\\x02\\xe8\\xc2\\x80P\\xff\\xc0\\xd0\\xa0b\\xc2\\x96\\x9f~\\xbf\\x91\\x1a\\xd4=\\x00\\x00\\x00\\x00\\x8a\\xb9\\t@{\\xea]>B\\x8f\\xe7\\xc2@\\n6\\xc1D\\xb3\\x1fBX\\xf5\\x7f\\xbf\\xa2\\xb9\\x93\\xbc\\x00\\x00\\x00\\x00\\x96\\xd0\\n@\\xa5\\x1a3?B\\x8f\\xe7\\xc2@\\n6\\xc17\\x0bX\\xc2X\\xf5\\x7f\\xbf\\xa2\\xb9\\x93\\xbc\\x00\\x00\\x00\\x00\\x96\\xd0\\n@\\xc4vk>\\xa1\\x99\\xe7\\xc2wn\\x9a\\xc1c;_B(\\x85~\\xbf\\xe5\\xe3\\xdb\\xbd\\x00\\x00\\x00\\x00\\xecY\\r@*oG?\\xa1\\x99\\xe7\\xc2wn\\x9a\\xc1\\x89\\xc0T\\xc2(\\x85~\\xbf\\xe5\\xe3\\xdb\\xbd\\x00\\x00\\x00\\x00\\xecY\\r@e\\xado>\\xce\\x18\\xe3\\xc2\\x90(\\x00\\xc2\\xfaq<B\\xea\\xff\\x7f\\xbf\\xf9\\x14\\xd7:\\x00\\x00\\x00\\x00h}\\x11@oM<?\\xce\\x18\\xe3\\xc2\\x90(\\x00\\xc2\\x86_x\\xc2\\xea\\xff\\x7f\\xbf\\xf9\\x14\\xd7:\\x00\\x00\\x00\\x00h}\\x11@\\x17\\x15B>,\\xab\\xe7\\xc2\\xc0\\xbc \\xc2z\\x99vB\\xba\\x07|\\xbf\\x92\\xa23>\\x00\\x00\\x00\\x00g2\\x14@o\\xe9N?,\\xab\\xe7\\xc2\\xc0\\xbc \\xc2\\x82\\x93U\\xc2\\xba\\x07|\\xbf\\x92\\xa23>\\x00\\x00\\x00\\x00g2\\x14@Z\\x9fn>",
+					"u9" : "\\x00\\x00\\x01\\x00\\x02\\x00\\x01\\x00\\x03\\x00\\x02\\x00\\x02\\x00\\x03\\x00\\x04\\x00\\x03\\x00\\x05\\x00\\x04\\x00\\x04\\x00\\x05\\x00\\x06\\x00\\x05\\x00\\x07\\x00\\x06\\x00\\x06\\x00\\x07\\x00\\x08\\x00\\x07\\x00\\t\\x00\\x08\\x00\\x08\\x00\\t\\x00\\n\\x00\\t\\x00\\x0b\\x00\\n\\x00\\n\\x00\\x0b\\x00\\x0c\\x00\\x0b\\x00\\r\\x00\\x0c\\x00\\x0c\\x00\\r\\x00\\x0e\\x00\\r\\x00\\x0f\\x00\\x0e\\x00\\x0e\\x00\\x0f\\x00\\x10\\x00\\x0f\\x00\\x11\\x00\\x10\\x00\\x10\\x00\\x11\\x00\\x12\\x00\\x11\\x00\\x13\\x00\\x12\\x00\\x12\\x00\\x13\\x00\\x14\\x00\\x13\\x00\\x15\\x00\\x14\\x00",
+				},
+
+				"u1sub-sub-sub-sub-block " :  {
+
+					"u0" : 22,
+					"u1" : 20,
+
+					"u2sub-sub-sub-sub-sub-block " :  {
+
+						"u0" : 4,
+						"u1" : 1,
+						"u2" : 2,
+						"u3" : 0,
+					},
+
+					"u3sub-sub-sub-sub-sub-block " :  {
+
+						"u0" : 7,
+						"u1" : 3,
+						"u2" : 32,
+						"u3" : 0,
+					},
+
+					"u4sub-sub-sub-sub-sub-block " :  {
+
+						"u0" : 7,
+						"u1" : 3,
+						"u2" : 32,
+						"u3" : 12,
+					},
+
+					"u5sub-sub-sub-sub-sub-block " :  {
+
+						"u0" : 7,
+						"u1" : 2,
+						"u2" : 32,
+						"u3" : 24,
+					},
+
+					"u6sub-sub-sub-sub-sub-block " :  {
+
+
+						"u0sub-sub-sub-sub-sub-sub-block " :  {
+
+							"w" : 1.0,
+							"x" : 1.0,
+							"y" : 1.0,
+							"z" : 1.0,
+						},
+
+						"u1sub-sub-sub-sub-sub-sub-block " :  {
+
+							"w" : 1.0,
+							"x" : 1.0,
+							"y" : 1.0,
+							"z" : 1.0,
+						},
+
+						"u2sub-sub-sub-sub-sub-sub-block " :  {
+
+							"w" : 1.0,
+							"x" : 1.0,
+							"y" : 1.0,
+							"z" : 1.0,
+						},
+						"u3" : 0.0,
+						"u4" : "\\n\\x06icicle\\x10\\x01 \\x02",
+					},
+
+					"u7sub-sub-sub-sub-sub-block " :  {
+
+						"u" : -116.87110900878906,
+						"v" : -84.3097915649414,
+						"w" : -69.37248992919922,
+						"x" : 175.29995727539062,
+						"y" : 44.125465393066406,
+						"z" : 138.74468994140625,
+					},
+					"u8" : ",\\xab\\xe7\\xc2\\xc0\\xbc \\xc2z\\x99vB\\xba\\x07|\\xbf\\x92\\xa23>\\x00\\x00\\x00\\x00g2\\x14@o\\xe9N?,\\xab\\xe7\\xc2\\xc0\\xbc \\xc2\\x82\\x93U\\xc2\\xba\\x07|\\xbf\\x92\\xa23>\\x00\\x00\\x00\\x00g2\\x14@Z\\x9fn>\\\\\\xb6\\xe9\\xc20iJ\\xc2\\x1d\\x91/B\\x0e\\xb8\\x7f\\xbf\\x00\\xe0?=\\x00\\x00\\x00\\x00\\xf9\\x8b\\x17@p.8?\\\\\\xb6\\xe9\\xc20iJ\\xc2\\xb2\\xf5N\\xc2\\x0e\\xb8\\x7f\\xbf\\x00\\xe0?=\\x00\\x00\\x00\\x00\\xf9\\x8b\\x17@n\\x17w>\\x02\\xbe\\xe9\\xc2\\xa0+y\\xc2G\\x92\\x00BW\\xe4~\\xbfRW\\xbe\\xbd\\x00\\x00\\x00\\x00\\x9cI\\x1b@\\x92$)?\\x02\\xbe\\xe9\\xc2\\xa0+y\\xc28\\xb3\\x80\\xc2W\\xe4~\\xbfRW\\xbe\\xbd\\x00\\x00\\x00\\x00\\x9cI\\x1b@\\x1f\\x876>\\x10\\xc2\\xe5\\xc2d\\x91\\x8f\\xc2\\x90\\xbe\\x8aB\\x9b\\xb0\\x7f\\xbf>\\x90I\\xbd\\x00\\x00\\x00\\x00\\x14d\\x1e@\\xe1\\xcbX?\\x10\\xc2\\xe5\\xc2d\\x91\\x8f\\xc2\\xb7\\xbe\\x8a\\xc2\\x9b\\xb0\\x7f\\xbf>\\x90I\\xbd\\x00\\x00\\x00\\x00\\x14d\\x1e@\\x17\\xd0\\x1c>A\\xce\\xe7\\xc2\\xe5\\xe3\\xa3\\xc2\\x01\\xeb!B\\x1em\\xb4\\xbe\\xf6\\x93o\\xbf\\x00\\x00\\x00\\x00\\xb2\\xa8!@R\\xd03?A\\xce\\xe7\\xc2\\xe5\\xe3\\xa3\\xc2|\\xeb:\\xc2\\x1em\\xb4\\xbe\\xf6\\x93o\\xbf\\x00\\x00\\x00\\x00\\xb2\\xa8!@\\r_\\x88>\\xf4\\xb1\\xad\\xc2\\xae\\xad\\xa4\\xc2U\\xa5\\x0bB\\xb47^\\xbc\\xfa\\xf9\\x7f\\xbf\\x00\\x00\\x00\\x00\\x1f\\xf5*@\\xc9\\xaf,?\\xf4\\xb1\\xad\\xc2\\xae\\xad\\xa4\\xc2!\\xb1N\\xc2\\xb47^\\xbc\\xfa\\xf9\\x7f\\xbf\\x00\\x00\\x00\\x00\\x1f\\xf5*@2ow>L+g\\xc2xw\\xa5\\xc2^o{B\\xb27^\\xbc\\xfa\\xf9\\x7f\\xbf\\x00\\x00\\x00\\x00\\x8dA4@\\x8fuP?L+g\\xc2xw\\xa5\\xc2\\x83c\\x0b\\xc2\\xb27^\\xbc\\xfa\\xf9\\x7f\\xbf\\x00\\x00\\x00\\x00\\x8dA4@\\x8d\\xca\\xa6>a\\xe5\\xe5\\xc1AA\\xa6\\xc274LB%7^\\xbc\\xf9\\xf9\\x7f\\xbf\\x00\\x00\\x00\\x00\\xfa\\x8d=@dXA?a\\xe5\\xe5\\xc1AA\\xa6\\xc2\\xe6l@\\xc2%7^\\xbc\\xf9\\xf9\\x7f\\xbf\\x00\\x00\\x00\\x00\\xfa\\x8d=@\\x06\\xd9\\x84>\\x80\\xf5\\xa2>\\n\\x0b\\xa7\\xc2\\xde\\x0b>B\\xb27^\\xbc\\xf9\\xf9\\x7f\\xbf\\x00\\x00\\x00\\x00h\\xdaF@\\x99\\xd0<?\\x80\\xf5\\xa2>\\n\\x0b\\xa7\\xc2a\\xdaj\\xc2\\xb27^\\xbc\\xf9\\xf9\\x7f\\xbf\\x00\\x00\\x00\\x00h\\xdaF@[cS>\\r\\xfd\\xeaA\\xd4\\xd4\\xa7\\xc2\\x87V\\x19B\\xb27^\\xbc\\xf9\\xf9\\x7f\\xbf\\x00\\x00\\x00\\x00\\xd6&P@s\\x111?\\r\\xfd\\xeaA\\xd4\\xd4\\xa7\\xc2\\xa2g;\\xc2\\xb27^\\xbc\\xf9\\xf9\\x7f\\xbf\\x00\\x00\\x00\\x00\\xd6&P@\\x98\\x0f\\x88>\"\\xb7iB\\x9d\\x9e\\xa8\\xc2L\\xc6fB\\\'7^\\xbc\\xfa\\xf9\\x7f\\xbf\\x00\\x00\\x00\\x00DsY@\\x0e\\xd9I?\"\\xb7iB\\x9d\\x9e\\xa8\\xc2\\xf51+\\xc2\\\'7^\\xbc\\xfa\\xf9\\x7f\\xbf\\x00\\x00\\x00\\x00DsY@co\\x92>",
+					"u9" : "\\x00\\x00\\x01\\x00\\x02\\x00\\x01\\x00\\x03\\x00\\x02\\x00\\x02\\x00\\x03\\x00\\x04\\x00\\x03\\x00\\x05\\x00\\x04\\x00\\x04\\x00\\x05\\x00\\x06\\x00\\x05\\x00\\x07\\x00\\x06\\x00\\x06\\x00\\x07\\x00\\x08\\x00\\x07\\x00\\t\\x00\\x08\\x00\\x08\\x00\\t\\x00\\n\\x00\\t\\x00\\x0b\\x00\\n\\x00\\n\\x00\\x0b\\x00\\x0c\\x00\\x0b\\x00\\r\\x00\\x0c\\x00\\x0c\\x00\\r\\x00\\x0e\\x00\\r\\x00\\x0f\\x00\\x0e\\x00\\x0e\\x00\\x0f\\x00\\x10\\x00\\x0f\\x00\\x11\\x00\\x10\\x00\\x10\\x00\\x11\\x00\\x12\\x00\\x11\\x00\\x13\\x00\\x12\\x00\\x12\\x00\\x13\\x00\\x14\\x00\\x13\\x00\\x15\\x00\\x14\\x00",
+				},
+
+				"u1sub-sub-sub-sub-block " :  {
+
+					"u0" : 8,
+					"u1" : 6,
+
+					"u2sub-sub-sub-sub-sub-block " :  {
+
+						"u0" : 4,
+						"u1" : 1,
+						"u2" : 2,
+						"u3" : 0,
+					},
+
+					"u3sub-sub-sub-sub-sub-block " :  {
+
+						"u0" : 7,
+						"u1" : 3,
+						"u2" : 32,
+						"u3" : 0,
+					},
+
+					"u4sub-sub-sub-sub-sub-block " :  {
+
+						"u0" : 7,
+						"u1" : 3,
+						"u2" : 32,
+						"u3" : 12,
+					},
+
+					"u5sub-sub-sub-sub-sub-block " :  {
+
+						"u0" : 7,
+						"u1" : 2,
+						"u2" : 32,
+						"u3" : 24,
+					},
+
+					"u6sub-sub-sub-sub-sub-block " :  {
+
+
+						"u0sub-sub-sub-sub-sub-sub-block " :  {
+
+							"w" : 1.0,
+							"x" : 1.0,
+							"y" : 1.0,
+							"z" : 1.0,
+						},
+
+						"u1sub-sub-sub-sub-sub-sub-block " :  {
+
+							"w" : 1.0,
+							"x" : 1.0,
+							"y" : 1.0,
+							"z" : 1.0,
+						},
+
+						"u2sub-sub-sub-sub-sub-sub-block " :  {
+
+							"w" : 1.0,
+							"x" : 1.0,
+							"y" : 1.0,
+							"z" : 1.0,
+						},
+						"u3" : 0.0,
+						"u4" : "\\n\\x06icicle\\x10\\x01 \\x02",
+					},
+
+					"u7sub-sub-sub-sub-sub-block " :  {
+
+						"u" : 58.42884063720703,
+						"v" : -85.0980224609375,
+						"w" : -54.936683654785156,
+						"x" : 60.32219696044922,
+						"y" : 169.3865509033203,
+						"z" : 121.62592315673828,
+					},
+					"u8" : "\\x88\\x80\\xedB\\xbb\\x93\\xa8B\\xe5`\\x85B\\xd4\\xca|?N\\x98!>\\x00\\x00\\x00\\x00\\x00\\x00\\x00?\\xbc\\\\U?\\x88\\x80\\xedB\\xbb\\x93\\xa8B\\xc3\\x0e\\x00\\xc2\\xd4\\xca|?N\\x98!>\\x00\\x00\\x00\\x00\\x00\\x00\\x00?\\x08\\x0b\\xae>\"\\xb7iB\\x9d\\x9e\\xa8\\xc2L\\xc6fB\\\'7^\\xbc\\xfa\\xf9\\x7f\\xbf\\x00\\x00\\x00\\x00DsY@\\x0e\\xd9I?\"\\xb7iB\\x9d\\x9e\\xa8\\xc2\\xf51+\\xc2\\\'7^\\xbc\\xfa\\xf9\\x7f\\xbf\\x00\\x00\\x00\\x00DsY@co\\x92>\\xde\\xf7\\xaeBfh\\xa9\\xc2=\\xf4\\x1bB\\xb47^\\xbc\\xfa\\xf9\\x7f\\xbf\\x00\\x00\\x00\\x00\\xb1\\xbfb@\\xc2\\xe71?\\xde\\xf7\\xaeBfh\\xa9\\xc2\\xc8\\xdc\\x0b\\xc2\\xb47^\\xbc\\xfa\\xf9\\x7f\\xbf\\x00\\x00\\x00\\x00\\xb1\\xbfb@\\xf1|\\xa6>,\\x14\\xe9B02\\xaa\\xc2`\\xa8jBF\\xba{?YL:\\xbe\\x00\\x00\\x00\\x00\\x1f\\x0cl@)\\x17K?,\\x14\\xe9B02\\xaa\\xc2*\\xbf[\\xc2F\\xba{?YL:\\xbe\\x00\\x00\\x00\\x00\\x1f\\x0cl@d\\xb9f>",
+					"u9" : "\\x02\\x00\\x03\\x00\\x04\\x00\\x03\\x00\\x05\\x00\\x04\\x00\\x04\\x00\\x05\\x00\\x06\\x00\\x05\\x00\\x07\\x00\\x06\\x00\\x06\\x00\\x07\\x00\\x00\\x00\\x07\\x00\\x01\\x00\\x00\\x00",
+				},
+
+				"u2sub-sub-sub-sub-block " :  {
+
+					"u0" : 60,
+					"u1" : 20,
+
+					"u2sub-sub-sub-sub-sub-block " :  {
+
+						"u0" : 7,
+						"u1" : 3,
+						"u2" : 32,
+						"u3" : 0,
+					},
+
+					"u3sub-sub-sub-sub-sub-block " :  {
+
+						"u0" : 7,
+						"u1" : 3,
+						"u2" : 32,
+						"u3" : 12,
+					},
+
+					"u4sub-sub-sub-sub-sub-block " :  {
+
+						"u0" : 7,
+						"u1" : 2,
+						"u2" : 32,
+						"u3" : 24,
+					},
+
+					"u5sub-sub-sub-sub-sub-block " :  {
+
+
+						"u0sub-sub-sub-sub-sub-sub-block " :  {
+
+							"w" : 1.0,
+							"x" : 1.0,
+							"y" : 1.0,
+							"z" : 1.0,
+						},
+
+						"u1sub-sub-sub-sub-sub-sub-block " :  {
+
+							"w" : 1.0,
+							"x" : 1.0,
+							"y" : 1.0,
+							"z" : 1.0,
+						},
+
+						"u2sub-sub-sub-sub-sub-sub-block " :  {
+
+							"w" : 1.0,
+							"x" : 1.0,
+							"y" : 1.0,
+							"z" : 1.0,
+						},
+						"u3" : 0.0,
+
+						"u4sub-sub-sub-sub-sub-sub-block " :  {
+
+							"u0" : "icicle",
+							"u1" : 1,
+							"u2" : 2,
+						},
+					},
+
+					"u3sub-sub-sub-sub-sub-block " :  {
+
+						"u" : -115.90283966064453,
+						"v" : -85.0980224609375,
+						"w" : 32.53797149658203,
+						"x" : 234.65386962890625,
+						"y" : 170.19602966308594,
+						"z" : 36.83422088623047,
+					},
+					"u7" : "9\\xe8\\xb2B\\x8a\\xc7\\xa8B\\xbbt\\x19BN\\xe51\\xbf\\xbe\\x96\\xcc\\xbc\\x9a\\xfa7?\\xb7\\x99[?CjV?,\\x14\\xe9B02\\xaa\\xc2`\\xa8jBN\\xe51\\xbf\\xbe\\x96\\xcc\\xbc\\x9a\\xfa7?\\x1bVw?Bp#>\\x88\\x80\\xedB\\xbb\\x93\\xa8B\\xe5`\\x85BN\\xe51\\xbf\\xbe\\x96\\xcc\\xbc\\x9a\\xfa7?\\xdf\\x99y?\\xbcOV?9\\xe8\\xb2B\\x8a\\xc7\\xa8B\\xbbt\\x19B\\xa3\\x83\\x0f\\xbf&\\x15\\x1d<\\xbf\\xf9S?\\xb7\\x99[?CjV?\\xde\\xf7\\xaeBfh\\xa9\\xc2=\\xf4\\x1bB\\xa3\\x83\\x0f\\xbf&\\x15\\x1d<\\xbf\\xf9S?p\\x95Y?\\x85\\r%>,\\x14\\xe9B02\\xaa\\xc2`\\xa8jB\\xa3\\x83\\x0f\\xbf&\\x15\\x1d<\\xbf\\xf9S?\\x1bVw?Bp#>\\xd5\\x9fpBX\\xfb\\xa8B\\xe2&\\x02B-\\xb2G\\xbe\\x15 \\xc1;\\x90\\x14{?\\x8f\\x99=?\\xc9\\x84V?\\xde\\xf7\\xaeBfh\\xa9\\xc2=\\xf4\\x1bB-\\xb2G\\xbe\\x15 \\xc1;\\x90\\x14{?p\\x95Y?\\x85\\r%>9\\xe8\\xb2B\\x8a\\xc7\\xa8B\\xbbt\\x19B-\\xb2G\\xbe\\x15 \\xc1;\\x90\\x14{?\\xb7\\x99[?CjV?\\xd5\\x9fpBX\\xfb\\xa8B\\xe2&\\x02Bd\\xe2\\t?\\xc4K\\xf3=\\x0e\\x8aU?\\x8f\\x99=?\\xc9\\x84V?\"\\xb7iB\\x9d\\x9e\\xa8\\xc2L\\xc6fBd\\xe2\\t?\\xc4K\\xf3=\\x0e\\x8aU?\\xc5\\xd4;?\\xc7\\xaa&>\\xde\\xf7\\xaeBfh\\xa9\\xc2=\\xf4\\x1bBd\\xe2\\t?\\xc4K\\xf3=\\x0e\\x8aU?p\\x95Y?\\x85\\r%>o\\xde\\xf6A&/\\xa9B\\x8f\\x86^B\\x06\\x93\\x1d?\\xb6H\\xe1=\\x7f\\xc8G?f\\x99\\x1f?O\\x9fV?\"\\xb7iB\\x9d\\x9e\\xa8\\xc2L\\xc6fB\\x06\\x93\\x1d?\\xb6H\\xe1=\\x7f\\xc8G?\\xc5\\xd4;?\\xc7\\xaa&>\\xd5\\x9fpBX\\xfb\\xa8B\\xe2&\\x02B\\x06\\x93\\x1d?\\xb6H\\xe1=\\x7f\\xc8G?\\x8f\\x99=?\\xc9\\x84V?o\\xde\\xf6A&/\\xa9B\\x8f\\x86^B\\xc0\\xae\\r\\xbf\\x9aI\\xa4\\xbd\\x1f:T?f\\x99\\x1f?O\\x9fV?\\r\\xfd\\xeaA\\xd4\\xd4\\xa7\\xc2\\x87V\\x19B\\xc0\\xae\\r\\xbf\\x9aI\\xa4\\xbd\\x1f:T?\\x1a\\x14\\x1e?\\x08H(>\"\\xb7iB\\x9d\\x9e\\xa8\\xc2L\\xc6fB\\xc0\\xae\\r\\xbf\\x9aI\\xa4\\xbd\\x1f:T?\\xc5\\xd4;?\\xc7\\xaa&>@\\xd3\\xc7?\\xf4b\\xa9B\\x7f\\xfd\\x1cB\\x96\\x1c\\xf9\\xbee\\x02\\xae\\xbdo\\x98^?>\\x99\\x01?\\xd5\\xb9V?\\r\\xfd\\xeaA\\xd4\\xd4\\xa7\\xc2\\x87V\\x19B\\x96\\x1c\\xf9\\xbee\\x02\\xae\\xbdo\\x98^?\\x1a\\x14\\x1e?\\x08H(>o\\xde\\xf6A&/\\xa9B\\x8f\\x86^B\\x96\\x1c\\xf9\\xbee\\x02\\xae\\xbdo\\x98^?f\\x99\\x1f?O\\x9fV?@\\xd3\\xc7?\\xf4b\\xa9B\\x7f\\xfd\\x1cB\\x81U\\x9a>5\\x896=q\\xd3s?>\\x99\\x01?\\xd5\\xb9V?\\x80\\xf5\\xa2>\\n\\x0b\\xa7\\xc2\\xde\\x0b>B\\x81U\\x9a>5\\x896=q\\xd3s?oS\\x00?L\\xe5)>\\r\\xfd\\xeaA\\xd4\\xd4\\xa7\\xc2\\x87V\\x19B\\x81U\\x9a>5\\x896=q\\xd3s?\\x1a\\x14\\x1e?\\x08H(>\\x07\\xe4\\xdd\\xc1\\xc2\\x96\\xa9BuO\\x10B<\\xb0\\xdb\\xbdg\\x10K=\\xcc4~?+2\\xc7>[\\xd4V?\\x80\\xf5\\xa2>\\n\\x0b\\xa7\\xc2\\xde\\x0b>B<\\xb0\\xdb\\xbdg\\x10K=\\xcc4~?oS\\x00?L\\xe5)>@\\xd3\\xc7?\\xf4b\\xa9B\\x7f\\xfd\\x1cB<\\xb0\\xdb\\xbdg\\x10K=\\xcc4~?>\\x99\\x01?\\xd5\\xb9V?\\x07\\xe4\\xdd\\xc1\\xc2\\x96\\xa9BuO\\x10B\\xf3\\x17\\xf9=\\xa8\\x12\\xb3=\\x8f\\x1c}?+2\\xc7>[\\xd4V?a\\xe5\\xe5\\xc1AA\\xa6\\xc274LB\\xf3\\x17\\xf9=\\xa8\\x12\\xb3=\\x8f\\x1c}?\\x89%\\xc5>\\x8d\\x82+>\\x80\\xf5\\xa2>\\n\\x0b\\xa7\\xc2\\xde\\x0b>B\\xf3\\x17\\xf9=\\xa8\\x12\\xb3=\\x8f\\x1c}?oS\\x00?L\\xe5)>\\xa1\"d\\xc2\\x91\\xca\\xa9B\\xf1\\xde/B\\x0f\\xcf\\x84>w\\x87\\xac=\\x96Kv?\\xdb1\\x8b>\\xe2\\xeeV?a\\xe5\\xe5\\xc1AA\\xa6\\xc274LB\\x0f\\xcf\\x84>w\\x87\\xac=\\x96Kv?\\x89%\\xc5>\\x8d\\x82+>\\x07\\xe4\\xdd\\xc1\\xc2\\x96\\xa9BuO\\x10B\\x0f\\xcf\\x84>w\\x87\\xac=\\x96Kv?+2\\xc7>[\\xd4V?\\xa1\"d\\xc2\\x91\\xca\\xa9B\\xf1\\xde/B\\xe8\\\\\\xc0>\\x9f\\x1b\\xd1=\\xf1\\xcck?\\xdb1\\x8b>\\xe2\\xeeV?L+g\\xc2xw\\xa5\\xc2^o{B\\xe8\\\\\\xc0>\\x9f\\x1b\\xd1=\\xf1\\xcck?3\\xa4\\x89>\\xcf\\x1f->a\\xe5\\xe5\\xc1AA\\xa6\\xc274LB\\xe8\\\\\\xc0>\\x9f\\x1b\\xd1=\\xf1\\xcck?\\x89%\\xc5>\\x8d\\x82+>\\x9f\\xa9\\xac\\xc2`\\xfe\\xa9B\\xd8\\xca&B\\xfce\\x9c\\xbd\\xb3`\\xe5=\\x10\\xa3}?\\x14c\\x1e>h\\tW?L+g\\xc2xw\\xa5\\xc2^o{B\\xfce\\x9c\\xbd\\xb3`\\xe5=\\x10\\xa3}?3\\xa4\\x89>\\xcf\\x1f->\\xa1\"d\\xc2\\x91\\xca\\xa9B\\xf1\\xde/B\\xfce\\x9c\\xbd\\xb3`\\xe5=\\x10\\xa3}?\\xdb1\\x8b>\\xe2\\xeeV?\\x9f\\xa9\\xac\\xc2`\\xfe\\xa9B\\xd8\\xca&Bxs1\\xbf\\xa8\\xc8\\xdd\\xbcqc8?\\x14c\\x1e>h\\tW?\\xf4\\xb1\\xad\\xc2\\xae\\xad\\xa4\\xc2U\\xa5\\x0bBxs1\\xbf\\xa8\\xc8\\xdd\\xbcqc8?\\xbaE\\x1c>\\x12\\xbd.>L+g\\xc2xw\\xa5\\xc2^o{Bxs1\\xbf\\xa8\\xc8\\xdd\\xbcqc8?3\\xa4\\x89>\\xcf\\x1f->eH\\xe3\\xc2h\\x02\\x81B\\xceA9Bh\\xd6\\xfc>\\xdf,\\xb9<`\\x88^?q\\x19:=\\x85\\rB?t\\xf3\\xe2\\xc2\\xf0\\t,A\\x9dx>Bh\\xd6\\xfc>\\xdf,\\xb9<`\\x88^?H\\xd1<=\\xaf\\x02\\x0b?\\xf4\\xb1\\xad\\xc2\\xae\\xad\\xa4\\xc2U\\xa5\\x0bBh\\xd6\\xfc>\\xdf,\\xb9<`\\x88^?\\xbaE\\x1c>\\x12\\xbd.>\\xeeA\\xe7\\xc2.2\\xaaB\\xc9\\xee^B\\xd2\\x0fu\\xbfs\\x17D\\xbeV\\xe6]>\\xcb\\x89\\x19=\\xef#W?eH\\xe3\\xc2h\\x02\\x81B\\xceA9B\\xd2\\x0fu\\xbfs\\x17D\\xbeV\\xe6]>q\\x19:=\\x85\\rB?\\xf4\\xb1\\xad\\xc2\\xae\\xad\\xa4\\xc2U\\xa5\\x0bB\\xd2\\x0fu\\xbfs\\x17D\\xbeV\\xe6]>\\xbaE\\x1c>\\x12\\xbd.>\\xeeA\\xe7\\xc2.2\\xaaB\\xc9\\xee^B\\x84\\xfd\\xdc>0,\\x1b\\xbd\\xe8\\xb8f?\\xcb\\x89\\x19=\\xef#W?\\xf4\\xb1\\xad\\xc2\\xae\\xad\\xa4\\xc2U\\xa5\\x0bB\\x84\\xfd\\xdc>0,\\x1b\\xbd\\xe8\\xb8f?\\xbaE\\x1c>\\x12\\xbd.>\\x9f\\xa9\\xac\\xc2`\\xfe\\xa9B\\xd8\\xca&B\\x84\\xfd\\xdc>0,\\x1b\\xbd\\xe8\\xb8f?\\x14c\\x1e>h\\tW?\\xf4\\xb1\\xad\\xc2\\xae\\xad\\xa4\\xc2U\\xa5\\x0bBE\\x84\\xcb>\\x92\\x07=\\xbch\\xe3j?\\xbaE\\x1c>\\x12\\xbd.>t\\xf3\\xe2\\xc2\\xf0\\t,A\\x9dx>BE\\x84\\xcb>\\x92\\x07=\\xbch\\xe3j?H\\xd1<=\\xaf\\x02\\x0b?\\xce\\x18\\xe3\\xc2\\x90(\\x00\\xc2\\xfaq<BE\\x84\\xcb>\\x92\\x07=\\xbch\\xe3j?L\\x9f;=\\x04b\\xbe>\\xf4\\xb1\\xad\\xc2\\xae\\xad\\xa4\\xc2U\\xa5\\x0bBm\\xe0H?\\xa9\\xc1\\x90>\\xee:\\r?\\xbaE\\x1c>\\x12\\xbd.>\\xce\\x18\\xe3\\xc2\\x90(\\x00\\xc2\\xfaq<Bm\\xe0H?\\xa9\\xc1\\x90>\\xee:\\r?L\\x9f;=\\x04b\\xbe>\\x10\\xc2\\xe5\\xc2d\\x91\\x8f\\xc2\\x90\\xbe\\x8aBm\\xe0H?\\xa9\\xc1\\x90>\\xee:\\r?o\\xd2%=\\x0e\\xf9Y>\\xf4\\xb1\\xad\\xc2\\xae\\xad\\xa4\\xc2U\\xa5\\x0bB,vN=\\x19Vq\\xbf\\x9e\\xd5\\xa8>\\xbaE\\x1c>\\x12\\xbd.>\\x10\\xc2\\xe5\\xc2d\\x91\\x8f\\xc2\\x90\\xbe\\x8aB,vN=\\x19Vq\\xbf\\x9e\\xd5\\xa8>o\\xd2%=\\x0e\\xf9Y>A\\xce\\xe7\\xc2\\xe5\\xe3\\xa3\\xc2\\x01\\xeb!B,vN=\\x19Vq\\xbf\\x9e\\xd5\\xa8>B\\x0c\\x15=TZ0>",
+				},
+
+				"u2sub-sub-sub-sub-block " :  {
+
+					"u0" : 33,
+					"u1" : 11,
+
+					"u2sub-sub-sub-sub-sub-block " :  {
+
+						"u0" : 7,
+						"u1" : 3,
+						"u2" : 32,
+						"u3" : 0,
+					},
+
+					"u3sub-sub-sub-sub-sub-block " :  {
+
+						"u0" : 7,
+						"u1" : 3,
+						"u2" : 32,
+						"u3" : 12,
+					},
+
+					"u4sub-sub-sub-sub-sub-block " :  {
+
+						"u0" : 7,
+						"u1" : 2,
+						"u2" : 32,
+						"u3" : 24,
+					},
+
+					"u5sub-sub-sub-sub-sub-block " :  {
+
+
+						"u0sub-sub-sub-sub-sub-sub-block " :  {
+
+							"w" : 1.0,
+							"x" : 1.0,
+							"y" : 1.0,
+							"z" : 1.0,
+						},
+
+						"u1sub-sub-sub-sub-sub-sub-block " :  {
+
+							"w" : 1.0,
+							"x" : 1.0,
+							"y" : 1.0,
+							"z" : 1.0,
+						},
+
+						"u2sub-sub-sub-sub-sub-sub-block " :  {
+
+							"w" : 1.0,
+							"x" : 1.0,
+							"y" : 1.0,
+							"z" : 1.0,
+						},
+						"u3" : 0.0,
+
+						"u4sub-sub-sub-sub-sub-sub-block " :  {
+
+							"u0" : "icicle",
+							"u1" : 1,
+							"u2" : 2,
+						},
+					},
+
+					"u3sub-sub-sub-sub-sub-block " :  {
+
+						"u" : -118.75103759765625,
+						"v" : -71.78396606445312,
+						"w" : 32.14284896850586,
+						"x" : 5.275543212890625,
+						"y" : 156.88197326660156,
+						"z" : 37.22934341430664,
+					},
+					"u7" : "t\\xf3\\xe2\\xc2\\xf0\\t,A\\x9dx>Be\\xb2~\\xbf\\x16[$\\xbaY`\\xce=H\\xd1<=\\xaf\\x02\\x0b?eH\\xe3\\xc2h\\x02\\x81B\\xceA9Be\\xb2~\\xbf\\x16[$\\xbaY`\\xce=q\\x19:=\\x85\\rB?\\xf8_\\xe5\\xc2\\xa0`,B\\xd7i\\x0fBe\\xb2~\\xbf\\x16[$\\xbaY`\\xce=\\x04\\xf6(=\\xee ,?t\\xf3\\xe2\\xc2\\xf0\\t,A\\x9dx>B\\x9c\\xdby?\\xa8\\xac\\xd8=\\xb7\\xdfB>H\\xd1<=\\xaf\\x02\\x0b?\\xf8_\\xe5\\xc2\\xa0`,B\\xd7i\\x0fB\\x9c\\xdby?\\xa8\\xac\\xd8=\\xb7\\xdfB>\\x04\\xf6(=\\xee ,?Ph\\xe5\\xc2\\xf4\\x96\\x01B\\xf4\\x88\\\'B\\x9c\\xdby?\\xa8\\xac\\xd8=\\xb7\\xdfB>\\xaa\\xb1(=\\xca,!?t\\xf3\\xe2\\xc2\\xf0\\t,A\\x9dx>B\\xdf\\xdag?\\xc2\\x94\\x1f>\\x1f\\xde\\xc9>H\\xd1<=\\xaf\\x02\\x0b?Ph\\xe5\\xc2\\xf4\\x96\\x01B\\xf4\\x88\\\'B\\xdf\\xdag?\\xc2\\x94\\x1f>\\x1f\\xde\\xc9>\\xaa\\xb1(=\\xca,!?\\x88\\x80\\xed\\xc2\\xf8n\\x9dA\\xd0\\xd4`B\\xdf\\xdag?\\xc2\\x94\\x1f>\\x1f\\xde\\xc9>\\x19\\xc4\\xcc<\\xc8&\\x14?\\xeeA\\xe7\\xc2.2\\xaaB\\xc9\\xee^B\\x9du{\\xbf\\xb12\\x17\\xbe\\\'\\xb1\\xec=\\xcb\\x89\\x19=\\xef#W?\\xb3J\\xe7\\xc2\\xcdP\\x95BH\\xff(B\\x9du{\\xbf\\xb12\\x17\\xbe\\\'\\xb1\\xec=\\xf4A\\x19=\\x19sL?eH\\xe3\\xc2h\\x02\\x81B\\xceA9B\\x9du{\\xbf\\xb12\\x17\\xbe\\\'\\xb1\\xec=q\\x19:=\\x85\\rB?eH\\xe3\\xc2h\\x02\\x81B\\xceA9BPC\\xe3\\xbd \"\\xdd\\xbe4#e?q\\x19:=\\x85\\rB?%\\xdf\\xe8\\xc2\\xb4\\x0fVB\\t\\xa9\"BPC\\xe3\\xbd \"\\xdd\\xbe4#e?\\xbcP\\x0c=\\xb9\\xcc6?\\xf8_\\xe5\\xc2\\xa0`,B\\xd7i\\x0fBPC\\xe3\\xbd \"\\xdd\\xbe4#e?\\x04\\xf6(=\\xee ,?6\\x02\\xe8\\xc2\\x80P\\xff\\xc0\\xa2\\xe6pB\\xa0\\x93~\\xbf6=\\xd7\\xbd07\\xd8;\\xa0b\\x13=\\xee\\xa8\\xef>B\\x8f\\xe7\\xc2@\\n6\\xc1D\\xb3\\x1fB\\xa0\\x93~\\xbf6=\\xd7\\xbd07\\xd8;R\\x10\\x17=\\xe9\\xb2\\xe8>\\xce\\x18\\xe3\\xc2\\x90(\\x00\\xc2\\xfaq<B\\xa0\\x93~\\xbf6=\\xd7\\xbd07\\xd8;L\\x9f;=\\x04b\\xbe>6\\x02\\xe8\\xc2\\x80P\\xff\\xc0\\xa2\\xe6pBsH{?5\\xed\\x80\\xbb\\x18\\xa0C>\\xa0b\\x13=\\xee\\xa8\\xef>\\xce\\x18\\xe3\\xc2\\x90(\\x00\\xc2\\xfaq<BsH{?5\\xed\\x80\\xbb\\x18\\xa0C>L\\x9f;=\\x04b\\xbe>t\\xf3\\xe2\\xc2\\xf0\\t,A\\x9dx>BsH{?5\\xed\\x80\\xbb\\x18\\xa0C>H\\xd1<=\\xaf\\x02\\x0b?,\\xab\\xe7\\xc2\\xc0\\xbc \\xc2z\\x99vB\\xb9.z?\\x874\\x9f=\\xfc\\xefI>\\xa6+\\x16=\\xd7\\xb3\\xad>\\x10\\xc2\\xe5\\xc2d\\x91\\x8f\\xc2\\x90\\xbe\\x8aB\\xb9.z?\\x874\\x9f=\\xfc\\xefI>o\\xd2%=\\x0e\\xf9Y>\\xce\\x18\\xe3\\xc2\\x90(\\x00\\xc2\\xfaq<B\\xb9.z?\\x874\\x9f=\\xfc\\xefI>L\\x9f;=\\x04b\\xbe>\\x10\\xc2\\xe5\\xc2d\\x91\\x8f\\xc2\\x90\\xbe\\x8aB\\xe9k\\x7f\\xbf$+g\\xbc\\x9f\\x88\\x86=o\\xd2%=\\x0e\\xf9Y>,\\xab\\xe7\\xc2\\xc0\\xbc \\xc2z\\x99vB\\xe9k\\x7f\\xbf$+g\\xbc\\x9f\\x88\\x86=\\xa6+\\x16=\\xd7\\xb3\\xad>\\\\\\xb6\\xe9\\xc20iJ\\xc2\\x1d\\x91/B\\xe9k\\x7f\\xbf$+g\\xbc\\x9f\\x88\\x86=\\xb2m\\x05=\\x9a]\\x98>\\x10\\xc2\\xe5\\xc2d\\x91\\x8f\\xc2\\x90\\xbe\\x8aB\\xe8\\x8a\\x7f\\xbf\\xe1\\xdf*\\xbd 7/=o\\xd2%=\\x0e\\xf9Y>\\\\\\xb6\\xe9\\xc20iJ\\xc2\\x1d\\x91/B\\xe8\\x8a\\x7f\\xbf\\xe1\\xdf*\\xbd 7/=\\xb2m\\x05=\\x9a]\\x98>\\x02\\xbe\\xe9\\xc2\\xa0+y\\xc2G\\x92\\x00B\\xe8\\x8a\\x7f\\xbf\\xe1\\xdf*\\xbd 7/=\\n/\\x05=\\xbcl\\x80>B\\x8f\\xe7\\xc2@\\n6\\xc1D\\xb3\\x1fB-E}?6\\xed\\x04>RB\\x87=R\\x10\\x17=\\xe9\\xb2\\xe8>\\xa1\\x99\\xe7\\xc2wn\\x9a\\xc1c;_B-E}?6\\xed\\x04>RB\\x87=\\\\\\xbb\\x16=-w\\xd8>\\xce\\x18\\xe3\\xc2\\x90(\\x00\\xc2\\xfaq<B-E}?6\\xed\\x04>RB\\x87=L\\x9f;=\\x04b\\xbe>",
+				},
+
+				"u3sub-sub-sub-sub-block " :  {
+
+					"w" : 1.0,
+					"x" : 1.0,
+					"y" : 1.0,
+					"z" : 1.0,
+				},
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "GroundMeshGenerator",
+			"number" : 102,
+
+			"ground mesh generatorsub-sub-sub-block " :  {
+
+				"ground polygon" : 100,
+				"ground mesh" : 101,
+				"texture mapping 1" : 103,
+				"texture mapping 2" : 104,
+				"u4" : 296986106,
+				"u5" : 40.0,
+				"u6" : 0,
+				"u7" : 100.0,
+				"u8" : 33.0,
+				"u9" : 5.0,
+				"u10" : 5.0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "TextureMapping",
+			"number" : 103,
+
+			"texture mappingsub-sub-sub-block " :  {
+
+				"texture file" : "icicle",
+				"u0" : 250.0,
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"u1" : 0.0,
+					"u2" : 0.0,
+				},
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "TextureMapping",
+			"number" : 104,
+
+			"texture mappingsub-sub-sub-block " :  {
+
+				"texture file" : "icicle",
+				"u0" : 200.0,
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"u1" : 0.0,
+					"u2" : 0.0,
+				},
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Program",
+			"number" : 107,
+
+			"programsub-sub-sub-block " :  {
+
+				"u0" : 1,
+
+				"lua chunksub-sub-sub-sub-block " :  {
+
+					"main chunk" : "chunk >
+
+					=== lua =============
+					local self = ...;
+					
+					local time = 1.5;
+					
+					while true do	TransformController.TranslateTo(self, Scene.Find(self:identifier()..\"_closed\"):position(), time);
+						Program.Wait(time);
+						TransformController.TranslateTo(self, Scene.Find(self:identifier()..\"_open\"):position(), time);
+						Program.Wait(time);
+					end
+
+					=====================",
+					"secondary chunk" : "\\x1bLuaQ\\x00\\x01\\x04\\x04\\x04\\x08\\x00-\\x01\\x00\\x00local self = ...;\\r\\n\\r\\nlocal time = 1.5;\\r\\n\\r\\nwhile true do\\tTransformController.TranslateTo(self, Scene.Find(self:identifier()..\"_closed\"):position(), time);\\r\\n\\tProgram.Wait(time);\\r\\n\\tTransformController.TranslateTo(self, Scene.Find(self:identifier()..\"_open\"):position(), time);\\r\\n\\tProgram.Wait(time);\\r\\nend\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x02\\x07(\\x00\\x00\\x00%\\x00\\x00\\x01A\\x00\\x00\\x00\\x85@\\x00\\x00\\x86\\x80@\\x01\\xc0\\x00\\x00\\x00\\x05\\xc1\\x00\\x00\\x06\\x01A\\x02KAA\\x00\\\\\\x81\\x00\\x01\\x81\\x81\\x01\\x00U\\x81\\x81\\x02\\x1c\\x81\\x00\\x01\\x0b\\xc1A\\x02\\x1c\\x81\\x00\\x01@\\x01\\x80\\x00\\x9c@\\x00\\x02\\x85\\x00\\x02\\x00\\x86@B\\x01\\xc0\\x00\\x80\\x00\\x9c@\\x00\\x01\\x85@\\x00\\x00\\x86\\x80@\\x01\\xc0\\x00\\x00\\x00\\x05\\xc1\\x00\\x00\\x06\\x01A\\x02KAA\\x00\\\\\\x81\\x00\\x01\\x81\\x81\\x02\\x00U\\x81\\x81\\x02\\x1c\\x81\\x00\\x01\\x0b\\xc1A\\x02\\x1c\\x81\\x00\\x01@\\x01\\x80\\x00\\x9c@\\x00\\x02\\x85\\x00\\x02\\x00\\x86@B\\x01\\xc0\\x00\\x80\\x00\\x9c@\\x00\\x01\\x16\\x80\\xf6\\x7f\\x1e\\x00\\x80\\x00\\x0b\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x00\\x00\\x00\\xf8?\\x04\\x14\\x00\\x00\\x00TransformController\\x00\\x04\\x0c\\x00\\x00\\x00TranslateTo\\x00\\x04\\x06\\x00\\x00\\x00Scene\\x00\\x04\\x05\\x00\\x00\\x00Find\\x00\\x04\\x0b\\x00\\x00\\x00identifier\\x00\\x04\\x08\\x00\\x00\\x00_closed\\x00\\x04\\t\\x00\\x00\\x00position\\x00\\x04\\x08\\x00\\x00\\x00Program\\x00\\x04\\x05\\x00\\x00\\x00Wait\\x00\\x04\\x06\\x00\\x00\\x00_open\\x00\\x00\\x00\\x00\\x00(\\x00\\x00\\x00\\x01\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x06\\x00\\x00\\x00\\x06\\x00\\x00\\x00\\x06\\x00\\x00\\x00\\x06\\x00\\x00\\x00\\x07\\x00\\x00\\x00\\x07\\x00\\x00\\x00\\x07\\x00\\x00\\x00\\x07\\x00\\x00\\x00\\x07\\x00\\x00\\x00\\x07\\x00\\x00\\x00\\x07\\x00\\x00\\x00\\x07\\x00\\x00\\x00\\x07\\x00\\x00\\x00\\x07\\x00\\x00\\x00\\x07\\x00\\x00\\x00\\x07\\x00\\x00\\x00\\x07\\x00\\x00\\x00\\x07\\x00\\x00\\x00\\x08\\x00\\x00\\x00\\x08\\x00\\x00\\x00\\x08\\x00\\x00\\x00\\x08\\x00\\x00\\x00\\x08\\x00\\x00\\x00\\t\\x00\\x00\\x00\\x02\\x00\\x00\\x00\\x05\\x00\\x00\\x00self\\x00\\x01\\x00\\x00\\x00\\\'\\x00\\x00\\x00\\x05\\x00\\x00\\x00time\\x00\\x02\\x00\\x00\\x00\\\'\\x00\\x00\\x00\\x00\\x00\\x00\\x00",
+				},
+				"u1" : 1,
+				"u2" : 1,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "TransformController",
+			"number" : 110,
+		},
+
+		"positionsub-sub-block " :  {
+
+			"x position" : 0.0,
+			"y position" : 0.0,
+		},
+		"z position" : 0.0,
+		"rotation" : 0.0,
+		"scale" : 1.0,
+
+		"u0sub-sub-block " :  {
+
+			"w" : -118.75103759765625,
+			"x" : -85.0980224609375,
+			"y" : 237.50204467773438,
+			"z" : 170.19602966308594,
+		},
+		"hidden" : 0,
+	},
+	"u0" : 1.0,
+},
+
+"?itemblock " :  {
+
+
+	"?sub-itemsub-block " :  {
+
+		"name" : "snowball_launcher",
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Program",
+			"number" : 101,
+
+			"programsub-sub-sub-block " :  {
+
+				"u0" : 1,
+
+				"lua chunksub-sub-sub-sub-block " :  {
+
+					"main chunk" : "chunk >
+
+					=== lua =============
+					local self = ...;
+					
+					while true do
+						Scene.CreateObject(\"ballofsnow_5s\",\"ballofsnow\",self);
+						Program.Wait(3);
+					end
+
+					=====================",
+					"secondary chunk" : "\\x1bLuaQ\\x00\\x01\\x04\\x04\\x04\\x08\\x00t\\x00\\x00\\x00local self = ...;\\r\\n\\r\\nwhile true do\\r\\n\\tScene.CreateObject(\"ballofsnow_5s\",\"ballofsnow\",self);\\r\\n\\tProgram.Wait(3);\\r\\nend\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x02\\x05\\r\\x00\\x00\\x00%\\x00\\x00\\x01E\\x00\\x00\\x00F@\\xc0\\x00\\x81\\x80\\x00\\x00\\xc1\\xc0\\x00\\x00\\x00\\x01\\x00\\x00\\\\@\\x00\\x02E\\x00\\x01\\x00F@\\xc1\\x00\\x81\\x80\\x01\\x00\\\\@\\x00\\x01\\x16\\x00\\xfd\\x7f\\x1e\\x00\\x80\\x00\\x07\\x00\\x00\\x00\\x04\\x06\\x00\\x00\\x00Scene\\x00\\x04\\r\\x00\\x00\\x00CreateObject\\x00\\x04\\x0e\\x00\\x00\\x00ballofsnow_5s\\x00\\x04\\x0b\\x00\\x00\\x00ballofsnow\\x00\\x04\\x08\\x00\\x00\\x00Program\\x00\\x04\\x05\\x00\\x00\\x00Wait\\x00\\x03\\x00\\x00\\x00\\x00\\x00\\x00\\x08@\\x00\\x00\\x00\\x00\\r\\x00\\x00\\x00\\x01\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x06\\x00\\x00\\x00\\x01\\x00\\x00\\x00\\x05\\x00\\x00\\x00self\\x00\\x01\\x00\\x00\\x00\\x0c\\x00\\x00\\x00\\x00\\x00\\x00\\x00",
+				},
+				"u1" : 1,
+				"u2" : 1,
+			},
+		},
+
+		"positionsub-sub-block " :  {
+
+			"x position" : 0.0,
+			"y position" : 0.0,
+		},
+		"z position" : 0.0,
+		"rotation" : 0.0,
+		"scale" : 1.0,
+
+		"u0sub-sub-block " :  {
+
+			"w" : -10.0,
+			"x" : -10.0,
+			"y" : 20.0,
+			"z" : 20.0,
+		},
+		"hidden" : 0,
+	},
+	"u0" : 1.0,
+},
+
+"?itemblock " :  {
+
+
+	"?sub-itemsub-block " :  {
+
+		"name" : "snowy_arc",
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "CollisionShape",
+			"number" : 1,
+			"? linked component" : 103,
+
+			"collision shapesub-sub-sub-block " :  {
+
+
+				"u2sub-sub-sub-sub-block " :  {
+
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"y" : -3.64306640625,
+						"z" : 108.123046875,
+					},
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"y" : 26.36865234375,
+						"z" : 108.0592041015625,
+					},
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"y" : 27.021728515625,
+						"z" : 127.966796875,
+					},
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"y" : -2.758056640625,
+						"z" : 127.4410400390625,
+					},
+					"u3" : 0,
+					"u4" : 1,
+				},
+			},
+
+			"collision shape 2sub-sub-sub-block " :  {
+
+				"u0" : 1,
+				"w" : -50.0,
+				"x" : 50.0,
+				"z" : 1,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Model",
+			"number" : 101,
+
+			"3D modelsub-sub-sub-block " :  {
+
+				"name" : "snowy_arch",
+				"u0" : 1.5707963705062866,
+				"u1" : 0.0,
+				"u2" : 0.0,
+
+				"u3sub-sub-sub-sub-block " :  {
+
+					"w" : 1.0,
+					"x" : 1.0,
+					"y" : 1.0,
+					"z" : 1.0,
+				},
+
+				"u4sub-sub-sub-sub-block " :  {
+
+					"x" : 0.0,
+					"y" : 0.0,
+					"z" : 0.0,
+				},
+				"u5" : 0,
+
+				"u6sub-sub-sub-sub-block " :  {
+
+					"w" : 1.0,
+					"x" : 1.0,
+					"y" : 1.0,
+					"z" : 1.0,
+				},
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "GroundPolygon",
+			"number" : 103,
+
+			"ground polygonsub-sub-sub-block " :  {
+
+
+				"sub-sub-sub-sub-block " :  {
+
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"x" : -3.64306640625,
+						"y" : 108.123046875,
+					},
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"x" : 26.36865234375,
+						"y" : 108.0592041015625,
+					},
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"x" : 27.021728515625,
+						"y" : 127.966796875,
+					},
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"x" : -2.758056640625,
+						"y" : 127.4410400390625,
+					},
+					"u0" : 0,
+					"u1" : 1,
+				},
+				"u1" : 1,
+				"u2" : -50.0,
+				"u3" : 50.0,
+				"u4" : "",
+			},
+		},
+
+		"positionsub-sub-block " :  {
+
+			"x position" : 0.0,
+			"y position" : 0.0,
+		},
+		"z position" : 0.0,
+		"rotation" : 0.0,
+		"scale" : 1.0,
+
+		"u0sub-sub-block " :  {
+
+			"w" : -3.64306640625,
+			"x" : 0.0,
+			"y" : 30.664794921875,
+			"z" : 127.966796875,
+		},
+		"hidden" : 0,
+	},
+	"u0" : 1.0,
+},
+
+"?itemblock " :  {
+
+
+	"?sub-itemsub-block " :  {
+
+		"name" : "snowy_smalltree",
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Model",
+			"number" : 101,
+
+			"3D modelsub-sub-sub-block " :  {
+
+				"name" : "snowy_tree1",
+				"u0" : 0.0,
+				"u1" : 0.5,
+				"u2" : 0.0,
+
+				"u3sub-sub-sub-sub-block " :  {
+
+					"w" : 0.0,
+					"x" : 0.0,
+					"y" : 0.0,
+					"z" : 1.0,
+				},
+
+				"u4sub-sub-sub-sub-block " :  {
+
+					"x" : 0.0,
+					"y" : 0.0,
+					"z" : 0.0,
+				},
+				"u5" : 0,
+
+				"u6sub-sub-sub-sub-block " :  {
+
+					"w" : 1.0,
+					"x" : 1.0,
+					"y" : 1.0,
+					"z" : 1.0,
+				},
+			},
+		},
+
+		"positionsub-sub-block " :  {
+
+			"x position" : 0.0,
+			"y position" : 0.0,
+		},
+		"z position" : 0.0,
+		"rotation" : 0.0,
+		"scale" : 1.0,
+
+		"u0sub-sub-block " :  {
+
+			"w" : 0.0,
+			"x" : 0.0,
+			"y" : 0.0,
+			"z" : 0.0,
+		},
+		"hidden" : 0,
+	},
+	"u0" : 0.699999988079071,
+},
+
+"?itemblock " :  {
+
+
+	"?sub-itemsub-block " :  {
+
+		"name" : "snowy_torch2",
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Model",
+			"number" : 1,
+
+			"3D modelsub-sub-sub-block " :  {
+
+				"name" : "torchholder",
+				"u0" : 0.0,
+				"u1" : 0.0,
+				"u2" : 0.0,
+
+				"u3sub-sub-sub-sub-block " :  {
+
+					"w" : 0.0,
+					"x" : 0.0,
+					"y" : 0.0,
+					"z" : 1.0,
+				},
+
+				"u4sub-sub-sub-sub-block " :  {
+
+					"x" : 0.0,
+					"y" : 0.0,
+					"z" : 0.0,
+				},
+				"u5" : 0,
+
+				"u6sub-sub-sub-sub-block " :  {
+
+					"w" : 1.0,
+					"x" : 1.0,
+					"y" : 1.0,
+					"z" : 1.0,
+				},
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "SimpleGlow",
+			"number" : 2,
+
+			"simple glowsub-sub-sub-block " :  {
+
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"w" : 0.1209876611828804,
+					"x" : 0.21119344234466553,
+					"y" : 0.39012348651885986,
+					"z" : 0.0,
+				},
+				"u1" : 60.0,
+				"u2" : 15,
+				"u3" : 5.0,
+				"u4" : 0.11999999731779099,
+				"u5" : 1.5,
+
+				"u6sub-sub-sub-sub-block " :  {
+
+					"y" : 0.0,
+					"z" : 150.0,
+				},
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Light",
+			"number" : 103,
+
+			"lightsub-sub-sub-block " :  {
+
+				"u0" : 3,
+				"u1" : 2.0,
+
+				"u2sub-sub-sub-sub-block " :  {
+
+					"w" : 0.0,
+					"x" : 0.47999998927116394,
+					"y" : 1.0,
+					"z" : 1.0,
+				},
+				"u3" : 0.0,
+				"u4" : 0.00019999999494757503,
+
+				"u5sub-sub-sub-sub-block " :  {
+
+					"x" : 0.0,
+					"y" : 150.0,
+					"z" : 0.0,
+				},
+				"u6" : 400.0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "FireEmitter",
+			"number" : 105,
+
+			"fire emittersub-sub-sub-block " :  {
+
+				"temp0" : 108,
+				"temp1" : 103,
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"w" : 0.0,
+					"x" : 0.47999998927116394,
+					"y" : 1.0,
+					"z" : 0.0,
+				},
+				"u1" : 0.10000000149011612,
+				"u2" : 1.2999999523162842,
+
+				"u3sub-sub-sub-sub-block " :  {
+
+					"x" : 2.0,
+					"y" : 0.0,
+					"z" : 0.0,
+				},
+
+				"u4sub-sub-sub-sub-block " :  {
+
+					"x" : 0.0,
+					"y" : 120.0,
+					"z" : 0.0,
+				},
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "ParticleEmitter",
+			"number" : 108,
+
+			"particle emittersub-sub-sub-block " :  {
+
+				"particle" : 109,
+				"particle" : 111,
+				"particle" : 112,
+				"u1" : 0,
+				"u2" : 30,
+				"u3" : 0,
+				"u4" : 0,
+				"u6" : 0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Particle",
+			"number" : 109,
+
+			"particlesub-sub-sub-block " :  {
+
+				"name" : "particle_fure_1",
+				"u0" : 30.0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Particle",
+			"number" : 111,
+
+			"particlesub-sub-sub-block " :  {
+
+				"name" : "particle_fure_2",
+				"u0" : 33.0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Particle",
+			"number" : 112,
+
+			"particlesub-sub-sub-block " :  {
+
+				"name" : "particle_fure_3",
+				"u0" : 30.0,
+			},
+		},
+
+		"positionsub-sub-block " :  {
+
+			"x position" : 0.0,
+			"y position" : 0.0,
+		},
+		"z position" : 0.0,
+		"rotation" : 0.0,
+		"scale" : 1.0,
+
+		"u0sub-sub-block " :  {
+
+			"w" : -200.0,
+			"x" : -200.0,
+			"y" : 400.0,
+			"z" : 400.0,
+		},
+		"hidden" : 0,
+	},
+	"u0" : 1.0,
+},
+
+"?itemblock " :  {
+
+
+	"?sub-itemsub-block " :  {
+
+		"name" : "snowy_tree",
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Model",
+			"number" : 101,
+
+			"3D modelsub-sub-sub-block " :  {
+
+				"name" : "snowy_tree1",
+				"u0" : 0.0,
+				"u1" : 0.5,
+				"u2" : 0.0,
+
+				"u3sub-sub-sub-sub-block " :  {
+
+					"w" : 0.0,
+					"x" : 0.0,
+					"y" : 0.0,
+					"z" : 1.0,
+				},
+
+				"u4sub-sub-sub-sub-block " :  {
+
+					"x" : 0.0,
+					"y" : 0.0,
+					"z" : 0.0,
+				},
+				"u5" : 0,
+
+				"u6sub-sub-sub-sub-block " :  {
+
+					"w" : 1.0,
+					"x" : 1.0,
+					"y" : 1.0,
+					"z" : 1.0,
+				},
+			},
+		},
+
+		"positionsub-sub-block " :  {
+
+			"x position" : 0.0,
+			"y position" : 0.0,
+		},
+		"z position" : 0.0,
+		"rotation" : 0.0,
+		"scale" : 1.0,
+
+		"u0sub-sub-block " :  {
+
+			"w" : 0.0,
+			"x" : 0.0,
+			"y" : 0.0,
+			"z" : 0.0,
+		},
+		"hidden" : 0,
+	},
+	"u0" : 1.0,
+},
+
+"?itemblock " :  {
+
+
+	"?sub-itemsub-block " :  {
+
+		"name" : "snowyblast",
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "ParticleEmitter",
+			"number" : 2,
+
+			"particle emittersub-sub-sub-block " :  {
+
+				"particle" : 102,
+				"particle" : 103,
+				"particle" : 104,
+				"u1" : 0,
+				"u2" : 30,
+				"u3" : 101,
+				"u4" : 0,
+
+				"u5sub-sub-sub-sub-block " :  {
+
+					"u0" : 2,
+
+					"u1sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 0.0,
+						"x" : 0.6555554866790771,
+						"y" : 1.0,
+						"z" : 0.0,
+					},
+					"u2" : 30.0,
+					"u2" : 0.5,
+					"u2" : 40.0,
+					"u2" : 40.0,
+					"u3" : 0.0,
+					"u4" : 0.0,
+					"u5" : 0.0,
+
+					"u6sub-sub-sub-sub-sub-block " :  {
+
+						"u0" : 0.0,
+						"u1" : 0.0,
+						"u2" : 0.0,
+					},
+				},
+				"u6" : 0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "ParticleEmitter",
+			"number" : 101,
+
+			"particle emittersub-sub-sub-block " :  {
+
+				"particle" : 102,
+				"particle" : 103,
+				"particle" : 104,
+				"u1" : 0,
+				"u2" : 100,
+				"u3" : 0,
+				"u4" : 1,
+
+				"u5sub-sub-sub-sub-block " :  {
+
+					"u0" : 2,
+
+					"u1sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 0.0,
+						"x" : 0.8555556535720825,
+						"y" : 1.0,
+						"z" : 0.0,
+					},
+					"u2" : 40.0,
+					"u2" : 0.30000001192092896,
+					"u2" : 35.0,
+					"u2" : 35.0,
+					"u3" : 0.0,
+					"u4" : 0.0,
+					"u5" : 0.0,
+
+					"u6sub-sub-sub-sub-sub-block " :  {
+
+						"u0" : 0.0,
+						"u1" : 0.0,
+						"u2" : 0.0,
+					},
+				},
+				"u6" : 1,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Particle",
+			"number" : 102,
+
+			"particlesub-sub-sub-block " :  {
+
+				"name" : "particle_fure_1",
+				"u0" : 25.0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Particle",
+			"number" : 103,
+
+			"particlesub-sub-sub-block " :  {
+
+				"name" : "particle_fure_2",
+				"u0" : 20.0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Particle",
+			"number" : 104,
+
+			"particlesub-sub-sub-block " :  {
+
+				"name" : "particle_fure_3",
+				"u0" : 15.0,
+			},
+		},
+
+		"positionsub-sub-block " :  {
+
+			"x position" : 0.0,
+			"y position" : 0.0,
+		},
+		"z position" : 0.0,
+		"rotation" : 0.0,
+		"scale" : 1.0,
+
+		"u0sub-sub-block " :  {
+
+			"w" : -10.0,
+			"x" : -10.0,
+			"y" : 20.0,
+			"z" : 20.0,
+		},
+		"hidden" : 0,
+	},
+	"u0" : 1.0,
+},
+
+"?itemblock " :  {
+
+
+	"?sub-itemsub-block " :  {
+
+		"name" : "snowyblast_small",
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "ParticleEmitter",
+			"number" : 2,
+
+			"particle emittersub-sub-sub-block " :  {
+
+				"particle" : 102,
+				"particle" : 103,
+				"particle" : 104,
+				"u1" : 0,
+				"u2" : 30,
+				"u3" : 101,
+				"u4" : 0,
+
+				"u5sub-sub-sub-sub-block " :  {
+
+					"u0" : 2,
+
+					"u1sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 0.0,
+						"x" : 0.6555554866790771,
+						"y" : 1.0,
+						"z" : 0.0,
+					},
+					"u2" : 20.0,
+					"u2" : 0.5,
+					"u2" : 20.0,
+					"u2" : 20.0,
+					"u3" : 0.0,
+					"u4" : 0.0,
+					"u5" : 0.0,
+
+					"u6sub-sub-sub-sub-sub-block " :  {
+
+						"u0" : 0.0,
+						"u1" : 0.0,
+						"u2" : 0.0,
+					},
+				},
+				"u6" : 0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "ParticleEmitter",
+			"number" : 101,
+
+			"particle emittersub-sub-sub-block " :  {
+
+				"particle" : 102,
+				"particle" : 103,
+				"particle" : 104,
+				"u1" : 0,
+				"u2" : 100,
+				"u3" : 0,
+				"u4" : 1,
+
+				"u5sub-sub-sub-sub-block " :  {
+
+					"u0" : 2,
+
+					"u1sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 0.0,
+						"x" : 0.8555556535720825,
+						"y" : 1.0,
+						"z" : 0.0,
+					},
+					"u2" : 40.0,
+					"u2" : 0.20000000298023224,
+					"u2" : 10.0,
+					"u2" : 10.0,
+					"u3" : 0.0,
+					"u4" : 0.0,
+					"u5" : 0.0,
+
+					"u6sub-sub-sub-sub-sub-block " :  {
+
+						"u0" : 0.0,
+						"u1" : 0.0,
+						"u2" : 0.0,
+					},
+				},
+				"u6" : 1,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Particle",
+			"number" : 102,
+
+			"particlesub-sub-sub-block " :  {
+
+				"name" : "particle_fure_1",
+				"u0" : 25.0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Particle",
+			"number" : 103,
+
+			"particlesub-sub-sub-block " :  {
+
+				"name" : "particle_fure_2",
+				"u0" : 20.0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Particle",
+			"number" : 104,
+
+			"particlesub-sub-sub-block " :  {
+
+				"name" : "particle_fure_3",
+				"u0" : 15.0,
+			},
+		},
+
+		"positionsub-sub-block " :  {
+
+			"x position" : 0.0,
+			"y position" : 0.0,
+		},
+		"z position" : 0.0,
+		"rotation" : 0.0,
+		"scale" : 1.0,
+
+		"u0sub-sub-block " :  {
+
+			"w" : -10.0,
+			"x" : -10.0,
+			"y" : 20.0,
+			"z" : 20.0,
+		},
+		"hidden" : 0,
+	},
+	"u0" : 1.0,
+},
+
+}

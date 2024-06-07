@@ -1,0 +1,1528 @@
+data = {
+"scl file name" : "cinematic_beginning",
+
+"?itemblock " :  {
+
+
+	"?sub-itemsub-block " :  {
+
+		"name" : "b_bolt",
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "SimpleGlow",
+			"number" : 1,
+
+			"simple glowsub-sub-sub-block " :  {
+
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"w" : 1.0,
+					"x" : 0.0,
+					"y" : 3.5762786865234375e-07,
+					"z" : 0.5,
+				},
+				"u1" : 30.0,
+				"u2" : 10,
+				"u3" : 15.0,
+				"u4" : 0.15000000596046448,
+				"u5" : 0.800000011920929,
+
+				"u6sub-sub-sub-sub-block " :  {
+
+					"y" : 0.0,
+					"z" : 0.0,
+				},
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "CollisionShape",
+			"number" : 2,
+
+			"collision shapesub-sub-sub-block " :  {
+
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"w" : -5.0,
+					"x" : -5.0,
+					"y" : 10.0,
+					"z" : 10.0,
+				},
+			},
+
+			"collision shape 2sub-sub-sub-block " :  {
+
+				"u1" : 1,
+				"u3" : 1,
+				"w" : -15.0,
+				"x" : 15.0,
+
+				"lua chunksub-sub-sub-sub-block " :  {
+
+					"main chunk" : "chunk >
+
+					=== lua =============
+					local self, target = ...;
+					
+					if target:identifier() == \"hero\" then
+						AnimationController.BlendToAnimation(target, 13, 0.1);
+						target:setVelocity(Vector3.New(-70,220,0));
+					end
+
+					=====================",
+					"secondary chunk" : "\\x1bLuaQ\\x00\\x01\\x04\\x04\\x04\\x08\\x00\\xaf\\x00\\x00\\x00local self, target = ...;\\r\\n\\r\\nif target:identifier() == \"hero\" then\\r\\n\\tAnimationController.BlendToAnimation(target, 13, 0.1);\\r\\n\\ttarget:setVelocity(Vector3.New(-70,220,0));\\r\\nend\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x02\\x08\\x14\\x00\\x00\\x00%\\x00\\x80\\x01\\x8b\\x00\\xc0\\x00\\x9c\\x80\\x00\\x01\\x17@@\\x01\\x16@\\x03\\x80\\x85\\x80\\x00\\x00\\x86\\xc0@\\x01\\xc0\\x00\\x80\\x00\\x01\\x01\\x01\\x00AA\\x01\\x00\\x9c@\\x00\\x02\\x8b\\x80\\xc1\\x00\\x05\\xc1\\x01\\x00\\x06\\x01B\\x02AA\\x02\\x00\\x81\\x81\\x02\\x00\\xc1\\xc1\\x02\\x00\\x1c\\x01\\x00\\x02\\x9c@\\x00\\x00\\x1e\\x00\\x80\\x00\\x0c\\x00\\x00\\x00\\x04\\x0b\\x00\\x00\\x00identifier\\x00\\x04\\x05\\x00\\x00\\x00hero\\x00\\x04\\x14\\x00\\x00\\x00AnimationController\\x00\\x04\\x11\\x00\\x00\\x00BlendToAnimation\\x00\\x03\\x00\\x00\\x00\\x00\\x00\\x00*@\\x03\\x9a\\x99\\x99\\x99\\x99\\x99\\xb9?\\x04\\x0c\\x00\\x00\\x00setVelocity\\x00\\x04\\x08\\x00\\x00\\x00Vector3\\x00\\x04\\x04\\x00\\x00\\x00New\\x00\\x03\\x00\\x00\\x00\\x00\\x00\\x80Q\\xc0\\x03\\x00\\x00\\x00\\x00\\x00\\x80k@\\x03\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x14\\x00\\x00\\x00\\x01\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x06\\x00\\x00\\x00\\x02\\x00\\x00\\x00\\x05\\x00\\x00\\x00self\\x00\\x01\\x00\\x00\\x00\\x13\\x00\\x00\\x00\\x07\\x00\\x00\\x00target\\x00\\x01\\x00\\x00\\x00\\x13\\x00\\x00\\x00\\x00\\x00\\x00\\x00",
+				},
+				"z" : 1,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Damage",
+			"number" : 4,
+
+			"damagesub-sub-sub-block " :  {
+
+				"u0" : 0,
+				"u1" : 0,
+				"u2" : 0,
+				"u5" : 1.0,
+				"u6" : 0.0,
+				"u7" : 0,
+				"u8" : 1,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "SoundEffect",
+			"number" : 5,
+
+			"sound effectsub-sub-sub-block " :  {
+
+				"sound" : "sword_impact3",
+				"u0" : 0.0,
+				"u1" : 1.0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Light",
+			"number" : 6,
+
+			"lightsub-sub-sub-block " :  {
+
+				"u0" : 3,
+				"u1" : 10.0,
+
+				"u2sub-sub-sub-sub-block " :  {
+
+					"w" : 1.0,
+					"x" : 0.35555556416511536,
+					"y" : 0.35555556416511536,
+					"z" : 1.0,
+				},
+				"u3" : 0.0,
+				"u4" : 0.00019999999494757503,
+
+				"u5sub-sub-sub-sub-block " :  {
+
+					"x" : 0.0,
+					"y" : 0.0,
+					"z" : 0.0,
+				},
+				"u6" : 250.0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "ParticleEmitter",
+			"number" : 102,
+
+			"particle emittersub-sub-sub-block " :  {
+
+				"particle" : 103,
+				"particle" : 104,
+				"particle" : 105,
+				"u1" : 0,
+				"u2" : 30,
+				"u3" : 0,
+				"u4" : 0,
+				"u6" : 0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Particle",
+			"number" : 103,
+
+			"particlesub-sub-sub-block " :  {
+
+				"name" : "particle_fure_1",
+				"u0" : 40.0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Particle",
+			"number" : 104,
+
+			"particlesub-sub-sub-block " :  {
+
+				"name" : "particle_fure_2",
+				"u0" : 40.0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Particle",
+			"number" : 105,
+
+			"particlesub-sub-sub-block " :  {
+
+				"name" : "particle_fure_3",
+				"u0" : 40.0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "MagicBolt",
+			"number" : 106,
+
+			"magic boltsub-sub-sub-block " :  {
+
+				"u0" : 102,
+				"u1" : 0,
+				"u2" : 0,
+
+				"u3sub-sub-sub-sub-block " :  {
+
+					"w" : 0.4000000059604645,
+					"x" : 0.05399999022483826,
+					"y" : 0.054000113159418106,
+					"z" : 0.0,
+				},
+				"u3" : 390.0,
+			},
+
+			"temp0sub-sub-sub-block " :  {
+
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "ProjectileController",
+			"number" : 107,
+
+			"projectile controllersub-sub-sub-block " :  {
+
+				"u0" : 1,
+				"u1" : 1,
+			},
+		},
+
+		"positionsub-sub-block " :  {
+
+			"x position" : 0.0,
+			"y position" : 0.0,
+		},
+		"z position" : 0.0,
+		"rotation" : 0.0,
+		"scale" : 1.0,
+
+		"u0sub-sub-block " :  {
+
+			"w" : -50.0,
+			"x" : -50.0,
+			"y" : 100.0,
+			"z" : 100.0,
+		},
+		"hidden" : 0,
+	},
+	"u0" : 1.5,
+},
+
+"?itemblock " :  {
+
+
+	"?sub-itemsub-block " :  {
+
+		"name" : "bolt",
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "SimpleGlow",
+			"number" : 1,
+
+			"simple glowsub-sub-sub-block " :  {
+
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"w" : 1.0,
+					"x" : 0.0,
+					"y" : 3.5762786865234375e-07,
+					"z" : 0.5,
+				},
+				"u1" : 30.0,
+				"u2" : 10,
+				"u3" : 15.0,
+				"u4" : 0.15000000596046448,
+				"u5" : 0.800000011920929,
+
+				"u6sub-sub-sub-sub-block " :  {
+
+					"y" : 0.0,
+					"z" : 0.0,
+				},
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "CollisionShape",
+			"number" : 2,
+
+			"collision shapesub-sub-sub-block " :  {
+
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"w" : -5.0,
+					"x" : -5.0,
+					"y" : 10.0,
+					"z" : 10.0,
+				},
+			},
+
+			"collision shape 2sub-sub-sub-block " :  {
+
+				"u1" : 1,
+				"u3" : 1,
+				"w" : -15.0,
+				"x" : 15.0,
+
+				"lua chunksub-sub-sub-sub-block " :  {
+
+					"main chunk" : "chunk >
+
+					=== lua =============
+					local self, target = ...;
+					
+					if target:identifier() == \"hero\" then
+						AnimationController.BlendToAnimation(target, 13, 0.1);
+						target:setVelocity(Vector3.New(-70,220,0));
+					end
+
+					=====================",
+					"secondary chunk" : "\\x1bLuaQ\\x00\\x01\\x04\\x04\\x04\\x08\\x00\\xaf\\x00\\x00\\x00local self, target = ...;\\r\\n\\r\\nif target:identifier() == \"hero\" then\\r\\n\\tAnimationController.BlendToAnimation(target, 13, 0.1);\\r\\n\\ttarget:setVelocity(Vector3.New(-70,220,0));\\r\\nend\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x02\\x08\\x14\\x00\\x00\\x00%\\x00\\x80\\x01\\x8b\\x00\\xc0\\x00\\x9c\\x80\\x00\\x01\\x17@@\\x01\\x16@\\x03\\x80\\x85\\x80\\x00\\x00\\x86\\xc0@\\x01\\xc0\\x00\\x80\\x00\\x01\\x01\\x01\\x00AA\\x01\\x00\\x9c@\\x00\\x02\\x8b\\x80\\xc1\\x00\\x05\\xc1\\x01\\x00\\x06\\x01B\\x02AA\\x02\\x00\\x81\\x81\\x02\\x00\\xc1\\xc1\\x02\\x00\\x1c\\x01\\x00\\x02\\x9c@\\x00\\x00\\x1e\\x00\\x80\\x00\\x0c\\x00\\x00\\x00\\x04\\x0b\\x00\\x00\\x00identifier\\x00\\x04\\x05\\x00\\x00\\x00hero\\x00\\x04\\x14\\x00\\x00\\x00AnimationController\\x00\\x04\\x11\\x00\\x00\\x00BlendToAnimation\\x00\\x03\\x00\\x00\\x00\\x00\\x00\\x00*@\\x03\\x9a\\x99\\x99\\x99\\x99\\x99\\xb9?\\x04\\x0c\\x00\\x00\\x00setVelocity\\x00\\x04\\x08\\x00\\x00\\x00Vector3\\x00\\x04\\x04\\x00\\x00\\x00New\\x00\\x03\\x00\\x00\\x00\\x00\\x00\\x80Q\\xc0\\x03\\x00\\x00\\x00\\x00\\x00\\x80k@\\x03\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x14\\x00\\x00\\x00\\x01\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x06\\x00\\x00\\x00\\x02\\x00\\x00\\x00\\x05\\x00\\x00\\x00self\\x00\\x01\\x00\\x00\\x00\\x13\\x00\\x00\\x00\\x07\\x00\\x00\\x00target\\x00\\x01\\x00\\x00\\x00\\x13\\x00\\x00\\x00\\x00\\x00\\x00\\x00",
+				},
+				"z" : 1,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "SoundEffect",
+			"number" : 3,
+
+			"sound effectsub-sub-sub-block " :  {
+
+				"sound" : "woosh1",
+				"u0" : 0.0,
+				"u1" : 1.0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Damage",
+			"number" : 4,
+
+			"damagesub-sub-sub-block " :  {
+
+				"u0" : 0,
+				"u1" : 1,
+				"u2" : 0,
+				"u5" : 1.0,
+				"u6" : 0.0,
+				"u7" : 0,
+				"u8" : 1,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Light",
+			"number" : 6,
+
+			"lightsub-sub-sub-block " :  {
+
+				"u0" : 3,
+				"u1" : 1.2000000476837158,
+
+				"u2sub-sub-sub-sub-block " :  {
+
+					"w" : 1.0,
+					"x" : 0.35555556416511536,
+					"y" : 0.35555556416511536,
+					"z" : 1.0,
+				},
+				"u3" : 0.0,
+				"u4" : 0.00019999999494757503,
+
+				"u5sub-sub-sub-sub-block " :  {
+
+					"x" : 0.0,
+					"y" : 0.0,
+					"z" : 0.0,
+				},
+				"u6" : 220.0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "ParticleEmitter",
+			"number" : 102,
+
+			"particle emittersub-sub-sub-block " :  {
+
+				"particle" : 103,
+				"particle" : 104,
+				"particle" : 105,
+				"u1" : 0,
+				"u2" : 30,
+				"u3" : 0,
+				"u4" : 0,
+				"u6" : 0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Particle",
+			"number" : 103,
+
+			"particlesub-sub-sub-block " :  {
+
+				"name" : "particle_fure_1",
+				"u0" : 40.0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Particle",
+			"number" : 104,
+
+			"particlesub-sub-sub-block " :  {
+
+				"name" : "particle_fure_2",
+				"u0" : 40.0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Particle",
+			"number" : 105,
+
+			"particlesub-sub-sub-block " :  {
+
+				"name" : "particle_fure_3",
+				"u0" : 40.0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "MagicBolt",
+			"number" : 106,
+
+			"magic boltsub-sub-sub-block " :  {
+
+				"u0" : 102,
+				"u1" : 0,
+				"u2" : 0,
+
+				"u3sub-sub-sub-sub-block " :  {
+
+					"w" : 0.4000000059604645,
+					"x" : 0.05399999022483826,
+					"y" : 0.054000113159418106,
+					"z" : 0.0,
+				},
+				"u3" : 480.0,
+			},
+
+			"temp0sub-sub-sub-block " :  {
+
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "ProjectileController",
+			"number" : 107,
+
+			"projectile controllersub-sub-sub-block " :  {
+
+				"u0" : 1,
+				"u1" : 1,
+			},
+		},
+
+		"positionsub-sub-block " :  {
+
+			"x position" : 0.0,
+			"y position" : 0.0,
+		},
+		"z position" : 0.0,
+		"rotation" : 0.0,
+		"scale" : 1.0,
+
+		"u0sub-sub-block " :  {
+
+			"w" : -50.0,
+			"x" : -50.0,
+			"y" : 100.0,
+			"z" : 100.0,
+		},
+		"hidden" : 0,
+	},
+	"u0" : 1.5,
+},
+
+"?itemblock " :  {
+
+
+	"?sub-itemsub-block " :  {
+
+		"name" : "bossbolt",
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "SimpleGlow",
+			"number" : 1,
+
+			"simple glowsub-sub-sub-block " :  {
+
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"w" : 1.0,
+					"x" : 0.0,
+					"y" : 3.5762786865234375e-07,
+					"z" : 0.5,
+				},
+				"u1" : 30.0,
+				"u2" : 10,
+				"u3" : 15.0,
+				"u4" : 0.15000000596046448,
+				"u5" : 0.800000011920929,
+
+				"u6sub-sub-sub-sub-block " :  {
+
+					"y" : 0.0,
+					"z" : 0.0,
+				},
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "CollisionShape",
+			"number" : 2,
+
+			"collision shapesub-sub-sub-block " :  {
+
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"w" : -5.0,
+					"x" : -5.0,
+					"y" : 10.0,
+					"z" : 10.0,
+				},
+			},
+
+			"collision shape 2sub-sub-sub-block " :  {
+
+				"u1" : 1,
+				"u3" : 1,
+				"w" : -15.0,
+				"x" : 15.0,
+
+				"lua chunksub-sub-sub-sub-block " :  {
+
+					"main chunk" : "chunk >
+
+					=== lua =============
+					local self, target = ...;
+					
+					if target:identifier() == \"hero\" then
+						local clone = target:clone();
+						Scene.AddObject(clone);
+						clone:setPosition(target:position());
+						target:setHidden(true);
+						AnimationController.BlendToAnimation(clone, 13, 0.2);
+						clone:setVelocity(Vector3.New(-70,220,0));
+					end
+
+					=====================",
+					"secondary chunk" : "\\x1bLuaQ\\x00\\x01\\x04\\x04\\x04\\x08\\x00)\\x01\\x00\\x00local self, target = ...;\\r\\n\\r\\nif target:identifier() == \"hero\" then\\r\\n\\tlocal clone = target:clone();\\r\\n\\tScene.AddObject(clone);\\r\\n\\tclone:setPosition(target:position());\\r\\n\\ttarget:setHidden(true);\\r\\n\\tAnimationController.BlendToAnimation(clone, 13, 0.2);\\r\\n\\tclone:setVelocity(Vector3.New(-70,220,0));\\r\\nend\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x02\\t!\\x00\\x00\\x00%\\x00\\x80\\x01\\x8b\\x00\\xc0\\x00\\x9c\\x80\\x00\\x01\\x17@@\\x01\\x16\\x80\\x06\\x80\\x8b\\x80\\xc0\\x00\\x9c\\x80\\x00\\x01\\xc5\\xc0\\x00\\x00\\xc6\\x00\\xc1\\x01\\x00\\x01\\x00\\x01\\xdc@\\x00\\x01\\xcb@A\\x01K\\x81\\xc1\\x00\\\\\\x01\\x00\\x01\\xdc@\\x00\\x00\\xcb\\xc0\\xc1\\x00B\\x01\\x80\\x00\\xdc@\\x80\\x01\\xc5\\x00\\x02\\x00\\xc6@\\xc2\\x01\\x00\\x01\\x00\\x01A\\x81\\x02\\x00\\x81\\xc1\\x02\\x00\\xdc@\\x00\\x02\\xcb\\x00C\\x01EA\\x03\\x00F\\x81\\xc3\\x02\\x81\\xc1\\x03\\x00\\xc1\\x01\\x04\\x00\\x01B\\x04\\x00\\\\\\x01\\x00\\x02\\xdc@\\x00\\x00\\x1e\\x00\\x80\\x00\\x12\\x00\\x00\\x00\\x04\\x0b\\x00\\x00\\x00identifier\\x00\\x04\\x05\\x00\\x00\\x00hero\\x00\\x04\\x06\\x00\\x00\\x00clone\\x00\\x04\\x06\\x00\\x00\\x00Scene\\x00\\x04\\n\\x00\\x00\\x00AddObject\\x00\\x04\\x0c\\x00\\x00\\x00setPosition\\x00\\x04\\t\\x00\\x00\\x00position\\x00\\x04\\n\\x00\\x00\\x00setHidden\\x00\\x04\\x14\\x00\\x00\\x00AnimationController\\x00\\x04\\x11\\x00\\x00\\x00BlendToAnimation\\x00\\x03\\x00\\x00\\x00\\x00\\x00\\x00*@\\x03\\x9a\\x99\\x99\\x99\\x99\\x99\\xc9?\\x04\\x0c\\x00\\x00\\x00setVelocity\\x00\\x04\\x08\\x00\\x00\\x00Vector3\\x00\\x04\\x04\\x00\\x00\\x00New\\x00\\x03\\x00\\x00\\x00\\x00\\x00\\x80Q\\xc0\\x03\\x00\\x00\\x00\\x00\\x00\\x80k@\\x03\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00!\\x00\\x00\\x00\\x01\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x06\\x00\\x00\\x00\\x06\\x00\\x00\\x00\\x06\\x00\\x00\\x00\\x06\\x00\\x00\\x00\\x07\\x00\\x00\\x00\\x07\\x00\\x00\\x00\\x07\\x00\\x00\\x00\\x08\\x00\\x00\\x00\\x08\\x00\\x00\\x00\\x08\\x00\\x00\\x00\\x08\\x00\\x00\\x00\\x08\\x00\\x00\\x00\\x08\\x00\\x00\\x00\\t\\x00\\x00\\x00\\t\\x00\\x00\\x00\\t\\x00\\x00\\x00\\t\\x00\\x00\\x00\\t\\x00\\x00\\x00\\t\\x00\\x00\\x00\\t\\x00\\x00\\x00\\t\\x00\\x00\\x00\\n\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x05\\x00\\x00\\x00self\\x00\\x01\\x00\\x00\\x00 \\x00\\x00\\x00\\x07\\x00\\x00\\x00target\\x00\\x01\\x00\\x00\\x00 \\x00\\x00\\x00\\x06\\x00\\x00\\x00clone\\x00\\x07\\x00\\x00\\x00 \\x00\\x00\\x00\\x00\\x00\\x00\\x00",
+				},
+				"z" : 1,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "SoundEffect",
+			"number" : 3,
+
+			"sound effectsub-sub-sub-block " :  {
+
+				"sound" : "woosh1",
+				"u0" : 0.0,
+				"u1" : 1.0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Damage",
+			"number" : 4,
+
+			"damagesub-sub-sub-block " :  {
+
+				"u0" : 0,
+				"u1" : 0,
+				"u2" : 0,
+				"u5" : 1.0,
+				"u6" : 0.0,
+				"u7" : 0,
+				"u8" : 1,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "SoundEffect",
+			"number" : 5,
+
+			"sound effectsub-sub-sub-block " :  {
+
+				"sound" : "sword_impact3",
+				"u0" : 0.0,
+				"u1" : 1.0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Light",
+			"number" : 6,
+
+			"lightsub-sub-sub-block " :  {
+
+				"u0" : 3,
+				"u1" : 1.2000000476837158,
+
+				"u2sub-sub-sub-sub-block " :  {
+
+					"w" : 1.0,
+					"x" : 0.35555556416511536,
+					"y" : 0.35555556416511536,
+					"z" : 1.0,
+				},
+				"u3" : 0.0,
+				"u4" : 0.00019999999494757503,
+
+				"u5sub-sub-sub-sub-block " :  {
+
+					"x" : 0.0,
+					"y" : 0.0,
+					"z" : 0.0,
+				},
+				"u6" : 200.0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "ParticleEmitter",
+			"number" : 102,
+
+			"particle emittersub-sub-sub-block " :  {
+
+				"particle" : 103,
+				"particle" : 104,
+				"particle" : 105,
+				"u1" : 0,
+				"u2" : 30,
+				"u3" : 0,
+				"u4" : 0,
+				"u6" : 0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Particle",
+			"number" : 103,
+
+			"particlesub-sub-sub-block " :  {
+
+				"name" : "particle_fure_1",
+				"u0" : 40.0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Particle",
+			"number" : 104,
+
+			"particlesub-sub-sub-block " :  {
+
+				"name" : "particle_fure_2",
+				"u0" : 40.0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Particle",
+			"number" : 105,
+
+			"particlesub-sub-sub-block " :  {
+
+				"name" : "particle_fure_3",
+				"u0" : 40.0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "MagicBolt",
+			"number" : 106,
+
+			"magic boltsub-sub-sub-block " :  {
+
+				"u0" : 102,
+				"u1" : 3,
+				"u2" : 5,
+
+				"u3sub-sub-sub-sub-block " :  {
+
+					"w" : 0.4000000059604645,
+					"x" : 0.05399999022483826,
+					"y" : 0.054000113159418106,
+					"z" : 0.0,
+				},
+				"u3" : 480.0,
+			},
+
+			"temp0sub-sub-sub-block " :  {
+
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "ProjectileController",
+			"number" : 107,
+
+			"projectile controllersub-sub-sub-block " :  {
+
+				"u0" : 1,
+				"u1" : 1,
+			},
+		},
+
+		"positionsub-sub-block " :  {
+
+			"x position" : 0.0,
+			"y position" : 0.0,
+		},
+		"z position" : 0.0,
+		"rotation" : 0.0,
+		"scale" : 1.0,
+
+		"u0sub-sub-block " :  {
+
+			"w" : -50.0,
+			"x" : -50.0,
+			"y" : 100.0,
+			"z" : 100.0,
+		},
+		"hidden" : 0,
+	},
+	"u0" : 1.5,
+},
+
+"?itemblock " :  {
+
+
+	"?sub-itemsub-block " :  {
+
+		"name" : "firstboss",
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Model",
+			"number" : 101,
+
+			"3D modelsub-sub-sub-block " :  {
+
+				"name" : "boss1_shadowform",
+				"u0" : 1.5707963705062866,
+				"u1" : 0.0,
+				"u2" : 0.0,
+
+				"u3sub-sub-sub-sub-block " :  {
+
+					"w" : 0.0,
+					"x" : 0.0,
+					"y" : 0.0,
+					"z" : 1.0,
+				},
+
+				"u4sub-sub-sub-sub-block " :  {
+
+					"x" : 0.0,
+					"y" : 0.0,
+					"z" : 0.0,
+				},
+				"u5" : 0,
+
+				"u6sub-sub-sub-sub-block " :  {
+
+					"w" : 1.0,
+					"x" : 1.0,
+					"y" : 1.0,
+					"z" : 1.0,
+				},
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "KeyframeAnimation",
+			"number" : 102,
+
+			"keyframe animationsub-sub-sub-block " :  {
+
+				"linked model component number" : 101,
+				"name" : "boss1_shadowform_move",
+				"u0" : 1,
+				"u1" : 1.0,
+				"u2" : 1,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "KeyframeAnimation",
+			"number" : 103,
+
+			"keyframe animationsub-sub-sub-block " :  {
+
+				"linked model component number" : 101,
+				"name" : "boss1_shadowform_spinstart",
+				"u0" : 0,
+				"u1" : 0.5,
+				"u2" : 1,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "KeyframeAnimation",
+			"number" : 104,
+
+			"keyframe animationsub-sub-sub-block " :  {
+
+				"linked model component number" : 101,
+				"name" : "boss1_shadowform_spin",
+				"u0" : 1,
+				"u1" : 2.0,
+				"u2" : 1,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Damage",
+			"number" : 106,
+
+			"damagesub-sub-sub-block " :  {
+
+				"u0" : 1000,
+				"u1" : 0,
+				"u2" : 0,
+				"u5" : 1.0,
+				"u6" : 0.0,
+				"u7" : 0,
+				"u8" : 1,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Health",
+			"number" : 107,
+
+			"healthsub-sub-sub-block " :  {
+
+				"u0" : 800,
+				"u1" : 0,
+
+				"u2sub-sub-sub-sub-block " :  {
+
+					"x" : 0.0,
+					"y" : 50.0,
+				},
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "MonsterEntity",
+			"number" : 108,
+
+			"entitysub-sub-sub-block " :  {
+
+				"u0" : 18446744073709551615,
+				"u1" : 1,
+			},
+
+			"?monster entitysub-sub-sub-block " :  {
+
+				"u0" : "",
+
+				"lua chunksub-sub-sub-sub-block " :  {
+
+					"main chunk" : "chunk >
+
+					=== lua =============
+					local self = ...;
+					
+					self[\"hurt\"] = self[\"hurt\"] + 1
+					
+					if self[\"hurt\"] >= 1 then
+						Program.Execute(self, 147);
+						self[\"hurt\"] = -10;
+					end
+					
+
+					=====================",
+					"secondary chunk" : "\\x1bLuaQ\\x00\\x01\\x04\\x04\\x04\\x08\\x00\\x8d\\x00\\x00\\x00local self = ...;\\r\\n\\r\\nself[\"hurt\"] = self[\"hurt\"] + 1\\r\\n\\r\\nif self[\"hurt\"] >= 1 then\\r\\n\\tProgram.Execute(self, 147);\\r\\n\\tself[\"hurt\"] = -10;\\r\\nend\\r\\n\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x02\\x04\\x0e\\x00\\x00\\x00%\\x00\\x00\\x01F\\x00@\\x00L@\\xc0\\x00\\t@\\x00\\x80F\\x00@\\x00\\x19@\\x80\\x80\\x16@\\x01\\x80E\\x80\\x00\\x00F\\xc0\\xc0\\x00\\x80\\x00\\x00\\x00\\xc1\\x00\\x01\\x00\\\\@\\x80\\x01\\t@A\\x80\\x1e\\x00\\x80\\x00\\x06\\x00\\x00\\x00\\x04\\x05\\x00\\x00\\x00hurt\\x00\\x03\\x00\\x00\\x00\\x00\\x00\\x00\\xf0?\\x04\\x08\\x00\\x00\\x00Program\\x00\\x04\\x08\\x00\\x00\\x00Execute\\x00\\x03\\x00\\x00\\x00\\x00\\x00`b@\\x03\\x00\\x00\\x00\\x00\\x00\\x00$\\xc0\\x00\\x00\\x00\\x00\\x0e\\x00\\x00\\x00\\x01\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x06\\x00\\x00\\x00\\x06\\x00\\x00\\x00\\x06\\x00\\x00\\x00\\x06\\x00\\x00\\x00\\x06\\x00\\x00\\x00\\x07\\x00\\x00\\x00\\x08\\x00\\x00\\x00\\x01\\x00\\x00\\x00\\x05\\x00\\x00\\x00self\\x00\\x01\\x00\\x00\\x00\\r\\x00\\x00\\x00\\x00\\x00\\x00\\x00",
+				},
+				"u2" : 1,
+				"u3" : 1,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "CollisionShape",
+			"number" : 109,
+
+			"collision shapesub-sub-sub-block " :  {
+
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"w" : -40.0,
+					"x" : 0.0,
+					"y" : 80.0,
+					"z" : 300.0,
+				},
+			},
+
+			"collision shape 2sub-sub-sub-block " :  {
+
+				"u1" : 1,
+				"u2" : 1,
+				"u3" : 1,
+				"w" : -15.0,
+				"x" : 15.0,
+				"z" : 1,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "AnimationController",
+			"number" : 111,
+
+			"animation controllersub-sub-sub-block " :  {
+
+				"model component" : 101,
+				"u1" : 0,
+				"u2" : 0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "SimpleGlow",
+			"number" : 114,
+
+			"simple glowsub-sub-sub-block " :  {
+
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"w" : 0.3222222626209259,
+					"x" : 0.17777778208255768,
+					"y" : 0.17777778208255768,
+					"z" : 0.3333333432674408,
+				},
+				"u1" : 50.0,
+				"u2" : 10,
+				"u3" : 15.0,
+				"u4" : 0.0,
+				"u5" : 0.800000011920929,
+
+				"u6sub-sub-sub-sub-block " :  {
+
+					"y" : 0.0,
+					"z" : 40.0,
+				},
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "EntityController",
+			"number" : 117,
+
+			"entity controllersub-sub-sub-block " :  {
+
+				"entity component" : 108,
+				"animation controller component" : 111,
+				"u2" : 102,
+				"collision shape" : 109,
+				"u4" : 100.0,
+				"u5" : 16000.0,
+				"u6" : 1000.0,
+				"u7" : 3,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "EntityAction",
+			"number" : 118,
+
+			"entity actionsub-sub-sub-block " :  {
+
+
+				"lua chunksub-sub-sub-sub-block " :  {
+
+					"main chunk" : "chunk >
+
+					=== lua =============
+					local self = ...;
+					
+					local spinStartAnimation = 103;
+					local spinAnimation = 104;
+					local damageShape = 119;
+					
+					AnimationController.BlendToAnimation(self, spinStartAnimation);
+					Program.Wait(KeyframeAnimation.TimeToCompletion(self, spinStartAnimation));
+					
+					EntityController.SetMoveSpeed(self, 150);
+					CollisionShape.SetEnabled(self, damageShape, true);
+					
+					AnimationController.BlendToAnimation(self, spinAnimation);
+					
+					Program.Wait(3);
+					
+					CollisionShape.SetEnabled(self, damageShape, false);
+					
+
+					=====================",
+					"secondary chunk" : "\\x1bLuaQ\\x00\\x01\\x04\\x04\\x04\\x08\\x00\\xe9\\x01\\x00\\x00local self = ...;\\r\\n\\r\\nlocal spinStartAnimation = 103;\\r\\nlocal spinAnimation = 104;\\r\\nlocal damageShape = 119;\\r\\n\\r\\nAnimationController.BlendToAnimation(self, spinStartAnimation);\\r\\nProgram.Wait(KeyframeAnimation.TimeToCompletion(self, spinStartAnimation));\\r\\n\\r\\nEntityController.SetMoveSpeed(self, 150);\\r\\nCollisionShape.SetEnabled(self, damageShape, true);\\r\\n\\r\\nAnimationController.BlendToAnimation(self, spinAnimation);\\r\\n\\r\\nProgram.Wait(3);\\r\\n\\r\\nCollisionShape.SetEnabled(self, damageShape, false);\\r\\n\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x02\\x08,\\x00\\x00\\x00%\\x00\\x00\\x01A\\x00\\x00\\x00\\x81@\\x00\\x00\\xc1\\x80\\x00\\x00\\x05\\xc1\\x00\\x00\\x06\\x01A\\x02@\\x01\\x00\\x00\\x80\\x01\\x80\\x00\\x1cA\\x80\\x01\\x05A\\x01\\x00\\x06\\x81A\\x02E\\xc1\\x01\\x00F\\x01\\xc2\\x02\\x80\\x01\\x00\\x00\\xc0\\x01\\x80\\x00\\\\\\x01\\x80\\x01\\x1cA\\x00\\x00\\x05A\\x02\\x00\\x06\\x81B\\x02@\\x01\\x00\\x00\\x81\\xc1\\x02\\x00\\x1cA\\x80\\x01\\x05\\x01\\x03\\x00\\x06AC\\x02@\\x01\\x00\\x00\\x80\\x01\\x80\\x01\\xc2\\x01\\x80\\x00\\x1cA\\x00\\x02\\x05\\xc1\\x00\\x00\\x06\\x01A\\x02@\\x01\\x00\\x00\\x80\\x01\\x00\\x01\\x1cA\\x80\\x01\\x05A\\x01\\x00\\x06\\x81A\\x02A\\x81\\x03\\x00\\x1cA\\x00\\x01\\x05\\x01\\x03\\x00\\x06AC\\x02@\\x01\\x00\\x00\\x80\\x01\\x80\\x01\\xc2\\x01\\x00\\x00\\x1cA\\x00\\x02\\x1e\\x00\\x80\\x00\\x0f\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x00\\x00\\xc0Y@\\x03\\x00\\x00\\x00\\x00\\x00\\x00Z@\\x03\\x00\\x00\\x00\\x00\\x00\\xc0]@\\x04\\x14\\x00\\x00\\x00AnimationController\\x00\\x04\\x11\\x00\\x00\\x00BlendToAnimation\\x00\\x04\\x08\\x00\\x00\\x00Program\\x00\\x04\\x05\\x00\\x00\\x00Wait\\x00\\x04\\x12\\x00\\x00\\x00KeyframeAnimation\\x00\\x04\\x11\\x00\\x00\\x00TimeToCompletion\\x00\\x04\\x11\\x00\\x00\\x00EntityController\\x00\\x04\\r\\x00\\x00\\x00SetMoveSpeed\\x00\\x03\\x00\\x00\\x00\\x00\\x00\\xc0b@\\x04\\x0f\\x00\\x00\\x00CollisionShape\\x00\\x04\\x0b\\x00\\x00\\x00SetEnabled\\x00\\x03\\x00\\x00\\x00\\x00\\x00\\x00\\x08@\\x00\\x00\\x00\\x00,\\x00\\x00\\x00\\x01\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x07\\x00\\x00\\x00\\x07\\x00\\x00\\x00\\x07\\x00\\x00\\x00\\x07\\x00\\x00\\x00\\x07\\x00\\x00\\x00\\x08\\x00\\x00\\x00\\x08\\x00\\x00\\x00\\x08\\x00\\x00\\x00\\x08\\x00\\x00\\x00\\x08\\x00\\x00\\x00\\x08\\x00\\x00\\x00\\x08\\x00\\x00\\x00\\x08\\x00\\x00\\x00\\n\\x00\\x00\\x00\\n\\x00\\x00\\x00\\n\\x00\\x00\\x00\\n\\x00\\x00\\x00\\n\\x00\\x00\\x00\\x0b\\x00\\x00\\x00\\x0b\\x00\\x00\\x00\\x0b\\x00\\x00\\x00\\x0b\\x00\\x00\\x00\\x0b\\x00\\x00\\x00\\x0b\\x00\\x00\\x00\\r\\x00\\x00\\x00\\r\\x00\\x00\\x00\\r\\x00\\x00\\x00\\r\\x00\\x00\\x00\\r\\x00\\x00\\x00\\x0f\\x00\\x00\\x00\\x0f\\x00\\x00\\x00\\x0f\\x00\\x00\\x00\\x0f\\x00\\x00\\x00\\x11\\x00\\x00\\x00\\x11\\x00\\x00\\x00\\x11\\x00\\x00\\x00\\x11\\x00\\x00\\x00\\x11\\x00\\x00\\x00\\x11\\x00\\x00\\x00\\x11\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x05\\x00\\x00\\x00self\\x00\\x01\\x00\\x00\\x00+\\x00\\x00\\x00\\x13\\x00\\x00\\x00spinStartAnimation\\x00\\x02\\x00\\x00\\x00+\\x00\\x00\\x00\\x0e\\x00\\x00\\x00spinAnimation\\x00\\x03\\x00\\x00\\x00+\\x00\\x00\\x00\\x0c\\x00\\x00\\x00damageShape\\x00\\x04\\x00\\x00\\x00+\\x00\\x00\\x00\\x00\\x00\\x00\\x00",
+				},
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "CollisionShape",
+			"number" : 119,
+			"name" : "spindamage",
+
+			"collision shapesub-sub-sub-block " :  {
+
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"w" : -200.0,
+					"x" : 0.0,
+					"y" : 400.0,
+					"z" : 60.0,
+				},
+			},
+
+			"collision shape 2sub-sub-sub-block " :  {
+
+				"u3" : 1,
+				"w" : -15.0,
+				"x" : 15.0,
+				"z" : 0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "ParticleEmitter",
+			"number" : 124,
+
+			"particle emittersub-sub-sub-block " :  {
+
+				"particle" : 125,
+				"particle" : 126,
+				"particle" : 127,
+				"u1" : 0,
+				"u2" : 100,
+				"u3" : 0,
+				"u4" : 0,
+
+				"u5sub-sub-sub-sub-block " :  {
+
+					"u0" : 5,
+
+					"u1sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 0.0,
+						"x" : 0.0,
+						"y" : 0.0,
+						"z" : 1.0,
+					},
+					"u2" : 260.0,
+					"u2" : 45.0,
+					"u2" : 0.0,
+					"u2" : 15.0,
+					"u2" : 0.0,
+					"u2" : 450.0,
+					"u2" : 0.0,
+					"u2" : 0.0,
+					"u2" : 1.0,
+					"u2" : 0.0,
+					"u2" : 1.0,
+					"u2" : 0.004999999888241291,
+					"u2" : 0.20000000298023224,
+					"u2" : 0.0,
+					"u2" : 0.0,
+					"u3" : 0.0,
+					"u4" : 0.0,
+					"u5" : 0.0,
+
+					"u6sub-sub-sub-sub-sub-block " :  {
+
+						"u0" : 0.0,
+						"u1" : 50.0,
+						"u2" : 0.0,
+					},
+				},
+				"u6" : 0,
+
+				"u7sub-sub-sub-sub-block " :  {
+
+					"u0" : 0.0,
+					"u1" : 3000.0,
+					"u2" : 0.0,
+				},
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Particle",
+			"number" : 125,
+
+			"particlesub-sub-sub-block " :  {
+
+				"name" : "particle_fure_1",
+				"u0" : 25.0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Particle",
+			"number" : 126,
+
+			"particlesub-sub-sub-block " :  {
+
+				"name" : "particle_fure_2",
+				"u0" : 20.0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Particle",
+			"number" : 127,
+
+			"particlesub-sub-sub-block " :  {
+
+				"name" : "particle_fure_3",
+				"u0" : 15.0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "EntityAction",
+			"number" : 132,
+			"name" : "castbolt",
+
+			"entity actionsub-sub-sub-block " :  {
+
+
+				"lua chunksub-sub-sub-sub-block " :  {
+
+					"main chunk" : "chunk >
+
+					=== lua =============
+					local self = ...;
+					
+					local invokeAnimation = 102;
+					local castAnimation = 142;
+					
+					KeyframeAnimation.SetCurrentTime(self, invokeAnimation, 0.0);
+					AnimationController.BlendToAnimation(self, invokeAnimation);
+					
+					
+					Skill.BeginCasting(self, \"bossbolt\", Vector3.New(EntityController.FacingDirection(self), 0, 0));
+					
+					Program.Wait(0.5);
+					
+					KeyframeAnimation.SetCurrentTime(self, castAnimation, 0.0);
+					AnimationController.BlendToAnimation(self, castAnimation);
+					
+					Program.Wait(KeyframeAnimation.TimeToFrame(self, castAnimation, 13));
+					
+					Skill.FinishCasting(self);
+					
+					Program.Wait(KeyframeAnimation.TimeToCompletion(self, castAnimation));
+					
+					
+					
+
+					=====================",
+					"secondary chunk" : "\\x1bLuaQ\\x00\\x01\\x04\\x04\\x04\\x08\\x00{\\x02\\x00\\x00local self = ...;\\r\\n\\r\\nlocal invokeAnimation = 102;\\r\\nlocal castAnimation = 142;\\r\\n\\r\\nKeyframeAnimation.SetCurrentTime(self, invokeAnimation, 0.0);\\r\\nAnimationController.BlendToAnimation(self, invokeAnimation);\\r\\n\\r\\n\\r\\nSkill.BeginCasting(self, \"bossbolt\", Vector3.New(EntityController.FacingDirection(self), 0, 0));\\r\\n\\r\\nProgram.Wait(0.5);\\r\\n\\r\\nKeyframeAnimation.SetCurrentTime(self, castAnimation, 0.0);\\r\\nAnimationController.BlendToAnimation(self, castAnimation);\\r\\n\\r\\nProgram.Wait(KeyframeAnimation.TimeToFrame(self, castAnimation, 13));\\r\\n\\r\\nSkill.FinishCasting(self);\\r\\n\\r\\nProgram.Wait(KeyframeAnimation.TimeToCompletion(self, castAnimation));\\r\\n\\r\\n\\r\\n\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x02\\nA\\x00\\x00\\x00%\\x00\\x00\\x01A\\x00\\x00\\x00\\x81@\\x00\\x00\\xc5\\x80\\x00\\x00\\xc6\\xc0\\xc0\\x01\\x00\\x01\\x00\\x00@\\x01\\x80\\x00\\x81\\x01\\x01\\x00\\xdc@\\x00\\x02\\xc5@\\x01\\x00\\xc6\\x80\\xc1\\x01\\x00\\x01\\x00\\x00@\\x01\\x80\\x00\\xdc@\\x80\\x01\\xc5\\xc0\\x01\\x00\\xc6\\x00\\xc2\\x01\\x00\\x01\\x00\\x00AA\\x02\\x00\\x85\\x81\\x02\\x00\\x86\\xc1B\\x03\\xc5\\x01\\x03\\x00\\xc6A\\xc3\\x03\\x00\\x02\\x00\\x00\\xdc\\x81\\x00\\x01\\x01\\x02\\x01\\x00A\\x02\\x01\\x00\\x9c\\x01\\x00\\x02\\xdc@\\x00\\x00\\xc5\\x80\\x03\\x00\\xc6\\xc0\\xc3\\x01\\x01\\x01\\x04\\x00\\xdc@\\x00\\x01\\xc5\\x80\\x00\\x00\\xc6\\xc0\\xc0\\x01\\x00\\x01\\x00\\x00@\\x01\\x00\\x01\\x81\\x01\\x01\\x00\\xdc@\\x00\\x02\\xc5@\\x01\\x00\\xc6\\x80\\xc1\\x01\\x00\\x01\\x00\\x00@\\x01\\x00\\x01\\xdc@\\x80\\x01\\xc5\\x80\\x03\\x00\\xc6\\xc0\\xc3\\x01\\x05\\x81\\x00\\x00\\x06AD\\x02@\\x01\\x00\\x00\\x80\\x01\\x00\\x01\\xc1\\x81\\x04\\x00\\x1c\\x01\\x00\\x02\\xdc@\\x00\\x00\\xc5\\xc0\\x01\\x00\\xc6\\xc0\\xc4\\x01\\x00\\x01\\x00\\x00\\xdc@\\x00\\x01\\xc5\\x80\\x03\\x00\\xc6\\xc0\\xc3\\x01\\x05\\x81\\x00\\x00\\x06\\x01E\\x02@\\x01\\x00\\x00\\x80\\x01\\x00\\x01\\x1c\\x01\\x80\\x01\\xdc@\\x00\\x00\\x1e\\x00\\x80\\x00\\x15\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x00\\x00\\x80Y@\\x03\\x00\\x00\\x00\\x00\\x00\\xc0a@\\x04\\x12\\x00\\x00\\x00KeyframeAnimation\\x00\\x04\\x0f\\x00\\x00\\x00SetCurrentTime\\x00\\x03\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x04\\x14\\x00\\x00\\x00AnimationController\\x00\\x04\\x11\\x00\\x00\\x00BlendToAnimation\\x00\\x04\\x06\\x00\\x00\\x00Skill\\x00\\x04\\r\\x00\\x00\\x00BeginCasting\\x00\\x04\\t\\x00\\x00\\x00bossbolt\\x00\\x04\\x08\\x00\\x00\\x00Vector3\\x00\\x04\\x04\\x00\\x00\\x00New\\x00\\x04\\x11\\x00\\x00\\x00EntityController\\x00\\x04\\x10\\x00\\x00\\x00FacingDirection\\x00\\x04\\x08\\x00\\x00\\x00Program\\x00\\x04\\x05\\x00\\x00\\x00Wait\\x00\\x03\\x00\\x00\\x00\\x00\\x00\\x00\\xe0?\\x04\\x0c\\x00\\x00\\x00TimeToFrame\\x00\\x03\\x00\\x00\\x00\\x00\\x00\\x00*@\\x04\\x0e\\x00\\x00\\x00FinishCasting\\x00\\x04\\x11\\x00\\x00\\x00TimeToCompletion\\x00\\x00\\x00\\x00\\x00A\\x00\\x00\\x00\\x01\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x06\\x00\\x00\\x00\\x06\\x00\\x00\\x00\\x06\\x00\\x00\\x00\\x06\\x00\\x00\\x00\\x06\\x00\\x00\\x00\\x06\\x00\\x00\\x00\\x07\\x00\\x00\\x00\\x07\\x00\\x00\\x00\\x07\\x00\\x00\\x00\\x07\\x00\\x00\\x00\\x07\\x00\\x00\\x00\\n\\x00\\x00\\x00\\n\\x00\\x00\\x00\\n\\x00\\x00\\x00\\n\\x00\\x00\\x00\\n\\x00\\x00\\x00\\n\\x00\\x00\\x00\\n\\x00\\x00\\x00\\n\\x00\\x00\\x00\\n\\x00\\x00\\x00\\n\\x00\\x00\\x00\\n\\x00\\x00\\x00\\n\\x00\\x00\\x00\\n\\x00\\x00\\x00\\n\\x00\\x00\\x00\\x0c\\x00\\x00\\x00\\x0c\\x00\\x00\\x00\\x0c\\x00\\x00\\x00\\x0c\\x00\\x00\\x00\\x0e\\x00\\x00\\x00\\x0e\\x00\\x00\\x00\\x0e\\x00\\x00\\x00\\x0e\\x00\\x00\\x00\\x0e\\x00\\x00\\x00\\x0e\\x00\\x00\\x00\\x0f\\x00\\x00\\x00\\x0f\\x00\\x00\\x00\\x0f\\x00\\x00\\x00\\x0f\\x00\\x00\\x00\\x0f\\x00\\x00\\x00\\x11\\x00\\x00\\x00\\x11\\x00\\x00\\x00\\x11\\x00\\x00\\x00\\x11\\x00\\x00\\x00\\x11\\x00\\x00\\x00\\x11\\x00\\x00\\x00\\x11\\x00\\x00\\x00\\x11\\x00\\x00\\x00\\x11\\x00\\x00\\x00\\x13\\x00\\x00\\x00\\x13\\x00\\x00\\x00\\x13\\x00\\x00\\x00\\x13\\x00\\x00\\x00\\x15\\x00\\x00\\x00\\x15\\x00\\x00\\x00\\x15\\x00\\x00\\x00\\x15\\x00\\x00\\x00\\x15\\x00\\x00\\x00\\x15\\x00\\x00\\x00\\x15\\x00\\x00\\x00\\x15\\x00\\x00\\x00\\x15\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x05\\x00\\x00\\x00self\\x00\\x01\\x00\\x00\\x00@\\x00\\x00\\x00\\x10\\x00\\x00\\x00invokeAnimation\\x00\\x02\\x00\\x00\\x00@\\x00\\x00\\x00\\x0e\\x00\\x00\\x00castAnimation\\x00\\x03\\x00\\x00\\x00@\\x00\\x00\\x00\\x00\\x00\\x00\\x00",
+				},
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Skill",
+			"number" : 137,
+
+			"skillsub-sub-sub-block " :  {
+
+				"u0" : 0,
+
+				"u1sub-sub-sub-sub-block " :  {
+
+					"x" : 70.0,
+					"y" : 50.0,
+				},
+				"cast animation" : "boss1_spellcast",
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "KeyframeAnimation",
+			"number" : 142,
+
+			"keyframe animationsub-sub-sub-block " :  {
+
+				"linked model component number" : 101,
+				"name" : "boss1_shadowform_shoot",
+				"u0" : 1,
+				"u1" : 1.0,
+				"u2" : 1,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Program",
+			"number" : 147,
+
+			"programsub-sub-sub-block " :  {
+
+				"u0" : 1,
+
+				"lua chunksub-sub-sub-sub-block " :  {
+
+					"main chunk" : "chunk >
+
+					=== lua =============
+					local self = ...;
+					
+					Program.Wait(0.2);
+					Game.FadeOut();
+					Game.SetCinematicMode(true, false);
+					Program.Wait(0.5);
+					Scene.Find(\"hero\"):setPosition(Scene.Find(\"questMarker3\"):position());
+					Game.FadeIn();
+					ShowTextBubble(\"corruptorBubble\", self:position() + Vector3.New(0, 80, 0), \"You\'re no match to me!\");
+					Program.Wait(1.0);
+					
+					Program.Wait(1.5);
+					HideTextBubble(\"corruptorBubble\");
+					
+					Game.Flash();
+					Scene.OverrideLights(1,0,0);
+					
+					Scene.Find(\"followherofocus1\")[\"target\"] = Scene.Find(\"questMarker3\");
+					EntityController.PerformAction(self, 132);
+					local focus1 = Scene.Find(\"focus1\");
+					Program.Wait(0.4);
+					Scene.Find(\"followherofocus1\"):setHidden(true);
+					TransformController.TranslateBy(focus1, Vector3.New(-2000,300,0), 3);
+					Program.Wait(0.1);
+					
+					Camera.FocusAtShape(focus1, Rectangle.New(0,0,0,0));
+					Camera.JumpToFocus();
+					Camera.FollowShape(focus1, Rectangle.New(0,0,0,0));
+					
+					Program.Wait(1.3);
+					Scene.Find(\"followherofocus1\"):setHidden(false);
+					MusicPlayer.PlayMusic(\"gameover\");
+					Program.Wait(1.0);
+					ShowTextBubble(\"corruptorBubble2\", self:position() + Vector3.New(0, 80, 0), \"BWHA BWHA BWHA!\");
+					
+					Program.Wait(1.5);
+					HideTextBubble(\"corruptorBubble2\");
+					
+					Program.Wait(3.0);
+					
+					Character.SetQuestCompleted(\"quest01_find_master\");
+					Character.AddQuest(\"quest02_village_elder\");
+					
+					Game.FadeOut(1.5);
+					Program.Wait(1.5);
+					MusicPlayer.FadeOut(1.5);
+					Program.Wait(2);
+					Game.SetCinematicMode(false, false);
+					
+					Game.EnterPortal(\"town_healerhouse\", \"spawn_from_resurrection\");
+					
+
+					=====================",
+					"secondary chunk" : "\\x1bLuaQ\\x00\\x01\\x04\\x04\\x04\\x08\\x00\\xc8\\x05\\x00\\x00local self = ...;\\r\\n\\r\\nProgram.Wait(0.2);\\r\\nGame.FadeOut();\\r\\nGame.SetCinematicMode(true, false);\\r\\nProgram.Wait(0.5);\\r\\nScene.Find(\"hero\"):setPosition(Scene.Find(\"questMarker3\"):position());\\r\\nGame.FadeIn();\\r\\nShowTextBubble(\"corruptorBubble\", self:position() + Vector3.New(0, 80, 0), \"You\\\'re no match to me!\");\\r\\nProgram.Wait(1.0);\\r\\n\\r\\nProgram.Wait(1.5);\\r\\nHideTextBubble(\"corruptorBubble\");\\r\\n\\r\\nGame.Flash();\\r\\nScene.OverrideLights(1,0,0);\\r\\n\\r\\nScene.Find(\"followherofocus1\")[\"target\"] = Scene.Find(\"questMarker3\");\\r\\nEntityController.PerformAction(self, 132);\\r\\nlocal focus1 = Scene.Find(\"focus1\");\\r\\nProgram.Wait(0.4);\\r\\nScene.Find(\"followherofocus1\"):setHidden(true);\\r\\nTransformController.TranslateBy(focus1, Vector3.New(-2000,300,0), 3);\\r\\nProgram.Wait(0.1);\\r\\n\\r\\nCamera.FocusAtShape(focus1, Rectangle.New(0,0,0,0));\\r\\nCamera.JumpToFocus();\\r\\nCamera.FollowShape(focus1, Rectangle.New(0,0,0,0));\\r\\n\\r\\nProgram.Wait(1.3);\\r\\nScene.Find(\"followherofocus1\"):setHidden(false);\\r\\nMusicPlayer.PlayMusic(\"gameover\");\\r\\nProgram.Wait(1.0);\\r\\nShowTextBubble(\"corruptorBubble2\", self:position() + Vector3.New(0, 80, 0), \"BWHA BWHA BWHA!\");\\r\\n\\r\\nProgram.Wait(1.5);\\r\\nHideTextBubble(\"corruptorBubble2\");\\r\\n\\r\\nProgram.Wait(3.0);\\r\\n\\r\\nCharacter.SetQuestCompleted(\"quest01_find_master\");\\r\\nCharacter.AddQuest(\"quest02_village_elder\");\\r\\n\\r\\nGame.FadeOut(1.5);\\r\\nProgram.Wait(1.5);\\r\\nMusicPlayer.FadeOut(1.5);\\r\\nProgram.Wait(2);\\r\\nGame.SetCinematicMode(false, false);\\r\\n\\r\\nGame.EnterPortal(\"town_healerhouse\", \"spawn_from_resurrection\");\\r\\n\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x02\\t\\xd4\\x00\\x00\\x00%\\x00\\x00\\x01E\\x00\\x00\\x00F@\\xc0\\x00\\x81\\x80\\x00\\x00\\\\@\\x00\\x01E\\xc0\\x00\\x00F\\x00\\xc1\\x00\\\\@\\x80\\x00E\\xc0\\x00\\x00F@\\xc1\\x00\\x82\\x00\\x80\\x00\\xc2\\x00\\x00\\x00\\\\@\\x80\\x01E\\x00\\x00\\x00F@\\xc0\\x00\\x81\\x80\\x01\\x00\\\\@\\x00\\x01E\\xc0\\x01\\x00F\\x00\\xc2\\x00\\x81@\\x02\\x00\\\\\\x80\\x00\\x01K\\x80\\xc2\\x00\\xc5\\xc0\\x01\\x00\\xc6\\x00\\xc2\\x01\\x01\\xc1\\x02\\x00\\xdc\\x80\\x00\\x01\\xcb\\x00\\xc3\\x01\\xdc\\x00\\x00\\x01\\\\@\\x00\\x00E\\xc0\\x00\\x00F@\\xc3\\x00\\\\@\\x80\\x00E\\x80\\x03\\x00\\x81\\xc0\\x03\\x00\\xcb\\x00C\\x00\\xdc\\x80\\x00\\x01\\x05\\x01\\x04\\x00\\x06AD\\x02A\\x81\\x04\\x00\\x81\\xc1\\x04\\x00\\xc1\\x81\\x04\\x00\\x1c\\x81\\x00\\x02\\xcc\\x00\\x81\\x01\\x01\\x01\\x05\\x00\\\\@\\x00\\x02E\\x00\\x00\\x00F@\\xc0\\x00\\x81@\\x05\\x00\\\\@\\x00\\x01E\\x00\\x00\\x00F@\\xc0\\x00\\x81\\x80\\x05\\x00\\\\@\\x00\\x01E\\xc0\\x05\\x00\\x81\\xc0\\x03\\x00\\\\@\\x00\\x01E\\xc0\\x00\\x00F\\x00\\xc6\\x00\\\\@\\x80\\x00E\\xc0\\x01\\x00F@\\xc6\\x00\\x81@\\x05\\x00\\xc1\\x80\\x04\\x00\\x01\\x81\\x04\\x00\\\\@\\x00\\x02E\\xc0\\x01\\x00F\\x00\\xc2\\x00\\x81\\x80\\x06\\x00\\\\\\x80\\x00\\x01\\x85\\xc0\\x01\\x00\\x86\\x00B\\x01\\xc1\\xc0\\x02\\x00\\x9c\\x80\\x00\\x01I\\x80\\x80\\x8dE\\x00\\x07\\x00F@\\xc7\\x00\\x80\\x00\\x00\\x00\\xc1\\x80\\x07\\x00\\\\@\\x80\\x01E\\xc0\\x01\\x00F\\x00\\xc2\\x00\\x81\\xc0\\x07\\x00\\\\\\x80\\x00\\x01\\x85\\x00\\x00\\x00\\x86@@\\x01\\xc1\\x00\\x08\\x00\\x9c@\\x00\\x01\\x85\\xc0\\x01\\x00\\x86\\x00B\\x01\\xc1\\x80\\x06\\x00\\x9c\\x80\\x00\\x01\\x8b@H\\x01\\x02\\x01\\x80\\x00\\x9c@\\x80\\x01\\x85\\x80\\x08\\x00\\x86\\xc0H\\x01\\xc0\\x00\\x80\\x00\\x05\\x01\\x04\\x00\\x06AD\\x02A\\x01\\t\\x00\\x81A\\t\\x00\\xc1\\x81\\x04\\x00\\x1c\\x81\\x00\\x02A\\x81\\t\\x00\\x9c@\\x00\\x02\\x85\\x00\\x00\\x00\\x86@@\\x01\\xc1\\xc0\\t\\x00\\x9c@\\x00\\x01\\x85\\x00\\n\\x00\\x86@J\\x01\\xc0\\x00\\x80\\x00\\x05\\x81\\n\\x00\\x06AD\\x02A\\x81\\x04\\x00\\x81\\x81\\x04\\x00\\xc1\\x81\\x04\\x00\\x01\\x82\\x04\\x00\\x1c\\x01\\x80\\x02\\x9c@\\x00\\x00\\x85\\x00\\n\\x00\\x86\\xc0J\\x01\\x9c@\\x80\\x00\\x85\\x00\\n\\x00\\x86\\x00K\\x01\\xc0\\x00\\x80\\x00\\x05\\x81\\n\\x00\\x06AD\\x02A\\x81\\x04\\x00\\x81\\x81\\x04\\x00\\xc1\\x81\\x04\\x00\\x01\\x82\\x04\\x00\\x1c\\x01\\x80\\x02\\x9c@\\x00\\x00\\x85\\x00\\x00\\x00\\x86@@\\x01\\xc1@\\x0b\\x00\\x9c@\\x00\\x01\\x85\\xc0\\x01\\x00\\x86\\x00B\\x01\\xc1\\x80\\x06\\x00\\x9c\\x80\\x00\\x01\\x8b@H\\x01\\x02\\x01\\x00\\x00\\x9c@\\x80\\x01\\x85\\x80\\x0b\\x00\\x86\\xc0K\\x01\\xc1\\x00\\x0c\\x00\\x9c@\\x00\\x01\\x85\\x00\\x00\\x00\\x86@@\\x01\\xc1@\\x05\\x00\\x9c@\\x00\\x01\\x85\\x80\\x03\\x00\\xc1@\\x0c\\x00\\x0b\\x01C\\x00\\x1c\\x81\\x00\\x01E\\x01\\x04\\x00FA\\xc4\\x02\\x81\\x81\\x04\\x00\\xc1\\xc1\\x04\\x00\\x01\\x82\\x04\\x00\\\\\\x81\\x00\\x02\\x0cA\\x01\\x02A\\x81\\x0c\\x00\\x9c@\\x00\\x02\\x85\\x00\\x00\\x00\\x86@@\\x01\\xc1\\x80\\x05\\x00\\x9c@\\x00\\x01\\x85\\xc0\\x05\\x00\\xc1@\\x0c\\x00\\x9c@\\x00\\x01\\x85\\x00\\x00\\x00\\x86@@\\x01\\xc1\\x80\\t\\x00\\x9c@\\x00\\x01\\x85\\xc0\\x0c\\x00\\x86\\x00M\\x01\\xc1@\\r\\x00\\x9c@\\x00\\x01\\x85\\xc0\\x0c\\x00\\x86\\x80M\\x01\\xc1\\xc0\\r\\x00\\x9c@\\x00\\x01\\x85\\xc0\\x00\\x00\\x86\\x00A\\x01\\xc1\\x80\\x05\\x00\\x9c@\\x00\\x01\\x85\\x00\\x00\\x00\\x86@@\\x01\\xc1\\x80\\x05\\x00\\x9c@\\x00\\x01\\x85\\x80\\x0b\\x00\\x86\\x00A\\x01\\xc1\\x80\\x05\\x00\\x9c@\\x00\\x01\\x85\\x00\\x00\\x00\\x86@@\\x01\\xc1\\x00\\x0e\\x00\\x9c@\\x00\\x01\\x85\\xc0\\x00\\x00\\x86@A\\x01\\xc2\\x00\\x00\\x00\\x02\\x01\\x00\\x00\\x9c@\\x80\\x01\\x85\\xc0\\x00\\x00\\x86@N\\x01\\xc1\\x80\\x0e\\x00\\x01\\xc1\\x0e\\x00\\x9c@\\x80\\x01\\x1e\\x00\\x80\\x00<\\x00\\x00\\x00\\x04\\x08\\x00\\x00\\x00Program\\x00\\x04\\x05\\x00\\x00\\x00Wait\\x00\\x03\\x9a\\x99\\x99\\x99\\x99\\x99\\xc9?\\x04\\x05\\x00\\x00\\x00Game\\x00\\x04\\x08\\x00\\x00\\x00FadeOut\\x00\\x04\\x11\\x00\\x00\\x00SetCinematicMode\\x00\\x03\\x00\\x00\\x00\\x00\\x00\\x00\\xe0?\\x04\\x06\\x00\\x00\\x00Scene\\x00\\x04\\x05\\x00\\x00\\x00Find\\x00\\x04\\x05\\x00\\x00\\x00hero\\x00\\x04\\x0c\\x00\\x00\\x00setPosition\\x00\\x04\\r\\x00\\x00\\x00questMarker3\\x00\\x04\\t\\x00\\x00\\x00position\\x00\\x04\\x07\\x00\\x00\\x00FadeIn\\x00\\x04\\x0f\\x00\\x00\\x00ShowTextBubble\\x00\\x04\\x10\\x00\\x00\\x00corruptorBubble\\x00\\x04\\x08\\x00\\x00\\x00Vector3\\x00\\x04\\x04\\x00\\x00\\x00New\\x00\\x03\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x00\\x00\\x00T@\\x04\\x17\\x00\\x00\\x00You\\\'re no match to me!\\x00\\x03\\x00\\x00\\x00\\x00\\x00\\x00\\xf0?\\x03\\x00\\x00\\x00\\x00\\x00\\x00\\xf8?\\x04\\x0f\\x00\\x00\\x00HideTextBubble\\x00\\x04\\x06\\x00\\x00\\x00Flash\\x00\\x04\\x0f\\x00\\x00\\x00OverrideLights\\x00\\x04\\x11\\x00\\x00\\x00followherofocus1\\x00\\x04\\x07\\x00\\x00\\x00target\\x00\\x04\\x11\\x00\\x00\\x00EntityController\\x00\\x04\\x0e\\x00\\x00\\x00PerformAction\\x00\\x03\\x00\\x00\\x00\\x00\\x00\\x80`@\\x04\\x07\\x00\\x00\\x00focus1\\x00\\x03\\x9a\\x99\\x99\\x99\\x99\\x99\\xd9?\\x04\\n\\x00\\x00\\x00setHidden\\x00\\x04\\x14\\x00\\x00\\x00TransformController\\x00\\x04\\x0c\\x00\\x00\\x00TranslateBy\\x00\\x03\\x00\\x00\\x00\\x00\\x00@\\x9f\\xc0\\x03\\x00\\x00\\x00\\x00\\x00\\xc0r@\\x03\\x00\\x00\\x00\\x00\\x00\\x00\\x08@\\x03\\x9a\\x99\\x99\\x99\\x99\\x99\\xb9?\\x04\\x07\\x00\\x00\\x00Camera\\x00\\x04\\r\\x00\\x00\\x00FocusAtShape\\x00\\x04\\n\\x00\\x00\\x00Rectangle\\x00\\x04\\x0c\\x00\\x00\\x00JumpToFocus\\x00\\x04\\x0c\\x00\\x00\\x00FollowShape\\x00\\x03\\xcd\\xcc\\xcc\\xcc\\xcc\\xcc\\xf4?\\x04\\x0c\\x00\\x00\\x00MusicPlayer\\x00\\x04\\n\\x00\\x00\\x00PlayMusic\\x00\\x04\\t\\x00\\x00\\x00gameover\\x00\\x04\\x11\\x00\\x00\\x00corruptorBubble2\\x00\\x04\\x10\\x00\\x00\\x00BWHA BWHA BWHA!\\x00\\x04\\n\\x00\\x00\\x00Character\\x00\\x04\\x12\\x00\\x00\\x00SetQuestCompleted\\x00\\x04\\x14\\x00\\x00\\x00quest01_find_master\\x00\\x04\\t\\x00\\x00\\x00AddQuest\\x00\\x04\\x16\\x00\\x00\\x00quest02_village_elder\\x00\\x03\\x00\\x00\\x00\\x00\\x00\\x00\\x00@\\x04\\x0c\\x00\\x00\\x00EnterPortal\\x00\\x04\\x11\\x00\\x00\\x00town_healerhouse\\x00\\x04\\x18\\x00\\x00\\x00spawn_from_resurrection\\x00\\x00\\x00\\x00\\x00\\xd4\\x00\\x00\\x00\\x01\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x06\\x00\\x00\\x00\\x06\\x00\\x00\\x00\\x06\\x00\\x00\\x00\\x06\\x00\\x00\\x00\\x07\\x00\\x00\\x00\\x07\\x00\\x00\\x00\\x07\\x00\\x00\\x00\\x07\\x00\\x00\\x00\\x07\\x00\\x00\\x00\\x07\\x00\\x00\\x00\\x07\\x00\\x00\\x00\\x07\\x00\\x00\\x00\\x07\\x00\\x00\\x00\\x07\\x00\\x00\\x00\\x07\\x00\\x00\\x00\\x07\\x00\\x00\\x00\\x08\\x00\\x00\\x00\\x08\\x00\\x00\\x00\\x08\\x00\\x00\\x00\\t\\x00\\x00\\x00\\t\\x00\\x00\\x00\\t\\x00\\x00\\x00\\t\\x00\\x00\\x00\\t\\x00\\x00\\x00\\t\\x00\\x00\\x00\\t\\x00\\x00\\x00\\t\\x00\\x00\\x00\\t\\x00\\x00\\x00\\t\\x00\\x00\\x00\\t\\x00\\x00\\x00\\t\\x00\\x00\\x00\\t\\x00\\x00\\x00\\n\\x00\\x00\\x00\\n\\x00\\x00\\x00\\n\\x00\\x00\\x00\\n\\x00\\x00\\x00\\x0c\\x00\\x00\\x00\\x0c\\x00\\x00\\x00\\x0c\\x00\\x00\\x00\\x0c\\x00\\x00\\x00\\r\\x00\\x00\\x00\\r\\x00\\x00\\x00\\r\\x00\\x00\\x00\\x0f\\x00\\x00\\x00\\x0f\\x00\\x00\\x00\\x0f\\x00\\x00\\x00\\x10\\x00\\x00\\x00\\x10\\x00\\x00\\x00\\x10\\x00\\x00\\x00\\x10\\x00\\x00\\x00\\x10\\x00\\x00\\x00\\x10\\x00\\x00\\x00\\x12\\x00\\x00\\x00\\x12\\x00\\x00\\x00\\x12\\x00\\x00\\x00\\x12\\x00\\x00\\x00\\x12\\x00\\x00\\x00\\x12\\x00\\x00\\x00\\x12\\x00\\x00\\x00\\x12\\x00\\x00\\x00\\x12\\x00\\x00\\x00\\x13\\x00\\x00\\x00\\x13\\x00\\x00\\x00\\x13\\x00\\x00\\x00\\x13\\x00\\x00\\x00\\x13\\x00\\x00\\x00\\x14\\x00\\x00\\x00\\x14\\x00\\x00\\x00\\x14\\x00\\x00\\x00\\x14\\x00\\x00\\x00\\x15\\x00\\x00\\x00\\x15\\x00\\x00\\x00\\x15\\x00\\x00\\x00\\x15\\x00\\x00\\x00\\x16\\x00\\x00\\x00\\x16\\x00\\x00\\x00\\x16\\x00\\x00\\x00\\x16\\x00\\x00\\x00\\x16\\x00\\x00\\x00\\x16\\x00\\x00\\x00\\x16\\x00\\x00\\x00\\x17\\x00\\x00\\x00\\x17\\x00\\x00\\x00\\x17\\x00\\x00\\x00\\x17\\x00\\x00\\x00\\x17\\x00\\x00\\x00\\x17\\x00\\x00\\x00\\x17\\x00\\x00\\x00\\x17\\x00\\x00\\x00\\x17\\x00\\x00\\x00\\x17\\x00\\x00\\x00\\x17\\x00\\x00\\x00\\x18\\x00\\x00\\x00\\x18\\x00\\x00\\x00\\x18\\x00\\x00\\x00\\x18\\x00\\x00\\x00\\x1a\\x00\\x00\\x00\\x1a\\x00\\x00\\x00\\x1a\\x00\\x00\\x00\\x1a\\x00\\x00\\x00\\x1a\\x00\\x00\\x00\\x1a\\x00\\x00\\x00\\x1a\\x00\\x00\\x00\\x1a\\x00\\x00\\x00\\x1a\\x00\\x00\\x00\\x1a\\x00\\x00\\x00\\x1a\\x00\\x00\\x00\\x1b\\x00\\x00\\x00\\x1b\\x00\\x00\\x00\\x1b\\x00\\x00\\x00\\x1c\\x00\\x00\\x00\\x1c\\x00\\x00\\x00\\x1c\\x00\\x00\\x00\\x1c\\x00\\x00\\x00\\x1c\\x00\\x00\\x00\\x1c\\x00\\x00\\x00\\x1c\\x00\\x00\\x00\\x1c\\x00\\x00\\x00\\x1c\\x00\\x00\\x00\\x1c\\x00\\x00\\x00\\x1c\\x00\\x00\\x00\\x1e\\x00\\x00\\x00\\x1e\\x00\\x00\\x00\\x1e\\x00\\x00\\x00\\x1e\\x00\\x00\\x00\\x1f\\x00\\x00\\x00\\x1f\\x00\\x00\\x00\\x1f\\x00\\x00\\x00\\x1f\\x00\\x00\\x00\\x1f\\x00\\x00\\x00\\x1f\\x00\\x00\\x00\\x1f\\x00\\x00\\x00 \\x00\\x00\\x00 \\x00\\x00\\x00 \\x00\\x00\\x00 \\x00\\x00\\x00!\\x00\\x00\\x00!\\x00\\x00\\x00!\\x00\\x00\\x00!\\x00\\x00\\x00\"\\x00\\x00\\x00\"\\x00\\x00\\x00\"\\x00\\x00\\x00\"\\x00\\x00\\x00\"\\x00\\x00\\x00\"\\x00\\x00\\x00\"\\x00\\x00\\x00\"\\x00\\x00\\x00\"\\x00\\x00\\x00\"\\x00\\x00\\x00\"\\x00\\x00\\x00\"\\x00\\x00\\x00\"\\x00\\x00\\x00$\\x00\\x00\\x00$\\x00\\x00\\x00$\\x00\\x00\\x00$\\x00\\x00\\x00%\\x00\\x00\\x00%\\x00\\x00\\x00%\\x00\\x00\\x00\\\'\\x00\\x00\\x00\\\'\\x00\\x00\\x00\\\'\\x00\\x00\\x00\\\'\\x00\\x00\\x00)\\x00\\x00\\x00)\\x00\\x00\\x00)\\x00\\x00\\x00)\\x00\\x00\\x00*\\x00\\x00\\x00*\\x00\\x00\\x00*\\x00\\x00\\x00*\\x00\\x00\\x00,\\x00\\x00\\x00,\\x00\\x00\\x00,\\x00\\x00\\x00,\\x00\\x00\\x00-\\x00\\x00\\x00-\\x00\\x00\\x00-\\x00\\x00\\x00-\\x00\\x00\\x00.\\x00\\x00\\x00.\\x00\\x00\\x00.\\x00\\x00\\x00.\\x00\\x00\\x00/\\x00\\x00\\x00/\\x00\\x00\\x00/\\x00\\x00\\x00/\\x00\\x00\\x000\\x00\\x00\\x000\\x00\\x00\\x000\\x00\\x00\\x000\\x00\\x00\\x000\\x00\\x00\\x002\\x00\\x00\\x002\\x00\\x00\\x002\\x00\\x00\\x002\\x00\\x00\\x002\\x00\\x00\\x002\\x00\\x00\\x00\\x02\\x00\\x00\\x00\\x05\\x00\\x00\\x00self\\x00\\x01\\x00\\x00\\x00\\xd3\\x00\\x00\\x00\\x07\\x00\\x00\\x00focus1\\x00S\\x00\\x00\\x00\\xd3\\x00\\x00\\x00\\x00\\x00\\x00\\x00",
+				},
+				"u1" : 1,
+				"u2" : 0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Program",
+			"number" : 148,
+
+			"programsub-sub-sub-block " :  {
+
+				"u0" : 1,
+
+				"lua chunksub-sub-sub-sub-block " :  {
+
+					"main chunk" : "chunk >
+
+					=== lua =============
+					local self = ...;
+					
+					self[\"hurt\"] = 0;
+
+					=====================",
+					"secondary chunk" : "\\x1bLuaQ\\x00\\x01\\x04\\x04\\x04\\x08\\x00\\\'\\x00\\x00\\x00local self = ...;\\r\\n\\r\\nself[\"hurt\"] = 0;\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x02\\x02\\x03\\x00\\x00\\x00%\\x00\\x00\\x01\\t@@\\x80\\x1e\\x00\\x80\\x00\\x02\\x00\\x00\\x00\\x04\\x05\\x00\\x00\\x00hurt\\x00\\x03\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x01\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x01\\x00\\x00\\x00\\x05\\x00\\x00\\x00self\\x00\\x01\\x00\\x00\\x00\\x02\\x00\\x00\\x00\\x00\\x00\\x00\\x00",
+				},
+				"u1" : 1,
+				"u2" : 10,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "EntityAction",
+			"number" : 149,
+
+			"entity actionsub-sub-sub-block " :  {
+
+
+				"lua chunksub-sub-sub-sub-block " :  {
+
+				},
+			},
+		},
+
+		"positionsub-sub-block " :  {
+
+			"x position" : 0.0,
+			"y position" : 0.0,
+		},
+		"z position" : 0.0,
+		"rotation" : 0.0,
+		"scale" : 1.0,
+
+		"u0sub-sub-block " :  {
+
+			"w" : -200.0,
+			"x" : -50.0,
+			"y" : 400.0,
+			"z" : 350.0,
+		},
+		"hidden" : 0,
+	},
+	"u0" : 1.0,
+},
+
+"?itemblock " :  {
+
+
+	"?sub-itemsub-block " :  {
+
+		"name" : "spellcast",
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "SimpleGlow",
+			"number" : 1,
+
+			"simple glowsub-sub-sub-block " :  {
+
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"w" : 1.0,
+					"x" : 0.16666662693023682,
+					"y" : 0.1666669249534607,
+					"z" : 0.5,
+				},
+				"u1" : 20.0,
+				"u2" : 10,
+				"u3" : 15.0,
+				"u4" : 0.15000000596046448,
+				"u5" : 0.800000011920929,
+
+				"u6sub-sub-sub-sub-block " :  {
+
+					"y" : 0.0,
+					"z" : 0.0,
+				},
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "ParticleEmitter",
+			"number" : 102,
+
+			"particle emittersub-sub-sub-block " :  {
+
+				"particle" : 103,
+				"particle" : 104,
+				"particle" : 105,
+				"u1" : 0,
+				"u2" : 30,
+				"u3" : 0,
+				"u4" : 0,
+				"u6" : 0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Particle",
+			"number" : 103,
+
+			"particlesub-sub-sub-block " :  {
+
+				"name" : "particle_fure_1",
+				"u0" : 40.0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Particle",
+			"number" : 104,
+
+			"particlesub-sub-sub-block " :  {
+
+				"name" : "particle_fure_2",
+				"u0" : 40.0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Particle",
+			"number" : 105,
+
+			"particlesub-sub-sub-block " :  {
+
+				"name" : "particle_fure_3",
+				"u0" : 40.0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "MagicSpellCast",
+			"number" : 109,
+
+			"magic spell castsub-sub-sub-block " :  {
+
+				"particle emitter" : 102,
+				"u0" : 0,
+			},
+		},
+
+		"positionsub-sub-block " :  {
+
+			"x position" : 0.0,
+			"y position" : 0.0,
+		},
+		"z position" : 0.0,
+		"rotation" : 0.0,
+		"scale" : 1.0,
+
+		"u0sub-sub-block " :  {
+
+			"w" : -20.0,
+			"x" : -20.0,
+			"y" : 40.0,
+			"z" : 40.0,
+		},
+		"hidden" : 0,
+	},
+	"u0" : 2.0,
+},
+
+}

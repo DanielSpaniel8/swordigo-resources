@@ -1,0 +1,2275 @@
+data = {
+"scl file name" : "skeleton",
+
+"?itemblock " :  {
+
+
+	"?sub-itemsub-block " :  {
+
+		"name" : "skeleton_bolt_ballistic",
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "SimpleGlow",
+			"number" : 1,
+
+			"simple glowsub-sub-sub-block " :  {
+
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"w" : 1.0,
+					"x" : 0.0,
+					"y" : 3.5762786865234375e-07,
+					"z" : 0.5,
+				},
+				"u1" : 30.0,
+				"u2" : 10,
+				"u3" : 15.0,
+				"u4" : 0.15000000596046448,
+				"u5" : 0.800000011920929,
+
+				"u6sub-sub-sub-sub-block " :  {
+
+					"y" : 0.0,
+					"z" : 0.0,
+				},
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "CollisionShape",
+			"number" : 2,
+
+			"collision shapesub-sub-sub-block " :  {
+
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"w" : -10.0,
+					"x" : -10.0,
+					"y" : 20.0,
+					"z" : 20.0,
+				},
+			},
+
+			"collision shape 2sub-sub-sub-block " :  {
+
+				"u1" : 1,
+				"u3" : 1,
+				"w" : -15.0,
+				"x" : 15.0,
+				"z" : 1,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "SoundEffect",
+			"number" : 3,
+
+			"sound effectsub-sub-sub-block " :  {
+
+				"sound" : "woosh1",
+				"u0" : 0.0,
+				"u1" : 1.0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Damage",
+			"number" : 4,
+
+			"damagesub-sub-sub-block " :  {
+
+				"u0" : 4,
+				"u1" : 0,
+				"u2" : 0,
+				"u5" : 0.0,
+				"u6" : 1.0,
+				"u7" : 0,
+				"u8" : 1,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Light",
+			"number" : 6,
+
+			"lightsub-sub-sub-block " :  {
+
+				"u0" : 3,
+				"u1" : 2.0,
+
+				"u2sub-sub-sub-sub-block " :  {
+
+					"w" : 1.0,
+					"x" : 0.35555556416511536,
+					"y" : 0.35555556416511536,
+					"z" : 1.0,
+				},
+				"u3" : 0.0,
+				"u4" : 0.00019999999494757503,
+
+				"u5sub-sub-sub-sub-block " :  {
+
+					"x" : 0.0,
+					"y" : 0.0,
+					"z" : 0.0,
+				},
+				"u6" : 250.0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Properties",
+			"number" : 7,
+
+			"propertiessub-sub-sub-block " :  {
+
+				"u0" : "",
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Program",
+			"number" : 8,
+
+			"programsub-sub-sub-block " :  {
+
+				"u0" : 1,
+
+				"lua chunksub-sub-sub-sub-block " :  {
+
+					"main chunk" : "chunk >
+
+					=== lua =============
+					local self = ...;
+					
+					if Scene.Find(Properties.GetProperty(self, \"caster\") ..\"_skelly\") == nil then
+						local skelly = Scene.CreateObject(\"summonedSkeleton\", Properties.GetProperty(self, \"caster\") .. \"_skelly\", self);
+					
+						TransformController.ScaleTo(skelly, 0.01, 0.001);
+					
+						Program.Wait(0.01);
+					
+						TransformController.ScaleTo(skelly, 1.3, 0.25);
+					end
+					
+					
+
+					=====================",
+					"secondary chunk" : "\\x1bLuaQ\\x00\\x01\\x04\\x04\\x04\\x08\\x00b\\x01\\x00\\x00local self = ...;\\r\\n\\r\\nif Scene.Find(Properties.GetProperty(self, \"caster\") ..\"_skelly\") == nil then\\r\\n\\tlocal skelly = Scene.CreateObject(\"summonedSkeleton\", Properties.GetProperty(self, \"caster\") .. \"_skelly\", self);\\r\\n\\r\\n\\tTransformController.ScaleTo(skelly, 0.01, 0.001);\\r\\n\\r\\n\\tProgram.Wait(0.01);\\r\\n\\r\\n\\tTransformController.ScaleTo(skelly, 1.3, 0.25);\\r\\nend\\r\\n\\r\\n\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x02\\x06*\\x00\\x00\\x00%\\x00\\x00\\x01E\\x00\\x00\\x00F@\\xc0\\x00\\x85\\x80\\x00\\x00\\x86\\xc0@\\x01\\xc0\\x00\\x00\\x00\\x01\\x01\\x01\\x00\\x9c\\x80\\x80\\x01\\xc1@\\x01\\x00\\x95\\xc0\\x00\\x01\\\\\\x80\\x00\\x01\\x17\\x80\\xc1\\x00\\x16\\xc0\\x06\\x80E\\x00\\x00\\x00F\\xc0\\xc1\\x00\\x81\\x00\\x02\\x00\\xc5\\x80\\x00\\x00\\xc6\\xc0\\xc0\\x01\\x00\\x01\\x00\\x00A\\x01\\x01\\x00\\xdc\\x80\\x80\\x01\\x01A\\x01\\x00\\xd5\\x00\\x81\\x01\\x00\\x01\\x00\\x00\\\\\\x80\\x00\\x02\\x85@\\x02\\x00\\x86\\x80B\\x01\\xc0\\x00\\x80\\x00\\x01\\xc1\\x02\\x00A\\x01\\x03\\x00\\x9c@\\x00\\x02\\x85@\\x03\\x00\\x86\\x80C\\x01\\xc1\\xc0\\x02\\x00\\x9c@\\x00\\x01\\x85@\\x02\\x00\\x86\\x80B\\x01\\xc0\\x00\\x80\\x00\\x01\\xc1\\x03\\x00A\\x01\\x04\\x00\\x9c@\\x00\\x02\\x1e\\x00\\x80\\x00\\x11\\x00\\x00\\x00\\x04\\x06\\x00\\x00\\x00Scene\\x00\\x04\\x05\\x00\\x00\\x00Find\\x00\\x04\\x0b\\x00\\x00\\x00Properties\\x00\\x04\\x0c\\x00\\x00\\x00GetProperty\\x00\\x04\\x07\\x00\\x00\\x00caster\\x00\\x04\\x08\\x00\\x00\\x00_skelly\\x00\\x00\\x04\\r\\x00\\x00\\x00CreateObject\\x00\\x04\\x11\\x00\\x00\\x00summonedSkeleton\\x00\\x04\\x14\\x00\\x00\\x00TransformController\\x00\\x04\\x08\\x00\\x00\\x00ScaleTo\\x00\\x03{\\x14\\xaeG\\xe1z\\x84?\\x03\\xfc\\xa9\\xf1\\xd2MbP?\\x04\\x08\\x00\\x00\\x00Program\\x00\\x04\\x05\\x00\\x00\\x00Wait\\x00\\x03\\xcd\\xcc\\xcc\\xcc\\xcc\\xcc\\xf4?\\x03\\x00\\x00\\x00\\x00\\x00\\x00\\xd0?\\x00\\x00\\x00\\x00*\\x00\\x00\\x00\\x01\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x06\\x00\\x00\\x00\\x06\\x00\\x00\\x00\\x06\\x00\\x00\\x00\\x06\\x00\\x00\\x00\\x06\\x00\\x00\\x00\\x06\\x00\\x00\\x00\\x08\\x00\\x00\\x00\\x08\\x00\\x00\\x00\\x08\\x00\\x00\\x00\\x08\\x00\\x00\\x00\\n\\x00\\x00\\x00\\n\\x00\\x00\\x00\\n\\x00\\x00\\x00\\n\\x00\\x00\\x00\\n\\x00\\x00\\x00\\n\\x00\\x00\\x00\\x0b\\x00\\x00\\x00\\x02\\x00\\x00\\x00\\x05\\x00\\x00\\x00self\\x00\\x01\\x00\\x00\\x00)\\x00\\x00\\x00\\x07\\x00\\x00\\x00skelly\\x00\\x19\\x00\\x00\\x00)\\x00\\x00\\x00\\x00\\x00\\x00\\x00",
+				},
+				"u1" : 1,
+				"u2" : 5,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "EntityInfo",
+			"number" : 9,
+
+			"entity infosub-sub-sub-block " :  {
+
+				"name" : "bolt",
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "ParticleEmitter",
+			"number" : 102,
+
+			"particle emittersub-sub-sub-block " :  {
+
+				"particle" : 103,
+				"particle" : 104,
+				"particle" : 105,
+				"u1" : 0,
+				"u2" : 30,
+				"u3" : 0,
+				"u4" : 0,
+				"u6" : 0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Particle",
+			"number" : 103,
+
+			"particlesub-sub-sub-block " :  {
+
+				"name" : "particle_fure_1",
+				"u0" : 40.0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Particle",
+			"number" : 104,
+
+			"particlesub-sub-sub-block " :  {
+
+				"name" : "particle_fure_2",
+				"u0" : 40.0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Particle",
+			"number" : 105,
+
+			"particlesub-sub-sub-block " :  {
+
+				"name" : "particle_fure_3",
+				"u0" : 40.0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "MagicBolt",
+			"number" : 106,
+
+			"magic boltsub-sub-sub-block " :  {
+
+				"u0" : 102,
+				"u1" : 3,
+				"u2" : 0,
+
+				"u3sub-sub-sub-sub-block " :  {
+
+					"w" : 0.4000000059604645,
+					"x" : 0.05399999022483826,
+					"y" : 0.054000113159418106,
+					"z" : 0.0,
+				},
+				"u3" : 440.0,
+			},
+
+			"temp0sub-sub-sub-block " :  {
+
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "PhysicsObject",
+			"number" : 109,
+
+			"physics objectsub-sub-sub-block " :  {
+
+				"u0" : 1,
+				"u2" : 0.6000000238418579,
+				"u3" : 1500.0,
+				"u4" : 0.0,
+				"u5" : 700.0,
+				"u6" : 0,
+				"u7" : 0.0,
+			},
+		},
+
+		"positionsub-sub-block " :  {
+
+			"x position" : 0.0,
+			"y position" : 0.0,
+		},
+		"z position" : 0.0,
+		"rotation" : 0.0,
+		"scale" : 1.0,
+
+		"u0sub-sub-block " :  {
+
+			"w" : -50.0,
+			"x" : -50.0,
+			"y" : 100.0,
+			"z" : 100.0,
+		},
+		"hidden" : 0,
+	},
+	"u0" : 1.5,
+},
+
+"?itemblock " :  {
+
+
+	"?sub-itemsub-block " :  {
+
+		"name" : "skeleton_bolt_frost",
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "SimpleGlow",
+			"number" : 1,
+
+			"simple glowsub-sub-sub-block " :  {
+
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"w" : 0.0,
+					"x" : 0.0,
+					"y" : 1.0,
+					"z" : 0.5,
+				},
+				"u1" : 30.0,
+				"u2" : 10,
+				"u3" : 15.0,
+				"u4" : 0.15000000596046448,
+				"u5" : 0.800000011920929,
+
+				"u6sub-sub-sub-sub-block " :  {
+
+					"y" : 0.0,
+					"z" : 0.0,
+				},
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "CollisionShape",
+			"number" : 2,
+
+			"collision shapesub-sub-sub-block " :  {
+
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"w" : -10.0,
+					"x" : -10.0,
+					"y" : 20.0,
+					"z" : 20.0,
+				},
+			},
+
+			"collision shape 2sub-sub-sub-block " :  {
+
+				"u1" : 1,
+				"u3" : 1,
+				"w" : -15.0,
+				"x" : 15.0,
+				"z" : 1,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "SoundEffect",
+			"number" : 3,
+
+			"sound effectsub-sub-sub-block " :  {
+
+				"sound" : "woosh1",
+				"u0" : 0.0,
+				"u1" : 1.0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Damage",
+			"number" : 4,
+
+			"damagesub-sub-sub-block " :  {
+
+				"u0" : 4,
+				"u1" : 0,
+				"u2" : 0,
+				"u5" : 0.0,
+				"u6" : 1.0,
+				"u7" : 0,
+				"u8" : 1,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Light",
+			"number" : 6,
+
+			"lightsub-sub-sub-block " :  {
+
+				"u0" : 3,
+				"u1" : 2.0,
+
+				"u2sub-sub-sub-sub-block " :  {
+
+					"w" : 0.35555556416511536,
+					"x" : 0.35555556416511536,
+					"y" : 1.0,
+					"z" : 1.0,
+				},
+				"u3" : 0.0,
+				"u4" : 0.00019999999494757503,
+
+				"u5sub-sub-sub-sub-block " :  {
+
+					"x" : 0.0,
+					"y" : 0.0,
+					"z" : 0.0,
+				},
+				"u6" : 250.0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Properties",
+			"number" : 7,
+
+			"propertiessub-sub-sub-block " :  {
+
+				"u0" : "",
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Program",
+			"number" : 8,
+
+			"programsub-sub-sub-block " :  {
+
+				"u0" : 1,
+
+				"lua chunksub-sub-sub-sub-block " :  {
+
+					"main chunk" : "chunk >
+
+					=== lua =============
+					local self = ...;
+					
+					if Scene.Find(Properties.GetProperty(self, \"caster\") ..\"_skelly\") == nil then
+						local skelly = Scene.CreateObject(\"summonedSkeleton\", Properties.GetProperty(self, \"caster\") .. \"_skelly\", self);
+					
+						TransformController.ScaleTo(skelly, 0.01, 0.001);
+					
+						Program.Wait(0.01);
+					
+						TransformController.ScaleTo(skelly, 1.3, 0.25);
+					end
+					
+					
+
+					=====================",
+					"secondary chunk" : "\\x1bLuaQ\\x00\\x01\\x04\\x04\\x04\\x08\\x00b\\x01\\x00\\x00local self = ...;\\r\\n\\r\\nif Scene.Find(Properties.GetProperty(self, \"caster\") ..\"_skelly\") == nil then\\r\\n\\tlocal skelly = Scene.CreateObject(\"summonedSkeleton\", Properties.GetProperty(self, \"caster\") .. \"_skelly\", self);\\r\\n\\r\\n\\tTransformController.ScaleTo(skelly, 0.01, 0.001);\\r\\n\\r\\n\\tProgram.Wait(0.01);\\r\\n\\r\\n\\tTransformController.ScaleTo(skelly, 1.3, 0.25);\\r\\nend\\r\\n\\r\\n\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x02\\x06*\\x00\\x00\\x00%\\x00\\x00\\x01E\\x00\\x00\\x00F@\\xc0\\x00\\x85\\x80\\x00\\x00\\x86\\xc0@\\x01\\xc0\\x00\\x00\\x00\\x01\\x01\\x01\\x00\\x9c\\x80\\x80\\x01\\xc1@\\x01\\x00\\x95\\xc0\\x00\\x01\\\\\\x80\\x00\\x01\\x17\\x80\\xc1\\x00\\x16\\xc0\\x06\\x80E\\x00\\x00\\x00F\\xc0\\xc1\\x00\\x81\\x00\\x02\\x00\\xc5\\x80\\x00\\x00\\xc6\\xc0\\xc0\\x01\\x00\\x01\\x00\\x00A\\x01\\x01\\x00\\xdc\\x80\\x80\\x01\\x01A\\x01\\x00\\xd5\\x00\\x81\\x01\\x00\\x01\\x00\\x00\\\\\\x80\\x00\\x02\\x85@\\x02\\x00\\x86\\x80B\\x01\\xc0\\x00\\x80\\x00\\x01\\xc1\\x02\\x00A\\x01\\x03\\x00\\x9c@\\x00\\x02\\x85@\\x03\\x00\\x86\\x80C\\x01\\xc1\\xc0\\x02\\x00\\x9c@\\x00\\x01\\x85@\\x02\\x00\\x86\\x80B\\x01\\xc0\\x00\\x80\\x00\\x01\\xc1\\x03\\x00A\\x01\\x04\\x00\\x9c@\\x00\\x02\\x1e\\x00\\x80\\x00\\x11\\x00\\x00\\x00\\x04\\x06\\x00\\x00\\x00Scene\\x00\\x04\\x05\\x00\\x00\\x00Find\\x00\\x04\\x0b\\x00\\x00\\x00Properties\\x00\\x04\\x0c\\x00\\x00\\x00GetProperty\\x00\\x04\\x07\\x00\\x00\\x00caster\\x00\\x04\\x08\\x00\\x00\\x00_skelly\\x00\\x00\\x04\\r\\x00\\x00\\x00CreateObject\\x00\\x04\\x11\\x00\\x00\\x00summonedSkeleton\\x00\\x04\\x14\\x00\\x00\\x00TransformController\\x00\\x04\\x08\\x00\\x00\\x00ScaleTo\\x00\\x03{\\x14\\xaeG\\xe1z\\x84?\\x03\\xfc\\xa9\\xf1\\xd2MbP?\\x04\\x08\\x00\\x00\\x00Program\\x00\\x04\\x05\\x00\\x00\\x00Wait\\x00\\x03\\xcd\\xcc\\xcc\\xcc\\xcc\\xcc\\xf4?\\x03\\x00\\x00\\x00\\x00\\x00\\x00\\xd0?\\x00\\x00\\x00\\x00*\\x00\\x00\\x00\\x01\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x06\\x00\\x00\\x00\\x06\\x00\\x00\\x00\\x06\\x00\\x00\\x00\\x06\\x00\\x00\\x00\\x06\\x00\\x00\\x00\\x06\\x00\\x00\\x00\\x08\\x00\\x00\\x00\\x08\\x00\\x00\\x00\\x08\\x00\\x00\\x00\\x08\\x00\\x00\\x00\\n\\x00\\x00\\x00\\n\\x00\\x00\\x00\\n\\x00\\x00\\x00\\n\\x00\\x00\\x00\\n\\x00\\x00\\x00\\n\\x00\\x00\\x00\\x0b\\x00\\x00\\x00\\x02\\x00\\x00\\x00\\x05\\x00\\x00\\x00self\\x00\\x01\\x00\\x00\\x00)\\x00\\x00\\x00\\x07\\x00\\x00\\x00skelly\\x00\\x19\\x00\\x00\\x00)\\x00\\x00\\x00\\x00\\x00\\x00\\x00",
+				},
+				"u1" : 1,
+				"u2" : 0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "EntityInfo",
+			"number" : 9,
+
+			"entity infosub-sub-sub-block " :  {
+
+				"name" : "bolt",
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "ParticleEmitter",
+			"number" : 102,
+
+			"particle emittersub-sub-sub-block " :  {
+
+				"particle" : 103,
+				"particle" : 104,
+				"particle" : 105,
+				"u1" : 0,
+				"u2" : 30,
+				"u3" : 0,
+				"u4" : 0,
+				"u6" : 0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Particle",
+			"number" : 103,
+
+			"particlesub-sub-sub-block " :  {
+
+				"name" : "particle_fure_1",
+				"u0" : 40.0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Particle",
+			"number" : 104,
+
+			"particlesub-sub-sub-block " :  {
+
+				"name" : "particle_fure_2",
+				"u0" : 40.0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Particle",
+			"number" : 105,
+
+			"particlesub-sub-sub-block " :  {
+
+				"name" : "particle_fure_3",
+				"u0" : 40.0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "MagicBolt",
+			"number" : 106,
+
+			"magic boltsub-sub-sub-block " :  {
+
+				"u0" : 102,
+				"u1" : 3,
+				"u2" : 0,
+
+				"u3sub-sub-sub-sub-block " :  {
+
+					"w" : 0.07777778059244156,
+					"x" : 0.05399999022483826,
+					"y" : 0.3984445333480835,
+					"z" : 0.0,
+				},
+				"u3" : 440.0,
+			},
+
+			"temp0sub-sub-sub-block " :  {
+
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "PhysicsObject",
+			"number" : 109,
+
+			"physics objectsub-sub-sub-block " :  {
+
+				"u0" : 1,
+				"u2" : 0.6000000238418579,
+				"u3" : 1500.0,
+				"u4" : 0.0,
+				"u5" : 700.0,
+				"u6" : 0,
+				"u7" : 0.0,
+			},
+		},
+
+		"positionsub-sub-block " :  {
+
+			"x position" : 0.0,
+			"y position" : 0.0,
+		},
+		"z position" : 0.0,
+		"rotation" : 0.0,
+		"scale" : 1.0,
+
+		"u0sub-sub-block " :  {
+
+			"w" : -50.0,
+			"x" : -50.0,
+			"y" : 100.0,
+			"z" : 100.0,
+		},
+		"hidden" : 0,
+	},
+	"u0" : 1.5,
+},
+
+"?itemblock " :  {
+
+
+	"?sub-itemsub-block " :  {
+
+		"name" : "skeleton_lord_sword",
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "WeaponTrail",
+			"number" : 1,
+
+			"weapon trailsub-sub-sub-block " :  {
+
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"w" : 1.0,
+					"x" : 1.0,
+					"y" : 1.0,
+					"z" : 0.0,
+				},
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "CollisionShape",
+			"number" : 2,
+
+			"collision shapesub-sub-sub-block " :  {
+
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"w" : 0.0,
+					"x" : 0.0,
+					"y" : 0.0,
+					"z" : 0.0,
+				},
+			},
+
+			"collision shape 2sub-sub-sub-block " :  {
+
+				"w" : -15.0,
+				"x" : 15.0,
+				"z" : 0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Damage",
+			"number" : 3,
+
+			"damagesub-sub-sub-block " :  {
+
+				"u0" : 1,
+				"u1" : 0,
+				"u2" : 0,
+				"u5" : 1.0,
+				"u6" : 0.0,
+				"u7" : 0,
+				"u8" : 1,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Transform",
+			"number" : 4,
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "SoundEffect",
+			"number" : 7,
+			"name" : "swing1",
+
+			"sound effectsub-sub-sub-block " :  {
+
+				"sound" : "sword_swing2",
+				"u0" : 0.0,
+				"u1" : 1.0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "SoundEffect",
+			"number" : 8,
+			"name" : "impact1",
+
+			"sound effectsub-sub-sub-block " :  {
+
+				"sound" : "sword_impact3",
+				"u0" : 0.0,
+				"u1" : 1.0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "WeaponTrail",
+			"number" : 16,
+			"name" : "glow",
+
+			"weapon trailsub-sub-sub-block " :  {
+
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"w" : 0.9333333373069763,
+					"x" : 0.0,
+					"y" : 0.0,
+					"z" : 0.0,
+				},
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Model",
+			"number" : 101,
+
+			"3D modelsub-sub-sub-block " :  {
+
+				"name" : "weapon_broadsword",
+				"u0" : 0.0,
+				"u1" : 1.0,
+				"u2" : 0.0,
+
+				"u3sub-sub-sub-sub-block " :  {
+
+					"w" : 0.0,
+					"x" : 0.0,
+					"y" : 0.0,
+					"z" : 1.0,
+				},
+
+				"u4sub-sub-sub-sub-block " :  {
+
+					"x" : 0.0,
+					"y" : 0.0,
+					"z" : 0.0,
+				},
+				"u5" : 0,
+
+				"u6sub-sub-sub-sub-block " :  {
+
+					"w" : 1.0,
+					"x" : 1.0,
+					"y" : 1.0,
+					"z" : 1.0,
+				},
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "SwingableWeapon",
+			"number" : 103,
+
+			"swingable weaponsub-sub-sub-block " :  {
+
+				"linked model component number" : 101,
+				"u1" : 1,
+				"u2" : 0,
+				"u3" : 7,
+				"u4" : 8,
+				"u5" : 16,
+				"u6" : 2,
+				"u7" : 10,
+				"w" : 50.0,
+				"x" : 58.0,
+				"y" : 1.0,
+				"z" : 10.0,
+				"u8" : "\\r\\xef\\xeen?\\x15\\x00\\x00\\x00\\x00\\x1d33\\xb34%\\x00\\x00\\x00\\x00",
+			},
+		},
+
+		"positionsub-sub-block " :  {
+
+			"x position" : 0.0,
+			"y position" : 0.0,
+		},
+		"z position" : 0.0,
+		"rotation" : 0.0,
+		"scale" : 1.0,
+
+		"u0sub-sub-block " :  {
+
+			"w" : 0.0,
+			"x" : 0.0,
+			"y" : 0.0,
+			"z" : 0.0,
+		},
+		"hidden" : 0,
+	},
+	"u0" : 1.0,
+},
+
+"?itemblock " :  {
+
+
+	"?sub-itemsub-block " :  {
+
+		"name" : "skeleton_spell_cast",
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "SimpleGlow",
+			"number" : 1,
+
+			"simple glowsub-sub-sub-block " :  {
+
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"w" : 1.0,
+					"x" : 0.16666662693023682,
+					"y" : 0.1666669249534607,
+					"z" : 0.5,
+				},
+				"u1" : 20.0,
+				"u2" : 10,
+				"u3" : 15.0,
+				"u4" : 0.15000000596046448,
+				"u5" : 0.800000011920929,
+
+				"u6sub-sub-sub-sub-block " :  {
+
+					"y" : 0.0,
+					"z" : 0.0,
+				},
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "ParticleEmitter",
+			"number" : 102,
+
+			"particle emittersub-sub-sub-block " :  {
+
+				"particle" : 103,
+				"particle" : 104,
+				"particle" : 105,
+				"u1" : 0,
+				"u2" : 30,
+				"u3" : 0,
+				"u4" : 0,
+				"u6" : 0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Particle",
+			"number" : 103,
+
+			"particlesub-sub-sub-block " :  {
+
+				"name" : "particle_fure_1",
+				"u0" : 40.0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Particle",
+			"number" : 104,
+
+			"particlesub-sub-sub-block " :  {
+
+				"name" : "particle_fure_2",
+				"u0" : 40.0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Particle",
+			"number" : 105,
+
+			"particlesub-sub-sub-block " :  {
+
+				"name" : "particle_fure_3",
+				"u0" : 40.0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "MagicSpellCast",
+			"number" : 109,
+
+			"magic spell castsub-sub-sub-block " :  {
+
+				"particle emitter" : 102,
+				"u0" : 0,
+			},
+		},
+
+		"positionsub-sub-block " :  {
+
+			"x position" : 0.0,
+			"y position" : 0.0,
+		},
+		"z position" : 0.0,
+		"rotation" : 0.0,
+		"scale" : 1.0,
+
+		"u0sub-sub-block " :  {
+
+			"w" : -20.0,
+			"x" : -20.0,
+			"y" : 40.0,
+			"z" : 40.0,
+		},
+		"hidden" : 0,
+	},
+	"u0" : 2.0,
+},
+
+"?itemblock " :  {
+
+
+	"?sub-itemsub-block " :  {
+
+		"name" : "skeleton_spell_cast_frost",
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "SimpleGlow",
+			"number" : 1,
+
+			"simple glowsub-sub-sub-block " :  {
+
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"w" : 0.1666666716337204,
+					"x" : 0.16666662693023682,
+					"y" : 1.0,
+					"z" : 0.5,
+				},
+				"u1" : 20.0,
+				"u2" : 10,
+				"u3" : 15.0,
+				"u4" : 0.15000000596046448,
+				"u5" : 0.800000011920929,
+
+				"u6sub-sub-sub-sub-block " :  {
+
+					"y" : 0.0,
+					"z" : 0.0,
+				},
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "ParticleEmitter",
+			"number" : 102,
+
+			"particle emittersub-sub-sub-block " :  {
+
+				"particle" : 103,
+				"particle" : 104,
+				"particle" : 105,
+				"u1" : 0,
+				"u2" : 30,
+				"u3" : 0,
+				"u4" : 0,
+				"u6" : 0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Particle",
+			"number" : 103,
+
+			"particlesub-sub-sub-block " :  {
+
+				"name" : "particle_fure_1",
+				"u0" : 40.0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Particle",
+			"number" : 104,
+
+			"particlesub-sub-sub-block " :  {
+
+				"name" : "particle_fure_2",
+				"u0" : 40.0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Particle",
+			"number" : 105,
+
+			"particlesub-sub-sub-block " :  {
+
+				"name" : "particle_fure_3",
+				"u0" : 40.0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "MagicSpellCast",
+			"number" : 109,
+
+			"magic spell castsub-sub-sub-block " :  {
+
+				"particle emitter" : 102,
+				"u0" : 0,
+			},
+		},
+
+		"positionsub-sub-block " :  {
+
+			"x position" : 0.0,
+			"y position" : 0.0,
+		},
+		"z position" : 0.0,
+		"rotation" : 0.0,
+		"scale" : 1.0,
+
+		"u0sub-sub-block " :  {
+
+			"w" : -20.0,
+			"x" : -20.0,
+			"y" : 40.0,
+			"z" : 40.0,
+		},
+		"hidden" : 0,
+	},
+	"u0" : 2.0,
+},
+
+"?itemblock " :  {
+
+
+	"?sub-itemsub-block " :  {
+
+		"name" : "skelly_weapon_sword",
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "WeaponTrail",
+			"number" : 1,
+
+			"weapon trailsub-sub-sub-block " :  {
+
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"w" : 1.0,
+					"x" : 1.0,
+					"y" : 1.0,
+					"z" : 0.0,
+				},
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "CollisionShape",
+			"number" : 2,
+
+			"collision shapesub-sub-sub-block " :  {
+
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"w" : 0.0,
+					"x" : 0.0,
+					"y" : 0.0,
+					"z" : 0.0,
+				},
+			},
+
+			"collision shape 2sub-sub-sub-block " :  {
+
+				"w" : -15.0,
+				"x" : 15.0,
+				"z" : 0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Damage",
+			"number" : 3,
+
+			"damagesub-sub-sub-block " :  {
+
+				"u0" : 1,
+				"u1" : 0,
+				"u2" : 0,
+				"u5" : 1.0,
+				"u6" : 0.0,
+				"u7" : 0,
+				"u8" : 1,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "SoundEffect",
+			"number" : 7,
+			"name" : "swing1",
+
+			"sound effectsub-sub-sub-block " :  {
+
+				"sound" : "sword_swing2",
+				"u0" : 0.0,
+				"u1" : 1.0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "SoundEffect",
+			"number" : 8,
+			"name" : "impact1",
+
+			"sound effectsub-sub-sub-block " :  {
+
+				"sound" : "sword_impact3",
+				"u0" : 0.0,
+				"u1" : 1.0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "WeaponGlow",
+			"number" : 10,
+
+			"weapon glowsub-sub-sub-block " :  {
+
+				"u0" : 12,
+
+				"u1sub-sub-sub-sub-block " :  {
+
+					"w" : 1.0,
+					"x" : 1.0,
+					"y" : 1.0,
+					"z" : 0.0,
+				},
+
+				"u2sub-sub-sub-sub-block " :  {
+
+					"w" : 1.0,
+					"x" : 1.0,
+					"y" : 1.0,
+					"z" : 0.0,
+				},
+				"u2" : 15.0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "ParticleEmitter",
+			"number" : 12,
+			"name" : "glow",
+
+			"particle emittersub-sub-sub-block " :  {
+
+				"particle" : 13,
+				"particle" : 14,
+				"particle" : 15,
+				"u1" : 0,
+				"u2" : 30,
+				"u3" : 0,
+				"u4" : 0,
+				"u6" : 0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Particle",
+			"number" : 13,
+			"name" : "glow",
+
+			"particlesub-sub-sub-block " :  {
+
+				"name" : "particle_fure_1",
+				"u0" : 14.0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Particle",
+			"number" : 14,
+			"name" : "glow",
+
+			"particlesub-sub-sub-block " :  {
+
+				"name" : "particle_fure_2",
+				"u0" : 16.0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Particle",
+			"number" : 15,
+			"name" : "glow",
+
+			"particlesub-sub-sub-block " :  {
+
+				"name" : "particle_fure_3",
+				"u0" : 14.0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "WeaponTrail",
+			"number" : 16,
+			"name" : "glow",
+
+			"weapon trailsub-sub-sub-block " :  {
+
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"w" : 1.0,
+					"x" : 1.0,
+					"y" : 1.0,
+					"z" : 0.0,
+				},
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Model",
+			"number" : 101,
+
+			"3D modelsub-sub-sub-block " :  {
+
+				"name" : "skelly_sword",
+				"u0" : 0.0,
+				"u1" : 1.0,
+				"u2" : 0.0,
+
+				"u3sub-sub-sub-sub-block " :  {
+
+					"w" : 0.0,
+					"x" : 0.0,
+					"y" : 0.0,
+					"z" : 1.0,
+				},
+
+				"u4sub-sub-sub-sub-block " :  {
+
+					"x" : 0.0,
+					"y" : 0.0,
+					"z" : 0.0,
+				},
+				"u5" : 0,
+
+				"u6sub-sub-sub-sub-block " :  {
+
+					"w" : 1.0,
+					"x" : 1.0,
+					"y" : 1.0,
+					"z" : 1.0,
+				},
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "SwingableWeapon",
+			"number" : 103,
+
+			"swingable weaponsub-sub-sub-block " :  {
+
+				"linked model component number" : 101,
+				"u1" : 1,
+				"u2" : 0,
+				"u3" : 7,
+				"u4" : 8,
+				"u5" : 16,
+				"u6" : 2,
+				"u7" : 10,
+				"w" : 50.0,
+				"x" : 65.0,
+				"y" : 0.0,
+				"z" : 10.0,
+				"u8" : "\\r\\x00\\x00\\x00?\\x15\\x00\\x00\\x00?\\x1d\\x00\\x00\\x00?%\\x00\\x00\\x00\\x00",
+			},
+		},
+
+		"positionsub-sub-block " :  {
+
+			"x position" : 0.0,
+			"y position" : 0.0,
+		},
+		"z position" : 0.0,
+		"rotation" : 0.0,
+		"scale" : 1.0,
+
+		"u0sub-sub-block " :  {
+
+			"w" : 0.0,
+			"x" : 0.0,
+			"y" : 0.0,
+			"z" : 0.0,
+		},
+		"hidden" : 0,
+	},
+	"u0" : 1.0,
+},
+
+"?itemblock " :  {
+
+
+	"?sub-itemsub-block " :  {
+
+		"name" : "summonBlast",
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "ParticleEmitter",
+			"number" : 2,
+
+			"particle emittersub-sub-sub-block " :  {
+
+				"particle" : 102,
+				"particle" : 103,
+				"particle" : 104,
+				"u1" : 0,
+				"u2" : 80,
+				"u3" : 101,
+				"u4" : 0,
+
+				"u5sub-sub-sub-sub-block " :  {
+
+					"u0" : 2,
+
+					"u1sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 1.0,
+						"x" : 1.0,
+						"y" : 1.0,
+						"z" : 0.0,
+					},
+					"u2" : 100.0,
+					"u2" : 0.30000001192092896,
+					"u2" : 50.0,
+					"u2" : 50.0,
+					"u3" : 0.0,
+					"u4" : 0.0,
+					"u5" : 0.0,
+
+					"u6sub-sub-sub-sub-sub-block " :  {
+
+						"u0" : 0.0,
+						"u1" : 0.0,
+						"u2" : 0.0,
+					},
+				},
+				"u6" : 0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "ParticleEmitter",
+			"number" : 101,
+
+			"particle emittersub-sub-sub-block " :  {
+
+				"particle" : 102,
+				"particle" : 103,
+				"particle" : 104,
+				"u1" : 0,
+				"u2" : 100,
+				"u3" : 0,
+				"u4" : 1,
+
+				"u5sub-sub-sub-sub-block " :  {
+
+					"u0" : 2,
+
+					"u1sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 1.0,
+						"x" : 0.855555534362793,
+						"y" : 0.888888955116272,
+						"z" : 0.0,
+					},
+					"u2" : 150.0,
+					"u2" : 1.5,
+					"u2" : 10.0,
+					"u2" : 10.0,
+					"u3" : 0.0,
+					"u4" : 0.0,
+					"u5" : 0.0,
+
+					"u6sub-sub-sub-sub-sub-block " :  {
+
+						"u0" : 0.0,
+						"u1" : 0.0,
+						"u2" : 0.0,
+					},
+				},
+				"u6" : 1,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Particle",
+			"number" : 102,
+
+			"particlesub-sub-sub-block " :  {
+
+				"name" : "particle_fure_1",
+				"u0" : 25.0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Particle",
+			"number" : 103,
+
+			"particlesub-sub-sub-block " :  {
+
+				"name" : "particle_fure_2",
+				"u0" : 20.0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Particle",
+			"number" : 104,
+
+			"particlesub-sub-sub-block " :  {
+
+				"name" : "particle_fure_3",
+				"u0" : 15.0,
+			},
+		},
+
+		"positionsub-sub-block " :  {
+
+			"x position" : 0.0,
+			"y position" : 0.0,
+		},
+		"z position" : 0.0,
+		"rotation" : 0.0,
+		"scale" : 1.0,
+
+		"u0sub-sub-block " :  {
+
+			"w" : -10.0,
+			"x" : -10.0,
+			"y" : 20.0,
+			"z" : 20.0,
+		},
+		"hidden" : 0,
+	},
+	"u0" : 1.0,
+},
+
+"?itemblock " :  {
+
+
+	"?sub-itemsub-block " :  {
+
+		"name" : "summon_skeleton",
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "ParticleEmitter",
+			"number" : 102,
+
+			"particle emittersub-sub-sub-block " :  {
+
+				"particle" : 103,
+				"particle" : 104,
+				"particle" : 105,
+				"u1" : 0,
+				"u2" : 100,
+				"u3" : 0,
+				"u4" : 1,
+
+				"u5sub-sub-sub-sub-block " :  {
+
+					"u0" : 1,
+
+					"u1sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 1.0,
+						"x" : 1.0,
+						"y" : 1.0,
+						"z" : 0.0,
+					},
+					"u2" : 70.0,
+					"u2" : 0.6000000238418579,
+					"u2" : 25.0,
+					"u2" : 25.0,
+					"u3" : 0.0,
+					"u4" : 0.0,
+					"u5" : 0.0,
+
+					"u6sub-sub-sub-sub-sub-block " :  {
+
+						"u0" : 0.0,
+						"u1" : 0.0,
+						"u2" : 0.0,
+					},
+				},
+				"u6" : 1,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Particle",
+			"number" : 103,
+
+			"particlesub-sub-sub-block " :  {
+
+				"name" : "particle_fure_1",
+				"u0" : 40.0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Particle",
+			"number" : 104,
+
+			"particlesub-sub-sub-block " :  {
+
+				"name" : "particle_fure_2",
+				"u0" : 40.0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Particle",
+			"number" : 105,
+
+			"particlesub-sub-sub-block " :  {
+
+				"name" : "particle_fure_3",
+				"u0" : 40.0,
+			},
+		},
+
+		"positionsub-sub-block " :  {
+
+			"x position" : 0.0,
+			"y position" : 0.0,
+		},
+		"z position" : 0.0,
+		"rotation" : 0.0,
+		"scale" : 1.0,
+
+		"u0sub-sub-block " :  {
+
+			"w" : -30.0,
+			"x" : -30.0,
+			"y" : 60.0,
+			"z" : 60.0,
+		},
+		"hidden" : 0,
+	},
+	"u0" : 1.0,
+},
+
+"?itemblock " :  {
+
+
+	"?sub-itemsub-block " :  {
+
+		"name" : "summonedSkeleton",
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Model",
+			"number" : 101,
+
+			"3D modelsub-sub-sub-block " :  {
+
+				"name" : "skelly",
+				"u0" : 1.5707963705062866,
+				"u1" : 0.0,
+				"u2" : 0.0,
+
+				"u3sub-sub-sub-sub-block " :  {
+
+					"w" : 1.0,
+					"x" : 1.0,
+					"y" : 1.0,
+					"z" : 1.0,
+				},
+
+				"u4sub-sub-sub-sub-block " :  {
+
+					"x" : 0.0,
+					"y" : 0.0,
+					"z" : 0.0,
+				},
+				"u5" : 0,
+
+				"u6sub-sub-sub-sub-block " :  {
+
+					"w" : 1.0,
+					"x" : 1.0,
+					"y" : 1.0,
+					"z" : 1.0,
+				},
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "AnimationController",
+			"number" : 102,
+
+			"animation controllersub-sub-sub-block " :  {
+
+				"model component" : 101,
+				"u1" : 0,
+				"u2" : 0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "MonsterEntity",
+			"number" : 103,
+
+			"entitysub-sub-sub-block " :  {
+
+				"u0" : 1,
+				"u1" : 1,
+			},
+
+			"?monster entitysub-sub-sub-block " :  {
+
+				"u0" : "",
+
+				"lua chunksub-sub-sub-sub-block " :  {
+
+					"main chunk" : "chunk >
+
+					=== lua =============
+					local self = ...;
+					
+					local target = EntityController.Target(self);
+					Program.Wait(0.3);
+					if EntityController.IsIdle(self) then
+						EntityController.PerformAction(self, 112);
+					end
+					
+
+					=====================",
+					"secondary chunk" : "\\x1bLuaQ\\x00\\x01\\x04\\x04\\x04\\x08\\x00\\xb2\\x00\\x00\\x00local self = ...;\\r\\n\\r\\nlocal target = EntityController.Target(self);\\r\\nProgram.Wait(0.3);\\r\\nif EntityController.IsIdle(self) then\\r\\n\\tEntityController.PerformAction(self, 112);\\r\\nend\\r\\n\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x02\\x05\\x15\\x00\\x00\\x00%\\x00\\x00\\x01E\\x00\\x00\\x00F@\\xc0\\x00\\x80\\x00\\x00\\x00\\\\\\x80\\x00\\x01\\x85\\x80\\x00\\x00\\x86\\xc0@\\x01\\xc1\\x00\\x01\\x00\\x9c@\\x00\\x01\\x85\\x00\\x00\\x00\\x86@A\\x01\\xc0\\x00\\x00\\x00\\x9c\\x80\\x00\\x01\\x9a\\x00\\x00\\x00\\x16\\x00\\x01\\x80\\x85\\x00\\x00\\x00\\x86\\x80A\\x01\\xc0\\x00\\x00\\x00\\x01\\xc1\\x01\\x00\\x9c@\\x80\\x01\\x1e\\x00\\x80\\x00\\x08\\x00\\x00\\x00\\x04\\x11\\x00\\x00\\x00EntityController\\x00\\x04\\x07\\x00\\x00\\x00Target\\x00\\x04\\x08\\x00\\x00\\x00Program\\x00\\x04\\x05\\x00\\x00\\x00Wait\\x00\\x03333333\\xd3?\\x04\\x07\\x00\\x00\\x00IsIdle\\x00\\x04\\x0e\\x00\\x00\\x00PerformAction\\x00\\x03\\x00\\x00\\x00\\x00\\x00\\x00\\\\@\\x00\\x00\\x00\\x00\\x15\\x00\\x00\\x00\\x01\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x06\\x00\\x00\\x00\\x06\\x00\\x00\\x00\\x06\\x00\\x00\\x00\\x06\\x00\\x00\\x00\\x06\\x00\\x00\\x00\\x07\\x00\\x00\\x00\\x02\\x00\\x00\\x00\\x05\\x00\\x00\\x00self\\x00\\x01\\x00\\x00\\x00\\x14\\x00\\x00\\x00\\x07\\x00\\x00\\x00target\\x00\\x05\\x00\\x00\\x00\\x14\\x00\\x00\\x00\\x00\\x00\\x00\\x00",
+				},
+				"u2" : 1,
+				"u3" : 1,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "EntityController",
+			"number" : 104,
+
+			"entity controllersub-sub-sub-block " :  {
+
+				"entity component" : 103,
+				"animation controller component" : 102,
+				"u2" : 109,
+				"collision shape" : 0,
+				"u4" : 100.0,
+				"u5" : 800.0,
+				"u6" : 1000.0,
+				"u7" : 4,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "EntityInfo",
+			"number" : 105,
+
+			"entity infosub-sub-sub-block " :  {
+
+				"name" : "Skeleton",
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "CollisionShape",
+			"number" : 106,
+
+			"collision shapesub-sub-sub-block " :  {
+
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"w" : -10.0,
+					"x" : 0.0,
+					"y" : 20.0,
+					"z" : 50.0,
+				},
+			},
+
+			"collision shape 2sub-sub-sub-block " :  {
+
+				"u1" : 1,
+				"u2" : 1,
+				"u3" : 1,
+				"w" : -15.0,
+				"x" : 15.0,
+				"z" : 1,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "SwingableWeaponController",
+			"number" : 108,
+
+			"swingable weapon controllersub-sub-sub-block " :  {
+
+				"parent model" : 101,
+				"bone" : "BoneWeapon1",
+				"child model" : "skelly_weapon_sword",
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "KeyframeAnimation",
+			"number" : 109,
+
+			"keyframe animationsub-sub-sub-block " :  {
+
+				"linked model component number" : 101,
+				"name" : "skelly_walk",
+				"u0" : 1,
+				"u1" : 1.0,
+				"u2" : 1,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Damage",
+			"number" : 110,
+
+			"damagesub-sub-sub-block " :  {
+
+				"u0" : 2,
+				"u1" : 0,
+				"u2" : 0,
+				"u5" : 1.0,
+				"u6" : 0.0,
+				"u7" : 0,
+				"u8" : 1,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Health",
+			"number" : 111,
+
+			"healthsub-sub-sub-block " :  {
+
+				"u0" : 6,
+				"u1" : 0,
+
+				"u2sub-sub-sub-sub-block " :  {
+
+					"x" : 0.0,
+					"y" : 50.0,
+				},
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "EntityAction",
+			"number" : 112,
+
+			"entity actionsub-sub-sub-block " :  {
+
+
+				"lua chunksub-sub-sub-sub-block " :  {
+
+					"main chunk" : "chunk >
+
+					=== lua =============
+					local self = ...;
+					
+					local attackAnimation = 113;
+					
+					EntityController.SetMoveSpeed(self, 0);
+					KeyframeAnimation.SetCurrentTime(self, attackAnimation, 0.0);
+					AnimationController.BlendToAnimation(self, attackAnimation);
+					
+					Program.Wait(0.1);
+					
+					local swingStartTime = KeyframeAnimation.TimeToFrame(self, attackAnimation, 13);
+					local swingEndTime = KeyframeAnimation.TimeToFrame(self, attackAnimation, 16);
+					
+					Program.Wait(swingStartTime);
+					EntityController.StartSwing(self, 108, swingEndTime - swingStartTime);
+					
+					Program.Wait(KeyframeAnimation.TimeToCompletion(self, attackAnimation));
+					
+					EntityController.SetMoveSpeed(self, EntityController.DefaultMoveSpeed(self));
+
+					=====================",
+					"secondary chunk" : "\\x1bLuaQ\\x00\\x01\\x04\\x04\\x04\\x08\\x00\\x9a\\x02\\x00\\x00local self = ...;\\r\\n\\r\\nlocal attackAnimation = 113;\\r\\n\\r\\nEntityController.SetMoveSpeed(self, 0);\\r\\nKeyframeAnimation.SetCurrentTime(self, attackAnimation, 0.0);\\r\\nAnimationController.BlendToAnimation(self, attackAnimation);\\r\\n\\r\\nProgram.Wait(0.1);\\r\\n\\r\\nlocal swingStartTime = KeyframeAnimation.TimeToFrame(self, attackAnimation, 13);\\r\\nlocal swingEndTime = KeyframeAnimation.TimeToFrame(self, attackAnimation, 16);\\r\\n\\r\\nProgram.Wait(swingStartTime);\\r\\nEntityController.StartSwing(self, 108, swingEndTime - swingStartTime);\\r\\n\\r\\nProgram.Wait(KeyframeAnimation.TimeToCompletion(self, attackAnimation));\\r\\n\\r\\nEntityController.SetMoveSpeed(self, EntityController.DefaultMoveSpeed(self));\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x02\\x08=\\x00\\x00\\x00%\\x00\\x00\\x01A\\x00\\x00\\x00\\x85@\\x00\\x00\\x86\\x80@\\x01\\xc0\\x00\\x00\\x00\\x01\\xc1\\x00\\x00\\x9c@\\x80\\x01\\x85\\x00\\x01\\x00\\x86@A\\x01\\xc0\\x00\\x00\\x00\\x00\\x01\\x80\\x00A\\xc1\\x00\\x00\\x9c@\\x00\\x02\\x85\\x80\\x01\\x00\\x86\\xc0A\\x01\\xc0\\x00\\x00\\x00\\x00\\x01\\x80\\x00\\x9c@\\x80\\x01\\x85\\x00\\x02\\x00\\x86@B\\x01\\xc1\\x80\\x02\\x00\\x9c@\\x00\\x01\\x85\\x00\\x01\\x00\\x86\\xc0B\\x01\\xc0\\x00\\x00\\x00\\x00\\x01\\x80\\x00A\\x01\\x03\\x00\\x9c\\x80\\x00\\x02\\xc5\\x00\\x01\\x00\\xc6\\xc0\\xc2\\x01\\x00\\x01\\x00\\x00@\\x01\\x80\\x00\\x81A\\x03\\x00\\xdc\\x80\\x00\\x02\\x05\\x01\\x02\\x00\\x06AB\\x02@\\x01\\x00\\x01\\x1cA\\x00\\x01\\x05A\\x00\\x00\\x06\\x81C\\x02@\\x01\\x00\\x00\\x81\\xc1\\x03\\x00\\xcd\\x81\\x80\\x01\\x1cA\\x00\\x02\\x05\\x01\\x02\\x00\\x06AB\\x02E\\x01\\x01\\x00F\\x01\\xc4\\x02\\x80\\x01\\x00\\x00\\xc0\\x01\\x80\\x00\\\\\\x01\\x80\\x01\\x1cA\\x00\\x00\\x05A\\x00\\x00\\x06\\x81@\\x02@\\x01\\x00\\x00\\x85A\\x00\\x00\\x86AD\\x03\\xc0\\x01\\x00\\x00\\x9c\\x01\\x00\\x01\\x1cA\\x00\\x00\\x1e\\x00\\x80\\x00\\x12\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x00\\x00@\\\\@\\x04\\x11\\x00\\x00\\x00EntityController\\x00\\x04\\r\\x00\\x00\\x00SetMoveSpeed\\x00\\x03\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x04\\x12\\x00\\x00\\x00KeyframeAnimation\\x00\\x04\\x0f\\x00\\x00\\x00SetCurrentTime\\x00\\x04\\x14\\x00\\x00\\x00AnimationController\\x00\\x04\\x11\\x00\\x00\\x00BlendToAnimation\\x00\\x04\\x08\\x00\\x00\\x00Program\\x00\\x04\\x05\\x00\\x00\\x00Wait\\x00\\x03\\x9a\\x99\\x99\\x99\\x99\\x99\\xb9?\\x04\\x0c\\x00\\x00\\x00TimeToFrame\\x00\\x03\\x00\\x00\\x00\\x00\\x00\\x00*@\\x03\\x00\\x00\\x00\\x00\\x00\\x000@\\x04\\x0b\\x00\\x00\\x00StartSwing\\x00\\x03\\x00\\x00\\x00\\x00\\x00\\x00[@\\x04\\x11\\x00\\x00\\x00TimeToCompletion\\x00\\x04\\x11\\x00\\x00\\x00DefaultMoveSpeed\\x00\\x00\\x00\\x00\\x00=\\x00\\x00\\x00\\x01\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x06\\x00\\x00\\x00\\x06\\x00\\x00\\x00\\x06\\x00\\x00\\x00\\x06\\x00\\x00\\x00\\x06\\x00\\x00\\x00\\x06\\x00\\x00\\x00\\x07\\x00\\x00\\x00\\x07\\x00\\x00\\x00\\x07\\x00\\x00\\x00\\x07\\x00\\x00\\x00\\x07\\x00\\x00\\x00\\t\\x00\\x00\\x00\\t\\x00\\x00\\x00\\t\\x00\\x00\\x00\\t\\x00\\x00\\x00\\x0b\\x00\\x00\\x00\\x0b\\x00\\x00\\x00\\x0b\\x00\\x00\\x00\\x0b\\x00\\x00\\x00\\x0b\\x00\\x00\\x00\\x0b\\x00\\x00\\x00\\x0c\\x00\\x00\\x00\\x0c\\x00\\x00\\x00\\x0c\\x00\\x00\\x00\\x0c\\x00\\x00\\x00\\x0c\\x00\\x00\\x00\\x0c\\x00\\x00\\x00\\x0e\\x00\\x00\\x00\\x0e\\x00\\x00\\x00\\x0e\\x00\\x00\\x00\\x0e\\x00\\x00\\x00\\x0f\\x00\\x00\\x00\\x0f\\x00\\x00\\x00\\x0f\\x00\\x00\\x00\\x0f\\x00\\x00\\x00\\x0f\\x00\\x00\\x00\\x0f\\x00\\x00\\x00\\x11\\x00\\x00\\x00\\x11\\x00\\x00\\x00\\x11\\x00\\x00\\x00\\x11\\x00\\x00\\x00\\x11\\x00\\x00\\x00\\x11\\x00\\x00\\x00\\x11\\x00\\x00\\x00\\x11\\x00\\x00\\x00\\x13\\x00\\x00\\x00\\x13\\x00\\x00\\x00\\x13\\x00\\x00\\x00\\x13\\x00\\x00\\x00\\x13\\x00\\x00\\x00\\x13\\x00\\x00\\x00\\x13\\x00\\x00\\x00\\x13\\x00\\x00\\x00\\x13\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x05\\x00\\x00\\x00self\\x00\\x01\\x00\\x00\\x00<\\x00\\x00\\x00\\x10\\x00\\x00\\x00attackAnimation\\x00\\x02\\x00\\x00\\x00<\\x00\\x00\\x00\\x0f\\x00\\x00\\x00swingStartTime\\x00\\x1c\\x00\\x00\\x00<\\x00\\x00\\x00\\r\\x00\\x00\\x00swingEndTime\\x00\"\\x00\\x00\\x00<\\x00\\x00\\x00\\x00\\x00\\x00\\x00",
+				},
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "KeyframeAnimation",
+			"number" : 113,
+
+			"keyframe animationsub-sub-sub-block " :  {
+
+				"linked model component number" : 101,
+				"name" : "skelly_attack1",
+				"u0" : 0,
+				"u1" : 1.2999999523162842,
+				"u2" : 1,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Program",
+			"number" : 116,
+
+			"programsub-sub-sub-block " :  {
+
+				"u0" : 1,
+
+				"lua chunksub-sub-sub-sub-block " :  {
+
+					"main chunk" : "chunk >
+
+					=== lua =============
+					local self = ...;
+					
+					local target = EntityController.Target(self);
+					while true do
+						Program.Wait(Math.RandomFloat(1.5,3));
+						if EntityController.IsIdle(self) then
+							EntityController.PerformAction(self, 112);
+						end
+					end
+
+					=====================",
+					"secondary chunk" : "\\x1bLuaQ\\x00\\x01\\x04\\x04\\x04\\x08\\x00\\xdc\\x00\\x00\\x00local self = ...;\\r\\n\\r\\nlocal target = EntityController.Target(self);\\r\\nwhile true do\\r\\n\\tProgram.Wait(Math.RandomFloat(1.5,3));\\r\\n\\tif EntityController.IsIdle(self) then\\r\\n\\t\\tEntityController.PerformAction(self, 112);\\r\\n\\tend\\r\\nend\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x02\\x06\\x1a\\x00\\x00\\x00%\\x00\\x00\\x01E\\x00\\x00\\x00F@\\xc0\\x00\\x80\\x00\\x00\\x00\\\\\\x80\\x00\\x01\\x85\\x80\\x00\\x00\\x86\\xc0@\\x01\\xc5\\x00\\x01\\x00\\xc6@\\xc1\\x01\\x01\\x81\\x01\\x00A\\xc1\\x01\\x00\\xdc\\x00\\x80\\x01\\x9c@\\x00\\x00\\x85\\x00\\x00\\x00\\x86\\x00B\\x01\\xc0\\x00\\x00\\x00\\x9c\\x80\\x00\\x01\\x9a\\x00\\x00\\x00\\x16@\\xfc\\x7f\\x85\\x00\\x00\\x00\\x86@B\\x01\\xc0\\x00\\x00\\x00\\x01\\x81\\x02\\x00\\x9c@\\x80\\x01\\x16\\xc0\\xfa\\x7f\\x1e\\x00\\x80\\x00\\x0b\\x00\\x00\\x00\\x04\\x11\\x00\\x00\\x00EntityController\\x00\\x04\\x07\\x00\\x00\\x00Target\\x00\\x04\\x08\\x00\\x00\\x00Program\\x00\\x04\\x05\\x00\\x00\\x00Wait\\x00\\x04\\x05\\x00\\x00\\x00Math\\x00\\x04\\x0c\\x00\\x00\\x00RandomFloat\\x00\\x03\\x00\\x00\\x00\\x00\\x00\\x00\\xf8?\\x03\\x00\\x00\\x00\\x00\\x00\\x00\\x08@\\x04\\x07\\x00\\x00\\x00IsIdle\\x00\\x04\\x0e\\x00\\x00\\x00PerformAction\\x00\\x03\\x00\\x00\\x00\\x00\\x00\\x00\\\\@\\x00\\x00\\x00\\x00\\x1a\\x00\\x00\\x00\\x01\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x06\\x00\\x00\\x00\\x06\\x00\\x00\\x00\\x06\\x00\\x00\\x00\\x06\\x00\\x00\\x00\\x06\\x00\\x00\\x00\\x06\\x00\\x00\\x00\\x07\\x00\\x00\\x00\\x07\\x00\\x00\\x00\\x07\\x00\\x00\\x00\\x07\\x00\\x00\\x00\\x07\\x00\\x00\\x00\\x08\\x00\\x00\\x00\\t\\x00\\x00\\x00\\x02\\x00\\x00\\x00\\x05\\x00\\x00\\x00self\\x00\\x01\\x00\\x00\\x00\\x19\\x00\\x00\\x00\\x07\\x00\\x00\\x00target\\x00\\x05\\x00\\x00\\x00\\x19\\x00\\x00\\x00\\x00\\x00\\x00\\x00",
+				},
+				"u1" : 1,
+				"u2" : 1,
+			},
+		},
+
+		"positionsub-sub-block " :  {
+
+			"x position" : 0.0,
+			"y position" : 0.0,
+		},
+		"z position" : 0.0,
+		"rotation" : 0.0,
+		"scale" : 1.0,
+
+		"u0sub-sub-block " :  {
+
+			"w" : -10.0,
+			"x" : 0.0,
+			"y" : 20.0,
+			"z" : 50.0,
+		},
+		"hidden" : 0,
+
+		"lua chunksub-sub-block " :  {
+
+			"main chunk" : "chunk >
+
+			=== lua =============
+			local self = ...;
+			
+			Program.Wait(0.1);
+			local blast = Scene.CreateObject(\"summonBlast\", \"blastie\", self);
+			blast:setPosition(self:position()+Vector3.New(0,40,0));
+			
+
+			=====================",
+			"secondary chunk" : "\\x1bLuaQ\\x00\\x01\\x04\\x04\\x04\\x08\\x00\\xa6\\x00\\x00\\x00local self = ...;\\r\\n\\r\\nProgram.Wait(0.1);\\r\\nlocal blast = Scene.CreateObject(\"summonBlast\", \"blastie\", self);\\r\\nblast:setPosition(self:position()+Vector3.New(0,40,0));\\r\\n\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x02\\t\\x17\\x00\\x00\\x00%\\x00\\x00\\x01E\\x00\\x00\\x00F@\\xc0\\x00\\x81\\x80\\x00\\x00\\\\@\\x00\\x01E\\xc0\\x00\\x00F\\x00\\xc1\\x00\\x81@\\x01\\x00\\xc1\\x80\\x01\\x00\\x00\\x01\\x00\\x00\\\\\\x80\\x00\\x02\\x8b\\xc0\\xc1\\x00\\x0b\\x01B\\x00\\x1c\\x81\\x00\\x01EA\\x02\\x00F\\x81\\xc2\\x02\\x81\\xc1\\x02\\x00\\xc1\\x01\\x03\\x00\\x01\\xc2\\x02\\x00\\\\\\x81\\x00\\x02\\x0cA\\x01\\x02\\x9c@\\x80\\x01\\x1e\\x00\\x80\\x00\\r\\x00\\x00\\x00\\x04\\x08\\x00\\x00\\x00Program\\x00\\x04\\x05\\x00\\x00\\x00Wait\\x00\\x03\\x9a\\x99\\x99\\x99\\x99\\x99\\xb9?\\x04\\x06\\x00\\x00\\x00Scene\\x00\\x04\\r\\x00\\x00\\x00CreateObject\\x00\\x04\\x0c\\x00\\x00\\x00summonBlast\\x00\\x04\\x08\\x00\\x00\\x00blastie\\x00\\x04\\x0c\\x00\\x00\\x00setPosition\\x00\\x04\\t\\x00\\x00\\x00position\\x00\\x04\\x08\\x00\\x00\\x00Vector3\\x00\\x04\\x04\\x00\\x00\\x00New\\x00\\x03\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x00\\x00\\x00D@\\x00\\x00\\x00\\x00\\x17\\x00\\x00\\x00\\x01\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x02\\x00\\x00\\x00\\x05\\x00\\x00\\x00self\\x00\\x01\\x00\\x00\\x00\\x16\\x00\\x00\\x00\\x06\\x00\\x00\\x00blast\\x00\\x0b\\x00\\x00\\x00\\x16\\x00\\x00\\x00\\x00\\x00\\x00\\x00",
+		},
+	},
+	"u0" : 1.2999999523162842,
+},
+
+"?itemblock " :  {
+
+
+	"?sub-itemsub-block " :  {
+
+		"name" : "weapon_handglow_frost",
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "SwingableWeapon",
+			"number" : 1,
+
+			"swingable weaponsub-sub-sub-block " :  {
+
+				"linked model component number" : 0,
+				"u1" : 0,
+				"u2" : 0,
+				"u3" : 0,
+				"u4" : 0,
+				"u5" : 0,
+				"u6" : 0,
+				"u7" : 0,
+				"w" : 50.0,
+				"x" : 65.0,
+				"y" : 0.0,
+				"z" : 10.0,
+				"u8" : "\\r\\x00\\x00\\x00?\\x15\\x00\\x00\\x00?\\x1d\\x00\\x00\\x00?%\\x00\\x00\\x00\\x00",
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "ParticleEmitter",
+			"number" : 2,
+
+			"particle emittersub-sub-sub-block " :  {
+
+				"particle" : 3,
+				"particle" : 4,
+				"particle" : 5,
+				"u1" : 0,
+				"u2" : 30,
+				"u3" : 0,
+				"u4" : 0,
+
+				"u5sub-sub-sub-sub-block " :  {
+
+					"u0" : 3,
+
+					"u1sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 0.3111111521720886,
+						"x" : 0.477777898311615,
+						"y" : 0.9999999403953552,
+						"z" : 0.0,
+					},
+					"u2" : 0.019999999552965164,
+					"u2" : 0.4000000059604645,
+					"u2" : 1.0,
+					"u2" : 10.0,
+					"u2" : 0.30000001192092896,
+					"u2" : 0.0,
+					"u2" : 1.0,
+					"u3" : 0.0,
+					"u4" : 0.0,
+					"u5" : 0.0,
+
+					"u6sub-sub-sub-sub-sub-block " :  {
+
+						"u0" : 0.0,
+						"u1" : 0.0,
+						"u2" : 0.0,
+					},
+				},
+				"u6" : 0,
+
+				"u7sub-sub-sub-sub-block " :  {
+
+					"u0" : 0.0,
+					"u1" : -1.0,
+					"u2" : 0.0,
+				},
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Particle",
+			"number" : 3,
+
+			"particlesub-sub-sub-block " :  {
+
+				"name" : "particle_fure_1",
+				"u0" : 15.0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Particle",
+			"number" : 4,
+
+			"particlesub-sub-sub-block " :  {
+
+				"name" : "particle_fure_2",
+				"u0" : 20.0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Particle",
+			"number" : 5,
+
+			"particlesub-sub-sub-block " :  {
+
+				"name" : "particle_fure_3",
+				"u0" : 10.0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "SimpleGlow",
+			"number" : 101,
+
+			"simple glowsub-sub-sub-block " :  {
+
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"w" : 0.1111111119389534,
+					"x" : 0.13333334028720856,
+					"y" : 0.6333333253860474,
+					"z" : 0.5,
+				},
+				"u1" : 20.0,
+				"u2" : 10,
+				"u3" : 15.0,
+				"u4" : 0.15000000596046448,
+				"u5" : 0.800000011920929,
+
+				"u6sub-sub-sub-sub-block " :  {
+
+					"y" : 0.0,
+					"z" : 0.0,
+				},
+			},
+		},
+
+		"positionsub-sub-block " :  {
+
+			"x position" : 0.0,
+			"y position" : 0.0,
+		},
+		"z position" : 0.0,
+		"rotation" : 0.0,
+		"scale" : 1.0,
+
+		"u0sub-sub-block " :  {
+
+			"w" : -20.0,
+			"x" : -20.0,
+			"y" : 40.0,
+			"z" : 40.0,
+		},
+		"hidden" : 0,
+	},
+	"u0" : 1.0,
+},
+
+"?itemblock " :  {
+
+
+	"?sub-itemsub-block " :  {
+
+		"name" : "weapon_handglow_red",
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "SwingableWeapon",
+			"number" : 1,
+
+			"swingable weaponsub-sub-sub-block " :  {
+
+				"linked model component number" : 0,
+				"u1" : 0,
+				"u2" : 0,
+				"u3" : 0,
+				"u4" : 0,
+				"u5" : 0,
+				"u6" : 0,
+				"u7" : 0,
+				"w" : 50.0,
+				"x" : 65.0,
+				"y" : 0.0,
+				"z" : 10.0,
+				"u8" : "\\r\\x00\\x00\\x00?\\x15\\x00\\x00\\x00?\\x1d\\x00\\x00\\x00?%\\x00\\x00\\x00\\x00",
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "ParticleEmitter",
+			"number" : 2,
+
+			"particle emittersub-sub-sub-block " :  {
+
+				"particle" : 3,
+				"particle" : 4,
+				"particle" : 5,
+				"u1" : 0,
+				"u2" : 30,
+				"u3" : 0,
+				"u4" : 0,
+
+				"u5sub-sub-sub-sub-block " :  {
+
+					"u0" : 3,
+
+					"u1sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 0.6666666865348816,
+						"x" : 0.20000001788139343,
+						"y" : 0.18888890743255615,
+						"z" : 0.0,
+					},
+					"u2" : 0.019999999552965164,
+					"u2" : 0.4000000059604645,
+					"u2" : 1.0,
+					"u2" : 10.0,
+					"u2" : 0.30000001192092896,
+					"u2" : 0.0,
+					"u2" : 1.0,
+					"u3" : 0.0,
+					"u4" : 0.0,
+					"u5" : 0.0,
+
+					"u6sub-sub-sub-sub-sub-block " :  {
+
+						"u0" : 0.0,
+						"u1" : 0.0,
+						"u2" : 0.0,
+					},
+				},
+				"u6" : 0,
+
+				"u7sub-sub-sub-sub-block " :  {
+
+					"u0" : 0.0,
+					"u1" : -1.0,
+					"u2" : 0.0,
+				},
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Particle",
+			"number" : 3,
+
+			"particlesub-sub-sub-block " :  {
+
+				"name" : "particle_fure_1",
+				"u0" : 15.0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Particle",
+			"number" : 4,
+
+			"particlesub-sub-sub-block " :  {
+
+				"name" : "particle_fure_2",
+				"u0" : 20.0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Particle",
+			"number" : 5,
+
+			"particlesub-sub-sub-block " :  {
+
+				"name" : "particle_fure_3",
+				"u0" : 10.0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "SimpleGlow",
+			"number" : 101,
+
+			"simple glowsub-sub-sub-block " :  {
+
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"w" : 0.644444465637207,
+					"x" : 0.0,
+					"y" : 0.0,
+					"z" : 0.5,
+				},
+				"u1" : 20.0,
+				"u2" : 10,
+				"u3" : 15.0,
+				"u4" : 0.15000000596046448,
+				"u5" : 0.800000011920929,
+
+				"u6sub-sub-sub-sub-block " :  {
+
+					"y" : 0.0,
+					"z" : 0.0,
+				},
+			},
+		},
+
+		"positionsub-sub-block " :  {
+
+			"x position" : 0.0,
+			"y position" : 0.0,
+		},
+		"z position" : 0.0,
+		"rotation" : 0.0,
+		"scale" : 1.0,
+
+		"u0sub-sub-block " :  {
+
+			"w" : -20.0,
+			"x" : -20.0,
+			"y" : 40.0,
+			"z" : 40.0,
+		},
+		"hidden" : 0,
+	},
+	"u0" : 1.0,
+},
+
+}

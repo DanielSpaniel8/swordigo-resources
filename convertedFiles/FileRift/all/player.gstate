@@ -1,0 +1,59 @@
+
+inventory block { (0a @ 1)
+
+    soul shards : 998(28 @ 4)
+
+    item sub-block { (5a @ 7)
+
+        name : legendsword (0a @ 9)
+	}
+
+    item sub-block { (5a @ 16)
+
+        name : platearmor (0a @ 18)
+	}
+
+    item sub-block { (5a @ 24)
+
+        name : shadowtrinket (0a @ 26)
+	}
+
+    item sub-block { (5a @ 35)
+
+        name : icetrinket (0a @ 37)
+	}
+
+    item sub-block { (5a @ 43)
+
+        name : firetrinket (0a @ 45)
+	}
+
+    item sub-block { (5a @ 52)
+
+        name : iselon_shard_1 (0a @ 54)
+	}
+
+    item sub-block { (5a @ 64)
+
+        name : iselon_shard_2 (0a @ 66)
+	}
+
+    item sub-block { (5a @ 76)
+
+        name : iselon_shard_3 (0a @ 78)
+	}
+
+    item sub-block { (5a @ 88)
+
+        name : iselon_shard_4 (0a @ 8a)
+	}
+    skill : bolt (7a @ 9a)
+    skill : bomb (7a @ a0)
+    skill : hookshot (7a @ a6)
+    skill : dimension (7a @ b0)
+    selected skill : hookshot (82 @ bc)
+    sword trinket : firetrinket (8a @ c7)
+}
+spawn level : town_herohouse (1a @ d4)
+spawnpoint : spawn_default (22 @ e4)
+u1 : map (4a @ f3)

@@ -1,0 +1,1341 @@
+data = {
+"scl file name" : "icecastle",
+
+"?itemblock " :  {
+
+
+	"?sub-itemsub-block " :  {
+
+		"name" : "flying_platform",
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "MonsterEntity",
+			"number" : 107,
+
+			"entitysub-sub-sub-block " :  {
+
+				"u0" : 1,
+				"u1" : 0,
+			},
+
+			"?monster entitysub-sub-sub-block " :  {
+
+				"u0" : "",
+
+				"lua chunksub-sub-sub-sub-block " :  {
+
+				},
+				"u2" : 1,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "CollisionShape",
+			"number" : 115,
+
+			"collision shapesub-sub-sub-block " :  {
+
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"w" : -50.0,
+					"x" : -20.0,
+					"y" : 100.0,
+					"z" : 40.0,
+				},
+			},
+
+			"collision shape 2sub-sub-sub-block " :  {
+
+				"u0" : 1,
+				"u1" : 1,
+				"w" : -15.0,
+				"x" : 15.0,
+
+				"lua chunksub-sub-sub-sub-block " :  {
+
+					"main chunk" : "chunk >
+
+					=== lua =============
+					local self, collidedObject, collisionNormal, groundCollision = ...;
+					
+					if groundCollision then
+						self:setVelocity(self:velocity() - collisionNormal*(2 * self:velocity():dot(collisionNormal)));
+						if self:velocity():length() < 250 then
+							self:setVelocity(self:velocity():normalized()*250);
+						end
+					end
+
+					=====================",
+					"secondary chunk" : "\\x1bLuaQ\\x00\\x01\\x04\\x04\\x04\\x08\\x00,\\x01\\x00\\x00local self, collidedObject, collisionNormal, groundCollision = ...;\\r\\n\\r\\nif groundCollision then\\r\\n\\tself:setVelocity(self:velocity() - collisionNormal*(2 * self:velocity():dot(collisionNormal)));\\r\\n\\tif self:velocity():length() < 250 then\\r\\n\\t\\tself:setVelocity(self:velocity():normalized()*250);\\r\\n\\tend\\r\\nend\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x02\\n\\x1d\\x00\\x00\\x00%\\x00\\x80\\x02\\xda\\x00\\x00\\x00\\x16\\x00\\x06\\x80\\x0b\\x01@\\x00\\x8bA@\\x00\\x9c\\x81\\x00\\x01\\xcbA@\\x00\\xdc\\x81\\x00\\x01\\xcb\\x81\\xc0\\x03@\\x02\\x00\\x01\\xdc\\x81\\x80\\x01\\xce\\xc1\\x81\\x81\\xce\\xc1\\x01\\x01\\x8d\\xc1\\x01\\x03\\x1cA\\x80\\x01\\x0bA@\\x00\\x1c\\x81\\x00\\x01\\x0b\\x01A\\x02\\x1c\\x81\\x00\\x01\\x18@A\\x02\\x16\\x80\\x01\\x80\\x0b\\x01@\\x00\\x8bA@\\x00\\x9c\\x81\\x00\\x01\\x8b\\x81A\\x03\\x9c\\x81\\x00\\x01\\x8eAA\\x03\\x1cA\\x80\\x01\\x1e\\x00\\x80\\x00\\x07\\x00\\x00\\x00\\x04\\x0c\\x00\\x00\\x00setVelocity\\x00\\x04\\t\\x00\\x00\\x00velocity\\x00\\x04\\x04\\x00\\x00\\x00dot\\x00\\x03\\x00\\x00\\x00\\x00\\x00\\x00\\x00@\\x04\\x07\\x00\\x00\\x00length\\x00\\x03\\x00\\x00\\x00\\x00\\x00@o@\\x04\\x0b\\x00\\x00\\x00normalized\\x00\\x00\\x00\\x00\\x00\\x1d\\x00\\x00\\x00\\x01\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x06\\x00\\x00\\x00\\x06\\x00\\x00\\x00\\x06\\x00\\x00\\x00\\x06\\x00\\x00\\x00\\x06\\x00\\x00\\x00\\x06\\x00\\x00\\x00\\x06\\x00\\x00\\x00\\x08\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x05\\x00\\x00\\x00self\\x00\\x01\\x00\\x00\\x00\\x1c\\x00\\x00\\x00\\x0f\\x00\\x00\\x00collidedObject\\x00\\x01\\x00\\x00\\x00\\x1c\\x00\\x00\\x00\\x10\\x00\\x00\\x00collisionNormal\\x00\\x01\\x00\\x00\\x00\\x1c\\x00\\x00\\x00\\x10\\x00\\x00\\x00groundCollision\\x00\\x01\\x00\\x00\\x00\\x1c\\x00\\x00\\x00\\x00\\x00\\x00\\x00",
+				},
+				"z" : 1,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "EntityController",
+			"number" : 119,
+
+			"entity controllersub-sub-sub-block " :  {
+
+				"entity component" : 107,
+				"animation controller component" : 105,
+				"u2" : 103,
+				"collision shape" : 115,
+				"u4" : 100.0,
+				"u5" : 800.0,
+				"u6" : 1000.0,
+				"u7" : 1,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Program",
+			"number" : 122,
+
+			"programsub-sub-sub-block " :  {
+
+				"u0" : 1,
+
+				"lua chunksub-sub-sub-sub-block " :  {
+
+					"main chunk" : "chunk >
+
+					=== lua =============
+					local self = ...;
+					
+					local targetPosition = self:position();
+					
+					local timeSinceAttack = 3;
+					
+					while true do
+						Program.Wait(0.4);
+						timeSinceAttack = timeSinceAttack + 0.4;
+						local target = EntityController.Target(self);
+					
+						if EntityController.IsIdle(self) then	
+					
+							local delta = targetPosition - self:position();
+					
+							PhysicsObject.SetGravityDirection(self, delta:normalized());
+							PhysicsObject.SetGravityMagnitude(self, 0.5);
+							PhysicsObject.SetDecelerationForce(self, 2);
+					
+							if timeSinceAttack > 3.0 then
+								targetPosition = Scene.Find(\"obj1_\"..Math.RandomInt(1,3)):position();
+								timeSinceAttack = 0;
+							end
+						end
+					end
+
+					=====================",
+					"secondary chunk" : "\\x1bLuaQ\\x00\\x01\\x04\\x04\\x04\\x08\\x00w\\x02\\x00\\x00local self = ...;\\r\\n\\r\\nlocal targetPosition = self:position();\\r\\n\\r\\nlocal timeSinceAttack = 3;\\r\\n\\r\\nwhile true do\\r\\n\\tProgram.Wait(0.4);\\r\\n\\ttimeSinceAttack = timeSinceAttack + 0.4;\\r\\n\\tlocal target = EntityController.Target(self);\\r\\n\\r\\n\\tif EntityController.IsIdle(self) then\\t\\r\\n\\r\\n\\t\\tlocal delta = targetPosition - self:position();\\r\\n\\r\\n\\t\\tPhysicsObject.SetGravityDirection(self, delta:normalized());\\r\\n\\t\\tPhysicsObject.SetGravityMagnitude(self, 0.5);\\r\\n\\t\\tPhysicsObject.SetDecelerationForce(self, 2);\\r\\n\\r\\n\\t\\tif timeSinceAttack > 3.0 then\\r\\n\\t\\t\\ttargetPosition = Scene.Find(\"obj1_\"..Math.RandomInt(1,3)):position();\\r\\n\\t\\t\\ttimeSinceAttack = 0;\\r\\n\\t\\tend\\r\\n\\tend\\r\\nend\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x02\\n8\\x00\\x00\\x00%\\x00\\x00\\x01K\\x00@\\x00\\\\\\x80\\x00\\x01\\x81@\\x00\\x00\\xc5\\x80\\x00\\x00\\xc6\\xc0\\xc0\\x01\\x01\\x01\\x01\\x00\\xdc@\\x00\\x01\\x8c\\x00A\\x01\\xc5@\\x01\\x00\\xc6\\x80\\xc1\\x01\\x00\\x01\\x00\\x00\\xdc\\x80\\x00\\x01\\x05A\\x01\\x00\\x06\\xc1A\\x02@\\x01\\x00\\x00\\x1c\\x81\\x00\\x01\\x1a\\x01\\x00\\x00\\x16\\x00\\xfc\\x7f\\x0b\\x01@\\x00\\x1c\\x81\\x00\\x01\\r\\x01\\x81\\x00E\\x01\\x02\\x00FA\\xc2\\x02\\x80\\x01\\x00\\x00\\xcb\\x81B\\x02\\xdc\\x01\\x00\\x01\\\\A\\x00\\x00E\\x01\\x02\\x00F\\xc1\\xc2\\x02\\x80\\x01\\x00\\x00\\xc1\\x01\\x03\\x00\\\\A\\x80\\x01E\\x01\\x02\\x00FA\\xc3\\x02\\x80\\x01\\x00\\x00\\xc1\\x81\\x03\\x00\\\\A\\x80\\x01\\x18\\x80\\x80\\x80\\x16\\xc0\\xf6\\x7fE\\xc1\\x03\\x00F\\x01\\xc4\\x02\\x81A\\x04\\x00\\xc5\\x81\\x04\\x00\\xc6\\xc1\\xc4\\x03\\x01\\x02\\x05\\x00AB\\x00\\x00\\xdc\\x81\\x80\\x01\\x95\\xc1\\x01\\x03\\\\\\x81\\x00\\x01K\\x01\\xc0\\x02\\\\\\x81\\x00\\x01@\\x00\\x80\\x02\\x81@\\x05\\x00\\x16\\x00\\xf3\\x7f\\x1e\\x00\\x80\\x00\\x16\\x00\\x00\\x00\\x04\\t\\x00\\x00\\x00position\\x00\\x03\\x00\\x00\\x00\\x00\\x00\\x00\\x08@\\x04\\x08\\x00\\x00\\x00Program\\x00\\x04\\x05\\x00\\x00\\x00Wait\\x00\\x03\\x9a\\x99\\x99\\x99\\x99\\x99\\xd9?\\x04\\x11\\x00\\x00\\x00EntityController\\x00\\x04\\x07\\x00\\x00\\x00Target\\x00\\x04\\x07\\x00\\x00\\x00IsIdle\\x00\\x04\\x0e\\x00\\x00\\x00PhysicsObject\\x00\\x04\\x14\\x00\\x00\\x00SetGravityDirection\\x00\\x04\\x0b\\x00\\x00\\x00normalized\\x00\\x04\\x14\\x00\\x00\\x00SetGravityMagnitude\\x00\\x03\\x00\\x00\\x00\\x00\\x00\\x00\\xe0?\\x04\\x15\\x00\\x00\\x00SetDecelerationForce\\x00\\x03\\x00\\x00\\x00\\x00\\x00\\x00\\x00@\\x04\\x06\\x00\\x00\\x00Scene\\x00\\x04\\x05\\x00\\x00\\x00Find\\x00\\x04\\x06\\x00\\x00\\x00obj1_\\x00\\x04\\x05\\x00\\x00\\x00Math\\x00\\x04\\n\\x00\\x00\\x00RandomInt\\x00\\x03\\x00\\x00\\x00\\x00\\x00\\x00\\xf0?\\x03\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x008\\x00\\x00\\x00\\x01\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x08\\x00\\x00\\x00\\x08\\x00\\x00\\x00\\x08\\x00\\x00\\x00\\x08\\x00\\x00\\x00\\t\\x00\\x00\\x00\\n\\x00\\x00\\x00\\n\\x00\\x00\\x00\\n\\x00\\x00\\x00\\n\\x00\\x00\\x00\\x0c\\x00\\x00\\x00\\x0c\\x00\\x00\\x00\\x0c\\x00\\x00\\x00\\x0c\\x00\\x00\\x00\\x0c\\x00\\x00\\x00\\x0c\\x00\\x00\\x00\\x0e\\x00\\x00\\x00\\x0e\\x00\\x00\\x00\\x0e\\x00\\x00\\x00\\x10\\x00\\x00\\x00\\x10\\x00\\x00\\x00\\x10\\x00\\x00\\x00\\x10\\x00\\x00\\x00\\x10\\x00\\x00\\x00\\x10\\x00\\x00\\x00\\x11\\x00\\x00\\x00\\x11\\x00\\x00\\x00\\x11\\x00\\x00\\x00\\x11\\x00\\x00\\x00\\x11\\x00\\x00\\x00\\x12\\x00\\x00\\x00\\x12\\x00\\x00\\x00\\x12\\x00\\x00\\x00\\x12\\x00\\x00\\x00\\x12\\x00\\x00\\x00\\x14\\x00\\x00\\x00\\x14\\x00\\x00\\x00\\x15\\x00\\x00\\x00\\x15\\x00\\x00\\x00\\x15\\x00\\x00\\x00\\x15\\x00\\x00\\x00\\x15\\x00\\x00\\x00\\x15\\x00\\x00\\x00\\x15\\x00\\x00\\x00\\x15\\x00\\x00\\x00\\x15\\x00\\x00\\x00\\x15\\x00\\x00\\x00\\x15\\x00\\x00\\x00\\x15\\x00\\x00\\x00\\x15\\x00\\x00\\x00\\x16\\x00\\x00\\x00\\x18\\x00\\x00\\x00\\x19\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x05\\x00\\x00\\x00self\\x00\\x01\\x00\\x00\\x007\\x00\\x00\\x00\\x0f\\x00\\x00\\x00targetPosition\\x00\\x03\\x00\\x00\\x007\\x00\\x00\\x00\\x10\\x00\\x00\\x00timeSinceAttack\\x00\\x04\\x00\\x00\\x007\\x00\\x00\\x00\\x07\\x00\\x00\\x00target\\x00\\r\\x00\\x00\\x006\\x00\\x00\\x00\\x06\\x00\\x00\\x00delta\\x00\\x16\\x00\\x00\\x006\\x00\\x00\\x00\\x00\\x00\\x00\\x00",
+				},
+				"u1" : 1,
+				"u2" : 1,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "PhysicsObject",
+			"number" : 125,
+
+			"physics objectsub-sub-sub-block " :  {
+
+				"u0" : 1,
+				"u2" : 1.2000000476837158,
+				"u3" : 1500.0,
+				"u4" : 0.0,
+				"u5" : 700.0,
+				"u6" : 0,
+				"u7" : 0.0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "SimpleGlow",
+			"number" : 132,
+
+			"simple glowsub-sub-sub-block " :  {
+
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"w" : 0.5,
+					"x" : 0.5,
+					"y" : 0.5,
+					"z" : 0.5,
+				},
+				"u1" : 50.0,
+				"u2" : 10,
+				"u3" : 15.0,
+				"u4" : 0.15000000596046448,
+				"u5" : 0.800000011920929,
+
+				"u6sub-sub-sub-sub-block " :  {
+
+					"y" : 0.0,
+					"z" : -17.0,
+				},
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "ParticleEmitter",
+			"number" : 133,
+
+			"particle emittersub-sub-sub-block " :  {
+
+				"particle" : 134,
+				"particle" : 135,
+				"particle" : 136,
+				"u1" : 0,
+				"u2" : 30,
+				"u3" : 0,
+				"u4" : 0,
+
+				"u5sub-sub-sub-sub-block " :  {
+
+					"u0" : 5,
+
+					"u1sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 0.17777779698371887,
+						"x" : 0.17777779698371887,
+						"y" : 0.46666666865348816,
+						"z" : 0.0,
+					},
+					"u2" : 270.0,
+					"u2" : 90.0,
+					"u2" : 0.0,
+					"u2" : 0.0,
+					"u2" : 0.0,
+					"u2" : 300.0,
+					"u2" : 0.20000000298023224,
+					"u2" : 0.0,
+					"u2" : 1.0,
+					"u2" : 0.5,
+					"u2" : 1.0,
+					"u2" : 0.029999999329447746,
+					"u2" : 0.30000001192092896,
+					"u2" : 0.20000000298023224,
+					"u2" : 0.0,
+					"u3" : 0.0,
+					"u4" : 0.0,
+					"u5" : 0.0,
+
+					"u6sub-sub-sub-sub-sub-block " :  {
+
+						"u0" : 0.0,
+						"u1" : 0.0,
+						"u2" : 0.0,
+					},
+				},
+				"u6" : 0,
+
+				"u7sub-sub-sub-sub-block " :  {
+
+					"u0" : 0.0,
+					"u1" : 800.0,
+					"u2" : 0.0,
+				},
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Particle",
+			"number" : 134,
+
+			"particlesub-sub-sub-block " :  {
+
+				"name" : "particle_fure_1",
+				"u0" : 40.0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Particle",
+			"number" : 135,
+
+			"particlesub-sub-sub-block " :  {
+
+				"name" : "particle_fure_2",
+				"u0" : 30.0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Particle",
+			"number" : 136,
+
+			"particlesub-sub-sub-block " :  {
+
+				"name" : "particle_fure_3",
+				"u0" : 20.0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "GroundPolygon",
+			"number" : 140,
+
+			"ground polygonsub-sub-sub-block " :  {
+
+
+				"sub-sub-sub-sub-block " :  {
+
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"x" : -44.8939208984375,
+						"y" : -19.21640396118164,
+					},
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"x" : 43.270263671875,
+						"y" : -19.20798110961914,
+					},
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"x" : 48.88772201538086,
+						"y" : 19.216402053833008,
+					},
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"x" : -48.887725830078125,
+						"y" : 19.041810989379883,
+					},
+					"u0" : 0,
+					"u1" : 1,
+				},
+				"u1" : 0,
+				"u2" : -55.0,
+				"u3" : 55.0,
+				"u4" : "",
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "GroundMesh",
+			"number" : 142,
+
+			"ground meshsub-sub-sub-block " :  {
+
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"w" : -58.887725830078125,
+					"x" : -29.21640396118164,
+					"y" : 117.77545166015625,
+					"z" : 58.43280792236328,
+				},
+
+				"u1sub-sub-sub-sub-block " :  {
+
+					"u0" : 20,
+					"u1" : 14,
+
+					"u2sub-sub-sub-sub-sub-block " :  {
+
+						"u0" : 4,
+						"u1" : 1,
+						"u2" : 2,
+						"u3" : 0,
+					},
+
+					"u3sub-sub-sub-sub-sub-block " :  {
+
+						"u0" : 7,
+						"u1" : 3,
+						"u2" : 32,
+						"u3" : 0,
+					},
+
+					"u4sub-sub-sub-sub-sub-block " :  {
+
+						"u0" : 7,
+						"u1" : 3,
+						"u2" : 32,
+						"u3" : 12,
+					},
+
+					"u5sub-sub-sub-sub-sub-block " :  {
+
+						"u0" : 7,
+						"u1" : 2,
+						"u2" : 32,
+						"u3" : 24,
+					},
+
+					"u6sub-sub-sub-sub-sub-block " :  {
+
+
+						"u0sub-sub-sub-sub-sub-sub-block " :  {
+
+							"w" : 1.0,
+							"x" : 1.0,
+							"y" : 1.0,
+							"z" : 1.0,
+						},
+
+						"u1sub-sub-sub-sub-sub-sub-block " :  {
+
+							"w" : 1.0,
+							"x" : 1.0,
+							"y" : 1.0,
+							"z" : 1.0,
+						},
+
+						"u2sub-sub-sub-sub-sub-sub-block " :  {
+
+							"w" : 1.0,
+							"x" : 1.0,
+							"y" : 1.0,
+							"z" : 1.0,
+						},
+						"u3" : 0.0,
+						"u4" : "\\n\\x0ficecastle_floor\\x10\\x01 \\x01",
+					},
+
+					"u7sub-sub-sub-sub-sub-block " :  {
+
+						"u" : -51.88772201538086,
+						"v" : -5.9635467529296875,
+						"w" : -60.0,
+						"x" : 103.77543640136719,
+						"y" : 25.185306549072266,
+						"z" : 120.0,
+					},
+					"u8" : "\\x06\\x8dOB*\\xc6\\x99A\\x00\\x00\\\\\\xc2\\xcf\\x0b\\xea\\xba\\xe6\\xff\\x7f?\\x00\\x00\\x00\\x00\\x00\\x00\\x00?)\\\\\\x8f>\\x06\\x8dOB*\\xc6\\x99A\\x00\\x00\\\\B\\xcf\\x0b\\xea\\xba\\xe6\\xff\\x7f?\\x00\\x00\\x00\\x00\\x00\\x00\\x00?\\xecQ8?\\x06\\x8dOBT\\x8c\\x13A\\x00\\x00pB\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\x1f\\x85\\xeb>\\xa4p=?\\x06\\x8dOBX\\xe7\\xb8\\xc0ff\\\\B\\xcf\\x0b\\xea:\\xe6\\xff\\x7f\\xbf\\x00\\x00\\x00\\x80\\xcd\\xcc\\xcc>\"l8?\\x06\\x8dOBX\\xe7\\xb8\\xc0\\x9a\\x99[\\xc2\\xcf\\x0b\\xea:\\xe6\\xff\\x7f\\xbf\\x00\\x00\\x00\\x80\\xcd\\xcc\\xcc>\\x97\\x90\\x8f>\\x06\\x8dOBT\\x8c\\x13A\\x00\\x00p\\xc2\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\x1f\\x85\\xeb>\\xb8\\x1e\\x85>\\x06\\x8dOB*\\xc6\\x99A\\x00\\x00\\\\\\xc2\\xcf\\x0b\\xea\\xba\\xe6\\xff\\x7f?\\x00\\x00\\x00\\x00\\x00\\x00\\x00?)\\\\\\x8f>\\x06\\x8dOB*\\xc6\\x99A\\x00\\x00\\\\B\\xcf\\x0b\\xea\\xba\\xe6\\xff\\x7f?\\x00\\x00\\x00\\x00\\x00\\x00\\x00?\\xecQ8?\\x06\\x8dOBT\\x8c\\x13A\\x00\\x00pB\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\x00\\x00\\x00?\\xc8\\xc4C?\\x06\\x8dOBX\\xe7\\xb8\\xc0ff\\\\B\\xcf\\x0b\\xea:\\xe6\\xff\\x7f\\xbf\\x00\\x00\\x00\\x80\\x00\\x00\\x00?m\\xedS?\\x07\\x8dO\\xc2\\xa8J\\x98A\\x00\\x00\\\\\\xc2\\xcf\\x0b\\xea\\xba\\xe6\\xff\\x7f?\\x00\\x00\\x00\\x00J\\x1fd?)\\\\\\x8f>\\x07\\x8dO\\xc2\\xa8J\\x98A\\x00\\x00\\\\B\\xcf\\x0b\\xea\\xba\\xe6\\xff\\x7f?\\x00\\x00\\x00\\x00J\\x1fd?\\xecQ8?\\x07\\x8dO\\xc2P\\x95\\x10A\\x00\\x00pB\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?J\\x1fd?\\xc8\\xc4C?\\x07\\x8dO\\xc2`\\xd5\\xbe\\xc0ff\\\\B\\xcf\\x0b\\xea:\\xe6\\xff\\x7f\\xbf\\x00\\x00\\x00\\x80J\\x1fd?m\\xedS?\\x07\\x8dO\\xc2\\xa8J\\x98A\\x00\\x00\\\\\\xc2\\xcf\\x0b\\xea\\xba\\xe6\\xff\\x7f?\\x00\\x00\\x00\\x00J\\x1fd?)\\\\\\x8f>\\x07\\x8dO\\xc2\\xa8J\\x98A\\x00\\x00\\\\B\\xcf\\x0b\\xea\\xba\\xe6\\xff\\x7f?\\x00\\x00\\x00\\x00J\\x1fd?\\xecQ8?\\x07\\x8dO\\xc2P\\x95\\x10A\\x00\\x00pB\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xba\\\\n?\\xa4p=?\\x07\\x8dO\\xc2`\\xd5\\xbe\\xc0ff\\\\B\\xcf\\x0b\\xea:\\xe6\\xff\\x7f\\xbf\\x00\\x00\\x00\\x80\\xe3\\xb8}?\"l8?\\x07\\x8dO\\xc2`\\xd5\\xbe\\xc0\\x9a\\x99[\\xc2\\xcf\\x0b\\xea:\\xe6\\xff\\x7f\\xbf\\x00\\x00\\x00\\x80\\xe3\\xb8}?\\x97\\x90\\x8f>\\x07\\x8dO\\xc2P\\x95\\x10A\\x00\\x00p\\xc2\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xba\\\\n?\\xb8\\x1e\\x85>",
+					"u9" : "\\x00\\x00\\x04\\x00\\x05\\x00\\x00\\x00\\x03\\x00\\x04\\x00\\x00\\x00\\x01\\x00\\x03\\x00\\x01\\x00\\x02\\x00\\x03\\x00\\x06\\x00\\n\\x00\\x0b\\x00\\x07\\x00\\x06\\x00\\x0b\\x00\\x07\\x00\\x0b\\x00\\x0c\\x00\\x08\\x00\\x07\\x00\\x0c\\x00\\x08\\x00\\x0c\\x00\\r\\x00\\t\\x00\\x08\\x00\\r\\x00\\x0e\\x00\\x13\\x00\\x12\\x00\\x0e\\x00\\x12\\x00\\x11\\x00\\x0e\\x00\\x11\\x00\\x0f\\x00\\x11\\x00\\x10\\x00\\x0f\\x00",
+				},
+
+				"u1sub-sub-sub-sub-block " :  {
+
+					"u0" : 8,
+					"u1" : 6,
+
+					"u2sub-sub-sub-sub-sub-block " :  {
+
+						"u0" : 4,
+						"u1" : 1,
+						"u2" : 2,
+						"u3" : 0,
+					},
+
+					"u3sub-sub-sub-sub-sub-block " :  {
+
+						"u0" : 7,
+						"u1" : 3,
+						"u2" : 32,
+						"u3" : 0,
+					},
+
+					"u4sub-sub-sub-sub-sub-block " :  {
+
+						"u0" : 7,
+						"u1" : 3,
+						"u2" : 32,
+						"u3" : 12,
+					},
+
+					"u5sub-sub-sub-sub-sub-block " :  {
+
+						"u0" : 7,
+						"u1" : 2,
+						"u2" : 32,
+						"u3" : 24,
+					},
+
+					"u6sub-sub-sub-sub-sub-block " :  {
+
+
+						"u0sub-sub-sub-sub-sub-sub-block " :  {
+
+							"w" : 1.0,
+							"x" : 1.0,
+							"y" : 1.0,
+							"z" : 1.0,
+						},
+
+						"u1sub-sub-sub-sub-sub-sub-block " :  {
+
+							"w" : 1.0,
+							"x" : 1.0,
+							"y" : 1.0,
+							"z" : 1.0,
+						},
+
+						"u2sub-sub-sub-sub-sub-sub-block " :  {
+
+							"w" : 1.0,
+							"x" : 1.0,
+							"y" : 1.0,
+							"z" : 1.0,
+						},
+						"u3" : 0.0,
+						"u4" : "\\n\\x10icecastle_ground\\x10\\x01 \\x01",
+					},
+
+					"u7sub-sub-sub-sub-sub-block " :  {
+
+						"u" : -48.887725830078125,
+						"v" : -19.21640396118164,
+						"w" : -50.0,
+						"x" : 97.77545166015625,
+						"y" : 38.43280792236328,
+						"z" : 100.0,
+					},
+					"u8" : "\\x08\\x8dC\\xc2\\xa1U\\x98A\\x00\\x00H\\xc2\\xce\\x9d~\\xbf\\t\\xa3\\xd4\\xbd\\x00\\x00\\x00\\x00\\x00\\x00\\x00?\\x9a\\x99\\x99>\\x08\\x8dC\\xc2\\xa1U\\x98A\\x00\\x00HB\\xce\\x9d~\\xbf\\t\\xa3\\xd4\\xbd\\x00\\x00\\x00\\x00\\x00\\x00\\x00?333?`\\x933\\xc22\\xbb\\x99\\xc1\\x00\\x00H\\xc2\\x14E\\xc4\\xbe\\x8cql\\xbf\\x00\\x00\\x00\\x00\\xa9c\'?\\x9a\\x99\\x99>`\\x933\\xc22\\xbb\\x99\\xc1\\x00\\x00HB\\x14E\\xc4\\xbe\\x8cql\\xbf\\x00\\x00\\x00\\x00\\xa9c\'?333?\\xc0\\x14-B\\xf2\\xa9\\x99\\xc1\\x00\\x00H\\xc2\\x08\'\\xc2>Q\\xe1l\\xbf\\x00\\x00\\x00\\x00\\xb0\\xd5\\x80?\\x9a\\x99\\x99>\\xc0\\x14-B\\xf2\\xa9\\x99\\xc1\\x00\\x00HB\\x08\'\\xc2>Q\\xe1l\\xbf\\x00\\x00\\x00\\x00\\xb0\\xd5\\x80?333?\\x07\\x8dCB1\\xbb\\x99A\\x00\\x00H\\xc2\\xaeN}?\\x14!\\x14\\xbe\\x00\\x00\\x00\\x00\\x96\\xb7\\x94?\\x9a\\x99\\x99>\\x07\\x8dCB1\\xbb\\x99A\\x00\\x00HB\\xaeN}?\\x14!\\x14\\xbe\\x00\\x00\\x00\\x00\\x96\\xb7\\x94?333?",
+					"u9" : "\\x00\\x00\\x02\\x00\\x03\\x00\\x01\\x00\\x00\\x00\\x03\\x00\\x02\\x00\\x04\\x00\\x05\\x00\\x03\\x00\\x02\\x00\\x05\\x00\\x04\\x00\\x06\\x00\\x07\\x00\\x05\\x00\\x04\\x00\\x07\\x00",
+				},
+
+				"u2sub-sub-sub-sub-block " :  {
+
+					"u0" : 6,
+					"u1" : 2,
+
+					"u2sub-sub-sub-sub-sub-block " :  {
+
+						"u0" : 7,
+						"u1" : 3,
+						"u2" : 32,
+						"u3" : 0,
+					},
+
+					"u3sub-sub-sub-sub-sub-block " :  {
+
+						"u0" : 7,
+						"u1" : 3,
+						"u2" : 32,
+						"u3" : 12,
+					},
+
+					"u4sub-sub-sub-sub-sub-block " :  {
+
+						"u0" : 7,
+						"u1" : 2,
+						"u2" : 32,
+						"u3" : 24,
+					},
+
+					"u5sub-sub-sub-sub-sub-block " :  {
+
+
+						"u0sub-sub-sub-sub-sub-sub-block " :  {
+
+							"w" : 1.0,
+							"x" : 1.0,
+							"y" : 1.0,
+							"z" : 1.0,
+						},
+
+						"u1sub-sub-sub-sub-sub-sub-block " :  {
+
+							"w" : 1.0,
+							"x" : 1.0,
+							"y" : 1.0,
+							"z" : 1.0,
+						},
+
+						"u2sub-sub-sub-sub-sub-sub-block " :  {
+
+							"w" : 1.0,
+							"x" : 1.0,
+							"y" : 1.0,
+							"z" : 1.0,
+						},
+						"u3" : 0.0,
+
+						"u4sub-sub-sub-sub-sub-sub-block " :  {
+
+							"u0" : "icecastle_ground",
+							"u1" : 1,
+							"u2" : 1,
+						},
+					},
+
+					"u3sub-sub-sub-sub-sub-block " :  {
+
+						"u" : -48.887725830078125,
+						"v" : -19.21640396118164,
+						"w" : 50.0,
+						"x" : 97.77545166015625,
+						"y" : 38.43280792236328,
+						"z" : 0.0,
+					},
+					"u7" : "\\x08\\x8dC\\xc2\\xa1U\\x98A\\x00\\x00HB\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xc1\\xe0\\x9b>\\xb2\\x7f\\x13?`\\x933\\xc22\\xbb\\x99\\xc1\\x00\\x00HB\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xa8\\x0e\\xa4>\\x12\\xa5\\xd8>\\xc0\\x14-B\\xf2\\xa9\\x99\\xc1\\x00\\x00HB\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\nO,?|\\xa9\\xd8>\\x08\\x8dC\\xc2\\xa1U\\x98A\\x00\\x00HB\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xc1\\xe0\\x9b>\\xb2\\x7f\\x13?\\xc0\\x14-B\\xf2\\xa9\\x99\\xc1\\x00\\x00HB\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\nO,?|\\xa9\\xd8>\\x07\\x8dCB1\\xbb\\x99A\\x00\\x00HB\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\x9f\\x0f2?w\\xad\\x13?",
+				},
+
+				"u3sub-sub-sub-sub-block " :  {
+
+					"w" : 1.0,
+					"x" : 1.0,
+					"y" : 1.0,
+					"z" : 1.0,
+				},
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "GroundMeshGenerator",
+			"number" : 143,
+
+			"ground mesh generatorsub-sub-sub-block " :  {
+
+				"ground polygon" : 140,
+				"ground mesh" : 142,
+				"texture mapping 1" : 144,
+				"texture mapping 2" : 145,
+				"u4" : 0,
+				"u5" : 0.0,
+				"u6" : 1,
+				"u7" : 100.0,
+				"u8" : 25.0,
+				"u9" : 5.0,
+				"u10" : 5.0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "TextureMapping",
+			"number" : 144,
+
+			"texture mappingsub-sub-sub-block " :  {
+
+				"texture file" : "icecastle_ground",
+				"u0" : 250.0,
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"u1" : 0.0,
+					"u2" : 0.0,
+				},
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "TextureMapping",
+			"number" : 145,
+
+			"texture mappingsub-sub-sub-block " :  {
+
+				"texture file" : "icecastle_floor",
+				"u0" : 250.0,
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"u1" : 0.0,
+					"u2" : 0.0,
+				},
+			},
+		},
+
+		"positionsub-sub-block " :  {
+
+			"x position" : 0.0,
+			"y position" : 0.0,
+		},
+		"z position" : 0.0,
+		"rotation" : 0.0,
+		"scale" : 1.0,
+
+		"u0sub-sub-block " :  {
+
+			"w" : -50.0,
+			"x" : -50.0,
+			"y" : 100.0,
+			"z" : 100.0,
+		},
+		"hidden" : 0,
+	},
+	"u0" : 1.0,
+},
+
+"?itemblock " :  {
+
+
+	"?sub-itemsub-block " :  {
+
+		"name" : "following_platform",
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "MonsterEntity",
+			"number" : 107,
+
+			"entitysub-sub-sub-block " :  {
+
+				"u0" : 1,
+				"u1" : 0,
+			},
+
+			"?monster entitysub-sub-sub-block " :  {
+
+				"u0" : "",
+
+				"lua chunksub-sub-sub-sub-block " :  {
+
+				},
+				"u2" : 1,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "CollisionShape",
+			"number" : 115,
+
+			"collision shapesub-sub-sub-block " :  {
+
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"w" : -50.0,
+					"x" : -20.0,
+					"y" : 100.0,
+					"z" : 40.0,
+				},
+			},
+
+			"collision shape 2sub-sub-sub-block " :  {
+
+				"u0" : 1,
+				"u1" : 1,
+				"w" : -15.0,
+				"x" : 15.0,
+
+				"lua chunksub-sub-sub-sub-block " :  {
+
+					"main chunk" : "chunk >
+
+					=== lua =============
+					local self, collidedObject, collisionNormal, groundCollision = ...;
+					
+					if groundCollision then
+						self:setVelocity(self:velocity() - collisionNormal*(2 * self:velocity():dot(collisionNormal)));
+						if self:velocity():length() < 250 then
+							self:setVelocity(self:velocity():normalized()*250);
+						end
+					end
+
+					=====================",
+					"secondary chunk" : "\\x1bLuaQ\\x00\\x01\\x04\\x04\\x04\\x08\\x00,\\x01\\x00\\x00local self, collidedObject, collisionNormal, groundCollision = ...;\\r\\n\\r\\nif groundCollision then\\r\\n\\tself:setVelocity(self:velocity() - collisionNormal*(2 * self:velocity():dot(collisionNormal)));\\r\\n\\tif self:velocity():length() < 250 then\\r\\n\\t\\tself:setVelocity(self:velocity():normalized()*250);\\r\\n\\tend\\r\\nend\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x02\\n\\x1d\\x00\\x00\\x00%\\x00\\x80\\x02\\xda\\x00\\x00\\x00\\x16\\x00\\x06\\x80\\x0b\\x01@\\x00\\x8bA@\\x00\\x9c\\x81\\x00\\x01\\xcbA@\\x00\\xdc\\x81\\x00\\x01\\xcb\\x81\\xc0\\x03@\\x02\\x00\\x01\\xdc\\x81\\x80\\x01\\xce\\xc1\\x81\\x81\\xce\\xc1\\x01\\x01\\x8d\\xc1\\x01\\x03\\x1cA\\x80\\x01\\x0bA@\\x00\\x1c\\x81\\x00\\x01\\x0b\\x01A\\x02\\x1c\\x81\\x00\\x01\\x18@A\\x02\\x16\\x80\\x01\\x80\\x0b\\x01@\\x00\\x8bA@\\x00\\x9c\\x81\\x00\\x01\\x8b\\x81A\\x03\\x9c\\x81\\x00\\x01\\x8eAA\\x03\\x1cA\\x80\\x01\\x1e\\x00\\x80\\x00\\x07\\x00\\x00\\x00\\x04\\x0c\\x00\\x00\\x00setVelocity\\x00\\x04\\t\\x00\\x00\\x00velocity\\x00\\x04\\x04\\x00\\x00\\x00dot\\x00\\x03\\x00\\x00\\x00\\x00\\x00\\x00\\x00@\\x04\\x07\\x00\\x00\\x00length\\x00\\x03\\x00\\x00\\x00\\x00\\x00@o@\\x04\\x0b\\x00\\x00\\x00normalized\\x00\\x00\\x00\\x00\\x00\\x1d\\x00\\x00\\x00\\x01\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x06\\x00\\x00\\x00\\x06\\x00\\x00\\x00\\x06\\x00\\x00\\x00\\x06\\x00\\x00\\x00\\x06\\x00\\x00\\x00\\x06\\x00\\x00\\x00\\x06\\x00\\x00\\x00\\x08\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x05\\x00\\x00\\x00self\\x00\\x01\\x00\\x00\\x00\\x1c\\x00\\x00\\x00\\x0f\\x00\\x00\\x00collidedObject\\x00\\x01\\x00\\x00\\x00\\x1c\\x00\\x00\\x00\\x10\\x00\\x00\\x00collisionNormal\\x00\\x01\\x00\\x00\\x00\\x1c\\x00\\x00\\x00\\x10\\x00\\x00\\x00groundCollision\\x00\\x01\\x00\\x00\\x00\\x1c\\x00\\x00\\x00\\x00\\x00\\x00\\x00",
+				},
+				"z" : 1,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "EntityController",
+			"number" : 119,
+
+			"entity controllersub-sub-sub-block " :  {
+
+				"entity component" : 107,
+				"animation controller component" : 105,
+				"u2" : 103,
+				"collision shape" : 115,
+				"u4" : 100.0,
+				"u5" : 800.0,
+				"u6" : 1000.0,
+				"u7" : 1,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Program",
+			"number" : 122,
+
+			"programsub-sub-sub-block " :  {
+
+				"u0" : 1,
+
+				"lua chunksub-sub-sub-sub-block " :  {
+
+					"main chunk" : "chunk >
+
+					=== lua =============
+					local self = ...;
+					
+					local targetPosition = self:position();
+					
+					while true do
+						Program.Wait(0.15);
+					
+						local target = EntityController.Target(self);
+					
+						if EntityController.IsIdle(self) then	
+					
+							local delta = targetPosition - self:position();
+					
+							PhysicsObject.SetGravityDirection(self, delta:normalized());
+							PhysicsObject.SetGravityMagnitude(self, 0.5);
+							PhysicsObject.SetDecelerationForce(self, 2);
+					
+							if  target ~= nil then
+								targetPosition = target:position()-Vector3.New(0,60,0);
+							end
+						end
+					end
+
+					=====================",
+					"secondary chunk" : "\\x1bLuaQ\\x00\\x01\\x04\\x04\\x04\\x08\\x00\\x03\\x02\\x00\\x00local self = ...;\\r\\n\\r\\nlocal targetPosition = self:position();\\r\\n\\r\\nwhile true do\\r\\n\\tProgram.Wait(0.15);\\r\\n\\r\\n\\tlocal target = EntityController.Target(self);\\r\\n\\r\\n\\tif EntityController.IsIdle(self) then\\t\\r\\n\\r\\n\\t\\tlocal delta = targetPosition - self:position();\\r\\n\\r\\n\\t\\tPhysicsObject.SetGravityDirection(self, delta:normalized());\\r\\n\\t\\tPhysicsObject.SetGravityMagnitude(self, 0.5);\\r\\n\\t\\tPhysicsObject.SetDecelerationForce(self, 2);\\r\\n\\r\\n\\t\\tif  target ~= nil then\\r\\n\\t\\t\\ttargetPosition = target:position()-Vector3.New(0,60,0);\\r\\n\\t\\tend\\r\\n\\tend\\r\\nend\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x02\\t1\\x00\\x00\\x00%\\x00\\x00\\x01K\\x00@\\x00\\\\\\x80\\x00\\x01\\x85@\\x00\\x00\\x86\\x80@\\x01\\xc1\\xc0\\x00\\x00\\x9c@\\x00\\x01\\x85\\x00\\x01\\x00\\x86@A\\x01\\xc0\\x00\\x00\\x00\\x9c\\x80\\x00\\x01\\xc5\\x00\\x01\\x00\\xc6\\x80\\xc1\\x01\\x00\\x01\\x00\\x00\\xdc\\x80\\x00\\x01\\xda\\x00\\x00\\x00\\x16@\\xfc\\x7f\\xcb\\x00@\\x00\\xdc\\x80\\x00\\x01\\xcd\\xc0\\x80\\x00\\x05\\xc1\\x01\\x00\\x06\\x01B\\x02@\\x01\\x00\\x00\\x8bA\\xc2\\x01\\x9c\\x01\\x00\\x01\\x1cA\\x00\\x00\\x05\\xc1\\x01\\x00\\x06\\x81B\\x02@\\x01\\x00\\x00\\x81\\xc1\\x02\\x00\\x1cA\\x80\\x01\\x05\\xc1\\x01\\x00\\x06\\x01C\\x02@\\x01\\x00\\x00\\x81A\\x03\\x00\\x1cA\\x80\\x01W\\x80C\\x01\\x16\\x00\\xf7\\x7f\\x0b\\x01@\\x01\\x1c\\x81\\x00\\x01E\\xc1\\x03\\x00F\\x01\\xc4\\x02\\x81A\\x04\\x00\\xc1\\x81\\x04\\x00\\x01B\\x04\\x00\\\\\\x81\\x00\\x02M@\\x01\\x02\\x16\\x80\\xf4\\x7f\\x1e\\x00\\x80\\x00\\x13\\x00\\x00\\x00\\x04\\t\\x00\\x00\\x00position\\x00\\x04\\x08\\x00\\x00\\x00Program\\x00\\x04\\x05\\x00\\x00\\x00Wait\\x00\\x03333333\\xc3?\\x04\\x11\\x00\\x00\\x00EntityController\\x00\\x04\\x07\\x00\\x00\\x00Target\\x00\\x04\\x07\\x00\\x00\\x00IsIdle\\x00\\x04\\x0e\\x00\\x00\\x00PhysicsObject\\x00\\x04\\x14\\x00\\x00\\x00SetGravityDirection\\x00\\x04\\x0b\\x00\\x00\\x00normalized\\x00\\x04\\x14\\x00\\x00\\x00SetGravityMagnitude\\x00\\x03\\x00\\x00\\x00\\x00\\x00\\x00\\xe0?\\x04\\x15\\x00\\x00\\x00SetDecelerationForce\\x00\\x03\\x00\\x00\\x00\\x00\\x00\\x00\\x00@\\x00\\x04\\x08\\x00\\x00\\x00Vector3\\x00\\x04\\x04\\x00\\x00\\x00New\\x00\\x03\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x00\\x00\\x00N@\\x00\\x00\\x00\\x001\\x00\\x00\\x00\\x01\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x06\\x00\\x00\\x00\\x06\\x00\\x00\\x00\\x06\\x00\\x00\\x00\\x06\\x00\\x00\\x00\\x08\\x00\\x00\\x00\\x08\\x00\\x00\\x00\\x08\\x00\\x00\\x00\\x08\\x00\\x00\\x00\\n\\x00\\x00\\x00\\n\\x00\\x00\\x00\\n\\x00\\x00\\x00\\n\\x00\\x00\\x00\\n\\x00\\x00\\x00\\n\\x00\\x00\\x00\\x0c\\x00\\x00\\x00\\x0c\\x00\\x00\\x00\\x0c\\x00\\x00\\x00\\x0e\\x00\\x00\\x00\\x0e\\x00\\x00\\x00\\x0e\\x00\\x00\\x00\\x0e\\x00\\x00\\x00\\x0e\\x00\\x00\\x00\\x0e\\x00\\x00\\x00\\x0f\\x00\\x00\\x00\\x0f\\x00\\x00\\x00\\x0f\\x00\\x00\\x00\\x0f\\x00\\x00\\x00\\x0f\\x00\\x00\\x00\\x10\\x00\\x00\\x00\\x10\\x00\\x00\\x00\\x10\\x00\\x00\\x00\\x10\\x00\\x00\\x00\\x10\\x00\\x00\\x00\\x12\\x00\\x00\\x00\\x12\\x00\\x00\\x00\\x13\\x00\\x00\\x00\\x13\\x00\\x00\\x00\\x13\\x00\\x00\\x00\\x13\\x00\\x00\\x00\\x13\\x00\\x00\\x00\\x13\\x00\\x00\\x00\\x13\\x00\\x00\\x00\\x13\\x00\\x00\\x00\\x13\\x00\\x00\\x00\\x15\\x00\\x00\\x00\\x16\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x05\\x00\\x00\\x00self\\x00\\x01\\x00\\x00\\x000\\x00\\x00\\x00\\x0f\\x00\\x00\\x00targetPosition\\x00\\x03\\x00\\x00\\x000\\x00\\x00\\x00\\x07\\x00\\x00\\x00target\\x00\\x0b\\x00\\x00\\x00/\\x00\\x00\\x00\\x06\\x00\\x00\\x00delta\\x00\\x14\\x00\\x00\\x00/\\x00\\x00\\x00\\x00\\x00\\x00\\x00",
+				},
+				"u1" : 1,
+				"u2" : 1,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "PhysicsObject",
+			"number" : 125,
+
+			"physics objectsub-sub-sub-block " :  {
+
+				"u0" : 1,
+				"u2" : 1.2000000476837158,
+				"u3" : 1500.0,
+				"u4" : 0.0,
+				"u5" : 700.0,
+				"u6" : 0,
+				"u7" : 0.0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "SimpleGlow",
+			"number" : 132,
+
+			"simple glowsub-sub-sub-block " :  {
+
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"w" : 0.5,
+					"x" : 0.5,
+					"y" : 0.5,
+					"z" : 0.5,
+				},
+				"u1" : 50.0,
+				"u2" : 10,
+				"u3" : 15.0,
+				"u4" : 0.15000000596046448,
+				"u5" : 0.800000011920929,
+
+				"u6sub-sub-sub-sub-block " :  {
+
+					"y" : 0.0,
+					"z" : -17.0,
+				},
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "ParticleEmitter",
+			"number" : 133,
+
+			"particle emittersub-sub-sub-block " :  {
+
+				"particle" : 134,
+				"particle" : 135,
+				"particle" : 136,
+				"u1" : 0,
+				"u2" : 30,
+				"u3" : 0,
+				"u4" : 0,
+
+				"u5sub-sub-sub-sub-block " :  {
+
+					"u0" : 5,
+
+					"u1sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 0.17777779698371887,
+						"x" : 0.17777779698371887,
+						"y" : 0.46666666865348816,
+						"z" : 0.0,
+					},
+					"u2" : 270.0,
+					"u2" : 90.0,
+					"u2" : 0.0,
+					"u2" : 0.0,
+					"u2" : 0.0,
+					"u2" : 300.0,
+					"u2" : 0.20000000298023224,
+					"u2" : 0.0,
+					"u2" : 1.0,
+					"u2" : 0.5,
+					"u2" : 1.0,
+					"u2" : 0.029999999329447746,
+					"u2" : 0.30000001192092896,
+					"u2" : 0.20000000298023224,
+					"u2" : 0.0,
+					"u3" : 0.0,
+					"u4" : 0.0,
+					"u5" : 0.0,
+
+					"u6sub-sub-sub-sub-sub-block " :  {
+
+						"u0" : 0.0,
+						"u1" : 0.0,
+						"u2" : 0.0,
+					},
+				},
+				"u6" : 0,
+
+				"u7sub-sub-sub-sub-block " :  {
+
+					"u0" : 0.0,
+					"u1" : 800.0,
+					"u2" : 0.0,
+				},
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Particle",
+			"number" : 134,
+
+			"particlesub-sub-sub-block " :  {
+
+				"name" : "particle_fure_1",
+				"u0" : 40.0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Particle",
+			"number" : 135,
+
+			"particlesub-sub-sub-block " :  {
+
+				"name" : "particle_fure_2",
+				"u0" : 30.0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Particle",
+			"number" : 136,
+
+			"particlesub-sub-sub-block " :  {
+
+				"name" : "particle_fure_3",
+				"u0" : 20.0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "GroundPolygon",
+			"number" : 140,
+
+			"ground polygonsub-sub-sub-block " :  {
+
+
+				"sub-sub-sub-sub-block " :  {
+
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"x" : -44.8939208984375,
+						"y" : -19.21640396118164,
+					},
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"x" : 43.270263671875,
+						"y" : -19.20798110961914,
+					},
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"x" : 48.88772201538086,
+						"y" : 19.216402053833008,
+					},
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"x" : -48.887725830078125,
+						"y" : 19.041810989379883,
+					},
+					"u0" : 0,
+					"u1" : 1,
+				},
+				"u1" : 0,
+				"u2" : -55.0,
+				"u3" : 55.0,
+				"u4" : "",
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "GroundMesh",
+			"number" : 142,
+
+			"ground meshsub-sub-sub-block " :  {
+
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"w" : -58.887725830078125,
+					"x" : -29.21640396118164,
+					"y" : 117.77545166015625,
+					"z" : 58.43280792236328,
+				},
+
+				"u1sub-sub-sub-sub-block " :  {
+
+					"u0" : 20,
+					"u1" : 14,
+
+					"u2sub-sub-sub-sub-sub-block " :  {
+
+						"u0" : 4,
+						"u1" : 1,
+						"u2" : 2,
+						"u3" : 0,
+					},
+
+					"u3sub-sub-sub-sub-sub-block " :  {
+
+						"u0" : 7,
+						"u1" : 3,
+						"u2" : 32,
+						"u3" : 0,
+					},
+
+					"u4sub-sub-sub-sub-sub-block " :  {
+
+						"u0" : 7,
+						"u1" : 3,
+						"u2" : 32,
+						"u3" : 12,
+					},
+
+					"u5sub-sub-sub-sub-sub-block " :  {
+
+						"u0" : 7,
+						"u1" : 2,
+						"u2" : 32,
+						"u3" : 24,
+					},
+
+					"u6sub-sub-sub-sub-sub-block " :  {
+
+
+						"u0sub-sub-sub-sub-sub-sub-block " :  {
+
+							"w" : 1.0,
+							"x" : 1.0,
+							"y" : 1.0,
+							"z" : 1.0,
+						},
+
+						"u1sub-sub-sub-sub-sub-sub-block " :  {
+
+							"w" : 1.0,
+							"x" : 1.0,
+							"y" : 1.0,
+							"z" : 1.0,
+						},
+
+						"u2sub-sub-sub-sub-sub-sub-block " :  {
+
+							"w" : 1.0,
+							"x" : 1.0,
+							"y" : 1.0,
+							"z" : 1.0,
+						},
+						"u3" : 0.0,
+						"u4" : "\\n\\x0ficecastle_floor\\x10\\x01 \\x01",
+					},
+
+					"u7sub-sub-sub-sub-sub-block " :  {
+
+						"u" : -51.88772201538086,
+						"v" : -5.9635467529296875,
+						"w" : -60.0,
+						"x" : 103.77543640136719,
+						"y" : 25.185306549072266,
+						"z" : 120.0,
+					},
+					"u8" : "\\x06\\x8dOB*\\xc6\\x99A\\x00\\x00\\\\\\xc2\\xcf\\x0b\\xea\\xba\\xe6\\xff\\x7f?\\x00\\x00\\x00\\x00\\x00\\x00\\x00?)\\\\\\x8f>\\x06\\x8dOB*\\xc6\\x99A\\x00\\x00\\\\B\\xcf\\x0b\\xea\\xba\\xe6\\xff\\x7f?\\x00\\x00\\x00\\x00\\x00\\x00\\x00?\\xecQ8?\\x06\\x8dOBT\\x8c\\x13A\\x00\\x00pB\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\x1f\\x85\\xeb>\\xa4p=?\\x06\\x8dOBX\\xe7\\xb8\\xc0ff\\\\B\\xcf\\x0b\\xea:\\xe6\\xff\\x7f\\xbf\\x00\\x00\\x00\\x80\\xcd\\xcc\\xcc>\"l8?\\x06\\x8dOBX\\xe7\\xb8\\xc0\\x9a\\x99[\\xc2\\xcf\\x0b\\xea:\\xe6\\xff\\x7f\\xbf\\x00\\x00\\x00\\x80\\xcd\\xcc\\xcc>\\x97\\x90\\x8f>\\x06\\x8dOBT\\x8c\\x13A\\x00\\x00p\\xc2\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\x1f\\x85\\xeb>\\xb8\\x1e\\x85>\\x06\\x8dOB*\\xc6\\x99A\\x00\\x00\\\\\\xc2\\xcf\\x0b\\xea\\xba\\xe6\\xff\\x7f?\\x00\\x00\\x00\\x00\\x00\\x00\\x00?)\\\\\\x8f>\\x06\\x8dOB*\\xc6\\x99A\\x00\\x00\\\\B\\xcf\\x0b\\xea\\xba\\xe6\\xff\\x7f?\\x00\\x00\\x00\\x00\\x00\\x00\\x00?\\xecQ8?\\x06\\x8dOBT\\x8c\\x13A\\x00\\x00pB\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\x00\\x00\\x00?\\xc8\\xc4C?\\x06\\x8dOBX\\xe7\\xb8\\xc0ff\\\\B\\xcf\\x0b\\xea:\\xe6\\xff\\x7f\\xbf\\x00\\x00\\x00\\x80\\x00\\x00\\x00?m\\xedS?\\x07\\x8dO\\xc2\\xa8J\\x98A\\x00\\x00\\\\\\xc2\\xcf\\x0b\\xea\\xba\\xe6\\xff\\x7f?\\x00\\x00\\x00\\x00J\\x1fd?)\\\\\\x8f>\\x07\\x8dO\\xc2\\xa8J\\x98A\\x00\\x00\\\\B\\xcf\\x0b\\xea\\xba\\xe6\\xff\\x7f?\\x00\\x00\\x00\\x00J\\x1fd?\\xecQ8?\\x07\\x8dO\\xc2P\\x95\\x10A\\x00\\x00pB\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?J\\x1fd?\\xc8\\xc4C?\\x07\\x8dO\\xc2`\\xd5\\xbe\\xc0ff\\\\B\\xcf\\x0b\\xea:\\xe6\\xff\\x7f\\xbf\\x00\\x00\\x00\\x80J\\x1fd?m\\xedS?\\x07\\x8dO\\xc2\\xa8J\\x98A\\x00\\x00\\\\\\xc2\\xcf\\x0b\\xea\\xba\\xe6\\xff\\x7f?\\x00\\x00\\x00\\x00J\\x1fd?)\\\\\\x8f>\\x07\\x8dO\\xc2\\xa8J\\x98A\\x00\\x00\\\\B\\xcf\\x0b\\xea\\xba\\xe6\\xff\\x7f?\\x00\\x00\\x00\\x00J\\x1fd?\\xecQ8?\\x07\\x8dO\\xc2P\\x95\\x10A\\x00\\x00pB\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xba\\\\n?\\xa4p=?\\x07\\x8dO\\xc2`\\xd5\\xbe\\xc0ff\\\\B\\xcf\\x0b\\xea:\\xe6\\xff\\x7f\\xbf\\x00\\x00\\x00\\x80\\xe3\\xb8}?\"l8?\\x07\\x8dO\\xc2`\\xd5\\xbe\\xc0\\x9a\\x99[\\xc2\\xcf\\x0b\\xea:\\xe6\\xff\\x7f\\xbf\\x00\\x00\\x00\\x80\\xe3\\xb8}?\\x97\\x90\\x8f>\\x07\\x8dO\\xc2P\\x95\\x10A\\x00\\x00p\\xc2\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xba\\\\n?\\xb8\\x1e\\x85>",
+					"u9" : "\\x00\\x00\\x04\\x00\\x05\\x00\\x00\\x00\\x03\\x00\\x04\\x00\\x00\\x00\\x01\\x00\\x03\\x00\\x01\\x00\\x02\\x00\\x03\\x00\\x06\\x00\\n\\x00\\x0b\\x00\\x07\\x00\\x06\\x00\\x0b\\x00\\x07\\x00\\x0b\\x00\\x0c\\x00\\x08\\x00\\x07\\x00\\x0c\\x00\\x08\\x00\\x0c\\x00\\r\\x00\\t\\x00\\x08\\x00\\r\\x00\\x0e\\x00\\x13\\x00\\x12\\x00\\x0e\\x00\\x12\\x00\\x11\\x00\\x0e\\x00\\x11\\x00\\x0f\\x00\\x11\\x00\\x10\\x00\\x0f\\x00",
+				},
+
+				"u1sub-sub-sub-sub-block " :  {
+
+					"u0" : 8,
+					"u1" : 6,
+
+					"u2sub-sub-sub-sub-sub-block " :  {
+
+						"u0" : 4,
+						"u1" : 1,
+						"u2" : 2,
+						"u3" : 0,
+					},
+
+					"u3sub-sub-sub-sub-sub-block " :  {
+
+						"u0" : 7,
+						"u1" : 3,
+						"u2" : 32,
+						"u3" : 0,
+					},
+
+					"u4sub-sub-sub-sub-sub-block " :  {
+
+						"u0" : 7,
+						"u1" : 3,
+						"u2" : 32,
+						"u3" : 12,
+					},
+
+					"u5sub-sub-sub-sub-sub-block " :  {
+
+						"u0" : 7,
+						"u1" : 2,
+						"u2" : 32,
+						"u3" : 24,
+					},
+
+					"u6sub-sub-sub-sub-sub-block " :  {
+
+
+						"u0sub-sub-sub-sub-sub-sub-block " :  {
+
+							"w" : 1.0,
+							"x" : 1.0,
+							"y" : 1.0,
+							"z" : 1.0,
+						},
+
+						"u1sub-sub-sub-sub-sub-sub-block " :  {
+
+							"w" : 1.0,
+							"x" : 1.0,
+							"y" : 1.0,
+							"z" : 1.0,
+						},
+
+						"u2sub-sub-sub-sub-sub-sub-block " :  {
+
+							"w" : 1.0,
+							"x" : 1.0,
+							"y" : 1.0,
+							"z" : 1.0,
+						},
+						"u3" : 0.0,
+						"u4" : "\\n\\x10icecastle_ground\\x10\\x01 \\x01",
+					},
+
+					"u7sub-sub-sub-sub-sub-block " :  {
+
+						"u" : -48.887725830078125,
+						"v" : -19.21640396118164,
+						"w" : -50.0,
+						"x" : 97.77545166015625,
+						"y" : 38.43280792236328,
+						"z" : 100.0,
+					},
+					"u8" : "\\x08\\x8dC\\xc2\\xa1U\\x98A\\x00\\x00H\\xc2\\xce\\x9d~\\xbf\\t\\xa3\\xd4\\xbd\\x00\\x00\\x00\\x00\\x00\\x00\\x00?\\x9a\\x99\\x99>\\x08\\x8dC\\xc2\\xa1U\\x98A\\x00\\x00HB\\xce\\x9d~\\xbf\\t\\xa3\\xd4\\xbd\\x00\\x00\\x00\\x00\\x00\\x00\\x00?333?`\\x933\\xc22\\xbb\\x99\\xc1\\x00\\x00H\\xc2\\x14E\\xc4\\xbe\\x8cql\\xbf\\x00\\x00\\x00\\x00\\xa9c\'?\\x9a\\x99\\x99>`\\x933\\xc22\\xbb\\x99\\xc1\\x00\\x00HB\\x14E\\xc4\\xbe\\x8cql\\xbf\\x00\\x00\\x00\\x00\\xa9c\'?333?\\xc0\\x14-B\\xf2\\xa9\\x99\\xc1\\x00\\x00H\\xc2\\x08\'\\xc2>Q\\xe1l\\xbf\\x00\\x00\\x00\\x00\\xb0\\xd5\\x80?\\x9a\\x99\\x99>\\xc0\\x14-B\\xf2\\xa9\\x99\\xc1\\x00\\x00HB\\x08\'\\xc2>Q\\xe1l\\xbf\\x00\\x00\\x00\\x00\\xb0\\xd5\\x80?333?\\x07\\x8dCB1\\xbb\\x99A\\x00\\x00H\\xc2\\xaeN}?\\x14!\\x14\\xbe\\x00\\x00\\x00\\x00\\x96\\xb7\\x94?\\x9a\\x99\\x99>\\x07\\x8dCB1\\xbb\\x99A\\x00\\x00HB\\xaeN}?\\x14!\\x14\\xbe\\x00\\x00\\x00\\x00\\x96\\xb7\\x94?333?",
+					"u9" : "\\x00\\x00\\x02\\x00\\x03\\x00\\x01\\x00\\x00\\x00\\x03\\x00\\x02\\x00\\x04\\x00\\x05\\x00\\x03\\x00\\x02\\x00\\x05\\x00\\x04\\x00\\x06\\x00\\x07\\x00\\x05\\x00\\x04\\x00\\x07\\x00",
+				},
+
+				"u2sub-sub-sub-sub-block " :  {
+
+					"u0" : 6,
+					"u1" : 2,
+
+					"u2sub-sub-sub-sub-sub-block " :  {
+
+						"u0" : 7,
+						"u1" : 3,
+						"u2" : 32,
+						"u3" : 0,
+					},
+
+					"u3sub-sub-sub-sub-sub-block " :  {
+
+						"u0" : 7,
+						"u1" : 3,
+						"u2" : 32,
+						"u3" : 12,
+					},
+
+					"u4sub-sub-sub-sub-sub-block " :  {
+
+						"u0" : 7,
+						"u1" : 2,
+						"u2" : 32,
+						"u3" : 24,
+					},
+
+					"u5sub-sub-sub-sub-sub-block " :  {
+
+
+						"u0sub-sub-sub-sub-sub-sub-block " :  {
+
+							"w" : 1.0,
+							"x" : 1.0,
+							"y" : 1.0,
+							"z" : 1.0,
+						},
+
+						"u1sub-sub-sub-sub-sub-sub-block " :  {
+
+							"w" : 1.0,
+							"x" : 1.0,
+							"y" : 1.0,
+							"z" : 1.0,
+						},
+
+						"u2sub-sub-sub-sub-sub-sub-block " :  {
+
+							"w" : 1.0,
+							"x" : 1.0,
+							"y" : 1.0,
+							"z" : 1.0,
+						},
+						"u3" : 0.0,
+
+						"u4sub-sub-sub-sub-sub-sub-block " :  {
+
+							"u0" : "icecastle_ground",
+							"u1" : 1,
+							"u2" : 1,
+						},
+					},
+
+					"u3sub-sub-sub-sub-sub-block " :  {
+
+						"u" : -48.887725830078125,
+						"v" : -19.21640396118164,
+						"w" : 50.0,
+						"x" : 97.77545166015625,
+						"y" : 38.43280792236328,
+						"z" : 0.0,
+					},
+					"u7" : "\\x08\\x8dC\\xc2\\xa1U\\x98A\\x00\\x00HB\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xc1\\xe0\\x9b>\\xb2\\x7f\\x13?`\\x933\\xc22\\xbb\\x99\\xc1\\x00\\x00HB\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xa8\\x0e\\xa4>\\x12\\xa5\\xd8>\\xc0\\x14-B\\xf2\\xa9\\x99\\xc1\\x00\\x00HB\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\nO,?|\\xa9\\xd8>\\x08\\x8dC\\xc2\\xa1U\\x98A\\x00\\x00HB\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xc1\\xe0\\x9b>\\xb2\\x7f\\x13?\\xc0\\x14-B\\xf2\\xa9\\x99\\xc1\\x00\\x00HB\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\nO,?|\\xa9\\xd8>\\x07\\x8dCB1\\xbb\\x99A\\x00\\x00HB\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\x9f\\x0f2?w\\xad\\x13?",
+				},
+
+				"u3sub-sub-sub-sub-block " :  {
+
+					"w" : 1.0,
+					"x" : 1.0,
+					"y" : 1.0,
+					"z" : 1.0,
+				},
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "GroundMeshGenerator",
+			"number" : 143,
+
+			"ground mesh generatorsub-sub-sub-block " :  {
+
+				"ground polygon" : 140,
+				"ground mesh" : 142,
+				"texture mapping 1" : 144,
+				"texture mapping 2" : 145,
+				"u4" : 0,
+				"u5" : 0.0,
+				"u6" : 1,
+				"u7" : 100.0,
+				"u8" : 25.0,
+				"u9" : 5.0,
+				"u10" : 5.0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "TextureMapping",
+			"number" : 144,
+
+			"texture mappingsub-sub-sub-block " :  {
+
+				"texture file" : "icecastle_ground",
+				"u0" : 250.0,
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"u1" : 0.0,
+					"u2" : 0.0,
+				},
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "TextureMapping",
+			"number" : 145,
+
+			"texture mappingsub-sub-sub-block " :  {
+
+				"texture file" : "icecastle_floor",
+				"u0" : 250.0,
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"u1" : 0.0,
+					"u2" : 0.0,
+				},
+			},
+		},
+
+		"positionsub-sub-block " :  {
+
+			"x position" : 0.0,
+			"y position" : 0.0,
+		},
+		"z position" : 0.0,
+		"rotation" : 0.0,
+		"scale" : 1.0,
+
+		"u0sub-sub-block " :  {
+
+			"w" : -50.0,
+			"x" : -50.0,
+			"y" : 100.0,
+			"z" : 100.0,
+		},
+		"hidden" : 0,
+	},
+	"u0" : 1.0,
+},
+
+}

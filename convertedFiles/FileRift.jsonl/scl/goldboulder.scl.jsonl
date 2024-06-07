@@ -1,0 +1,377 @@
+data = {
+"scl file name" : "goldboulder",
+
+"?itemblock " :  {
+
+
+	"?sub-itemsub-block " :  {
+
+		"name" : "goldboulder",
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "CollisionShape",
+			"number" : 1,
+
+			"collision shapesub-sub-sub-block " :  {
+
+
+				"u1sub-sub-sub-sub-block " :  {
+
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"y" : 0.0,
+						"z" : 0.0,
+					},
+					"u1" : 27.0,
+				},
+			},
+
+			"collision shape 2sub-sub-sub-block " :  {
+
+				"u0" : 1,
+				"u1" : 1,
+				"u3" : 1,
+				"w" : -15.0,
+				"x" : 15.0,
+
+				"lua chunksub-sub-sub-sub-block " :  {
+
+					"main chunk" : "chunk >
+
+					=== lua =============
+					
+					
+
+					=====================",
+					"secondary chunk" : "\\x1bLuaQ\\x00\\x01\\x04\\x04\\x04\\x08\\x00\\x03\\x00\\x00\\x00\\r\\n\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x02\\x02\\x01\\x00\\x00\\x00\\x1e\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x01\\x00\\x00\\x00\\x01\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00",
+				},
+				"z" : 1,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "TransformController",
+			"number" : 2,
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "PhysicsObject",
+			"number" : 3,
+
+			"physics objectsub-sub-sub-block " :  {
+
+				"u0" : 1,
+				"u3" : 80.0,
+				"u4" : 0.0,
+				"u5" : 500.0,
+				"u6" : 1,
+				"u7" : 0.30000001192092896,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Properties",
+			"number" : 4,
+
+			"propertiessub-sub-sub-block " :  {
+
+				"u0" : "\\nFlocal self = ...;\\r\\n\\r\\nGame.Flash();\\r\\n                                  \\x12\\x86\\x02\\x1bLuaQ\\x00\\x01\\x04\\x04\\x04\\x08\\x00G\\x00\\x00\\x00local self = ...;\\r\\n\\r\\nProperties.SetProperty(self, \"questitem\", \"true\")\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x02\\x05\\x08\\x00\\x00\\x00%\\x00\\x00\\x01E\\x00\\x00\\x00F@\\xc0\\x00\\x80\\x00\\x00\\x00\\xc1\\x80\\x00\\x00\\x01\\xc1\\x00\\x00\\\\@\\x00\\x02\\x1e\\x00\\x80\\x00\\x04\\x00\\x00\\x00\\x04\\x0b\\x00\\x00\\x00Properties\\x00\\x04\\x0c\\x00\\x00\\x00SetProperty\\x00\\x04\\n\\x00\\x00\\x00questitem\\x00\\x04\\x05\\x00\\x00\\x00true\\x00\\x00\\x00\\x00\\x00\\x08\\x00\\x00\\x00\\x01\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x01\\x00\\x00\\x00\\x05\\x00\\x00\\x00self\\x00\\x01\\x00\\x00\\x00\\x07\\x00\\x00\\x00\\x00\\x00\\x00\\x00",
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Light",
+			"number" : 5,
+
+			"lightsub-sub-sub-block " :  {
+
+				"u0" : 3,
+				"u1" : 1.5,
+
+				"u2sub-sub-sub-sub-block " :  {
+
+					"w" : 0.5444444417953491,
+					"x" : 0.36666667461395264,
+					"y" : 0.2222222238779068,
+					"z" : 1.0,
+				},
+				"u3" : 0.0,
+				"u4" : 0.00019999999494757503,
+
+				"u5sub-sub-sub-sub-block " :  {
+
+					"x" : 0.0,
+					"y" : 0.0,
+					"z" : 0.0,
+				},
+				"u6" : 200.0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "ParticleEmitter",
+			"number" : 6,
+
+			"particle emittersub-sub-sub-block " :  {
+
+				"particle" : 7,
+				"particle" : 8,
+				"particle" : 9,
+				"u1" : 0,
+				"u2" : 60,
+				"u3" : 0,
+				"u4" : 0,
+				"u6" : 0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Particle",
+			"number" : 7,
+
+			"particlesub-sub-sub-block " :  {
+
+				"name" : "particle_fure_1",
+				"u0" : 20.0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Particle",
+			"number" : 8,
+
+			"particlesub-sub-sub-block " :  {
+
+				"name" : "particle_fure_2",
+				"u0" : 23.0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Particle",
+			"number" : 9,
+
+			"particlesub-sub-sub-block " :  {
+
+				"name" : "particle_fure_3",
+				"u0" : 17.0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "FireEmitter",
+			"number" : 10,
+
+			"fire emittersub-sub-sub-block " :  {
+
+				"temp0" : 6,
+				"temp1" : 5,
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"w" : 0.7444444298744202,
+					"x" : 0.7355555295944214,
+					"y" : 0.7222222089767456,
+					"z" : 0.0,
+				},
+				"u1" : 0.019999999552965164,
+				"u2" : 0.30000001192092896,
+
+				"u3sub-sub-sub-sub-block " :  {
+
+					"x" : 20.0,
+					"y" : 20.0,
+					"z" : 20.0,
+				},
+
+				"u4sub-sub-sub-sub-block " :  {
+
+					"x" : 0.0,
+					"y" : 0.0,
+					"z" : 0.0,
+				},
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "SimpleGlow",
+			"number" : 11,
+
+			"simple glowsub-sub-sub-block " :  {
+
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"w" : 0.6222222447395325,
+					"x" : 0.5555555820465088,
+					"y" : 0.23333337903022766,
+					"z" : 0.5,
+				},
+				"u1" : 50.0,
+				"u2" : 10,
+				"u3" : 15.0,
+				"u4" : 0.0,
+				"u5" : 0.800000011920929,
+
+				"u6sub-sub-sub-sub-block " :  {
+
+					"y" : 0.0,
+					"z" : 0.0,
+				},
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Model",
+			"number" : 101,
+
+			"3D modelsub-sub-sub-block " :  {
+
+				"name" : "ballofgold",
+				"u0" : 0.0,
+				"u1" : 1.0,
+				"u2" : 0.0,
+
+				"u3sub-sub-sub-sub-block " :  {
+
+					"w" : 0.7843137383460999,
+					"x" : 0.8117647171020508,
+					"y" : 0.9098039269447327,
+					"z" : 1.0,
+				},
+
+				"u4sub-sub-sub-sub-block " :  {
+
+					"x" : 0.0,
+					"y" : 0.0,
+					"z" : 0.0,
+				},
+				"u5" : 0,
+
+				"u6sub-sub-sub-sub-block " :  {
+
+					"w" : 1.0,
+					"x" : 1.0,
+					"y" : 1.0,
+					"z" : 1.0,
+				},
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "CollisionShape",
+			"number" : 105,
+
+			"collision shapesub-sub-sub-block " :  {
+
+
+				"u1sub-sub-sub-sub-block " :  {
+
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"y" : 0.0,
+						"z" : 0.0,
+					},
+					"u1" : 40.0,
+				},
+			},
+
+			"collision shape 2sub-sub-sub-block " :  {
+
+				"w" : -15.0,
+				"x" : 15.0,
+				"y" : 1,
+				"z" : 1,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Damage",
+			"number" : 110,
+
+			"damagesub-sub-sub-block " :  {
+
+				"u0" : 100,
+				"u1" : 1,
+				"u2" : 0,
+				"u3" : 1,
+				"u4" : 150,
+				"u5" : 1.0,
+				"u6" : 0.0,
+				"u7" : 0,
+				"u8" : 1,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Program",
+			"number" : 121,
+
+			"programsub-sub-sub-block " :  {
+
+				"u0" : 1,
+
+				"lua chunksub-sub-sub-sub-block " :  {
+
+					"main chunk" : "chunk >
+
+					=== lua =============
+					local self = ...;
+					
+					while true do
+						Program.Wait(0.2);
+					
+						if self:velocity():length() > 250 then
+							Damage.SetActive(self, true);
+						else
+							Damage.SetActive(self, false);
+						end
+					end
+
+					=====================",
+					"secondary chunk" : "\\x1bLuaQ\\x00\\x01\\x04\\x04\\x04\\x08\\x00\\xb8\\x00\\x00\\x00local self = ...;\\r\\n\\r\\nwhile true do\\r\\n\\tProgram.Wait(0.2);\\r\\n\\r\\n\\tif self:velocity():length() > 250 then\\r\\n\\t\\tDamage.SetActive(self, true);\\r\\n\\telse\\r\\n\\t\\tDamage.SetActive(self, false);\\r\\n\\tend\\r\\nend\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x02\\x04\\x18\\x00\\x00\\x00%\\x00\\x00\\x01E\\x00\\x00\\x00F@\\xc0\\x00\\x81\\x80\\x00\\x00\\\\@\\x00\\x01K\\xc0@\\x00\\\\\\x80\\x00\\x01K\\x00\\xc1\\x00\\\\\\x80\\x00\\x01\\x18@\\x80\\x82\\x16@\\x01\\x80E\\x80\\x01\\x00F\\xc0\\xc1\\x00\\x80\\x00\\x00\\x00\\xc2\\x00\\x80\\x00\\\\@\\x80\\x01\\x16\\xc0\\xfb\\x7fE\\x80\\x01\\x00F\\xc0\\xc1\\x00\\x80\\x00\\x00\\x00\\xc2\\x00\\x00\\x00\\\\@\\x80\\x01\\x16@\\xfa\\x7f\\x1e\\x00\\x80\\x00\\x08\\x00\\x00\\x00\\x04\\x08\\x00\\x00\\x00Program\\x00\\x04\\x05\\x00\\x00\\x00Wait\\x00\\x03\\x9a\\x99\\x99\\x99\\x99\\x99\\xc9?\\x04\\t\\x00\\x00\\x00velocity\\x00\\x04\\x07\\x00\\x00\\x00length\\x00\\x03\\x00\\x00\\x00\\x00\\x00@o@\\x04\\x07\\x00\\x00\\x00Damage\\x00\\x04\\n\\x00\\x00\\x00SetActive\\x00\\x00\\x00\\x00\\x00\\x18\\x00\\x00\\x00\\x01\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x06\\x00\\x00\\x00\\x06\\x00\\x00\\x00\\x06\\x00\\x00\\x00\\x06\\x00\\x00\\x00\\x06\\x00\\x00\\x00\\x06\\x00\\x00\\x00\\x07\\x00\\x00\\x00\\x07\\x00\\x00\\x00\\x07\\x00\\x00\\x00\\x07\\x00\\x00\\x00\\x07\\x00\\x00\\x00\\x07\\x00\\x00\\x00\\t\\x00\\x00\\x00\\t\\x00\\x00\\x00\\t\\x00\\x00\\x00\\t\\x00\\x00\\x00\\t\\x00\\x00\\x00\\n\\x00\\x00\\x00\\x0b\\x00\\x00\\x00\\x01\\x00\\x00\\x00\\x05\\x00\\x00\\x00self\\x00\\x01\\x00\\x00\\x00\\x17\\x00\\x00\\x00\\x00\\x00\\x00\\x00",
+				},
+				"u1" : 1,
+				"u2" : 1,
+			},
+		},
+
+		"positionsub-sub-block " :  {
+
+			"x position" : 0.0,
+			"y position" : 0.0,
+		},
+		"z position" : 0.0,
+		"rotation" : 0.0,
+		"scale" : 1.0,
+
+		"u0sub-sub-block " :  {
+
+			"w" : -50.0,
+			"x" : -50.0,
+			"y" : 100.0,
+			"z" : 100.0,
+		},
+		"hidden" : 0,
+	},
+	"u0" : 1.0,
+},
+
+}

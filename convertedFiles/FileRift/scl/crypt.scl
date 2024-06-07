@@ -1,0 +1,443 @@
+scl file name : crypt (0a @ 1)
+
+?item block { (12 @ 8)
+
+
+    ?sub-item sub-block { (0a @ b)
+
+        name : crypt_torch (12 @ e)
+
+        component sub-sub-block { (1a @ 1b)
+
+            component type : Model (0a @ 1d)
+            number : 1(10 @ 24)
+
+            3D model sub-sub-sub-block { (32a @ 27)
+
+                name : torch (0a @ 29)
+                u0 : 0.0 (15 @ 30)
+                u1 : 0.0 (1d @ 35)
+                u2 : 0.0 (25 @ 3a)
+
+                u3 sub-sub-sub-sub-block { (2a @ 3f)
+
+                    w : 0.0 (0d @ 41)
+                    x : 0.0 (15 @ 46)
+                    y : 0.0 (1d @ 4b)
+                    z : 1.0 (25 @ 50)
+				}
+
+                u4 sub-sub-sub-sub-block { (32 @ 55)
+
+                    x : 0.0 (0d @ 57)
+                    y : 0.0 (15 @ 5c)
+                    z : 0.0 (1d @ 61)
+				}
+                u5 : 0(38 @ 66)
+
+                u6 sub-sub-sub-sub-block { (42 @ 68)
+
+                    w : 1.0 (0d @ 6a)
+                    x : 1.0 (15 @ 6f)
+                    y : 1.0 (1d @ 74)
+                    z : 1.0 (25 @ 79)
+				}
+			}
+		}
+
+        component sub-sub-block { (1a @ 7e)
+
+            component type : SimpleGlow (0a @ 80)
+            number : 2(10 @ 8c)
+
+            simple glow sub-sub-sub-block { (7f2 @ 8f)
+
+
+                u0 sub-sub-sub-sub-block { (0a @ 91)
+
+                    w : 0.23333333432674408 (0d @ 93)
+                    x : 0.35555556416511536 (15 @ 98)
+                    y : 0.20000000298023224 (1d @ 9d)
+                    z : 0.5 (25 @ a2)
+				}
+                u1 : 27.0 (15 @ a7)
+                u2 : 10(18 @ ac)
+                u3 : 15.0 (25 @ ae)
+                u4 : 0.07000000029802322 (2d @ b3)
+                u5 : 0.800000011920929 (35 @ b8)
+
+                u6 sub-sub-sub-sub-block { (3a @ bd)
+
+                    y : -1.0 (0d @ bf)
+                    z : 15.0 (15 @ c4)
+				}
+			}
+		}
+
+        component sub-sub-block { (1a @ c9)
+
+            component type : TransformController (0a @ cb)
+            number : 3(10 @ e0)
+		}
+
+        component sub-sub-block { (1a @ e2)
+
+            component type : Light (0a @ e4)
+            number : 103(10 @ eb)
+
+            light sub-sub-sub-block { (412 @ ee)
+
+                u0 : 3(08 @ f0)
+                u1 : 1.5 (15 @ f2)
+
+                u2 sub-sub-sub-sub-block { (1a @ f7)
+
+                    w : 0.6222222447395325 (0d @ f9)
+                    x : 0.9355555176734924 (15 @ fe)
+                    y : 0.0 (1d @ 103)
+                    z : 1.0 (25 @ 108)
+				}
+                u3 : 0.0 (25 @ 10d)
+                u4 : 0.00019999999494757503 (2d @ 112)
+
+                u5 sub-sub-sub-sub-block { (32 @ 117)
+
+                    x : 0.0 (0d @ 119)
+                    y : 0.0 (15 @ 11e)
+                    z : 0.0 (1d @ 123)
+				}
+                u6 : 250.0 (3d @ 128)
+			}
+		}
+
+        component sub-sub-block { (1a @ 12d)
+
+            component type : FireEmitter (0a @ 12f)
+            number : 105(10 @ 13c)
+
+            fire emitter sub-sub-sub-block { (7ea @ 13f)
+
+                temp0 : 108(08 @ 141)
+                temp1 : 103(18 @ 143)
+
+                u0 sub-sub-sub-sub-block { (2a @ 145)
+
+                    w : 0.3888888955116272 (0d @ 147)
+                    x : 0.7888888716697693 (15 @ 14c)
+                    y : 0.0 (1d @ 151)
+                    z : 0.0 (25 @ 156)
+				}
+                u1 : 0.10000000149011612 (35 @ 15b)
+                u2 : 0.8999999761581421 (3d @ 160)
+
+                u3 sub-sub-sub-sub-block { (42 @ 165)
+
+                    x : 2.0 (0d @ 167)
+                    y : 0.0 (15 @ 16c)
+                    z : 0.0 (1d @ 171)
+				}
+
+                u4 sub-sub-sub-sub-block { (4a @ 176)
+
+                    x : 0.0 (0d @ 178)
+                    y : 15.0 (15 @ 17d)
+                    z : 0.0 (1d @ 182)
+				}
+			}
+		}
+
+        component sub-sub-block { (1a @ 187)
+
+            component type : ParticleEmitter (0a @ 189)
+            number : 108(10 @ 19a)
+
+            particle emitter sub-sub-sub-block { (7d2 @ 19d)
+
+                particle : 109(10 @ 19f)
+                particle : 111(10 @ 1a1)
+                particle : 112(10 @ 1a3)
+                u1 : 0(18 @ 1a5)
+                u2 : 30(20 @ 1a7)
+                u3 : 0(28 @ 1a9)
+                u4 : 0(30 @ 1ab)
+                u6 : 0(40 @ 1ad)
+			}
+		}
+
+        component sub-sub-block { (1a @ 1af)
+
+            component type : Particle (0a @ 1b1)
+            number : 109(10 @ 1bb)
+
+            particle sub-sub-sub-block { (7da @ 1be)
+
+                name : particle_fure_1 (0a @ 1c0)
+                u0 : 20.0 (15 @ 1d1)
+			}
+		}
+
+        component sub-sub-block { (1a @ 1d6)
+
+            component type : Particle (0a @ 1d8)
+            number : 111(10 @ 1e2)
+
+            particle sub-sub-sub-block { (7da @ 1e5)
+
+                name : particle_fure_2 (0a @ 1e7)
+                u0 : 22.0 (15 @ 1f8)
+			}
+		}
+
+        component sub-sub-block { (1a @ 1fd)
+
+            component type : Particle (0a @ 1ff)
+            number : 112(10 @ 209)
+
+            particle sub-sub-sub-block { (7da @ 20c)
+
+                name : particle_fure_3 (0a @ 20e)
+                u0 : 20.0 (15 @ 21f)
+			}
+		}
+
+        position sub-sub-block { (22 @ 224)
+
+            x position : 0.0 (0d @ 226)
+            y position : 0.0 (15 @ 22b)
+		}
+        z position : 0.0 (2d @ 230)
+        rotation : 0.0 (35 @ 235)
+        scale : 1.0 (3d @ 23a)
+
+        u0 sub-sub-block { (42 @ 23f)
+
+            w : -27.0 (0d @ 241)
+            x : -27.0 (15 @ 246)
+            y : 54.0 (1d @ 24b)
+            z : 54.0 (25 @ 250)
+		}
+        hidden : 0(48 @ 255)
+	}
+    u0 : 1.0 (15 @ 257)
+}
+
+?item block { (12 @ 25c)
+
+
+    ?sub-item sub-block { (0a @ 25f)
+
+        name : torch_red (12 @ 262)
+
+        component sub-sub-block { (1a @ 26d)
+
+            component type : Model (0a @ 26f)
+            number : 1(10 @ 276)
+
+            3D model sub-sub-sub-block { (32a @ 279)
+
+                name : torch (0a @ 27b)
+                u0 : 0.0 (15 @ 282)
+                u1 : 0.0 (1d @ 287)
+                u2 : 0.0 (25 @ 28c)
+
+                u3 sub-sub-sub-sub-block { (2a @ 291)
+
+                    w : 0.0 (0d @ 293)
+                    x : 0.0 (15 @ 298)
+                    y : 0.0 (1d @ 29d)
+                    z : 1.0 (25 @ 2a2)
+				}
+
+                u4 sub-sub-sub-sub-block { (32 @ 2a7)
+
+                    x : 0.0 (0d @ 2a9)
+                    y : 0.0 (15 @ 2ae)
+                    z : 0.0 (1d @ 2b3)
+				}
+                u5 : 0(38 @ 2b8)
+
+                u6 sub-sub-sub-sub-block { (42 @ 2ba)
+
+                    w : 1.0 (0d @ 2bc)
+                    x : 1.0 (15 @ 2c1)
+                    y : 1.0 (1d @ 2c6)
+                    z : 1.0 (25 @ 2cb)
+				}
+			}
+		}
+
+        component sub-sub-block { (1a @ 2d0)
+
+            component type : SimpleGlow (0a @ 2d2)
+            number : 2(10 @ 2de)
+
+            simple glow sub-sub-sub-block { (7f2 @ 2e1)
+
+
+                u0 sub-sub-sub-sub-block { (0a @ 2e3)
+
+                    w : 0.4555555582046509 (0d @ 2e5)
+                    x : 0.0 (15 @ 2ea)
+                    y : 0.0 (1d @ 2ef)
+                    z : 0.5 (25 @ 2f4)
+				}
+                u1 : 27.0 (15 @ 2f9)
+                u2 : 10(18 @ 2fe)
+                u3 : 15.0 (25 @ 300)
+                u4 : 0.07000000029802322 (2d @ 305)
+                u5 : 0.800000011920929 (35 @ 30a)
+
+                u6 sub-sub-sub-sub-block { (3a @ 30f)
+
+                    y : -1.0 (0d @ 311)
+                    z : 15.0 (15 @ 316)
+				}
+			}
+		}
+
+        component sub-sub-block { (1a @ 31b)
+
+            component type : TransformController (0a @ 31d)
+            number : 3(10 @ 332)
+		}
+
+        component sub-sub-block { (1a @ 334)
+
+            component type : Light (0a @ 336)
+            number : 103(10 @ 33d)
+
+            light sub-sub-sub-block { (412 @ 340)
+
+                u0 : 3(08 @ 342)
+                u1 : 2.0 (15 @ 344)
+
+                u2 sub-sub-sub-sub-block { (1a @ 349)
+
+                    w : 1.0 (0d @ 34b)
+                    x : 0.0 (15 @ 350)
+                    y : 0.0 (1d @ 355)
+                    z : 1.0 (25 @ 35a)
+				}
+                u3 : 0.0 (25 @ 35f)
+                u4 : 0.00019999999494757503 (2d @ 364)
+
+                u5 sub-sub-sub-sub-block { (32 @ 369)
+
+                    x : 0.0 (0d @ 36b)
+                    y : 0.0 (15 @ 370)
+                    z : 0.0 (1d @ 375)
+				}
+                u6 : 500.0 (3d @ 37a)
+			}
+		}
+
+        component sub-sub-block { (1a @ 37f)
+
+            component type : FireEmitter (0a @ 381)
+            number : 105(10 @ 38e)
+
+            fire emitter sub-sub-sub-block { (7ea @ 391)
+
+                temp0 : 108(08 @ 393)
+                temp1 : 103(18 @ 395)
+
+                u0 sub-sub-sub-sub-block { (2a @ 397)
+
+                    w : 1.0 (0d @ 399)
+                    x : 0.4444444477558136 (15 @ 39e)
+                    y : 0.0 (1d @ 3a3)
+                    z : 0.0 (25 @ 3a8)
+				}
+                u1 : 0.10000000149011612 (35 @ 3ad)
+                u2 : 0.8999999761581421 (3d @ 3b2)
+
+                u3 sub-sub-sub-sub-block { (42 @ 3b7)
+
+                    x : 2.0 (0d @ 3b9)
+                    y : 0.0 (15 @ 3be)
+                    z : 0.0 (1d @ 3c3)
+				}
+
+                u4 sub-sub-sub-sub-block { (4a @ 3c8)
+
+                    x : 0.0 (0d @ 3ca)
+                    y : 15.0 (15 @ 3cf)
+                    z : 0.0 (1d @ 3d4)
+				}
+			}
+		}
+
+        component sub-sub-block { (1a @ 3d9)
+
+            component type : ParticleEmitter (0a @ 3db)
+            number : 108(10 @ 3ec)
+
+            particle emitter sub-sub-sub-block { (7d2 @ 3ef)
+
+                particle : 109(10 @ 3f1)
+                particle : 111(10 @ 3f3)
+                particle : 112(10 @ 3f5)
+                u1 : 0(18 @ 3f7)
+                u2 : 30(20 @ 3f9)
+                u3 : 0(28 @ 3fb)
+                u4 : 0(30 @ 3fd)
+                u6 : 0(40 @ 3ff)
+			}
+		}
+
+        component sub-sub-block { (1a @ 401)
+
+            component type : Particle (0a @ 403)
+            number : 109(10 @ 40d)
+
+            particle sub-sub-sub-block { (7da @ 410)
+
+                name : particle_fure_1 (0a @ 412)
+                u0 : 20.0 (15 @ 423)
+			}
+		}
+
+        component sub-sub-block { (1a @ 428)
+
+            component type : Particle (0a @ 42a)
+            number : 111(10 @ 434)
+
+            particle sub-sub-sub-block { (7da @ 437)
+
+                name : particle_fure_2 (0a @ 439)
+                u0 : 22.0 (15 @ 44a)
+			}
+		}
+
+        component sub-sub-block { (1a @ 44f)
+
+            component type : Particle (0a @ 451)
+            number : 112(10 @ 45b)
+
+            particle sub-sub-sub-block { (7da @ 45e)
+
+                name : particle_fure_3 (0a @ 460)
+                u0 : 20.0 (15 @ 471)
+			}
+		}
+
+        position sub-sub-block { (22 @ 476)
+
+            x position : 0.0 (0d @ 478)
+            y position : 0.0 (15 @ 47d)
+		}
+        z position : 0.0 (2d @ 482)
+        rotation : 0.0 (35 @ 487)
+        scale : 1.0 (3d @ 48c)
+
+        u0 sub-sub-block { (42 @ 491)
+
+            w : -27.0 (0d @ 493)
+            x : -27.0 (15 @ 498)
+            y : 54.0 (1d @ 49d)
+            z : 54.0 (25 @ 4a2)
+		}
+        hidden : 0(48 @ 4a7)
+	}
+    u0 : 1.0 (15 @ 4a9)
+}

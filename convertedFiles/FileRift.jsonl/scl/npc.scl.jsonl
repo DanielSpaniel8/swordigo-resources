@@ -1,0 +1,2052 @@
+data = {
+"scl file name" : "npc",
+
+"?itemblock " :  {
+
+
+	"?sub-itemsub-block " :  {
+
+		"name" : "critter_konna_green",
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Model",
+			"number" : 101,
+
+			"3D modelsub-sub-sub-block " :  {
+
+				"name" : "critter_konna_green",
+				"u0" : 1.5707963705062866,
+				"u1" : 0.0,
+				"u2" : 0.0,
+
+				"u3sub-sub-sub-sub-block " :  {
+
+					"w" : 1.0,
+					"x" : 1.0,
+					"y" : 1.0,
+					"z" : 1.0,
+				},
+
+				"u4sub-sub-sub-sub-block " :  {
+
+					"x" : 0.0,
+					"y" : 0.0,
+					"z" : 0.0,
+				},
+				"u5" : 0,
+
+				"u6sub-sub-sub-sub-block " :  {
+
+					"w" : 1.0,
+					"x" : 1.0,
+					"y" : 1.0,
+					"z" : 1.0,
+				},
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "AnimationController",
+			"number" : 102,
+
+			"animation controllersub-sub-sub-block " :  {
+
+				"model component" : 101,
+				"u1" : 0,
+				"u2" : 0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "KeyframeAnimation",
+			"number" : 103,
+
+			"keyframe animationsub-sub-sub-block " :  {
+
+				"linked model component number" : 101,
+				"name" : "critter_konna_walk",
+				"u0" : 1,
+				"u1" : 1.5,
+				"u2" : 1,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "MonsterEntity",
+			"number" : 104,
+
+			"entitysub-sub-sub-block " :  {
+
+				"u0" : 1,
+				"u1" : 1,
+			},
+
+			"?monster entitysub-sub-sub-block " :  {
+
+				"u0" : "",
+
+				"lua chunksub-sub-sub-sub-block " :  {
+
+				},
+				"u2" : 0,
+				"u3" : 1,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "EntityController",
+			"number" : 106,
+
+			"entity controllersub-sub-sub-block " :  {
+
+				"entity component" : 104,
+				"animation controller component" : 102,
+				"u2" : 103,
+				"collision shape" : 113,
+				"u4" : 35.0,
+				"u5" : 800.0,
+				"u6" : 100.0,
+				"u7" : 2,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "CollisionShape",
+			"number" : 107,
+
+			"collision shapesub-sub-sub-block " :  {
+
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"w" : -35.0,
+					"x" : -20.0,
+					"y" : 62.0,
+					"z" : 60.0,
+				},
+			},
+
+			"collision shape 2sub-sub-sub-block " :  {
+
+				"u1" : 1,
+				"w" : -250.0,
+				"x" : 250.0,
+				"z" : 1,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "UtilityShape",
+			"number" : 113,
+
+			"collision shapesub-sub-sub-block " :  {
+
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"w" : -600.0,
+					"x" : -200.0,
+					"y" : 1200.0,
+					"z" : 400.0,
+				},
+			},
+		},
+
+		"positionsub-sub-block " :  {
+
+			"x position" : 0.0,
+			"y position" : 0.0,
+		},
+		"z position" : 0.0,
+		"rotation" : 0.0,
+		"scale" : 1.0,
+
+		"u0sub-sub-block " :  {
+
+			"w" : -35.0,
+			"x" : -20.0,
+			"y" : 62.0,
+			"z" : 60.0,
+		},
+		"hidden" : 0,
+	},
+	"u0" : 0.3499999940395355,
+},
+
+"?itemblock " :  {
+
+
+	"?sub-itemsub-block " :  {
+
+		"name" : "dwarf",
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Model",
+			"number" : 101,
+
+			"3D modelsub-sub-sub-block " :  {
+
+				"name" : "npc_dwarf1",
+				"u0" : 4.014257431030273,
+				"u1" : 0.0,
+				"u2" : 0.0,
+
+				"u3sub-sub-sub-sub-block " :  {
+
+					"w" : 0.0,
+					"x" : 0.0,
+					"y" : 0.0,
+					"z" : 1.0,
+				},
+
+				"u4sub-sub-sub-sub-block " :  {
+
+					"x" : 0.0,
+					"y" : 0.0,
+					"z" : 0.0,
+				},
+				"u5" : 0,
+
+				"u6sub-sub-sub-sub-block " :  {
+
+					"w" : 1.0,
+					"x" : 1.0,
+					"y" : 1.0,
+					"z" : 1.0,
+				},
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "StaticMonsterController",
+			"number" : 103,
+
+			"monster controllersub-sub-sub-block " :  {
+
+				"u0" : 100.0,
+				"u1" : 106,
+				"u2" : 104,
+				"u3" : 0,
+			},
+
+			"static monster controllersub-sub-sub-block " :  {
+
+				"u0" : 108,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "MonsterEntity",
+			"number" : 104,
+
+			"entitysub-sub-sub-block " :  {
+
+				"u0" : 18446744073709551615,
+				"u1" : 1,
+			},
+
+			"?monster entitysub-sub-sub-block " :  {
+
+				"u0" : "",
+
+				"lua chunksub-sub-sub-sub-block " :  {
+
+				},
+				"u2" : 1,
+				"u3" : 1,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "AnimationController",
+			"number" : 106,
+
+			"animation controllersub-sub-sub-block " :  {
+
+				"model component" : 101,
+				"u1" : 0,
+				"u2" : 0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "KeyframeAnimation",
+			"number" : 108,
+
+			"keyframe animationsub-sub-sub-block " :  {
+
+				"linked model component number" : 101,
+				"name" : "npc_dwarf_stand",
+				"u0" : 1,
+				"u1" : 1.0,
+				"u2" : 1,
+			},
+		},
+
+		"positionsub-sub-block " :  {
+
+			"x position" : 0.0,
+			"y position" : 0.0,
+		},
+		"z position" : 0.0,
+		"rotation" : 0.0,
+		"scale" : 1.0,
+
+		"u0sub-sub-block " :  {
+
+			"w" : 0.0,
+			"x" : 0.0,
+			"y" : 0.0,
+			"z" : 0.0,
+		},
+		"hidden" : 0,
+	},
+	"u0" : 1.0,
+},
+
+"?itemblock " :  {
+
+
+	"?sub-itemsub-block " :  {
+
+		"name" : "king",
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Entity",
+			"number" : 1,
+
+			"entitysub-sub-sub-block " :  {
+
+				"u0" : 18446744073709551615,
+				"u1" : 1,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Model",
+			"number" : 101,
+
+			"3D modelsub-sub-sub-block " :  {
+
+				"name" : "npc_king",
+				"u0" : 2.356194496154785,
+				"u1" : 0.0,
+				"u2" : 0.0,
+
+				"u3sub-sub-sub-sub-block " :  {
+
+					"w" : 0.0,
+					"x" : 0.0,
+					"y" : 0.0,
+					"z" : 1.0,
+				},
+
+				"u4sub-sub-sub-sub-block " :  {
+
+					"x" : 0.0,
+					"y" : 0.0,
+					"z" : 0.0,
+				},
+				"u5" : 0,
+
+				"u6sub-sub-sub-sub-block " :  {
+
+					"w" : 1.0,
+					"x" : 1.0,
+					"y" : 1.0,
+					"z" : 1.0,
+				},
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "KeyframeAnimation",
+			"number" : 103,
+
+			"keyframe animationsub-sub-sub-block " :  {
+
+				"linked model component number" : 101,
+				"name" : "npc_oldman_stand",
+				"u0" : 1,
+				"u1" : 0.6000000238418579,
+				"u2" : 1,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "AnimationController",
+			"number" : 109,
+
+			"animation controllersub-sub-sub-block " :  {
+
+				"model component" : 101,
+				"u1" : 103,
+				"u2" : 1,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "CollisionShape",
+			"number" : 111,
+
+			"collision shapesub-sub-sub-block " :  {
+
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"w" : -32.70899963378906,
+					"x" : -34.29396057128906,
+					"y" : 64.53463745117188,
+					"z" : 62.28142547607422,
+				},
+			},
+
+			"collision shape 2sub-sub-sub-block " :  {
+
+				"u1" : 1,
+				"u2" : 1,
+				"w" : -15.0,
+				"x" : 15.0,
+				"z" : 1,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Health",
+			"number" : 114,
+
+			"healthsub-sub-sub-block " :  {
+
+				"u0" : 1,
+				"u1" : 0,
+
+				"u2sub-sub-sub-sub-block " :  {
+
+					"x" : 0.0,
+					"y" : 50.0,
+				},
+			},
+		},
+
+		"positionsub-sub-block " :  {
+
+			"x position" : 0.0,
+			"y position" : 0.0,
+		},
+		"z position" : 0.0,
+		"rotation" : 0.0,
+		"scale" : 1.0,
+
+		"u0sub-sub-block " :  {
+
+			"w" : -32.70899963378906,
+			"x" : -34.29396057128906,
+			"y" : 64.53463745117188,
+			"z" : 62.28142547607422,
+		},
+		"hidden" : 0,
+	},
+	"u0" : 1.0,
+},
+
+"?itemblock " :  {
+
+
+	"?sub-itemsub-block " :  {
+
+		"name" : "npc_healer",
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Model",
+			"number" : 101,
+
+			"3D modelsub-sub-sub-block " :  {
+
+				"name" : "npc_healer",
+				"u0" : 1.5707963705062866,
+				"u1" : 0.5,
+				"u2" : 0.0,
+
+				"u3sub-sub-sub-sub-block " :  {
+
+					"w" : 0.0,
+					"x" : 0.0,
+					"y" : 0.0,
+					"z" : 1.0,
+				},
+
+				"u4sub-sub-sub-sub-block " :  {
+
+					"x" : 0.0,
+					"y" : 0.0,
+					"z" : 0.0,
+				},
+				"u5" : 0,
+
+				"u6sub-sub-sub-sub-block " :  {
+
+					"w" : 1.0,
+					"x" : 1.0,
+					"y" : 1.0,
+					"z" : 1.0,
+				},
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "KeyframeAnimation",
+			"number" : 105,
+
+			"keyframe animationsub-sub-sub-block " :  {
+
+				"linked model component number" : 101,
+				"name" : "npc_female_stand",
+				"u0" : 1,
+				"u1" : 0.30000001192092896,
+				"u2" : 1,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "AnimationController",
+			"number" : 106,
+
+			"animation controllersub-sub-sub-block " :  {
+
+				"model component" : 101,
+				"u1" : 0,
+				"u2" : 0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "KeyframeAnimation",
+			"number" : 108,
+
+			"keyframe animationsub-sub-sub-block " :  {
+
+				"linked model component number" : 101,
+				"name" : "npc_walk_slow",
+				"u0" : 1,
+				"u1" : 1.600000023841858,
+				"u2" : 1,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "CollisionShape",
+			"number" : 109,
+
+			"collision shapesub-sub-sub-block " :  {
+
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"w" : -10.0,
+					"x" : -40.0,
+					"y" : 20.0,
+					"z" : 67.98746490478516,
+				},
+			},
+
+			"collision shape 2sub-sub-sub-block " :  {
+
+				"u1" : 1,
+				"w" : -15.0,
+				"x" : 15.0,
+				"z" : 1,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Entity",
+			"number" : 111,
+
+			"entitysub-sub-sub-block " :  {
+
+				"u0" : 18446744073709551615,
+				"u1" : 1,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "EntityController",
+			"number" : 112,
+
+			"entity controllersub-sub-sub-block " :  {
+
+				"entity component" : 111,
+				"animation controller component" : 106,
+				"u2" : 105,
+				"collision shape" : 109,
+				"u4" : 0.0,
+				"u5" : 800.0,
+				"u6" : 0.0,
+				"u7" : 1,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "EntityAction",
+			"number" : 115,
+
+			"entity actionsub-sub-sub-block " :  {
+
+
+				"lua chunksub-sub-sub-sub-block " :  {
+
+					"main chunk" : "chunk >
+
+					=== lua =============
+					local self = ...;
+					
+					local castAnimation = 116;
+					
+					AnimationController.BlendToAnimation(self, castAnimation);
+					
+					Skill.BeginCasting(self, \"\", Vector3.New(EntityController.FacingDirection(self), 0, 0));
+					
+					Program.Wait(1000.0);
+					
+					
+
+					=====================",
+					"secondary chunk" : "\\x1bLuaQ\\x00\\x01\\x04\\x04\\x04\\x08\\x00\\xe7\\x00\\x00\\x00local self = ...;\\r\\n\\r\\nlocal castAnimation = 116;\\r\\n\\r\\nAnimationController.BlendToAnimation(self, castAnimation);\\r\\n\\r\\nSkill.BeginCasting(self, \"\", Vector3.New(EntityController.FacingDirection(self), 0, 0));\\r\\n\\r\\nProgram.Wait(1000.0);\\r\\n\\r\\n\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x02\\t\\x1a\\x00\\x00\\x00%\\x00\\x00\\x01A\\x00\\x00\\x00\\x85@\\x00\\x00\\x86\\x80@\\x01\\xc0\\x00\\x00\\x00\\x00\\x01\\x80\\x00\\x9c@\\x80\\x01\\x85\\xc0\\x00\\x00\\x86\\x00A\\x01\\xc0\\x00\\x00\\x00\\x01A\\x01\\x00E\\x81\\x01\\x00F\\xc1\\xc1\\x02\\x85\\x01\\x02\\x00\\x86AB\\x03\\xc0\\x01\\x00\\x00\\x9c\\x81\\x00\\x01\\xc1\\x81\\x02\\x00\\x01\\x82\\x02\\x00\\\\\\x01\\x00\\x02\\x9c@\\x00\\x00\\x85\\xc0\\x02\\x00\\x86\\x00C\\x01\\xc1@\\x03\\x00\\x9c@\\x00\\x01\\x1e\\x00\\x80\\x00\\x0e\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x00\\x00\\x00]@\\x04\\x14\\x00\\x00\\x00AnimationController\\x00\\x04\\x11\\x00\\x00\\x00BlendToAnimation\\x00\\x04\\x06\\x00\\x00\\x00Skill\\x00\\x04\\r\\x00\\x00\\x00BeginCasting\\x00\\x04\\x01\\x00\\x00\\x00\\x00\\x04\\x08\\x00\\x00\\x00Vector3\\x00\\x04\\x04\\x00\\x00\\x00New\\x00\\x04\\x11\\x00\\x00\\x00EntityController\\x00\\x04\\x10\\x00\\x00\\x00FacingDirection\\x00\\x03\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x04\\x08\\x00\\x00\\x00Program\\x00\\x04\\x05\\x00\\x00\\x00Wait\\x00\\x03\\x00\\x00\\x00\\x00\\x00@\\x8f@\\x00\\x00\\x00\\x00\\x1a\\x00\\x00\\x00\\x01\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x07\\x00\\x00\\x00\\x07\\x00\\x00\\x00\\x07\\x00\\x00\\x00\\x07\\x00\\x00\\x00\\x07\\x00\\x00\\x00\\x07\\x00\\x00\\x00\\x07\\x00\\x00\\x00\\x07\\x00\\x00\\x00\\x07\\x00\\x00\\x00\\x07\\x00\\x00\\x00\\x07\\x00\\x00\\x00\\x07\\x00\\x00\\x00\\x07\\x00\\x00\\x00\\x07\\x00\\x00\\x00\\t\\x00\\x00\\x00\\t\\x00\\x00\\x00\\t\\x00\\x00\\x00\\t\\x00\\x00\\x00\\t\\x00\\x00\\x00\\x02\\x00\\x00\\x00\\x05\\x00\\x00\\x00self\\x00\\x01\\x00\\x00\\x00\\x19\\x00\\x00\\x00\\x0e\\x00\\x00\\x00castAnimation\\x00\\x02\\x00\\x00\\x00\\x19\\x00\\x00\\x00\\x00\\x00\\x00\\x00",
+				},
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "KeyframeAnimation",
+			"number" : 116,
+
+			"keyframe animationsub-sub-sub-block " :  {
+
+				"linked model component number" : 101,
+				"name" : "hiro_cast",
+				"u0" : 1,
+				"u1" : 1.0,
+				"u2" : 1,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Skill",
+			"number" : 117,
+
+			"skillsub-sub-sub-block " :  {
+
+				"u0" : 0,
+
+				"u1sub-sub-sub-sub-block " :  {
+
+					"x" : 30.0,
+					"y" : 0.0,
+				},
+				"cast animation" : "npc_healer_cast",
+			},
+		},
+
+		"positionsub-sub-block " :  {
+
+			"x position" : 0.0,
+			"y position" : 0.0,
+		},
+		"z position" : 0.0,
+		"rotation" : 0.0,
+		"scale" : 1.0,
+
+		"u0sub-sub-block " :  {
+
+			"w" : -10.0,
+			"x" : -40.0,
+			"y" : 20.0,
+			"z" : 67.98746490478516,
+		},
+		"hidden" : 0,
+	},
+	"u0" : 1.0,
+},
+
+"?itemblock " :  {
+
+
+	"?sub-itemsub-block " :  {
+
+		"name" : "npc_healer_cast",
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "SimpleGlow",
+			"number" : 1,
+
+			"simple glowsub-sub-sub-block " :  {
+
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"w" : 0.2777783274650574,
+					"x" : 1.0,
+					"y" : 0.16666662693023682,
+					"z" : 0.5,
+				},
+				"u1" : 20.0,
+				"u2" : 20,
+				"u3" : 15.0,
+				"u4" : 0.15000000596046448,
+				"u5" : 0.800000011920929,
+
+				"u6sub-sub-sub-sub-block " :  {
+
+					"y" : 0.0,
+					"z" : 0.0,
+				},
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "ParticleEmitter",
+			"number" : 102,
+
+			"particle emittersub-sub-sub-block " :  {
+
+				"particle" : 103,
+				"particle" : 104,
+				"particle" : 105,
+				"u1" : 0,
+				"u2" : 30,
+				"u3" : 0,
+				"u4" : 0,
+				"u6" : 0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Particle",
+			"number" : 103,
+
+			"particlesub-sub-sub-block " :  {
+
+				"name" : "particle_fure_1",
+				"u0" : 40.0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Particle",
+			"number" : 104,
+
+			"particlesub-sub-sub-block " :  {
+
+				"name" : "particle_fure_2",
+				"u0" : 40.0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Particle",
+			"number" : 105,
+
+			"particlesub-sub-sub-block " :  {
+
+				"name" : "particle_fure_3",
+				"u0" : 40.0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "MagicSpellCast",
+			"number" : 109,
+
+			"magic spell castsub-sub-sub-block " :  {
+
+				"particle emitter" : 102,
+				"u0" : 0,
+			},
+		},
+
+		"positionsub-sub-block " :  {
+
+			"x position" : 0.0,
+			"y position" : 0.0,
+		},
+		"z position" : 0.0,
+		"rotation" : 0.0,
+		"scale" : 1.0,
+
+		"u0sub-sub-block " :  {
+
+			"w" : -20.0,
+			"x" : -20.0,
+			"y" : 40.0,
+			"z" : 40.0,
+		},
+		"hidden" : 0,
+	},
+	"u0" : 1.0,
+},
+
+"?itemblock " :  {
+
+
+	"?sub-itemsub-block " :  {
+
+		"name" : "npc_male1_standing",
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Model",
+			"number" : 101,
+
+			"3D modelsub-sub-sub-block " :  {
+
+				"name" : "npc_male1",
+				"u0" : 1.5707963705062866,
+				"u1" : 0.0,
+				"u2" : 0.0,
+
+				"u3sub-sub-sub-sub-block " :  {
+
+					"w" : 0.0,
+					"x" : 0.0,
+					"y" : 0.0,
+					"z" : 1.0,
+				},
+
+				"u4sub-sub-sub-sub-block " :  {
+
+					"x" : 0.0,
+					"y" : 0.0,
+					"z" : 0.0,
+				},
+				"u5" : 0,
+
+				"u6sub-sub-sub-sub-block " :  {
+
+					"w" : 1.0,
+					"x" : 1.0,
+					"y" : 1.0,
+					"z" : 1.0,
+				},
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "StaticMonsterController",
+			"number" : 103,
+
+			"monster controllersub-sub-sub-block " :  {
+
+				"u0" : 100.0,
+				"u1" : 106,
+				"u2" : 104,
+				"u3" : 0,
+			},
+
+			"static monster controllersub-sub-sub-block " :  {
+
+				"u0" : 105,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "MonsterEntity",
+			"number" : 104,
+
+			"entitysub-sub-sub-block " :  {
+
+				"u0" : 18446744073709551615,
+				"u1" : 1,
+			},
+
+			"?monster entitysub-sub-sub-block " :  {
+
+				"u0" : "",
+
+				"lua chunksub-sub-sub-sub-block " :  {
+
+				},
+				"u2" : 1,
+				"u3" : 1,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "KeyframeAnimation",
+			"number" : 105,
+
+			"keyframe animationsub-sub-sub-block " :  {
+
+				"linked model component number" : 101,
+				"name" : "npc_stand",
+				"u0" : 1,
+				"u1" : 1.0,
+				"u2" : 1,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "AnimationController",
+			"number" : 106,
+
+			"animation controllersub-sub-sub-block " :  {
+
+				"model component" : 101,
+				"u1" : 0,
+				"u2" : 0,
+			},
+		},
+
+		"positionsub-sub-block " :  {
+
+			"x position" : 0.0,
+			"y position" : 0.0,
+		},
+		"z position" : 0.0,
+		"rotation" : 0.0,
+		"scale" : 1.0,
+
+		"u0sub-sub-block " :  {
+
+			"w" : 0.0,
+			"x" : 0.0,
+			"y" : 0.0,
+			"z" : 0.0,
+		},
+		"hidden" : 0,
+	},
+	"u0" : 1.0,
+},
+
+"?itemblock " :  {
+
+
+	"?sub-itemsub-block " :  {
+
+		"name" : "npc_oldman",
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Entity",
+			"number" : 1,
+
+			"entitysub-sub-sub-block " :  {
+
+				"u0" : 18446744073709551615,
+				"u1" : 1,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "EntityAction",
+			"number" : 2,
+
+			"entity actionsub-sub-sub-block " :  {
+
+
+				"lua chunksub-sub-sub-sub-block " :  {
+
+					"main chunk" : "chunk >
+
+					=== lua =============
+					local self = ...;
+					
+					if self[\"texts\"] ~= nil then
+						local text = self[\"texts\"][Math.RandomInt(1,#self[\"texts\"])];
+					
+						local bubble = ShowTextBubble(self:identifier()..\"_bubble\", self:position() + Vector3.New(0, 20, 0), text);
+						
+						local time = 0;
+						local interval = 0.01;
+						while time < 2 do
+							bubble:setPosition(self:position() + Vector3.New(0, 40, 0));
+							Program.Wait(interval);
+							time = time + interval;
+						end
+						
+						HideTextBubble(bubble:identifier());
+					
+						Program.Wait(0.4);
+					end
+
+					=====================",
+					"secondary chunk" : "\\x1bLuaQ\\x00\\x01\\x04\\x04\\x04\\x08\\x00\\xe6\\x01\\x00\\x00local self = ...;\\r\\n\\r\\nif self[\"texts\"] ~= nil then\\r\\n\\tlocal text = self[\"texts\"][Math.RandomInt(1,#self[\"texts\"])];\\r\\n\\r\\n\\tlocal bubble = ShowTextBubble(self:identifier()..\"_bubble\", self:position() + Vector3.New(0, 20, 0), text);\\r\\n\\t\\r\\n\\tlocal time = 0;\\r\\n\\tlocal interval = 0.01;\\r\\n\\twhile time < 2 do\\r\\n\\t\\tbubble:setPosition(self:position() + Vector3.New(0, 40, 0));\\r\\n\\t\\tProgram.Wait(interval);\\r\\n\\t\\ttime = time + interval;\\r\\n\\tend\\r\\n\\t\\r\\n\\tHideTextBubble(bubble:identifier());\\r\\n\\r\\n\\tProgram.Wait(0.4);\\r\\nend\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x02\\x0c:\\x00\\x00\\x00%\\x00\\x00\\x01F\\x00@\\x00W@\\xc0\\x00\\x16\\x00\\r\\x80F\\x00@\\x00\\x85\\x80\\x00\\x00\\x86\\xc0@\\x01\\xc1\\x00\\x01\\x00\\x06\\x01@\\x00\\x14\\x01\\x00\\x02\\x9c\\x80\\x80\\x01F\\x80\\x80\\x00\\x85@\\x01\\x00\\xcb\\x80A\\x00\\xdc\\x80\\x00\\x01\\x01\\xc1\\x01\\x00\\xd5\\x00\\x81\\x01\\x0b\\x01B\\x00\\x1c\\x81\\x00\\x01EA\\x02\\x00F\\x81\\xc2\\x02\\x81\\xc1\\x02\\x00\\xc1\\x01\\x03\\x00\\x01\\xc2\\x02\\x00\\\\\\x81\\x00\\x02\\x0cA\\x01\\x02@\\x01\\x80\\x00\\x9c\\x80\\x00\\x02\\xc1\\xc0\\x02\\x00\\x01A\\x03\\x00\\x18\\x80\\xc3\\x01\\x16\\x00\\x04\\x80K\\xc1C\\x01\\xcb\\x01B\\x00\\xdc\\x81\\x00\\x01\\x05B\\x02\\x00\\x06\\x82B\\x04A\\xc2\\x02\\x00\\x81\\x02\\x04\\x00\\xc1\\xc2\\x02\\x00\\x1c\\x82\\x00\\x02\\xcc\\x01\\x82\\x03\\\\A\\x80\\x01EA\\x04\\x00F\\x81\\xc4\\x02\\x80\\x01\\x00\\x02\\\\A\\x00\\x01\\xcc\\x00\\x81\\x01\\x16\\x00\\xfb\\x7fE\\xc1\\x04\\x00\\x8b\\x81A\\x01\\x9c\\x01\\x00\\x01\\\\A\\x00\\x00EA\\x04\\x00F\\x81\\xc4\\x02\\x81\\x01\\x05\\x00\\\\A\\x00\\x01\\x1e\\x00\\x80\\x00\\x15\\x00\\x00\\x00\\x04\\x06\\x00\\x00\\x00texts\\x00\\x00\\x04\\x05\\x00\\x00\\x00Math\\x00\\x04\\n\\x00\\x00\\x00RandomInt\\x00\\x03\\x00\\x00\\x00\\x00\\x00\\x00\\xf0?\\x04\\x0f\\x00\\x00\\x00ShowTextBubble\\x00\\x04\\x0b\\x00\\x00\\x00identifier\\x00\\x04\\x08\\x00\\x00\\x00_bubble\\x00\\x04\\t\\x00\\x00\\x00position\\x00\\x04\\x08\\x00\\x00\\x00Vector3\\x00\\x04\\x04\\x00\\x00\\x00New\\x00\\x03\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x00\\x00\\x004@\\x03{\\x14\\xaeG\\xe1z\\x84?\\x03\\x00\\x00\\x00\\x00\\x00\\x00\\x00@\\x04\\x0c\\x00\\x00\\x00setPosition\\x00\\x03\\x00\\x00\\x00\\x00\\x00\\x00D@\\x04\\x08\\x00\\x00\\x00Program\\x00\\x04\\x05\\x00\\x00\\x00Wait\\x00\\x04\\x0f\\x00\\x00\\x00HideTextBubble\\x00\\x03\\x9a\\x99\\x99\\x99\\x99\\x99\\xd9?\\x00\\x00\\x00\\x00:\\x00\\x00\\x00\\x01\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x06\\x00\\x00\\x00\\x06\\x00\\x00\\x00\\x06\\x00\\x00\\x00\\x06\\x00\\x00\\x00\\x06\\x00\\x00\\x00\\x06\\x00\\x00\\x00\\x06\\x00\\x00\\x00\\x06\\x00\\x00\\x00\\x06\\x00\\x00\\x00\\x06\\x00\\x00\\x00\\x06\\x00\\x00\\x00\\x06\\x00\\x00\\x00\\x06\\x00\\x00\\x00\\x06\\x00\\x00\\x00\\x06\\x00\\x00\\x00\\x06\\x00\\x00\\x00\\x08\\x00\\x00\\x00\\t\\x00\\x00\\x00\\n\\x00\\x00\\x00\\n\\x00\\x00\\x00\\x0b\\x00\\x00\\x00\\x0b\\x00\\x00\\x00\\x0b\\x00\\x00\\x00\\x0b\\x00\\x00\\x00\\x0b\\x00\\x00\\x00\\x0b\\x00\\x00\\x00\\x0b\\x00\\x00\\x00\\x0b\\x00\\x00\\x00\\x0b\\x00\\x00\\x00\\x0b\\x00\\x00\\x00\\x0b\\x00\\x00\\x00\\x0c\\x00\\x00\\x00\\x0c\\x00\\x00\\x00\\x0c\\x00\\x00\\x00\\x0c\\x00\\x00\\x00\\r\\x00\\x00\\x00\\r\\x00\\x00\\x00\\x10\\x00\\x00\\x00\\x10\\x00\\x00\\x00\\x10\\x00\\x00\\x00\\x10\\x00\\x00\\x00\\x12\\x00\\x00\\x00\\x12\\x00\\x00\\x00\\x12\\x00\\x00\\x00\\x12\\x00\\x00\\x00\\x13\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x05\\x00\\x00\\x00self\\x00\\x01\\x00\\x00\\x009\\x00\\x00\\x00\\x05\\x00\\x00\\x00text\\x00\\x0c\\x00\\x00\\x009\\x00\\x00\\x00\\x07\\x00\\x00\\x00bubble\\x00\\x1c\\x00\\x00\\x009\\x00\\x00\\x00\\x05\\x00\\x00\\x00time\\x00\\x1d\\x00\\x00\\x009\\x00\\x00\\x00\\t\\x00\\x00\\x00interval\\x00\\x1e\\x00\\x00\\x009\\x00\\x00\\x00\\x00\\x00\\x00\\x00",
+				},
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "EntityController",
+			"number" : 3,
+
+			"entity controllersub-sub-sub-block " :  {
+
+				"entity component" : 1,
+				"animation controller component" : 109,
+				"u2" : 103,
+				"collision shape" : 0,
+				"u4" : 0.0,
+				"u5" : 800.0,
+				"u6" : 0.0,
+				"u7" : 1,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Program",
+			"number" : 4,
+
+			"programsub-sub-sub-block " :  {
+
+				"u0" : 1,
+
+				"lua chunksub-sub-sub-sub-block " :  {
+
+					"main chunk" : "chunk >
+
+					=== lua =============
+					local self = ...;
+					
+					self[\"texts\"] = {
+						\"It\'s so dark in here.\", 
+						\"Be careful.\", 
+						\"I hope you will be alright.\", 
+						\"There is no Error in this game.\",
+						\"It\'s so dark in here.\", 
+						\"Be careful.\", 
+						\"I hope you will be alright.\" 
+					};
+
+					=====================",
+					"secondary chunk" : "\\x1bLuaQ\\x00\\x01\\x04\\x04\\x04\\x08\\x00\\xef\\x00\\x00\\x00local self = ...;\\r\\n\\r\\nself[\"texts\"] = {\\r\\n\\t\"It\\\'s so dark in here.\", \\r\\n\\t\"Be careful.\", \\r\\n\\t\"I hope you will be alright.\", \\r\\n\\t\"There is no Error in this game.\",\\r\\n\\t\"It\\\'s so dark in here.\", \\r\\n\\t\"Be careful.\", \\r\\n\\t\"I hope you will be alright.\" \\r\\n};\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x02\\t\\x0c\\x00\\x00\\x00%\\x00\\x00\\x01J\\x00\\x80\\x03\\x81@\\x00\\x00\\xc1\\x80\\x00\\x00\\x01\\xc1\\x00\\x00A\\x01\\x01\\x00\\x81A\\x00\\x00\\xc1\\x81\\x00\\x00\\x01\\xc2\\x00\\x00b@\\x80\\x03\\t@\\x00\\x80\\x1e\\x00\\x80\\x00\\x05\\x00\\x00\\x00\\x04\\x06\\x00\\x00\\x00texts\\x00\\x04\\x16\\x00\\x00\\x00It\\\'s so dark in here.\\x00\\x04\\x0c\\x00\\x00\\x00Be careful.\\x00\\x04\\x1c\\x00\\x00\\x00I hope you will be alright.\\x00\\x04 \\x00\\x00\\x00There is no Error in this game.\\x00\\x00\\x00\\x00\\x00\\x0c\\x00\\x00\\x00\\x01\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x06\\x00\\x00\\x00\\x07\\x00\\x00\\x00\\x08\\x00\\x00\\x00\\t\\x00\\x00\\x00\\x0b\\x00\\x00\\x00\\x0b\\x00\\x00\\x00\\x0b\\x00\\x00\\x00\\x0b\\x00\\x00\\x00\\x01\\x00\\x00\\x00\\x05\\x00\\x00\\x00self\\x00\\x01\\x00\\x00\\x00\\x0b\\x00\\x00\\x00\\x00\\x00\\x00\\x00",
+				},
+				"u1" : 1,
+				"u2" : 10,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Model",
+			"number" : 101,
+
+			"3D modelsub-sub-sub-block " :  {
+
+				"name" : "npc_oldman1",
+				"u0" : 2.356194496154785,
+				"u1" : 0.0,
+				"u2" : 0.0,
+
+				"u3sub-sub-sub-sub-block " :  {
+
+					"w" : 0.0,
+					"x" : 0.0,
+					"y" : 0.0,
+					"z" : 1.0,
+				},
+
+				"u4sub-sub-sub-sub-block " :  {
+
+					"x" : 0.0,
+					"y" : 0.0,
+					"z" : 0.0,
+				},
+				"u5" : 0,
+
+				"u6sub-sub-sub-sub-block " :  {
+
+					"w" : 1.0,
+					"x" : 1.0,
+					"y" : 1.0,
+					"z" : 1.0,
+				},
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "KeyframeAnimation",
+			"number" : 103,
+
+			"keyframe animationsub-sub-sub-block " :  {
+
+				"linked model component number" : 101,
+				"name" : "npc_oldman_stand",
+				"u0" : 1,
+				"u1" : 0.6000000238418579,
+				"u2" : 1,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "AnimationController",
+			"number" : 109,
+
+			"animation controllersub-sub-sub-block " :  {
+
+				"model component" : 101,
+				"u1" : 103,
+				"u2" : 1,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "CollisionShape",
+			"number" : 111,
+
+			"collision shapesub-sub-sub-block " :  {
+
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"w" : -32.70899963378906,
+					"x" : -34.29396057128906,
+					"y" : 64.53463745117188,
+					"z" : 62.28142547607422,
+				},
+			},
+
+			"collision shape 2sub-sub-sub-block " :  {
+
+				"u1" : 1,
+				"w" : -15.0,
+				"x" : 100.0,
+
+				"lua chunksub-sub-sub-sub-block " :  {
+
+					"main chunk" : "chunk >
+
+					=== lua =============
+					local self, target = ...;
+					
+					if target:identifier() == \"hero\" and EntityController.IsIdle(self) then
+						EntityController.PerformAction(self, 2);
+					end
+
+					=====================",
+					"secondary chunk" : "\\x1bLuaQ\\x00\\x01\\x04\\x04\\x04\\x08\\x00\\x95\\x00\\x00\\x00local self, target = ...;\\r\\n\\r\\nif target:identifier() == \"hero\" and EntityController.IsIdle(self) then\\r\\n\\tEntityController.PerformAction(self, 2);\\r\\nend\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x02\\x05\\x11\\x00\\x00\\x00%\\x00\\x80\\x01\\x8b\\x00\\xc0\\x00\\x9c\\x80\\x00\\x01\\x17@@\\x01\\x16\\x80\\x02\\x80\\x85\\x80\\x00\\x00\\x86\\xc0@\\x01\\xc0\\x00\\x00\\x00\\x9c\\x80\\x00\\x01\\x9a\\x00\\x00\\x00\\x16\\x00\\x01\\x80\\x85\\x80\\x00\\x00\\x86\\x00A\\x01\\xc0\\x00\\x00\\x00\\x01A\\x01\\x00\\x9c@\\x80\\x01\\x1e\\x00\\x80\\x00\\x06\\x00\\x00\\x00\\x04\\x0b\\x00\\x00\\x00identifier\\x00\\x04\\x05\\x00\\x00\\x00hero\\x00\\x04\\x11\\x00\\x00\\x00EntityController\\x00\\x04\\x07\\x00\\x00\\x00IsIdle\\x00\\x04\\x0e\\x00\\x00\\x00PerformAction\\x00\\x03\\x00\\x00\\x00\\x00\\x00\\x00\\x00@\\x00\\x00\\x00\\x00\\x11\\x00\\x00\\x00\\x01\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x02\\x00\\x00\\x00\\x05\\x00\\x00\\x00self\\x00\\x01\\x00\\x00\\x00\\x10\\x00\\x00\\x00\\x07\\x00\\x00\\x00target\\x00\\x01\\x00\\x00\\x00\\x10\\x00\\x00\\x00\\x00\\x00\\x00\\x00",
+				},
+				"z" : 1,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Health",
+			"number" : 114,
+
+			"healthsub-sub-sub-block " :  {
+
+				"u0" : 1,
+				"u1" : 0,
+
+				"u2sub-sub-sub-sub-block " :  {
+
+					"x" : 0.0,
+					"y" : 50.0,
+				},
+			},
+		},
+
+		"positionsub-sub-block " :  {
+
+			"x position" : 0.0,
+			"y position" : 0.0,
+		},
+		"z position" : 0.0,
+		"rotation" : 0.0,
+		"scale" : 1.0,
+
+		"u0sub-sub-block " :  {
+
+			"w" : -32.70899963378906,
+			"x" : -34.29396057128906,
+			"y" : 64.53463745117188,
+			"z" : 62.28142547607422,
+		},
+		"hidden" : 0,
+	},
+	"u0" : 1.0,
+},
+
+"?itemblock " :  {
+
+
+	"?sub-itemsub-block " :  {
+
+		"name" : "npc_shopkeeper",
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Model",
+			"number" : 101,
+
+			"3D modelsub-sub-sub-block " :  {
+
+				"name" : "npc_shopkeeper",
+				"u0" : 2.356194496154785,
+				"u1" : 0.0,
+				"u2" : 0.0,
+
+				"u3sub-sub-sub-sub-block " :  {
+
+					"w" : 0.0,
+					"x" : 0.0,
+					"y" : 0.0,
+					"z" : 1.0,
+				},
+
+				"u4sub-sub-sub-sub-block " :  {
+
+					"x" : 0.0,
+					"y" : 0.0,
+					"z" : 0.0,
+				},
+				"u5" : 0,
+
+				"u6sub-sub-sub-sub-block " :  {
+
+					"w" : 1.0,
+					"x" : 1.0,
+					"y" : 1.0,
+					"z" : 1.0,
+				},
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "StaticMonsterController",
+			"number" : 103,
+
+			"monster controllersub-sub-sub-block " :  {
+
+				"u0" : 100.0,
+				"u1" : 106,
+				"u2" : 104,
+				"u3" : 0,
+			},
+
+			"static monster controllersub-sub-sub-block " :  {
+
+				"u0" : 105,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "MonsterEntity",
+			"number" : 104,
+
+			"entitysub-sub-sub-block " :  {
+
+				"u0" : 18446744073709551615,
+				"u1" : 1,
+			},
+
+			"?monster entitysub-sub-sub-block " :  {
+
+				"u0" : "",
+
+				"lua chunksub-sub-sub-sub-block " :  {
+
+				},
+				"u2" : 1,
+				"u3" : 1,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "KeyframeAnimation",
+			"number" : 105,
+
+			"keyframe animationsub-sub-sub-block " :  {
+
+				"linked model component number" : 101,
+				"name" : "npc_stand",
+				"u0" : 1,
+				"u1" : 0.5,
+				"u2" : 1,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "AnimationController",
+			"number" : 106,
+
+			"animation controllersub-sub-sub-block " :  {
+
+				"model component" : 101,
+				"u1" : 0,
+				"u2" : 0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "CollisionShape",
+			"number" : 108,
+
+			"collision shapesub-sub-sub-block " :  {
+
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"w" : -60.0,
+					"x" : -10.0,
+					"y" : 120.0,
+					"z" : 20.0,
+				},
+			},
+
+			"collision shape 2sub-sub-sub-block " :  {
+
+				"w" : -50.0,
+				"x" : 50.0,
+
+				"lua chunksub-sub-sub-sub-block " :  {
+
+					"main chunk" : "chunk >
+
+					=== lua =============
+					local self, target = ...;
+					
+					if target:identifier() == \"hero\" then
+						local text;
+					
+						if Entity.GetFacingDirection(target) == 1 then
+							text = \"Hello, I sell everything.\";
+						else
+							text = \"Come back later to see if there is anything new!\";
+						end
+					
+						ShowTextBubble(self:identifier() .. \"_bubble\", self:position() + Vector3.New(13, 27, 0), text);
+					end
+
+					=====================",
+					"secondary chunk" : "\\x1bLuaQ\\x00\\x01\\x04\\x04\\x04\\x08\\x00_\\x01\\x00\\x00local self, target = ...;\\r\\n\\r\\nif target:identifier() == \"hero\" then\\r\\n\\tlocal text;\\r\\n\\r\\n\\tif Entity.GetFacingDirection(target) == 1 then\\r\\n\\t\\ttext = \"Hello, I sell everything.\";\\r\\n\\telse\\r\\n\\t\\ttext = \"Come back later to see if there is anything new!\";\\r\\n\\tend\\r\\n\\r\\n\\tShowTextBubble(self:identifier() .. \"_bubble\", self:position() + Vector3.New(13, 27, 0), text);\\r\\nend\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x02\\n \\x00\\x00\\x00%\\x00\\x80\\x01\\x8b\\x00\\xc0\\x00\\x9c\\x80\\x00\\x01\\x17@@\\x01\\x16@\\x06\\x80\\x83\\x00\\x00\\x01\\xc5\\x80\\x00\\x00\\xc6\\xc0\\xc0\\x01\\x00\\x01\\x80\\x00\\xdc\\x80\\x00\\x01\\x17\\x00\\xc1\\x01\\x16@\\x00\\x80\\x81@\\x01\\x00\\x16\\x00\\x00\\x80\\x81\\x80\\x01\\x00\\xc5\\xc0\\x01\\x00\\x0b\\x01@\\x00\\x1c\\x81\\x00\\x01A\\x01\\x02\\x00\\x15A\\x01\\x02KAB\\x00\\\\\\x81\\x00\\x01\\x85\\x81\\x02\\x00\\x86\\xc1B\\x03\\xc1\\x01\\x03\\x00\\x01B\\x03\\x00A\\x82\\x03\\x00\\x9c\\x81\\x00\\x02L\\x81\\x81\\x02\\x80\\x01\\x00\\x01\\xdc@\\x00\\x02\\x1e\\x00\\x80\\x00\\x0f\\x00\\x00\\x00\\x04\\x0b\\x00\\x00\\x00identifier\\x00\\x04\\x05\\x00\\x00\\x00hero\\x00\\x04\\x07\\x00\\x00\\x00Entity\\x00\\x04\\x13\\x00\\x00\\x00GetFacingDirection\\x00\\x03\\x00\\x00\\x00\\x00\\x00\\x00\\xf0?\\x04\\x1a\\x00\\x00\\x00Hello, I sell everything.\\x00\\x041\\x00\\x00\\x00Come back later to see if there is anything new!\\x00\\x04\\x0f\\x00\\x00\\x00ShowTextBubble\\x00\\x04\\x08\\x00\\x00\\x00_bubble\\x00\\x04\\t\\x00\\x00\\x00position\\x00\\x04\\x08\\x00\\x00\\x00Vector3\\x00\\x04\\x04\\x00\\x00\\x00New\\x00\\x03\\x00\\x00\\x00\\x00\\x00\\x00*@\\x03\\x00\\x00\\x00\\x00\\x00\\x00;@\\x03\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00 \\x00\\x00\\x00\\x01\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x06\\x00\\x00\\x00\\x06\\x00\\x00\\x00\\x06\\x00\\x00\\x00\\x06\\x00\\x00\\x00\\x06\\x00\\x00\\x00\\x06\\x00\\x00\\x00\\x07\\x00\\x00\\x00\\x07\\x00\\x00\\x00\\t\\x00\\x00\\x00\\x0c\\x00\\x00\\x00\\x0c\\x00\\x00\\x00\\x0c\\x00\\x00\\x00\\x0c\\x00\\x00\\x00\\x0c\\x00\\x00\\x00\\x0c\\x00\\x00\\x00\\x0c\\x00\\x00\\x00\\x0c\\x00\\x00\\x00\\x0c\\x00\\x00\\x00\\x0c\\x00\\x00\\x00\\x0c\\x00\\x00\\x00\\x0c\\x00\\x00\\x00\\x0c\\x00\\x00\\x00\\x0c\\x00\\x00\\x00\\x0c\\x00\\x00\\x00\\x0c\\x00\\x00\\x00\\r\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x05\\x00\\x00\\x00self\\x00\\x01\\x00\\x00\\x00\\x1f\\x00\\x00\\x00\\x07\\x00\\x00\\x00target\\x00\\x01\\x00\\x00\\x00\\x1f\\x00\\x00\\x00\\x05\\x00\\x00\\x00text\\x00\\x06\\x00\\x00\\x00\\x1f\\x00\\x00\\x00\\x00\\x00\\x00\\x00",
+				},
+
+				"lua chunksub-sub-sub-sub-block " :  {
+
+					"main chunk" : "chunk >
+
+					=== lua =============
+					local self, target = ...;
+					
+					if target:identifier() == \"hero\" then
+						HideTextBubble(self:identifier() .. \"_bubble\");
+					end
+
+					=====================",
+					"secondary chunk" : "\\x1bLuaQ\\x00\\x01\\x04\\x04\\x04\\x08\\x00z\\x00\\x00\\x00local self, target = ...;\\r\\n\\r\\nif target:identifier() == \"hero\" then\\r\\n\\tHideTextBubble(self:identifier() .. \"_bubble\");\\r\\nend\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x02\\x05\\x0c\\x00\\x00\\x00%\\x00\\x80\\x01\\x8b\\x00\\xc0\\x00\\x9c\\x80\\x00\\x01\\x17@@\\x01\\x16@\\x01\\x80\\x85\\x80\\x00\\x00\\xcb\\x00@\\x00\\xdc\\x80\\x00\\x01\\x01\\xc1\\x00\\x00\\xd5\\x00\\x81\\x01\\x9c@\\x00\\x01\\x1e\\x00\\x80\\x00\\x04\\x00\\x00\\x00\\x04\\x0b\\x00\\x00\\x00identifier\\x00\\x04\\x05\\x00\\x00\\x00hero\\x00\\x04\\x0f\\x00\\x00\\x00HideTextBubble\\x00\\x04\\x08\\x00\\x00\\x00_bubble\\x00\\x00\\x00\\x00\\x00\\x0c\\x00\\x00\\x00\\x01\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x02\\x00\\x00\\x00\\x05\\x00\\x00\\x00self\\x00\\x01\\x00\\x00\\x00\\x0b\\x00\\x00\\x00\\x07\\x00\\x00\\x00target\\x00\\x01\\x00\\x00\\x00\\x0b\\x00\\x00\\x00\\x00\\x00\\x00\\x00",
+				},
+				"z" : 1,
+			},
+		},
+
+		"positionsub-sub-block " :  {
+
+			"x position" : 0.0,
+			"y position" : 0.0,
+		},
+		"z position" : 0.0,
+		"rotation" : 0.0,
+		"scale" : 1.0,
+
+		"u0sub-sub-block " :  {
+
+			"w" : -60.0,
+			"x" : -10.0,
+			"y" : 120.0,
+			"z" : 20.0,
+		},
+		"hidden" : 0,
+	},
+	"u0" : 1.0,
+},
+
+"?itemblock " :  {
+
+
+	"?sub-itemsub-block " :  {
+
+		"name" : "shop_item",
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Program",
+			"number" : 1,
+
+			"programsub-sub-sub-block " :  {
+
+				"u0" : 1,
+
+				"lua chunksub-sub-sub-sub-block " :  {
+
+					"main chunk" : "chunk >
+
+					=== lua =============
+					local self = ...;
+					
+					self[\"itemName\"] = \"healingpotion\";
+					self[\"itemPrice\"] = 50;
+					
+					CreateShopItem(self);
+
+					=====================",
+					"secondary chunk" : "\\x1bLuaQ\\x00\\x01\\x04\\x04\\x04\\x08\\x00k\\x00\\x00\\x00local self = ...;\\r\\n\\r\\nself[\"itemName\"] = \"healingpotion\";\\r\\nself[\"itemPrice\"] = 50;\\r\\n\\r\\nCreateShopItem(self);\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x02\\x03\\x07\\x00\\x00\\x00%\\x00\\x00\\x01\\t@@\\x80\\t\\xc0@\\x81E\\x00\\x01\\x00\\x80\\x00\\x00\\x00\\\\@\\x00\\x01\\x1e\\x00\\x80\\x00\\x05\\x00\\x00\\x00\\x04\\t\\x00\\x00\\x00itemName\\x00\\x04\\x0e\\x00\\x00\\x00healingpotion\\x00\\x04\\n\\x00\\x00\\x00itemPrice\\x00\\x03\\x00\\x00\\x00\\x00\\x00\\x00I@\\x04\\x0f\\x00\\x00\\x00CreateShopItem\\x00\\x00\\x00\\x00\\x00\\x07\\x00\\x00\\x00\\x01\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x06\\x00\\x00\\x00\\x06\\x00\\x00\\x00\\x06\\x00\\x00\\x00\\x06\\x00\\x00\\x00\\x01\\x00\\x00\\x00\\x05\\x00\\x00\\x00self\\x00\\x01\\x00\\x00\\x00\\x06\\x00\\x00\\x00\\x00\\x00\\x00\\x00",
+				},
+				"u1" : 1,
+				"u2" : 10,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "TransformController",
+			"number" : 2,
+			"name" : "for_reg",
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "ModelTransformController",
+			"number" : 3,
+			"name" : "for_reg",
+
+			"model transform controllersub-sub-sub-block " :  {
+
+				"u0" : 0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Program",
+			"number" : 5,
+			"name" : "buy",
+
+			"programsub-sub-sub-block " :  {
+
+				"u0" : 1,
+
+				"lua chunksub-sub-sub-sub-block " :  {
+
+					"main chunk" : "chunk >
+
+					=== lua =============
+					local self = ...;
+					
+					--if IsShopItemInfoVisible(self) then
+						HideShopItemInfo(self);
+					--end
+					
+					local itemName = self[\"itemName\"]
+					local itemPrice = self[\"itemPrice\"]
+					
+					local buyFailed = false;
+					local failMessage;
+					
+					if Game.IsItemUnique(itemName) and Character.HasItem(itemName) then
+					
+						buyFailed = true;
+						failMessage = \"You can only carry one \" .. Game.TitleForItem(itemName) .. \".\";
+					
+					elseif Character.NumCoins() < itemPrice then
+					
+						buyFailed = true;
+						failMessage = \"You don\'t have enough Soul Shards to buy this item.\";
+					
+					end
+					
+					
+					if not buyFailed then
+					
+						--Game.ShowItemBuyPopup(itemName, itemPrice, self);
+					
+						local hero = Scene.Find(\"hero\");
+						local direction = Entity.GetFacingDirection(hero);
+					
+						local itemObject = Scene.CreateObject(\"item_\" .. itemName, self:identifier() .. \"_\" .. itemName);
+						itemObject:setPosition(Vector3.New(self:position():x(), self:position():y() + 40, hero:depth()));
+						itemObject:setVelocity(Vector3.New(100 * direction, 330, 0));
+						
+						if self[\"itemIdentifier\"] then
+							CollectableItem.SetItemIdentifier(itemObject, self[\"itemIdentifier\"]);
+						end
+					
+					
+						if not boughtItemPrices then boughtItemPrices = {}; end --global variable
+						boughtItemPrices[itemObject:identifier()] = itemPrice;
+					
+					
+						DestroyShopItem(self);
+						self:destroy();
+						Character.SetNumCoins(Character.NumCoins() - itemPrice);
+					
+					else
+						CollisionShape.SetEnabled(self, 107, false);
+					
+						Game.ShowNotification(failMessage);
+						Program.Wait(4.0);
+					
+						CollisionShape.SetEnabled(self, 107, true);
+					end
+					
+
+					=====================",
+					"secondary chunk" : "\\x1bLuaQ\\x00\\x01\\x04\\x04\\x04\\x08\\x00\\xe1\\x05\\x00\\x00local self = ...;\\r\\n\\r\\n--if IsShopItemInfoVisible(self) then\\r\\n\\tHideShopItemInfo(self);\\r\\n--end\\r\\n\\r\\nlocal itemName = self[\"itemName\"]\\r\\nlocal itemPrice = self[\"itemPrice\"]\\r\\n\\r\\nlocal buyFailed = false;\\r\\nlocal failMessage;\\r\\n\\r\\nif Game.IsItemUnique(itemName) and Character.HasItem(itemName) then\\r\\n\\r\\n\\tbuyFailed = true;\\r\\n\\tfailMessage = \"You can only carry one \" .. Game.TitleForItem(itemName) .. \".\";\\r\\n\\r\\nelseif Character.NumCoins() < itemPrice then\\r\\n\\r\\n\\tbuyFailed = true;\\r\\n\\tfailMessage = \"You don\\\'t have enough Soul Shards to buy this item.\";\\r\\n\\r\\nend\\r\\n\\r\\n\\r\\nif not buyFailed then\\r\\n\\r\\n\\t--Game.ShowItemBuyPopup(itemName, itemPrice, self);\\r\\n\\r\\n\\tlocal hero = Scene.Find(\"hero\");\\r\\n\\tlocal direction = Entity.GetFacingDirection(hero);\\r\\n\\r\\n\\tlocal itemObject = Scene.CreateObject(\"item_\" .. itemName, self:identifier() .. \"_\" .. itemName);\\r\\n\\titemObject:setPosition(Vector3.New(self:position():x(), self:position():y() + 40, hero:depth()));\\r\\n\\titemObject:setVelocity(Vector3.New(100 * direction, 330, 0));\\r\\n\\t\\r\\n\\tif self[\"itemIdentifier\"] then\\r\\n\\t\\tCollectableItem.SetItemIdentifier(itemObject, self[\"itemIdentifier\"]);\\r\\n\\tend\\r\\n\\r\\n\\r\\n\\tif not boughtItemPrices then boughtItemPrices = {}; end --global variable\\r\\n\\tboughtItemPrices[itemObject:identifier()] = itemPrice;\\r\\n\\r\\n\\r\\n\\tDestroyShopItem(self);\\r\\n\\tself:destroy();\\r\\n\\tCharacter.SetNumCoins(Character.NumCoins() - itemPrice);\\r\\n\\r\\nelse\\r\\n\\tCollisionShape.SetEnabled(self, 107, false);\\r\\n\\r\\n\\tGame.ShowNotification(failMessage);\\r\\n\\tProgram.Wait(4.0);\\r\\n\\r\\n\\tCollisionShape.SetEnabled(self, 107, true);\\r\\nend\\r\\n\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x02\\x0f\\x84\\x00\\x00\\x00%\\x00\\x00\\x01E\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\\\@\\x00\\x01F@@\\x00\\x86\\x80@\\x00\\xc2\\x00\\x00\\x00\\x03\\x01\\x00\\x02E\\xc1\\x00\\x00F\\x01\\xc1\\x02\\x80\\x01\\x80\\x00\\\\\\x81\\x00\\x01Z\\x01\\x00\\x00\\x16\\x80\\x03\\x80EA\\x01\\x00F\\x81\\xc1\\x02\\x80\\x01\\x80\\x00\\\\\\x81\\x00\\x01Z\\x01\\x00\\x00\\x16\\x00\\x02\\x80\\xc2\\x00\\x80\\x00A\\xc1\\x01\\x00\\x85\\xc1\\x00\\x00\\x86\\x01B\\x03\\xc0\\x01\\x80\\x00\\x9c\\x81\\x00\\x01\\xc1A\\x02\\x00\\x15\\xc1\\x81\\x02\\x16\\x80\\x01\\x80EA\\x01\\x00F\\x81\\xc2\\x02\\\\\\x81\\x80\\x00\\x18\\x80\\x80\\x02\\x16@\\x00\\x80\\xc2\\x00\\x80\\x00\\x01\\xc1\\x02\\x00\\xda@\\x00\\x00\\x16\\x00\\x12\\x80E\\x01\\x03\\x00FA\\xc3\\x02\\x81\\x81\\x03\\x00\\\\\\x81\\x00\\x01\\x85\\xc1\\x03\\x00\\x86\\x01D\\x03\\xc0\\x01\\x80\\x02\\x9c\\x81\\x00\\x01\\xc5\\x01\\x03\\x00\\xc6A\\xc4\\x03\\x01\\x82\\x04\\x00@\\x02\\x80\\x00\\x15B\\x02\\x04K\\xc2D\\x00\\\\\\x82\\x00\\x01\\x81\\x02\\x05\\x00\\xc0\\x02\\x80\\x00U\\xc2\\x82\\x04\\xdc\\x81\\x80\\x01\\x0bB\\xc5\\x03\\x85\\x82\\x05\\x00\\x86\\xc2E\\x05\\xcb\\x02F\\x00\\xdc\\x82\\x00\\x01\\xcbB\\xc6\\x05\\xdc\\x82\\x00\\x01\\x0b\\x03F\\x00\\x1c\\x83\\x00\\x01\\x0b\\x83F\\x06\\x1c\\x83\\x00\\x01\\x0c\\xc3F\\x06K\\x03\\xc7\\x02\\\\\\x03\\x00\\x01\\x9c\\x02\\x00\\x00\\x1cB\\x00\\x00\\x0bB\\xc7\\x03\\x85\\x82\\x05\\x00\\x86\\xc2E\\x05\\xce\\x82\\x01\\x8f\\x01\\xc3\\x07\\x00A\\x03\\x08\\x00\\x9c\\x02\\x00\\x02\\x1cB\\x00\\x00\\x06BH\\x00\\x1a\\x02\\x00\\x00\\x16\\x00\\x01\\x80\\x05\\x82\\x08\\x00\\x06\\xc2H\\x04@\\x02\\x80\\x03\\x86BH\\x00\\x1cB\\x80\\x01\\x05\\x02\\t\\x00\\x1aB\\x00\\x00\\x16@\\x00\\x80\\n\\x02\\x00\\x00\\x07\\x02\\t\\x00\\x05\\x02\\t\\x00K\\xc2\\xc4\\x03\\\\\\x82\\x00\\x01\\t\\x82\\x80\\x04\\x05B\\t\\x00@\\x02\\x00\\x00\\x1cB\\x00\\x01\\x0b\\x82I\\x00\\x1cB\\x00\\x01\\x05B\\x01\\x00\\x06\\xc2I\\x04EB\\x01\\x00F\\x82\\xc2\\x04\\\\\\x82\\x80\\x00M\\x82\\x80\\x04\\x1cB\\x00\\x01\\x16\\xc0\\x04\\x80E\\x01\\n\\x00FA\\xca\\x02\\x80\\x01\\x00\\x00\\xc1\\x81\\n\\x00\\x02\\x02\\x00\\x00\\\\A\\x00\\x02E\\xc1\\x00\\x00F\\xc1\\xca\\x02\\x80\\x01\\x00\\x02\\\\A\\x00\\x01E\\x01\\x0b\\x00FA\\xcb\\x02\\x81\\x81\\x0b\\x00\\\\A\\x00\\x01E\\x01\\n\\x00FA\\xca\\x02\\x80\\x01\\x00\\x00\\xc1\\x81\\n\\x00\\x02\\x02\\x80\\x00\\\\A\\x00\\x02\\x1e\\x00\\x80\\x00/\\x00\\x00\\x00\\x04\\x11\\x00\\x00\\x00HideShopItemInfo\\x00\\x04\\t\\x00\\x00\\x00itemName\\x00\\x04\\n\\x00\\x00\\x00itemPrice\\x00\\x04\\x05\\x00\\x00\\x00Game\\x00\\x04\\r\\x00\\x00\\x00IsItemUnique\\x00\\x04\\n\\x00\\x00\\x00Character\\x00\\x04\\x08\\x00\\x00\\x00HasItem\\x00\\x04\\x18\\x00\\x00\\x00You can only carry one \\x00\\x04\\r\\x00\\x00\\x00TitleForItem\\x00\\x04\\x02\\x00\\x00\\x00.\\x00\\x04\\t\\x00\\x00\\x00NumCoins\\x00\\x044\\x00\\x00\\x00You don\\\'t have enough Soul Shards to buy this item.\\x00\\x04\\x06\\x00\\x00\\x00Scene\\x00\\x04\\x05\\x00\\x00\\x00Find\\x00\\x04\\x05\\x00\\x00\\x00hero\\x00\\x04\\x07\\x00\\x00\\x00Entity\\x00\\x04\\x13\\x00\\x00\\x00GetFacingDirection\\x00\\x04\\r\\x00\\x00\\x00CreateObject\\x00\\x04\\x06\\x00\\x00\\x00item_\\x00\\x04\\x0b\\x00\\x00\\x00identifier\\x00\\x04\\x02\\x00\\x00\\x00_\\x00\\x04\\x0c\\x00\\x00\\x00setPosition\\x00\\x04\\x08\\x00\\x00\\x00Vector3\\x00\\x04\\x04\\x00\\x00\\x00New\\x00\\x04\\t\\x00\\x00\\x00position\\x00\\x04\\x02\\x00\\x00\\x00x\\x00\\x04\\x02\\x00\\x00\\x00y\\x00\\x03\\x00\\x00\\x00\\x00\\x00\\x00D@\\x04\\x06\\x00\\x00\\x00depth\\x00\\x04\\x0c\\x00\\x00\\x00setVelocity\\x00\\x03\\x00\\x00\\x00\\x00\\x00\\x00Y@\\x03\\x00\\x00\\x00\\x00\\x00\\xa0t@\\x03\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x04\\x0f\\x00\\x00\\x00itemIdentifier\\x00\\x04\\x10\\x00\\x00\\x00CollectableItem\\x00\\x04\\x12\\x00\\x00\\x00SetItemIdentifier\\x00\\x04\\x11\\x00\\x00\\x00boughtItemPrices\\x00\\x04\\x10\\x00\\x00\\x00DestroyShopItem\\x00\\x04\\x08\\x00\\x00\\x00destroy\\x00\\x04\\x0c\\x00\\x00\\x00SetNumCoins\\x00\\x04\\x0f\\x00\\x00\\x00CollisionShape\\x00\\x04\\x0b\\x00\\x00\\x00SetEnabled\\x00\\x03\\x00\\x00\\x00\\x00\\x00\\xc0Z@\\x04\\x11\\x00\\x00\\x00ShowNotification\\x00\\x04\\x08\\x00\\x00\\x00Program\\x00\\x04\\x05\\x00\\x00\\x00Wait\\x00\\x03\\x00\\x00\\x00\\x00\\x00\\x00\\x10@\\x00\\x00\\x00\\x00\\x84\\x00\\x00\\x00\\x01\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x07\\x00\\x00\\x00\\x08\\x00\\x00\\x00\\n\\x00\\x00\\x00\\x0b\\x00\\x00\\x00\\r\\x00\\x00\\x00\\r\\x00\\x00\\x00\\r\\x00\\x00\\x00\\r\\x00\\x00\\x00\\r\\x00\\x00\\x00\\r\\x00\\x00\\x00\\r\\x00\\x00\\x00\\r\\x00\\x00\\x00\\r\\x00\\x00\\x00\\r\\x00\\x00\\x00\\r\\x00\\x00\\x00\\r\\x00\\x00\\x00\\x0f\\x00\\x00\\x00\\x10\\x00\\x00\\x00\\x10\\x00\\x00\\x00\\x10\\x00\\x00\\x00\\x10\\x00\\x00\\x00\\x10\\x00\\x00\\x00\\x10\\x00\\x00\\x00\\x10\\x00\\x00\\x00\\x10\\x00\\x00\\x00\\x12\\x00\\x00\\x00\\x12\\x00\\x00\\x00\\x12\\x00\\x00\\x00\\x12\\x00\\x00\\x00\\x12\\x00\\x00\\x00\\x14\\x00\\x00\\x00\\x15\\x00\\x00\\x00\\x1a\\x00\\x00\\x00\\x1a\\x00\\x00\\x00\\x1e\\x00\\x00\\x00\\x1e\\x00\\x00\\x00\\x1e\\x00\\x00\\x00\\x1e\\x00\\x00\\x00\\x1f\\x00\\x00\\x00\\x1f\\x00\\x00\\x00\\x1f\\x00\\x00\\x00\\x1f\\x00\\x00\\x00!\\x00\\x00\\x00!\\x00\\x00\\x00!\\x00\\x00\\x00!\\x00\\x00\\x00!\\x00\\x00\\x00!\\x00\\x00\\x00!\\x00\\x00\\x00!\\x00\\x00\\x00!\\x00\\x00\\x00!\\x00\\x00\\x00!\\x00\\x00\\x00\"\\x00\\x00\\x00\"\\x00\\x00\\x00\"\\x00\\x00\\x00\"\\x00\\x00\\x00\"\\x00\\x00\\x00\"\\x00\\x00\\x00\"\\x00\\x00\\x00\"\\x00\\x00\\x00\"\\x00\\x00\\x00\"\\x00\\x00\\x00\"\\x00\\x00\\x00\"\\x00\\x00\\x00\"\\x00\\x00\\x00\"\\x00\\x00\\x00\"\\x00\\x00\\x00\"\\x00\\x00\\x00#\\x00\\x00\\x00#\\x00\\x00\\x00#\\x00\\x00\\x00#\\x00\\x00\\x00#\\x00\\x00\\x00#\\x00\\x00\\x00#\\x00\\x00\\x00#\\x00\\x00\\x00%\\x00\\x00\\x00%\\x00\\x00\\x00%\\x00\\x00\\x00&\\x00\\x00\\x00&\\x00\\x00\\x00&\\x00\\x00\\x00&\\x00\\x00\\x00&\\x00\\x00\\x00*\\x00\\x00\\x00*\\x00\\x00\\x00*\\x00\\x00\\x00*\\x00\\x00\\x00*\\x00\\x00\\x00+\\x00\\x00\\x00+\\x00\\x00\\x00+\\x00\\x00\\x00+\\x00\\x00\\x00.\\x00\\x00\\x00.\\x00\\x00\\x00.\\x00\\x00\\x00/\\x00\\x00\\x00/\\x00\\x00\\x000\\x00\\x00\\x000\\x00\\x00\\x000\\x00\\x00\\x000\\x00\\x00\\x000\\x00\\x00\\x000\\x00\\x00\\x000\\x00\\x00\\x000\\x00\\x00\\x003\\x00\\x00\\x003\\x00\\x00\\x003\\x00\\x00\\x003\\x00\\x00\\x003\\x00\\x00\\x003\\x00\\x00\\x005\\x00\\x00\\x005\\x00\\x00\\x005\\x00\\x00\\x005\\x00\\x00\\x006\\x00\\x00\\x006\\x00\\x00\\x006\\x00\\x00\\x006\\x00\\x00\\x008\\x00\\x00\\x008\\x00\\x00\\x008\\x00\\x00\\x008\\x00\\x00\\x008\\x00\\x00\\x008\\x00\\x00\\x009\\x00\\x00\\x00\\x08\\x00\\x00\\x00\\x05\\x00\\x00\\x00self\\x00\\x01\\x00\\x00\\x00\\x83\\x00\\x00\\x00\\t\\x00\\x00\\x00itemName\\x00\\x05\\x00\\x00\\x00\\x83\\x00\\x00\\x00\\n\\x00\\x00\\x00itemPrice\\x00\\x06\\x00\\x00\\x00\\x83\\x00\\x00\\x00\\n\\x00\\x00\\x00buyFailed\\x00\\x07\\x00\\x00\\x00\\x83\\x00\\x00\\x00\\x0c\\x00\\x00\\x00failMessage\\x00\\x08\\x00\\x00\\x00\\x83\\x00\\x00\\x00\\x05\\x00\\x00\\x00hero\\x00*\\x00\\x00\\x00n\\x00\\x00\\x00\\n\\x00\\x00\\x00direction\\x00.\\x00\\x00\\x00n\\x00\\x00\\x00\\x0b\\x00\\x00\\x00itemObject\\x009\\x00\\x00\\x00n\\x00\\x00\\x00\\x00\\x00\\x00\\x00",
+				},
+				"u1" : 1,
+				"u2" : 2,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "CollisionShape",
+			"number" : 107,
+
+			"collision shapesub-sub-sub-block " :  {
+
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"w" : -40.0,
+					"x" : -80.0,
+					"y" : 80.0,
+					"z" : 93.73445129394531,
+				},
+			},
+
+			"collision shape 2sub-sub-sub-block " :  {
+
+				"w" : -200.0,
+				"x" : 200.0,
+				"y" : 4,
+
+				"lua chunksub-sub-sub-sub-block " :  {
+
+					"main chunk" : "chunk >
+
+					=== lua =============
+					local self, target = ...;
+					
+					if target:identifier() == \"hero\" then
+						ShowShopItemInfo(self);
+					end
+
+					=====================",
+					"secondary chunk" : "\\x1bLuaQ\\x00\\x01\\x04\\x04\\x04\\x08\\x00b\\x00\\x00\\x00local self, target = ...;\\r\\n\\r\\nif target:identifier() == \"hero\" then\\r\\n\\tShowShopItemInfo(self);\\r\\nend\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x02\\x04\\t\\x00\\x00\\x00%\\x00\\x80\\x01\\x8b\\x00\\xc0\\x00\\x9c\\x80\\x00\\x01\\x17@@\\x01\\x16\\x80\\x00\\x80\\x85\\x80\\x00\\x00\\xc0\\x00\\x00\\x00\\x9c@\\x00\\x01\\x1e\\x00\\x80\\x00\\x03\\x00\\x00\\x00\\x04\\x0b\\x00\\x00\\x00identifier\\x00\\x04\\x05\\x00\\x00\\x00hero\\x00\\x04\\x11\\x00\\x00\\x00ShowShopItemInfo\\x00\\x00\\x00\\x00\\x00\\t\\x00\\x00\\x00\\x01\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x02\\x00\\x00\\x00\\x05\\x00\\x00\\x00self\\x00\\x01\\x00\\x00\\x00\\x08\\x00\\x00\\x00\\x07\\x00\\x00\\x00target\\x00\\x01\\x00\\x00\\x00\\x08\\x00\\x00\\x00\\x00\\x00\\x00\\x00",
+				},
+
+				"lua chunksub-sub-sub-sub-block " :  {
+
+					"main chunk" : "chunk >
+
+					=== lua =============
+					local self, target = ...;
+					
+					if target:identifier() == \"hero\" then
+						HideShopItemInfo(self);
+					end
+
+					=====================",
+					"secondary chunk" : "\\x1bLuaQ\\x00\\x01\\x04\\x04\\x04\\x08\\x00b\\x00\\x00\\x00local self, target = ...;\\r\\n\\r\\nif target:identifier() == \"hero\" then\\r\\n\\tHideShopItemInfo(self);\\r\\nend\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x02\\x04\\t\\x00\\x00\\x00%\\x00\\x80\\x01\\x8b\\x00\\xc0\\x00\\x9c\\x80\\x00\\x01\\x17@@\\x01\\x16\\x80\\x00\\x80\\x85\\x80\\x00\\x00\\xc0\\x00\\x00\\x00\\x9c@\\x00\\x01\\x1e\\x00\\x80\\x00\\x03\\x00\\x00\\x00\\x04\\x0b\\x00\\x00\\x00identifier\\x00\\x04\\x05\\x00\\x00\\x00hero\\x00\\x04\\x11\\x00\\x00\\x00HideShopItemInfo\\x00\\x00\\x00\\x00\\x00\\t\\x00\\x00\\x00\\x01\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x02\\x00\\x00\\x00\\x05\\x00\\x00\\x00self\\x00\\x01\\x00\\x00\\x00\\x08\\x00\\x00\\x00\\x07\\x00\\x00\\x00target\\x00\\x01\\x00\\x00\\x00\\x08\\x00\\x00\\x00\\x00\\x00\\x00\\x00",
+				},
+				"z" : 1,
+			},
+		},
+
+		"positionsub-sub-block " :  {
+
+			"x position" : 0.0,
+			"y position" : 0.0,
+		},
+		"z position" : 0.0,
+		"rotation" : 0.0,
+		"scale" : 1.0,
+
+		"u0sub-sub-block " :  {
+
+			"w" : -40.0,
+			"x" : -80.0,
+			"y" : 80.0,
+			"z" : 93.73445129394531,
+		},
+		"hidden" : 0,
+	},
+	"u0" : 1.0,
+},
+
+"?itemblock " :  {
+
+
+	"?sub-itemsub-block " :  {
+
+		"name" : "shop_torch",
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Model",
+			"number" : 1,
+
+			"3D modelsub-sub-sub-block " :  {
+
+				"name" : "grove_torch",
+				"u0" : 0.0,
+				"u1" : 0.5,
+				"u2" : 0.0,
+
+				"u3sub-sub-sub-sub-block " :  {
+
+					"w" : 0.0,
+					"x" : 0.0,
+					"y" : 0.0,
+					"z" : 1.0,
+				},
+
+				"u4sub-sub-sub-sub-block " :  {
+
+					"x" : 0.0,
+					"y" : 0.0,
+					"z" : 0.0,
+				},
+				"u5" : 0,
+
+				"u6sub-sub-sub-sub-block " :  {
+
+					"w" : 1.0,
+					"x" : 1.0,
+					"y" : 1.0,
+					"z" : 1.0,
+				},
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "SimpleGlow",
+			"number" : 2,
+
+			"simple glowsub-sub-sub-block " :  {
+
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"w" : 1.0,
+					"x" : 0.6711111664772034,
+					"y" : 0.17777776718139648,
+					"z" : 0.0,
+				},
+				"u1" : 11.0,
+				"u2" : 10,
+				"u3" : 0.0,
+				"u4" : 0.05000000074505806,
+				"u5" : 2.0,
+
+				"u6sub-sub-sub-sub-block " :  {
+
+					"y" : 0.0,
+					"z" : 6.0,
+				},
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "SimpleGlow",
+			"number" : 3,
+
+			"simple glowsub-sub-sub-block " :  {
+
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"w" : 0.22962965071201324,
+					"x" : 0.13728395104408264,
+					"y" : 0.10370369255542755,
+					"z" : 0.0,
+				},
+				"u1" : 30.0,
+				"u2" : 10,
+				"u3" : 15.0,
+				"u4" : 0.15000000596046448,
+				"u5" : 1.0,
+
+				"u6sub-sub-sub-sub-block " :  {
+
+					"y" : 0.0,
+					"z" : 13.0,
+				},
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Light",
+			"number" : 103,
+
+			"lightsub-sub-sub-block " :  {
+
+				"u0" : 3,
+				"u1" : 2.0,
+
+				"u2sub-sub-sub-sub-block " :  {
+
+					"w" : 0.8696296215057373,
+					"x" : 0.48720991611480713,
+					"y" : 0.15259265899658203,
+					"z" : 1.0,
+				},
+				"u3" : 0.0,
+				"u4" : 0.00019999999494757503,
+
+				"u5sub-sub-sub-sub-block " :  {
+
+					"x" : 0.0,
+					"y" : 0.0,
+					"z" : 0.0,
+				},
+				"u6" : 250.0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "FireEmitter",
+			"number" : 105,
+
+			"fire emittersub-sub-sub-block " :  {
+
+				"temp0" : 108,
+				"temp1" : 103,
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"w" : 0.9444444179534912,
+					"x" : 0.2518514096736908,
+					"y" : 0.0,
+					"z" : 0.0,
+				},
+				"u1" : 0.10000000149011612,
+				"u2" : 0.8999999761581421,
+
+				"u3sub-sub-sub-sub-block " :  {
+
+					"x" : 2.0,
+					"y" : 0.0,
+					"z" : 0.0,
+				},
+
+				"u4sub-sub-sub-sub-block " :  {
+
+					"x" : 0.0,
+					"y" : 0.0,
+					"z" : 0.0,
+				},
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "ParticleEmitter",
+			"number" : 108,
+
+			"particle emittersub-sub-sub-block " :  {
+
+				"particle" : 109,
+				"particle" : 111,
+				"particle" : 112,
+				"u1" : 0,
+				"u2" : 30,
+				"u3" : 0,
+				"u4" : 0,
+				"u6" : 0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Particle",
+			"number" : 109,
+
+			"particlesub-sub-sub-block " :  {
+
+				"name" : "particle_fure_1",
+				"u0" : 20.0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Particle",
+			"number" : 111,
+
+			"particlesub-sub-sub-block " :  {
+
+				"name" : "particle_fure_2",
+				"u0" : 22.0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Particle",
+			"number" : 112,
+
+			"particlesub-sub-sub-block " :  {
+
+				"name" : "particle_fure_3",
+				"u0" : 20.0,
+			},
+		},
+
+		"positionsub-sub-block " :  {
+
+			"x position" : 0.0,
+			"y position" : 0.0,
+		},
+		"z position" : 0.0,
+		"rotation" : 0.0,
+		"scale" : 1.0,
+
+		"u0sub-sub-block " :  {
+
+			"w" : -50.0,
+			"x" : -50.0,
+			"y" : 100.0,
+			"z" : 100.0,
+		},
+		"hidden" : 0,
+	},
+	"u0" : 1.0,
+},
+
+"?itemblock " :  {
+
+
+	"?sub-itemsub-block " :  {
+
+		"name" : "walkingmonsteroldman",
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Model",
+			"number" : 101,
+
+			"3D modelsub-sub-sub-block " :  {
+
+				"name" : "npc_oldman1",
+				"u0" : 1.5707963705062866,
+				"u1" : 0.0,
+				"u2" : 0.0,
+
+				"u3sub-sub-sub-sub-block " :  {
+
+					"w" : 0.0,
+					"x" : 0.0,
+					"y" : 0.0,
+					"z" : 1.0,
+				},
+
+				"u4sub-sub-sub-sub-block " :  {
+
+					"x" : 0.0,
+					"y" : 0.0,
+					"z" : 0.0,
+				},
+				"u5" : 0,
+
+				"u6sub-sub-sub-sub-block " :  {
+
+					"w" : 1.0,
+					"x" : 1.0,
+					"y" : 1.0,
+					"z" : 1.0,
+				},
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "KeyframeAnimation",
+			"number" : 103,
+
+			"keyframe animationsub-sub-sub-block " :  {
+
+				"linked model component number" : 101,
+				"name" : "npc_oldman_walk",
+				"u0" : 1,
+				"u1" : 0.6000000238418579,
+				"u2" : 1,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "WalkingMonsterController",
+			"number" : 105,
+
+			"monster controllersub-sub-sub-block " :  {
+
+				"u0" : 17.0,
+				"u1" : 109,
+				"u2" : 107,
+				"u3" : 0,
+			},
+
+			"walking monster controllersub-sub-sub-block " :  {
+
+				"walk animation" : 103,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "MonsterEntity",
+			"number" : 107,
+
+			"entitysub-sub-sub-block " :  {
+
+				"u0" : 18446744073709551615,
+				"u1" : 1,
+			},
+
+			"?monster entitysub-sub-sub-block " :  {
+
+				"u0" : "",
+
+				"lua chunksub-sub-sub-sub-block " :  {
+
+				},
+				"u2" : 1,
+				"u3" : 1,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "AnimationController",
+			"number" : 109,
+
+			"animation controllersub-sub-sub-block " :  {
+
+				"model component" : 101,
+				"u1" : 0,
+				"u2" : 0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "CollisionShape",
+			"number" : 111,
+
+			"collision shapesub-sub-sub-block " :  {
+
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"w" : -32.70899963378906,
+					"x" : -34.29396057128906,
+					"y" : 64.53463745117188,
+					"z" : 62.28142547607422,
+				},
+			},
+
+			"collision shape 2sub-sub-sub-block " :  {
+
+				"u1" : 1,
+				"u2" : 1,
+				"w" : -15.0,
+				"x" : 15.0,
+				"z" : 1,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Health",
+			"number" : 114,
+
+			"healthsub-sub-sub-block " :  {
+
+				"u0" : 1,
+				"u1" : 0,
+
+				"u2sub-sub-sub-sub-block " :  {
+
+					"x" : 0.0,
+					"y" : 50.0,
+				},
+			},
+		},
+
+		"positionsub-sub-block " :  {
+
+			"x position" : 0.0,
+			"y position" : 0.0,
+		},
+		"z position" : 0.0,
+		"rotation" : 0.0,
+		"scale" : 1.0,
+
+		"u0sub-sub-block " :  {
+
+			"w" : -32.70899963378906,
+			"x" : -34.29396057128906,
+			"y" : 64.53463745117188,
+			"z" : 62.28142547607422,
+		},
+		"hidden" : 0,
+	},
+	"u0" : 1.0,
+},
+
+}

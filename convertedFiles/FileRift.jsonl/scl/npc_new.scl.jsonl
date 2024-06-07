@@ -1,0 +1,808 @@
+data = {
+"scl file name" : "npc_new",
+
+"?itemblock " :  {
+
+
+	"?sub-itemsub-block " :  {
+
+		"name" : "npc_male_stopping_template",
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Model",
+			"number" : 101,
+
+			"3D modelsub-sub-sub-block " :  {
+
+				"name" : "npc_male1",
+				"u0" : 1.5707963705062866,
+				"u1" : 0.0,
+				"u2" : 0.0,
+
+				"u3sub-sub-sub-sub-block " :  {
+
+					"w" : 0.0,
+					"x" : 0.0,
+					"y" : 0.0,
+					"z" : 1.0,
+				},
+
+				"u4sub-sub-sub-sub-block " :  {
+
+					"x" : 0.0,
+					"y" : 0.0,
+					"z" : 0.0,
+				},
+				"u5" : 0,
+
+				"u6sub-sub-sub-sub-block " :  {
+
+					"w" : 1.0,
+					"x" : 1.0,
+					"y" : 1.0,
+					"z" : 1.0,
+				},
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "AnimationController",
+			"number" : 103,
+
+			"animation controllersub-sub-sub-block " :  {
+
+				"model component" : 101,
+				"u1" : 0,
+				"u2" : 0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "KeyframeAnimation",
+			"number" : 104,
+
+			"keyframe animationsub-sub-sub-block " :  {
+
+				"linked model component number" : 101,
+				"name" : "npc_walk_slow",
+				"u0" : 1,
+				"u1" : 2.200000047683716,
+				"u2" : 1,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "MonsterEntity",
+			"number" : 105,
+
+			"entitysub-sub-sub-block " :  {
+
+				"u0" : 18446744073709551615,
+				"u1" : 1,
+			},
+
+			"?monster entitysub-sub-sub-block " :  {
+
+				"u0" : "",
+
+				"lua chunksub-sub-sub-sub-block " :  {
+
+				},
+				"u2" : 1,
+				"u3" : 1,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "CollisionShape",
+			"number" : 107,
+
+			"collision shapesub-sub-sub-block " :  {
+
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"w" : -8.0,
+					"x" : -33.81779098510742,
+					"y" : 16.0,
+					"z" : 61.80525588989258,
+				},
+			},
+
+			"collision shape 2sub-sub-sub-block " :  {
+
+				"u1" : 1,
+				"w" : -80.0,
+				"x" : 80.0,
+
+				"lua chunksub-sub-sub-sub-block " :  {
+
+					"main chunk" : "chunk >
+
+					=== lua =============
+					local self, target = ...;
+					
+					if target:identifier() == \"hero\" and EntityController.IsIdle(self) then
+					
+						EntityController.PerformAction(self, 114);
+					
+					end
+					
+
+					=====================",
+					"secondary chunk" : "\\x1bLuaQ\\x00\\x01\\x04\\x04\\x04\\x08\\x00\\x9d\\x00\\x00\\x00local self, target = ...;\\r\\n\\r\\nif target:identifier() == \"hero\" and EntityController.IsIdle(self) then\\r\\n\\r\\n\\tEntityController.PerformAction(self, 114);\\r\\n\\r\\nend\\r\\n\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x02\\x05\\x11\\x00\\x00\\x00%\\x00\\x80\\x01\\x8b\\x00\\xc0\\x00\\x9c\\x80\\x00\\x01\\x17@@\\x01\\x16\\x80\\x02\\x80\\x85\\x80\\x00\\x00\\x86\\xc0@\\x01\\xc0\\x00\\x00\\x00\\x9c\\x80\\x00\\x01\\x9a\\x00\\x00\\x00\\x16\\x00\\x01\\x80\\x85\\x80\\x00\\x00\\x86\\x00A\\x01\\xc0\\x00\\x00\\x00\\x01A\\x01\\x00\\x9c@\\x80\\x01\\x1e\\x00\\x80\\x00\\x06\\x00\\x00\\x00\\x04\\x0b\\x00\\x00\\x00identifier\\x00\\x04\\x05\\x00\\x00\\x00hero\\x00\\x04\\x11\\x00\\x00\\x00EntityController\\x00\\x04\\x07\\x00\\x00\\x00IsIdle\\x00\\x04\\x0e\\x00\\x00\\x00PerformAction\\x00\\x03\\x00\\x00\\x00\\x00\\x00\\x80\\\\@\\x00\\x00\\x00\\x00\\x11\\x00\\x00\\x00\\x01\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x07\\x00\\x00\\x00\\x02\\x00\\x00\\x00\\x05\\x00\\x00\\x00self\\x00\\x01\\x00\\x00\\x00\\x10\\x00\\x00\\x00\\x07\\x00\\x00\\x00target\\x00\\x01\\x00\\x00\\x00\\x10\\x00\\x00\\x00\\x00\\x00\\x00\\x00",
+				},
+				"z" : 1,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "EntityController",
+			"number" : 111,
+
+			"entity controllersub-sub-sub-block " :  {
+
+				"entity component" : 105,
+				"animation controller component" : 103,
+				"u2" : 104,
+				"collision shape" : 112,
+				"u4" : 30.0,
+				"u5" : 800.0,
+				"u6" : 0.0,
+				"u7" : 2,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "UtilityShape",
+			"number" : 112,
+
+			"collision shapesub-sub-sub-block " :  {
+
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"w" : -200.0,
+					"x" : -100.0,
+					"y" : 400.0,
+					"z" : 200.0,
+				},
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "EntityAction",
+			"number" : 114,
+
+			"entity actionsub-sub-sub-block " :  {
+
+
+				"lua chunksub-sub-sub-sub-block " :  {
+
+					"main chunk" : "chunk >
+
+					=== lua =============
+					local self = ...;
+					
+					local standAnimation = 115;
+					
+					
+					EntityController.SetMoveSpeed(self, 0);
+					KeyframeAnimation.SetCurrentTime(self, standAnimation, 0.4);
+					AnimationController.BlendToAnimation(self, standAnimation);
+					
+					ModelTransformController.SetRotationSpeed(self, EntityController.FacingDirection(self)*-360);
+					
+					local text = self[\"texts\"][Math.RandomInt(1,#self[\"texts\"])];
+					
+					local bubble = ShowTextBubble(self:identifier()..\"_bubble\", self:position() + Vector3.New(0, 40, 0), text);
+					
+					Program.Wait(0.25);
+					
+					ModelTransformController.SetRotationSpeed(self, 0);
+					
+					Program.Wait(0.2);
+					
+						
+					local time = 0;
+					local interval = 0.01;
+					while time < 2 do
+						bubble:setPosition(self:position() + Vector3.New(0, 40, 0));
+						Program.Wait(interval);
+						time = time + interval;
+					end
+						
+					HideTextBubble(bubble:identifier());
+					self[\"bubbleActive\"] = false;
+					
+					Program.Wait(0.4);
+					
+					ModelTransformController.SetRotationAngle(self, 0);
+					
+					EntityController.SetMoveSpeed(self, EntityController.DefaultMoveSpeed(self));
+					
+
+					=====================",
+					"secondary chunk" : "\\x1bLuaQ\\x00\\x01\\x04\\x04\\x04\\x08\\x00\\xef\\x03\\x00\\x00local self = ...;\\r\\n\\r\\nlocal standAnimation = 115;\\r\\n\\r\\n\\r\\nEntityController.SetMoveSpeed(self, 0);\\r\\nKeyframeAnimation.SetCurrentTime(self, standAnimation, 0.4);\\r\\nAnimationController.BlendToAnimation(self, standAnimation);\\r\\n\\r\\nModelTransformController.SetRotationSpeed(self, EntityController.FacingDirection(self)*-360);\\r\\n\\r\\nlocal text = self[\"texts\"][Math.RandomInt(1,#self[\"texts\"])];\\r\\n\\r\\nlocal bubble = ShowTextBubble(self:identifier()..\"_bubble\", self:position() + Vector3.New(0, 40, 0), text);\\r\\n\\r\\nProgram.Wait(0.25);\\r\\n\\r\\nModelTransformController.SetRotationSpeed(self, 0);\\r\\n\\r\\nProgram.Wait(0.2);\\r\\n\\r\\n\\t\\r\\nlocal time = 0;\\r\\nlocal interval = 0.01;\\r\\nwhile time < 2 do\\r\\n\\tbubble:setPosition(self:position() + Vector3.New(0, 40, 0));\\r\\n\\tProgram.Wait(interval);\\r\\n\\ttime = time + interval;\\r\\nend\\r\\n\\t\\r\\nHideTextBubble(bubble:identifier());\\r\\nself[\"bubbleActive\"] = false;\\r\\n\\r\\nProgram.Wait(0.4);\\r\\n\\r\\nModelTransformController.SetRotationAngle(self, 0);\\r\\n\\r\\nEntityController.SetMoveSpeed(self, EntityController.DefaultMoveSpeed(self));\\r\\n\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x02\\rl\\x00\\x00\\x00%\\x00\\x00\\x01A\\x00\\x00\\x00\\x85@\\x00\\x00\\x86\\x80@\\x01\\xc0\\x00\\x00\\x00\\x01\\xc1\\x00\\x00\\x9c@\\x80\\x01\\x85\\x00\\x01\\x00\\x86@A\\x01\\xc0\\x00\\x00\\x00\\x00\\x01\\x80\\x00A\\x81\\x01\\x00\\x9c@\\x00\\x02\\x85\\xc0\\x01\\x00\\x86\\x00B\\x01\\xc0\\x00\\x00\\x00\\x00\\x01\\x80\\x00\\x9c@\\x80\\x01\\x85@\\x02\\x00\\x86\\x80B\\x01\\xc0\\x00\\x00\\x00\\x05A\\x00\\x00\\x06\\xc1B\\x02@\\x01\\x00\\x00\\x1c\\x81\\x00\\x01\\x0e\\x01C\\x02\\x9c@\\x80\\x01\\x86@C\\x00\\xc5\\x80\\x03\\x00\\xc6\\xc0\\xc3\\x01\\x01\\x01\\x04\\x00FAC\\x00T\\x01\\x80\\x02\\xdc\\x80\\x80\\x01\\x86\\xc0\\x00\\x01\\xc5@\\x04\\x00\\x0b\\x81D\\x00\\x1c\\x81\\x00\\x01A\\xc1\\x04\\x00\\x15A\\x01\\x02K\\x01E\\x00\\\\\\x81\\x00\\x01\\x85A\\x05\\x00\\x86\\x81E\\x03\\xc1\\xc1\\x00\\x00\\x01\\xc2\\x05\\x00A\\xc2\\x00\\x00\\x9c\\x81\\x00\\x02L\\x81\\x81\\x02\\x80\\x01\\x00\\x01\\xdc\\x80\\x00\\x02\\x05\\x01\\x06\\x00\\x06AF\\x02A\\x81\\x06\\x00\\x1cA\\x00\\x01\\x05A\\x02\\x00\\x06\\x81B\\x02@\\x01\\x00\\x00\\x81\\xc1\\x00\\x00\\x1cA\\x80\\x01\\x05\\x01\\x06\\x00\\x06AF\\x02A\\xc1\\x06\\x00\\x1cA\\x00\\x01\\x01\\xc1\\x00\\x00A\\x01\\x07\\x00\\x18@G\\x02\\x16\\x00\\x04\\x80\\x8b\\x81\\xc7\\x01\\x0b\\x02E\\x00\\x1c\\x82\\x00\\x01EB\\x05\\x00F\\x82\\xc5\\x04\\x81\\xc2\\x00\\x00\\xc1\\xc2\\x05\\x00\\x01\\xc3\\x00\\x00\\\\\\x82\\x00\\x02\\x0cB\\x02\\x04\\x9cA\\x80\\x01\\x85\\x01\\x06\\x00\\x86AF\\x03\\xc0\\x01\\x80\\x02\\x9cA\\x00\\x01\\x0cA\\x01\\x02\\x16\\x00\\xfb\\x7f\\x85\\xc1\\x07\\x00\\xcb\\x81\\xc4\\x01\\xdc\\x01\\x00\\x01\\x9cA\\x00\\x00\\t@H\\x90\\x85\\x01\\x06\\x00\\x86AF\\x03\\xc1\\x81\\x01\\x00\\x9cA\\x00\\x01\\x85A\\x02\\x00\\x86\\x81H\\x03\\xc0\\x01\\x00\\x00\\x01\\xc2\\x00\\x00\\x9cA\\x80\\x01\\x85A\\x00\\x00\\x86\\x81@\\x03\\xc0\\x01\\x00\\x00\\x05B\\x00\\x00\\x06\\xc2H\\x04@\\x02\\x00\\x00\\x1c\\x02\\x00\\x01\\x9cA\\x00\\x00\\x1e\\x00\\x80\\x00$\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x00\\x00\\xc0\\\\@\\x04\\x11\\x00\\x00\\x00EntityController\\x00\\x04\\r\\x00\\x00\\x00SetMoveSpeed\\x00\\x03\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x04\\x12\\x00\\x00\\x00KeyframeAnimation\\x00\\x04\\x0f\\x00\\x00\\x00SetCurrentTime\\x00\\x03\\x9a\\x99\\x99\\x99\\x99\\x99\\xd9?\\x04\\x14\\x00\\x00\\x00AnimationController\\x00\\x04\\x11\\x00\\x00\\x00BlendToAnimation\\x00\\x04\\x19\\x00\\x00\\x00ModelTransformController\\x00\\x04\\x11\\x00\\x00\\x00SetRotationSpeed\\x00\\x04\\x10\\x00\\x00\\x00FacingDirection\\x00\\x03\\x00\\x00\\x00\\x00\\x00\\x80v\\xc0\\x04\\x06\\x00\\x00\\x00texts\\x00\\x04\\x05\\x00\\x00\\x00Math\\x00\\x04\\n\\x00\\x00\\x00RandomInt\\x00\\x03\\x00\\x00\\x00\\x00\\x00\\x00\\xf0?\\x04\\x0f\\x00\\x00\\x00ShowTextBubble\\x00\\x04\\x0b\\x00\\x00\\x00identifier\\x00\\x04\\x08\\x00\\x00\\x00_bubble\\x00\\x04\\t\\x00\\x00\\x00position\\x00\\x04\\x08\\x00\\x00\\x00Vector3\\x00\\x04\\x04\\x00\\x00\\x00New\\x00\\x03\\x00\\x00\\x00\\x00\\x00\\x00D@\\x04\\x08\\x00\\x00\\x00Program\\x00\\x04\\x05\\x00\\x00\\x00Wait\\x00\\x03\\x00\\x00\\x00\\x00\\x00\\x00\\xd0?\\x03\\x9a\\x99\\x99\\x99\\x99\\x99\\xc9?\\x03{\\x14\\xaeG\\xe1z\\x84?\\x03\\x00\\x00\\x00\\x00\\x00\\x00\\x00@\\x04\\x0c\\x00\\x00\\x00setPosition\\x00\\x04\\x0f\\x00\\x00\\x00HideTextBubble\\x00\\x04\\r\\x00\\x00\\x00bubbleActive\\x00\\x01\\x00\\x04\\x11\\x00\\x00\\x00SetRotationAngle\\x00\\x04\\x11\\x00\\x00\\x00DefaultMoveSpeed\\x00\\x00\\x00\\x00\\x00l\\x00\\x00\\x00\\x01\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x06\\x00\\x00\\x00\\x06\\x00\\x00\\x00\\x06\\x00\\x00\\x00\\x06\\x00\\x00\\x00\\x06\\x00\\x00\\x00\\x07\\x00\\x00\\x00\\x07\\x00\\x00\\x00\\x07\\x00\\x00\\x00\\x07\\x00\\x00\\x00\\x07\\x00\\x00\\x00\\x07\\x00\\x00\\x00\\x08\\x00\\x00\\x00\\x08\\x00\\x00\\x00\\x08\\x00\\x00\\x00\\x08\\x00\\x00\\x00\\x08\\x00\\x00\\x00\\n\\x00\\x00\\x00\\n\\x00\\x00\\x00\\n\\x00\\x00\\x00\\n\\x00\\x00\\x00\\n\\x00\\x00\\x00\\n\\x00\\x00\\x00\\n\\x00\\x00\\x00\\n\\x00\\x00\\x00\\n\\x00\\x00\\x00\\x0c\\x00\\x00\\x00\\x0c\\x00\\x00\\x00\\x0c\\x00\\x00\\x00\\x0c\\x00\\x00\\x00\\x0c\\x00\\x00\\x00\\x0c\\x00\\x00\\x00\\x0c\\x00\\x00\\x00\\x0c\\x00\\x00\\x00\\x0e\\x00\\x00\\x00\\x0e\\x00\\x00\\x00\\x0e\\x00\\x00\\x00\\x0e\\x00\\x00\\x00\\x0e\\x00\\x00\\x00\\x0e\\x00\\x00\\x00\\x0e\\x00\\x00\\x00\\x0e\\x00\\x00\\x00\\x0e\\x00\\x00\\x00\\x0e\\x00\\x00\\x00\\x0e\\x00\\x00\\x00\\x0e\\x00\\x00\\x00\\x0e\\x00\\x00\\x00\\x0e\\x00\\x00\\x00\\x0e\\x00\\x00\\x00\\x0e\\x00\\x00\\x00\\x10\\x00\\x00\\x00\\x10\\x00\\x00\\x00\\x10\\x00\\x00\\x00\\x10\\x00\\x00\\x00\\x12\\x00\\x00\\x00\\x12\\x00\\x00\\x00\\x12\\x00\\x00\\x00\\x12\\x00\\x00\\x00\\x12\\x00\\x00\\x00\\x14\\x00\\x00\\x00\\x14\\x00\\x00\\x00\\x14\\x00\\x00\\x00\\x14\\x00\\x00\\x00\\x17\\x00\\x00\\x00\\x18\\x00\\x00\\x00\\x19\\x00\\x00\\x00\\x19\\x00\\x00\\x00\\x1a\\x00\\x00\\x00\\x1a\\x00\\x00\\x00\\x1a\\x00\\x00\\x00\\x1a\\x00\\x00\\x00\\x1a\\x00\\x00\\x00\\x1a\\x00\\x00\\x00\\x1a\\x00\\x00\\x00\\x1a\\x00\\x00\\x00\\x1a\\x00\\x00\\x00\\x1a\\x00\\x00\\x00\\x1a\\x00\\x00\\x00\\x1b\\x00\\x00\\x00\\x1b\\x00\\x00\\x00\\x1b\\x00\\x00\\x00\\x1b\\x00\\x00\\x00\\x1c\\x00\\x00\\x00\\x1c\\x00\\x00\\x00\\x1f\\x00\\x00\\x00\\x1f\\x00\\x00\\x00\\x1f\\x00\\x00\\x00\\x1f\\x00\\x00\\x00 \\x00\\x00\\x00\"\\x00\\x00\\x00\"\\x00\\x00\\x00\"\\x00\\x00\\x00\"\\x00\\x00\\x00$\\x00\\x00\\x00$\\x00\\x00\\x00$\\x00\\x00\\x00$\\x00\\x00\\x00$\\x00\\x00\\x00&\\x00\\x00\\x00&\\x00\\x00\\x00&\\x00\\x00\\x00&\\x00\\x00\\x00&\\x00\\x00\\x00&\\x00\\x00\\x00&\\x00\\x00\\x00&\\x00\\x00\\x00&\\x00\\x00\\x00\\x06\\x00\\x00\\x00\\x05\\x00\\x00\\x00self\\x00\\x01\\x00\\x00\\x00k\\x00\\x00\\x00\\x0f\\x00\\x00\\x00standAnimation\\x00\\x02\\x00\\x00\\x00k\\x00\\x00\\x00\\x05\\x00\\x00\\x00text\\x00#\\x00\\x00\\x00k\\x00\\x00\\x00\\x07\\x00\\x00\\x00bubble\\x003\\x00\\x00\\x00k\\x00\\x00\\x00\\x05\\x00\\x00\\x00time\\x00A\\x00\\x00\\x00k\\x00\\x00\\x00\\t\\x00\\x00\\x00interval\\x00B\\x00\\x00\\x00k\\x00\\x00\\x00\\x00\\x00\\x00\\x00",
+				},
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "KeyframeAnimation",
+			"number" : 115,
+
+			"keyframe animationsub-sub-sub-block " :  {
+
+				"linked model component number" : 101,
+				"name" : "npc_stand",
+				"u0" : 1,
+				"u1" : 1.0,
+				"u2" : 1,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "ModelTransformController",
+			"number" : 116,
+
+			"model transform controllersub-sub-sub-block " :  {
+
+				"u0" : 101,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Program",
+			"number" : 117,
+
+			"programsub-sub-sub-block " :  {
+
+				"u0" : 1,
+
+				"lua chunksub-sub-sub-sub-block " :  {
+
+					"main chunk" : "chunk >
+
+					=== lua =============
+					local self = ...;
+					
+					self[\"texts\"] ={\"Hi!\", \"Good luck.\", \"We\'re doomed.\", \"Please, help us!\", \"Good day.\"}
+
+					=====================",
+					"secondary chunk" : "\\x1bLuaQ\\x00\\x01\\x04\\x04\\x04\\x08\\x00l\\x00\\x00\\x00local self = ...;\\r\\n\\r\\nself[\"texts\"] ={\"Hi!\", \"Good luck.\", \"We\\\'re doomed.\", \"Please, help us!\", \"Good day.\"}\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x02\\x07\\n\\x00\\x00\\x00%\\x00\\x00\\x01J\\x00\\x80\\x02\\x81@\\x00\\x00\\xc1\\x80\\x00\\x00\\x01\\xc1\\x00\\x00A\\x01\\x01\\x00\\x81A\\x01\\x00b@\\x80\\x02\\t@\\x00\\x80\\x1e\\x00\\x80\\x00\\x06\\x00\\x00\\x00\\x04\\x06\\x00\\x00\\x00texts\\x00\\x04\\x04\\x00\\x00\\x00Hi!\\x00\\x04\\x0b\\x00\\x00\\x00Good luck.\\x00\\x04\\x0e\\x00\\x00\\x00We\\\'re doomed.\\x00\\x04\\x11\\x00\\x00\\x00Please, help us!\\x00\\x04\\n\\x00\\x00\\x00Good day.\\x00\\x00\\x00\\x00\\x00\\n\\x00\\x00\\x00\\x01\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x01\\x00\\x00\\x00\\x05\\x00\\x00\\x00self\\x00\\x01\\x00\\x00\\x00\\t\\x00\\x00\\x00\\x00\\x00\\x00\\x00",
+				},
+				"u1" : 1,
+				"u2" : 10,
+			},
+		},
+
+		"positionsub-sub-block " :  {
+
+			"x position" : 0.0,
+			"y position" : 0.0,
+		},
+		"z position" : 0.0,
+		"rotation" : 0.0,
+		"scale" : 1.0,
+
+		"u0sub-sub-block " :  {
+
+			"w" : -8.0,
+			"x" : -33.81779098510742,
+			"y" : 16.0,
+			"z" : 61.80525588989258,
+		},
+		"hidden" : 0,
+	},
+	"u0" : 1.0,
+},
+
+"?itemblock " :  {
+
+
+	"?sub-itemsub-block " :  {
+
+		"name" : "npc_male_walking_template",
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Model",
+			"number" : 101,
+
+			"3D modelsub-sub-sub-block " :  {
+
+				"name" : "npc_male1",
+				"u0" : 1.5707963705062866,
+				"u1" : 0.0,
+				"u2" : 0.0,
+
+				"u3sub-sub-sub-sub-block " :  {
+
+					"w" : 0.0,
+					"x" : 0.0,
+					"y" : 0.0,
+					"z" : 1.0,
+				},
+
+				"u4sub-sub-sub-sub-block " :  {
+
+					"x" : 0.0,
+					"y" : 0.0,
+					"z" : 0.0,
+				},
+				"u5" : 0,
+
+				"u6sub-sub-sub-sub-block " :  {
+
+					"w" : 1.0,
+					"x" : 1.0,
+					"y" : 1.0,
+					"z" : 1.0,
+				},
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "AnimationController",
+			"number" : 103,
+
+			"animation controllersub-sub-sub-block " :  {
+
+				"model component" : 101,
+				"u1" : 0,
+				"u2" : 0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "KeyframeAnimation",
+			"number" : 104,
+
+			"keyframe animationsub-sub-sub-block " :  {
+
+				"linked model component number" : 101,
+				"name" : "npc_walk_slow",
+				"u0" : 1,
+				"u1" : 0.75,
+				"u2" : 1,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "MonsterEntity",
+			"number" : 105,
+
+			"entitysub-sub-sub-block " :  {
+
+				"u0" : 18446744073709551615,
+				"u1" : 1,
+			},
+
+			"?monster entitysub-sub-sub-block " :  {
+
+				"u0" : "",
+
+				"lua chunksub-sub-sub-sub-block " :  {
+
+				},
+				"u2" : 1,
+				"u3" : 1,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "WalkingMonsterController",
+			"number" : 106,
+
+			"monster controllersub-sub-sub-block " :  {
+
+				"u0" : 30.0,
+				"u1" : 103,
+				"u2" : 105,
+				"u3" : 111,
+			},
+
+			"walking monster controllersub-sub-sub-block " :  {
+
+				"walk animation" : 104,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "CollisionShape",
+			"number" : 107,
+
+			"collision shapesub-sub-sub-block " :  {
+
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"w" : -8.0,
+					"x" : -33.81779098510742,
+					"y" : 16.0,
+					"z" : 61.80525588989258,
+				},
+			},
+
+			"collision shape 2sub-sub-sub-block " :  {
+
+				"u1" : 1,
+				"w" : -80.0,
+				"x" : 80.0,
+
+				"lua chunksub-sub-sub-sub-block " :  {
+
+					"main chunk" : "chunk >
+
+					=== lua =============
+					local self, target = ...;
+					
+					if target:identifier() == \"hero\" and not self[\"bubbleActive\"] then
+						self[\"bubbleActive\"] = true;
+						
+						local bubble = ShowTextBubble(self:identifier()..\"_bubble\", self:position() + Vector3.New(0, 40, 0), \"Hello!\");
+						
+						local time = 0;
+						local interval = 0.01;
+						while time < 2 do
+							bubble:setPosition(self:position() + Vector3.New(0, 40, 0));
+							Program.Wait(interval);
+							time = time + interval;
+						end
+						
+						HideTextBubble(bubble:identifier());
+						self[\"bubbleActive\"] = false;
+					end
+					
+
+					=====================",
+					"secondary chunk" : "\\x1bLuaQ\\x00\\x01\\x04\\x04\\x04\\x08\\x00\\x03\\x02\\x00\\x00local self, target = ...;\\r\\n\\r\\nif target:identifier() == \"hero\" and not self[\"bubbleActive\"] then\\r\\n\\tself[\"bubbleActive\"] = true;\\r\\n\\t\\r\\n\\tlocal bubble = ShowTextBubble(self:identifier()..\"_bubble\", self:position() + Vector3.New(0, 40, 0), \"Hello!\");\\r\\n\\t\\r\\n\\tlocal time = 0;\\r\\n\\tlocal interval = 0.01;\\r\\n\\twhile time < 2 do\\r\\n\\t\\tbubble:setPosition(self:position() + Vector3.New(0, 40, 0));\\r\\n\\t\\tProgram.Wait(interval);\\r\\n\\t\\ttime = time + interval;\\r\\n\\tend\\r\\n\\t\\r\\n\\tHideTextBubble(bubble:identifier());\\r\\n\\tself[\"bubbleActive\"] = false;\\r\\nend\\r\\n\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x02\\x0c4\\x00\\x00\\x00%\\x00\\x80\\x01\\x8b\\x00\\xc0\\x00\\x9c\\x80\\x00\\x01\\x17@@\\x01\\x16@\\x0b\\x80\\x86\\x80@\\x00\\x9a@\\x00\\x00\\x16\\x80\\n\\x80\\t\\xc0@\\x81\\x85\\x00\\x01\\x00\\xcb\\x00@\\x00\\xdc\\x80\\x00\\x01\\x01A\\x01\\x00\\xd5\\x00\\x81\\x01\\x0b\\x81A\\x00\\x1c\\x81\\x00\\x01E\\xc1\\x01\\x00F\\x01\\xc2\\x02\\x81A\\x02\\x00\\xc1\\x81\\x02\\x00\\x01B\\x02\\x00\\\\\\x81\\x00\\x02\\x0cA\\x01\\x02A\\xc1\\x02\\x00\\x9c\\x80\\x00\\x02\\xc1@\\x02\\x00\\x01\\x01\\x03\\x00\\x18@\\xc3\\x01\\x16\\x00\\x04\\x80K\\x81C\\x01\\xcb\\x81A\\x00\\xdc\\x81\\x00\\x01\\x05\\xc2\\x01\\x00\\x06\\x02B\\x04AB\\x02\\x00\\x81\\x82\\x02\\x00\\xc1B\\x02\\x00\\x1c\\x82\\x00\\x02\\xcc\\x01\\x82\\x03\\\\A\\x80\\x01E\\xc1\\x03\\x00F\\x01\\xc4\\x02\\x80\\x01\\x00\\x02\\\\A\\x00\\x01\\xcc\\x00\\x81\\x01\\x16\\x00\\xfb\\x7fEA\\x04\\x00\\x8b\\x01@\\x01\\x9c\\x01\\x00\\x01\\\\A\\x00\\x00\\t\\x80D\\x81\\x1e\\x00\\x80\\x00\\x13\\x00\\x00\\x00\\x04\\x0b\\x00\\x00\\x00identifier\\x00\\x04\\x05\\x00\\x00\\x00hero\\x00\\x04\\r\\x00\\x00\\x00bubbleActive\\x00\\x01\\x01\\x04\\x0f\\x00\\x00\\x00ShowTextBubble\\x00\\x04\\x08\\x00\\x00\\x00_bubble\\x00\\x04\\t\\x00\\x00\\x00position\\x00\\x04\\x08\\x00\\x00\\x00Vector3\\x00\\x04\\x04\\x00\\x00\\x00New\\x00\\x03\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x00\\x00\\x00D@\\x04\\x07\\x00\\x00\\x00Hello!\\x00\\x03{\\x14\\xaeG\\xe1z\\x84?\\x03\\x00\\x00\\x00\\x00\\x00\\x00\\x00@\\x04\\x0c\\x00\\x00\\x00setPosition\\x00\\x04\\x08\\x00\\x00\\x00Program\\x00\\x04\\x05\\x00\\x00\\x00Wait\\x00\\x04\\x0f\\x00\\x00\\x00HideTextBubble\\x00\\x01\\x00\\x00\\x00\\x00\\x004\\x00\\x00\\x00\\x01\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x06\\x00\\x00\\x00\\x06\\x00\\x00\\x00\\x06\\x00\\x00\\x00\\x06\\x00\\x00\\x00\\x06\\x00\\x00\\x00\\x06\\x00\\x00\\x00\\x06\\x00\\x00\\x00\\x06\\x00\\x00\\x00\\x06\\x00\\x00\\x00\\x06\\x00\\x00\\x00\\x06\\x00\\x00\\x00\\x06\\x00\\x00\\x00\\x06\\x00\\x00\\x00\\x06\\x00\\x00\\x00\\x06\\x00\\x00\\x00\\x06\\x00\\x00\\x00\\x08\\x00\\x00\\x00\\t\\x00\\x00\\x00\\n\\x00\\x00\\x00\\n\\x00\\x00\\x00\\x0b\\x00\\x00\\x00\\x0b\\x00\\x00\\x00\\x0b\\x00\\x00\\x00\\x0b\\x00\\x00\\x00\\x0b\\x00\\x00\\x00\\x0b\\x00\\x00\\x00\\x0b\\x00\\x00\\x00\\x0b\\x00\\x00\\x00\\x0b\\x00\\x00\\x00\\x0b\\x00\\x00\\x00\\x0b\\x00\\x00\\x00\\x0c\\x00\\x00\\x00\\x0c\\x00\\x00\\x00\\x0c\\x00\\x00\\x00\\x0c\\x00\\x00\\x00\\r\\x00\\x00\\x00\\r\\x00\\x00\\x00\\x10\\x00\\x00\\x00\\x10\\x00\\x00\\x00\\x10\\x00\\x00\\x00\\x10\\x00\\x00\\x00\\x11\\x00\\x00\\x00\\x12\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x05\\x00\\x00\\x00self\\x00\\x01\\x00\\x00\\x003\\x00\\x00\\x00\\x07\\x00\\x00\\x00target\\x00\\x01\\x00\\x00\\x003\\x00\\x00\\x00\\x07\\x00\\x00\\x00bubble\\x00\\x19\\x00\\x00\\x003\\x00\\x00\\x00\\x05\\x00\\x00\\x00time\\x00\\x1a\\x00\\x00\\x003\\x00\\x00\\x00\\t\\x00\\x00\\x00interval\\x00\\x1b\\x00\\x00\\x003\\x00\\x00\\x00\\x00\\x00\\x00\\x00",
+				},
+				"z" : 1,
+				"u5" : 1,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "UtilityShape",
+			"number" : 111,
+
+			"collision shapesub-sub-sub-block " :  {
+
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"w" : -200.0,
+					"x" : -100.0,
+					"y" : 400.0,
+					"z" : 200.0,
+				},
+			},
+		},
+
+		"positionsub-sub-block " :  {
+
+			"x position" : 0.0,
+			"y position" : 0.0,
+		},
+		"z position" : 0.0,
+		"rotation" : 0.0,
+		"scale" : 1.0,
+
+		"u0sub-sub-block " :  {
+
+			"w" : -8.0,
+			"x" : -33.81779098510742,
+			"y" : 16.0,
+			"z" : 61.80525588989258,
+		},
+		"hidden" : 0,
+	},
+	"u0" : 1.0,
+},
+
+"?itemblock " :  {
+
+
+	"?sub-itemsub-block " :  {
+
+		"name" : "npc_sitting_template",
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Model",
+			"number" : 101,
+
+			"3D modelsub-sub-sub-block " :  {
+
+				"name" : "npc_male1",
+				"u0" : 0.0,
+				"u1" : 0.0,
+				"u2" : 0.0,
+
+				"u3sub-sub-sub-sub-block " :  {
+
+					"w" : 0.0,
+					"x" : 0.0,
+					"y" : 0.0,
+					"z" : 1.0,
+				},
+
+				"u4sub-sub-sub-sub-block " :  {
+
+					"x" : 0.0,
+					"y" : 0.0,
+					"z" : 0.0,
+				},
+				"u5" : 0,
+
+				"u6sub-sub-sub-sub-block " :  {
+
+					"w" : 1.0,
+					"x" : 1.0,
+					"y" : 1.0,
+					"z" : 1.0,
+				},
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "AnimationController",
+			"number" : 103,
+
+			"animation controllersub-sub-sub-block " :  {
+
+				"model component" : 101,
+				"u1" : 0,
+				"u2" : 0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "KeyframeAnimation",
+			"number" : 104,
+
+			"keyframe animationsub-sub-sub-block " :  {
+
+				"linked model component number" : 101,
+				"name" : "npc_sit",
+				"u0" : 1,
+				"u1" : 2.200000047683716,
+				"u2" : 1,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "MonsterEntity",
+			"number" : 105,
+
+			"entitysub-sub-sub-block " :  {
+
+				"u0" : 1,
+				"u1" : 1,
+			},
+
+			"?monster entitysub-sub-sub-block " :  {
+
+				"u0" : "",
+
+				"lua chunksub-sub-sub-sub-block " :  {
+
+				},
+				"u2" : 1,
+				"u3" : 1,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "CollisionShape",
+			"number" : 107,
+
+			"collision shapesub-sub-sub-block " :  {
+
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"w" : -8.0,
+					"x" : -40.0,
+					"y" : 16.0,
+					"z" : 67.98746490478516,
+				},
+			},
+
+			"collision shape 2sub-sub-sub-block " :  {
+
+				"u1" : 1,
+				"w" : -80.0,
+				"x" : 80.0,
+
+				"lua chunksub-sub-sub-sub-block " :  {
+
+					"main chunk" : "chunk >
+
+					=== lua =============
+					local self, target = ...;
+					
+					if target:identifier() == \"hero\" and EntityController.IsIdle(self) then
+					
+						EntityController.PerformAction(self, 114);
+					
+					end
+					
+
+					=====================",
+					"secondary chunk" : "\\x1bLuaQ\\x00\\x01\\x04\\x04\\x04\\x08\\x00\\x9d\\x00\\x00\\x00local self, target = ...;\\r\\n\\r\\nif target:identifier() == \"hero\" and EntityController.IsIdle(self) then\\r\\n\\r\\n\\tEntityController.PerformAction(self, 114);\\r\\n\\r\\nend\\r\\n\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x02\\x05\\x11\\x00\\x00\\x00%\\x00\\x80\\x01\\x8b\\x00\\xc0\\x00\\x9c\\x80\\x00\\x01\\x17@@\\x01\\x16\\x80\\x02\\x80\\x85\\x80\\x00\\x00\\x86\\xc0@\\x01\\xc0\\x00\\x00\\x00\\x9c\\x80\\x00\\x01\\x9a\\x00\\x00\\x00\\x16\\x00\\x01\\x80\\x85\\x80\\x00\\x00\\x86\\x00A\\x01\\xc0\\x00\\x00\\x00\\x01A\\x01\\x00\\x9c@\\x80\\x01\\x1e\\x00\\x80\\x00\\x06\\x00\\x00\\x00\\x04\\x0b\\x00\\x00\\x00identifier\\x00\\x04\\x05\\x00\\x00\\x00hero\\x00\\x04\\x11\\x00\\x00\\x00EntityController\\x00\\x04\\x07\\x00\\x00\\x00IsIdle\\x00\\x04\\x0e\\x00\\x00\\x00PerformAction\\x00\\x03\\x00\\x00\\x00\\x00\\x00\\x80\\\\@\\x00\\x00\\x00\\x00\\x11\\x00\\x00\\x00\\x01\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x07\\x00\\x00\\x00\\x02\\x00\\x00\\x00\\x05\\x00\\x00\\x00self\\x00\\x01\\x00\\x00\\x00\\x10\\x00\\x00\\x00\\x07\\x00\\x00\\x00target\\x00\\x01\\x00\\x00\\x00\\x10\\x00\\x00\\x00\\x00\\x00\\x00\\x00",
+				},
+				"z" : 1,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "EntityController",
+			"number" : 111,
+
+			"entity controllersub-sub-sub-block " :  {
+
+				"entity component" : 105,
+				"animation controller component" : 103,
+				"u2" : 104,
+				"collision shape" : 112,
+				"u4" : 0.0,
+				"u5" : 1000.0,
+				"u6" : 0.0,
+				"u7" : 1,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "UtilityShape",
+			"number" : 112,
+
+			"collision shapesub-sub-sub-block " :  {
+
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"w" : -200.0,
+					"x" : -100.0,
+					"y" : 400.0,
+					"z" : 200.0,
+				},
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "EntityAction",
+			"number" : 114,
+
+			"entity actionsub-sub-sub-block " :  {
+
+
+				"lua chunksub-sub-sub-sub-block " :  {
+
+					"main chunk" : "chunk >
+
+					=== lua =============
+					local self = ...;
+					
+					local text = self[\"texts\"][Math.RandomInt(1,#self[\"texts\"])];
+					
+					local bubble = ShowTextBubble(self:identifier()..\"_bubble\", self:position() + Vector3.New(0, 20, 0), text);
+						
+					local time = 0;
+					local interval = 0.01;
+					while time < 2 do
+						bubble:setPosition(self:position() + Vector3.New(0, 40, 0));
+						Program.Wait(interval);
+						time = time + interval;
+					end
+						
+					HideTextBubble(bubble:identifier());
+					
+					Program.Wait(0.4);
+
+					=====================",
+					"secondary chunk" : "\\x1bLuaQ\\x00\\x01\\x04\\x04\\x04\\x08\\x00\\xb8\\x01\\x00\\x00local self = ...;\\r\\n\\r\\nlocal text = self[\"texts\"][Math.RandomInt(1,#self[\"texts\"])];\\r\\n\\r\\nlocal bubble = ShowTextBubble(self:identifier()..\"_bubble\", self:position() + Vector3.New(0, 20, 0), text);\\r\\n\\t\\r\\nlocal time = 0;\\r\\nlocal interval = 0.01;\\r\\nwhile time < 2 do\\r\\n\\tbubble:setPosition(self:position() + Vector3.New(0, 40, 0));\\r\\n\\tProgram.Wait(interval);\\r\\n\\ttime = time + interval;\\r\\nend\\r\\n\\t\\r\\nHideTextBubble(bubble:identifier());\\r\\n\\r\\nProgram.Wait(0.4);\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x02\\x0c7\\x00\\x00\\x00%\\x00\\x00\\x01F\\x00@\\x00\\x85@\\x00\\x00\\x86\\x80@\\x01\\xc1\\xc0\\x00\\x00\\x06\\x01@\\x00\\x14\\x01\\x00\\x02\\x9c\\x80\\x80\\x01F\\x80\\x80\\x00\\x85\\x00\\x01\\x00\\xcb@A\\x00\\xdc\\x80\\x00\\x01\\x01\\x81\\x01\\x00\\xd5\\x00\\x81\\x01\\x0b\\xc1A\\x00\\x1c\\x81\\x00\\x01E\\x01\\x02\\x00FA\\xc2\\x02\\x81\\x81\\x02\\x00\\xc1\\xc1\\x02\\x00\\x01\\x82\\x02\\x00\\\\\\x81\\x00\\x02\\x0cA\\x01\\x02@\\x01\\x80\\x00\\x9c\\x80\\x00\\x02\\xc1\\x80\\x02\\x00\\x01\\x01\\x03\\x00\\x18@\\xc3\\x01\\x16\\x00\\x04\\x80K\\x81C\\x01\\xcb\\xc1A\\x00\\xdc\\x81\\x00\\x01\\x05\\x02\\x02\\x00\\x06BB\\x04A\\x82\\x02\\x00\\x81\\xc2\\x03\\x00\\xc1\\x82\\x02\\x00\\x1c\\x82\\x00\\x02\\xcc\\x01\\x82\\x03\\\\A\\x80\\x01E\\x01\\x04\\x00FA\\xc4\\x02\\x80\\x01\\x00\\x02\\\\A\\x00\\x01\\xcc\\x00\\x81\\x01\\x16\\x00\\xfb\\x7fE\\x81\\x04\\x00\\x8bAA\\x01\\x9c\\x01\\x00\\x01\\\\A\\x00\\x00E\\x01\\x04\\x00FA\\xc4\\x02\\x81\\xc1\\x04\\x00\\\\A\\x00\\x01\\x1e\\x00\\x80\\x00\\x14\\x00\\x00\\x00\\x04\\x06\\x00\\x00\\x00texts\\x00\\x04\\x05\\x00\\x00\\x00Math\\x00\\x04\\n\\x00\\x00\\x00RandomInt\\x00\\x03\\x00\\x00\\x00\\x00\\x00\\x00\\xf0?\\x04\\x0f\\x00\\x00\\x00ShowTextBubble\\x00\\x04\\x0b\\x00\\x00\\x00identifier\\x00\\x04\\x08\\x00\\x00\\x00_bubble\\x00\\x04\\t\\x00\\x00\\x00position\\x00\\x04\\x08\\x00\\x00\\x00Vector3\\x00\\x04\\x04\\x00\\x00\\x00New\\x00\\x03\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x00\\x00\\x004@\\x03{\\x14\\xaeG\\xe1z\\x84?\\x03\\x00\\x00\\x00\\x00\\x00\\x00\\x00@\\x04\\x0c\\x00\\x00\\x00setPosition\\x00\\x03\\x00\\x00\\x00\\x00\\x00\\x00D@\\x04\\x08\\x00\\x00\\x00Program\\x00\\x04\\x05\\x00\\x00\\x00Wait\\x00\\x04\\x0f\\x00\\x00\\x00HideTextBubble\\x00\\x03\\x9a\\x99\\x99\\x99\\x99\\x99\\xd9?\\x00\\x00\\x00\\x007\\x00\\x00\\x00\\x01\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x07\\x00\\x00\\x00\\x08\\x00\\x00\\x00\\t\\x00\\x00\\x00\\t\\x00\\x00\\x00\\n\\x00\\x00\\x00\\n\\x00\\x00\\x00\\n\\x00\\x00\\x00\\n\\x00\\x00\\x00\\n\\x00\\x00\\x00\\n\\x00\\x00\\x00\\n\\x00\\x00\\x00\\n\\x00\\x00\\x00\\n\\x00\\x00\\x00\\n\\x00\\x00\\x00\\n\\x00\\x00\\x00\\x0b\\x00\\x00\\x00\\x0b\\x00\\x00\\x00\\x0b\\x00\\x00\\x00\\x0b\\x00\\x00\\x00\\x0c\\x00\\x00\\x00\\x0c\\x00\\x00\\x00\\x0f\\x00\\x00\\x00\\x0f\\x00\\x00\\x00\\x0f\\x00\\x00\\x00\\x0f\\x00\\x00\\x00\\x11\\x00\\x00\\x00\\x11\\x00\\x00\\x00\\x11\\x00\\x00\\x00\\x11\\x00\\x00\\x00\\x11\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x05\\x00\\x00\\x00self\\x00\\x01\\x00\\x00\\x006\\x00\\x00\\x00\\x05\\x00\\x00\\x00text\\x00\\t\\x00\\x00\\x006\\x00\\x00\\x00\\x07\\x00\\x00\\x00bubble\\x00\\x19\\x00\\x00\\x006\\x00\\x00\\x00\\x05\\x00\\x00\\x00time\\x00\\x1a\\x00\\x00\\x006\\x00\\x00\\x00\\t\\x00\\x00\\x00interval\\x00\\x1b\\x00\\x00\\x006\\x00\\x00\\x00\\x00\\x00\\x00\\x00",
+				},
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "KeyframeAnimation",
+			"number" : 115,
+
+			"keyframe animationsub-sub-sub-block " :  {
+
+				"linked model component number" : 101,
+				"name" : "npc_stand",
+				"u0" : 1,
+				"u1" : 1.0,
+				"u2" : 1,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "ModelTransformController",
+			"number" : 116,
+
+			"model transform controllersub-sub-sub-block " :  {
+
+				"u0" : 101,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Program",
+			"number" : 117,
+
+			"programsub-sub-sub-block " :  {
+
+				"u0" : 1,
+
+				"lua chunksub-sub-sub-sub-block " :  {
+
+					"main chunk" : "chunk >
+
+					=== lua =============
+					local self = ...;
+					
+					self[\"texts\"] ={\"I\'m tired.\", \"Got any food?\", \"Hello, Boy.\", \"Please, let me be.\"}
+
+					=====================",
+					"secondary chunk" : "\\x1bLuaQ\\x00\\x01\\x04\\x04\\x04\\x08\\x00i\\x00\\x00\\x00local self = ...;\\r\\n\\r\\nself[\"texts\"] ={\"I\\\'m tired.\", \"Got any food?\", \"Hello, Boy.\", \"Please, let me be.\"}\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x02\\x06\\t\\x00\\x00\\x00%\\x00\\x00\\x01J\\x00\\x00\\x02\\x81@\\x00\\x00\\xc1\\x80\\x00\\x00\\x01\\xc1\\x00\\x00A\\x01\\x01\\x00b@\\x00\\x02\\t@\\x00\\x80\\x1e\\x00\\x80\\x00\\x05\\x00\\x00\\x00\\x04\\x06\\x00\\x00\\x00texts\\x00\\x04\\x0b\\x00\\x00\\x00I\\\'m tired.\\x00\\x04\\x0e\\x00\\x00\\x00Got any food?\\x00\\x04\\x0c\\x00\\x00\\x00Hello, Boy.\\x00\\x04\\x13\\x00\\x00\\x00Please, let me be.\\x00\\x00\\x00\\x00\\x00\\t\\x00\\x00\\x00\\x01\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x01\\x00\\x00\\x00\\x05\\x00\\x00\\x00self\\x00\\x01\\x00\\x00\\x00\\x08\\x00\\x00\\x00\\x00\\x00\\x00\\x00",
+				},
+				"u1" : 1,
+				"u2" : 10,
+			},
+		},
+
+		"positionsub-sub-block " :  {
+
+			"x position" : 0.0,
+			"y position" : 0.0,
+		},
+		"z position" : 0.0,
+		"rotation" : 0.0,
+		"scale" : 1.0,
+
+		"u0sub-sub-block " :  {
+
+			"w" : -8.0,
+			"x" : -40.0,
+			"y" : 16.0,
+			"z" : 67.98746490478516,
+		},
+		"hidden" : 0,
+	},
+	"u0" : 1.0,
+},
+
+}

@@ -1,0 +1,4370 @@
+data = {
+
+"objectblock " :  {
+
+	"identifier" : "Background",
+
+	"componentsub-block " :  {
+
+		"component type" : "Background",
+		"number" : 101,
+
+		"filesub-sub-block " :  {
+
+			"filename" : "cavesbackground2",
+		},
+	},
+
+	"positionsub-block " :  {
+
+		"x position" : -16.404083251953125,
+		"y position" : 1002.650634765625,
+	},
+	"z position" : 1.7203826904296875,
+	"rotation" : 0.0,
+	"scale" : 1.0,
+
+	"u2sub-block " :  {
+
+		"w" : -30.0,
+		"x" : -30.0,
+		"y" : 60.0,
+		"z" : 60.0,
+	},
+	"hidden" : 0,
+},
+
+"objectblock " :  {
+
+	"identifier" : "DirectionalLight",
+
+	"componentsub-block " :  {
+
+		"component type" : "Light",
+		"number" : 101,
+
+		"lightsub-sub-block " :  {
+
+			"u0" : 2,
+			"u1" : 2.0,
+
+			"u2sub-sub-sub-block " :  {
+
+				"w" : 1.0,
+				"x" : 1.0,
+				"y" : 1.0,
+				"z" : 1.0,
+			},
+		},
+	},
+
+	"componentsub-block " :  {
+
+		"component type" : "Light",
+		"number" : 103,
+
+		"lightsub-sub-block " :  {
+
+			"u0" : 1,
+			"u1" : 0.30000001192092896,
+
+			"u2sub-sub-sub-block " :  {
+
+				"w" : 1.0,
+				"x" : 1.0,
+				"y" : 1.0,
+				"z" : 1.0,
+			},
+		},
+	},
+
+	"componentsub-block " :  {
+
+		"component type" : "Light",
+		"number" : 105,
+
+		"lightsub-sub-block " :  {
+
+			"u0" : 4,
+			"u1" : 1.0,
+
+			"u2sub-sub-sub-block " :  {
+
+				"w" : 0.0,
+				"x" : 0.0,
+				"y" : 0.0,
+				"z" : 1.0,
+			},
+		},
+	},
+
+	"positionsub-block " :  {
+
+		"x position" : -966.8255615234375,
+		"y position" : 490.68658447265625,
+	},
+	"z position" : 620.09765625,
+	"rotation" : 0.0,
+	"scale" : 1.0,
+
+	"u2sub-block " :  {
+
+		"w" : -30.0,
+		"x" : -30.0,
+		"y" : 60.0,
+		"z" : 60.0,
+	},
+	"hidden" : 0,
+},
+
+"objectblock " :  {
+
+	"name" : "firebat",
+	"identifier" : "firebat1",
+
+	"positionsub-block " :  {
+
+		"x position" : -2096.213623046875,
+		"y position" : -1407.078125,
+	},
+	"z position" : 0.0,
+	"rotation" : 0.0,
+	"scale" : 1.0,
+
+	"u2sub-block " :  {
+
+		"w" : -39.71588897705078,
+		"x" : -40.159324645996094,
+		"y" : 81.01205444335938,
+		"z" : 60.159324645996094,
+	},
+	"hidden" : 0,
+},
+
+"objectblock " :  {
+
+	"name" : "firebat",
+	"identifier" : "firebat1#2",
+
+	"positionsub-block " :  {
+
+		"x position" : -2196.867431640625,
+		"y position" : -1215.0185546875,
+	},
+	"z position" : 0.0,
+	"rotation" : 0.0,
+	"scale" : 1.0,
+
+	"u2sub-block " :  {
+
+		"w" : -39.71588897705078,
+		"x" : -40.159324645996094,
+		"y" : 81.01205444335938,
+		"z" : 60.159324645996094,
+	},
+	"hidden" : 0,
+},
+
+"objectblock " :  {
+
+	"name" : "firebat",
+	"identifier" : "firebat1#3",
+
+	"positionsub-block " :  {
+
+		"x position" : -2241.512939453125,
+		"y position" : -1379.8709716796875,
+	},
+	"z position" : 0.0,
+	"rotation" : 0.0,
+	"scale" : 1.0,
+
+	"u2sub-block " :  {
+
+		"w" : -39.71588897705078,
+		"x" : -40.159324645996094,
+		"y" : 81.01205444335938,
+		"z" : 60.159324645996094,
+	},
+	"hidden" : 0,
+},
+
+"objectblock " :  {
+
+	"name" : "focuswpadding",
+	"identifier" : "focusArea",
+
+	"componentsub-block " :  {
+
+		"component type" : "CollisionShape",
+		"number" : 101,
+
+		"collision shapesub-sub-block " :  {
+
+
+			"u0sub-sub-sub-block " :  {
+
+				"w" : -600.0,
+				"x" : -400.0,
+				"y" : 1200.0,
+				"z" : 800.0,
+			},
+		},
+
+		"collision shape 2sub-sub-block " :  {
+
+			"w" : -15.0,
+			"x" : 15.0,
+			"z" : 1,
+		},
+	},
+
+	"positionsub-block " :  {
+
+		"x position" : -2315.7978515625,
+		"y position" : -1622.858154296875,
+	},
+	"z position" : 0.0,
+	"rotation" : 0.0,
+	"scale" : 1.0,
+
+	"u2sub-block " :  {
+
+		"w" : -600.0,
+		"x" : -400.0,
+		"y" : 1200.0,
+		"z" : 800.0,
+	},
+	"hidden" : 0,
+},
+
+"objectblock " :  {
+
+	"name" : "focuswpadding",
+	"identifier" : "focusArea#2",
+
+	"componentsub-block " :  {
+
+		"component type" : "CollisionShape",
+		"number" : 101,
+
+		"collision shapesub-sub-block " :  {
+
+
+			"u0sub-sub-sub-block " :  {
+
+				"w" : -400.0,
+				"x" : -400.0,
+				"y" : 600.0,
+				"z" : 800.0,
+			},
+		},
+
+		"collision shape 2sub-sub-block " :  {
+
+			"w" : -15.0,
+			"x" : 15.0,
+
+			"lua chunksub-sub-sub-block " :  {
+
+				"main chunk" : "chunk >
+
+				=== lua =============
+				local self, target= ...;
+				
+				if target:identifier() == \"hero\" then
+					Camera.FocusAtShape(Scene.Find(\"focusArea\"), Rectangle.New(100, 100, 100, 100));
+				end
+
+				=====================",
+				"secondary chunk" : "\\x1bLuaQ\\x00\\x01\\x04\\x04\\x04\\x08\\x00\\x9a\\x00\\x00\\x00local self, target= ...;\\r\\n\\r\\nif target:identifier() == \"hero\" then\\r\\n\\tCamera.FocusAtShape(Scene.Find(\"focusArea\"), Rectangle.New(100, 100, 100, 100));\\r\\nend\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x02\\t\\x14\\x00\\x00\\x00%\\x00\\x80\\x01\\x8b\\x00\\xc0\\x00\\x9c\\x80\\x00\\x01\\x17@@\\x01\\x16@\\x03\\x80\\x85\\x80\\x00\\x00\\x86\\xc0@\\x01\\xc5\\x00\\x01\\x00\\xc6@\\xc1\\x01\\x01\\x81\\x01\\x00\\xdc\\x80\\x00\\x01\\x05\\xc1\\x01\\x00\\x06\\x01B\\x02AA\\x02\\x00\\x81A\\x02\\x00\\xc1A\\x02\\x00\\x01B\\x02\\x00\\x1c\\x01\\x80\\x02\\x9c@\\x00\\x00\\x1e\\x00\\x80\\x00\\n\\x00\\x00\\x00\\x04\\x0b\\x00\\x00\\x00identifier\\x00\\x04\\x05\\x00\\x00\\x00hero\\x00\\x04\\x07\\x00\\x00\\x00Camera\\x00\\x04\\r\\x00\\x00\\x00FocusAtShape\\x00\\x04\\x06\\x00\\x00\\x00Scene\\x00\\x04\\x05\\x00\\x00\\x00Find\\x00\\x04\\n\\x00\\x00\\x00focusArea\\x00\\x04\\n\\x00\\x00\\x00Rectangle\\x00\\x04\\x04\\x00\\x00\\x00New\\x00\\x03\\x00\\x00\\x00\\x00\\x00\\x00Y@\\x00\\x00\\x00\\x00\\x14\\x00\\x00\\x00\\x01\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x02\\x00\\x00\\x00\\x05\\x00\\x00\\x00self\\x00\\x01\\x00\\x00\\x00\\x13\\x00\\x00\\x00\\x07\\x00\\x00\\x00target\\x00\\x01\\x00\\x00\\x00\\x13\\x00\\x00\\x00\\x00\\x00\\x00\\x00",
+			},
+
+			"lua chunksub-sub-sub-block " :  {
+
+				"main chunk" : "chunk >
+
+				=== lua =============
+				local self, target = ...;
+				
+				if target:identifier() == \"hero\" then
+					Camera.ResetFocus();
+				end
+
+				=====================",
+				"secondary chunk" : "\\x1bLuaQ\\x00\\x01\\x04\\x04\\x04\\x08\\x00_\\x00\\x00\\x00local self, target = ...;\\r\\n\\r\\nif target:identifier() == \"hero\" then\\r\\n\\tCamera.ResetFocus();\\r\\nend\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x02\\x04\\t\\x00\\x00\\x00%\\x00\\x80\\x01\\x8b\\x00\\xc0\\x00\\x9c\\x80\\x00\\x01\\x17@@\\x01\\x16\\x80\\x00\\x80\\x85\\x80\\x00\\x00\\x86\\xc0@\\x01\\x9c@\\x80\\x00\\x1e\\x00\\x80\\x00\\x04\\x00\\x00\\x00\\x04\\x0b\\x00\\x00\\x00identifier\\x00\\x04\\x05\\x00\\x00\\x00hero\\x00\\x04\\x07\\x00\\x00\\x00Camera\\x00\\x04\\x0b\\x00\\x00\\x00ResetFocus\\x00\\x00\\x00\\x00\\x00\\t\\x00\\x00\\x00\\x01\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x02\\x00\\x00\\x00\\x05\\x00\\x00\\x00self\\x00\\x01\\x00\\x00\\x00\\x08\\x00\\x00\\x00\\x07\\x00\\x00\\x00target\\x00\\x01\\x00\\x00\\x00\\x08\\x00\\x00\\x00\\x00\\x00\\x00\\x00",
+			},
+			"z" : 1,
+		},
+	},
+
+	"positionsub-block " :  {
+
+		"x position" : -2204.069091796875,
+		"y position" : -1517.658447265625,
+	},
+	"z position" : 0.0,
+	"rotation" : 0.0,
+	"scale" : 1.0,
+
+	"u2sub-block " :  {
+
+		"w" : -400.0,
+		"x" : -400.0,
+		"y" : 600.0,
+		"z" : 800.0,
+	},
+	"hidden" : 0,
+},
+
+"objectblock " :  {
+
+	"identifier" : "obj1",
+
+	"componentsub-block " :  {
+
+		"component type" : "GroundPolygon",
+		"number" : 100,
+
+		"ground polygonsub-sub-block " :  {
+
+
+			"sub-sub-sub-block " :  {
+
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"x" : 496.1414794921875,
+					"y" : 57.7413330078125,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"x" : 386.2491455078125,
+					"y" : 216.0169677734375,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"x" : 217.81005859375,
+					"y" : 201.96923828125,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"x" : 137.13137817382812,
+					"y" : 221.6610107421875,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"x" : -37.2880859375,
+					"y" : 139.4210205078125,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"x" : -167.725341796875,
+					"y" : 213.2344970703125,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"x" : -295.2286376953125,
+					"y" : 140.395751953125,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"x" : -340.60888671875,
+					"y" : 234.740966796875,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"x" : -377.18994140625,
+					"y" : 144.30401611328125,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"x" : -496.1414794921875,
+					"y" : -48.849365234375,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"x" : -358.24560546875,
+					"y" : -234.740966796875,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"x" : -61.47802734375,
+					"y" : -186.06005859375,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"x" : 488.795166015625,
+					"y" : -148.581787109375,
+				},
+				"u0" : 0,
+				"u1" : 1,
+			},
+			"u1" : 0,
+			"u2" : -50.0,
+			"u3" : 50.0,
+			"u4" : "",
+		},
+	},
+
+	"componentsub-block " :  {
+
+		"component type" : "GroundMesh",
+		"number" : 101,
+
+		"ground meshsub-sub-block " :  {
+
+
+			"u0sub-sub-sub-block " :  {
+
+				"w" : -506.1414794921875,
+				"x" : -244.740966796875,
+				"y" : 1012.282958984375,
+				"z" : 489.48193359375,
+			},
+
+			"u1sub-sub-sub-block " :  {
+
+				"u0" : 22,
+				"u1" : 20,
+
+				"u2sub-sub-sub-sub-block " :  {
+
+					"u0" : 4,
+					"u1" : 1,
+					"u2" : 2,
+					"u3" : 0,
+				},
+
+				"u3sub-sub-sub-sub-block " :  {
+
+					"u0" : 7,
+					"u1" : 3,
+					"u2" : 32,
+					"u3" : 0,
+				},
+
+				"u4sub-sub-sub-sub-block " :  {
+
+					"u0" : 7,
+					"u1" : 3,
+					"u2" : 32,
+					"u3" : 12,
+				},
+
+				"u5sub-sub-sub-sub-block " :  {
+
+					"u0" : 7,
+					"u1" : 2,
+					"u2" : 32,
+					"u3" : 24,
+				},
+
+				"u6sub-sub-sub-sub-block " :  {
+
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 1.0,
+						"x" : 1.0,
+						"y" : 1.0,
+						"z" : 1.0,
+					},
+
+					"u1sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 1.0,
+						"x" : 1.0,
+						"y" : 1.0,
+						"z" : 1.0,
+					},
+
+					"u2sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 1.0,
+						"x" : 1.0,
+						"y" : 1.0,
+						"z" : 1.0,
+					},
+					"u3" : 0.0,
+					"u4" : "\\n\\ncavewalls2\\x10\\x01 \\x01",
+				},
+
+				"u7sub-sub-sub-sub-block " :  {
+
+					"u" : -496.1414794921875,
+					"v" : -234.740966796875,
+					"w" : -57.409305572509766,
+					"x" : 992.282958984375,
+					"y" : 469.48193359375,
+					"z" : 114.88739013671875,
+				},
+				"u8" : "\\x1c\\x12\\xf8C \\xf7fB\\x8f\\xaa-B-pv?\\x01\\xa0\\x8a>\\x00\\x00\\x00\\x00\\x00\\x00\\x00?du,?\\x1c\\x12\\xf8C \\xf7fB\\xfe\\xfd[\\xc2-pv?\\x01\\xa0\\x8a>\\x00\\x00\\x00\\x00\\x00\\x00\\x00?0]\\x8f>\\xe4\\x1f\\xc1CX\\x04XC\\xb1\\xb5\\\'BY\\x90\\xeb>\\xc0Kc?\\x00\\x00\\x00\\x00\\x9b\\xa7\\xa2?\\x06\\xef*?\\xe4\\x1f\\xc1CX\\x04XC!\\xa3e\\xc2Y\\x90\\xeb>\\xc0Kc?\\x00\\x00\\x00\\x00\\x9b\\xa7\\xa2?\\xfdl\\x8a>`\\xcfYC \\xf8IC-/NB&\\x8d\\xb9<0\\xef\\x7f?\\x00\\x00\\x00\\x00\\xe71\\xf9?~\\xc84?`\\xcfYC \\xf8IC+\\xdd^\\xc2&\\x8d\\xb9<0\\xef\\x7f?\\x00\\x00\\x00\\x00\\xe71\\xf9?\\xc7\\xe4\\x8d>\\xa2!\\tC8\\xa9]C#`WB\\xab\\xdas\\xbe\\x9a\\xa2x?\\x00\\x00\\x00\\x00\\x86\\xdb\\x11@\\xda\"7?\\xa2!\\tC8\\xa9]CU\\x80=\\xc2\\xab\\xdas\\xbe\\x9a\\xa2x?\\x00\\x00\\x00\\x00\\x86\\xdb\\x11@\\xb0\\xf9\\x9e>\\x00\\\'\\x15\\xc2\\xc8k\\x0bC\\x8e\\xe9eB\\tY\\xe2\\xbc\\xfb\\xe6\\x7f?\\x00\\x00\\x00\\x0039C@\\x89\\xdb:?\\x00\\\'\\x15\\xc2\\xc8k\\x0bC\\x8c\\x9b[\\xc2\\tY\\xe2\\xbc\\xfb\\xe6\\x7f?\\x00\\x00\\x00\\x0039C@\\x98\\x8f\\x8f>\\xb0\\xb9\\\'\\xc3\\x08<UC\\x05\\xafCB\\xf5\\xa6w;\\x87\\xff\\x7f?\\x00\\x00\\x00\\x00\\\\\\x97i@S\\x182?\\xb0\\xb9\\\'\\xc3\\x08<UC[L<\\xc2\\xf5\\xa6w;\\x87\\xff\\x7f?\\x00\\x00\\x00\\x00\\\\\\x97i@_\\x97\\x9f>D\\x9d\\x93\\xc3Pe\\x0cC\\x00\\x9aZB\\xd3\\xd1\\xfc=\\xb9\\n~?\\x00\\x00\\x00\\x00f\\x97\\x87@F\\xf67?D\\x9d\\x93\\xc3Pe\\x0cCY\\xd14\\xc2\\xd3\\xd1\\xfc=\\xb9\\n~?\\x00\\x00\\x00\\x00f\\x97\\x87@\\xdbk\\xa3>\\xf0M\\xaa\\xc3\\xb0\\xbdjC#\\x8b?B\\xd3\\x17C=\\xa0\\xb5\\x7f?\\x00\\x00\\x00\\x00\\xf2\\xfd\\x94@\\xff\\x081?\\xf0M\\xaa\\xc3\\xb0\\xbdjC\\xa9$^\\xc2\\xd3\\x17C=\\xa0\\xb5\\x7f?\\x00\\x00\\x00\\x00\\xf2\\xfd\\x94@?C\\x8e>P\\x98\\xbc\\xc3\\xd4M\\x10CR\\x9acBxu`\\xbfw4\\xf6>\\x00\\x00\\x00\\x00\\xa2z\\xa1@.D:?P\\x98\\xbc\\xc3\\xd4M\\x10C$\\x10N\\xc2xu`\\xbfw4\\xf6>\\x00\\x00\\x00\\x00\\xa2z\\xa1@\\xe7~\\x96>\\x1c\\x12\\xf8\\xc3\\xc0eC\\xc2;>YBM\\xae\\x7f\\xbf\\x94uL\\xbd\\x00\\x00\\x00\\x00\\xd2\\x83\\xbe@>\\x9d7?\\x1c\\x12\\xf8\\xc3\\xc0eC\\xc2\\xed\\xa3&\\xc2M\\xae\\x7f\\xbf\\x94uL\\xbd\\x00\\x00\\x00\\x00\\xd2\\x83\\xbe@\\x1e\\xae\\xaa>p\\x1f\\xb3\\xc3\\xb0\\xbdj\\xc3LwDBp \\x9a\\xbe\\x1e t\\xbf\\x00\\x00\\x00\\x00\\x1b$\\xdc@\\x99K2?p\\x1f\\xb3\\xc3\\xb0\\xbdj\\xc3\\xb6\\xcb(\\xc2p \\x9a\\xbe\\x1e t\\xbf\\x00\\x00\\x00\\x00\\x1b$\\xdc@\\x9b\\x93\\xa9>",
+				"u9" : "\\x00\\x00\\x01\\x00\\x02\\x00\\x01\\x00\\x03\\x00\\x02\\x00\\x02\\x00\\x03\\x00\\x04\\x00\\x03\\x00\\x05\\x00\\x04\\x00\\x04\\x00\\x05\\x00\\x06\\x00\\x05\\x00\\x07\\x00\\x06\\x00\\x06\\x00\\x07\\x00\\x08\\x00\\x07\\x00\\t\\x00\\x08\\x00\\x08\\x00\\t\\x00\\n\\x00\\t\\x00\\x0b\\x00\\n\\x00\\n\\x00\\x0b\\x00\\x0c\\x00\\x0b\\x00\\r\\x00\\x0c\\x00\\x0c\\x00\\r\\x00\\x0e\\x00\\r\\x00\\x0f\\x00\\x0e\\x00\\x0e\\x00\\x0f\\x00\\x10\\x00\\x0f\\x00\\x11\\x00\\x10\\x00\\x10\\x00\\x11\\x00\\x12\\x00\\x11\\x00\\x13\\x00\\x12\\x00\\x12\\x00\\x13\\x00\\x14\\x00\\x13\\x00\\x15\\x00\\x14\\x00",
+			},
+
+			"u1sub-sub-sub-block " :  {
+
+				"u0" : 8,
+				"u1" : 6,
+
+				"u2sub-sub-sub-sub-block " :  {
+
+					"u0" : 4,
+					"u1" : 1,
+					"u2" : 2,
+					"u3" : 0,
+				},
+
+				"u3sub-sub-sub-sub-block " :  {
+
+					"u0" : 7,
+					"u1" : 3,
+					"u2" : 32,
+					"u3" : 0,
+				},
+
+				"u4sub-sub-sub-sub-block " :  {
+
+					"u0" : 7,
+					"u1" : 3,
+					"u2" : 32,
+					"u3" : 12,
+				},
+
+				"u5sub-sub-sub-sub-block " :  {
+
+					"u0" : 7,
+					"u1" : 2,
+					"u2" : 32,
+					"u3" : 24,
+				},
+
+				"u6sub-sub-sub-sub-block " :  {
+
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 1.0,
+						"x" : 1.0,
+						"y" : 1.0,
+						"z" : 1.0,
+					},
+
+					"u1sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 1.0,
+						"x" : 1.0,
+						"y" : 1.0,
+						"z" : 1.0,
+					},
+
+					"u2sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 1.0,
+						"x" : 1.0,
+						"y" : 1.0,
+						"z" : 1.0,
+					},
+					"u3" : 0.0,
+					"u4" : "\\n\\ncavewalls2\\x10\\x01 \\x01",
+				},
+
+				"u7sub-sub-sub-sub-block " :  {
+
+					"u" : -358.24560546875,
+					"v" : -234.740966796875,
+					"w" : -59.18132781982422,
+					"x" : 854.3870849609375,
+					"y" : 292.4822998046875,
+					"z" : 110.55303955078125,
+				},
+				"u8" : "\\x1c\\x12\\xf8C \\xf7fB\\x8f\\xaa-B-pv?\\x01\\xa0\\x8a>\\x00\\x00\\x00\\x00\\x00\\x00\\x00?du,?\\x1c\\x12\\xf8C \\xf7fB\\xfe\\xfd[\\xc2-pv?\\x01\\xa0\\x8a>\\x00\\x00\\x00\\x00\\x00\\x00\\x00?0]\\x8f>p\\x1f\\xb3\\xc3\\xb0\\xbdj\\xc3LwDBp \\x9a\\xbe\\x1e t\\xbf\\x00\\x00\\x00\\x00\\x1b$\\xdc@\\x99K2?p\\x1f\\xb3\\xc3\\xb0\\xbdj\\xc3\\xb6\\xcb(\\xc2p \\x9a\\xbe\\x1e t\\xbf\\x00\\x00\\x00\\x00\\x1b$\\xdc@\\x9b\\x93\\xa9>\\x80\\xe9u\\xc2`\\x0f:\\xc3E\\x9eKB\\xb1?\\xcf=\\x93\\xaf~\\xbf\\x00\\x00\\x00\\x00GQ\\x01AS 4?\\x80\\xe9u\\xc2`\\x0f:\\xc3CA?\\xc2\\xb1?\\xcf=\\x93\\xaf~\\xbf\\x00\\x00\\x00\\x00GQ\\x01A\\xd6\\x13\\x9e>\\xc8e\\xf4C\\xf0\\x94\\x14\\xc3\\xa1|MB\\xb8\\x1b\\xcd>\\x81\\x8fj\\xbf\\x00\\x00\\x00\\x00\\xd7\\x9d$A\\xc9\\x9a4?\\xc8e\\xf4C\\xf0\\x94\\x14\\xc3\\xae\\xb9l\\xc2\\xb8\\x1b\\xcd>\\x81\\x8fj\\xbf\\x00\\x00\\x00\\x00\\xd7\\x9d$A\\xf1\\xcb\\x86>",
+				"u9" : "\\x02\\x00\\x03\\x00\\x04\\x00\\x03\\x00\\x05\\x00\\x04\\x00\\x04\\x00\\x05\\x00\\x06\\x00\\x05\\x00\\x07\\x00\\x06\\x00\\x06\\x00\\x07\\x00\\x00\\x00\\x07\\x00\\x01\\x00\\x00\\x00",
+			},
+
+			"u2sub-sub-sub-block " :  {
+
+				"u0" : 33,
+				"u1" : 11,
+
+				"u2sub-sub-sub-sub-block " :  {
+
+					"u0" : 7,
+					"u1" : 3,
+					"u2" : 32,
+					"u3" : 0,
+				},
+
+				"u3sub-sub-sub-sub-block " :  {
+
+					"u0" : 7,
+					"u1" : 3,
+					"u2" : 32,
+					"u3" : 12,
+				},
+
+				"u4sub-sub-sub-sub-block " :  {
+
+					"u0" : 7,
+					"u1" : 2,
+					"u2" : 32,
+					"u3" : 24,
+				},
+
+				"u5sub-sub-sub-sub-block " :  {
+
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 1.0,
+						"x" : 1.0,
+						"y" : 1.0,
+						"z" : 1.0,
+					},
+
+					"u1sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 1.0,
+						"x" : 1.0,
+						"y" : 1.0,
+						"z" : 1.0,
+					},
+
+					"u2sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 1.0,
+						"x" : 1.0,
+						"y" : 1.0,
+						"z" : 1.0,
+					},
+					"u3" : 0.0,
+
+					"u4sub-sub-sub-sub-sub-block " :  {
+
+						"u0" : "cavewalls",
+						"u1" : 1,
+						"u2" : 1,
+					},
+				},
+
+				"u3sub-sub-sub-sub-block " :  {
+
+					"u" : -496.1414794921875,
+					"v" : -234.740966796875,
+					"w" : 41.927433013916016,
+					"x" : 992.282958984375,
+					"y" : 469.48193359375,
+					"z" : 15.550647735595703,
+				},
+				"u7" : "p\\x1f\\xb3\\xc3\\xb0\\xbdj\\xc3LwDB\\x04Y/<\\x06\\xcf\\xa3\\xbc$\\xef\\x7f?\\xf0\\xd7n\\xbf\\xdf\\xbf\\xe0\\xbeP\\x98\\xbc\\xc3\\xd4M\\x10CR\\x9acB\\x04Y/<\\x06\\xcf\\xa3\\xbc$\\xef\\x7f?\\n\\x1f\\x81\\xbf7\\xe2\\x89?\\x1c\\x12\\xf8\\xc3\\xc0eC\\xc2;>YB\\x04Y/<\\x06\\xcf\\xa3\\xbc$\\xef\\x7f?B\\x06\\xbe\\xbf\\xdd\\xf4\\x9b>p\\x1f\\xb3\\xc3\\xb0\\xbdj\\xc3LwDB\\x99\\xed\\x82>\\xa5\\xbf\\xe7\\xbbO{w?\\xf0\\xd7n\\xbf\\xdf\\xbf\\xe0\\xbe\\xf0M\\xaa\\xc3\\xb0\\xbdjC#\\x8b?B\\x99\\xed\\x82>\\xa5\\xbf\\xe7\\xbbO{w?\\x93\\xc8\\\\\\xbf\\xf8/\\xb8?P\\x98\\xbc\\xc3\\xd4M\\x10CR\\x9acB\\x99\\xed\\x82>\\xa5\\xbf\\xe7\\xbbO{w?\\n\\x1f\\x81\\xbf7\\xe2\\x89?\\x80\\xe9u\\xc2`\\x0f:\\xc3E\\x9eKB\\x7f\\x90\\x15=\\xf9\\x84p<:\\xcd\\x7f?\\xcf\\x17\\x82>\\x1d\\x1az\\xbe\\xb0\\xb9\'\\xc3\\x08<UC\\x05\\xafCB\\x7f\\x90\\x15=\\xf9\\x84p<:\\xcd\\x7f?\\xc5\\x00/\\xbe\\x12-\\xad?D\\x9d\\x93\\xc3Pe\\x0cC\\x00\\x9aZB\\x7f\\x90\\x15=\\xf9\\x84p<:\\xcd\\x7f?jP.\\xbf\\xf4\\xe1\\x87?D\\x9d\\x93\\xc3Pe\\x0cC\\x00\\x9aZBb5\\x07\\xbe\\xf3\\xac\\xf7;P\\xc0}?jP.\\xbf\\xf4\\xe1\\x87?\\xf0M\\xaa\\xc3\\xb0\\xbdjC#\\x8b?Bb5\\x07\\xbe\\xf3\\xac\\xf7;P\\xc0}?\\x93\\xc8\\\\\\xbf\\xf8/\\xb8?p\\x1f\\xb3\\xc3\\xb0\\xbdj\\xc3LwDBb5\\x07\\xbe\\xf3\\xac\\xf7;P\\xc0}?\\xf0\\xd7n\\xbf\\xdf\\xbf\\xe0\\xbe\\x80\\xe9u\\xc2`\\x0f:\\xc3E\\x9eKB-\\xf2r\\xbbrvg\\xbc\\x03\\xf9\\x7f?\\xcf\\x17\\x82>\\x1d\\x1az\\xbeD\\x9d\\x93\\xc3Pe\\x0cC\\x00\\x9aZB-\\xf2r\\xbbrvg\\xbc\\x03\\xf9\\x7f?jP.\\xbf\\xf4\\xe1\\x87?p\\x1f\\xb3\\xc3\\xb0\\xbdj\\xc3LwDB-\\xf2r\\xbbrvg\\xbc\\x03\\xf9\\x7f?\\xf0\\xd7n\\xbf\\xdf\\xbf\\xe0\\xbe\\x80\\xe9u\\xc2`\\x0f:\\xc3E\\x9eKB\\xa1\\xf7\\x96\\xbdh3p\\xbc\\xa3F\\x7f?\\xcf\\x17\\x82>\\x1d\\x1az\\xbe\\x00\'\\x15\\xc2\\xc8k\\x0bC\\x8e\\xe9eB\\xa1\\xf7\\x96\\xbdh3p\\xbc\\xa3F\\x7f?N\\xa2\\xb3>1b\\x87?\\xb0\\xb9\'\\xc3\\x08<UC\\x05\\xafCB\\xa1\\xf7\\x96\\xbdh3p\\xbc\\xa3F\\x7f?\\xc5\\x00/\\xbe\\x12-\\xad?\\xc8e\\xf4C\\xf0\\x94\\x14\\xc3\\xa1|MB\\xc1d[=t\\x90\'=\\xfaj\\x7f?\\xae!\\x1d@\\x98.\\xc1\\xbd\\xe4\\x1f\\xc1CX\\x04XC\\xb1\\xb5\'B\\xc1d[=t\\x90\'=\\xfaj\\x7f?9\\xe1\\x02@\\xc7\\x99\\xae?`\\xcfYC \\xf8IC-/NB\\xc1d[=t\\x90\'=\\xfaj\\x7f?\\xcd\\x84\\xaf?\\x83h\\xa7?\\xc8e\\xf4C\\xf0\\x94\\x14\\xc3\\xa1|MB\\x92\\t\\x0f=\\x93\\x12\\xd9<\\x00\\xc1\\x7f?\\xae!\\x1d@\\x98.\\xc1\\xbd`\\xcfYC \\xf8IC-/NB\\x92\\t\\x0f=\\x93\\x12\\xd9<\\x00\\xc1\\x7f?\\xcd\\x84\\xaf?\\x83h\\xa7?\\xa2!\\tC8\\xa9]C#`WB\\x92\\t\\x0f=\\x93\\x12\\xd9<\\x00\\xc1\\x7f?\\x166\\x86?\\x8d}\\xb1?\\xc8e\\xf4C\\xf0\\x94\\x14\\xc3\\xa1|MB,\\xae\\x87<F]\\x14<R\\xf4\\x7f?\\xae!\\x1d@\\x98.\\xc1\\xbd\\xa2!\\tC8\\xa9]C#`WB,\\xae\\x87<F]\\x14<R\\xf4\\x7f?\\x166\\x86?\\x8d}\\xb1?\\x00\'\\x15\\xc2\\xc8k\\x0bC\\x8e\\xe9eB,\\xae\\x87<F]\\x14<R\\xf4\\x7f?N\\xa2\\xb3>1b\\x87?\\xc8e\\xf4C\\xf0\\x94\\x14\\xc3\\xa1|MB=\\xb8\\n:\\x8f\\xbc\\xa5\\xbc\\x94\\xf2\\x7f?\\xae!\\x1d@\\x98.\\xc1\\xbd\\x00\'\\x15\\xc2\\xc8k\\x0bC\\x8e\\xe9eB=\\xb8\\n:\\x8f\\xbc\\xa5\\xbc\\x94\\xf2\\x7f?N\\xa2\\xb3>1b\\x87?\\x80\\xe9u\\xc2`\\x0f:\\xc3E\\x9eKB=\\xb8\\n:\\x8f\\xbc\\xa5\\xbc\\x94\\xf2\\x7f?\\xcf\\x17\\x82>\\x1d\\x1az\\xbe\\xc8e\\xf4C\\xf0\\x94\\x14\\xc3\\xa1|MBzS#=\\xf5\\xe0\\x17=\\xc6\\x9e\\x7f?\\xae!\\x1d@\\x98.\\xc1\\xbd\\x1c\\x12\\xf8C \\xf7fB\\x8f\\xaa-BzS#=\\xf5\\xe0\\x17=\\xc6\\x9e\\x7f?!\\x03\\x1f@\\x8b ;?\\xe4\\x1f\\xc1CX\\x04XC\\xb1\\xb5\'BzS#=\\xf5\\xe0\\x17=\\xc6\\x9e\\x7f?9\\xe1\\x02@\\xc7\\x99\\xae?",
+			},
+
+			"u3sub-sub-sub-block " :  {
+
+				"w" : 0.5,
+				"x" : 0.5,
+				"y" : 0.5,
+				"z" : 1.0,
+			},
+		},
+	},
+
+	"componentsub-block " :  {
+
+		"component type" : "GroundMeshGenerator",
+		"number" : 102,
+
+		"ground mesh generatorsub-sub-block " :  {
+
+			"ground polygon" : 100,
+			"ground mesh" : 101,
+			"texture mapping 1" : 103,
+			"texture mapping 2" : 104,
+			"u4" : 0,
+			"u5" : 20.0,
+			"u6" : 0,
+			"u7" : 100.0,
+			"u8" : 25.0,
+			"u9" : 5.0,
+			"u10" : 5.0,
+		},
+	},
+
+	"componentsub-block " :  {
+
+		"component type" : "TextureMapping",
+		"number" : 103,
+
+		"texture mappingsub-sub-block " :  {
+
+			"texture file" : "cavewalls",
+			"u0" : 250.0,
+
+			"u0sub-sub-sub-block " :  {
+
+				"u1" : 0.0,
+				"u2" : 0.0,
+			},
+		},
+	},
+
+	"componentsub-block " :  {
+
+		"component type" : "TextureMapping",
+		"number" : 104,
+
+		"texture mappingsub-sub-block " :  {
+
+			"texture file" : "cavewalls2",
+			"u0" : 250.0,
+
+			"u0sub-sub-sub-block " :  {
+
+				"u1" : 0.0,
+				"u2" : 0.0,
+			},
+		},
+	},
+
+	"positionsub-block " :  {
+
+		"x position" : -2989.817626953125,
+		"y position" : -1789.3062744140625,
+	},
+	"z position" : -177.32369995117188,
+	"rotation" : 0.0,
+	"scale" : 1.0,
+
+	"u2sub-block " :  {
+
+		"w" : -496.1414794921875,
+		"x" : -234.740966796875,
+		"y" : 992.282958984375,
+		"z" : 469.48193359375,
+	},
+	"hidden" : 0,
+},
+
+"objectblock " :  {
+
+	"identifier" : "obj14",
+
+	"componentsub-block " :  {
+
+		"component type" : "CollisionShape",
+		"number" : 101,
+
+		"collision shapesub-sub-block " :  {
+
+
+			"u0sub-sub-sub-block " :  {
+
+				"w" : -45.0,
+				"x" : -200.0,
+				"y" : 90.0,
+				"z" : 400.0,
+			},
+		},
+
+		"collision shape 2sub-sub-block " :  {
+
+			"w" : -15.0,
+			"x" : 15.0,
+			"y" : 2,
+			"z" : 1,
+		},
+	},
+
+	"componentsub-block " :  {
+
+		"component type" : "Portal",
+		"number" : 104,
+
+		"portalsub-sub-block " :  {
+
+			"target level" : "wasteland_part1",
+			"spawnpoint" : "",
+			"touchable" : 0,
+			"collision shape component" : 101,
+		},
+	},
+
+	"positionsub-block " :  {
+
+		"x position" : -3141.363525390625,
+		"y position" : -1194.291259765625,
+	},
+	"z position" : 0.0,
+	"rotation" : 0.0,
+	"scale" : 1.0,
+
+	"u2sub-block " :  {
+
+		"w" : -45.0,
+		"x" : -200.0,
+		"y" : 90.0,
+		"z" : 400.0,
+	},
+	"hidden" : 0,
+},
+
+"objectblock " :  {
+
+	"identifier" : "obj14#2",
+
+	"componentsub-block " :  {
+
+		"component type" : "CollisionShape",
+		"number" : 101,
+
+		"collision shapesub-sub-block " :  {
+
+
+			"u0sub-sub-sub-block " :  {
+
+				"w" : -45.0,
+				"x" : -200.0,
+				"y" : 90.0,
+				"z" : 400.0,
+			},
+		},
+
+		"collision shape 2sub-sub-block " :  {
+
+			"w" : -15.0,
+			"x" : 15.0,
+			"y" : 2,
+			"z" : 1,
+		},
+	},
+
+	"componentsub-block " :  {
+
+		"component type" : "Portal",
+		"number" : 104,
+
+		"portalsub-sub-block " :  {
+
+			"target level" : "wasteland_house1",
+			"spawnpoint" : "",
+			"touchable" : 0,
+			"collision shape component" : 101,
+		},
+	},
+
+	"positionsub-block " :  {
+
+		"x position" : -3143.034912109375,
+		"y position" : -1707.234130859375,
+	},
+	"z position" : 0.0,
+	"rotation" : 0.0,
+	"scale" : 1.0,
+
+	"u2sub-block " :  {
+
+		"w" : -45.0,
+		"x" : -200.0,
+		"y" : 90.0,
+		"z" : 400.0,
+	},
+	"hidden" : 0,
+},
+
+"objectblock " :  {
+
+	"name" : "stonepile",
+	"identifier" : "obj3",
+
+	"positionsub-block " :  {
+
+		"x position" : -2476.3828125,
+		"y position" : -1814.150390625,
+	},
+	"z position" : 0.0,
+	"rotation" : 0.0,
+	"scale" : 1.0,
+
+	"u2sub-block " :  {
+
+		"w" : -53.978271484375,
+		"x" : -14.460078239440918,
+		"y" : 132.95672607421875,
+		"z" : 145.86697387695312,
+	},
+	"hidden" : 0,
+},
+
+"objectblock " :  {
+
+	"name" : "point_250_15",
+	"identifier" : "obj4",
+
+	"positionsub-block " :  {
+
+		"x position" : -2528.30615234375,
+		"y position" : -1234.2449951171875,
+	},
+	"z position" : 0.0,
+	"rotation" : 0.0,
+	"scale" : 1.0,
+
+	"u2sub-block " :  {
+
+		"w" : -50.0,
+		"x" : -50.0,
+		"y" : 100.0,
+		"z" : 100.0,
+	},
+	"hidden" : 0,
+},
+
+"objectblock " :  {
+
+	"name" : "point_250_15",
+	"identifier" : "obj4#2",
+
+	"positionsub-block " :  {
+
+		"x position" : -2887.474853515625,
+		"y position" : -1222.90234375,
+	},
+	"z position" : 0.0,
+	"rotation" : 0.0,
+	"scale" : 1.0,
+
+	"u2sub-block " :  {
+
+		"w" : -50.0,
+		"x" : -50.0,
+		"y" : 100.0,
+		"z" : 100.0,
+	},
+	"hidden" : 0,
+},
+
+"objectblock " :  {
+
+	"name" : "point_250_15",
+	"identifier" : "obj4#3",
+
+	"positionsub-block " :  {
+
+		"x position" : -2738.60009765625,
+		"y position" : -1045.3690185546875,
+	},
+	"z position" : 0.0,
+	"rotation" : 0.0,
+	"scale" : 1.0,
+
+	"u2sub-block " :  {
+
+		"w" : -50.0,
+		"x" : -50.0,
+		"y" : 100.0,
+		"z" : 100.0,
+	},
+	"hidden" : 0,
+},
+
+"objectblock " :  {
+
+	"name" : "point_250_15",
+	"identifier" : "obj4#4",
+
+	"positionsub-block " :  {
+
+		"x position" : -2682.12158203125,
+		"y position" : -1456.3446044921875,
+	},
+	"z position" : 0.0,
+	"rotation" : 0.0,
+	"scale" : 1.0,
+
+	"u2sub-block " :  {
+
+		"w" : -50.0,
+		"x" : -50.0,
+		"y" : 100.0,
+		"z" : 100.0,
+	},
+	"hidden" : 0,
+},
+
+"objectblock " :  {
+
+	"name" : "point_250_15",
+	"identifier" : "obj4#5",
+
+	"positionsub-block " :  {
+
+		"x position" : -3145.37841796875,
+		"y position" : -1299.265625,
+	},
+	"z position" : 0.0,
+	"rotation" : 0.0,
+	"scale" : 1.0,
+
+	"u2sub-block " :  {
+
+		"w" : -50.0,
+		"x" : -50.0,
+		"y" : 100.0,
+		"z" : 100.0,
+	},
+	"hidden" : 0,
+},
+
+"objectblock " :  {
+
+	"identifier" : "obj5",
+
+	"componentsub-block " :  {
+
+		"component type" : "GroundPolygon",
+		"number" : 100,
+
+		"ground polygonsub-sub-block " :  {
+
+
+			"sub-sub-sub-block " :  {
+
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"x" : -562.12548828125,
+					"y" : -100.67022705078125,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"x" : -198.04010009765625,
+					"y" : -773.2092895507812,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"x" : 346.23565673828125,
+					"y" : -628.7117309570312,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"x" : 536.3961791992188,
+					"y" : -60.16143798828125,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"x" : 537.4015502929688,
+					"y" : -32.178619384765625,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"x" : 538.4066772460938,
+					"y" : -4.195892333984375,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"x" : 539.3939819335938,
+					"y" : 39.907623291015625,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"x" : 540.3810424804688,
+					"y" : 84.01089477539062,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"x" : 541.3546752929688,
+					"y" : 140.26492309570312,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"x" : 542.3280639648438,
+					"y" : 196.51889038085938,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"x" : 543.2921752929688,
+					"y" : 261.1877136230469,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"x" : -247.54473876953125,
+					"y" : 249.00738525390625,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"x" : -296.02935791015625,
+					"y" : 346.7269287109375,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"x" : 146.6104736328125,
+					"y" : 400.861083984375,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"x" : 345.97314453125,
+					"y" : 470.2261962890625,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"x" : 416.2647705078125,
+					"y" : 453.70867919921875,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"x" : 493.36492919921875,
+					"y" : 370.7901611328125,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"x" : 562.1254272460938,
+					"y" : 363.3468017578125,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"x" : 540.077880859375,
+					"y" : 762.7499389648438,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"x" : 350.83154296875,
+					"y" : 759.5994262695312,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"x" : 252.02740478515625,
+					"y" : 759.81103515625,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"x" : 151.45660400390625,
+					"y" : 758.4202270507812,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"x" : 66.7103271484375,
+					"y" : 759.058837890625,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"x" : -193.1746826171875,
+					"y" : 752.2135009765625,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"x" : -496.0062255859375,
+					"y" : 773.2092895507812,
+				},
+				"u0" : 0,
+				"u1" : 1,
+			},
+			"u1" : 1,
+			"u2" : -117.5,
+			"u3" : 117.5,
+			"u4" : "",
+		},
+	},
+
+	"componentsub-block " :  {
+
+		"component type" : "GroundMesh",
+		"number" : 101,
+
+		"ground meshsub-sub-block " :  {
+
+
+			"u0sub-sub-sub-block " :  {
+
+				"w" : -572.12548828125,
+				"x" : -783.2092895507812,
+				"y" : 1144.2509765625,
+				"z" : 1566.4185791015625,
+			},
+
+			"u1sub-sub-sub-block " :  {
+
+				"u0" : 30,
+				"u1" : 20,
+
+				"u2sub-sub-sub-sub-block " :  {
+
+					"u0" : 4,
+					"u1" : 1,
+					"u2" : 2,
+					"u3" : 0,
+				},
+
+				"u3sub-sub-sub-sub-block " :  {
+
+					"u0" : 7,
+					"u1" : 3,
+					"u2" : 32,
+					"u3" : 0,
+				},
+
+				"u4sub-sub-sub-sub-block " :  {
+
+					"u0" : 7,
+					"u1" : 3,
+					"u2" : 32,
+					"u3" : 12,
+				},
+
+				"u5sub-sub-sub-sub-block " :  {
+
+					"u0" : 7,
+					"u1" : 2,
+					"u2" : 32,
+					"u3" : 24,
+				},
+
+				"u6sub-sub-sub-sub-block " :  {
+
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 1.0,
+						"x" : 1.0,
+						"y" : 1.0,
+						"z" : 1.0,
+					},
+
+					"u1sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 1.0,
+						"x" : 1.0,
+						"y" : 1.0,
+						"z" : 1.0,
+					},
+
+					"u2sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 1.0,
+						"x" : 1.0,
+						"y" : 1.0,
+						"z" : 1.0,
+					},
+					"u3" : 0.0,
+					"u4" : "\\n\\x08brown128\\x10\\x01 \\x02",
+				},
+
+				"u7sub-sub-sub-sub-block " :  {
+
+					"u" : -247.54473876953125,
+					"v" : 224.00738525390625,
+					"w" : -122.5,
+					"x" : 793.8365478515625,
+					"y" : 538.79248046875,
+					"z" : 245.0,
+				},
+				"u8" : "\\xad\\x92\\x08D\\xf1\\x9d\\x82C\\x00\\x00\\xeb\\xc2BP|\\xbc:\\xf8\\x7f?\\x00\\x00\\x00\\x00\\x00\\x00\\x00?\\x8f\\xc2\\xf5<\\xad\\x92\\x08D\\xf1\\x9d\\x82C\\x00\\x00\\xebBBP|\\xbc:\\xf8\\x7f?\\x00\\x00\\x00\\x00\\x00\\x00\\x00?\\xecQx?\\xad\\x92\\x08D\\xe2;{C\\x00\\x00\\xf5B\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\x1f\\x85\\xeb>\\xa4p}?\\xad\\x92\\x08D\\xe2;lC33\\xebBBP|<:\\xf8\\x7f\\xbf\\x00\\x00\\x00\\x80\\xcd\\xcc\\xcc>\"lx?\\xad\\x92\\x08D\\xe2;lC\\xcd\\xcc\\xea\\xc2BP|<:\\xf8\\x7f\\xbf\\x00\\x00\\x00\\x80\\xcd\\xcc\\xcc>h\\t\\xf9<\\xad\\x92\\x08D\\xe2;{C\\x00\\x00\\xf5\\xc2\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\x1f\\x85\\xeb>\\n\\xd7#<\\xad\\x92\\x08D\\xf1\\x9d\\x82C\\x00\\x00\\xeb\\xc2BP|\\xbc:\\xf8\\x7f?\\x00\\x00\\x00\\x00\\x00\\x00\\x00?\\x8f\\xc2\\xf5<\\xad\\x92\\x08D\\xf1\\x9d\\x82C\\x00\\x00\\xebBBP|\\xbc:\\xf8\\x7f?\\x00\\x00\\x00\\x00\\x00\\x00\\x00?\\xecQx?\\xad\\x92\\x08D\\xe2;{C\\x00\\x00\\xf5B\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\x00\\x00\\x00?d\\xe2\\x81?\\xad\\x92\\x08D\\xe2;lC33\\xebBBP|<:\\xf8\\x7f\\xbf\\x00\\x00\\x00\\x80\\x00\\x00\\x00?\\xb6\\xf6\\x89?t\\x8bw\\xc3\\xe4\\x01yC\\x00\\x00\\xeb\\xc2BP|\\xbc:\\xf8\\x7f?\\x00\\x00\\x00\\x00pzj@\\x8f\\xc2\\xf5<t\\x8bw\\xc3\\xe4\\x01yC\\x00\\x00\\xebBBP|\\xbc:\\xf8\\x7f?\\x00\\x00\\x00\\x00pzj@\\xecQx?t\\x8bw\\xc3\\xe4\\x01oC\\x00\\x00\\xf5B\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?pzj@d\\xe2\\x81?t\\x8bw\\xc3\\xe4\\x01`C33\\xebBBP|<:\\xf8\\x7f\\xbf\\x00\\x00\\x00\\x80pzj@\\xb6\\xf6\\x89?t\\x8bw\\xc3\\xe4\\x01yC\\x00\\x00\\xeb\\xc2BP|\\xbc:\\xf8\\x7f?\\x00\\x00\\x00\\x00pzj@\\x8f\\xc2\\xf5<t\\x8bw\\xc3\\xe4\\x01yC\\x00\\x00\\xebBBP|\\xbc:\\xf8\\x7f?\\x00\\x00\\x00\\x00pzj@\\xecQx?t\\x8bw\\xc3\\xe4\\x01oC\\x00\\x00\\xf5B\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xcc\\tm@\\xa4p}?t\\x8bw\\xc3\\xe4\\x01`C33\\xebBBP|<:\\xf8\\x7f\\xbf\\x00\\x00\\x00\\x80\\xd6\\xe0p@\"lx?t\\x8bw\\xc3\\xe4\\x01`C\\xcd\\xcc\\xea\\xc2BP|<:\\xf8\\x7f\\xbf\\x00\\x00\\x00\\x80\\xd6\\xe0p@h\\t\\xf9<t\\x8bw\\xc3\\xe4\\x01oC\\x00\\x00\\xf5\\xc2\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xcc\\tm@\\n\\xd7#<\\xf5\\xc4\\x07D1\\xb3>D\\x00\\x00\\xeb\\xc2\\xe2[\\x88\\xbc\\xed\\xf6\\x7f?\\x00\\x00\\x00\\x00pzj@\\x8f\\xc2\\xf5<\\xf5\\xc4\\x07D1\\xb3>D\\x00\\x00\\xebB\\xe2[\\x88\\xbc\\xed\\xf6\\x7f?\\x00\\x00\\x00\\x00pzj@\\xecQx?\\xf5\\xc4\\x07D13<D\\x00\\x00\\xf5B\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\x13\\xebg@\\xa4p}?\\xf5\\xc4\\x07D1s8D33\\xebB\\xe2[\\x88<\\xed\\xf6\\x7f\\xbf\\x00\\x00\\x00\\x80\\t\\x14d@\"lx?\\xf5\\xc4\\x07D1s8D\\xcd\\xcc\\xea\\xc2\\xe2[\\x88<\\xed\\xf6\\x7f\\xbf\\x00\\x00\\x00\\x80\\t\\x14d@h\\t\\xf9<\\xf5\\xc4\\x07D13<D\\x00\\x00\\xf5\\xc2\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\x13\\xebg@\\n\\xd7#<\\xf5\\xc4\\x07D1\\xb3>D\\x00\\x00\\xeb\\xc2\\xe2[\\x88\\xbc\\xed\\xf6\\x7f?\\x00\\x00\\x00\\x00pzj@\\x8f\\xc2\\xf5<\\xf5\\xc4\\x07D1\\xb3>D\\x00\\x00\\xebB\\xe2[\\x88\\xbc\\xed\\xf6\\x7f?\\x00\\x00\\x00\\x00pzj@\\xecQx?pj\\xafC]\\xe6=D\\x00\\x00\\xeb\\xc2*\\\'\\\'\\xbc\\x97\\xfc\\x7f?\\x00\\x00\\x00\\x00Mw\\x8d@\\x8f\\xc2\\xf5<pj\\xafC]\\xe6=D\\x00\\x00\\xebB*\\\'\\\'\\xbc\\x97\\xfc\\x7f?\\x00\\x00\\x00\\x00Mw\\x8d@\\xecQx?",
+				"u9" : "\\x00\\x00\\x04\\x00\\x05\\x00\\x00\\x00\\x03\\x00\\x04\\x00\\x00\\x00\\x01\\x00\\x03\\x00\\x01\\x00\\x02\\x00\\x03\\x00\\x06\\x00\\n\\x00\\x0b\\x00\\x07\\x00\\x06\\x00\\x0b\\x00\\x07\\x00\\x0b\\x00\\x0c\\x00\\x08\\x00\\x07\\x00\\x0c\\x00\\x08\\x00\\x0c\\x00\\r\\x00\\t\\x00\\x08\\x00\\r\\x00\\x0e\\x00\\x13\\x00\\x12\\x00\\x0e\\x00\\x12\\x00\\x11\\x00\\x0e\\x00\\x11\\x00\\x0f\\x00\\x11\\x00\\x10\\x00\\x0f\\x00\\x14\\x00\\x18\\x00\\x19\\x00\\x14\\x00\\x17\\x00\\x18\\x00\\x14\\x00\\x15\\x00\\x17\\x00\\x15\\x00\\x16\\x00\\x17\\x00\\x1a\\x00\\x1c\\x00\\x1d\\x00\\x1b\\x00\\x1a\\x00\\x1d\\x00",
+			},
+
+			"u1sub-sub-sub-block " :  {
+
+				"u0" : 18,
+				"u1" : 20,
+
+				"u2sub-sub-sub-sub-block " :  {
+
+					"u0" : 4,
+					"u1" : 1,
+					"u2" : 2,
+					"u3" : 0,
+				},
+
+				"u3sub-sub-sub-sub-block " :  {
+
+					"u0" : 7,
+					"u1" : 3,
+					"u2" : 32,
+					"u3" : 0,
+				},
+
+				"u4sub-sub-sub-sub-block " :  {
+
+					"u0" : 7,
+					"u1" : 3,
+					"u2" : 32,
+					"u3" : 12,
+				},
+
+				"u5sub-sub-sub-sub-block " :  {
+
+					"u0" : 7,
+					"u1" : 2,
+					"u2" : 32,
+					"u3" : 24,
+				},
+
+				"u6sub-sub-sub-sub-block " :  {
+
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 1.0,
+						"x" : 1.0,
+						"y" : 1.0,
+						"z" : 1.0,
+					},
+
+					"u1sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 1.0,
+						"x" : 1.0,
+						"y" : 1.0,
+						"z" : 1.0,
+					},
+
+					"u2sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 1.0,
+						"x" : 1.0,
+						"y" : 1.0,
+						"z" : 1.0,
+					},
+					"u3" : 0.0,
+					"u4" : "\\n\\x08brown128\\x10\\x01 \\x02",
+				},
+
+				"u7sub-sub-sub-sub-block " :  {
+
+					"u" : 66.7103271484375,
+					"v" : 733.4202270507812,
+					"w" : -117.5,
+					"x" : 476.36712646484375,
+					"y" : 29.379638671875,
+					"z" : 240.0,
+				},
+				"u8" : "\\xf5\\xc4\\x07D1\\xb3>D\\x00\\x00\\xebB\\xe2[\\x88\\xbc\\xed\\xf6\\x7f?\\x00\\x00\\x00\\x00pzj@\\xecQx?\\xf5\\xc4\\x07D13<D\\x00\\x00\\xf5B\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?pzj@d\\xe2\\x81?\\xf5\\xc4\\x07D1s8D33\\xebB\\xe2[\\x88<\\xed\\xf6\\x7f\\xbf\\x00\\x00\\x00\\x80pzj@\\xb6\\xf6\\x89?pj\\xafC]\\xe6=D\\x00\\x00\\xeb\\xc2*\'\'\\xbc\\x97\\xfc\\x7f?\\x00\\x00\\x00\\x00Mw\\x8d@\\x8f\\xc2\\xf5<pj\\xafC]\\xe6=D\\x00\\x00\\xebB*\'\'\\xbc\\x97\\xfc\\x7f?\\x00\\x00\\x00\\x00Mw\\x8d@\\xecQx?pj\\xafC]f;D\\x00\\x00\\xf5B\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?Mw\\x8d@d\\xe2\\x81?pj\\xafC]\\xa67D33\\xebB*\'\'<\\x97\\xfc\\x7f\\xbf\\x00\\x00\\x00\\x80Mw\\x8d@\\xb6\\xf6\\x89?\\x04\\x07|C\\xe8\\xf3=D\\x00\\x00\\xeb\\xc2c\\xcd\\xc1\\xbb\\xd9\\xfe\\x7f?\\x00\\x00\\x00\\x00\\xec\\x1c\\x9a@\\x8f\\xc2\\xf5<\\x04\\x07|C\\xe8\\xf3=D\\x00\\x00\\xebBc\\xcd\\xc1\\xbb\\xd9\\xfe\\x7f?\\x00\\x00\\x00\\x00\\xec\\x1c\\x9a@\\xecQx?\\x04\\x07|C\\xe8s;D\\x00\\x00\\xf5B\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xec\\x1c\\x9a@d\\xe2\\x81?\\x04\\x07|C\\xe8\\xb37D33\\xebBc\\xcd\\xc1;\\xd9\\xfe\\x7f\\xbf\\x00\\x00\\x00\\x80\\xec\\x1c\\x9a@\\xb6\\xf6\\x89?\\xe4t\\x17C\\xe5\\x9a=D\\x00\\x00\\xeb\\xc2\\xdd\\x00\\x85\\xbbv\\xff\\x7f?\\x00\\x00\\x00\\x00\\xbd\\xfc\\xa6@\\x8f\\xc2\\xf5<\\xe4t\\x17C\\xe5\\x9a=D\\x00\\x00\\xebB\\xdd\\x00\\x85\\xbbv\\xff\\x7f?\\x00\\x00\\x00\\x00\\xbd\\xfc\\xa6@\\xecQx?\\xe4t\\x17C\\xe5\\x1a;D\\x00\\x00\\xf5B\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\xff\\xff\\x7f?\\xbd\\xfc\\xa6@d\\xe2\\x81?\\xe4t\\x17C\\xe5Z7D33\\xebB\\xdd\\x00\\x85;v\\xff\\x7f\\xbf\\x00\\x00\\x00\\x80\\xbd\\xfc\\xa6@\\xb6\\xf6\\x89?\\xb0k\\x85B\\xc4\\xc3=D\\x00\\x00\\xeb\\xc2\\x13\\x83\\x93\\xbc`\\xf5\\x7f?\\x00\\x00\\x00\\x00\\xc9\\xd5\\xb1@\\x8f\\xc2\\xf5<\\xb0k\\x85B\\xc4\\xc3=D\\x00\\x00\\xebB\\x13\\x83\\x93\\xbc`\\xf5\\x7f?\\x00\\x00\\x00\\x00\\xc9\\xd5\\xb1@\\xecQx?\\xb0k\\x85B\\xc4C;D\\x00\\x00\\xf5B\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xc9\\xd5\\xb1@d\\xe2\\x81?",
+				"u9" : "\\x00\\x00\\x04\\x00\\x05\\x00\\x01\\x00\\x00\\x00\\x05\\x00\\x01\\x00\\x05\\x00\\x06\\x00\\x02\\x00\\x01\\x00\\x06\\x00\\x03\\x00\\x07\\x00\\x08\\x00\\x04\\x00\\x03\\x00\\x08\\x00\\x04\\x00\\x08\\x00\\t\\x00\\x05\\x00\\x04\\x00\\t\\x00\\x05\\x00\\t\\x00\\n\\x00\\x06\\x00\\x05\\x00\\n\\x00\\x07\\x00\\x0b\\x00\\x0c\\x00\\x08\\x00\\x07\\x00\\x0c\\x00\\x08\\x00\\x0c\\x00\\r\\x00\\t\\x00\\x08\\x00\\r\\x00\\t\\x00\\r\\x00\\x0e\\x00\\n\\x00\\t\\x00\\x0e\\x00\\x0b\\x00\\x0f\\x00\\x10\\x00\\x0c\\x00\\x0b\\x00\\x10\\x00\\x0c\\x00\\x10\\x00\\x11\\x00\\r\\x00\\x0c\\x00\\x11\\x00",
+			},
+
+			"u1sub-sub-sub-block " :  {
+
+				"u0" : 20,
+				"u1" : 18,
+
+				"u2sub-sub-sub-sub-block " :  {
+
+					"u0" : 4,
+					"u1" : 1,
+					"u2" : 2,
+					"u3" : 0,
+				},
+
+				"u3sub-sub-sub-sub-block " :  {
+
+					"u0" : 7,
+					"u1" : 3,
+					"u2" : 32,
+					"u3" : 0,
+				},
+
+				"u4sub-sub-sub-sub-block " :  {
+
+					"u0" : 7,
+					"u1" : 3,
+					"u2" : 32,
+					"u3" : 12,
+				},
+
+				"u5sub-sub-sub-sub-block " :  {
+
+					"u0" : 7,
+					"u1" : 2,
+					"u2" : 32,
+					"u3" : 24,
+				},
+
+				"u6sub-sub-sub-sub-block " :  {
+
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 1.0,
+						"x" : 1.0,
+						"y" : 1.0,
+						"z" : 1.0,
+					},
+
+					"u1sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 1.0,
+						"x" : 1.0,
+						"y" : 1.0,
+						"z" : 1.0,
+					},
+
+					"u2sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 1.0,
+						"x" : 1.0,
+						"y" : 1.0,
+						"z" : 1.0,
+					},
+					"u3" : 0.0,
+					"u4" : "\\n\\x08brown128\\x10\\x01 \\x02",
+				},
+
+				"u7sub-sub-sub-sub-block " :  {
+
+					"u" : -498.9990539550781,
+					"v" : 727.2135009765625,
+					"w" : -122.5,
+					"x" : 650.4556884765625,
+					"y" : 46.20330810546875,
+					"z" : 245.0,
+				},
+				"u8" : "\\xe4t\\x17C\\xe5\\x1a;D\\x00\\x00\\xf5B\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\xff\\xff\\x7f?\\xbd\\xfc\\xa6@d\\xe2\\x81?\\xe4t\\x17C\\xe5Z7D33\\xebB\\xdd\\x00\\x85;v\\xff\\x7f\\xbf\\x00\\x00\\x00\\x80\\xbd\\xfc\\xa6@\\xb6\\xf6\\x89?\\xb0k\\x85B\\xc4\\xc3=D\\x00\\x00\\xeb\\xc2\\x13\\x83\\x93\\xbc`\\xf5\\x7f?\\x00\\x00\\x00\\x00\\xc9\\xd5\\xb1@\\x8f\\xc2\\xf5<\\xb0k\\x85B\\xc4\\xc3=D\\x00\\x00\\xebB\\x13\\x83\\x93\\xbc`\\xf5\\x7f?\\x00\\x00\\x00\\x00\\xc9\\xd5\\xb1@\\xecQx?\\xb0k\\x85B\\xc4C;D\\x00\\x00\\xf5B\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xc9\\xd5\\xb1@d\\xe2\\x81?\\xb0k\\x85B\\xc4\\x837D33\\xebB\\x13\\x83\\x93<`\\xf5\\x7f\\xbf\\x00\\x00\\x00\\x80\\xc9\\xd5\\xb1@\\xb6\\xf6\\x89?\\xb8,A\\xc3\\xaa\\r<D\\x00\\x00\\xeb\\xc2\\xbc\\xef\\xcd<I\\xeb\\x7f?\\x00\\x00\\x00\\x00\\xa6\\x1c\\xd3@\\x8f\\xc2\\xf5<\\xb8,A\\xc3\\xaa\\r<D\\x00\\x00\\xebB\\xbc\\xef\\xcd<I\\xeb\\x7f?\\x00\\x00\\x00\\x00\\xa6\\x1c\\xd3@\\xecQx?\\xb8,A\\xc3\\xaa\\x8d9D\\x00\\x00\\xf5B\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xa6\\x1c\\xd3@d\\xe2\\x81?\\xb8,A\\xc3\\xaa\\xcd5D33\\xebB\\xbc\\xef\\xcd\\xbcI\\xeb\\x7f\\xbf\\x00\\x00\\x00\\x80\\xa6\\x1c\\xd3@\\xb6\\xf6\\x89?\\xe1\\x7f\\xf9\\xc3\\xadZAD\\x00\\x00\\xeb\\xc2\\xaa\\xa6\\x8d=\\x0ec\\x7f?\\x00\\x00\\x00\\x00\\xa7\\xf7\\xf9@\\x8f\\xc2\\xf5<\\xe1\\x7f\\xf9\\xc3\\xadZAD\\x00\\x00\\xebB\\xaa\\xa6\\x8d=\\x0ec\\x7f?\\x00\\x00\\x00\\x00\\xa7\\xf7\\xf9@\\xecQx?\\xe1\\x7f\\xf9\\xc3\\xad\\xda>D\\x00\\x00\\xf5B\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xa7\\xf7\\xf9@d\\xe2\\x81?\\xe1\\x7f\\xf9\\xc3\\xad\\x1a;D33\\xebB\\xaa\\xa6\\x8d\\xbd\\x0ec\\x7f\\xbf\\x00\\x00\\x00\\x80\\xa7\\xf7\\xf9@\\xb6\\xf6\\x89?\\xe1\\x7f\\xf9\\xc3\\xadZAD\\x00\\x00\\xeb\\xc2\\xaa\\xa6\\x8d=\\x0ec\\x7f?\\x00\\x00\\x00\\x00\\xa7\\xf7\\xf9@\\x8f\\xc2\\xf5<\\xe1\\x7f\\xf9\\xc3\\xadZAD\\x00\\x00\\xebB\\xaa\\xa6\\x8d=\\x0ec\\x7f?\\x00\\x00\\x00\\x00\\xa7\\xf7\\xf9@\\xecQx?\\xe1\\x7f\\xf9\\xc3\\xad\\xda>D\\x00\\x00\\xf5B\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?U?\\xfb@\\xa4p}?\\xe1\\x7f\\xf9\\xc3\\xad\\x1a;D33\\xebB\\xaa\\xa6\\x8d\\xbd\\x0ec\\x7f\\xbf\\x00\\x00\\x00\\x80\\xda*\\xfd@\"lx?\\xe1\\x7f\\xf9\\xc3\\xad\\x1a;D\\xcd\\xcc\\xea\\xc2\\xaa\\xa6\\x8d\\xbd\\x0ec\\x7f\\xbf\\x00\\x00\\x00\\x80\\xda*\\xfd@h\\t\\xf9<\\xe1\\x7f\\xf9\\xc3\\xad\\xda>D\\x00\\x00\\xf5\\xc2\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?U?\\xfb@\\n\\xd7#<",
+				"u9" : "\\x00\\x00\\x04\\x00\\x05\\x00\\x01\\x00\\x00\\x00\\x05\\x00\\x02\\x00\\x06\\x00\\x07\\x00\\x03\\x00\\x02\\x00\\x07\\x00\\x03\\x00\\x07\\x00\\x08\\x00\\x04\\x00\\x03\\x00\\x08\\x00\\x04\\x00\\x08\\x00\\t\\x00\\x05\\x00\\x04\\x00\\t\\x00\\x06\\x00\\n\\x00\\x0b\\x00\\x07\\x00\\x06\\x00\\x0b\\x00\\x07\\x00\\x0b\\x00\\x0c\\x00\\x08\\x00\\x07\\x00\\x0c\\x00\\x08\\x00\\x0c\\x00\\r\\x00\\t\\x00\\x08\\x00\\r\\x00\\x0e\\x00\\x13\\x00\\x12\\x00\\x0e\\x00\\x12\\x00\\x11\\x00\\x0e\\x00\\x11\\x00\\x0f\\x00\\x11\\x00\\x10\\x00\\x0f\\x00",
+			},
+
+			"u1sub-sub-sub-block " :  {
+
+				"u0" : 24,
+				"u1" : 20,
+
+				"u2sub-sub-sub-sub-block " :  {
+
+					"u0" : 4,
+					"u1" : 1,
+					"u2" : 2,
+					"u3" : 0,
+				},
+
+				"u3sub-sub-sub-sub-block " :  {
+
+					"u0" : 7,
+					"u1" : 3,
+					"u2" : 32,
+					"u3" : 0,
+				},
+
+				"u4sub-sub-sub-sub-block " :  {
+
+					"u0" : 7,
+					"u1" : 3,
+					"u2" : 32,
+					"u3" : 12,
+				},
+
+				"u5sub-sub-sub-sub-block " :  {
+
+					"u0" : 7,
+					"u1" : 2,
+					"u2" : 32,
+					"u3" : 24,
+				},
+
+				"u6sub-sub-sub-sub-block " :  {
+
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 1.0,
+						"x" : 1.0,
+						"y" : 1.0,
+						"z" : 1.0,
+					},
+
+					"u1sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 1.0,
+						"x" : 1.0,
+						"y" : 1.0,
+						"z" : 1.0,
+					},
+
+					"u2sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 1.0,
+						"x" : 1.0,
+						"y" : 1.0,
+						"z" : 1.0,
+					},
+					"u3" : 0.0,
+					"u4" : "\\n\\tcavewalls\\x10\\x01 \\x01",
+				},
+
+				"u7sub-sub-sub-sub-block " :  {
+
+					"u" : -562.12548828125,
+					"v" : -773.2092895507812,
+					"w" : -112.5,
+					"x" : 1124.2508544921875,
+					"y" : 1546.4185791015625,
+					"z" : 225.0,
+				},
+				"u8" : "t\\x8bw\\xc3\\xe4\\x01yC\\x00\\x00\\xe1\\xc2\\x0eSe?K\\x90\\xe3>\\x00\\x00\\x00\\x00\\x00\\x00\\x00?\\xcd\\xccL=t\\x8bw\\xc3\\xe4\\x01yC\\x00\\x00\\xe1B\\x0eSe?K\\x90\\xe3>\\x00\\x00\\x00\\x00\\x00\\x00\\x00?33s?\\xc2\\x03\\x94\\xc3\\x0c]\\xadC\\x00\\x00\\xe1\\xc2-\\x11\\xb8>q\\xe2n\\xbf\\x00\\x00\\x00\\x00`\\xb4o?\\xcd\\xccL=\\xc2\\x03\\x94\\xc3\\x0c]\\xadC\\x00\\x00\\xe1B-\\x11\\xb8>q\\xe2n\\xbf\\x00\\x00\\x00\\x00`\\xb4o?33s?H\\x9c\\x12C8n\\xc8C\\x00\\x00\\xe1\\xc2\\x9coA>\\x14d{\\xbf\\x00\\x00\\x00\\x00\\x12\\x16.@\\xcd\\xccL=H\\x9c\\x12C8n\\xc8C\\x00\\x00\\xe1B\\x9coA>\\x14d{\\xbf\\x00\\x00\\x00\\x00\\x12\\x16.@33s?\\x90\\xfc\\xacC\\xf4\\x1c\\xebC\\x00\\x00\\xe1\\xc2\\x99\\xf0D>\\x8a8{\\xbf\\x00\\x00\\x00\\x00\\xc2\\x1fd@\\xcd\\xccL=\\x90\\xfc\\xacC\\xf4\\x1c\\xebC\\x00\\x00\\xe1B\\x99\\xf0D>\\x8a8{\\xbf\\x00\\x00\\x00\\x00\\xc2\\x1fd@33s?\\xe4!\\xd0C\\xb6\\xda\\xe2C\\x00\\x00\\xe1\\xc2\\x15,\\x0f\\xbf\\x8e8T\\xbf\\x00\\x00\\x00\\x00\\xdd\\x9bv@\\xcd\\xccL=\\xe4!\\xd0C\\xb6\\xda\\xe2C\\x00\\x00\\xe1B\\x15,\\x0f\\xbf\\x8e8T\\xbf\\x00\\x00\\x00\\x00\\xdd\\x9bv@33s?\\xb6\\xae\\xf6C$e\\xb9C\\x00\\x00\\xe1\\xc2\\xba\\xd1\\x06\\xbf~\\x9fY\\xbf\\x00\\x00\\x00\\x00\\x18\\xcc\\x89@\\xcd\\xccL=\\xb6\\xae\\xf6C$e\\xb9C\\x00\\x00\\xe1B\\xba\\xd1\\x06\\xbf~\\x9fY\\xbf\\x00\\x00\\x00\\x00\\x18\\xcc\\x89@33s?\\x07\\x88\\x0cDd\\xac\\xb5C\\x00\\x00\\xe1\\xc2|3~?}\\\\\\xf2\\xbd\\x00\\x00\\x00\\x00f\\xa6\\x92@\\xcd\\xccL=\\x07\\x88\\x0cDd\\xac\\xb5C\\x00\\x00\\xe1B|3~?}\\\\\\xf2\\xbd\\x00\\x00\\x00\\x00f\\xa6\\x92@33s?\\xfc\\x04\\x07D\\xff\\xaf>D\\x00\\x00\\xe1\\xc2a\\x9c\\x7f?\\xb4\\xc2a=\\x00\\x00\\x00\\x00\\xf8\\xd9\\xc5@\\xcd\\xccL=\\xfc\\x04\\x07D\\xff\\xaf>D\\x00\\x00\\xe1Ba\\x9c\\x7f?\\xb4\\xc2a=\\x00\\x00\\x00\\x00\\xf8\\xd9\\xc5@33s?\\xcc\\x00\\xf8\\xc3eMAD\\x00\\x00\\xe1\\xc27E\\x7f\\xbf~\\x83\\x9a=\\x00\\x00\\x00\\x00\\xf8\\xd9\\xc5@\\xcd\\xccL=\\xcc\\x00\\xf8\\xc3eMAD\\x00\\x00\\xe1B7E\\x7f\\xbf~\\x83\\x9a=\\x00\\x00\\x00\\x00\\xf8\\xd9\\xc5@33s?\\x08\\x88\\x0c\\xc4(W\\xc9\\xc2\\x00\\x00\\xe1\\xc2N`{\\xbf\\xfa\\xbdA\\xbe\\x00\\x00\\x00\\x00\\x8d\\x03\\x1bA\\xcd\\xccL=\\x08\\x88\\x0c\\xc4(W\\xc9\\xc2\\x00\\x00\\xe1BN`{\\xbf\\xfa\\xbdA\\xbe\\x00\\x00\\x00\\x00\\x8d\\x03\\x1bA33s?D\\nF\\xc3eMA\\xc4\\x00\\x00\\xe1\\xc28\\xa8\\x00\\xbfdR]\\xbf\\x00\\x00\\x00\\x00z\\xf5KA\\xcd\\xccL=D\\nF\\xc3eMA\\xc4\\x00\\x00\\xe1B8\\xa8\\x00\\xbfdR]\\xbf\\x00\\x00\\x00\\x00z\\xf5KA33s?*\\x1e\\xadC\\x8d-\\x1d\\xc4\\x00\\x00\\xe1\\xc28S2?\\x90\\xac7\\xbf\\x00\\x00\\x00\\x00\\xcd\\xffoA\\xcd\\xccL=*\\x1e\\xadC\\x8d-\\x1d\\xc4\\x00\\x00\\xe1B8S2?\\x90\\xac7\\xbf\\x00\\x00\\x00\\x00\\xcd\\xffoA33s?",
+				"u9" : "\\x00\\x00\\x02\\x00\\x03\\x00\\x01\\x00\\x00\\x00\\x03\\x00\\x02\\x00\\x04\\x00\\x05\\x00\\x03\\x00\\x02\\x00\\x05\\x00\\x04\\x00\\x06\\x00\\x07\\x00\\x05\\x00\\x04\\x00\\x07\\x00\\x06\\x00\\x08\\x00\\t\\x00\\x07\\x00\\x06\\x00\\t\\x00\\x08\\x00\\n\\x00\\x0b\\x00\\t\\x00\\x08\\x00\\x0b\\x00\\n\\x00\\x0c\\x00\\r\\x00\\x0b\\x00\\n\\x00\\r\\x00\\x0c\\x00\\x0e\\x00\\x0f\\x00\\r\\x00\\x0c\\x00\\x0f\\x00\\x10\\x00\\x12\\x00\\x13\\x00\\x11\\x00\\x10\\x00\\x13\\x00\\x12\\x00\\x14\\x00\\x15\\x00\\x13\\x00\\x12\\x00\\x15\\x00\\x14\\x00\\x16\\x00\\x17\\x00\\x15\\x00\\x14\\x00\\x17\\x00",
+			},
+
+			"u1sub-sub-sub-block " :  {
+
+				"u0" : 18,
+				"u1" : 16,
+
+				"u2sub-sub-sub-sub-block " :  {
+
+					"u0" : 4,
+					"u1" : 1,
+					"u2" : 2,
+					"u3" : 0,
+				},
+
+				"u3sub-sub-sub-sub-block " :  {
+
+					"u0" : 7,
+					"u1" : 3,
+					"u2" : 32,
+					"u3" : 0,
+				},
+
+				"u4sub-sub-sub-sub-block " :  {
+
+					"u0" : 7,
+					"u1" : 3,
+					"u2" : 32,
+					"u3" : 12,
+				},
+
+				"u5sub-sub-sub-sub-block " :  {
+
+					"u0" : 7,
+					"u1" : 2,
+					"u2" : 32,
+					"u3" : 24,
+				},
+
+				"u6sub-sub-sub-sub-block " :  {
+
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 1.0,
+						"x" : 1.0,
+						"y" : 1.0,
+						"z" : 1.0,
+					},
+
+					"u1sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 1.0,
+						"x" : 1.0,
+						"y" : 1.0,
+						"z" : 1.0,
+					},
+
+					"u2sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 1.0,
+						"x" : 1.0,
+						"y" : 1.0,
+						"z" : 1.0,
+					},
+					"u3" : 0.0,
+					"u4" : "\\n\\tcavewalls\\x10\\x01 \\x01",
+				},
+
+				"u7sub-sub-sub-sub-block " :  {
+
+					"u" : 346.23565673828125,
+					"v" : -628.7117309570312,
+					"w" : -112.5,
+					"x" : 197.0565185546875,
+					"y" : 889.8994140625,
+					"z" : 225.0,
+				},
+				"u8" : "*\\x1e\\xadC\\x8d-\\x1d\\xc4\\x00\\x00\\xe1\\xc28S2?\\x90\\xac7\\xbf\\x00\\x00\\x00\\x00\\xcd\\xffoA\\xcd\\xccL=*\\x1e\\xadC\\x8d-\\x1d\\xc4\\x00\\x00\\xe1B8S2?\\x90\\xac7\\xbf\\x00\\x00\\x00\\x00\\xcd\\xffoA33s?[\\x19\\x06DP\\xa5p\\xc2\\x00\\x00\\xe1\\xc2\\xb4\\xc9s?\\xd1?\\x9c\\xbe\\x00\\x00\\x00\\x00\\x12/\\x8bA\\xcd\\xccL=[\\x19\\x06DP\\xa5p\\xc2\\x00\\x00\\xe1B\\xb4\\xc9s?\\xd1?\\x9c\\xbe\\x00\\x00\\x00\\x00\\x12/\\x8bA33s?\\xb3Y\\x06D\\xe8\\xb6\\x00\\xc2\\x00\\x00\\xe1\\xc2\\xc1\\xd5\\x7f?\\x9c\\x0c\\x13\\xbd\\x00\\x00\\x00\\x00u\\x14\\x8cA\\xcd\\xccL=\\xb3Y\\x06D\\xe8\\xb6\\x00\\xc2\\x00\\x00\\xe1B\\xc1\\xd5\\x7f?\\x9c\\x0c\\x13\\xbd\\x00\\x00\\x00\\x00u\\x14\\x8cA33s?\\x07\\x9a\\x06D\\xc0D\\x86\\xc0\\x00\\x00\\xe1\\xc2\\xfb\\xe6\\x7f?8V\\xe2\\xbc\\x00\\x00\\x00\\x00\\xd7\\xf9\\x8cA\\xcd\\xccL=\\x07\\x9a\\x06D\\xc0D\\x86\\xc0\\x00\\x00\\xe1B\\xfb\\xe6\\x7f?8V\\xe2\\xbc\\x00\\x00\\x00\\x00\\xd7\\xf9\\x8cA33s?7\\xd9\\x06Dh\\xa1\\x1fB\\x00\\x00\\xe1\\xc2\\x96\\xef\\x7f?\\x93Q\\xb7\\xbc\\x00\\x00\\x00\\x00:c\\x8eA\\xcd\\xccL=7\\xd9\\x06Dh\\xa1\\x1fB\\x00\\x00\\xe1B\\x96\\xef\\x7f?\\x93Q\\xb7\\xbc\\x00\\x00\\x00\\x00:c\\x8eA33s?c\\x18\\x07D\\x94\\x05\\xa8B\\x00\\x00\\xe1\\xc2\\x7f\\xf3\\x7f?\\x83\\x04\\xa0\\xbc\\x00\\x00\\x00\\x00\\x9d\\xcc\\x8fA\\xcd\\xccL=c\\x18\\x07D\\x94\\x05\\xa8B\\x00\\x00\\xe1B\\x7f\\xf3\\x7f?\\x83\\x04\\xa0\\xbc\\x00\\x00\\x00\\x00\\x9d\\xcc\\x8fA33s?\\xb3V\\x07D\\xd2C\\x0cC\\x00\\x00\\xe1\\xc21\\xf6\\x7f?\\x19\\xbf\\x8d\\xbc\\x00\\x00\\x00\\x00\\x83\\x99\\x91A\\xcd\\xccL=\\xb3V\\x07D\\xd2C\\x0cC\\x00\\x00\\xe1B1\\xf6\\x7f?\\x19\\xbf\\x8d\\xbc\\x00\\x00\\x00\\x00\\x83\\x99\\x91A33s?\\xff\\x94\\x07D\\xd6\\x84DC\\x00\\x00\\xe1\\xc2\\x97\\xf7\\x7f?\\x8f=\\x83\\xbc\\x00\\x00\\x00\\x00if\\x93A\\xcd\\xccL=\\xff\\x94\\x07D\\xd6\\x84DC\\x00\\x00\\xe1B\\x97\\xf7\\x7f?\\x8f=\\x83\\xbc\\x00\\x00\\x00\\x00if\\x93A33s?\\xb3\\xd2\\x07D\\x07\\x98\\x82C\\x00\\x00\\xe1\\xc2\\xb7\\xf8\\x7f?\\x95;t\\xbc\\x00\\x00\\x00\\x00<x\\x95A\\xcd\\xccL=\\xb3\\xd2\\x07D\\x07\\x98\\x82C\\x00\\x00\\xe1B\\xb7\\xf8\\x7f?\\x95;t\\xbc\\x00\\x00\\x00\\x00<x\\x95A33s?",
+				"u9" : "\\x00\\x00\\x02\\x00\\x03\\x00\\x01\\x00\\x00\\x00\\x03\\x00\\x02\\x00\\x04\\x00\\x05\\x00\\x03\\x00\\x02\\x00\\x05\\x00\\x04\\x00\\x06\\x00\\x07\\x00\\x05\\x00\\x04\\x00\\x07\\x00\\x06\\x00\\x08\\x00\\t\\x00\\x07\\x00\\x06\\x00\\t\\x00\\x08\\x00\\n\\x00\\x0b\\x00\\t\\x00\\x08\\x00\\x0b\\x00\\n\\x00\\x0c\\x00\\r\\x00\\x0b\\x00\\n\\x00\\r\\x00\\x0c\\x00\\x0e\\x00\\x0f\\x00\\r\\x00\\x0c\\x00\\x0f\\x00\\x0e\\x00\\x10\\x00\\x11\\x00\\x0f\\x00\\x0e\\x00\\x11\\x00",
+			},
+
+			"u2sub-sub-sub-block " :  {
+
+				"u0" : 60,
+				"u1" : 20,
+
+				"u2sub-sub-sub-sub-block " :  {
+
+					"u0" : 7,
+					"u1" : 3,
+					"u2" : 32,
+					"u3" : 0,
+				},
+
+				"u3sub-sub-sub-sub-block " :  {
+
+					"u0" : 7,
+					"u1" : 3,
+					"u2" : 32,
+					"u3" : 12,
+				},
+
+				"u4sub-sub-sub-sub-block " :  {
+
+					"u0" : 7,
+					"u1" : 2,
+					"u2" : 32,
+					"u3" : 24,
+				},
+
+				"u5sub-sub-sub-sub-block " :  {
+
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 1.0,
+						"x" : 1.0,
+						"y" : 1.0,
+						"z" : 1.0,
+					},
+
+					"u1sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 1.0,
+						"x" : 1.0,
+						"y" : 1.0,
+						"z" : 1.0,
+					},
+
+					"u2sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 1.0,
+						"x" : 1.0,
+						"y" : 1.0,
+						"z" : 1.0,
+					},
+					"u3" : 0.0,
+
+					"u4sub-sub-sub-sub-sub-block " :  {
+
+						"u0" : "cavewalls",
+						"u1" : 1,
+						"u2" : 1,
+					},
+				},
+
+				"u3sub-sub-sub-sub-block " :  {
+
+					"u" : -562.12548828125,
+					"v" : -773.2092895507812,
+					"w" : 112.5,
+					"x" : 1124.2508544921875,
+					"y" : 1546.4185791015625,
+					"z" : 0.0,
+				},
+				"u7" : "\\xfc\\x04\\x07D\\xff\\xaf>D\\x00\\x00\\xe1B\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\x8bB*@\\x94Cc@\\xb6\\xae\\xf6C$e\\xb9C\\x00\\x00\\xe1B\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?*M\\x1e@5\\xd8\\xfd?\\x07\\x88\\x0cDd\\xac\\xb5C\\x00\\x00\\xe1B\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?t\\xe7/@\\x98\\x08\\xfa?pj\\xafC]\\xe6=D\\x00\\x00\\xe1B\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?1\\xa0\\xf3?\\x1cub@\\xe4!\\xd0C\\xb6\\xda\\xe2C\\x00\\x00\\xe1B\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?T\\x90\\n@A&\\x14@\\xb6\\xae\\xf6C$e\\xb9C\\x00\\x00\\xe1B\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?*M\\x1e@5\\xd8\\xfd?pj\\xafC]\\xe6=D\\x00\\x00\\xe1B\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?1\\xa0\\xf3?\\x1cub@\\xb6\\xae\\xf6C$e\\xb9C\\x00\\x00\\xe1B\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?*M\\x1e@5\\xd8\\xfd?\\xfc\\x04\\x07D\\xff\\xaf>D\\x00\\x00\\xe1B\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\x8bB*@\\x94Cc@pj\\xafC]\\xe6=D\\x00\\x00\\xe1B\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?1\\xa0\\xf3?\\x1cub@\\x90\\xfc\\xacC\\xf4\\x1c\\xebC\\x00\\x00\\xe1B\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?d#\\xf1?\\xbe`\\x18@\\xe4!\\xd0C\\xb6\\xda\\xe2C\\x00\\x00\\xe1B\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?T\\x90\\n@A&\\x14@\\x04\\x07|C\\xe8\\xf3=D\\x00\\x00\\xe1B\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xbc\\t\\xc1?\\xfa\\x82b@\\x90\\xfc\\xacC\\xf4\\x1c\\xebC\\x00\\x00\\xe1B\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?d#\\xf1?\\xbe`\\x18@pj\\xafC]\\xe6=D\\x00\\x00\\xe1B\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?1\\xa0\\xf3?\\x1cub@\\x90\\xfc\\xacC\\xf4\\x1c\\xebC\\x00\\x00\\xe1B\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?d#\\xf1?\\xbe`\\x18@\\x04\\x07|C\\xe8\\xf3=D\\x00\\x00\\xe1B\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xbc\\t\\xc1?\\xfa\\x82b@\\xe4t\\x17C\\xe5\\x9a=D\\x00\\x00\\xe1B\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xb8\\x8b\\x8d?\\xd4\\\'b@\\x90\\xfc\\xacC\\xf4\\x1c\\xebC\\x00\\x00\\xe1B\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?d#\\xf1?\\xbe`\\x18@\\xe4t\\x17C\\xe5\\x9a=D\\x00\\x00\\xe1B\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xb8\\x8b\\x8d?\\xd4\\\'b@H\\x9c\\x12C8n\\xc8C\\x00\\x00\\xe1B\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\x87\\x10\\x8b?\\xd5\\x9e\\x06@\\xb0k\\x85B\\xc4\\xc3=D\\x00\\x00\\xe1B\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xb6OD?\\xaeQb@H\\x9c\\x12C8n\\xc8C\\x00\\x00\\xe1B\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\x87\\x10\\x8b?\\xd5\\x9e\\x06@\\xe4t\\x17C\\xe5\\x9a=D\\x00\\x00\\xe1B\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xb8\\x8b\\x8d?\\xd4\\\'b@H\\x9c\\x12C8n\\xc8C\\x00\\x00\\xe1B\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\x87\\x10\\x8b?\\xd5\\x9e\\x06@\\xb0k\\x85B\\xc4\\xc3=D\\x00\\x00\\xe1B\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xb6OD?\\xaeQb@\\xb8,A\\xc3\\xaa\\r<D\\x00\\x00\\xe1B\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?+\\x9f\\x8b\\xbe\\x10\\x91`@H\\x9c\\x12C8n\\xc8C\\x00\\x00\\xe1B\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\x87\\x10\\x8b?\\xd5\\x9e\\x06@\\xb8,A\\xc3\\xaa\\r<D\\x00\\x00\\xe1B\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?+\\x9f\\x8b\\xbe\\x10\\x91`@\\xc2\\x03\\x94\\xc3\\x0c]\\xadC\\x00\\x00\\xe1B\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?R\"/\\xbf1\\x86\\xf1?\\xcc\\x00\\xf8\\xc3eMAD\\x00\\x00\\xe1B\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\xff\\xff\\x7f?\\x87\\xf4\\xbd\\xbf\\x0b\\xf1e@\\xc2\\x03\\x94\\xc3\\x0c]\\xadC\\x00\\x00\\xe1B\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\xff\\xff\\x7f?R\"/\\xbf1\\x86\\xf1?\\xb8,A\\xc3\\xaa\\r<D\\x00\\x00\\xe1B\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\xff\\xff\\x7f?+\\x9f\\x8b\\xbe\\x10\\x91`@D\\nF\\xc3eMA\\xc4\\x00\\x00\\xe1B\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\x0c\\x96\\x95\\xbe\\x0b\\xf1%\\xc0t\\x8bw\\xc3\\xe4\\x01yC\\x00\\x00\\xe1B\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xbc\\xf8\\xfa\\xbe\\xe5}\\xbf?\\xc2\\x03\\x94\\xc3\\x0c]\\xadC\\x00\\x00\\xe1B\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?R\"/\\xbf1\\x86\\xf1?D\\nF\\xc3eMA\\xc4\\x00\\x00\\xe1B\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\x0c\\x96\\x95\\xbe\\x0b\\xf1%\\xc0\\xc2\\x03\\x94\\xc3\\x0c]\\xadC\\x00\\x00\\xe1B\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?R\"/\\xbf1\\x86\\xf1?\\xcc\\x00\\xf8\\xc3eMAD\\x00\\x00\\xe1B\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\x87\\xf4\\xbd\\xbf\\x0b\\xf1e@D\\nF\\xc3eMA\\xc4\\x00\\x00\\xe1B\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\x0c\\x96\\x95\\xbe\\x0b\\xf1%\\xc0\\xcc\\x00\\xf8\\xc3eMAD\\x00\\x00\\xe1B\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\x87\\xf4\\xbd\\xbf\\x0b\\xf1e@\\x08\\x88\\x0c\\xc4(W\\xc9\\xc2\\x00\\x00\\xe1B\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xe9\\xce\\xdf\\xbf;O\\xc7=t\\x8bw\\xc3\\xe4\\x01yC\\x00\\x00\\xe1B\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xbc\\xf8\\xfa\\xbe\\xe5}\\xbf?D\\nF\\xc3eMA\\xc4\\x00\\x00\\xe1B\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\x0c\\x96\\x95\\xbe\\x0b\\xf1%\\xc0*\\x1e\\xadC\\x8d-\\x1d\\xc4\\x00\\x00\\xe1B\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xcdE\\xf1?A\\xf3\\x00\\xc0t\\x8bw\\xc3\\xe4\\x01yC\\x00\\x00\\xe1B\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xbc\\xf8\\xfa\\xbe\\xe5}\\xbf?*\\x1e\\xadC\\x8d-\\x1d\\xc4\\x00\\x00\\xe1B\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xcdE\\xf1?A\\xf3\\x00\\xc0[\\x19\\x06DP\\xa5p\\xc2\\x00\\x00\\xe1B\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?CQ)@\\x14\\xca\\x84>t\\x8bw\\xc3\\xe4\\x01yC\\x00\\x00\\xe1B\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xbc\\xf8\\xfa\\xbe\\xe5}\\xbf?[\\x19\\x06DP\\xa5p\\xc2\\x00\\x00\\xe1B\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?CQ)@\\x14\\xca\\x84>\\xb3Y\\x06D\\xe8\\xb6\\x00\\xc2\\x00\\x00\\xe1B\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?&\\x93)@#\\x19\\xbe>t\\x8bw\\xc3\\xe4\\x01yC\\x00\\x00\\xe1B\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xbc\\xf8\\xfa\\xbe\\xe5}\\xbf?\\xb3Y\\x06D\\xe8\\xb6\\x00\\xc2\\x00\\x00\\xe1B\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?&\\x93)@#\\x19\\xbe>\\x07\\x9a\\x06D\\xc0D\\x86\\xc0\\x00\\x00\\xe1B\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\x05\\xd5)@%h\\xf7>t\\x8bw\\xc3\\xe4\\x01yC\\x00\\x00\\xe1B\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xbc\\xf8\\xfa\\xbe\\xe5}\\xbf?\\x07\\x9a\\x06D\\xc0D\\x86\\xc0\\x00\\x00\\xe1B\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\x05\\xd5)@%h\\xf7>7\\xd9\\x06Dh\\xa1\\x1fB\\x00\\x00\\xe1B\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xb9\\x15*@\\x8b\\xdd(?t\\x8bw\\xc3\\xe4\\x01yC\\x00\\x00\\xe1B\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xbc\\xf8\\xfa\\xbe\\xe5}\\xbf?7\\xd9\\x06Dh\\xa1\\x1fB\\x00\\x00\\xe1B\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xb9\\x15*@\\x8b\\xdd(?c\\x18\\x07D\\x94\\x05\\xa8B\\x00\\x00\\xe1B\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?iV*@\\xf4\\x06V?",
+			},
+
+			"u2sub-sub-sub-block " :  {
+
+				"u0" : 9,
+				"u1" : 3,
+
+				"u2sub-sub-sub-sub-block " :  {
+
+					"u0" : 7,
+					"u1" : 3,
+					"u2" : 32,
+					"u3" : 0,
+				},
+
+				"u3sub-sub-sub-sub-block " :  {
+
+					"u0" : 7,
+					"u1" : 3,
+					"u2" : 32,
+					"u3" : 12,
+				},
+
+				"u4sub-sub-sub-sub-block " :  {
+
+					"u0" : 7,
+					"u1" : 2,
+					"u2" : 32,
+					"u3" : 24,
+				},
+
+				"u5sub-sub-sub-sub-block " :  {
+
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 1.0,
+						"x" : 1.0,
+						"y" : 1.0,
+						"z" : 1.0,
+					},
+
+					"u1sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 1.0,
+						"x" : 1.0,
+						"y" : 1.0,
+						"z" : 1.0,
+					},
+
+					"u2sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 1.0,
+						"x" : 1.0,
+						"y" : 1.0,
+						"z" : 1.0,
+					},
+					"u3" : 0.0,
+
+					"u4sub-sub-sub-sub-sub-block " :  {
+
+						"u0" : "cavewalls",
+						"u1" : 1,
+						"u2" : 1,
+					},
+				},
+
+				"u3sub-sub-sub-sub-block " :  {
+
+					"u" : -247.54473876953125,
+					"v" : 84.01089477539062,
+					"w" : 112.5,
+					"x" : 790.8369140625,
+					"y" : 177.17681884765625,
+					"z" : 0.0,
+				},
+				"u7" : "t\\x8bw\\xc3\\xe4\\x01yC\\x00\\x00\\xe1B\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xbc\\xf8\\xfa\\xbe\\xe5}\\xbf?c\\x18\\x07D\\x94\\x05\\xa8B\\x00\\x00\\xe1B\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?iV*@\\xf4\\x06V?\\xb3V\\x07D\\xd2C\\x0cC\\x00\\x00\\xe1B\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?8\\x96*@\\xce\\xd0\\x87?t\\x8bw\\xc3\\xe4\\x01yC\\x00\\x00\\xe1B\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xbc\\xf8\\xfa\\xbe\\xe5}\\xbf?\\xb3V\\x07D\\xd2C\\x0cC\\x00\\x00\\xe1B\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?8\\x96*@\\xce\\xd0\\x87?\\xff\\x94\\x07D\\xd6\\x84DC\\x00\\x00\\xe1B\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\x03\\xd6*@ \\x9e\\xa4?t\\x8bw\\xc3\\xe4\\x01yC\\x00\\x00\\xe1B\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xbc\\xf8\\xfa\\xbe\\xe5}\\xbf?\\xff\\x94\\x07D\\xd6\\x84DC\\x00\\x00\\xe1B\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\x03\\xd6*@ \\x9e\\xa4?\\xb3\\xd2\\x07D\\x07\\x98\\x82C\\x00\\x00\\xe1B\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?2\\x15+@e\\xba\\xc5?",
+			},
+
+			"u3sub-sub-sub-block " :  {
+
+				"w" : 1.0,
+				"x" : 1.0,
+				"y" : 1.0,
+				"z" : 1.0,
+			},
+		},
+	},
+
+	"componentsub-block " :  {
+
+		"component type" : "GroundMeshGenerator",
+		"number" : 102,
+
+		"ground mesh generatorsub-sub-block " :  {
+
+			"ground polygon" : 100,
+			"ground mesh" : 101,
+			"texture mapping 1" : 103,
+			"texture mapping 2" : 104,
+			"u4" : 0,
+			"u5" : 0.0,
+			"u6" : 1,
+			"u7" : 225.0,
+			"u8" : 25.0,
+			"u9" : 5.0,
+			"u10" : 5.0,
+		},
+	},
+
+	"componentsub-block " :  {
+
+		"component type" : "TextureMapping",
+		"number" : 103,
+
+		"texture mappingsub-sub-block " :  {
+
+			"texture file" : "cavewalls",
+			"u0" : 250.0,
+
+			"u0sub-sub-sub-block " :  {
+
+				"u1" : 0.0,
+				"u2" : 0.0,
+			},
+		},
+	},
+
+	"componentsub-block " :  {
+
+		"component type" : "TextureMapping",
+		"number" : 104,
+
+		"texture mappingsub-sub-block " :  {
+
+			"texture file" : "brown128",
+			"u0" : 250.0,
+
+			"u0sub-sub-sub-block " :  {
+
+				"u1" : 0.0,
+				"u2" : 0.0,
+			},
+		},
+	},
+
+	"componentsub-block " :  {
+
+		"component type" : "CollisionShape",
+		"number" : 105,
+		"? linked component" : 100,
+
+		"collision shapesub-sub-block " :  {
+
+
+			"u2sub-sub-sub-block " :  {
+
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"y" : -562.12548828125,
+					"z" : -100.67022705078125,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"y" : -198.04010009765625,
+					"z" : -773.2092895507812,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"y" : 346.23565673828125,
+					"z" : -628.7117309570312,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"y" : 536.3961791992188,
+					"z" : -60.16143798828125,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"y" : 537.4015502929688,
+					"z" : -32.178619384765625,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"y" : 538.4066772460938,
+					"z" : -4.195892333984375,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"y" : 539.3939819335938,
+					"z" : 39.907623291015625,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"y" : 540.3810424804688,
+					"z" : 84.01089477539062,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"y" : 541.3546752929688,
+					"z" : 140.26492309570312,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"y" : 542.3280639648438,
+					"z" : 196.51889038085938,
+				},
+				"u3" : 0,
+				"u4" : 0,
+			},
+		},
+
+		"collision shape 2sub-sub-block " :  {
+
+			"u0" : 1,
+			"w" : -117.5,
+			"x" : 117.5,
+			"z" : 1,
+		},
+	},
+
+	"componentsub-block " :  {
+
+		"component type" : "CollisionShape",
+		"number" : 106,
+		"? linked component" : 100,
+
+		"collision shapesub-sub-block " :  {
+
+
+			"u2sub-sub-sub-block " :  {
+
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"y" : 540.3810424804688,
+					"z" : 84.01089477539062,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"y" : 541.3546752929688,
+					"z" : 140.26492309570312,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"y" : 542.3280639648438,
+					"z" : 196.51889038085938,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"y" : 543.2921752929688,
+					"z" : 261.1877136230469,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"y" : -247.54473876953125,
+					"z" : 249.00738525390625,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"y" : -296.02935791015625,
+					"z" : 346.7269287109375,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"y" : 146.6104736328125,
+					"z" : 400.861083984375,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"y" : 345.97314453125,
+					"z" : 470.2261962890625,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"y" : 416.2647705078125,
+					"z" : 453.70867919921875,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"y" : 493.36492919921875,
+					"z" : 370.7901611328125,
+				},
+				"u3" : 0,
+				"u4" : 0,
+			},
+		},
+
+		"collision shape 2sub-sub-block " :  {
+
+			"u0" : 1,
+			"w" : -117.5,
+			"x" : 117.5,
+			"z" : 1,
+		},
+	},
+
+	"componentsub-block " :  {
+
+		"component type" : "CollisionShape",
+		"number" : 107,
+		"? linked component" : 100,
+
+		"collision shapesub-sub-block " :  {
+
+
+			"u2sub-sub-sub-block " :  {
+
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"y" : 345.97314453125,
+					"z" : 470.2261962890625,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"y" : 416.2647705078125,
+					"z" : 453.70867919921875,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"y" : 493.36492919921875,
+					"z" : 370.7901611328125,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"y" : 562.1254272460938,
+					"z" : 363.3468017578125,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"y" : 540.077880859375,
+					"z" : 762.7499389648438,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"y" : 350.83154296875,
+					"z" : 759.5994262695312,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"y" : 252.02740478515625,
+					"z" : 759.81103515625,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"y" : 151.45660400390625,
+					"z" : 758.4202270507812,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"y" : 66.7103271484375,
+					"z" : 759.058837890625,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"y" : -193.1746826171875,
+					"z" : 752.2135009765625,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"y" : -496.0062255859375,
+					"z" : 773.2092895507812,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"y" : -562.12548828125,
+					"z" : -100.67022705078125,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"y" : -198.04010009765625,
+					"z" : -773.2092895507812,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"y" : 346.23565673828125,
+					"z" : -628.7117309570312,
+				},
+				"u3" : 0,
+				"u4" : 0,
+			},
+		},
+
+		"collision shape 2sub-sub-block " :  {
+
+			"u0" : 1,
+			"w" : -117.5,
+			"x" : 117.5,
+			"z" : 1,
+		},
+	},
+
+	"positionsub-block " :  {
+
+		"x position" : -2998.718505859375,
+		"y position" : -2079.379150390625,
+	},
+	"z position" : 0.0,
+	"rotation" : 0.0,
+	"scale" : 1.0,
+
+	"u2sub-block " :  {
+
+		"w" : -562.12548828125,
+		"x" : -773.2092895507812,
+		"y" : 1124.2509765625,
+		"z" : 1546.4185791015625,
+	},
+	"hidden" : 0,
+},
+
+"objectblock " :  {
+
+	"identifier" : "obj5#2",
+
+	"componentsub-block " :  {
+
+		"component type" : "GroundPolygon",
+		"number" : 100,
+
+		"ground polygonsub-sub-block " :  {
+
+
+			"sub-sub-sub-block " :  {
+
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"x" : -373.0367431640625,
+					"y" : -141.35223388671875,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"x" : -708.5401611328125,
+					"y" : -727.4314575195312,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"x" : -238.859619140625,
+					"y" : -740.9749145507812,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"x" : -104.47119140625,
+					"y" : -729.947998046875,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"x" : -130.727294921875,
+					"y" : -637.41845703125,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"x" : -99.930419921875,
+					"y" : -561.7940063476562,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"x" : -31.812255859375,
+					"y" : -595.902587890625,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"x" : 19.111328125,
+					"y" : -557.26318359375,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"x" : 61.685302734375,
+					"y" : -464.77642822265625,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"x" : 86.010009765625,
+					"y" : -554.0762329101562,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"x" : 137.535888671875,
+					"y" : -556.3299560546875,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"x" : 178.87060546875,
+					"y" : -444.26416015625,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"x" : 203.777099609375,
+					"y" : -469.01025390625,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"x" : 236.266845703125,
+					"y" : -719.177734375,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"x" : 51.97021484375,
+					"y" : -720.5767822265625,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"x" : 51.9033203125,
+					"y" : -745.6199951171875,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"x" : 61.3359375,
+					"y" : -774.7054443359375,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"x" : 86.59423828125,
+					"y" : -798.16064453125,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"x" : 147.92144775390625,
+					"y" : -748.4835205078125,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"x" : 167.540283203125,
+					"y" : -753.9281005859375,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"x" : 187.333251953125,
+					"y" : -785.274169921875,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"x" : 203.737060546875,
+					"y" : -749.1229858398438,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"x" : 217.904052734375,
+					"y" : -768.086181640625,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"x" : 234.31396484375,
+					"y" : -782.5467529296875,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"x" : 244.8792724609375,
+					"y" : -755.2978515625,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"x" : 262.229248046875,
+					"y" : -788.7783203125,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"x" : 279.5445556640625,
+					"y" : -768.2774658203125,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"x" : 296.877197265625,
+					"y" : -774.767333984375,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"x" : 328.29052734375,
+					"y" : -729.0384521484375,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"x" : 355.417724609375,
+					"y" : -784.3193359375,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"x" : 355.466796875,
+					"y" : -691.643798828125,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"x" : 375.27734375,
+					"y" : -675.2579345703125,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"x" : 380.403564453125,
+					"y" : -692.5703125,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"x" : 408.211669921875,
+					"y" : -583.0588989257812,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"x" : 419.75732421875,
+					"y" : -546.4127807617188,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"x" : 410.383056640625,
+					"y" : -497.87078857421875,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"x" : 467.106689453125,
+					"y" : -491.11669921875,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"x" : 458.124267578125,
+					"y" : -421.45648193359375,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"x" : 419.81591796875,
+					"y" : -337.35150146484375,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"x" : 443.699951171875,
+					"y" : -308.8385009765625,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"x" : 389.1069641113281,
+					"y" : -262.59051513671875,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"x" : 493.43719482421875,
+					"y" : -175.650146484375,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"x" : 510.760498046875,
+					"y" : 112.10577392578125,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"x" : 486.26202392578125,
+					"y" : 484.34759521484375,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"x" : 578.9182739257812,
+					"y" : 672.1793823242188,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"x" : 708.5401611328125,
+					"y" : 774.2007446289062,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"x" : 375.780029296875,
+					"y" : 798.1605834960938,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"x" : 92.32821655273438,
+					"y" : 792.3765869140625,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"x" : -368.382568359375,
+					"y" : 773.4208984375,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"x" : -373.19598388671875,
+					"y" : -11.90374755859375,
+				},
+				"u0" : 0,
+				"u1" : 1,
+			},
+			"u1" : 1,
+			"u2" : -117.5,
+			"u3" : 117.5,
+			"u4" : "",
+		},
+	},
+
+	"componentsub-block " :  {
+
+		"component type" : "GroundMesh",
+		"number" : 101,
+
+		"ground meshsub-sub-block " :  {
+
+
+			"u0sub-sub-sub-block " :  {
+
+				"w" : -718.5401611328125,
+				"x" : -808.16064453125,
+				"y" : 1437.080322265625,
+				"z" : 1616.3212890625,
+			},
+
+			"u1sub-sub-sub-block " :  {
+
+				"u0" : 30,
+				"u1" : 20,
+
+				"u2sub-sub-sub-sub-block " :  {
+
+					"u0" : 4,
+					"u1" : 1,
+					"u2" : 2,
+					"u3" : 0,
+				},
+
+				"u3sub-sub-sub-sub-block " :  {
+
+					"u0" : 7,
+					"u1" : 3,
+					"u2" : 32,
+					"u3" : 0,
+				},
+
+				"u4sub-sub-sub-sub-block " :  {
+
+					"u0" : 7,
+					"u1" : 3,
+					"u2" : 32,
+					"u3" : 12,
+				},
+
+				"u5sub-sub-sub-sub-block " :  {
+
+					"u0" : 7,
+					"u1" : 2,
+					"u2" : 32,
+					"u3" : 24,
+				},
+
+				"u6sub-sub-sub-sub-block " :  {
+
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 1.0,
+						"x" : 1.0,
+						"y" : 1.0,
+						"z" : 1.0,
+					},
+
+					"u1sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 1.0,
+						"x" : 1.0,
+						"y" : 1.0,
+						"z" : 1.0,
+					},
+
+					"u2sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 1.0,
+						"x" : 1.0,
+						"y" : 1.0,
+						"z" : 1.0,
+					},
+					"u3" : 0.0,
+					"u4" : "\\n\\x08brown128\\x10\\x01 \\x02",
+				},
+
+				"u7sub-sub-sub-sub-block " :  {
+
+					"u" : 48.97030258178711,
+					"v" : -745.5995483398438,
+					"w" : -122.5,
+					"x" : 397.0186767578125,
+					"y" : 483.009033203125,
+					"z" : 245.0,
+				},
+				"u8" : "PDlC`\\xcb3\\xc4\\x00\\x00\\xeb\\xc2v\\xbe\\xf8\\xbb\\x1d\\xfe\\x7f?\\x00\\x00\\x00\\x00\\x00\\x00\\x00?\\x8f\\xc2\\xf5<PDlC`\\xcb3\\xc4\\x00\\x00\\xebBv\\xbe\\xf8\\xbb\\x1d\\xfe\\x7f?\\x00\\x00\\x00\\x00\\x00\\x00\\x00?\\xecQx?PDlC`K6\\xc4\\x00\\x00\\xf5B\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\x1f\\x85\\xeb>\\xa4p}?PDlC`\\x0b:\\xc433\\xebBv\\xbe\\xf8;\\x1d\\xfe\\x7f\\xbf\\x00\\x00\\x00\\x80\\xcd\\xcc\\xcc>\"lx?PDlC`\\x0b:\\xc4\\xcd\\xcc\\xea\\xc2v\\xbe\\xf8;\\x1d\\xfe\\x7f\\xbf\\x00\\x00\\x00\\x80\\xcd\\xcc\\xcc>h\\t\\xf9<PDlC`K6\\xc4\\x00\\x00\\xf5\\xc2\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\x1f\\x85\\xeb>\\n\\xd7#<PDlC`\\xcb3\\xc4\\x00\\x00\\xeb\\xc2v\\xbe\\xf8\\xbb\\x1d\\xfe\\x7f?\\x00\\x00\\x00\\x00\\x00\\x00\\x00?\\x8f\\xc2\\xf5<PDlC`\\xcb3\\xc4\\x00\\x00\\xebBv\\xbe\\xf8\\xbb\\x1d\\xfe\\x7f?\\x00\\x00\\x00\\x00\\x00\\x00\\x00?\\xecQx?PDlC`K6\\xc4\\x00\\x00\\xf5B\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\x00\\x00\\x00?d\\xe2\\x81?PDlC`\\x0b:\\xc433\\xebBv\\xbe\\xf8;\\x1d\\xfe\\x7f\\xbf\\x00\\x00\\x00\\x80\\x00\\x00\\x00?\\xb6\\xf6\\x89?\\x97\\xe1CB_&4\\xc4\\x00\\x00\\xeb\\xc2v\\xbe\\xf8\\xbb\\x1d\\xfe\\x7f?\\x00\\x00\\x00\\x00\\xd3\\\\\\x9e?\\x8f\\xc2\\xf5<\\x97\\xe1CB_&4\\xc4\\x00\\x00\\xebBv\\xbe\\xf8\\xbb\\x1d\\xfe\\x7f?\\x00\\x00\\x00\\x00\\xd3\\\\\\x9e?\\xecQx?\\x97\\xe1CB_\\xa66\\xc4\\x00\\x00\\xf5B\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xd3\\\\\\x9e?d\\xe2\\x81?\\x97\\xe1CB_f:\\xc433\\xebBv\\xbe\\xf8;\\x1d\\xfe\\x7f\\xbf\\x00\\x00\\x00\\x80\\xd3\\\\\\x9e?\\xb6\\xf6\\x89?\\x97\\xe1CB_&4\\xc4\\x00\\x00\\xeb\\xc2v\\xbe\\xf8\\xbb\\x1d\\xfe\\x7f?\\x00\\x00\\x00\\x00\\xd3\\\\\\x9e?\\x8f\\xc2\\xf5<\\x97\\xe1CB_&4\\xc4\\x00\\x00\\xebBv\\xbe\\xf8\\xbb\\x1d\\xfe\\x7f?\\x00\\x00\\x00\\x00\\xd3\\\\\\x9e?\\xecQx?\\x97\\xe1CB_\\xa66\\xc4\\x00\\x00\\xf5B\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\x8b{\\xa3?\\xa4p}?\\x97\\xe1CB_f:\\xc433\\xebBv\\xbe\\xf8;\\x1d\\xfe\\x7f\\xbf\\x00\\x00\\x00\\x80\\xa0)\\xab?\"lx?\\x97\\xe1CB_f:\\xc4\\xcd\\xcc\\xea\\xc2v\\xbe\\xf8;\\x1d\\xfe\\x7f\\xbf\\x00\\x00\\x00\\x80\\xa0)\\xab?h\\t\\xf9<\\x97\\xe1CB_\\xa66\\xc4\\x00\\x00\\xf5\\xc2\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\x8b{\\xa3?\\n\\xd7#<\\x97\\xfe\\xdeC\\x8ac\\x9b\\xc3\\x00\\x00\\xeb\\xc2>y%?\\xecTC?\\x00\\x00\\x00\\x00\\xd3\\\\\\x9e?\\x8f\\xc2\\xf5<\\x97\\xfe\\xdeC\\x8ac\\x9b\\xc3\\x00\\x00\\xebB>y%?\\xecTC?\\x00\\x00\\x00\\x00\\xd3\\\\\\x9e?\\xecQx?\\x97\\xfe\\xdeC\\x8ac\\xa0\\xc3\\x00\\x00\\xf5B\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\x1b>\\x99?\\xa4p}?\\x97\\xfe\\xdeC\\x8a\\xe3\\xa7\\xc333\\xebB>y%\\xbf\\xecTC\\xbf\\x00\\x00\\x00\\x80\\x06\\x90\\x91?\"lx?\\x97\\xfe\\xdeC\\x8a\\xe3\\xa7\\xc3\\xcd\\xcc\\xea\\xc2>y%\\xbf\\xecTC\\xbf\\x00\\x00\\x00\\x80\\x06\\x90\\x91?h\\t\\xf9<\\x97\\xfe\\xdeC\\x8ac\\xa0\\xc3\\x00\\x00\\xf5\\xc2\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\x1b>\\x99?\\n\\xd7#<\\x97\\xfe\\xdeC\\x8ac\\x9b\\xc3\\x00\\x00\\xeb\\xc2>y%?\\xecTC?\\x00\\x00\\x00\\x00\\xd3\\\\\\x9e?\\x8f\\xc2\\xf5<\\x97\\xfe\\xdeC\\x8ac\\x9b\\xc3\\x00\\x00\\xebB>y%?\\xecTC?\\x00\\x00\\x00\\x00\\xd3\\\\\\x9e?\\xecQx?\\xb1\\x8d\\xc2C\\x96K\\x83\\xc3\\x00\\x00\\xeb\\xc2>y%?\\xecTC?\\x00\\x00\\x00\\x00\\xe7\\xfe\\xc2?\\x8f\\xc2\\xf5<\\xb1\\x8d\\xc2C\\x96K\\x83\\xc3\\x00\\x00\\xebB>y%?\\xecTC?\\x00\\x00\\x00\\x00\\xe7\\xfe\\xc2?\\xecQx?",
+				"u9" : "\\x00\\x00\\x04\\x00\\x05\\x00\\x00\\x00\\x03\\x00\\x04\\x00\\x00\\x00\\x01\\x00\\x03\\x00\\x01\\x00\\x02\\x00\\x03\\x00\\x06\\x00\\n\\x00\\x0b\\x00\\x07\\x00\\x06\\x00\\x0b\\x00\\x07\\x00\\x0b\\x00\\x0c\\x00\\x08\\x00\\x07\\x00\\x0c\\x00\\x08\\x00\\x0c\\x00\\r\\x00\\t\\x00\\x08\\x00\\r\\x00\\x0e\\x00\\x13\\x00\\x12\\x00\\x0e\\x00\\x12\\x00\\x11\\x00\\x0e\\x00\\x11\\x00\\x0f\\x00\\x11\\x00\\x10\\x00\\x0f\\x00\\x14\\x00\\x18\\x00\\x19\\x00\\x14\\x00\\x17\\x00\\x18\\x00\\x14\\x00\\x15\\x00\\x17\\x00\\x15\\x00\\x16\\x00\\x17\\x00\\x1a\\x00\\x1c\\x00\\x1d\\x00\\x1b\\x00\\x1a\\x00\\x1d\\x00",
+			},
+
+			"u1sub-sub-sub-block " :  {
+
+				"u0" : 28,
+				"u1" : 20,
+
+				"u2sub-sub-sub-sub-block " :  {
+
+					"u0" : 4,
+					"u1" : 1,
+					"u2" : 2,
+					"u3" : 0,
+				},
+
+				"u3sub-sub-sub-sub-block " :  {
+
+					"u0" : 7,
+					"u1" : 3,
+					"u2" : 32,
+					"u3" : 0,
+				},
+
+				"u4sub-sub-sub-sub-block " :  {
+
+					"u0" : 7,
+					"u1" : 3,
+					"u2" : 32,
+					"u3" : 12,
+				},
+
+				"u5sub-sub-sub-sub-block " :  {
+
+					"u0" : 7,
+					"u1" : 2,
+					"u2" : 32,
+					"u3" : 24,
+				},
+
+				"u6sub-sub-sub-sub-block " :  {
+
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 1.0,
+						"x" : 1.0,
+						"y" : 1.0,
+						"z" : 1.0,
+					},
+
+					"u1sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 1.0,
+						"x" : 1.0,
+						"y" : 1.0,
+						"z" : 1.0,
+					},
+
+					"u2sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 1.0,
+						"x" : 1.0,
+						"y" : 1.0,
+						"z" : 1.0,
+					},
+					"u3" : 0.0,
+					"u4" : "\\n\\x08brown128\\x10\\x01 \\x02",
+				},
+
+				"u7sub-sub-sub-sub-block " :  {
+
+					"u" : 92.32821655273438,
+					"v" : -335.77764892578125,
+					"w" : -122.5,
+					"x" : 619.2042236328125,
+					"y" : 1133.938232421875,
+					"z" : 245.0,
+				},
+				"u8" : "\\x97\\xfe\\xdeC\\x8ac\\x9b\\xc3\\x00\\x00\\xebB>y%?\\xecTC?\\x00\\x00\\x00\\x00\\xd3\\\\\\x9e?\\xecQx?\\x97\\xfe\\xdeC\\x8ac\\xa0\\xc3\\x00\\x00\\xf5B\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xd3\\\\\\x9e?d\\xe2\\x81?\\x97\\xfe\\xdeC\\x8a\\xe3\\xa7\\xc333\\xebB>y%\\xbf\\xecTC\\xbf\\x00\\x00\\x00\\x80\\xd3\\\\\\x9e?\\xb6\\xf6\\x89?\\xb1\\x8d\\xc2C\\x96K\\x83\\xc3\\x00\\x00\\xebB>y%?\\xecTC?\\x00\\x00\\x00\\x00\\xe7\\xfe\\xc2?\\xecQx?\\xb1\\x8d\\xc2C\\x96K\\x88\\xc3\\x00\\x00\\xf5B\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xe7\\xfe\\xc2?d\\xe2\\x81?\\xb1\\x8d\\xc2C\\x96\\xcb\\x8f\\xc333\\xebB>y%\\xbf\\xecTC\\xbf\\x00\\x00\\x00\\x80\\xe7\\xfe\\xc2?\\xb6\\xf6\\x89?\\xb1\\x8d\\xc2C\\x96K\\x83\\xc3\\x00\\x00\\xeb\\xc2>y%?\\xecTC?\\x00\\x00\\x00\\x00\\xe7\\xfe\\xc2?\\x8f\\xc2\\xf5<\\xb1\\x8d\\xc2C\\x96K\\x83\\xc3\\x00\\x00\\xebB>y%?\\xecTC?\\x00\\x00\\x00\\x00\\xe7\\xfe\\xc2?\\xecQx?\\xb1\\x8d\\xc2C\\x96K\\x88\\xc3\\x00\\x00\\xf5B\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xa0\\x1d\\xc8?\\xa4p}?\\xb1\\x8d\\xc2C\\x96\\xcb\\x8f\\xc333\\xebB>y%\\xbf\\xecTC\\xbf\\x00\\x00\\x00\\x80\\xb4\\xcb\\xcf?\"lx?\\xb1\\x8d\\xc2C\\x96\\xcb\\x8f\\xc3\\xcd\\xcc\\xea\\xc2>y%\\xbf\\xecTC\\xbf\\x00\\x00\\x00\\x80\\xb4\\xcb\\xcf?h\\t\\xf9<\\xb1\\x8d\\xc2C\\x96K\\x88\\xc3\\x00\\x00\\xf5\\xc2\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xa0\\x1d\\xc8?\\n\\xd7#<\\x13\\xe21D\\x0f\\x7fAD\\x00\\x00\\xeb\\xc2\\x01\\x15\\x93=\\xc6V\\x7f?\\x00\\x00\\x00\\x00\\xe7\\xfe\\xc2?\\x8f\\xc2\\xf5<\\x13\\xe21D\\x0f\\x7fAD\\x00\\x00\\xebB\\x01\\x15\\x93=\\xc6V\\x7f?\\x00\\x00\\x00\\x00\\xe7\\xfe\\xc2?\\xecQx?\\x13\\xe21D\\x0f\\xff>D\\x00\\x00\\xf5B\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?/\\xe0\\xbd?\\xa4p}?\\x13\\xe21D\\x0f?;D33\\xebB\\x01\\x15\\x93\\xbd\\xc6V\\x7f\\xbf\\x00\\x00\\x00\\x80\\x1b2\\xb6?\"lx?\\x13\\xe21D\\x0f?;D\\xcd\\xcc\\xea\\xc2\\x01\\x15\\x93\\xbd\\xc6V\\x7f\\xbf\\x00\\x00\\x00\\x80\\x1b2\\xb6?h\\t\\xf9<\\x13\\xe21D\\x0f\\xff>D\\x00\\x00\\xf5\\xc2\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?/\\xe0\\xbd?\\n\\xd7#<\\x13\\xe21D\\x0f\\x7fAD\\x00\\x00\\xeb\\xc2\\x01\\x15\\x93=\\xc6V\\x7f?\\x00\\x00\\x00\\x00\\xe7\\xfe\\xc2?\\x8f\\xc2\\xf5<\\x13\\xe21D\\x0f\\x7fAD\\x00\\x00\\xebB\\x01\\x15\\x93=\\xc6V\\x7f?\\x00\\x00\\x00\\x00\\xe7\\xfe\\xc2?\\xecQx?\\x13\\xe21D\\x0f\\xff>D\\x00\\x00\\xf5B\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xe7\\xfe\\xc2?d\\xe2\\x81?\\x13\\xe21D\\x0f?;D33\\xebB\\x01\\x15\\x93\\xbd\\xc6V\\x7f\\xbf\\x00\\x00\\x00\\x80\\xe7\\xfe\\xc2?\\xb6\\xf6\\x89?\\xd8\\xe3\\xbbCG\\x8aGD\\x00\\x00\\xeb\\xc2\\xe4\\x86\\xf1<\\x82\\xe3\\x7f?\\x00\\x00\\x00\\x00\\xae\\xe76@\\x8f\\xc2\\xf5<\\xd8\\xe3\\xbbCG\\x8aGD\\x00\\x00\\xebB\\xe4\\x86\\xf1<\\x82\\xe3\\x7f?\\x00\\x00\\x00\\x00\\xae\\xe76@\\xecQx?\\xd8\\xe3\\xbbCG\\nED\\x00\\x00\\xf5B\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\xff\\xff\\x7f?\\xae\\xe76@d\\xe2\\x81?\\xd8\\xe3\\xbbCGJAD33\\xebB\\xe4\\x86\\xf1\\xbc\\x82\\xe3\\x7f\\xbf\\x00\\x00\\x00\\x80\\xae\\xe76@\\xb6\\xf6\\x89?\\x0c\\xa8\\xb8B\\x1a\\x18FD\\x00\\x00\\xeb\\xc2\\xa9\\x18\\x08\\xbd\\xd1\\xdb\\x7f?\\x00\\x00\\x00\\x00\\xd8{\\x7f@\\x8f\\xc2\\xf5<\\x0c\\xa8\\xb8B\\x1a\\x18FD\\x00\\x00\\xebB\\xa9\\x18\\x08\\xbd\\xd1\\xdb\\x7f?\\x00\\x00\\x00\\x00\\xd8{\\x7f@\\xecQx?",
+				"u9" : "\\x00\\x00\\x03\\x00\\x04\\x00\\x01\\x00\\x00\\x00\\x04\\x00\\x01\\x00\\x04\\x00\\x05\\x00\\x02\\x00\\x01\\x00\\x05\\x00\\x06\\x00\\x0b\\x00\\n\\x00\\x06\\x00\\n\\x00\\t\\x00\\x06\\x00\\t\\x00\\x07\\x00\\t\\x00\\x08\\x00\\x07\\x00\\x0c\\x00\\x10\\x00\\x11\\x00\\x0c\\x00\\x0f\\x00\\x10\\x00\\x0c\\x00\\r\\x00\\x0f\\x00\\r\\x00\\x0e\\x00\\x0f\\x00\\x12\\x00\\x16\\x00\\x17\\x00\\x13\\x00\\x12\\x00\\x17\\x00\\x13\\x00\\x17\\x00\\x18\\x00\\x14\\x00\\x13\\x00\\x18\\x00\\x14\\x00\\x18\\x00\\x19\\x00\\x15\\x00\\x14\\x00\\x19\\x00\\x16\\x00\\x1a\\x00\\x1b\\x00\\x17\\x00\\x16\\x00\\x1b\\x00",
+			},
+
+			"u1sub-sub-sub-block " :  {
+
+				"u0" : 17,
+				"u1" : 14,
+
+				"u2sub-sub-sub-sub-block " :  {
+
+					"u0" : 4,
+					"u1" : 1,
+					"u2" : 2,
+					"u3" : 0,
+				},
+
+				"u3sub-sub-sub-sub-block " :  {
+
+					"u0" : 7,
+					"u1" : 3,
+					"u2" : 32,
+					"u3" : 0,
+				},
+
+				"u4sub-sub-sub-sub-block " :  {
+
+					"u0" : 7,
+					"u1" : 3,
+					"u2" : 32,
+					"u3" : 12,
+				},
+
+				"u5sub-sub-sub-sub-block " :  {
+
+					"u0" : 7,
+					"u1" : 2,
+					"u2" : 32,
+					"u3" : 24,
+				},
+
+				"u6sub-sub-sub-sub-block " :  {
+
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 1.0,
+						"x" : 1.0,
+						"y" : 1.0,
+						"z" : 1.0,
+					},
+
+					"u1sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 1.0,
+						"x" : 1.0,
+						"y" : 1.0,
+						"z" : 1.0,
+					},
+
+					"u2sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 1.0,
+						"x" : 1.0,
+						"y" : 1.0,
+						"z" : 1.0,
+					},
+					"u3" : 0.0,
+					"u4" : "\\n\\x08brown128\\x10\\x01 \\x02",
+				},
+
+				"u7sub-sub-sub-sub-block " :  {
+
+					"u" : -371.3800354003906,
+					"v" : 748.2975463867188,
+					"w" : -122.5,
+					"x" : 747.1600341796875,
+					"y" : 49.863037109375,
+					"z" : 245.0,
+				},
+				"u8" : "\\xd8\\xe3\\xbbCG\\x8aGD\\x00\\x00\\xebB\\xe4\\x86\\xf1<\\x82\\xe3\\x7f?\\x00\\x00\\x00\\x00\\xae\\xe76@\\xecQx?\\xd8\\xe3\\xbbCG\\nED\\x00\\x00\\xf5B\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\xff\\xff\\x7f?\\xae\\xe76@d\\xe2\\x81?\\xd8\\xe3\\xbbCGJAD33\\xebB\\xe4\\x86\\xf1\\xbc\\x82\\xe3\\x7f\\xbf\\x00\\x00\\x00\\x80\\xae\\xe76@\\xb6\\xf6\\x89?\\x0c\\xa8\\xb8B\\x1a\\x18FD\\x00\\x00\\xeb\\xc2\\xa9\\x18\\x08\\xbd\\xd1\\xdb\\x7f?\\x00\\x00\\x00\\x00\\xd8{\\x7f@\\x8f\\xc2\\xf5<\\x0c\\xa8\\xb8B\\x1a\\x18FD\\x00\\x00\\xebB\\xa9\\x18\\x08\\xbd\\xd1\\xdb\\x7f?\\x00\\x00\\x00\\x00\\xd8{\\x7f@\\xecQx?\\x0c\\xa8\\xb8B\\x1a\\x98CD\\x00\\x00\\xf5B\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xd8{\\x7f@d\\xe2\\x81?\\x0c\\xa8\\xb8B\\x1a\\xd8?D33\\xebB\\xa9\\x18\\x08=\\xd1\\xdb\\x7f\\xbf\\x00\\x00\\x00\\x80\\xd8{\\x7f@\\xb6\\xf6\\x89?\\xa5\\xb0\\xb9\\xc3\\x0bSAD\\x00\\x00\\xeb\\xc2\\x9bb(\\xbd\\x9a\\xc8\\x7f?\\x00\\x00\\x00\\x00D\\xc3\\xba@\\x8f\\xc2\\xf5<\\xa5\\xb0\\xb9\\xc3\\x0bSAD\\x00\\x00\\xebB\\x9bb(\\xbd\\x9a\\xc8\\x7f?\\x00\\x00\\x00\\x00D\\xc3\\xba@\\xecQx?\\xa5\\xb0\\xb9\\xc3\\x0b\\xd3>D\\x00\\x00\\xf5B\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\xff\\xff\\x7f?D\\xc3\\xba@d\\xe2\\x81?\\xa5\\xb0\\xb9\\xc3\\x0b\\x13;D33\\xebB\\x9bb(=\\x9a\\xc8\\x7f\\xbf\\x00\\x00\\x00\\x80D\\xc3\\xba@\\xb6\\xf6\\x89?\\xa5\\xb0\\xb9\\xc3\\x0bSAD\\x00\\x00\\xeb\\xc2\\x9bb(\\xbd\\x9a\\xc8\\x7f?\\x00\\x00\\x00\\x00D\\xc3\\xba@\\x8f\\xc2\\xf5<\\xa5\\xb0\\xb9\\xc3\\x0bSAD\\x00\\x00\\xebB\\x9bb(\\xbd\\x9a\\xc8\\x7f?\\x00\\x00\\x00\\x00D\\xc3\\xba@\\xecQx?\\xa5\\xb0\\xb9\\xc3\\x0b\\xd3>D\\x00\\x00\\xf5B\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\xff\\xff\\x7f?\\xf2\\n\\xbc@\\xa4p}?\\xa5\\xb0\\xb9\\xc3\\x0b\\x13;D33\\xebB\\x9bb(=\\x9a\\xc8\\x7f\\xbf\\x00\\x00\\x00\\x80w\\xf6\\xbd@\"lx?\\xa5\\xb0\\xb9\\xc3\\x0b\\x13;D\\xcd\\xcc\\xea\\xc2\\x9bb(=\\x9a\\xc8\\x7f\\xbf\\x00\\x00\\x00\\x80w\\xf6\\xbd@h\\t\\xf9<\\xa5\\xb0\\xb9\\xc3\\x0b\\xd3>D\\x00\\x00\\xf5\\xc2\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\xff\\xff\\x7f?\\xf2\\n\\xbc@\\n\\xd7#<",
+				"u9" : "\\x00\\x00\\x04\\x00\\x05\\x00\\x01\\x00\\x00\\x00\\x05\\x00\\x01\\x00\\x05\\x00\\x06\\x00\\x02\\x00\\x01\\x00\\x06\\x00\\x03\\x00\\x07\\x00\\x08\\x00\\x04\\x00\\x03\\x00\\x08\\x00\\x04\\x00\\x08\\x00\\t\\x00\\x05\\x00\\x04\\x00\\t\\x00\\x05\\x00\\t\\x00\\n\\x00\\x06\\x00\\x05\\x00\\n\\x00\\x0b\\x00\\x10\\x00\\x0f\\x00\\x0b\\x00\\x0f\\x00\\x0e\\x00\\x0b\\x00\\x0e\\x00\\x0c\\x00\\x0e\\x00\\r\\x00\\x0c\\x00",
+			},
+
+			"u1sub-sub-sub-block " :  {
+
+				"u0" : 22,
+				"u1" : 20,
+
+				"u2sub-sub-sub-sub-block " :  {
+
+					"u0" : 4,
+					"u1" : 1,
+					"u2" : 2,
+					"u3" : 0,
+				},
+
+				"u3sub-sub-sub-sub-block " :  {
+
+					"u0" : 7,
+					"u1" : 3,
+					"u2" : 32,
+					"u3" : 0,
+				},
+
+				"u4sub-sub-sub-sub-block " :  {
+
+					"u0" : 7,
+					"u1" : 3,
+					"u2" : 32,
+					"u3" : 12,
+				},
+
+				"u5sub-sub-sub-sub-block " :  {
+
+					"u0" : 7,
+					"u1" : 2,
+					"u2" : 32,
+					"u3" : 24,
+				},
+
+				"u6sub-sub-sub-sub-block " :  {
+
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 1.0,
+						"x" : 1.0,
+						"y" : 1.0,
+						"z" : 1.0,
+					},
+
+					"u1sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 1.0,
+						"x" : 1.0,
+						"y" : 1.0,
+						"z" : 1.0,
+					},
+
+					"u2sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 1.0,
+						"x" : 1.0,
+						"y" : 1.0,
+						"z" : 1.0,
+					},
+					"u3" : 0.0,
+					"u4" : "\\n\\tcavewalls\\x10\\x01 \\x01",
+				},
+
+				"u7sub-sub-sub-sub-block " :  {
+
+					"u" : 51.9033203125,
+					"v" : -798.16064453125,
+					"w" : -112.5,
+					"x" : 192.9759521484375,
+					"y" : 77.5838623046875,
+					"z" : 225.0,
+				},
+				"u8" : "\\x80\\xe1OB\\xea$4\\xc4\\x00\\x00\\xe1\\xc2\\xc4\\xff\\x7f\\xbf\\x89\\x0e/;\\x00\\x00\\x00\\x00\\x00\\x00\\x00?\\xcd\\xccL=\\x80\\xe1OB\\xea$4\\xc4\\x00\\x00\\xe1B\\xc4\\xff\\x7f\\xbf\\x89\\x0e/;\\x00\\x00\\x00\\x00\\x00\\x00\\x00?33s?\\x00\\x9dOB\\xaeg:\\xc4\\x00\\x00\\xe1\\xc2y@|\\xbf\\xe8\\x95.\\xbe\\x00\\x00\\x00\\x00\\xf4\\xa4\\x19?\\xcd\\xccL=\\x00\\x9dOB\\xaeg:\\xc4\\x00\\x00\\xe1By@|\\xbf\\xe8\\x95.\\xbe\\x00\\x00\\x00\\x00\\xf4\\xa4\\x19?33s?\\x00XuB&\\xadA\\xc4\\x00\\x00\\xe1\\xc28\\xa2U\\xbf6\\x0e\\r\\xbf\\x00\\x00\\x00\\x00w\\xf48?\\xcd\\xccL=\\x00XuB&\\xadA\\xc4\\x00\\x00\\xe1B8\\xa2U\\xbf6\\x0e\\r\\xbf\\x00\\x00\\x00\\x00w\\xf48?33s?@0\\xadBH\\x8aG\\xc4\\x00\\x00\\xe1\\xc2yf\\x94>\\xca\\x02u\\xbf\\x00\\x00\\x00\\x00^@\\\\?\\xcd\\xccL=@0\\xadBH\\x8aG\\xc4\\x00\\x00\\xe1Byf\\x94>\\xca\\x02u\\xbf\\x00\\x00\\x00\\x00^@\\\\?33s?\\xe4\\xeb\\x13C\\xf2\\x1e;\\xc4\\x00\\x00\\xe1\\xc2\\xdf\\x83\\xf5>\\xcf\\xa5`\\xbf\\x00\\x00\\x00\\x00\\xc8\\x88\\x96?\\xcd\\xccL=\\xe4\\xeb\\x13C\\xf2\\x1e;\\xc4\\x00\\x00\\xe1B\\xdf\\x83\\xf5>\\xcf\\xa5`\\xbf\\x00\\x00\\x00\\x00\\xc8\\x88\\x96?33s?P\\x8a\\\'Cf{<\\xc4\\x00\\x00\\xe1\\xc2\\x81\\xb0.\\xbf\\x9f\";\\xbf\\x00\\x00\\x00\\x00r\\xf5\\xa0?\\xcd\\xccL=P\\x8a\\\'Cf{<\\xc4\\x00\\x00\\xe1B\\x81\\xb0.\\xbf\\x9f\";\\xbf\\x00\\x00\\x00\\x00r\\xf5\\xa0?33s?PU;C\\x8cQD\\xc4\\x00\\x00\\xe1\\xc2\\xed\\xc0\\x06>\\x11\\xc6}\\xbf\\x00\\x00\\x00\\x00\\x8e\\xf0\\xb3?\\xcd\\xccL=PU;C\\x8cQD\\xc4\\x00\\x00\\xe1B\\xed\\xc0\\x06>\\x11\\xc6}\\xbf\\x00\\x00\\x00\\x00\\x8e\\xf0\\xb3?33s?\\xb0\\xbcKC\\xdfG;\\xc4\\x00\\x00\\xe1\\xc2\\x8e\\xec\\xfa>\\x07&_\\xbf\\x00\\x00\\x00\\x00\\xf5C\\xc8?\\xcd\\xccL=\\xb0\\xbcKC\\xdfG;\\xc4\\x00\\x00\\xe1B\\x8e\\xec\\xfa>\\x07&_\\xbf\\x00\\x00\\x00\\x00\\xf5C\\xc8?33s?p\\xe7YC\\x84\\x05@\\xc4\\x00\\x00\\xe1\\xc2w\\xe2<\\xbf\\xe2\\xcb,\\xbf\\x00\\x00\\x00\\x00\\x89b\\xd4?\\xcd\\xccL=p\\xe7YC\\x84\\x05@\\xc4\\x00\\x00\\xe1Bw\\xe2<\\xbf\\xe2\\xcb,\\xbf\\x00\\x00\\x00\\x00\\x89b\\xd4?33s?`PjC\\xfe\\xa2C\\xc4\\x00\\x00\\xe1\\xc2 T\\xdb>^Rg\\xbf\\x00\\x00\\x00\\x00^\\x95\\xdf?\\xcd\\xccL=`PjC\\xfe\\xa2C\\xc4\\x00\\x00\\xe1B T\\xdb>^Rg\\xbf\\x00\\x00\\x00\\x00^\\x95\\xdf?33s?\\x18\\xe1tC\\x10\\xd3<\\xc4\\x00\\x00\\xe1\\xc2\\x08\\x19_\\xbe\\xb2\\xd9y\\xbf\\x00\\x00\\x00\\x00\\x02\\x8c\\xee?\\xcd\\xccL=\\x18\\xe1tC\\x10\\xd3<\\xc4\\x00\\x00\\xe1B\\x08\\x19_\\xbe\\xb2\\xd9y\\xbf\\x00\\x00\\x00\\x00\\x02\\x8c\\xee?33s?",
+				"u9" : "\\x00\\x00\\x02\\x00\\x03\\x00\\x01\\x00\\x00\\x00\\x03\\x00\\x02\\x00\\x04\\x00\\x05\\x00\\x03\\x00\\x02\\x00\\x05\\x00\\x04\\x00\\x06\\x00\\x07\\x00\\x05\\x00\\x04\\x00\\x07\\x00\\x06\\x00\\x08\\x00\\t\\x00\\x07\\x00\\x06\\x00\\t\\x00\\x08\\x00\\n\\x00\\x0b\\x00\\t\\x00\\x08\\x00\\x0b\\x00\\n\\x00\\x0c\\x00\\r\\x00\\x0b\\x00\\n\\x00\\r\\x00\\x0c\\x00\\x0e\\x00\\x0f\\x00\\r\\x00\\x0c\\x00\\x0f\\x00\\x0e\\x00\\x10\\x00\\x11\\x00\\x0f\\x00\\x0e\\x00\\x11\\x00\\x10\\x00\\x12\\x00\\x13\\x00\\x11\\x00\\x10\\x00\\x13\\x00\\x12\\x00\\x14\\x00\\x15\\x00\\x13\\x00\\x12\\x00\\x15\\x00",
+			},
+
+			"u1sub-sub-sub-block " :  {
+
+				"u0" : 22,
+				"u1" : 20,
+
+				"u2sub-sub-sub-sub-block " :  {
+
+					"u0" : 4,
+					"u1" : 1,
+					"u2" : 2,
+					"u3" : 0,
+				},
+
+				"u3sub-sub-sub-sub-block " :  {
+
+					"u0" : 7,
+					"u1" : 3,
+					"u2" : 32,
+					"u3" : 0,
+				},
+
+				"u4sub-sub-sub-sub-block " :  {
+
+					"u0" : 7,
+					"u1" : 3,
+					"u2" : 32,
+					"u3" : 12,
+				},
+
+				"u5sub-sub-sub-sub-block " :  {
+
+					"u0" : 7,
+					"u1" : 2,
+					"u2" : 32,
+					"u3" : 24,
+				},
+
+				"u6sub-sub-sub-sub-block " :  {
+
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 1.0,
+						"x" : 1.0,
+						"y" : 1.0,
+						"z" : 1.0,
+					},
+
+					"u1sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 1.0,
+						"x" : 1.0,
+						"y" : 1.0,
+						"z" : 1.0,
+					},
+
+					"u2sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 1.0,
+						"x" : 1.0,
+						"y" : 1.0,
+						"z" : 1.0,
+					},
+					"u3" : 0.0,
+					"u4" : "\\n\\tcavewalls\\x10\\x01 \\x01",
+				},
+
+				"u7sub-sub-sub-sub-block " :  {
+
+					"u" : 244.8792724609375,
+					"v" : -788.7783203125,
+					"w" : -112.5,
+					"x" : 174.8780517578125,
+					"y" : 242.36553955078125,
+					"z" : 225.0,
+				},
+				"u8" : "\\x18\\xe1tC\\x10\\xd3<\\xc4\\x00\\x00\\xe1\\xc2\\x08\\x19_\\xbe\\xb2\\xd9y\\xbf\\x00\\x00\\x00\\x00\\x02\\x8c\\xee?\\xcd\\xccL=\\x18\\xe1tC\\x10\\xd3<\\xc4\\x00\\x00\\xe1B\\x08\\x19_\\xbe\\xb2\\xd9y\\xbf\\x00\\x00\\x00\\x00\\x02\\x8c\\xee?33s?X\\x1d\\x83C\\xd01E\\xc4\\x00\\x00\\xe1\\xc2\\xc5\\x88\\xb3\\xbe\\xd3\\xbeo\\xbf\\x00\\x00\\x00\\x00L\\xed\\x00@\\xcd\\xccL=X\\x1d\\x83C\\xd01E\\xc4\\x00\\x00\\xe1B\\xc5\\x88\\xb3\\xbe\\xd3\\xbeo\\xbf\\x00\\x00\\x00\\x00L\\xed\\x00@33s?\\xb4\\xc5\\x8bC\\xc2\\x11@\\xc4\\x00\\x00\\xe1\\xc2\\x8a\\xf1\\xbf>mTm\\xbf\\x00\\x00\\x00\\x00\\xf1\\xcb\\x07@\\xcd\\xccL=\\xb4\\xc5\\x8bC\\xc2\\x11@\\xc4\\x00\\x00\\xe1B\\x8a\\xf1\\xbf>mTm\\xbf\\x00\\x00\\x00\\x00\\xf1\\xcb\\x07@33s?Hp\\x94C\\x1c\\xb1A\\xc4\\x00\\x00\\xe1\\xc2\\x85\\x86 ?\\tkG\\xbf\\x00\\x00\\x00\\x00\\xde\\x88\\x0c@\\xcd\\xccL=Hp\\x94C\\x1c\\xb1A\\xc4\\x00\\x00\\xe1B\\x85\\x86 ?\\tkG\\xbf\\x00\\x00\\x00\\x00\\xde\\x88\\x0c@33s?0%\\xa4CvB6\\xc4\\x00\\x00\\xe1\\xc2\\x80\\xe7$\\xbe\\x9f\\xa8|\\xbf\\x00\\x00\\x00\\x00\\xbe\\xbc\\x1a@\\xcd\\xccL=0%\\xa4CvB6\\xc4\\x00\\x00\\xe1B\\x80\\xe7$\\xbe\\x9f\\xa8|\\xbf\\x00\\x00\\x00\\x00\\xbe\\xbc\\x1a@33s?x\\xb5\\xb1Cp\\x14D\\xc4\\x00\\x00\\xe1\\xc2\\xb5\\x16O?\\x06\\x80\\x16\\xbf\\x00\\x00\\x00\\x00S\\x80*@\\xcd\\xccL=x\\xb5\\xb1Cp\\x14D\\xc4\\x00\\x00\\xe1B\\xb5\\x16O?\\x06\\x80\\x16\\xbf\\x00\\x00\\x00\\x00S\\x80*@33s?\\xc0\\xbb\\xb1C4\\xe9,\\xc4\\x00\\x00\\xe1\\xc2\\xbe\\xdb{?\\ns7\\xbe\\x00\\x00\\x00\\x00\\xe89B@\\xcd\\xccL=\\xc0\\xbb\\xb1C4\\xe9,\\xc4\\x00\\x00\\xe1B\\xbe\\xdb{?\\ns7\\xbe\\x00\\x00\\x00\\x00\\xe89B@33s?\\x80\\xa3\\xbbC\\x82\\xd0(\\xc4\\x00\\x00\\xe1\\xc2z\\x14\\x18\\xbd\\xd0\\xd2\\x7f\\xbf\\x00\\x00\\x00\\x00\\xc7\\xceH@\\xcd\\xccL=\\x80\\xa3\\xbbC\\x82\\xd0(\\xc4\\x00\\x00\\xe1Bz\\x14\\x18\\xbd\\xd0\\xd2\\x7f\\xbf\\x00\\x00\\x00\\x00\\xc7\\xceH@33s?\\xa83\\xbeC\\x80$-\\xc4\\x00\\x00\\xe1\\xc2\\xb4\\x14q?\\x86;\\xac\\xbe\\x00\\x00\\x00\\x00\\rnM@\\xcd\\xccL=\\xa83\\xbeC\\x80$-\\xc4\\x00\\x00\\xe1B\\xb4\\x14q?\\x86;\\xac\\xbe\\x00\\x00\\x00\\x00\\rnM@33s?\\x18\\x1b\\xccC\\xc5\\xc3\\x11\\xc4\\x00\\x00\\xe1\\xc222w?2\\x1e\\x85\\xbe\\x00\\x00\\x00\\x00\\xc3Zj@\\xcd\\xccL=\\x18\\x1b\\xccC\\xc5\\xc3\\x11\\xc4\\x00\\x00\\xe1B22w?2\\x1e\\x85\\xbe\\x00\\x00\\x00\\x00\\xc3Zj@33s?\\xf0\\xe0\\xd1Ck\\x9a\\x08\\xc4\\x00\\x00\\xe1\\xc2\\xb9\\xea\\x7f?\\x9d\\xbd\\xd0\\xbc\\x00\\x00\\x00\\x00\\xc70t@\\xcd\\xccL=\\xf0\\xe0\\xd1Ck\\x9a\\x08\\xc4\\x00\\x00\\xe1B\\xb9\\xea\\x7f?\\x9d\\xbd\\xd0\\xbc\\x00\\x00\\x00\\x00\\xc70t@33s?",
+				"u9" : "\\x00\\x00\\x02\\x00\\x03\\x00\\x01\\x00\\x00\\x00\\x03\\x00\\x02\\x00\\x04\\x00\\x05\\x00\\x03\\x00\\x02\\x00\\x05\\x00\\x04\\x00\\x06\\x00\\x07\\x00\\x05\\x00\\x04\\x00\\x07\\x00\\x06\\x00\\x08\\x00\\t\\x00\\x07\\x00\\x06\\x00\\t\\x00\\x08\\x00\\n\\x00\\x0b\\x00\\t\\x00\\x08\\x00\\x0b\\x00\\n\\x00\\x0c\\x00\\r\\x00\\x0b\\x00\\n\\x00\\r\\x00\\x0c\\x00\\x0e\\x00\\x0f\\x00\\r\\x00\\x0c\\x00\\x0f\\x00\\x0e\\x00\\x10\\x00\\x11\\x00\\x0f\\x00\\x0e\\x00\\x11\\x00\\x10\\x00\\x12\\x00\\x13\\x00\\x11\\x00\\x10\\x00\\x13\\x00\\x12\\x00\\x14\\x00\\x15\\x00\\x13\\x00\\x12\\x00\\x15\\x00",
+			},
+
+			"u1sub-sub-sub-block " :  {
+
+				"u0" : 24,
+				"u1" : 20,
+
+				"u2sub-sub-sub-sub-block " :  {
+
+					"u0" : 4,
+					"u1" : 1,
+					"u2" : 2,
+					"u3" : 0,
+				},
+
+				"u3sub-sub-sub-sub-block " :  {
+
+					"u0" : 7,
+					"u1" : 3,
+					"u2" : 32,
+					"u3" : 0,
+				},
+
+				"u4sub-sub-sub-sub-block " :  {
+
+					"u0" : 7,
+					"u1" : 3,
+					"u2" : 32,
+					"u3" : 12,
+				},
+
+				"u5sub-sub-sub-sub-block " :  {
+
+					"u0" : 7,
+					"u1" : 2,
+					"u2" : 32,
+					"u3" : 24,
+				},
+
+				"u6sub-sub-sub-sub-block " :  {
+
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 1.0,
+						"x" : 1.0,
+						"y" : 1.0,
+						"z" : 1.0,
+					},
+
+					"u1sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 1.0,
+						"x" : 1.0,
+						"y" : 1.0,
+						"z" : 1.0,
+					},
+
+					"u2sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 1.0,
+						"x" : 1.0,
+						"y" : 1.0,
+						"z" : 1.0,
+					},
+					"u3" : 0.0,
+					"u4" : "\\n\\tcavewalls\\x10\\x01 \\x01",
+				},
+
+				"u7sub-sub-sub-sub-block " :  {
+
+					"u" : 389.1069641113281,
+					"v" : -546.4127807617188,
+					"w" : -112.5,
+					"x" : 319.4331970214844,
+					"y" : 1320.613525390625,
+					"z" : 225.0,
+				},
+				"u8" : "\\xf0\\xe0\\xd1Ck\\x9a\\x08\\xc4\\x00\\x00\\xe1\\xc2\\xb9\\xea\\x7f?\\x9d\\xbd\\xd0\\xbc\\x00\\x00\\x00\\x00\\xc70t@\\xcd\\xccL=\\xf0\\xe0\\xd1Ck\\x9a\\x08\\xc4\\x00\\x00\\xe1B\\xb9\\xea\\x7f?\\x9d\\xbd\\xd0\\xbc\\x00\\x00\\x00\\x00\\xc70t@33s?\\x081\\xcdCv\\xef\\xf8\\xc3\\x00\\x00\\xe1\\xc2\\xaasB?\\xb9\\x81&\\xbf\\x00\\x00\\x00\\x00fl\\x80@\\xcd\\xccL=\\x081\\xcdCv\\xef\\xf8\\xc3\\x00\\x00\\xe1B\\xaasB?\\xb9\\x81&\\xbf\\x00\\x00\\x00\\x00fl\\x80@33s?\\xa8\\x8d\\xe9C\\xf0\\x8e\\xf5\\xc3\\x00\\x00\\xe1\\xc26\\x1cY?\\xbc\\xa4\\x07\\xbf\\x00\\x00\\x00\\x00@\\xbc\\x87@\\xcd\\xccL=\\xa8\\x8d\\xe9C\\xf0\\x8e\\xf5\\xc3\\x00\\x00\\xe1B6\\x1cY?\\xbc\\xa4\\x07\\xbf\\x00\\x00\\x00\\x00@\\xbc\\x87@33s?\\xe8\\x0f\\xe5Cn\\xba\\xd2\\xc3\\x00\\x00\\xe1\\xc2h\\xb0t?Y\\x82\\x96>\\x00\\x00\\x00\\x00\\xc6\\xb9\\x90@\\xcd\\xccL=\\xe8\\x0f\\xe5Cn\\xba\\xd2\\xc3\\x00\\x00\\xe1Bh\\xb0t?Y\\x82\\x96>\\x00\\x00\\x00\\x00\\xc6\\xb9\\x90@33s?p\\xe8\\xd1C\\xfe\\xac\\xa8\\xc3\\x00\\x00\\xe1\\xc2\\xf8\\xec}?\\xd2\\x17\\x02>\\x00\\x00\\x00\\x00%\\x8e\\x9c@\\xcd\\xccL=p\\xe8\\xd1C\\xfe\\xac\\xa8\\xc3\\x00\\x00\\xe1B\\xf8\\xec}?\\xd2\\x17\\x02>\\x00\\x00\\x00\\x00%\\x8e\\x9c@33s?\\x98\\xd9\\xddCTk\\x9a\\xc3\\x00\\x00\\xe1\\xc2:?D?\\x19c$\\xbf\\x00\\x00\\x00\\x00\\xf0P\\xa1@\\xcd\\xccL=\\x98\\xd9\\xddCTk\\x9a\\xc3\\x00\\x00\\xe1B:?D?\\x19c$\\xbf\\x00\\x00\\x00\\x00\\xf0P\\xa1@33s?\\xb1\\x8d\\xc2C\\x96K\\x83\\xc3\\x00\\x00\\xe1\\xc2\\xb4\\xe2#?\\x82\\xaaD\\xbf\\x00\\x00\\x00\\x00\\xf0P\\xa1@\\xcd\\xccL=\\xb1\\x8d\\xc2C\\x96K\\x83\\xc3\\x00\\x00\\xe1B\\xb4\\xe2#?\\x82\\xaaD\\xbf\\x00\\x00\\x00\\x00\\xf0P\\xa1@33s?\\xf6\\xb7\\xf6Cp\\xa6/\\xc3\\x00\\x00\\xe1\\xc2\\xf7|s?\\x95\\x1b\\x9e\\xbe\\x00\\x00\\x00\\x00\\x0b\\xb3\\xb2@\\xcd\\xccL=\\xf6\\xb7\\xf6Cp\\xa6/\\xc3\\x00\\x00\\xe1B\\xf7|s?\\x95\\x1b\\x9e\\xbe\\x00\\x00\\x00\\x00\\x0b\\xb3\\xb2@33s?Xa\\xffC(6\\xe0B\\x00\\x00\\xe1\\xc2!\\xfc\\x7f?\\xb7\\x1b2<\\x00\\x00\\x00\\x00M\\x99\\xd7@\\xcd\\xccL=Xa\\xffC(6\\xe0B\\x00\\x00\\xe1B!\\xfc\\x7f?\\xb7\\x1b2<\\x00\\x00\\x00\\x00M\\x99\\xd7@33s?\\x8a!\\xf3C~,\\xf2C\\x00\\x00\\xe1\\xc2\\x0c ~?\\x9cg\\xf7\\xbd\\x00\\x00\\x00\\x00\\xa7\\xac\\x03A\\xcd\\xccL=\\x8a!\\xf3C~,\\xf2C\\x00\\x00\\xe1B\\x0c ~?\\x9cg\\xf7\\xbd\\x00\\x00\\x00\\x00\\xa7\\xac\\x03A33s?\\xc5\\xba\\x10D{\\x0b(D\\x00\\x00\\xe1\\xc2\\xcf$K?\\xa7\\xc8\\x1b\\xbf\\x00\\x00\\x00\\x00\\\'\\x14\\x11A\\xcd\\xccL=\\xc5\\xba\\x10D{\\x0b(D\\x00\\x00\\xe1B\\xcf$K?\\xa7\\xc8\\x1b\\xbf\\x00\\x00\\x00\\x00\\\'\\x14\\x11A33s?\\x92\"1D\\xd9\\x8cAD\\x00\\x00\\xe1\\xc2\\xacT\\x1e?@*I\\xbf\\x00\\x00\\x00\\x00\\xc7\\xa2\\x1bA\\xcd\\xccL=\\x92\"1D\\xd9\\x8cAD\\x00\\x00\\xe1B\\xacT\\x1e?@*I\\xbf\\x00\\x00\\x00\\x00\\xc7\\xa2\\x1bA33s?",
+				"u9" : "\\x00\\x00\\x02\\x00\\x03\\x00\\x01\\x00\\x00\\x00\\x03\\x00\\x02\\x00\\x04\\x00\\x05\\x00\\x03\\x00\\x02\\x00\\x05\\x00\\x04\\x00\\x06\\x00\\x07\\x00\\x05\\x00\\x04\\x00\\x07\\x00\\x06\\x00\\x08\\x00\\t\\x00\\x07\\x00\\x06\\x00\\t\\x00\\x08\\x00\\n\\x00\\x0b\\x00\\t\\x00\\x08\\x00\\x0b\\x00\\x0c\\x00\\x0e\\x00\\x0f\\x00\\r\\x00\\x0c\\x00\\x0f\\x00\\x0e\\x00\\x10\\x00\\x11\\x00\\x0f\\x00\\x0e\\x00\\x11\\x00\\x10\\x00\\x12\\x00\\x13\\x00\\x11\\x00\\x10\\x00\\x13\\x00\\x12\\x00\\x14\\x00\\x15\\x00\\x13\\x00\\x12\\x00\\x15\\x00\\x14\\x00\\x16\\x00\\x17\\x00\\x15\\x00\\x14\\x00\\x17\\x00",
+			},
+
+			"u1sub-sub-sub-block " :  {
+
+				"u0" : 22,
+				"u1" : 20,
+
+				"u2sub-sub-sub-sub-block " :  {
+
+					"u0" : 4,
+					"u1" : 1,
+					"u2" : 2,
+					"u3" : 0,
+				},
+
+				"u3sub-sub-sub-sub-block " :  {
+
+					"u0" : 7,
+					"u1" : 3,
+					"u2" : 32,
+					"u3" : 0,
+				},
+
+				"u4sub-sub-sub-sub-block " :  {
+
+					"u0" : 7,
+					"u1" : 3,
+					"u2" : 32,
+					"u3" : 12,
+				},
+
+				"u5sub-sub-sub-sub-block " :  {
+
+					"u0" : 7,
+					"u1" : 2,
+					"u2" : 32,
+					"u3" : 24,
+				},
+
+				"u6sub-sub-sub-sub-block " :  {
+
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 1.0,
+						"x" : 1.0,
+						"y" : 1.0,
+						"z" : 1.0,
+					},
+
+					"u1sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 1.0,
+						"x" : 1.0,
+						"y" : 1.0,
+						"z" : 1.0,
+					},
+
+					"u2sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 1.0,
+						"x" : 1.0,
+						"y" : 1.0,
+						"z" : 1.0,
+					},
+					"u3" : 0.0,
+					"u4" : "\\n\\tcavewalls\\x10\\x01 \\x01",
+				},
+
+				"u7sub-sub-sub-sub-block " :  {
+
+					"u" : -708.5401611328125,
+					"v" : -740.9749145507812,
+					"w" : -112.5,
+					"x" : 770.2254638671875,
+					"y" : 1514.395751953125,
+					"z" : 225.0,
+				},
+				"u8" : "\\xf80\\xb8\\xc3\\xf0ZAD\\x00\\x00\\xe1\\xc2\\xc5\\xfe\\x7f\\xbf\\x88\\xd6\\xc8;\\x00\\x00\\x00\\x00\\xc7\\xa2\\x1bA\\xcd\\xccL=\\xf80\\xb8\\xc3\\xf0ZAD\\x00\\x00\\xe1B\\xc5\\xfe\\x7f\\xbf\\x88\\xd6\\xc8;\\x00\\x00\\x00\\x00\\xc7\\xa2\\x1bA33s?\\x16\\x99\\xba\\xc3\\xc0u>\\xc1\\x00\\x00\\xe1\\xc2&\\xff\\x7f\\xbf\\xef\\xb6\\xa6;\\x00\\x00\\x00\\x00\\xc7\\xe5MA\\xcd\\xccL=\\x16\\x99\\xba\\xc3\\xc0u>\\xc1\\x00\\x00\\xe1B&\\xff\\x7f\\xbf\\xef\\xb6\\xa6;\\x00\\x00\\x00\\x00\\xc7\\xe5MA33s?\\xb4\\x84\\xba\\xc3,Z\\r\\xc3\\x00\\x00\\xe1\\xc2\\x0c\\xceg\\xbfPG\\xd9>\\x00\\x00\\x00\\x00\\xa9.VA\\xcd\\xccL=\\xb4\\x84\\xba\\xc3,Z\\r\\xc3\\x00\\x00\\xe1B\\x0c\\xceg\\xbfPG\\xd9>\\x00\\x00\\x00\\x00\\xa9.VA33s?\\x92\"1\\xc4\\x9d\\xdb5\\xc4\\x00\\x00\\xe1\\xc2`\\xd2y\\xbf\\x18\\x9c_\\xbe\\x00\\x00\\x00\\x00\\x84\\xb3\\x80A\\xcd\\xccL=\\x92\"1\\xc4\\x9d\\xdb5\\xc4\\x00\\x00\\xe1B`\\xd2y\\xbf\\x18\\x9c_\\xbe\\x00\\x00\\x00\\x00\\x84\\xb3\\x80A33s?\\x10\\xdcn\\xc3e>9\\xc4\\x00\\x00\\xe1\\xc2}\\x82\\x88\\xbbo\\xff\\x7f\\xbf\\x00\\x00\\x00\\x00\\xbd\\xbc\\x8fA\\xcd\\xccL=\\x10\\xdcn\\xc3e>9\\xc4\\x00\\x00\\xe1B}\\x82\\x88\\xbbo\\xff\\x7f\\xbf\\x00\\x00\\x00\\x00\\xbd\\xbc\\x8fA33s?@\\xf1\\xd0\\xc2\\xac|6\\xc4\\x00\\x00\\xe1\\xc2\\xa7\\x101?\\x99\\xe38\\xbf\\x00\\x00\\x00\\x00Y\\r\\x94A\\xcd\\xccL=@\\xf1\\xd0\\xc2\\xac|6\\xc4\\x00\\x00\\xe1B\\xa7\\x101?\\x99\\xe38\\xbf\\x00\\x00\\x00\\x00Y\\r\\x94A33s?0\\xba\\x02\\xc3\\xc8Z\\x1f\\xc4\\x00\\x00\\xe1\\xc2\\x1e\\xe8\\x7f?\\x1f\"\\xdd\\xbc\\x00\\x00\\x00\\x00G!\\x97A\\xcd\\xccL=0\\xba\\x02\\xc3\\xc8Z\\x1f\\xc4\\x00\\x00\\xe1B\\x1e\\xe8\\x7f?\\x1f\"\\xdd\\xbc\\x00\\x00\\x00\\x00G!\\x97A33s?`\\xdc\\xc7\\xc2\\xd1r\\x0c\\xc4\\x00\\x00\\xe1\\xc2\\xca%\\xc6>9\\rl\\xbf\\x00\\x00\\x00\\x001\\xbe\\x99A\\xcd\\xccL=`\\xdc\\xc7\\xc2\\xd1r\\x0c\\xc4\\x00\\x00\\xe1B\\xca%\\xc6>9\\rl\\xbf\\x00\\x00\\x00\\x001\\xbe\\x99A33s?\\x80\\x7f\\xfe\\xc1\\xc4\\xf9\\x14\\xc4\\x00\\x00\\xe1\\xc2\\xc1\\xc8\\x1b=\\x95\\xd0\\x7f\\xbf\\x00\\x00\\x00\\x00D.\\x9cA\\xcd\\xccL=\\x80\\x7f\\xfe\\xc1\\xc4\\xf9\\x14\\xc4\\x00\\x00\\xe1B\\xc1\\xc8\\x1b=\\x95\\xd0\\x7f\\xbf\\x00\\x00\\x00\\x00D.\\x9cA33s?\\x00\\xe4\\x98A\\xd8P\\x0b\\xc4\\x00\\x00\\xe1\\xc2apP?\\xd3\\x9f\\x14\\xbf\\x00\\x00\\x00\\x00\\xed9\\x9eA\\xcd\\xccL=\\x00\\xe4\\x98A\\xd8P\\x0b\\xc4\\x00\\x00\\xe1BapP?\\xd3\\x9f\\x14\\xbf\\x00\\x00\\x00\\x00\\xed9\\x9eA33s?\\xc0\\xbdvBbc\\xe8\\xc3\\x00\\x00\\xe1\\xc2\\xf8\\xe7B=\\xc4\\xb5\\x7f\\xbf\\x00\\x00\\x00\\x00\\xff{\\xa1A\\xcd\\xccL=\\xc0\\xbdvBbc\\xe8\\xc3\\x00\\x00\\xe1B\\xf8\\xe7B=\\xc4\\xb5\\x7f\\xbf\\x00\\x00\\x00\\x00\\xff{\\xa1A33s?",
+				"u9" : "\\x00\\x00\\x02\\x00\\x03\\x00\\x01\\x00\\x00\\x00\\x03\\x00\\x02\\x00\\x04\\x00\\x05\\x00\\x03\\x00\\x02\\x00\\x05\\x00\\x04\\x00\\x06\\x00\\x07\\x00\\x05\\x00\\x04\\x00\\x07\\x00\\x06\\x00\\x08\\x00\\t\\x00\\x07\\x00\\x06\\x00\\t\\x00\\x08\\x00\\n\\x00\\x0b\\x00\\t\\x00\\x08\\x00\\x0b\\x00\\n\\x00\\x0c\\x00\\r\\x00\\x0b\\x00\\n\\x00\\r\\x00\\x0c\\x00\\x0e\\x00\\x0f\\x00\\r\\x00\\x0c\\x00\\x0f\\x00\\x0e\\x00\\x10\\x00\\x11\\x00\\x0f\\x00\\x0e\\x00\\x11\\x00\\x10\\x00\\x12\\x00\\x13\\x00\\x11\\x00\\x10\\x00\\x13\\x00\\x12\\x00\\x14\\x00\\x15\\x00\\x13\\x00\\x12\\x00\\x15\\x00",
+			},
+
+			"u1sub-sub-sub-block " :  {
+
+				"u0" : 12,
+				"u1" : 10,
+
+				"u2sub-sub-sub-sub-block " :  {
+
+					"u0" : 4,
+					"u1" : 1,
+					"u2" : 2,
+					"u3" : 0,
+				},
+
+				"u3sub-sub-sub-sub-block " :  {
+
+					"u0" : 7,
+					"u1" : 3,
+					"u2" : 32,
+					"u3" : 0,
+				},
+
+				"u4sub-sub-sub-sub-block " :  {
+
+					"u0" : 7,
+					"u1" : 3,
+					"u2" : 32,
+					"u3" : 12,
+				},
+
+				"u5sub-sub-sub-sub-block " :  {
+
+					"u0" : 7,
+					"u1" : 2,
+					"u2" : 32,
+					"u3" : 24,
+				},
+
+				"u6sub-sub-sub-sub-block " :  {
+
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 1.0,
+						"x" : 1.0,
+						"y" : 1.0,
+						"z" : 1.0,
+					},
+
+					"u1sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 1.0,
+						"x" : 1.0,
+						"y" : 1.0,
+						"z" : 1.0,
+					},
+
+					"u2sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 1.0,
+						"x" : 1.0,
+						"y" : 1.0,
+						"z" : 1.0,
+					},
+					"u3" : 0.0,
+					"u4" : "\\n\\tcavewalls\\x10\\x01 \\x01",
+				},
+
+				"u7sub-sub-sub-sub-block " :  {
+
+					"u" : 61.685302734375,
+					"v" : -719.177734375,
+					"w" : -112.5,
+					"x" : 174.58154296875,
+					"y" : 274.91357421875,
+					"z" : 225.0,
+				},
+				"u8" : "\\xc0\\xbdvBbc\\xe8\\xc3\\x00\\x00\\xe1\\xc2\\xf8\\xe7B=\\xc4\\xb5\\x7f\\xbf\\x00\\x00\\x00\\x00\\xff{\\xa1A\\xcd\\xccL=\\xc0\\xbdvBbc\\xe8\\xc3\\x00\\x00\\xe1B\\xf8\\xe7B=\\xc4\\xb5\\x7f\\xbf\\x00\\x00\\x00\\x00\\xff{\\xa1A33s? \\x05\\xacB\\xe1\\x84\\n\\xc4\\x00\\x00\\xe1\\xc2P\"E\\xbf\\x82R#\\xbf\\x00\\x00\\x00\\x002r\\xa4A\\xcd\\xccL= \\x05\\xacB\\xe1\\x84\\n\\xc4\\x00\\x00\\xe1BP\"E\\xbf\\x82R#\\xbf\\x00\\x00\\x00\\x002r\\xa4A33s?0\\x89\\tC\\x1e\\x15\\x0b\\xc4\\x00\\x00\\xe1\\xc2)zC?@M%\\xbf\\x00\\x00\\x00\\x00\\xb3\\x18\\xa6A\\xcd\\xccL=0\\x89\\tC\\x1e\\x15\\x0b\\xc4\\x00\\x00\\xe1B)zC?@M%\\xbf\\x00\\x00\\x00\\x00\\xb3\\x18\\xa6A33s?\\xe0\\xde2C\\xd0!\\xde\\xc3\\x00\\x00\\xe1\\xc2X\\xf4K?\\x93\\xb8\\x1a\\xbf\\x00\\x00\\x00\\x003\\xeb\\xa9A\\xcd\\xccL=\\xe0\\xde2C\\xd0!\\xde\\xc3\\x00\\x00\\xe1BX\\xf4K?\\x93\\xb8\\x1a\\xbf\\x00\\x00\\x00\\x003\\xeb\\xa9A33s?\\xf0\\xc6KCP\\x81\\xea\\xc3\\x00\\x00\\xe1\\xc2\\xbe\\x98z\\xbf\\tGQ\\xbe\\x00\\x00\\x00\\x00\\xd2\\n\\xabA\\xcd\\xccL=\\xf0\\xc6KCP\\x81\\xea\\xc3\\x00\\x00\\xe1B\\xbe\\x98z\\xbf\\tGQ\\xbe\\x00\\x00\\x00\\x00\\xd2\\n\\xabA33s?PDlC`\\xcb3\\xc4\\x00\\x00\\xe1\\xc24\\xde}\\xbf\\xa0\\xe1\\x03\\xbe\\x00\\x00\\x00\\x00g\\x1d\\xb3A\\xcd\\xccL=PDlC`\\xcb3\\xc4\\x00\\x00\\xe1B4\\xde}\\xbf\\xa0\\xe1\\x03\\xbe\\x00\\x00\\x00\\x00g\\x1d\\xb3A33s?",
+				"u9" : "\\x00\\x00\\x02\\x00\\x03\\x00\\x01\\x00\\x00\\x00\\x03\\x00\\x02\\x00\\x04\\x00\\x05\\x00\\x03\\x00\\x02\\x00\\x05\\x00\\x04\\x00\\x06\\x00\\x07\\x00\\x05\\x00\\x04\\x00\\x07\\x00\\x06\\x00\\x08\\x00\\t\\x00\\x07\\x00\\x06\\x00\\t\\x00\\x08\\x00\\n\\x00\\x0b\\x00\\t\\x00\\x08\\x00\\x0b\\x00",
+			},
+
+			"u2sub-sub-sub-block " :  {
+
+				"u0" : 60,
+				"u1" : 20,
+
+				"u2sub-sub-sub-sub-block " :  {
+
+					"u0" : 7,
+					"u1" : 3,
+					"u2" : 32,
+					"u3" : 0,
+				},
+
+				"u3sub-sub-sub-sub-block " :  {
+
+					"u0" : 7,
+					"u1" : 3,
+					"u2" : 32,
+					"u3" : 12,
+				},
+
+				"u4sub-sub-sub-sub-block " :  {
+
+					"u0" : 7,
+					"u1" : 2,
+					"u2" : 32,
+					"u3" : 24,
+				},
+
+				"u5sub-sub-sub-sub-block " :  {
+
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 1.0,
+						"x" : 1.0,
+						"y" : 1.0,
+						"z" : 1.0,
+					},
+
+					"u1sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 1.0,
+						"x" : 1.0,
+						"y" : 1.0,
+						"z" : 1.0,
+					},
+
+					"u2sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 1.0,
+						"x" : 1.0,
+						"y" : 1.0,
+						"z" : 1.0,
+					},
+					"u3" : 0.0,
+
+					"u4sub-sub-sub-sub-sub-block " :  {
+
+						"u0" : "cavewalls",
+						"u1" : 1,
+						"u2" : 1,
+					},
+				},
+
+				"u3sub-sub-sub-sub-block " :  {
+
+					"u" : 92.32821655273438,
+					"v" : -788.7783203125,
+					"w" : 112.5,
+					"x" : 616.2119140625,
+					"y" : 1586.93896484375,
+					"z" : 0.0,
+				},
+				"u7" : "\\x081\\xcdCv\\xef\\xf8\\xc3\\x00\\x00\\xe1B\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xdd\\x0e\\t@\\xec\\xe8\\xbe\\xbf\\x18\\x1b\\xccC\\xc5\\xc3\\x11\\xc4\\x00\\x00\\xe1B\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\x8f\\x80\\x08@\\xb2\\x86\\xea\\xbf\\xf0\\xe0\\xd1Ck\\x9a\\x08\\xc4\\x00\\x00\\xe1B\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?7u\\x0b@j\\xc3\\xd7\\xbf\\xb1\\x8d\\xc2C\\x96K\\x83\\xc3\\x00\\x00\\xe1B\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\x84\\x9c\\x03@\\x87\\xe4\\x0c\\xbf\\x18\\x1b\\xccC\\xc5\\xc3\\x11\\xc4\\x00\\x00\\xe1B\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\x8f\\x80\\x08@\\xb2\\x86\\xea\\xbf\\x081\\xcdCv\\xef\\xf8\\xc3\\x00\\x00\\xe1B\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xdd\\x0e\\t@\\xec\\xe8\\xbe\\xbf\\xb1\\x8d\\xc2C\\x96K\\x83\\xc3\\x00\\x00\\xe1B\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\xff\\xff\\x7f?\\x84\\x9c\\x03@\\x87\\xe4\\x0c\\xbf\\x081\\xcdCv\\xef\\xf8\\xc3\\x00\\x00\\xe1B\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\xff\\xff\\x7f?\\xdd\\x0e\\t@\\xec\\xe8\\xbe\\xbfp\\xe8\\xd1C\\xfe\\xac\\xa8\\xc3\\x00\\x00\\xe1B\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\xff\\xff\\x7f?\\x0ey\\x0b@\\xacrY\\xbf\\xb1\\x8d\\xc2C\\x96K\\x83\\xc3\\x00\\x00\\xe1B\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\x84\\x9c\\x03@\\x87\\xe4\\x0c\\xbfp\\xe8\\xd1C\\xfe\\xac\\xa8\\xc3\\x00\\x00\\xe1B\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\x0ey\\x0b@\\xacrY\\xbf\\x98\\xd9\\xddCTk\\x9a\\xc3\\x00\\x00\\xe1B\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?R\\x96\\x11@)@<\\xbf\\xb1\\x8d\\xc2C\\x96K\\x83\\xc3\\x00\\x00\\xe1B\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\x84\\x9c\\x03@\\x87\\xe4\\x0c\\xbf\\xa83\\xbeC\\x80$-\\xc4\\x00\\x00\\xe1B\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?!b\\x01@JL\\x11\\xc0\\x18\\x1b\\xccC\\xc5\\xc3\\x11\\xc4\\x00\\x00\\xe1B\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\x8f\\x80\\x08@\\xb2\\x86\\xea\\xbf\\xd8\\xe3\\xbbCG\\x8aGD\\x00\\x00\\xe1B\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\x1f3\\x00@ATl@\\xa83\\xbeC\\x80$-\\xc4\\x00\\x00\\xe1B\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?!b\\x01@JL\\x11\\xc0\\xb1\\x8d\\xc2C\\x96K\\x83\\xc3\\x00\\x00\\xe1B\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\x84\\x9c\\x03@\\x87\\xe4\\x0c\\xbf\\xd8\\xe3\\xbbCG\\x8aGD\\x00\\x00\\xe1B\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\x1f3\\x00@ATl@\\xb1\\x8d\\xc2C\\x96K\\x83\\xc3\\x00\\x00\\xe1B\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\x84\\x9c\\x03@\\x87\\xe4\\x0c\\xbf\\x8a!\\xf3C~,\\xf2C\\x00\\x00\\xe1B\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xab{\\x1c@4\\xfe\\x1b@\\xd8\\xe3\\xbbCG\\x8aGD\\x00\\x00\\xe1B\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\x1f3\\x00@ATl@\\x8a!\\xf3C~,\\xf2C\\x00\\x00\\xe1B\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xab{\\x1c@4\\xfe\\x1b@\\xc5\\xba\\x10D{\\x0b(D\\x00\\x00\\xe1B\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xfd34@\\xf3\\x13L@\\xd8\\xe3\\xbbCG\\x8aGD\\x00\\x00\\xe1B\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\x1f3\\x00@ATl@\\xc5\\xba\\x10D{\\x0b(D\\x00\\x00\\xe1B\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xfd34@\\xf3\\x13L@\\x92\"1D\\xd9\\x8cAD\\x00\\x00\\xe1B\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xe3bU@\\x052f@\\xd8\\xe3\\xbbCG\\x8aGD\\x00\\x00\\xe1B\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\x1f3\\x00@ATl@\\x80\\xa3\\xbbC\\x82\\xd0(\\xc4\\x00\\x00\\xe1B\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?-\\x12\\x00@\\xb4\\xdd\\x0c\\xc0\\xa83\\xbeC\\x80$-\\xc4\\x00\\x00\\xe1B\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?!b\\x01@JL\\x11\\xc0\\x0c\\xa8\\xb8B\\x1a\\x18FD\\x00\\x00\\xe1B\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?J\\x8b^?1\\xd9j@0\\x89\\tC\\x1e\\x15\\x0b\\xc4\\x00\\x00\\xe1B\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\x1bk\\x86?H\\xd7\\xdc\\xbf\\xe0\\xde2C\\xd0!\\xde\\xc3\\x00\\x00\\xe1B\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xee\\x94\\x9b?\\x98v\\xa3\\xbf\\x0c\\xa8\\xb8B\\x1a\\x18FD\\x00\\x00\\xe1B\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?J\\x8b^?1\\xd9j@\\xe0\\xde2C\\xd0!\\xde\\xc3\\x00\\x00\\xe1B\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xee\\x94\\x9b?\\x98v\\xa3\\xbf\\xf0\\xc6KCP\\x81\\xea\\xc3\\x00\\x00\\xe1B\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?yU\\xa8?\\x1d\"\\xb0\\xbf\\x0c\\xa8\\xb8B\\x1a\\x18FD\\x00\\x00\\xe1B\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?J\\x8b^?1\\xd9j@\\xf0\\xc6KCP\\x81\\xea\\xc3\\x00\\x00\\xe1B\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?yU\\xa8?\\x1d\"\\xb0\\xbfPDlC`\\xcb3\\xc4\\x00\\x00\\xe1B\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xf8\\xf7\\xb8?\\x08\\x1c\\x18\\xc0\\x0c\\xa8\\xb8B\\x1a\\x18FD\\x00\\x00\\xe1B\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?J\\x8b^?1\\xd9j@PDlC`\\xcb3\\xc4\\x00\\x00\\xe1B\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xf8\\xf7\\xb8?\\x08\\x1c\\x18\\xc0\\x18\\xe1tC\\x10\\xd3<\\xc4\\x00\\x00\\xe1B\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xd1`\\xbd?3[!\\xc0\\x0c\\xa8\\xb8B\\x1a\\x18FD\\x00\\x00\\xe1B\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?J\\x8b^?1\\xd9j@\\x18\\xe1tC\\x10\\xd3<\\xc4\\x00\\x00\\xe1B\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xd1`\\xbd?3[!\\xc0X\\x1d\\x83C\\xd01E\\xc4\\x00\\x00\\xe1B\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xe9B\\xc6?`\\xed)\\xc0\\x0c\\xa8\\xb8B\\x1a\\x18FD\\x00\\x00\\xe1B\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?J\\x8b^?1\\xd9j@X\\x1d\\x83C\\xd01E\\xc4\\x00\\x00\\xe1B\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xe9B\\xc6?`\\xed)\\xc0\\xb4\\xc5\\x8bC\\xc2\\x11@\\xc4\\x00\\x00\\xe1B\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?w \\xcf?\\xd5\\xad$\\xc0\\x0c\\xa8\\xb8B\\x1a\\x18FD\\x00\\x00\\xe1B\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?J\\x8b^?1\\xd9j@\\xb4\\xc5\\x8bC\\xc2\\x11@\\xc4\\x00\\x00\\xe1B\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?w \\xcf?\\xd5\\xad$\\xc0Hp\\x94C\\x1c\\xb1A\\xc4\\x00\\x00\\xe1B\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?J\\x00\\xd8?\\\'W&\\xc0\\x0c\\xa8\\xb8B\\x1a\\x18FD\\x00\\x00\\xe1B\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\xff\\xff\\x7f?J\\x8b^?1\\xd9j@Hp\\x94C\\x1c\\xb1A\\xc4\\x00\\x00\\xe1B\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\xff\\xff\\x7f?J\\x00\\xd8?\\\'W&\\xc00%\\xa4CvB6\\xc4\\x00\\x00\\xe1B\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\xff\\xff\\x7f?\\xb2\\x15\\xe8?D\\xa2\\x1a\\xc0\\x0c\\xa8\\xb8B\\x1a\\x18FD\\x00\\x00\\xe1B\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?J\\x8b^?1\\xd9j@0%\\xa4CvB6\\xc4\\x00\\x00\\xe1B\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xb2\\x15\\xe8?D\\xa2\\x1a\\xc0x\\xb5\\xb1Cp\\x14D\\xc4\\x00\\x00\\xe1B\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?P\\xf9\\xf5?\\\'\\xc9(\\xc0\\x0c\\xa8\\xb8B\\x1a\\x18FD\\x00\\x00\\xe1B\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?J\\x8b^?1\\xd9j@x\\xb5\\xb1Cp\\x14D\\xc4\\x00\\x00\\xe1B\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?P\\xf9\\xf5?\\\'\\xc9(\\xc0\\xc0\\xbb\\xb1C4\\xe9,\\xc4\\x00\\x00\\xe1B\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xbe\\xff\\xf5?\\x91\\x0f\\x11\\xc0",
+			},
+
+			"u2sub-sub-sub-block " :  {
+
+				"u0" : 60,
+				"u1" : 20,
+
+				"u2sub-sub-sub-sub-block " :  {
+
+					"u0" : 7,
+					"u1" : 3,
+					"u2" : 32,
+					"u3" : 0,
+				},
+
+				"u3sub-sub-sub-sub-block " :  {
+
+					"u0" : 7,
+					"u1" : 3,
+					"u2" : 32,
+					"u3" : 12,
+				},
+
+				"u4sub-sub-sub-sub-block " :  {
+
+					"u0" : 7,
+					"u1" : 2,
+					"u2" : 32,
+					"u3" : 24,
+				},
+
+				"u5sub-sub-sub-sub-block " :  {
+
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 1.0,
+						"x" : 1.0,
+						"y" : 1.0,
+						"z" : 1.0,
+					},
+
+					"u1sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 1.0,
+						"x" : 1.0,
+						"y" : 1.0,
+						"z" : 1.0,
+					},
+
+					"u2sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 1.0,
+						"x" : 1.0,
+						"y" : 1.0,
+						"z" : 1.0,
+					},
+					"u3" : 0.0,
+
+					"u4sub-sub-sub-sub-sub-block " :  {
+
+						"u0" : "cavewalls",
+						"u1" : 1,
+						"u2" : 1,
+					},
+				},
+
+				"u3sub-sub-sub-sub-block " :  {
+
+					"u" : -708.5401611328125,
+					"v" : -798.16064453125,
+					"w" : 112.5,
+					"x" : 1084.3201904296875,
+					"y" : 1596.3212890625,
+					"z" : 0.0,
+				},
+				"u7" : "\\x0c\\xa8\\xb8B\\x1a\\x18FD\\x00\\x00\\xe1B\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?J\\x8b^?1\\xd9j@\\xc0\\xbb\\xb1C4\\xe9,\\xc4\\x00\\x00\\xe1B\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xbe\\xff\\xf5?\\x91\\x0f\\x11\\xc0\\x80\\xa3\\xbbC\\x82\\xd0(\\xc4\\x00\\x00\\xe1B\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?-\\x12\\x00@\\xb4\\xdd\\x0c\\xc0\\x0c\\xa8\\xb8B\\x1a\\x18FD\\x00\\x00\\xe1B\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\xff\\xff\\x7f?J\\x8b^?1\\xd9j@\\x80\\xa3\\xbbC\\x82\\xd0(\\xc4\\x00\\x00\\xe1B\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\xff\\xff\\x7f?-\\x12\\x00@\\xb4\\xdd\\x0c\\xc0\\xd8\\xe3\\xbbCG\\x8aGD\\x00\\x00\\xe1B\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\xff\\xff\\x7f?\\x1f3\\x00@ATl@PDlC`\\xcb3\\xc4\\x00\\x00\\xe1B\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xf8\\xf7\\xb8?\\x08\\x1c\\x18\\xc0`PjC\\xfe\\xa2C\\xc4\\x00\\x00\\xe1B\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\x00\\xf8\\xb7?\\xfcT(\\xc0\\x18\\xe1tC\\x10\\xd3<\\xc4\\x00\\x00\\xe1B\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xd1`\\xbd?3[!\\xc0\\x0c\\xa8\\xb8B\\x1a\\x18FD\\x00\\x00\\xe1B\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?J\\x8b^?1\\xd9j@ \\x05\\xacB\\xe1\\x84\\n\\xc4\\x00\\x00\\xe1B\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\x02\\x13X?\\xe1\\xaf\\xdb\\xbf0\\x89\\tC\\x1e\\x15\\x0b\\xc4\\x00\\x00\\xe1B\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\x1bk\\x86?H\\xd7\\xdc\\xbf\\xf80\\xb8\\xc3\\xf0ZAD\\x00\\x00\\xe1B\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?H9y\\xbf\\xe9\\xfee@\\x10\\xdcn\\xc3e>9\\xc4\\x00\\x00\\xe1B\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?;/\\xe9\\xbe\\x88\\xb0\\x1d\\xc00\\xba\\x02\\xc3\\xc8Z\\x1f\\xc4\\x00\\x00\\xe1B\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\x08\\xac\\xbb\\xbc\\xdb-\\x03\\xc0\\xf80\\xb8\\xc3\\xf0ZAD\\x00\\x00\\xe1B\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?H9y\\xbf\\xe9\\xfee@0\\xba\\x02\\xc3\\xc8Z\\x1f\\xc4\\x00\\x00\\xe1B\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\x08\\xac\\xbb\\xbc\\xdb-\\x03\\xc0`\\xdc\\xc7\\xc2\\xd1r\\x0c\\xc4\\x00\\x00\\xe1B\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xb8^\\xcd=w\\xa3\\xdf\\xbf\\xf80\\xb8\\xc3\\xf0ZAD\\x00\\x00\\xe1B\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?H9y\\xbf\\xe9\\xfee@`\\xdc\\xc7\\xc2\\xd1r\\x0c\\xc4\\x00\\x00\\xe1B\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xb8^\\xcd=w\\xa3\\xdf\\xbf\\x80\\x7f\\xfe\\xc1\\xc4\\xf9\\x14\\xc4\\x00\\x00\\xe1B\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?7\\xd9\\xbe>%\\x1a\\xf1\\xbf\\xf80\\xb8\\xc3\\xf0ZAD\\x00\\x00\\xe1B\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?H9y\\xbf\\xe9\\xfee@\\x80\\x7f\\xfe\\xc1\\xc4\\xf9\\x14\\xc4\\x00\\x00\\xe1B\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?7\\xd9\\xbe>%\\x1a\\xf1\\xbf\\x00\\xe4\\x98A\\xd8P\\x0b\\xc4\\x00\\x00\\xe1B\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xec\\x91\\x13?\\x9aQ\\xdd\\xbf\\xf80\\xb8\\xc3\\xf0ZAD\\x00\\x00\\xe1B\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?H9y\\xbf\\xe9\\xfee@\\x00\\xe4\\x98A\\xd8P\\x0b\\xc4\\x00\\x00\\xe1B\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xec\\x91\\x13?\\x9aQ\\xdd\\xbf\\xc0\\xbdvBbc\\xe8\\xc3\\x00\\x00\\xe1B\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?o*??-\\xf7\\xad\\xbf\\xc0\\xbdvBbc\\xe8\\xc3\\x00\\x00\\xe1B\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?o*??-\\xf7\\xad\\xbf \\x05\\xacB\\xe1\\x84\\n\\xc4\\x00\\x00\\xe1B\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\x02\\x13X?\\xe1\\xaf\\xdb\\xbf\\x0c\\xa8\\xb8B\\x1a\\x18FD\\x00\\x00\\xe1B\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?J\\x8b^?1\\xd9j@\\xf80\\xb8\\xc3\\xf0ZAD\\x00\\x00\\xe1B\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?H9y\\xbf\\xe9\\xfee@\\xc0\\xbdvBbc\\xe8\\xc3\\x00\\x00\\xe1B\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?o*??-\\xf7\\xad\\xbf\\x0c\\xa8\\xb8B\\x1a\\x18FD\\x00\\x00\\xe1B\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?J\\x8b^?1\\xd9j@\\x10\\xdcn\\xc3e>9\\xc4\\x00\\x00\\xe1B\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80\\x00\\x00\\x80?;/\\xe9\\xbe\\x88\\xb0\\x1d\\xc0@\\xf1\\xd0\\xc2\\xac|6\\xc4\\x00\\x00\\xe1B\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80\\x00\\x00\\x80?\\x08,\\xa8=\\xdf\\xdd\\x1a\\xc00\\xba\\x02\\xc3\\xc8Z\\x1f\\xc4\\x00\\x00\\xe1B\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80\\x00\\x00\\x80?\\x08\\xac\\xbb\\xbc\\xdb-\\x03\\xc0\\x10\\xdcn\\xc3e>9\\xc4\\x00\\x00\\xe1B\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\xff\\xff\\x7f?;/\\xe9\\xbe\\x88\\xb0\\x1d\\xc0\\xf80\\xb8\\xc3\\xf0ZAD\\x00\\x00\\xe1B\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\xff\\xff\\x7f?H9y\\xbf\\xe9\\xfee@\\xb4\\x84\\xba\\xc3,Z\\r\\xc3\\x00\\x00\\xe1B\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\xff\\xff\\x7f?X\\xfd}\\xbf\\x1f\\xf5\\x85\\xbd\\x10\\xdcn\\xc3e>9\\xc4\\x00\\x00\\xe1B\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?;/\\xe9\\xbe\\x88\\xb0\\x1d\\xc0\\xb4\\x84\\xba\\xc3,Z\\r\\xc3\\x00\\x00\\xe1B\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?X\\xfd}\\xbf\\x1f\\xf5\\x85\\xbd\\x92\"1\\xc4\\x9d\\xdb5\\xc4\\x00\\x00\\xe1B\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xe3b\\x15\\xc0\\xf38\\x1a\\xc0\\xf80\\xb8\\xc3\\xf0ZAD\\x00\\x00\\xe1B\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?H9y\\xbf\\xe9\\xfee@\\x16\\x99\\xba\\xc3\\xc0u>\\xc1\\x00\\x00\\xe1B\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\x17\\\'~\\xbf\\x02\\x9f\\xe7>\\xb4\\x84\\xba\\xc3,Z\\r\\xc3\\x00\\x00\\xe1B\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?X\\xfd}\\xbf\\x1f\\xf5\\x85\\xbd\\x80\\xe1OB\\xea$4\\xc4\\x00\\x00\\xe1B\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xae75?\\xb8w\\x18\\xc0\\x00XuB&\\xadA\\xc4\\x00\\x00\\xe1B\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xd9\\xce>?\\x19S&\\xc0@0\\xadBH\\x8aG\\xc4\\x00\\x00\\xe1B\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?)\\xacX?BT,\\xc0\\x80\\xe1OB\\xea$4\\xc4\\x00\\x00\\xe1B\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\xff\\xff\\x7f?\\xae75?\\xb8w\\x18\\xc0@0\\xadBH\\x8aG\\xc4\\x00\\x00\\xe1B\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\xff\\xff\\x7f?)\\xacX?BT,\\xc0\\xe4\\xeb\\x13C\\xf2\\x1e;\\xc4\\x00\\x00\\xe1B\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\xff\\xff\\x7f?\\\\\\xbc\\x8b?\\x9e\\x9c\\x1f\\xc0\\x80\\xe1OB\\xea$4\\xc4\\x00\\x00\\xe1B\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xae75?\\xb8w\\x18\\xc0\\xe4\\xeb\\x13C\\xf2\\x1e;\\xc4\\x00\\x00\\xe1B\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\\\\\xbc\\x8b?\\x9e\\x9c\\x1f\\xc0P\\x8a\\\'Cf{<\\xc4\\x00\\x00\\xe1B\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xd7\\xc7\\x95?o\\x01!\\xc0P\\x8a\\\'Cf{<\\xc4\\x00\\x00\\xe1B\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xd7\\xc7\\x95?o\\x01!\\xc0PU;C\\x8cQD\\xc4\\x00\\x00\\xe1B\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?%\\xea\\x9f?\\xba\\x07)\\xc0\\xb0\\xbcKC\\xdfG;\\xc4\\x00\\x00\\xe1B\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?9P\\xa8?\\x86\\xc6\\x1f\\xc0\\x80\\xe1OB\\xea$4\\xc4\\x00\\x00\\xe1B\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xae75?\\xb8w\\x18\\xc0P\\x8a\\\'Cf{<\\xc4\\x00\\x00\\xe1B\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xd7\\xc7\\x95?o\\x01!\\xc0\\xb0\\xbcKC\\xdfG;\\xc4\\x00\\x00\\xe1B\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?9P\\xa8?\\x86\\xc6\\x1f\\xc0",
+			},
+
+			"u2sub-sub-sub-block " :  {
+
+				"u0" : 24,
+				"u1" : 8,
+
+				"u2sub-sub-sub-sub-block " :  {
+
+					"u0" : 7,
+					"u1" : 3,
+					"u2" : 32,
+					"u3" : 0,
+				},
+
+				"u3sub-sub-sub-sub-block " :  {
+
+					"u0" : 7,
+					"u1" : 3,
+					"u2" : 32,
+					"u3" : 12,
+				},
+
+				"u4sub-sub-sub-sub-block " :  {
+
+					"u0" : 7,
+					"u1" : 2,
+					"u2" : 32,
+					"u3" : 24,
+				},
+
+				"u5sub-sub-sub-sub-block " :  {
+
+
+					"u0sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 1.0,
+						"x" : 1.0,
+						"y" : 1.0,
+						"z" : 1.0,
+					},
+
+					"u1sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 1.0,
+						"x" : 1.0,
+						"y" : 1.0,
+						"z" : 1.0,
+					},
+
+					"u2sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 1.0,
+						"x" : 1.0,
+						"y" : 1.0,
+						"z" : 1.0,
+					},
+					"u3" : 0.0,
+
+					"u4sub-sub-sub-sub-sub-block " :  {
+
+						"u0" : "cavewalls",
+						"u1" : 1,
+						"u2" : 1,
+					},
+				},
+
+				"u3sub-sub-sub-sub-block " :  {
+
+					"u" : 51.9033203125,
+					"v" : -782.5467529296875,
+					"w" : 112.5,
+					"x" : 458.857177734375,
+					"y" : 1266.894287109375,
+					"z" : 0.0,
+				},
+				"u7" : "\\xb0\\xbcKC\\xdfG;\\xc4\\x00\\x00\\xe1B\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?9P\\xa8?\\x86\\xc6\\x1f\\xc0p\\xe7YC\\x84\\x05@\\xc4\\x00\\x00\\xe1B\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\x1f\\x91\\xaf?L\\xa1$\\xc0`PjC\\xfe\\xa2C\\xc4\\x00\\x00\\xe1B\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\x00\\xf8\\xb7?\\xfcT(\\xc0\\xb0\\xbcKC\\xdfG;\\xc4\\x00\\x00\\xe1B\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?9P\\xa8?\\x86\\xc6\\x1f\\xc0`PjC\\xfe\\xa2C\\xc4\\x00\\x00\\xe1B\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\x00\\xf8\\xb7?\\xfcT(\\xc0PDlC`\\xcb3\\xc4\\x00\\x00\\xe1B\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xf8\\xf7\\xb8?\\x08\\x1c\\x18\\xc0\\x80\\xe1OB\\xea$4\\xc4\\x00\\x00\\xe1B\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xae75?\\xb8w\\x18\\xc0\\xb0\\xbcKC\\xdfG;\\xc4\\x00\\x00\\xe1B\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?9P\\xa8?\\x86\\xc6\\x1f\\xc0PDlC`\\xcb3\\xc4\\x00\\x00\\xe1B\\x00\\x00\\x00\\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xf8\\xf7\\xb8?\\x08\\x1c\\x18\\xc0\\x80\\xe1OB\\xea$4\\xc4\\x00\\x00\\xe1B\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\xff\\xff\\x7f?\\xae75?\\xb8w\\x18\\xc0\\x00\\x9dOB\\xaeg:\\xc4\\x00\\x00\\xe1B\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\xff\\xff\\x7f?%&5?\\xf4\\xe0\\x1e\\xc0\\x00XuB&\\xadA\\xc4\\x00\\x00\\xe1B\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\xff\\xff\\x7f?\\xd9\\xce>?\\x19S&\\xc0\\xf6\\xb7\\xf6Cp\\xa6/\\xc3\\x00\\x00\\xe1B\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xe6Q\\x1e@\\x87vO\\xbe\\x8a!\\xf3C~,\\xf2C\\x00\\x00\\xe1B\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xab{\\x1c@4\\xfe\\x1b@\\xb1\\x8d\\xc2C\\x96K\\x83\\xc3\\x00\\x00\\xe1B\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\x84\\x9c\\x03@\\x87\\xe4\\x0c\\xbf\\xf6\\xb7\\xf6Cp\\xa6/\\xc3\\x00\\x00\\xe1B\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80\\x00\\x00\\x80?\\xe6Q\\x1e@\\x87vO\\xbeXa\\xffC(6\\xe0B\\x00\\x00\\xe1B\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80\\x00\\x00\\x80?3\\xc1\"@\\xdb\\xcbr?\\x8a!\\xf3C~,\\xf2C\\x00\\x00\\xe1B\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80\\x00\\x00\\x80?\\xab{\\x1c@4\\xfe\\x1b@\\xa8\\x8d\\xe9C\\xf0\\x8e\\xf5\\xc3\\x00\\x00\\xe1B\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?N\\x94\\x17@\\xa6s\\xbb\\xbf\\xe8\\x0f\\xe5Cn\\xba\\xd2\\xc3\\x00\\x00\\xe1B\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\xa2G\\x15@%\\xc9\\x97\\xbfp\\xe8\\xd1C\\xfe\\xac\\xa8\\xc3\\x00\\x00\\xe1B\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x80?\\x0ey\\x0b@\\xacrY\\xbf\\xa8\\x8d\\xe9C\\xf0\\x8e\\xf5\\xc3\\x00\\x00\\xe1B\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\xff\\xff\\x7f?N\\x94\\x17@\\xa6s\\xbb\\xbfp\\xe8\\xd1C\\xfe\\xac\\xa8\\xc3\\x00\\x00\\xe1B\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\xff\\xff\\x7f?\\x0ey\\x0b@\\xacrY\\xbf\\x081\\xcdCv\\xef\\xf8\\xc3\\x00\\x00\\xe1B\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\xff\\xff\\x7f?\\xdd\\x0e\\t@\\xec\\xe8\\xbe\\xbf",
+			},
+
+			"u3sub-sub-sub-block " :  {
+
+				"w" : 1.0,
+				"x" : 1.0,
+				"y" : 1.0,
+				"z" : 1.0,
+			},
+		},
+	},
+
+	"componentsub-block " :  {
+
+		"component type" : "GroundMeshGenerator",
+		"number" : 102,
+
+		"ground mesh generatorsub-sub-block " :  {
+
+			"ground polygon" : 100,
+			"ground mesh" : 101,
+			"texture mapping 1" : 103,
+			"texture mapping 2" : 104,
+			"u4" : 0,
+			"u5" : 0.0,
+			"u6" : 1,
+			"u7" : 225.0,
+			"u8" : 25.0,
+			"u9" : 5.0,
+			"u10" : 5.0,
+		},
+	},
+
+	"componentsub-block " :  {
+
+		"component type" : "TextureMapping",
+		"number" : 103,
+
+		"texture mappingsub-sub-block " :  {
+
+			"texture file" : "cavewalls",
+			"u0" : 250.0,
+
+			"u0sub-sub-sub-block " :  {
+
+				"u1" : 0.0,
+				"u2" : 0.0,
+			},
+		},
+	},
+
+	"componentsub-block " :  {
+
+		"component type" : "TextureMapping",
+		"number" : 104,
+
+		"texture mappingsub-sub-block " :  {
+
+			"texture file" : "brown128",
+			"u0" : 250.0,
+
+			"u0sub-sub-sub-block " :  {
+
+				"u1" : 0.0,
+				"u2" : 0.0,
+			},
+		},
+	},
+
+	"componentsub-block " :  {
+
+		"component type" : "CollisionShape",
+		"number" : 105,
+		"? linked component" : 100,
+
+		"collision shapesub-sub-block " :  {
+
+
+			"u2sub-sub-sub-block " :  {
+
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"y" : -373.0367431640625,
+					"z" : -141.35223388671875,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"y" : -708.5401611328125,
+					"z" : -727.4314575195312,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"y" : -238.859619140625,
+					"z" : -740.9749145507812,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"y" : -104.47119140625,
+					"z" : -729.947998046875,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"y" : -130.727294921875,
+					"z" : -637.41845703125,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"y" : -99.930419921875,
+					"z" : -561.7940063476562,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"y" : -31.812255859375,
+					"z" : -595.902587890625,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"y" : 19.111328125,
+					"z" : -557.26318359375,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"y" : 61.685302734375,
+					"z" : -464.77642822265625,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"y" : 86.010009765625,
+					"z" : -554.0762329101562,
+				},
+				"u3" : 0,
+				"u4" : 0,
+			},
+		},
+
+		"collision shape 2sub-sub-block " :  {
+
+			"u0" : 1,
+			"w" : -117.5,
+			"x" : 117.5,
+			"z" : 1,
+		},
+	},
+
+	"componentsub-block " :  {
+
+		"component type" : "CollisionShape",
+		"number" : 106,
+		"? linked component" : 100,
+
+		"collision shapesub-sub-block " :  {
+
+
+			"u2sub-sub-sub-block " :  {
+
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"y" : 19.111328125,
+					"z" : -557.26318359375,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"y" : 61.685302734375,
+					"z" : -464.77642822265625,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"y" : 86.010009765625,
+					"z" : -554.0762329101562,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"y" : 137.535888671875,
+					"z" : -556.3299560546875,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"y" : 178.87060546875,
+					"z" : -444.26416015625,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"y" : 203.777099609375,
+					"z" : -469.01025390625,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"y" : 236.266845703125,
+					"z" : -719.177734375,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"y" : 51.97021484375,
+					"z" : -720.5767822265625,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"y" : 51.9033203125,
+					"z" : -745.6199951171875,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"y" : 61.3359375,
+					"z" : -774.7054443359375,
+				},
+				"u3" : 0,
+				"u4" : 0,
+			},
+		},
+
+		"collision shape 2sub-sub-block " :  {
+
+			"u0" : 1,
+			"w" : -117.5,
+			"x" : 117.5,
+			"z" : 1,
+		},
+	},
+
+	"componentsub-block " :  {
+
+		"component type" : "CollisionShape",
+		"number" : 107,
+		"? linked component" : 100,
+
+		"collision shapesub-sub-block " :  {
+
+
+			"u2sub-sub-sub-block " :  {
+
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"y" : 51.97021484375,
+					"z" : -720.5767822265625,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"y" : 51.9033203125,
+					"z" : -745.6199951171875,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"y" : 61.3359375,
+					"z" : -774.7054443359375,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"y" : 86.59423828125,
+					"z" : -798.16064453125,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"y" : 147.92144775390625,
+					"z" : -748.4835205078125,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"y" : 167.540283203125,
+					"z" : -753.9281005859375,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"y" : 187.333251953125,
+					"z" : -785.274169921875,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"y" : 203.737060546875,
+					"z" : -749.1229858398438,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"y" : 217.904052734375,
+					"z" : -768.086181640625,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"y" : 234.31396484375,
+					"z" : -782.5467529296875,
+				},
+				"u3" : 0,
+				"u4" : 0,
+			},
+		},
+
+		"collision shape 2sub-sub-block " :  {
+
+			"u0" : 1,
+			"w" : -117.5,
+			"x" : 117.5,
+			"z" : 1,
+		},
+	},
+
+	"componentsub-block " :  {
+
+		"component type" : "CollisionShape",
+		"number" : 108,
+		"? linked component" : 100,
+
+		"collision shapesub-sub-block " :  {
+
+
+			"u2sub-sub-sub-block " :  {
+
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"y" : 203.737060546875,
+					"z" : -749.1229858398438,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"y" : 217.904052734375,
+					"z" : -768.086181640625,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"y" : 234.31396484375,
+					"z" : -782.5467529296875,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"y" : 244.8792724609375,
+					"z" : -755.2978515625,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"y" : 262.229248046875,
+					"z" : -788.7783203125,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"y" : 279.5445556640625,
+					"z" : -768.2774658203125,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"y" : 296.877197265625,
+					"z" : -774.767333984375,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"y" : 328.29052734375,
+					"z" : -729.0384521484375,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"y" : 355.417724609375,
+					"z" : -784.3193359375,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"y" : 355.466796875,
+					"z" : -691.643798828125,
+				},
+				"u3" : 0,
+				"u4" : 0,
+			},
+		},
+
+		"collision shape 2sub-sub-block " :  {
+
+			"u0" : 1,
+			"w" : -117.5,
+			"x" : 117.5,
+			"z" : 1,
+		},
+	},
+
+	"componentsub-block " :  {
+
+		"component type" : "CollisionShape",
+		"number" : 109,
+		"? linked component" : 100,
+
+		"collision shapesub-sub-block " :  {
+
+
+			"u2sub-sub-sub-block " :  {
+
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"y" : 328.29052734375,
+					"z" : -729.0384521484375,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"y" : 355.417724609375,
+					"z" : -784.3193359375,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"y" : 355.466796875,
+					"z" : -691.643798828125,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"y" : 375.27734375,
+					"z" : -675.2579345703125,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"y" : 380.403564453125,
+					"z" : -692.5703125,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"y" : 408.211669921875,
+					"z" : -583.0588989257812,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"y" : 419.75732421875,
+					"z" : -546.4127807617188,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"y" : 410.383056640625,
+					"z" : -497.87078857421875,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"y" : 467.106689453125,
+					"z" : -491.11669921875,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"y" : 458.124267578125,
+					"z" : -421.45648193359375,
+				},
+				"u3" : 0,
+				"u4" : 0,
+			},
+		},
+
+		"collision shape 2sub-sub-block " :  {
+
+			"u0" : 1,
+			"w" : -117.5,
+			"x" : 117.5,
+			"z" : 1,
+		},
+	},
+
+	"componentsub-block " :  {
+
+		"component type" : "CollisionShape",
+		"number" : 110,
+		"? linked component" : 100,
+
+		"collision shapesub-sub-block " :  {
+
+
+			"u2sub-sub-sub-block " :  {
+
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"y" : 410.383056640625,
+					"z" : -497.87078857421875,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"y" : 467.106689453125,
+					"z" : -491.11669921875,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"y" : 458.124267578125,
+					"z" : -421.45648193359375,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"y" : 419.81591796875,
+					"z" : -337.35150146484375,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"y" : 443.699951171875,
+					"z" : -308.8385009765625,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"y" : 389.1069641113281,
+					"z" : -262.59051513671875,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"y" : 493.43719482421875,
+					"z" : -175.650146484375,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"y" : 510.760498046875,
+					"z" : 112.10577392578125,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"y" : 486.26202392578125,
+					"z" : 484.34759521484375,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"y" : 578.9182739257812,
+					"z" : 672.1793823242188,
+				},
+				"u3" : 0,
+				"u4" : 0,
+			},
+		},
+
+		"collision shape 2sub-sub-block " :  {
+
+			"u0" : 1,
+			"w" : -117.5,
+			"x" : 117.5,
+			"z" : 1,
+		},
+	},
+
+	"componentsub-block " :  {
+
+		"component type" : "CollisionShape",
+		"number" : 111,
+		"? linked component" : 100,
+
+		"collision shapesub-sub-block " :  {
+
+
+			"u2sub-sub-sub-block " :  {
+
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"y" : 510.760498046875,
+					"z" : 112.10577392578125,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"y" : 486.26202392578125,
+					"z" : 484.34759521484375,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"y" : 578.9182739257812,
+					"z" : 672.1793823242188,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"y" : 708.5401611328125,
+					"z" : 774.2007446289062,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"y" : 375.780029296875,
+					"z" : 798.1605834960938,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"y" : 92.32821655273438,
+					"z" : 792.3765869140625,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"y" : -368.382568359375,
+					"z" : 773.4208984375,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"y" : -373.19598388671875,
+					"z" : -11.90374755859375,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"y" : -373.0367431640625,
+					"z" : -141.35223388671875,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"y" : -708.5401611328125,
+					"z" : -727.4314575195312,
+				},
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"y" : -238.859619140625,
+					"z" : -740.9749145507812,
+				},
+				"u3" : 0,
+				"u4" : 0,
+			},
+		},
+
+		"collision shape 2sub-sub-block " :  {
+
+			"u0" : 1,
+			"w" : -117.5,
+			"x" : 117.5,
+			"z" : 1,
+		},
+	},
+
+	"positionsub-block " :  {
+
+		"x position" : -2854.06396484375,
+		"y position" : -427.88330078125,
+	},
+	"z position" : 0.0,
+	"rotation" : 0.0,
+	"scale" : 1.0,
+
+	"u2sub-block " :  {
+
+		"w" : -708.5401611328125,
+		"x" : -798.16064453125,
+		"y" : 1417.080322265625,
+		"z" : 1596.3212890625,
+	},
+	"hidden" : 0,
+},
+
+"objectblock " :  {
+
+	"name" : "point_150_15",
+	"identifier" : "obj6",
+
+	"positionsub-block " :  {
+
+		"x position" : -2656.366943359375,
+		"y position" : -1725.9862060546875,
+	},
+	"z position" : 0.0,
+	"rotation" : 0.0,
+	"scale" : 1.0,
+
+	"u2sub-block " :  {
+
+		"w" : -30.0,
+		"x" : -30.0,
+		"y" : 60.0,
+		"z" : 60.0,
+	},
+	"hidden" : 0,
+},
+
+"objectblock " :  {
+
+	"name" : "point_150_15",
+	"identifier" : "obj6#2",
+
+	"positionsub-block " :  {
+
+		"x position" : -2926.346923828125,
+		"y position" : -1841.2242431640625,
+	},
+	"z position" : 0.0,
+	"rotation" : 0.0,
+	"scale" : 1.0,
+
+	"u2sub-block " :  {
+
+		"w" : -30.0,
+		"x" : -30.0,
+		"y" : 60.0,
+		"z" : 60.0,
+	},
+	"hidden" : 0,
+},
+
+"objectblock " :  {
+
+	"name" : "point_150_15",
+	"identifier" : "obj6#3",
+
+	"positionsub-block " :  {
+
+		"x position" : -3063.4794921875,
+		"y position" : -1743.0919189453125,
+	},
+	"z position" : 0.0,
+	"rotation" : 0.0,
+	"scale" : 1.0,
+
+	"u2sub-block " :  {
+
+		"w" : -30.0,
+		"x" : -30.0,
+		"y" : 60.0,
+		"z" : 60.0,
+	},
+	"hidden" : 0,
+},
+
+"objectblock " :  {
+
+	"name" : "point_150_15",
+	"identifier" : "obj6#4",
+
+	"positionsub-block " :  {
+
+		"x position" : -2452.5009765625,
+		"y position" : -1848.5550537109375,
+	},
+	"z position" : 0.0,
+	"rotation" : 0.0,
+	"scale" : 1.0,
+
+	"u2sub-block " :  {
+
+		"w" : -30.0,
+		"x" : -30.0,
+		"y" : 60.0,
+		"z" : 60.0,
+	},
+	"hidden" : 0,
+},
+
+"objectblock " :  {
+
+	"name" : "chest_left",
+	"identifier" : "obj7",
+
+	"componentsub-block " :  {
+
+		"component type" : "ItemDrop",
+		"number" : 112,
+
+		"item dropsub-sub-block " :  {
+
+			"name" : "sshard_yellow",
+			"identifier" : "wlches1ss",
+
+			"itemsub-sub-sub-block " :  {
+
+				"item type" : "sshard_yellow",
+				"identifier" : "wlches1ss",
+				"u0" : 1.0,
+				"u1" : 1,
+				"u2" : 1,
+			},
+			"u0" : 1,
+			"u1" : 0,
+		},
+	},
+
+	"positionsub-block " :  {
+
+		"x position" : -2692.802490234375,
+		"y position" : -1121.0396728515625,
+	},
+	"z position" : 0.0,
+	"rotation" : 0.0,
+	"scale" : 1.0,
+
+	"u2sub-block " :  {
+
+		"w" : -80.0,
+		"x" : -49.7855224609375,
+		"y" : 115.00291442871094,
+		"z" : 73.7855224609375,
+	},
+	"hidden" : 0,
+},
+
+"objectblock " :  {
+
+	"identifier" : "spawn_default",
+
+	"componentsub-block " :  {
+
+		"component type" : "SpawnPoint",
+		"number" : 101,
+
+		"spawnpointsub-sub-block " :  {
+
+			"u0" : 1,
+
+			"u1sub-sub-sub-block " :  {
+
+				"x" : 0.0,
+				"y" : 0.0,
+				"z" : 0.0,
+			},
+		},
+	},
+
+	"positionsub-block " :  {
+
+		"x position" : -3041.2626953125,
+		"y position" : -1288.4521484375,
+	},
+	"z position" : -1.1977767944335938,
+	"rotation" : 0.0,
+	"scale" : 1.0,
+
+	"u2sub-block " :  {
+
+		"w" : -30.0,
+		"x" : -30.0,
+		"y" : 60.0,
+		"z" : 60.0,
+	},
+	"hidden" : 0,
+},
+
+"objectblock " :  {
+
+	"identifier" : "spawn_from_wasteland_house1",
+
+	"componentsub-block " :  {
+
+		"component type" : "SpawnPoint",
+		"number" : 101,
+
+		"spawnpointsub-sub-block " :  {
+
+			"u0" : 1,
+
+			"u1sub-sub-sub-block " :  {
+
+				"x" : 0.0,
+				"y" : 0.0,
+				"z" : 0.0,
+			},
+		},
+	},
+
+	"positionsub-block " :  {
+
+		"x position" : -3045.032470703125,
+		"y position" : -1797.28955078125,
+	},
+	"z position" : -1.1977767944335938,
+	"rotation" : 0.0,
+	"scale" : 1.0,
+
+	"u2sub-block " :  {
+
+		"w" : -30.0,
+		"x" : -30.0,
+		"y" : 60.0,
+		"z" : 60.0,
+	},
+	"hidden" : 0,
+},
+
+"objectblock " :  {
+
+	"identifier" : "spawn_from_wasteland_part1",
+
+	"componentsub-block " :  {
+
+		"component type" : "SpawnPoint",
+		"number" : 101,
+
+		"spawnpointsub-sub-block " :  {
+
+			"u0" : 1,
+
+			"u1sub-sub-sub-block " :  {
+
+				"x" : 0.0,
+				"y" : 0.0,
+				"z" : 0.0,
+			},
+		},
+	},
+
+	"positionsub-block " :  {
+
+		"x position" : -3042.18896484375,
+		"y position" : -1294.673583984375,
+	},
+	"z position" : -1.1977767944335938,
+	"rotation" : 0.0,
+	"scale" : 1.0,
+
+	"u2sub-block " :  {
+
+		"w" : -30.0,
+		"x" : -30.0,
+		"y" : 60.0,
+		"z" : 60.0,
+	},
+	"hidden" : 0,
+},
+
+"dependenciesblock " :  {
+
+	"name" : "wasteland_cave1",
+
+	"u0sub-block " :  {
+
+
+		"u0sub-sub-block " :  {
+
+			"name" : "Template 1",
+
+			"u0sub-sub-sub-block " :  {
+
+				"y" : 0.0,
+				"z" : 0.0,
+			},
+			"u1" : 0.0,
+			"u2" : 0.0,
+			"u3" : 1.0,
+
+			"u1sub-sub-sub-block " :  {
+
+				"w" : -10.0,
+				"x" : -10.0,
+				"y" : 20.0,
+				"z" : 20.0,
+			},
+			"u5" : 0,
+		},
+		"u1" : 1.0,
+	},
+	"scl file" : "caves_stuff",
+	"scl file" : "collectibles",
+	"scl file" : "game_common",
+	"scl file" : "hiro",
+	"scl file" : "lights",
+	"scl file" : "monsters",
+	"scl file" : "plains_stuff",
+	"scl file" : "rocks",
+	"scl file" : "scriptarea",
+	"scl file" : "traps_stuffs",
+	"scl file" : "trash",
+	"scl file" : "ui_game",
+	"scl file" : "weapons",
+	"scl file" : "woodkeep_stuff",
+},
+
+"u0block " :  {
+
+	"w" : -3100.0,
+	"x" : -2000.0,
+	"y" : 4600.0,
+	"z" : 3000.0,
+},
+
+"lua chunkblock " :  {
+
+	"main chunk" : "chunk >
+
+	=== lua =============
+	MusicPlayer.PlayMusic(Game.DefaultMusicName(),false);
+
+	=====================",
+	"secondary chunk" : "\\x1bLuaQ\\x00\\x01\\x04\\x04\\x04\\x08\\x006\\x00\\x00\\x00MusicPlayer.PlayMusic(Game.DefaultMusicName(),false);\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x02\\x03\\x08\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x06@@\\x00E\\x80\\x00\\x00F\\xc0\\xc0\\x00\\\\\\x80\\x80\\x00\\x82\\x00\\x00\\x00\\x1c@\\x80\\x01\\x1e\\x00\\x80\\x00\\x04\\x00\\x00\\x00\\x04\\x0c\\x00\\x00\\x00MusicPlayer\\x00\\x04\\n\\x00\\x00\\x00PlayMusic\\x00\\x04\\x05\\x00\\x00\\x00Game\\x00\\x04\\x11\\x00\\x00\\x00DefaultMusicName\\x00\\x00\\x00\\x00\\x00\\x08\\x00\\x00\\x00\\x01\\x00\\x00\\x00\\x01\\x00\\x00\\x00\\x01\\x00\\x00\\x00\\x01\\x00\\x00\\x00\\x01\\x00\\x00\\x00\\x01\\x00\\x00\\x00\\x01\\x00\\x00\\x00\\x01\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00",
+},
+
+}

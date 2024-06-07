@@ -1,0 +1,4000 @@
+scl file name : playground (0a @ 1)
+
+?item block { (12 @ d)
+
+
+    ?sub-item sub-block { (0a @ 10)
+
+        name : bandit (12 @ 13)
+
+        component sub-sub-block { (1a @ 1b)
+
+            component type : Program (0a @ 1e)
+            number : 1(10 @ 27)
+
+            program sub-sub-sub-block { (4ea @ 2a)
+
+                u0 : 1(08 @ 2d)
+
+                lua chunk sub-sub-sub-sub-block { (12 @ 2f)
+
+                    main chunk : chunk >
+
+                    === lua =============
+                    local self = ...;
+                    
+                    local target = EntityController.Target(self);
+                    while true do
+                    	Program.Wait(3);
+                    	if EntityController.IsIdle(self) then
+                    		EntityController.PerformAction(self, 126);
+                    	end
+                    end
+
+                    =====================
+                    secondary chunk : \x1bLuaQ\x00\x01\x04\x04\x04\x08\x00\xc6\x00\x00\x00local self = ...;\r\n\r\nlocal target = EntityController.Target(self);\r\nwhile true do\r\n\tProgram.Wait(3);\r\n\tif EntityController.IsIdle(self) then\r\n\t\tEntityController.PerformAction(self, 126);\r\n\tend\r\nend\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x02\x05\x16\x00\x00\x00%\x00\x00\x01E\x00\x00\x00F@\xc0\x00\x80\x00\x00\x00\\\x80\x00\x01\x85\x80\x00\x00\x86\xc0@\x01\xc1\x00\x01\x00\x9c@\x00\x01\x85\x00\x00\x00\x86@A\x01\xc0\x00\x00\x00\x9c\x80\x00\x01\x9a\x00\x00\x00\x16@\xfd\x7f\x85\x00\x00\x00\x86\x80A\x01\xc0\x00\x00\x00\x01\xc1\x01\x00\x9c@\x80\x01\x16\xc0\xfb\x7f\x1e\x00\x80\x00\x08\x00\x00\x00\x04\x11\x00\x00\x00EntityController\x00\x04\x07\x00\x00\x00Target\x00\x04\x08\x00\x00\x00Program\x00\x04\x05\x00\x00\x00Wait\x00\x03\x00\x00\x00\x00\x00\x00\x08@\x04\x07\x00\x00\x00IsIdle\x00\x04\x0e\x00\x00\x00PerformAction\x00\x03\x00\x00\x00\x00\x00\x80_@\x00\x00\x00\x00\x16\x00\x00\x00\x01\x00\x00\x00\x03\x00\x00\x00\x03\x00\x00\x00\x03\x00\x00\x00\x03\x00\x00\x00\x05\x00\x00\x00\x05\x00\x00\x00\x05\x00\x00\x00\x05\x00\x00\x00\x06\x00\x00\x00\x06\x00\x00\x00\x06\x00\x00\x00\x06\x00\x00\x00\x06\x00\x00\x00\x06\x00\x00\x00\x07\x00\x00\x00\x07\x00\x00\x00\x07\x00\x00\x00\x07\x00\x00\x00\x07\x00\x00\x00\x08\x00\x00\x00\t\x00\x00\x00\x02\x00\x00\x00\x05\x00\x00\x00self\x00\x01\x00\x00\x00\x15\x00\x00\x00\x07\x00\x00\x00target\x00\x05\x00\x00\x00\x15\x00\x00\x00\x00\x00\x00\x00 (12 @ fa)
+				}
+                u1 : 1(18 @ 335)
+                u2 : 1(20 @ 337)
+			}
+		}
+
+        component sub-sub-block { (1a @ 339)
+
+            component type : EntityInfo (0a @ 33b)
+            number : 2(10 @ 347)
+
+            entity info sub-sub-sub-block { (522 @ 34a)
+
+                name : Bandit (0a @ 34c)
+			}
+		}
+
+        component sub-sub-block { (1a @ 354)
+
+            component type : Model (0a @ 356)
+            number : 101(10 @ 35d)
+
+            3D model sub-sub-sub-block { (32a @ 360)
+
+                name : varibandit_brown (0a @ 362)
+                u0 : 1.5707963705062866 (15 @ 374)
+                u1 : 0.5 (1d @ 379)
+                u2 : 0.0 (25 @ 37e)
+
+                u3 sub-sub-sub-sub-block { (2a @ 383)
+
+                    w : 1.0 (0d @ 385)
+                    x : 1.0 (15 @ 38a)
+                    y : 1.0 (1d @ 38f)
+                    z : 1.0 (25 @ 394)
+				}
+
+                u4 sub-sub-sub-sub-block { (32 @ 399)
+
+                    x : 0.0 (0d @ 39b)
+                    y : 0.0 (15 @ 3a0)
+                    z : 0.0 (1d @ 3a5)
+				}
+                u5 : 0(38 @ 3aa)
+
+                u6 sub-sub-sub-sub-block { (42 @ 3ac)
+
+                    w : 1.0 (0d @ 3ae)
+                    x : 1.0 (15 @ 3b3)
+                    y : 1.0 (1d @ 3b8)
+                    z : 1.0 (25 @ 3bd)
+				}
+			}
+		}
+
+        component sub-sub-block { (1a @ 3c2)
+
+            component type : MonsterEntity (0a @ 3c5)
+            number : 103(10 @ 3d4)
+
+            entity sub-sub-sub-block { (4c2 @ 3d7)
+
+                u0 : 1(08 @ 3d9)
+                u1 : 1(10 @ 3db)
+			}
+
+            ?monster entity sub-sub-sub-block { (4f2 @ 3de)
+
+                u0 :  (0a @ 3e1)
+
+                lua chunk sub-sub-sub-sub-block { (12 @ 3e3)
+
+                    main chunk : chunk >
+
+                    === lua =============
+                    local self = ...;
+                    
+                    local target = EntityController.Target(self);
+                    
+                    if target ~= nil then 
+                    	local targetDirection = 1;
+                    	if (target:position() - self:position()):x() < 0 then targetDirection = -1; end
+                    
+                    	EntityController.SetFacingDirection(self, targetDirection, 0.2);
+                    	EntityController.SetMoveDirection(self, targetDirection, 0.7);
+                    
+                    	Program.Wait(0.8);
+                    	if EntityController.IsIdle(self) then
+                    		EntityController.PerformAction(self, 126);
+                    	end
+                    end
+
+                    =====================
+                    secondary chunk : \x1bLuaQ\x00\x01\x04\x04\x04\x08\x00\xca\x01\x00\x00local self = ...;\r\n\r\nlocal target = EntityController.Target(self);\r\n\r\nif target ~= nil then \r\n\tlocal targetDirection = 1;\r\n\tif (target:position() - self:position()):x() < 0 then targetDirection = -1; end\r\n\r\n\tEntityController.SetFacingDirection(self, targetDirection, 0.2);\r\n\tEntityController.SetMoveDirection(self, targetDirection, 0.7);\r\n\r\n\tProgram.Wait(0.8);\r\n\tif EntityController.IsIdle(self) then\r\n\t\tEntityController.PerformAction(self, 126);\r\n\tend\r\nend\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x02\x07.\x00\x00\x00%\x00\x00\x01E\x00\x00\x00F@\xc0\x00\x80\x00\x00\x00\\\x80\x00\x01W\x80\xc0\x00\x16@\t\x80\x81\xc0\x00\x00\xcb\x00\xc1\x00\xdc\x80\x00\x01\x0b\x01A\x00\x1c\x81\x00\x01\xcd\x00\x81\x01\xcb@\xc1\x01\xdc\x80\x00\x01\x18\x80\xc1\x01\x16\x00\x00\x80\x81\xc0\x01\x00\xc5\x00\x00\x00\xc6\x00\xc2\x01\x00\x01\x00\x00@\x01\x00\x01\x81A\x02\x00\xdc@\x00\x02\xc5\x00\x00\x00\xc6\x80\xc2\x01\x00\x01\x00\x00@\x01\x00\x01\x81\xc1\x02\x00\xdc@\x00\x02\xc5\x00\x03\x00\xc6@\xc3\x01\x01\x81\x03\x00\xdc@\x00\x01\xc5\x00\x00\x00\xc6\xc0\xc3\x01\x00\x01\x00\x00\xdc\x80\x00\x01\xda\x00\x00\x00\x16\x00\x01\x80\xc5\x00\x00\x00\xc6\x00\xc4\x01\x00\x01\x00\x00AA\x04\x00\xdc@\x80\x01\x1e\x00\x80\x00\x12\x00\x00\x00\x04\x11\x00\x00\x00EntityController\x00\x04\x07\x00\x00\x00Target\x00\x00\x03\x00\x00\x00\x00\x00\x00\xf0?\x04\t\x00\x00\x00position\x00\x04\x02\x00\x00\x00x\x00\x03\x00\x00\x00\x00\x00\x00\x00\x00\x03\x00\x00\x00\x00\x00\x00\xf0\xbf\x04\x13\x00\x00\x00SetFacingDirection\x00\x03\x9a\x99\x99\x99\x99\x99\xc9?\x04\x11\x00\x00\x00SetMoveDirection\x00\x03ffffff\xe6?\x04\x08\x00\x00\x00Program\x00\x04\x05\x00\x00\x00Wait\x00\x03\x9a\x99\x99\x99\x99\x99\xe9?\x04\x07\x00\x00\x00IsIdle\x00\x04\x0e\x00\x00\x00PerformAction\x00\x03\x00\x00\x00\x00\x00\x80_@\x00\x00\x00\x00.\x00\x00\x00\x01\x00\x00\x00\x03\x00\x00\x00\x03\x00\x00\x00\x03\x00\x00\x00\x03\x00\x00\x00\x05\x00\x00\x00\x05\x00\x00\x00\x06\x00\x00\x00\x07\x00\x00\x00\x07\x00\x00\x00\x07\x00\x00\x00\x07\x00\x00\x00\x07\x00\x00\x00\x07\x00\x00\x00\x07\x00\x00\x00\x07\x00\x00\x00\x07\x00\x00\x00\x07\x00\x00\x00\t\x00\x00\x00\t\x00\x00\x00\t\x00\x00\x00\t\x00\x00\x00\t\x00\x00\x00\t\x00\x00\x00\n\x00\x00\x00\n\x00\x00\x00\n\x00\x00\x00\n\x00\x00\x00\n\x00\x00\x00\n\x00\x00\x00\x0c\x00\x00\x00\x0c\x00\x00\x00\x0c\x00\x00\x00\x0c\x00\x00\x00\r\x00\x00\x00\r\x00\x00\x00\r\x00\x00\x00\r\x00\x00\x00\r\x00\x00\x00\r\x00\x00\x00\x0e\x00\x00\x00\x0e\x00\x00\x00\x0e\x00\x00\x00\x0e\x00\x00\x00\x0e\x00\x00\x00\x10\x00\x00\x00\x03\x00\x00\x00\x05\x00\x00\x00self\x00\x01\x00\x00\x00-\x00\x00\x00\x07\x00\x00\x00target\x00\x05\x00\x00\x00-\x00\x00\x00\x10\x00\x00\x00targetDirection\x00\x08\x00\x00\x00-\x00\x00\x00\x00\x00\x00\x00 (12 @ 5b2)
+				}
+                u2 : 1(18 @ a3e)
+                u3 : 1(20 @ a40)
+			}
+		}
+
+        component sub-sub-block { (1a @ a42)
+
+            component type : EntityController (0a @ a44)
+            number : 104(10 @ a56)
+
+            entity controller sub-sub-sub-block { (50a @ a59)
+
+                entity component : 103(08 @ a5b)
+                animation controller component : 105(10 @ a5d)
+                u2 : 112(18 @ a5f)
+                collision shape : 117(20 @ a61)
+                u4 : 100.0 (2d @ a63)
+                u5 : 1000.0 (35 @ a68)
+                u6 : 300.0 (3d @ a6d)
+                u7 : 4(40 @ a72)
+			}
+		}
+
+        component sub-sub-block { (1a @ a74)
+
+            component type : AnimationController (0a @ a76)
+            number : 105(10 @ a8b)
+
+            animation controller sub-sub-sub-block { (4aa @ a8e)
+
+                model component : 101(08 @ a90)
+                u1 : 0(10 @ a92)
+                u2 : 0(18 @ a94)
+			}
+		}
+
+        component sub-sub-block { (1a @ a96)
+
+            component type : CollisionShape (0a @ a98)
+            number : 106(10 @ aa8)
+            name : main (1a @ aaa)
+
+            collision shape sub-sub-sub-block { (3c2 @ ab1)
+
+
+                u0 sub-sub-sub-sub-block { (0a @ ab3)
+
+                    w : -26.0 (0d @ ab5)
+                    x : -0.8095080256462097 (15 @ aba)
+                    y : 54.0 (1d @ abf)
+                    z : 70.80950927734375 (25 @ ac4)
+				}
+			}
+
+            collision shape 2 sub-sub-sub-block { (3ca @ aca)
+
+                u1 : 1(18 @ acc)
+                u2 : 1(20 @ ace)
+                u3 : 1(28 @ ad0)
+                w : -15.0 (35 @ ad2)
+                x : 15.0 (3d @ ad7)
+                z : 1(58 @ adc)
+			}
+		}
+
+        component sub-sub-block { (1a @ ade)
+
+            component type : SwingableWeaponController (0a @ ae0)
+            number : 109(10 @ afb)
+
+            swingable weapon controller sub-sub-sub-block { (c8a @ afe)
+
+                parent model : 101(08 @ b00)
+                bone : BoneRightWeapon1 (12 @ b02)
+                child model : variknight_weapon_sword (1a @ b14)
+			}
+		}
+
+        component sub-sub-block { (1a @ b2d)
+
+            component type : KeyframeAnimation (0a @ b2f)
+            number : 112(10 @ b42)
+
+            keyframe animation sub-sub-sub-block { (332 @ b45)
+
+                linked model component number : 101(08 @ b47)
+                name : variknight_shield_walk (12 @ b49)
+                u0 : 1(18 @ b61)
+                u1 : 1.2000000476837158 (25 @ b63)
+                u2 : 1(28 @ b68)
+			}
+		}
+
+        component sub-sub-block { (1a @ b6a)
+
+            component type : UtilityShape (0a @ b6c)
+            number : 117(10 @ b7a)
+            name : roam (1a @ b7c)
+
+            collision shape sub-sub-sub-block { (3c2 @ b83)
+
+
+                u0 sub-sub-sub-sub-block { (0a @ b85)
+
+                    w : -300.0 (0d @ b87)
+                    x : -50.0 (15 @ b8c)
+                    y : 600.0 (1d @ b91)
+                    z : 100.0 (25 @ b96)
+				}
+			}
+		}
+
+        component sub-sub-block { (1a @ b9b)
+
+            component type : Damage (0a @ b9d)
+            number : 119(10 @ ba5)
+
+            damage sub-sub-sub-block { (3d2 @ ba8)
+
+                u0 : 1(08 @ baa)
+                u1 : 0(10 @ bac)
+                u2 : 0(18 @ bae)
+                u5 : 1.0 (35 @ bb0)
+                u6 : 0.0 (3d @ bb5)
+                u7 : 0(40 @ bba)
+                u8 : 1(48 @ bbc)
+			}
+		}
+
+        component sub-sub-block { (1a @ bbe)
+
+            component type : Health (0a @ bc0)
+            number : 120(10 @ bc8)
+
+            health sub-sub-sub-block { (3da @ bcb)
+
+                u0 : 3(08 @ bcd)
+                u1 : 0(10 @ bcf)
+
+                u2 sub-sub-sub-sub-block { (1a @ bd1)
+
+                    x : 0.0 (0d @ bd3)
+                    y : 50.0 (15 @ bd8)
+				}
+			}
+		}
+
+        component sub-sub-block { (1a @ bdd)
+
+            component type : EntityAction (0a @ be0)
+            number : 126(10 @ bee)
+
+            entity action sub-sub-sub-block { (512 @ bf1)
+
+
+                lua chunk sub-sub-sub-sub-block { (0a @ bf4)
+
+                    main chunk : chunk >
+
+                    === lua =============
+                    local self = ...;
+                    
+                    local attackAnimation = 127;
+                    
+                    EntityController.SetMoveSpeed(self, 0);
+                    KeyframeAnimation.SetCurrentTime(self, attackAnimation, 0.0);
+                    AnimationController.BlendToAnimation(self, attackAnimation);
+                    
+                    Program.Wait(0.1);
+                    
+                    local swingStartTime = KeyframeAnimation.TimeToFrame(self, attackAnimation, 13.5);
+                    local swingEndTime = KeyframeAnimation.TimeToFrame(self, attackAnimation, 16.5);
+                    
+                    Program.Wait(swingStartTime);
+                    EntityController.StartSwing(self, 109, swingEndTime - swingStartTime);
+                    
+                    Program.Wait(KeyframeAnimation.TimeToCompletion(self, attackAnimation));
+                    
+                    EntityController.SetMoveSpeed(self, EntityController.DefaultMoveSpeed(self));
+
+                    =====================
+                    secondary chunk : \x1bLuaQ\x00\x01\x04\x04\x04\x08\x00\x9e\x02\x00\x00local self = ...;\r\n\r\nlocal attackAnimation = 127;\r\n\r\nEntityController.SetMoveSpeed(self, 0);\r\nKeyframeAnimation.SetCurrentTime(self, attackAnimation, 0.0);\r\nAnimationController.BlendToAnimation(self, attackAnimation);\r\n\r\nProgram.Wait(0.1);\r\n\r\nlocal swingStartTime = KeyframeAnimation.TimeToFrame(self, attackAnimation, 13.5);\r\nlocal swingEndTime = KeyframeAnimation.TimeToFrame(self, attackAnimation, 16.5);\r\n\r\nProgram.Wait(swingStartTime);\r\nEntityController.StartSwing(self, 109, swingEndTime - swingStartTime);\r\n\r\nProgram.Wait(KeyframeAnimation.TimeToCompletion(self, attackAnimation));\r\n\r\nEntityController.SetMoveSpeed(self, EntityController.DefaultMoveSpeed(self));\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x02\x08=\x00\x00\x00%\x00\x00\x01A\x00\x00\x00\x85@\x00\x00\x86\x80@\x01\xc0\x00\x00\x00\x01\xc1\x00\x00\x9c@\x80\x01\x85\x00\x01\x00\x86@A\x01\xc0\x00\x00\x00\x00\x01\x80\x00A\xc1\x00\x00\x9c@\x00\x02\x85\x80\x01\x00\x86\xc0A\x01\xc0\x00\x00\x00\x00\x01\x80\x00\x9c@\x80\x01\x85\x00\x02\x00\x86@B\x01\xc1\x80\x02\x00\x9c@\x00\x01\x85\x00\x01\x00\x86\xc0B\x01\xc0\x00\x00\x00\x00\x01\x80\x00A\x01\x03\x00\x9c\x80\x00\x02\xc5\x00\x01\x00\xc6\xc0\xc2\x01\x00\x01\x00\x00@\x01\x80\x00\x81A\x03\x00\xdc\x80\x00\x02\x05\x01\x02\x00\x06AB\x02@\x01\x00\x01\x1cA\x00\x01\x05A\x00\x00\x06\x81C\x02@\x01\x00\x00\x81\xc1\x03\x00\xcd\x81\x80\x01\x1cA\x00\x02\x05\x01\x02\x00\x06AB\x02E\x01\x01\x00F\x01\xc4\x02\x80\x01\x00\x00\xc0\x01\x80\x00\\\x01\x80\x01\x1cA\x00\x00\x05A\x00\x00\x06\x81@\x02@\x01\x00\x00\x85A\x00\x00\x86AD\x03\xc0\x01\x00\x00\x9c\x01\x00\x01\x1cA\x00\x00\x1e\x00\x80\x00\x12\x00\x00\x00\x03\x00\x00\x00\x00\x00\xc0_@\x04\x11\x00\x00\x00EntityController\x00\x04\r\x00\x00\x00SetMoveSpeed\x00\x03\x00\x00\x00\x00\x00\x00\x00\x00\x04\x12\x00\x00\x00KeyframeAnimation\x00\x04\x0f\x00\x00\x00SetCurrentTime\x00\x04\x14\x00\x00\x00AnimationController\x00\x04\x11\x00\x00\x00BlendToAnimation\x00\x04\x08\x00\x00\x00Program\x00\x04\x05\x00\x00\x00Wait\x00\x03\x9a\x99\x99\x99\x99\x99\xb9?\x04\x0c\x00\x00\x00TimeToFrame\x00\x03\x00\x00\x00\x00\x00\x00+@\x03\x00\x00\x00\x00\x00\x800@\x04\x0b\x00\x00\x00StartSwing\x00\x03\x00\x00\x00\x00\x00@[@\x04\x11\x00\x00\x00TimeToCompletion\x00\x04\x11\x00\x00\x00DefaultMoveSpeed\x00\x00\x00\x00\x00=\x00\x00\x00\x01\x00\x00\x00\x03\x00\x00\x00\x05\x00\x00\x00\x05\x00\x00\x00\x05\x00\x00\x00\x05\x00\x00\x00\x05\x00\x00\x00\x06\x00\x00\x00\x06\x00\x00\x00\x06\x00\x00\x00\x06\x00\x00\x00\x06\x00\x00\x00\x06\x00\x00\x00\x07\x00\x00\x00\x07\x00\x00\x00\x07\x00\x00\x00\x07\x00\x00\x00\x07\x00\x00\x00\t\x00\x00\x00\t\x00\x00\x00\t\x00\x00\x00\t\x00\x00\x00\x0b\x00\x00\x00\x0b\x00\x00\x00\x0b\x00\x00\x00\x0b\x00\x00\x00\x0b\x00\x00\x00\x0b\x00\x00\x00\x0c\x00\x00\x00\x0c\x00\x00\x00\x0c\x00\x00\x00\x0c\x00\x00\x00\x0c\x00\x00\x00\x0c\x00\x00\x00\x0e\x00\x00\x00\x0e\x00\x00\x00\x0e\x00\x00\x00\x0e\x00\x00\x00\x0f\x00\x00\x00\x0f\x00\x00\x00\x0f\x00\x00\x00\x0f\x00\x00\x00\x0f\x00\x00\x00\x0f\x00\x00\x00\x11\x00\x00\x00\x11\x00\x00\x00\x11\x00\x00\x00\x11\x00\x00\x00\x11\x00\x00\x00\x11\x00\x00\x00\x11\x00\x00\x00\x11\x00\x00\x00\x13\x00\x00\x00\x13\x00\x00\x00\x13\x00\x00\x00\x13\x00\x00\x00\x13\x00\x00\x00\x13\x00\x00\x00\x13\x00\x00\x00\x13\x00\x00\x00\x13\x00\x00\x00\x04\x00\x00\x00\x05\x00\x00\x00self\x00\x01\x00\x00\x00<\x00\x00\x00\x10\x00\x00\x00attackAnimation\x00\x02\x00\x00\x00<\x00\x00\x00\x0f\x00\x00\x00swingStartTime\x00\x1c\x00\x00\x00<\x00\x00\x00\r\x00\x00\x00swingEndTime\x00"\x00\x00\x00<\x00\x00\x00\x00\x00\x00\x00 (12 @ e97)
+				}
+			}
+		}
+
+        component sub-sub-block { (1a @ 14d1)
+
+            component type : KeyframeAnimation (0a @ 14d3)
+            number : 127(10 @ 14e6)
+
+            keyframe animation sub-sub-sub-block { (332 @ 14e9)
+
+                linked model component number : 101(08 @ 14eb)
+                name : variknight_shield_attack1 (12 @ 14ed)
+                u0 : 0(18 @ 1508)
+                u1 : 1.0 (25 @ 150a)
+                u2 : 1(28 @ 150f)
+			}
+		}
+
+        position sub-sub-block { (22 @ 1511)
+
+            x position : 0.0 (0d @ 1513)
+            y position : 0.0 (15 @ 1518)
+		}
+        z position : 0.0 (2d @ 151d)
+        rotation : 0.0 (35 @ 1522)
+        scale : 1.0 (3d @ 1527)
+
+        u0 sub-sub-block { (42 @ 152c)
+
+            w : -26.0 (0d @ 152e)
+            x : -0.8095080256462097 (15 @ 1533)
+            y : 54.0 (1d @ 1538)
+            z : 70.80950927734375 (25 @ 153d)
+		}
+        hidden : 0(48 @ 1542)
+	}
+    u0 : 1.0 (15 @ 1544)
+}
+
+?item block { (12 @ 1549)
+
+
+    ?sub-item sub-block { (0a @ 154c)
+
+        name : piikkikonna (12 @ 154f)
+
+        component sub-sub-block { (1a @ 155c)
+
+            component type : Damage (0a @ 155e)
+            number : 1(10 @ 1566)
+
+            damage sub-sub-sub-block { (3d2 @ 1569)
+
+                u0 : 1(08 @ 156b)
+                u1 : 0(10 @ 156d)
+                u2 : 0(18 @ 156f)
+                u5 : 1.0 (35 @ 1571)
+                u6 : 0.0 (3d @ 1576)
+                u7 : 0(40 @ 157b)
+                u8 : 1(48 @ 157d)
+			}
+		}
+
+        component sub-sub-block { (1a @ 157f)
+
+            component type : EntityInfo (0a @ 1581)
+            number : 2(10 @ 158d)
+
+            entity info sub-sub-sub-block { (522 @ 1590)
+
+                name : Spike Beetle (0a @ 1592)
+			}
+		}
+
+        component sub-sub-block { (1a @ 15a0)
+
+            component type : Model (0a @ 15a2)
+            number : 101(10 @ 15a9)
+
+            3D model sub-sub-sub-block { (32a @ 15ac)
+
+                name : piikkikonna_green (0a @ 15ae)
+                u0 : 1.5707963705062866 (15 @ 15c1)
+                u1 : 0.0 (1d @ 15c6)
+                u2 : 0.0 (25 @ 15cb)
+
+                u3 sub-sub-sub-sub-block { (2a @ 15d0)
+
+                    w : 0.0 (0d @ 15d2)
+                    x : 0.0 (15 @ 15d7)
+                    y : 0.0 (1d @ 15dc)
+                    z : 1.0 (25 @ 15e1)
+				}
+
+                u4 sub-sub-sub-sub-block { (32 @ 15e6)
+
+                    x : 0.0 (0d @ 15e8)
+                    y : 0.0 (15 @ 15ed)
+                    z : 0.0 (1d @ 15f2)
+				}
+                u5 : 0(38 @ 15f7)
+
+                u6 sub-sub-sub-sub-block { (42 @ 15f9)
+
+                    w : 1.0 (0d @ 15fb)
+                    x : 1.0 (15 @ 1600)
+                    y : 1.0 (1d @ 1605)
+                    z : 1.0 (25 @ 160a)
+				}
+			}
+		}
+
+        component sub-sub-block { (1a @ 160f)
+
+            component type : EntityController (0a @ 1611)
+            number : 102(10 @ 1623)
+
+            entity controller sub-sub-sub-block { (50a @ 1626)
+
+                entity component : 103(08 @ 1628)
+                animation controller component : 104(10 @ 162a)
+                u2 : 105(18 @ 162c)
+                collision shape : 0(20 @ 162e)
+                u4 : 0.0 (2d @ 1630)
+                u5 : 3000.0 (35 @ 1635)
+                u6 : 1000.0 (3d @ 163a)
+                u7 : 3(40 @ 163f)
+			}
+		}
+
+        component sub-sub-block { (1a @ 1641)
+
+            component type : MonsterEntity (0a @ 1644)
+            number : 103(10 @ 1653)
+
+            entity sub-sub-sub-block { (4c2 @ 1656)
+
+                u0 : 18446744073709551615(08 @ 1658)
+                u1 : 1(10 @ 1663)
+			}
+
+            ?monster entity sub-sub-sub-block { (4f2 @ 1666)
+
+                u0 :  (0a @ 1669)
+
+                lua chunk sub-sub-sub-sub-block { (12 @ 166b)
+
+                    main chunk : chunk >
+
+                    === lua =============
+                    local self =...;
+                    local var = 0;
+                    local incr = 0.3;
+                    while ( var < 1.5) do
+                    	if EntityController.IsIdle(self) then 
+                    		EntityController.PerformAction(self, 135);
+                    	end
+                    	Program.Wait(incr);
+                    	var = var + incr;
+                    end
+
+                    =====================
+                    secondary chunk : \x1bLuaQ\x00\x01\x04\x04\x04\x08\x00\xd7\x00\x00\x00local self =...;\r\nlocal var = 0;\r\nlocal incr = 0.3;\r\nwhile ( var < 1.5) do\r\n\tif EntityController.IsIdle(self) then \r\n\t\tEntityController.PerformAction(self, 135);\r\n\tend\r\n\tProgram.Wait(incr);\r\n\tvar = var + incr;\r\nend\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x02\x06\x17\x00\x00\x00%\x00\x00\x01A\x00\x00\x00\x81@\x00\x00\x18\x80\xc0\x00\x16\x00\x04\x80\xc5\xc0\x00\x00\xc6\x00\xc1\x01\x00\x01\x00\x00\xdc\x80\x00\x01\xda\x00\x00\x00\x16\x00\x01\x80\xc5\xc0\x00\x00\xc6@\xc1\x01\x00\x01\x00\x00A\x81\x01\x00\xdc@\x80\x01\xc5\xc0\x01\x00\xc6\x00\xc2\x01\x00\x01\x00\x01\xdc@\x00\x01L\x80\x80\x00\x16\x00\xfb\x7f\x1e\x00\x80\x00\t\x00\x00\x00\x03\x00\x00\x00\x00\x00\x00\x00\x00\x03333333\xd3?\x03\x00\x00\x00\x00\x00\x00\xf8?\x04\x11\x00\x00\x00EntityController\x00\x04\x07\x00\x00\x00IsIdle\x00\x04\x0e\x00\x00\x00PerformAction\x00\x03\x00\x00\x00\x00\x00\xe0`@\x04\x08\x00\x00\x00Program\x00\x04\x05\x00\x00\x00Wait\x00\x00\x00\x00\x00\x17\x00\x00\x00\x01\x00\x00\x00\x02\x00\x00\x00\x03\x00\x00\x00\x04\x00\x00\x00\x04\x00\x00\x00\x05\x00\x00\x00\x05\x00\x00\x00\x05\x00\x00\x00\x05\x00\x00\x00\x05\x00\x00\x00\x05\x00\x00\x00\x06\x00\x00\x00\x06\x00\x00\x00\x06\x00\x00\x00\x06\x00\x00\x00\x06\x00\x00\x00\x08\x00\x00\x00\x08\x00\x00\x00\x08\x00\x00\x00\x08\x00\x00\x00\t\x00\x00\x00\t\x00\x00\x00\n\x00\x00\x00\x03\x00\x00\x00\x05\x00\x00\x00self\x00\x01\x00\x00\x00\x16\x00\x00\x00\x04\x00\x00\x00var\x00\x02\x00\x00\x00\x16\x00\x00\x00\x05\x00\x00\x00incr\x00\x03\x00\x00\x00\x16\x00\x00\x00\x00\x00\x00\x00 (12 @ 1747)
+				}
+                u2 : 1(18 @ 19af)
+                u3 : 1(20 @ 19b1)
+			}
+		}
+
+        component sub-sub-block { (1a @ 19b3)
+
+            component type : AnimationController (0a @ 19b5)
+            number : 104(10 @ 19ca)
+
+            animation controller sub-sub-sub-block { (4aa @ 19cd)
+
+                model component : 101(08 @ 19cf)
+                u1 : 0(10 @ 19d1)
+                u2 : 0(18 @ 19d3)
+			}
+		}
+
+        component sub-sub-block { (1a @ 19d5)
+
+            component type : KeyframeAnimation (0a @ 19d7)
+            number : 105(10 @ 19ea)
+            name : stand (1a @ 19ec)
+
+            keyframe animation sub-sub-sub-block { (332 @ 19f4)
+
+                linked model component number : 101(08 @ 19f6)
+                name : kilpikonna_stand (12 @ 19f8)
+                u0 : 1(18 @ 1a0a)
+                u1 : 1.0 (25 @ 1a0c)
+                u2 : 1(28 @ 1a11)
+			}
+		}
+
+        component sub-sub-block { (1a @ 1a13)
+
+            component type : KeyframeAnimation (0a @ 1a15)
+            number : 107(10 @ 1a28)
+            name : hide (1a @ 1a2a)
+
+            keyframe animation sub-sub-sub-block { (332 @ 1a31)
+
+                linked model component number : 101(08 @ 1a33)
+                name : kilpikonna_hide (12 @ 1a35)
+                u0 : 0(18 @ 1a46)
+                u1 : 1.7000000476837158 (25 @ 1a48)
+                u2 : 1(28 @ 1a4d)
+			}
+		}
+
+        component sub-sub-block { (1a @ 1a4f)
+
+            component type : KeyframeAnimation (0a @ 1a51)
+            number : 108(10 @ 1a64)
+            name : unhide (1a @ 1a66)
+
+            keyframe animation sub-sub-sub-block { (332 @ 1a6f)
+
+                linked model component number : 101(08 @ 1a71)
+                name : kilpikonna_unhide (12 @ 1a73)
+                u0 : 0(18 @ 1a86)
+                u1 : 1.0 (25 @ 1a88)
+                u2 : 1(28 @ 1a8d)
+			}
+		}
+
+        component sub-sub-block { (1a @ 1a8f)
+
+            component type : CollisionShape (0a @ 1a91)
+            number : 109(10 @ 1aa1)
+
+            collision shape sub-sub-sub-block { (3c2 @ 1aa4)
+
+
+                u0 sub-sub-sub-sub-block { (0a @ 1aa6)
+
+                    w : -30.0 (0d @ 1aa8)
+                    x : -23.0 (15 @ 1aad)
+                    y : 60.0 (1d @ 1ab2)
+                    z : 53.0 (25 @ 1ab7)
+				}
+			}
+
+            collision shape 2 sub-sub-sub-block { (3ca @ 1abd)
+
+                u1 : 1(18 @ 1abf)
+                u2 : 1(20 @ 1ac1)
+                u3 : 1(28 @ 1ac3)
+                w : -15.0 (35 @ 1ac5)
+                x : 15.0 (3d @ 1aca)
+                z : 1(58 @ 1acf)
+			}
+		}
+
+        component sub-sub-block { (1a @ 1ad1)
+
+            component type : CollisionShape (0a @ 1ad3)
+            number : 111(10 @ 1ae3)
+
+            collision shape sub-sub-sub-block { (3c2 @ 1ae6)
+
+
+                u0 sub-sub-sub-sub-block { (0a @ 1ae8)
+
+                    w : -35.0 (0d @ 1aea)
+                    x : -30.0 (15 @ 1aef)
+                    y : 70.0 (1d @ 1af4)
+                    z : 65.0 (25 @ 1af9)
+				}
+			}
+
+            collision shape 2 sub-sub-sub-block { (3ca @ 1aff)
+
+                w : -15.0 (35 @ 1b01)
+                x : 15.0 (3d @ 1b06)
+                y : 5(40 @ 1b0b)
+                z : 0(58 @ 1b0d)
+			}
+		}
+
+        component sub-sub-block { (1a @ 1b0f)
+
+            component type : CollisionShape (0a @ 1b11)
+            number : 115(10 @ 1b21)
+
+            collision shape sub-sub-sub-block { (3c2 @ 1b24)
+
+
+                u0 sub-sub-sub-sub-block { (0a @ 1b26)
+
+                    w : -35.0 (0d @ 1b28)
+                    x : -30.0 (15 @ 1b2d)
+                    y : 35.0 (1d @ 1b32)
+                    z : 77.41497802734375 (25 @ 1b37)
+				}
+			}
+
+            collision shape 2 sub-sub-sub-block { (3ca @ 1b3d)
+
+                w : -15.0 (35 @ 1b3f)
+                x : 15.0 (3d @ 1b44)
+                y : 5(40 @ 1b49)
+                z : 1(58 @ 1b4b)
+			}
+		}
+
+        component sub-sub-block { (1a @ 1b4d)
+
+            component type : EntityAction (0a @ 1b50)
+            number : 120(10 @ 1b5e)
+            name : shoot (1a @ 1b60)
+
+            entity action sub-sub-sub-block { (512 @ 1b68)
+
+
+                lua chunk sub-sub-sub-sub-block { (0a @ 1b6b)
+
+                    main chunk : chunk >
+
+                    === lua =============
+                    local self = ...;
+                    
+                    local shootAnimation = 140;
+                    
+                    KeyframeAnimation.SetCurrentTime(self, shootAnimation, 0.0);
+                    AnimationController.BlendToAnimation(self, shootAnimation);
+                    
+                    Program.Wait(KeyframeAnimation.TimeToFrame(self, shootAnimation, 16));
+                    
+                    local angles = { -40, -12, 12, 40 };
+                    
+                    for i=1, #angles do
+                    	local angleOffset = angles[i];
+                    	local projectile = Scene.CreateObject("piikkikonna_spike", "projectile", self);
+                    
+                    	projectile:setVelocity(Vector3.FromAngle(90 + angleOffset) * 550);
+                    
+                    	PhysicsObject.SetGravityDirection(projectile, Vector3.FromAngle(-90 + 0.5 * angleOffset));
+                    end
+                    
+                    Program.Wait(KeyframeAnimation.TimeToCompletion(self, shootAnimation));
+                    
+
+                    =====================
+                    secondary chunk : \x1bLuaQ\x00\x01\x04\x04\x04\x08\x00\xa2\x02\x00\x00local self = ...;\r\n\r\nlocal shootAnimation = 140;\r\n\r\nKeyframeAnimation.SetCurrentTime(self, shootAnimation, 0.0);\r\nAnimationController.BlendToAnimation(self, shootAnimation);\r\n\r\nProgram.Wait(KeyframeAnimation.TimeToFrame(self, shootAnimation, 16));\r\n\r\nlocal angles = { -40, -12, 12, 40 };\r\n\r\nfor i=1, #angles do\r\n\tlocal angleOffset = angles[i];\r\n\tlocal projectile = Scene.CreateObject("piikkikonna_spike", "projectile", self);\r\n\r\n\tprojectile:setVelocity(Vector3.FromAngle(90 + angleOffset) * 550);\r\n\r\n\tPhysicsObject.SetGravityDirection(projectile, Vector3.FromAngle(-90 + 0.5 * angleOffset));\r\nend\r\n\r\nProgram.Wait(KeyframeAnimation.TimeToCompletion(self, shootAnimation));\r\n\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x02\rA\x00\x00\x00%\x00\x00\x01A\x00\x00\x00\x85@\x00\x00\x86\x80@\x01\xc0\x00\x00\x00\x00\x01\x80\x00A\xc1\x00\x00\x9c@\x00\x02\x85\x00\x01\x00\x86@A\x01\xc0\x00\x00\x00\x00\x01\x80\x00\x9c@\x80\x01\x85\x80\x01\x00\x86\xc0A\x01\xc5@\x00\x00\xc6\x00\xc2\x01\x00\x01\x00\x00@\x01\x80\x00\x81A\x02\x00\xdc\x00\x00\x02\x9c@\x00\x00\x8a\x00\x00\x02\xc1\x80\x02\x00\x01\xc1\x02\x00A\x01\x03\x00\x81A\x03\x00\xa2@\x00\x02\xc1\x80\x03\x00\x14\x01\x00\x01A\x81\x03\x00\xe0\x80\x05\x80\xc6\x81\x01\x01\x05\xc2\x03\x00\x06\x02D\x04AB\x04\x00\x81\x82\x04\x00\xc0\x02\x00\x00\x1c\x82\x00\x02K\xc2D\x04\xc5\x02\x05\x00\xc6B\xc5\x05\x0c\xc3\x01\x8b\xdc\x82\x00\x01\xce\xc2\xc5\x05\\B\x80\x01E\x02\x06\x00FB\xc6\x04\x80\x02\x00\x04\xc5\x02\x05\x00\xc6B\xc5\x05\x0e\xc3\x01\x8d\x0c\x03\x83\x8d\xdc\x02\x00\x01\\B\x00\x00\xdf\xc0\xf9\x7f\xc5\x80\x01\x00\xc6\xc0\xc1\x01\x05A\x00\x00\x06\x01G\x02@\x01\x00\x00\x80\x01\x80\x00\x1c\x01\x80\x01\xdc@\x00\x00\x1e\x00\x80\x00\x1d\x00\x00\x00\x03\x00\x00\x00\x00\x00\x80a@\x04\x12\x00\x00\x00KeyframeAnimation\x00\x04\x0f\x00\x00\x00SetCurrentTime\x00\x03\x00\x00\x00\x00\x00\x00\x00\x00\x04\x14\x00\x00\x00AnimationController\x00\x04\x11\x00\x00\x00BlendToAnimation\x00\x04\x08\x00\x00\x00Program\x00\x04\x05\x00\x00\x00Wait\x00\x04\x0c\x00\x00\x00TimeToFrame\x00\x03\x00\x00\x00\x00\x00\x000@\x03\x00\x00\x00\x00\x00\x00D\xc0\x03\x00\x00\x00\x00\x00\x00(\xc0\x03\x00\x00\x00\x00\x00\x00(@\x03\x00\x00\x00\x00\x00\x00D@\x03\x00\x00\x00\x00\x00\x00\xf0?\x04\x06\x00\x00\x00Scene\x00\x04\r\x00\x00\x00CreateObject\x00\x04\x12\x00\x00\x00piikkikonna_spike\x00\x04\x0b\x00\x00\x00projectile\x00\x04\x0c\x00\x00\x00setVelocity\x00\x04\x08\x00\x00\x00Vector3\x00\x04\n\x00\x00\x00FromAngle\x00\x03\x00\x00\x00\x00\x00\x80V@\x03\x00\x00\x00\x00\x000\x81@\x04\x0e\x00\x00\x00PhysicsObject\x00\x04\x14\x00\x00\x00SetGravityDirection\x00\x03\x00\x00\x00\x00\x00\x00\xe0?\x03\x00\x00\x00\x00\x00\x80V\xc0\x04\x11\x00\x00\x00TimeToCompletion\x00\x00\x00\x00\x00A\x00\x00\x00\x01\x00\x00\x00\x03\x00\x00\x00\x05\x00\x00\x00\x05\x00\x00\x00\x05\x00\x00\x00\x05\x00\x00\x00\x05\x00\x00\x00\x05\x00\x00\x00\x06\x00\x00\x00\x06\x00\x00\x00\x06\x00\x00\x00\x06\x00\x00\x00\x06\x00\x00\x00\x08\x00\x00\x00\x08\x00\x00\x00\x08\x00\x00\x00\x08\x00\x00\x00\x08\x00\x00\x00\x08\x00\x00\x00\x08\x00\x00\x00\x08\x00\x00\x00\x08\x00\x00\x00\n\x00\x00\x00\n\x00\x00\x00\n\x00\x00\x00\n\x00\x00\x00\n\x00\x00\x00\n\x00\x00\x00\x0c\x00\x00\x00\x0c\x00\x00\x00\x0c\x00\x00\x00\x0c\x00\x00\x00\r\x00\x00\x00\x0e\x00\x00\x00\x0e\x00\x00\x00\x0e\x00\x00\x00\x0e\x00\x00\x00\x0e\x00\x00\x00\x0e\x00\x00\x00\x10\x00\x00\x00\x10\x00\x00\x00\x10\x00\x00\x00\x10\x00\x00\x00\x10\x00\x00\x00\x10\x00\x00\x00\x10\x00\x00\x00\x12\x00\x00\x00\x12\x00\x00\x00\x12\x00\x00\x00\x12\x00\x00\x00\x12\x00\x00\x00\x12\x00\x00\x00\x12\x00\x00\x00\x12\x00\x00\x00\x12\x00\x00\x00\x0c\x00\x00\x00\x15\x00\x00\x00\x15\x00\x00\x00\x15\x00\x00\x00\x15\x00\x00\x00\x15\x00\x00\x00\x15\x00\x00\x00\x15\x00\x00\x00\x15\x00\x00\x00\x15\x00\x00\x00\t\x00\x00\x00\x05\x00\x00\x00self\x00\x01\x00\x00\x00@\x00\x00\x00\x0f\x00\x00\x00shootAnimation\x00\x02\x00\x00\x00@\x00\x00\x00\x07\x00\x00\x00angles\x00\x1c\x00\x00\x00@\x00\x00\x00\x0c\x00\x00\x00(for index)\x00\x1f\x00\x00\x008\x00\x00\x00\x0c\x00\x00\x00(for limit)\x00\x1f\x00\x00\x008\x00\x00\x00\x0b\x00\x00\x00(for step)\x00\x1f\x00\x00\x008\x00\x00\x00\x02\x00\x00\x00i\x00 \x00\x00\x007\x00\x00\x00\x0c\x00\x00\x00angleOffset\x00!\x00\x00\x007\x00\x00\x00\x0b\x00\x00\x00projectile\x00\'\x00\x00\x007\x00\x00\x00\x00\x00\x00\x00 (12 @ 1e12)
+				}
+			}
+		}
+
+        component sub-sub-block { (1a @ 2557)
+
+            component type : Program (0a @ 255a)
+            number : 125(10 @ 2563)
+
+            program sub-sub-sub-block { (4ea @ 2566)
+
+                u0 : 1(08 @ 2569)
+
+                lua chunk sub-sub-sub-sub-block { (12 @ 256b)
+
+                    main chunk : chunk >
+
+                    === lua =============
+                    local self = ...;
+                    
+                    local timeToAttack = 0;
+                    local updateInterval = 0.3;
+                    
+                    while true do 
+                    	Program.Wait(updateInterval);
+                    
+                    	timeToAttack = timeToAttack - updateInterval;
+                    
+                    	if EntityController.IsIdle(self) then 
+                    		if timeToAttack < 0.0 then
+                    			timeToAttack = 2.0;
+                    			EntityController.PerformAction(self, 120);
+                    		end
+                    	end
+                    end
+                    
+
+                    =====================
+                    secondary chunk : \x1bLuaQ\x00\x01\x04\x04\x04\x08\x00R\x01\x00\x00local self = ...;\r\n\r\nlocal timeToAttack = 0;\r\nlocal updateInterval = 0.3;\r\n\r\nwhile true do \r\n\tProgram.Wait(updateInterval);\r\n\r\n\ttimeToAttack = timeToAttack - updateInterval;\r\n\r\n\tif EntityController.IsIdle(self) then \r\n\t\tif timeToAttack < 0.0 then\r\n\t\t\ttimeToAttack = 2.0;\r\n\t\t\tEntityController.PerformAction(self, 120);\r\n\t\tend\r\n\tend\r\nend\r\n\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x02\x06\x18\x00\x00\x00%\x00\x00\x01A\x00\x00\x00\x81@\x00\x00\xc5\x80\x00\x00\xc6\xc0\xc0\x01\x00\x01\x00\x01\xdc@\x00\x01M\x80\x80\x00\xc5\x00\x01\x00\xc6@\xc1\x01\x00\x01\x00\x00\xdc\x80\x00\x01\xda\x00\x00\x00\x16\x00\xfd\x7f\x18\x00\xc0\x00\x16\x80\xfc\x7fA\x80\x01\x00\xc5\x00\x01\x00\xc6\xc0\xc1\x01\x00\x01\x00\x00A\x01\x02\x00\xdc@\x80\x01\x16\xc0\xfa\x7f\x1e\x00\x80\x00\t\x00\x00\x00\x03\x00\x00\x00\x00\x00\x00\x00\x00\x03333333\xd3?\x04\x08\x00\x00\x00Program\x00\x04\x05\x00\x00\x00Wait\x00\x04\x11\x00\x00\x00EntityController\x00\x04\x07\x00\x00\x00IsIdle\x00\x03\x00\x00\x00\x00\x00\x00\x00@\x04\x0e\x00\x00\x00PerformAction\x00\x03\x00\x00\x00\x00\x00\x00^@\x00\x00\x00\x00\x18\x00\x00\x00\x01\x00\x00\x00\x03\x00\x00\x00\x04\x00\x00\x00\x07\x00\x00\x00\x07\x00\x00\x00\x07\x00\x00\x00\x07\x00\x00\x00\t\x00\x00\x00\x0b\x00\x00\x00\x0b\x00\x00\x00\x0b\x00\x00\x00\x0b\x00\x00\x00\x0b\x00\x00\x00\x0b\x00\x00\x00\x0c\x00\x00\x00\x0c\x00\x00\x00\r\x00\x00\x00\x0e\x00\x00\x00\x0e\x00\x00\x00\x0e\x00\x00\x00\x0e\x00\x00\x00\x0e\x00\x00\x00\x10\x00\x00\x00\x11\x00\x00\x00\x03\x00\x00\x00\x05\x00\x00\x00self\x00\x01\x00\x00\x00\x17\x00\x00\x00\r\x00\x00\x00timeToAttack\x00\x02\x00\x00\x00\x17\x00\x00\x00\x0f\x00\x00\x00updateInterval\x00\x03\x00\x00\x00\x17\x00\x00\x00\x00\x00\x00\x00 (12 @ 26c2)
+				}
+                u1 : 1(18 @ 29c0)
+                u2 : 1(20 @ 29c2)
+			}
+		}
+
+        component sub-sub-block { (1a @ 29c4)
+
+            component type : Health (0a @ 29c6)
+            number : 130(10 @ 29ce)
+
+            health sub-sub-sub-block { (3da @ 29d2)
+
+                u0 : 2(08 @ 29d4)
+                u1 : 0(10 @ 29d6)
+
+                u2 sub-sub-sub-sub-block { (1a @ 29d8)
+
+                    x : 0.0 (0d @ 29da)
+                    y : 50.0 (15 @ 29df)
+				}
+			}
+		}
+
+        component sub-sub-block { (1a @ 29e4)
+
+            component type : EntityAction (0a @ 29e7)
+            number : 135(10 @ 29f5)
+            name : hide (1a @ 29f8)
+
+            entity action sub-sub-sub-block { (512 @ 29ff)
+
+
+                lua chunk sub-sub-sub-sub-block { (0a @ 2a02)
+
+                    main chunk : chunk >
+
+                    === lua =============
+                    local self = ...;
+                    
+                    local hideAnimation = 107;
+                    local unhideAnimation = 108;
+                    
+                    Program.Wait(0.5);
+                    
+                    KeyframeAnimation.SetCurrentTime(self, hideAnimation, 0.0);
+                    AnimationController.BlendToAnimation(self, hideAnimation);
+                    
+                    Program.Wait(KeyframeAnimation.TimeToFrame(self, hideAnimation, 15));
+                    
+                    CollisionShape.SetEnabled(self, 111, true);
+                    
+                    Program.Wait(KeyframeAnimation.TimeToFrame(self, hideAnimation, 23));
+                    
+                    KeyframeAnimation.SetRunning(self, hideAnimation, false);
+                    
+                    Program.Wait(3);
+                    
+                    KeyframeAnimation.SetRunning(self, hideAnimation, true);
+                    
+                    AnimationController.BlendToAnimation(self, unhideAnimation);
+                    
+                    Program.Wait(KeyframeAnimation.TimeToFrame(self, unhideanimation, 23));
+                    
+                    CollisionShape.SetEnabled(self, 111, false);
+                    
+                    Program.Wait(KeyframeAnimation.TimeToCompletion(self, unhideAnimation));
+                    
+                    
+
+                    =====================
+                    secondary chunk : \x1bLuaQ\x00\x01\x04\x04\x04\x08\x008\x03\x00\x00local self = ...;\r\n\r\nlocal hideAnimation = 107;\r\nlocal unhideAnimation = 108;\r\n\r\nProgram.Wait(0.5);\r\n\r\nKeyframeAnimation.SetCurrentTime(self, hideAnimation, 0.0);\r\nAnimationController.BlendToAnimation(self, hideAnimation);\r\n\r\nProgram.Wait(KeyframeAnimation.TimeToFrame(self, hideAnimation, 15));\r\n\r\nCollisionShape.SetEnabled(self, 111, true);\r\n\r\nProgram.Wait(KeyframeAnimation.TimeToFrame(self, hideAnimation, 23));\r\n\r\nKeyframeAnimation.SetRunning(self, hideAnimation, false);\r\n\r\nProgram.Wait(3);\r\n\r\nKeyframeAnimation.SetRunning(self, hideAnimation, true);\r\n\r\nAnimationController.BlendToAnimation(self, unhideAnimation);\r\n\r\nProgram.Wait(KeyframeAnimation.TimeToFrame(self, unhideanimation, 23));\r\n\r\nCollisionShape.SetEnabled(self, 111, false);\r\n\r\nProgram.Wait(KeyframeAnimation.TimeToCompletion(self, unhideAnimation));\r\n\r\n\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x02\x08W\x00\x00\x00%\x00\x00\x01A\x00\x00\x00\x81@\x00\x00\xc5\x80\x00\x00\xc6\xc0\xc0\x01\x01\x01\x01\x00\xdc@\x00\x01\xc5@\x01\x00\xc6\x80\xc1\x01\x00\x01\x00\x00@\x01\x80\x00\x81\xc1\x01\x00\xdc@\x00\x02\xc5\x00\x02\x00\xc6@\xc2\x01\x00\x01\x00\x00@\x01\x80\x00\xdc@\x80\x01\xc5\x80\x00\x00\xc6\xc0\xc0\x01\x05A\x01\x00\x06\x81B\x02@\x01\x00\x00\x80\x01\x80\x00\xc1\xc1\x02\x00\x1c\x01\x00\x02\xdc@\x00\x00\xc5\x00\x03\x00\xc6@\xc3\x01\x00\x01\x00\x00A\x81\x03\x00\x82\x01\x80\x00\xdc@\x00\x02\xc5\x80\x00\x00\xc6\xc0\xc0\x01\x05A\x01\x00\x06\x81B\x02@\x01\x00\x00\x80\x01\x80\x00\xc1\xc1\x03\x00\x1c\x01\x00\x02\xdc@\x00\x00\xc5@\x01\x00\xc6\x00\xc4\x01\x00\x01\x00\x00@\x01\x80\x00\x82\x01\x00\x00\xdc@\x00\x02\xc5\x80\x00\x00\xc6\xc0\xc0\x01\x01A\x04\x00\xdc@\x00\x01\xc5@\x01\x00\xc6\x00\xc4\x01\x00\x01\x00\x00@\x01\x80\x00\x82\x01\x80\x00\xdc@\x00\x02\xc5\x00\x02\x00\xc6@\xc2\x01\x00\x01\x00\x00@\x01\x00\x01\xdc@\x80\x01\xc5\x80\x00\x00\xc6\xc0\xc0\x01\x05A\x01\x00\x06\x81B\x02@\x01\x00\x00\x85\x81\x04\x00\xc1\xc1\x03\x00\x1c\x01\x00\x02\xdc@\x00\x00\xc5\x00\x03\x00\xc6@\xc3\x01\x00\x01\x00\x00A\x81\x03\x00\x82\x01\x00\x00\xdc@\x00\x02\xc5\x80\x00\x00\xc6\xc0\xc0\x01\x05A\x01\x00\x06\xc1D\x02@\x01\x00\x00\x80\x01\x00\x01\x1c\x01\x80\x01\xdc@\x00\x00\x1e\x00\x80\x00\x14\x00\x00\x00\x03\x00\x00\x00\x00\x00\xc0Z@\x03\x00\x00\x00\x00\x00\x00[@\x04\x08\x00\x00\x00Program\x00\x04\x05\x00\x00\x00Wait\x00\x03\x00\x00\x00\x00\x00\x00\xe0?\x04\x12\x00\x00\x00KeyframeAnimation\x00\x04\x0f\x00\x00\x00SetCurrentTime\x00\x03\x00\x00\x00\x00\x00\x00\x00\x00\x04\x14\x00\x00\x00AnimationController\x00\x04\x11\x00\x00\x00BlendToAnimation\x00\x04\x0c\x00\x00\x00TimeToFrame\x00\x03\x00\x00\x00\x00\x00\x00.@\x04\x0f\x00\x00\x00CollisionShape\x00\x04\x0b\x00\x00\x00SetEnabled\x00\x03\x00\x00\x00\x00\x00\xc0[@\x03\x00\x00\x00\x00\x00\x007@\x04\x0b\x00\x00\x00SetRunning\x00\x03\x00\x00\x00\x00\x00\x00\x08@\x04\x10\x00\x00\x00unhideanimation\x00\x04\x11\x00\x00\x00TimeToCompletion\x00\x00\x00\x00\x00W\x00\x00\x00\x01\x00\x00\x00\x03\x00\x00\x00\x04\x00\x00\x00\x06\x00\x00\x00\x06\x00\x00\x00\x06\x00\x00\x00\x06\x00\x00\x00\x08\x00\x00\x00\x08\x00\x00\x00\x08\x00\x00\x00\x08\x00\x00\x00\x08\x00\x00\x00\x08\x00\x00\x00\t\x00\x00\x00\t\x00\x00\x00\t\x00\x00\x00\t\x00\x00\x00\t\x00\x00\x00\x0b\x00\x00\x00\x0b\x00\x00\x00\x0b\x00\x00\x00\x0b\x00\x00\x00\x0b\x00\x00\x00\x0b\x00\x00\x00\x0b\x00\x00\x00\x0b\x00\x00\x00\x0b\x00\x00\x00\r\x00\x00\x00\r\x00\x00\x00\r\x00\x00\x00\r\x00\x00\x00\r\x00\x00\x00\r\x00\x00\x00\x0f\x00\x00\x00\x0f\x00\x00\x00\x0f\x00\x00\x00\x0f\x00\x00\x00\x0f\x00\x00\x00\x0f\x00\x00\x00\x0f\x00\x00\x00\x0f\x00\x00\x00\x0f\x00\x00\x00\x11\x00\x00\x00\x11\x00\x00\x00\x11\x00\x00\x00\x11\x00\x00\x00\x11\x00\x00\x00\x11\x00\x00\x00\x13\x00\x00\x00\x13\x00\x00\x00\x13\x00\x00\x00\x13\x00\x00\x00\x15\x00\x00\x00\x15\x00\x00\x00\x15\x00\x00\x00\x15\x00\x00\x00\x15\x00\x00\x00\x15\x00\x00\x00\x17\x00\x00\x00\x17\x00\x00\x00\x17\x00\x00\x00\x17\x00\x00\x00\x17\x00\x00\x00\x19\x00\x00\x00\x19\x00\x00\x00\x19\x00\x00\x00\x19\x00\x00\x00\x19\x00\x00\x00\x19\x00\x00\x00\x19\x00\x00\x00\x19\x00\x00\x00\x19\x00\x00\x00\x1b\x00\x00\x00\x1b\x00\x00\x00\x1b\x00\x00\x00\x1b\x00\x00\x00\x1b\x00\x00\x00\x1b\x00\x00\x00\x1d\x00\x00\x00\x1d\x00\x00\x00\x1d\x00\x00\x00\x1d\x00\x00\x00\x1d\x00\x00\x00\x1d\x00\x00\x00\x1d\x00\x00\x00\x1d\x00\x00\x00\x1d\x00\x00\x00\x03\x00\x00\x00\x05\x00\x00\x00self\x00\x01\x00\x00\x00V\x00\x00\x00\x0e\x00\x00\x00hideAnimation\x00\x02\x00\x00\x00V\x00\x00\x00\x10\x00\x00\x00unhideAnimation\x00\x03\x00\x00\x00V\x00\x00\x00\x00\x00\x00\x00 (12 @ 2d3f)
+				}
+			}
+		}
+
+        component sub-sub-block { (1a @ 34d6)
+
+            component type : KeyframeAnimation (0a @ 34d8)
+            number : 140(10 @ 34eb)
+            name : shoot (1a @ 34ee)
+
+            keyframe animation sub-sub-sub-block { (332 @ 34f6)
+
+                linked model component number : 101(08 @ 34f8)
+                name : piikkikonna_shoot (12 @ 34fa)
+                u0 : 0(18 @ 350d)
+                u1 : 1.0 (25 @ 350f)
+                u2 : 1(28 @ 3514)
+			}
+		}
+
+        position sub-sub-block { (22 @ 3516)
+
+            x position : 0.0 (0d @ 3518)
+            y position : 0.0 (15 @ 351d)
+		}
+        z position : 0.0 (2d @ 3522)
+        rotation : 0.0 (35 @ 3527)
+        scale : 1.0 (3d @ 352c)
+
+        u0 sub-sub-block { (42 @ 3531)
+
+            w : -35.0 (0d @ 3533)
+            x : -30.0 (15 @ 3538)
+            y : 70.0 (1d @ 353d)
+            z : 77.41497802734375 (25 @ 3542)
+		}
+        hidden : 0(48 @ 3547)
+	}
+    u0 : 1.0 (15 @ 3549)
+}
+
+?item block { (12 @ 354e)
+
+
+    ?sub-item sub-block { (0a @ 3551)
+
+        name : piikkikonna_spike (12 @ 3554)
+
+        component sub-sub-block { (1a @ 3567)
+
+            component type : SimpleGlow (0a @ 3569)
+            number : 1(10 @ 3575)
+
+            simple glow sub-sub-sub-block { (7f2 @ 3578)
+
+
+                u0 sub-sub-sub-sub-block { (0a @ 357a)
+
+                    w : 0.20000000298023224 (0d @ 357c)
+                    x : 0.30000001192092896 (15 @ 3581)
+                    y : 0.06666667014360428 (1d @ 3586)
+                    z : 0.0 (25 @ 358b)
+				}
+                u1 : 25.0 (15 @ 3590)
+                u2 : 10(18 @ 3595)
+                u3 : 15.0 (25 @ 3597)
+                u4 : 0.15000000596046448 (2d @ 359c)
+                u5 : 0.800000011920929 (35 @ 35a1)
+
+                u6 sub-sub-sub-sub-block { (3a @ 35a6)
+
+                    y : 4.0 (0d @ 35a8)
+                    z : 0.0 (15 @ 35ad)
+				}
+			}
+		}
+
+        component sub-sub-block { (1a @ 35b2)
+
+            component type : Model (0a @ 35b4)
+            number : 101(10 @ 35bb)
+
+            3D model sub-sub-sub-block { (32a @ 35be)
+
+                name : piikkikonna_spike (0a @ 35c0)
+                u0 : 0.0 (15 @ 35d3)
+                u1 : 2.0 (1d @ 35d8)
+                u2 : 0.0 (25 @ 35dd)
+
+                u3 sub-sub-sub-sub-block { (2a @ 35e2)
+
+                    w : 1.0 (0d @ 35e4)
+                    x : 1.0 (15 @ 35e9)
+                    y : 1.0 (1d @ 35ee)
+                    z : 1.0 (25 @ 35f3)
+				}
+
+                u4 sub-sub-sub-sub-block { (32 @ 35f8)
+
+                    x : 0.0 (0d @ 35fa)
+                    y : 0.0 (15 @ 35ff)
+                    z : 0.0 (1d @ 3604)
+				}
+                u5 : 0(38 @ 3609)
+
+                u6 sub-sub-sub-sub-block { (42 @ 360b)
+
+                    w : 1.0 (0d @ 360d)
+                    x : 1.0 (15 @ 3612)
+                    y : 1.0 (1d @ 3617)
+                    z : 1.0 (25 @ 361c)
+				}
+			}
+		}
+
+        component sub-sub-block { (1a @ 3621)
+
+            component type : CollisionShape (0a @ 3624)
+            number : 102(10 @ 3634)
+
+            collision shape sub-sub-sub-block { (3c2 @ 3637)
+
+
+                u0 sub-sub-sub-sub-block { (0a @ 3639)
+
+                    w : -4.0 (0d @ 363b)
+                    x : -5.0 (15 @ 3640)
+                    y : 14.0 (1d @ 3645)
+                    z : 10.0 (25 @ 364a)
+				}
+			}
+
+            collision shape 2 sub-sub-sub-block { (3ca @ 3650)
+
+                u1 : 1(18 @ 3653)
+                u3 : 1(28 @ 3655)
+                w : -15.0 (35 @ 3657)
+                x : 15.0 (3d @ 365c)
+
+                lua chunk sub-sub-sub-sub-block { (4a @ 3661)
+
+                    main chunk : chunk >
+
+                    === lua =============
+                    local self, target, collisionNormal, groundCollision = ...;
+                    
+                    if groundCollision then
+                    	Program.Wait(0.1);
+                    	self:destroy();
+                    end
+
+                    =====================
+                    secondary chunk : \x1bLuaQ\x00\x01\x04\x04\x04\x08\x00\x83\x00\x00\x00local self, target, collisionNormal, groundCollision = ...;\r\n\r\nif groundCollision then\r\n\tProgram.Wait(0.1);\r\n\tself:destroy();\r\nend\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x02\x06\n\x00\x00\x00%\x00\x80\x02\xda\x00\x00\x00\x16@\x01\x80\x05\x01\x00\x00\x06A@\x02A\x81\x00\x00\x1cA\x00\x01\x0b\xc1@\x00\x1cA\x00\x01\x1e\x00\x80\x00\x04\x00\x00\x00\x04\x08\x00\x00\x00Program\x00\x04\x05\x00\x00\x00Wait\x00\x03\x9a\x99\x99\x99\x99\x99\xb9?\x04\x08\x00\x00\x00destroy\x00\x00\x00\x00\x00\n\x00\x00\x00\x01\x00\x00\x00\x03\x00\x00\x00\x03\x00\x00\x00\x04\x00\x00\x00\x04\x00\x00\x00\x04\x00\x00\x00\x04\x00\x00\x00\x05\x00\x00\x00\x05\x00\x00\x00\x06\x00\x00\x00\x04\x00\x00\x00\x05\x00\x00\x00self\x00\x01\x00\x00\x00\t\x00\x00\x00\x07\x00\x00\x00target\x00\x01\x00\x00\x00\t\x00\x00\x00\x10\x00\x00\x00collisionNormal\x00\x01\x00\x00\x00\t\x00\x00\x00\x10\x00\x00\x00groundCollision\x00\x01\x00\x00\x00\t\x00\x00\x00\x00\x00\x00\x00 (12 @ 36e9)
+				}
+                z : 1(58 @ 387c)
+			}
+		}
+
+        component sub-sub-block { (1a @ 387e)
+
+            component type : PhysicsObject (0a @ 3880)
+            number : 105(10 @ 388f)
+
+            physics object sub-sub-sub-block { (4fa @ 3892)
+
+                u0 : 1(08 @ 3894)
+                u3 : 1500.0 (25 @ 3896)
+                u4 : 0.0 (2d @ 389b)
+                u5 : 700.0 (35 @ 38a0)
+                u6 : 0(38 @ 38a5)
+                u7 : 0.0 (45 @ 38a7)
+			}
+		}
+
+        component sub-sub-block { (1a @ 38ac)
+
+            component type : ProjectileController (0a @ 38ae)
+            number : 106(10 @ 38c4)
+
+            projectile controller sub-sub-sub-block { (115a @ 38c7)
+
+                u0 : 1(08 @ 38c9)
+                u1 : 1(10 @ 38cb)
+			}
+		}
+
+        component sub-sub-block { (1a @ 38cd)
+
+            component type : Damage (0a @ 38cf)
+            number : 107(10 @ 38d7)
+
+            damage sub-sub-sub-block { (3d2 @ 38da)
+
+                u0 : 1(08 @ 38dc)
+                u1 : 0(10 @ 38de)
+                u2 : 0(18 @ 38e0)
+                u5 : 1.0 (35 @ 38e2)
+                u6 : 0.0 (3d @ 38e7)
+                u7 : 0(40 @ 38ec)
+                u8 : 1(48 @ 38ee)
+			}
+		}
+
+        position sub-sub-block { (22 @ 38f0)
+
+            x position : 0.0 (0d @ 38f2)
+            y position : 0.0 (15 @ 38f7)
+		}
+        z position : 0.0 (2d @ 38fc)
+        rotation : 0.0 (35 @ 3901)
+        scale : 1.0 (3d @ 3906)
+
+        u0 sub-sub-block { (42 @ 390b)
+
+            w : -25.0 (0d @ 390d)
+            x : -25.0 (15 @ 3912)
+            y : 50.0 (1d @ 3917)
+            z : 50.0 (25 @ 391c)
+		}
+        hidden : 0(48 @ 3921)
+	}
+    u0 : 1.2000000476837158 (15 @ 3923)
+}
+
+?item block { (12 @ 3928)
+
+
+    ?sub-item sub-block { (0a @ 392b)
+
+        name : varibandit_dagger (12 @ 392e)
+
+        component sub-sub-block { (1a @ 3941)
+
+            component type : SimpleGlow (0a @ 3943)
+            number : 1(10 @ 394f)
+
+            simple glow sub-sub-sub-block { (7f2 @ 3952)
+
+
+                u0 sub-sub-sub-sub-block { (0a @ 3954)
+
+                    w : 0.12222224473953247 (0d @ 3956)
+                    x : 0.12222224473953247 (15 @ 395b)
+                    y : 0.12222224473953247 (1d @ 3960)
+                    z : 0.0 (25 @ 3965)
+				}
+                u1 : 17.0 (15 @ 396a)
+                u2 : 10(18 @ 396f)
+                u3 : 15.0 (25 @ 3971)
+                u4 : 0.15000000596046448 (2d @ 3976)
+                u5 : 0.800000011920929 (35 @ 397b)
+
+                u6 sub-sub-sub-sub-block { (3a @ 3980)
+
+                    y : 4.0 (0d @ 3982)
+                    z : 0.0 (15 @ 3987)
+				}
+			}
+		}
+
+        component sub-sub-block { (1a @ 398c)
+
+            component type : FireEmitter (0a @ 398e)
+            number : 2(10 @ 399b)
+
+            fire emitter sub-sub-sub-block { (7ea @ 399e)
+
+                temp0 : 3(08 @ 39a0)
+                temp1 : 0(18 @ 39a2)
+
+                u0 sub-sub-sub-sub-block { (2a @ 39a4)
+
+                    w : 1.0 (0d @ 39a6)
+                    x : 1.0 (15 @ 39ab)
+                    y : 1.0 (1d @ 39b0)
+                    z : 0.0 (25 @ 39b5)
+				}
+                u1 : 0.019999999552965164 (35 @ 39ba)
+                u2 : 0.30000001192092896 (3d @ 39bf)
+
+                u3 sub-sub-sub-sub-block { (42 @ 39c4)
+
+                    x : 10.0 (0d @ 39c6)
+                    y : 10.0 (15 @ 39cb)
+                    z : 0.0 (1d @ 39d0)
+				}
+
+                u4 sub-sub-sub-sub-block { (4a @ 39d5)
+
+                    x : 0.0 (0d @ 39d7)
+                    y : 0.0 (15 @ 39dc)
+                    z : 0.0 (1d @ 39e1)
+				}
+			}
+		}
+
+        component sub-sub-block { (1a @ 39e6)
+
+            component type : ParticleEmitter (0a @ 39e8)
+            number : 3(10 @ 39f9)
+
+            particle emitter sub-sub-sub-block { (7d2 @ 39fc)
+
+                particle : 4(10 @ 39fe)
+                particle : 5(10 @ 3a00)
+                particle : 6(10 @ 3a02)
+                u1 : 0(18 @ 3a04)
+                u2 : 30(20 @ 3a06)
+                u3 : 0(28 @ 3a08)
+                u4 : 0(30 @ 3a0a)
+                u6 : 0(40 @ 3a0c)
+			}
+		}
+
+        component sub-sub-block { (1a @ 3a0e)
+
+            component type : Particle (0a @ 3a10)
+            number : 4(10 @ 3a1a)
+
+            particle sub-sub-sub-block { (7da @ 3a1d)
+
+                name : particle_fure_3 (0a @ 3a1f)
+                u0 : 8.0 (15 @ 3a30)
+			}
+		}
+
+        component sub-sub-block { (1a @ 3a35)
+
+            component type : Particle (0a @ 3a37)
+            number : 5(10 @ 3a41)
+
+            particle sub-sub-sub-block { (7da @ 3a44)
+
+                name : particle_fure_2 (0a @ 3a46)
+                u0 : 8.0 (15 @ 3a57)
+			}
+		}
+
+        component sub-sub-block { (1a @ 3a5c)
+
+            component type : Particle (0a @ 3a5e)
+            number : 6(10 @ 3a68)
+
+            particle sub-sub-sub-block { (7da @ 3a6b)
+
+                name : particle_fure_1 (0a @ 3a6d)
+                u0 : 8.0 (15 @ 3a7e)
+			}
+		}
+
+        component sub-sub-block { (1a @ 3a83)
+
+            component type : Model (0a @ 3a85)
+            number : 101(10 @ 3a8c)
+
+            3D model sub-sub-sub-block { (32a @ 3a8f)
+
+                name : varibandit_dagger (0a @ 3a91)
+                u0 : 0.0 (15 @ 3aa4)
+                u1 : 1.0 (1d @ 3aa9)
+                u2 : 1.5707963705062866 (25 @ 3aae)
+
+                u3 sub-sub-sub-sub-block { (2a @ 3ab3)
+
+                    w : 1.0 (0d @ 3ab5)
+                    x : 1.0 (15 @ 3aba)
+                    y : 1.0 (1d @ 3abf)
+                    z : 1.0 (25 @ 3ac4)
+				}
+
+                u4 sub-sub-sub-sub-block { (32 @ 3ac9)
+
+                    x : 20.0 (0d @ 3acb)
+                    y : 0.0 (15 @ 3ad0)
+                    z : 0.0 (1d @ 3ad5)
+				}
+                u5 : 0(38 @ 3ada)
+
+                u6 sub-sub-sub-sub-block { (42 @ 3adc)
+
+                    w : 1.0 (0d @ 3ade)
+                    x : 1.0 (15 @ 3ae3)
+                    y : 1.0 (1d @ 3ae8)
+                    z : 1.0 (25 @ 3aed)
+				}
+			}
+		}
+
+        component sub-sub-block { (1a @ 3af2)
+
+            component type : CollisionShape (0a @ 3af5)
+            number : 102(10 @ 3b05)
+
+            collision shape sub-sub-sub-block { (3c2 @ 3b08)
+
+
+                u0 sub-sub-sub-sub-block { (0a @ 3b0a)
+
+                    w : -15.0 (0d @ 3b0c)
+                    x : -15.0 (15 @ 3b11)
+                    y : 30.0 (1d @ 3b16)
+                    z : 30.0 (25 @ 3b1b)
+				}
+			}
+
+            collision shape 2 sub-sub-sub-block { (3ca @ 3b21)
+
+                u1 : 1(18 @ 3b24)
+                u3 : 1(28 @ 3b26)
+                w : -15.0 (35 @ 3b28)
+                x : 15.0 (3d @ 3b2d)
+
+                lua chunk sub-sub-sub-sub-block { (4a @ 3b32)
+
+                    main chunk : chunk >
+
+                    === lua =============
+                    local self, target, collisionNormal, groundCollision = ...;
+                    
+                    if groundCollision then
+                    	Program.Wait(0.1);
+                    	self:destroy();
+                    end
+
+                    =====================
+                    secondary chunk : \x1bLuaQ\x00\x01\x04\x04\x04\x08\x00\x83\x00\x00\x00local self, target, collisionNormal, groundCollision = ...;\r\n\r\nif groundCollision then\r\n\tProgram.Wait(0.1);\r\n\tself:destroy();\r\nend\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x02\x06\n\x00\x00\x00%\x00\x80\x02\xda\x00\x00\x00\x16@\x01\x80\x05\x01\x00\x00\x06A@\x02A\x81\x00\x00\x1cA\x00\x01\x0b\xc1@\x00\x1cA\x00\x01\x1e\x00\x80\x00\x04\x00\x00\x00\x04\x08\x00\x00\x00Program\x00\x04\x05\x00\x00\x00Wait\x00\x03\x9a\x99\x99\x99\x99\x99\xb9?\x04\x08\x00\x00\x00destroy\x00\x00\x00\x00\x00\n\x00\x00\x00\x01\x00\x00\x00\x03\x00\x00\x00\x03\x00\x00\x00\x04\x00\x00\x00\x04\x00\x00\x00\x04\x00\x00\x00\x04\x00\x00\x00\x05\x00\x00\x00\x05\x00\x00\x00\x06\x00\x00\x00\x04\x00\x00\x00\x05\x00\x00\x00self\x00\x01\x00\x00\x00\t\x00\x00\x00\x07\x00\x00\x00target\x00\x01\x00\x00\x00\t\x00\x00\x00\x10\x00\x00\x00collisionNormal\x00\x01\x00\x00\x00\t\x00\x00\x00\x10\x00\x00\x00groundCollision\x00\x01\x00\x00\x00\t\x00\x00\x00\x00\x00\x00\x00 (12 @ 3bba)
+				}
+                z : 1(58 @ 3d4d)
+			}
+		}
+
+        component sub-sub-block { (1a @ 3d4f)
+
+            component type : PhysicsObject (0a @ 3d51)
+            number : 105(10 @ 3d60)
+
+            physics object sub-sub-sub-block { (4fa @ 3d63)
+
+                u0 : 1(08 @ 3d65)
+                u3 : 1500.0 (25 @ 3d67)
+                u4 : 0.0 (2d @ 3d6c)
+                u5 : 700.0 (35 @ 3d71)
+                u6 : 0(38 @ 3d76)
+                u7 : 0.0 (45 @ 3d78)
+			}
+		}
+
+        component sub-sub-block { (1a @ 3d7d)
+
+            component type : ProjectileController (0a @ 3d7f)
+            number : 106(10 @ 3d95)
+
+            projectile controller sub-sub-sub-block { (115a @ 3d98)
+
+                u0 : 1(08 @ 3d9a)
+                u1 : 1(10 @ 3d9c)
+			}
+		}
+
+        component sub-sub-block { (1a @ 3d9e)
+
+            component type : Damage (0a @ 3da0)
+            number : 107(10 @ 3da8)
+
+            damage sub-sub-sub-block { (3d2 @ 3dab)
+
+                u0 : 1(08 @ 3dad)
+                u1 : 0(10 @ 3daf)
+                u2 : 0(18 @ 3db1)
+                u5 : 1.0 (35 @ 3db3)
+                u6 : 0.0 (3d @ 3db8)
+                u7 : 0(40 @ 3dbd)
+                u8 : 1(48 @ 3dbf)
+			}
+		}
+
+        component sub-sub-block { (1a @ 3dc1)
+
+            component type : ModelTransformController (0a @ 3dc3)
+            number : 110(10 @ 3ddd)
+
+            model transform controller sub-sub-sub-block { (342 @ 3de0)
+
+                u0 : 101(08 @ 3de2)
+
+                u1 sub-sub-sub-sub-block { (1a @ 3de4)
+
+                    x : 0.0 (0d @ 3de6)
+                    y : 0.0 (15 @ 3deb)
+                    z : 1.0 (1d @ 3df0)
+				}
+                u2 : 20.943950653076172 (2d @ 3df5)
+			}
+		}
+
+        position sub-sub-block { (22 @ 3dfa)
+
+            x position : 0.0 (0d @ 3dfc)
+            y position : 0.0 (15 @ 3e01)
+		}
+        z position : 0.0 (2d @ 3e06)
+        rotation : 0.0 (35 @ 3e0b)
+        scale : 1.0 (3d @ 3e10)
+
+        u0 sub-sub-block { (42 @ 3e15)
+
+            w : -25.0 (0d @ 3e17)
+            x : -25.0 (15 @ 3e1c)
+            y : 50.0 (1d @ 3e21)
+            z : 50.0 (25 @ 3e26)
+		}
+        hidden : 0(48 @ 3e2b)
+	}
+    u0 : 1.2000000476837158 (15 @ 3e2d)
+}
+
+?item block { (12 @ 3e32)
+
+
+    ?sub-item sub-block { (0a @ 3e35)
+
+        name : varibandit_thrower (12 @ 3e38)
+
+        component sub-sub-block { (1a @ 3e4c)
+
+            component type : Program (0a @ 3e4f)
+            number : 1(10 @ 3e58)
+
+            program sub-sub-sub-block { (4ea @ 3e5b)
+
+                u0 : 1(08 @ 3e5e)
+
+                lua chunk sub-sub-sub-sub-block { (12 @ 3e60)
+
+                    main chunk : chunk >
+
+                    === lua =============
+                    local self = ...;
+                    
+                    local target = EntityController.Target(self);
+                    while true do
+                    	Program.Wait(3);
+                    	if EntityController.IsIdle(self) then
+                    		EntityController.PerformAction(self, 126);
+                    	end
+                    end
+
+                    =====================
+                    secondary chunk : \x1bLuaQ\x00\x01\x04\x04\x04\x08\x00\xc6\x00\x00\x00local self = ...;\r\n\r\nlocal target = EntityController.Target(self);\r\nwhile true do\r\n\tProgram.Wait(3);\r\n\tif EntityController.IsIdle(self) then\r\n\t\tEntityController.PerformAction(self, 126);\r\n\tend\r\nend\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x02\x05\x16\x00\x00\x00%\x00\x00\x01E\x00\x00\x00F@\xc0\x00\x80\x00\x00\x00\\\x80\x00\x01\x85\x80\x00\x00\x86\xc0@\x01\xc1\x00\x01\x00\x9c@\x00\x01\x85\x00\x00\x00\x86@A\x01\xc0\x00\x00\x00\x9c\x80\x00\x01\x9a\x00\x00\x00\x16@\xfd\x7f\x85\x00\x00\x00\x86\x80A\x01\xc0\x00\x00\x00\x01\xc1\x01\x00\x9c@\x80\x01\x16\xc0\xfb\x7f\x1e\x00\x80\x00\x08\x00\x00\x00\x04\x11\x00\x00\x00EntityController\x00\x04\x07\x00\x00\x00Target\x00\x04\x08\x00\x00\x00Program\x00\x04\x05\x00\x00\x00Wait\x00\x03\x00\x00\x00\x00\x00\x00\x08@\x04\x07\x00\x00\x00IsIdle\x00\x04\x0e\x00\x00\x00PerformAction\x00\x03\x00\x00\x00\x00\x00\x80_@\x00\x00\x00\x00\x16\x00\x00\x00\x01\x00\x00\x00\x03\x00\x00\x00\x03\x00\x00\x00\x03\x00\x00\x00\x03\x00\x00\x00\x05\x00\x00\x00\x05\x00\x00\x00\x05\x00\x00\x00\x05\x00\x00\x00\x06\x00\x00\x00\x06\x00\x00\x00\x06\x00\x00\x00\x06\x00\x00\x00\x06\x00\x00\x00\x06\x00\x00\x00\x07\x00\x00\x00\x07\x00\x00\x00\x07\x00\x00\x00\x07\x00\x00\x00\x07\x00\x00\x00\x08\x00\x00\x00\t\x00\x00\x00\x02\x00\x00\x00\x05\x00\x00\x00self\x00\x01\x00\x00\x00\x15\x00\x00\x00\x07\x00\x00\x00target\x00\x05\x00\x00\x00\x15\x00\x00\x00\x00\x00\x00\x00 (12 @ 3f2b)
+				}
+                u1 : 1(18 @ 4166)
+                u2 : 1(20 @ 4168)
+			}
+		}
+
+        component sub-sub-block { (1a @ 416a)
+
+            component type : EntityInfo (0a @ 416c)
+            number : 2(10 @ 4178)
+
+            entity info sub-sub-sub-block { (522 @ 417b)
+
+                name : Bandit (0a @ 417d)
+			}
+		}
+
+        component sub-sub-block { (1a @ 4185)
+
+            component type : Model (0a @ 4187)
+            number : 101(10 @ 418e)
+
+            3D model sub-sub-sub-block { (32a @ 4191)
+
+                name : varibandit_brown (0a @ 4193)
+                u0 : 1.5707963705062866 (15 @ 41a5)
+                u1 : 0.5 (1d @ 41aa)
+                u2 : 0.0 (25 @ 41af)
+
+                u3 sub-sub-sub-sub-block { (2a @ 41b4)
+
+                    w : 1.0 (0d @ 41b6)
+                    x : 1.0 (15 @ 41bb)
+                    y : 1.0 (1d @ 41c0)
+                    z : 1.0 (25 @ 41c5)
+				}
+
+                u4 sub-sub-sub-sub-block { (32 @ 41ca)
+
+                    x : 0.0 (0d @ 41cc)
+                    y : 0.0 (15 @ 41d1)
+                    z : 0.0 (1d @ 41d6)
+				}
+                u5 : 0(38 @ 41db)
+
+                u6 sub-sub-sub-sub-block { (42 @ 41dd)
+
+                    w : 1.0 (0d @ 41df)
+                    x : 1.0 (15 @ 41e4)
+                    y : 1.0 (1d @ 41e9)
+                    z : 1.0 (25 @ 41ee)
+				}
+			}
+		}
+
+        component sub-sub-block { (1a @ 41f3)
+
+            component type : MonsterEntity (0a @ 41f6)
+            number : 103(10 @ 4205)
+
+            entity sub-sub-sub-block { (4c2 @ 4208)
+
+                u0 : 18446744073709551615(08 @ 420a)
+                u1 : 1(10 @ 4215)
+			}
+
+            ?monster entity sub-sub-sub-block { (4f2 @ 4218)
+
+                u0 :  (0a @ 421b)
+
+                lua chunk sub-sub-sub-sub-block { (12 @ 421d)
+
+                    main chunk : chunk >
+
+                    === lua =============
+                    local self = ...;
+                    
+                    local target = EntityController.Target(self);
+                    
+                    if target ~= nil then 
+                    	local targetDirection = 1;
+                    	if (target:position() - self:position()):x() < 0 then targetDirection = -1; end
+                    
+                    	EntityController.SetFacingDirection(self, targetDirection, 0.2);
+                    	EntityController.SetMoveDirection(self, targetDirection, 0.7);
+                    
+                    	Program.Wait(0.8);
+                    	if EntityController.IsIdle(self) then
+                    		EntityController.PerformAction(self, 126);
+                    	end
+                    end
+
+                    =====================
+                    secondary chunk : \x1bLuaQ\x00\x01\x04\x04\x04\x08\x00\xca\x01\x00\x00local self = ...;\r\n\r\nlocal target = EntityController.Target(self);\r\n\r\nif target ~= nil then \r\n\tlocal targetDirection = 1;\r\n\tif (target:position() - self:position()):x() < 0 then targetDirection = -1; end\r\n\r\n\tEntityController.SetFacingDirection(self, targetDirection, 0.2);\r\n\tEntityController.SetMoveDirection(self, targetDirection, 0.7);\r\n\r\n\tProgram.Wait(0.8);\r\n\tif EntityController.IsIdle(self) then\r\n\t\tEntityController.PerformAction(self, 126);\r\n\tend\r\nend\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x02\x07.\x00\x00\x00%\x00\x00\x01E\x00\x00\x00F@\xc0\x00\x80\x00\x00\x00\\\x80\x00\x01W\x80\xc0\x00\x16@\t\x80\x81\xc0\x00\x00\xcb\x00\xc1\x00\xdc\x80\x00\x01\x0b\x01A\x00\x1c\x81\x00\x01\xcd\x00\x81\x01\xcb@\xc1\x01\xdc\x80\x00\x01\x18\x80\xc1\x01\x16\x00\x00\x80\x81\xc0\x01\x00\xc5\x00\x00\x00\xc6\x00\xc2\x01\x00\x01\x00\x00@\x01\x00\x01\x81A\x02\x00\xdc@\x00\x02\xc5\x00\x00\x00\xc6\x80\xc2\x01\x00\x01\x00\x00@\x01\x00\x01\x81\xc1\x02\x00\xdc@\x00\x02\xc5\x00\x03\x00\xc6@\xc3\x01\x01\x81\x03\x00\xdc@\x00\x01\xc5\x00\x00\x00\xc6\xc0\xc3\x01\x00\x01\x00\x00\xdc\x80\x00\x01\xda\x00\x00\x00\x16\x00\x01\x80\xc5\x00\x00\x00\xc6\x00\xc4\x01\x00\x01\x00\x00AA\x04\x00\xdc@\x80\x01\x1e\x00\x80\x00\x12\x00\x00\x00\x04\x11\x00\x00\x00EntityController\x00\x04\x07\x00\x00\x00Target\x00\x00\x03\x00\x00\x00\x00\x00\x00\xf0?\x04\t\x00\x00\x00position\x00\x04\x02\x00\x00\x00x\x00\x03\x00\x00\x00\x00\x00\x00\x00\x00\x03\x00\x00\x00\x00\x00\x00\xf0\xbf\x04\x13\x00\x00\x00SetFacingDirection\x00\x03\x9a\x99\x99\x99\x99\x99\xc9?\x04\x11\x00\x00\x00SetMoveDirection\x00\x03ffffff\xe6?\x04\x08\x00\x00\x00Program\x00\x04\x05\x00\x00\x00Wait\x00\x03\x9a\x99\x99\x99\x99\x99\xe9?\x04\x07\x00\x00\x00IsIdle\x00\x04\x0e\x00\x00\x00PerformAction\x00\x03\x00\x00\x00\x00\x00\x80_@\x00\x00\x00\x00.\x00\x00\x00\x01\x00\x00\x00\x03\x00\x00\x00\x03\x00\x00\x00\x03\x00\x00\x00\x03\x00\x00\x00\x05\x00\x00\x00\x05\x00\x00\x00\x06\x00\x00\x00\x07\x00\x00\x00\x07\x00\x00\x00\x07\x00\x00\x00\x07\x00\x00\x00\x07\x00\x00\x00\x07\x00\x00\x00\x07\x00\x00\x00\x07\x00\x00\x00\x07\x00\x00\x00\x07\x00\x00\x00\t\x00\x00\x00\t\x00\x00\x00\t\x00\x00\x00\t\x00\x00\x00\t\x00\x00\x00\t\x00\x00\x00\n\x00\x00\x00\n\x00\x00\x00\n\x00\x00\x00\n\x00\x00\x00\n\x00\x00\x00\n\x00\x00\x00\x0c\x00\x00\x00\x0c\x00\x00\x00\x0c\x00\x00\x00\x0c\x00\x00\x00\r\x00\x00\x00\r\x00\x00\x00\r\x00\x00\x00\r\x00\x00\x00\r\x00\x00\x00\r\x00\x00\x00\x0e\x00\x00\x00\x0e\x00\x00\x00\x0e\x00\x00\x00\x0e\x00\x00\x00\x0e\x00\x00\x00\x10\x00\x00\x00\x03\x00\x00\x00\x05\x00\x00\x00self\x00\x01\x00\x00\x00-\x00\x00\x00\x07\x00\x00\x00target\x00\x05\x00\x00\x00-\x00\x00\x00\x10\x00\x00\x00targetDirection\x00\x08\x00\x00\x00-\x00\x00\x00\x00\x00\x00\x00 (12 @ 43ec)
+				}
+                u2 : 1(18 @ 4878)
+                u3 : 1(20 @ 487a)
+			}
+		}
+
+        component sub-sub-block { (1a @ 487c)
+
+            component type : EntityController (0a @ 487e)
+            number : 104(10 @ 4890)
+
+            entity controller sub-sub-sub-block { (50a @ 4893)
+
+                entity component : 103(08 @ 4895)
+                animation controller component : 105(10 @ 4897)
+                u2 : 112(18 @ 4899)
+                collision shape : 117(20 @ 489b)
+                u4 : 100.0 (2d @ 489d)
+                u5 : 1000.0 (35 @ 48a2)
+                u6 : 300.0 (3d @ 48a7)
+                u7 : 4(40 @ 48ac)
+			}
+		}
+
+        component sub-sub-block { (1a @ 48ae)
+
+            component type : AnimationController (0a @ 48b0)
+            number : 105(10 @ 48c5)
+
+            animation controller sub-sub-sub-block { (4aa @ 48c8)
+
+                model component : 101(08 @ 48ca)
+                u1 : 0(10 @ 48cc)
+                u2 : 0(18 @ 48ce)
+			}
+		}
+
+        component sub-sub-block { (1a @ 48d0)
+
+            component type : CollisionShape (0a @ 48d2)
+            number : 106(10 @ 48e2)
+            name : main (1a @ 48e4)
+
+            collision shape sub-sub-sub-block { (3c2 @ 48eb)
+
+
+                u0 sub-sub-sub-sub-block { (0a @ 48ed)
+
+                    w : -26.0 (0d @ 48ef)
+                    x : -0.8095080256462097 (15 @ 48f4)
+                    y : 54.0 (1d @ 48f9)
+                    z : 70.80950927734375 (25 @ 48fe)
+				}
+			}
+
+            collision shape 2 sub-sub-sub-block { (3ca @ 4904)
+
+                u1 : 1(18 @ 4906)
+                u2 : 1(20 @ 4908)
+                u3 : 1(28 @ 490a)
+                w : -15.0 (35 @ 490c)
+                x : 15.0 (3d @ 4911)
+                z : 1(58 @ 4916)
+			}
+		}
+
+        component sub-sub-block { (1a @ 4918)
+
+            component type : SwingableWeaponController (0a @ 491a)
+            number : 109(10 @ 4935)
+
+            swingable weapon controller sub-sub-sub-block { (c8a @ 4938)
+
+                parent model : 101(08 @ 493a)
+                bone : BoneRightWeapon1 (12 @ 493c)
+                child model : varibandit_weapon_dagger (1a @ 494e)
+			}
+		}
+
+        component sub-sub-block { (1a @ 4968)
+
+            component type : KeyframeAnimation (0a @ 496a)
+            number : 112(10 @ 497d)
+
+            keyframe animation sub-sub-sub-block { (332 @ 4980)
+
+                linked model component number : 101(08 @ 4982)
+                name : variknight_shield_walk (12 @ 4984)
+                u0 : 1(18 @ 499c)
+                u1 : 1.2000000476837158 (25 @ 499e)
+                u2 : 1(28 @ 49a3)
+			}
+		}
+
+        component sub-sub-block { (1a @ 49a5)
+
+            component type : UtilityShape (0a @ 49a7)
+            number : 117(10 @ 49b5)
+            name : roam (1a @ 49b7)
+
+            collision shape sub-sub-sub-block { (3c2 @ 49be)
+
+
+                u0 sub-sub-sub-sub-block { (0a @ 49c0)
+
+                    w : -100.0 (0d @ 49c2)
+                    x : -50.0 (15 @ 49c7)
+                    y : 200.0 (1d @ 49cc)
+                    z : 100.0 (25 @ 49d1)
+				}
+			}
+		}
+
+        component sub-sub-block { (1a @ 49d6)
+
+            component type : Damage (0a @ 49d8)
+            number : 119(10 @ 49e0)
+
+            damage sub-sub-sub-block { (3d2 @ 49e3)
+
+                u0 : 1(08 @ 49e5)
+                u1 : 0(10 @ 49e7)
+                u2 : 0(18 @ 49e9)
+                u5 : 1.0 (35 @ 49eb)
+                u6 : 0.0 (3d @ 49f0)
+                u7 : 0(40 @ 49f5)
+                u8 : 1(48 @ 49f7)
+			}
+		}
+
+        component sub-sub-block { (1a @ 49f9)
+
+            component type : Health (0a @ 49fb)
+            number : 120(10 @ 4a03)
+
+            health sub-sub-sub-block { (3da @ 4a06)
+
+                u0 : 3(08 @ 4a08)
+                u1 : 0(10 @ 4a0a)
+
+                u2 sub-sub-sub-sub-block { (1a @ 4a0c)
+
+                    x : 0.0 (0d @ 4a0e)
+                    y : 50.0 (15 @ 4a13)
+				}
+			}
+		}
+
+        component sub-sub-block { (1a @ 4a18)
+
+            component type : EntityAction (0a @ 4a1b)
+            number : 126(10 @ 4a29)
+
+            entity action sub-sub-sub-block { (512 @ 4a2c)
+
+
+                lua chunk sub-sub-sub-sub-block { (0a @ 4a2f)
+
+                    main chunk : chunk >
+
+                    === lua =============
+                    local self = ...;
+                    
+                    local shootAnimation = 127;
+                    
+                    KeyframeAnimation.SetCurrentTime(self, shootAnimation, 0.0);
+                    AnimationController.BlendToAnimation(self, shootAnimation);
+                    
+                    Program.Wait(KeyframeAnimation.TimeToFrame(self, shootAnimation, 13));
+                    
+                    throwDirection = EntityController.FacingDirection(self);
+                    
+                    local angles = { throwDirection*-30, throwDirection*-50 };
+                    
+                    for i=1, #angles do
+                    	local angleOffset = angles[i];
+                    	local projectile = Scene.CreateObject("varibandit_dagger", "projectile", self);
+                    
+                    	local directionVector = Vector3.FromAngle(90 + angleOffset);
+                    
+                    	projectile:setPosition(self:position() + directionVector * 60);
+                    	projectile:setVelocity(directionVector * 500);
+                    
+                    	PhysicsObject.SetGravityDirection(projectile, Vector3.FromAngle(-90 + 0.5 * angleOffset));
+                    end
+                    
+                    Program.Wait(KeyframeAnimation.TimeToCompletion(self, shootAnimation));
+                    
+                    
+
+                    =====================
+                    secondary chunk : \x1bLuaQ\x00\x01\x04\x04\x04\x08\x00e\x03\x00\x00local self = ...;\r\n\r\nlocal shootAnimation = 127;\r\n\r\nKeyframeAnimation.SetCurrentTime(self, shootAnimation, 0.0);\r\nAnimationController.BlendToAnimation(self, shootAnimation);\r\n\r\nProgram.Wait(KeyframeAnimation.TimeToFrame(self, shootAnimation, 13));\r\n\r\nthrowDirection = EntityController.FacingDirection(self);\r\n\r\nlocal angles = { throwDirection*-30, throwDirection*-50 };\r\n\r\nfor i=1, #angles do\r\n\tlocal angleOffset = angles[i];\r\n\tlocal projectile = Scene.CreateObject("varibandit_dagger", "projectile", self);\r\n\r\n\tlocal directionVector = Vector3.FromAngle(90 + angleOffset);\r\n\r\n\tprojectile:setPosition(self:position() + directionVector * 60);\r\n\tprojectile:setVelocity(directionVector * 500);\r\n\r\n\tPhysicsObject.SetGravityDirection(projectile, Vector3.FromAngle(-90 + 0.5 * angleOffset));\r\nend\r\n\r\nProgram.Wait(KeyframeAnimation.TimeToCompletion(self, shootAnimation));\r\n\r\n\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x02\x0eL\x00\x00\x00%\x00\x00\x01A\x00\x00\x00\x85@\x00\x00\x86\x80@\x01\xc0\x00\x00\x00\x00\x01\x80\x00A\xc1\x00\x00\x9c@\x00\x02\x85\x00\x01\x00\x86@A\x01\xc0\x00\x00\x00\x00\x01\x80\x00\x9c@\x80\x01\x85\x80\x01\x00\x86\xc0A\x01\xc5@\x00\x00\xc6\x00\xc2\x01\x00\x01\x00\x00@\x01\x80\x00\x81A\x02\x00\xdc\x00\x00\x02\x9c@\x00\x00\x85\xc0\x02\x00\x86\x00C\x01\xc0\x00\x00\x00\x9c\x80\x00\x01\x87\x80\x02\x00\x8a\x00\x00\x01\xc5\x80\x02\x00\xce@\xc3\x01\x05\x81\x02\x00\x0e\x81C\x02\xa2@\x00\x01\xc1\xc0\x03\x00\x14\x01\x00\x01A\xc1\x03\x00\xe0\x00\x07\x80\xc6\x81\x01\x01\x05\x02\x04\x00\x06BD\x04A\x82\x04\x00\x81\xc2\x04\x00\xc0\x02\x00\x00\x1c\x82\x00\x02E\x02\x05\x00FB\xc5\x04\x8c\xc2\x01\x8b\\\x82\x00\x01\x8b\xc2E\x04\x0b\x03F\x00\x1c\x83\x00\x01NC\xc6\x04\x0cC\x03\x06\x9cB\x80\x01\x8b\x82F\x04\x0e\xc3\xc6\x04\x9cB\x80\x01\x85\x02\x07\x00\x86BG\x05\xc0\x02\x00\x04\x05\x03\x05\x00\x06CE\x06N\xc3\x01\x8fLC\x83\x8f\x1c\x03\x00\x01\x9cB\x00\x00\xdf@\xf8\x7f\xc5\x80\x01\x00\xc6\xc0\xc1\x01\x05A\x00\x00\x06\x01H\x02@\x01\x00\x00\x80\x01\x80\x00\x1c\x01\x80\x01\xdc@\x00\x00\x1e\x00\x80\x00!\x00\x00\x00\x03\x00\x00\x00\x00\x00\xc0_@\x04\x12\x00\x00\x00KeyframeAnimation\x00\x04\x0f\x00\x00\x00SetCurrentTime\x00\x03\x00\x00\x00\x00\x00\x00\x00\x00\x04\x14\x00\x00\x00AnimationController\x00\x04\x11\x00\x00\x00BlendToAnimation\x00\x04\x08\x00\x00\x00Program\x00\x04\x05\x00\x00\x00Wait\x00\x04\x0c\x00\x00\x00TimeToFrame\x00\x03\x00\x00\x00\x00\x00\x00*@\x04\x0f\x00\x00\x00throwDirection\x00\x04\x11\x00\x00\x00EntityController\x00\x04\x10\x00\x00\x00FacingDirection\x00\x03\x00\x00\x00\x00\x00\x00>\xc0\x03\x00\x00\x00\x00\x00\x00I\xc0\x03\x00\x00\x00\x00\x00\x00\xf0?\x04\x06\x00\x00\x00Scene\x00\x04\r\x00\x00\x00CreateObject\x00\x04\x12\x00\x00\x00varibandit_dagger\x00\x04\x0b\x00\x00\x00projectile\x00\x04\x08\x00\x00\x00Vector3\x00\x04\n\x00\x00\x00FromAngle\x00\x03\x00\x00\x00\x00\x00\x80V@\x04\x0c\x00\x00\x00setPosition\x00\x04\t\x00\x00\x00position\x00\x03\x00\x00\x00\x00\x00\x00N@\x04\x0c\x00\x00\x00setVelocity\x00\x03\x00\x00\x00\x00\x00@\x7f@\x04\x0e\x00\x00\x00PhysicsObject\x00\x04\x14\x00\x00\x00SetGravityDirection\x00\x03\x00\x00\x00\x00\x00\x00\xe0?\x03\x00\x00\x00\x00\x00\x80V\xc0\x04\x11\x00\x00\x00TimeToCompletion\x00\x00\x00\x00\x00L\x00\x00\x00\x01\x00\x00\x00\x03\x00\x00\x00\x05\x00\x00\x00\x05\x00\x00\x00\x05\x00\x00\x00\x05\x00\x00\x00\x05\x00\x00\x00\x05\x00\x00\x00\x06\x00\x00\x00\x06\x00\x00\x00\x06\x00\x00\x00\x06\x00\x00\x00\x06\x00\x00\x00\x08\x00\x00\x00\x08\x00\x00\x00\x08\x00\x00\x00\x08\x00\x00\x00\x08\x00\x00\x00\x08\x00\x00\x00\x08\x00\x00\x00\x08\x00\x00\x00\x08\x00\x00\x00\n\x00\x00\x00\n\x00\x00\x00\n\x00\x00\x00\n\x00\x00\x00\n\x00\x00\x00\x0c\x00\x00\x00\x0c\x00\x00\x00\x0c\x00\x00\x00\x0c\x00\x00\x00\x0c\x00\x00\x00\x0c\x00\x00\x00\x0e\x00\x00\x00\x0e\x00\x00\x00\x0e\x00\x00\x00\x0e\x00\x00\x00\x0f\x00\x00\x00\x10\x00\x00\x00\x10\x00\x00\x00\x10\x00\x00\x00\x10\x00\x00\x00\x10\x00\x00\x00\x10\x00\x00\x00\x12\x00\x00\x00\x12\x00\x00\x00\x12\x00\x00\x00\x12\x00\x00\x00\x14\x00\x00\x00\x14\x00\x00\x00\x14\x00\x00\x00\x14\x00\x00\x00\x14\x00\x00\x00\x14\x00\x00\x00\x15\x00\x00\x00\x15\x00\x00\x00\x15\x00\x00\x00\x17\x00\x00\x00\x17\x00\x00\x00\x17\x00\x00\x00\x17\x00\x00\x00\x17\x00\x00\x00\x17\x00\x00\x00\x17\x00\x00\x00\x17\x00\x00\x00\x17\x00\x00\x00\x0e\x00\x00\x00\x1a\x00\x00\x00\x1a\x00\x00\x00\x1a\x00\x00\x00\x1a\x00\x00\x00\x1a\x00\x00\x00\x1a\x00\x00\x00\x1a\x00\x00\x00\x1a\x00\x00\x00\x1a\x00\x00\x00\n\x00\x00\x00\x05\x00\x00\x00self\x00\x01\x00\x00\x00K\x00\x00\x00\x0f\x00\x00\x00shootAnimation\x00\x02\x00\x00\x00K\x00\x00\x00\x07\x00\x00\x00angles\x00!\x00\x00\x00K\x00\x00\x00\x0c\x00\x00\x00(for index)\x00$\x00\x00\x00C\x00\x00\x00\x0c\x00\x00\x00(for limit)\x00$\x00\x00\x00C\x00\x00\x00\x0b\x00\x00\x00(for step)\x00$\x00\x00\x00C\x00\x00\x00\x02\x00\x00\x00i\x00%\x00\x00\x00B\x00\x00\x00\x0c\x00\x00\x00angleOffset\x00&\x00\x00\x00B\x00\x00\x00\x0b\x00\x00\x00projectile\x00,\x00\x00\x00B\x00\x00\x00\x10\x00\x00\x00directionVector\x000\x00\x00\x00B\x00\x00\x00\x00\x00\x00\x00 (12 @ 4d99)
+				}
+			}
+		}
+
+        component sub-sub-block { (1a @ 566a)
+
+            component type : KeyframeAnimation (0a @ 566c)
+            number : 127(10 @ 567f)
+
+            keyframe animation sub-sub-sub-block { (332 @ 5682)
+
+                linked model component number : 101(08 @ 5684)
+                name : varibandit_throw (12 @ 5686)
+                u0 : 0(18 @ 5698)
+                u1 : 1.0 (25 @ 569a)
+                u2 : 1(28 @ 569f)
+			}
+		}
+
+        position sub-sub-block { (22 @ 56a1)
+
+            x position : 0.0 (0d @ 56a3)
+            y position : 0.0 (15 @ 56a8)
+		}
+        z position : 0.0 (2d @ 56ad)
+        rotation : 0.0 (35 @ 56b2)
+        scale : 1.0 (3d @ 56b7)
+
+        u0 sub-sub-block { (42 @ 56bc)
+
+            w : -26.0 (0d @ 56be)
+            x : -0.8095080256462097 (15 @ 56c3)
+            y : 54.0 (1d @ 56c8)
+            z : 70.80950927734375 (25 @ 56cd)
+		}
+        hidden : 0(48 @ 56d2)
+	}
+    u0 : 1.0 (15 @ 56d4)
+}
+
+?item block { (12 @ 56d9)
+
+
+    ?sub-item sub-block { (0a @ 56dc)
+
+        name : varibandit_weapon_dagger (12 @ 56df)
+
+        component sub-sub-block { (1a @ 56f9)
+
+            component type : WeaponTrail (0a @ 56fb)
+            number : 1(10 @ 5708)
+
+            weapon trail sub-sub-sub-block { (ca2 @ 570b)
+
+
+                u0 sub-sub-sub-sub-block { (0a @ 570d)
+
+                    w : 1.0 (0d @ 570f)
+                    x : 1.0 (15 @ 5714)
+                    y : 1.0 (1d @ 5719)
+                    z : 1.0 (25 @ 571e)
+				}
+			}
+		}
+
+        component sub-sub-block { (1a @ 5723)
+
+            component type : CollisionShape (0a @ 5725)
+            number : 2(10 @ 5735)
+
+            collision shape sub-sub-sub-block { (3c2 @ 5738)
+
+
+                u0 sub-sub-sub-sub-block { (0a @ 573a)
+
+                    w : 0.0 (0d @ 573c)
+                    x : 0.0 (15 @ 5741)
+                    y : 0.0 (1d @ 5746)
+                    z : 0.0 (25 @ 574b)
+				}
+			}
+
+            collision shape 2 sub-sub-sub-block { (3ca @ 5751)
+
+                w : -15.0 (35 @ 5753)
+                x : 15.0 (3d @ 5758)
+                z : 0(58 @ 575d)
+			}
+		}
+
+        component sub-sub-block { (1a @ 575f)
+
+            component type : Damage (0a @ 5761)
+            number : 3(10 @ 5769)
+
+            damage sub-sub-sub-block { (3d2 @ 576c)
+
+                u0 : 1(08 @ 576e)
+                u1 : 0(10 @ 5770)
+                u2 : 0(18 @ 5772)
+                u5 : 1.0 (35 @ 5774)
+                u6 : 0.0 (3d @ 5779)
+                u7 : 0(40 @ 577e)
+                u8 : 1(48 @ 5780)
+			}
+		}
+
+        component sub-sub-block { (1a @ 5782)
+
+            component type : SoundEffect (0a @ 5784)
+            number : 7(10 @ 5791)
+            name : swing1 (1a @ 5793)
+
+            sound effect sub-sub-sub-block { (462 @ 579c)
+
+                sound : sword_swing2 (0a @ 579e)
+                u0 : 0.0 (15 @ 57ac)
+                u1 : 1.0 (1d @ 57b1)
+			}
+		}
+
+        component sub-sub-block { (1a @ 57b6)
+
+            component type : SoundEffect (0a @ 57b8)
+            number : 8(10 @ 57c5)
+            name : impact1 (1a @ 57c7)
+
+            sound effect sub-sub-sub-block { (462 @ 57d1)
+
+                sound : sword_impact3 (0a @ 57d3)
+                u0 : 0.0 (15 @ 57e2)
+                u1 : 1.0 (1d @ 57e7)
+			}
+		}
+
+        component sub-sub-block { (1a @ 57ec)
+
+            component type : WeaponGlow (0a @ 57ee)
+            number : 10(10 @ 57fa)
+
+            weapon glow sub-sub-sub-block { (c9a @ 57fd)
+
+                u0 : 12(08 @ 57ff)
+
+                u1 sub-sub-sub-sub-block { (12 @ 5801)
+
+                    w : 1.0 (0d @ 5803)
+                    x : 1.0 (15 @ 5808)
+                    y : 1.0 (1d @ 580d)
+                    z : 0.0 (25 @ 5812)
+				}
+
+                u2 sub-sub-sub-sub-block { (1a @ 5817)
+
+                    w : 1.0 (0d @ 5819)
+                    x : 1.0 (15 @ 581e)
+                    y : 1.0 (1d @ 5823)
+                    z : 0.0 (25 @ 5828)
+				}
+                u2 : 15.0 (25 @ 582d)
+			}
+		}
+
+        component sub-sub-block { (1a @ 5832)
+
+            component type : ParticleEmitter (0a @ 5834)
+            number : 12(10 @ 5845)
+            name : glow (1a @ 5847)
+
+            particle emitter sub-sub-sub-block { (7d2 @ 584e)
+
+                particle : 13(10 @ 5850)
+                particle : 14(10 @ 5852)
+                particle : 15(10 @ 5854)
+                u1 : 0(18 @ 5856)
+                u2 : 30(20 @ 5858)
+                u3 : 0(28 @ 585a)
+                u4 : 0(30 @ 585c)
+                u6 : 0(40 @ 585e)
+			}
+		}
+
+        component sub-sub-block { (1a @ 5860)
+
+            component type : Particle (0a @ 5862)
+            number : 13(10 @ 586c)
+            name : glow (1a @ 586e)
+
+            particle sub-sub-sub-block { (7da @ 5875)
+
+                name : particle_fure_1 (0a @ 5877)
+                u0 : 14.0 (15 @ 5888)
+			}
+		}
+
+        component sub-sub-block { (1a @ 588d)
+
+            component type : Particle (0a @ 588f)
+            number : 14(10 @ 5899)
+            name : glow (1a @ 589b)
+
+            particle sub-sub-sub-block { (7da @ 58a2)
+
+                name : particle_fure_2 (0a @ 58a4)
+                u0 : 16.0 (15 @ 58b5)
+			}
+		}
+
+        component sub-sub-block { (1a @ 58ba)
+
+            component type : Particle (0a @ 58bc)
+            number : 15(10 @ 58c6)
+            name : glow (1a @ 58c8)
+
+            particle sub-sub-sub-block { (7da @ 58cf)
+
+                name : particle_fure_3 (0a @ 58d1)
+                u0 : 14.0 (15 @ 58e2)
+			}
+		}
+
+        component sub-sub-block { (1a @ 58e7)
+
+            component type : WeaponTrail (0a @ 58e9)
+            number : 16(10 @ 58f6)
+            name : glow (1a @ 58f8)
+
+            weapon trail sub-sub-sub-block { (ca2 @ 58ff)
+
+
+                u0 sub-sub-sub-sub-block { (0a @ 5901)
+
+                    w : 1.0 (0d @ 5903)
+                    x : 1.0 (15 @ 5908)
+                    y : 1.0 (1d @ 590d)
+                    z : 1.0 (25 @ 5912)
+				}
+			}
+		}
+
+        component sub-sub-block { (1a @ 5917)
+
+            component type : Model (0a @ 5919)
+            number : 101(10 @ 5920)
+
+            3D model sub-sub-sub-block { (32a @ 5923)
+
+                name : varibandit_dagger (0a @ 5925)
+                u0 : 0.0 (15 @ 5938)
+                u1 : 1.0 (1d @ 593d)
+                u2 : 0.0 (25 @ 5942)
+
+                u3 sub-sub-sub-sub-block { (2a @ 5947)
+
+                    w : 0.0 (0d @ 5949)
+                    x : 0.0 (15 @ 594e)
+                    y : 0.0 (1d @ 5953)
+                    z : 1.0 (25 @ 5958)
+				}
+
+                u4 sub-sub-sub-sub-block { (32 @ 595d)
+
+                    x : 0.0 (0d @ 595f)
+                    y : 0.0 (15 @ 5964)
+                    z : 0.0 (1d @ 5969)
+				}
+                u5 : 0(38 @ 596e)
+
+                u6 sub-sub-sub-sub-block { (42 @ 5970)
+
+                    w : 1.0 (0d @ 5972)
+                    x : 1.0 (15 @ 5977)
+                    y : 1.0 (1d @ 597c)
+                    z : 1.0 (25 @ 5981)
+				}
+			}
+		}
+
+        component sub-sub-block { (1a @ 5986)
+
+            component type : SwingableWeapon (0a @ 5988)
+            number : 103(10 @ 5999)
+
+            swingable weapon sub-sub-sub-block { (c82 @ 599c)
+
+                linked model component number : 101(08 @ 599e)
+                u1 : 1(10 @ 59a0)
+                u2 : 0(20 @ 59a2)
+                u3 : 7(28 @ 59a4)
+                u4 : 8(30 @ 59a6)
+                u5 : 16(38 @ 59a8)
+                u6 : 2(40 @ 59aa)
+                u7 : 10(48 @ 59ac)
+                w : 50.0 (55 @ 59ae)
+                x : 65.0 (5d @ 59b3)
+                y : 0.0 (65 @ 59b8)
+                z : 10.0 (6d @ 59bd)
+                u8 : \r\x00\x00\x00?\x15\x00\x00\x00?\x1d\x00\x00\x00?%\x00\x00\x00\x00 (72 @ 59c2)
+			}
+		}
+
+        position sub-sub-block { (22 @ 59d8)
+
+            x position : 0.0 (0d @ 59da)
+            y position : 0.0 (15 @ 59df)
+		}
+        z position : 0.0 (2d @ 59e4)
+        rotation : 0.0 (35 @ 59e9)
+        scale : 1.0 (3d @ 59ee)
+
+        u0 sub-sub-block { (42 @ 59f3)
+
+            w : 0.0 (0d @ 59f5)
+            x : 0.0 (15 @ 59fa)
+            y : 0.0 (1d @ 59ff)
+            z : 0.0 (25 @ 5a04)
+		}
+        hidden : 0(48 @ 5a09)
+	}
+    u0 : 1.0 (15 @ 5a0b)
+}
+
+?item block { (12 @ 5a10)
+
+
+    ?sub-item sub-block { (0a @ 5a13)
+
+        name : variknight_shield (12 @ 5a16)
+
+        component sub-sub-block { (1a @ 5a29)
+
+            component type : EntityInfo (0a @ 5a2b)
+            number : 1(10 @ 5a37)
+
+            entity info sub-sub-sub-block { (522 @ 5a3a)
+
+                name : Tainted Knight (0a @ 5a3c)
+			}
+		}
+
+        component sub-sub-block { (1a @ 5a4c)
+
+            component type : Model (0a @ 5a4e)
+            number : 101(10 @ 5a55)
+
+            3D model sub-sub-sub-block { (32a @ 5a58)
+
+                name : variknight_shield (0a @ 5a5a)
+                u0 : 1.5707963705062866 (15 @ 5a6d)
+                u1 : 0.0 (1d @ 5a72)
+                u2 : 0.0 (25 @ 5a77)
+
+                u3 sub-sub-sub-sub-block { (2a @ 5a7c)
+
+                    w : 1.0 (0d @ 5a7e)
+                    x : 1.0 (15 @ 5a83)
+                    y : 1.0 (1d @ 5a88)
+                    z : 1.0 (25 @ 5a8d)
+				}
+
+                u4 sub-sub-sub-sub-block { (32 @ 5a92)
+
+                    x : 0.0 (0d @ 5a94)
+                    y : 0.0 (15 @ 5a99)
+                    z : 0.0 (1d @ 5a9e)
+				}
+                u5 : 0(38 @ 5aa3)
+
+                u6 sub-sub-sub-sub-block { (42 @ 5aa5)
+
+                    w : 1.0 (0d @ 5aa7)
+                    x : 1.0 (15 @ 5aac)
+                    y : 1.0 (1d @ 5ab1)
+                    z : 1.0 (25 @ 5ab6)
+				}
+			}
+		}
+
+        component sub-sub-block { (1a @ 5abb)
+
+            component type : MonsterEntity (0a @ 5abe)
+            number : 103(10 @ 5acd)
+
+            entity sub-sub-sub-block { (4c2 @ 5ad0)
+
+                u0 : 18446744073709551615(08 @ 5ad2)
+                u1 : 1(10 @ 5add)
+			}
+
+            ?monster entity sub-sub-sub-block { (4f2 @ 5ae0)
+
+                u0 : \n"local self = ...;\r\n\r\nTrapOnKill();\x12\x98\x01\x1bLuaQ\x00\x01\x04\x04\x04\x08\x00#\x00\x00\x00local self = ...;\r\n\r\nTrapOnKill();\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x02\x02\x04\x00\x00\x00%\x00\x00\x01E\x00\x00\x00\\@\x80\x00\x1e\x00\x80\x00\x01\x00\x00\x00\x04\x0b\x00\x00\x00TrapOnKill\x00\x00\x00\x00\x00\x04\x00\x00\x00\x01\x00\x00\x00\x03\x00\x00\x00\x03\x00\x00\x00\x03\x00\x00\x00\x01\x00\x00\x00\x05\x00\x00\x00self\x00\x01\x00\x00\x00\x03\x00\x00\x00\x00\x00\x00\x00 (0a @ 5ae3)
+
+                lua chunk sub-sub-sub-sub-block { (12 @ 5ba5)
+
+                    main chunk : chunk >
+
+                    === lua =============
+                    local self = ...;
+                    
+                    local target = EntityController.Target(self);
+                    
+                    if target ~= nil then 
+                    	local targetDirection = 1;
+                    	if (target:position() - self:position()):x() < 0 then targetDirection = -1; end
+                    
+                    	EntityController.SetFacingDirection(self, targetDirection, 0.2);
+                    	EntityController.SetMoveDirection(self, targetDirection, 0.7);
+                    
+                    	Program.Wait(0.8);
+                    	if EntityController.IsIdle(self) then
+                    		EntityController.PerformAction(self, 126);
+                    	end
+                    end
+
+                    =====================
+                    secondary chunk : \x1bLuaQ\x00\x01\x04\x04\x04\x08\x00\xca\x01\x00\x00local self = ...;\r\n\r\nlocal target = EntityController.Target(self);\r\n\r\nif target ~= nil then \r\n\tlocal targetDirection = 1;\r\n\tif (target:position() - self:position()):x() < 0 then targetDirection = -1; end\r\n\r\n\tEntityController.SetFacingDirection(self, targetDirection, 0.2);\r\n\tEntityController.SetMoveDirection(self, targetDirection, 0.7);\r\n\r\n\tProgram.Wait(0.8);\r\n\tif EntityController.IsIdle(self) then\r\n\t\tEntityController.PerformAction(self, 126);\r\n\tend\r\nend\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x02\x07.\x00\x00\x00%\x00\x00\x01E\x00\x00\x00F@\xc0\x00\x80\x00\x00\x00\\\x80\x00\x01W\x80\xc0\x00\x16@\t\x80\x81\xc0\x00\x00\xcb\x00\xc1\x00\xdc\x80\x00\x01\x0b\x01A\x00\x1c\x81\x00\x01\xcd\x00\x81\x01\xcb@\xc1\x01\xdc\x80\x00\x01\x18\x80\xc1\x01\x16\x00\x00\x80\x81\xc0\x01\x00\xc5\x00\x00\x00\xc6\x00\xc2\x01\x00\x01\x00\x00@\x01\x00\x01\x81A\x02\x00\xdc@\x00\x02\xc5\x00\x00\x00\xc6\x80\xc2\x01\x00\x01\x00\x00@\x01\x00\x01\x81\xc1\x02\x00\xdc@\x00\x02\xc5\x00\x03\x00\xc6@\xc3\x01\x01\x81\x03\x00\xdc@\x00\x01\xc5\x00\x00\x00\xc6\xc0\xc3\x01\x00\x01\x00\x00\xdc\x80\x00\x01\xda\x00\x00\x00\x16\x00\x01\x80\xc5\x00\x00\x00\xc6\x00\xc4\x01\x00\x01\x00\x00AA\x04\x00\xdc@\x80\x01\x1e\x00\x80\x00\x12\x00\x00\x00\x04\x11\x00\x00\x00EntityController\x00\x04\x07\x00\x00\x00Target\x00\x00\x03\x00\x00\x00\x00\x00\x00\xf0?\x04\t\x00\x00\x00position\x00\x04\x02\x00\x00\x00x\x00\x03\x00\x00\x00\x00\x00\x00\x00\x00\x03\x00\x00\x00\x00\x00\x00\xf0\xbf\x04\x13\x00\x00\x00SetFacingDirection\x00\x03\x9a\x99\x99\x99\x99\x99\xc9?\x04\x11\x00\x00\x00SetMoveDirection\x00\x03ffffff\xe6?\x04\x08\x00\x00\x00Program\x00\x04\x05\x00\x00\x00Wait\x00\x03\x9a\x99\x99\x99\x99\x99\xe9?\x04\x07\x00\x00\x00IsIdle\x00\x04\x0e\x00\x00\x00PerformAction\x00\x03\x00\x00\x00\x00\x00\x80_@\x00\x00\x00\x00.\x00\x00\x00\x01\x00\x00\x00\x03\x00\x00\x00\x03\x00\x00\x00\x03\x00\x00\x00\x03\x00\x00\x00\x05\x00\x00\x00\x05\x00\x00\x00\x06\x00\x00\x00\x07\x00\x00\x00\x07\x00\x00\x00\x07\x00\x00\x00\x07\x00\x00\x00\x07\x00\x00\x00\x07\x00\x00\x00\x07\x00\x00\x00\x07\x00\x00\x00\x07\x00\x00\x00\x07\x00\x00\x00\t\x00\x00\x00\t\x00\x00\x00\t\x00\x00\x00\t\x00\x00\x00\t\x00\x00\x00\t\x00\x00\x00\n\x00\x00\x00\n\x00\x00\x00\n\x00\x00\x00\n\x00\x00\x00\n\x00\x00\x00\n\x00\x00\x00\x0c\x00\x00\x00\x0c\x00\x00\x00\x0c\x00\x00\x00\x0c\x00\x00\x00\r\x00\x00\x00\r\x00\x00\x00\r\x00\x00\x00\r\x00\x00\x00\r\x00\x00\x00\r\x00\x00\x00\x0e\x00\x00\x00\x0e\x00\x00\x00\x0e\x00\x00\x00\x0e\x00\x00\x00\x0e\x00\x00\x00\x10\x00\x00\x00\x03\x00\x00\x00\x05\x00\x00\x00self\x00\x01\x00\x00\x00-\x00\x00\x00\x07\x00\x00\x00target\x00\x05\x00\x00\x00-\x00\x00\x00\x10\x00\x00\x00targetDirection\x00\x08\x00\x00\x00-\x00\x00\x00\x00\x00\x00\x00 (12 @ 5d74)
+				}
+                u2 : 1(18 @ 6200)
+                u3 : 1(20 @ 6202)
+			}
+		}
+
+        component sub-sub-block { (1a @ 6204)
+
+            component type : EntityController (0a @ 6206)
+            number : 104(10 @ 6218)
+
+            entity controller sub-sub-sub-block { (50a @ 621b)
+
+                entity component : 103(08 @ 621d)
+                animation controller component : 105(10 @ 621f)
+                u2 : 112(18 @ 6221)
+                collision shape : 117(20 @ 6223)
+                u4 : 100.0 (2d @ 6225)
+                u5 : 1000.0 (35 @ 622a)
+                u6 : 300.0 (3d @ 622f)
+                u7 : 2(40 @ 6234)
+			}
+		}
+
+        component sub-sub-block { (1a @ 6236)
+
+            component type : AnimationController (0a @ 6238)
+            number : 105(10 @ 624d)
+
+            animation controller sub-sub-sub-block { (4aa @ 6250)
+
+                model component : 101(08 @ 6252)
+                u1 : 0(10 @ 6254)
+                u2 : 0(18 @ 6256)
+			}
+		}
+
+        component sub-sub-block { (1a @ 6258)
+
+            component type : CollisionShape (0a @ 625a)
+            number : 106(10 @ 626a)
+            name : main (1a @ 626c)
+
+            collision shape sub-sub-sub-block { (3c2 @ 6273)
+
+
+                u0 sub-sub-sub-sub-block { (0a @ 6275)
+
+                    w : -26.0 (0d @ 6277)
+                    x : -0.8095080256462097 (15 @ 627c)
+                    y : 71.0 (1d @ 6281)
+                    z : 70.80950927734375 (25 @ 6286)
+				}
+			}
+
+            collision shape 2 sub-sub-sub-block { (3ca @ 628c)
+
+                u1 : 1(18 @ 628e)
+                u2 : 1(20 @ 6290)
+                u3 : 1(28 @ 6292)
+                w : -15.0 (35 @ 6294)
+                x : 15.0 (3d @ 6299)
+                z : 1(58 @ 629e)
+			}
+		}
+
+        component sub-sub-block { (1a @ 62a0)
+
+            component type : SwingableWeaponController (0a @ 62a2)
+            number : 109(10 @ 62bd)
+
+            swingable weapon controller sub-sub-sub-block { (c8a @ 62c0)
+
+                parent model : 101(08 @ 62c2)
+                bone : BoneRightWeapon1 (12 @ 62c4)
+                child model : variknight_weapon_sword (1a @ 62d6)
+			}
+		}
+
+        component sub-sub-block { (1a @ 62ef)
+
+            component type : KeyframeAnimation (0a @ 62f1)
+            number : 112(10 @ 6304)
+
+            keyframe animation sub-sub-sub-block { (332 @ 6307)
+
+                linked model component number : 101(08 @ 6309)
+                name : variknight_shield_walk (12 @ 630b)
+                u0 : 1(18 @ 6323)
+                u1 : 1.2000000476837158 (25 @ 6325)
+                u2 : 1(28 @ 632a)
+			}
+		}
+
+        component sub-sub-block { (1a @ 632c)
+
+            component type : CollisionShape (0a @ 632e)
+            number : 115(10 @ 633e)
+            name : shield (1a @ 6340)
+
+            collision shape sub-sub-sub-block { (3c2 @ 6349)
+
+
+                u0 sub-sub-sub-sub-block { (0a @ 634b)
+
+                    w : 0.0 (0d @ 634d)
+                    x : -4.818707466125488 (15 @ 6352)
+                    y : 65.0 (1d @ 6357)
+                    z : 80.2313461303711 (25 @ 635c)
+				}
+			}
+
+            collision shape 2 sub-sub-sub-block { (3ca @ 6362)
+
+                u3 : 1(28 @ 6364)
+                w : -15.0 (35 @ 6366)
+                x : 15.0 (3d @ 636b)
+                y : 5(40 @ 6370)
+                z : 1(58 @ 6372)
+			}
+		}
+
+        component sub-sub-block { (1a @ 6374)
+
+            component type : UtilityShape (0a @ 6376)
+            number : 117(10 @ 6384)
+            name : roam (1a @ 6386)
+
+            collision shape sub-sub-sub-block { (3c2 @ 638d)
+
+
+                u0 sub-sub-sub-sub-block { (0a @ 638f)
+
+                    w : -300.0 (0d @ 6391)
+                    x : -50.0 (15 @ 6396)
+                    y : 600.0 (1d @ 639b)
+                    z : 100.0 (25 @ 63a0)
+				}
+			}
+		}
+
+        component sub-sub-block { (1a @ 63a5)
+
+            component type : Damage (0a @ 63a7)
+            number : 119(10 @ 63af)
+
+            damage sub-sub-sub-block { (3d2 @ 63b2)
+
+                u0 : 1(08 @ 63b4)
+                u1 : 0(10 @ 63b6)
+                u2 : 0(18 @ 63b8)
+                u5 : 1.0 (35 @ 63ba)
+                u6 : 0.0 (3d @ 63bf)
+                u7 : 0(40 @ 63c4)
+                u8 : 1(48 @ 63c6)
+			}
+		}
+
+        component sub-sub-block { (1a @ 63c8)
+
+            component type : Health (0a @ 63ca)
+            number : 120(10 @ 63d2)
+
+            health sub-sub-sub-block { (3da @ 63d5)
+
+                u0 : 10(08 @ 63d7)
+                u1 : 0(10 @ 63d9)
+
+                u2 sub-sub-sub-sub-block { (1a @ 63db)
+
+                    x : 0.0 (0d @ 63dd)
+                    y : 50.0 (15 @ 63e2)
+				}
+			}
+		}
+
+        component sub-sub-block { (1a @ 63e7)
+
+            component type : EntityAction (0a @ 63ea)
+            number : 126(10 @ 63f8)
+
+            entity action sub-sub-sub-block { (512 @ 63fb)
+
+
+                lua chunk sub-sub-sub-sub-block { (0a @ 63fe)
+
+                    main chunk : chunk >
+
+                    === lua =============
+                    local self = ...;
+                    
+                    local attackAnimation = 127;
+                    local shieldShape = 115;
+                    
+                    EntityController.SetMoveSpeed(self, 0);
+                    KeyframeAnimation.SetCurrentTime(self, attackAnimation, 0.0);
+                    AnimationController.BlendToAnimation(self, attackAnimation);
+                    
+                    Program.Wait(0.1);
+                    
+                    CollisionShape.SetEnabled(self, shieldShape, false);
+                    
+                    local swingStartTime = KeyframeAnimation.TimeToFrame(self, attackAnimation, 13.5);
+                    local swingEndTime = KeyframeAnimation.TimeToFrame(self, attackAnimation, 16.5);
+                    
+                    Program.Wait(swingStartTime);
+                    EntityController.StartSwing(self, 109, swingEndTime - swingStartTime);
+                    
+                    Program.Wait(KeyframeAnimation.TimeToCompletion(self, attackAnimation));
+                    
+                    CollisionShape.SetEnabled(self, shieldShape, true);
+                    EntityController.SetMoveSpeed(self, EntityController.DefaultMoveSpeed(self));
+
+                    =====================
+                    secondary chunk : \x1bLuaQ\x00\x01\x04\x04\x04\x08\x00%\x03\x00\x00local self = ...;\r\n\r\nlocal attackAnimation = 127;\r\nlocal shieldShape = 115;\r\n\r\nEntityController.SetMoveSpeed(self, 0);\r\nKeyframeAnimation.SetCurrentTime(self, attackAnimation, 0.0);\r\nAnimationController.BlendToAnimation(self, attackAnimation);\r\n\r\nProgram.Wait(0.1);\r\n\r\nCollisionShape.SetEnabled(self, shieldShape, false);\r\n\r\nlocal swingStartTime = KeyframeAnimation.TimeToFrame(self, attackAnimation, 13.5);\r\nlocal swingEndTime = KeyframeAnimation.TimeToFrame(self, attackAnimation, 16.5);\r\n\r\nProgram.Wait(swingStartTime);\r\nEntityController.StartSwing(self, 109, swingEndTime - swingStartTime);\r\n\r\nProgram.Wait(KeyframeAnimation.TimeToCompletion(self, attackAnimation));\r\n\r\nCollisionShape.SetEnabled(self, shieldShape, true);\r\nEntityController.SetMoveSpeed(self, EntityController.DefaultMoveSpeed(self));\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x02\tJ\x00\x00\x00%\x00\x00\x01A\x00\x00\x00\x81@\x00\x00\xc5\x80\x00\x00\xc6\xc0\xc0\x01\x00\x01\x00\x00A\x01\x01\x00\xdc@\x80\x01\xc5@\x01\x00\xc6\x80\xc1\x01\x00\x01\x00\x00@\x01\x80\x00\x81\x01\x01\x00\xdc@\x00\x02\xc5\xc0\x01\x00\xc6\x00\xc2\x01\x00\x01\x00\x00@\x01\x80\x00\xdc@\x80\x01\xc5@\x02\x00\xc6\x80\xc2\x01\x01\xc1\x02\x00\xdc@\x00\x01\xc5\x00\x03\x00\xc6@\xc3\x01\x00\x01\x00\x00@\x01\x00\x01\x82\x01\x00\x00\xdc@\x00\x02\xc5@\x01\x00\xc6\x80\xc3\x01\x00\x01\x00\x00@\x01\x80\x00\x81\xc1\x03\x00\xdc\x80\x00\x02\x05A\x01\x00\x06\x81C\x02@\x01\x00\x00\x80\x01\x80\x00\xc1\x01\x04\x00\x1c\x81\x00\x02EA\x02\x00F\x81\xc2\x02\x80\x01\x80\x01\\A\x00\x01E\x81\x00\x00FA\xc4\x02\x80\x01\x00\x00\xc1\x81\x04\x00\r\xc2\x00\x02\\A\x00\x02EA\x02\x00F\x81\xc2\x02\x85A\x01\x00\x86\xc1D\x03\xc0\x01\x00\x00\x00\x02\x80\x00\x9c\x01\x80\x01\\A\x00\x00E\x01\x03\x00FA\xc3\x02\x80\x01\x00\x00\xc0\x01\x00\x01\x02\x02\x80\x00\\A\x00\x02E\x81\x00\x00F\xc1\xc0\x02\x80\x01\x00\x00\xc5\x81\x00\x00\xc6\x01\xc5\x03\x00\x02\x00\x00\xdc\x01\x00\x01\\A\x00\x00\x1e\x00\x80\x00\x15\x00\x00\x00\x03\x00\x00\x00\x00\x00\xc0_@\x03\x00\x00\x00\x00\x00\xc0\\@\x04\x11\x00\x00\x00EntityController\x00\x04\r\x00\x00\x00SetMoveSpeed\x00\x03\x00\x00\x00\x00\x00\x00\x00\x00\x04\x12\x00\x00\x00KeyframeAnimation\x00\x04\x0f\x00\x00\x00SetCurrentTime\x00\x04\x14\x00\x00\x00AnimationController\x00\x04\x11\x00\x00\x00BlendToAnimation\x00\x04\x08\x00\x00\x00Program\x00\x04\x05\x00\x00\x00Wait\x00\x03\x9a\x99\x99\x99\x99\x99\xb9?\x04\x0f\x00\x00\x00CollisionShape\x00\x04\x0b\x00\x00\x00SetEnabled\x00\x04\x0c\x00\x00\x00TimeToFrame\x00\x03\x00\x00\x00\x00\x00\x00+@\x03\x00\x00\x00\x00\x00\x800@\x04\x0b\x00\x00\x00StartSwing\x00\x03\x00\x00\x00\x00\x00@[@\x04\x11\x00\x00\x00TimeToCompletion\x00\x04\x11\x00\x00\x00DefaultMoveSpeed\x00\x00\x00\x00\x00J\x00\x00\x00\x01\x00\x00\x00\x03\x00\x00\x00\x04\x00\x00\x00\x06\x00\x00\x00\x06\x00\x00\x00\x06\x00\x00\x00\x06\x00\x00\x00\x06\x00\x00\x00\x07\x00\x00\x00\x07\x00\x00\x00\x07\x00\x00\x00\x07\x00\x00\x00\x07\x00\x00\x00\x07\x00\x00\x00\x08\x00\x00\x00\x08\x00\x00\x00\x08\x00\x00\x00\x08\x00\x00\x00\x08\x00\x00\x00\n\x00\x00\x00\n\x00\x00\x00\n\x00\x00\x00\n\x00\x00\x00\x0c\x00\x00\x00\x0c\x00\x00\x00\x0c\x00\x00\x00\x0c\x00\x00\x00\x0c\x00\x00\x00\x0c\x00\x00\x00\x0e\x00\x00\x00\x0e\x00\x00\x00\x0e\x00\x00\x00\x0e\x00\x00\x00\x0e\x00\x00\x00\x0e\x00\x00\x00\x0f\x00\x00\x00\x0f\x00\x00\x00\x0f\x00\x00\x00\x0f\x00\x00\x00\x0f\x00\x00\x00\x0f\x00\x00\x00\x11\x00\x00\x00\x11\x00\x00\x00\x11\x00\x00\x00\x11\x00\x00\x00\x12\x00\x00\x00\x12\x00\x00\x00\x12\x00\x00\x00\x12\x00\x00\x00\x12\x00\x00\x00\x12\x00\x00\x00\x14\x00\x00\x00\x14\x00\x00\x00\x14\x00\x00\x00\x14\x00\x00\x00\x14\x00\x00\x00\x14\x00\x00\x00\x14\x00\x00\x00\x14\x00\x00\x00\x16\x00\x00\x00\x16\x00\x00\x00\x16\x00\x00\x00\x16\x00\x00\x00\x16\x00\x00\x00\x16\x00\x00\x00\x17\x00\x00\x00\x17\x00\x00\x00\x17\x00\x00\x00\x17\x00\x00\x00\x17\x00\x00\x00\x17\x00\x00\x00\x17\x00\x00\x00\x17\x00\x00\x00\x17\x00\x00\x00\x05\x00\x00\x00\x05\x00\x00\x00self\x00\x01\x00\x00\x00I\x00\x00\x00\x10\x00\x00\x00attackAnimation\x00\x02\x00\x00\x00I\x00\x00\x00\x0c\x00\x00\x00shieldShape\x00\x03\x00\x00\x00I\x00\x00\x00\x0f\x00\x00\x00swingStartTime\x00#\x00\x00\x00I\x00\x00\x00\r\x00\x00\x00swingEndTime\x00)\x00\x00\x00I\x00\x00\x00\x00\x00\x00\x00 (12 @ 6728)
+				}
+			}
+		}
+
+        component sub-sub-block { (1a @ 6e96)
+
+            component type : KeyframeAnimation (0a @ 6e98)
+            number : 127(10 @ 6eab)
+
+            keyframe animation sub-sub-sub-block { (332 @ 6eae)
+
+                linked model component number : 101(08 @ 6eb0)
+                name : variknight_shield_attack1 (12 @ 6eb2)
+                u0 : 0(18 @ 6ecd)
+                u1 : 1.0 (25 @ 6ecf)
+                u2 : 1(28 @ 6ed4)
+			}
+		}
+
+        position sub-sub-block { (22 @ 6ed6)
+
+            x position : 0.0 (0d @ 6ed8)
+            y position : 0.0 (15 @ 6edd)
+		}
+        z position : 0.0 (2d @ 6ee2)
+        rotation : 0.0 (35 @ 6ee7)
+        scale : 1.0 (3d @ 6eec)
+
+        u0 sub-sub-block { (42 @ 6ef1)
+
+            w : -26.0 (0d @ 6ef3)
+            x : -4.818707466125488 (15 @ 6ef8)
+            y : 91.0 (1d @ 6efd)
+            z : 80.2313461303711 (25 @ 6f02)
+		}
+        hidden : 0(48 @ 6f07)
+	}
+    u0 : 0.800000011920929 (15 @ 6f09)
+}
+
+?item block { (12 @ 6f0e)
+
+
+    ?sub-item sub-block { (0a @ 6f11)
+
+        name : variknight_weapon_sword (12 @ 6f14)
+
+        component sub-sub-block { (1a @ 6f2d)
+
+            component type : WeaponTrail (0a @ 6f2f)
+            number : 1(10 @ 6f3c)
+
+            weapon trail sub-sub-sub-block { (ca2 @ 6f3f)
+
+
+                u0 sub-sub-sub-sub-block { (0a @ 6f41)
+
+                    w : 1.0 (0d @ 6f43)
+                    x : 1.0 (15 @ 6f48)
+                    y : 1.0 (1d @ 6f4d)
+                    z : 1.0 (25 @ 6f52)
+				}
+			}
+		}
+
+        component sub-sub-block { (1a @ 6f57)
+
+            component type : CollisionShape (0a @ 6f59)
+            number : 2(10 @ 6f69)
+
+            collision shape sub-sub-sub-block { (3c2 @ 6f6c)
+
+
+                u0 sub-sub-sub-sub-block { (0a @ 6f6e)
+
+                    w : 0.0 (0d @ 6f70)
+                    x : 0.0 (15 @ 6f75)
+                    y : 0.0 (1d @ 6f7a)
+                    z : 0.0 (25 @ 6f7f)
+				}
+			}
+
+            collision shape 2 sub-sub-sub-block { (3ca @ 6f85)
+
+                w : -15.0 (35 @ 6f87)
+                x : 15.0 (3d @ 6f8c)
+                y : 5(40 @ 6f91)
+                z : 0(58 @ 6f93)
+			}
+		}
+
+        component sub-sub-block { (1a @ 6f95)
+
+            component type : Damage (0a @ 6f97)
+            number : 3(10 @ 6f9f)
+
+            damage sub-sub-sub-block { (3d2 @ 6fa2)
+
+                u0 : 1(08 @ 6fa4)
+                u1 : 0(10 @ 6fa6)
+                u2 : 0(18 @ 6fa8)
+                u5 : 1.0 (35 @ 6faa)
+                u6 : 0.0 (3d @ 6faf)
+                u7 : 0(40 @ 6fb4)
+                u8 : 1(48 @ 6fb6)
+			}
+		}
+
+        component sub-sub-block { (1a @ 6fb8)
+
+            component type : SoundEffect (0a @ 6fba)
+            number : 7(10 @ 6fc7)
+            name : swing1 (1a @ 6fc9)
+
+            sound effect sub-sub-sub-block { (462 @ 6fd2)
+
+                sound : sword_swing2 (0a @ 6fd4)
+                u0 : 0.0 (15 @ 6fe2)
+                u1 : 1.0 (1d @ 6fe7)
+			}
+		}
+
+        component sub-sub-block { (1a @ 6fec)
+
+            component type : SoundEffect (0a @ 6fee)
+            number : 8(10 @ 6ffb)
+            name : impact1 (1a @ 6ffd)
+
+            sound effect sub-sub-sub-block { (462 @ 7007)
+
+                sound : sword_impact3 (0a @ 7009)
+                u0 : 0.0 (15 @ 7018)
+                u1 : 1.0 (1d @ 701d)
+			}
+		}
+
+        component sub-sub-block { (1a @ 7022)
+
+            component type : WeaponGlow (0a @ 7024)
+            number : 10(10 @ 7030)
+
+            weapon glow sub-sub-sub-block { (c9a @ 7033)
+
+                u0 : 12(08 @ 7035)
+
+                u1 sub-sub-sub-sub-block { (12 @ 7037)
+
+                    w : 1.0 (0d @ 7039)
+                    x : 1.0 (15 @ 703e)
+                    y : 1.0 (1d @ 7043)
+                    z : 0.0 (25 @ 7048)
+				}
+
+                u2 sub-sub-sub-sub-block { (1a @ 704d)
+
+                    w : 1.0 (0d @ 704f)
+                    x : 1.0 (15 @ 7054)
+                    y : 1.0 (1d @ 7059)
+                    z : 0.0 (25 @ 705e)
+				}
+                u2 : 15.0 (25 @ 7063)
+			}
+		}
+
+        component sub-sub-block { (1a @ 7068)
+
+            component type : ParticleEmitter (0a @ 706a)
+            number : 12(10 @ 707b)
+            name : glow (1a @ 707d)
+
+            particle emitter sub-sub-sub-block { (7d2 @ 7084)
+
+                particle : 13(10 @ 7086)
+                particle : 14(10 @ 7088)
+                particle : 15(10 @ 708a)
+                u1 : 0(18 @ 708c)
+                u2 : 30(20 @ 708e)
+                u3 : 0(28 @ 7090)
+                u4 : 0(30 @ 7092)
+                u6 : 0(40 @ 7094)
+			}
+		}
+
+        component sub-sub-block { (1a @ 7096)
+
+            component type : Particle (0a @ 7098)
+            number : 13(10 @ 70a2)
+            name : glow (1a @ 70a4)
+
+            particle sub-sub-sub-block { (7da @ 70ab)
+
+                name : particle_fure_1 (0a @ 70ad)
+                u0 : 14.0 (15 @ 70be)
+			}
+		}
+
+        component sub-sub-block { (1a @ 70c3)
+
+            component type : Particle (0a @ 70c5)
+            number : 14(10 @ 70cf)
+            name : glow (1a @ 70d1)
+
+            particle sub-sub-sub-block { (7da @ 70d8)
+
+                name : particle_fure_2 (0a @ 70da)
+                u0 : 16.0 (15 @ 70eb)
+			}
+		}
+
+        component sub-sub-block { (1a @ 70f0)
+
+            component type : Particle (0a @ 70f2)
+            number : 15(10 @ 70fc)
+            name : glow (1a @ 70fe)
+
+            particle sub-sub-sub-block { (7da @ 7105)
+
+                name : particle_fure_3 (0a @ 7107)
+                u0 : 14.0 (15 @ 7118)
+			}
+		}
+
+        component sub-sub-block { (1a @ 711d)
+
+            component type : WeaponTrail (0a @ 711f)
+            number : 16(10 @ 712c)
+            name : glow (1a @ 712e)
+
+            weapon trail sub-sub-sub-block { (ca2 @ 7135)
+
+
+                u0 sub-sub-sub-sub-block { (0a @ 7137)
+
+                    w : 1.0 (0d @ 7139)
+                    x : 1.0 (15 @ 713e)
+                    y : 1.0 (1d @ 7143)
+                    z : 1.0 (25 @ 7148)
+				}
+			}
+		}
+
+        component sub-sub-block { (1a @ 714d)
+
+            component type : Model (0a @ 714f)
+            number : 101(10 @ 7156)
+
+            3D model sub-sub-sub-block { (32a @ 7159)
+
+                name : variknight_sword (0a @ 715b)
+                u0 : 0.0 (15 @ 716d)
+                u1 : 1.0 (1d @ 7172)
+                u2 : 0.0 (25 @ 7177)
+
+                u3 sub-sub-sub-sub-block { (2a @ 717c)
+
+                    w : 0.0 (0d @ 717e)
+                    x : 0.0 (15 @ 7183)
+                    y : 0.0 (1d @ 7188)
+                    z : 1.0 (25 @ 718d)
+				}
+
+                u4 sub-sub-sub-sub-block { (32 @ 7192)
+
+                    x : 0.0 (0d @ 7194)
+                    y : 0.0 (15 @ 7199)
+                    z : 0.0 (1d @ 719e)
+				}
+                u5 : 0(38 @ 71a3)
+
+                u6 sub-sub-sub-sub-block { (42 @ 71a5)
+
+                    w : 1.0 (0d @ 71a7)
+                    x : 1.0 (15 @ 71ac)
+                    y : 1.0 (1d @ 71b1)
+                    z : 1.0 (25 @ 71b6)
+				}
+			}
+		}
+
+        component sub-sub-block { (1a @ 71bb)
+
+            component type : SwingableWeapon (0a @ 71bd)
+            number : 103(10 @ 71ce)
+
+            swingable weapon sub-sub-sub-block { (c82 @ 71d1)
+
+                linked model component number : 101(08 @ 71d3)
+                u1 : 1(10 @ 71d5)
+                u2 : 0(20 @ 71d7)
+                u3 : 7(28 @ 71d9)
+                u4 : 8(30 @ 71db)
+                u5 : 16(38 @ 71dd)
+                u6 : 2(40 @ 71df)
+                u7 : 10(48 @ 71e1)
+                w : 50.0 (55 @ 71e3)
+                x : 65.0 (5d @ 71e8)
+                y : 0.0 (65 @ 71ed)
+                z : 10.0 (6d @ 71f2)
+                u8 : \r\x00\x00\x00?\x15\x00\x00\x00?\x1d\x00\x00\x00?%\x00\x00\x00\x00 (72 @ 71f7)
+			}
+		}
+
+        position sub-sub-block { (22 @ 720d)
+
+            x position : 0.0 (0d @ 720f)
+            y position : 0.0 (15 @ 7214)
+		}
+        z position : 0.0 (2d @ 7219)
+        rotation : 0.0 (35 @ 721e)
+        scale : 1.0 (3d @ 7223)
+
+        u0 sub-sub-block { (42 @ 7228)
+
+            w : 0.0 (0d @ 722a)
+            x : 0.0 (15 @ 722f)
+            y : 0.0 (1d @ 7234)
+            z : 0.0 (25 @ 7239)
+		}
+        hidden : 0(48 @ 723e)
+	}
+    u0 : 1.0 (15 @ 7240)
+}
+
+?item block { (12 @ 7245)
+
+
+    ?sub-item sub-block { (0a @ 7248)
+
+        name : varimage (12 @ 724b)
+
+        component sub-sub-block { (1a @ 7255)
+
+            component type : Program (0a @ 7258)
+            number : 1(10 @ 7261)
+
+            program sub-sub-sub-block { (4ea @ 7264)
+
+                u0 : 1(08 @ 7267)
+
+                lua chunk sub-sub-sub-sub-block { (12 @ 7269)
+
+                    main chunk : chunk >
+
+                    === lua =============
+                    local self = ...;
+                    
+                    local target = EntityController.Target(self);
+                    while true do
+                    	Program.Wait(3.5);
+                    	if EntityController.IsIdle(self) then
+                    		EntityController.PerformAction(self, 126);
+                    	end
+                    end
+
+                    =====================
+                    secondary chunk : \x1bLuaQ\x00\x01\x04\x04\x04\x08\x00\xc8\x00\x00\x00local self = ...;\r\n\r\nlocal target = EntityController.Target(self);\r\nwhile true do\r\n\tProgram.Wait(3.5);\r\n\tif EntityController.IsIdle(self) then\r\n\t\tEntityController.PerformAction(self, 126);\r\n\tend\r\nend\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x02\x05\x16\x00\x00\x00%\x00\x00\x01E\x00\x00\x00F@\xc0\x00\x80\x00\x00\x00\\\x80\x00\x01\x85\x80\x00\x00\x86\xc0@\x01\xc1\x00\x01\x00\x9c@\x00\x01\x85\x00\x00\x00\x86@A\x01\xc0\x00\x00\x00\x9c\x80\x00\x01\x9a\x00\x00\x00\x16@\xfd\x7f\x85\x00\x00\x00\x86\x80A\x01\xc0\x00\x00\x00\x01\xc1\x01\x00\x9c@\x80\x01\x16\xc0\xfb\x7f\x1e\x00\x80\x00\x08\x00\x00\x00\x04\x11\x00\x00\x00EntityController\x00\x04\x07\x00\x00\x00Target\x00\x04\x08\x00\x00\x00Program\x00\x04\x05\x00\x00\x00Wait\x00\x03\x00\x00\x00\x00\x00\x00\x0c@\x04\x07\x00\x00\x00IsIdle\x00\x04\x0e\x00\x00\x00PerformAction\x00\x03\x00\x00\x00\x00\x00\x80_@\x00\x00\x00\x00\x16\x00\x00\x00\x01\x00\x00\x00\x03\x00\x00\x00\x03\x00\x00\x00\x03\x00\x00\x00\x03\x00\x00\x00\x05\x00\x00\x00\x05\x00\x00\x00\x05\x00\x00\x00\x05\x00\x00\x00\x06\x00\x00\x00\x06\x00\x00\x00\x06\x00\x00\x00\x06\x00\x00\x00\x06\x00\x00\x00\x06\x00\x00\x00\x07\x00\x00\x00\x07\x00\x00\x00\x07\x00\x00\x00\x07\x00\x00\x00\x07\x00\x00\x00\x08\x00\x00\x00\t\x00\x00\x00\x02\x00\x00\x00\x05\x00\x00\x00self\x00\x01\x00\x00\x00\x15\x00\x00\x00\x07\x00\x00\x00target\x00\x05\x00\x00\x00\x15\x00\x00\x00\x00\x00\x00\x00 (12 @ 7336)
+				}
+                u1 : 1(18 @ 7573)
+                u2 : 1(20 @ 7575)
+			}
+		}
+
+        component sub-sub-block { (1a @ 7577)
+
+            component type : EntityInfo (0a @ 7579)
+            number : 2(10 @ 7585)
+
+            entity info sub-sub-sub-block { (522 @ 7588)
+
+                name : Mage (0a @ 758a)
+			}
+		}
+
+        component sub-sub-block { (1a @ 7590)
+
+            component type : Model (0a @ 7592)
+            number : 101(10 @ 7599)
+
+            3D model sub-sub-sub-block { (32a @ 759c)
+
+                name : varimage_green (0a @ 759e)
+                u0 : 1.5707963705062866 (15 @ 75ae)
+                u1 : 0.30000001192092896 (1d @ 75b3)
+                u2 : 0.0 (25 @ 75b8)
+
+                u3 sub-sub-sub-sub-block { (2a @ 75bd)
+
+                    w : 0.0 (0d @ 75bf)
+                    x : 0.45490196347236633 (15 @ 75c4)
+                    y : 0.0 (1d @ 75c9)
+                    z : 1.0 (25 @ 75ce)
+				}
+
+                u4 sub-sub-sub-sub-block { (32 @ 75d3)
+
+                    x : 0.0 (0d @ 75d5)
+                    y : 0.0 (15 @ 75da)
+                    z : 0.0 (1d @ 75df)
+				}
+                u5 : 0(38 @ 75e4)
+
+                u6 sub-sub-sub-sub-block { (42 @ 75e6)
+
+                    w : 1.0 (0d @ 75e8)
+                    x : 1.0 (15 @ 75ed)
+                    y : 1.0 (1d @ 75f2)
+                    z : 1.0 (25 @ 75f7)
+				}
+			}
+		}
+
+        component sub-sub-block { (1a @ 75fc)
+
+            component type : MonsterEntity (0a @ 75ff)
+            number : 103(10 @ 760e)
+
+            entity sub-sub-sub-block { (4c2 @ 7611)
+
+                u0 : 18446744073709551615(08 @ 7613)
+                u1 : 1(10 @ 761e)
+			}
+
+            ?monster entity sub-sub-sub-block { (4f2 @ 7621)
+
+                u0 :  (0a @ 7624)
+
+                lua chunk sub-sub-sub-sub-block { (12 @ 7626)
+
+                    main chunk : chunk >
+
+                    === lua =============
+                    local self = ...;
+                    
+                    local target = EntityController.Target(self);
+                    
+                    if target ~= nil then 
+                    	local targetDirection = 1;
+                    	if (target:position() - self:position()):x() < 0 then targetDirection = -1; end
+                    
+                    	EntityController.SetFacingDirection(self, targetDirection, 0.2);
+                    	EntityController.SetMoveDirection(self, targetDirection, 0.7);
+                    
+                    	Program.Wait(0.8);
+                    
+                    	if EntityController.IsIdle(self) then
+                    		EntityController.PerformAction(self, 126);
+                    	end
+                    end
+
+                    =====================
+                    secondary chunk : \x1bLuaQ\x00\x01\x04\x04\x04\x08\x00\xcc\x01\x00\x00local self = ...;\r\n\r\nlocal target = EntityController.Target(self);\r\n\r\nif target ~= nil then \r\n\tlocal targetDirection = 1;\r\n\tif (target:position() - self:position()):x() < 0 then targetDirection = -1; end\r\n\r\n\tEntityController.SetFacingDirection(self, targetDirection, 0.2);\r\n\tEntityController.SetMoveDirection(self, targetDirection, 0.7);\r\n\r\n\tProgram.Wait(0.8);\r\n\r\n\tif EntityController.IsIdle(self) then\r\n\t\tEntityController.PerformAction(self, 126);\r\n\tend\r\nend\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x02\x07.\x00\x00\x00%\x00\x00\x01E\x00\x00\x00F@\xc0\x00\x80\x00\x00\x00\\\x80\x00\x01W\x80\xc0\x00\x16@\t\x80\x81\xc0\x00\x00\xcb\x00\xc1\x00\xdc\x80\x00\x01\x0b\x01A\x00\x1c\x81\x00\x01\xcd\x00\x81\x01\xcb@\xc1\x01\xdc\x80\x00\x01\x18\x80\xc1\x01\x16\x00\x00\x80\x81\xc0\x01\x00\xc5\x00\x00\x00\xc6\x00\xc2\x01\x00\x01\x00\x00@\x01\x00\x01\x81A\x02\x00\xdc@\x00\x02\xc5\x00\x00\x00\xc6\x80\xc2\x01\x00\x01\x00\x00@\x01\x00\x01\x81\xc1\x02\x00\xdc@\x00\x02\xc5\x00\x03\x00\xc6@\xc3\x01\x01\x81\x03\x00\xdc@\x00\x01\xc5\x00\x00\x00\xc6\xc0\xc3\x01\x00\x01\x00\x00\xdc\x80\x00\x01\xda\x00\x00\x00\x16\x00\x01\x80\xc5\x00\x00\x00\xc6\x00\xc4\x01\x00\x01\x00\x00AA\x04\x00\xdc@\x80\x01\x1e\x00\x80\x00\x12\x00\x00\x00\x04\x11\x00\x00\x00EntityController\x00\x04\x07\x00\x00\x00Target\x00\x00\x03\x00\x00\x00\x00\x00\x00\xf0?\x04\t\x00\x00\x00position\x00\x04\x02\x00\x00\x00x\x00\x03\x00\x00\x00\x00\x00\x00\x00\x00\x03\x00\x00\x00\x00\x00\x00\xf0\xbf\x04\x13\x00\x00\x00SetFacingDirection\x00\x03\x9a\x99\x99\x99\x99\x99\xc9?\x04\x11\x00\x00\x00SetMoveDirection\x00\x03ffffff\xe6?\x04\x08\x00\x00\x00Program\x00\x04\x05\x00\x00\x00Wait\x00\x03\x9a\x99\x99\x99\x99\x99\xe9?\x04\x07\x00\x00\x00IsIdle\x00\x04\x0e\x00\x00\x00PerformAction\x00\x03\x00\x00\x00\x00\x00\x80_@\x00\x00\x00\x00.\x00\x00\x00\x01\x00\x00\x00\x03\x00\x00\x00\x03\x00\x00\x00\x03\x00\x00\x00\x03\x00\x00\x00\x05\x00\x00\x00\x05\x00\x00\x00\x06\x00\x00\x00\x07\x00\x00\x00\x07\x00\x00\x00\x07\x00\x00\x00\x07\x00\x00\x00\x07\x00\x00\x00\x07\x00\x00\x00\x07\x00\x00\x00\x07\x00\x00\x00\x07\x00\x00\x00\x07\x00\x00\x00\t\x00\x00\x00\t\x00\x00\x00\t\x00\x00\x00\t\x00\x00\x00\t\x00\x00\x00\t\x00\x00\x00\n\x00\x00\x00\n\x00\x00\x00\n\x00\x00\x00\n\x00\x00\x00\n\x00\x00\x00\n\x00\x00\x00\x0c\x00\x00\x00\x0c\x00\x00\x00\x0c\x00\x00\x00\x0c\x00\x00\x00\x0e\x00\x00\x00\x0e\x00\x00\x00\x0e\x00\x00\x00\x0e\x00\x00\x00\x0e\x00\x00\x00\x0e\x00\x00\x00\x0f\x00\x00\x00\x0f\x00\x00\x00\x0f\x00\x00\x00\x0f\x00\x00\x00\x0f\x00\x00\x00\x11\x00\x00\x00\x03\x00\x00\x00\x05\x00\x00\x00self\x00\x01\x00\x00\x00-\x00\x00\x00\x07\x00\x00\x00target\x00\x05\x00\x00\x00-\x00\x00\x00\x10\x00\x00\x00targetDirection\x00\x08\x00\x00\x00-\x00\x00\x00\x00\x00\x00\x00 (12 @ 77f7)
+				}
+                u2 : 1(18 @ 7c85)
+                u3 : 1(20 @ 7c87)
+			}
+		}
+
+        component sub-sub-block { (1a @ 7c89)
+
+            component type : EntityController (0a @ 7c8b)
+            number : 104(10 @ 7c9d)
+
+            entity controller sub-sub-sub-block { (50a @ 7ca0)
+
+                entity component : 103(08 @ 7ca2)
+                animation controller component : 105(10 @ 7ca4)
+                u2 : 112(18 @ 7ca6)
+                collision shape : 117(20 @ 7ca8)
+                u4 : 100.0 (2d @ 7caa)
+                u5 : 1000.0 (35 @ 7caf)
+                u6 : 300.0 (3d @ 7cb4)
+                u7 : 4(40 @ 7cb9)
+			}
+		}
+
+        component sub-sub-block { (1a @ 7cbb)
+
+            component type : AnimationController (0a @ 7cbd)
+            number : 105(10 @ 7cd2)
+
+            animation controller sub-sub-sub-block { (4aa @ 7cd5)
+
+                model component : 101(08 @ 7cd7)
+                u1 : 0(10 @ 7cd9)
+                u2 : 0(18 @ 7cdb)
+			}
+		}
+
+        component sub-sub-block { (1a @ 7cdd)
+
+            component type : CollisionShape (0a @ 7cdf)
+            number : 106(10 @ 7cef)
+            name : main (1a @ 7cf1)
+
+            collision shape sub-sub-sub-block { (3c2 @ 7cf8)
+
+
+                u0 sub-sub-sub-sub-block { (0a @ 7cfa)
+
+                    w : -26.0 (0d @ 7cfc)
+                    x : -0.8095080256462097 (15 @ 7d01)
+                    y : 54.0 (1d @ 7d06)
+                    z : 70.80950927734375 (25 @ 7d0b)
+				}
+			}
+
+            collision shape 2 sub-sub-sub-block { (3ca @ 7d11)
+
+                u1 : 1(18 @ 7d13)
+                u2 : 1(20 @ 7d15)
+                u3 : 1(28 @ 7d17)
+                w : -15.0 (35 @ 7d19)
+                x : 15.0 (3d @ 7d1e)
+                z : 1(58 @ 7d23)
+			}
+		}
+
+        component sub-sub-block { (1a @ 7d25)
+
+            component type : KeyframeAnimation (0a @ 7d27)
+            number : 112(10 @ 7d3a)
+
+            keyframe animation sub-sub-sub-block { (332 @ 7d3d)
+
+                linked model component number : 101(08 @ 7d3f)
+                name : varimage_walk (12 @ 7d41)
+                u0 : 1(18 @ 7d50)
+                u1 : 1.2000000476837158 (25 @ 7d52)
+                u2 : 1(28 @ 7d57)
+			}
+		}
+
+        component sub-sub-block { (1a @ 7d59)
+
+            component type : UtilityShape (0a @ 7d5b)
+            number : 117(10 @ 7d69)
+            name : roam (1a @ 7d6b)
+
+            collision shape sub-sub-sub-block { (3c2 @ 7d72)
+
+
+                u0 sub-sub-sub-sub-block { (0a @ 7d74)
+
+                    w : -300.0 (0d @ 7d76)
+                    x : -50.0 (15 @ 7d7b)
+                    y : 600.0 (1d @ 7d80)
+                    z : 100.0 (25 @ 7d85)
+				}
+			}
+		}
+
+        component sub-sub-block { (1a @ 7d8a)
+
+            component type : Damage (0a @ 7d8c)
+            number : 119(10 @ 7d94)
+
+            damage sub-sub-sub-block { (3d2 @ 7d97)
+
+                u0 : 1(08 @ 7d99)
+                u1 : 0(10 @ 7d9b)
+                u2 : 0(18 @ 7d9d)
+                u5 : 1.0 (35 @ 7d9f)
+                u6 : 0.0 (3d @ 7da4)
+                u7 : 0(40 @ 7da9)
+                u8 : 1(48 @ 7dab)
+			}
+		}
+
+        component sub-sub-block { (1a @ 7dad)
+
+            component type : Health (0a @ 7daf)
+            number : 120(10 @ 7db7)
+
+            health sub-sub-sub-block { (3da @ 7dba)
+
+                u0 : 10(08 @ 7dbc)
+                u1 : 0(10 @ 7dbe)
+
+                u2 sub-sub-sub-sub-block { (1a @ 7dc0)
+
+                    x : 0.0 (0d @ 7dc2)
+                    y : 50.0 (15 @ 7dc7)
+				}
+			}
+		}
+
+        component sub-sub-block { (1a @ 7dcc)
+
+            component type : EntityAction (0a @ 7dcf)
+            number : 126(10 @ 7ddd)
+
+            entity action sub-sub-sub-block { (512 @ 7de0)
+
+
+                lua chunk sub-sub-sub-sub-block { (0a @ 7de3)
+
+                    main chunk : chunk >
+
+                    === lua =============
+                    local self = ...;
+                    
+                    local invokeAnimation = 127;
+                    local castAnimation = 132;
+                    
+                    EntityController.SetMoveSpeed(self, 0);
+                    KeyframeAnimation.SetCurrentTime(self, invokeAnimation, 0.0);
+                    AnimationController.BlendToAnimation(self, invokeAnimation);
+                    
+                    Skill.BeginCasting(self, "varimage_magic_bolt", Vector3.New(EntityController.FacingDirection(self), 0, 0));
+                    Program.Wait(1);
+                    
+                    KeyframeAnimation.SetCurrentTime(self, castAnimation, 0.0);
+                    AnimationController.BlendToAnimation(self, castAnimation);
+                    
+                    Program.Wait(KeyframeAnimation.TimeToFrame(self, castAnimation, 13));
+                    
+                    Skill.FinishCasting(self);
+                    
+                    Program.Wait(KeyframeAnimation.TimeToCompletion(self, castAnimation));
+                    
+                    EntityController.SetMoveSpeed(self, EntityController.DefaultMoveSpeed(self));
+
+                    =====================
+                    secondary chunk : \x1bLuaQ\x00\x01\x04\x04\x04\x08\x00\xf4\x02\x00\x00local self = ...;\r\n\r\nlocal invokeAnimation = 127;\r\nlocal castAnimation = 132;\r\n\r\nEntityController.SetMoveSpeed(self, 0);\r\nKeyframeAnimation.SetCurrentTime(self, invokeAnimation, 0.0);\r\nAnimationController.BlendToAnimation(self, invokeAnimation);\r\n\r\nSkill.BeginCasting(self, "varimage_magic_bolt", Vector3.New(EntityController.FacingDirection(self), 0, 0));\r\nProgram.Wait(1);\r\n\r\nKeyframeAnimation.SetCurrentTime(self, castAnimation, 0.0);\r\nAnimationController.BlendToAnimation(self, castAnimation);\r\n\r\nProgram.Wait(KeyframeAnimation.TimeToFrame(self, castAnimation, 13));\r\n\r\nSkill.FinishCasting(self);\r\n\r\nProgram.Wait(KeyframeAnimation.TimeToCompletion(self, castAnimation));\r\n\r\nEntityController.SetMoveSpeed(self, EntityController.DefaultMoveSpeed(self));\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x02\nN\x00\x00\x00%\x00\x00\x01A\x00\x00\x00\x81@\x00\x00\xc5\x80\x00\x00\xc6\xc0\xc0\x01\x00\x01\x00\x00A\x01\x01\x00\xdc@\x80\x01\xc5@\x01\x00\xc6\x80\xc1\x01\x00\x01\x00\x00@\x01\x80\x00\x81\x01\x01\x00\xdc@\x00\x02\xc5\xc0\x01\x00\xc6\x00\xc2\x01\x00\x01\x00\x00@\x01\x80\x00\xdc@\x80\x01\xc5@\x02\x00\xc6\x80\xc2\x01\x00\x01\x00\x00A\xc1\x02\x00\x85\x01\x03\x00\x86AC\x03\xc5\x81\x00\x00\xc6\x81\xc3\x03\x00\x02\x00\x00\xdc\x81\x00\x01\x01\x02\x01\x00A\x02\x01\x00\x9c\x01\x00\x02\xdc@\x00\x00\xc5\xc0\x03\x00\xc6\x00\xc4\x01\x01A\x04\x00\xdc@\x00\x01\xc5@\x01\x00\xc6\x80\xc1\x01\x00\x01\x00\x00@\x01\x00\x01\x81\x01\x01\x00\xdc@\x00\x02\xc5\xc0\x01\x00\xc6\x00\xc2\x01\x00\x01\x00\x00@\x01\x00\x01\xdc@\x80\x01\xc5\xc0\x03\x00\xc6\x00\xc4\x01\x05A\x01\x00\x06\x81D\x02@\x01\x00\x00\x80\x01\x00\x01\xc1\xc1\x04\x00\x1c\x01\x00\x02\xdc@\x00\x00\xc5@\x02\x00\xc6\x00\xc5\x01\x00\x01\x00\x00\xdc@\x00\x01\xc5\xc0\x03\x00\xc6\x00\xc4\x01\x05A\x01\x00\x06AE\x02@\x01\x00\x00\x80\x01\x00\x01\x1c\x01\x80\x01\xdc@\x00\x00\xc5\x80\x00\x00\xc6\xc0\xc0\x01\x00\x01\x00\x00E\x81\x00\x00F\x81\xc5\x02\x80\x01\x00\x00\\\x01\x00\x01\xdc@\x00\x00\x1e\x00\x80\x00\x17\x00\x00\x00\x03\x00\x00\x00\x00\x00\xc0_@\x03\x00\x00\x00\x00\x00\x80`@\x04\x11\x00\x00\x00EntityController\x00\x04\r\x00\x00\x00SetMoveSpeed\x00\x03\x00\x00\x00\x00\x00\x00\x00\x00\x04\x12\x00\x00\x00KeyframeAnimation\x00\x04\x0f\x00\x00\x00SetCurrentTime\x00\x04\x14\x00\x00\x00AnimationController\x00\x04\x11\x00\x00\x00BlendToAnimation\x00\x04\x06\x00\x00\x00Skill\x00\x04\r\x00\x00\x00BeginCasting\x00\x04\x14\x00\x00\x00varimage_magic_bolt\x00\x04\x08\x00\x00\x00Vector3\x00\x04\x04\x00\x00\x00New\x00\x04\x10\x00\x00\x00FacingDirection\x00\x04\x08\x00\x00\x00Program\x00\x04\x05\x00\x00\x00Wait\x00\x03\x00\x00\x00\x00\x00\x00\xf0?\x04\x0c\x00\x00\x00TimeToFrame\x00\x03\x00\x00\x00\x00\x00\x00*@\x04\x0e\x00\x00\x00FinishCasting\x00\x04\x11\x00\x00\x00TimeToCompletion\x00\x04\x11\x00\x00\x00DefaultMoveSpeed\x00\x00\x00\x00\x00N\x00\x00\x00\x01\x00\x00\x00\x03\x00\x00\x00\x04\x00\x00\x00\x06\x00\x00\x00\x06\x00\x00\x00\x06\x00\x00\x00\x06\x00\x00\x00\x06\x00\x00\x00\x07\x00\x00\x00\x07\x00\x00\x00\x07\x00\x00\x00\x07\x00\x00\x00\x07\x00\x00\x00\x07\x00\x00\x00\x08\x00\x00\x00\x08\x00\x00\x00\x08\x00\x00\x00\x08\x00\x00\x00\x08\x00\x00\x00\n\x00\x00\x00\n\x00\x00\x00\n\x00\x00\x00\n\x00\x00\x00\n\x00\x00\x00\n\x00\x00\x00\n\x00\x00\x00\n\x00\x00\x00\n\x00\x00\x00\n\x00\x00\x00\n\x00\x00\x00\n\x00\x00\x00\n\x00\x00\x00\n\x00\x00\x00\x0b\x00\x00\x00\x0b\x00\x00\x00\x0b\x00\x00\x00\x0b\x00\x00\x00\r\x00\x00\x00\r\x00\x00\x00\r\x00\x00\x00\r\x00\x00\x00\r\x00\x00\x00\r\x00\x00\x00\x0e\x00\x00\x00\x0e\x00\x00\x00\x0e\x00\x00\x00\x0e\x00\x00\x00\x0e\x00\x00\x00\x10\x00\x00\x00\x10\x00\x00\x00\x10\x00\x00\x00\x10\x00\x00\x00\x10\x00\x00\x00\x10\x00\x00\x00\x10\x00\x00\x00\x10\x00\x00\x00\x10\x00\x00\x00\x12\x00\x00\x00\x12\x00\x00\x00\x12\x00\x00\x00\x12\x00\x00\x00\x14\x00\x00\x00\x14\x00\x00\x00\x14\x00\x00\x00\x14\x00\x00\x00\x14\x00\x00\x00\x14\x00\x00\x00\x14\x00\x00\x00\x14\x00\x00\x00\x16\x00\x00\x00\x16\x00\x00\x00\x16\x00\x00\x00\x16\x00\x00\x00\x16\x00\x00\x00\x16\x00\x00\x00\x16\x00\x00\x00\x16\x00\x00\x00\x16\x00\x00\x00\x03\x00\x00\x00\x05\x00\x00\x00self\x00\x01\x00\x00\x00M\x00\x00\x00\x10\x00\x00\x00invokeAnimation\x00\x02\x00\x00\x00M\x00\x00\x00\x0e\x00\x00\x00castAnimation\x00\x03\x00\x00\x00M\x00\x00\x00\x00\x00\x00\x00 (12 @ 80dc)
+				}
+			}
+		}
+
+        component sub-sub-block { (1a @ 8835)
+
+            component type : KeyframeAnimation (0a @ 8837)
+            number : 127(10 @ 884a)
+
+            keyframe animation sub-sub-sub-block { (332 @ 884d)
+
+                linked model component number : 101(08 @ 884f)
+                name : varimage_invoke (12 @ 8851)
+                u0 : 1(18 @ 8862)
+                u1 : 1.0 (25 @ 8864)
+                u2 : 1(28 @ 8869)
+			}
+		}
+
+        component sub-sub-block { (1a @ 886b)
+
+            component type : KeyframeAnimation (0a @ 886d)
+            number : 132(10 @ 8880)
+
+            keyframe animation sub-sub-sub-block { (332 @ 8884)
+
+                linked model component number : 101(08 @ 8886)
+                name : varimage_cast (12 @ 8888)
+                u0 : 0(18 @ 8897)
+                u1 : 1.0 (25 @ 8899)
+                u2 : 1(28 @ 889e)
+			}
+		}
+
+        component sub-sub-block { (1a @ 88a0)
+
+            component type : Skill (0a @ 88a2)
+            number : 136(10 @ 88a9)
+
+            skill sub-sub-sub-block { (1142 @ 88ad)
+
+                u0 : 0(08 @ 88af)
+
+                u1 sub-sub-sub-sub-block { (12 @ 88b1)
+
+                    x : 80.0 (0d @ 88b3)
+                    y : 30.0 (15 @ 88b8)
+				}
+                cast animation : varimage_spell_cast (1a @ 88bd)
+			}
+		}
+
+        position sub-sub-block { (22 @ 88d2)
+
+            x position : 0.0 (0d @ 88d4)
+            y position : 0.0 (15 @ 88d9)
+		}
+        z position : 0.0 (2d @ 88de)
+        rotation : 0.0 (35 @ 88e3)
+        scale : 1.0 (3d @ 88e8)
+
+        u0 sub-sub-block { (42 @ 88ed)
+
+            w : -26.0 (0d @ 88ef)
+            x : -0.8095080256462097 (15 @ 88f4)
+            y : 54.0 (1d @ 88f9)
+            z : 70.80950927734375 (25 @ 88fe)
+		}
+        hidden : 0(48 @ 8903)
+	}
+    u0 : 1.0 (15 @ 8905)
+}
+
+?item block { (12 @ 890a)
+
+
+    ?sub-item sub-block { (0a @ 890d)
+
+        name : varimage_magic_bolt (12 @ 8910)
+
+        component sub-sub-block { (1a @ 8925)
+
+            component type : SimpleGlow (0a @ 8927)
+            number : 1(10 @ 8933)
+
+            simple glow sub-sub-sub-block { (7f2 @ 8936)
+
+
+                u0 sub-sub-sub-sub-block { (0a @ 8938)
+
+                    w : 1.0 (0d @ 893a)
+                    x : 0.0 (15 @ 893f)
+                    y : 3.5762786865234375e-07 (1d @ 8944)
+                    z : 0.5 (25 @ 8949)
+				}
+                u1 : 30.0 (15 @ 894e)
+                u2 : 10(18 @ 8953)
+                u3 : 15.0 (25 @ 8955)
+                u4 : 0.15000000596046448 (2d @ 895a)
+                u5 : 0.800000011920929 (35 @ 895f)
+
+                u6 sub-sub-sub-sub-block { (3a @ 8964)
+
+                    y : 0.0 (0d @ 8966)
+                    z : 0.0 (15 @ 896b)
+				}
+			}
+		}
+
+        component sub-sub-block { (1a @ 8970)
+
+            component type : CollisionShape (0a @ 8972)
+            number : 2(10 @ 8982)
+
+            collision shape sub-sub-sub-block { (3c2 @ 8985)
+
+
+                u0 sub-sub-sub-sub-block { (0a @ 8987)
+
+                    w : -10.0 (0d @ 8989)
+                    x : -10.0 (15 @ 898e)
+                    y : 20.0 (1d @ 8993)
+                    z : 20.0 (25 @ 8998)
+				}
+			}
+
+            collision shape 2 sub-sub-sub-block { (3ca @ 899e)
+
+                u3 : 1(28 @ 89a0)
+                w : -15.0 (35 @ 89a2)
+                x : 15.0 (3d @ 89a7)
+                z : 1(58 @ 89ac)
+			}
+		}
+
+        component sub-sub-block { (1a @ 89ae)
+
+            component type : SoundEffect (0a @ 89b0)
+            number : 3(10 @ 89bd)
+
+            sound effect sub-sub-sub-block { (462 @ 89c0)
+
+                sound : woosh1 (0a @ 89c2)
+                u0 : 0.0 (15 @ 89ca)
+                u1 : 1.0 (1d @ 89cf)
+			}
+		}
+
+        component sub-sub-block { (1a @ 89d4)
+
+            component type : Damage (0a @ 89d6)
+            number : 4(10 @ 89de)
+
+            damage sub-sub-sub-block { (3d2 @ 89e1)
+
+                u0 : 4(08 @ 89e3)
+                u1 : 0(10 @ 89e5)
+                u2 : 0(18 @ 89e7)
+                u5 : 0.0 (35 @ 89e9)
+                u6 : 1.0 (3d @ 89ee)
+                u7 : 0(40 @ 89f3)
+                u8 : 1(48 @ 89f5)
+			}
+		}
+
+        component sub-sub-block { (1a @ 89f7)
+
+            component type : Light (0a @ 89f9)
+            number : 6(10 @ 8a00)
+
+            light sub-sub-sub-block { (412 @ 8a03)
+
+                u0 : 3(08 @ 8a05)
+                u1 : 2.0 (15 @ 8a07)
+
+                u2 sub-sub-sub-sub-block { (1a @ 8a0c)
+
+                    w : 1.0 (0d @ 8a0e)
+                    x : 0.35555556416511536 (15 @ 8a13)
+                    y : 0.35555556416511536 (1d @ 8a18)
+                    z : 1.0 (25 @ 8a1d)
+				}
+                u3 : 0.0 (25 @ 8a22)
+                u4 : 0.00019999999494757503 (2d @ 8a27)
+
+                u5 sub-sub-sub-sub-block { (32 @ 8a2c)
+
+                    x : 0.0 (0d @ 8a2e)
+                    y : 0.0 (15 @ 8a33)
+                    z : 0.0 (1d @ 8a38)
+				}
+                u6 : 250.0 (3d @ 8a3d)
+			}
+		}
+
+        component sub-sub-block { (1a @ 8a42)
+
+            component type : EntityInfo (0a @ 8a44)
+            number : 7(10 @ 8a50)
+
+            entity info sub-sub-sub-block { (522 @ 8a53)
+
+                name : bolt (0a @ 8a55)
+			}
+		}
+
+        component sub-sub-block { (1a @ 8a5b)
+
+            component type : CollisionShape (0a @ 8a5d)
+            number : 8(10 @ 8a6d)
+
+            collision shape sub-sub-sub-block { (3c2 @ 8a70)
+
+
+                u0 sub-sub-sub-sub-block { (0a @ 8a72)
+
+                    w : -10.0 (0d @ 8a74)
+                    x : -3.0 (15 @ 8a79)
+                    y : 20.0 (1d @ 8a7e)
+                    z : 6.0 (25 @ 8a83)
+				}
+			}
+
+            collision shape 2 sub-sub-sub-block { (3ca @ 8a89)
+
+                u1 : 1(18 @ 8a8b)
+                w : -15.0 (35 @ 8a8d)
+                x : 15.0 (3d @ 8a92)
+                z : 1(58 @ 8a97)
+			}
+		}
+
+        component sub-sub-block { (1a @ 8a99)
+
+            component type : ParticleEmitter (0a @ 8a9b)
+            number : 102(10 @ 8aac)
+
+            particle emitter sub-sub-sub-block { (7d2 @ 8aaf)
+
+                particle : 103(10 @ 8ab1)
+                particle : 104(10 @ 8ab3)
+                particle : 105(10 @ 8ab5)
+                u1 : 0(18 @ 8ab7)
+                u2 : 30(20 @ 8ab9)
+                u3 : 0(28 @ 8abb)
+                u4 : 0(30 @ 8abd)
+                u6 : 0(40 @ 8abf)
+			}
+		}
+
+        component sub-sub-block { (1a @ 8ac1)
+
+            component type : Particle (0a @ 8ac3)
+            number : 103(10 @ 8acd)
+
+            particle sub-sub-sub-block { (7da @ 8ad0)
+
+                name : particle_fure_1 (0a @ 8ad2)
+                u0 : 40.0 (15 @ 8ae3)
+			}
+		}
+
+        component sub-sub-block { (1a @ 8ae8)
+
+            component type : Particle (0a @ 8aea)
+            number : 104(10 @ 8af4)
+
+            particle sub-sub-sub-block { (7da @ 8af7)
+
+                name : particle_fure_2 (0a @ 8af9)
+                u0 : 40.0 (15 @ 8b0a)
+			}
+		}
+
+        component sub-sub-block { (1a @ 8b0f)
+
+            component type : Particle (0a @ 8b11)
+            number : 105(10 @ 8b1b)
+
+            particle sub-sub-sub-block { (7da @ 8b1e)
+
+                name : particle_fure_3 (0a @ 8b20)
+                u0 : 40.0 (15 @ 8b31)
+			}
+		}
+
+        component sub-sub-block { (1a @ 8b36)
+
+            component type : MagicBolt (0a @ 8b38)
+            number : 106(10 @ 8b43)
+
+            magic bolt sub-sub-sub-block { (1132 @ 8b46)
+
+                u0 : 102(08 @ 8b48)
+                u1 : 3(10 @ 8b4a)
+                u2 : 0(18 @ 8b4c)
+
+                u3 sub-sub-sub-sub-block { (22 @ 8b4e)
+
+                    w : 0.3412628471851349 (0d @ 8b50)
+                    x : 0.046070486307144165 (15 @ 8b55)
+                    y : 0.04607059061527252 (1d @ 8b5a)
+                    z : 0.0 (25 @ 8b5f)
+				}
+                u3 : 500.0 (2d @ 8b64)
+			}
+
+            temp0 sub-sub-sub-block { (1172 @ 8b6a)
+
+			}
+		}
+
+        position sub-sub-block { (22 @ 8b6c)
+
+            x position : 0.0 (0d @ 8b6e)
+            y position : 0.0 (15 @ 8b73)
+		}
+        z position : 0.0 (2d @ 8b78)
+        rotation : 0.0 (35 @ 8b7d)
+        scale : 1.0 (3d @ 8b82)
+
+        u0 sub-sub-block { (42 @ 8b87)
+
+            w : -50.0 (0d @ 8b89)
+            x : -50.0 (15 @ 8b8e)
+            y : 100.0 (1d @ 8b93)
+            z : 100.0 (25 @ 8b98)
+		}
+        hidden : 0(48 @ 8b9d)
+	}
+    u0 : 1.5 (15 @ 8b9f)
+}
+
+?item block { (12 @ 8ba4)
+
+
+    ?sub-item sub-block { (0a @ 8ba7)
+
+        name : varimage_magic_bolt_ballistic (12 @ 8baa)
+
+        component sub-sub-block { (1a @ 8bc9)
+
+            component type : SimpleGlow (0a @ 8bcb)
+            number : 1(10 @ 8bd7)
+
+            simple glow sub-sub-sub-block { (7f2 @ 8bda)
+
+
+                u0 sub-sub-sub-sub-block { (0a @ 8bdc)
+
+                    w : 1.0 (0d @ 8bde)
+                    x : 0.0 (15 @ 8be3)
+                    y : 3.5762786865234375e-07 (1d @ 8be8)
+                    z : 0.5 (25 @ 8bed)
+				}
+                u1 : 30.0 (15 @ 8bf2)
+                u2 : 10(18 @ 8bf7)
+                u3 : 15.0 (25 @ 8bf9)
+                u4 : 0.15000000596046448 (2d @ 8bfe)
+                u5 : 0.800000011920929 (35 @ 8c03)
+
+                u6 sub-sub-sub-sub-block { (3a @ 8c08)
+
+                    y : 0.0 (0d @ 8c0a)
+                    z : 0.0 (15 @ 8c0f)
+				}
+			}
+		}
+
+        component sub-sub-block { (1a @ 8c14)
+
+            component type : CollisionShape (0a @ 8c16)
+            number : 2(10 @ 8c26)
+
+            collision shape sub-sub-sub-block { (3c2 @ 8c29)
+
+
+                u0 sub-sub-sub-sub-block { (0a @ 8c2b)
+
+                    w : -10.0 (0d @ 8c2d)
+                    x : -10.0 (15 @ 8c32)
+                    y : 20.0 (1d @ 8c37)
+                    z : 20.0 (25 @ 8c3c)
+				}
+			}
+
+            collision shape 2 sub-sub-sub-block { (3ca @ 8c42)
+
+                u1 : 1(18 @ 8c44)
+                u3 : 1(28 @ 8c46)
+                w : -15.0 (35 @ 8c48)
+                x : 15.0 (3d @ 8c4d)
+                z : 1(58 @ 8c52)
+			}
+		}
+
+        component sub-sub-block { (1a @ 8c54)
+
+            component type : SoundEffect (0a @ 8c56)
+            number : 3(10 @ 8c63)
+
+            sound effect sub-sub-sub-block { (462 @ 8c66)
+
+                sound : woosh1 (0a @ 8c68)
+                u0 : 0.0 (15 @ 8c70)
+                u1 : 1.0 (1d @ 8c75)
+			}
+		}
+
+        component sub-sub-block { (1a @ 8c7a)
+
+            component type : Damage (0a @ 8c7c)
+            number : 4(10 @ 8c84)
+
+            damage sub-sub-sub-block { (3d2 @ 8c87)
+
+                u0 : 1(08 @ 8c89)
+                u1 : 0(10 @ 8c8b)
+                u2 : 0(18 @ 8c8d)
+                u4 : 2(28 @ 8c8f)
+                u5 : 0.0 (35 @ 8c91)
+                u6 : 1.0 (3d @ 8c96)
+                u7 : 0(40 @ 8c9b)
+                u8 : 1(48 @ 8c9d)
+			}
+		}
+
+        component sub-sub-block { (1a @ 8c9f)
+
+            component type : Light (0a @ 8ca1)
+            number : 6(10 @ 8ca8)
+
+            light sub-sub-sub-block { (412 @ 8cab)
+
+                u0 : 3(08 @ 8cad)
+                u1 : 2.0 (15 @ 8caf)
+
+                u2 sub-sub-sub-sub-block { (1a @ 8cb4)
+
+                    w : 1.0 (0d @ 8cb6)
+                    x : 0.35555556416511536 (15 @ 8cbb)
+                    y : 0.35555556416511536 (1d @ 8cc0)
+                    z : 1.0 (25 @ 8cc5)
+				}
+                u3 : 0.0 (25 @ 8cca)
+                u4 : 0.00019999999494757503 (2d @ 8ccf)
+
+                u5 sub-sub-sub-sub-block { (32 @ 8cd4)
+
+                    x : 0.0 (0d @ 8cd6)
+                    y : 0.0 (15 @ 8cdb)
+                    z : 0.0 (1d @ 8ce0)
+				}
+                u6 : 250.0 (3d @ 8ce5)
+			}
+		}
+
+        component sub-sub-block { (1a @ 8cea)
+
+            component type : EntityInfo (0a @ 8cec)
+            number : 7(10 @ 8cf8)
+
+            entity info sub-sub-sub-block { (522 @ 8cfb)
+
+                name : bolt (0a @ 8cfd)
+			}
+		}
+
+        component sub-sub-block { (1a @ 8d03)
+
+            component type : ParticleEmitter (0a @ 8d05)
+            number : 102(10 @ 8d16)
+
+            particle emitter sub-sub-sub-block { (7d2 @ 8d19)
+
+                particle : 103(10 @ 8d1b)
+                particle : 104(10 @ 8d1d)
+                particle : 105(10 @ 8d1f)
+                u1 : 0(18 @ 8d21)
+                u2 : 30(20 @ 8d23)
+                u3 : 0(28 @ 8d25)
+                u4 : 0(30 @ 8d27)
+                u6 : 0(40 @ 8d29)
+			}
+		}
+
+        component sub-sub-block { (1a @ 8d2b)
+
+            component type : Particle (0a @ 8d2d)
+            number : 103(10 @ 8d37)
+
+            particle sub-sub-sub-block { (7da @ 8d3a)
+
+                name : particle_fure_1 (0a @ 8d3c)
+                u0 : 40.0 (15 @ 8d4d)
+			}
+		}
+
+        component sub-sub-block { (1a @ 8d52)
+
+            component type : Particle (0a @ 8d54)
+            number : 104(10 @ 8d5e)
+
+            particle sub-sub-sub-block { (7da @ 8d61)
+
+                name : particle_fure_2 (0a @ 8d63)
+                u0 : 40.0 (15 @ 8d74)
+			}
+		}
+
+        component sub-sub-block { (1a @ 8d79)
+
+            component type : Particle (0a @ 8d7b)
+            number : 105(10 @ 8d85)
+
+            particle sub-sub-sub-block { (7da @ 8d88)
+
+                name : particle_fure_3 (0a @ 8d8a)
+                u0 : 40.0 (15 @ 8d9b)
+			}
+		}
+
+        component sub-sub-block { (1a @ 8da0)
+
+            component type : MagicBolt (0a @ 8da2)
+            number : 106(10 @ 8dad)
+
+            magic bolt sub-sub-sub-block { (1132 @ 8db0)
+
+                u0 : 102(08 @ 8db2)
+                u1 : 3(10 @ 8db4)
+                u2 : 0(18 @ 8db6)
+
+                u3 sub-sub-sub-sub-block { (22 @ 8db8)
+
+                    w : 0.4000000059604645 (0d @ 8dba)
+                    x : 0.05399999022483826 (15 @ 8dbf)
+                    y : 0.054000113159418106 (1d @ 8dc4)
+                    z : 0.0 (25 @ 8dc9)
+				}
+                u3 : 440.0 (2d @ 8dce)
+			}
+
+            temp0 sub-sub-sub-block { (1172 @ 8dd4)
+
+			}
+		}
+
+        component sub-sub-block { (1a @ 8dd6)
+
+            component type : PhysicsObject (0a @ 8dd8)
+            number : 109(10 @ 8de7)
+
+            physics object sub-sub-sub-block { (4fa @ 8dea)
+
+                u0 : 1(08 @ 8dec)
+                u2 : 0.6000000238418579 (1d @ 8dee)
+                u3 : 1500.0 (25 @ 8df3)
+                u4 : 0.0 (2d @ 8df8)
+                u5 : 700.0 (35 @ 8dfd)
+                u6 : 0(38 @ 8e02)
+                u7 : 0.0 (45 @ 8e04)
+			}
+		}
+
+        position sub-sub-block { (22 @ 8e09)
+
+            x position : 0.0 (0d @ 8e0b)
+            y position : 0.0 (15 @ 8e10)
+		}
+        z position : 0.0 (2d @ 8e15)
+        rotation : 0.0 (35 @ 8e1a)
+        scale : 1.0 (3d @ 8e1f)
+
+        u0 sub-sub-block { (42 @ 8e24)
+
+            w : -50.0 (0d @ 8e26)
+            x : -50.0 (15 @ 8e2b)
+            y : 100.0 (1d @ 8e30)
+            z : 100.0 (25 @ 8e35)
+		}
+        hidden : 0(48 @ 8e3a)
+	}
+    u0 : 1.5 (15 @ 8e3c)
+}
+
+?item block { (12 @ 8e41)
+
+
+    ?sub-item sub-block { (0a @ 8e44)
+
+        name : varimage_red (12 @ 8e47)
+
+        component sub-sub-block { (1a @ 8e55)
+
+            component type : Program (0a @ 8e58)
+            number : 1(10 @ 8e61)
+
+            program sub-sub-sub-block { (4ea @ 8e64)
+
+                u0 : 1(08 @ 8e67)
+
+                lua chunk sub-sub-sub-sub-block { (12 @ 8e69)
+
+                    main chunk : chunk >
+
+                    === lua =============
+                    local self = ...;
+                    
+                    local target = EntityController.Target(self);
+                    while true do
+                    	Program.Wait(3.5);
+                    	if EntityController.IsIdle(self) then
+                    		if Math.RandomFloat(0.0,1.0) < 0.5 then
+                    			EntityController.PerformAction(self, 2);
+                    		else 
+                    			EntityController.PerformAction(self, 126);
+                    		end
+                    	end
+                    end
+
+                    =====================
+                    secondary chunk : \x1bLuaQ\x00\x01\x04\x04\x04\x08\x001\x01\x00\x00local self = ...;\r\n\r\nlocal target = EntityController.Target(self);\r\nwhile true do\r\n\tProgram.Wait(3.5);\r\n\tif EntityController.IsIdle(self) then\r\n\t\tif Math.RandomFloat(0.0,1.0) < 0.5 then\r\n\t\t\tEntityController.PerformAction(self, 2);\r\n\t\telse \r\n\t\t\tEntityController.PerformAction(self, 126);\r\n\t\tend\r\n\tend\r\nend\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x02\x05#\x00\x00\x00%\x00\x00\x01E\x00\x00\x00F@\xc0\x00\x80\x00\x00\x00\\\x80\x00\x01\x85\x80\x00\x00\x86\xc0@\x01\xc1\x00\x01\x00\x9c@\x00\x01\x85\x00\x00\x00\x86@A\x01\xc0\x00\x00\x00\x9c\x80\x00\x01\x9a\x00\x00\x00\x16@\xfd\x7f\x85\x80\x01\x00\x86\xc0A\x01\xc1\x00\x02\x00\x01A\x02\x00\x9c\x80\x80\x01\x18\x80B\x01\x16@\x01\x80\x85\x00\x00\x00\x86\xc0B\x01\xc0\x00\x00\x00\x01\x01\x03\x00\x9c@\x80\x01\x16\x00\xfa\x7f\x85\x00\x00\x00\x86\xc0B\x01\xc0\x00\x00\x00\x01A\x03\x00\x9c@\x80\x01\x16\x80\xf8\x7f\x1e\x00\x80\x00\x0e\x00\x00\x00\x04\x11\x00\x00\x00EntityController\x00\x04\x07\x00\x00\x00Target\x00\x04\x08\x00\x00\x00Program\x00\x04\x05\x00\x00\x00Wait\x00\x03\x00\x00\x00\x00\x00\x00\x0c@\x04\x07\x00\x00\x00IsIdle\x00\x04\x05\x00\x00\x00Math\x00\x04\x0c\x00\x00\x00RandomFloat\x00\x03\x00\x00\x00\x00\x00\x00\x00\x00\x03\x00\x00\x00\x00\x00\x00\xf0?\x03\x00\x00\x00\x00\x00\x00\xe0?\x04\x0e\x00\x00\x00PerformAction\x00\x03\x00\x00\x00\x00\x00\x00\x00@\x03\x00\x00\x00\x00\x00\x80_@\x00\x00\x00\x00#\x00\x00\x00\x01\x00\x00\x00\x03\x00\x00\x00\x03\x00\x00\x00\x03\x00\x00\x00\x03\x00\x00\x00\x05\x00\x00\x00\x05\x00\x00\x00\x05\x00\x00\x00\x05\x00\x00\x00\x06\x00\x00\x00\x06\x00\x00\x00\x06\x00\x00\x00\x06\x00\x00\x00\x06\x00\x00\x00\x06\x00\x00\x00\x07\x00\x00\x00\x07\x00\x00\x00\x07\x00\x00\x00\x07\x00\x00\x00\x07\x00\x00\x00\x07\x00\x00\x00\x07\x00\x00\x00\x08\x00\x00\x00\x08\x00\x00\x00\x08\x00\x00\x00\x08\x00\x00\x00\x08\x00\x00\x00\x08\x00\x00\x00\n\x00\x00\x00\n\x00\x00\x00\n\x00\x00\x00\n\x00\x00\x00\n\x00\x00\x00\x0c\x00\x00\x00\r\x00\x00\x00\x02\x00\x00\x00\x05\x00\x00\x00self\x00\x01\x00\x00\x00"\x00\x00\x00\x07\x00\x00\x00target\x00\x05\x00\x00\x00"\x00\x00\x00\x00\x00\x00\x00 (12 @ 8f9f)
+				}
+                u1 : 1(18 @ 92ec)
+                u2 : 1(20 @ 92ee)
+			}
+		}
+
+        component sub-sub-block { (1a @ 92f0)
+
+            component type : EntityAction (0a @ 92f3)
+            number : 2(10 @ 9301)
+
+            entity action sub-sub-sub-block { (512 @ 9304)
+
+
+                lua chunk sub-sub-sub-sub-block { (0a @ 9307)
+
+                    main chunk : chunk >
+
+                    === lua =============
+                    local self = ...;
+                    
+                    local invokeAnimation = 127;
+                    local castAnimation = 132;
+                    
+                    EntityController.SetMoveSpeed(self, 0);
+                    KeyframeAnimation.SetCurrentTime(self, invokeAnimation, 0.0);
+                    AnimationController.BlendToAnimation(self, invokeAnimation);
+                    
+                    Skill.BeginCasting(self, "varimage_magic_bolt_ballistic", Vector3.New(EntityController.FacingDirection(self)*2, 10, 0):normalized());
+                    Program.Wait(1);
+                    
+                    KeyframeAnimation.SetCurrentTime(self, castAnimation, 0.0);
+                    AnimationController.BlendToAnimation(self, castAnimation);
+                    
+                    Program.Wait(KeyframeAnimation.TimeToFrame(self, castAnimation, 13));
+                    
+                    Skill.FinishCasting(self);
+                    Skill.BeginCasting(self, "varimage_magic_bolt_ballistic", Vector3.New(EntityController.FacingDirection(self)*-2, 10, 0):normalized());
+                    Program.Wait(0.1);
+                    Skill.FinishCasting(self);
+                    Program.Wait(0.1);
+                    Skill.BeginCasting(self, "varimage_magic_bolt_ballistic", Vector3.New(EntityController.FacingDirection(self)*4, 10, 0):normalized());
+                    Skill.FinishCasting(self);
+                    Program.Wait(KeyframeAnimation.TimeToCompletion(self, castAnimation));
+                    
+                    EntityController.SetMoveSpeed(self, EntityController.DefaultMoveSpeed(self));
+
+                    =====================
+                    secondary chunk : \x1bLuaQ\x00\x01\x04\x04\x04\x08\x00{\x04\x00\x00local self = ...;\r\n\r\nlocal invokeAnimation = 127;\r\nlocal castAnimation = 132;\r\n\r\nEntityController.SetMoveSpeed(self, 0);\r\nKeyframeAnimation.SetCurrentTime(self, invokeAnimation, 0.0);\r\nAnimationController.BlendToAnimation(self, invokeAnimation);\r\n\r\nSkill.BeginCasting(self, "varimage_magic_bolt_ballistic", Vector3.New(EntityController.FacingDirection(self)*2, 10, 0):normalized());\r\nProgram.Wait(1);\r\n\r\nKeyframeAnimation.SetCurrentTime(self, castAnimation, 0.0);\r\nAnimationController.BlendToAnimation(self, castAnimation);\r\n\r\nProgram.Wait(KeyframeAnimation.TimeToFrame(self, castAnimation, 13));\r\n\r\nSkill.FinishCasting(self);\r\nSkill.BeginCasting(self, "varimage_magic_bolt_ballistic", Vector3.New(EntityController.FacingDirection(self)*-2, 10, 0):normalized());\r\nProgram.Wait(0.1);\r\nSkill.FinishCasting(self);\r\nProgram.Wait(0.1);\r\nSkill.BeginCasting(self, "varimage_magic_bolt_ballistic", Vector3.New(EntityController.FacingDirection(self)*4, 10, 0):normalized());\r\nSkill.FinishCasting(self);\r\nProgram.Wait(KeyframeAnimation.TimeToCompletion(self, castAnimation));\r\n\r\nEntityController.SetMoveSpeed(self, EntityController.DefaultMoveSpeed(self));\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x02\n\x83\x00\x00\x00%\x00\x00\x01A\x00\x00\x00\x81@\x00\x00\xc5\x80\x00\x00\xc6\xc0\xc0\x01\x00\x01\x00\x00A\x01\x01\x00\xdc@\x80\x01\xc5@\x01\x00\xc6\x80\xc1\x01\x00\x01\x00\x00@\x01\x80\x00\x81\x01\x01\x00\xdc@\x00\x02\xc5\xc0\x01\x00\xc6\x00\xc2\x01\x00\x01\x00\x00@\x01\x80\x00\xdc@\x80\x01\xc5@\x02\x00\xc6\x80\xc2\x01\x00\x01\x00\x00A\xc1\x02\x00\x85\x01\x03\x00\x86AC\x03\xc5\x81\x00\x00\xc6\x81\xc3\x03\x00\x02\x00\x00\xdc\x81\x00\x01\xce\xc1\xc3\x03\x01\x02\x04\x00A\x02\x01\x00\x9c\x81\x00\x02\x8bAD\x03\x9c\x01\x00\x01\xdc@\x00\x00\xc5\x80\x04\x00\xc6\xc0\xc4\x01\x01\x01\x05\x00\xdc@\x00\x01\xc5@\x01\x00\xc6\x80\xc1\x01\x00\x01\x00\x00@\x01\x00\x01\x81\x01\x01\x00\xdc@\x00\x02\xc5\xc0\x01\x00\xc6\x00\xc2\x01\x00\x01\x00\x00@\x01\x00\x01\xdc@\x80\x01\xc5\x80\x04\x00\xc6\xc0\xc4\x01\x05A\x01\x00\x06AE\x02@\x01\x00\x00\x80\x01\x00\x01\xc1\x81\x05\x00\x1c\x01\x00\x02\xdc@\x00\x00\xc5@\x02\x00\xc6\xc0\xc5\x01\x00\x01\x00\x00\xdc@\x00\x01\xc5@\x02\x00\xc6\x80\xc2\x01\x00\x01\x00\x00A\xc1\x02\x00\x85\x01\x03\x00\x86AC\x03\xc5\x81\x00\x00\xc6\x81\xc3\x03\x00\x02\x00\x00\xdc\x81\x00\x01\xce\x01\xc6\x03\x01\x02\x04\x00A\x02\x01\x00\x9c\x81\x00\x02\x8bAD\x03\x9c\x01\x00\x01\xdc@\x00\x00\xc5\x80\x04\x00\xc6\xc0\xc4\x01\x01A\x06\x00\xdc@\x00\x01\xc5@\x02\x00\xc6\xc0\xc5\x01\x00\x01\x00\x00\xdc@\x00\x01\xc5\x80\x04\x00\xc6\xc0\xc4\x01\x01A\x06\x00\xdc@\x00\x01\xc5@\x02\x00\xc6\x80\xc2\x01\x00\x01\x00\x00A\xc1\x02\x00\x85\x01\x03\x00\x86AC\x03\xc5\x81\x00\x00\xc6\x81\xc3\x03\x00\x02\x00\x00\xdc\x81\x00\x01\xce\x81\xc6\x03\x01\x02\x04\x00A\x02\x01\x00\x9c\x81\x00\x02\x8bAD\x03\x9c\x01\x00\x01\xdc@\x00\x00\xc5@\x02\x00\xc6\xc0\xc5\x01\x00\x01\x00\x00\xdc@\x00\x01\xc5\x80\x04\x00\xc6\xc0\xc4\x01\x05A\x01\x00\x06\xc1F\x02@\x01\x00\x00\x80\x01\x00\x01\x1c\x01\x80\x01\xdc@\x00\x00\xc5\x80\x00\x00\xc6\xc0\xc0\x01\x00\x01\x00\x00E\x81\x00\x00F\x01\xc7\x02\x80\x01\x00\x00\\\x01\x00\x01\xdc@\x00\x00\x1e\x00\x80\x00\x1d\x00\x00\x00\x03\x00\x00\x00\x00\x00\xc0_@\x03\x00\x00\x00\x00\x00\x80`@\x04\x11\x00\x00\x00EntityController\x00\x04\r\x00\x00\x00SetMoveSpeed\x00\x03\x00\x00\x00\x00\x00\x00\x00\x00\x04\x12\x00\x00\x00KeyframeAnimation\x00\x04\x0f\x00\x00\x00SetCurrentTime\x00\x04\x14\x00\x00\x00AnimationController\x00\x04\x11\x00\x00\x00BlendToAnimation\x00\x04\x06\x00\x00\x00Skill\x00\x04\r\x00\x00\x00BeginCasting\x00\x04\x1e\x00\x00\x00varimage_magic_bolt_ballistic\x00\x04\x08\x00\x00\x00Vector3\x00\x04\x04\x00\x00\x00New\x00\x04\x10\x00\x00\x00FacingDirection\x00\x03\x00\x00\x00\x00\x00\x00\x00@\x03\x00\x00\x00\x00\x00\x00$@\x04\x0b\x00\x00\x00normalized\x00\x04\x08\x00\x00\x00Program\x00\x04\x05\x00\x00\x00Wait\x00\x03\x00\x00\x00\x00\x00\x00\xf0?\x04\x0c\x00\x00\x00TimeToFrame\x00\x03\x00\x00\x00\x00\x00\x00*@\x04\x0e\x00\x00\x00FinishCasting\x00\x03\x00\x00\x00\x00\x00\x00\x00\xc0\x03\x9a\x99\x99\x99\x99\x99\xb9?\x03\x00\x00\x00\x00\x00\x00\x10@\x04\x11\x00\x00\x00TimeToCompletion\x00\x04\x11\x00\x00\x00DefaultMoveSpeed\x00\x00\x00\x00\x00\x83\x00\x00\x00\x01\x00\x00\x00\x03\x00\x00\x00\x04\x00\x00\x00\x06\x00\x00\x00\x06\x00\x00\x00\x06\x00\x00\x00\x06\x00\x00\x00\x06\x00\x00\x00\x07\x00\x00\x00\x07\x00\x00\x00\x07\x00\x00\x00\x07\x00\x00\x00\x07\x00\x00\x00\x07\x00\x00\x00\x08\x00\x00\x00\x08\x00\x00\x00\x08\x00\x00\x00\x08\x00\x00\x00\x08\x00\x00\x00\n\x00\x00\x00\n\x00\x00\x00\n\x00\x00\x00\n\x00\x00\x00\n\x00\x00\x00\n\x00\x00\x00\n\x00\x00\x00\n\x00\x00\x00\n\x00\x00\x00\n\x00\x00\x00\n\x00\x00\x00\n\x00\x00\x00\n\x00\x00\x00\n\x00\x00\x00\n\x00\x00\x00\n\x00\x00\x00\n\x00\x00\x00\x0b\x00\x00\x00\x0b\x00\x00\x00\x0b\x00\x00\x00\x0b\x00\x00\x00\r\x00\x00\x00\r\x00\x00\x00\r\x00\x00\x00\r\x00\x00\x00\r\x00\x00\x00\r\x00\x00\x00\x0e\x00\x00\x00\x0e\x00\x00\x00\x0e\x00\x00\x00\x0e\x00\x00\x00\x0e\x00\x00\x00\x10\x00\x00\x00\x10\x00\x00\x00\x10\x00\x00\x00\x10\x00\x00\x00\x10\x00\x00\x00\x10\x00\x00\x00\x10\x00\x00\x00\x10\x00\x00\x00\x10\x00\x00\x00\x12\x00\x00\x00\x12\x00\x00\x00\x12\x00\x00\x00\x12\x00\x00\x00\x13\x00\x00\x00\x13\x00\x00\x00\x13\x00\x00\x00\x13\x00\x00\x00\x13\x00\x00\x00\x13\x00\x00\x00\x13\x00\x00\x00\x13\x00\x00\x00\x13\x00\x00\x00\x13\x00\x00\x00\x13\x00\x00\x00\x13\x00\x00\x00\x13\x00\x00\x00\x13\x00\x00\x00\x13\x00\x00\x00\x13\x00\x00\x00\x13\x00\x00\x00\x14\x00\x00\x00\x14\x00\x00\x00\x14\x00\x00\x00\x14\x00\x00\x00\x15\x00\x00\x00\x15\x00\x00\x00\x15\x00\x00\x00\x15\x00\x00\x00\x16\x00\x00\x00\x16\x00\x00\x00\x16\x00\x00\x00\x16\x00\x00\x00\x17\x00\x00\x00\x17\x00\x00\x00\x17\x00\x00\x00\x17\x00\x00\x00\x17\x00\x00\x00\x17\x00\x00\x00\x17\x00\x00\x00\x17\x00\x00\x00\x17\x00\x00\x00\x17\x00\x00\x00\x17\x00\x00\x00\x17\x00\x00\x00\x17\x00\x00\x00\x17\x00\x00\x00\x17\x00\x00\x00\x17\x00\x00\x00\x17\x00\x00\x00\x18\x00\x00\x00\x18\x00\x00\x00\x18\x00\x00\x00\x18\x00\x00\x00\x19\x00\x00\x00\x19\x00\x00\x00\x19\x00\x00\x00\x19\x00\x00\x00\x19\x00\x00\x00\x19\x00\x00\x00\x19\x00\x00\x00\x19\x00\x00\x00\x1b\x00\x00\x00\x1b\x00\x00\x00\x1b\x00\x00\x00\x1b\x00\x00\x00\x1b\x00\x00\x00\x1b\x00\x00\x00\x1b\x00\x00\x00\x1b\x00\x00\x00\x1b\x00\x00\x00\x03\x00\x00\x00\x05\x00\x00\x00self\x00\x01\x00\x00\x00\x82\x00\x00\x00\x10\x00\x00\x00invokeAnimation\x00\x02\x00\x00\x00\x82\x00\x00\x00\x0e\x00\x00\x00castAnimation\x00\x03\x00\x00\x00\x82\x00\x00\x00\x00\x00\x00\x00 (12 @ 9787)
+				}
+			}
+		}
+
+        component sub-sub-block { (1a @ a256)
+
+            component type : EntityInfo (0a @ a258)
+            number : 3(10 @ a264)
+
+            entity info sub-sub-sub-block { (522 @ a267)
+
+                name : Sorcerer (0a @ a269)
+			}
+		}
+
+        component sub-sub-block { (1a @ a273)
+
+            component type : Model (0a @ a275)
+            number : 101(10 @ a27c)
+
+            3D model sub-sub-sub-block { (32a @ a27f)
+
+                name : varimage_red (0a @ a281)
+                u0 : 1.5707963705062866 (15 @ a28f)
+                u1 : 0.30000001192092896 (1d @ a294)
+                u2 : 0.0 (25 @ a299)
+
+                u3 sub-sub-sub-sub-block { (2a @ a29e)
+
+                    w : 0.5529412031173706 (0d @ a2a0)
+                    x : 0.0 (15 @ a2a5)
+                    y : 0.0 (1d @ a2aa)
+                    z : 1.0 (25 @ a2af)
+				}
+
+                u4 sub-sub-sub-sub-block { (32 @ a2b4)
+
+                    x : 0.0 (0d @ a2b6)
+                    y : 0.0 (15 @ a2bb)
+                    z : 0.0 (1d @ a2c0)
+				}
+                u5 : 0(38 @ a2c5)
+
+                u6 sub-sub-sub-sub-block { (42 @ a2c7)
+
+                    w : 1.0 (0d @ a2c9)
+                    x : 1.0 (15 @ a2ce)
+                    y : 1.0 (1d @ a2d3)
+                    z : 1.0 (25 @ a2d8)
+				}
+			}
+		}
+
+        component sub-sub-block { (1a @ a2dd)
+
+            component type : MonsterEntity (0a @ a2e0)
+            number : 103(10 @ a2ef)
+
+            entity sub-sub-sub-block { (4c2 @ a2f2)
+
+                u0 : 18446744073709551615(08 @ a2f4)
+                u1 : 1(10 @ a2ff)
+			}
+
+            ?monster entity sub-sub-sub-block { (4f2 @ a302)
+
+                u0 :  (0a @ a305)
+
+                lua chunk sub-sub-sub-sub-block { (12 @ a307)
+
+                    main chunk : chunk >
+
+                    === lua =============
+                    local self = ...;
+                    
+                    local target = EntityController.Target(self);
+                    
+                    if target ~= nil then 
+                    	local targetDirection = 1;
+                    	if (target:position() - self:position()):x() < 0 then targetDirection = -1; end
+                    
+                    	EntityController.SetFacingDirection(self, targetDirection, 0.2);
+                    	EntityController.SetMoveDirection(self, targetDirection, 0.7);
+                    
+                    	Program.Wait(0.8);
+                    
+                    	if EntityController.IsIdle(self) then
+                    		EntityController.PerformAction(self, 126);
+                    	end
+                    end
+
+                    =====================
+                    secondary chunk : \x1bLuaQ\x00\x01\x04\x04\x04\x08\x00\xcc\x01\x00\x00local self = ...;\r\n\r\nlocal target = EntityController.Target(self);\r\n\r\nif target ~= nil then \r\n\tlocal targetDirection = 1;\r\n\tif (target:position() - self:position()):x() < 0 then targetDirection = -1; end\r\n\r\n\tEntityController.SetFacingDirection(self, targetDirection, 0.2);\r\n\tEntityController.SetMoveDirection(self, targetDirection, 0.7);\r\n\r\n\tProgram.Wait(0.8);\r\n\r\n\tif EntityController.IsIdle(self) then\r\n\t\tEntityController.PerformAction(self, 126);\r\n\tend\r\nend\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x02\x07.\x00\x00\x00%\x00\x00\x01E\x00\x00\x00F@\xc0\x00\x80\x00\x00\x00\\\x80\x00\x01W\x80\xc0\x00\x16@\t\x80\x81\xc0\x00\x00\xcb\x00\xc1\x00\xdc\x80\x00\x01\x0b\x01A\x00\x1c\x81\x00\x01\xcd\x00\x81\x01\xcb@\xc1\x01\xdc\x80\x00\x01\x18\x80\xc1\x01\x16\x00\x00\x80\x81\xc0\x01\x00\xc5\x00\x00\x00\xc6\x00\xc2\x01\x00\x01\x00\x00@\x01\x00\x01\x81A\x02\x00\xdc@\x00\x02\xc5\x00\x00\x00\xc6\x80\xc2\x01\x00\x01\x00\x00@\x01\x00\x01\x81\xc1\x02\x00\xdc@\x00\x02\xc5\x00\x03\x00\xc6@\xc3\x01\x01\x81\x03\x00\xdc@\x00\x01\xc5\x00\x00\x00\xc6\xc0\xc3\x01\x00\x01\x00\x00\xdc\x80\x00\x01\xda\x00\x00\x00\x16\x00\x01\x80\xc5\x00\x00\x00\xc6\x00\xc4\x01\x00\x01\x00\x00AA\x04\x00\xdc@\x80\x01\x1e\x00\x80\x00\x12\x00\x00\x00\x04\x11\x00\x00\x00EntityController\x00\x04\x07\x00\x00\x00Target\x00\x00\x03\x00\x00\x00\x00\x00\x00\xf0?\x04\t\x00\x00\x00position\x00\x04\x02\x00\x00\x00x\x00\x03\x00\x00\x00\x00\x00\x00\x00\x00\x03\x00\x00\x00\x00\x00\x00\xf0\xbf\x04\x13\x00\x00\x00SetFacingDirection\x00\x03\x9a\x99\x99\x99\x99\x99\xc9?\x04\x11\x00\x00\x00SetMoveDirection\x00\x03ffffff\xe6?\x04\x08\x00\x00\x00Program\x00\x04\x05\x00\x00\x00Wait\x00\x03\x9a\x99\x99\x99\x99\x99\xe9?\x04\x07\x00\x00\x00IsIdle\x00\x04\x0e\x00\x00\x00PerformAction\x00\x03\x00\x00\x00\x00\x00\x80_@\x00\x00\x00\x00.\x00\x00\x00\x01\x00\x00\x00\x03\x00\x00\x00\x03\x00\x00\x00\x03\x00\x00\x00\x03\x00\x00\x00\x05\x00\x00\x00\x05\x00\x00\x00\x06\x00\x00\x00\x07\x00\x00\x00\x07\x00\x00\x00\x07\x00\x00\x00\x07\x00\x00\x00\x07\x00\x00\x00\x07\x00\x00\x00\x07\x00\x00\x00\x07\x00\x00\x00\x07\x00\x00\x00\x07\x00\x00\x00\t\x00\x00\x00\t\x00\x00\x00\t\x00\x00\x00\t\x00\x00\x00\t\x00\x00\x00\t\x00\x00\x00\n\x00\x00\x00\n\x00\x00\x00\n\x00\x00\x00\n\x00\x00\x00\n\x00\x00\x00\n\x00\x00\x00\x0c\x00\x00\x00\x0c\x00\x00\x00\x0c\x00\x00\x00\x0c\x00\x00\x00\x0e\x00\x00\x00\x0e\x00\x00\x00\x0e\x00\x00\x00\x0e\x00\x00\x00\x0e\x00\x00\x00\x0e\x00\x00\x00\x0f\x00\x00\x00\x0f\x00\x00\x00\x0f\x00\x00\x00\x0f\x00\x00\x00\x0f\x00\x00\x00\x11\x00\x00\x00\x03\x00\x00\x00\x05\x00\x00\x00self\x00\x01\x00\x00\x00-\x00\x00\x00\x07\x00\x00\x00target\x00\x05\x00\x00\x00-\x00\x00\x00\x10\x00\x00\x00targetDirection\x00\x08\x00\x00\x00-\x00\x00\x00\x00\x00\x00\x00 (12 @ a4d8)
+				}
+                u2 : 1(18 @ a966)
+                u3 : 1(20 @ a968)
+			}
+		}
+
+        component sub-sub-block { (1a @ a96a)
+
+            component type : EntityController (0a @ a96c)
+            number : 104(10 @ a97e)
+
+            entity controller sub-sub-sub-block { (50a @ a981)
+
+                entity component : 103(08 @ a983)
+                animation controller component : 105(10 @ a985)
+                u2 : 112(18 @ a987)
+                collision shape : 117(20 @ a989)
+                u4 : 100.0 (2d @ a98b)
+                u5 : 1000.0 (35 @ a990)
+                u6 : 300.0 (3d @ a995)
+                u7 : 4(40 @ a99a)
+			}
+		}
+
+        component sub-sub-block { (1a @ a99c)
+
+            component type : AnimationController (0a @ a99e)
+            number : 105(10 @ a9b3)
+
+            animation controller sub-sub-sub-block { (4aa @ a9b6)
+
+                model component : 101(08 @ a9b8)
+                u1 : 0(10 @ a9ba)
+                u2 : 0(18 @ a9bc)
+			}
+		}
+
+        component sub-sub-block { (1a @ a9be)
+
+            component type : CollisionShape (0a @ a9c0)
+            number : 106(10 @ a9d0)
+            name : main (1a @ a9d2)
+
+            collision shape sub-sub-sub-block { (3c2 @ a9d9)
+
+
+                u0 sub-sub-sub-sub-block { (0a @ a9db)
+
+                    w : -26.0 (0d @ a9dd)
+                    x : -0.8095080256462097 (15 @ a9e2)
+                    y : 54.0 (1d @ a9e7)
+                    z : 70.80950927734375 (25 @ a9ec)
+				}
+			}
+
+            collision shape 2 sub-sub-sub-block { (3ca @ a9f2)
+
+                u1 : 1(18 @ a9f4)
+                u2 : 1(20 @ a9f6)
+                u3 : 1(28 @ a9f8)
+                w : -15.0 (35 @ a9fa)
+                x : 15.0 (3d @ a9ff)
+                z : 1(58 @ aa04)
+			}
+		}
+
+        component sub-sub-block { (1a @ aa06)
+
+            component type : KeyframeAnimation (0a @ aa08)
+            number : 112(10 @ aa1b)
+
+            keyframe animation sub-sub-sub-block { (332 @ aa1e)
+
+                linked model component number : 101(08 @ aa20)
+                name : varimage_walk (12 @ aa22)
+                u0 : 1(18 @ aa31)
+                u1 : 1.2000000476837158 (25 @ aa33)
+                u2 : 1(28 @ aa38)
+			}
+		}
+
+        component sub-sub-block { (1a @ aa3a)
+
+            component type : UtilityShape (0a @ aa3c)
+            number : 117(10 @ aa4a)
+            name : roam (1a @ aa4c)
+
+            collision shape sub-sub-sub-block { (3c2 @ aa53)
+
+
+                u0 sub-sub-sub-sub-block { (0a @ aa55)
+
+                    w : -300.0 (0d @ aa57)
+                    x : -50.0 (15 @ aa5c)
+                    y : 600.0 (1d @ aa61)
+                    z : 100.0 (25 @ aa66)
+				}
+			}
+		}
+
+        component sub-sub-block { (1a @ aa6b)
+
+            component type : Damage (0a @ aa6d)
+            number : 119(10 @ aa75)
+
+            damage sub-sub-sub-block { (3d2 @ aa78)
+
+                u0 : 1(08 @ aa7a)
+                u1 : 0(10 @ aa7c)
+                u2 : 0(18 @ aa7e)
+                u5 : 1.0 (35 @ aa80)
+                u6 : 0.0 (3d @ aa85)
+                u7 : 0(40 @ aa8a)
+                u8 : 1(48 @ aa8c)
+			}
+		}
+
+        component sub-sub-block { (1a @ aa8e)
+
+            component type : Health (0a @ aa90)
+            number : 120(10 @ aa98)
+
+            health sub-sub-sub-block { (3da @ aa9b)
+
+                u0 : 10(08 @ aa9d)
+                u1 : 0(10 @ aa9f)
+
+                u2 sub-sub-sub-sub-block { (1a @ aaa1)
+
+                    x : 0.0 (0d @ aaa3)
+                    y : 50.0 (15 @ aaa8)
+				}
+			}
+		}
+
+        component sub-sub-block { (1a @ aaad)
+
+            component type : EntityAction (0a @ aab0)
+            number : 126(10 @ aabe)
+
+            entity action sub-sub-sub-block { (512 @ aac1)
+
+
+                lua chunk sub-sub-sub-sub-block { (0a @ aac4)
+
+                    main chunk : chunk >
+
+                    === lua =============
+                    local self = ...;
+                    
+                    local invokeAnimation = 127;
+                    local castAnimation = 132;
+                    
+                    EntityController.SetMoveSpeed(self, 0);
+                    KeyframeAnimation.SetCurrentTime(self, invokeAnimation, 0.0);
+                    AnimationController.BlendToAnimation(self, invokeAnimation);
+                    
+                    Skill.BeginCasting(self, "varimage_magic_bolt", Vector3.New(EntityController.FacingDirection(self), 0, 0));
+                    Program.Wait(1);
+                    
+                    KeyframeAnimation.SetCurrentTime(self, castAnimation, 0.0);
+                    AnimationController.BlendToAnimation(self, castAnimation);
+                    
+                    Program.Wait(KeyframeAnimation.TimeToFrame(self, castAnimation, 13));
+                    
+                    Skill.FinishCasting(self);
+                    Skill.BeginCasting(self, "varimage_magic_bolt", Vector3.New(EntityController.FacingDirection(self), 0.2, 0):normalized());
+                    Program.Wait(0.1);
+                    Skill.FinishCasting(self);
+                    
+                    Program.Wait(KeyframeAnimation.TimeToCompletion(self, castAnimation));
+                    
+                    EntityController.SetMoveSpeed(self, EntityController.DefaultMoveSpeed(self));
+
+                    =====================
+                    secondary chunk : \x1bLuaQ\x00\x01\x04\x04\x04\x08\x00\xa0\x03\x00\x00local self = ...;\r\n\r\nlocal invokeAnimation = 127;\r\nlocal castAnimation = 132;\r\n\r\nEntityController.SetMoveSpeed(self, 0);\r\nKeyframeAnimation.SetCurrentTime(self, invokeAnimation, 0.0);\r\nAnimationController.BlendToAnimation(self, invokeAnimation);\r\n\r\nSkill.BeginCasting(self, "varimage_magic_bolt", Vector3.New(EntityController.FacingDirection(self), 0, 0));\r\nProgram.Wait(1);\r\n\r\nKeyframeAnimation.SetCurrentTime(self, castAnimation, 0.0);\r\nAnimationController.BlendToAnimation(self, castAnimation);\r\n\r\nProgram.Wait(KeyframeAnimation.TimeToFrame(self, castAnimation, 13));\r\n\r\nSkill.FinishCasting(self);\r\nSkill.BeginCasting(self, "varimage_magic_bolt", Vector3.New(EntityController.FacingDirection(self), 0.2, 0):normalized());\r\nProgram.Wait(0.1);\r\nSkill.FinishCasting(self);\r\n\r\nProgram.Wait(KeyframeAnimation.TimeToCompletion(self, castAnimation));\r\n\r\nEntityController.SetMoveSpeed(self, EntityController.DefaultMoveSpeed(self));\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x02\nf\x00\x00\x00%\x00\x00\x01A\x00\x00\x00\x81@\x00\x00\xc5\x80\x00\x00\xc6\xc0\xc0\x01\x00\x01\x00\x00A\x01\x01\x00\xdc@\x80\x01\xc5@\x01\x00\xc6\x80\xc1\x01\x00\x01\x00\x00@\x01\x80\x00\x81\x01\x01\x00\xdc@\x00\x02\xc5\xc0\x01\x00\xc6\x00\xc2\x01\x00\x01\x00\x00@\x01\x80\x00\xdc@\x80\x01\xc5@\x02\x00\xc6\x80\xc2\x01\x00\x01\x00\x00A\xc1\x02\x00\x85\x01\x03\x00\x86AC\x03\xc5\x81\x00\x00\xc6\x81\xc3\x03\x00\x02\x00\x00\xdc\x81\x00\x01\x01\x02\x01\x00A\x02\x01\x00\x9c\x01\x00\x02\xdc@\x00\x00\xc5\xc0\x03\x00\xc6\x00\xc4\x01\x01A\x04\x00\xdc@\x00\x01\xc5@\x01\x00\xc6\x80\xc1\x01\x00\x01\x00\x00@\x01\x00\x01\x81\x01\x01\x00\xdc@\x00\x02\xc5\xc0\x01\x00\xc6\x00\xc2\x01\x00\x01\x00\x00@\x01\x00\x01\xdc@\x80\x01\xc5\xc0\x03\x00\xc6\x00\xc4\x01\x05A\x01\x00\x06\x81D\x02@\x01\x00\x00\x80\x01\x00\x01\xc1\xc1\x04\x00\x1c\x01\x00\x02\xdc@\x00\x00\xc5@\x02\x00\xc6\x00\xc5\x01\x00\x01\x00\x00\xdc@\x00\x01\xc5@\x02\x00\xc6\x80\xc2\x01\x00\x01\x00\x00A\xc1\x02\x00\x85\x01\x03\x00\x86AC\x03\xc5\x81\x00\x00\xc6\x81\xc3\x03\x00\x02\x00\x00\xdc\x81\x00\x01\x01B\x05\x00A\x02\x01\x00\x9c\x81\x00\x02\x8b\x81E\x03\x9c\x01\x00\x01\xdc@\x00\x00\xc5\xc0\x03\x00\xc6\x00\xc4\x01\x01\xc1\x05\x00\xdc@\x00\x01\xc5@\x02\x00\xc6\x00\xc5\x01\x00\x01\x00\x00\xdc@\x00\x01\xc5\xc0\x03\x00\xc6\x00\xc4\x01\x05A\x01\x00\x06\x01F\x02@\x01\x00\x00\x80\x01\x00\x01\x1c\x01\x80\x01\xdc@\x00\x00\xc5\x80\x00\x00\xc6\xc0\xc0\x01\x00\x01\x00\x00E\x81\x00\x00FA\xc6\x02\x80\x01\x00\x00\\\x01\x00\x01\xdc@\x00\x00\x1e\x00\x80\x00\x1a\x00\x00\x00\x03\x00\x00\x00\x00\x00\xc0_@\x03\x00\x00\x00\x00\x00\x80`@\x04\x11\x00\x00\x00EntityController\x00\x04\r\x00\x00\x00SetMoveSpeed\x00\x03\x00\x00\x00\x00\x00\x00\x00\x00\x04\x12\x00\x00\x00KeyframeAnimation\x00\x04\x0f\x00\x00\x00SetCurrentTime\x00\x04\x14\x00\x00\x00AnimationController\x00\x04\x11\x00\x00\x00BlendToAnimation\x00\x04\x06\x00\x00\x00Skill\x00\x04\r\x00\x00\x00BeginCasting\x00\x04\x14\x00\x00\x00varimage_magic_bolt\x00\x04\x08\x00\x00\x00Vector3\x00\x04\x04\x00\x00\x00New\x00\x04\x10\x00\x00\x00FacingDirection\x00\x04\x08\x00\x00\x00Program\x00\x04\x05\x00\x00\x00Wait\x00\x03\x00\x00\x00\x00\x00\x00\xf0?\x04\x0c\x00\x00\x00TimeToFrame\x00\x03\x00\x00\x00\x00\x00\x00*@\x04\x0e\x00\x00\x00FinishCasting\x00\x03\x9a\x99\x99\x99\x99\x99\xc9?\x04\x0b\x00\x00\x00normalized\x00\x03\x9a\x99\x99\x99\x99\x99\xb9?\x04\x11\x00\x00\x00TimeToCompletion\x00\x04\x11\x00\x00\x00DefaultMoveSpeed\x00\x00\x00\x00\x00f\x00\x00\x00\x01\x00\x00\x00\x03\x00\x00\x00\x04\x00\x00\x00\x06\x00\x00\x00\x06\x00\x00\x00\x06\x00\x00\x00\x06\x00\x00\x00\x06\x00\x00\x00\x07\x00\x00\x00\x07\x00\x00\x00\x07\x00\x00\x00\x07\x00\x00\x00\x07\x00\x00\x00\x07\x00\x00\x00\x08\x00\x00\x00\x08\x00\x00\x00\x08\x00\x00\x00\x08\x00\x00\x00\x08\x00\x00\x00\n\x00\x00\x00\n\x00\x00\x00\n\x00\x00\x00\n\x00\x00\x00\n\x00\x00\x00\n\x00\x00\x00\n\x00\x00\x00\n\x00\x00\x00\n\x00\x00\x00\n\x00\x00\x00\n\x00\x00\x00\n\x00\x00\x00\n\x00\x00\x00\n\x00\x00\x00\x0b\x00\x00\x00\x0b\x00\x00\x00\x0b\x00\x00\x00\x0b\x00\x00\x00\r\x00\x00\x00\r\x00\x00\x00\r\x00\x00\x00\r\x00\x00\x00\r\x00\x00\x00\r\x00\x00\x00\x0e\x00\x00\x00\x0e\x00\x00\x00\x0e\x00\x00\x00\x0e\x00\x00\x00\x0e\x00\x00\x00\x10\x00\x00\x00\x10\x00\x00\x00\x10\x00\x00\x00\x10\x00\x00\x00\x10\x00\x00\x00\x10\x00\x00\x00\x10\x00\x00\x00\x10\x00\x00\x00\x10\x00\x00\x00\x12\x00\x00\x00\x12\x00\x00\x00\x12\x00\x00\x00\x12\x00\x00\x00\x13\x00\x00\x00\x13\x00\x00\x00\x13\x00\x00\x00\x13\x00\x00\x00\x13\x00\x00\x00\x13\x00\x00\x00\x13\x00\x00\x00\x13\x00\x00\x00\x13\x00\x00\x00\x13\x00\x00\x00\x13\x00\x00\x00\x13\x00\x00\x00\x13\x00\x00\x00\x13\x00\x00\x00\x13\x00\x00\x00\x13\x00\x00\x00\x14\x00\x00\x00\x14\x00\x00\x00\x14\x00\x00\x00\x14\x00\x00\x00\x15\x00\x00\x00\x15\x00\x00\x00\x15\x00\x00\x00\x15\x00\x00\x00\x17\x00\x00\x00\x17\x00\x00\x00\x17\x00\x00\x00\x17\x00\x00\x00\x17\x00\x00\x00\x17\x00\x00\x00\x17\x00\x00\x00\x17\x00\x00\x00\x19\x00\x00\x00\x19\x00\x00\x00\x19\x00\x00\x00\x19\x00\x00\x00\x19\x00\x00\x00\x19\x00\x00\x00\x19\x00\x00\x00\x19\x00\x00\x00\x19\x00\x00\x00\x03\x00\x00\x00\x05\x00\x00\x00self\x00\x01\x00\x00\x00e\x00\x00\x00\x10\x00\x00\x00invokeAnimation\x00\x02\x00\x00\x00e\x00\x00\x00\x0e\x00\x00\x00castAnimation\x00\x03\x00\x00\x00e\x00\x00\x00\x00\x00\x00\x00 (12 @ ae69)
+				}
+			}
+		}
+
+        component sub-sub-block { (1a @ b750)
+
+            component type : KeyframeAnimation (0a @ b752)
+            number : 127(10 @ b765)
+
+            keyframe animation sub-sub-sub-block { (332 @ b768)
+
+                linked model component number : 101(08 @ b76a)
+                name : varimage_invoke (12 @ b76c)
+                u0 : 1(18 @ b77d)
+                u1 : 1.0 (25 @ b77f)
+                u2 : 1(28 @ b784)
+			}
+		}
+
+        component sub-sub-block { (1a @ b786)
+
+            component type : KeyframeAnimation (0a @ b788)
+            number : 132(10 @ b79b)
+
+            keyframe animation sub-sub-sub-block { (332 @ b79f)
+
+                linked model component number : 101(08 @ b7a1)
+                name : varimage_cast (12 @ b7a3)
+                u0 : 0(18 @ b7b2)
+                u1 : 1.0 (25 @ b7b4)
+                u2 : 1(28 @ b7b9)
+			}
+		}
+
+        component sub-sub-block { (1a @ b7bb)
+
+            component type : Skill (0a @ b7bd)
+            number : 136(10 @ b7c4)
+
+            skill sub-sub-sub-block { (1142 @ b7c8)
+
+                u0 : 0(08 @ b7ca)
+
+                u1 sub-sub-sub-sub-block { (12 @ b7cc)
+
+                    x : 80.0 (0d @ b7ce)
+                    y : 30.0 (15 @ b7d3)
+				}
+                cast animation : varimage_spell_cast (1a @ b7d8)
+			}
+		}
+
+        position sub-sub-block { (22 @ b7ed)
+
+            x position : 0.0 (0d @ b7ef)
+            y position : 0.0 (15 @ b7f4)
+		}
+        z position : 0.0 (2d @ b7f9)
+        rotation : 0.0 (35 @ b7fe)
+        scale : 1.0 (3d @ b803)
+
+        u0 sub-sub-block { (42 @ b808)
+
+            w : -26.0 (0d @ b80a)
+            x : -0.8095080256462097 (15 @ b80f)
+            y : 54.0 (1d @ b814)
+            z : 70.80950927734375 (25 @ b819)
+		}
+        hidden : 0(48 @ b81e)
+	}
+    u0 : 1.0 (15 @ b820)
+}
+
+?item block { (12 @ b825)
+
+
+    ?sub-item sub-block { (0a @ b828)
+
+        name : varimage_spell_cast (12 @ b82b)
+
+        component sub-sub-block { (1a @ b840)
+
+            component type : SimpleGlow (0a @ b842)
+            number : 1(10 @ b84e)
+
+            simple glow sub-sub-sub-block { (7f2 @ b851)
+
+
+                u0 sub-sub-sub-sub-block { (0a @ b853)
+
+                    w : 1.0 (0d @ b855)
+                    x : 0.16666662693023682 (15 @ b85a)
+                    y : 0.1666669249534607 (1d @ b85f)
+                    z : 0.5 (25 @ b864)
+				}
+                u1 : 20.0 (15 @ b869)
+                u2 : 10(18 @ b86e)
+                u3 : 15.0 (25 @ b870)
+                u4 : 0.15000000596046448 (2d @ b875)
+                u5 : 0.800000011920929 (35 @ b87a)
+
+                u6 sub-sub-sub-sub-block { (3a @ b87f)
+
+                    y : 0.0 (0d @ b881)
+                    z : 0.0 (15 @ b886)
+				}
+			}
+		}
+
+        component sub-sub-block { (1a @ b88b)
+
+            component type : MagicSpellCast (0a @ b88d)
+            number : 2(10 @ b89d)
+
+            magic spell cast sub-sub-sub-block { (114a @ b8a0)
+
+                particle emitter : 102(08 @ b8a2)
+                u0 : 0(10 @ b8a4)
+			}
+		}
+
+        component sub-sub-block { (1a @ b8a6)
+
+            component type : ParticleEmitter (0a @ b8a8)
+            number : 102(10 @ b8b9)
+
+            particle emitter sub-sub-sub-block { (7d2 @ b8bc)
+
+                particle : 103(10 @ b8be)
+                particle : 104(10 @ b8c0)
+                particle : 105(10 @ b8c2)
+                u1 : 0(18 @ b8c4)
+                u2 : 30(20 @ b8c6)
+                u3 : 0(28 @ b8c8)
+                u4 : 0(30 @ b8ca)
+                u6 : 0(40 @ b8cc)
+			}
+		}
+
+        component sub-sub-block { (1a @ b8ce)
+
+            component type : Particle (0a @ b8d0)
+            number : 103(10 @ b8da)
+
+            particle sub-sub-sub-block { (7da @ b8dd)
+
+                name : particle_fure_1 (0a @ b8df)
+                u0 : 40.0 (15 @ b8f0)
+			}
+		}
+
+        component sub-sub-block { (1a @ b8f5)
+
+            component type : Particle (0a @ b8f7)
+            number : 104(10 @ b901)
+
+            particle sub-sub-sub-block { (7da @ b904)
+
+                name : particle_fure_2 (0a @ b906)
+                u0 : 40.0 (15 @ b917)
+			}
+		}
+
+        component sub-sub-block { (1a @ b91c)
+
+            component type : Particle (0a @ b91e)
+            number : 105(10 @ b928)
+
+            particle sub-sub-sub-block { (7da @ b92b)
+
+                name : particle_fure_3 (0a @ b92d)
+                u0 : 40.0 (15 @ b93e)
+			}
+		}
+
+        position sub-sub-block { (22 @ b943)
+
+            x position : 0.0 (0d @ b945)
+            y position : 0.0 (15 @ b94a)
+		}
+        z position : 0.0 (2d @ b94f)
+        rotation : 0.0 (35 @ b954)
+        scale : 1.0 (3d @ b959)
+
+        u0 sub-sub-block { (42 @ b95e)
+
+            w : -20.0 (0d @ b960)
+            x : -20.0 (15 @ b965)
+            y : 40.0 (1d @ b96a)
+            z : 40.0 (25 @ b96f)
+		}
+        hidden : 0(48 @ b974)
+	}
+    u0 : 2.0 (15 @ b976)
+}

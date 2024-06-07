@@ -1,0 +1,1624 @@
+data = {
+
+"zoneblock " :  {
+
+	"name" : "town",
+	"title" : "Cairnwood Village",
+
+	"scenesub-block " :  {
+
+		"name" : "town_part1",
+
+		"connected scenesub-sub-block " :  {
+
+			"name" : "town_shop",
+		},
+
+		"connected scenesub-sub-block " :  {
+
+			"name" : "town_healerhouse",
+		},
+
+		"connected scenesub-sub-block " :  {
+
+			"name" : "town_elderhouse",
+		},
+
+		"connected scenesub-sub-block " :  {
+
+			"name" : "town_secrethouse",
+		},
+
+		"connected scenesub-sub-block " :  {
+
+			"name" : "plains_part1",
+			"direction" : 1,
+		},
+
+		"connected scenesub-sub-block " :  {
+
+			"name" : "town_woods1",
+			"direction" : 3,
+		},
+		"feature" : 1,
+		"unknown3 a" : 1,
+		"? treasures" : 0,
+	},
+
+	"scenesub-block " :  {
+
+		"name" : "town_shop",
+		"unknown1" : 1,
+		"music" : "house",
+		"? treasures" : 0,
+		"title" : "Cairnwood Shop",
+	},
+
+	"scenesub-block " :  {
+
+		"name" : "town_healerhouse",
+		"unknown1" : 1,
+		"? treasures" : 0,
+		"title" : "Healer\'s House",
+	},
+
+	"scenesub-block " :  {
+
+		"name" : "town_elderhouse",
+		"unknown1" : 1,
+		"music" : "house",
+		"? treasures" : 0,
+		"title" : "Elder\'s House",
+	},
+
+	"scenesub-block " :  {
+
+		"name" : "town_secrethouse",
+		"unknown1" : 1,
+		"music" : "house",
+		"? treasures" : 1,
+		"title" : "Dusty Hut",
+	},
+	"sequence" : 1,
+	"default music" : "outdoors_light",
+},
+
+"zoneblock " :  {
+
+	"name" : "woods",
+	"title" : "Cairnwood Forest",
+
+	"scenesub-block " :  {
+
+		"name" : "town_woods1",
+
+		"connected scenesub-sub-block " :  {
+
+			"name" : "town_woods_end",
+			"direction" : 5,
+		},
+		"? treasures" : 1,
+	},
+
+	"scenesub-block " :  {
+
+		"name" : "town_woods_end",
+		"? treasures" : 0,
+	},
+	"sequence" : 1,
+	"default music" : "forest",
+},
+
+"zoneblock " :  {
+
+	"name" : "plains",
+	"title" : "The Plains",
+
+	"scenesub-block " :  {
+
+		"name" : "plains_part1",
+
+		"connected scenesub-sub-block " :  {
+
+			"name" : "plains_part2",
+			"direction" : 1,
+		},
+
+		"connected scenesub-sub-block " :  {
+
+			"name" : "plains_caveFirst",
+		},
+		"? treasures" : 2,
+	},
+
+	"scenesub-block " :  {
+
+		"name" : "plains_caveFirst",
+		"unknown1" : 1,
+		"music" : "cave",
+		"? treasures" : 1,
+		"title" : "Murky Small Cave",
+	},
+
+	"scenesub-block " :  {
+
+		"name" : "plains_part2",
+
+		"connected scenesub-sub-block " :  {
+
+			"name" : "plains_part3",
+			"direction" : 3,
+		},
+
+		"connected scenesub-sub-block " :  {
+
+			"name" : "plains_house1",
+		},
+
+		"connected scenesub-sub-block " :  {
+
+			"name" : "plains_tower1",
+		},
+		"feature" : 2,
+		"unknown2" : 2,
+		"unknown3 a" : 1,
+		"? treasures" : 2,
+	},
+
+	"scenesub-block " :  {
+
+		"name" : "plains_house1",
+		"unknown1" : 1,
+		"? treasures" : 0,
+		"title" : "Ferryman\'s House",
+	},
+
+	"scenesub-block " :  {
+
+		"name" : "plains_tower1",
+		"unknown1" : 1,
+		"unknown2" : 3,
+		"music" : "cave",
+		"? treasures" : 0,
+		"title" : "Abandoned Guard Tower",
+	},
+
+	"scenesub-block " :  {
+
+		"name" : "plains_part3",
+
+		"connected scenesub-sub-block " :  {
+
+			"name" : "plains_part4",
+			"direction" : 1,
+		},
+
+		"connected scenesub-sub-block " :  {
+
+			"name" : "plains_cave0",
+		},
+		"unknown2" : 3,
+		"unknown3 a" : 1,
+		"? treasures" : 1,
+	},
+
+	"scenesub-block " :  {
+
+		"name" : "plains_cave0",
+		"unknown1" : 1,
+		"unknown2" : 4,
+		"music" : "cave",
+		"? treasures" : 1,
+		"title" : "Marblemist Cave",
+	},
+
+	"scenesub-block " :  {
+
+		"name" : "plains_part4",
+
+		"connected scenesub-sub-block " :  {
+
+			"name" : "plains_woodkeep_entrance",
+			"direction" : 3,
+		},
+
+		"connected scenesub-sub-block " :  {
+
+			"name" : "forest_cave0",
+		},
+		"feature" : 2,
+		"unknown2" : 4,
+		"unknown3 a" : 1,
+		"? treasures" : 1,
+	},
+
+	"scenesub-block " :  {
+
+		"name" : "plains_woodkeep_entrance",
+
+		"connected scenesub-sub-block " :  {
+
+			"name" : "plains_woodkeep",
+			"direction" : 1,
+		},
+		"feature" : 2,
+		"unknown2" : 4,
+		"unknown3 a" : 1,
+		"? treasures" : 0,
+	},
+	"sequence" : 2,
+	"default music" : "outdoors_light",
+},
+
+"zoneblock " :  {
+
+	"name" : "woodkeep",
+	"title" : "Forgotten Keep",
+
+	"scenesub-block " :  {
+
+		"name" : "plains_woodkeep",
+
+		"connected scenesub-sub-block " :  {
+
+			"name" : "plains_woodkeep2",
+			"direction" : 1,
+		},
+		"? treasures" : 3,
+	},
+
+	"scenesub-block " :  {
+
+		"name" : "plains_woodkeep2",
+
+		"connected scenesub-sub-block " :  {
+
+			"name" : "plains_woodkeep3",
+			"direction" : 1,
+		},
+
+		"connected scenesub-sub-block " :  {
+
+			"name" : "plains_woodkeep_cellar",
+		},
+		"unknown3 a" : 1,
+		"? treasures" : 1,
+	},
+
+	"scenesub-block " :  {
+
+		"name" : "plains_woodkeep_cellar",
+		"unknown1" : 1,
+		"? treasures" : 0,
+		"title" : "Forgotten Keep Cellar",
+	},
+
+	"scenesub-block " :  {
+
+		"name" : "plains_woodkeep3",
+		"feature" : 3,
+		"unknown2" : 6,
+		"unknown3 a" : 1,
+		"? treasures" : 2,
+		"title" : "Chamber of The Mageblade",
+	},
+	"sequence" : 5,
+	"default music" : "dungeon1",
+},
+
+"zoneblock " :  {
+
+	"name" : "grove",
+	"title" : "Evernight Forest",
+
+	"scenesub-block " :  {
+
+		"name" : "forest_cave0",
+
+		"connected scenesub-sub-block " :  {
+
+			"name" : "forest_cave1",
+		},
+
+		"connected scenesub-sub-block " :  {
+
+			"name" : "forest_part1",
+			"direction" : 1,
+		},
+		"unknown1" : 1,
+		"? treasures" : 0,
+		"title" : "Cairnwood Valley Caves",
+	},
+
+	"scenesub-block " :  {
+
+		"name" : "forest_cave1",
+		"unknown1" : 1,
+		"? treasures" : 1,
+		"title" : "Sinister Cave",
+	},
+
+	"scenesub-block " :  {
+
+		"name" : "forest_part1",
+
+		"connected scenesub-sub-block " :  {
+
+			"name" : "forest_cave2",
+		},
+		"feature" : 2,
+		"unknown3 a" : 1,
+		"? treasures" : 2,
+	},
+
+	"scenesub-block " :  {
+
+		"name" : "forest_cave2",
+
+		"connected scenesub-sub-block " :  {
+
+			"name" : "forest_part2",
+			"direction" : 7,
+		},
+		"unknown1" : 1,
+		"? treasures" : 0,
+		"title" : "Evernight Caves",
+	},
+
+	"scenesub-block " :  {
+
+		"name" : "forest_part2",
+
+		"connected scenesub-sub-block " :  {
+
+			"name" : "forest_cave3",
+		},
+		"? treasures" : 1,
+	},
+
+	"scenesub-block " :  {
+
+		"name" : "forest_cave3",
+
+		"connected scenesub-sub-block " :  {
+
+			"name" : "grove_part1",
+			"direction" : 1,
+		},
+		"unknown1" : 1,
+		"? treasures" : 0,
+		"title" : "Evernight Caves",
+	},
+
+	"scenesub-block " :  {
+
+		"name" : "grove_part1",
+
+		"connected scenesub-sub-block " :  {
+
+			"name" : "forest_cave4",
+		},
+		"feature" : 2,
+		"unknown3 a" : 1,
+		"? treasures" : 2,
+	},
+
+	"scenesub-block " :  {
+
+		"name" : "forest_cave4",
+
+		"connected scenesub-sub-block " :  {
+
+			"name" : "grove_part2",
+			"direction" : 1,
+		},
+		"unknown1" : 1,
+		"? treasures" : 0,
+		"title" : "Evernight Caves",
+	},
+
+	"scenesub-block " :  {
+
+		"name" : "grove_part2",
+
+		"connected scenesub-sub-block " :  {
+
+			"name" : "forest_cave5",
+		},
+
+		"connected scenesub-sub-block " :  {
+
+			"name" : "grove_graveyard",
+			"direction" : 3,
+		},
+
+		"connected scenesub-sub-block " :  {
+
+			"name" : "lowergrove_part1",
+			"direction" : 7,
+		},
+		"feature" : 2,
+		"unknown3 a" : 1,
+		"? treasures" : 0,
+		"title" : "Wellcliff Campsite",
+	},
+
+	"scenesub-block " :  {
+
+		"name" : "forest_cave5",
+
+		"connected scenesub-sub-block " :  {
+
+			"name" : "grass_part1",
+			"direction" : 1,
+		},
+		"unknown1" : 1,
+		"? treasures" : 1,
+		"title" : "Evernight Caves",
+	},
+
+	"scenesub-block " :  {
+
+		"name" : "grove_graveyard",
+
+		"connected scenesub-sub-block " :  {
+
+			"name" : "grove_crypt1",
+		},
+		"unknown2" : 8,
+		"? treasures" : 0,
+		"title" : "Wellcliff Graveyard",
+	},
+
+	"scenesub-block " :  {
+
+		"name" : "grove_crypt1",
+		"unknown1" : 1,
+		"unknown2" : 8,
+		"music" : "dungeon1",
+		"? treasures" : 2,
+		"title" : "Corrupted Crypt",
+	},
+	"sequence" : 7,
+	"default music" : "forest",
+},
+
+"zoneblock " :  {
+
+	"name" : "grass",
+	"title" : "Outskirts of Florennum",
+
+	"scenesub-block " :  {
+
+		"name" : "grass_part1",
+
+		"connected scenesub-sub-block " :  {
+
+			"name" : "grass_part2",
+			"direction" : 1,
+		},
+		"feature" : 2,
+		"unknown3 a" : 1,
+		"? treasures" : 2,
+		"title" : "King\'s Road",
+	},
+
+	"scenesub-block " :  {
+
+		"name" : "grass_part2",
+
+		"connected scenesub-sub-block " :  {
+
+			"name" : "grass_house",
+		},
+
+		"connected scenesub-sub-block " :  {
+
+			"name" : "florennum_wall1",
+		},
+		"unknown3 a" : 1,
+		"? treasures" : 0,
+	},
+
+	"scenesub-block " :  {
+
+		"name" : "grass_house",
+
+		"connected scenesub-sub-block " :  {
+
+			"name" : "florennum_cave1",
+		},
+		"unknown1" : 1,
+		"? treasures" : 0,
+		"title" : "...",
+		"unknown5" : 1,
+	},
+
+	"scenesub-block " :  {
+
+		"name" : "grass_part3",
+
+		"connected scenesub-sub-block " :  {
+
+			"name" : "wasteland_part1",
+			"direction" : 1,
+		},
+		"unknown2" : 11,
+		"? treasures" : 1,
+	},
+	"sequence" : 8,
+	"default music" : "outdoors_light",
+},
+
+"zoneblock " :  {
+
+	"name" : "florennum",
+	"title" : "City of Florennum",
+
+	"scenesub-block " :  {
+
+		"name" : "florennum_wall1",
+		"unknown1" : 1,
+		"? treasures" : 1,
+		"title" : "Walls of Florennum",
+	},
+
+	"scenesub-block " :  {
+
+		"name" : "florennum_cave1",
+
+		"connected scenesub-sub-block " :  {
+
+			"name" : "florennum_part1",
+			"direction" : 1,
+		},
+		"unknown1" : 1,
+		"music" : "forest",
+		"? treasures" : 1,
+		"title" : "City Sewers",
+	},
+
+	"scenesub-block " :  {
+
+		"name" : "florennum_part1",
+
+		"connected scenesub-sub-block " :  {
+
+			"name" : "florennum_tower1",
+		},
+
+		"connected scenesub-sub-block " :  {
+
+			"name" : "grass_part3",
+			"direction" : 1,
+		},
+
+		"connected scenesub-sub-block " :  {
+
+			"name" : "florennum_shop",
+		},
+
+		"connected scenesub-sub-block " :  {
+
+			"name" : "florennum_healerhouse",
+		},
+		"feature" : 1,
+		"unknown3 a" : 1,
+		"? treasures" : 1,
+	},
+
+	"scenesub-block " :  {
+
+		"name" : "florennum_shop",
+		"unknown1" : 1,
+		"music" : "house",
+		"? treasures" : 0,
+		"title" : "Marketplace of Florennum",
+	},
+
+	"scenesub-block " :  {
+
+		"name" : "florennum_healerhouse",
+		"unknown1" : 1,
+		"music" : "house",
+		"? treasures" : 0,
+		"title" : "Healer of Florennum",
+	},
+
+	"scenesub-block " :  {
+
+		"name" : "florennum_tower1",
+
+		"connected scenesub-sub-block " :  {
+
+			"name" : "florennum_towertop",
+		},
+		"unknown1" : 1,
+		"? treasures" : 0,
+		"title" : "Eastern Guard Tower",
+	},
+
+	"scenesub-block " :  {
+
+		"name" : "florennum_towertop",
+
+		"connected scenesub-sub-block " :  {
+
+			"name" : "florennum_tower2",
+		},
+		"unknown1" : 1,
+		"? treasures" : 1,
+	},
+
+	"scenesub-block " :  {
+
+		"name" : "florennum_tower2",
+
+		"connected scenesub-sub-block " :  {
+
+			"name" : "florennum_jail_part1",
+			"direction" : 3,
+		},
+		"unknown1" : 1,
+		"unknown2" : 10,
+		"music" : "dungeon1",
+		"? treasures" : 0,
+		"title" : "Western Guard Tower",
+	},
+	"sequence" : 9,
+	"default music" : "outdoors_light",
+},
+
+"zoneblock " :  {
+
+	"name" : "florennum_jail",
+	"title" : "Dungeon of Florennum",
+
+	"scenesub-block " :  {
+
+		"name" : "florennum_jail_part1",
+
+		"connected scenesub-sub-block " :  {
+
+			"name" : "florennum_jail_part2",
+			"direction" : 3,
+		},
+		"unknown2" : 10,
+		"unknown3 a" : 1,
+		"? treasures" : 0,
+	},
+
+	"scenesub-block " :  {
+
+		"name" : "florennum_jail_part2",
+
+		"connected scenesub-sub-block " :  {
+
+			"name" : "florennum_jail_boss",
+			"direction" : 1,
+		},
+		"? treasures" : 0,
+	},
+
+	"scenesub-block " :  {
+
+		"name" : "florennum_jail_boss",
+		"feature" : 3,
+		"unknown3 a" : 1,
+		"? treasures" : 0,
+		"title" : "Overseer\'s Lair",
+	},
+	"sequence" : 11,
+	"default music" : "dungeon1",
+},
+
+"zoneblock " :  {
+
+	"name" : "wasteland",
+	"title" : "Wastelands",
+
+	"scenesub-block " :  {
+
+		"name" : "wasteland_part1",
+
+		"connected scenesub-sub-block " :  {
+
+			"name" : "wasteland_cave1",
+		},
+
+		"connected scenesub-sub-block " :  {
+
+			"name" : "wasteland_part2",
+			"direction" : 3,
+		},
+		"? treasures" : 1,
+	},
+
+	"scenesub-block " :  {
+
+		"name" : "wasteland_cave1",
+
+		"connected scenesub-sub-block " :  {
+
+			"name" : "wasteland_house1",
+			"unknown1" : 1,
+		},
+		"unknown1" : 1,
+		"music" : "cave",
+		"? treasures" : 1,
+		"title" : "Huge Cavern",
+	},
+
+	"scenesub-block " :  {
+
+		"name" : "wasteland_house1",
+
+		"connected scenesub-sub-block " :  {
+
+			"name" : "wasteland_part1",
+			"unknown1" : 1,
+		},
+		"unknown1" : 1,
+		"music" : "cave",
+		"? treasures" : 1,
+		"title" : "Thieves\' Hideout",
+	},
+
+	"scenesub-block " :  {
+
+		"name" : "wasteland_part2",
+
+		"connected scenesub-sub-block " :  {
+
+			"name" : "wasteland_town",
+			"direction" : 1,
+		},
+		"unknown3 a" : 1,
+		"? treasures" : 2,
+	},
+
+	"scenesub-block " :  {
+
+		"name" : "wasteland_town",
+
+		"connected scenesub-sub-block " :  {
+
+			"name" : "wasteland_town_shop",
+		},
+
+		"connected scenesub-sub-block " :  {
+
+			"name" : "wasteland_town_healerhouse",
+		},
+
+		"connected scenesub-sub-block " :  {
+
+			"name" : "wasteland_town_secrethouse",
+		},
+
+		"connected scenesub-sub-block " :  {
+
+			"name" : "wasteland_part3",
+			"direction" : 1,
+		},
+		"feature" : 1,
+		"unknown3 a" : 1,
+		"? treasures" : 0,
+		"title" : "Greyhedge Village",
+	},
+
+	"scenesub-block " :  {
+
+		"name" : "wasteland_town_shop",
+		"unknown1" : 1,
+		"music" : "house",
+		"? treasures" : 0,
+		"title" : "Shopkeeper\'s House",
+	},
+
+	"scenesub-block " :  {
+
+		"name" : "wasteland_town_healerhouse",
+		"unknown1" : 1,
+		"music" : "house",
+		"? treasures" : 0,
+		"title" : "Healer\'s House",
+	},
+
+	"scenesub-block " :  {
+
+		"name" : "wasteland_town_secrethouse",
+		"unknown1" : 1,
+		"? treasures" : 1,
+		"title" : "A Mysterious House",
+	},
+
+	"scenesub-block " :  {
+
+		"name" : "wasteland_part3",
+
+		"connected scenesub-sub-block " :  {
+
+			"name" : "wasteland_part4",
+			"direction" : 7,
+		},
+
+		"connected scenesub-sub-block " :  {
+
+			"name" : "wasteland_cave",
+			"direction" : 3,
+		},
+		"? treasures" : 2,
+		"title" : "Greyhedge Crossing",
+	},
+
+	"scenesub-block " :  {
+
+		"name" : "wasteland_part4",
+
+		"connected scenesub-sub-block " :  {
+
+			"name" : "thecave_part1",
+			"direction" : 1,
+		},
+		"unknown2" : 13,
+		"? treasures" : 0,
+	},
+
+	"scenesub-block " :  {
+
+		"name" : "wasteland_cave",
+
+		"connected scenesub-sub-block " :  {
+
+			"name" : "wasteland_cave_snowy",
+			"direction" : 1,
+		},
+		"unknown2" : 15,
+		"music" : "cave",
+		"? treasures" : 1,
+		"title" : "Greyhedge Caves",
+	},
+
+	"scenesub-block " :  {
+
+		"name" : "wasteland_cave_snowy",
+
+		"connected scenesub-sub-block " :  {
+
+			"name" : "snowy_part1",
+			"direction" : 1,
+		},
+		"unknown2" : 15,
+		"music" : "cave",
+		"unknown3 a" : 1,
+		"? treasures" : 0,
+		"title" : "Icy Cave",
+	},
+	"sequence" : 12,
+	"default music" : "outdoors_light",
+},
+
+"zoneblock " :  {
+
+	"name" : "thecave",
+	"title" : "Great Caves",
+
+	"scenesub-block " :  {
+
+		"name" : "thecave_part1",
+
+		"connected scenesub-sub-block " :  {
+
+			"name" : "thecave_part2",
+		},
+		"unknown3 a" : 1,
+		"? treasures" : 1,
+	},
+
+	"scenesub-block " :  {
+
+		"name" : "thecave_part2",
+
+		"connected scenesub-sub-block " :  {
+
+			"name" : "thecave_part11",
+		},
+
+		"connected scenesub-sub-block " :  {
+
+			"name" : "thecave_part21",
+			"direction" : 7,
+		},
+		"unknown1" : 1,
+		"? treasures" : 0,
+	},
+
+	"scenesub-block " :  {
+
+		"name" : "thecave_part11",
+
+		"connected scenesub-sub-block " :  {
+
+			"name" : "thecave_part12",
+		},
+		"unknown1" : 1,
+		"? treasures" : 0,
+	},
+
+	"scenesub-block " :  {
+
+		"name" : "thecave_part12",
+
+		"connected scenesub-sub-block " :  {
+
+			"name" : "thecave_part121",
+		},
+
+		"connected scenesub-sub-block " :  {
+
+			"name" : "thecave_part13",
+			"direction" : 1,
+		},
+
+		"connected scenesub-sub-block " :  {
+
+			"name" : "thecave_part21",
+			"unknown1" : 1,
+			"unknown2" : 1,
+		},
+		"unknown1" : 1,
+		"? treasures" : 0,
+	},
+
+	"scenesub-block " :  {
+
+		"name" : "thecave_part121",
+		"unknown1" : 1,
+		"? treasures" : 1,
+	},
+
+	"scenesub-block " :  {
+
+		"name" : "thecave_part21",
+
+		"connected scenesub-sub-block " :  {
+
+			"name" : "thecave_part22",
+		},
+		"unknown2" : 14,
+		"? treasures" : 0,
+	},
+
+	"scenesub-block " :  {
+
+		"name" : "thecave_part22",
+
+		"connected scenesub-sub-block " :  {
+
+			"name" : "thecave_part23",
+		},
+		"unknown1" : 1,
+		"unknown2" : 14,
+		"? treasures" : 0,
+	},
+
+	"scenesub-block " :  {
+
+		"name" : "thecave_part23",
+
+		"connected scenesub-sub-block " :  {
+
+			"name" : "thecave_part24",
+			"direction" : 1,
+		},
+		"unknown1" : 1,
+		"unknown2" : 14,
+		"? treasures" : 0,
+	},
+
+	"scenesub-block " :  {
+
+		"name" : "thecave_part24",
+
+		"connected scenesub-sub-block " :  {
+
+			"name" : "fire_part1",
+			"direction" : 1,
+		},
+		"unknown2" : 14,
+		"unknown3 a" : 1,
+		"? treasures" : 0,
+	},
+
+	"scenesub-block " :  {
+
+		"name" : "thecave_part13",
+
+		"connected scenesub-sub-block " :  {
+
+			"name" : "thecave_part131",
+		},
+
+		"connected scenesub-sub-block " :  {
+
+			"name" : "thecave_part14",
+		},
+		"? treasures" : 0,
+	},
+
+	"scenesub-block " :  {
+
+		"name" : "thecave_part131",
+
+		"connected scenesub-sub-block " :  {
+
+			"name" : "thecave_part132",
+		},
+
+		"connected scenesub-sub-block " :  {
+
+			"name" : "thecave_part141",
+		},
+		"unknown1" : 1,
+		"? treasures" : 1,
+	},
+
+	"scenesub-block " :  {
+
+		"name" : "thecave_part132",
+
+		"connected scenesub-sub-block " :  {
+
+			"name" : "thecave_part142",
+		},
+		"unknown1" : 1,
+		"? treasures" : 1,
+	},
+
+	"scenesub-block " :  {
+
+		"name" : "thecave_part14",
+
+		"connected scenesub-sub-block " :  {
+
+			"name" : "thecave_part141",
+			"unknown1" : 1,
+		},
+
+		"connected scenesub-sub-block " :  {
+
+			"name" : "thecave_part15",
+			"direction" : 3,
+		},
+		"unknown1" : 1,
+		"? treasures" : 0,
+	},
+
+	"scenesub-block " :  {
+
+		"name" : "thecave_part141",
+
+		"connected scenesub-sub-block " :  {
+
+			"name" : "thecave_part142",
+			"unknown1" : 1,
+		},
+
+		"connected scenesub-sub-block " :  {
+
+			"name" : "thecave_part1411",
+			"direction" : 1,
+		},
+		"unknown1" : 1,
+		"unknown2" : 14,
+		"? treasures" : 0,
+	},
+
+	"scenesub-block " :  {
+
+		"name" : "thecave_part142",
+
+		"connected scenesub-sub-block " :  {
+
+			"name" : "thecave_part1421",
+		},
+
+		"connected scenesub-sub-block " :  {
+
+			"name" : "thecave_part14",
+			"unknown1" : 1,
+		},
+		"unknown1" : 1,
+		"unknown2" : 14,
+		"? treasures" : 0,
+	},
+
+	"scenesub-block " :  {
+
+		"name" : "thecave_part1421",
+
+		"connected scenesub-sub-block " :  {
+
+			"name" : "thecave_part23",
+			"unknown2" : 1,
+		},
+		"unknown1" : 1,
+		"unknown2" : 14,
+		"? treasures" : 1,
+	},
+
+	"scenesub-block " :  {
+
+		"name" : "thecave_part15",
+		"unknown2" : 18,
+		"unknown3 a" : 1,
+		"? treasures" : 0,
+		"title" : "Chambers of Power",
+	},
+
+	"scenesub-block " :  {
+
+		"name" : "thecave_part1411",
+
+		"connected scenesub-sub-block " :  {
+
+			"name" : "thecave_crypt1",
+		},
+		"unknown2" : 14,
+		"unknown3 a" : 1,
+		"? treasures" : 0,
+	},
+
+	"scenesub-block " :  {
+
+		"name" : "thecave_crypt1",
+
+		"connected scenesub-sub-block " :  {
+
+			"name" : "thecave_crypt2",
+			"direction" : 1,
+		},
+		"unknown1" : 1,
+		"unknown2" : 14,
+		"? treasures" : 1,
+		"title" : "Purplemoor Crypt",
+	},
+
+	"scenesub-block " :  {
+
+		"name" : "thecave_crypt2",
+
+		"connected scenesub-sub-block " :  {
+
+			"name" : "beyond_graveyard",
+		},
+		"unknown2" : 15,
+		"unknown3 a" : 1,
+		"? treasures" : 1,
+		"title" : "Purplemoor Crypt",
+	},
+
+	"scenesub-block " :  {
+
+		"name" : "beyond_graveyard",
+		"unknown1" : 1,
+		"unknown2" : 15,
+		"? treasures" : 0,
+		"title" : "Purplemoor Graveyard",
+	},
+	"sequence" : 13,
+	"default music" : "cave",
+},
+
+"zoneblock " :  {
+
+	"name" : "fire",
+	"title" : "Fiery Depths",
+
+	"scenesub-block " :  {
+
+		"name" : "fire_part1",
+
+		"connected scenesub-sub-block " :  {
+
+			"name" : "fire_part2",
+			"direction" : 1,
+		},
+		"? treasures" : 1,
+	},
+
+	"scenesub-block " :  {
+
+		"name" : "fire_part2",
+
+		"connected scenesub-sub-block " :  {
+
+			"name" : "fire_part3",
+			"direction" : 1,
+		},
+		"? treasures" : 0,
+	},
+
+	"scenesub-block " :  {
+
+		"name" : "fire_part3",
+
+		"connected scenesub-sub-block " :  {
+
+			"name" : "fire_part31",
+		},
+
+		"connected scenesub-sub-block " :  {
+
+			"name" : "fire_part4",
+			"direction" : 1,
+		},
+		"unknown3 a" : 1,
+		"? treasures" : 1,
+	},
+
+	"scenesub-block " :  {
+
+		"name" : "fire_part31",
+
+		"connected scenesub-sub-block " :  {
+
+			"name" : "fire_part4",
+			"direction" : 1,
+			"unknown1" : 1,
+		},
+		"unknown1" : 1,
+		"? treasures" : 0,
+	},
+
+	"scenesub-block " :  {
+
+		"name" : "fire_part4",
+
+		"connected scenesub-sub-block " :  {
+
+			"name" : "fire_part5",
+		},
+		"? treasures" : 1,
+	},
+
+	"scenesub-block " :  {
+
+		"name" : "fire_part5",
+
+		"connected scenesub-sub-block " :  {
+
+			"name" : "fire_partBoss",
+			"direction" : 1,
+		},
+		"unknown3 a" : 1,
+		"? treasures" : 0,
+		"title" : "Chambers of The Flame",
+	},
+
+	"scenesub-block " :  {
+
+		"name" : "fire_partBoss",
+		"feature" : 3,
+		"? treasures" : 0,
+		"title" : "Chambers of The Flame",
+	},
+	"sequence" : 15,
+	"default music" : "dungeon1",
+},
+
+"zoneblock " :  {
+
+	"name" : "snowy",
+	"title" : "Snowy Slopes",
+
+	"scenesub-block " :  {
+
+		"name" : "snowy_part1",
+
+		"connected scenesub-sub-block " :  {
+
+			"name" : "snowy_part2",
+			"direction" : 1,
+		},
+
+		"connected scenesub-sub-block " :  {
+
+			"name" : "snowy_cave1",
+		},
+
+		"connected scenesub-sub-block " :  {
+
+			"name" : "snowy_cave2",
+		},
+		"unknown3 a" : 1,
+		"? treasures" : 0,
+	},
+
+	"scenesub-block " :  {
+
+		"name" : "snowy_cave1",
+		"unknown1" : 1,
+		"? treasures" : 1,
+		"title" : "Infested Cave",
+	},
+
+	"scenesub-block " :  {
+
+		"name" : "snowy_cave2",
+		"unknown1" : 1,
+		"? treasures" : 1,
+		"title" : "Infested Gold Mine",
+	},
+
+	"scenesub-block " :  {
+
+		"name" : "snowy_part2",
+
+		"connected scenesub-sub-block " :  {
+
+			"name" : "snowy_part3",
+			"direction" : 1,
+		},
+		"? treasures" : 2,
+	},
+
+	"scenesub-block " :  {
+
+		"name" : "snowy_part3",
+
+		"connected scenesub-sub-block " :  {
+
+			"name" : "snowy_part4",
+			"direction" : 1,
+		},
+		"? treasures" : 0,
+	},
+
+	"scenesub-block " :  {
+
+		"name" : "snowy_part4",
+
+		"connected scenesub-sub-block " :  {
+
+			"name" : "icecastle_part1",
+			"direction" : 1,
+		},
+		"unknown3 a" : 1,
+		"? treasures" : 0,
+		"title" : "Snowy Summit",
+	},
+	"sequence" : 16,
+	"default music" : "outdoors_light",
+},
+
+"zoneblock " :  {
+
+	"name" : "icecastle",
+	"title" : "Frozen Temple",
+
+	"scenesub-block " :  {
+
+		"name" : "icecastle_part1",
+
+		"connected scenesub-sub-block " :  {
+
+			"name" : "icecastle_part11",
+		},
+
+		"connected scenesub-sub-block " :  {
+
+			"name" : "icecastle_part2",
+			"direction" : 1,
+		},
+		"? treasures" : 0,
+	},
+
+	"scenesub-block " :  {
+
+		"name" : "icecastle_part11",
+		"unknown1" : 1,
+		"? treasures" : 1,
+	},
+
+	"scenesub-block " :  {
+
+		"name" : "icecastle_part2",
+
+		"connected scenesub-sub-block " :  {
+
+			"name" : "icecastle_part3",
+		},
+		"unknown1" : 1,
+		"? treasures" : 1,
+	},
+
+	"scenesub-block " :  {
+
+		"name" : "icecastle_part3",
+
+		"connected scenesub-sub-block " :  {
+
+			"name" : "icecastle_part4",
+			"direction" : 1,
+		},
+		"unknown3 a" : 1,
+		"? treasures" : 0,
+	},
+
+	"scenesub-block " :  {
+
+		"name" : "icecastle_part4",
+
+		"connected scenesub-sub-block " :  {
+
+			"name" : "icecastle_part5",
+			"direction" : 7,
+		},
+
+		"connected scenesub-sub-block " :  {
+
+			"name" : "icecastle_partBoss",
+			"direction" : 1,
+		},
+		"unknown2" : 18,
+		"unknown3 a" : 1,
+		"? treasures" : 0,
+	},
+
+	"scenesub-block " :  {
+
+		"name" : "icecastle_part5",
+		"unknown2" : 18,
+		"? treasures" : 0,
+		"title" : "Hall of Trials",
+	},
+
+	"scenesub-block " :  {
+
+		"name" : "icecastle_partBoss",
+		"feature" : 3,
+		"unknown2" : 18,
+		"unknown3 a" : 1,
+		"? treasures" : 0,
+		"title" : "Hall of The Dwarven Kings",
+	},
+	"sequence" : 17,
+	"default music" : "dungeon1",
+},
+
+"zoneblock " :  {
+
+	"name" : "lowergrove",
+	"title" : "World\'s End Keep",
+
+	"scenesub-block " :  {
+
+		"name" : "lowergrove_part1",
+
+		"connected scenesub-sub-block " :  {
+
+			"name" : "worldsend_part1",
+			"direction" : 1,
+		},
+		"unknown2" : 18,
+		"music" : "forest",
+		"? treasures" : 0,
+		"title" : "Corrupted Grove",
+	},
+
+	"scenesub-block " :  {
+
+		"name" : "worldsend_part1",
+
+		"connected scenesub-sub-block " :  {
+
+			"name" : "worldsend_part2",
+			"direction" : 1,
+		},
+		"unknown2" : 19,
+		"unknown3 a" : 1,
+		"? treasures" : 1,
+	},
+
+	"scenesub-block " :  {
+
+		"name" : "worldsend_part2",
+
+		"connected scenesub-sub-block " :  {
+
+			"name" : "worldsend_part3",
+		},
+		"unknown1" : 1,
+		"unknown2" : 19,
+		"? treasures" : 0,
+	},
+
+	"scenesub-block " :  {
+
+		"name" : "worldsend_part3",
+
+		"connected scenesub-sub-block " :  {
+
+			"name" : "worldsend_part4",
+		},
+		"unknown1" : 1,
+		"unknown2" : 19,
+		"? treasures" : 1,
+	},
+
+	"scenesub-block " :  {
+
+		"name" : "worldsend_part4",
+
+		"connected scenesub-sub-block " :  {
+
+			"name" : "worldsend_part5",
+		},
+		"unknown1" : 1,
+		"? treasures" : 0,
+	},
+
+	"scenesub-block " :  {
+
+		"name" : "worldsend_part5",
+
+		"connected scenesub-sub-block " :  {
+
+			"name" : "worldsend_part6",
+		},
+		"unknown1" : 1,
+		"? treasures" : 0,
+	},
+
+	"scenesub-block " :  {
+
+		"name" : "worldsend_part6",
+
+		"connected scenesub-sub-block " :  {
+
+			"name" : "worldsend_part7",
+			"direction" : 1,
+		},
+		"unknown1" : 1,
+		"? treasures" : 0,
+	},
+
+	"scenesub-block " :  {
+
+		"name" : "worldsend_part7",
+
+		"connected scenesub-sub-block " :  {
+
+			"name" : "worldsend_part8",
+		},
+
+		"connected scenesub-sub-block " :  {
+
+			"name" : "worldsend_part9",
+			"direction" : 1,
+		},
+		"unknown3 a" : 1,
+		"? treasures" : 0,
+	},
+
+	"scenesub-block " :  {
+
+		"name" : "worldsend_part8",
+		"unknown1" : 1,
+		"? treasures" : 0,
+	},
+
+	"scenesub-block " :  {
+
+		"name" : "worldsend_part9",
+		"feature" : 3,
+		"? treasures" : 0,
+		"title" : "Lair of Death",
+	},
+	"sequence" : 20,
+	"default music" : "dungeon1",
+},
+
+}

@@ -1,0 +1,5381 @@
+data = {
+"scl file name" : "magic",
+
+"?itemblock " :  {
+
+
+	"?sub-itemsub-block " :  {
+
+		"name" : "firetrinket_wisp",
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "ParticleEmitter",
+			"number" : 120,
+
+			"particle emittersub-sub-sub-block " :  {
+
+				"particle" : 123,
+				"u1" : 0,
+				"u2" : 100,
+				"u3" : 0,
+				"u4" : 0,
+
+				"u5sub-sub-sub-sub-block " :  {
+
+					"u0" : 3,
+
+					"u1sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 0.28888896107673645,
+						"x" : 0.13481491804122925,
+						"y" : 0.0,
+						"z" : 0.0,
+					},
+					"u2" : 0.006000000052154064,
+					"u2" : 0.20000000298023224,
+					"u2" : 0.5,
+					"u2" : 0.0,
+					"u2" : 0.30000001192092896,
+					"u2" : 1.0,
+					"u2" : 0.0,
+					"u3" : 0.0,
+					"u4" : 0.0,
+					"u5" : 0.0,
+
+					"u6sub-sub-sub-sub-sub-block " :  {
+
+						"u0" : 0.0,
+						"u1" : 0.0,
+						"u2" : 0.0,
+					},
+				},
+				"u6" : 0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Particle",
+			"number" : 123,
+
+			"particlesub-sub-sub-block " :  {
+
+				"name" : "particle",
+				"u0" : 15.0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "SimpleGlow",
+			"number" : 127,
+
+			"simple glowsub-sub-sub-block " :  {
+
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"w" : 1.0,
+					"x" : 0.6219885945320129,
+					"y" : 0.28888893127441406,
+					"z" : 0.20000000298023224,
+				},
+				"u1" : 6.0,
+				"u2" : 20,
+				"u3" : 15.0,
+				"u4" : 0.15000000596046448,
+				"u5" : 0.800000011920929,
+
+				"u6sub-sub-sub-sub-block " :  {
+
+					"y" : 0.0,
+					"z" : 0.0,
+				},
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "ParticleEmitter",
+			"number" : 129,
+
+			"particle emittersub-sub-sub-block " :  {
+
+				"particle" : 123,
+				"u1" : 0,
+				"u2" : 30,
+				"u3" : 120,
+				"u4" : 0,
+
+				"u5sub-sub-sub-sub-block " :  {
+
+					"u0" : 3,
+
+					"u1sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 0.5000000596046448,
+						"x" : 0.5000000596046448,
+						"y" : 0.5000000596046448,
+						"z" : 0.0,
+					},
+					"u2" : 0.009999999776482582,
+					"u2" : 0.10000000149011612,
+					"u2" : 0.25,
+					"u2" : 1.5,
+					"u2" : 0.30000001192092896,
+					"u2" : 1.0,
+					"u2" : 0.0,
+					"u3" : 0.0,
+					"u4" : 0.0,
+					"u5" : 0.0,
+
+					"u6sub-sub-sub-sub-sub-block " :  {
+
+						"u0" : 0.0,
+						"u1" : 0.0,
+						"u2" : 0.0,
+					},
+				},
+				"u6" : 0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "OrbitController",
+			"number" : 131,
+
+			"orbit controllersub-sub-sub-block " :  {
+
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"x" : 0.0,
+					"y" : 1.0,
+					"z" : 0.0,
+				},
+				"u1" : 6.2831854820251465,
+				"u2" : 25.0,
+			},
+		},
+
+		"positionsub-sub-block " :  {
+
+			"x position" : 0.0,
+			"y position" : 0.0,
+		},
+		"z position" : 0.0,
+		"rotation" : 0.0,
+		"scale" : 1.0,
+
+		"u0sub-sub-block " :  {
+
+			"w" : -4.0,
+			"x" : -4.0,
+			"y" : 8.0,
+			"z" : 8.0,
+		},
+		"hidden" : 0,
+	},
+	"u0" : 1.0,
+},
+
+"?itemblock " :  {
+
+
+	"?sub-itemsub-block " :  {
+
+		"name" : "icetrinket_wisp",
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "ParticleEmitter",
+			"number" : 120,
+
+			"particle emittersub-sub-sub-block " :  {
+
+				"particle" : 123,
+				"u1" : 0,
+				"u2" : 100,
+				"u3" : 0,
+				"u4" : 0,
+
+				"u5sub-sub-sub-sub-block " :  {
+
+					"u0" : 3,
+
+					"u1sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 0.0,
+						"x" : 0.1688889116048813,
+						"y" : 0.4222223162651062,
+						"z" : 0.0,
+					},
+					"u2" : 0.006000000052154064,
+					"u2" : 0.20000000298023224,
+					"u2" : 0.5,
+					"u2" : 0.0,
+					"u2" : 0.30000001192092896,
+					"u2" : 1.0,
+					"u2" : 0.0,
+					"u3" : 0.0,
+					"u4" : 0.0,
+					"u5" : 0.0,
+
+					"u6sub-sub-sub-sub-sub-block " :  {
+
+						"u0" : 0.0,
+						"u1" : 0.0,
+						"u2" : 0.0,
+					},
+				},
+				"u6" : 0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Particle",
+			"number" : 123,
+
+			"particlesub-sub-sub-block " :  {
+
+				"name" : "particle",
+				"u0" : 15.0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "SimpleGlow",
+			"number" : 127,
+
+			"simple glowsub-sub-sub-block " :  {
+
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"w" : 0.022222280502319336,
+					"x" : 0.41161781549453735,
+					"y" : 1.0,
+					"z" : 0.20000000298023224,
+				},
+				"u1" : 6.0,
+				"u2" : 20,
+				"u3" : 15.0,
+				"u4" : 0.15000000596046448,
+				"u5" : 0.800000011920929,
+
+				"u6sub-sub-sub-sub-block " :  {
+
+					"y" : 0.0,
+					"z" : 0.0,
+				},
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "ParticleEmitter",
+			"number" : 129,
+
+			"particle emittersub-sub-sub-block " :  {
+
+				"particle" : 123,
+				"u1" : 0,
+				"u2" : 30,
+				"u3" : 120,
+				"u4" : 0,
+
+				"u5sub-sub-sub-sub-block " :  {
+
+					"u0" : 3,
+
+					"u1sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 0.5000000596046448,
+						"x" : 0.5000000596046448,
+						"y" : 0.5000000596046448,
+						"z" : 0.0,
+					},
+					"u2" : 0.009999999776482582,
+					"u2" : 0.10000000149011612,
+					"u2" : 0.25,
+					"u2" : 0.0,
+					"u2" : 0.30000001192092896,
+					"u2" : 1.0,
+					"u2" : 0.0,
+					"u3" : 0.0,
+					"u4" : 0.0,
+					"u5" : 0.0,
+
+					"u6sub-sub-sub-sub-sub-block " :  {
+
+						"u0" : 0.0,
+						"u1" : 0.0,
+						"u2" : 0.0,
+					},
+				},
+				"u6" : 0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "OrbitController",
+			"number" : 131,
+
+			"orbit controllersub-sub-sub-block " :  {
+
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"x" : 0.0,
+					"y" : 1.0,
+					"z" : 0.0,
+				},
+				"u1" : 6.2831854820251465,
+				"u2" : 25.0,
+			},
+		},
+
+		"positionsub-sub-block " :  {
+
+			"x position" : 0.0,
+			"y position" : 0.0,
+		},
+		"z position" : 0.0,
+		"rotation" : 0.0,
+		"scale" : 1.0,
+
+		"u0sub-sub-block " :  {
+
+			"w" : -4.0,
+			"x" : -4.0,
+			"y" : 8.0,
+			"z" : 8.0,
+		},
+		"hidden" : 0,
+	},
+	"u0" : 1.0,
+},
+
+"?itemblock " :  {
+
+
+	"?sub-itemsub-block " :  {
+
+		"name" : "magic_bolt",
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "SimpleGlow",
+			"number" : 1,
+
+			"simple glowsub-sub-sub-block " :  {
+
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"w" : 0.18888889253139496,
+					"x" : 0.5,
+					"y" : 1.0,
+					"z" : 0.5,
+				},
+				"u1" : 30.0,
+				"u2" : 10,
+				"u3" : 15.0,
+				"u4" : 0.15000000596046448,
+				"u5" : 0.800000011920929,
+
+				"u6sub-sub-sub-sub-block " :  {
+
+					"y" : 0.0,
+					"z" : 0.0,
+				},
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "CollisionShape",
+			"number" : 2,
+
+			"collision shapesub-sub-sub-block " :  {
+
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"w" : -20.0,
+					"x" : -20.0,
+					"y" : 40.0,
+					"z" : 40.0,
+				},
+			},
+
+			"collision shape 2sub-sub-sub-block " :  {
+
+				"u3" : 1,
+				"w" : -15.0,
+				"x" : 15.0,
+				"z" : 1,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "SoundEffect",
+			"number" : 3,
+
+			"sound effectsub-sub-sub-block " :  {
+
+				"sound" : "woosh3",
+				"u0" : 0.0,
+				"u1" : 1.0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Damage",
+			"number" : 4,
+
+			"damagesub-sub-sub-block " :  {
+
+				"u0" : 2,
+				"u1" : 1,
+				"u2" : 0,
+				"u5" : 0.0,
+				"u6" : 1.0,
+				"u7" : 0,
+				"u8" : 1,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "SoundEffect",
+			"number" : 5,
+
+			"sound effectsub-sub-sub-block " :  {
+
+				"sound" : "testbolt",
+				"u0" : 0.0,
+				"u1" : 1.0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Light",
+			"number" : 6,
+
+			"lightsub-sub-sub-block " :  {
+
+				"u0" : 3,
+				"u1" : 2.0,
+
+				"u2sub-sub-sub-sub-block " :  {
+
+					"w" : 0.6000000238418579,
+					"x" : 0.6857142448425293,
+					"y" : 1.0,
+					"z" : 1.0,
+				},
+				"u3" : 0.0,
+				"u4" : 0.00019999999494757503,
+
+				"u5sub-sub-sub-sub-block " :  {
+
+					"x" : 0.0,
+					"y" : 0.0,
+					"z" : 0.0,
+				},
+				"u6" : 250.0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "CollisionShape",
+			"number" : 7,
+
+			"collision shapesub-sub-sub-block " :  {
+
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"w" : -10.0,
+					"x" : -5.0,
+					"y" : 20.0,
+					"z" : 10.0,
+				},
+			},
+
+			"collision shape 2sub-sub-sub-block " :  {
+
+				"u1" : 1,
+				"w" : -15.0,
+				"x" : 15.0,
+				"z" : 1,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "ParticleEmitter",
+			"number" : 102,
+
+			"particle emittersub-sub-sub-block " :  {
+
+				"particle" : 103,
+				"particle" : 104,
+				"particle" : 105,
+				"u1" : 0,
+				"u2" : 30,
+				"u3" : 0,
+				"u4" : 0,
+				"u6" : 0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Particle",
+			"number" : 103,
+
+			"particlesub-sub-sub-block " :  {
+
+				"name" : "particle_fure_1",
+				"u0" : 40.0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Particle",
+			"number" : 104,
+
+			"particlesub-sub-sub-block " :  {
+
+				"name" : "particle_fure_2",
+				"u0" : 40.0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Particle",
+			"number" : 105,
+
+			"particlesub-sub-sub-block " :  {
+
+				"name" : "particle_fure_3",
+				"u0" : 40.0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "MagicBolt",
+			"number" : 106,
+
+			"magic boltsub-sub-sub-block " :  {
+
+				"u0" : 102,
+				"u1" : 3,
+				"u2" : 5,
+
+				"u3sub-sub-sub-sub-block " :  {
+
+					"w" : 0.0,
+					"x" : 0.19157232344150543,
+					"y" : 0.45399999618530273,
+					"z" : 0.0,
+				},
+				"u3" : 750.0,
+			},
+
+			"temp0sub-sub-sub-block " :  {
+
+			},
+		},
+
+		"positionsub-sub-block " :  {
+
+			"x position" : 0.0,
+			"y position" : 0.0,
+		},
+		"z position" : 0.0,
+		"rotation" : 0.0,
+		"scale" : 1.0,
+
+		"u0sub-sub-block " :  {
+
+			"w" : -50.0,
+			"x" : -50.0,
+			"y" : 100.0,
+			"z" : 100.0,
+		},
+		"hidden" : 0,
+	},
+	"u0" : 1.0,
+},
+
+"?itemblock " :  {
+
+
+	"?sub-itemsub-block " :  {
+
+		"name" : "magic_bolt_explosion",
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "ParticleEmitter",
+			"number" : 102,
+
+			"particle emittersub-sub-sub-block " :  {
+
+				"particle" : 103,
+				"particle" : 104,
+				"particle" : 105,
+				"u1" : 0,
+				"u2" : 30,
+				"u3" : 0,
+				"u4" : 0,
+				"u6" : 0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Particle",
+			"number" : 103,
+
+			"particlesub-sub-sub-block " :  {
+
+				"name" : "particle_fure_1",
+				"u0" : 40.0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Particle",
+			"number" : 104,
+
+			"particlesub-sub-sub-block " :  {
+
+				"name" : "particle_fure_2",
+				"u0" : 40.0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Particle",
+			"number" : 105,
+
+			"particlesub-sub-sub-block " :  {
+
+				"name" : "particle_fure_3",
+				"u0" : 40.0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "MagicExplosion",
+			"number" : 107,
+
+			"magic explosionsub-sub-sub-block " :  {
+
+				"u0" : 102,
+				"u1" : 0,
+
+				"u2sub-sub-sub-sub-block " :  {
+
+					"w" : 1.0,
+					"x" : 1.0,
+					"y" : 1.0,
+					"z" : 1.0,
+				},
+				"u3" : 100.0,
+				"u4" : 0.30000001192092896,
+			},
+		},
+
+		"positionsub-sub-block " :  {
+
+			"x position" : 0.0,
+			"y position" : 0.0,
+		},
+		"z position" : 0.0,
+		"rotation" : 0.0,
+		"scale" : 1.0,
+
+		"u0sub-sub-block " :  {
+
+			"w" : -10.0,
+			"x" : -10.0,
+			"y" : 20.0,
+			"z" : 20.0,
+		},
+		"hidden" : 0,
+	},
+	"u0" : 1.0,
+},
+
+"?itemblock " :  {
+
+
+	"?sub-itemsub-block " :  {
+
+		"name" : "magic_bolt_fire",
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "SimpleGlow",
+			"number" : 1,
+
+			"simple glowsub-sub-sub-block " :  {
+
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"w" : 1.0,
+					"x" : 0.4592592716217041,
+					"y" : 0.18888890743255615,
+					"z" : 0.5,
+				},
+				"u1" : 30.0,
+				"u2" : 10,
+				"u3" : 15.0,
+				"u4" : 0.15000000596046448,
+				"u5" : 0.800000011920929,
+
+				"u6sub-sub-sub-sub-block " :  {
+
+					"y" : 0.0,
+					"z" : 0.0,
+				},
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "CollisionShape",
+			"number" : 2,
+
+			"collision shapesub-sub-sub-block " :  {
+
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"w" : -20.0,
+					"x" : -20.0,
+					"y" : 40.0,
+					"z" : 40.0,
+				},
+			},
+
+			"collision shape 2sub-sub-sub-block " :  {
+
+				"u3" : 1,
+				"w" : -15.0,
+				"x" : 15.0,
+				"z" : 1,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "SoundEffect",
+			"number" : 3,
+
+			"sound effectsub-sub-sub-block " :  {
+
+				"sound" : "woosh3",
+				"u0" : 0.0,
+				"u1" : 1.0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Damage",
+			"number" : 4,
+
+			"damagesub-sub-sub-block " :  {
+
+				"u0" : 2,
+				"u1" : 1,
+				"u2" : 0,
+				"u5" : 0.0,
+				"u6" : 1.0,
+				"u7" : 0,
+				"u8" : 1,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "SoundEffect",
+			"number" : 5,
+
+			"sound effectsub-sub-sub-block " :  {
+
+				"sound" : "testbolt",
+				"u0" : 0.0,
+				"u1" : 1.0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Light",
+			"number" : 6,
+
+			"lightsub-sub-sub-block " :  {
+
+				"u0" : 3,
+				"u1" : 2.0,
+
+				"u2sub-sub-sub-sub-block " :  {
+
+					"w" : 1.0,
+					"x" : 0.7542858123779297,
+					"y" : 0.6000000238418579,
+					"z" : 1.0,
+				},
+				"u3" : 0.0,
+				"u4" : 0.00019999999494757503,
+
+				"u5sub-sub-sub-sub-block " :  {
+
+					"x" : 0.0,
+					"y" : 0.0,
+					"z" : 0.0,
+				},
+				"u6" : 250.0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "CollisionShape",
+			"number" : 7,
+
+			"collision shapesub-sub-sub-block " :  {
+
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"w" : -10.0,
+					"x" : -5.0,
+					"y" : 20.0,
+					"z" : 10.0,
+				},
+			},
+
+			"collision shape 2sub-sub-sub-block " :  {
+
+				"u1" : 1,
+				"w" : -15.0,
+				"x" : 15.0,
+				"z" : 1,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "ParticleEmitter",
+			"number" : 102,
+
+			"particle emittersub-sub-sub-block " :  {
+
+				"particle" : 103,
+				"particle" : 104,
+				"particle" : 105,
+				"u1" : 0,
+				"u2" : 30,
+				"u3" : 0,
+				"u4" : 0,
+				"u6" : 0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Particle",
+			"number" : 103,
+
+			"particlesub-sub-sub-block " :  {
+
+				"name" : "particle_fure_1",
+				"u0" : 40.0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Particle",
+			"number" : 104,
+
+			"particlesub-sub-sub-block " :  {
+
+				"name" : "particle_fure_2",
+				"u0" : 40.0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Particle",
+			"number" : 105,
+
+			"particlesub-sub-sub-block " :  {
+
+				"name" : "particle_fure_3",
+				"u0" : 40.0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "MagicBolt",
+			"number" : 106,
+
+			"magic boltsub-sub-sub-block " :  {
+
+				"u0" : 102,
+				"u1" : 3,
+				"u2" : 5,
+
+				"u3sub-sub-sub-sub-block " :  {
+
+					"w" : 0.45399999618530273,
+					"x" : 0.17162777483463287,
+					"y" : 0.0,
+					"z" : 0.0,
+				},
+				"u3" : 750.0,
+			},
+
+			"temp0sub-sub-sub-block " :  {
+
+			},
+		},
+
+		"positionsub-sub-block " :  {
+
+			"x position" : 0.0,
+			"y position" : 0.0,
+		},
+		"z position" : 0.0,
+		"rotation" : 0.0,
+		"scale" : 1.0,
+
+		"u0sub-sub-block " :  {
+
+			"w" : -50.0,
+			"x" : -50.0,
+			"y" : 100.0,
+			"z" : 100.0,
+		},
+		"hidden" : 0,
+	},
+	"u0" : 1.0,
+},
+
+"?itemblock " :  {
+
+
+	"?sub-itemsub-block " :  {
+
+		"name" : "magic_bolt_ice",
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "SimpleGlow",
+			"number" : 1,
+
+			"simple glowsub-sub-sub-block " :  {
+
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"w" : 0.18888890743255615,
+					"x" : 1.0000001192092896,
+					"y" : 0.9999999403953552,
+					"z" : 0.5,
+				},
+				"u1" : 30.0,
+				"u2" : 10,
+				"u3" : 15.0,
+				"u4" : 0.15000000596046448,
+				"u5" : 0.800000011920929,
+
+				"u6sub-sub-sub-sub-block " :  {
+
+					"y" : 0.0,
+					"z" : 0.0,
+				},
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "CollisionShape",
+			"number" : 2,
+
+			"collision shapesub-sub-sub-block " :  {
+
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"w" : -20.0,
+					"x" : -20.0,
+					"y" : 40.0,
+					"z" : 40.0,
+				},
+			},
+
+			"collision shape 2sub-sub-sub-block " :  {
+
+				"u3" : 1,
+				"w" : -15.0,
+				"x" : 15.0,
+				"z" : 1,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "SoundEffect",
+			"number" : 3,
+
+			"sound effectsub-sub-sub-block " :  {
+
+				"sound" : "woosh3",
+				"u0" : 0.0,
+				"u1" : 1.0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Damage",
+			"number" : 4,
+
+			"damagesub-sub-sub-block " :  {
+
+				"u0" : 2,
+				"u1" : 1,
+				"u2" : 0,
+				"u5" : 0.0,
+				"u6" : 1.0,
+				"u7" : 0,
+				"u8" : 1,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "SoundEffect",
+			"number" : 5,
+
+			"sound effectsub-sub-sub-block " :  {
+
+				"sound" : "testbolt",
+				"u0" : 0.0,
+				"u1" : 1.0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Light",
+			"number" : 6,
+
+			"lightsub-sub-sub-block " :  {
+
+				"u0" : 3,
+				"u1" : 2.0,
+
+				"u2sub-sub-sub-sub-block " :  {
+
+					"w" : 0.6000000238418579,
+					"x" : 1.0,
+					"y" : 0.9942858815193176,
+					"z" : 1.0,
+				},
+				"u3" : 0.0,
+				"u4" : 0.00019999999494757503,
+
+				"u5sub-sub-sub-sub-block " :  {
+
+					"x" : 0.0,
+					"y" : 0.0,
+					"z" : 0.0,
+				},
+				"u6" : 250.0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "CollisionShape",
+			"number" : 7,
+
+			"collision shapesub-sub-sub-block " :  {
+
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"w" : -10.0,
+					"x" : -5.0,
+					"y" : 20.0,
+					"z" : 10.0,
+				},
+			},
+
+			"collision shape 2sub-sub-sub-block " :  {
+
+				"u1" : 1,
+				"w" : -15.0,
+				"x" : 15.0,
+				"z" : 1,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "ParticleEmitter",
+			"number" : 102,
+
+			"particle emittersub-sub-sub-block " :  {
+
+				"particle" : 103,
+				"particle" : 104,
+				"particle" : 105,
+				"u1" : 0,
+				"u2" : 30,
+				"u3" : 0,
+				"u4" : 0,
+				"u6" : 0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Particle",
+			"number" : 103,
+
+			"particlesub-sub-sub-block " :  {
+
+				"name" : "particle_fure_1",
+				"u0" : 40.0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Particle",
+			"number" : 104,
+
+			"particlesub-sub-sub-block " :  {
+
+				"name" : "particle_fure_2",
+				"u0" : 40.0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Particle",
+			"number" : 105,
+
+			"particlesub-sub-sub-block " :  {
+
+				"name" : "particle_fure_3",
+				"u0" : 40.0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "MagicBolt",
+			"number" : 106,
+
+			"magic boltsub-sub-sub-block " :  {
+
+				"u0" : 102,
+				"u1" : 3,
+				"u2" : 5,
+
+				"u3sub-sub-sub-sub-block " :  {
+
+					"w" : 0.0,
+					"x" : 0.45399999618530273,
+					"y" : 0.4440276324748993,
+					"z" : 0.0,
+				},
+				"u3" : 750.0,
+			},
+
+			"temp0sub-sub-sub-block " :  {
+
+			},
+		},
+
+		"positionsub-sub-block " :  {
+
+			"x position" : 0.0,
+			"y position" : 0.0,
+		},
+		"z position" : 0.0,
+		"rotation" : 0.0,
+		"scale" : 1.0,
+
+		"u0sub-sub-block " :  {
+
+			"w" : -50.0,
+			"x" : -50.0,
+			"y" : 100.0,
+			"z" : 100.0,
+		},
+		"hidden" : 0,
+	},
+	"u0" : 1.0,
+},
+
+"?itemblock " :  {
+
+
+	"?sub-itemsub-block " :  {
+
+		"name" : "magic_bolt_shadow",
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "SimpleGlow",
+			"number" : 1,
+
+			"simple glowsub-sub-sub-block " :  {
+
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"w" : 0.35111096501350403,
+					"x" : 0.18888890743255615,
+					"y" : 1.0,
+					"z" : 0.5,
+				},
+				"u1" : 30.0,
+				"u2" : 10,
+				"u3" : 15.0,
+				"u4" : 0.15000000596046448,
+				"u5" : 0.800000011920929,
+
+				"u6sub-sub-sub-sub-block " :  {
+
+					"y" : 0.0,
+					"z" : 0.0,
+				},
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "CollisionShape",
+			"number" : 2,
+
+			"collision shapesub-sub-sub-block " :  {
+
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"w" : -20.0,
+					"x" : -20.0,
+					"y" : 40.0,
+					"z" : 40.0,
+				},
+			},
+
+			"collision shape 2sub-sub-sub-block " :  {
+
+				"u3" : 1,
+				"w" : -15.0,
+				"x" : 15.0,
+				"z" : 1,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "SoundEffect",
+			"number" : 3,
+
+			"sound effectsub-sub-sub-block " :  {
+
+				"sound" : "woosh3",
+				"u0" : 0.0,
+				"u1" : 1.0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Damage",
+			"number" : 4,
+
+			"damagesub-sub-sub-block " :  {
+
+				"u0" : 2,
+				"u1" : 1,
+				"u2" : 0,
+				"u5" : 1.0,
+				"u6" : 0.0,
+				"u7" : 0,
+				"u8" : 1,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "SoundEffect",
+			"number" : 5,
+
+			"sound effectsub-sub-sub-block " :  {
+
+				"sound" : "testbolt",
+				"u0" : 0.0,
+				"u1" : 1.0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Light",
+			"number" : 6,
+
+			"lightsub-sub-sub-block " :  {
+
+				"u0" : 3,
+				"u1" : 2.0,
+
+				"u2sub-sub-sub-sub-block " :  {
+
+					"w" : 0.674285888671875,
+					"x" : 0.6000000238418579,
+					"y" : 1.0,
+					"z" : 1.0,
+				},
+				"u3" : 0.0,
+				"u4" : 0.00019999999494757503,
+
+				"u5sub-sub-sub-sub-block " :  {
+
+					"x" : 0.0,
+					"y" : 0.0,
+					"z" : 0.0,
+				},
+				"u6" : 250.0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "CollisionShape",
+			"number" : 7,
+
+			"collision shapesub-sub-sub-block " :  {
+
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"w" : -10.0,
+					"x" : -5.0,
+					"y" : 20.0,
+					"z" : 10.0,
+				},
+			},
+
+			"collision shape 2sub-sub-sub-block " :  {
+
+				"u1" : 1,
+				"w" : -15.0,
+				"x" : 15.0,
+				"z" : 1,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "ParticleEmitter",
+			"number" : 102,
+
+			"particle emittersub-sub-sub-block " :  {
+
+				"particle" : 103,
+				"particle" : 104,
+				"particle" : 105,
+				"u1" : 0,
+				"u2" : 30,
+				"u3" : 0,
+				"u4" : 0,
+				"u6" : 0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Particle",
+			"number" : 103,
+
+			"particlesub-sub-sub-block " :  {
+
+				"name" : "particle_fure_1",
+				"u0" : 40.0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Particle",
+			"number" : 104,
+
+			"particlesub-sub-sub-block " :  {
+
+				"name" : "particle_fure_2",
+				"u0" : 40.0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Particle",
+			"number" : 105,
+
+			"particlesub-sub-sub-block " :  {
+
+				"name" : "particle_fure_3",
+				"u0" : 40.0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "MagicBolt",
+			"number" : 106,
+
+			"magic boltsub-sub-sub-block " :  {
+
+				"u0" : 102,
+				"u1" : 3,
+				"u2" : 5,
+
+				"u3sub-sub-sub-sub-block " :  {
+
+					"w" : 0.08082757145166397,
+					"x" : 0.0,
+					"y" : 0.45399999618530273,
+					"z" : 0.0,
+				},
+				"u3" : 750.0,
+			},
+
+			"temp0sub-sub-sub-block " :  {
+
+			},
+		},
+
+		"positionsub-sub-block " :  {
+
+			"x position" : 0.0,
+			"y position" : 0.0,
+		},
+		"z position" : 0.0,
+		"rotation" : 0.0,
+		"scale" : 1.0,
+
+		"u0sub-sub-block " :  {
+
+			"w" : -50.0,
+			"x" : -50.0,
+			"y" : 100.0,
+			"z" : 100.0,
+		},
+		"hidden" : 0,
+	},
+	"u0" : 1.0,
+},
+
+"?itemblock " :  {
+
+
+	"?sub-itemsub-block " :  {
+
+		"name" : "magic_bomb",
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "SimpleGlow",
+			"number" : 1,
+
+			"simple glowsub-sub-sub-block " :  {
+
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"w" : 0.18888890743255615,
+					"x" : 0.4999999701976776,
+					"y" : 1.0,
+					"z" : 0.5,
+				},
+				"u1" : 28.0,
+				"u2" : 10,
+				"u3" : 15.0,
+				"u4" : 0.15000000596046448,
+				"u5" : 0.800000011920929,
+
+				"u6sub-sub-sub-sub-block " :  {
+
+					"y" : 0.0,
+					"z" : 0.0,
+				},
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Damage",
+			"number" : 2,
+
+			"damagesub-sub-sub-block " :  {
+
+				"u0" : 2,
+				"u1" : 1,
+				"u2" : 2,
+				"u5" : 1.0,
+				"u6" : 0.0,
+				"u7" : 0,
+				"u8" : 1,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Model",
+			"number" : 101,
+
+			"3D modelsub-sub-sub-block " :  {
+
+				"name" : "bomb",
+				"u0" : 0.0,
+				"u1" : 1.0,
+				"u2" : 0.0,
+
+				"u3sub-sub-sub-sub-block " :  {
+
+					"w" : 0.0,
+					"x" : 0.0,
+					"y" : 0.0,
+					"z" : 1.0,
+				},
+
+				"u4sub-sub-sub-sub-block " :  {
+
+					"x" : 0.0,
+					"y" : 0.0,
+					"z" : 0.0,
+				},
+				"u5" : 0,
+
+				"u6sub-sub-sub-sub-block " :  {
+
+					"w" : 1.0,
+					"x" : 1.0,
+					"y" : 1.0,
+					"z" : 1.0,
+				},
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "CollisionShape",
+			"number" : 102,
+
+			"collision shapesub-sub-sub-block " :  {
+
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"w" : -13.0,
+					"x" : -14.0,
+					"y" : 26.0,
+					"z" : 30.0,
+				},
+			},
+
+			"collision shape 2sub-sub-sub-block " :  {
+
+				"u1" : 1,
+				"w" : -15.0,
+				"x" : 15.0,
+				"z" : 1,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "CollisionShape",
+			"number" : 104,
+
+			"collision shapesub-sub-sub-block " :  {
+
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"w" : -42.0,
+					"x" : -10.0,
+					"y" : 84.0,
+					"z" : 20.0,
+				},
+			},
+
+			"collision shape 2sub-sub-sub-block " :  {
+
+				"w" : -15.0,
+				"x" : 15.0,
+				"y" : 1,
+				"z" : 1,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "PhysicsObject",
+			"number" : 108,
+
+			"physics objectsub-sub-sub-block " :  {
+
+				"u0" : 1,
+				"u3" : 1500.0,
+				"u4" : 0.0,
+				"u5" : 700.0,
+				"u6" : 0,
+				"u7" : 0.0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "MagicBomb",
+			"number" : 109,
+
+			"magic bombsub-sub-sub-block " :  {
+
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"w" : 0.6000000238418579,
+					"x" : 0.7599999904632568,
+					"y" : 1.0,
+					"z" : 1.0,
+				},
+			},
+
+			"temp0sub-sub-sub-block " :  {
+
+			},
+		},
+
+		"positionsub-sub-block " :  {
+
+			"x position" : 0.0,
+			"y position" : 0.0,
+		},
+		"z position" : 0.0,
+		"rotation" : 0.0,
+		"scale" : 1.0,
+
+		"u0sub-sub-block " :  {
+
+			"w" : -42.0,
+			"x" : -28.0,
+			"y" : 84.0,
+			"z" : 56.0,
+		},
+		"hidden" : 0,
+	},
+	"u0" : 1.0,
+},
+
+"?itemblock " :  {
+
+
+	"?sub-itemsub-block " :  {
+
+		"name" : "magic_bomb_fire",
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "SimpleGlow",
+			"number" : 1,
+
+			"simple glowsub-sub-sub-block " :  {
+
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"w" : 1.0,
+					"x" : 0.4725927710533142,
+					"y" : 0.18888890743255615,
+					"z" : 0.5,
+				},
+				"u1" : 28.0,
+				"u2" : 10,
+				"u3" : 15.0,
+				"u4" : 0.15000000596046448,
+				"u5" : 0.800000011920929,
+
+				"u6sub-sub-sub-sub-block " :  {
+
+					"y" : 0.0,
+					"z" : 0.0,
+				},
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Damage",
+			"number" : 2,
+
+			"damagesub-sub-sub-block " :  {
+
+				"u0" : 2,
+				"u1" : 1,
+				"u2" : 2,
+				"u5" : 1.0,
+				"u6" : 0.0,
+				"u7" : 0,
+				"u8" : 1,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Model",
+			"number" : 101,
+
+			"3D modelsub-sub-sub-block " :  {
+
+				"name" : "bomb",
+				"u0" : 0.0,
+				"u1" : 1.0,
+				"u2" : 0.0,
+
+				"u3sub-sub-sub-sub-block " :  {
+
+					"w" : 0.0,
+					"x" : 0.0,
+					"y" : 0.0,
+					"z" : 1.0,
+				},
+
+				"u4sub-sub-sub-sub-block " :  {
+
+					"x" : 0.0,
+					"y" : 0.0,
+					"z" : 0.0,
+				},
+				"u5" : 0,
+
+				"u6sub-sub-sub-sub-block " :  {
+
+					"w" : 1.0,
+					"x" : 1.0,
+					"y" : 1.0,
+					"z" : 1.0,
+				},
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "CollisionShape",
+			"number" : 102,
+
+			"collision shapesub-sub-sub-block " :  {
+
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"w" : -13.0,
+					"x" : -14.0,
+					"y" : 26.0,
+					"z" : 30.0,
+				},
+			},
+
+			"collision shape 2sub-sub-sub-block " :  {
+
+				"u1" : 1,
+				"w" : -15.0,
+				"x" : 15.0,
+				"z" : 1,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "CollisionShape",
+			"number" : 104,
+
+			"collision shapesub-sub-sub-block " :  {
+
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"w" : -42.0,
+					"x" : -10.0,
+					"y" : 84.0,
+					"z" : 20.0,
+				},
+			},
+
+			"collision shape 2sub-sub-sub-block " :  {
+
+				"w" : -15.0,
+				"x" : 15.0,
+				"y" : 1,
+				"z" : 1,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "PhysicsObject",
+			"number" : 108,
+
+			"physics objectsub-sub-sub-block " :  {
+
+				"u0" : 1,
+				"u3" : 1500.0,
+				"u4" : 0.0,
+				"u5" : 700.0,
+				"u6" : 0,
+				"u7" : 0.0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "MagicBomb",
+			"number" : 109,
+
+			"magic bombsub-sub-sub-block " :  {
+
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"w" : 1.0,
+					"x" : 0.7333333492279053,
+					"y" : 0.6000000238418579,
+					"z" : 1.0,
+				},
+			},
+
+			"temp0sub-sub-sub-block " :  {
+
+			},
+		},
+
+		"positionsub-sub-block " :  {
+
+			"x position" : 0.0,
+			"y position" : 0.0,
+		},
+		"z position" : 0.0,
+		"rotation" : 0.0,
+		"scale" : 1.0,
+
+		"u0sub-sub-block " :  {
+
+			"w" : -42.0,
+			"x" : -28.0,
+			"y" : 84.0,
+			"z" : 56.0,
+		},
+		"hidden" : 0,
+	},
+	"u0" : 1.0,
+},
+
+"?itemblock " :  {
+
+
+	"?sub-itemsub-block " :  {
+
+		"name" : "magic_bomb_ice",
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "SimpleGlow",
+			"number" : 1,
+
+			"simple glowsub-sub-sub-block " :  {
+
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"w" : 0.18888890743255615,
+					"x" : 0.9866664409637451,
+					"y" : 1.0,
+					"z" : 0.5,
+				},
+				"u1" : 28.0,
+				"u2" : 10,
+				"u3" : 15.0,
+				"u4" : 0.15000000596046448,
+				"u5" : 0.800000011920929,
+
+				"u6sub-sub-sub-sub-block " :  {
+
+					"y" : 0.0,
+					"z" : 0.0,
+				},
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Damage",
+			"number" : 2,
+
+			"damagesub-sub-sub-block " :  {
+
+				"u0" : 2,
+				"u1" : 1,
+				"u2" : 2,
+				"u5" : 1.0,
+				"u6" : 0.0,
+				"u7" : 0,
+				"u8" : 1,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Model",
+			"number" : 101,
+
+			"3D modelsub-sub-sub-block " :  {
+
+				"name" : "bomb",
+				"u0" : 0.0,
+				"u1" : 1.0,
+				"u2" : 0.0,
+
+				"u3sub-sub-sub-sub-block " :  {
+
+					"w" : 0.0,
+					"x" : 0.0,
+					"y" : 0.0,
+					"z" : 1.0,
+				},
+
+				"u4sub-sub-sub-sub-block " :  {
+
+					"x" : 0.0,
+					"y" : 0.0,
+					"z" : 0.0,
+				},
+				"u5" : 0,
+
+				"u6sub-sub-sub-sub-block " :  {
+
+					"w" : 1.0,
+					"x" : 1.0,
+					"y" : 1.0,
+					"z" : 1.0,
+				},
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "CollisionShape",
+			"number" : 102,
+
+			"collision shapesub-sub-sub-block " :  {
+
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"w" : -13.0,
+					"x" : -14.0,
+					"y" : 26.0,
+					"z" : 30.0,
+				},
+			},
+
+			"collision shape 2sub-sub-sub-block " :  {
+
+				"u1" : 1,
+				"w" : -15.0,
+				"x" : 15.0,
+				"z" : 1,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "CollisionShape",
+			"number" : 104,
+
+			"collision shapesub-sub-sub-block " :  {
+
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"w" : -42.0,
+					"x" : -10.0,
+					"y" : 84.0,
+					"z" : 20.0,
+				},
+			},
+
+			"collision shape 2sub-sub-sub-block " :  {
+
+				"w" : -15.0,
+				"x" : 15.0,
+				"y" : 1,
+				"z" : 1,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "PhysicsObject",
+			"number" : 108,
+
+			"physics objectsub-sub-sub-block " :  {
+
+				"u0" : 1,
+				"u3" : 1500.0,
+				"u4" : 0.0,
+				"u5" : 700.0,
+				"u6" : 0,
+				"u7" : 0.0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "MagicBomb",
+			"number" : 109,
+
+			"magic bombsub-sub-sub-block " :  {
+
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"w" : 0.6000001430511475,
+					"x" : 1.0,
+					"y" : 0.9999998807907104,
+					"z" : 1.0,
+				},
+			},
+
+			"temp0sub-sub-sub-block " :  {
+
+			},
+		},
+
+		"positionsub-sub-block " :  {
+
+			"x position" : 0.0,
+			"y position" : 0.0,
+		},
+		"z position" : 0.0,
+		"rotation" : 0.0,
+		"scale" : 1.0,
+
+		"u0sub-sub-block " :  {
+
+			"w" : -42.0,
+			"x" : -28.0,
+			"y" : 84.0,
+			"z" : 56.0,
+		},
+		"hidden" : 0,
+	},
+	"u0" : 1.0,
+},
+
+"?itemblock " :  {
+
+
+	"?sub-itemsub-block " :  {
+
+		"name" : "magic_bomb_shadow",
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "SimpleGlow",
+			"number" : 1,
+
+			"simple glowsub-sub-sub-block " :  {
+
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"w" : 0.3644446134567261,
+					"x" : 0.18888890743255615,
+					"y" : 1.0,
+					"z" : 0.5,
+				},
+				"u1" : 28.0,
+				"u2" : 10,
+				"u3" : 15.0,
+				"u4" : 0.15000000596046448,
+				"u5" : 0.800000011920929,
+
+				"u6sub-sub-sub-sub-block " :  {
+
+					"y" : 0.0,
+					"z" : 0.0,
+				},
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Damage",
+			"number" : 2,
+
+			"damagesub-sub-sub-block " :  {
+
+				"u0" : 2,
+				"u1" : 1,
+				"u2" : 2,
+				"u5" : 1.0,
+				"u6" : 0.0,
+				"u7" : 0,
+				"u8" : 1,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Model",
+			"number" : 101,
+
+			"3D modelsub-sub-sub-block " :  {
+
+				"name" : "bomb",
+				"u0" : 0.0,
+				"u1" : 1.0,
+				"u2" : 0.0,
+
+				"u3sub-sub-sub-sub-block " :  {
+
+					"w" : 0.0,
+					"x" : 0.0,
+					"y" : 0.0,
+					"z" : 1.0,
+				},
+
+				"u4sub-sub-sub-sub-block " :  {
+
+					"x" : 0.0,
+					"y" : 0.0,
+					"z" : 0.0,
+				},
+				"u5" : 0,
+
+				"u6sub-sub-sub-sub-block " :  {
+
+					"w" : 1.0,
+					"x" : 1.0,
+					"y" : 1.0,
+					"z" : 1.0,
+				},
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "CollisionShape",
+			"number" : 102,
+
+			"collision shapesub-sub-sub-block " :  {
+
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"w" : -13.0,
+					"x" : -14.0,
+					"y" : 26.0,
+					"z" : 30.0,
+				},
+			},
+
+			"collision shape 2sub-sub-sub-block " :  {
+
+				"u1" : 1,
+				"w" : -15.0,
+				"x" : 15.0,
+				"z" : 1,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "CollisionShape",
+			"number" : 104,
+
+			"collision shapesub-sub-sub-block " :  {
+
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"w" : -42.0,
+					"x" : -10.0,
+					"y" : 84.0,
+					"z" : 20.0,
+				},
+			},
+
+			"collision shape 2sub-sub-sub-block " :  {
+
+				"w" : -15.0,
+				"x" : 15.0,
+				"y" : 1,
+				"z" : 1,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "PhysicsObject",
+			"number" : 108,
+
+			"physics objectsub-sub-sub-block " :  {
+
+				"u0" : 1,
+				"u3" : 1500.0,
+				"u4" : 0.0,
+				"u5" : 700.0,
+				"u6" : 0,
+				"u7" : 0.0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "MagicBomb",
+			"number" : 109,
+
+			"magic bombsub-sub-sub-block " :  {
+
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"w" : 0.7511110901832581,
+					"x" : 0.6888889074325562,
+					"y" : 1.0,
+					"z" : 1.0,
+				},
+			},
+
+			"temp0sub-sub-sub-block " :  {
+
+			},
+		},
+
+		"positionsub-sub-block " :  {
+
+			"x position" : 0.0,
+			"y position" : 0.0,
+		},
+		"z position" : 0.0,
+		"rotation" : 0.0,
+		"scale" : 1.0,
+
+		"u0sub-sub-block " :  {
+
+			"w" : -42.0,
+			"x" : -28.0,
+			"y" : 84.0,
+			"z" : 56.0,
+		},
+		"hidden" : 0,
+	},
+	"u0" : 1.0,
+},
+
+"?itemblock " :  {
+
+
+	"?sub-itemsub-block " :  {
+
+		"name" : "magic_dimension",
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "DimensionSpell",
+			"number" : 101,
+
+			"temp0sub-sub-sub-block " :  {
+
+
+				"lua chunksub-sub-sub-sub-block " :  {
+
+					"main chunk" : "chunk >
+
+					=== lua =============
+					local self = ...;
+					
+					if inAnotherDimension then
+						SetDimensionModeEnabled(false);
+						SoundLibrary.PlayEffect(\"dimension\");
+					else
+						SoundLibrary.PlayEffect(\"testmorph\");
+						SetDimensionModeEnabled(true);
+						GenerateDimensionMonsters(self:position(), 2);
+					end
+					
+
+					=====================",
+					"secondary chunk" : "\\x1bLuaQ\\x00\\x01\\x04\\x04\\x04\\x08\\x00\\x01\\x01\\x00\\x00local self = ...;\\r\\n\\r\\nif inAnotherDimension then\\r\\n\\tSetDimensionModeEnabled(false);\\r\\n\\tSoundLibrary.PlayEffect(\"dimension\");\\r\\nelse\\r\\n\\tSoundLibrary.PlayEffect(\"testmorph\");\\r\\n\\tSetDimensionModeEnabled(true);\\r\\n\\tGenerateDimensionMonsters(self:position(), 2);\\r\\nend\\r\\n\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x02\\x04\\x19\\x00\\x00\\x00%\\x00\\x00\\x01E\\x00\\x00\\x00Z\\x00\\x00\\x00\\x16\\xc0\\x01\\x80E@\\x00\\x00\\x82\\x00\\x00\\x00\\\\@\\x00\\x01E\\x80\\x00\\x00F\\xc0\\xc0\\x00\\x81\\x00\\x01\\x00\\\\@\\x00\\x01\\x16\\xc0\\x02\\x80E\\x80\\x00\\x00F\\xc0\\xc0\\x00\\x81@\\x01\\x00\\\\@\\x00\\x01E@\\x00\\x00\\x82\\x00\\x80\\x00\\\\@\\x00\\x01E\\x80\\x01\\x00\\x8b\\xc0A\\x00\\x9c\\x80\\x00\\x01\\xc1\\x00\\x02\\x00\\\\@\\x80\\x01\\x1e\\x00\\x80\\x00\\t\\x00\\x00\\x00\\x04\\x13\\x00\\x00\\x00inAnotherDimension\\x00\\x04\\x18\\x00\\x00\\x00SetDimensionModeEnabled\\x00\\x04\\r\\x00\\x00\\x00SoundLibrary\\x00\\x04\\x0b\\x00\\x00\\x00PlayEffect\\x00\\x04\\n\\x00\\x00\\x00dimension\\x00\\x04\\n\\x00\\x00\\x00testmorph\\x00\\x04\\x1a\\x00\\x00\\x00GenerateDimensionMonsters\\x00\\x04\\t\\x00\\x00\\x00position\\x00\\x03\\x00\\x00\\x00\\x00\\x00\\x00\\x00@\\x00\\x00\\x00\\x00\\x19\\x00\\x00\\x00\\x01\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x07\\x00\\x00\\x00\\x07\\x00\\x00\\x00\\x07\\x00\\x00\\x00\\x07\\x00\\x00\\x00\\x08\\x00\\x00\\x00\\x08\\x00\\x00\\x00\\x08\\x00\\x00\\x00\\t\\x00\\x00\\x00\\t\\x00\\x00\\x00\\t\\x00\\x00\\x00\\t\\x00\\x00\\x00\\t\\x00\\x00\\x00\\n\\x00\\x00\\x00\\x01\\x00\\x00\\x00\\x05\\x00\\x00\\x00self\\x00\\x01\\x00\\x00\\x00\\x18\\x00\\x00\\x00\\x00\\x00\\x00\\x00",
+				},
+			},
+		},
+
+		"positionsub-sub-block " :  {
+
+			"x position" : 0.0,
+			"y position" : 0.0,
+		},
+		"z position" : 0.0,
+		"rotation" : 0.0,
+		"scale" : 1.0,
+
+		"u0sub-sub-block " :  {
+
+			"w" : -10.0,
+			"x" : -10.0,
+			"y" : 20.0,
+			"z" : 20.0,
+		},
+		"hidden" : 0,
+	},
+	"u0" : 1.0,
+},
+
+"?itemblock " :  {
+
+
+	"?sub-itemsub-block " :  {
+
+		"name" : "magic_explosion",
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "SoundEffect",
+			"number" : 1,
+
+			"sound effectsub-sub-sub-block " :  {
+
+				"sound" : "explosion",
+				"u0" : 0.0,
+				"u1" : 1.0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "ParticleEmitter",
+			"number" : 102,
+
+			"particle emittersub-sub-sub-block " :  {
+
+				"particle" : 103,
+				"particle" : 104,
+				"particle" : 105,
+				"u1" : 0,
+				"u2" : 30,
+				"u3" : 0,
+				"u4" : 0,
+				"u6" : 0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Particle",
+			"number" : 103,
+
+			"particlesub-sub-sub-block " :  {
+
+				"name" : "particle_fure_1",
+				"u0" : 40.0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Particle",
+			"number" : 104,
+
+			"particlesub-sub-sub-block " :  {
+
+				"name" : "particle_fure_2",
+				"u0" : 40.0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Particle",
+			"number" : 105,
+
+			"particlesub-sub-sub-block " :  {
+
+				"name" : "particle_fure_3",
+				"u0" : 40.0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "MagicExplosion",
+			"number" : 107,
+
+			"magic explosionsub-sub-sub-block " :  {
+
+				"u0" : 102,
+				"u1" : 1,
+
+				"u2sub-sub-sub-sub-block " :  {
+
+					"w" : 1.0,
+					"x" : 1.0,
+					"y" : 1.0,
+					"z" : 1.0,
+				},
+				"u3" : 100.0,
+				"u4" : 0.30000001192092896,
+			},
+		},
+
+		"positionsub-sub-block " :  {
+
+			"x position" : 0.0,
+			"y position" : 0.0,
+		},
+		"z position" : 0.0,
+		"rotation" : 0.0,
+		"scale" : 1.0,
+
+		"u0sub-sub-block " :  {
+
+			"w" : -10.0,
+			"x" : -10.0,
+			"y" : 20.0,
+			"z" : 20.0,
+		},
+		"hidden" : 0,
+
+		"lua chunksub-sub-block " :  {
+
+			"main chunk" : "chunk >
+
+			=== lua =============
+			Game.Flash();
+
+			=====================",
+			"secondary chunk" : "\\x1bLuaQ\\x00\\x01\\x04\\x04\\x04\\x08\\x00\\x0e\\x00\\x00\\x00Game.Flash();\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x02\\x02\\x04\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x06@@\\x00\\x1c@\\x80\\x00\\x1e\\x00\\x80\\x00\\x02\\x00\\x00\\x00\\x04\\x05\\x00\\x00\\x00Game\\x00\\x04\\x06\\x00\\x00\\x00Flash\\x00\\x00\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x01\\x00\\x00\\x00\\x01\\x00\\x00\\x00\\x01\\x00\\x00\\x00\\x01\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00",
+		},
+	},
+	"u0" : 1.0,
+},
+
+"?itemblock " :  {
+
+
+	"?sub-itemsub-block " :  {
+
+		"name" : "magic_firebreath",
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "SoundEffect",
+			"number" : 3,
+
+			"sound effectsub-sub-sub-block " :  {
+
+				"sound" : "woosh1",
+				"u0" : 0.0,
+				"u1" : 1.0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Light",
+			"number" : 6,
+
+			"lightsub-sub-sub-block " :  {
+
+				"u0" : 3,
+				"u1" : 10.0,
+
+				"u2sub-sub-sub-sub-block " :  {
+
+					"w" : 1.0,
+					"x" : 0.47999998927116394,
+					"y" : 0.0,
+					"z" : 0.0,
+				},
+				"u3" : 0.0,
+				"u4" : 0.00019999999494757503,
+
+				"u5sub-sub-sub-sub-block " :  {
+
+					"x" : 0.0,
+					"y" : 0.0,
+					"z" : 0.0,
+				},
+				"u6" : 250.0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "ParticleEmitter",
+			"number" : 102,
+
+			"particle emittersub-sub-sub-block " :  {
+
+				"particle" : 103,
+				"particle" : 104,
+				"particle" : 105,
+				"u1" : 0,
+				"u2" : 30,
+				"u3" : 0,
+				"u4" : 0,
+				"u6" : 0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Particle",
+			"number" : 103,
+
+			"particlesub-sub-sub-block " :  {
+
+				"name" : "particle_fure_1",
+				"u0" : 40.0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Particle",
+			"number" : 104,
+
+			"particlesub-sub-sub-block " :  {
+
+				"name" : "particle_fure_2",
+				"u0" : 40.0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Particle",
+			"number" : 105,
+
+			"particlesub-sub-sub-block " :  {
+
+				"name" : "particle_fure_3",
+				"u0" : 40.0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "FireBreath",
+			"number" : 108,
+
+			"fire breathsub-sub-sub-block " :  {
+
+				"u0" : 102,
+				"u1" : 3,
+
+				"u2sub-sub-sub-sub-block " :  {
+
+					"w" : 1.0,
+					"x" : 0.4666667580604553,
+					"y" : 1.1920928955078125e-07,
+					"z" : 0.0,
+				},
+			},
+
+			"temp0sub-sub-sub-block " :  {
+
+			},
+		},
+
+		"positionsub-sub-block " :  {
+
+			"x position" : 0.0,
+			"y position" : 0.0,
+		},
+		"z position" : 0.0,
+		"rotation" : 0.0,
+		"scale" : 1.0,
+
+		"u0sub-sub-block " :  {
+
+			"w" : -10.0,
+			"x" : -10.0,
+			"y" : 20.0,
+			"z" : 20.0,
+		},
+		"hidden" : 0,
+	},
+	"u0" : 1.0,
+},
+
+"?itemblock " :  {
+
+
+	"?sub-itemsub-block " :  {
+
+		"name" : "magic_hookshot",
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "SimpleGlow",
+			"number" : 1,
+
+			"simple glowsub-sub-sub-block " :  {
+
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"w" : 0.18888889253139496,
+					"x" : 0.5,
+					"y" : 1.0,
+					"z" : 0.5,
+				},
+				"u1" : 25.0,
+				"u2" : 10,
+				"u3" : 15.0,
+				"u4" : 0.15000000596046448,
+				"u5" : 0.800000011920929,
+
+				"u6sub-sub-sub-sub-block " :  {
+
+					"y" : 0.0,
+					"z" : 0.0,
+				},
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "CollisionShape",
+			"number" : 2,
+
+			"collision shapesub-sub-sub-block " :  {
+
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"w" : -8.0,
+					"x" : -8.0,
+					"y" : 16.0,
+					"z" : 16.0,
+				},
+			},
+
+			"collision shape 2sub-sub-sub-block " :  {
+
+				"u1" : 1,
+				"u3" : 1,
+				"w" : -15.0,
+				"x" : 15.0,
+				"z" : 1,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "CollisionShape",
+			"number" : 3,
+
+			"collision shapesub-sub-sub-block " :  {
+
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"w" : -400.0,
+					"x" : -5.0,
+					"y" : 400.0,
+					"z" : 10.0,
+				},
+			},
+
+			"collision shape 2sub-sub-sub-block " :  {
+
+				"w" : -15.0,
+				"x" : 15.0,
+				"z" : 1,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Damage",
+			"number" : 4,
+
+			"damagesub-sub-sub-block " :  {
+
+				"u0" : 2,
+				"u1" : 1,
+				"u2" : 0,
+				"u5" : 1.0,
+				"u6" : 0.0,
+				"u7" : 0,
+				"u8" : 1,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "SoundEffect",
+			"number" : 5,
+			"name" : "hit",
+
+			"sound effectsub-sub-sub-block " :  {
+
+				"sound" : "hookshot_hit1",
+				"u0" : 0.0,
+				"u1" : 1.0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Light",
+			"number" : 6,
+
+			"lightsub-sub-sub-block " :  {
+
+				"u0" : 3,
+				"u1" : 2.0,
+
+				"u2sub-sub-sub-sub-block " :  {
+
+					"w" : 0.6000000238418579,
+					"x" : 0.6857142448425293,
+					"y" : 1.0,
+					"z" : 1.0,
+				},
+				"u3" : 0.0,
+				"u4" : 0.00019999999494757503,
+
+				"u5sub-sub-sub-sub-block " :  {
+
+					"x" : 0.0,
+					"y" : 0.0,
+					"z" : 0.0,
+				},
+				"u6" : 250.0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "SoundEffect",
+			"number" : 7,
+			"name" : "cast",
+
+			"sound effectsub-sub-sub-block " :  {
+
+				"sound" : "hookshot_cast",
+				"u0" : 0.0,
+				"u1" : 1.0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "SoundEffect",
+			"number" : 8,
+			"name" : "groundHit",
+
+			"sound effectsub-sub-sub-block " :  {
+
+				"sound" : "hookshot_hit2",
+				"u0" : 0.0,
+				"u1" : 1.0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "ParticleEmitter",
+			"number" : 102,
+			"name" : "bolt1",
+
+			"particle emittersub-sub-sub-block " :  {
+
+				"particle" : 103,
+				"particle" : 104,
+				"particle" : 105,
+				"u1" : 0,
+				"u2" : 200,
+				"u3" : 0,
+				"u4" : 0,
+
+				"u5sub-sub-sub-sub-block " :  {
+
+					"u0" : 3,
+
+					"u1sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 0.0,
+						"x" : 0.3305555284023285,
+						"y" : 0.7777777910232544,
+						"z" : 0.0,
+					},
+					"u2" : 0.014999999664723873,
+					"u2" : 0.15000000596046448,
+					"u2" : 0.8999999761581421,
+					"u2" : 15.0,
+					"u2" : 0.6000000238418579,
+					"u2" : 0.0,
+					"u2" : 1.0,
+					"u3" : 0.0,
+					"u4" : 0.0,
+					"u5" : 0.0,
+
+					"u6sub-sub-sub-sub-sub-block " :  {
+
+						"u0" : 0.0,
+						"u1" : 0.0,
+						"u2" : 0.0,
+					},
+				},
+				"u6" : 1,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Particle",
+			"number" : 103,
+
+			"particlesub-sub-sub-block " :  {
+
+				"name" : "particle_fure_1",
+				"u0" : 40.0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Particle",
+			"number" : 104,
+
+			"particlesub-sub-sub-block " :  {
+
+				"name" : "particle_fure_2",
+				"u0" : 40.0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Particle",
+			"number" : 105,
+
+			"particlesub-sub-sub-block " :  {
+
+				"name" : "particle_fure_3",
+				"u0" : 40.0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "ParticleEmitter",
+			"number" : 109,
+			"name" : "bolt2",
+
+			"particle emittersub-sub-sub-block " :  {
+
+				"particle" : 103,
+				"particle" : 104,
+				"particle" : 105,
+				"u1" : 0,
+				"u2" : 30,
+				"u3" : 102,
+				"u4" : 0,
+
+				"u5sub-sub-sub-sub-block " :  {
+
+					"u0" : 3,
+
+					"u1sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 0.35555556416511536,
+						"x" : 0.35555556416511536,
+						"y" : 0.35555556416511536,
+						"z" : 0.0,
+					},
+					"u2" : 0.014999999664723873,
+					"u2" : 0.0020000000949949026,
+					"u2" : 0.4000000059604645,
+					"u2" : 7.0,
+					"u2" : 1.0,
+					"u2" : 0.0,
+					"u2" : 1.0,
+					"u3" : 0.0,
+					"u4" : 0.0,
+					"u5" : 0.0,
+
+					"u6sub-sub-sub-sub-sub-block " :  {
+
+						"u0" : 0.0,
+						"u1" : 0.0,
+						"u2" : 0.0,
+					},
+				},
+				"u6" : 1,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "MagicHookshot",
+			"number" : 112,
+
+			"magic hookshotsub-sub-sub-block " :  {
+
+				"particle emitter component" : 102,
+				"u0" : 7,
+				"u1" : 5,
+
+				"u2sub-sub-sub-sub-block " :  {
+
+					"w" : 0.05400000140070915,
+					"x" : 0.20000000298023224,
+					"y" : 0.4000000059604645,
+					"z" : 0.0,
+				},
+				"u3" : 0,
+			},
+
+			"temp0sub-sub-sub-block " :  {
+
+
+				"lua chunksub-sub-sub-sub-block " :  {
+
+					"main chunk" : "chunk >
+
+					=== lua =============
+					local self = ...;
+					
+					local caster = Spell.CasterObject(self);
+					
+					if false and caster ~= nil then
+					
+						while self:isAlive() do 
+							local delta = self:position() - Spell.CastPoint(self);
+							local distance = delta:length() - 50;
+					
+							ParticleEmitter.SetOriginOffset(self, 7, Vector3.New(-distance, 0, 0));
+							ParticleEmitter.SetParameterAtIndex(self, 7, 2, distance);
+					
+							Program.Wait(0.02);
+						end
+					end
+
+					=====================",
+					"secondary chunk" : "\\x1bLuaQ\\x00\\x01\\x04\\x04\\x04\\x08\\x00\\x90\\x01\\x00\\x00local self = ...;\\r\\n\\r\\nlocal caster = Spell.CasterObject(self);\\r\\n\\r\\nif false and caster ~= nil then\\r\\n\\r\\n\\twhile self:isAlive() do \\r\\n\\t\\tlocal delta = self:position() - Spell.CastPoint(self);\\r\\n\\t\\tlocal distance = delta:length() - 50;\\r\\n\\r\\n\\t\\tParticleEmitter.SetOriginOffset(self, 7, Vector3.New(-distance, 0, 0));\\r\\n\\t\\tParticleEmitter.SetParameterAtIndex(self, 7, 2, distance);\\r\\n\\r\\n\\t\\tProgram.Wait(0.02);\\r\\n\\tend\\r\\nend\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x02\\x0b.\\x00\\x00\\x00%\\x00\\x00\\x01E\\x00\\x00\\x00F@\\xc0\\x00\\x80\\x00\\x00\\x00\\\\\\x80\\x00\\x01\\x16\\x80\\t\\x80W\\x80\\xc0\\x00\\x16\\x00\\t\\x80\\x8b\\xc0@\\x00\\x9c\\x80\\x00\\x01\\x9a\\x00\\x00\\x00\\x16\\x00\\x08\\x80\\x8b\\x00A\\x00\\x9c\\x80\\x00\\x01\\xc5\\x00\\x00\\x00\\xc6@\\xc1\\x01\\x00\\x01\\x00\\x00\\xdc\\x80\\x00\\x01\\x8d\\xc0\\x00\\x01\\xcb\\x80A\\x01\\xdc\\x80\\x00\\x01\\xcd\\xc0\\xc1\\x01\\x05\\x01\\x02\\x00\\x06AB\\x02@\\x01\\x00\\x00\\x81\\x81\\x02\\x00\\xc5\\xc1\\x02\\x00\\xc6\\x01\\xc3\\x03\\x12\\x02\\x80\\x01AB\\x03\\x00\\x81B\\x03\\x00\\xdc\\x01\\x00\\x02\\x1cA\\x00\\x00\\x05\\x01\\x02\\x00\\x06\\x81C\\x02@\\x01\\x00\\x00\\x81\\x81\\x02\\x00\\xc1\\xc1\\x03\\x00\\x00\\x02\\x80\\x01\\x1cA\\x80\\x02\\x05\\x01\\x04\\x00\\x06AD\\x02A\\x81\\x04\\x00\\x1cA\\x00\\x01\\x16\\x80\\xf6\\x7f\\x1e\\x00\\x80\\x00\\x13\\x00\\x00\\x00\\x04\\x06\\x00\\x00\\x00Spell\\x00\\x04\\r\\x00\\x00\\x00CasterObject\\x00\\x00\\x04\\x08\\x00\\x00\\x00isAlive\\x00\\x04\\t\\x00\\x00\\x00position\\x00\\x04\\n\\x00\\x00\\x00CastPoint\\x00\\x04\\x07\\x00\\x00\\x00length\\x00\\x03\\x00\\x00\\x00\\x00\\x00\\x00I@\\x04\\x10\\x00\\x00\\x00ParticleEmitter\\x00\\x04\\x10\\x00\\x00\\x00SetOriginOffset\\x00\\x03\\x00\\x00\\x00\\x00\\x00\\x00\\x1c@\\x04\\x08\\x00\\x00\\x00Vector3\\x00\\x04\\x04\\x00\\x00\\x00New\\x00\\x03\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x04\\x14\\x00\\x00\\x00SetParameterAtIndex\\x00\\x03\\x00\\x00\\x00\\x00\\x00\\x00\\x00@\\x04\\x08\\x00\\x00\\x00Program\\x00\\x04\\x05\\x00\\x00\\x00Wait\\x00\\x03{\\x14\\xaeG\\xe1z\\x94?\\x00\\x00\\x00\\x00.\\x00\\x00\\x00\\x01\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x07\\x00\\x00\\x00\\x07\\x00\\x00\\x00\\x07\\x00\\x00\\x00\\x07\\x00\\x00\\x00\\x08\\x00\\x00\\x00\\x08\\x00\\x00\\x00\\x08\\x00\\x00\\x00\\x08\\x00\\x00\\x00\\x08\\x00\\x00\\x00\\x08\\x00\\x00\\x00\\x08\\x00\\x00\\x00\\t\\x00\\x00\\x00\\t\\x00\\x00\\x00\\t\\x00\\x00\\x00\\x0b\\x00\\x00\\x00\\x0b\\x00\\x00\\x00\\x0b\\x00\\x00\\x00\\x0b\\x00\\x00\\x00\\x0b\\x00\\x00\\x00\\x0b\\x00\\x00\\x00\\x0b\\x00\\x00\\x00\\x0b\\x00\\x00\\x00\\x0b\\x00\\x00\\x00\\x0b\\x00\\x00\\x00\\x0b\\x00\\x00\\x00\\x0c\\x00\\x00\\x00\\x0c\\x00\\x00\\x00\\x0c\\x00\\x00\\x00\\x0c\\x00\\x00\\x00\\x0c\\x00\\x00\\x00\\x0c\\x00\\x00\\x00\\x0c\\x00\\x00\\x00\\x0e\\x00\\x00\\x00\\x0e\\x00\\x00\\x00\\x0e\\x00\\x00\\x00\\x0e\\x00\\x00\\x00\\x0e\\x00\\x00\\x00\\x10\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x05\\x00\\x00\\x00self\\x00\\x01\\x00\\x00\\x00-\\x00\\x00\\x00\\x07\\x00\\x00\\x00caster\\x00\\x05\\x00\\x00\\x00-\\x00\\x00\\x00\\x06\\x00\\x00\\x00delta\\x00\\x13\\x00\\x00\\x00,\\x00\\x00\\x00\\t\\x00\\x00\\x00distance\\x00\\x16\\x00\\x00\\x00,\\x00\\x00\\x00\\x00\\x00\\x00\\x00",
+				},
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "PhysicsObject",
+			"number" : 113,
+
+			"physics objectsub-sub-sub-block " :  {
+
+				"u0" : 1,
+				"u2" : 0.0,
+				"u3" : 1500.0,
+				"u4" : 0.0,
+				"u5" : 2000.0,
+				"u6" : 0,
+				"u7" : 0.0,
+			},
+		},
+
+		"positionsub-sub-block " :  {
+
+			"x position" : 0.0,
+			"y position" : 0.0,
+		},
+		"z position" : 0.0,
+		"rotation" : 0.0,
+		"scale" : 1.0,
+
+		"u0sub-sub-block " :  {
+
+			"w" : -400.0,
+			"x" : -50.0,
+			"y" : 450.0,
+			"z" : 100.0,
+		},
+		"hidden" : 0,
+	},
+	"u0" : 1.0,
+},
+
+"?itemblock " :  {
+
+
+	"?sub-itemsub-block " :  {
+
+		"name" : "magic_hookshot_fire",
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "SimpleGlow",
+			"number" : 1,
+
+			"simple glowsub-sub-sub-block " :  {
+
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"w" : 1.0,
+					"x" : 0.4725927710533142,
+					"y" : 0.18888890743255615,
+					"z" : 0.5,
+				},
+				"u1" : 25.0,
+				"u2" : 20,
+				"u3" : 15.0,
+				"u4" : 0.15000000596046448,
+				"u5" : 0.800000011920929,
+
+				"u6sub-sub-sub-sub-block " :  {
+
+					"y" : 0.0,
+					"z" : 0.0,
+				},
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "CollisionShape",
+			"number" : 2,
+
+			"collision shapesub-sub-sub-block " :  {
+
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"w" : -8.0,
+					"x" : -8.0,
+					"y" : 16.0,
+					"z" : 16.0,
+				},
+			},
+
+			"collision shape 2sub-sub-sub-block " :  {
+
+				"u1" : 1,
+				"u3" : 1,
+				"w" : -15.0,
+				"x" : 15.0,
+				"z" : 1,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "CollisionShape",
+			"number" : 3,
+
+			"collision shapesub-sub-sub-block " :  {
+
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"w" : -400.0,
+					"x" : -5.0,
+					"y" : 400.0,
+					"z" : 10.0,
+				},
+			},
+
+			"collision shape 2sub-sub-sub-block " :  {
+
+				"w" : -15.0,
+				"x" : 15.0,
+				"z" : 1,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Damage",
+			"number" : 4,
+
+			"damagesub-sub-sub-block " :  {
+
+				"u0" : 2,
+				"u1" : 1,
+				"u2" : 0,
+				"u5" : 1.0,
+				"u6" : 0.0,
+				"u7" : 0,
+				"u8" : 1,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "SoundEffect",
+			"number" : 5,
+
+			"sound effectsub-sub-sub-block " :  {
+
+				"sound" : "hookshot_hit1",
+				"u0" : 0.0,
+				"u1" : 1.0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Light",
+			"number" : 6,
+
+			"lightsub-sub-sub-block " :  {
+
+				"u0" : 3,
+				"u1" : 2.0,
+
+				"u2sub-sub-sub-sub-block " :  {
+
+					"w" : 1.0,
+					"x" : 0.7542858123779297,
+					"y" : 0.6000000238418579,
+					"z" : 1.0,
+				},
+				"u3" : 0.0,
+				"u4" : 0.00019999999494757503,
+
+				"u5sub-sub-sub-sub-block " :  {
+
+					"x" : 0.0,
+					"y" : 0.0,
+					"z" : 0.0,
+				},
+				"u6" : 250.0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "SoundEffect",
+			"number" : 7,
+
+			"sound effectsub-sub-sub-block " :  {
+
+				"sound" : "hookshot_cast",
+				"u0" : 0.0,
+				"u1" : 1.0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "ParticleEmitter",
+			"number" : 102,
+			"name" : "bolt1",
+
+			"particle emittersub-sub-sub-block " :  {
+
+				"particle" : 103,
+				"particle" : 104,
+				"particle" : 105,
+				"u1" : 0,
+				"u2" : 200,
+				"u3" : 0,
+				"u4" : 0,
+
+				"u5sub-sub-sub-sub-block " :  {
+
+					"u0" : 3,
+
+					"u1sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 0.3888888955116272,
+						"x" : 0.3888888955116272,
+						"y" : 0.3888888955116272,
+						"z" : 0.0,
+					},
+					"u2" : 0.014999999664723873,
+					"u2" : 0.15000000596046448,
+					"u2" : 0.8999999761581421,
+					"u2" : 15.0,
+					"u2" : 0.6000000238418579,
+					"u2" : 0.0,
+					"u2" : 1.0,
+					"u3" : 0.0,
+					"u4" : 0.0,
+					"u5" : 0.0,
+
+					"u6sub-sub-sub-sub-sub-block " :  {
+
+						"u0" : 0.0,
+						"u1" : 0.0,
+						"u2" : 0.0,
+					},
+				},
+				"u6" : 1,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Particle",
+			"number" : 103,
+
+			"particlesub-sub-sub-block " :  {
+
+				"name" : "particle_fure_1",
+				"u0" : 40.0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Particle",
+			"number" : 104,
+
+			"particlesub-sub-sub-block " :  {
+
+				"name" : "particle_fure_2",
+				"u0" : 40.0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Particle",
+			"number" : 105,
+
+			"particlesub-sub-sub-block " :  {
+
+				"name" : "particle_fure_3",
+				"u0" : 40.0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "ParticleEmitter",
+			"number" : 109,
+			"name" : "bolt2",
+
+			"particle emittersub-sub-sub-block " :  {
+
+				"particle" : 103,
+				"particle" : 104,
+				"particle" : 105,
+				"u1" : 0,
+				"u2" : 30,
+				"u3" : 102,
+				"u4" : 0,
+
+				"u5sub-sub-sub-sub-block " :  {
+
+					"u0" : 3,
+
+					"u1sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 0.9777777791023254,
+						"x" : 0.0,
+						"y" : 3.496805902614142e-07,
+						"z" : 0.0,
+					},
+					"u2" : 0.014999999664723873,
+					"u2" : 0.0020000000949949026,
+					"u2" : 0.4000000059604645,
+					"u2" : 7.0,
+					"u2" : 1.0,
+					"u2" : 0.0,
+					"u2" : 1.0,
+					"u3" : 0.0,
+					"u4" : 0.0,
+					"u5" : 0.0,
+
+					"u6sub-sub-sub-sub-sub-block " :  {
+
+						"u0" : 0.0,
+						"u1" : 0.0,
+						"u2" : 0.0,
+					},
+				},
+				"u6" : 1,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "MagicHookshot",
+			"number" : 112,
+
+			"magic hookshotsub-sub-sub-block " :  {
+
+				"particle emitter component" : 102,
+				"u0" : 7,
+				"u1" : 5,
+
+				"u2sub-sub-sub-sub-block " :  {
+
+					"w" : 0.4000000059604645,
+					"x" : 0.18480001389980316,
+					"y" : 0.05399999022483826,
+					"z" : 0.0,
+				},
+				"u3" : 0,
+			},
+
+			"temp0sub-sub-sub-block " :  {
+
+
+				"lua chunksub-sub-sub-sub-block " :  {
+
+					"main chunk" : "chunk >
+
+					=== lua =============
+					local self = ...;
+					
+					local caster = Spell.CasterObject(self);
+					
+					if false and caster ~= nil then
+					
+						while self:isAlive() do 
+							local delta = self:position() - Spell.CastPoint(self);
+							local distance = delta:length() - 50;
+					
+							ParticleEmitter.SetOriginOffset(self, 7, Vector3.New(-distance, 0, 0));
+							ParticleEmitter.SetParameterAtIndex(self, 7, 2, distance);
+					
+							Program.Wait(0.02);
+						end
+					end
+
+					=====================",
+					"secondary chunk" : "\\x1bLuaQ\\x00\\x01\\x04\\x04\\x04\\x08\\x00\\x90\\x01\\x00\\x00local self = ...;\\r\\n\\r\\nlocal caster = Spell.CasterObject(self);\\r\\n\\r\\nif false and caster ~= nil then\\r\\n\\r\\n\\twhile self:isAlive() do \\r\\n\\t\\tlocal delta = self:position() - Spell.CastPoint(self);\\r\\n\\t\\tlocal distance = delta:length() - 50;\\r\\n\\r\\n\\t\\tParticleEmitter.SetOriginOffset(self, 7, Vector3.New(-distance, 0, 0));\\r\\n\\t\\tParticleEmitter.SetParameterAtIndex(self, 7, 2, distance);\\r\\n\\r\\n\\t\\tProgram.Wait(0.02);\\r\\n\\tend\\r\\nend\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x02\\x0b.\\x00\\x00\\x00%\\x00\\x00\\x01E\\x00\\x00\\x00F@\\xc0\\x00\\x80\\x00\\x00\\x00\\\\\\x80\\x00\\x01\\x16\\x80\\t\\x80W\\x80\\xc0\\x00\\x16\\x00\\t\\x80\\x8b\\xc0@\\x00\\x9c\\x80\\x00\\x01\\x9a\\x00\\x00\\x00\\x16\\x00\\x08\\x80\\x8b\\x00A\\x00\\x9c\\x80\\x00\\x01\\xc5\\x00\\x00\\x00\\xc6@\\xc1\\x01\\x00\\x01\\x00\\x00\\xdc\\x80\\x00\\x01\\x8d\\xc0\\x00\\x01\\xcb\\x80A\\x01\\xdc\\x80\\x00\\x01\\xcd\\xc0\\xc1\\x01\\x05\\x01\\x02\\x00\\x06AB\\x02@\\x01\\x00\\x00\\x81\\x81\\x02\\x00\\xc5\\xc1\\x02\\x00\\xc6\\x01\\xc3\\x03\\x12\\x02\\x80\\x01AB\\x03\\x00\\x81B\\x03\\x00\\xdc\\x01\\x00\\x02\\x1cA\\x00\\x00\\x05\\x01\\x02\\x00\\x06\\x81C\\x02@\\x01\\x00\\x00\\x81\\x81\\x02\\x00\\xc1\\xc1\\x03\\x00\\x00\\x02\\x80\\x01\\x1cA\\x80\\x02\\x05\\x01\\x04\\x00\\x06AD\\x02A\\x81\\x04\\x00\\x1cA\\x00\\x01\\x16\\x80\\xf6\\x7f\\x1e\\x00\\x80\\x00\\x13\\x00\\x00\\x00\\x04\\x06\\x00\\x00\\x00Spell\\x00\\x04\\r\\x00\\x00\\x00CasterObject\\x00\\x00\\x04\\x08\\x00\\x00\\x00isAlive\\x00\\x04\\t\\x00\\x00\\x00position\\x00\\x04\\n\\x00\\x00\\x00CastPoint\\x00\\x04\\x07\\x00\\x00\\x00length\\x00\\x03\\x00\\x00\\x00\\x00\\x00\\x00I@\\x04\\x10\\x00\\x00\\x00ParticleEmitter\\x00\\x04\\x10\\x00\\x00\\x00SetOriginOffset\\x00\\x03\\x00\\x00\\x00\\x00\\x00\\x00\\x1c@\\x04\\x08\\x00\\x00\\x00Vector3\\x00\\x04\\x04\\x00\\x00\\x00New\\x00\\x03\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x04\\x14\\x00\\x00\\x00SetParameterAtIndex\\x00\\x03\\x00\\x00\\x00\\x00\\x00\\x00\\x00@\\x04\\x08\\x00\\x00\\x00Program\\x00\\x04\\x05\\x00\\x00\\x00Wait\\x00\\x03{\\x14\\xaeG\\xe1z\\x94?\\x00\\x00\\x00\\x00.\\x00\\x00\\x00\\x01\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x07\\x00\\x00\\x00\\x07\\x00\\x00\\x00\\x07\\x00\\x00\\x00\\x07\\x00\\x00\\x00\\x08\\x00\\x00\\x00\\x08\\x00\\x00\\x00\\x08\\x00\\x00\\x00\\x08\\x00\\x00\\x00\\x08\\x00\\x00\\x00\\x08\\x00\\x00\\x00\\x08\\x00\\x00\\x00\\t\\x00\\x00\\x00\\t\\x00\\x00\\x00\\t\\x00\\x00\\x00\\x0b\\x00\\x00\\x00\\x0b\\x00\\x00\\x00\\x0b\\x00\\x00\\x00\\x0b\\x00\\x00\\x00\\x0b\\x00\\x00\\x00\\x0b\\x00\\x00\\x00\\x0b\\x00\\x00\\x00\\x0b\\x00\\x00\\x00\\x0b\\x00\\x00\\x00\\x0b\\x00\\x00\\x00\\x0b\\x00\\x00\\x00\\x0c\\x00\\x00\\x00\\x0c\\x00\\x00\\x00\\x0c\\x00\\x00\\x00\\x0c\\x00\\x00\\x00\\x0c\\x00\\x00\\x00\\x0c\\x00\\x00\\x00\\x0c\\x00\\x00\\x00\\x0e\\x00\\x00\\x00\\x0e\\x00\\x00\\x00\\x0e\\x00\\x00\\x00\\x0e\\x00\\x00\\x00\\x0e\\x00\\x00\\x00\\x10\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x05\\x00\\x00\\x00self\\x00\\x01\\x00\\x00\\x00-\\x00\\x00\\x00\\x07\\x00\\x00\\x00caster\\x00\\x05\\x00\\x00\\x00-\\x00\\x00\\x00\\x06\\x00\\x00\\x00delta\\x00\\x13\\x00\\x00\\x00,\\x00\\x00\\x00\\t\\x00\\x00\\x00distance\\x00\\x16\\x00\\x00\\x00,\\x00\\x00\\x00\\x00\\x00\\x00\\x00",
+				},
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "PhysicsObject",
+			"number" : 113,
+
+			"physics objectsub-sub-sub-block " :  {
+
+				"u0" : 1,
+				"u2" : 0.0,
+				"u3" : 1500.0,
+				"u4" : 0.0,
+				"u5" : 2000.0,
+				"u6" : 0,
+				"u7" : 0.0,
+			},
+		},
+
+		"positionsub-sub-block " :  {
+
+			"x position" : 0.0,
+			"y position" : 0.0,
+		},
+		"z position" : 0.0,
+		"rotation" : 0.0,
+		"scale" : 1.0,
+
+		"u0sub-sub-block " :  {
+
+			"w" : -400.0,
+			"x" : -50.0,
+			"y" : 450.0,
+			"z" : 100.0,
+		},
+		"hidden" : 0,
+	},
+	"u0" : 1.0,
+},
+
+"?itemblock " :  {
+
+
+	"?sub-itemsub-block " :  {
+
+		"name" : "magic_hookshot_ice",
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "SimpleGlow",
+			"number" : 1,
+
+			"simple glowsub-sub-sub-block " :  {
+
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"w" : 0.18888890743255615,
+					"x" : 0.9866664409637451,
+					"y" : 1.0,
+					"z" : 0.5,
+				},
+				"u1" : 25.0,
+				"u2" : 20,
+				"u3" : 15.0,
+				"u4" : 0.15000000596046448,
+				"u5" : 0.800000011920929,
+
+				"u6sub-sub-sub-sub-block " :  {
+
+					"y" : 0.0,
+					"z" : 0.0,
+				},
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "CollisionShape",
+			"number" : 2,
+
+			"collision shapesub-sub-sub-block " :  {
+
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"w" : -8.0,
+					"x" : -8.0,
+					"y" : 16.0,
+					"z" : 16.0,
+				},
+			},
+
+			"collision shape 2sub-sub-sub-block " :  {
+
+				"u1" : 1,
+				"u3" : 1,
+				"w" : -15.0,
+				"x" : 15.0,
+				"z" : 1,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "CollisionShape",
+			"number" : 3,
+
+			"collision shapesub-sub-sub-block " :  {
+
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"w" : -400.0,
+					"x" : -5.0,
+					"y" : 400.0,
+					"z" : 10.0,
+				},
+			},
+
+			"collision shape 2sub-sub-sub-block " :  {
+
+				"w" : -15.0,
+				"x" : 15.0,
+				"z" : 1,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Damage",
+			"number" : 4,
+
+			"damagesub-sub-sub-block " :  {
+
+				"u0" : 2,
+				"u1" : 1,
+				"u2" : 0,
+				"u5" : 1.0,
+				"u6" : 0.0,
+				"u7" : 0,
+				"u8" : 1,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "SoundEffect",
+			"number" : 5,
+
+			"sound effectsub-sub-sub-block " :  {
+
+				"sound" : "hookshot_hit1",
+				"u0" : 0.0,
+				"u1" : 1.0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Light",
+			"number" : 6,
+
+			"lightsub-sub-sub-block " :  {
+
+				"u0" : 3,
+				"u1" : 2.0,
+
+				"u2sub-sub-sub-sub-block " :  {
+
+					"w" : 0.6000000238418579,
+					"x" : 0.9790476560592651,
+					"y" : 1.0,
+					"z" : 1.0,
+				},
+				"u3" : 0.0,
+				"u4" : 0.00019999999494757503,
+
+				"u5sub-sub-sub-sub-block " :  {
+
+					"x" : 0.0,
+					"y" : 0.0,
+					"z" : 0.0,
+				},
+				"u6" : 250.0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "SoundEffect",
+			"number" : 7,
+
+			"sound effectsub-sub-sub-block " :  {
+
+				"sound" : "hookshot_cast",
+				"u0" : 0.0,
+				"u1" : 1.0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "ParticleEmitter",
+			"number" : 102,
+			"name" : "bolt1",
+
+			"particle emittersub-sub-sub-block " :  {
+
+				"particle" : 103,
+				"particle" : 104,
+				"particle" : 105,
+				"u1" : 0,
+				"u2" : 200,
+				"u3" : 0,
+				"u4" : 0,
+
+				"u5sub-sub-sub-sub-block " :  {
+
+					"u0" : 3,
+
+					"u1sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 0.3888888955116272,
+						"x" : 0.3888888955116272,
+						"y" : 0.3888888955116272,
+						"z" : 0.0,
+					},
+					"u2" : 0.014999999664723873,
+					"u2" : 0.15000000596046448,
+					"u2" : 0.8999999761581421,
+					"u2" : 15.0,
+					"u2" : 0.6000000238418579,
+					"u2" : 0.0,
+					"u2" : 1.0,
+					"u3" : 0.0,
+					"u4" : 0.0,
+					"u5" : 0.0,
+
+					"u6sub-sub-sub-sub-sub-block " :  {
+
+						"u0" : 0.0,
+						"u1" : 0.0,
+						"u2" : 0.0,
+					},
+				},
+				"u6" : 1,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Particle",
+			"number" : 103,
+
+			"particlesub-sub-sub-block " :  {
+
+				"name" : "particle_fure_1",
+				"u0" : 40.0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Particle",
+			"number" : 104,
+
+			"particlesub-sub-sub-block " :  {
+
+				"name" : "particle_fure_2",
+				"u0" : 40.0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Particle",
+			"number" : 105,
+
+			"particlesub-sub-sub-block " :  {
+
+				"name" : "particle_fure_3",
+				"u0" : 40.0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "ParticleEmitter",
+			"number" : 109,
+			"name" : "bolt2",
+
+			"particle emittersub-sub-sub-block " :  {
+
+				"particle" : 103,
+				"particle" : 104,
+				"particle" : 105,
+				"u1" : 0,
+				"u2" : 30,
+				"u3" : 102,
+				"u4" : 0,
+
+				"u5sub-sub-sub-sub-block " :  {
+
+					"u0" : 3,
+
+					"u1sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 0.0,
+						"x" : 0.9777777791023254,
+						"y" : 0.9777770638465881,
+						"z" : 0.0,
+					},
+					"u2" : 0.014999999664723873,
+					"u2" : 0.0020000000949949026,
+					"u2" : 0.4000000059604645,
+					"u2" : 7.0,
+					"u2" : 1.0,
+					"u2" : 0.0,
+					"u2" : 1.0,
+					"u3" : 0.0,
+					"u4" : 0.0,
+					"u5" : 0.0,
+
+					"u6sub-sub-sub-sub-sub-block " :  {
+
+						"u0" : 0.0,
+						"u1" : 0.0,
+						"u2" : 0.0,
+					},
+				},
+				"u6" : 1,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "MagicHookshot",
+			"number" : 112,
+
+			"magic hookshotsub-sub-sub-block " :  {
+
+				"particle emitter component" : 102,
+				"u0" : 7,
+				"u1" : 5,
+
+				"u2sub-sub-sub-sub-block " :  {
+
+					"w" : 0.0066727399826049805,
+					"x" : 0.4917716383934021,
+					"y" : 0.4867079257965088,
+					"z" : 0.0,
+				},
+				"u3" : 0,
+			},
+
+			"temp0sub-sub-sub-block " :  {
+
+
+				"lua chunksub-sub-sub-sub-block " :  {
+
+					"main chunk" : "chunk >
+
+					=== lua =============
+					local self = ...;
+					
+					local caster = Spell.CasterObject(self);
+					
+					if false and caster ~= nil then
+					
+						while self:isAlive() do 
+							local delta = self:position() - Spell.CastPoint(self);
+							local distance = delta:length() - 50;
+					
+							ParticleEmitter.SetOriginOffset(self, 7, Vector3.New(-distance, 0, 0));
+							ParticleEmitter.SetParameterAtIndex(self, 7, 2, distance);
+					
+							Program.Wait(0.02);
+						end
+					end
+
+					=====================",
+					"secondary chunk" : "\\x1bLuaQ\\x00\\x01\\x04\\x04\\x04\\x08\\x00\\x90\\x01\\x00\\x00local self = ...;\\r\\n\\r\\nlocal caster = Spell.CasterObject(self);\\r\\n\\r\\nif false and caster ~= nil then\\r\\n\\r\\n\\twhile self:isAlive() do \\r\\n\\t\\tlocal delta = self:position() - Spell.CastPoint(self);\\r\\n\\t\\tlocal distance = delta:length() - 50;\\r\\n\\r\\n\\t\\tParticleEmitter.SetOriginOffset(self, 7, Vector3.New(-distance, 0, 0));\\r\\n\\t\\tParticleEmitter.SetParameterAtIndex(self, 7, 2, distance);\\r\\n\\r\\n\\t\\tProgram.Wait(0.02);\\r\\n\\tend\\r\\nend\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x02\\x0b.\\x00\\x00\\x00%\\x00\\x00\\x01E\\x00\\x00\\x00F@\\xc0\\x00\\x80\\x00\\x00\\x00\\\\\\x80\\x00\\x01\\x16\\x80\\t\\x80W\\x80\\xc0\\x00\\x16\\x00\\t\\x80\\x8b\\xc0@\\x00\\x9c\\x80\\x00\\x01\\x9a\\x00\\x00\\x00\\x16\\x00\\x08\\x80\\x8b\\x00A\\x00\\x9c\\x80\\x00\\x01\\xc5\\x00\\x00\\x00\\xc6@\\xc1\\x01\\x00\\x01\\x00\\x00\\xdc\\x80\\x00\\x01\\x8d\\xc0\\x00\\x01\\xcb\\x80A\\x01\\xdc\\x80\\x00\\x01\\xcd\\xc0\\xc1\\x01\\x05\\x01\\x02\\x00\\x06AB\\x02@\\x01\\x00\\x00\\x81\\x81\\x02\\x00\\xc5\\xc1\\x02\\x00\\xc6\\x01\\xc3\\x03\\x12\\x02\\x80\\x01AB\\x03\\x00\\x81B\\x03\\x00\\xdc\\x01\\x00\\x02\\x1cA\\x00\\x00\\x05\\x01\\x02\\x00\\x06\\x81C\\x02@\\x01\\x00\\x00\\x81\\x81\\x02\\x00\\xc1\\xc1\\x03\\x00\\x00\\x02\\x80\\x01\\x1cA\\x80\\x02\\x05\\x01\\x04\\x00\\x06AD\\x02A\\x81\\x04\\x00\\x1cA\\x00\\x01\\x16\\x80\\xf6\\x7f\\x1e\\x00\\x80\\x00\\x13\\x00\\x00\\x00\\x04\\x06\\x00\\x00\\x00Spell\\x00\\x04\\r\\x00\\x00\\x00CasterObject\\x00\\x00\\x04\\x08\\x00\\x00\\x00isAlive\\x00\\x04\\t\\x00\\x00\\x00position\\x00\\x04\\n\\x00\\x00\\x00CastPoint\\x00\\x04\\x07\\x00\\x00\\x00length\\x00\\x03\\x00\\x00\\x00\\x00\\x00\\x00I@\\x04\\x10\\x00\\x00\\x00ParticleEmitter\\x00\\x04\\x10\\x00\\x00\\x00SetOriginOffset\\x00\\x03\\x00\\x00\\x00\\x00\\x00\\x00\\x1c@\\x04\\x08\\x00\\x00\\x00Vector3\\x00\\x04\\x04\\x00\\x00\\x00New\\x00\\x03\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x04\\x14\\x00\\x00\\x00SetParameterAtIndex\\x00\\x03\\x00\\x00\\x00\\x00\\x00\\x00\\x00@\\x04\\x08\\x00\\x00\\x00Program\\x00\\x04\\x05\\x00\\x00\\x00Wait\\x00\\x03{\\x14\\xaeG\\xe1z\\x94?\\x00\\x00\\x00\\x00.\\x00\\x00\\x00\\x01\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x07\\x00\\x00\\x00\\x07\\x00\\x00\\x00\\x07\\x00\\x00\\x00\\x07\\x00\\x00\\x00\\x08\\x00\\x00\\x00\\x08\\x00\\x00\\x00\\x08\\x00\\x00\\x00\\x08\\x00\\x00\\x00\\x08\\x00\\x00\\x00\\x08\\x00\\x00\\x00\\x08\\x00\\x00\\x00\\t\\x00\\x00\\x00\\t\\x00\\x00\\x00\\t\\x00\\x00\\x00\\x0b\\x00\\x00\\x00\\x0b\\x00\\x00\\x00\\x0b\\x00\\x00\\x00\\x0b\\x00\\x00\\x00\\x0b\\x00\\x00\\x00\\x0b\\x00\\x00\\x00\\x0b\\x00\\x00\\x00\\x0b\\x00\\x00\\x00\\x0b\\x00\\x00\\x00\\x0b\\x00\\x00\\x00\\x0b\\x00\\x00\\x00\\x0c\\x00\\x00\\x00\\x0c\\x00\\x00\\x00\\x0c\\x00\\x00\\x00\\x0c\\x00\\x00\\x00\\x0c\\x00\\x00\\x00\\x0c\\x00\\x00\\x00\\x0c\\x00\\x00\\x00\\x0e\\x00\\x00\\x00\\x0e\\x00\\x00\\x00\\x0e\\x00\\x00\\x00\\x0e\\x00\\x00\\x00\\x0e\\x00\\x00\\x00\\x10\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x05\\x00\\x00\\x00self\\x00\\x01\\x00\\x00\\x00-\\x00\\x00\\x00\\x07\\x00\\x00\\x00caster\\x00\\x05\\x00\\x00\\x00-\\x00\\x00\\x00\\x06\\x00\\x00\\x00delta\\x00\\x13\\x00\\x00\\x00,\\x00\\x00\\x00\\t\\x00\\x00\\x00distance\\x00\\x16\\x00\\x00\\x00,\\x00\\x00\\x00\\x00\\x00\\x00\\x00",
+				},
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "PhysicsObject",
+			"number" : 113,
+
+			"physics objectsub-sub-sub-block " :  {
+
+				"u0" : 1,
+				"u2" : 0.0,
+				"u3" : 1500.0,
+				"u4" : 0.0,
+				"u5" : 2000.0,
+				"u6" : 0,
+				"u7" : 0.0,
+			},
+		},
+
+		"positionsub-sub-block " :  {
+
+			"x position" : 0.0,
+			"y position" : 0.0,
+		},
+		"z position" : 0.0,
+		"rotation" : 0.0,
+		"scale" : 1.0,
+
+		"u0sub-sub-block " :  {
+
+			"w" : -400.0,
+			"x" : -50.0,
+			"y" : 450.0,
+			"z" : 100.0,
+		},
+		"hidden" : 0,
+	},
+	"u0" : 1.0,
+},
+
+"?itemblock " :  {
+
+
+	"?sub-itemsub-block " :  {
+
+		"name" : "magic_hookshot_old",
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "SimpleGlow",
+			"number" : 1,
+
+			"simple glowsub-sub-sub-block " :  {
+
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"w" : 0.18888889253139496,
+					"x" : 0.5,
+					"y" : 1.0,
+					"z" : 0.5,
+				},
+				"u1" : 20.0,
+				"u2" : 10,
+				"u3" : 15.0,
+				"u4" : 0.15000000596046448,
+				"u5" : 0.800000011920929,
+
+				"u6sub-sub-sub-sub-block " :  {
+
+					"y" : 0.0,
+					"z" : 0.0,
+				},
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "CollisionShape",
+			"number" : 2,
+
+			"collision shapesub-sub-sub-block " :  {
+
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"w" : -8.0,
+					"x" : -8.0,
+					"y" : 16.0,
+					"z" : 16.0,
+				},
+			},
+
+			"collision shape 2sub-sub-sub-block " :  {
+
+				"u3" : 1,
+				"w" : -15.0,
+				"x" : 15.0,
+				"z" : 1,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "CollisionShape",
+			"number" : 3,
+
+			"collision shapesub-sub-sub-block " :  {
+
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"w" : -400.0,
+					"x" : -5.0,
+					"y" : 400.0,
+					"z" : 10.0,
+				},
+			},
+
+			"collision shape 2sub-sub-sub-block " :  {
+
+				"w" : -15.0,
+				"x" : 15.0,
+				"z" : 1,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Damage",
+			"number" : 4,
+
+			"damagesub-sub-sub-block " :  {
+
+				"u0" : 2,
+				"u1" : 1,
+				"u2" : 0,
+				"u5" : 1.0,
+				"u6" : 0.0,
+				"u7" : 0,
+				"u8" : 1,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "SoundEffect",
+			"number" : 5,
+
+			"sound effectsub-sub-sub-block " :  {
+
+				"sound" : "sword_impact3",
+				"u0" : 0.0,
+				"u1" : 1.0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Light",
+			"number" : 6,
+
+			"lightsub-sub-sub-block " :  {
+
+				"u0" : 3,
+				"u1" : 10.0,
+
+				"u2sub-sub-sub-sub-block " :  {
+
+					"w" : 0.6000000238418579,
+					"x" : 0.6857142448425293,
+					"y" : 1.0,
+					"z" : 1.0,
+				},
+				"u3" : 0.0,
+				"u4" : 0.00019999999494757503,
+
+				"u5sub-sub-sub-sub-block " :  {
+
+					"x" : 0.0,
+					"y" : 0.0,
+					"z" : 0.0,
+				},
+				"u6" : 250.0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "ParticleEmitter",
+			"number" : 7,
+			"name" : "trail1",
+
+			"particle emittersub-sub-sub-block " :  {
+
+				"particle" : 103,
+				"particle" : 104,
+				"particle" : 105,
+				"u1" : 0,
+				"u2" : 30,
+				"u3" : 102,
+				"u4" : 0,
+
+				"u5sub-sub-sub-sub-block " :  {
+
+					"u0" : 5,
+
+					"u1sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 0.0,
+						"x" : 0.3466666638851166,
+						"y" : 0.8666667342185974,
+						"z" : 0.0,
+					},
+					"u2" : 0.0,
+					"u2" : 2.0,
+					"u2" : 200.0,
+					"u2" : 0.0,
+					"u2" : 0.0,
+					"u2" : 400.0,
+					"u2" : 0.5,
+					"u2" : 0.0,
+					"u2" : 0.30000001192092896,
+					"u2" : 1.0,
+					"u2" : 1.0,
+					"u2" : 0.001500000013038516,
+					"u2" : 0.15000000596046448,
+					"u2" : 0.0,
+					"u2" : 0.10000000149011612,
+					"u3" : 0.0,
+					"u4" : 0.0,
+					"u5" : 0.10000000149011612,
+
+					"u6sub-sub-sub-sub-sub-block " :  {
+
+						"u0" : -240.0,
+						"u1" : 0.0,
+						"u2" : 0.0,
+					},
+				},
+				"u6" : 1,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "ParticleEmitter",
+			"number" : 8,
+			"name" : "trail2",
+
+			"particle emittersub-sub-sub-block " :  {
+
+				"particle" : 103,
+				"particle" : 104,
+				"particle" : 105,
+				"u1" : 0,
+				"u2" : 30,
+				"u3" : 102,
+				"u4" : 0,
+
+				"u5sub-sub-sub-sub-block " :  {
+
+					"u0" : 5,
+
+					"u1sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 0.022222280502319336,
+						"x" : 0.41333335638046265,
+						"y" : 1.0,
+						"z" : 0.0,
+					},
+					"u2" : 0.0,
+					"u2" : 10.0,
+					"u2" : 50.0,
+					"u2" : 0.0,
+					"u2" : 0.0,
+					"u2" : 400.0,
+					"u2" : 0.0,
+					"u2" : 0.0,
+					"u2" : 0.30000001192092896,
+					"u2" : 1.0,
+					"u2" : 1.0,
+					"u2" : 0.003000000026077032,
+					"u2" : 0.15000000596046448,
+					"u2" : 0.0,
+					"u2" : 0.0,
+					"u3" : 0.0,
+					"u4" : 0.0,
+					"u5" : 0.0,
+
+					"u6sub-sub-sub-sub-sub-block " :  {
+
+						"u0" : -80.0,
+						"u1" : 0.0,
+						"u2" : 0.0,
+					},
+				},
+				"u6" : 1,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "ParticleEmitter",
+			"number" : 102,
+			"name" : "bolt1",
+
+			"particle emittersub-sub-sub-block " :  {
+
+				"particle" : 103,
+				"particle" : 104,
+				"particle" : 105,
+				"u1" : 0,
+				"u2" : 200,
+				"u3" : 0,
+				"u4" : 0,
+
+				"u5sub-sub-sub-sub-block " :  {
+
+					"u0" : 3,
+
+					"u1sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 0.0,
+						"x" : 0.18888887763023376,
+						"y" : 0.4444444477558136,
+						"z" : 0.0,
+					},
+					"u2" : 0.014999999664723873,
+					"u2" : 0.15000000596046448,
+					"u2" : 0.699999988079071,
+					"u2" : 7.0,
+					"u2" : 0.6000000238418579,
+					"u2" : 0.0,
+					"u2" : 1.0,
+					"u3" : 0.0,
+					"u4" : 0.0,
+					"u5" : 0.0,
+
+					"u6sub-sub-sub-sub-sub-block " :  {
+
+						"u0" : 0.0,
+						"u1" : 0.0,
+						"u2" : 0.0,
+					},
+				},
+				"u6" : 1,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Particle",
+			"number" : 103,
+
+			"particlesub-sub-sub-block " :  {
+
+				"name" : "particle_fure_1",
+				"u0" : 40.0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Particle",
+			"number" : 104,
+
+			"particlesub-sub-sub-block " :  {
+
+				"name" : "particle_fure_2",
+				"u0" : 40.0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Particle",
+			"number" : 105,
+
+			"particlesub-sub-sub-block " :  {
+
+				"name" : "particle_fure_3",
+				"u0" : 40.0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "ParticleEmitter",
+			"number" : 109,
+			"name" : "bolt2",
+
+			"particle emittersub-sub-sub-block " :  {
+
+				"particle" : 103,
+				"particle" : 104,
+				"particle" : 105,
+				"u1" : 0,
+				"u2" : 30,
+				"u3" : 102,
+				"u4" : 0,
+
+				"u5sub-sub-sub-sub-block " :  {
+
+					"u0" : 3,
+
+					"u1sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 0.35555556416511536,
+						"x" : 0.35555556416511536,
+						"y" : 0.35555556416511536,
+						"z" : 0.0,
+					},
+					"u2" : 0.014999999664723873,
+					"u2" : 0.15000000596046448,
+					"u2" : 0.4000000059604645,
+					"u2" : 7.0,
+					"u2" : 1.0,
+					"u2" : 0.0,
+					"u2" : 1.0,
+					"u3" : 0.0,
+					"u4" : 0.0,
+					"u5" : 0.0,
+
+					"u6sub-sub-sub-sub-sub-block " :  {
+
+						"u0" : 0.0,
+						"u1" : 0.0,
+						"u2" : 0.0,
+					},
+				},
+				"u6" : 1,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "MagicHookshot",
+			"number" : 112,
+
+			"magic hookshotsub-sub-sub-block " :  {
+
+				"particle emitter component" : 102,
+				"u0" : 0,
+				"u1" : 5,
+
+				"u2sub-sub-sub-sub-block " :  {
+
+					"w" : 0.05400000140070915,
+					"x" : 0.20000000298023224,
+					"y" : 0.4000000059604645,
+					"z" : 0.0,
+				},
+				"u3" : 0,
+			},
+
+			"temp0sub-sub-sub-block " :  {
+
+
+				"lua chunksub-sub-sub-sub-block " :  {
+
+					"main chunk" : "chunk >
+
+					=== lua =============
+					local self = ...;
+					
+					local caster = Spell.CasterObject(self);
+					
+					if caster ~= nil then
+					
+						while self:isAlive() do 
+							local delta = self:position() - caster:position();
+							local distance = delta:length();
+					
+							local shortDistance = distance;
+							if shortDistance > 50 then shortDistance = 50; end
+					
+							ParticleEmitter.SetOriginOffset(self, 7, Vector3.New(-distance, 0, 0));
+							ParticleEmitter.SetParameterAtIndex(self, 7, 2, distance - 40);
+					
+							ParticleEmitter.SetOriginOffset(self, 8, Vector3.New(-shortDistance, 0, 0));
+							ParticleEmitter.SetParameterAtIndex(self, 8, 2, shortDistance - 30);
+					
+						
+					
+							Program.Wait(0.02);
+						end
+					end
+
+					=====================",
+					"secondary chunk" : "\\x1bLuaQ\\x00\\x01\\x04\\x04\\x04\\x08\\x00|\\x02\\x00\\x00local self = ...;\\r\\n\\r\\nlocal caster = Spell.CasterObject(self);\\r\\n\\r\\nif caster ~= nil then\\r\\n\\r\\n\\twhile self:isAlive() do \\r\\n\\t\\tlocal delta = self:position() - caster:position();\\r\\n\\t\\tlocal distance = delta:length();\\r\\n\\r\\n\\t\\tlocal shortDistance = distance;\\r\\n\\t\\tif shortDistance > 50 then shortDistance = 50; end\\r\\n\\r\\n\\t\\tParticleEmitter.SetOriginOffset(self, 7, Vector3.New(-distance, 0, 0));\\r\\n\\t\\tParticleEmitter.SetParameterAtIndex(self, 7, 2, distance - 40);\\r\\n\\r\\n\\t\\tParticleEmitter.SetOriginOffset(self, 8, Vector3.New(-shortDistance, 0, 0));\\r\\n\\t\\tParticleEmitter.SetParameterAtIndex(self, 8, 2, shortDistance - 30);\\r\\n\\r\\n\\t\\r\\n\\r\\n\\t\\tProgram.Wait(0.02);\\r\\n\\tend\\r\\nend\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x02\\x0c@\\x00\\x00\\x00%\\x00\\x00\\x01E\\x00\\x00\\x00F@\\xc0\\x00\\x80\\x00\\x00\\x00\\\\\\x80\\x00\\x01W\\x80\\xc0\\x00\\x16\\xc0\\r\\x80\\x8b\\xc0@\\x00\\x9c\\x80\\x00\\x01\\x9a\\x00\\x00\\x00\\x16\\xc0\\x0c\\x80\\x8b\\x00A\\x00\\x9c\\x80\\x00\\x01\\xcb\\x00\\xc1\\x00\\xdc\\x80\\x00\\x01\\x8d\\xc0\\x00\\x01\\xcb@A\\x01\\xdc\\x80\\x00\\x01\\x00\\x01\\x80\\x01\\x18\\x00\\x01\\x83\\x16\\x00\\x00\\x80\\x01\\x81\\x01\\x00E\\xc1\\x01\\x00F\\x01\\xc2\\x02\\x80\\x01\\x00\\x00\\xc1A\\x02\\x00\\x05\\x82\\x02\\x00\\x06\\xc2B\\x04R\\x02\\x80\\x01\\x81\\x02\\x03\\x00\\xc1\\x02\\x03\\x00\\x1c\\x02\\x00\\x02\\\\A\\x00\\x00E\\xc1\\x01\\x00FA\\xc3\\x02\\x80\\x01\\x00\\x00\\xc1A\\x02\\x00\\x01\\x82\\x03\\x00M\\xc2\\xc3\\x01\\\\A\\x80\\x02E\\xc1\\x01\\x00F\\x01\\xc2\\x02\\x80\\x01\\x00\\x00\\xc1\\x01\\x04\\x00\\x05\\x82\\x02\\x00\\x06\\xc2B\\x04R\\x02\\x00\\x02\\x81\\x02\\x03\\x00\\xc1\\x02\\x03\\x00\\x1c\\x02\\x00\\x02\\\\A\\x00\\x00E\\xc1\\x01\\x00FA\\xc3\\x02\\x80\\x01\\x00\\x00\\xc1\\x01\\x04\\x00\\x01\\x82\\x03\\x00MBD\\x02\\\\A\\x80\\x02E\\x81\\x04\\x00F\\xc1\\xc4\\x02\\x81\\x01\\x05\\x00\\\\A\\x00\\x01\\x16\\xc0\\xf1\\x7f\\x1e\\x00\\x80\\x00\\x15\\x00\\x00\\x00\\x04\\x06\\x00\\x00\\x00Spell\\x00\\x04\\r\\x00\\x00\\x00CasterObject\\x00\\x00\\x04\\x08\\x00\\x00\\x00isAlive\\x00\\x04\\t\\x00\\x00\\x00position\\x00\\x04\\x07\\x00\\x00\\x00length\\x00\\x03\\x00\\x00\\x00\\x00\\x00\\x00I@\\x04\\x10\\x00\\x00\\x00ParticleEmitter\\x00\\x04\\x10\\x00\\x00\\x00SetOriginOffset\\x00\\x03\\x00\\x00\\x00\\x00\\x00\\x00\\x1c@\\x04\\x08\\x00\\x00\\x00Vector3\\x00\\x04\\x04\\x00\\x00\\x00New\\x00\\x03\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x04\\x14\\x00\\x00\\x00SetParameterAtIndex\\x00\\x03\\x00\\x00\\x00\\x00\\x00\\x00\\x00@\\x03\\x00\\x00\\x00\\x00\\x00\\x00D@\\x03\\x00\\x00\\x00\\x00\\x00\\x00 @\\x03\\x00\\x00\\x00\\x00\\x00\\x00>@\\x04\\x08\\x00\\x00\\x00Program\\x00\\x04\\x05\\x00\\x00\\x00Wait\\x00\\x03{\\x14\\xaeG\\xe1z\\x94?\\x00\\x00\\x00\\x00@\\x00\\x00\\x00\\x01\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x07\\x00\\x00\\x00\\x07\\x00\\x00\\x00\\x07\\x00\\x00\\x00\\x07\\x00\\x00\\x00\\x08\\x00\\x00\\x00\\x08\\x00\\x00\\x00\\x08\\x00\\x00\\x00\\x08\\x00\\x00\\x00\\x08\\x00\\x00\\x00\\t\\x00\\x00\\x00\\t\\x00\\x00\\x00\\x0b\\x00\\x00\\x00\\x0c\\x00\\x00\\x00\\x0c\\x00\\x00\\x00\\x0c\\x00\\x00\\x00\\x0e\\x00\\x00\\x00\\x0e\\x00\\x00\\x00\\x0e\\x00\\x00\\x00\\x0e\\x00\\x00\\x00\\x0e\\x00\\x00\\x00\\x0e\\x00\\x00\\x00\\x0e\\x00\\x00\\x00\\x0e\\x00\\x00\\x00\\x0e\\x00\\x00\\x00\\x0e\\x00\\x00\\x00\\x0e\\x00\\x00\\x00\\x0f\\x00\\x00\\x00\\x0f\\x00\\x00\\x00\\x0f\\x00\\x00\\x00\\x0f\\x00\\x00\\x00\\x0f\\x00\\x00\\x00\\x0f\\x00\\x00\\x00\\x0f\\x00\\x00\\x00\\x11\\x00\\x00\\x00\\x11\\x00\\x00\\x00\\x11\\x00\\x00\\x00\\x11\\x00\\x00\\x00\\x11\\x00\\x00\\x00\\x11\\x00\\x00\\x00\\x11\\x00\\x00\\x00\\x11\\x00\\x00\\x00\\x11\\x00\\x00\\x00\\x11\\x00\\x00\\x00\\x11\\x00\\x00\\x00\\x12\\x00\\x00\\x00\\x12\\x00\\x00\\x00\\x12\\x00\\x00\\x00\\x12\\x00\\x00\\x00\\x12\\x00\\x00\\x00\\x12\\x00\\x00\\x00\\x12\\x00\\x00\\x00\\x16\\x00\\x00\\x00\\x16\\x00\\x00\\x00\\x16\\x00\\x00\\x00\\x16\\x00\\x00\\x00\\x16\\x00\\x00\\x00\\x18\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x05\\x00\\x00\\x00self\\x00\\x01\\x00\\x00\\x00?\\x00\\x00\\x00\\x07\\x00\\x00\\x00caster\\x00\\x05\\x00\\x00\\x00?\\x00\\x00\\x00\\x06\\x00\\x00\\x00delta\\x00\\x10\\x00\\x00\\x00>\\x00\\x00\\x00\\t\\x00\\x00\\x00distance\\x00\\x12\\x00\\x00\\x00>\\x00\\x00\\x00\\x0e\\x00\\x00\\x00shortDistance\\x00\\x13\\x00\\x00\\x00>\\x00\\x00\\x00\\x00\\x00\\x00\\x00",
+				},
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "PhysicsObject",
+			"number" : 113,
+
+			"physics objectsub-sub-sub-block " :  {
+
+				"u0" : 1,
+				"u2" : 0.0,
+				"u3" : 1500.0,
+				"u4" : 0.0,
+				"u5" : 2000.0,
+				"u6" : 0,
+				"u7" : 0.0,
+			},
+		},
+
+		"positionsub-sub-block " :  {
+
+			"x position" : 0.0,
+			"y position" : 0.0,
+		},
+		"z position" : 0.0,
+		"rotation" : 0.0,
+		"scale" : 1.0,
+
+		"u0sub-sub-block " :  {
+
+			"w" : -400.0,
+			"x" : -50.0,
+			"y" : 450.0,
+			"z" : 100.0,
+		},
+		"hidden" : 0,
+	},
+	"u0" : 1.0,
+},
+
+"?itemblock " :  {
+
+
+	"?sub-itemsub-block " :  {
+
+		"name" : "magic_hookshot_shadow",
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "SimpleGlow",
+			"number" : 1,
+
+			"simple glowsub-sub-sub-block " :  {
+
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"w" : 0.3644446134567261,
+					"x" : 0.18888890743255615,
+					"y" : 1.0,
+					"z" : 0.5,
+				},
+				"u1" : 25.0,
+				"u2" : 20,
+				"u3" : 15.0,
+				"u4" : 0.15000000596046448,
+				"u5" : 0.800000011920929,
+
+				"u6sub-sub-sub-sub-block " :  {
+
+					"y" : 0.0,
+					"z" : 0.0,
+				},
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "CollisionShape",
+			"number" : 2,
+
+			"collision shapesub-sub-sub-block " :  {
+
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"w" : -8.0,
+					"x" : -8.0,
+					"y" : 16.0,
+					"z" : 16.0,
+				},
+			},
+
+			"collision shape 2sub-sub-sub-block " :  {
+
+				"u1" : 1,
+				"u3" : 1,
+				"w" : -15.0,
+				"x" : 15.0,
+				"z" : 1,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "CollisionShape",
+			"number" : 3,
+
+			"collision shapesub-sub-sub-block " :  {
+
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"w" : -400.0,
+					"x" : -5.0,
+					"y" : 400.0,
+					"z" : 10.0,
+				},
+			},
+
+			"collision shape 2sub-sub-sub-block " :  {
+
+				"w" : -15.0,
+				"x" : 15.0,
+				"z" : 1,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Damage",
+			"number" : 4,
+
+			"damagesub-sub-sub-block " :  {
+
+				"u0" : 2,
+				"u1" : 1,
+				"u2" : 0,
+				"u5" : 1.0,
+				"u6" : 0.0,
+				"u7" : 0,
+				"u8" : 1,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "SoundEffect",
+			"number" : 5,
+
+			"sound effectsub-sub-sub-block " :  {
+
+				"sound" : "hookshot_hit1",
+				"u0" : 0.0,
+				"u1" : 1.0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Light",
+			"number" : 6,
+
+			"lightsub-sub-sub-block " :  {
+
+				"u0" : 3,
+				"u1" : 2.0,
+
+				"u2sub-sub-sub-sub-block " :  {
+
+					"w" : 0.674285888671875,
+					"x" : 0.6000000238418579,
+					"y" : 1.0,
+					"z" : 1.0,
+				},
+				"u3" : 0.0,
+				"u4" : 0.00019999999494757503,
+
+				"u5sub-sub-sub-sub-block " :  {
+
+					"x" : 0.0,
+					"y" : 0.0,
+					"z" : 0.0,
+				},
+				"u6" : 250.0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "SoundEffect",
+			"number" : 7,
+
+			"sound effectsub-sub-sub-block " :  {
+
+				"sound" : "hookshot_cast",
+				"u0" : 0.0,
+				"u1" : 1.0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "ParticleEmitter",
+			"number" : 102,
+			"name" : "bolt1",
+
+			"particle emittersub-sub-sub-block " :  {
+
+				"particle" : 103,
+				"particle" : 104,
+				"particle" : 105,
+				"u1" : 0,
+				"u2" : 200,
+				"u3" : 0,
+				"u4" : 0,
+
+				"u5sub-sub-sub-sub-block " :  {
+
+					"u0" : 3,
+
+					"u1sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 0.3888888955116272,
+						"x" : 0.3888888955116272,
+						"y" : 0.3888888955116272,
+						"z" : 0.0,
+					},
+					"u2" : 0.014999999664723873,
+					"u2" : 0.15000000596046448,
+					"u2" : 0.8999999761581421,
+					"u2" : 15.0,
+					"u2" : 0.6000000238418579,
+					"u2" : 0.0,
+					"u2" : 1.0,
+					"u3" : 0.0,
+					"u4" : 0.0,
+					"u5" : 0.0,
+
+					"u6sub-sub-sub-sub-sub-block " :  {
+
+						"u0" : 0.0,
+						"u1" : 0.0,
+						"u2" : 0.0,
+					},
+				},
+				"u6" : 1,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Particle",
+			"number" : 103,
+
+			"particlesub-sub-sub-block " :  {
+
+				"name" : "particle_fure_1",
+				"u0" : 40.0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Particle",
+			"number" : 104,
+
+			"particlesub-sub-sub-block " :  {
+
+				"name" : "particle_fure_2",
+				"u0" : 40.0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Particle",
+			"number" : 105,
+
+			"particlesub-sub-sub-block " :  {
+
+				"name" : "particle_fure_3",
+				"u0" : 40.0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "ParticleEmitter",
+			"number" : 109,
+			"name" : "bolt2",
+
+			"particle emittersub-sub-sub-block " :  {
+
+				"particle" : 103,
+				"particle" : 104,
+				"particle" : 105,
+				"u1" : 0,
+				"u2" : 30,
+				"u3" : 102,
+				"u4" : 0,
+
+				"u5sub-sub-sub-sub-block " :  {
+
+					"u0" : 3,
+
+					"u1sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 0.466666579246521,
+						"x" : 0.3333333730697632,
+						"y" : 1.0,
+						"z" : 0.0,
+					},
+					"u2" : 0.014999999664723873,
+					"u2" : 0.0020000000949949026,
+					"u2" : 0.4000000059604645,
+					"u2" : 7.0,
+					"u2" : 1.0,
+					"u2" : 0.0,
+					"u2" : 1.0,
+					"u3" : 0.0,
+					"u4" : 0.0,
+					"u5" : 0.0,
+
+					"u6sub-sub-sub-sub-sub-block " :  {
+
+						"u0" : 0.0,
+						"u1" : 0.0,
+						"u2" : 0.0,
+					},
+				},
+				"u6" : 1,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "MagicHookshot",
+			"number" : 112,
+
+			"magic hookshotsub-sub-sub-block " :  {
+
+				"particle emitter component" : 102,
+				"u0" : 7,
+				"u1" : 5,
+
+				"u2sub-sub-sub-sub-block " :  {
+
+					"w" : 0.15204128623008728,
+					"x" : 0.0,
+					"y" : 0.8539999127388,
+					"z" : 0.0,
+				},
+				"u3" : 0,
+			},
+
+			"temp0sub-sub-sub-block " :  {
+
+
+				"lua chunksub-sub-sub-sub-block " :  {
+
+					"main chunk" : "chunk >
+
+					=== lua =============
+					local self = ...;
+					
+					local caster = Spell.CasterObject(self);
+					
+					if false and caster ~= nil then
+					
+						while self:isAlive() do 
+							local delta = self:position() - Spell.CastPoint(self);
+							local distance = delta:length() - 50;
+					
+							ParticleEmitter.SetOriginOffset(self, 7, Vector3.New(-distance, 0, 0));
+							ParticleEmitter.SetParameterAtIndex(self, 7, 2, distance);
+					
+							Program.Wait(0.02);
+						end
+					end
+
+					=====================",
+					"secondary chunk" : "\\x1bLuaQ\\x00\\x01\\x04\\x04\\x04\\x08\\x00\\x90\\x01\\x00\\x00local self = ...;\\r\\n\\r\\nlocal caster = Spell.CasterObject(self);\\r\\n\\r\\nif false and caster ~= nil then\\r\\n\\r\\n\\twhile self:isAlive() do \\r\\n\\t\\tlocal delta = self:position() - Spell.CastPoint(self);\\r\\n\\t\\tlocal distance = delta:length() - 50;\\r\\n\\r\\n\\t\\tParticleEmitter.SetOriginOffset(self, 7, Vector3.New(-distance, 0, 0));\\r\\n\\t\\tParticleEmitter.SetParameterAtIndex(self, 7, 2, distance);\\r\\n\\r\\n\\t\\tProgram.Wait(0.02);\\r\\n\\tend\\r\\nend\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x02\\x0b.\\x00\\x00\\x00%\\x00\\x00\\x01E\\x00\\x00\\x00F@\\xc0\\x00\\x80\\x00\\x00\\x00\\\\\\x80\\x00\\x01\\x16\\x80\\t\\x80W\\x80\\xc0\\x00\\x16\\x00\\t\\x80\\x8b\\xc0@\\x00\\x9c\\x80\\x00\\x01\\x9a\\x00\\x00\\x00\\x16\\x00\\x08\\x80\\x8b\\x00A\\x00\\x9c\\x80\\x00\\x01\\xc5\\x00\\x00\\x00\\xc6@\\xc1\\x01\\x00\\x01\\x00\\x00\\xdc\\x80\\x00\\x01\\x8d\\xc0\\x00\\x01\\xcb\\x80A\\x01\\xdc\\x80\\x00\\x01\\xcd\\xc0\\xc1\\x01\\x05\\x01\\x02\\x00\\x06AB\\x02@\\x01\\x00\\x00\\x81\\x81\\x02\\x00\\xc5\\xc1\\x02\\x00\\xc6\\x01\\xc3\\x03\\x12\\x02\\x80\\x01AB\\x03\\x00\\x81B\\x03\\x00\\xdc\\x01\\x00\\x02\\x1cA\\x00\\x00\\x05\\x01\\x02\\x00\\x06\\x81C\\x02@\\x01\\x00\\x00\\x81\\x81\\x02\\x00\\xc1\\xc1\\x03\\x00\\x00\\x02\\x80\\x01\\x1cA\\x80\\x02\\x05\\x01\\x04\\x00\\x06AD\\x02A\\x81\\x04\\x00\\x1cA\\x00\\x01\\x16\\x80\\xf6\\x7f\\x1e\\x00\\x80\\x00\\x13\\x00\\x00\\x00\\x04\\x06\\x00\\x00\\x00Spell\\x00\\x04\\r\\x00\\x00\\x00CasterObject\\x00\\x00\\x04\\x08\\x00\\x00\\x00isAlive\\x00\\x04\\t\\x00\\x00\\x00position\\x00\\x04\\n\\x00\\x00\\x00CastPoint\\x00\\x04\\x07\\x00\\x00\\x00length\\x00\\x03\\x00\\x00\\x00\\x00\\x00\\x00I@\\x04\\x10\\x00\\x00\\x00ParticleEmitter\\x00\\x04\\x10\\x00\\x00\\x00SetOriginOffset\\x00\\x03\\x00\\x00\\x00\\x00\\x00\\x00\\x1c@\\x04\\x08\\x00\\x00\\x00Vector3\\x00\\x04\\x04\\x00\\x00\\x00New\\x00\\x03\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x04\\x14\\x00\\x00\\x00SetParameterAtIndex\\x00\\x03\\x00\\x00\\x00\\x00\\x00\\x00\\x00@\\x04\\x08\\x00\\x00\\x00Program\\x00\\x04\\x05\\x00\\x00\\x00Wait\\x00\\x03{\\x14\\xaeG\\xe1z\\x94?\\x00\\x00\\x00\\x00.\\x00\\x00\\x00\\x01\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x07\\x00\\x00\\x00\\x07\\x00\\x00\\x00\\x07\\x00\\x00\\x00\\x07\\x00\\x00\\x00\\x08\\x00\\x00\\x00\\x08\\x00\\x00\\x00\\x08\\x00\\x00\\x00\\x08\\x00\\x00\\x00\\x08\\x00\\x00\\x00\\x08\\x00\\x00\\x00\\x08\\x00\\x00\\x00\\t\\x00\\x00\\x00\\t\\x00\\x00\\x00\\t\\x00\\x00\\x00\\x0b\\x00\\x00\\x00\\x0b\\x00\\x00\\x00\\x0b\\x00\\x00\\x00\\x0b\\x00\\x00\\x00\\x0b\\x00\\x00\\x00\\x0b\\x00\\x00\\x00\\x0b\\x00\\x00\\x00\\x0b\\x00\\x00\\x00\\x0b\\x00\\x00\\x00\\x0b\\x00\\x00\\x00\\x0b\\x00\\x00\\x00\\x0c\\x00\\x00\\x00\\x0c\\x00\\x00\\x00\\x0c\\x00\\x00\\x00\\x0c\\x00\\x00\\x00\\x0c\\x00\\x00\\x00\\x0c\\x00\\x00\\x00\\x0c\\x00\\x00\\x00\\x0e\\x00\\x00\\x00\\x0e\\x00\\x00\\x00\\x0e\\x00\\x00\\x00\\x0e\\x00\\x00\\x00\\x0e\\x00\\x00\\x00\\x10\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x05\\x00\\x00\\x00self\\x00\\x01\\x00\\x00\\x00-\\x00\\x00\\x00\\x07\\x00\\x00\\x00caster\\x00\\x05\\x00\\x00\\x00-\\x00\\x00\\x00\\x06\\x00\\x00\\x00delta\\x00\\x13\\x00\\x00\\x00,\\x00\\x00\\x00\\t\\x00\\x00\\x00distance\\x00\\x16\\x00\\x00\\x00,\\x00\\x00\\x00\\x00\\x00\\x00\\x00",
+				},
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "PhysicsObject",
+			"number" : 113,
+
+			"physics objectsub-sub-sub-block " :  {
+
+				"u0" : 1,
+				"u2" : 0.0,
+				"u3" : 1500.0,
+				"u4" : 0.0,
+				"u5" : 2000.0,
+				"u6" : 0,
+				"u7" : 0.0,
+			},
+		},
+
+		"positionsub-sub-block " :  {
+
+			"x position" : 0.0,
+			"y position" : 0.0,
+		},
+		"z position" : 0.0,
+		"rotation" : 0.0,
+		"scale" : 1.0,
+
+		"u0sub-sub-block " :  {
+
+			"w" : -400.0,
+			"x" : -50.0,
+			"y" : 450.0,
+			"z" : 100.0,
+		},
+		"hidden" : 0,
+	},
+	"u0" : 1.0,
+},
+
+"?itemblock " :  {
+
+
+	"?sub-itemsub-block " :  {
+
+		"name" : "magic_spell_cast",
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "SimpleGlow",
+			"number" : 1,
+
+			"simple glowsub-sub-sub-block " :  {
+
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"w" : 0.16666662693023682,
+					"x" : 0.4999999701976776,
+					"y" : 1.0,
+					"z" : 0.5,
+				},
+				"u1" : 20.0,
+				"u2" : 10,
+				"u3" : 15.0,
+				"u4" : 0.15000000596046448,
+				"u5" : 0.800000011920929,
+
+				"u6sub-sub-sub-sub-block " :  {
+
+					"y" : 0.0,
+					"z" : 0.0,
+				},
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "ParticleEmitter",
+			"number" : 102,
+
+			"particle emittersub-sub-sub-block " :  {
+
+				"particle" : 103,
+				"particle" : 104,
+				"particle" : 105,
+				"u1" : 0,
+				"u2" : 30,
+				"u3" : 0,
+				"u4" : 0,
+				"u6" : 0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Particle",
+			"number" : 103,
+
+			"particlesub-sub-sub-block " :  {
+
+				"name" : "particle_fure_1",
+				"u0" : 40.0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Particle",
+			"number" : 104,
+
+			"particlesub-sub-sub-block " :  {
+
+				"name" : "particle_fure_2",
+				"u0" : 40.0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Particle",
+			"number" : 105,
+
+			"particlesub-sub-sub-block " :  {
+
+				"name" : "particle_fure_3",
+				"u0" : 40.0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "MagicSpellCast",
+			"number" : 109,
+
+			"magic spell castsub-sub-sub-block " :  {
+
+				"particle emitter" : 102,
+				"u0" : 0,
+			},
+		},
+
+		"positionsub-sub-block " :  {
+
+			"x position" : 0.0,
+			"y position" : 0.0,
+		},
+		"z position" : 0.0,
+		"rotation" : 0.0,
+		"scale" : 1.0,
+
+		"u0sub-sub-block " :  {
+
+			"w" : -10.0,
+			"x" : -10.0,
+			"y" : 20.0,
+			"z" : 20.0,
+		},
+		"hidden" : 0,
+	},
+	"u0" : 1.0,
+},
+
+"?itemblock " :  {
+
+
+	"?sub-itemsub-block " :  {
+
+		"name" : "magic_spell_cast_fire",
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "SimpleGlow",
+			"number" : 1,
+
+			"simple glowsub-sub-sub-block " :  {
+
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"w" : 1.0,
+					"x" : 0.4444446265697479,
+					"y" : 0.16666662693023682,
+					"z" : 0.5,
+				},
+				"u1" : 20.0,
+				"u2" : 10,
+				"u3" : 15.0,
+				"u4" : 0.15000000596046448,
+				"u5" : 0.800000011920929,
+
+				"u6sub-sub-sub-sub-block " :  {
+
+					"y" : 0.0,
+					"z" : 0.0,
+				},
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "ParticleEmitter",
+			"number" : 102,
+
+			"particle emittersub-sub-sub-block " :  {
+
+				"particle" : 103,
+				"particle" : 104,
+				"particle" : 105,
+				"u1" : 0,
+				"u2" : 30,
+				"u3" : 0,
+				"u4" : 0,
+				"u6" : 0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Particle",
+			"number" : 103,
+
+			"particlesub-sub-sub-block " :  {
+
+				"name" : "particle_fure_1",
+				"u0" : 40.0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Particle",
+			"number" : 104,
+
+			"particlesub-sub-sub-block " :  {
+
+				"name" : "particle_fure_2",
+				"u0" : 40.0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Particle",
+			"number" : 105,
+
+			"particlesub-sub-sub-block " :  {
+
+				"name" : "particle_fure_3",
+				"u0" : 40.0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "MagicSpellCast",
+			"number" : 109,
+
+			"magic spell castsub-sub-sub-block " :  {
+
+				"particle emitter" : 102,
+				"u0" : 0,
+			},
+		},
+
+		"positionsub-sub-block " :  {
+
+			"x position" : 0.0,
+			"y position" : 0.0,
+		},
+		"z position" : 0.0,
+		"rotation" : 0.0,
+		"scale" : 1.0,
+
+		"u0sub-sub-block " :  {
+
+			"w" : -20.0,
+			"x" : -20.0,
+			"y" : 40.0,
+			"z" : 40.0,
+		},
+		"hidden" : 0,
+	},
+	"u0" : 1.0,
+},
+
+"?itemblock " :  {
+
+
+	"?sub-itemsub-block " :  {
+
+		"name" : "magic_spell_cast_ice",
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "SimpleGlow",
+			"number" : 1,
+
+			"simple glowsub-sub-sub-block " :  {
+
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"w" : 0.16666662693023682,
+					"x" : 1.0,
+					"y" : 0.9999995231628418,
+					"z" : 0.5,
+				},
+				"u1" : 20.0,
+				"u2" : 10,
+				"u3" : 15.0,
+				"u4" : 0.15000000596046448,
+				"u5" : 0.800000011920929,
+
+				"u6sub-sub-sub-sub-block " :  {
+
+					"y" : 0.0,
+					"z" : 0.0,
+				},
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "ParticleEmitter",
+			"number" : 102,
+
+			"particle emittersub-sub-sub-block " :  {
+
+				"particle" : 103,
+				"particle" : 104,
+				"particle" : 105,
+				"u1" : 0,
+				"u2" : 30,
+				"u3" : 0,
+				"u4" : 0,
+				"u6" : 0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Particle",
+			"number" : 103,
+
+			"particlesub-sub-sub-block " :  {
+
+				"name" : "particle_fure_1",
+				"u0" : 40.0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Particle",
+			"number" : 104,
+
+			"particlesub-sub-sub-block " :  {
+
+				"name" : "particle_fure_2",
+				"u0" : 40.0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Particle",
+			"number" : 105,
+
+			"particlesub-sub-sub-block " :  {
+
+				"name" : "particle_fure_3",
+				"u0" : 40.0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "MagicSpellCast",
+			"number" : 109,
+
+			"magic spell castsub-sub-sub-block " :  {
+
+				"particle emitter" : 102,
+				"u0" : 0,
+			},
+		},
+
+		"positionsub-sub-block " :  {
+
+			"x position" : 0.0,
+			"y position" : 0.0,
+		},
+		"z position" : 0.0,
+		"rotation" : 0.0,
+		"scale" : 1.0,
+
+		"u0sub-sub-block " :  {
+
+			"w" : -20.0,
+			"x" : -20.0,
+			"y" : 40.0,
+			"z" : 40.0,
+		},
+		"hidden" : 0,
+	},
+	"u0" : 1.0,
+},
+
+"?itemblock " :  {
+
+
+	"?sub-itemsub-block " :  {
+
+		"name" : "magic_spell_cast_shadow",
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "SimpleGlow",
+			"number" : 1,
+
+			"simple glowsub-sub-sub-block " :  {
+
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"w" : 0.3333331346511841,
+					"x" : 0.16666662693023682,
+					"y" : 1.0,
+					"z" : 0.5,
+				},
+				"u1" : 20.0,
+				"u2" : 10,
+				"u3" : 15.0,
+				"u4" : 0.15000000596046448,
+				"u5" : 0.800000011920929,
+
+				"u6sub-sub-sub-sub-block " :  {
+
+					"y" : 0.0,
+					"z" : 0.0,
+				},
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "ParticleEmitter",
+			"number" : 102,
+
+			"particle emittersub-sub-sub-block " :  {
+
+				"particle" : 103,
+				"particle" : 104,
+				"particle" : 105,
+				"u1" : 0,
+				"u2" : 30,
+				"u3" : 0,
+				"u4" : 0,
+				"u6" : 0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Particle",
+			"number" : 103,
+
+			"particlesub-sub-sub-block " :  {
+
+				"name" : "particle_fure_1",
+				"u0" : 40.0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Particle",
+			"number" : 104,
+
+			"particlesub-sub-sub-block " :  {
+
+				"name" : "particle_fure_2",
+				"u0" : 40.0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Particle",
+			"number" : 105,
+
+			"particlesub-sub-sub-block " :  {
+
+				"name" : "particle_fure_3",
+				"u0" : 40.0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "MagicSpellCast",
+			"number" : 109,
+
+			"magic spell castsub-sub-sub-block " :  {
+
+				"particle emitter" : 102,
+				"u0" : 0,
+			},
+		},
+
+		"positionsub-sub-block " :  {
+
+			"x position" : 0.0,
+			"y position" : 0.0,
+		},
+		"z position" : 0.0,
+		"rotation" : 0.0,
+		"scale" : 1.0,
+
+		"u0sub-sub-block " :  {
+
+			"w" : -20.0,
+			"x" : -20.0,
+			"y" : 40.0,
+			"z" : 40.0,
+		},
+		"hidden" : 0,
+	},
+	"u0" : 1.0,
+},
+
+"?itemblock " :  {
+
+
+	"?sub-itemsub-block " :  {
+
+		"name" : "shadowtrinket_wisp",
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "ParticleEmitter",
+			"number" : 120,
+
+			"particle emittersub-sub-sub-block " :  {
+
+				"particle" : 123,
+				"u1" : 0,
+				"u2" : 100,
+				"u3" : 0,
+				"u4" : 0,
+
+				"u5sub-sub-sub-sub-block " :  {
+
+					"u0" : 3,
+
+					"u1sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 0.11999990046024323,
+						"x" : 0.0,
+						"y" : 0.6000000834465027,
+						"z" : 0.0,
+					},
+					"u2" : 0.006000000052154064,
+					"u2" : 0.20000000298023224,
+					"u2" : 0.5,
+					"u2" : 0.0,
+					"u2" : 0.30000001192092896,
+					"u2" : 1.0,
+					"u2" : 0.0,
+					"u3" : 0.0,
+					"u4" : 0.0,
+					"u5" : 0.0,
+
+					"u6sub-sub-sub-sub-sub-block " :  {
+
+						"u0" : 0.0,
+						"u1" : 0.0,
+						"u2" : 0.0,
+					},
+				},
+				"u6" : 0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "Particle",
+			"number" : 123,
+
+			"particlesub-sub-sub-block " :  {
+
+				"name" : "particle",
+				"u0" : 15.0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "SimpleGlow",
+			"number" : 127,
+
+			"simple glowsub-sub-sub-block " :  {
+
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"w" : 0.43111100792884827,
+					"x" : 0.28888893127441406,
+					"y" : 1.0,
+					"z" : 0.20000000298023224,
+				},
+				"u1" : 6.0,
+				"u2" : 20,
+				"u3" : 15.0,
+				"u4" : 0.15000000596046448,
+				"u5" : 0.800000011920929,
+
+				"u6sub-sub-sub-sub-block " :  {
+
+					"y" : 0.0,
+					"z" : 0.0,
+				},
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "ParticleEmitter",
+			"number" : 129,
+
+			"particle emittersub-sub-sub-block " :  {
+
+				"particle" : 123,
+				"u1" : 0,
+				"u2" : 30,
+				"u3" : 120,
+				"u4" : 0,
+
+				"u5sub-sub-sub-sub-block " :  {
+
+					"u0" : 3,
+
+					"u1sub-sub-sub-sub-sub-block " :  {
+
+						"w" : 0.5000000596046448,
+						"x" : 0.5000000596046448,
+						"y" : 0.5000000596046448,
+						"z" : 0.0,
+					},
+					"u2" : 0.009999999776482582,
+					"u2" : 0.10000000149011612,
+					"u2" : 0.25,
+					"u2" : 0.0,
+					"u2" : 0.30000001192092896,
+					"u2" : 1.0,
+					"u2" : 0.0,
+					"u3" : 0.0,
+					"u4" : 0.0,
+					"u5" : 0.0,
+
+					"u6sub-sub-sub-sub-sub-block " :  {
+
+						"u0" : 0.0,
+						"u1" : 0.0,
+						"u2" : 0.0,
+					},
+				},
+				"u6" : 0,
+			},
+		},
+
+		"componentsub-sub-block " :  {
+
+			"component type" : "OrbitController",
+			"number" : 131,
+
+			"orbit controllersub-sub-sub-block " :  {
+
+
+				"u0sub-sub-sub-sub-block " :  {
+
+					"x" : 0.0,
+					"y" : 1.0,
+					"z" : 0.0,
+				},
+				"u1" : 6.2831854820251465,
+				"u2" : 25.0,
+			},
+		},
+
+		"positionsub-sub-block " :  {
+
+			"x position" : 0.0,
+			"y position" : 0.0,
+		},
+		"z position" : 0.0,
+		"rotation" : 0.0,
+		"scale" : 1.0,
+
+		"u0sub-sub-block " :  {
+
+			"w" : -4.0,
+			"x" : -4.0,
+			"y" : 8.0,
+			"z" : 8.0,
+		},
+		"hidden" : 0,
+	},
+	"u0" : 1.0,
+},
+
+}

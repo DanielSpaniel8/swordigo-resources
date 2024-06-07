@@ -1,0 +1,354 @@
+scl file name : quest_vase (0a @ 1)
+
+?item block { (12 @ d)
+
+
+    ?sub-item sub-block { (0a @ 10)
+
+        name : questvase (12 @ 13)
+
+        component sub-sub-block { (1a @ 1e)
+
+            component type : Properties (0a @ 21)
+            number : 1(10 @ 2d)
+
+            properties sub-sub-sub-block { (692 @ 30)
+
+
+                lua chunk sub-sub-sub-sub-block { (0a @ 33)
+
+                    main chunk : chunk >
+
+                    === lua =============
+                    local self = ...;
+                    
+                    Properties.SetProperty(self, "questitem", "true");
+
+                    =====================
+                    secondary chunk : \x1bLuaQ\x00\x01\x04\x04\x04\x08\x00H\x00\x00\x00local self = ...;\r\n\r\nProperties.SetProperty(self, "questitem", "true");\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x02\x05\x08\x00\x00\x00%\x00\x00\x01E\x00\x00\x00F@\xc0\x00\x80\x00\x00\x00\xc1\x80\x00\x00\x01\xc1\x00\x00\\@\x00\x02\x1e\x00\x80\x00\x04\x00\x00\x00\x04\x0b\x00\x00\x00Properties\x00\x04\x0c\x00\x00\x00SetProperty\x00\x04\n\x00\x00\x00questitem\x00\x04\x05\x00\x00\x00true\x00\x00\x00\x00\x00\x08\x00\x00\x00\x01\x00\x00\x00\x03\x00\x00\x00\x03\x00\x00\x00\x03\x00\x00\x00\x03\x00\x00\x00\x03\x00\x00\x00\x03\x00\x00\x00\x03\x00\x00\x00\x01\x00\x00\x00\x05\x00\x00\x00self\x00\x01\x00\x00\x00\x07\x00\x00\x00\x00\x00\x00\x00 (12 @ 7f)
+				}
+			}
+		}
+
+        component sub-sub-block { (1a @ 189)
+
+            component type : ParticleEmitter (0a @ 18c)
+            number : 2(10 @ 19d)
+
+            particle emitter sub-sub-sub-block { (7d2 @ 1a0)
+
+                particle : 3(10 @ 1a3)
+                particle : 6(10 @ 1a5)
+                particle : 7(10 @ 1a7)
+                u1 : 0(18 @ 1a9)
+                u2 : 60(20 @ 1ab)
+                u3 : 0(28 @ 1ad)
+                u4 : 0(30 @ 1af)
+
+                u5 sub-sub-sub-sub-block { (3a @ 1b1)
+
+                    u0 : 5(08 @ 1b4)
+
+                    u1 sub-sub-sub-sub-sub-block { (12 @ 1b6)
+
+                        w : 0.5185185670852661 (0d @ 1b8)
+                        x : 0.47703707218170166 (15 @ 1bd)
+                        y : 0.4148147702217102 (1d @ 1c2)
+                        z : 0.0 (25 @ 1c7)
+					}
+                    u2 : 90.0 (1d @ 1cc)
+                    u2 : 10.0 (1d @ 1d1)
+                    u2 : 0.0 (1d @ 1d6)
+                    u2 : 10.0 (1d @ 1db)
+                    u2 : 0.0 (1d @ 1e0)
+                    u2 : 20.0 (1d @ 1e5)
+                    u2 : 0.0 (1d @ 1ea)
+                    u2 : 0.6000000238418579 (1d @ 1ef)
+                    u2 : 0.10000000149011612 (1d @ 1f4)
+                    u2 : 0.0 (1d @ 1f9)
+                    u2 : 1.0 (1d @ 1fe)
+                    u2 : 0.019999999552965164 (1d @ 203)
+                    u2 : 0.6000000238418579 (1d @ 208)
+                    u2 : 0.0 (1d @ 20d)
+                    u2 : 0.0 (1d @ 212)
+                    u3 : 0.0 (25 @ 217)
+                    u4 : 0.20000000298023224 (2d @ 21c)
+                    u5 : 0.20000000298023224 (35 @ 221)
+
+                    u6 sub-sub-sub-sub-sub-block { (3a @ 226)
+
+                        u0 : 0.0 (0d @ 228)
+                        u1 : 27.0 (15 @ 22d)
+                        u2 : 0.0 (1d @ 232)
+					}
+				}
+                u6 : 0(40 @ 237)
+			}
+		}
+
+        component sub-sub-block { (1a @ 239)
+
+            component type : Particle (0a @ 23b)
+            number : 3(10 @ 245)
+
+            particle sub-sub-sub-block { (7da @ 248)
+
+                name : particle_fure_1 (0a @ 24a)
+                u0 : 40.0 (15 @ 25b)
+			}
+		}
+
+        component sub-sub-block { (1a @ 260)
+
+            component type : CollisionShape (0a @ 262)
+            number : 4(10 @ 272)
+
+            collision shape sub-sub-sub-block { (3c2 @ 275)
+
+
+                u0 sub-sub-sub-sub-block { (0a @ 277)
+
+                    w : -22.0 (0d @ 279)
+                    x : 5.0 (15 @ 27e)
+                    y : 44.0 (1d @ 283)
+                    z : 15.0 (25 @ 288)
+				}
+			}
+
+            collision shape 2 sub-sub-sub-block { (3ca @ 28e)
+
+                w : -15.0 (35 @ 290)
+                x : 15.0 (3d @ 295)
+                y : 1(40 @ 29a)
+                z : 1(58 @ 29c)
+			}
+		}
+
+        component sub-sub-block { (1a @ 29e)
+
+            component type : TransformController (0a @ 2a0)
+            number : 5(10 @ 2b5)
+		}
+
+        component sub-sub-block { (1a @ 2b7)
+
+            component type : Particle (0a @ 2b9)
+            number : 6(10 @ 2c3)
+
+            particle sub-sub-sub-block { (7da @ 2c6)
+
+                name : particle_fure_2 (0a @ 2c8)
+                u0 : 40.0 (15 @ 2d9)
+			}
+		}
+
+        component sub-sub-block { (1a @ 2de)
+
+            component type : Particle (0a @ 2e0)
+            number : 7(10 @ 2ea)
+
+            particle sub-sub-sub-block { (7da @ 2ed)
+
+                name : particle_fure_3 (0a @ 2ef)
+                u0 : 40.0 (15 @ 300)
+			}
+		}
+
+        component sub-sub-block { (1a @ 305)
+
+            component type : Model (0a @ 307)
+            number : 101(10 @ 30e)
+
+            3D model sub-sub-sub-block { (32a @ 311)
+
+                name : pottery1 (0a @ 313)
+                u0 : 0.0 (15 @ 31d)
+                u1 : 1.0 (1d @ 322)
+                u2 : 0.0 (25 @ 327)
+
+                u3 sub-sub-sub-sub-block { (2a @ 32c)
+
+                    w : 0.0 (0d @ 32e)
+                    x : 0.0 (15 @ 333)
+                    y : 0.0 (1d @ 338)
+                    z : 1.0 (25 @ 33d)
+				}
+
+                u4 sub-sub-sub-sub-block { (32 @ 342)
+
+                    x : 0.0 (0d @ 344)
+                    y : 0.0 (15 @ 349)
+                    z : 0.0 (1d @ 34e)
+				}
+                u5 : 0(38 @ 353)
+
+                u6 sub-sub-sub-sub-block { (42 @ 355)
+
+                    w : 1.0 (0d @ 357)
+                    x : 1.0 (15 @ 35c)
+                    y : 1.0 (1d @ 361)
+                    z : 1.0 (25 @ 366)
+				}
+			}
+		}
+
+        component sub-sub-block { (1a @ 36b)
+
+            component type : CollisionShape (0a @ 36d)
+            number : 103(10 @ 37d)
+
+            collision shape sub-sub-sub-block { (3c2 @ 380)
+
+
+                u0 sub-sub-sub-sub-block { (0a @ 382)
+
+                    w : -15.012619972229004 (0d @ 384)
+                    x : 0.0 (15 @ 389)
+                    y : 30.122713088989258 (1d @ 38e)
+                    z : 28.714862823486328 (25 @ 393)
+				}
+			}
+
+            collision shape 2 sub-sub-sub-block { (3ca @ 399)
+
+                u0 : 1(10 @ 39b)
+                u1 : 1(18 @ 39d)
+                w : -15.0 (35 @ 39f)
+                x : 15.0 (3d @ 3a4)
+                y : 5(40 @ 3a9)
+                z : 1(58 @ 3ab)
+			}
+		}
+
+        component sub-sub-block { (1a @ 3ad)
+
+            component type : UtilityShape (0a @ 3af)
+            number : 106(10 @ 3bd)
+
+            collision shape sub-sub-sub-block { (3c2 @ 3c0)
+
+
+                u0 sub-sub-sub-sub-block { (0a @ 3c2)
+
+                    w : -27.0 (0d @ 3c4)
+                    x : 0.0 (15 @ 3c9)
+                    y : 54.0 (1d @ 3ce)
+                    z : 28.0 (25 @ 3d3)
+				}
+			}
+		}
+
+        component sub-sub-block { (1a @ 3d8)
+
+            component type : PhysicsObject (0a @ 3da)
+            number : 110(10 @ 3e9)
+
+            physics object sub-sub-sub-block { (4fa @ 3ec)
+
+                u0 : 1(08 @ 3ee)
+                u3 : 1500.0 (25 @ 3f0)
+                u4 : 0.0 (2d @ 3f5)
+                u5 : 700.0 (35 @ 3fa)
+                u6 : 0(38 @ 3ff)
+                u7 : 0.0 (45 @ 401)
+			}
+		}
+
+        component sub-sub-block { (1a @ 406)
+
+            component type : SimpleGlow (0a @ 408)
+            number : 115(10 @ 414)
+
+            simple glow sub-sub-sub-block { (7f2 @ 417)
+
+
+                u0 sub-sub-sub-sub-block { (0a @ 419)
+
+                    w : 0.6111111044883728 (0d @ 41b)
+                    x : 0.559259295463562 (15 @ 420)
+                    y : 0.45555561780929565 (1d @ 425)
+                    z : 0.0 (25 @ 42a)
+				}
+                u1 : 25.0 (15 @ 42f)
+                u2 : 20(18 @ 434)
+                u3 : 15.0 (25 @ 436)
+                u4 : 0.15000000596046448 (2d @ 43b)
+                u5 : 0.800000011920929 (35 @ 440)
+
+                u6 sub-sub-sub-sub-block { (3a @ 445)
+
+                    y : 0.0 (0d @ 447)
+                    z : 14.0 (15 @ 44c)
+				}
+			}
+		}
+
+        component sub-sub-block { (1a @ 451)
+
+            component type : Program (0a @ 454)
+            number : 120(10 @ 45d)
+
+            program sub-sub-sub-block { (4ea @ 460)
+
+                u0 : 1(08 @ 463)
+
+                lua chunk sub-sub-sub-sub-block { (12 @ 465)
+
+                    main chunk : chunk >
+
+                    === lua =============
+                    local self = ...;
+                    
+                    local newObject = self:clone();
+                    newObject:setPosition(PhysicsObject.OriginalPosition(self));
+                    
+                    Program.Wait(0.5);
+                    Scene.SetPaused(true);
+                    
+                    Camera.FocusAtPoint(newObject:position());
+                    
+                    while not Camera.IsPointVisible(newObject:position()) do
+                    	Camera.FocusAtPoint(newObject:position());
+                    	Program.Wait(0.1);
+                    end
+                    
+                    Program.Wait(0.5);
+                    
+                    Scene.AddObject(newObject);
+                    TransformController.ScaleTo(newObject, 0.01, 0);
+                    TransformController.ScaleTo(newObject, 1.0, 0.3);
+                    
+                    Program.Wait(1.0);
+                    
+                    Camera.ResetFocus();
+                    Scene.SetPaused(false);
+                    
+
+                    =====================
+                    secondary chunk : \x1bLuaQ\x00\x01\x04\x04\x04\x08\x005\x02\x00\x00local self = ...;\r\n\r\nlocal newObject = self:clone();\r\nnewObject:setPosition(PhysicsObject.OriginalPosition(self));\r\n\r\nProgram.Wait(0.5);\r\nScene.SetPaused(true);\r\n\r\nCamera.FocusAtPoint(newObject:position());\r\n\r\nwhile not Camera.IsPointVisible(newObject:position()) do\r\n\tCamera.FocusAtPoint(newObject:position());\r\n\tProgram.Wait(0.1);\r\nend\r\n\r\nProgram.Wait(0.5);\r\n\r\nScene.AddObject(newObject);\r\nTransformController.ScaleTo(newObject, 0.01, 0);\r\nTransformController.ScaleTo(newObject, 1.0, 0.3);\r\n\r\nProgram.Wait(1.0);\r\n\r\nCamera.ResetFocus();\r\nScene.SetPaused(false);\r\n\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x02\x06G\x00\x00\x00%\x00\x00\x01K\x00@\x00\\\x80\x00\x01\x8b@\xc0\x00\x05\x81\x00\x00\x06\xc1@\x02@\x01\x00\x00\x1c\x01\x00\x01\x9c@\x00\x00\x85\x00\x01\x00\x86@A\x01\xc1\x80\x01\x00\x9c@\x00\x01\x85\xc0\x01\x00\x86\x00B\x01\xc2\x00\x80\x00\x9c@\x00\x01\x85@\x02\x00\x86\x80B\x01\xcb\xc0\xc2\x00\xdc\x00\x00\x01\x9c@\x00\x00\x85@\x02\x00\x86\x00C\x01\xcb\xc0\xc2\x00\xdc\x00\x00\x01\x9c\x80\x00\x00\x9a@\x00\x00\x16@\x02\x80\x85@\x02\x00\x86\x80B\x01\xcb\xc0\xc2\x00\xdc\x00\x00\x01\x9c@\x00\x00\x85\x00\x01\x00\x86@A\x01\xc1@\x03\x00\x9c@\x00\x01\x16\x80\xfb\x7f\x85\x00\x01\x00\x86@A\x01\xc1\x80\x01\x00\x9c@\x00\x01\x85\xc0\x01\x00\x86\x80C\x01\xc0\x00\x80\x00\x9c@\x00\x01\x85\xc0\x03\x00\x86\x00D\x01\xc0\x00\x80\x00\x01A\x04\x00A\x81\x04\x00\x9c@\x00\x02\x85\xc0\x03\x00\x86\x00D\x01\xc0\x00\x80\x00\x01\xc1\x04\x00A\x01\x05\x00\x9c@\x00\x02\x85\x00\x01\x00\x86@A\x01\xc1\xc0\x04\x00\x9c@\x00\x01\x85@\x02\x00\x86@E\x01\x9c@\x80\x00\x85\xc0\x01\x00\x86\x00B\x01\xc2\x00\x00\x00\x9c@\x00\x01\x1e\x00\x80\x00\x16\x00\x00\x00\x04\x06\x00\x00\x00clone\x00\x04\x0c\x00\x00\x00setPosition\x00\x04\x0e\x00\x00\x00PhysicsObject\x00\x04\x11\x00\x00\x00OriginalPosition\x00\x04\x08\x00\x00\x00Program\x00\x04\x05\x00\x00\x00Wait\x00\x03\x00\x00\x00\x00\x00\x00\xe0?\x04\x06\x00\x00\x00Scene\x00\x04\n\x00\x00\x00SetPaused\x00\x04\x07\x00\x00\x00Camera\x00\x04\r\x00\x00\x00FocusAtPoint\x00\x04\t\x00\x00\x00position\x00\x04\x0f\x00\x00\x00IsPointVisible\x00\x03\x9a\x99\x99\x99\x99\x99\xb9?\x04\n\x00\x00\x00AddObject\x00\x04\x14\x00\x00\x00TransformController\x00\x04\x08\x00\x00\x00ScaleTo\x00\x03{\x14\xaeG\xe1z\x84?\x03\x00\x00\x00\x00\x00\x00\x00\x00\x03\x00\x00\x00\x00\x00\x00\xf0?\x03333333\xd3?\x04\x0b\x00\x00\x00ResetFocus\x00\x00\x00\x00\x00G\x00\x00\x00\x01\x00\x00\x00\x03\x00\x00\x00\x03\x00\x00\x00\x04\x00\x00\x00\x04\x00\x00\x00\x04\x00\x00\x00\x04\x00\x00\x00\x04\x00\x00\x00\x04\x00\x00\x00\x06\x00\x00\x00\x06\x00\x00\x00\x06\x00\x00\x00\x06\x00\x00\x00\x07\x00\x00\x00\x07\x00\x00\x00\x07\x00\x00\x00\x07\x00\x00\x00\t\x00\x00\x00\t\x00\x00\x00\t\x00\x00\x00\t\x00\x00\x00\t\x00\x00\x00\x0b\x00\x00\x00\x0b\x00\x00\x00\x0b\x00\x00\x00\x0b\x00\x00\x00\x0b\x00\x00\x00\x0b\x00\x00\x00\x0b\x00\x00\x00\x0c\x00\x00\x00\x0c\x00\x00\x00\x0c\x00\x00\x00\x0c\x00\x00\x00\x0c\x00\x00\x00\r\x00\x00\x00\r\x00\x00\x00\r\x00\x00\x00\r\x00\x00\x00\r\x00\x00\x00\x10\x00\x00\x00\x10\x00\x00\x00\x10\x00\x00\x00\x10\x00\x00\x00\x12\x00\x00\x00\x12\x00\x00\x00\x12\x00\x00\x00\x12\x00\x00\x00\x13\x00\x00\x00\x13\x00\x00\x00\x13\x00\x00\x00\x13\x00\x00\x00\x13\x00\x00\x00\x13\x00\x00\x00\x14\x00\x00\x00\x14\x00\x00\x00\x14\x00\x00\x00\x14\x00\x00\x00\x14\x00\x00\x00\x14\x00\x00\x00\x16\x00\x00\x00\x16\x00\x00\x00\x16\x00\x00\x00\x16\x00\x00\x00\x18\x00\x00\x00\x18\x00\x00\x00\x18\x00\x00\x00\x19\x00\x00\x00\x19\x00\x00\x00\x19\x00\x00\x00\x19\x00\x00\x00\x19\x00\x00\x00\x02\x00\x00\x00\x05\x00\x00\x00self\x00\x01\x00\x00\x00F\x00\x00\x00\n\x00\x00\x00newObject\x00\x03\x00\x00\x00F\x00\x00\x00\x00\x00\x00\x00 (12 @ 69f)
+				}
+                u1 : 1(18 @ c9b)
+                u2 : 5(20 @ c9d)
+			}
+		}
+
+        position sub-sub-block { (22 @ c9f)
+
+            x position : 0.0 (0d @ ca1)
+            y position : 0.0 (15 @ ca6)
+		}
+        z position : 0.0 (2d @ cab)
+        rotation : 0.0 (35 @ cb0)
+        scale : 1.0 (3d @ cb5)
+
+        u0 sub-sub-block { (42 @ cba)
+
+            w : -25.0 (0d @ cbc)
+            x : -25.0 (15 @ cc1)
+            y : 50.0 (1d @ cc6)
+            z : 53.71486282348633 (25 @ ccb)
+		}
+        hidden : 0(48 @ cd0)
+	}
+    u0 : 2.25 (15 @ cd2)
+}

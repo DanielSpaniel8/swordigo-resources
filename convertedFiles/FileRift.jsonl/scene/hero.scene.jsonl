@@ -1,0 +1,358 @@
+data = {
+
+"objectblock " :  {
+
+	"identifier" : "DirectionalLight",
+
+	"componentsub-block " :  {
+
+		"component type" : "Light",
+		"number" : 101,
+
+		"lightsub-sub-block " :  {
+
+			"u0" : 2,
+			"u1" : 0.6000000238418579,
+
+			"u2sub-sub-sub-block " :  {
+
+				"w" : 1.0,
+				"x" : 1.0,
+				"y" : 1.0,
+				"z" : 1.0,
+			},
+		},
+	},
+
+	"componentsub-block " :  {
+
+		"component type" : "Light",
+		"number" : 103,
+
+		"lightsub-sub-block " :  {
+
+			"u0" : 1,
+			"u1" : 0.10000000149011612,
+
+			"u2sub-sub-sub-block " :  {
+
+				"w" : 1.0,
+				"x" : 1.0,
+				"y" : 1.0,
+				"z" : 1.0,
+			},
+		},
+	},
+
+	"positionsub-block " :  {
+
+		"x position" : -16.77115249633789,
+		"y position" : 45.38957214355469,
+	},
+	"z position" : 642.3430786132812,
+	"rotation" : 0.0,
+	"scale" : 1.0,
+
+	"u2sub-block " :  {
+
+		"w" : -30.0,
+		"x" : -30.0,
+		"y" : 60.0,
+		"z" : 60.0,
+	},
+	"hidden" : 0,
+},
+
+"objectblock " :  {
+
+	"name" : "hiro",
+	"identifier" : "hero",
+
+	"componentsub-block " :  {
+
+		"component type" : "HeroEntity",
+		"number" : 5,
+
+		"entitysub-sub-block " :  {
+
+			"u0" : 1,
+			"u1" : 0,
+		},
+
+		"hero entitysub-sub-block " :  {
+
+
+			"lua chunksub-sub-sub-block " :  {
+
+				"main chunk" : "chunk >
+
+				=== lua =============
+				local self, item = ...;
+				
+				if CollectableItem.RequiresPickup(item) then
+				
+					Game.SetCinematicMode(true, true);
+					CharController.SetWeaponsHidden(self, true);
+				
+					self:setVelocity(Vector3.New(0, 0, 0));
+				
+					CollisionShape.DisableAll(item);
+					PhysicsObject.SetEnabled(item, false);
+				
+					MusicPlayer.FadeOut(0.5);
+					SoundLibrary.PlayEffect(\"item_get\");
+				
+				
+					CharController.PickupObject(self, item, true);
+					Program.Wait(0.6);
+				
+				
+				
+					--Game.Flash();
+				
+					local rotation = -90;
+					if Entity.GetFacingDirection(self) == -1 then rotation = 90 end
+					ModelTransformController.SetRotationAngle(self, rotation);
+				
+					--local animation = 127;
+					--KeyframeAnimation.SetCurrentTime(self, animation, KeyframeAnimation.Duration(self, animation));
+					--AnimationController.BlendToAnimation(self, animation, 0);
+				
+					--item:setPosition(self:position() + Vector3.New(0, 40, 0));
+				
+					Program.Wait(1.8);
+				
+					Game.ShowNotification(\"Got item: \" .. Game.TitleForItem(CollectableItem.ItemName(item)));
+				
+					Program.Wait(2.4);
+				
+					Game.FadeOut(0.5);
+					Program.Wait(0.5);
+				
+					Character.AddItem(CollectableItem.ItemName(item));
+				
+					CharController.DropObject(self, false);
+					item:destroy();
+					ModelTransformController.SetRotationAngle(self, 0);
+				
+					CharController.SetWeaponsHidden(self, false);
+				
+					Game.FadeIn(0.5);
+				
+				
+					Game.SetCinematicMode(false, true);
+				
+					MusicPlayer.PlayMusic(Game.DefaultMusicName());
+				
+				else
+					Character.AddItem(CollectableItem.ItemName(item));
+					item:destroy();
+				end
+				
+
+				=====================",
+				"secondary chunk" : "\\x1bLuaQ\\x00\\x01\\x04\\x04\\x04\\x08\\x00\\xb7\\x05\\x00\\x00local self, item = ...;\\r\\n\\r\\nif CollectableItem.RequiresPickup(item) then\\r\\n\\r\\n\\tGame.SetCinematicMode(true, true);\\r\\n\\tCharController.SetWeaponsHidden(self, true);\\r\\n\\r\\n\\tself:setVelocity(Vector3.New(0, 0, 0));\\r\\n\\r\\n\\tCollisionShape.DisableAll(item);\\r\\n\\tPhysicsObject.SetEnabled(item, false);\\r\\n\\r\\n\\tMusicPlayer.FadeOut(0.5);\\r\\n\\tSoundLibrary.PlayEffect(\"item_get\");\\r\\n\\r\\n\\r\\n\\tCharController.PickupObject(self, item, true);\\r\\n\\tProgram.Wait(0.6);\\r\\n\\r\\n\\r\\n\\r\\n\\t--Game.Flash();\\r\\n\\r\\n\\tlocal rotation = -90;\\r\\n\\tif Entity.GetFacingDirection(self) == -1 then rotation = 90 end\\r\\n\\tModelTransformController.SetRotationAngle(self, rotation);\\r\\n\\r\\n\\t--local animation = 127;\\r\\n\\t--KeyframeAnimation.SetCurrentTime(self, animation, KeyframeAnimation.Duration(self, animation));\\r\\n\\t--AnimationController.BlendToAnimation(self, animation, 0);\\r\\n\\r\\n\\t--item:setPosition(self:position() + Vector3.New(0, 40, 0));\\r\\n\\r\\n\\tProgram.Wait(1.8);\\r\\n\\r\\n\\tGame.ShowNotification(\"Got item: \" .. Game.TitleForItem(CollectableItem.ItemName(item)));\\r\\n\\r\\n\\tProgram.Wait(2.4);\\r\\n\\r\\n\\tGame.FadeOut(0.5);\\r\\n\\tProgram.Wait(0.5);\\r\\n\\r\\n\\tCharacter.AddItem(CollectableItem.ItemName(item));\\r\\n\\r\\n\\tCharController.DropObject(self, false);\\r\\n\\titem:destroy();\\r\\n\\tModelTransformController.SetRotationAngle(self, 0);\\r\\n\\r\\n\\tCharController.SetWeaponsHidden(self, false);\\r\\n\\r\\n\\tGame.FadeIn(0.5);\\r\\n\\r\\n\\r\\n\\tGame.SetCinematicMode(false, true);\\r\\n\\r\\n\\tMusicPlayer.PlayMusic(Game.DefaultMusicName());\\r\\n\\r\\nelse\\r\\n\\tCharacter.AddItem(CollectableItem.ItemName(item));\\r\\n\\titem:destroy();\\r\\nend\\r\\n\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x02\\x08\\x8f\\x00\\x00\\x00%\\x00\\x80\\x01\\x85\\x00\\x00\\x00\\x86@@\\x01\\xc0\\x00\\x80\\x00\\x9c\\x80\\x00\\x01\\x9a\\x00\\x00\\x00\\x16@\\x1f\\x80\\x85\\x80\\x00\\x00\\x86\\xc0@\\x01\\xc2\\x00\\x80\\x00\\x02\\x01\\x80\\x00\\x9c@\\x80\\x01\\x85\\x00\\x01\\x00\\x86@A\\x01\\xc0\\x00\\x00\\x00\\x02\\x01\\x80\\x00\\x9c@\\x80\\x01\\x8b\\x80A\\x00\\x05\\xc1\\x01\\x00\\x06\\x01B\\x02AA\\x02\\x00\\x81A\\x02\\x00\\xc1A\\x02\\x00\\x1c\\x01\\x00\\x02\\x9c@\\x00\\x00\\x85\\x80\\x02\\x00\\x86\\xc0B\\x01\\xc0\\x00\\x80\\x00\\x9c@\\x00\\x01\\x85\\x00\\x03\\x00\\x86@C\\x01\\xc0\\x00\\x80\\x00\\x02\\x01\\x00\\x00\\x9c@\\x80\\x01\\x85\\x80\\x03\\x00\\x86\\xc0C\\x01\\xc1\\x00\\x04\\x00\\x9c@\\x00\\x01\\x85@\\x04\\x00\\x86\\x80D\\x01\\xc1\\xc0\\x04\\x00\\x9c@\\x00\\x01\\x85\\x00\\x01\\x00\\x86\\x00E\\x01\\xc0\\x00\\x00\\x00\\x00\\x01\\x80\\x00B\\x01\\x80\\x00\\x9c@\\x00\\x02\\x85@\\x05\\x00\\x86\\x80E\\x01\\xc1\\xc0\\x05\\x00\\x9c@\\x00\\x01\\x81\\x00\\x06\\x00\\xc5@\\x06\\x00\\xc6\\x80\\xc6\\x01\\x00\\x01\\x00\\x00\\xdc\\x80\\x00\\x01\\x17\\xc0\\xc6\\x01\\x16\\x00\\x00\\x80\\x81\\x00\\x07\\x00\\xc5@\\x07\\x00\\xc6\\x80\\xc7\\x01\\x00\\x01\\x00\\x00@\\x01\\x00\\x01\\xdc@\\x80\\x01\\xc5@\\x05\\x00\\xc6\\x80\\xc5\\x01\\x01\\xc1\\x07\\x00\\xdc@\\x00\\x01\\xc5\\x80\\x00\\x00\\xc6\\x00\\xc8\\x01\\x01A\\x08\\x00E\\x81\\x00\\x00F\\x81\\xc8\\x02\\x85\\x01\\x00\\x00\\x86\\xc1H\\x03\\xc0\\x01\\x80\\x00\\x9c\\x01\\x00\\x01\\\\\\x81\\x00\\x00\\x15A\\x01\\x02\\xdc@\\x00\\x01\\xc5@\\x05\\x00\\xc6\\x80\\xc5\\x01\\x01\\x01\\t\\x00\\xdc@\\x00\\x01\\xc5\\x80\\x00\\x00\\xc6\\xc0\\xc3\\x01\\x01\\x01\\x04\\x00\\xdc@\\x00\\x01\\xc5@\\x05\\x00\\xc6\\x80\\xc5\\x01\\x01\\x01\\x04\\x00\\xdc@\\x00\\x01\\xc5@\\t\\x00\\xc6\\x80\\xc9\\x01\\x05\\x01\\x00\\x00\\x06\\xc1H\\x02@\\x01\\x80\\x00\\x1c\\x01\\x00\\x01\\xdc@\\x00\\x00\\xc5\\x00\\x01\\x00\\xc6\\xc0\\xc9\\x01\\x00\\x01\\x00\\x00B\\x01\\x00\\x00\\xdc@\\x80\\x01\\xcb\\x00\\xca\\x00\\xdc@\\x00\\x01\\xc5@\\x07\\x00\\xc6\\x80\\xc7\\x01\\x00\\x01\\x00\\x00AA\\x02\\x00\\xdc@\\x80\\x01\\xc5\\x00\\x01\\x00\\xc6@\\xc1\\x01\\x00\\x01\\x00\\x00B\\x01\\x00\\x00\\xdc@\\x80\\x01\\xc5\\x80\\x00\\x00\\xc6@\\xca\\x01\\x01\\x01\\x04\\x00\\xdc@\\x00\\x01\\xc5\\x80\\x00\\x00\\xc6\\xc0\\xc0\\x01\\x02\\x01\\x00\\x00B\\x01\\x80\\x00\\xdc@\\x80\\x01\\xc5\\x80\\x03\\x00\\xc6\\x80\\xca\\x01\\x05\\x81\\x00\\x00\\x06\\xc1J\\x02\\x1c\\x01\\x80\\x00\\xdc@\\x00\\x00\\x16\\x00\\x02\\x80\\x85@\\t\\x00\\x86\\x80I\\x01\\xc5\\x00\\x00\\x00\\xc6\\xc0\\xc8\\x01\\x00\\x01\\x80\\x00\\xdc\\x00\\x00\\x01\\x9c@\\x00\\x00\\x8b\\x00\\xca\\x00\\x9c@\\x00\\x01\\x1e\\x00\\x80\\x00,\\x00\\x00\\x00\\x04\\x10\\x00\\x00\\x00CollectableItem\\x00\\x04\\x0f\\x00\\x00\\x00RequiresPickup\\x00\\x04\\x05\\x00\\x00\\x00Game\\x00\\x04\\x11\\x00\\x00\\x00SetCinematicMode\\x00\\x04\\x0f\\x00\\x00\\x00CharController\\x00\\x04\\x11\\x00\\x00\\x00SetWeaponsHidden\\x00\\x04\\x0c\\x00\\x00\\x00setVelocity\\x00\\x04\\x08\\x00\\x00\\x00Vector3\\x00\\x04\\x04\\x00\\x00\\x00New\\x00\\x03\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x04\\x0f\\x00\\x00\\x00CollisionShape\\x00\\x04\\x0b\\x00\\x00\\x00DisableAll\\x00\\x04\\x0e\\x00\\x00\\x00PhysicsObject\\x00\\x04\\x0b\\x00\\x00\\x00SetEnabled\\x00\\x04\\x0c\\x00\\x00\\x00MusicPlayer\\x00\\x04\\x08\\x00\\x00\\x00FadeOut\\x00\\x03\\x00\\x00\\x00\\x00\\x00\\x00\\xe0?\\x04\\r\\x00\\x00\\x00SoundLibrary\\x00\\x04\\x0b\\x00\\x00\\x00PlayEffect\\x00\\x04\\t\\x00\\x00\\x00item_get\\x00\\x04\\r\\x00\\x00\\x00PickupObject\\x00\\x04\\x08\\x00\\x00\\x00Program\\x00\\x04\\x05\\x00\\x00\\x00Wait\\x00\\x03333333\\xe3?\\x03\\x00\\x00\\x00\\x00\\x00\\x80V\\xc0\\x04\\x07\\x00\\x00\\x00Entity\\x00\\x04\\x13\\x00\\x00\\x00GetFacingDirection\\x00\\x03\\x00\\x00\\x00\\x00\\x00\\x00\\xf0\\xbf\\x03\\x00\\x00\\x00\\x00\\x00\\x80V@\\x04\\x19\\x00\\x00\\x00ModelTransformController\\x00\\x04\\x11\\x00\\x00\\x00SetRotationAngle\\x00\\x03\\xcd\\xcc\\xcc\\xcc\\xcc\\xcc\\xfc?\\x04\\x11\\x00\\x00\\x00ShowNotification\\x00\\x04\\x0b\\x00\\x00\\x00Got item: \\x00\\x04\\r\\x00\\x00\\x00TitleForItem\\x00\\x04\\t\\x00\\x00\\x00ItemName\\x00\\x03333333\\x03@\\x04\\n\\x00\\x00\\x00Character\\x00\\x04\\x08\\x00\\x00\\x00AddItem\\x00\\x04\\x0b\\x00\\x00\\x00DropObject\\x00\\x04\\x08\\x00\\x00\\x00destroy\\x00\\x04\\x07\\x00\\x00\\x00FadeIn\\x00\\x04\\n\\x00\\x00\\x00PlayMusic\\x00\\x04\\x11\\x00\\x00\\x00DefaultMusicName\\x00\\x00\\x00\\x00\\x00\\x8f\\x00\\x00\\x00\\x01\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x06\\x00\\x00\\x00\\x06\\x00\\x00\\x00\\x06\\x00\\x00\\x00\\x06\\x00\\x00\\x00\\x06\\x00\\x00\\x00\\x08\\x00\\x00\\x00\\x08\\x00\\x00\\x00\\x08\\x00\\x00\\x00\\x08\\x00\\x00\\x00\\x08\\x00\\x00\\x00\\x08\\x00\\x00\\x00\\x08\\x00\\x00\\x00\\x08\\x00\\x00\\x00\\n\\x00\\x00\\x00\\n\\x00\\x00\\x00\\n\\x00\\x00\\x00\\n\\x00\\x00\\x00\\x0b\\x00\\x00\\x00\\x0b\\x00\\x00\\x00\\x0b\\x00\\x00\\x00\\x0b\\x00\\x00\\x00\\x0b\\x00\\x00\\x00\\r\\x00\\x00\\x00\\r\\x00\\x00\\x00\\r\\x00\\x00\\x00\\r\\x00\\x00\\x00\\x0e\\x00\\x00\\x00\\x0e\\x00\\x00\\x00\\x0e\\x00\\x00\\x00\\x0e\\x00\\x00\\x00\\x11\\x00\\x00\\x00\\x11\\x00\\x00\\x00\\x11\\x00\\x00\\x00\\x11\\x00\\x00\\x00\\x11\\x00\\x00\\x00\\x11\\x00\\x00\\x00\\x12\\x00\\x00\\x00\\x12\\x00\\x00\\x00\\x12\\x00\\x00\\x00\\x12\\x00\\x00\\x00\\x18\\x00\\x00\\x00\\x19\\x00\\x00\\x00\\x19\\x00\\x00\\x00\\x19\\x00\\x00\\x00\\x19\\x00\\x00\\x00\\x19\\x00\\x00\\x00\\x19\\x00\\x00\\x00\\x19\\x00\\x00\\x00\\x1a\\x00\\x00\\x00\\x1a\\x00\\x00\\x00\\x1a\\x00\\x00\\x00\\x1a\\x00\\x00\\x00\\x1a\\x00\\x00\\x00\"\\x00\\x00\\x00\"\\x00\\x00\\x00\"\\x00\\x00\\x00\"\\x00\\x00\\x00$\\x00\\x00\\x00$\\x00\\x00\\x00$\\x00\\x00\\x00$\\x00\\x00\\x00$\\x00\\x00\\x00$\\x00\\x00\\x00$\\x00\\x00\\x00$\\x00\\x00\\x00$\\x00\\x00\\x00$\\x00\\x00\\x00$\\x00\\x00\\x00$\\x00\\x00\\x00&\\x00\\x00\\x00&\\x00\\x00\\x00&\\x00\\x00\\x00&\\x00\\x00\\x00(\\x00\\x00\\x00(\\x00\\x00\\x00(\\x00\\x00\\x00(\\x00\\x00\\x00)\\x00\\x00\\x00)\\x00\\x00\\x00)\\x00\\x00\\x00)\\x00\\x00\\x00+\\x00\\x00\\x00+\\x00\\x00\\x00+\\x00\\x00\\x00+\\x00\\x00\\x00+\\x00\\x00\\x00+\\x00\\x00\\x00+\\x00\\x00\\x00-\\x00\\x00\\x00-\\x00\\x00\\x00-\\x00\\x00\\x00-\\x00\\x00\\x00-\\x00\\x00\\x00.\\x00\\x00\\x00.\\x00\\x00\\x00/\\x00\\x00\\x00/\\x00\\x00\\x00/\\x00\\x00\\x00/\\x00\\x00\\x00/\\x00\\x00\\x001\\x00\\x00\\x001\\x00\\x00\\x001\\x00\\x00\\x001\\x00\\x00\\x001\\x00\\x00\\x003\\x00\\x00\\x003\\x00\\x00\\x003\\x00\\x00\\x003\\x00\\x00\\x006\\x00\\x00\\x006\\x00\\x00\\x006\\x00\\x00\\x006\\x00\\x00\\x006\\x00\\x00\\x008\\x00\\x00\\x008\\x00\\x00\\x008\\x00\\x00\\x008\\x00\\x00\\x008\\x00\\x00\\x008\\x00\\x00\\x008\\x00\\x00\\x00;\\x00\\x00\\x00;\\x00\\x00\\x00;\\x00\\x00\\x00;\\x00\\x00\\x00;\\x00\\x00\\x00;\\x00\\x00\\x00;\\x00\\x00\\x00<\\x00\\x00\\x00<\\x00\\x00\\x00=\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x05\\x00\\x00\\x00self\\x00\\x01\\x00\\x00\\x00\\x8e\\x00\\x00\\x00\\x05\\x00\\x00\\x00item\\x00\\x01\\x00\\x00\\x00\\x8e\\x00\\x00\\x00\\t\\x00\\x00\\x00rotation\\x005\\x00\\x00\\x00\\x84\\x00\\x00\\x00\\x00\\x00\\x00\\x00",
+			},
+		},
+	},
+
+	"componentsub-block " :  {
+
+		"component type" : "Model",
+		"number" : 101,
+
+		"3D modelsub-sub-block " :  {
+
+			"name" : "hiro",
+			"u0" : 0.6108652353286743,
+			"u1" : 0.5,
+			"u2" : 0.0,
+
+			"u3sub-sub-sub-block " :  {
+
+				"w" : 0.0,
+				"x" : 0.0,
+				"y" : 0.0,
+				"z" : 1.0,
+			},
+
+			"u4sub-sub-sub-block " :  {
+
+				"x" : 0.0,
+				"y" : 0.0,
+				"z" : 0.0,
+			},
+			"u5" : 0,
+
+			"u6sub-sub-sub-block " :  {
+
+				"w" : 1.0,
+				"x" : 1.0,
+				"y" : 1.0,
+				"z" : 1.0,
+			},
+		},
+	},
+
+	"positionsub-block " :  {
+
+		"x position" : -23.788572311401367,
+		"y position" : -11.855987548828125,
+	},
+	"z position" : 0.0,
+	"rotation" : 0.0,
+	"scale" : 1.0,
+
+	"u2sub-block " :  {
+
+		"w" : -27.095155715942383,
+		"x" : -35.14237976074219,
+		"y" : 55.88050842285156,
+		"z" : 71.85199737548828,
+	},
+	"hidden" : 0,
+},
+
+"objectblock " :  {
+
+	"identifier" : "obj3",
+
+	"componentsub-block " :  {
+
+		"component type" : "UtilityShape",
+		"number" : 101,
+
+		"collision shapesub-sub-block " :  {
+
+
+			"u0sub-sub-sub-block " :  {
+
+				"w" : -35.0,
+				"x" : -35.0,
+				"y" : 70.0,
+				"z" : 70.0,
+			},
+		},
+	},
+
+	"componentsub-block " :  {
+
+		"component type" : "Program",
+		"number" : 103,
+
+		"programsub-sub-block " :  {
+
+			"u0" : 1,
+
+			"lua chunksub-sub-sub-block " :  {
+
+				"main chunk" : "chunk >
+
+				=== lua =============
+				local self = ...;
+				
+				Camera.FocusAtShape(self);
+				Camera.JumpToFocus();
+				Camera.FollowShape(self);
+				
+
+				=====================",
+				"secondary chunk" : "\\x1bLuaQ\\x00\\x01\\x04\\x04\\x04\\x08\\x00d\\x00\\x00\\x00local self = ...;\\r\\n\\r\\nCamera.FocusAtShape(self);\\r\\nCamera.JumpToFocus();\\r\\nCamera.FollowShape(self);\\r\\n\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x02\\x03\\r\\x00\\x00\\x00%\\x00\\x00\\x01E\\x00\\x00\\x00F@\\xc0\\x00\\x80\\x00\\x00\\x00\\\\@\\x00\\x01E\\x00\\x00\\x00F\\x80\\xc0\\x00\\\\@\\x80\\x00E\\x00\\x00\\x00F\\xc0\\xc0\\x00\\x80\\x00\\x00\\x00\\\\@\\x00\\x01\\x1e\\x00\\x80\\x00\\x04\\x00\\x00\\x00\\x04\\x07\\x00\\x00\\x00Camera\\x00\\x04\\r\\x00\\x00\\x00FocusAtShape\\x00\\x04\\x0c\\x00\\x00\\x00JumpToFocus\\x00\\x04\\x0c\\x00\\x00\\x00FollowShape\\x00\\x00\\x00\\x00\\x00\\r\\x00\\x00\\x00\\x01\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x01\\x00\\x00\\x00\\x05\\x00\\x00\\x00self\\x00\\x01\\x00\\x00\\x00\\x0c\\x00\\x00\\x00\\x00\\x00\\x00\\x00",
+			},
+			"u1" : 1,
+			"u2" : 1,
+		},
+	},
+
+	"componentsub-block " :  {
+
+		"component type" : "PhysicsObject",
+		"number" : 106,
+
+		"physics objectsub-sub-block " :  {
+
+			"u0" : 1,
+			"u1" : 0.0,
+			"u2" : 1500.0,
+			"u3" : 0.0,
+			"u4" : 700.0,
+			"u5" : 0,
+			"u6" : 0.0,
+		},
+	},
+
+	"positionsub-block " :  {
+
+		"x position" : -23.207122802734375,
+		"y position" : -15.712238311767578,
+	},
+	"z position" : 0.0,
+	"rotation" : 0.0,
+	"scale" : 1.0,
+
+	"u2sub-block " :  {
+
+		"w" : -30.0,
+		"x" : -30.0,
+		"y" : 60.0,
+		"z" : 60.0,
+	},
+	"hidden" : 0,
+},
+
+"objectblock " :  {
+
+	"identifier" : "spawn_default",
+
+	"componentsub-block " :  {
+
+		"component type" : "SpawnPoint",
+		"number" : 101,
+
+		"spawnpointsub-sub-block " :  {
+
+			"u0" : 1,
+
+			"u1sub-sub-sub-block " :  {
+
+				"x" : 0.0,
+				"y" : 0.0,
+				"z" : 0.0,
+			},
+		},
+	},
+
+	"positionsub-block " :  {
+
+		"x position" : 469.58966064453125,
+		"y position" : -44.90233612060547,
+	},
+	"z position" : 0.0,
+	"rotation" : 0.0,
+	"scale" : 1.0,
+
+	"u2sub-block " :  {
+
+		"w" : -30.0,
+		"x" : -30.0,
+		"y" : 60.0,
+		"z" : 60.0,
+	},
+	"hidden" : 0,
+},
+
+"dependenciesblock " :  {
+
+	"name" : "hero",
+	"scl file" : "game_common",
+},
+
+"u0block " :  {
+
+	"w" : -3500.0,
+	"x" : -500.0,
+	"y" : 5500.0,
+	"z" : 2000.0,
+},
+
+}

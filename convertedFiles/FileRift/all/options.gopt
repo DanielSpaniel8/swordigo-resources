@@ -1,0 +1,293 @@
+
+music definition block { (0a @ 1)
+
+    name : menu (0a @ 3)
+
+    file sub-block { (12 @ 9)
+
+        filename : 1-hero2 (0a @ b)
+        u0 : 0.5 (15 @ 14)
+	}
+}
+
+music definition block { (0a @ 19)
+
+    name : house (0a @ 1b)
+
+    file sub-block { (12 @ 22)
+
+        filename : 1-plaintest2 (0a @ 24)
+        u0 : 0.5 (15 @ 32)
+	}
+}
+
+music definition block { (0a @ 37)
+
+    name : outdoors_light (0a @ 39)
+
+    file sub-block { (12 @ 49)
+
+        filename : squire_new2 (0a @ 4b)
+        u0 : 0.5 (15 @ 58)
+	}
+}
+
+music definition block { (0a @ 5d)
+
+    name : forest (0a @ 5f)
+
+    file sub-block { (12 @ 67)
+
+        filename : 2cave2 (0a @ 69)
+        u0 : 0.5 (15 @ 71)
+	}
+}
+
+music definition block { (0a @ 76)
+
+    name : cave (0a @ 78)
+
+    file sub-block { (12 @ 7e)
+
+        filename : 2cave2 (0a @ 80)
+        u0 : 0.5 (15 @ 88)
+	}
+}
+
+music definition block { (0a @ 8d)
+
+    name : dungeon1 (0a @ 8f)
+
+    file sub-block { (12 @ 99)
+
+        filename : 1-dung73 (0a @ 9b)
+        u0 : 0.5 (15 @ a5)
+	}
+}
+
+music definition block { (0a @ aa)
+
+    name : boss (0a @ ac)
+
+    file sub-block { (12 @ b2)
+
+        filename : 1-boss23 (0a @ b4)
+        u0 : 0.75 (15 @ be)
+	}
+}
+
+music definition block { (0a @ c3)
+
+    name : bosskill (0a @ c5)
+
+    file sub-block { (12 @ cf)
+
+        filename : momentofwonder (0a @ d1)
+        u0 : 0.75 (15 @ e1)
+	}
+}
+
+music definition block { (0a @ e6)
+
+    name : heartbeat (0a @ e8)
+
+    file sub-block { (12 @ f3)
+
+        filename : heartbeat (0a @ f5)
+        u0 : 1.0 (15 @ 100)
+	}
+}
+
+button positions block { (32 @ 105)
+
+
+    button sub-block { (12 @ 108)
+
+        name : left (0a @ 10a)
+
+        position sub-sub-block { (1a @ 110)
+
+            left : 20.0 (0d @ 112)
+            bottom : 10.0 (1d @ 117)
+		}
+	}
+
+    button sub-block { (12 @ 11c)
+
+        name : right (0a @ 11e)
+
+        position sub-sub-block { (1a @ 125)
+
+            left : 100.0 (0d @ 127)
+            bottom : 10.0 (1d @ 12c)
+		}
+	}
+
+    button sub-block { (12 @ 131)
+
+        name : jump (0a @ 133)
+
+        position sub-sub-block { (1a @ 139)
+
+            right : 20.0 (15 @ 13b)
+            bottom : 20.0 (1d @ 140)
+		}
+	}
+
+    button sub-block { (12 @ 145)
+
+        name : swing (0a @ 147)
+
+        position sub-sub-block { (1a @ 14e)
+
+            right : 100.0 (15 @ 150)
+            bottom : 10.0 (1d @ 155)
+		}
+	}
+
+    button sub-block { (12 @ 15a)
+
+        name : skill (0a @ 15c)
+
+        position sub-sub-block { (1a @ 163)
+
+            right : 5.0 (15 @ 165)
+            bottom : 90.0 (1d @ 16a)
+		}
+	}
+
+    button sub-block { (12 @ 16f)
+
+        name : skillToggle (0a @ 171)
+
+        position sub-sub-block { (1a @ 17e)
+
+            right : 10.0 (15 @ 180)
+            top : 17.0 (25 @ 185)
+		}
+	}
+
+    button sub-block { (12 @ 18a)
+
+        name : menu (0a @ 18c)
+
+        position sub-sub-block { (1a @ 192)
+
+            left : 10.0 (0d @ 194)
+            top : 8.0 (25 @ 199)
+		}
+	}
+
+    button sub-block { (12 @ 19e)
+
+        name : consumables (0a @ 1a0)
+
+        position sub-sub-block { (1a @ 1ad)
+
+            left : 209.0 (0d @ 1af)
+            bottom : 10.0 (1d @ 1b4)
+		}
+	}
+}
+
+buttons block { (3a @ 1b9)
+
+
+    button sub-block { (12 @ 1bc)
+
+        name : left (0a @ 1be)
+
+        position sub-sub-block { (1a @ 1c4)
+
+            left : 10.0 (0d @ 1c6)
+            bottom : 30.0 (1d @ 1cb)
+		}
+	}
+
+    button sub-block { (12 @ 1d0)
+
+        name : right (0a @ 1d2)
+
+        position sub-sub-block { (1a @ 1d9)
+
+            left : 68.0 (0d @ 1db)
+            bottom : 30.0 (1d @ 1e0)
+		}
+	}
+
+    button sub-block { (12 @ 1e5)
+
+        name : jump (0a @ 1e7)
+
+        position sub-sub-block { (1a @ 1ed)
+
+            right : 10.0 (15 @ 1ef)
+            bottom : 38.0 (1d @ 1f4)
+		}
+	}
+
+    button sub-block { (12 @ 1f9)
+
+        name : swing (0a @ 1fb)
+
+        position sub-sub-block { (1a @ 202)
+
+            right : 68.0 (15 @ 204)
+            bottom : 30.0 (1d @ 209)
+		}
+	}
+
+    button sub-block { (12 @ 20e)
+
+        name : skill (0a @ 210)
+
+        position sub-sub-block { (1a @ 217)
+
+            right : 5.0 (15 @ 219)
+            bottom : 86.0 (1d @ 21e)
+		}
+	}
+
+    button sub-block { (12 @ 223)
+
+        name : skillToggle (0a @ 225)
+
+        position sub-sub-block { (1a @ 232)
+
+            right : 10.0 (15 @ 234)
+            top : 17.0 (25 @ 239)
+		}
+	}
+
+    button sub-block { (12 @ 23e)
+
+        name : menu (0a @ 240)
+
+        position sub-sub-block { (1a @ 246)
+
+            left : 10.0 (0d @ 248)
+            top : 8.0 (25 @ 24d)
+		}
+	}
+
+    button sub-block { (12 @ 252)
+
+        name : consumables (0a @ 254)
+
+        position sub-sub-block { (1a @ 261)
+
+            left : 225.0 (0d @ 263)
+            bottom : 15.0 (1d @ 268)
+		}
+	}
+
+    button sub-block { (12 @ 26d)
+
+        name : exp (0a @ 26f)
+
+        position sub-sub-block { (1a @ 274)
+
+            bottom : 80.0 (1d @ 276)
+		}
+	}
+}
